@@ -1,0 +1,18 @@
+# vnt_video
+
+This is the video generation project for Vantee. The Vantee code repo is located at `/home/brad/code/vnt`.
+
+## Layout
+
+- `videos/<YYYY-MM-DD-slug>/` — one folder per finished video:
+  - `meta.json` — `{"title", "description", "created": "YYYY-MM-DD", "posts": [{"platform", "url"}]}`
+    (`posts` is filled in by hand after manually publishing)
+  - `script.md` — narration / shot script
+  - `video.mp4` (gitignored), optional `poster.jpg`
+- `studio/` — shared Remotion project (created on first video): `src/videos/<slug>/`, generated `public/<slug>/`.
+- `.claude/skills/math-explainer/` — skill for AMC-style math explainer videos.
+- `site/index.html` — preview page (single file, no build).
+- `./start.sh [port]` — starts `tools/serve.py`, listening on all interfaces (default port 8000).
+  Test: `cd tools && python3 test_serve.py`.
+
+Publishing is manual for now; no publish/stats automation.
