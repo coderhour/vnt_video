@@ -10,10 +10,10 @@ Prints  chapter lines for the YouTube description.
 """
 import base64
 import hashlib
-import io
 import json
 import math
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -23,62 +23,63 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[4]
 MODEL = "gemini-3.8-flash-tts"
-DEFAULT_VOICE = "Puck"
+DEFAULT_VOICE = "Achird"  # "Friendly" in the Gemini voice list
+DEFAULT_STYLE = "warm, encouraging and playful, speaking at a relaxed pace"
 CHECK_MODEL = "gemini-3.8-flash"
 LINE_GAP = 0.35    # seconds of silence between lines
 SCENE_TAIL = 0.8   # seconds after a scene's last line
 
 
-def call(model, body):
+def post(path, body):
     req = urllib.request.Request(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+        f"https://generativelanguage.googleapis.com/v1beta/{path}",
         data=json.dumps(body).encode(),
         headers={"x-goog-api-key": os.environ["GOOGLE_API_KEY"], "Content-Type": "application/json"},
     )
     for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
-                return json.load(r)["candidates"][0]["content"]["parts"]
+                return json.load(r)
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 503) and attempt < 3:
                 time.sleep(5 * 2 ** attempt)
                 continue
-            sys.exit(f"{model} failed ({e.code}): {e.read().decode()[:500]}")
+            sys.exit(f"{path} failed ({e.code}): {e.read().decode()[:500]}")
 
 
-def synth(text, voice):
-    # Text only: the model rejects systemInstruction, and any style prompt (a "Say warmly:" prefix,
-    # director's notes) was sometimes read aloud or replaced words. The voice choice sets the tone.
-    parts = call(MODEL, {
-        "contents": [{"parts": [{"text": text}]}],
-        "generationConfig": {
-            "responseModalities": ["AUDIO"],
-            "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}},
-        },
+def synth(text, voice, style):
+    # Gemini 3.8 TTS (Interactions API): `text` is a verbatim transcript, with inline tags like
+    # <short pause>. Delivery goes in the speech_metadata style annotation, never into the text.
+    item = {"type": "text", "text": text}
+    if style:
+        item["annotations"] = [{"type": "speech_metadata", "style": style}]
+    resp = post("interactions", {
+        "model": MODEL,
+        "input": [{"type": "user_input", "content": [item]}],
+        "response_format": {"type": "audio"},
+        "generation_config": {"speech_config": [{"voice": voice}]},
     })
-    audio = base64.b64decode(parts[0]["inlineData"]["data"])
-    if audio[:4] == b"RIFF":  # 3.8 returns a finished WAV
-        return audio
-    buf = io.BytesIO()  # older TTS models return raw 24 kHz 16-bit mono PCM
-    with wave.open(buf, "wb") as w:
-        w.setnchannels(1)
-        w.setsampwidth(2)
-        w.setframerate(24000)
-        w.writeframes(audio)
-    return buf.getvalue()
+    audio = [c for st in resp["steps"] if st["type"] == "model_output"
+             for c in st["content"] if c["type"] == "audio"][-1]["data"]
+    return base64.b64decode(audio)  # WAV (RIFF, 24 kHz mono 16-bit)
 
 
 def transcribe(path):
-    parts = call(CHECK_MODEL, {"contents": [{"parts": [
+    resp = post(f"models/{CHECK_MODEL}:generateContent", {"contents": [{"parts": [
         {"inlineData": {"mimeType": "audio/wav", "data": base64.b64encode(path.read_bytes()).decode()}},
         {"text": "Transcribe this audio verbatim. Output only the words spoken."},
     ]}]})
-    return parts[0]["text"].strip()
+    return resp["candidates"][0]["content"]["parts"][0]["text"].strip()
 
 
 def wav_seconds(path):
     with wave.open(str(path)) as w:
         return w.getnframes() / w.getframerate()
+
+
+def caption(text):
+    """Line text without inline TTS tags like <short pause>."""
+    return re.sub(r"\s*<[^>]+>\s*", " ", text).strip()
 
 
 def build_timeline(scenes, audio, fps):
@@ -89,7 +90,7 @@ def build_timeline(scenes, audio, fps):
         sf = round(start * fps)
         for text in s.get("lines", []):
             file, secs = audio[text]
-            lines.append({"text": text, "file": file, "from": round(t * fps) - sf, "frames": math.ceil(secs * fps)})
+            lines.append({"text": text, "caption": caption(text), "file": file, "from": round(t * fps) - sf, "frames": math.ceil(secs * fps)})
             t += secs + LINE_GAP
         if lines:
             t += SCENE_TAIL - LINE_GAP
@@ -119,7 +120,7 @@ def script_md(title, scenes):
     for s in scenes:
         if s.get("chapter"):
             out += [f"## {s['chapter']}", ""]
-        out += [line for text in s.get("lines", []) for line in (text, "")]
+        out += [line for text in s.get("lines", []) for line in (caption(text), "")]
         if s.get("kind") == "pause":
             out += [f"*(Pause and try it: {s.get('hold', 0)} s countdown)*", ""]
     return "\n".join(out)
@@ -128,7 +129,7 @@ def script_md(title, scenes):
 def main():
     slug = sys.argv[1]
     n = json.loads((ROOT / "studio/src/videos" / slug / "narration.json").read_text())
-    fps, voice = n.get("fps", 30), n.get("voice", DEFAULT_VOICE)
+    fps, voice, style = n.get("fps", 30), n.get("voice", DEFAULT_VOICE), n.get("style", DEFAULT_STYLE)
     pub = ROOT / "studio/public" / slug
     (pub / "audio").mkdir(parents=True, exist_ok=True)
 
@@ -137,11 +138,11 @@ def main():
         for text in s.get("lines", []):
             if text in audio:
                 continue
-            name = hashlib.sha1(f"{MODEL}|{voice}|{text}".encode()).hexdigest()[:16] + ".wav"
+            name = hashlib.sha1(f"{MODEL}|{voice}|{style}|{text}".encode()).hexdigest()[:16] + ".wav"
             f = pub / "audio" / name
             if not f.exists():
                 print("tts:", text[:70], file=sys.stderr)
-                f.write_bytes(synth(text, voice))
+                f.write_bytes(synth(text, voice, style))
             audio[text] = (f"{slug}/audio/{name}", wav_seconds(f))
 
     tl = build_timeline(n["scenes"], audio, fps)

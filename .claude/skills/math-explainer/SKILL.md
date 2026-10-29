@@ -31,7 +31,7 @@ the workbench step and its wrap-up (author shout-out, showcase, JianYing). Use o
   Resolve card names via `gallery/api/library.json`, and read the card plus its exact demo TSX
   before adapting it (shotcraft core rule 6).
 - `references/sound-design.md` + `references/sfx-sourcing.md` for light SFX (reveal, tick, pop).
-  A quiet BGM from `assets/audio/bgm/` is optional and must sit well under the voice.
+  No background music for now (the user decided this). Voice and light SFX only.
 - `references/aesthetic-rules.md` + `references/final-review.md` for QA.
 - Deterministic rendering: no `Date.now()` / `Math.random()`, only seeded randomness.
 
@@ -94,7 +94,7 @@ Tutor voice:
 
 `narration.json` format (read by `.claude/skills/math-explainer/scripts/tts.py`):
 ```json
-{"title": "...", "voice": "Puck", "fps": 30,
+{"title": "...", "fps": 30,
  "scenes": [
   {"id": "intro", "chapter": "Intro", "lines": ["Here's a puzzle that tricks most kids.", "I'm Vantee..."]},
   {"id": "try1", "chapter": "Try it yourself", "kind": "pause", "lines": ["Pause the video and give it a go!"], "hold": 10},
@@ -116,9 +116,15 @@ Only the changed lines get regenerated. Ignore digits vs words ("26" vs "twenty-
 transcriber's spelling of "Vantee". If the user says the TTS *mispronounces* Vantee, write it as
 "Van-tee" in the narration lines, and have the caption component show "Vantee" in its place.
 
-Don't add a style prompt to the narration. The TTS model has no system instruction, and style
-prefixes were sometimes spoken aloud or replaced words. Tone comes from the voice choice and
-from how the line is written: exclamation marks, questions, short sentences.
+Delivery style follows the official Gemini 3.8 TTS guidance
+(https://ai.google.dev/gemini-api/docs/speech-generation): `tts.py` sends each line as a verbatim
+transcript and puts the delivery in the `speech_metadata` `style` field. Default: voice `Achird`
+("Friendly"), style "warm, encouraging and playful, speaking at a relaxed pace". Override
+`voice` / `style` in `narration.json`, but keep the style a few words long: long styles drift.
+- Never put stage directions in the line text, because they get spoken.
+- For a moment in the line, use an inline angle-bracket tag: `<short pause>` before a reveal,
+  `<long pause>`, `<laugh>`. Use them sparingly.
+- CAPITALIZE a word for vocal emphasis ("the answer is NOT twenty-six").
 
 ### 5. Storyboard and animation
 The visuals must *explain*, not decorate. Plan each scene's visual from the math:
@@ -135,7 +141,7 @@ Visual language follows Vantee (`/home/brad/code/vnt/DESIGN.md`):
 - Font Nunito. Primary `#0cc281`, secondary `#7b61ff`, text `#333333`, light background.
 - Error `#ef4343` for traps, success `#21c45d` for correct answers.
 - Avatar `priv/static/images/Vantee_avatar_point2x.png` in the corner while Vantee talks.
-- Burned-in captions (the current narration line), big and readable. Math at ≥ 48 px.
+- Burned-in captions from each timeline line's `caption` (the text without TTS tags), big and readable. Math at ≥ 48 px.
 
 ### 6. Build
 In `studio/src/videos/<slug>/Composition.tsx`:

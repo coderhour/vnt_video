@@ -1,4 +1,4 @@
-from tts import build_timeline, chapters
+from tts import build_timeline, caption, chapters
 
 scenes = [
     {"id": "hook", "chapter": "Intro", "lines": ["a", "b"]},
@@ -18,4 +18,5 @@ assert tl["durationInFrames"] == sol["from"] + sol["frames"]
 lines, warnings = chapters(tl)
 assert lines == ["0:00 Intro", "0:06 Try it", "0:16 Solution"], lines
 assert warnings == ["chapter 'Intro' is shorter than 10 s", "chapter 'Solution' is shorter than 10 s"], warnings
+assert caption("So <short pause> it is <laugh> THIRTY!") == "So it is THIRTY!"
 print("ok")
