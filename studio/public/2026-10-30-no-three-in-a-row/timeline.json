@@ -1,0 +1,615 @@
+{
+ "fps": 30,
+ "durationInFrames": 12477,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 544,
+   "lines": [
+    {
+     "text": "Flip a coin eight times. Will the same side come up three times in a row?",
+     "caption": "Flip a coin eight times. Will the same side come up three times in a row?",
+     "file": "2026-10-30-no-three-in-a-row/audio/aa596a62c695e8df.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Most people guess that's rare. <short pause> But it happens almost three times out of four!",
+     "caption": "Most people guess that's rare. But it happens almost three times out of four!",
+     "file": "2026-10-30-no-three-in-a-row/audio/09cba9b8c3da8a2a.wav",
+     "from": 163,
+     "frames": 176
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's count how often it does NOT happen.",
+     "caption": "Hi there, I'm Vantee! Let's count how often it does NOT happen.",
+     "file": "2026-10-30-no-three-in-a-row/audio/5f078c283d55b60c.wav",
+     "from": 349,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 544,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-no-three-in-a-row/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 45
+    },
+    {
+     "text": "A fair coin is flipped eight times.",
+     "caption": "A fair coin is flipped eight times.",
+     "file": "2026-10-30-no-three-in-a-row/audio/c8afebbb6e743ab9.wav",
+     "from": 54,
+     "frames": 90
+    },
+    {
+     "text": "What is the probability that the same side never comes up three times in a row?",
+     "caption": "What is the probability that the same side never comes up three times in a row?",
+     "file": "2026-10-30-no-three-in-a-row/audio/16fe6561c180ba53.wav",
+     "from": 155,
+     "frames": 165
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-no-three-in-a-row/audio/b97a89671840f7ca.wav",
+     "from": 330,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1012,
+   "frames": 988,
+   "lines": [
+    {
+     "text": "Let's break it down. Each flip is heads or tails.",
+     "caption": "Let's break it down. Each flip is heads or tails.",
+     "file": "2026-10-30-no-three-in-a-row/audio/a9ba2638851792ed.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "Each flip doubles the choices, so eight flips give two hundred fifty-six outcomes.",
+     "caption": "Each flip doubles the choices, so eight flips give two hundred fifty-six outcomes.",
+     "file": "2026-10-30-no-three-in-a-row/audio/2fe0df74e0aff9ec.wav",
+     "from": 131,
+     "frames": 176
+    },
+    {
+     "text": "This outcome is good. No side comes up three times in a row.",
+     "caption": "This outcome is good. No side comes up three times in a row.",
+     "file": "2026-10-30-no-three-in-a-row/audio/07552555f8dd4928.wav",
+     "from": 317,
+     "frames": 140
+    },
+    {
+     "text": "This outcome is bad. It has three heads in a row.",
+     "caption": "This outcome is bad. It has three heads in a row.",
+     "file": "2026-10-30-no-three-in-a-row/audio/f2cbaaa8889f155c.wav",
+     "from": 466,
+     "frames": 146
+    },
+    {
+     "text": "Three tails in a row is just as bad.",
+     "caption": "Three tails in a row is just as bad.",
+     "file": "2026-10-30-no-three-in-a-row/audio/94fb9ee64c943ff9.wav",
+     "from": 622,
+     "frames": 99
+    },
+    {
+     "text": "Every outcome is equally likely, so count the good ones and divide by two hundred fifty-six.",
+     "caption": "Every outcome is equally likely, so count the good ones and divide by two hundred fifty-six.",
+     "file": "2026-10-30-no-three-in-a-row/audio/3cfbe73b28c46ea3.wav",
+     "from": 731,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2000,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-no-three-in-a-row/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "kind": "scene",
+   "chapter": "Solution 1: build it flip by flip",
+   "from": 2470,
+   "frames": 1528,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start small, and build up one flip at a time.",
+     "caption": "Welcome back! Let's start small, and build up one flip at a time.",
+     "file": "2026-10-30-no-three-in-a-row/audio/b3f38f0d4a3781da.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "A streak is a run of the same side, like these two heads.",
+     "caption": "A streak is a run of the same side, like these two heads.",
+     "file": "2026-10-30-no-three-in-a-row/audio/9afe5b6e3786cc3d.wav",
+     "from": 164,
+     "frames": 130
+    },
+    {
+     "text": "We'll call each outcome a string. In a good one, every streak is one or two flips long.",
+     "caption": "We'll call each outcome a string. In a good one, every streak is one or two flips long.",
+     "file": "2026-10-30-no-three-in-a-row/audio/6a0656260bfbfa6c.wav",
+     "from": 304,
+     "frames": 201
+    },
+    {
+     "text": "With one flip, there are two good strings. With two flips, all four strings are good.",
+     "caption": "With one flip, there are two good strings. With two flips, all four strings are good.",
+     "file": "2026-10-30-no-three-in-a-row/audio/cb902984822055c2.wav",
+     "from": 515,
+     "frames": 182
+    },
+    {
+     "text": "Now three flips. A string can end with a single: one flip of the other side, added to a good two-flip string.",
+     "caption": "Now three flips. A string can end with a single: one flip of the other side, added to a good two-flip string.",
+     "file": "2026-10-30-no-three-in-a-row/audio/5baebf69ca217544.wav",
+     "from": 707,
+     "frames": 255
+    },
+    {
+     "text": "It has to be the other side, or that streak would get longer.",
+     "caption": "It has to be the other side, or that streak would get longer.",
+     "file": "2026-10-30-no-three-in-a-row/audio/6b6703192b6a9a97.wav",
+     "from": 972,
+     "frames": 136
+    },
+    {
+     "text": "Or it can end with a double: two flips of the other side, added to a good one-flip string.",
+     "caption": "Or it can end with a double: two flips of the other side, added to a good one-flip string.",
+     "file": "2026-10-30-no-three-in-a-row/audio/436ff3740d28c866.wav",
+     "from": 1118,
+     "frames": 203
+    },
+    {
+     "text": "Four plus two gives six good strings. Only the two triples are missing!",
+     "caption": "Four plus two gives six good strings. Only the two triples are missing!",
+     "file": "2026-10-30-no-three-in-a-row/audio/ddd35158fb4269fc.wav",
+     "from": 1331,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3998,
+   "frames": 1072,
+   "lines": [
+    {
+     "text": "The same rule works for every length.",
+     "caption": "The same rule works for every length.",
+     "file": "2026-10-30-no-three-in-a-row/audio/05d29c2cc3f89ee5.wav",
+     "from": 0,
+     "frames": 84
+    },
+    {
+     "text": "Each count is the one before it, plus the one before that.",
+     "caption": "Each count is the one before it, plus the one before that.",
+     "file": "2026-10-30-no-three-in-a-row/audio/bc519bcef2de5746.wav",
+     "from": 95,
+     "frames": 138
+    },
+    {
+     "text": "Four plus six is ten. Six plus ten is sixteen.",
+     "caption": "Four plus six is ten. Six plus ten is sixteen.",
+     "file": "2026-10-30-no-three-in-a-row/audio/fddb40c1f16b25ba.wav",
+     "from": 243,
+     "frames": 155
+    },
+    {
+     "text": "Then twenty-six, forty-two, and finally sixty-eight!",
+     "caption": "Then twenty-six, forty-two, and finally sixty-eight!",
+     "file": "2026-10-30-no-three-in-a-row/audio/7748ccfba87decf4.wav",
+     "from": 408,
+     "frames": 167
+    },
+    {
+     "text": "So sixty-eight of the two hundred fifty-six outcomes are good.",
+     "caption": "So sixty-eight of the two hundred fifty-six outcomes are good.",
+     "file": "2026-10-30-no-three-in-a-row/audio/f9cf0594a3cca8ab.wav",
+     "from": 586,
+     "frames": 150
+    },
+    {
+     "text": "Sixty-eight over two hundred fifty-six simplifies to seventeen over sixty-four.",
+     "caption": "Sixty-eight over two hundred fifty-six simplifies to seventeen over sixty-four.",
+     "file": "2026-10-30-no-three-in-a-row/audio/1b8846b763231f8c.wav",
+     "from": 746,
+     "frames": 171
+    },
+    {
+     "text": "That's Choice D, about twenty-seven percent!",
+     "caption": "That's Choice D, about twenty-seven percent!",
+     "file": "2026-10-30-no-three-in-a-row/audio/5a9145478c323a32.wav",
+     "from": 927,
+     "frames": 92
+    }
+   ]
+  },
+  {
+   "id": "streaks",
+   "kind": "scene",
+   "chapter": "Solution 2: cut it into streaks",
+   "from": 5070,
+   "frames": 1055,
+   "lines": [
+    {
+     "text": "Here's a second way. Let's cut a good outcome into its streaks.",
+     "caption": "Here's a second way. Let's cut a good outcome into its streaks.",
+     "file": "2026-10-30-no-three-in-a-row/audio/c21aa029afc196cb.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "This one is a double, a single, a double, another double, and a single.",
+     "caption": "This one is a double, a single, a double, another double, and a single.",
+     "file": "2026-10-30-no-three-in-a-row/audio/bf4954afc9ca3f78.wav",
+     "from": 144,
+     "frames": 214
+    },
+    {
+     "text": "Write the lengths as blocks. Together they cover all eight coin flips.",
+     "caption": "Write the lengths as blocks. Together they cover all eight coin flips.",
+     "file": "2026-10-30-no-three-in-a-row/audio/2b177b504c25a487.wav",
+     "from": 368,
+     "frames": 167
+    },
+    {
+     "text": "Now go backwards. Pick the blocks, and pick the first side.",
+     "caption": "Now go backwards. Pick the blocks, and pick the first side.",
+     "file": "2026-10-30-no-three-in-a-row/audio/f160a3448b865291.wav",
+     "from": 545,
+     "frames": 149
+    },
+    {
+     "text": "The sides must take turns, so the whole string is fixed!",
+     "caption": "The sides must take turns, so the whole string is fixed!",
+     "file": "2026-10-30-no-three-in-a-row/audio/fd4bccc7b741317b.wav",
+     "from": 705,
+     "frames": 144
+    },
+    {
+     "text": "So we count the block patterns, then double it, for heads or tails first.",
+     "caption": "So we count the block patterns, then double it, for heads or tails first.",
+     "file": "2026-10-30-no-three-in-a-row/audio/4803c28f9a9091e0.wav",
+     "from": 859,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "blocks",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6125,
+   "frames": 1804,
+   "lines": [
+    {
+     "text": "Let's sort the patterns by how many doubles they have.",
+     "caption": "Let's sort the patterns by how many doubles they have.",
+     "file": "2026-10-30-no-three-in-a-row/audio/4fe2231e989ac744.wav",
+     "from": 0,
+     "frames": 112
+    },
+    {
+     "text": "No doubles means eight single blocks. That's just one pattern.",
+     "caption": "No doubles means eight single blocks. That's just one pattern.",
+     "file": "2026-10-30-no-three-in-a-row/audio/853b82b189214f51.wav",
+     "from": 122,
+     "frames": 147
+    },
+    {
+     "text": "One double makes seven blocks. The double can go in any of the seven places.",
+     "caption": "One double makes seven blocks. The double can go in any of the seven places.",
+     "file": "2026-10-30-no-three-in-a-row/audio/d529dbcb755d7ed8.wav",
+     "from": 279,
+     "frames": 182
+    },
+    {
+     "text": "With two doubles, we have six blocks. Pick two of the six to be doubles.",
+     "caption": "With two doubles, we have six blocks. Pick two of the six to be doubles.",
+     "file": "2026-10-30-no-three-in-a-row/audio/d06dbc299f861093.wav",
+     "from": 471,
+     "frames": 153
+    },
+    {
+     "text": "There are six choices for the first double, and five for the second.",
+     "caption": "There are six choices for the first double, and five for the second.",
+     "file": "2026-10-30-no-three-in-a-row/audio/6d46d8b9a51e2392.wav",
+     "from": 634,
+     "frames": 143
+    },
+    {
+     "text": "But that counts each pair twice. Half of thirty is fifteen ways.",
+     "caption": "But that counts each pair twice. Half of thirty is fifteen ways.",
+     "file": "2026-10-30-no-three-in-a-row/audio/84b3bb1a5096c6cf.wav",
+     "from": 787,
+     "frames": 174
+    },
+    {
+     "text": "Three doubles make five blocks. Pick two singles: five, then four. Half of twenty is ten ways.",
+     "caption": "Three doubles make five blocks. Pick two singles: five, then four. Half of twenty is ten ways.",
+     "file": "2026-10-30-no-three-in-a-row/audio/b1dba380ed810e2a.wav",
+     "from": 972,
+     "frames": 273
+    },
+    {
+     "text": "Four doubles: just one pattern.",
+     "caption": "Four doubles: just one pattern.",
+     "file": "2026-10-30-no-three-in-a-row/audio/cdb763b00747ee46.wav",
+     "from": 1255,
+     "frames": 96
+    },
+    {
+     "text": "One plus seven plus fifteen plus ten plus one is thirty-four patterns.",
+     "caption": "One plus seven plus fifteen plus ten plus one is thirty-four patterns.",
+     "file": "2026-10-30-no-three-in-a-row/audio/58e0b8399ac7cec5.wav",
+     "from": 1361,
+     "frames": 233
+    },
+    {
+     "text": "Double it for the first side: sixty-eight good strings again. It matches!",
+     "caption": "Double it for the first side: sixty-eight good strings again. It matches!",
+     "file": "2026-10-30-no-three-in-a-row/audio/3f3d7ee14f6c8c6c.wav",
+     "from": 1604,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "fib",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7929,
+   "frames": 794,
+   "lines": [
+    {
+     "text": "Here's a fun surprise. Count the patterns for shorter strings.",
+     "caption": "Here's a fun surprise. Count the patterns for shorter strings.",
+     "file": "2026-10-30-no-three-in-a-row/audio/c1caceffaa4dba7a.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "You get the Fibonacci numbers! Each one is the sum of the two before it.",
+     "caption": "You get the Fibonacci numbers! Each one is the sum of the two before it.",
+     "file": "2026-10-30-no-three-in-a-row/audio/8d6c529e9bfaf2a1.wav",
+     "from": 143,
+     "frames": 168
+    },
+    {
+     "text": "Double them, and you get the table from Solution 1.",
+     "caption": "Double them, and you get the table from Solution 1.",
+     "file": "2026-10-30-no-three-in-a-row/audio/c3183c269abc85c3.wav",
+     "from": 322,
+     "frames": 95
+    },
+    {
+     "text": "So when would you pick each way? The table is fastest for long strings.",
+     "caption": "So when would you pick each way? The table is fastest for long strings.",
+     "file": "2026-10-30-no-three-in-a-row/audio/18c03c696c69fc30.wav",
+     "from": 427,
+     "frames": 167
+    },
+    {
+     "text": "The blocks show WHY it works, and make a great double-check.",
+     "caption": "The blocks show WHY it works, and make a great double-check.",
+     "file": "2026-10-30-no-three-in-a-row/audio/ee78a6492455370f.wav",
+     "from": 604,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8723,
+   "frames": 1102,
+   "lines": [
+    {
+     "text": "Choice B is thirty-four over two hundred fifty-six. It forgets the first side.",
+     "caption": "Choice B is thirty-four over two hundred fifty-six. It forgets the first side.",
+     "file": "2026-10-30-no-three-in-a-row/audio/f3e0319b86ea8220.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "Choice E only stops three heads in a row. It still counts strings like this, with three tails.",
+     "caption": "Choice E only stops three heads in a row. It still counts strings like this, with three tails.",
+     "file": "2026-10-30-no-three-in-a-row/audio/37f4a3836687619e.wav",
+     "from": 191,
+     "frames": 203
+    },
+    {
+     "text": "Choice A, one over eight, is the chance that three given flips are all heads. Wrong question!",
+     "caption": "Choice A, one over eight, is the chance that three given flips are all heads. Wrong question!",
+     "file": "2026-10-30-no-three-in-a-row/audio/a373fb70a1f5f081.wav",
+     "from": 404,
+     "frames": 218
+    },
+    {
+     "text": "Choice C, one over four, is the chance that three given flips all match. Also the wrong question.",
+     "caption": "Choice C, one over four, is the chance that three given flips all match. Also the wrong question.",
+     "file": "2026-10-30-no-three-in-a-row/audio/fd37e8121ee6142d.wav",
+     "from": 632,
+     "frames": 212
+    },
+    {
+     "text": "So here's a great habit: check the rule for BOTH sides, and count every starting choice.",
+     "caption": "So here's a great habit: check the rule for BOTH sides, and count every starting choice.",
+     "file": "2026-10-30-no-three-in-a-row/audio/7a0a8d15d298bab5.wav",
+     "from": 853,
+     "frames": 195
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: nine flips",
+   "from": 9825,
+   "frames": 361,
+   "lines": [
+    {
+     "text": "Ready for a challenge? This time, flip the coin nine times.",
+     "caption": "Ready for a challenge? This time, flip the coin nine times.",
+     "file": "2026-10-30-no-three-in-a-row/audio/01ca827f1fafd771.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "What is the probability that the same side never comes up three times in a row?",
+     "caption": "What is the probability that the same side never comes up three times in a row?",
+     "file": "2026-10-30-no-three-in-a-row/audio/16fe6561c180ba53.wav",
+     "from": 158,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10186,
+   "frames": 399,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-no-three-in-a-row/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Nine flips: the answer",
+   "from": 10585,
+   "frames": 1330,
+   "lines": [
+    {
+     "text": "Let's check. The table only needs one more step.",
+     "caption": "Let's check. The table only needs one more step.",
+     "file": "2026-10-30-no-three-in-a-row/audio/79214087490d462d.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "Forty-two plus sixty-eight gives one hundred ten good strings in all.",
+     "caption": "Forty-two plus sixty-eight gives one hundred ten good strings in all.",
+     "file": "2026-10-30-no-three-in-a-row/audio/a08e454e01267aba.wav",
+     "from": 135,
+     "frames": 165
+    },
+    {
+     "text": "Nine flips give five hundred twelve outcomes, double the last time.",
+     "caption": "Nine flips give five hundred twelve outcomes, double the last time.",
+     "file": "2026-10-30-no-three-in-a-row/audio/f3d43c9ed8b4ff88.wav",
+     "from": 310,
+     "frames": 136
+    },
+    {
+     "text": "So the probability is one hundred ten over five hundred twelve.",
+     "caption": "So the probability is one hundred ten over five hundred twelve.",
+     "file": "2026-10-30-no-three-in-a-row/audio/1f9f0f320c71c45e.wav",
+     "from": 456,
+     "frames": 171
+    },
+    {
+     "text": "Divide both numbers by two, and it's fifty-five over two hundred fifty-six!",
+     "caption": "Divide both numbers by two, and it's fifty-five over two hundred fifty-six!",
+     "file": "2026-10-30-no-three-in-a-row/audio/d1b2b84c7fd42393.wav",
+     "from": 637,
+     "frames": 170
+    },
+    {
+     "text": "Check with blocks: one plus eight plus twenty-one plus twenty plus five is fifty-five patterns.",
+     "caption": "Check with blocks: one plus eight plus twenty-one plus twenty plus five is fifty-five patterns.",
+     "file": "2026-10-30-no-three-in-a-row/audio/1fe4fd705ff3fa9c.wav",
+     "from": 816,
+     "frames": 296
+    },
+    {
+     "text": "If you found fifty-five over two hundred fifty-six, amazing work!",
+     "caption": "If you found fifty-five over two hundred fifty-six, amazing work!",
+     "file": "2026-10-30-no-three-in-a-row/audio/c4333927442d41ef.wav",
+     "from": 1122,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11915,
+   "frames": 562,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-no-three-in-a-row/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "Cut each outcome into streaks, and count the patterns of streak lengths.",
+     "caption": "Cut each outcome into streaks, and count the patterns of streak lengths.",
+     "file": "2026-10-30-no-three-in-a-row/audio/53a607c254ccdff9.wav",
+     "from": 86,
+     "frames": 140
+    },
+    {
+     "text": "Then multiply by two, for heads or tails first.",
+     "caption": "Then multiply by two, for heads or tails first.",
+     "file": "2026-10-30-no-three-in-a-row/audio/97ed5960aecdddc0.wav",
+     "from": 236,
+     "frames": 122
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-no-three-in-a-row/audio/31a6054d0b03b932.wav",
+     "from": 367,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

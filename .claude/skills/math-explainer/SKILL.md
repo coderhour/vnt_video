@@ -45,15 +45,18 @@ studio/                         shared Remotion project for all explainers (alre
     grid.tsx                    dot grids, self-drawing polygons, step arrows, boxSquare(), boxSpots()
     Tex.tsx                     KaTeX (verified: fonts render in headless renders)
     PauseCard.tsx               "Pause & try it" countdown ring (optional tick SFX per second)
+    ui.tsx                      Text, Pill, Row, Answer (chime prop), Confetti, Mark (highlight sweep), Check, Choices (any nodes, e.g. <Tex>)
     anim.ts, theme.ts, fonts.ts easing helpers, Vantee colours, Nunito + Pacifico (wordmark only)
   src/videos/<slug>/            narration.json, verify.py, Composition.tsx (one component per scene id)
-  src/Root.tsx                  register each video: `calculateMetadata={fromTimeline(SLUG)}`
+  src/Root.tsx                  auto-registers every videos/*/Composition.tsx (exports SLUG + Video)
   public/<slug>/                generated audio/*.wav + timeline.json, sfx/ (Freesound downloads + credits)
 videos/<slug>/                  deliverable: video.mp4, poster.jpg, meta.json, script.md
 ```
 
-`<slug>` = `YYYY-MM-DD-short-name`. The first video, `2026-10-29-dot-grid-squares`, is the reference
-for how the scenes are built.
+`<slug>` = `YYYY-MM-DD-short-name`. References for how scenes are built: `2026-10-29-dot-grid-squares`
+(counting on a grid) and `2026-10-29-triangle-in-square` (geometry + algebra: maths-coordinate plane
+with y up, a live graph driven by the same formula as verify.py, equation rows on a right panel).
+Copy the two sfx files and `FREESOUND-CREDITS.md` into each new `public/<slug>/sfx/`, since credits travel with the video.
 
 ## Workflow
 
@@ -119,8 +122,11 @@ creates one WAV per line (unchanged lines are cached), `studio/public/<slug>/tim
 `videos/<slug>/script.md`, and prints the chapter list. Fix any chapter warnings (YouTube needs
 ≥ 3 chapters, the first at 0:00, each ≥ 10 s).
 
-Keep writing "Vantee" in narration: `tts.py`'s `SPOKEN` map sends "Van-tee" (/ˈvæn.ti/) to the
-TTS and the captions keep "Vantee".
+**"Vantee" is always pronounced /ˈvæn.ti/ (VAN-tee).** Write plain "Vantee" in narration, never a respelling.
+Gemini TTS has no IPA or SSML field, so `tts.py`'s `PRONOUNCE` map adds `Pronounce the name "Vantee" as
+/ˈvæn.ti/ …` to the `speech_metadata.style` of every line that says the name. The hint is never spoken.
+It was right in 4 of 4 takes, where the "Van-tee" spelling got 2 of 4 ("Vantech", "Ventay").
+Add any other hard name to `PRONOUNCE` the same way.
 
 Delivery style follows the official Gemini 3.8 TTS guidance
 (https://ai.google.dev/gemini-api/docs/speech-generation): `tts.py` sends each line as a verbatim
@@ -177,7 +183,7 @@ In `studio/src/videos/<slug>/Composition.tsx`:
 - Read `timeline.json` (`staticFile`) in `calculateMetadata` to set `durationInFrames`.
 - Put each scene in a `<Sequence from durationInFrames>`, and each line's `<Audio>` at its `from`.
 - Drive animation timing from line frames so the visuals land on the words.
-- Register the composition in the studio's `Root.tsx`.
+- Export `SLUG` and `Video` from the Composition.tsx. `Root.tsx` registers every `videos/*/Composition.tsx` automatically; don't edit it.
 - Check key frames with `npx remotion still --frame=N` while building. Don't render the whole
   video to look at one frame. Render a still near the end of every line (about 2 s each), tile 4 of
   them into one image with ffmpeg `xstack`, and look at every sheet.
@@ -186,6 +192,27 @@ In `studio/src/videos/<slug>/Composition.tsx`:
   - give each piece of text its own slot so labels never overlap;
   - long totals must not wrap (the `Row` helper uses `nowrap`), so check that they fit the frame;
   - don't stack many semi-transparent shapes on one grid, because it reads as a tangle.
+- Layout traps found on the second video:
+  - KaTeX rows get wide fast: keep one idea per row, and check that the longest row ends before x ≈ 1880;
+  - place answer badges and pills last, in empty space, and re-check them against every row of the scene;
+  - labels on figures and answer choices are maths too, so keep them at 48 px or more;
+  - in algebra, never skip a step the voice skips over: put the in-between row on screen
+    (x² − 8x + 4 = 0 before (x − 4)² = 12), and show each "is the same" claim with its working;
+  - claims in the narration must be exactly true: "no area formula" was wrong when the method still used ½ × base × height.
+- For algebra lines, say "root three" consistently, and never speak a decimal. Say "about forty-six
+  percent" and put 0.464 on screen. A single-letter variable (x, t) reads fine. `--check` maps √, ², ^2, °,
+  −, /, =, +, ×, % and contractions, so a transcript like "x = 2 - √3" matches "x equals two minus root three".
+- Lessons from the 10-video batch:
+  - **Length:** about 4.5 s per line, so about 58 lines gives about 6:50. Over 60 lines goes past 7 min.
+  - **TTS:** avoid plural letter names ("two X's" blurs). Say "the letter X four times".
+    Say fractions as "one over two", not "one half of". When a line mishears, reword it rather than retrying it.
+  - **KaTeX:** `\frac` shrinks inline. Use `\dfrac` and check that the digits stay ≥ 48 px, including in answer chips and side notes.
+  - **Timing:** a small `cue(scene, line, offset)` helper that returns a line's frame keeps visuals on the words.
+  - `ease()` / `interpolate` crash on `Infinity`. Clamp open-ended ranges.
+  - **Contact sheets:** render at half scale (`--scale=0.5`) and tile with ffmpeg. It is much faster than full-size stills.
+  - Never run `npx remotion bundle --help`, because it hangs.
+  - **Kid jumps reviewers flagged:** every count needs its "where from" ("six choices for the first, five for the second").
+    A rule needs its reason ("the other side, or the streak grows"). A repeated number needs showing, so it doesn't look like a coincidence.
 - SFX: a soft chime on each answer reveal, timed to the END of the line so it never covers the spoken number, and a quiet tick per countdown second. That's it. No
   game-style sounds (shotcraft S1). Keep it at about 0.2–0.3 volume under the voice.
 
@@ -216,4 +243,6 @@ Send a fresh-context subagent the video, key frames, `narration.json`, the quest
    overlaps, clipped text, sync drift and loudness.
 
 Fix the findings, then tell the user to preview at `./start.sh` → http://localhost:8000.
+Leave `meta.json` without `status` (= draft). The user reviews it and clicks "Mark ready to publish" or "Needs fix" on the site.
+When asked to fix a video, read its `fixes` list, fix it, then set `status` back to `draft`.
 Publishing is manual. The user adds post links to `meta.json` → `posts`.

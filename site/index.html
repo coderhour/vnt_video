@@ -16,6 +16,11 @@
   main { overflow-y: auto; padding: 24px; }
   video { width: 100%; max-height: 70vh; background: #000; }
   pre { white-space: pre-wrap; font: inherit; background: #8881; padding: 12px; border-radius: 6px; }
+  .badge { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 10px; margin-right: 4px; color: #fff; }
+  .draft { background: #888; } .ready { background: #21c45d; } .fix { background: #ef4343; } .published { background: #7b61ff; }
+  table.pub { border-collapse: collapse; width: 100%; }
+  table.pub td { border-top: 1px solid #8883; padding: 8px; vertical-align: top; }
+  table.pub td:first-child { width: 120px; opacity: .7; } table.pub td:last-child { width: 60px; }
   @media (max-width: 700px) { body { grid-template-columns: 1fr; height: auto; } nav { max-height: 40vh; } main { padding: 16px; } }
 </style>
 </head>
@@ -27,6 +32,50 @@ function el(tag, props, ...kids) {
   const e = Object.assign(document.createElement(tag), props);
   e.append(...kids);
   return e;
+}
+
+// Status comes from meta.json: posts -> published, else "status" (draft by default, set by the buttons below).
+const LABELS = { draft: 'Draft', ready: 'Ready to publish', fix: 'Fix required' };
+function status(v) {
+  if (v.posts?.length) return ['published', 'Published: ' + v.posts.map(p => p.platform).join(', ')];
+  const s = LABELS[v.status] ? v.status : 'draft';
+  return [s, LABELS[s]];
+}
+async function setStatus(v, status) {
+  let fixes;
+  if (status === 'fix') {
+    const note = prompt('What needs fixing? (one item per line is fine)', (v.fixes || []).join('\n'));
+    if (note === null) return;
+    fixes = note.split('\n').map(s => s.trim()).filter(Boolean);
+  }
+  const r = await fetch('/api/status', { method: 'POST', body: JSON.stringify({ slug: v.slug, status, fixes }) });
+  if (!r.ok) return alert('Could not save status');
+  Object.assign(v, { status, fixes });
+  render();
+}
+const badge = v => { const [c, t] = status(v); return el('span', { className: 'badge ' + c }, t); };
+
+// Common publish fields. Tags: meta.json "tags", else defaults from the contest in question_id.
+function publishFields(v) {
+  const contest = /amc10/.test(v.question_id) ? 'AMC 10' : 'AMC 8';
+  const tags = v.tags || [contest, 'math competition', 'math olympiad', 'problem solving', 'Vantee', 'math for kids'];
+  const hook = (v.description || '').split('\n')[0];
+  const xpost = `${v.title}\n\n${hook}`;
+  return [
+    ['Title', v.title || ''], ['Description', v.description || ''], ['Tags', tags.join(', ')],
+    ['Hashtags', tags.slice(0, 3).map(t => '#' + t.replace(/\W/g, '')).join(' ')],
+    ['X post', xpost.length > 280 ? xpost.slice(0, 279) + '…' : xpost],
+    ['Category', 'Education'], ['Language', 'English'],
+    ['Thumbnail', v.poster ? location.origin + v.poster : '(no poster.jpg)'],
+  ];
+}
+
+// navigator.clipboard needs https or localhost; over plain-http LAN fall back to execCommand.
+function copy(text, btn) {
+  const done = () => btn.textContent = 'Copied';
+  if (navigator.clipboard) return navigator.clipboard.writeText(text).then(done);
+  const t = el('textarea', { value: text });
+  document.body.append(t); t.select(); document.execCommand('copy'); t.remove(); done();
 }
 
 let videos = [];
@@ -41,7 +90,7 @@ function render() {
       el('summary', { title: bank }, `${bank.replace(/^amc_practice_|_template$/g, '')} (${vs.length})`),
       ...vs.map(v => el('a',
         { href: '#' + encodeURIComponent(v.slug), className: v.slug === slug ? 'active' : '' },
-        v.title || v.slug, el('br'),
+        v.title || v.slug, el('br'), badge(v),
         el('small', {}, [v.question_id?.split(':')[1], v.created].filter(Boolean).join(' · ')))))));
 
   const v = videos.find(v => v.slug === slug);
@@ -51,9 +100,17 @@ function render() {
             : el('p', {}, 'video.mp4 not found'),
     el('h1', {}, v.title || v.slug),
     el('p', { className: 'meta' }, `Created ${v.created || '—'} · ${v.slug}${v.question_id ? ` · Question ${v.question_id}` : ''}`),
-    el('p', { style: 'white-space: pre-line' }, v.description || ''),
+    el('p', {}, badge(v), ...(v.posts?.length ? [] : Object.entries({
+        ready: 'Mark ready to publish', fix: 'Needs fix', draft: 'Back to draft' })
+      .filter(([k]) => k !== status(v)[0])
+      .map(([k, label]) => el('button', { onclick: () => setStatus(v, k), style: 'margin-left: 8px' }, label)))),
+    ...(v.fixes?.length ? [el('ul', {}, ...v.fixes.map(f => el('li', {}, f)))] : []),
     ...(v.posts?.length ? [el('h2', {}, 'Published'), el('ul', {}, ...v.posts.map(p =>
       el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.platform || p.url))))] : []),
+    el('h2', {}, 'Publish metadata'),
+    el('table', { className: 'pub' }, ...publishFields(v).map(([k, val]) => el('tr', {},
+      el('td', {}, k), el('td', { style: 'white-space: pre-line' }, val),
+      el('td', {}, el('button', { onclick: e => copy(val, e.target) }, 'Copy'))))),
     el('h2', {}, 'Script'),
     el('pre', {}, v.script || '(no script.md)'));
 }

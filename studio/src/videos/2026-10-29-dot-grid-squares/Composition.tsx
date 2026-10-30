@@ -1,10 +1,10 @@
-import { Audio, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { clamp, ease, fadeTo, fadeUp, mulberry32, pop, range } from '../../lib/anim';
+import { interpolate, staticFile, useCurrentFrame } from 'remotion';
+import { clamp, ease, fadeTo, fadeUp, range } from '../../lib/anim';
 import { Explainer, at, type SceneComponent, type Timeline } from '../../lib/Explainer';
 import { Countdown } from '../../lib/PauseCard';
 import { Dots, Poly, Stage, Step, XMark, boxSpots, boxSquare, makeGrid, type Pt } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
-import { Tex } from '../../lib/Tex';
+import { Answer, Check, Choices, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-29-dot-grid-squares';
@@ -17,65 +17,6 @@ const ROWS = 4;
 const TILT = [C.violet, C.blue]; // a = 1, a = 2 tilted squares
 
 // ---------- small building blocks ----------
-
-const Text: React.FC<{ x: number; y: number; w?: number; size?: number; weight?: number; color?: string; align?: 'left' | 'center'; style?: React.CSSProperties; children: React.ReactNode }> = ({
-  x, y, w = 800, size = 44, weight = 700, color = C.ink, align = 'left', style, children,
-}) => (
-  <div style={{ position: 'absolute', left: align === 'center' ? x - w / 2 : x, top: y, width: w, fontSize: size, fontWeight: weight, color, textAlign: align, lineHeight: 1.3, ...style }}>
-    {children}
-  </div>
-);
-
-const Pill: React.FC<{ x: number; y: number; color: string; style?: React.CSSProperties; children: React.ReactNode }> = ({ x, y, color, style, children }) => (
-  <div style={{ position: 'absolute', left: x, top: y, background: color, color: '#fff', borderRadius: 999, padding: '10px 30px', fontSize: 40, fontWeight: 900, ...style }}>
-    {children}
-  </div>
-);
-
-/** A tally row: label on the left, maths on the right. */
-const Row: React.FC<{ x: number; y: number; label: string; tex: string; color?: string; style: React.CSSProperties; strong?: boolean }> = ({ x, y, label, tex, color = C.ink, style, strong }) => (
-  <div style={{ position: 'absolute', left: x, top: y, display: 'flex', alignItems: 'center', gap: 28, whiteSpace: 'nowrap', ...style }}>
-    <div style={{ width: 260, fontSize: 40, fontWeight: 800, color }}>{label}</div>
-    <Tex tex={tex} size={strong ? 62 : 56} color={strong ? C.green : C.ink} />
-  </div>
-);
-
-/** Big round answer badge. */
-const Answer: React.FC<{ x: number; y: number; value: string; start: number }> = ({ x, y, value, start }) => {
-  const f = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const s = pop(f, start, fps);
-  return (
-    <>
-      <Sequence from={start} durationInFrames={60} layout="none">
-        <Audio src={CHIME} volume={0.3} />
-      </Sequence>
-      {s > 0 && <div style={{ position: 'absolute', left: x - 120, top: y - 120, width: 240, height: 240, borderRadius: '50%', background: C.green, color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 120, fontWeight: 900, transform: `scale(${s})`, boxShadow: '0 16px 40px rgba(33, 196, 93, 0.35)' }}>
-      {value}
-    </div>}
-    </>
-  );
-};
-
-/** One-time burst of confetti from (x, y). Seeded, so every render is identical. */
-const Confetti: React.FC<{ x: number; y: number; start: number; seed: number }> = ({ x, y, start, seed }) => {
-  const f = useCurrentFrame();
-  const t = f - start;
-  if (t < 0 || t > 75) return null;
-  const rand = mulberry32(seed);
-  const colors = [C.primary, C.violet, C.blue, C.amber, C.red];
-  return (
-    <Stage>
-      {range(46).map((i) => {
-        const ang = rand() * Math.PI * 2;
-        const v = 9 + rand() * 12;
-        const px = x + Math.cos(ang) * v * t;
-        const py = y + Math.sin(ang) * v * t + 0.35 * t * t;
-        return <rect key={i} x={px} y={py} width={16} height={9} rx={3} fill={colors[i % colors.length]} opacity={1 - t / 75} transform={`rotate(${t * 9 + i * 40} ${px} ${py})`} />;
-      })}
-    </Stage>
-  );
-};
 
 /** Upright square of side k with top-left (x, y), in grid coordinates. */
 const sq = (x: number, y: number, k: number) => boxSquare(x, y, k, 0);
@@ -145,31 +86,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const Mark: React.FC<{ on: number; children: React.ReactNode }> = ({ on, children }) => {
-  const f = useCurrentFrame();
-  const p = ease(f, on, 18);
-  return (
-    <span style={{ backgroundImage: `linear-gradient(${C.primarySoft}, ${C.primarySoft})`, backgroundSize: `${p * 100}% 100%`, backgroundRepeat: 'no-repeat', borderRadius: 8, boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone', padding: '0 4px', fontWeight: p > 0 ? 800 : 600 }}>
-      {children}
-    </span>
-  );
-};
-
 const CHOICES = ['20', '24', '26', '30', '40'];
-
-const Choices: React.FC<{ x: number; y: number; start: (i: number) => number }> = ({ x, y, start }) => {
-  const f = useCurrentFrame();
-  return (
-    <div style={{ position: 'absolute', left: x, top: y, display: 'flex', gap: 22 }}>
-      {CHOICES.map((c, i) => (
-        <div key={c} style={{ ...fadeUp(f, start(i), 10), background: C.card, borderRadius: 18, padding: '12px 26px', fontSize: 44, fontWeight: 800, boxShadow: '0 4px 14px rgba(30,40,80,0.07)' }}>
-          <span style={{ color: C.muted, fontSize: 32, marginRight: 12 }}>{'ABCDE'[i]}</span>
-          {c}
-        </div>
-      ))}
-    </div>
-  );
-};
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -183,7 +100,7 @@ const Question: SceneComponent = ({ scene }) => {
         <Mark on={at(scene, 3, 0.1)}>How many squares have all four corners at dots?</Mark> Count squares of{' '}
         <Mark on={at(scene, 4, 0.45)}>every size, including tilted ones</Mark>.
       </div>
-      <Choices x={130} y={690} start={(i) => at(scene, 5, 0.12 + i * 0.17)} />
+      <Choices x={130} y={690} items={CHOICES} start={(i) => at(scene, 5, 0.12 + i * 0.17)} />
       <Stage>
         <g style={{ transformOrigin: '1470px 415px', transform: `scale(${pulse(at(scene, 1, 0.3))})` }}>
           <Dots cols={COLS} rows={ROWS} at={g} start={4} r={9} />
@@ -194,19 +111,6 @@ const Question: SceneComponent = ({ scene }) => {
         <Poly pts={boxSquare(1, 0, 2, 1).map(g)} color={C.violet} fill={C.violet} progress={ease(f, at(scene, 4, 0.6), 16)} />
       </Stage>
     </>
-  );
-};
-
-const Check: React.FC<{ x: number; y: number; start: number; children: React.ReactNode }> = ({ x, y, start, children }) => {
-  const f = useCurrentFrame();
-  return (
-    <div style={{ position: 'absolute', left: x, top: y, display: 'flex', alignItems: 'center', gap: 22, fontSize: 44, fontWeight: 800, ...fadeUp(f, start) }}>
-      <svg width={54} height={54} viewBox="0 0 54 54">
-        <circle cx={27} cy={27} r={27} fill={C.primary} />
-        <path d="M15 28 L24 37 L40 19" stroke="#fff" strokeWidth={6} fill="none" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-      {children}
-    </div>
   );
 };
 
@@ -355,7 +259,7 @@ const Tilted: SceneComponent = ({ scene }) => {
       <Row x={PANEL} y={500} label="Big tilted" tex="2 \times 2 = 4" color={C.blue} style={fadeUp(f, at(scene, 6, 0.65))} />
       <div style={{ position: 'absolute', left: PANEL, top: 600, width: 760, height: 5, background: C.line, ...fadeUp(f, at(scene, 8)) }} />
       <Row x={PANEL} y={625} label="All squares" tex="20 + 6 + 4 = 30" strong style={fadeUp(f, at(scene, 8, 0.15))} />
-      <Answer x={1700} y={260} value="30" start={at(scene, 8, 0.97)} />
+      <Answer x={1700} y={260} value="30" chime={CHIME} start={at(scene, 8, 0.97)} />
       <Confetti x={1700} y={260} start={at(scene, 8, 0.97)} seed={7} />
     </>
   );
@@ -572,7 +476,7 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
       <Row x={VP} y={540} label="4 by 4" tex="1 \times 4 = 4" color={C.amber} style={r(4, 0.85)} />
       <div style={{ position: 'absolute', left: VP, top: 640, width: 800, height: 5, background: C.line, ...r(5, 0) }} />
       <Row x={VP} y={665} label="Total" tex="16+18+12+4 = 50" strong style={r(5, 0.1)} />
-      <Answer x={1720} y={270} value="50" start={at(scene, 5, 0.97)} />
+      <Answer x={1720} y={270} value="50" chime={CHIME} start={at(scene, 5, 0.97)} />
       <Confetti x={1720} y={270} start={at(scene, 5, 0.97)} seed={11} />
       <Pill x={VP} y={775} color={C.primary} style={r(6, 0.1)}>Amazing work!</Pill>
     </>
@@ -625,5 +529,5 @@ const SCENES: Record<string, SceneComponent> = {
   recap: Recap,
 };
 
-export const DotGridSquares: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
+export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;

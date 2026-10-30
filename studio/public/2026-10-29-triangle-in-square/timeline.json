@@ -1,0 +1,643 @@
+{
+ "fps": 30,
+ "durationInFrames": 12639,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 526,
+   "lines": [
+    {
+     "text": "Here's a square. How big a triangle can you fit inside it?",
+     "caption": "Here's a square. How big a triangle can you fit inside it?",
+     "file": "2026-10-29-triangle-in-square/audio/b99c2aa5aebeb2f0.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "Most kids set it flat on the bottom. <short pause> But that's NOT the biggest one!",
+     "caption": "Most kids set it flat on the bottom. But that's NOT the biggest one!",
+     "file": "2026-10-29-triangle-in-square/audio/bb7d7b1480ad8cd8.wav",
+     "from": 146,
+     "frames": 191
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find out how to fit a bigger one.",
+     "caption": "Hi, I'm Vantee! Let's find out how to fit a bigger one.",
+     "file": "2026-10-29-triangle-in-square/audio/2dc8a444a2f7ed5b.wav",
+     "from": 347,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 526,
+   "frames": 627,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-29-triangle-in-square/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 45
+    },
+    {
+     "text": "We have a square with side length one.",
+     "caption": "We have a square with side length one.",
+     "file": "2026-10-29-triangle-in-square/audio/470ca8b63df02c89.wav",
+     "from": 54,
+     "frames": 105
+    },
+    {
+     "text": "What is the area of the largest equilateral triangle that fits inside it?",
+     "caption": "What is the area of the largest equilateral triangle that fits inside it?",
+     "file": "2026-10-29-triangle-in-square/audio/f375be5f030f4e4e.wav",
+     "from": 169,
+     "frames": 152
+    },
+    {
+     "text": "Equilateral means all three sides are equal.",
+     "caption": "Equilateral means all three sides are equal.",
+     "file": "2026-10-29-triangle-in-square/audio/fb19a04404f2f723.wav",
+     "from": 331,
+     "frames": 113
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-29-triangle-in-square/audio/b97a89671840f7ca.wav",
+     "from": 454,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1153,
+   "frames": 778,
+   "lines": [
+    {
+     "text": "So what are we really looking for?",
+     "caption": "So what are we really looking for?",
+     "file": "2026-10-29-triangle-in-square/audio/cf00bd321bc19d75.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "Three equal sides, and every corner must stay inside the square.",
+     "caption": "Three equal sides, and every corner must stay inside the square.",
+     "file": "2026-10-29-triangle-in-square/audio/cbb8105b0e927969.wav",
+     "from": 110,
+     "frames": 166
+    },
+    {
+     "text": "The easy one sits flat, with side one. Its area is root three over four.",
+     "caption": "The easy one sits flat, with side one. Its area is root three over four.",
+     "file": "2026-10-29-triangle-in-square/audio/88c18fb2941cab2d.wav",
+     "from": 286,
+     "frames": 189
+    },
+    {
+     "text": "That's about forty-three percent of the square.",
+     "caption": "That's about forty-three percent of the square.",
+     "file": "2026-10-29-triangle-in-square/audio/12cc53afaed663f0.wav",
+     "from": 485,
+     "frames": 102
+    },
+    {
+     "text": "But look at all this empty space above it. Can we use it?",
+     "caption": "But look at all this empty space above it. Can we use it?",
+     "file": "2026-10-29-triangle-in-square/audio/df553a4914726e43.wav",
+     "from": 597,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1931,
+   "frames": 461,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-29-triangle-in-square/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "turn",
+   "kind": "scene",
+   "chapter": "Solution 1: turn it in a corner",
+   "from": 2392,
+   "frames": 1012,
+   "lines": [
+    {
+     "text": "Welcome back! Here's our plan: push the triangle into a corner, and turn it.",
+     "caption": "Welcome back! Here's our plan: push the triangle into a corner, and turn it.",
+     "file": "2026-10-29-triangle-in-square/audio/fb4548d8ca0a9dbe.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "Keep this corner pinned. As it turns, let it grow as big as it can.",
+     "caption": "Keep this corner pinned. As it turns, let it grow as big as it can.",
+     "file": "2026-10-29-triangle-in-square/audio/70625fb05f65d068.wav",
+     "from": 198,
+     "frames": 154
+    },
+    {
+     "text": "Keep your eye on the side length.",
+     "caption": "Keep your eye on the side length.",
+     "file": "2026-10-29-triangle-in-square/audio/f89bcdc47051df77.wav",
+     "from": 362,
+     "frames": 76
+    },
+    {
+     "text": "It grows, and grows, and then it starts to shrink again.",
+     "caption": "It grows, and grows, and then it starts to shrink again.",
+     "file": "2026-10-29-triangle-in-square/audio/87d6459abfb13437.wav",
+     "from": 448,
+     "frames": 156
+    },
+    {
+     "text": "The biggest one is right in the middle, at fifteen degrees.",
+     "caption": "The biggest one is right in the middle, at fifteen degrees.",
+     "file": "2026-10-29-triangle-in-square/audio/5e7b53bb372ffd20.wav",
+     "from": 615,
+     "frames": 141
+    },
+    {
+     "text": "It's perfectly balanced across the diagonal. Its two far corners touch two sides.",
+     "caption": "It's perfectly balanced across the diagonal. Its two far corners touch two sides.",
+     "file": "2026-10-29-triangle-in-square/audio/627633e1a28e7065.wav",
+     "from": 766,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "setup",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3404,
+   "frames": 1232,
+   "lines": [
+    {
+     "text": "Now let's find its exact size.",
+     "caption": "Now let's find its exact size.",
+     "file": "2026-10-29-triangle-in-square/audio/b95e87ae2ee67b04.wav",
+     "from": 0,
+     "frames": 95
+    },
+    {
+     "text": "Call this little gap on the right side x.",
+     "caption": "Call this little gap on the right side x.",
+     "file": "2026-10-29-triangle-in-square/audio/4a7abe3f96bd6e37.wav",
+     "from": 105,
+     "frames": 98
+    },
+    {
+     "text": "It's balanced, so the gap along the top is x too.",
+     "caption": "It's balanced, so the gap along the top is x too.",
+     "file": "2026-10-29-triangle-in-square/audio/1797f93047d05c14.wav",
+     "from": 213,
+     "frames": 107
+    },
+    {
+     "text": "This side is the long side of a right triangle, with legs one and x.",
+     "caption": "This side is the long side of a right triangle, with legs one and x.",
+     "file": "2026-10-29-triangle-in-square/audio/b96bfb1368540edd.wav",
+     "from": 330,
+     "frames": 159
+    },
+    {
+     "text": "So by Pythagoras, its square is one plus x squared.",
+     "caption": "So by Pythagoras, its square is one plus x squared.",
+     "file": "2026-10-29-triangle-in-square/audio/bbd8246c9d8877b2.wav",
+     "from": 499,
+     "frames": 150
+    },
+    {
+     "text": "The third side cuts off the top right corner. Both legs there are one minus x.",
+     "caption": "The third side cuts off the top right corner. Both legs there are one minus x.",
+     "file": "2026-10-29-triangle-in-square/audio/1b9922b5a6d9af44.wav",
+     "from": 659,
+     "frames": 191
+    },
+    {
+     "text": "So its square is two times one minus x, all squared.",
+     "caption": "So its square is two times one minus x, all squared.",
+     "file": "2026-10-29-triangle-in-square/audio/1e36f9d83bf43b5c.wav",
+     "from": 860,
+     "frames": 172
+    },
+    {
+     "text": "All three sides are equal, so these two must match!",
+     "caption": "All three sides are equal, so these two must match!",
+     "file": "2026-10-29-triangle-in-square/audio/b4f9ce64c514e41c.wav",
+     "from": 1043,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4636,
+   "frames": 1080,
+   "lines": [
+    {
+     "text": "Let's tidy up. Expand the right side, and move everything over.",
+     "caption": "Let's tidy up. Expand the right side, and move everything over.",
+     "file": "2026-10-29-triangle-in-square/audio/06ea30e205eba657.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "We get x squared, minus four x, plus one, equals zero.",
+     "caption": "We get x squared, minus four x, plus one, equals zero.",
+     "file": "2026-10-29-triangle-in-square/audio/b0a6e87d10cada9a.wav",
+     "from": 152,
+     "frames": 189
+    },
+    {
+     "text": "Here's a neat trick. Add three to both sides, and the left is a perfect square!",
+     "caption": "Here's a neat trick. Add three to both sides, and the left is a perfect square!",
+     "file": "2026-10-29-triangle-in-square/audio/bddc17f6e26e2381.wav",
+     "from": 351,
+     "frames": 182
+    },
+    {
+     "text": "So x minus two, all squared, equals three.",
+     "caption": "So x minus two, all squared, equals three.",
+     "file": "2026-10-29-triangle-in-square/audio/8b5db4e4b8755ed3.wav",
+     "from": 543,
+     "frames": 114
+    },
+    {
+     "text": "That means x is two plus root three, or two minus root three.",
+     "caption": "That means x is two plus root three, or two minus root three.",
+     "file": "2026-10-29-triangle-in-square/audio/e05fca64780ce84f.wav",
+     "from": 667,
+     "frames": 160
+    },
+    {
+     "text": "Two plus root three is bigger than the whole square. So x is two minus root three.",
+     "caption": "Two plus root three is bigger than the whole square. So x is two minus root three.",
+     "file": "2026-10-29-triangle-in-square/audio/9c29322bed21ff63.wav",
+     "from": 837,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "area1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5716,
+   "frames": 991,
+   "lines": [
+    {
+     "text": "Now for the area. The side squared is one plus x squared.",
+     "caption": "Now for the area. The side squared is one plus x squared.",
+     "file": "2026-10-29-triangle-in-square/audio/6a336b481f963aa8.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "Put in x, and it works out to eight minus four root three.",
+     "caption": "Put in x, and it works out to eight minus four root three.",
+     "file": "2026-10-29-triangle-in-square/audio/f555ab484d2427dc.wav",
+     "from": 175,
+     "frames": 144
+    },
+    {
+     "text": "An equilateral triangle's area is root three over four, times the side squared.",
+     "caption": "An equilateral triangle's area is root three over four, times the side squared.",
+     "file": "2026-10-29-triangle-in-square/audio/5ca1ccf9164da5fe.wav",
+     "from": 329,
+     "frames": 183
+    },
+    {
+     "text": "Careful here: root three times root three is three.",
+     "caption": "Careful here: root three times root three is three.",
+     "file": "2026-10-29-triangle-in-square/audio/e5a77ad69a0a55ca.wav",
+     "from": 522,
+     "frames": 129
+    },
+    {
+     "text": "So the area is two root three, minus three!",
+     "caption": "So the area is two root three, minus three!",
+     "file": "2026-10-29-triangle-in-square/audio/8f2418c1bf02700c.wav",
+     "from": 661,
+     "frames": 114
+    },
+    {
+     "text": "That's about forty-six percent of the square. Bigger than forty-three!",
+     "caption": "That's about forty-six percent of the square. Bigger than forty-three!",
+     "file": "2026-10-29-triangle-in-square/audio/fce075fe727b436c.wav",
+     "from": 786,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "cut",
+   "kind": "scene",
+   "chapter": "Solution 2: cut off the corners",
+   "from": 6707,
+   "frames": 1637,
+   "lines": [
+    {
+     "text": "Here's a second way to finish, without the equilateral area formula.",
+     "caption": "Here's a second way to finish, without the equilateral area formula.",
+     "file": "2026-10-29-triangle-in-square/audio/49a3d44586529252.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Start with the whole square. Its area is one.",
+     "caption": "Start with the whole square. Its area is one.",
+     "file": "2026-10-29-triangle-in-square/audio/d7367ed76286d530.wav",
+     "from": 149,
+     "frames": 108
+    },
+    {
+     "text": "Now cut away the three right triangles around our triangle.",
+     "caption": "Now cut away the three right triangles around our triangle.",
+     "file": "2026-10-29-triangle-in-square/audio/21e58a3b8befabcb.wav",
+     "from": 267,
+     "frames": 136
+    },
+    {
+     "text": "The two long ones have legs one and x. Together, their area is x.",
+     "caption": "The two long ones have legs one and x. Together, their area is x.",
+     "file": "2026-10-29-triangle-in-square/audio/a8cbbec6d8096be9.wav",
+     "from": 413,
+     "frames": 178
+    },
+    {
+     "text": "The corner one has two legs of one minus x.",
+     "caption": "The corner one has two legs of one minus x.",
+     "file": "2026-10-29-triangle-in-square/audio/5f5394150937d0cc.wav",
+     "from": 602,
+     "frames": 124
+    },
+    {
+     "text": "One minus x is root three minus one. Square it, take half, and you get two minus root three.",
+     "caption": "One minus x is root three minus one. Square it, take half, and you get two minus root three.",
+     "file": "2026-10-29-triangle-in-square/audio/6c8ce2077115c85e.wav",
+     "from": 736,
+     "frames": 236
+    },
+    {
+     "text": "And x is also two minus root three! So we cut that away twice.",
+     "caption": "And x is also two minus root three! So we cut that away twice.",
+     "file": "2026-10-29-triangle-in-square/audio/c15795d185c2821b.wav",
+     "from": 981,
+     "frames": 173
+    },
+    {
+     "text": "One, minus two times two minus root three. That's two root three, minus three again!",
+     "caption": "One, minus two times two minus root three. That's two root three, minus three again!",
+     "file": "2026-10-29-triangle-in-square/audio/cd3426836d3e4994.wav",
+     "from": 1165,
+     "frames": 218
+    },
+    {
+     "text": "When would you pick this way? To double-check, or if you forget the area formula.",
+     "caption": "When would you pick this way? To double-check, or if you forget the area formula.",
+     "file": "2026-10-29-triangle-in-square/audio/58d53d2d9255bc75.wav",
+     "from": 1392,
+     "frames": 176
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8344,
+   "frames": 1076,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-29-triangle-in-square/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "A is the flat triangle with side one. It fits, but it's not the biggest.",
+     "caption": "A is the flat triangle with side one. It fits, but it's not the biggest.",
+     "file": "2026-10-29-triangle-in-square/audio/eeeddc5acb8ea847.wav",
+     "from": 150,
+     "frames": 179
+    },
+    {
+     "text": "B forgets to square the side in the area formula.",
+     "caption": "B forgets to square the side in the area formula.",
+     "file": "2026-10-29-triangle-in-square/audio/c22896daad1d044e.wav",
+     "from": 340,
+     "frames": 114
+    },
+    {
+     "text": "D is a triangle exactly one unit tall. But then its base is too wide to fit!",
+     "caption": "D is a triangle exactly one unit tall. But then its base is too wide to fit!",
+     "file": "2026-10-29-triangle-in-square/audio/6819148aac1be632.wav",
+     "from": 464,
+     "frames": 214
+    },
+    {
+     "text": "Choice E uses the diagonal as a side. That pokes right out of the square!",
+     "caption": "Choice E uses the diagonal as a side. That pokes right out of the square!",
+     "file": "2026-10-29-triangle-in-square/audio/9b255996488ebc8c.wav",
+     "from": 688,
+     "frames": 160
+    },
+    {
+     "text": "So here's a great habit. Always check that your shape really fits.",
+     "caption": "So here's a great habit. Always check that your shape really fits.",
+     "file": "2026-10-29-triangle-in-square/audio/1f9712342fd89b97.wav",
+     "from": 858,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a bigger square",
+   "from": 9420,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a bigger square, with side length two.",
+     "caption": "Ready for a challenge? Here's a bigger square, with side length two.",
+     "file": "2026-10-29-triangle-in-square/audio/66e60b0c4f81bc23.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "What's the area of the largest equilateral triangle that fits inside it?",
+     "caption": "What's the area of the largest equilateral triangle that fits inside it?",
+     "file": "2026-10-29-triangle-in-square/audio/0ee4f02a5b4e54e6.wav",
+     "from": 149,
+     "frames": 141
+    },
+    {
+     "text": "Use the same plan. Pin a corner, and find the gap.",
+     "caption": "Use the same plan. Pin a corner, and find the gap.",
+     "file": "2026-10-29-triangle-in-square/audio/a8a30e327d5e0cfd.wav",
+     "from": 300,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9890,
+   "frames": 446,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-29-triangle-in-square/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Bigger square: the answer",
+   "from": 10336,
+   "frames": 1730,
+   "lines": [
+    {
+     "text": "Let's check. Call the gap x again.",
+     "caption": "Let's check. Call the gap x again.",
+     "file": "2026-10-29-triangle-in-square/audio/6ef004354f853765.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "One side squared is four plus x squared.",
+     "caption": "One side squared is four plus x squared.",
+     "file": "2026-10-29-triangle-in-square/audio/0af9b9f628cf0beb.wav",
+     "from": 121,
+     "frames": 123
+    },
+    {
+     "text": "The other is two times two minus x, all squared.",
+     "caption": "The other is two times two minus x, all squared.",
+     "file": "2026-10-29-triangle-in-square/audio/ba86801d54322143.wav",
+     "from": 254,
+     "frames": 123
+    },
+    {
+     "text": "Set them equal and tidy up. x minus four, all squared, equals twelve.",
+     "caption": "Set them equal and tidy up. x minus four, all squared, equals twelve.",
+     "file": "2026-10-29-triangle-in-square/audio/3140e78490a95f74.wav",
+     "from": 387,
+     "frames": 188
+    },
+    {
+     "text": "So x is four minus two root three.",
+     "caption": "So x is four minus two root three.",
+     "file": "2026-10-29-triangle-in-square/audio/b1ad2cb6e6b37442.wav",
+     "from": 585,
+     "frames": 114
+    },
+    {
+     "text": "Now cut the corners. The square's area is four.",
+     "caption": "Now cut the corners. The square's area is four.",
+     "file": "2026-10-29-triangle-in-square/audio/a99d6c7c39e66dbb.wav",
+     "from": 709,
+     "frames": 140
+    },
+    {
+     "text": "The two long triangles add up to eight minus four root three. And the corner one is the same!",
+     "caption": "The two long triangles add up to eight minus four root three. And the corner one is the same!",
+     "file": "2026-10-29-triangle-in-square/audio/699dfe0bf34282b7.wav",
+     "from": 859,
+     "frames": 208
+    },
+    {
+     "text": "So the area is four, minus two times that. Eight root three, minus twelve!",
+     "caption": "So the area is four, minus two times that. Eight root three, minus twelve!",
+     "file": "2026-10-29-triangle-in-square/audio/52d215213ce9ac62.wav",
+     "from": 1077,
+     "frames": 206
+    },
+    {
+     "text": "Neat check: that's four times our first answer. Double the side, and the area grows four times!",
+     "caption": "Neat check: that's four times our first answer. Double the side, and the area grows four times!",
+     "file": "2026-10-29-triangle-in-square/audio/4a8ab2efa75ddd31.wav",
+     "from": 1293,
+     "frames": 222
+    },
+    {
+     "text": "If you found eight root three minus twelve, amazing work!",
+     "caption": "If you found eight root three minus twelve, amazing work!",
+     "file": "2026-10-29-triangle-in-square/audio/406473b5790755eb.wav",
+     "from": 1525,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12066,
+   "frames": 573,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-29-triangle-in-square/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 78
+    },
+    {
+     "text": "To fit the biggest shape, push it into a corner, and turn it until it's balanced.",
+     "caption": "To fit the biggest shape, push it into a corner, and turn it until it's balanced.",
+     "file": "2026-10-29-triangle-in-square/audio/f803af62d84607e2.wav",
+     "from": 88,
+     "frames": 174
+    },
+    {
+     "text": "Then let the equal sides give you one equation.",
+     "caption": "Then let the equal sides give you one equation.",
+     "file": "2026-10-29-triangle-in-square/audio/4c5236906a03b22e.wav",
+     "from": 273,
+     "frames": 93
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-29-triangle-in-square/audio/31a6054d0b03b932.wav",
+     "from": 376,
+     "frames": 113
+    }
+   ]
+  }
+ ]
+}

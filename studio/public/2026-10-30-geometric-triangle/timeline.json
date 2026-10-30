@@ -1,0 +1,603 @@
+{
+ "fps": 30,
+ "durationInFrames": 12378,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 466,
+   "lines": [
+    {
+     "text": "Here are three sides that grow by the same multiplier each time.",
+     "caption": "Here are three sides that grow by the same multiplier each time.",
+     "file": "2026-10-30-geometric-triangle/audio/b20008d326773f96.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "But watch out. Most sequences like this can't even close up into a triangle!",
+     "caption": "But watch out. Most sequences like this can't even close up into a triangle!",
+     "file": "2026-10-30-geometric-triangle/audio/fe12fabab83b1f91.wav",
+     "from": 146,
+     "frames": 158
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find all of them.",
+     "caption": "Hi, I'm Vantee! Let's find all of them.",
+     "file": "2026-10-30-geometric-triangle/audio/7e2661533c0f9407.wav",
+     "from": 314,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 466,
+   "frames": 685,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-geometric-triangle/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "A triangle has three different whole-number side lengths.",
+     "caption": "A triangle has three different whole-number side lengths.",
+     "file": "2026-10-30-geometric-triangle/audio/9ac4899a2e86d5d9.wav",
+     "from": 53,
+     "frames": 116
+    },
+    {
+     "text": "The sides form a geometric sequence.",
+     "caption": "The sides form a geometric sequence.",
+     "file": "2026-10-30-geometric-triangle/audio/a1f843a064f00437.wav",
+     "from": 179,
+     "frames": 98
+    },
+    {
+     "text": "The longest side is two thousand twenty-five. Fun fact: that's forty-five squared!",
+     "caption": "The longest side is two thousand twenty-five. Fun fact: that's forty-five squared!",
+     "file": "2026-10-30-geometric-triangle/audio/5c37ee4c0bba5378.wav",
+     "from": 287,
+     "frames": 197
+    },
+    {
+     "text": "How many such triangles are there?",
+     "caption": "How many such triangles are there?",
+     "file": "2026-10-30-geometric-triangle/audio/bf85855643204976.wav",
+     "from": 494,
+     "frames": 71
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-30-geometric-triangle/audio/4c78df72243d4b0b.wav",
+     "from": 575,
+     "frames": 65
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1151,
+   "frames": 645,
+   "lines": [
+    {
+     "text": "Geometric means times the same number each step. Like four, six, nine: times three over two.",
+     "caption": "Geometric means times the same number each step. Like four, six, nine: times three over two.",
+     "file": "2026-10-30-geometric-triangle/audio/6782be0effceb6e5.wav",
+     "from": 0,
+     "frames": 236
+    },
+    {
+     "text": "We need three different whole numbers, and the longest one is fixed.",
+     "caption": "We need three different whole numbers, and the longest one is fixed.",
+     "file": "2026-10-30-geometric-triangle/audio/4ac99b5943d00158.wav",
+     "from": 246,
+     "frames": 148
+    },
+    {
+     "text": "The triangle rule: the two short sides must add up to MORE than the longest side.",
+     "caption": "The triangle rule: the two short sides must add up to MORE than the longest side.",
+     "file": "2026-10-30-geometric-triangle/audio/3396d954f2c36ca4.wav",
+     "from": 404,
+     "frames": 196
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1796,
+   "frames": 464,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-geometric-triangle/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "kind": "scene",
+   "chapter": "Solution 1: use the ratio",
+   "from": 2260,
+   "frames": 848,
+   "lines": [
+    {
+     "text": "Welcome back! Let's use the ratio.",
+     "caption": "Welcome back! Let's use the ratio.",
+     "file": "2026-10-30-geometric-triangle/audio/dedd42a3f5070d6b.wav",
+     "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "Each step, we multiply by one fraction, p over q, in lowest terms. It's less than one.",
+     "caption": "Each step, we multiply by one fraction, p over q, in lowest terms. It's less than one.",
+     "file": "2026-10-30-geometric-triangle/audio/2ef5b014f2bf4fb7.wav",
+     "from": 91,
+     "frames": 210
+    },
+    {
+     "text": "One step gives the middle side. Step two gives the shortest side.",
+     "caption": "One step gives the middle side. Step two gives the shortest side.",
+     "file": "2026-10-30-geometric-triangle/audio/31f00d6f651b4f10.wav",
+     "from": 311,
+     "frames": 166
+    },
+    {
+     "text": "Look at the shortest side. The bottom of the fraction gets squared!",
+     "caption": "Look at the shortest side. The bottom of the fraction gets squared!",
+     "file": "2026-10-30-geometric-triangle/audio/e38e955982527f50.wav",
+     "from": 487,
+     "frames": 129
+    },
+    {
+     "text": "Because p and q share no factors, q squared must divide the longest side.",
+     "caption": "Because p and q share no factors, q squared must divide the longest side.",
+     "file": "2026-10-30-geometric-triangle/audio/3ce703504b1451d4.wav",
+     "from": 626,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "bottoms",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3108,
+   "frames": 1316,
+   "lines": [
+    {
+     "text": "So which squares divide forty-five squared?",
+     "caption": "So which squares divide forty-five squared?",
+     "file": "2026-10-30-geometric-triangle/audio/f447ea3bd9586500.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "Split it into primes. There are four threes and two fives.",
+     "caption": "Split it into primes. There are four threes and two fives.",
+     "file": "2026-10-30-geometric-triangle/audio/7e2c18f21214f54b.wav",
+     "from": 111,
+     "frames": 143
+    },
+    {
+     "text": "A square uses primes in pairs. So q has at most two threes and one five.",
+     "caption": "A square uses primes in pairs. So q has at most two threes and one five.",
+     "file": "2026-10-30-geometric-triangle/audio/d7af52d3cce7c914.wav",
+     "from": 264,
+     "frames": 203
+    },
+    {
+     "text": "That leaves one, three, five, nine, fifteen, or forty-five. Each one divides forty-five!",
+     "caption": "That leaves one, three, five, nine, fifteen, or forty-five. Each one divides forty-five!",
+     "file": "2026-10-30-geometric-triangle/audio/5c8a42222eea97a9.wav",
+     "from": 478,
+     "frames": 245
+    },
+    {
+     "text": "So we can always rewrite the fraction over forty-five, even if it's not in lowest terms.",
+     "caption": "So we can always rewrite the fraction over forty-five, even if it's not in lowest terms.",
+     "file": "2026-10-30-geometric-triangle/audio/eee7216e18096023.wav",
+     "from": 733,
+     "frames": 185
+    },
+    {
+     "text": "For example, two over three is the same as thirty over forty-five.",
+     "caption": "For example, two over three is the same as thirty over forty-five.",
+     "file": "2026-10-30-geometric-triangle/audio/be11c39b05b00fd4.wav",
+     "from": 928,
+     "frames": 168
+    },
+    {
+     "text": "Let's call the new top m. So the fraction is m over forty-five.",
+     "caption": "Let's call the new top m. So the fraction is m over forty-five.",
+     "file": "2026-10-30-geometric-triangle/audio/ff4ca4e5f97ce1ed.wav",
+     "from": 1107,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "sides",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4424,
+   "frames": 777,
+   "lines": [
+    {
+     "text": "Now the sides get really simple.",
+     "caption": "Now the sides get really simple.",
+     "file": "2026-10-30-geometric-triangle/audio/c1d57d9278eb5148.wav",
+     "from": 0,
+     "frames": 87
+    },
+    {
+     "text": "The middle side is forty-five squared, times m over forty-five. That's forty-five times m.",
+     "caption": "The middle side is forty-five squared, times m over forty-five. That's forty-five times m.",
+     "file": "2026-10-30-geometric-triangle/audio/27549439120fac7e.wav",
+     "from": 97,
+     "frames": 216
+    },
+    {
+     "text": "Do it again, and the shortest side is m squared.",
+     "caption": "Do it again, and the shortest side is m squared.",
+     "file": "2026-10-30-geometric-triangle/audio/998e10b82b7ecd5e.wav",
+     "from": 323,
+     "frames": 162
+    },
+    {
+     "text": "The fraction is less than one, so m goes from one to forty-four. That's forty-four sequences to test.",
+     "caption": "The fraction is less than one, so m goes from one to forty-four. That's forty-four sequences to test.",
+     "file": "2026-10-30-geometric-triangle/audio/77abedb206c92ff4.wav",
+     "from": 496,
+     "frames": 243
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5201,
+   "frames": 1047,
+   "lines": [
+    {
+     "text": "Now let's build each one, and see if it closes.",
+     "caption": "Now let's build each one, and see if it closes.",
+     "file": "2026-10-30-geometric-triangle/audio/5d89b43e2bd294c0.wav",
+     "from": 0,
+     "frames": 95
+    },
+    {
+     "text": "With m equal to one, the short sides are one and forty-five. They can't reach!",
+     "caption": "With m equal to one, the short sides are one and forty-five. They can't reach!",
+     "file": "2026-10-30-geometric-triangle/audio/06651c13a93654dd.wav",
+     "from": 106,
+     "frames": 191
+    },
+    {
+     "text": "As m grows, both short sides grow too.",
+     "caption": "As m grows, both short sides grow too.",
+     "file": "2026-10-30-geometric-triangle/audio/f0d1bcb7fa35d78c.wav",
+     "from": 307,
+     "frames": 118
+    },
+    {
+     "text": "At twenty-seven, they add up to just under the longest side. So close!",
+     "caption": "At twenty-seven, they add up to just under the longest side. So close!",
+     "file": "2026-10-30-geometric-triangle/audio/08961ebc3ca8f817.wav",
+     "from": 435,
+     "frames": 177
+    },
+    {
+     "text": "At twenty-eight, they add up to just over the longest side. It closes!",
+     "caption": "At twenty-eight, they add up to just over the longest side. It closes!",
+     "file": "2026-10-30-geometric-triangle/audio/c45871361bd4f228.wav",
+     "from": 622,
+     "frames": 174
+    },
+    {
+     "text": "Bigger m makes both short sides even bigger. So every m after that works too.",
+     "caption": "Bigger m makes both short sides even bigger. So every m after that works too.",
+     "file": "2026-10-30-geometric-triangle/audio/1339de34adacc274.wav",
+     "from": 806,
+     "frames": 196
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6248,
+   "frames": 562,
+   "lines": [
+    {
+     "text": "So the good values of m go from twenty-eight all the way up to forty-four.",
+     "caption": "So the good values of m go from twenty-eight all the way up to forty-four.",
+     "file": "2026-10-30-geometric-triangle/audio/3a726d374b57be36.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "To count them, take forty-four minus twenty-eight, and add one for the first.",
+     "caption": "To count them, take forty-four minus twenty-eight, and add one for the first.",
+     "file": "2026-10-30-geometric-triangle/audio/c1bd21932de20b42.wav",
+     "from": 185,
+     "frames": 188
+    },
+    {
+     "text": "That's seventeen triangles, so the answer is Choice B.",
+     "caption": "That's seventeen triangles, so the answer is Choice B.",
+     "file": "2026-10-30-geometric-triangle/audio/5215f8b4f9d69050.wav",
+     "from": 382,
+     "frames": 129
+    }
+   ]
+  },
+  {
+   "id": "middle",
+   "kind": "scene",
+   "chapter": "Solution 2: the middle-side trick",
+   "from": 6810,
+   "frames": 1805,
+   "lines": [
+    {
+     "text": "Here's a faster way. In a geometric sequence, the middle term squared equals its two neighbors multiplied.",
+     "caption": "Here's a faster way. In a geometric sequence, the middle term squared equals its two neighbors multiplied.",
+     "file": "2026-10-30-geometric-triangle/audio/57dcbf6ac91e053e.wav",
+     "from": 0,
+     "frames": 219
+    },
+    {
+     "text": "Check: six squared is thirty-six, and four times nine is thirty-six too!",
+     "caption": "Check: six squared is thirty-six, and four times nine is thirty-six too!",
+     "file": "2026-10-30-geometric-triangle/audio/90164dd795bc3716.wav",
+     "from": 229,
+     "frames": 167
+    },
+    {
+     "text": "So the middle side squared equals the shortest side, times forty-five squared.",
+     "caption": "So the middle side squared equals the shortest side, times forty-five squared.",
+     "file": "2026-10-30-geometric-triangle/audio/6da3201cb555960b.wav",
+     "from": 406,
+     "frames": 177
+    },
+    {
+     "text": "Divide both sides by forty-five squared. The shortest side is the middle side over forty-five, all squared.",
+     "caption": "Divide both sides by forty-five squared. The shortest side is the middle side over forty-five, all squared.",
+     "file": "2026-10-30-geometric-triangle/audio/856f204ba39a789a.wav",
+     "from": 593,
+     "frames": 236
+    },
+    {
+     "text": "Three over two, squared, is nine over four. A fraction in lowest terms stays a fraction when squared.",
+     "caption": "Three over two, squared, is nine over four. A fraction in lowest terms stays a fraction when squared.",
+     "file": "2026-10-30-geometric-triangle/audio/3bdd3c9e22d25460.wav",
+     "from": 838,
+     "frames": 257
+    },
+    {
+     "text": "So the middle side over forty-five must be a whole number.",
+     "caption": "So the middle side over forty-five must be a whole number.",
+     "file": "2026-10-30-geometric-triangle/audio/58dbaf51330ff80f.wav",
+     "from": 1106,
+     "frames": 142
+    },
+    {
+     "text": "So the middle side is forty-five times m. And the shortest side is m squared!",
+     "caption": "So the middle side is forty-five times m. And the shortest side is m squared!",
+     "file": "2026-10-30-geometric-triangle/audio/cc9dd239b44ab12f.wav",
+     "from": 1258,
+     "frames": 200
+    },
+    {
+     "text": "Same sides as before! The triangle rule finishes the job.",
+     "caption": "Same sides as before! The triangle rule finishes the job.",
+     "file": "2026-10-30-geometric-triangle/audio/c0cb945d9000505f.wav",
+     "from": 1468,
+     "frames": 129
+    },
+    {
+     "text": "When would you pick this way? When you spot a middle term, it saves a few steps.",
+     "caption": "When would you pick this way? When you spot a middle term, it saves a few steps.",
+     "file": "2026-10-30-geometric-triangle/audio/a751abcfef61ad83.wav",
+     "from": 1606,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8615,
+   "frames": 1043,
+   "lines": [
+    {
+     "text": "Now let's check the wrong answers.",
+     "caption": "Now let's check the wrong answers.",
+     "file": "2026-10-30-geometric-triangle/audio/5950b15655f570fb.wav",
+     "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "Choice E, forty-four, counts every m. It forgets the triangle rule!",
+     "caption": "Choice E, forty-four, counts every m. It forgets the triangle rule!",
+     "file": "2026-10-30-geometric-triangle/audio/dce860caedeb81c1.wav",
+     "from": 91,
+     "frames": 158
+    },
+    {
+     "text": "Choice D, twenty-seven, counts the m values that FAIL. That's backwards.",
+     "caption": "Choice D, twenty-seven, counts the m values that FAIL. That's backwards.",
+     "file": "2026-10-30-geometric-triangle/audio/013d1fa4a3f65418.wav",
+     "from": 259,
+     "frames": 156
+    },
+    {
+     "text": "Choice A, sixteen, takes forty-four minus twenty-eight, and forgets to add one.",
+     "caption": "Choice A, sixteen, takes forty-four minus twenty-eight, and forgets to add one.",
+     "file": "2026-10-30-geometric-triangle/audio/9639a31707d4d829.wav",
+     "from": 425,
+     "frames": 197
+    },
+    {
+     "text": "Choice C, eighteen, also counts m equal to forty-five. But then all three sides are equal!",
+     "caption": "Choice C, eighteen, also counts m equal to forty-five. But then all three sides are equal!",
+     "file": "2026-10-30-geometric-triangle/audio/a75cca04af470923.wav",
+     "from": 632,
+     "frames": 209
+    },
+    {
+     "text": "Two great habits: check the triangle rule, and count both ends.",
+     "caption": "Two great habits: check the triangle rule, and count both ends.",
+     "file": "2026-10-30-geometric-triangle/audio/2331bd2c883d50ac.wav",
+     "from": 852,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a smaller triangle",
+   "from": 9658,
+   "frames": 408,
+   "lines": [
+    {
+     "text": "Your turn! Now the longest side is one hundred forty-four.",
+     "caption": "Your turn! Now the longest side is one hundred forty-four.",
+     "file": "2026-10-30-geometric-triangle/audio/cfdeae586522b02b.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "How many triangles are there now?",
+     "caption": "How many triangles are there now?",
+     "file": "2026-10-30-geometric-triangle/audio/2f22f00d9749c5f4.wav",
+     "from": 158,
+     "frames": 80
+    },
+    {
+     "text": "Here's a hint: one hundred forty-four is twelve squared.",
+     "caption": "Here's a hint: one hundred forty-four is twelve squared.",
+     "file": "2026-10-30-geometric-triangle/audio/5e67a3282548a554.wav",
+     "from": 248,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10066,
+   "frames": 396,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-geometric-triangle/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Your turn: the answer",
+   "from": 10462,
+   "frames": 1341,
+   "lines": [
+    {
+     "text": "Let's check. One hundred forty-four is four twos and two threes.",
+     "caption": "Let's check. One hundred forty-four is four twos and two threes.",
+     "file": "2026-10-30-geometric-triangle/audio/9fd55850a2a2db66.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "So q is one, two, three, four, six, or twelve. Each one divides twelve!",
+     "caption": "So q is one, two, three, four, six, or twelve. Each one divides twelve!",
+     "file": "2026-10-30-geometric-triangle/audio/9b4dd5fcf5f3ed71.wav",
+     "from": 211,
+     "frames": 275
+    },
+    {
+     "text": "So the fraction is m over twelve. It's less than one, so m stops at eleven.",
+     "caption": "So the fraction is m over twelve. It's less than one, so m stops at eleven.",
+     "file": "2026-10-30-geometric-triangle/audio/a39f905ffedf8245.wav",
+     "from": 496,
+     "frames": 204
+    },
+    {
+     "text": "When m is seven: forty-nine plus eighty-four is one hundred thirty-three. Too small!",
+     "caption": "When m is seven: forty-nine plus eighty-four is one hundred thirty-three. Too small!",
+     "file": "2026-10-30-geometric-triangle/audio/964577b2afb851c3.wav",
+     "from": 711,
+     "frames": 202
+    },
+    {
+     "text": "With m equal to eight: sixty-four plus ninety-six is one hundred sixty. It closes!",
+     "caption": "With m equal to eight: sixty-four plus ninety-six is one hundred sixty. It closes!",
+     "file": "2026-10-30-geometric-triangle/audio/edf215df4a8f7486.wav",
+     "from": 923,
+     "frames": 206
+    },
+    {
+     "text": "So the good values of m are eight to eleven. That's four triangles!",
+     "caption": "So the good values of m are eight to eleven. That's four triangles!",
+     "file": "2026-10-30-geometric-triangle/audio/5ef5a066e1d22910.wav",
+     "from": 1139,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11803,
+   "frames": 575,
+   "lines": [
+    {
+     "text": "In a geometric sequence, the middle term squared equals its two neighbors multiplied.",
+     "caption": "In a geometric sequence, the middle term squared equals its two neighbors multiplied.",
+     "file": "2026-10-30-geometric-triangle/audio/06bffa78c2b9214b.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "That tells you which sides can be whole. Then the triangle rule trims the list.",
+     "caption": "That tells you which sides can be whole. Then the triangle rule trims the list.",
+     "file": "2026-10-30-geometric-triangle/audio/564670d7358bbcd0.wav",
+     "from": 199,
+     "frames": 167
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-geometric-triangle/audio/31a6054d0b03b932.wav",
+     "from": 376,
+     "frames": 130
+    }
+   ]
+  }
+ ]
+}

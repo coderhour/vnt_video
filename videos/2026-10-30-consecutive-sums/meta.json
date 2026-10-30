@@ -1,0 +1,7 @@
+{
+ "title": "Which Numbers Are Sums of Consecutive Numbers? | AMC 8-Style Level 5",
+ "description": "Nine is four plus five, and ten is one plus two plus three plus four. But a few numbers refuse to be built this way! Vantee fills in a 1 to 50 board run by run, then uses blocks to show why only the powers of two fail, and gives you a 1 to 100 version to try yourself.\n\n0:00 Intro\n0:19 The question\n0:38 What are we asked?\n1:03 Try it yourself\n1:18 Solution 1: fill in the board\n2:58 Solution 2: the odd factor rule\n4:57 Common traps\n5:36 Your turn: one to one hundred\n6:00 One to one hundred: the answer\n6:34 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc8_mock_test_template:c2-274",
+ "posts": []
+}

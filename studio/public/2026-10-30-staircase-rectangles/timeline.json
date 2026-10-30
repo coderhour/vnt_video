@@ -1,0 +1,562 @@
+{
+ "fps": 30,
+ "durationInFrames": 12301,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 559,
+   "lines": [
+    {
+     "text": "Fifteen little squares, stacked like a staircase.",
+     "caption": "Fifteen little squares, stacked like a staircase.",
+     "file": "2026-10-30-staircase-rectangles/audio/c9216a592b535cc4.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "How many rectangles are hiding in here? Lots of kids say fifteen. <short pause> The real answer is way BIGGER.",
+     "caption": "How many rectangles are hiding in here? Lots of kids say fifteen. The real answer is way BIGGER.",
+     "file": "2026-10-30-staircase-rectangles/audio/77636fa8d6a9a784.wav",
+     "from": 133,
+     "frames": 254
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count them all, together.",
+     "caption": "Hi, I'm Vantee! Let's count them all, together.",
+     "file": "2026-10-30-staircase-rectangles/audio/e222a6747da61e87.wav",
+     "from": 397,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 559,
+   "frames": 795,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-staircase-rectangles/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 45
+    },
+    {
+     "text": "Fifteen unit squares, in rows of five, four, three, two, one.",
+     "caption": "Fifteen unit squares, in rows of five, four, three, two, one.",
+     "file": "2026-10-30-staircase-rectangles/audio/275ac7118ecd4570.wav",
+     "from": 55,
+     "frames": 213
+    },
+    {
+     "text": "How many rectangles of any size are in the figure?",
+     "caption": "How many rectangles of any size are in the figure?",
+     "file": "2026-10-30-staircase-rectangles/audio/ad4747654c34da1e.wav",
+     "from": 278,
+     "frames": 130
+    },
+    {
+     "text": "And remember, squares count as rectangles too.",
+     "caption": "And remember, squares count as rectangles too.",
+     "file": "2026-10-30-staircase-rectangles/audio/fe83c9640e351a9c.wav",
+     "from": 418,
+     "frames": 104
+    },
+    {
+     "text": "Is it fifteen, thirty-five, fifty-five, seventy, or seventy-five?",
+     "caption": "Is it fifteen, thirty-five, fifty-five, seventy, or seventy-five?",
+     "file": "2026-10-30-staircase-rectangles/audio/567701dde10ef031.wav",
+     "from": 532,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1354,
+   "frames": 918,
+   "lines": [
+    {
+     "text": "So what are we really looking for?",
+     "caption": "So what are we really looking for?",
+     "file": "2026-10-30-staircase-rectangles/audio/cf00bd321bc19d75.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "A rectangle here is a solid block of little squares.",
+     "caption": "A rectangle here is a solid block of little squares.",
+     "file": "2026-10-30-staircase-rectangles/audio/123dedbd69d4e3a7.wav",
+     "from": 89,
+     "frames": 144
+    },
+    {
+     "text": "It can be just one square, like this.",
+     "caption": "It can be just one square, like this.",
+     "file": "2026-10-30-staircase-rectangles/audio/36bc864d480dfba3.wav",
+     "from": 244,
+     "frames": 89
+    },
+    {
+     "text": "It can be a long strip, like this.",
+     "caption": "It can be a long strip, like this.",
+     "file": "2026-10-30-staircase-rectangles/audio/86827bad33f69e43.wav",
+     "from": 343,
+     "frames": 92
+    },
+    {
+     "text": "Or a big block, like this one.",
+     "caption": "Or a big block, like this one.",
+     "file": "2026-10-30-staircase-rectangles/audio/a51073f4d54a969c.wav",
+     "from": 445,
+     "frames": 60
+    },
+    {
+     "text": "But it has to stay inside the stairs. This one sticks out, so it doesn't count.",
+     "caption": "But it has to stay inside the stairs. This one sticks out, so it doesn't count.",
+     "file": "2026-10-30-staircase-rectangles/audio/0e63f1b6a4a18c30.wav",
+     "from": 515,
+     "frames": 150
+    },
+    {
+     "text": "Our job is to count them ALL, without missing any, and without counting any twice.",
+     "caption": "Our job is to count them ALL, without missing any, and without counting any twice.",
+     "file": "2026-10-30-staircase-rectangles/audio/f5110ed6eecc86d0.wav",
+     "from": 676,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2272,
+   "frames": 461,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-staircase-rectangles/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "flat",
+   "kind": "scene",
+   "chapter": "Solution 1: sort by height",
+   "from": 2733,
+   "frames": 1535,
+   "lines": [
+    {
+     "text": "Welcome back! Our first strategy is to sort the rectangles by height.",
+     "caption": "Welcome back! Our first strategy is to sort the rectangles by height.",
+     "file": "2026-10-30-staircase-rectangles/audio/6938dda017e8f9fd.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Let's start with the flat ones, just one row tall.",
+     "caption": "Let's start with the flat ones, just one row tall.",
+     "file": "2026-10-30-staircase-rectangles/audio/e5d6f7b01aafae3f.wav",
+     "from": 163,
+     "frames": 111
+    },
+    {
+     "text": "Look at the bottom row. It has five squares.",
+     "caption": "Look at the bottom row. It has five squares.",
+     "file": "2026-10-30-staircase-rectangles/audio/f3270d62d3d8d8b5.wav",
+     "from": 284,
+     "frames": 96
+    },
+    {
+     "text": "A strip one square long fits in five spots.",
+     "caption": "A strip one square long fits in five spots.",
+     "file": "2026-10-30-staircase-rectangles/audio/3eb626341deb590d.wav",
+     "from": 390,
+     "frames": 122
+    },
+    {
+     "text": "A strip two squares long fits in four spots.",
+     "caption": "A strip two squares long fits in four spots.",
+     "file": "2026-10-30-staircase-rectangles/audio/a7725e53a93b436b.wav",
+     "from": 522,
+     "frames": 130
+    },
+    {
+     "text": "Length three fits in three spots. Length four in two spots. Length five in one spot.",
+     "caption": "Length three fits in three spots. Length four in two spots. Length five in one spot.",
+     "file": "2026-10-30-staircase-rectangles/audio/ad71a5f72b0903e8.wav",
+     "from": 662,
+     "frames": 225
+    },
+    {
+     "text": "So a row of five holds five, plus four, plus three, plus two, plus one. That's fifteen.",
+     "caption": "So a row of five holds five, plus four, plus three, plus two, plus one. That's fifteen.",
+     "file": "2026-10-30-staircase-rectangles/audio/a9566e118a3f33ed.wav",
+     "from": 897,
+     "frames": 239
+    },
+    {
+     "text": "The same idea works for every row. The row of four holds ten. Then six, three, and one.",
+     "caption": "The same idea works for every row. The row of four holds ten. Then six, three, and one.",
+     "file": "2026-10-30-staircase-rectangles/audio/b95d89b32a6f528a.wav",
+     "from": 1146,
+     "frames": 238
+    },
+    {
+     "text": "Add up the rows: thirty-five.",
+     "caption": "Add up the rows: thirty-five.",
+     "file": "2026-10-30-staircase-rectangles/audio/3a33f3b206d53f1b.wav",
+     "from": 1394,
+     "frames": 87
+    }
+   ]
+  },
+  {
+   "id": "tall",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4268,
+   "frames": 1866,
+   "lines": [
+    {
+     "text": "Now for rectangles two rows tall.",
+     "caption": "Now for rectangles two rows tall.",
+     "file": "2026-10-30-staircase-rectangles/audio/89883096ccba5011.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "Can a two-row rectangle reach the fifth column? No! The second row has no square there.",
+     "caption": "Can a two-row rectangle reach the fifth column? No! The second row has no square there.",
+     "file": "2026-10-30-staircase-rectangles/audio/842014764bc3f746.wav",
+     "from": 103,
+     "frames": 212
+    },
+    {
+     "text": "So the bottom two rows act like a strip of four.",
+     "caption": "So the bottom two rows act like a strip of four.",
+     "file": "2026-10-30-staircase-rectangles/audio/a54e38c9fd8d2e5d.wav",
+     "from": 324,
+     "frames": 141
+    },
+    {
+     "text": "Here's the rule. A band of rows is only as wide as its TOP row.",
+     "caption": "Here's the rule. A band of rows is only as wide as its TOP row.",
+     "file": "2026-10-30-staircase-rectangles/audio/9735f2021c3e081e.wav",
+     "from": 475,
+     "frames": 173
+    },
+    {
+     "text": "The two-row bands are four, three, two, and one wide. So ten, plus six, plus three, plus one. Twenty!",
+     "caption": "The two-row bands are four, three, two, and one wide. So ten, plus six, plus three, plus one. Twenty!",
+     "file": "2026-10-30-staircase-rectangles/audio/c02c16c6605223d3.wav",
+     "from": 659,
+     "frames": 305
+    },
+    {
+     "text": "Three rows tall: six, plus three, plus one. That's ten.",
+     "caption": "Three rows tall: six, plus three, plus one. That's ten.",
+     "file": "2026-10-30-staircase-rectangles/audio/bc3d36b34a3d62c5.wav",
+     "from": 974,
+     "frames": 173
+    },
+    {
+     "text": "Four rows tall: three, plus one. That's four.",
+     "caption": "Four rows tall: three, plus one. That's four.",
+     "file": "2026-10-30-staircase-rectangles/audio/145331f5fb25f15f.wav",
+     "from": 1157,
+     "frames": 142
+    },
+    {
+     "text": "Five rows tall: just one, the tall column on the left.",
+     "caption": "Five rows tall: just one, the tall column on the left.",
+     "file": "2026-10-30-staircase-rectangles/audio/090c4513c1b4eda9.wav",
+     "from": 1309,
+     "frames": 137
+    },
+    {
+     "text": "Now add them all up. Thirty-five, plus twenty, plus ten, plus four, plus one. <short pause> That's seventy rectangles!",
+     "caption": "Now add them all up. Thirty-five, plus twenty, plus ten, plus four, plus one. That's seventy rectangles!",
+     "file": "2026-10-30-staircase-rectangles/audio/7fc7b23451ff10fb.wav",
+     "from": 1457,
+     "frames": 326
+    }
+   ]
+  },
+  {
+   "id": "corner",
+   "kind": "scene",
+   "chapter": "Solution 2: the corner trick",
+   "from": 6134,
+   "frames": 2727,
+   "lines": [
+    {
+     "text": "Now here's a faster way. I call it the corner trick.",
+     "caption": "Now here's a faster way. I call it the corner trick.",
+     "file": "2026-10-30-staircase-rectangles/audio/5a798cc7c4f453d6.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Every rectangle is set by two squares: its top-right square, and its bottom-left square.",
+     "caption": "Every rectangle is set by two squares: its top-right square, and its bottom-left square.",
+     "file": "2026-10-30-staircase-rectangles/audio/befa7ef121ecf334.wav",
+     "from": 134,
+     "frames": 207
+    },
+    {
+     "text": "So let's pick a top-right square. Say, the one in column three, row two.",
+     "caption": "So let's pick a top-right square. Say, the one in column three, row two.",
+     "file": "2026-10-30-staircase-rectangles/audio/d0f08deff776f39d.wav",
+     "from": 351,
+     "frames": 164
+    },
+    {
+     "text": "Where can the bottom-left square go? Anywhere in this block, up to our square.",
+     "caption": "Where can the bottom-left square go? Anywhere in this block, up to our square.",
+     "file": "2026-10-30-staircase-rectangles/audio/a6d5133144f80709.wav",
+     "from": 524,
+     "frames": 167
+    },
+    {
+     "text": "That's three columns times two rows. Six choices, so six rectangles! Even our square on its own counts.",
+     "caption": "That's three columns times two rows. Six choices, so six rectangles! Even our square on its own counts.",
+     "file": "2026-10-30-staircase-rectangles/audio/c4014d93722ab924.wav",
+     "from": 702,
+     "frames": 254
+    },
+    {
+     "text": "They all fit, because everything below and to the left of a square is inside the stairs.",
+     "caption": "They all fit, because everything below and to the left of a square is inside the stairs.",
+     "file": "2026-10-30-staircase-rectangles/audio/c37e4e4fbdc336e9.wav",
+     "from": 965,
+     "frames": 191
+    },
+    {
+     "text": "So each square gets its column number, times its row number. Let's write that in every square.",
+     "caption": "So each square gets its column number, times its row number. Let's write that in every square.",
+     "file": "2026-10-30-staircase-rectangles/audio/e7620f7fc72f0eec.wav",
+     "from": 1167,
+     "frames": 232
+    },
+    {
+     "text": "Now add each column. The first column is one, plus two, plus three, plus four, plus five. That's fifteen.",
+     "caption": "Now add each column. The first column is one, plus two, plus three, plus four, plus five. That's fifteen.",
+     "file": "2026-10-30-staircase-rectangles/audio/11f37ce820e836e1.wav",
+     "from": 1409,
+     "frames": 312
+    },
+    {
+     "text": "The second column is two, plus four, plus six, plus eight. That's twenty.",
+     "caption": "The second column is two, plus four, plus six, plus eight. That's twenty.",
+     "file": "2026-10-30-staircase-rectangles/audio/c8734b741494a979.wav",
+     "from": 1731,
+     "frames": 218
+    },
+    {
+     "text": "Then three, plus six, plus nine is eighteen. Four plus eight is twelve. And the last column is five.",
+     "caption": "Then three, plus six, plus nine is eighteen. Four plus eight is twelve. And the last column is five.",
+     "file": "2026-10-30-staircase-rectangles/audio/0eba646c4cceb324.wav",
+     "from": 1959,
+     "frames": 262
+    },
+    {
+     "text": "Fifteen, plus twenty, plus eighteen, plus twelve, plus five. Seventy again!",
+     "caption": "Fifteen, plus twenty, plus eighteen, plus twelve, plus five. Seventy again!",
+     "file": "2026-10-30-staircase-rectangles/audio/cb85b1962e2cde55.wav",
+     "from": 2231,
+     "frames": 232
+    },
+    {
+     "text": "When should you use the corner trick? When the stairs get tall. You just fill in a times table!",
+     "caption": "When should you use the corner trick? When the stairs get tall. You just fill in a times table!",
+     "file": "2026-10-30-staircase-rectangles/audio/b75ef57888130cee.wav",
+     "from": 2473,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8861,
+   "frames": 967,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-staircase-rectangles/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "Fifteen counts only the little unit squares.",
+     "caption": "Fifteen counts only the little unit squares.",
+     "file": "2026-10-30-staircase-rectangles/audio/3ed6cec283da398c.wav",
+     "from": 150,
+     "frames": 116
+    },
+    {
+     "text": "Thirty-five counts only the flat strips, one row tall.",
+     "caption": "Thirty-five counts only the flat strips, one row tall.",
+     "file": "2026-10-30-staircase-rectangles/audio/3e1238f8c4d99197.wav",
+     "from": 275,
+     "frames": 126
+    },
+    {
+     "text": "Fifty-five counts only the thin strips, lying flat or standing up. It misses the fat blocks.",
+     "caption": "Fifty-five counts only the thin strips, lying flat or standing up. It misses the fat blocks.",
+     "file": "2026-10-30-staircase-rectangles/audio/c52f9788e8d71323.wav",
+     "from": 412,
+     "frames": 238
+    },
+    {
+     "text": "Seventy-five is too many. Stretch the bottom band of two rows to five wide, and you add five that stick out.",
+     "caption": "Seventy-five is too many. Stretch the bottom band of two rows to five wide, and you add five that stick out.",
+     "file": "2026-10-30-staircase-rectangles/audio/0798cc504c162dfe.wav",
+     "from": 660,
+     "frames": 248
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a taller staircase",
+   "from": 9828,
+   "frames": 480,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a taller staircase.",
+     "caption": "Ready for a challenge? Here's a taller staircase.",
+     "file": "2026-10-30-staircase-rectangles/audio/58b7d36421682556.wav",
+     "from": 0,
+     "frames": 99
+    },
+    {
+     "text": "Now the rows have six, five, four, three, two, and one squares.",
+     "caption": "Now the rows have six, five, four, three, two, and one squares.",
+     "file": "2026-10-30-staircase-rectangles/audio/6aeb8c4aabf4a517.wav",
+     "from": 109,
+     "frames": 184
+    },
+    {
+     "text": "How many rectangles are in this one?",
+     "caption": "How many rectangles are in this one?",
+     "file": "2026-10-30-staircase-rectangles/audio/cbebe2ca6cacd062.wav",
+     "from": 303,
+     "frames": 75
+    },
+    {
+     "text": "Use the corner trick!",
+     "caption": "Use the corner trick!",
+     "file": "2026-10-30-staircase-rectangles/audio/882d58e7cd77b89a.wav",
+     "from": 388,
+     "frames": 53
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10308,
+   "frames": 330,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-staircase-rectangles/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Taller staircase: the answer",
+   "from": 10638,
+   "frames": 1035,
+   "lines": [
+    {
+     "text": "Let's check. In every square, write its column number times its row number.",
+     "caption": "Let's check. In every square, write its column number times its row number.",
+     "file": "2026-10-30-staircase-rectangles/audio/49d7724d8ca8c0e4.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "Add each column: twenty-one, thirty, thirty, twenty-four, fifteen, six.",
+     "caption": "Add each column: twenty-one, thirty, thirty, twenty-four, fifteen, six.",
+     "file": "2026-10-30-staircase-rectangles/audio/7f23ee78d7404eb4.wav",
+     "from": 182,
+     "frames": 273
+    },
+    {
+     "text": "Twenty-one, plus thirty, plus thirty, plus twenty-four, plus fifteen, plus six. <short pause> That's one hundred twenty-six!",
+     "caption": "Twenty-one, plus thirty, plus thirty, plus twenty-four, plus fifteen, plus six. That's one hundred twenty-six!",
+     "file": "2026-10-30-staircase-rectangles/audio/033cfba946b432d2.wav",
+     "from": 465,
+     "frames": 333
+    },
+    {
+     "text": "If you found all one hundred twenty-six rectangles, amazing work!",
+     "caption": "If you found all one hundred twenty-six rectangles, amazing work!",
+     "file": "2026-10-30-staircase-rectangles/audio/d25a9a2dd8976739.wav",
+     "from": 808,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11673,
+   "frames": 628,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-staircase-rectangles/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "Every rectangle is pinned down by its top-right and bottom-left squares.",
+     "caption": "Every rectangle is pinned down by its top-right and bottom-left squares.",
+     "file": "2026-10-30-staircase-rectangles/audio/93d6e0b2a6356e76.wav",
+     "from": 90,
+     "frames": 153
+    },
+    {
+     "text": "For each top-right square, count spots for the bottom-left, then add.",
+     "caption": "For each top-right square, count spots for the bottom-left, then add.",
+     "file": "2026-10-30-staircase-rectangles/audio/b8ac781bc13e7eaa.wav",
+     "from": 253,
+     "frames": 160
+    },
+    {
+     "text": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "file": "2026-10-30-staircase-rectangles/audio/df39d3330a3a433f.wav",
+     "from": 423,
+     "frames": 122
+    }
+   ]
+  }
+ ]
+}

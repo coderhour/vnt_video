@@ -1,0 +1,163 @@
+# Never Three in a Row? | AMC 8-Style Level 5
+
+## Intro
+
+Flip a coin eight times. Will the same side come up three times in a row?
+
+Most people guess that's rare. But it happens almost three times out of four!
+
+Hi there, I'm Vantee! Let's count how often it does NOT happen.
+
+## The question
+
+Here's the question.
+
+A fair coin is flipped eight times.
+
+What is the probability that the same side never comes up three times in a row?
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+Let's break it down. Each flip is heads or tails.
+
+Each flip doubles the choices, so eight flips give two hundred fifty-six outcomes.
+
+This outcome is good. No side comes up three times in a row.
+
+This outcome is bad. It has three heads in a row.
+
+Three tails in a row is just as bad.
+
+Every outcome is equally likely, so count the good ones and divide by two hundred fifty-six.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: build it flip by flip
+
+Welcome back! Let's start small, and build up one flip at a time.
+
+A streak is a run of the same side, like these two heads.
+
+We'll call each outcome a string. In a good one, every streak is one or two flips long.
+
+With one flip, there are two good strings. With two flips, all four strings are good.
+
+Now three flips. A string can end with a single: one flip of the other side, added to a good two-flip string.
+
+It has to be the other side, or that streak would get longer.
+
+Or it can end with a double: two flips of the other side, added to a good one-flip string.
+
+Four plus two gives six good strings. Only the two triples are missing!
+
+The same rule works for every length.
+
+Each count is the one before it, plus the one before that.
+
+Four plus six is ten. Six plus ten is sixteen.
+
+Then twenty-six, forty-two, and finally sixty-eight!
+
+So sixty-eight of the two hundred fifty-six outcomes are good.
+
+Sixty-eight over two hundred fifty-six simplifies to seventeen over sixty-four.
+
+That's Choice D, about twenty-seven percent!
+
+## Solution 2: cut it into streaks
+
+Here's a second way. Let's cut a good outcome into its streaks.
+
+This one is a double, a single, a double, another double, and a single.
+
+Write the lengths as blocks. Together they cover all eight coin flips.
+
+Now go backwards. Pick the blocks, and pick the first side.
+
+The sides must take turns, so the whole string is fixed!
+
+So we count the block patterns, then double it, for heads or tails first.
+
+Let's sort the patterns by how many doubles they have.
+
+No doubles means eight single blocks. That's just one pattern.
+
+One double makes seven blocks. The double can go in any of the seven places.
+
+With two doubles, we have six blocks. Pick two of the six to be doubles.
+
+There are six choices for the first double, and five for the second.
+
+But that counts each pair twice. Half of thirty is fifteen ways.
+
+Three doubles make five blocks. Pick two singles: five, then four. Half of twenty is ten ways.
+
+Four doubles: just one pattern.
+
+One plus seven plus fifteen plus ten plus one is thirty-four patterns.
+
+Double it for the first side: sixty-eight good strings again. It matches!
+
+Here's a fun surprise. Count the patterns for shorter strings.
+
+You get the Fibonacci numbers! Each one is the sum of the two before it.
+
+Double them, and you get the table from Solution 1.
+
+So when would you pick each way? The table is fastest for long strings.
+
+The blocks show WHY it works, and make a great double-check.
+
+## Common traps
+
+Choice B is thirty-four over two hundred fifty-six. It forgets the first side.
+
+Choice E only stops three heads in a row. It still counts strings like this, with three tails.
+
+Choice A, one over eight, is the chance that three given flips are all heads. Wrong question!
+
+Choice C, one over four, is the chance that three given flips all match. Also the wrong question.
+
+So here's a great habit: check the rule for BOTH sides, and count every starting choice.
+
+## Your turn: nine flips
+
+Ready for a challenge? This time, flip the coin nine times.
+
+What is the probability that the same side never comes up three times in a row?
+
+Pause the video, and go for it!
+
+*(Pause and try it: 10 s countdown)*
+
+## Nine flips: the answer
+
+Let's check. The table only needs one more step.
+
+Forty-two plus sixty-eight gives one hundred ten good strings in all.
+
+Nine flips give five hundred twelve outcomes, double the last time.
+
+So the probability is one hundred ten over five hundred twelve.
+
+Divide both numbers by two, and it's fifty-five over two hundred fifty-six!
+
+Check with blocks: one plus eight plus twenty-one plus twenty plus five is fifty-five patterns.
+
+If you found fifty-five over two hundred fifty-six, amazing work!
+
+## Recap
+
+Here's the big idea to remember.
+
+Cut each outcome into streaks, and count the patterns of streak lengths.
+
+Then multiply by two, for heads or tails first.
+
+I'm Vantee. Keep exploring, and I'll see you next time!

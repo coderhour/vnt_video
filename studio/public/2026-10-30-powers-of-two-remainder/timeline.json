@@ -1,0 +1,569 @@
+{
+ "fps": 30,
+ "durationInFrames": 12195,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 508,
+   "lines": [
+    {
+     "text": "Start with one. Keep doubling, and add up one hundred numbers.",
+     "caption": "Start with one. Keep doubling, and add up one hundred numbers.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/54b0a5cbc8be5cfd.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "The total is thirty-one digits long! <short pause> Yet we can find its remainder in our heads.",
+     "caption": "The total is thirty-one digits long! Yet we can find its remainder in our heads.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/4750c13b60dc6ee6.wav",
+     "from": 165,
+     "frames": 192
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack this one together.",
+     "caption": "Hi, I'm Vantee! Let's crack this one together.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/b53a45a233d1900d.wav",
+     "from": 368,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 508,
+   "frames": 757,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 50
+    },
+    {
+     "text": "Add one, plus two, plus four, plus eight, and keep doubling.",
+     "caption": "Add one, plus two, plus four, plus eight, and keep doubling.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/88c5fc27ffbc1dc7.wav",
+     "from": 59,
+     "frames": 185
+    },
+    {
+     "text": "The last number is ninety-nine twos multiplied together.",
+     "caption": "The last number is ninety-nine twos multiplied together.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/75690c38f8168e42.wav",
+     "from": 255,
+     "frames": 135
+    },
+    {
+     "text": "What is the remainder when this sum is divided by seven?",
+     "caption": "What is the remainder when this sum is divided by seven?",
+     "file": "2026-10-30-powers-of-two-remainder/audio/cce011a9539fdc52.wav",
+     "from": 399,
+     "frames": 128
+    },
+    {
+     "text": "Is it zero, one, two, four, or six?",
+     "caption": "Is it zero, one, two, four, or six?",
+     "file": "2026-10-30-powers-of-two-remainder/audio/3c3579e7be93c73a.wav",
+     "from": 537,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1265,
+   "frames": 1391,
+   "lines": [
+    {
+     "text": "So what are we really looking for?",
+     "caption": "So what are we really looking for?",
+     "file": "2026-10-30-powers-of-two-remainder/audio/cf00bd321bc19d75.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "The remainder is what's left over after taking out all the sevens.",
+     "caption": "The remainder is what's left over after taking out all the sevens.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/90a1382ebd52d485.wav",
+     "from": 90,
+     "frames": 140
+    },
+    {
+     "text": "Take twenty, for example. Two sevens make fourteen, and six is left over.",
+     "caption": "Take twenty, for example. Two sevens make fourteen, and six is left over.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/2421bb2bbdfbdb42.wav",
+     "from": 240,
+     "frames": 182
+    },
+    {
+     "text": "Now let's count the terms. The little number on top is the power.",
+     "caption": "Now let's count the terms. The little number on top is the power.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/abfe0d88ecc50632.wav",
+     "from": 431,
+     "frames": 140
+    },
+    {
+     "text": "Going down, each power halves: four, then two, then one. So one has power zero.",
+     "caption": "Going down, each power halves: four, then two, then one. So one has power zero.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/897a494d3e5afbb4.wav",
+     "from": 581,
+     "frames": 248
+    },
+    {
+     "text": "So the powers go from zero up to ninety-nine.",
+     "caption": "So the powers go from zero up to ninety-nine.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/7ebf7ef6233afdb2.wav",
+     "from": 839,
+     "frames": 117
+    },
+    {
+     "text": "That's one, plus ninety-nine more. One hundred terms, not ninety-nine!",
+     "caption": "That's one, plus ninety-nine more. One hundred terms, not ninety-nine!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/479c3cda7a45a0bf.wav",
+     "from": 966,
+     "frames": 203
+    },
+    {
+     "text": "The total is far too big to work out. We need a pattern.",
+     "caption": "The total is far too big to work out. We need a pattern.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/59ec90eff51f9fb8.wav",
+     "from": 1179,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2656,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "cycle",
+   "kind": "scene",
+   "chapter": "Solution 1: find the cycle",
+   "from": 3118,
+   "frames": 1642,
+   "lines": [
+    {
+     "text": "Welcome back! Our strategy: look for a pattern in the remainders.",
+     "caption": "Welcome back! Our strategy: look for a pattern in the remainders.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/d67f36a8857155ba.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "One, two and four are smaller than seven. They leave one, two and four.",
+     "caption": "One, two and four are smaller than seven. They leave one, two and four.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/3449ded74e7c119e.wav",
+     "from": 175,
+     "frames": 185
+    },
+    {
+     "text": "Eight is seven plus one. So eight leaves one!",
+     "caption": "Eight is seven plus one. So eight leaves one!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/bc3e3274b6f73389.wav",
+     "from": 371,
+     "frames": 140
+    },
+    {
+     "text": "Sixteen is fourteen plus two. It leaves two.",
+     "caption": "Sixteen is fourteen plus two. It leaves two.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/f5c56792716f3f58.wav",
+     "from": 520,
+     "frames": 130
+    },
+    {
+     "text": "Thirty-two is twenty-eight plus four. It leaves four.",
+     "caption": "Thirty-two is twenty-eight plus four. It leaves four.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/3843b135b77bfb1f.wav",
+     "from": 660,
+     "frames": 130
+    },
+    {
+     "text": "See the cycle? One, two, four, and then back to one.",
+     "caption": "See the cycle? One, two, four, and then back to one.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/15ca9bcd9ab2960b.wav",
+     "from": 801,
+     "frames": 171
+    },
+    {
+     "text": "Here's why. Each power is double the last, so its remainder doubles too.",
+     "caption": "Here's why. Each power is double the last, so its remainder doubles too.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/12235a5b0a4bf761.wav",
+     "from": 982,
+     "frames": 165
+    },
+    {
+     "text": "When it gets too big, we take out a seven. Double four is eight, and eight leaves one.",
+     "caption": "When it gets too big, we take out a seven. Double four is eight, and eight leaves one.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/a4a5da97982e2324.wav",
+     "from": 1156,
+     "frames": 186
+    },
+    {
+     "text": "Now add one cycle. One plus two plus four is seven. Nothing left over!",
+     "caption": "Now add one cycle. One plus two plus four is seven. Nothing left over!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/60ae873d5623a0e1.wav",
+     "from": 1353,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "groups",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4760,
+   "frames": 1244,
+   "lines": [
+    {
+     "text": "So let's split our hundred terms into groups of three.",
+     "caption": "So let's split our hundred terms into groups of three.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/02df66df62e3af8f.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "Every group leaves one, two and four. That's seven, a perfect fit.",
+     "caption": "Every group leaves one, two and four. That's seven, a perfect fit.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/a94cc4d7af69b5ac.wav",
+     "from": 125,
+     "frames": 165
+    },
+    {
+     "text": "Ninety-nine terms make thirty-three groups. Together, they leave nothing.",
+     "caption": "Ninety-nine terms make thirty-three groups. Together, they leave nothing.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/fa0f4f8dd1aa63bc.wav",
+     "from": 300,
+     "frames": 168
+    },
+    {
+     "text": "One term is left on its own. Its power is ninety-nine.",
+     "caption": "One term is left on its own. Its power is ninety-nine.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/03160a204738dadf.wav",
+     "from": 478,
+     "frames": 131
+    },
+    {
+     "text": "Powers zero, three, six, and so on, start a cycle. They all leave one.",
+     "caption": "Powers zero, three, six, and so on, start a cycle. They all leave one.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/a9b5de3083141026.wav",
+     "from": 619,
+     "frames": 219
+    },
+    {
+     "text": "Ninety-nine is a multiple of three. So the last term leaves one.",
+     "caption": "Ninety-nine is a multiple of three. So the last term leaves one.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/316f9f591f88e60c.wav",
+     "from": 848,
+     "frames": 159
+    },
+    {
+     "text": "So the whole sum leaves a remainder of one. The answer is B!",
+     "caption": "So the whole sum leaves a remainder of one. The answer is B!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/93bb5ddf77355f79.wav",
+     "from": 1017,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "doubling",
+   "kind": "scene",
+   "chapter": "Solution 2: the doubling trick",
+   "from": 6004,
+   "frames": 1814,
+   "lines": [
+    {
+     "text": "Here's a clever second way. Let's add one more one to our sum.",
+     "caption": "Here's a clever second way. Let's add one more one to our sum.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/453e6c4c830de666.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "One plus one is two. Two plus two is four. Four plus four is eight.",
+     "caption": "One plus one is two. Two plus two is four. Four plus four is eight.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/1ba493af4c0070d6.wav",
+     "from": 184,
+     "frames": 222
+    },
+    {
+     "text": "It keeps snowballing, all the way to the end.",
+     "caption": "It keeps snowballing, all the way to the end.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/91ae560998cb50f3.wav",
+     "from": 416,
+     "frames": 108
+    },
+    {
+     "text": "The total becomes one hundred twos multiplied together.",
+     "caption": "The total becomes one hundred twos multiplied together.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/6f21547c98abcd8c.wav",
+     "from": 535,
+     "frames": 138
+    },
+    {
+     "text": "So our sum is that big number, minus one.",
+     "caption": "So our sum is that big number, minus one.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/90401abd15f56bf7.wav",
+     "from": 683,
+     "frames": 117
+    },
+    {
+     "text": "Now, eight leaves one. So when we only care about sevens, times eight acts like times one!",
+     "caption": "Now, eight leaves one. So when we only care about sevens, times eight acts like times one!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/63794f7fb2bdfdae.wav",
+     "from": 810,
+     "frames": 224
+    },
+    {
+     "text": "Ninety-nine twos make thirty-three eights. So that part leaves one.",
+     "caption": "Ninety-nine twos make thirty-three eights. So that part leaves one.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/01c9781afb317010.wav",
+     "from": 1044,
+     "frames": 161
+    },
+    {
+     "text": "One more two doubles it. So one hundred twos leave two.",
+     "caption": "One more two doubles it. So one hundred twos leave two.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/7fcfca1a63dcfb09.wav",
+     "from": 1215,
+     "frames": 167
+    },
+    {
+     "text": "Take away one, and the remainder is one. Same answer!",
+     "caption": "Take away one, and the remainder is one. Same answer!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/ffee79290289d408.wav",
+     "from": 1392,
+     "frames": 137
+    },
+    {
+     "text": "When would you pick this way? When every term doubles, this trick turns the sum into one power.",
+     "caption": "When would you pick this way? When every term doubles, this trick turns the sum into one power.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/56a85c28b5585b4a.wav",
+     "from": 1540,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7818,
+   "frames": 1156,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Zero is what you get with only ninety-nine terms. Don't forget the last one!",
+     "caption": "Zero is what you get with only ninety-nine terms. Don't forget the last one!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/9f0977a894f1e8b3.wav",
+     "from": 134,
+     "frames": 160
+    },
+    {
+     "text": "Two is the remainder of the big power, before taking away one.",
+     "caption": "Two is the remainder of the big power, before taking away one.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/653920cb2aa3bbfc.wav",
+     "from": 304,
+     "frames": 132
+    },
+    {
+     "text": "Four and six can never happen. Look at the running totals.",
+     "caption": "Four and six can never happen. Look at the running totals.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/0ccfb750ff825a69.wav",
+     "from": 447,
+     "frames": 126
+    },
+    {
+     "text": "One, three, seven, fifteen, thirty-one, sixty-three. They only leave one, three, or zero.",
+     "caption": "One, three, seven, fifteen, thirty-one, sixty-three. They only leave one, three, or zero.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/43424533f0dd53bb.wav",
+     "from": 583,
+     "frames": 333
+    },
+    {
+     "text": "So here's a great habit. Count your terms carefully, starting from power zero.",
+     "caption": "So here's a great habit. Count your terms carefully, starting from power zero.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/07ea9dfd8fed3919.wav",
+     "from": 926,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: divide by five",
+   "from": 8974,
+   "frames": 437,
+   "lines": [
+    {
+     "text": "Ready for a challenge? This time, the sum stops at power fifty.",
+     "caption": "Ready for a challenge? This time, the sum stops at power fifty.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/87a17edeb6c2eba5.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "And we divide by five. What is the remainder?",
+     "caption": "And we divide by five. What is the remainder?",
+     "file": "2026-10-30-powers-of-two-remainder/audio/8d3931aac023f580.wav",
+     "from": 160,
+     "frames": 118
+    },
+    {
+     "text": "Use the same plan. Find the cycle first!",
+     "caption": "Use the same plan. Find the cycle first!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/c8a2d4e84dbb51ca.wav",
+     "from": 288,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9411,
+   "frames": 461,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 77
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Divide by five: the answer",
+   "from": 9872,
+   "frames": 1737,
+   "lines": [
+    {
+     "text": "Let's check. Divided by five, the powers leave one, two, four, three, and then one again.",
+     "caption": "Let's check. Divided by five, the powers leave one, two, four, three, and then one again.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/e569f48f26dfe401.wav",
+     "from": 0,
+     "frames": 287
+    },
+    {
+     "text": "This cycle is four long. One plus two plus four plus three is ten. That's two fives!",
+     "caption": "This cycle is four long. One plus two plus four plus three is ten. That's two fives!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/e87011414bb397d5.wav",
+     "from": 297,
+     "frames": 254
+    },
+    {
+     "text": "From power zero to power fifty, there are fifty-one terms.",
+     "caption": "From power zero to power fifty, there are fifty-one terms.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/c9efb09881793694.wav",
+     "from": 561,
+     "frames": 142
+    },
+    {
+     "text": "Fifty-one is twelve fours, plus three. So forty-eight terms make twelve full groups. They leave nothing.",
+     "caption": "Fifty-one is twelve fours, plus three. So forty-eight terms make twelve full groups. They leave nothing.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/b471a4ed167c6847.wav",
+     "from": 713,
+     "frames": 263
+    },
+    {
+     "text": "Three terms are left over, with powers forty-eight, forty-nine and fifty.",
+     "caption": "Three terms are left over, with powers forty-eight, forty-nine and fifty.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/1664cf43f7181bf7.wav",
+     "from": 986,
+     "frames": 176
+    },
+    {
+     "text": "Forty-eight is a multiple of four, so power forty-eight starts a new cycle.",
+     "caption": "Forty-eight is a multiple of four, so power forty-eight starts a new cycle.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/a0b5a7d1af8e568b.wav",
+     "from": 1172,
+     "frames": 173
+    },
+    {
+     "text": "They leave one, two and four. That adds up to seven, and seven leaves two!",
+     "caption": "They leave one, two and four. That adds up to seven, and seven leaves two!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/d0bb03cd3be066ca.wav",
+     "from": 1356,
+     "frames": 197
+    },
+    {
+     "text": "If you found a remainder of two, amazing work!",
+     "caption": "If you found a remainder of two, amazing work!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/03d0feabf84db4f1.wav",
+     "from": 1563,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11609,
+   "frames": 586,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 72
+    },
+    {
+     "text": "Find the cycle of remainders. Check if one full cycle adds up to a multiple of the divisor.",
+     "caption": "Find the cycle of remainders. Check if one full cycle adds up to a multiple of the divisor.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/567eee1813747b1c.wav",
+     "from": 83,
+     "frames": 202
+    },
+    {
+     "text": "Then deal with the leftover terms.",
+     "caption": "Then deal with the leftover terms.",
+     "file": "2026-10-30-powers-of-two-remainder/audio/ff4db836e8191862.wav",
+     "from": 295,
+     "frames": 74
+    },
+    {
+     "text": "I'm Vantee. Keep spotting patterns, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep spotting patterns, and I'll see you next time!",
+     "file": "2026-10-30-powers-of-two-remainder/audio/bf64a12bc7648087.wav",
+     "from": 379,
+     "frames": 124
+    }
+   ]
+  }
+ ]
+}

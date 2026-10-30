@@ -1,0 +1,597 @@
+{
+ "fps": 30,
+ "durationInFrames": 12816,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 556,
+   "lines": [
+    {
+     "text": "Four brackets, all multiplied together. Do you really have to multiply it all out?",
+     "caption": "Four brackets, all multiplied together. Do you really have to multiply it all out?",
+     "file": "2026-10-30-telescoping-product/audio/e879810091e1c6d9.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "Most kids start multiplying, and the numbers explode. <short pause> But there's a trick that makes it collapse!",
+     "caption": "Most kids start multiplying, and the numbers explode. But there's a trick that makes it collapse!",
+     "file": "2026-10-30-telescoping-product/audio/1903389dd03483cd.wav",
+     "from": 193,
+     "frames": 202
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find out how.",
+     "caption": "Hi, I'm Vantee! Let's find out how.",
+     "file": "2026-10-30-telescoping-product/audio/3ed95e441a971988.wav",
+     "from": 405,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 556,
+   "frames": 638,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-telescoping-product/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 45
+    },
+    {
+     "text": "What is one plus one over two, times one plus one over four,",
+     "caption": "What is one plus one over two, times one plus one over four,",
+     "file": "2026-10-30-telescoping-product/audio/ff3d8dbbe1c22632.wav",
+     "from": 54,
+     "frames": 173
+    },
+    {
+     "text": "times one plus one over sixteen, times one plus one over two hundred fifty-six?",
+     "caption": "times one plus one over sixteen, times one plus one over two hundred fifty-six?",
+     "file": "2026-10-30-telescoping-product/audio/f1d2825cf76da178.wav",
+     "from": 238,
+     "frames": 171
+    },
+    {
+     "text": "Here are the five choices. Some of these numbers are huge!",
+     "caption": "Here are the five choices. Some of these numbers are huge!",
+     "file": "2026-10-30-telescoping-product/audio/3d69f52ac65ccfd7.wav",
+     "from": 419,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1194,
+   "frames": 1110,
+   "lines": [
+    {
+     "text": "So what are we really looking for?",
+     "caption": "So what are we really looking for?",
+     "file": "2026-10-30-telescoping-product/audio/cf00bd321bc19d75.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "Four brackets, each one plus a fraction. We multiply them all.",
+     "caption": "Four brackets, each one plus a fraction. We multiply them all.",
+     "file": "2026-10-30-telescoping-product/audio/6d8fd0a324eac78e.wav",
+     "from": 99,
+     "frames": 141
+    },
+    {
+     "text": "Look at the bottom numbers: two, four, sixteen, two hundred fifty-six.",
+     "caption": "Look at the bottom numbers: two, four, sixteen, two hundred fifty-six.",
+     "file": "2026-10-30-telescoping-product/audio/88bd48c3aa8e959e.wav",
+     "from": 250,
+     "frames": 207
+    },
+    {
+     "text": "Each one is the one before it, squared!",
+     "caption": "Each one is the one before it, squared!",
+     "file": "2026-10-30-telescoping-product/audio/70aabca3c2fd2af2.wav",
+     "from": 467,
+     "frames": 92
+    },
+    {
+     "text": "Two squared is four. Four squared is sixteen. Sixteen squared is two hundred fifty-six.",
+     "caption": "Two squared is four. Four squared is sixteen. Sixteen squared is two hundred fifty-six.",
+     "file": "2026-10-30-telescoping-product/audio/86c64764ad29516f.wav",
+     "from": 569,
+     "frames": 225
+    },
+    {
+     "text": "The first bracket is three over two, and the rest are bigger than one.",
+     "caption": "The first bracket is three over two, and the rest are bigger than one.",
+     "file": "2026-10-30-telescoping-product/audio/f1afe4c5c49069fb.wav",
+     "from": 803,
+     "frames": 137
+    },
+    {
+     "text": "So the answer is bigger than three over two.",
+     "caption": "So the answer is bigger than three over two.",
+     "file": "2026-10-30-telescoping-product/audio/1ca27285a7a3a174.wav",
+     "from": 951,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2304,
+   "frames": 465,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-telescoping-product/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "sol1",
+   "kind": "scene",
+   "chapter": "Solution 1: spot the pattern",
+   "from": 2769,
+   "frames": 1715,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start the honest way: multiply one bracket at a time.",
+     "caption": "Welcome back! Let's start the honest way: multiply one bracket at a time.",
+     "file": "2026-10-30-telescoping-product/audio/9b51f7e01ddae684.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "One plus one over two is three over two.",
+     "caption": "One plus one over two is three over two.",
+     "file": "2026-10-30-telescoping-product/audio/2f5992b4e9e94c16.wav",
+     "from": 181,
+     "frames": 119
+    },
+    {
+     "text": "Times five over four. Three times five is fifteen, and two times four is eight.",
+     "caption": "Times five over four. Three times five is fifteen, and two times four is eight.",
+     "file": "2026-10-30-telescoping-product/audio/c6b82cead641ba05.wav",
+     "from": 310,
+     "frames": 214
+    },
+    {
+     "text": "So we have fifteen over eight.",
+     "caption": "So we have fifteen over eight.",
+     "file": "2026-10-30-telescoping-product/audio/43191b5c8aecd023.wav",
+     "from": 534,
+     "frames": 92
+    },
+    {
+     "text": "Times seventeen over sixteen. Fifteen times seventeen is two hundred fifty-five.",
+     "caption": "Times seventeen over sixteen. Fifteen times seventeen is two hundred fifty-five.",
+     "file": "2026-10-30-telescoping-product/audio/50bfffcd4dfd44c8.wav",
+     "from": 636,
+     "frames": 209
+    },
+    {
+     "text": "Eight times sixteen is one hundred twenty-eight.",
+     "caption": "Eight times sixteen is one hundred twenty-eight.",
+     "file": "2026-10-30-telescoping-product/audio/658d856c95b2833c.wav",
+     "from": 855,
+     "frames": 111
+    },
+    {
+     "text": "Now look at the tops: three, fifteen, two hundred fifty-five.",
+     "caption": "Now look at the tops: three, fifteen, two hundred fifty-five.",
+     "file": "2026-10-30-telescoping-product/audio/51caa46eb7f89b3a.wav",
+     "from": 976,
+     "frames": 173
+    },
+    {
+     "text": "Each top is ONE less than double its bottom!",
+     "caption": "Each top is ONE less than double its bottom!",
+     "file": "2026-10-30-telescoping-product/audio/33440713bc8fa65c.wav",
+     "from": 1159,
+     "frames": 110
+    },
+    {
+     "text": "So each answer is a little under two.",
+     "caption": "So each answer is a little under two.",
+     "file": "2026-10-30-telescoping-product/audio/d1bde7e154610333.wav",
+     "from": 1279,
+     "frames": 117
+    },
+    {
+     "text": "Two minus one over two. Two minus one over eight. Two minus one over one hundred twenty-eight.",
+     "caption": "Two minus one over two. Two minus one over eight. Two minus one over one hundred twenty-eight.",
+     "file": "2026-10-30-telescoping-product/audio/e5309c41e41acb26.wav",
+     "from": 1406,
+     "frames": 256
+    }
+   ]
+  },
+  {
+   "id": "sol1b",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4484,
+   "frames": 1556,
+   "lines": [
+    {
+     "text": "Now the last bracket: times two hundred fifty-seven over two hundred fifty-six.",
+     "caption": "Now the last bracket: times two hundred fifty-seven over two hundred fifty-six.",
+     "file": "2026-10-30-telescoping-product/audio/d1bf3be5a1944b01.wav",
+     "from": 0,
+     "frames": 198
+    },
+    {
+     "text": "For the new bottom, multiply one hundred twenty-eight by two hundred fifty-six.",
+     "caption": "For the new bottom, multiply one hundred twenty-eight by two hundred fifty-six.",
+     "file": "2026-10-30-telescoping-product/audio/ef99673f9f70f20f.wav",
+     "from": 209,
+     "frames": 170
+    },
+    {
+     "text": "The new top is two hundred fifty-five times two hundred fifty-seven. That's a big one!",
+     "caption": "The new top is two hundred fifty-five times two hundred fifty-seven. That's a big one!",
+     "file": "2026-10-30-telescoping-product/audio/f459cfab512536ad.wav",
+     "from": 389,
+     "frames": 214
+    },
+    {
+     "text": "Here's a shortcut. Write it as two hundred fifty-six minus one, times two hundred fifty-six plus one.",
+     "caption": "Here's a shortcut. Write it as two hundred fifty-six minus one, times two hundred fifty-six plus one.",
+     "file": "2026-10-30-telescoping-product/audio/d9ee1bb90ce95351.wav",
+     "from": 613,
+     "frames": 232
+    },
+    {
+     "text": "Multiply it out, and the middle parts cancel.",
+     "caption": "Multiply it out, and the middle parts cancel.",
+     "file": "2026-10-30-telescoping-product/audio/e67620e10301723c.wav",
+     "from": 855,
+     "frames": 108
+    },
+    {
+     "text": "So the top is two hundred fifty-six squared, minus one.",
+     "caption": "So the top is two hundred fifty-six squared, minus one.",
+     "file": "2026-10-30-telescoping-product/audio/ee78d9af450c8757.wav",
+     "from": 973,
+     "frames": 156
+    },
+    {
+     "text": "And two hundred fifty-six squared is exactly double the new bottom.",
+     "caption": "And two hundred fifty-six squared is exactly double the new bottom.",
+     "file": "2026-10-30-telescoping-product/audio/7662a225af08ac3d.wav",
+     "from": 1140,
+     "frames": 156
+    },
+    {
+     "text": "So the top is one less than double the bottom again. The answer is C!",
+     "caption": "So the top is one less than double the bottom again. The answer is C!",
+     "file": "2026-10-30-telescoping-product/audio/0b1e2f0fcd2fc587.wav",
+     "from": 1306,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: the helper",
+   "from": 6040,
+   "frames": 2218,
+   "lines": [
+    {
+     "text": "Here's a cleverer way, with a helper.",
+     "caption": "Here's a cleverer way, with a helper.",
+     "file": "2026-10-30-telescoping-product/audio/d8c422a5ff4edcb5.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "Let's bring in a helper: one minus one over two. That's one over two.",
+     "caption": "Let's bring in a helper: one minus one over two. That's one over two.",
+     "file": "2026-10-30-telescoping-product/audio/6fb47db353333d4a.wav",
+     "from": 103,
+     "frames": 194
+    },
+    {
+     "text": "One minus one over two, times one plus one over two. That's our shortcut again!",
+     "caption": "One minus one over two, times one plus one over two. That's our shortcut again!",
+     "file": "2026-10-30-telescoping-product/audio/dc7200b19d00f516.wav",
+     "from": 307,
+     "frames": 215
+    },
+    {
+     "text": "It gives one minus one over four.",
+     "caption": "It gives one minus one over four.",
+     "file": "2026-10-30-telescoping-product/audio/e388cd2ff4d682c3.wav",
+     "from": 532,
+     "frames": 111
+    },
+    {
+     "text": "Now one minus one over four meets one plus one over four. That makes one minus one over sixteen.",
+     "caption": "Now one minus one over four meets one plus one over four. That makes one minus one over sixteen.",
+     "file": "2026-10-30-telescoping-product/audio/a5fbfcd1f17468a0.wav",
+     "from": 653,
+     "frames": 293
+    },
+    {
+     "text": "Next comes one minus one over two hundred fifty-six.",
+     "caption": "Next comes one minus one over two hundred fifty-six.",
+     "file": "2026-10-30-telescoping-product/audio/87d14684d25d64f2.wav",
+     "from": 957,
+     "frames": 172
+    },
+    {
+     "text": "Last, one minus one over two hundred fifty-six squared.",
+     "caption": "Last, one minus one over two hundred fifty-six squared.",
+     "file": "2026-10-30-telescoping-product/audio/8b965fb87859a80b.wav",
+     "from": 1139,
+     "frames": 173
+    },
+    {
+     "text": "Each step knocks over the next one. The whole chain collapses!",
+     "caption": "Each step knocks over the next one. The whole chain collapses!",
+     "file": "2026-10-30-telescoping-product/audio/f2f31a490d18cf1d.wav",
+     "from": 1322,
+     "frames": 148
+    },
+    {
+     "text": "Hold on! We multiplied by one over two, so we must undo it. Let's double it!",
+     "caption": "Hold on! We multiplied by one over two, so we must undo it. Let's double it!",
+     "file": "2026-10-30-telescoping-product/audio/fcec24ffc23ced89.wav",
+     "from": 1480,
+     "frames": 200
+    },
+    {
+     "text": "Double everything: two, minus two over two hundred fifty-six squared.",
+     "caption": "Double everything: two, minus two over two hundred fifty-six squared.",
+     "file": "2026-10-30-telescoping-product/audio/74e9f4d0d7015026.wav",
+     "from": 1690,
+     "frames": 189
+    },
+    {
+     "text": "That's exactly choice C again!",
+     "caption": "That's exactly choice C again!",
+     "file": "2026-10-30-telescoping-product/audio/b27bae3aba02fda7.wav",
+     "from": 1889,
+     "frames": 86
+    },
+    {
+     "text": "When would you pick this way? When each bottom is the last one squared.",
+     "caption": "When would you pick this way? When each bottom is the last one squared.",
+     "file": "2026-10-30-telescoping-product/audio/79a4103f54a16f37.wav",
+     "from": 1984,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8258,
+   "frames": 1411,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-telescoping-product/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "A is what you get if you forget to undo the helper.",
+     "caption": "A is what you get if you forget to undo the helper.",
+     "file": "2026-10-30-telescoping-product/audio/a519da0101927063.wav",
+     "from": 151,
+     "frames": 129
+    },
+    {
+     "text": "But A is less than one, and every bracket is bigger than one. It can't be right!",
+     "caption": "But A is less than one, and every bracket is bigger than one. It can't be right!",
+     "file": "2026-10-30-telescoping-product/audio/f76613c73fb91d85.wav",
+     "from": 290,
+     "frames": 197
+    },
+    {
+     "text": "B stops after three brackets. Don't forget the last one!",
+     "caption": "B stops after three brackets. Don't forget the last one!",
+     "file": "2026-10-30-telescoping-product/audio/f78cfc419f5bc3b7.wav",
+     "from": 497,
+     "frames": 116
+    },
+    {
+     "text": "D is two, minus ONE over two hundred fifty-six squared. The tiny piece wasn't doubled.",
+     "caption": "D is two, minus ONE over two hundred fifty-six squared. The tiny piece wasn't doubled.",
+     "file": "2026-10-30-telescoping-product/audio/443b31faf2a6d010.wav",
+     "from": 623,
+     "frames": 220
+    },
+    {
+     "text": "Choice E is two, PLUS two over two hundred fifty-six squared. That's the wrong sign!",
+     "caption": "Choice E is two, PLUS two over two hundred fifty-six squared. That's the wrong sign!",
+     "file": "2026-10-30-telescoping-product/audio/26774f1bd2204012.wav",
+     "from": 853,
+     "frames": 202
+    },
+    {
+     "text": "Every bracket is bigger than one, so A is out.",
+     "caption": "Every bracket is bigger than one, so A is out.",
+     "file": "2026-10-30-telescoping-product/audio/3861d3824013822b.wav",
+     "from": 1065,
+     "frames": 116
+    },
+    {
+     "text": "And our pattern says the answer is just under two, so E is out.",
+     "caption": "And our pattern says the answer is just under two, so E is out.",
+     "file": "2026-10-30-telescoping-product/audio/5f6fff0bca0dd76b.wav",
+     "from": 1190,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a variant",
+   "from": 9669,
+   "frames": 441,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Try this one.",
+     "caption": "Ready for a challenge? Try this one.",
+     "file": "2026-10-30-telescoping-product/audio/6f203add4bd567fe.wav",
+     "from": 0,
+     "frames": 78
+    },
+    {
+     "text": "One plus one over three, times one plus one over nine.",
+     "caption": "One plus one over three, times one plus one over nine.",
+     "file": "2026-10-30-telescoping-product/audio/cd0714a1e10381aa.wav",
+     "from": 89,
+     "frames": 166
+    },
+    {
+     "text": "Use a helper again. But careful: what's the helper this time?",
+     "caption": "Use a helper again. But careful: what's the helper this time?",
+     "file": "2026-10-30-telescoping-product/audio/e1addadd56aea5ed.wav",
+     "from": 265,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10110,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-telescoping-product/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 77
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Variant: the answer",
+   "from": 10570,
+   "frames": 1542,
+   "lines": [
+    {
+     "text": "Let's check. The helper is one minus one over three. That's two over three.",
+     "caption": "Let's check. The helper is one minus one over three. That's two over three.",
+     "file": "2026-10-30-telescoping-product/audio/40835c1cd19e7ec9.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "The chain collapses: one minus one over nine, then one minus one over eighty-one.",
+     "caption": "The chain collapses: one minus one over nine, then one minus one over eighty-one.",
+     "file": "2026-10-30-telescoping-product/audio/0c766c4c6b22f28c.wav",
+     "from": 198,
+     "frames": 215
+    },
+    {
+     "text": "That's eighty over eighty-one.",
+     "caption": "That's eighty over eighty-one.",
+     "file": "2026-10-30-telescoping-product/audio/33cab2054d54b2f4.wav",
+     "from": 423,
+     "frames": 83
+    },
+    {
+     "text": "Now undo the helper. We multiplied by two over three, so we multiply by three over two.",
+     "caption": "Now undo the helper. We multiplied by two over three, so we multiply by three over two.",
+     "file": "2026-10-30-telescoping-product/audio/321f83de949d01e5.wav",
+     "from": 517,
+     "frames": 218
+    },
+    {
+     "text": "That gives two hundred forty over one hundred sixty-two, which is forty over twenty-seven.",
+     "caption": "That gives two hundred forty over one hundred sixty-two, which is forty over twenty-seven.",
+     "file": "2026-10-30-telescoping-product/audio/20c2c971a439db70.wav",
+     "from": 744,
+     "frames": 186
+    },
+    {
+     "text": "Doubling out of habit gives one hundred sixty over eighty-one. That's too big!",
+     "caption": "Doubling out of habit gives one hundred sixty over eighty-one. That's too big!",
+     "file": "2026-10-30-telescoping-product/audio/40309aa1e47aca16.wav",
+     "from": 941,
+     "frames": 173
+    },
+    {
+     "text": "Check it the honest way: four over three, times ten over nine is forty over twenty-seven.",
+     "caption": "Check it the honest way: four over three, times ten over nine is forty over twenty-seven.",
+     "file": "2026-10-30-telescoping-product/audio/b70a6304af39e0c6.wav",
+     "from": 1124,
+     "frames": 213
+    },
+    {
+     "text": "If you got forty over twenty-seven, amazing work!",
+     "caption": "If you got forty over twenty-seven, amazing work!",
+     "file": "2026-10-30-telescoping-product/audio/f2481df86f44c679.wav",
+     "from": 1347,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12112,
+   "frames": 704,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-telescoping-product/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 74
+    },
+    {
+     "text": "When each bottom is the last one squared, bring in a helper: one minus the first fraction.",
+     "caption": "When each bottom is the last one squared, bring in a helper: one minus the first fraction.",
+     "file": "2026-10-30-telescoping-product/audio/939ba2272ad54d35.wav",
+     "from": 84,
+     "frames": 191
+    },
+    {
+     "text": "Each pair turns into one minus a square, and the chain collapses. Then undo the helper!",
+     "caption": "Each pair turns into one minus a square, and the chain collapses. Then undo the helper!",
+     "file": "2026-10-30-telescoping-product/audio/676bff74235e7b15.wav",
+     "from": 285,
+     "frames": 198
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-telescoping-product/audio/31a6054d0b03b932.wav",
+     "from": 494,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

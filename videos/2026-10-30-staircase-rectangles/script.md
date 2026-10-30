@@ -1,0 +1,153 @@
+# How Many Rectangles in the Staircase? | AMC 8-Style Level 5
+
+## Intro
+
+Fifteen little squares, stacked like a staircase.
+
+How many rectangles are hiding in here? Lots of kids say fifteen. The real answer is way BIGGER.
+
+Hi, I'm Vantee! Let's count them all, together.
+
+## The question
+
+Here's the question.
+
+Fifteen unit squares, in rows of five, four, three, two, one.
+
+How many rectangles of any size are in the figure?
+
+And remember, squares count as rectangles too.
+
+Is it fifteen, thirty-five, fifty-five, seventy, or seventy-five?
+
+## What are we asked?
+
+So what are we really looking for?
+
+A rectangle here is a solid block of little squares.
+
+It can be just one square, like this.
+
+It can be a long strip, like this.
+
+Or a big block, like this one.
+
+But it has to stay inside the stairs. This one sticks out, so it doesn't count.
+
+Our job is to count them ALL, without missing any, and without counting any twice.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: sort by height
+
+Welcome back! Our first strategy is to sort the rectangles by height.
+
+Let's start with the flat ones, just one row tall.
+
+Look at the bottom row. It has five squares.
+
+A strip one square long fits in five spots.
+
+A strip two squares long fits in four spots.
+
+Length three fits in three spots. Length four in two spots. Length five in one spot.
+
+So a row of five holds five, plus four, plus three, plus two, plus one. That's fifteen.
+
+The same idea works for every row. The row of four holds ten. Then six, three, and one.
+
+Add up the rows: thirty-five.
+
+Now for rectangles two rows tall.
+
+Can a two-row rectangle reach the fifth column? No! The second row has no square there.
+
+So the bottom two rows act like a strip of four.
+
+Here's the rule. A band of rows is only as wide as its TOP row.
+
+The two-row bands are four, three, two, and one wide. So ten, plus six, plus three, plus one. Twenty!
+
+Three rows tall: six, plus three, plus one. That's ten.
+
+Four rows tall: three, plus one. That's four.
+
+Five rows tall: just one, the tall column on the left.
+
+Now add them all up. Thirty-five, plus twenty, plus ten, plus four, plus one. That's seventy rectangles!
+
+## Solution 2: the corner trick
+
+Now here's a faster way. I call it the corner trick.
+
+Every rectangle is set by two squares: its top-right square, and its bottom-left square.
+
+So let's pick a top-right square. Say, the one in column three, row two.
+
+Where can the bottom-left square go? Anywhere in this block, up to our square.
+
+That's three columns times two rows. Six choices, so six rectangles! Even our square on its own counts.
+
+They all fit, because everything below and to the left of a square is inside the stairs.
+
+So each square gets its column number, times its row number. Let's write that in every square.
+
+Now add each column. The first column is one, plus two, plus three, plus four, plus five. That's fifteen.
+
+The second column is two, plus four, plus six, plus eight. That's twenty.
+
+Then three, plus six, plus nine is eighteen. Four plus eight is twelve. And the last column is five.
+
+Fifteen, plus twenty, plus eighteen, plus twelve, plus five. Seventy again!
+
+When should you use the corner trick? When the stairs get tall. You just fill in a times table!
+
+## Common traps
+
+Now, let's look at the wrong answers. Each one is a trap.
+
+Fifteen counts only the little unit squares.
+
+Thirty-five counts only the flat strips, one row tall.
+
+Fifty-five counts only the thin strips, lying flat or standing up. It misses the fat blocks.
+
+Seventy-five is too many. Stretch the bottom band of two rows to five wide, and you add five that stick out.
+
+## Your turn: a taller staircase
+
+Ready for a challenge? Here's a taller staircase.
+
+Now the rows have six, five, four, three, two, and one squares.
+
+How many rectangles are in this one?
+
+Use the corner trick!
+
+Pause the video, and go for it!
+
+*(Pause and try it: 8 s countdown)*
+
+## Taller staircase: the answer
+
+Let's check. In every square, write its column number times its row number.
+
+Add each column: twenty-one, thirty, thirty, twenty-four, fifteen, six.
+
+Twenty-one, plus thirty, plus thirty, plus twenty-four, plus fifteen, plus six. That's one hundred twenty-six!
+
+If you found all one hundred twenty-six rectangles, amazing work!
+
+## Recap
+
+Here's the big idea to remember.
+
+Every rectangle is pinned down by its top-right and bottom-left squares.
+
+For each top-right square, count spots for the bottom-left, then add.
+
+I'm Vantee. Keep counting, and I'll see you next time!

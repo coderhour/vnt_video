@@ -1,0 +1,7 @@
+{
+ "title": "Never Three in a Row? | AMC 8-Style Level 5",
+ "description": "Flip a coin eight times: how likely is it that the same side NEVER comes up three times in a row? Vantee builds the answer flip by flip, then cuts each outcome into streaks for a second way (with a Fibonacci surprise!), and gives you nine flips to try yourself.\n\n0:00 Intro\n0:18 The question\n0:33 What are we asked?\n1:06 Try it yourself\n1:22 Solution 1: build it flip by flip\n2:49 Solution 2: cut it into streaks\n4:50 Common traps\n5:27 Your turn: nine flips\n5:52 Nine flips: the answer\n6:37 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc8_counting_template:c1-919",
+ "posts": []
+}

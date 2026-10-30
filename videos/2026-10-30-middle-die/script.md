@@ -1,0 +1,173 @@
+# Three Dice: Is the Middle One a 2? | AMC 8-Style Level 5
+
+## Intro
+
+Roll three dice, and line them up from smallest to largest.
+
+How often is the middle number a two?
+
+Lots of kids guess one out of six. But that's NOT right!
+
+Hi, I'm Vantee! Let's count it out, together.
+
+## The question
+
+Here's the question.
+
+Three fair six-sided dice are rolled.
+
+The three numbers are put in order.
+
+What is the probability that the middle one is a two?
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+Say we roll five, two, and one.
+
+Sort them: one, two, five. The middle number is two. That counts!
+
+Next, take two, six, and two. Sorted: two, two, six. The middle is still two!
+
+But three, two, four sorts to two, three, four. The middle is three. No good.
+
+Let's give the dice colors: red, blue, and green.
+
+Each die has six faces. So the number of rolls is six, times six, times six.
+
+So there are two hundred sixteen rolls. Each one is equally likely.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: count the twos
+
+Welcome back! Our strategy: sort the rolls by how many dice show a two.
+
+First case: exactly one die shows a two.
+
+For two to be in the middle, one die must be lower, and one higher.
+
+Lower than two? That can only be a one.
+
+Higher than two? Three, four, five, or six. That's four choices.
+
+Now, here's the sneaky part. Take one, two, five.
+
+The colored dice can show those numbers in six different orders.
+
+Six orders, times four choices for the high number.
+
+That's twenty-four rolls.
+
+Second case: exactly two dice show a two.
+
+Sort them, and the middle number is always two.
+
+The third die is NOT a two, so it has five choices.
+
+And the odd die can be red, blue, or green. That's three spots.
+
+Three spots, times five choices, gives fifteen.
+
+Last case: all three dice show two. That's just one roll.
+
+Now add: twenty-four, plus fifteen, plus one. That's forty rolls.
+
+So the probability is forty over two hundred sixteen.
+
+Divide the top and bottom by eight.
+
+That gives five over twenty-seven. Choice C!
+
+## Solution 2: take away
+
+Now, here's another way. Call one and two the small numbers.
+
+The middle is two or less exactly when at least two dice are small.
+
+Look: one, one, five. Two small dice, so the middle is small.
+
+Exactly two small: three spots for the big one, times two, times two, times four. Forty-eight rolls.
+
+All three small: two times two times two. Eight rolls.
+
+So fifty-six rolls have a middle of two or less.
+
+Next, subtract the cases where the middle is one.
+
+The middle number is one exactly when two or more dice land on one.
+
+Exactly two ones: three spots for the other die, times five choices. Fifteen.
+
+All three ones: just one roll. So sixteen in all.
+
+Fifty-six, minus sixteen. Forty again!
+
+## Common traps
+
+Now, let's look at the wrong answers. Each one is a trap.
+
+A is one over nine. That counts only the twenty-four rolls where one die shows two.
+
+Choice B is one over six. That's the chance that one particular die shows a two.
+
+But after sorting, the middle number can come from any die.
+
+One way to land on D: from fifty-six, subtract only cases like one, one, five.
+
+That's three spots, times four big numbers. Twelve rolls.
+
+It misses one, one, and two. And also one, one, and one.
+
+One way to land on E: count the forty-eight rolls with exactly two small dice.
+
+That includes twelve rolls like one, one, and five. Their middle is one.
+
+And it misses four rolls that DO count: one, two, two, and two, two, two.
+
+So here's a great habit. Try some examples, and always sort them first.
+
+## Your turn: the middle is 3
+
+Ready for a challenge? Same three dice.
+
+This time, what is the probability that the middle number is a three?
+
+Same plan as before: split by how many threes you roll.
+
+Pause the video, and go for it!
+
+*(Pause and try it: 10 s countdown)*
+
+## Middle is 3: the answer
+
+Let's check. First, exactly one die shows a three.
+
+Lower: one or two. That's two choices. Higher: four, five, or six. Three choices.
+
+Six orders, times two, times three. Thirty-six rolls.
+
+Exactly two dice show a three: three spots, times five choices. Fifteen.
+
+All three dice show three: one roll.
+
+Thirty-six, plus fifteen, plus one. That's fifty-two rolls.
+
+Fifty-two over two hundred sixteen. Divide both by four.
+
+That's thirteen over fifty-four. If you got it, amazing work!
+
+## Recap
+
+Here's the big idea to remember.
+
+Split the rolls by how many dice show the middle value.
+
+Then count the orders in each case. Colored dice help!
+
+I'm Vantee. Keep rolling, and I'll see you next time!

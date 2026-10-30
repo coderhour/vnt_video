@@ -31,6 +31,24 @@ def list_videos():
     return sorted(out, key=lambda v: str(v.get("created", "")), reverse=True)
 
 
+STATUSES = ("draft", "ready", "fix")  # "published" is implied by meta.json posts
+
+
+def set_status(slug, status, fixes=None):
+    """Write status (and fix notes) into videos/<slug>/meta.json. Returns False on bad input."""
+    meta = VIDEOS / str(slug) / "meta.json"
+    if status not in STATUSES or "/" in str(slug) or str(slug).startswith(".") or not meta.is_file():
+        return False
+    v = json.loads(meta.read_text())
+    v["status"] = status
+    if status == "fix":
+        v["fixes"] = [str(f) for f in (fixes or [])]
+    else:
+        v.pop("fixes", None)
+    meta.write_text(json.dumps(v, indent=1, ensure_ascii=False) + "\n")
+    return True
+
+
 def parse_range(header, size):
     """'bytes=a-b' -> (start, end) inclusive, or None if unsatisfiable."""
     m = re.fullmatch(r"bytes=(\d*)-(\d*)", header.strip())
@@ -65,6 +83,17 @@ class Handler(SimpleHTTPRequestHandler):
         if "Range" in self.headers:
             return self.send_range()
         super().do_GET()
+
+    def do_POST(self):
+        if self.path != "/api/status":
+            return self.send_error(404)
+        try:
+            d = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
+            ok = set_status(d.get("slug"), d.get("status"), d.get("fixes"))
+        except (ValueError, AttributeError):
+            ok = False
+        self.send_response(204 if ok else 400)
+        self.end_headers()
 
     def send_range(self):
         # http.server has no Range support; browsers need it to seek in <video>.

@@ -1,0 +1,7 @@
+{
+ "title": "How Many Rectangles in the Staircase? | AMC 8-Style Level 5",
+ "description": "Fifteen little squares stacked like stairs, and lots of kids say there are 15 rectangles. There are way more! Vantee counts them two ways: sorting by height, then the speedy corner trick that turns it into a times table. Then try a taller staircase yourself.\n\n0:00 Intro\n0:18 The question\n0:45 What are we asked?\n1:15 Try it yourself\n1:31 Solution 1: sort by height\n3:24 Solution 2: the corner trick\n4:55 Common traps\n5:27 Your turn: a taller staircase\n5:54 Taller staircase: the answer\n6:29 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc8_counting_template:c1-522",
+ "posts": []
+}

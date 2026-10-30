@@ -1,0 +1,578 @@
+{
+ "fps": 30,
+ "durationInFrames": 12278,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 525,
+   "lines": [
+    {
+     "text": "Here are four X tiles and four O tiles. There are seventy ways to line them up.",
+     "caption": "Here are four X tiles and four O tiles. There are seventy ways to line them up.",
+     "file": "2026-10-30-x-o-strings/audio/16952a4f71f623f2.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "But in only some of them, X never falls behind. <short pause> How many?",
+     "caption": "But in only some of them, X never falls behind. How many?",
+     "file": "2026-10-30-x-o-strings/audio/47910703b32f71c2.wav",
+     "from": 194,
+     "frames": 152
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find out, together.",
+     "caption": "Hi, I'm Vantee! Let's find out, together.",
+     "file": "2026-10-30-x-o-strings/audio/2966ea910ac2e88b.wav",
+     "from": 356,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 525,
+   "frames": 891,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-x-o-strings/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "Nora writes a string with the letter X four times, and the letter O four times.",
+     "caption": "Nora writes a string with the letter X four times, and the letter O four times.",
+     "file": "2026-10-30-x-o-strings/audio/157d3fc558a5b683.wav",
+     "from": 57,
+     "frames": 196
+    },
+    {
+     "text": "She reads it from left to right.",
+     "caption": "She reads it from left to right.",
+     "file": "2026-10-30-x-o-strings/audio/e1f52d5caa83eea1.wav",
+     "from": 263,
+     "frames": 84
+    },
+    {
+     "text": "At every point, the X count so far must be at least the O count so far.",
+     "caption": "At every point, the X count so far must be at least the O count so far.",
+     "file": "2026-10-30-x-o-strings/audio/3e281f4f990c7ab5.wav",
+     "from": 358,
+     "frames": 180
+    },
+    {
+     "text": "How many such strings are there?",
+     "caption": "How many such strings are there?",
+     "file": "2026-10-30-x-o-strings/audio/26aa5b4605a6af51.wav",
+     "from": 548,
+     "frames": 74
+    },
+    {
+     "text": "Is it eight, fourteen, sixteen, twenty, or thirty-five?",
+     "caption": "Is it eight, fourteen, sixteen, twenty, or thirty-five?",
+     "file": "2026-10-30-x-o-strings/audio/9c938712e8603d17.wav",
+     "from": 632,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1416,
+   "frames": 984,
+   "lines": [
+    {
+     "text": "So what does that rule really mean?",
+     "caption": "So what does that rule really mean?",
+     "file": "2026-10-30-x-o-strings/audio/ff3986025d94bc63.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "Let's read a string and keep score, like a game between X and O.",
+     "caption": "Let's read a string and keep score, like a game between X and O.",
+     "file": "2026-10-30-x-o-strings/audio/a013b4d771446df5.wav",
+     "from": 100,
+     "frames": 144
+    },
+    {
+     "text": "Look at this one. After every letter, the X count is at least the O count.",
+     "caption": "Look at this one. After every letter, the X count is at least the O count.",
+     "file": "2026-10-30-x-o-strings/audio/62b4cf8c52079c08.wav",
+     "from": 254,
+     "frames": 156
+    },
+    {
+     "text": "Ties are fine. But X can never fall behind. So this one counts!",
+     "caption": "Ties are fine. But X can never fall behind. So this one counts!",
+     "file": "2026-10-30-x-o-strings/audio/fa4da9edbe1b0a91.wav",
+     "from": 421,
+     "frames": 161
+    },
+    {
+     "text": "Now this one. After three letters, O leads, two to one. So it's out!",
+     "caption": "Now this one. After three letters, O leads, two to one. So it's out!",
+     "file": "2026-10-30-x-o-strings/audio/4b734bdc209020c8.wav",
+     "from": 592,
+     "frames": 178
+    },
+    {
+     "text": "Our job is to count every string where O never takes the lead.",
+     "caption": "Our job is to count every string where O never takes the lead.",
+     "file": "2026-10-30-x-o-strings/audio/580e484fa1c0cfb1.wav",
+     "from": 780,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2400,
+   "frames": 466,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-x-o-strings/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "kind": "scene",
+   "chapter": "Solution 1: make a list",
+   "from": 2866,
+   "frames": 825,
+   "lines": [
+    {
+     "text": "Welcome back! Our first strategy is to make an organized list.",
+     "caption": "Welcome back! Our first strategy is to make an organized list.",
+     "file": "2026-10-30-x-o-strings/audio/2f49dd6cfa994463.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "Two quick facts first. The first letter must be an X.",
+     "caption": "Two quick facts first. The first letter must be an X.",
+     "file": "2026-10-30-x-o-strings/audio/b8d045f2821917a0.wav",
+     "from": 152,
+     "frames": 140
+    },
+    {
+     "text": "If it were an O, then O would lead, one to zero.",
+     "caption": "If it were an O, then O would lead, one to zero.",
+     "file": "2026-10-30-x-o-strings/audio/a295015025bdeba0.wav",
+     "from": 301,
+     "frames": 118
+    },
+    {
+     "text": "And the last letter must be an O.",
+     "caption": "And the last letter must be an O.",
+     "file": "2026-10-30-x-o-strings/audio/cf582a73d0333478.wav",
+     "from": 429,
+     "frames": 83
+    },
+    {
+     "text": "If it were an X, then after seven letters, the O count would be four, and the X count only three. O would lead!",
+     "caption": "If it were an X, then after seven letters, the O count would be four, and the X count only three. O would lead!",
+     "file": "2026-10-30-x-o-strings/audio/cd20f247b87ba167.wav",
+     "from": 523,
+     "frames": 255
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3691,
+   "frames": 1470,
+   "lines": [
+    {
+     "text": "Now let's sort the strings by the X count before the first O.",
+     "caption": "Now let's sort the strings by the X count before the first O.",
+     "file": "2026-10-30-x-o-strings/audio/28cf8187396f02da.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "All four X tiles first? Then the rest are O tiles. That's just one string.",
+     "caption": "All four X tiles first? Then the rest are O tiles. That's just one string.",
+     "file": "2026-10-30-x-o-strings/audio/0d03becdf2d27e2b.wav",
+     "from": 153,
+     "frames": 177
+    },
+    {
+     "text": "Three X tiles, then an O. The last X can go in three spots, but never at the very end. That's three strings.",
+     "caption": "Three X tiles, then an O. The last X can go in three spots, but never at the very end. That's three strings.",
+     "file": "2026-10-30-x-o-strings/audio/75c71e2eef39b45e.wav",
+     "from": 340,
+     "frames": 270
+    },
+    {
+     "text": "Two X tiles, then an O. Let's list them carefully. We find five strings.",
+     "caption": "Two X tiles, then an O. Let's list them carefully. We find five strings.",
+     "file": "2026-10-30-x-o-strings/audio/8a29cb13468e5575.wav",
+     "from": 621,
+     "frames": 207
+    },
+    {
+     "text": "One X, then an O. That's a tie. Let's list the rest carefully. Five more strings.",
+     "caption": "One X, then an O. That's a tie. Let's list the rest carefully. Five more strings.",
+     "file": "2026-10-30-x-o-strings/audio/941b22ee56d7cb4f.wav",
+     "from": 838,
+     "frames": 227
+    },
+    {
+     "text": "One, plus three, plus five, plus five. <short pause> That's fourteen!",
+     "caption": "One, plus three, plus five, plus five. That's fourteen!",
+     "file": "2026-10-30-x-o-strings/audio/2823fe8a7ae7005a.wav",
+     "from": 1075,
+     "frames": 195
+    },
+    {
+     "text": "Lists work well when they're short. But they grow fast!",
+     "caption": "Lists work well when they're short. But they grow fast!",
+     "file": "2026-10-30-x-o-strings/audio/586cd6f98f903250.wav",
+     "from": 1280,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "kind": "scene",
+   "chapter": "Solution 2: build a table",
+   "from": 5161,
+   "frames": 1092,
+   "lines": [
+    {
+     "text": "Here's a cleverer way. Let's turn each string into a walk.",
+     "caption": "Here's a cleverer way. Let's turn each string into a walk.",
+     "file": "2026-10-30-x-o-strings/audio/e7bec2b8b4209891.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Start at the top left corner. Each X steps right. Each O steps down.",
+     "caption": "Start at the top left corner. Each X steps right. Each O steps down.",
+     "file": "2026-10-30-x-o-strings/audio/caf24d89d84531dd.wav",
+     "from": 166,
+     "frames": 189
+    },
+    {
+     "text": "Here's our good string from before, drawn as a walk on the grid.",
+     "caption": "Here's our good string from before, drawn as a walk on the grid.",
+     "file": "2026-10-30-x-o-strings/audio/00280667a684b41a.wav",
+     "from": 365,
+     "frames": 138
+    },
+    {
+     "text": "The rule says the O count can never pass the X count. So the walk can never step below this wall.",
+     "caption": "The rule says the O count can never pass the X count. So the walk can never step below this wall.",
+     "file": "2026-10-30-x-o-strings/audio/7064323dbecf4784.wav",
+     "from": 513,
+     "frames": 230
+    },
+    {
+     "text": "The string that failed goes below the wall, right here.",
+     "caption": "The string that failed goes below the wall, right here.",
+     "file": "2026-10-30-x-o-strings/audio/cd2ffc664967921b.wav",
+     "from": 753,
+     "frames": 122
+    },
+    {
+     "text": "Every good string is one walk to this corner. So let's count the walks!",
+     "caption": "Every good string is one walk to this corner. So let's count the walks!",
+     "file": "2026-10-30-x-o-strings/audio/05c99e77b68398ea.wav",
+     "from": 885,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "fill",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6253,
+   "frames": 2025,
+   "lines": [
+    {
+     "text": "In each spot, we'll write how many walks can reach it.",
+     "caption": "In each spot, we'll write how many walks can reach it.",
+     "file": "2026-10-30-x-o-strings/audio/49bdd934f1299ac6.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "Along the top, there's only one way: X after X. So we write ones.",
+     "caption": "Along the top, there's only one way: X after X. So we write ones.",
+     "file": "2026-10-30-x-o-strings/audio/65d820bff1f80f20.wav",
+     "from": 138,
+     "frames": 182
+    },
+    {
+     "text": "Any other spot is reached by a step from the left, or a step from above.",
+     "caption": "Any other spot is reached by a step from the left, or a step from above.",
+     "file": "2026-10-30-x-o-strings/audio/3ab78b6cbddbb66f.wav",
+     "from": 330,
+     "frames": 168
+    },
+    {
+     "text": "So the number in a spot is the left number, plus the number above.",
+     "caption": "So the number in a spot is the left number, plus the number above.",
+     "file": "2026-10-30-x-o-strings/audio/3ddb631bbf243dae.wav",
+     "from": 508,
+     "frames": 150
+    },
+    {
+     "text": "On the wall, the spot to the left is past the wall, so it doesn't count. We just copy the one above.",
+     "caption": "On the wall, the spot to the left is past the wall, so it doesn't count. We just copy the one above.",
+     "file": "2026-10-30-x-o-strings/audio/058ff5cd18911995.wav",
+     "from": 669,
+     "frames": 227
+    },
+    {
+     "text": "Then one plus one is two. Two plus one is three. Three plus one is four.",
+     "caption": "Then one plus one is two. Two plus one is three. Three plus one is four.",
+     "file": "2026-10-30-x-o-strings/audio/7dae7fc8add6af32.wav",
+     "from": 906,
+     "frames": 222
+    },
+    {
+     "text": "Next row. Copy the two. Two plus three is five. Five plus four is nine.",
+     "caption": "Next row. Copy the two. Two plus three is five. Five plus four is nine.",
+     "file": "2026-10-30-x-o-strings/audio/9d1a12a3bcba6b68.wav",
+     "from": 1139,
+     "frames": 234
+    },
+    {
+     "text": "Next, copy the five. Then five plus nine is fourteen.",
+     "caption": "Next, copy the five. Then five plus nine is fourteen.",
+     "file": "2026-10-30-x-o-strings/audio/e4e891c5f3115e1c.wav",
+     "from": 1383,
+     "frames": 146
+    },
+    {
+     "text": "And the corner copies the fourteen. <short pause> Fourteen walks, so fourteen strings!",
+     "caption": "And the corner copies the fourteen. Fourteen walks, so fourteen strings!",
+     "file": "2026-10-30-x-o-strings/audio/42e2cd93badbdd73.wav",
+     "from": 1539,
+     "frames": 231
+    },
+    {
+     "text": "When would you pick the table? When a list would be too long. The table just adds!",
+     "caption": "When would you pick the table? When a list would be too long. The table just adds!",
+     "file": "2026-10-30-x-o-strings/audio/4ad54c437f8368e9.wav",
+     "from": 1780,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8278,
+   "frames": 1254,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-x-o-strings/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Thirty-five is half of all seventy strings. But the good ones are NOT half.",
+     "caption": "Thirty-five is half of all seventy strings. But the good ones are NOT half.",
+     "file": "2026-10-30-x-o-strings/audio/0a17d45cc4f5fd0a.wav",
+     "from": 141,
+     "frames": 173
+    },
+    {
+     "text": "Next up, twenty. That counts every string that starts with X and ends with O. But it forgets to check the middle, like this one.",
+     "caption": "Next up, twenty. That counts every string that starts with X and ends with O. But it forgets to check the middle, like this one.",
+     "file": "2026-10-30-x-o-strings/audio/a913d87c4c176951.wav",
+     "from": 325,
+     "frames": 280
+    },
+    {
+     "text": "Sixteen comes from guessing a pattern. Our groups went one, three, five, and then five again, not seven.",
+     "caption": "Sixteen comes from guessing a pattern. Our groups went one, three, five, and then five again, not seven.",
+     "file": "2026-10-30-x-o-strings/audio/8ca69a9c19e77db4.wav",
+     "from": 615,
+     "frames": 260
+    },
+    {
+     "text": "And eight is just too few. Our list found more.",
+     "caption": "And eight is just too few. Our list found more.",
+     "file": "2026-10-30-x-o-strings/audio/90476e50d57d60a5.wav",
+     "from": 885,
+     "frames": 123
+    },
+    {
+     "text": "So here's the habit. Count in a clear order, and check the rule at EVERY step.",
+     "caption": "So here's the habit. Count in a clear order, and check the rule at EVERY step.",
+     "file": "2026-10-30-x-o-strings/audio/df427c463b1c531a.wav",
+     "from": 1017,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a variant",
+   "from": 9532,
+   "frames": 597,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a twist.",
+     "caption": "Ready for a challenge? Here's a twist.",
+     "file": "2026-10-30-x-o-strings/audio/deccf2c4ab67a554.wav",
+     "from": 0,
+     "frames": 84
+    },
+    {
+     "text": "Now Nora uses the letter X five times, and the letter O only three times.",
+     "caption": "Now Nora uses the letter X five times, and the letter O only three times.",
+     "file": "2026-10-30-x-o-strings/audio/df5c234a5322f513.wav",
+     "from": 94,
+     "frames": 186
+    },
+    {
+     "text": "At every point, the X count must still be at least the O count.",
+     "caption": "At every point, the X count must still be at least the O count.",
+     "file": "2026-10-30-x-o-strings/audio/41f84affa04b6562.wav",
+     "from": 291,
+     "frames": 160
+    },
+    {
+     "text": "How many strings are there now? Use the table!",
+     "caption": "How many strings are there now? Use the table!",
+     "file": "2026-10-30-x-o-strings/audio/0c352f8b5187f247.wav",
+     "from": 461,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10129,
+   "frames": 466,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-x-o-strings/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 82
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Variant: the answer",
+   "from": 10595,
+   "frames": 1067,
+   "lines": [
+    {
+     "text": "Let's check. The walk now goes five steps right, and three steps down.",
+     "caption": "Let's check. The walk now goes five steps right, and three steps down.",
+     "file": "2026-10-30-x-o-strings/audio/286226155fbb8f2b.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "The first five columns are the same, and we stop one row sooner.",
+     "caption": "The first five columns are the same, and we stop one row sooner.",
+     "file": "2026-10-30-x-o-strings/audio/e113b44d87d01438.wav",
+     "from": 185,
+     "frames": 143
+    },
+    {
+     "text": "We just add one new column. The top spot is one, as always.",
+     "caption": "We just add one new column. The top spot is one, as always.",
+     "file": "2026-10-30-x-o-strings/audio/801d3fdc27e498ff.wav",
+     "from": 339,
+     "frames": 142
+    },
+    {
+     "text": "Then four plus one is five. Nine plus five is fourteen.",
+     "caption": "Then four plus one is five. Nine plus five is fourteen.",
+     "file": "2026-10-30-x-o-strings/audio/ec8ddc88f319253a.wav",
+     "from": 491,
+     "frames": 180
+    },
+    {
+     "text": "And fourteen plus fourteen is <short pause> twenty-eight!",
+     "caption": "And fourteen plus fourteen is twenty-eight!",
+     "file": "2026-10-30-x-o-strings/audio/71ac10bcf754c72e.wav",
+     "from": 681,
+     "frames": 162
+    },
+    {
+     "text": "If you found all twenty-eight strings, amazing work!",
+     "caption": "If you found all twenty-eight strings, amazing work!",
+     "file": "2026-10-30-x-o-strings/audio/7d03b9684e598a9c.wav",
+     "from": 854,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11662,
+   "frames": 616,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-x-o-strings/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "Turn each string into a walk, and never cross the wall.",
+     "caption": "Turn each string into a walk, and never cross the wall.",
+     "file": "2026-10-30-x-o-strings/audio/fabe8c3dad759171.wav",
+     "from": 86,
+     "frames": 134
+    },
+    {
+     "text": "Then fill in a table. Each spot adds the ways in from the left, and from above.",
+     "caption": "Then fill in a table. Each spot adds the ways in from the left, and from above.",
+     "file": "2026-10-30-x-o-strings/audio/b9cdad2326b6283e.wav",
+     "from": 230,
+     "frames": 185
+    },
+    {
+     "text": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "file": "2026-10-30-x-o-strings/audio/df39d3330a3a433f.wav",
+     "from": 425,
+     "frames": 107
+    }
+   ]
+  }
+ ]
+}

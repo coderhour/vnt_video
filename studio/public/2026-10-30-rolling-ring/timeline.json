@@ -1,0 +1,638 @@
+{
+ "fps": 30,
+ "durationInFrames": 12698,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 520,
+   "lines": [
+    {
+     "text": "A little ring rolls all the way around the inside of a big hoop.",
+     "caption": "A little ring rolls all the way around the inside of a big hoop.",
+     "file": "2026-10-30-rolling-ring/audio/a063ac07bbb905c8.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "How many times does it turn? Lots of people guess five. <short pause> But it's NOT five!",
+     "caption": "How many times does it turn? Lots of people guess five. But it's NOT five!",
+     "file": "2026-10-30-rolling-ring/audio/c7ec55c91dc80b31.wav",
+     "from": 163,
+     "frames": 174
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count the turns together.",
+     "caption": "Hi, I'm Vantee! Let's count the turns together.",
+     "file": "2026-10-30-rolling-ring/audio/e37547dc987f7438.wav",
+     "from": 347,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 520,
+   "frames": 841,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-rolling-ring/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "A small ring with a radius of two rolls around the inside of a large hoop.",
+     "caption": "A small ring with a radius of two rolls around the inside of a large hoop.",
+     "file": "2026-10-30-rolling-ring/audio/7c3851427272e433.wav",
+     "from": 61,
+     "frames": 186
+    },
+    {
+     "text": "The large hoop's radius is ten.",
+     "caption": "The large hoop's radius is ten.",
+     "file": "2026-10-30-rolling-ring/audio/60b2688ccb21cfc6.wav",
+     "from": 258,
+     "frames": 75
+    },
+    {
+     "text": "It rolls without slipping, always touching, until it's back where it started.",
+     "caption": "It rolls without slipping, always touching, until it's back where it started.",
+     "file": "2026-10-30-rolling-ring/audio/d0e9ee8654ff3310.wav",
+     "from": 342,
+     "frames": 170
+    },
+    {
+     "text": "How many full turns does the small ring make?",
+     "caption": "How many full turns does the small ring make?",
+     "file": "2026-10-30-rolling-ring/audio/21c53023589b5734.wav",
+     "from": 522,
+     "frames": 100
+    },
+    {
+     "text": "Is it three, four, five, six, or eight?",
+     "caption": "Is it three, four, five, six, or eight?",
+     "file": "2026-10-30-rolling-ring/audio/20f7fea35f9cb6cc.wav",
+     "from": 632,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1361,
+   "frames": 894,
+   "lines": [
+    {
+     "text": "So what do we know?",
+     "caption": "So what do we know?",
+     "file": "2026-10-30-rolling-ring/audio/6b582c82d4ebc322.wav",
+     "from": 0,
+     "frames": 64
+    },
+    {
+     "text": "The ring has a radius of two, and the hoop has a radius of ten.",
+     "caption": "The ring has a radius of two, and the hoop has a radius of ten.",
+     "file": "2026-10-30-rolling-ring/audio/5e97215bf70d303e.wav",
+     "from": 74,
+     "frames": 158
+    },
+    {
+     "text": "No slipping means it rolls like a bike tire on a road. It never skids.",
+     "caption": "No slipping means it rolls like a bike tire on a road. It never skids.",
+     "file": "2026-10-30-rolling-ring/audio/06759aa3a0c9f7e2.wav",
+     "from": 242,
+     "frames": 153
+    },
+    {
+     "text": "Now, what is a full turn? Let's draw an arrow on the ring.",
+     "caption": "Now, what is a full turn? Let's draw an arrow on the ring.",
+     "file": "2026-10-30-rolling-ring/audio/7b2b5f6fa4d2fc12.wav",
+     "from": 405,
+     "frames": 142
+    },
+    {
+     "text": "One full turn means the arrow points the same way again.",
+     "caption": "One full turn means the arrow points the same way again.",
+     "file": "2026-10-30-rolling-ring/audio/c91e23de21a9408a.wav",
+     "from": 557,
+     "frames": 132
+    },
+    {
+     "text": "Our job is to count how many times that happens in one trip around.",
+     "caption": "Our job is to count how many times that happens in one trip around.",
+     "file": "2026-10-30-rolling-ring/audio/ada26efe828019fd.wav",
+     "from": 699,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2255,
+   "frames": 467,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-rolling-ring/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "floor",
+   "kind": "scene",
+   "chapter": "Solution 1: follow the center",
+   "from": 2722,
+   "frames": 1084,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start with something simpler: a ring rolling on a flat floor.",
+     "caption": "Welcome back! Let's start with something simpler: a ring rolling on a flat floor.",
+     "file": "2026-10-30-rolling-ring/audio/7709f293c23c5b8b.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "Watch the arrow. After one full turn, it points straight down again.",
+     "caption": "Watch the arrow. After one full turn, it points straight down again.",
+     "file": "2026-10-30-rolling-ring/audio/9bccb0bb1db0ab67.wav",
+     "from": 195,
+     "frames": 141
+    },
+    {
+     "text": "How far did the center move? Exactly one rim length, laid flat on the floor.",
+     "caption": "How far did the center move? Exactly one rim length, laid flat on the floor.",
+     "file": "2026-10-30-rolling-ring/audio/be491903f549ca13.wav",
+     "from": 346,
+     "frames": 188
+    },
+    {
+     "text": "The ring's rim is two times pi times two. That's four pi.",
+     "caption": "The ring's rim is two times pi times two. That's four pi.",
+     "file": "2026-10-30-rolling-ring/audio/8dcf454630a109b1.wav",
+     "from": 544,
+     "frames": 152
+    },
+    {
+     "text": "So here's our rule. Each full turn moves the center one rim length.",
+     "caption": "So here's our rule. Each full turn moves the center one rim length.",
+     "file": "2026-10-30-rolling-ring/audio/2a235d367d43a040.wav",
+     "from": 705,
+     "frames": 173
+    },
+    {
+     "text": "This rule still works on a curved track, as long as nothing slips.",
+     "caption": "This rule still works on a curved track, as long as nothing slips.",
+     "file": "2026-10-30-rolling-ring/audio/809404b958f2bb6e.wav",
+     "from": 889,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "path",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3806,
+   "frames": 1176,
+   "lines": [
+    {
+     "text": "Now back to the hoop. Where does the center of the ring go?",
+     "caption": "Now back to the hoop. Where does the center of the ring go?",
+     "file": "2026-10-30-rolling-ring/audio/0bca0d222ecf012c.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "The ring always touches the hoop, so its center always stays a distance of two from it.",
+     "caption": "The ring always touches the hoop, so its center always stays a distance of two from it.",
+     "file": "2026-10-30-rolling-ring/audio/f49b81f7bbc09f67.wav",
+     "from": 132,
+     "frames": 190
+    },
+    {
+     "text": "So the center goes around a smaller circle, with radius ten minus two. That's eight.",
+     "caption": "So the center goes around a smaller circle, with radius ten minus two. That's eight.",
+     "file": "2026-10-30-rolling-ring/audio/e67fe19e6567d043.wav",
+     "from": 332,
+     "frames": 194
+    },
+    {
+     "text": "That circle is two times pi times eight long. That's sixteen pi.",
+     "caption": "That circle is two times pi times eight long. That's sixteen pi.",
+     "file": "2026-10-30-rolling-ring/audio/1a31de37e1ecd668.wav",
+     "from": 536,
+     "frames": 194
+    },
+    {
+     "text": "Each turn moves the center four pi.",
+     "caption": "Each turn moves the center four pi.",
+     "file": "2026-10-30-rolling-ring/audio/b50660b5dca48149.wav",
+     "from": 739,
+     "frames": 102
+    },
+    {
+     "text": "So sixteen pi over four pi gives four. The answer is four full turns. That's B!",
+     "caption": "So sixteen pi over four pi gives four. The answer is four full turns. That's B!",
+     "file": "2026-10-30-rolling-ring/audio/392e5bc1eb6fae2d.wav",
+     "from": 852,
+     "frames": 256
+    }
+   ]
+  },
+  {
+   "id": "watch",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4982,
+   "frames": 654,
+   "lines": [
+    {
+     "text": "Let's watch it roll, to be sure.",
+     "caption": "Let's watch it roll, to be sure.",
+     "file": "2026-10-30-rolling-ring/audio/75f155933bf0521e.wav",
+     "from": 0,
+     "frames": 69
+    },
+    {
+     "text": "Count each time the arrow points straight down again.",
+     "caption": "Count each time the arrow points straight down again.",
+     "file": "2026-10-30-rolling-ring/audio/6728f95238afb577.wav",
+     "from": 79,
+     "frames": 108
+    },
+    {
+     "text": "Notice that the center goes counterclockwise, but the ring spins clockwise.",
+     "caption": "Notice that the center goes counterclockwise, but the ring spins clockwise.",
+     "file": "2026-10-30-rolling-ring/audio/06315d958a83a61d.wav",
+     "from": 198,
+     "frames": 162
+    },
+    {
+     "text": "Keep counting, all the way back to the start.",
+     "caption": "Keep counting, all the way back to the start.",
+     "file": "2026-10-30-rolling-ring/audio/bf56b61f5bc0eafc.wav",
+     "from": 370,
+     "frames": 105
+    },
+    {
+     "text": "Four full turns, just like we worked out!",
+     "caption": "Four full turns, just like we worked out!",
+     "file": "2026-10-30-rolling-ring/audio/fe69f1623569622f.wav",
+     "from": 485,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "five",
+   "kind": "scene",
+   "chapter": "Solution 2: five minus one",
+   "from": 5636,
+   "frames": 626,
+   "lines": [
+    {
+     "text": "Here's another way. It also explains why five is so tempting.",
+     "caption": "Here's another way. It also explains why five is so tempting.",
+     "file": "2026-10-30-rolling-ring/audio/43d01f474e66ed1b.wav",
+     "from": 0,
+     "frames": 162
+    },
+    {
+     "text": "Now watch the red dot at the tip of the arrow.",
+     "caption": "Now watch the red dot at the tip of the arrow.",
+     "file": "2026-10-30-rolling-ring/audio/cbb431eb9c05f142.wav",
+     "from": 172,
+     "frames": 119
+    },
+    {
+     "text": "Each time the dot touches the hoop, we leave a mark.",
+     "caption": "Each time the dot touches the hoop, we leave a mark.",
+     "file": "2026-10-30-rolling-ring/audio/c83b54127f171d95.wav",
+     "from": 302,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "five2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6262,
+   "frames": 642,
+   "lines": [
+    {
+     "text": "Five marks! The hoop's rim is twenty pi, and the ring's rim is four pi.",
+     "caption": "Five marks! The hoop's rim is twenty pi, and the ring's rim is four pi.",
+     "file": "2026-10-30-rolling-ring/audio/6017b26f8f554e8e.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "Twenty pi over four pi is five. So the dot touches the hoop five times.",
+     "caption": "Twenty pi over four pi is five. So the dot touches the hoop five times.",
+     "file": "2026-10-30-rolling-ring/audio/8e548496c2190501.wav",
+     "from": 202,
+     "frames": 204
+    },
+    {
+     "text": "But the arrow only pointed down again four times. Where did one turn go?",
+     "caption": "But the arrow only pointed down again four times. Where did one turn go?",
+     "file": "2026-10-30-rolling-ring/audio/c57e0a4cbcaba502.wav",
+     "from": 417,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "slide",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6904,
+   "frames": 1699,
+   "lines": [
+    {
+     "text": "Let's try a silly experiment. Glue the ring so it can't roll, and slide it around.",
+     "caption": "Let's try a silly experiment. Glue the ring so it can't roll, and slide it around.",
+     "file": "2026-10-30-rolling-ring/audio/9d81da542ce3a980.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "The dot always touches the hoop. Now watch the arrow.",
+     "caption": "The dot always touches the hoop. Now watch the arrow.",
+     "file": "2026-10-30-rolling-ring/audio/e2a920558c714038.wav",
+     "from": 218,
+     "frames": 149
+    },
+    {
+     "text": "Even with no rolling, the arrow turns once, the same way the center goes.",
+     "caption": "Even with no rolling, the arrow turns once, the same way the center goes.",
+     "file": "2026-10-30-rolling-ring/audio/64ded181d204e52d.wav",
+     "from": 378,
+     "frames": 162
+    },
+    {
+     "text": "So the trip around the loop turns the ring once, counterclockwise.",
+     "caption": "So the trip around the loop turns the ring once, counterclockwise.",
+     "file": "2026-10-30-rolling-ring/audio/fde1247e22c48c73.wav",
+     "from": 550,
+     "frames": 146
+    },
+    {
+     "text": "Now let's roll it again, with the glued ring drawn on top.",
+     "caption": "Now let's roll it again, with the glued ring drawn on top.",
+     "file": "2026-10-30-rolling-ring/audio/4350426226f267c8.wav",
+     "from": 706,
+     "frames": 128
+    },
+    {
+     "text": "The glued ring's dot always faces the hoop. The rolling dot comes back to the hoop five times.",
+     "caption": "The glued ring's dot always faces the hoop. The rolling dot comes back to the hoop five times.",
+     "file": "2026-10-30-rolling-ring/audio/feb3fb78267f108a.wav",
+     "from": 843,
+     "frames": 206
+    },
+    {
+     "text": "That's five turns clockwise, counted from the side of the hoop.",
+     "caption": "That's five turns clockwise, counted from the side of the hoop.",
+     "file": "2026-10-30-rolling-ring/audio/910b10d5d3d32746.wav",
+     "from": 1059,
+     "frames": 125
+    },
+    {
+     "text": "The loop's turn goes the opposite way, so it cancels one. Five minus one is four!",
+     "caption": "The loop's turn goes the opposite way, so it cancels one. Five minus one is four!",
+     "file": "2026-10-30-rolling-ring/audio/48e7f18c46f9938d.wav",
+     "from": 1194,
+     "frames": 225
+    },
+    {
+     "text": "When would you pick this way? It's a fast check, and it shows why five is a trap.",
+     "caption": "When would you pick this way? It's a fast check, and it shows why five is a trap.",
+     "file": "2026-10-30-rolling-ring/audio/4f794e85f9f156ae.wav",
+     "from": 1429,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8603,
+   "frames": 1040,
+   "lines": [
+    {
+     "text": "Now let's look at the traps.",
+     "caption": "Now let's look at the traps.",
+     "file": "2026-10-30-rolling-ring/audio/7a816d0e1b45c226.wav",
+     "from": 0,
+     "frames": 63
+    },
+    {
+     "text": "Five uses the hoop's whole rim. It forgets the one turn the loop takes back.",
+     "caption": "Five uses the hoop's whole rim. It forgets the one turn the loop takes back.",
+     "file": "2026-10-30-rolling-ring/audio/e9a81c4bd1b5dfb6.wav",
+     "from": 73,
+     "frames": 191
+    },
+    {
+     "text": "Then there's eight. It uses two pi for the ring's rim. That's the rim for a radius of one.",
+     "caption": "Then there's eight. It uses two pi for the ring's rim. That's the rim for a radius of one.",
+     "file": "2026-10-30-rolling-ring/audio/1614db207d27db93.wav",
+     "from": 274,
+     "frames": 200
+    },
+    {
+     "text": "Six is what you'd get rolling around the OUTSIDE of the hoop. There, the loop adds a turn.",
+     "caption": "Six is what you'd get rolling around the OUTSIDE of the hoop. There, the loop adds a turn.",
+     "file": "2026-10-30-rolling-ring/audio/476bee027f606f15.wav",
+     "from": 484,
+     "frames": 182
+    },
+    {
+     "text": "Three takes away the ring's whole width. That makes the center's path radius six, not eight.",
+     "caption": "Three takes away the ring's whole width. That makes the center's path radius six, not eight.",
+     "file": "2026-10-30-rolling-ring/audio/ce9f8b92031f5421.wav",
+     "from": 675,
+     "frames": 186
+    },
+    {
+     "text": "Only four survives. That's B!",
+     "caption": "Only four survives. That's B!",
+     "file": "2026-10-30-rolling-ring/audio/5c0de90c180c12a9.wav",
+     "from": 872,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a variant",
+   "from": 9643,
+   "frames": 618,
+   "lines": [
+    {
+     "text": "Your turn! Here's a twist.",
+     "caption": "Your turn! Here's a twist.",
+     "file": "2026-10-30-rolling-ring/audio/b5880ee5470ae805.wav",
+     "from": 0,
+     "frames": 71
+    },
+    {
+     "text": "A coin with a radius of three rolls around the OUTSIDE of a plate.",
+     "caption": "A coin with a radius of three rolls around the OUTSIDE of a plate.",
+     "file": "2026-10-30-rolling-ring/audio/98c29ada072df240.wav",
+     "from": 82,
+     "frames": 154
+    },
+    {
+     "text": "The plate has a radius of twelve.",
+     "caption": "The plate has a radius of twelve.",
+     "file": "2026-10-30-rolling-ring/audio/22730ddba4a1441f.wav",
+     "from": 246,
+     "frames": 80
+    },
+    {
+     "text": "How many full turns does the coin make on one trip around?",
+     "caption": "How many full turns does the coin make on one trip around?",
+     "file": "2026-10-30-rolling-ring/audio/fbd0447c10bcd524.wav",
+     "from": 336,
+     "frames": 143
+    },
+    {
+     "text": "Here's a hint: follow the center!",
+     "caption": "Here's a hint: follow the center!",
+     "file": "2026-10-30-rolling-ring/audio/acfab03329bfddb0.wav",
+     "from": 489,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10261,
+   "frames": 485,
+   "lines": [
+    {
+     "text": "Pause the video and try it. I'll wait!",
+     "caption": "Pause the video and try it. I'll wait!",
+     "file": "2026-10-30-rolling-ring/audio/339a225f64a9def9.wav",
+     "from": 0,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Variant: the answer",
+   "from": 10746,
+   "frames": 1203,
+   "lines": [
+    {
+     "text": "Welcome back! Outside, the center stays a distance of three from the plate.",
+     "caption": "Welcome back! Outside, the center stays a distance of three from the plate.",
+     "file": "2026-10-30-rolling-ring/audio/39dce54de82fea9a.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "So its path has a radius of twelve plus three. That's fifteen.",
+     "caption": "So its path has a radius of twelve plus three. That's fifteen.",
+     "file": "2026-10-30-rolling-ring/audio/01c6d85957c21bc8.wav",
+     "from": 184,
+     "frames": 160
+    },
+    {
+     "text": "The path is thirty pi long. Each turn moves the center six pi.",
+     "caption": "The path is thirty pi long. Each turn moves the center six pi.",
+     "file": "2026-10-30-rolling-ring/audio/42eef82ddddd6c7c.wav",
+     "from": 354,
+     "frames": 170
+    },
+    {
+     "text": "Thirty pi over six pi is five. So the coin makes five full turns!",
+     "caption": "Thirty pi over six pi is five. So the coin makes five full turns!",
+     "file": "2026-10-30-rolling-ring/audio/b92ab6fee11b50e0.wav",
+     "from": 534,
+     "frames": 173
+    },
+    {
+     "text": "Let's check it the other way. Twelve over three is four, and the loop adds one.",
+     "caption": "Let's check it the other way. Twelve over three is four, and the loop adds one.",
+     "file": "2026-10-30-rolling-ring/audio/0a5e65e32dbd8996.wav",
+     "from": 717,
+     "frames": 182
+    },
+    {
+     "text": "That's five again! Outside, the coin spins the SAME way it travels.",
+     "caption": "That's five again! Outside, the coin spins the SAME way it travels.",
+     "file": "2026-10-30-rolling-ring/audio/84d4e2b4679b8630.wav",
+     "from": 909,
+     "frames": 167
+    },
+    {
+     "text": "Great work!",
+     "caption": "Great work!",
+     "file": "2026-10-30-rolling-ring/audio/49c831be973434f2.wav",
+     "from": 1086,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11949,
+   "frames": 749,
+   "lines": [
+    {
+     "text": "So here's the big idea.",
+     "caption": "So here's the big idea.",
+     "file": "2026-10-30-rolling-ring/audio/1960c433cc41c42f.wav",
+     "from": 0,
+     "frames": 71
+    },
+    {
+     "text": "To count turns, follow the center. Each turn moves it one rim length.",
+     "caption": "To count turns, follow the center. Each turn moves it one rim length.",
+     "file": "2026-10-30-rolling-ring/audio/a69e33a4f25467ef.wav",
+     "from": 82,
+     "frames": 180
+    },
+    {
+     "text": "For the path of the center, take away the ring's radius inside a hoop. Add it outside.",
+     "caption": "For the path of the center, take away the ring's radius inside a hoop. Add it outside.",
+     "file": "2026-10-30-rolling-ring/audio/606148f7620d1a70.wav",
+     "from": 272,
+     "frames": 204
+    },
+    {
+     "text": "Thanks for rolling along with me! I'm Vantee. See you next time, and keep exploring!",
+     "caption": "Thanks for rolling along with me! I'm Vantee. See you next time, and keep exploring!",
+     "file": "2026-10-30-rolling-ring/audio/b251f7cd9261e732.wav",
+     "from": 487,
+     "frames": 179
+    }
+   ]
+  }
+ ]
+}

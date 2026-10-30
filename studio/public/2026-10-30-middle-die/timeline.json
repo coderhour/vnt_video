@@ -1,0 +1,632 @@
+{
+ "fps": 30,
+ "durationInFrames": 12581,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 567,
+   "lines": [
+    {
+     "text": "Roll three dice, and line them up from smallest to largest.",
+     "caption": "Roll three dice, and line them up from smallest to largest.",
+     "file": "2026-10-30-middle-die/audio/a731aad6c2929ca5.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "How often is the middle number a two?",
+     "caption": "How often is the middle number a two?",
+     "file": "2026-10-30-middle-die/audio/ca2c1de6496ccadc.wav",
+     "from": 153,
+     "frames": 81
+    },
+    {
+     "text": "Lots of kids guess one out of six. <short pause> But that's NOT right!",
+     "caption": "Lots of kids guess one out of six. But that's NOT right!",
+     "file": "2026-10-30-middle-die/audio/270ef45f8924f69d.wav",
+     "from": 244,
+     "frames": 147
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count it out, together.",
+     "caption": "Hi, I'm Vantee! Let's count it out, together.",
+     "file": "2026-10-30-middle-die/audio/a699641c8f8f07e7.wav",
+     "from": 401,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 567,
+   "frames": 557,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-middle-die/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 46
+    },
+    {
+     "text": "Three fair six-sided dice are rolled.",
+     "caption": "Three fair six-sided dice are rolled.",
+     "file": "2026-10-30-middle-die/audio/b213f02f0b624728.wav",
+     "from": 56,
+     "frames": 99
+    },
+    {
+     "text": "The three numbers are put in order.",
+     "caption": "The three numbers are put in order.",
+     "file": "2026-10-30-middle-die/audio/387c76e9afd5ccab.wav",
+     "from": 165,
+     "frames": 77
+    },
+    {
+     "text": "What is the probability that the middle one is a two?",
+     "caption": "What is the probability that the middle one is a two?",
+     "file": "2026-10-30-middle-die/audio/71d289253af51f2d.wav",
+     "from": 253,
+     "frames": 141
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-middle-die/audio/b97a89671840f7ca.wav",
+     "from": 403,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1124,
+   "frames": 1410,
+   "lines": [
+    {
+     "text": "Say we roll five, two, and one.",
+     "caption": "Say we roll five, two, and one.",
+     "file": "2026-10-30-middle-die/audio/ff7ae95fcf541af2.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "Sort them: one, two, five. The middle number is two. That counts!",
+     "caption": "Sort them: one, two, five. The middle number is two. That counts!",
+     "file": "2026-10-30-middle-die/audio/afdc9814da1838c7.wav",
+     "from": 103,
+     "frames": 196
+    },
+    {
+     "text": "Next, take two, six, and two. Sorted: two, two, six. The middle is still two!",
+     "caption": "Next, take two, six, and two. Sorted: two, two, six. The middle is still two!",
+     "file": "2026-10-30-middle-die/audio/81b7dfe9131aecd6.wav",
+     "from": 309,
+     "frames": 240
+    },
+    {
+     "text": "But three, two, four sorts to two, three, four. The middle is three. No good.",
+     "caption": "But three, two, four sorts to two, three, four. The middle is three. No good.",
+     "file": "2026-10-30-middle-die/audio/2c4bd44ff3d82875.wav",
+     "from": 560,
+     "frames": 240
+    },
+    {
+     "text": "Let's give the dice colors: red, blue, and green.",
+     "caption": "Let's give the dice colors: red, blue, and green.",
+     "file": "2026-10-30-middle-die/audio/d1452da0a53efc13.wav",
+     "from": 810,
+     "frames": 129
+    },
+    {
+     "text": "Each die has six faces. So the number of rolls is six, times six, times six.",
+     "caption": "Each die has six faces. So the number of rolls is six, times six, times six.",
+     "file": "2026-10-30-middle-die/audio/517002584e1782c3.wav",
+     "from": 949,
+     "frames": 228
+    },
+    {
+     "text": "So there are two hundred sixteen rolls. Each one is equally likely.",
+     "caption": "So there are two hundred sixteen rolls. Each one is equally likely.",
+     "file": "2026-10-30-middle-die/audio/a697aff4fc2a5069.wav",
+     "from": 1188,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2534,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-middle-die/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "case1",
+   "kind": "scene",
+   "chapter": "Solution 1: count the twos",
+   "from": 2987,
+   "frames": 1365,
+   "lines": [
+    {
+     "text": "Welcome back! Our strategy: sort the rolls by how many dice show a two.",
+     "caption": "Welcome back! Our strategy: sort the rolls by how many dice show a two.",
+     "file": "2026-10-30-middle-die/audio/7731a61a3549d705.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "First case: exactly one die shows a two.",
+     "caption": "First case: exactly one die shows a two.",
+     "file": "2026-10-30-middle-die/audio/df14bb756295a0cc.wav",
+     "from": 183,
+     "frames": 110
+    },
+    {
+     "text": "For two to be in the middle, one die must be lower, and one higher.",
+     "caption": "For two to be in the middle, one die must be lower, and one higher.",
+     "file": "2026-10-30-middle-die/audio/b0f7e2e0ca88bbd9.wav",
+     "from": 303,
+     "frames": 160
+    },
+    {
+     "text": "Lower than two? That can only be a one.",
+     "caption": "Lower than two? That can only be a one.",
+     "file": "2026-10-30-middle-die/audio/551432dd1ab4835a.wav",
+     "from": 473,
+     "frames": 104
+    },
+    {
+     "text": "Higher than two? Three, four, five, or six. That's four choices.",
+     "caption": "Higher than two? Three, four, five, or six. That's four choices.",
+     "file": "2026-10-30-middle-die/audio/0edbeab536098872.wav",
+     "from": 587,
+     "frames": 202
+    },
+    {
+     "text": "Now, here's the sneaky part. Take one, two, five.",
+     "caption": "Now, here's the sneaky part. Take one, two, five.",
+     "file": "2026-10-30-middle-die/audio/323ea438c262fe06.wav",
+     "from": 799,
+     "frames": 143
+    },
+    {
+     "text": "The colored dice can show those numbers in six different orders.",
+     "caption": "The colored dice can show those numbers in six different orders.",
+     "file": "2026-10-30-middle-die/audio/f458ad3fed16011d.wav",
+     "from": 952,
+     "frames": 141
+    },
+    {
+     "text": "Six orders, times four choices for the high number.",
+     "caption": "Six orders, times four choices for the high number.",
+     "file": "2026-10-30-middle-die/audio/88317d34c98634a6.wav",
+     "from": 1103,
+     "frames": 141
+    },
+    {
+     "text": "That's twenty-four rolls.",
+     "caption": "That's twenty-four rolls.",
+     "file": "2026-10-30-middle-die/audio/83bb1af8c491d5dc.wav",
+     "from": 1254,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "case2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4352,
+   "frames": 1497,
+   "lines": [
+    {
+     "text": "Second case: exactly two dice show a two.",
+     "caption": "Second case: exactly two dice show a two.",
+     "file": "2026-10-30-middle-die/audio/a3a91fae97fd4565.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "Sort them, and the middle number is always two.",
+     "caption": "Sort them, and the middle number is always two.",
+     "file": "2026-10-30-middle-die/audio/e8fbe6334f8710f9.wav",
+     "from": 132,
+     "frames": 122
+    },
+    {
+     "text": "The third die is NOT a two, so it has five choices.",
+     "caption": "The third die is NOT a two, so it has five choices.",
+     "file": "2026-10-30-middle-die/audio/2284991c19cf3d98.wav",
+     "from": 263,
+     "frames": 138
+    },
+    {
+     "text": "And the odd die can be red, blue, or green. That's three spots.",
+     "caption": "And the odd die can be red, blue, or green. That's three spots.",
+     "file": "2026-10-30-middle-die/audio/fca1bea4b4097e69.wav",
+     "from": 412,
+     "frames": 164
+    },
+    {
+     "text": "Three spots, times five choices, gives fifteen.",
+     "caption": "Three spots, times five choices, gives fifteen.",
+     "file": "2026-10-30-middle-die/audio/9f4c2ac9b8f70caf.wav",
+     "from": 586,
+     "frames": 130
+    },
+    {
+     "text": "Last case: all three dice show two. That's just one roll.",
+     "caption": "Last case: all three dice show two. That's just one roll.",
+     "file": "2026-10-30-middle-die/audio/b4451ac0eda71fc4.wav",
+     "from": 726,
+     "frames": 142
+    },
+    {
+     "text": "Now add: twenty-four, plus fifteen, plus one. That's forty rolls.",
+     "caption": "Now add: twenty-four, plus fifteen, plus one. That's forty rolls.",
+     "file": "2026-10-30-middle-die/audio/169dab3106bd60cf.wav",
+     "from": 878,
+     "frames": 180
+    },
+    {
+     "text": "So the probability is forty over two hundred sixteen.",
+     "caption": "So the probability is forty over two hundred sixteen.",
+     "file": "2026-10-30-middle-die/audio/f36f47a4999b1de2.wav",
+     "from": 1068,
+     "frames": 141
+    },
+    {
+     "text": "Divide the top and bottom by eight.",
+     "caption": "Divide the top and bottom by eight.",
+     "file": "2026-10-30-middle-die/audio/8e33039a907074f1.wav",
+     "from": 1219,
+     "frames": 94
+    },
+    {
+     "text": "That gives five over twenty-seven. <short pause> Choice C!",
+     "caption": "That gives five over twenty-seven. Choice C!",
+     "file": "2026-10-30-middle-die/audio/2b789616f8b1ff2c.wav",
+     "from": 1323,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: take away",
+   "from": 5849,
+   "frames": 1939,
+   "lines": [
+    {
+     "text": "Now, here's another way. Call one and two the small numbers.",
+     "caption": "Now, here's another way. Call one and two the small numbers.",
+     "file": "2026-10-30-middle-die/audio/7cb8d9d37c5bf6a8.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "The middle is two or less exactly when at least two dice are small.",
+     "caption": "The middle is two or less exactly when at least two dice are small.",
+     "file": "2026-10-30-middle-die/audio/11abdaa4463c09e4.wav",
+     "from": 144,
+     "frames": 148
+    },
+    {
+     "text": "Look: one, one, five. Two small dice, so the middle is small.",
+     "caption": "Look: one, one, five. Two small dice, so the middle is small.",
+     "file": "2026-10-30-middle-die/audio/c3fb789f902b4c90.wav",
+     "from": 302,
+     "frames": 176
+    },
+    {
+     "text": "Exactly two small: three spots for the big one, times two, times two, times four. Forty-eight rolls.",
+     "caption": "Exactly two small: three spots for the big one, times two, times two, times four. Forty-eight rolls.",
+     "file": "2026-10-30-middle-die/audio/e0ca4cd5d371bcfa.wav",
+     "from": 488,
+     "frames": 287
+    },
+    {
+     "text": "All three small: two times two times two. Eight rolls.",
+     "caption": "All three small: two times two times two. Eight rolls.",
+     "file": "2026-10-30-middle-die/audio/7926d67d584a7761.wav",
+     "from": 785,
+     "frames": 185
+    },
+    {
+     "text": "So fifty-six rolls have a middle of two or less.",
+     "caption": "So fifty-six rolls have a middle of two or less.",
+     "file": "2026-10-30-middle-die/audio/4501002564a4aa1a.wav",
+     "from": 980,
+     "frames": 116
+    },
+    {
+     "text": "Next, subtract the cases where the middle is one.",
+     "caption": "Next, subtract the cases where the middle is one.",
+     "file": "2026-10-30-middle-die/audio/b93221e0b7616d95.wav",
+     "from": 1106,
+     "frames": 120
+    },
+    {
+     "text": "The middle number is one exactly when two or more dice land on one.",
+     "caption": "The middle number is one exactly when two or more dice land on one.",
+     "file": "2026-10-30-middle-die/audio/ad381f9edb51cea1.wav",
+     "from": 1237,
+     "frames": 158
+    },
+    {
+     "text": "Exactly two ones: three spots for the other die, times five choices. Fifteen.",
+     "caption": "Exactly two ones: three spots for the other die, times five choices. Fifteen.",
+     "file": "2026-10-30-middle-die/audio/d29958bcb31cd9d3.wav",
+     "from": 1404,
+     "frames": 195
+    },
+    {
+     "text": "All three ones: just one roll. So sixteen in all.",
+     "caption": "All three ones: just one roll. So sixteen in all.",
+     "file": "2026-10-30-middle-die/audio/f27adc4b8fa02645.wav",
+     "from": 1609,
+     "frames": 120
+    },
+    {
+     "text": "Fifty-six, minus sixteen. Forty again!",
+     "caption": "Fifty-six, minus sixteen. Forty again!",
+     "file": "2026-10-30-middle-die/audio/a02e63f1a4ab9c82.wav",
+     "from": 1740,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7788,
+   "frames": 1996,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-middle-die/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "A is one over nine. That counts only the twenty-four rolls where one die shows two.",
+     "caption": "A is one over nine. That counts only the twenty-four rolls where one die shows two.",
+     "file": "2026-10-30-middle-die/audio/9a2e4d5a36f75217.wav",
+     "from": 134,
+     "frames": 195
+    },
+    {
+     "text": "Choice B is one over six. That's the chance that one particular die shows a two.",
+     "caption": "Choice B is one over six. That's the chance that one particular die shows a two.",
+     "file": "2026-10-30-middle-die/audio/d9e18a5209e1dc94.wav",
+     "from": 339,
+     "frames": 184
+    },
+    {
+     "text": "But after sorting, the middle number can come from any die.",
+     "caption": "But after sorting, the middle number can come from any die.",
+     "file": "2026-10-30-middle-die/audio/a9cd142ea78f2b02.wav",
+     "from": 533,
+     "frames": 123
+    },
+    {
+     "text": "One way to land on D: from fifty-six, subtract only cases like one, one, five.",
+     "caption": "One way to land on D: from fifty-six, subtract only cases like one, one, five.",
+     "file": "2026-10-30-middle-die/audio/04e3103a4e77c3b4.wav",
+     "from": 666,
+     "frames": 208
+    },
+    {
+     "text": "That's three spots, times four big numbers. Twelve rolls.",
+     "caption": "That's three spots, times four big numbers. Twelve rolls.",
+     "file": "2026-10-30-middle-die/audio/ba761b764104f4a2.wav",
+     "from": 884,
+     "frames": 134
+    },
+    {
+     "text": "It misses one, one, and two. And also one, one, and one.",
+     "caption": "It misses one, one, and two. And also one, one, and one.",
+     "file": "2026-10-30-middle-die/audio/f45dd7e7293a4f5f.wav",
+     "from": 1028,
+     "frames": 168
+    },
+    {
+     "text": "One way to land on E: count the forty-eight rolls with exactly two small dice.",
+     "caption": "One way to land on E: count the forty-eight rolls with exactly two small dice.",
+     "file": "2026-10-30-middle-die/audio/dfa34e7269c2136b.wav",
+     "from": 1206,
+     "frames": 186
+    },
+    {
+     "text": "That includes twelve rolls like one, one, and five. Their middle is one.",
+     "caption": "That includes twelve rolls like one, one, and five. Their middle is one.",
+     "file": "2026-10-30-middle-die/audio/085d9db675195660.wav",
+     "from": 1403,
+     "frames": 164
+    },
+    {
+     "text": "And it misses four rolls that DO count: one, two, two, and two, two, two.",
+     "caption": "And it misses four rolls that DO count: one, two, two, and two, two, two.",
+     "file": "2026-10-30-middle-die/audio/0a39e13bc5da3f75.wav",
+     "from": 1576,
+     "frames": 198
+    },
+    {
+     "text": "So here's a great habit. Try some examples, and always sort them first.",
+     "caption": "So here's a great habit. Try some examples, and always sort them first.",
+     "file": "2026-10-30-middle-die/audio/9af523440336f774.wav",
+     "from": 1785,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: the middle is 3",
+   "from": 9784,
+   "frames": 426,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same three dice.",
+     "caption": "Ready for a challenge? Same three dice.",
+     "file": "2026-10-30-middle-die/audio/9c3f944c280ec58d.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "This time, what is the probability that the middle number is a three?",
+     "caption": "This time, what is the probability that the middle number is a three?",
+     "file": "2026-10-30-middle-die/audio/7dda8486418fe4ec.wav",
+     "from": 111,
+     "frames": 150
+    },
+    {
+     "text": "Same plan as before: split by how many threes you roll.",
+     "caption": "Same plan as before: split by how many threes you roll.",
+     "file": "2026-10-30-middle-die/audio/d90c15b0c3181813.wav",
+     "from": 272,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10210,
+   "frames": 393,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-middle-die/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Middle is 3: the answer",
+   "from": 10603,
+   "frames": 1413,
+   "lines": [
+    {
+     "text": "Let's check. First, exactly one die shows a three.",
+     "caption": "Let's check. First, exactly one die shows a three.",
+     "file": "2026-10-30-middle-die/audio/876258b9ae6f064c.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "Lower: one or two. That's two choices. Higher: four, five, or six. Three choices.",
+     "caption": "Lower: one or two. That's two choices. Higher: four, five, or six. Three choices.",
+     "file": "2026-10-30-middle-die/audio/6df8a6bccb9e408f.wav",
+     "from": 146,
+     "frames": 206
+    },
+    {
+     "text": "Six orders, times two, times three. Thirty-six rolls.",
+     "caption": "Six orders, times two, times three. Thirty-six rolls.",
+     "file": "2026-10-30-middle-die/audio/13bd7f14429b6ec2.wav",
+     "from": 361,
+     "frames": 174
+    },
+    {
+     "text": "Exactly two dice show a three: three spots, times five choices. Fifteen.",
+     "caption": "Exactly two dice show a three: three spots, times five choices. Fifteen.",
+     "file": "2026-10-30-middle-die/audio/faa067ea5d167567.wav",
+     "from": 546,
+     "frames": 184
+    },
+    {
+     "text": "All three dice show three: one roll.",
+     "caption": "All three dice show three: one roll.",
+     "file": "2026-10-30-middle-die/audio/31e3cabbd4c79299.wav",
+     "from": 740,
+     "frames": 110
+    },
+    {
+     "text": "Thirty-six, plus fifteen, plus one. That's fifty-two rolls.",
+     "caption": "Thirty-six, plus fifteen, plus one. That's fifty-two rolls.",
+     "file": "2026-10-30-middle-die/audio/2d1bc68ea51156a9.wav",
+     "from": 860,
+     "frames": 171
+    },
+    {
+     "text": "Fifty-two over two hundred sixteen. Divide both by four.",
+     "caption": "Fifty-two over two hundred sixteen. Divide both by four.",
+     "file": "2026-10-30-middle-die/audio/c96c3627f912f211.wav",
+     "from": 1041,
+     "frames": 144
+    },
+    {
+     "text": "That's thirteen over fifty-four. <short pause> If you got it, amazing work!",
+     "caption": "That's thirteen over fifty-four. If you got it, amazing work!",
+     "file": "2026-10-30-middle-die/audio/004f78b22a3e5ff5.wav",
+     "from": 1195,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12016,
+   "frames": 565,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-middle-die/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "Split the rolls by how many dice show the middle value.",
+     "caption": "Split the rolls by how many dice show the middle value.",
+     "file": "2026-10-30-middle-die/audio/6c215c762649c15d.wav",
+     "from": 91,
+     "frames": 122
+    },
+    {
+     "text": "Then count the orders in each case. Colored dice help!",
+     "caption": "Then count the orders in each case. Colored dice help!",
+     "file": "2026-10-30-middle-die/audio/914b3b2219958953.wav",
+     "from": 223,
+     "frames": 142
+    },
+    {
+     "text": "I'm Vantee. Keep rolling, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep rolling, and I'll see you next time!",
+     "file": "2026-10-30-middle-die/audio/660a9535a1732f2e.wav",
+     "from": 375,
+     "frames": 122
+    }
+   ]
+  }
+ ]
+}

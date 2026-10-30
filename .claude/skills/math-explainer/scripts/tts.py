@@ -29,8 +29,9 @@ DEFAULT_STYLE = "warm and encouraging, speaking at a relaxed pace, no laughing" 
 CHECK_MODEL = "gemini-3.8-flash"
 LINE_GAP = 0.35    # seconds of silence between lines
 SCENE_TAIL = 0.8   # seconds after a scene's last line
-# Spellings the TTS reads right. Captions keep the real word. "Van-tee" -> /ˈvæn.ti/ (plain "Vantee" came out "Vansi").
-SPOKEN = {"Vantee": "Van-tee"}
+# Pronunciation hints, added to the style annotation of every line that uses the word (never spoken).
+# Google's TTS has no IPA/SSML field; a style hint got /ˈvæn.ti/ in 4/4 takes vs 2/4 for spelling it "Van-tee".
+PRONOUNCE = {"Vantee": '/ˈvæn.ti/ (VAN-tee, rhymes with "can tea")'}
 
 
 def post(path, body):
@@ -80,7 +81,9 @@ TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
 
 
 def num_words(n):
-    """0-999 as words (enough for contest narration)."""
+    """Whole numbers as words; years like 2025 read as "two thousand twenty five"."""
+    if n >= 1000:
+        return num_words(n // 1000) + " thousand" + ("" if n % 1000 == 0 else " " + num_words(n % 1000))
     if n < 20:
         return ONES[n]
     if n < 100:
@@ -88,20 +91,33 @@ def num_words(n):
     return ONES[n // 100] + " hundred" + ("" if n % 100 == 0 else " " + num_words(n % 100))
 
 
+MATH_WORDS = [  # what a transcriber writes -> how a script line says it
+    (r"square root of", " root "), (r"√", " root "), (r"²|\s*\^\s*2\b", " squared "), (r"°", " degrees "),
+    (r"−|(?<=[\d)²])\s*-\s*(?=[\d√(])|\s-\s", " minus "), (r"(?<=\d)\s*/\s*(?=\d)", " over "),
+    (r"(\d)\s*x\s*(\d)", r"\1 by \2"), (r"[×*]", " times "), (r"\+", " plus "), (r"=", " equals "),
+    (r"'s\b", " is "), (r"'re\b", " are "), (r"'ll\b", " will "), (r"'m\b", " am "),  # here's = here is
+    (r"%", " percent "), (r"\bequal to\b", " equals "), (r"(?<!\d)\s*/\s*(?=[a-z])", " divided "), (r"(?<=\d)\s*cm\b", " centimeters "), (r"\bcm\b", " centimeters "), (r"\[laugh\]", " LAUGH "), (r"neighbour", "neighbor"),
+]
+
+
 def words(text):
-    """Normalized word list for comparing script vs heard: digits -> words, 2x2 -> two by two, % -> percent."""
+    """Normalized word list for comparing script vs heard: digits -> words, math symbols -> their spoken words."""
     t = re.sub(r"<[^>]+>", " ", text.lower())
-    t = re.sub(r"(\d)\s*x\s*(\d)", r"\1 by \2", t).replace("%", " percent ").replace("+", " plus ").replace("*", " times ").replace("[laugh]", " LAUGH ")
+    for pat, rep in MATH_WORDS:
+        t = re.sub(pat, rep, t)
+    t = re.sub(r"(?<=\d),(?=\d{3}\b)", "", t)  # 2,025 -> 2025
+    t = re.sub(r"(\d+)'?s\b", lambda m: " " + num_words(int(m.group(1))) + ("es" if m.group(1)[-1] == "6" else "s") + " ", t)  # 3s -> threes
     t = re.sub(r"\d+", lambda m: " " + num_words(int(m.group())) + " ", t)
-    return re.findall(r"[a-z']+|LAUGH", t.replace("neighbour", "neighbor"))
+    t = re.sub(r"\b(?:one|a) hundred\b", "hundred", t)  # "our hundred" vs "100"
+    return ["equals" if w == "is" else w for w in re.findall(r"[a-z']+|LAUGH", t)]  # "2 + 3 = 5" said "is"
 
 
 def diff(script, heard):
-    """Differences between what the line says and what the TTS said ([] = clean). Vantee's spelling is ignored."""
+    """Differences between what the line says and what the TTS said ([] = clean). Vantee's spelling is ignored, but it must still start with a V sound ("Fancy" is flagged)."""
     a, b = words(script), words(heard)
     out = []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(a=a, b=b, autojunk=False).get_opcodes():
-        if op == "equal" or (op == "replace" and a[i1:i2] == ["vantee"] and j2 - j1 == 1):
+        if op == "equal" or (op == "replace" and a[i1:i2] == ["vantee"] and j2 - j1 <= 3 and b[j1].startswith("v")):
             continue
         out.append(f"{' '.join(a[i1:i2]) or '-'} -> {' '.join(b[j1:j2]) or '-'}")
     return out
@@ -112,10 +128,10 @@ def wav_seconds(path):
         return w.getnframes() / w.getframerate()
 
 
-def spoken(text):
-    for word, say in SPOKEN.items():
-        text = re.sub(rf"\b{word}\b", say, text)
-    return text
+def line_style(text, style):
+    """The style annotation for one line: the delivery style plus a hint for each name it says."""
+    hints = [f'Pronounce the name "{w}" as {ipa}.' for w, ipa in PRONOUNCE.items() if re.search(rf"\b{w}\b", text)]
+    return ". ".join([style, *hints]) if hints else style
 
 
 def caption(text):
@@ -179,12 +195,12 @@ def main():
         for text in s.get("lines", []):
             if text in audio:
                 continue
-            say = spoken(text)
-            name = hashlib.sha1(f"{MODEL}|{voice}|{style}|{say}".encode()).hexdigest()[:16] + ".wav"
+            st = line_style(text, style)
+            name = hashlib.sha1(f"{MODEL}|{voice}|{st}|{text}".encode()).hexdigest()[:16] + ".wav"
             f = pub / "audio" / name
             if not f.exists():
                 print("tts:", text[:70], file=sys.stderr)
-                f.write_bytes(synth(say, voice, style))
+                f.write_bytes(synth(text, voice, st))
             audio[text] = (f"{slug}/audio/{name}", wav_seconds(f))
 
     tl = build_timeline(n["scenes"], audio, fps)

@@ -1,0 +1,7 @@
+{
+ "title": "The Remainder of a Giant Sum of Powers of Two | AMC 8-Style Level 5",
+ "description": "Add one, two, four, eight and keep doubling: a hundred numbers whose total is 31 digits long. Vantee shows how to find its remainder when divided by 7 in your head, two ways: spot the cycle of remainders, and the doubling trick. Then try a variant yourself!\n\n0:00 Intro\n0:16 The question\n0:42 What are we asked?\n1:28 Try it yourself\n1:43 Solution 1: find the cycle\n3:20 Solution 2: the doubling trick\n4:20 Common traps\n4:59 Your turn: divide by five\n5:29 Divide by five: the answer\n6:26 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc8_arithmetic_template:c1-925",
+ "posts": []
+}

@@ -1,0 +1,543 @@
+{
+ "fps": 30,
+ "durationInFrames": 12445,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 572,
+   "lines": [
+    {
+     "text": "Nine is four plus five. Ten is one plus two plus three plus four.",
+     "caption": "Nine is four plus five. Ten is one plus two plus three plus four.",
+     "file": "2026-10-30-consecutive-sums/audio/86a6388eadf2940a.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "But a few numbers can never be built this way. <short pause> Which ones?",
+     "caption": "But a few numbers can never be built this way. Which ones?",
+     "file": "2026-10-30-consecutive-sums/audio/cf59c4a58936c48a.wav",
+     "from": 247,
+     "frames": 134
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's hunt down those stubborn numbers together.",
+     "caption": "Hi, I'm Vantee! Let's hunt down those stubborn numbers together.",
+     "file": "2026-10-30-consecutive-sums/audio/e22aca78a800eb09.wav",
+     "from": 391,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 572,
+   "frames": 574,
+   "lines": [
+    {
+     "text": "How many whole numbers, from one to fifty,",
+     "caption": "How many whole numbers, from one to fifty,",
+     "file": "2026-10-30-consecutive-sums/audio/f7f44794c9eb9066.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "can be written as the sum of two or more consecutive positive whole numbers?",
+     "caption": "can be written as the sum of two or more consecutive positive whole numbers?",
+     "file": "2026-10-30-consecutive-sums/audio/25be559c6380c7cd.wav",
+     "from": 121,
+     "frames": 156
+    },
+    {
+     "text": "For example, nine is four plus five.",
+     "caption": "For example, nine is four plus five.",
+     "file": "2026-10-30-consecutive-sums/audio/ee0b1d9036b44248.wav",
+     "from": 288,
+     "frames": 123
+    },
+    {
+     "text": "Here are the five choices. Take a good look at them.",
+     "caption": "Here are the five choices. Take a good look at them.",
+     "file": "2026-10-30-consecutive-sums/audio/bc37b5b6cf9da368.wav",
+     "from": 421,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1146,
+   "frames": 761,
+   "lines": [
+    {
+     "text": "Consecutive means next to each other, with no gaps, like four, five and six.",
+     "caption": "Consecutive means next to each other, with no gaps, like four, five and six.",
+     "file": "2026-10-30-consecutive-sums/audio/be72ace235cffe61.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "We need at least two numbers in the run. Five on its own doesn't count.",
+     "caption": "We need at least two numbers in the run. Five on its own doesn't count.",
+     "file": "2026-10-30-consecutive-sums/audio/5c947e3761b9785e.wav",
+     "from": 194,
+     "frames": 144
+    },
+    {
+     "text": "Every number in the run must be positive, so no zero and no negative numbers.",
+     "caption": "Every number in the run must be positive, so no zero and no negative numbers.",
+     "file": "2026-10-30-consecutive-sums/audio/82544e6c1a715cff.wav",
+     "from": 348,
+     "frames": 194
+    },
+    {
+     "text": "So which numbers from one to fifty can we build, and how many are there?",
+     "caption": "So which numbers from one to fifty can we build, and how many are there?",
+     "file": "2026-10-30-consecutive-sums/audio/03ffc21200390262.wav",
+     "from": 552,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1907,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-consecutive-sums/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "board",
+   "kind": "scene",
+   "chapter": "Solution 1: fill in the board",
+   "from": 2363,
+   "frames": 1681,
+   "lines": [
+    {
+     "text": "Welcome back! Let's make a list, one run length at a time, on a board from one to fifty.",
+     "caption": "Welcome back! Let's make a list, one run length at a time, on a board from one to fifty.",
+     "file": "2026-10-30-consecutive-sums/audio/4cf9749cad127b21.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "Start with runs of two numbers. One plus two equals three. Two plus three equals five.",
+     "caption": "Start with runs of two numbers. One plus two equals three. Two plus three equals five.",
+     "file": "2026-10-30-consecutive-sums/audio/73d8b3650f76869f.wav",
+     "from": 222,
+     "frames": 237
+    },
+    {
+     "text": "Two neighbors are one odd and one even, so their sum is always odd.",
+     "caption": "Two neighbors are one odd and one even, so their sum is always odd.",
+     "file": "2026-10-30-consecutive-sums/audio/cfe86f66ff388031.wav",
+     "from": 469,
+     "frames": 179
+    },
+    {
+     "text": "That lights up every odd number from three to forty-nine. Twenty-four numbers already!",
+     "caption": "That lights up every odd number from three to forty-nine. Twenty-four numbers already!",
+     "file": "2026-10-30-consecutive-sums/audio/7cabdc3c7c55b3ad.wav",
+     "from": 658,
+     "frames": 185
+    },
+    {
+     "text": "Runs of three make every multiple of three from six up: eight new even numbers.",
+     "caption": "Runs of three make every multiple of three from six up: eight new even numbers.",
+     "file": "2026-10-30-consecutive-sums/audio/104399a2771049ce.wav",
+     "from": 854,
+     "frames": 204
+    },
+    {
+     "text": "Runs of four start at ten and go up by four each time. Eight more new cells!",
+     "caption": "Runs of four start at ten and go up by four each time. Eight more new cells!",
+     "file": "2026-10-30-consecutive-sums/audio/23fd5d8d2d71e42e.wav",
+     "from": 1068,
+     "frames": 190
+    },
+    {
+     "text": "Runs of five go from fifteen up to fifty, but only twenty and forty are new.",
+     "caption": "Runs of five go from fifteen up to fifty, but only twenty and forty are new.",
+     "file": "2026-10-30-consecutive-sums/audio/7418f6afb684ee9d.wav",
+     "from": 1268,
+     "frames": 207
+    },
+    {
+     "text": "Runs of six always add up to an odd number, so nothing new lights up.",
+     "caption": "Runs of six always add up to an odd number, so nothing new lights up.",
+     "file": "2026-10-30-consecutive-sums/audio/4844033f258e3400.wav",
+     "from": 1485,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "board2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4044,
+   "frames": 1301,
+   "lines": [
+    {
+     "text": "Next, runs of seven numbers. One through seven makes twenty-eight. That one is new!",
+     "caption": "Next, runs of seven numbers. One through seven makes twenty-eight. That one is new!",
+     "file": "2026-10-30-consecutive-sums/audio/c544589a9c020ba2.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "Runs of eight: two through nine makes forty-four. Another new one!",
+     "caption": "Runs of eight: two through nine makes forty-four. Another new one!",
+     "file": "2026-10-30-consecutive-sums/audio/5d7bd9f57d780ff0.wav",
+     "from": 194,
+     "frames": 148
+    },
+    {
+     "text": "Runs of nine only make forty-five, and runs of ten start at fifty-five. Too big, so we stop.",
+     "caption": "Runs of nine only make forty-five, and runs of ten start at fifty-five. Too big, so we stop.",
+     "file": "2026-10-30-consecutive-sums/audio/804b5ce81f6b309a.wav",
+     "from": 352,
+     "frames": 262
+    },
+    {
+     "text": "Which cells are still dark? One, two, four, eight, sixteen and thirty-two.",
+     "caption": "Which cells are still dark? One, two, four, eight, sixteen and thirty-two.",
+     "file": "2026-10-30-consecutive-sums/audio/6743499f1462f1e9.wav",
+     "from": 625,
+     "frames": 264
+    },
+    {
+     "text": "One and two are too small, since the smallest run is one plus two, which is three.",
+     "caption": "One and two are too small, since the smallest run is one plus two, which is three.",
+     "file": "2026-10-30-consecutive-sums/audio/f8bc98b0509703c2.wav",
+     "from": 899,
+     "frames": 189
+    },
+    {
+     "text": "So six numbers fail. Fifty minus six is forty-four!",
+     "caption": "So six numbers fail. Fifty minus six is forty-four!",
+     "file": "2026-10-30-consecutive-sums/audio/3633c50a1a3d65af.wav",
+     "from": 1098,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "blocks",
+   "kind": "scene",
+   "chapter": "Solution 2: the odd factor rule",
+   "from": 5345,
+   "frames": 1578,
+   "lines": [
+    {
+     "text": "But WHY do those six numbers fail? Let's build runs out of blocks.",
+     "caption": "But WHY do those six numbers fail? Let's build runs out of blocks.",
+     "file": "2026-10-30-consecutive-sums/audio/6a0ead86d333d4e8.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "Here's four plus five plus six, as three stacks of blocks.",
+     "caption": "Here's four plus five plus six, as three stacks of blocks.",
+     "file": "2026-10-30-consecutive-sums/audio/31fd7a3780bd7134.wav",
+     "from": 180,
+     "frames": 167
+    },
+    {
+     "text": "Move one block from the tallest stack to the shortest. Now every stack is five!",
+     "caption": "Move one block from the tallest stack to the shortest. Now every stack is five!",
+     "file": "2026-10-30-consecutive-sums/audio/298920b5c048a7e8.wav",
+     "from": 357,
+     "frames": 176
+    },
+    {
+     "text": "So a run with an odd length makes length times middle. Three times five is fifteen.",
+     "caption": "So a run with an odd length makes length times middle. Three times five is fifteen.",
+     "file": "2026-10-30-consecutive-sums/audio/056f5f6353f986f2.wav",
+     "from": 543,
+     "frames": 230
+    },
+    {
+     "text": "Now an even run: two plus three plus four plus five.",
+     "caption": "Now an even run: two plus three plus four plus five.",
+     "file": "2026-10-30-consecutive-sums/audio/944f9399ed2f21aa.wav",
+     "from": 783,
+     "frames": 188
+    },
+    {
+     "text": "Pair the outside numbers, then the inside numbers. Each pair adds up to seven.",
+     "caption": "Pair the outside numbers, then the inside numbers. Each pair adds up to seven.",
+     "file": "2026-10-30-consecutive-sums/audio/245f4f05c9cfa9dc.wav",
+     "from": 981,
+     "frames": 179
+    },
+    {
+     "text": "Each pair has one odd number and one even number, so every pair sum is odd.",
+     "caption": "Each pair has one odd number and one even number, so every pair sum is odd.",
+     "file": "2026-10-30-consecutive-sums/audio/04d0ea2764c6564b.wav",
+     "from": 1170,
+     "frames": 190
+    },
+    {
+     "text": "So this total is two pairs times seven, which makes fourteen.",
+     "caption": "So this total is two pairs times seven, which makes fourteen.",
+     "file": "2026-10-30-consecutive-sums/audio/cf8ac4d7ba853815.wav",
+     "from": 1370,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6923,
+   "frames": 1991,
+   "lines": [
+    {
+     "text": "Either way, the total has an odd factor bigger than one: the length, or the pair sum.",
+     "caption": "Either way, the total has an odd factor bigger than one: the length, or the pair sum.",
+     "file": "2026-10-30-consecutive-sums/audio/f3088d43247fcf01.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "Now look at our six numbers. They're all powers of two.",
+     "caption": "Now look at our six numbers. They're all powers of two.",
+     "file": "2026-10-30-consecutive-sums/audio/65ff9fded36ef43e.wav",
+     "from": 204,
+     "frames": 117
+    },
+    {
+     "text": "Split them into factors, and you only ever find twos. There's no odd factor at all!",
+     "caption": "Split them into factors, and you only ever find twos. There's no odd factor at all!",
+     "file": "2026-10-30-consecutive-sums/audio/be29b5367a76ca2a.wav",
+     "from": 331,
+     "frames": 179
+    },
+    {
+     "text": "So no run of numbers can ever make a power of two.",
+     "caption": "So no run of numbers can ever make a power of two.",
+     "file": "2026-10-30-consecutive-sums/audio/1656fac2ae38a276.wav",
+     "from": 520,
+     "frames": 131
+    },
+    {
+     "text": "Every other number does have an odd factor, and we can use it to build a run.",
+     "caption": "Every other number does have an odd factor, and we can use it to build a run.",
+     "file": "2026-10-30-consecutive-sums/audio/a8c5d38ce4c2855b.wav",
+     "from": 661,
+     "frames": 161
+    },
+    {
+     "text": "Eighteen is three times six. So take three numbers around six: five, six and seven.",
+     "caption": "Eighteen is three times six. So take three numbers around six: five, six and seven.",
+     "file": "2026-10-30-consecutive-sums/audio/5a6a4f2378ce9715.wav",
+     "from": 833,
+     "frames": 203
+    },
+    {
+     "text": "Forty-four is four times eleven. But eleven numbers around four would go below one.",
+     "caption": "Forty-four is four times eleven. But eleven numbers around four would go below one.",
+     "file": "2026-10-30-consecutive-sums/audio/8bdb46333b11a109.wav",
+     "from": 1046,
+     "frames": 216
+    },
+    {
+     "text": "So use eleven as the pair sum instead: four pairs that each add up to eleven.",
+     "caption": "So use eleven as the pair sum instead: four pairs that each add up to eleven.",
+     "file": "2026-10-30-consecutive-sums/audio/6199563e73cece79.wav",
+     "from": 1272,
+     "frames": 209
+    },
+    {
+     "text": "Two plus nine, three plus eight, four plus seven, five plus six. That's two through nine!",
+     "caption": "Two plus nine, three plus eight, four plus seven, five plus six. That's two through nine!",
+     "file": "2026-10-30-consecutive-sums/audio/d8505853fd906bee.wav",
+     "from": 1492,
+     "frames": 257
+    },
+    {
+     "text": "So the powers of two are the only numbers that fail, and the answer is forty-four again.",
+     "caption": "So the powers of two are the only numbers that fail, and the answer is forty-four again.",
+     "file": "2026-10-30-consecutive-sums/audio/f3843f0483b3506e.wav",
+     "from": 1759,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8914,
+   "frames": 1171,
+   "lines": [
+    {
+     "text": "Twenty-four only counts runs of two, the odd numbers. It forgot even ones like six and ten.",
+     "caption": "Twenty-four only counts runs of two, the odd numbers. It forgot even ones like six and ten.",
+     "file": "2026-10-30-consecutive-sums/audio/2b50db840d986613.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "Forty-three crosses out seven powers of two, but sixty-four is past fifty!",
+     "caption": "Forty-three crosses out seven powers of two, but sixty-four is past fifty!",
+     "file": "2026-10-30-consecutive-sums/audio/060e6eb9c218609c.wav",
+     "from": 231,
+     "frames": 167
+    },
+    {
+     "text": "Forty-five forgets that one can't be built. One is just one, all by itself.",
+     "caption": "Forty-five forgets that one can't be built. One is just one, all by itself.",
+     "file": "2026-10-30-consecutive-sums/audio/6afedb753aed0b1f.wav",
+     "from": 409,
+     "frames": 212
+    },
+    {
+     "text": "Forty-seven crosses out only one, two and four. But eight, sixteen and thirty-two fail too.",
+     "caption": "Forty-seven crosses out only one, two and four. But eight, sixteen and thirty-two fail too.",
+     "file": "2026-10-30-consecutive-sums/audio/b320987a1fcae9a7.wav",
+     "from": 630,
+     "frames": 258
+    },
+    {
+     "text": "Great habit: check until the runs get too big, and check each power of two is really in range.",
+     "caption": "Great habit: check until the runs get too big, and check each power of two is really in range.",
+     "file": "2026-10-30-consecutive-sums/audio/4b7e2f28251ed37f.wav",
+     "from": 899,
+     "frames": 227
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: one to one hundred",
+   "from": 10085,
+   "frames": 332,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same question, but now from one to one hundred.",
+     "caption": "Ready for a challenge? Same question, but now from one to one hundred.",
+     "file": "2026-10-30-consecutive-sums/audio/2cbf1aa7af06e914.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "Use the rule. Hunt for the numbers that fail first.",
+     "caption": "Use the rule. Hunt for the numbers that fail first.",
+     "file": "2026-10-30-consecutive-sums/audio/f830ba503baaac89.wav",
+     "from": 175,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10417,
+   "frames": 395,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-consecutive-sums/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "One to one hundred: the answer",
+   "from": 10812,
+   "frames": 1036,
+   "lines": [
+    {
+     "text": "Let's check. The numbers that fail are the powers of two.",
+     "caption": "Let's check. The numbers that fail are the powers of two.",
+     "file": "2026-10-30-consecutive-sums/audio/45e1a7f788fcb831.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "One, two, four, eight, sixteen, thirty-two, and now sixty-four joins them.",
+     "caption": "One, two, four, eight, sixteen, thirty-two, and now sixty-four joins them.",
+     "file": "2026-10-30-consecutive-sums/audio/3669c3d0c7f0176a.wav",
+     "from": 161,
+     "frames": 274
+    },
+    {
+     "text": "The next power, one hundred twenty-eight, is past one hundred, so we stop there.",
+     "caption": "The next power, one hundred twenty-eight, is past one hundred, so we stop there.",
+     "file": "2026-10-30-consecutive-sums/audio/eb8b98707914bd62.wav",
+     "from": 445,
+     "frames": 166
+    },
+    {
+     "text": "That's seven numbers that fail. One hundred minus seven is ninety-three!",
+     "caption": "That's seven numbers that fail. One hundred minus seven is ninety-three!",
+     "file": "2026-10-30-consecutive-sums/audio/20dcc17c8fd40ae1.wav",
+     "from": 621,
+     "frames": 155
+    },
+    {
+     "text": "Quick check: one hundred is five times twenty, so eighteen through twenty-two works.",
+     "caption": "Quick check: one hundred is five times twenty, so eighteen through twenty-two works.",
+     "file": "2026-10-30-consecutive-sums/audio/92b17e18262bf8bb.wav",
+     "from": 786,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11848,
+   "frames": 597,
+   "lines": [
+    {
+     "text": "A run of two or more consecutive numbers always has an odd factor bigger than one.",
+     "caption": "A run of two or more consecutive numbers always has an odd factor bigger than one.",
+     "file": "2026-10-30-consecutive-sums/audio/0bcecc1d13a1f9a2.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "So only the powers of two can't be built, even in a huge range. Find them, and take them away.",
+     "caption": "So only the powers of two can't be built, even in a huge range. Find them, and take them away.",
+     "file": "2026-10-30-consecutive-sums/audio/30d3b4fc3ee7735b.wav",
+     "from": 201,
+     "frames": 219
+    },
+    {
+     "text": "I'm Vantee! Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee! Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-consecutive-sums/audio/a88d9a50add8334f.wav",
+     "from": 429,
+     "frames": 123
+    }
+   ]
+  }
+ ]
+}

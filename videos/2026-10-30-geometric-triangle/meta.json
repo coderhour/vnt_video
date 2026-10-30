@@ -1,0 +1,7 @@
+{
+ "title": "How Many Triangles Have Sides in a Geometric Sequence? | AMC 10-Style Level 5",
+ "description": "A triangle's three whole-number sides grow by the same multiplier, and the longest side is 2025. How many such triangles are there? Vantee writes the ratio over 45, lets the triangle rule trim the list, then shows a faster middle-side trick and gives you a smaller one to try.\n\n0:00 Intro\n0:15 The question\n0:38 What are we asked?\n0:59 Try it yourself\n1:15 Solution 1: use the ratio\n3:47 Solution 2: the middle-side trick\n4:47 Common traps\n5:21 Your turn: a smaller triangle\n5:48 Your turn: the answer\n6:33 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc10_algebra_template:c4-092",
+ "posts": []
+}

@@ -1,0 +1,169 @@
+# How Many Circles Through Nine Dots? | AMC 10-Style Level 5
+
+## Intro
+
+Nine dots in a square grid. How many circles pass through at least three of them?
+
+Lots of kids answer seventy-six. The real answer is much smaller!
+
+Hello there! My name is Vantee. Let's count these circles the smart way.
+
+## The question
+
+Here's the question.
+
+Nine points are marked. Each of x and y is zero, one, or two.
+
+How many different circles pass through at least three of the marked points?
+
+Here are the five choices.
+
+## What are we asked?
+
+What are we counting?
+
+Pick any three points that are not on one line.
+
+Exactly one circle goes through all three of them.
+
+Three points on one line? No circle can pass through all three.
+
+Watch the word different. A circle through four points still counts only once.
+
+## Try it yourself
+
+Now pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: count groups of three
+
+Welcome back! Our plan: count groups of three, then fix the repeats.
+
+How many ways can we pick three of the nine points?
+
+Nine times eight times seven, over three times two times one.
+
+That makes eighty-four groups of three.
+
+Throw out groups on one line: three rows, three columns, two diagonals. That's eight.
+
+Eighty-four minus eight leaves seventy-six groups.
+
+Is it seventy-six circles, then?
+
+Not so fast! Look at this little square.
+
+All four corners sit on one circle.
+
+Leave out any one corner. The other three give the SAME circle.
+
+So this one circle got counted four times!
+
+So let's hunt for every circle that passes through four points.
+
+Any rectangle works. Its two diagonals are equal, and they cross at their middles.
+
+That point is the same distance from all four corners: the center!
+
+First, four small squares.
+
+Then one big square, and one tilted square.
+
+Next, the long rectangles. Two lie flat, and two stand up.
+
+Here's a sneaky one: a trapezoid whose two short sides match.
+
+It's symmetric, so its center sits on the mirror line, the same distance from all four corners.
+
+It can face each of the four corners, so there are four trapezoids.
+
+Six squares, four rectangles, four trapezoids. That's fourteen circles!
+
+A five-point circle would have to be one of these fourteen. None of them touches a fifth dot.
+
+Each of these fourteen circles was counted four times. So remove three extra copies of each.
+
+Fourteen times three is forty-two.
+
+Seventy-six take away forty-two leaves thirty-four!
+
+The answer is thirty-four circles. That's Choice B!
+
+## Solution 2: two piles
+
+Here's another way. Split all seventy-six groups into two piles.
+
+Pile one holds every group inside a four-point circle.
+
+Fourteen circles times four groups is fifty-six groups, but only fourteen circles.
+
+Pile two holds the other twenty groups. Each one makes its very own circle.
+
+Let's check those twenty. They come in four families.
+
+Family one: a corner, the middle point, and the next corner. There are four.
+
+Family two: two corners on one side, plus the middle of the far side. Four again.
+
+Family three: one corner and two points it can reach with a knight's move. Four more.
+
+Family four: a corner, the middle point, and the middle of a side away from that corner.
+
+These circles bulge outside the grid. There are eight of them.
+
+Four plus four plus four plus eight is twenty.
+
+Fourteen plus twenty is thirty-four. This way is great for double-checking!
+
+## Common traps
+
+Now, let's look at the traps.
+
+Seventy-six counts every group as its own circle. The repeats were never fixed.
+
+Sixty-two takes away only one copy of each four-point circle. We must remove three.
+
+Forty-eight takes away two copies. That's still one too few.
+
+Twenty misses the fourteen circles that pass through four points.
+
+Always ask: did I count any circle more than once?
+
+## Your turn: eight points
+
+Your turn! Take away the middle point. Now only eight points are left.
+
+How many different circles pass through at least three of these eight points?
+
+Pause the video and use the same plan. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Eight points: the answer
+
+Welcome back! First, count the groups of three.
+
+Eight times seven times six, over three times two times one, is fifty-six.
+
+Only the four sides are lines of three now. The diagonals lost their middle point.
+
+Fifty-six minus four leaves fifty-two groups.
+
+Each small square used the middle point. So its circle now hits only three points.
+
+That leaves ten four-point circles: two squares, four rectangles, four trapezoids.
+
+Ten times three is thirty extra copies. Fifty-two minus thirty is twenty-two!
+
+The answer is twenty-two circles. Great work!
+
+## Recap
+
+Here's the big idea.
+
+Three points not on a line make one circle. So count the groups of three.
+
+Then fix the repeats. A four-point circle was counted four times, so remove three.
+
+I'm Vantee, and thanks for counting circles with me!

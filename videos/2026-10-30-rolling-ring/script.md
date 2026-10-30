@@ -1,0 +1,167 @@
+# How Many Turns Does the Ring Make? | AMC 8-Style Level 5
+
+## Intro
+
+A little ring rolls all the way around the inside of a big hoop.
+
+How many times does it turn? Lots of people guess five. But it's NOT five!
+
+Hi, I'm Vantee! Let's count the turns together.
+
+## The question
+
+Here's the question.
+
+A small ring with a radius of two rolls around the inside of a large hoop.
+
+The large hoop's radius is ten.
+
+It rolls without slipping, always touching, until it's back where it started.
+
+How many full turns does the small ring make?
+
+Is it three, four, five, six, or eight?
+
+## What are we asked?
+
+So what do we know?
+
+The ring has a radius of two, and the hoop has a radius of ten.
+
+No slipping means it rolls like a bike tire on a road. It never skids.
+
+Now, what is a full turn? Let's draw an arrow on the ring.
+
+One full turn means the arrow points the same way again.
+
+Our job is to count how many times that happens in one trip around.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: follow the center
+
+Welcome back! Let's start with something simpler: a ring rolling on a flat floor.
+
+Watch the arrow. After one full turn, it points straight down again.
+
+How far did the center move? Exactly one rim length, laid flat on the floor.
+
+The ring's rim is two times pi times two. That's four pi.
+
+So here's our rule. Each full turn moves the center one rim length.
+
+This rule still works on a curved track, as long as nothing slips.
+
+Now back to the hoop. Where does the center of the ring go?
+
+The ring always touches the hoop, so its center always stays a distance of two from it.
+
+So the center goes around a smaller circle, with radius ten minus two. That's eight.
+
+That circle is two times pi times eight long. That's sixteen pi.
+
+Each turn moves the center four pi.
+
+So sixteen pi over four pi gives four. The answer is four full turns. That's B!
+
+Let's watch it roll, to be sure.
+
+Count each time the arrow points straight down again.
+
+Notice that the center goes counterclockwise, but the ring spins clockwise.
+
+Keep counting, all the way back to the start.
+
+Four full turns, just like we worked out!
+
+## Solution 2: five minus one
+
+Here's another way. It also explains why five is so tempting.
+
+Now watch the red dot at the tip of the arrow.
+
+Each time the dot touches the hoop, we leave a mark.
+
+Five marks! The hoop's rim is twenty pi, and the ring's rim is four pi.
+
+Twenty pi over four pi is five. So the dot touches the hoop five times.
+
+But the arrow only pointed down again four times. Where did one turn go?
+
+Let's try a silly experiment. Glue the ring so it can't roll, and slide it around.
+
+The dot always touches the hoop. Now watch the arrow.
+
+Even with no rolling, the arrow turns once, the same way the center goes.
+
+So the trip around the loop turns the ring once, counterclockwise.
+
+Now let's roll it again, with the glued ring drawn on top.
+
+The glued ring's dot always faces the hoop. The rolling dot comes back to the hoop five times.
+
+That's five turns clockwise, counted from the side of the hoop.
+
+The loop's turn goes the opposite way, so it cancels one. Five minus one is four!
+
+When would you pick this way? It's a fast check, and it shows why five is a trap.
+
+## Common traps
+
+Now let's look at the traps.
+
+Five uses the hoop's whole rim. It forgets the one turn the loop takes back.
+
+Then there's eight. It uses two pi for the ring's rim. That's the rim for a radius of one.
+
+Six is what you'd get rolling around the OUTSIDE of the hoop. There, the loop adds a turn.
+
+Three takes away the ring's whole width. That makes the center's path radius six, not eight.
+
+Only four survives. That's B!
+
+## Your turn: a variant
+
+Your turn! Here's a twist.
+
+A coin with a radius of three rolls around the OUTSIDE of a plate.
+
+The plate has a radius of twelve.
+
+How many full turns does the coin make on one trip around?
+
+Here's a hint: follow the center!
+
+Pause the video and try it. I'll wait!
+
+*(Pause and try it: 12 s countdown)*
+
+## Variant: the answer
+
+Welcome back! Outside, the center stays a distance of three from the plate.
+
+So its path has a radius of twelve plus three. That's fifteen.
+
+The path is thirty pi long. Each turn moves the center six pi.
+
+Thirty pi over six pi is five. So the coin makes five full turns!
+
+Let's check it the other way. Twelve over three is four, and the loop adds one.
+
+That's five again! Outside, the coin spins the SAME way it travels.
+
+Great work!
+
+## Recap
+
+So here's the big idea.
+
+To count turns, follow the center. Each turn moves it one rim length.
+
+For the path of the center, take away the ring's radius inside a hoop. Add it outside.
+
+Thanks for rolling along with me! I'm Vantee. See you next time, and keep exploring!

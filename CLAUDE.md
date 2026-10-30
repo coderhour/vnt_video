@@ -9,6 +9,8 @@ This is the video generation project for Vantee. The Vantee code repo is located
     (`question_id` = `<quiz bank file name>:<question id>`, e.g. `amc_practice_amc8_geometry_template:c1-010`,
     linking the video to its question in `/home/brad/code/vnt/priv/quiz_banks/`)
     (`posts` is filled in by hand after manually publishing)
+    Optional: `"status"`: `draft` (default) / `ready` / `fix` (+ `"fixes": ["…"]`), set from the site buttons; `"tags": [...]` overrides the
+    default publish tags. Having `posts` means published.
   - `script.md` — narration / shot script
   - `video.mp4` (gitignored), optional `poster.jpg`
 - `studio/` — shared Remotion project (created on first video): `src/videos/<slug>/`, generated `public/<slug>/`.

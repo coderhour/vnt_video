@@ -1,0 +1,645 @@
+{
+ "fps": 30,
+ "durationInFrames": 12544,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 560,
+   "lines": [
+    {
+     "text": "Nine dots in a square grid. How many circles pass through at least three of them?",
+     "caption": "Nine dots in a square grid. How many circles pass through at least three of them?",
+     "file": "2026-10-30-circles-through-grid-points/audio/0123067399c8cd6b.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "Lots of kids answer seventy-six. <short pause> The real answer is much smaller!",
+     "caption": "Lots of kids answer seventy-six. The real answer is much smaller!",
+     "file": "2026-10-30-circles-through-grid-points/audio/550590e61413216d.wav",
+     "from": 199,
+     "frames": 150
+    },
+    {
+     "text": "Hello there! My name is Vantee. Let's count these circles the smart way.",
+     "caption": "Hello there! My name is Vantee. Let's count these circles the smart way.",
+     "file": "2026-10-30-circles-through-grid-points/audio/4f58b0413f295f1f.wav",
+     "from": 359,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 560,
+   "frames": 528,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-circles-through-grid-points/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 46
+    },
+    {
+     "text": "Nine points are marked. Each of x and y is zero, one, or two.",
+     "caption": "Nine points are marked. Each of x and y is zero, one, or two.",
+     "file": "2026-10-30-circles-through-grid-points/audio/90e19b1b0b1fa4ea.wav",
+     "from": 56,
+     "frames": 191
+    },
+    {
+     "text": "How many different circles pass through at least three of the marked points?",
+     "caption": "How many different circles pass through at least three of the marked points?",
+     "file": "2026-10-30-circles-through-grid-points/audio/f66387b54349cd50.wav",
+     "from": 258,
+     "frames": 144
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-30-circles-through-grid-points/audio/4c78df72243d4b0b.wav",
+     "from": 412,
+     "frames": 62
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1088,
+   "frames": 714,
+   "lines": [
+    {
+     "text": "What are we counting?",
+     "caption": "What are we counting?",
+     "file": "2026-10-30-circles-through-grid-points/audio/54728702c562b549.wav",
+     "from": 0,
+     "frames": 45
+    },
+    {
+     "text": "Pick any three points that are not on one line.",
+     "caption": "Pick any three points that are not on one line.",
+     "file": "2026-10-30-circles-through-grid-points/audio/34f16efc6ac36fdf.wav",
+     "from": 54,
+     "frames": 111
+    },
+    {
+     "text": "Exactly one circle goes through all three of them.",
+     "caption": "Exactly one circle goes through all three of them.",
+     "file": "2026-10-30-circles-through-grid-points/audio/0bed8dd6f3239cbe.wav",
+     "from": 175,
+     "frames": 120
+    },
+    {
+     "text": "Three points on one line? No circle can pass through all three.",
+     "caption": "Three points on one line? No circle can pass through all three.",
+     "file": "2026-10-30-circles-through-grid-points/audio/b8331eb5bb9536ef.wav",
+     "from": 306,
+     "frames": 148
+    },
+    {
+     "text": "Watch the word different. A circle through four points still counts only once.",
+     "caption": "Watch the word different. A circle through four points still counts only once.",
+     "file": "2026-10-30-circles-through-grid-points/audio/f278a3e753473ac1.wav",
+     "from": 464,
+     "frames": 196
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1802,
+   "frames": 434,
+   "lines": [
+    {
+     "text": "Now pause the video and give it a go. I'll wait!",
+     "caption": "Now pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-circles-through-grid-points/audio/f6e057471f7590ef.wav",
+     "from": 0,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "triples",
+   "kind": "scene",
+   "chapter": "Solution 1: count groups of three",
+   "from": 2236,
+   "frames": 1084,
+   "lines": [
+    {
+     "text": "Welcome back! Our plan: count groups of three, then fix the repeats.",
+     "caption": "Welcome back! Our plan: count groups of three, then fix the repeats.",
+     "file": "2026-10-30-circles-through-grid-points/audio/a3f7238272e3a78a.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "How many ways can we pick three of the nine points?",
+     "caption": "How many ways can we pick three of the nine points?",
+     "file": "2026-10-30-circles-through-grid-points/audio/465408d47f8f5167.wav",
+     "from": 168,
+     "frames": 119
+    },
+    {
+     "text": "Nine times eight times seven, over three times two times one.",
+     "caption": "Nine times eight times seven, over three times two times one.",
+     "file": "2026-10-30-circles-through-grid-points/audio/5408cc462bacbe24.wav",
+     "from": 297,
+     "frames": 177
+    },
+    {
+     "text": "That makes eighty-four groups of three.",
+     "caption": "That makes eighty-four groups of three.",
+     "file": "2026-10-30-circles-through-grid-points/audio/429341d32ee747d8.wav",
+     "from": 484,
+     "frames": 94
+    },
+    {
+     "text": "Throw out groups on one line: three rows, three columns, two diagonals. That's eight.",
+     "caption": "Throw out groups on one line: three rows, three columns, two diagonals. That's eight.",
+     "file": "2026-10-30-circles-through-grid-points/audio/aba067b9db2a31e3.wav",
+     "from": 588,
+     "frames": 215
+    },
+    {
+     "text": "Eighty-four minus eight leaves seventy-six groups.",
+     "caption": "Eighty-four minus eight leaves seventy-six groups.",
+     "file": "2026-10-30-circles-through-grid-points/audio/26a226cc2def9669.wav",
+     "from": 813,
+     "frames": 132
+    },
+    {
+     "text": "Is it seventy-six circles, then?",
+     "caption": "Is it seventy-six circles, then?",
+     "file": "2026-10-30-circles-through-grid-points/audio/341f890a4c3bef06.wav",
+     "from": 956,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "repeat",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3320,
+   "frames": 540,
+   "lines": [
+    {
+     "text": "Not so fast! Look at this little square.",
+     "caption": "Not so fast! Look at this little square.",
+     "file": "2026-10-30-circles-through-grid-points/audio/a8e3ce421d67d511.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "All four corners sit on one circle.",
+     "caption": "All four corners sit on one circle.",
+     "file": "2026-10-30-circles-through-grid-points/audio/16730a058d09c7e6.wav",
+     "from": 111,
+     "frames": 112
+    },
+    {
+     "text": "Leave out any one corner. The other three give the SAME circle.",
+     "caption": "Leave out any one corner. The other three give the SAME circle.",
+     "file": "2026-10-30-circles-through-grid-points/audio/1c8eb8935ed91271.wav",
+     "from": 234,
+     "frames": 141
+    },
+    {
+     "text": "So this one circle got counted four times!",
+     "caption": "So this one circle got counted four times!",
+     "file": "2026-10-30-circles-through-grid-points/audio/b009acfb5868c25c.wav",
+     "from": 384,
+     "frames": 102
+    }
+   ]
+  },
+  {
+   "id": "hunt",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3860,
+   "frames": 1880,
+   "lines": [
+    {
+     "text": "So let's hunt for every circle that passes through four points.",
+     "caption": "So let's hunt for every circle that passes through four points.",
+     "file": "2026-10-30-circles-through-grid-points/audio/a48ccd981a10b71b.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Any rectangle works. Its two diagonals are equal, and they cross at their middles.",
+     "caption": "Any rectangle works. Its two diagonals are equal, and they cross at their middles.",
+     "file": "2026-10-30-circles-through-grid-points/audio/646fd5b5e75511df.wav",
+     "from": 148,
+     "frames": 178
+    },
+    {
+     "text": "That point is the same distance from all four corners: the center!",
+     "caption": "That point is the same distance from all four corners: the center!",
+     "file": "2026-10-30-circles-through-grid-points/audio/c782f71b848e695b.wav",
+     "from": 336,
+     "frames": 152
+    },
+    {
+     "text": "First, four small squares.",
+     "caption": "First, four small squares.",
+     "file": "2026-10-30-circles-through-grid-points/audio/0a35e45193d032f0.wav",
+     "from": 498,
+     "frames": 82
+    },
+    {
+     "text": "Then one big square, and one tilted square.",
+     "caption": "Then one big square, and one tilted square.",
+     "file": "2026-10-30-circles-through-grid-points/audio/dcd0ffa5a66b0423.wav",
+     "from": 590,
+     "frames": 135
+    },
+    {
+     "text": "Next, the long rectangles. Two lie flat, and two stand up.",
+     "caption": "Next, the long rectangles. Two lie flat, and two stand up.",
+     "file": "2026-10-30-circles-through-grid-points/audio/e231f5fd9dc2d98e.wav",
+     "from": 734,
+     "frames": 154
+    },
+    {
+     "text": "Here's a sneaky one: a trapezoid whose two short sides match.",
+     "caption": "Here's a sneaky one: a trapezoid whose two short sides match.",
+     "file": "2026-10-30-circles-through-grid-points/audio/10cbfe039c56f8be.wav",
+     "from": 899,
+     "frames": 159
+    },
+    {
+     "text": "It's symmetric, so its center sits on the mirror line, the same distance from all four corners.",
+     "caption": "It's symmetric, so its center sits on the mirror line, the same distance from all four corners.",
+     "file": "2026-10-30-circles-through-grid-points/audio/78bd9b3ff209be1b.wav",
+     "from": 1068,
+     "frames": 209
+    },
+    {
+     "text": "It can face each of the four corners, so there are four trapezoids.",
+     "caption": "It can face each of the four corners, so there are four trapezoids.",
+     "file": "2026-10-30-circles-through-grid-points/audio/948ad83f0fe6283b.wav",
+     "from": 1287,
+     "frames": 150
+    },
+    {
+     "text": "Six squares, four rectangles, four trapezoids. That's fourteen circles!",
+     "caption": "Six squares, four rectangles, four trapezoids. That's fourteen circles!",
+     "file": "2026-10-30-circles-through-grid-points/audio/df3023aa205bc393.wav",
+     "from": 1447,
+     "frames": 197
+    },
+    {
+     "text": "A five-point circle would have to be one of these fourteen. None of them touches a fifth dot.",
+     "caption": "A five-point circle would have to be one of these fourteen. None of them touches a fifth dot.",
+     "file": "2026-10-30-circles-through-grid-points/audio/04bb51156b392323.wav",
+     "from": 1655,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5740,
+   "frames": 633,
+   "lines": [
+    {
+     "text": "Each of these fourteen circles was counted four times. So remove three extra copies of each.",
+     "caption": "Each of these fourteen circles was counted four times. So remove three extra copies of each.",
+     "file": "2026-10-30-circles-through-grid-points/audio/8304586c3030d406.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "Fourteen times three is forty-two.",
+     "caption": "Fourteen times three is forty-two.",
+     "file": "2026-10-30-circles-through-grid-points/audio/9185bd2c874ddfcc.wav",
+     "from": 202,
+     "frames": 110
+    },
+    {
+     "text": "Seventy-six take away forty-two leaves thirty-four!",
+     "caption": "Seventy-six take away forty-two leaves thirty-four!",
+     "file": "2026-10-30-circles-through-grid-points/audio/7f834244c00a7143.wav",
+     "from": 321,
+     "frames": 118
+    },
+    {
+     "text": "The answer is thirty-four circles. That's Choice B!",
+     "caption": "The answer is thirty-four circles. That's Choice B!",
+     "file": "2026-10-30-circles-through-grid-points/audio/c0f3a281fdc0f459.wav",
+     "from": 449,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "piles",
+   "kind": "scene",
+   "chapter": "Solution 2: two piles",
+   "from": 6373,
+   "frames": 768,
+   "lines": [
+    {
+     "text": "Here's another way. Split all seventy-six groups into two piles.",
+     "caption": "Here's another way. Split all seventy-six groups into two piles.",
+     "file": "2026-10-30-circles-through-grid-points/audio/5d287705c272bdeb.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "Pile one holds every group inside a four-point circle.",
+     "caption": "Pile one holds every group inside a four-point circle.",
+     "file": "2026-10-30-circles-through-grid-points/audio/c0206b7e91b8eb6a.wav",
+     "from": 164,
+     "frames": 132
+    },
+    {
+     "text": "Fourteen circles times four groups is fifty-six groups, but only fourteen circles.",
+     "caption": "Fourteen circles times four groups is fifty-six groups, but only fourteen circles.",
+     "file": "2026-10-30-circles-through-grid-points/audio/137989873c622e97.wav",
+     "from": 307,
+     "frames": 227
+    },
+    {
+     "text": "Pile two holds the other twenty groups. Each one makes its very own circle.",
+     "caption": "Pile two holds the other twenty groups. Each one makes its very own circle.",
+     "file": "2026-10-30-circles-through-grid-points/audio/484d44512ee4149e.wav",
+     "from": 544,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "families",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7141,
+   "frames": 1526,
+   "lines": [
+    {
+     "text": "Let's check those twenty. They come in four families.",
+     "caption": "Let's check those twenty. They come in four families.",
+     "file": "2026-10-30-circles-through-grid-points/audio/5bbc952cbb5981d4.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "Family one: a corner, the middle point, and the next corner. There are four.",
+     "caption": "Family one: a corner, the middle point, and the next corner. There are four.",
+     "file": "2026-10-30-circles-through-grid-points/audio/ae05dba18156d94a.wav",
+     "from": 128,
+     "frames": 203
+    },
+    {
+     "text": "Family two: two corners on one side, plus the middle of the far side. Four again.",
+     "caption": "Family two: two corners on one side, plus the middle of the far side. Four again.",
+     "file": "2026-10-30-circles-through-grid-points/audio/3b771a5c50de2b8f.wav",
+     "from": 342,
+     "frames": 206
+    },
+    {
+     "text": "Family three: one corner and two points it can reach with a knight's move. Four more.",
+     "caption": "Family three: one corner and two points it can reach with a knight's move. Four more.",
+     "file": "2026-10-30-circles-through-grid-points/audio/99092bd918091eec.wav",
+     "from": 557,
+     "frames": 198
+    },
+    {
+     "text": "Family four: a corner, the middle point, and the middle of a side away from that corner.",
+     "caption": "Family four: a corner, the middle point, and the middle of a side away from that corner.",
+     "file": "2026-10-30-circles-through-grid-points/audio/0ecef1f5e4367075.wav",
+     "from": 766,
+     "frames": 204
+    },
+    {
+     "text": "These circles bulge outside the grid. There are eight of them.",
+     "caption": "These circles bulge outside the grid. There are eight of them.",
+     "file": "2026-10-30-circles-through-grid-points/audio/4bdaf7ebd5799a14.wav",
+     "from": 980,
+     "frames": 137
+    },
+    {
+     "text": "Four plus four plus four plus eight is twenty.",
+     "caption": "Four plus four plus four plus eight is twenty.",
+     "file": "2026-10-30-circles-through-grid-points/audio/e8ecaa2e33847afa.wav",
+     "from": 1128,
+     "frames": 166
+    },
+    {
+     "text": "Fourteen plus twenty is thirty-four. This way is great for double-checking!",
+     "caption": "Fourteen plus twenty is thirty-four. This way is great for double-checking!",
+     "file": "2026-10-30-circles-through-grid-points/audio/cb0f216856cff35b.wav",
+     "from": 1304,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8667,
+   "frames": 969,
+   "lines": [
+    {
+     "text": "Now, let's look at the traps.",
+     "caption": "Now, let's look at the traps.",
+     "file": "2026-10-30-circles-through-grid-points/audio/85ec7d0225cc8c65.wav",
+     "from": 0,
+     "frames": 69
+    },
+    {
+     "text": "Seventy-six counts every group as its own circle. The repeats were never fixed.",
+     "caption": "Seventy-six counts every group as its own circle. The repeats were never fixed.",
+     "file": "2026-10-30-circles-through-grid-points/audio/caaf383d66271722.wav",
+     "from": 79,
+     "frames": 188
+    },
+    {
+     "text": "Sixty-two takes away only one copy of each four-point circle. We must remove three.",
+     "caption": "Sixty-two takes away only one copy of each four-point circle. We must remove three.",
+     "file": "2026-10-30-circles-through-grid-points/audio/2e72e9a31763e7f0.wav",
+     "from": 276,
+     "frames": 188
+    },
+    {
+     "text": "Forty-eight takes away two copies. That's still one too few.",
+     "caption": "Forty-eight takes away two copies. That's still one too few.",
+     "file": "2026-10-30-circles-through-grid-points/audio/427b731d60e3b586.wav",
+     "from": 474,
+     "frames": 148
+    },
+    {
+     "text": "Twenty misses the fourteen circles that pass through four points.",
+     "caption": "Twenty misses the fourteen circles that pass through four points.",
+     "file": "2026-10-30-circles-through-grid-points/audio/41226f4addf707f7.wav",
+     "from": 632,
+     "frames": 153
+    },
+    {
+     "text": "Always ask: did I count any circle more than once?",
+     "caption": "Always ask: did I count any circle more than once?",
+     "file": "2026-10-30-circles-through-grid-points/audio/1e19d88693aeab9c.wav",
+     "from": 795,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: eight points",
+   "from": 9636,
+   "frames": 357,
+   "lines": [
+    {
+     "text": "Your turn! Take away the middle point. Now only eight points are left.",
+     "caption": "Your turn! Take away the middle point. Now only eight points are left.",
+     "file": "2026-10-30-circles-through-grid-points/audio/f31fa0fd7f55c8d5.wav",
+     "from": 0,
+     "frames": 164
+    },
+    {
+     "text": "How many different circles pass through at least three of these eight points?",
+     "caption": "How many different circles pass through at least three of these eight points?",
+     "file": "2026-10-30-circles-through-grid-points/audio/97127e4bc681ed2b.wav",
+     "from": 174,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9993,
+   "frames": 441,
+   "lines": [
+    {
+     "text": "Pause the video and use the same plan. I'll wait!",
+     "caption": "Pause the video and use the same plan. I'll wait!",
+     "file": "2026-10-30-circles-through-grid-points/audio/32c69b8cf6fadb7c.wav",
+     "from": 0,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Eight points: the answer",
+   "from": 10434,
+   "frames": 1490,
+   "lines": [
+    {
+     "text": "Welcome back! First, count the groups of three.",
+     "caption": "Welcome back! First, count the groups of three.",
+     "file": "2026-10-30-circles-through-grid-points/audio/f5e015f490bf8922.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "Eight times seven times six, over three times two times one, is fifty-six.",
+     "caption": "Eight times seven times six, over three times two times one, is fifty-six.",
+     "file": "2026-10-30-circles-through-grid-points/audio/e8f6be9a0c54c8d8.wav",
+     "from": 131,
+     "frames": 182
+    },
+    {
+     "text": "Only the four sides are lines of three now. The diagonals lost their middle point.",
+     "caption": "Only the four sides are lines of three now. The diagonals lost their middle point.",
+     "file": "2026-10-30-circles-through-grid-points/audio/3e51e10e17f108ea.wav",
+     "from": 322,
+     "frames": 165
+    },
+    {
+     "text": "Fifty-six minus four leaves fifty-two groups.",
+     "caption": "Fifty-six minus four leaves fifty-two groups.",
+     "file": "2026-10-30-circles-through-grid-points/audio/7cef658a533a588d.wav",
+     "from": 497,
+     "frames": 124
+    },
+    {
+     "text": "Each small square used the middle point. So its circle now hits only three points.",
+     "caption": "Each small square used the middle point. So its circle now hits only three points.",
+     "file": "2026-10-30-circles-through-grid-points/audio/c4e8f2374d296838.wav",
+     "from": 631,
+     "frames": 192
+    },
+    {
+     "text": "That leaves ten four-point circles: two squares, four rectangles, four trapezoids.",
+     "caption": "That leaves ten four-point circles: two squares, four rectangles, four trapezoids.",
+     "file": "2026-10-30-circles-through-grid-points/audio/fe701761eb5b1275.wav",
+     "from": 834,
+     "frames": 227
+    },
+    {
+     "text": "Ten times three is thirty extra copies. Fifty-two minus thirty is twenty-two!",
+     "caption": "Ten times three is thirty extra copies. Fifty-two minus thirty is twenty-two!",
+     "file": "2026-10-30-circles-through-grid-points/audio/040b0151ff516215.wav",
+     "from": 1071,
+     "frames": 222
+    },
+    {
+     "text": "The answer is twenty-two circles. Great work!",
+     "caption": "The answer is twenty-two circles. Great work!",
+     "file": "2026-10-30-circles-through-grid-points/audio/67c630d2d0b6b1a6.wav",
+     "from": 1304,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11924,
+   "frames": 620,
+   "lines": [
+    {
+     "text": "Here's the big idea.",
+     "caption": "Here's the big idea.",
+     "file": "2026-10-30-circles-through-grid-points/audio/4f3d14433c3cdfd5.wav",
+     "from": 0,
+     "frames": 62
+    },
+    {
+     "text": "Three points not on a line make one circle. So count the groups of three.",
+     "caption": "Three points not on a line make one circle. So count the groups of three.",
+     "file": "2026-10-30-circles-through-grid-points/audio/9d8910307d94f706.wav",
+     "from": 71,
+     "frames": 160
+    },
+    {
+     "text": "Then fix the repeats. A four-point circle was counted four times, so remove three.",
+     "caption": "Then fix the repeats. A four-point circle was counted four times, so remove three.",
+     "file": "2026-10-30-circles-through-grid-points/audio/38d8a9ee57b4b72f.wav",
+     "from": 242,
+     "frames": 192
+    },
+    {
+     "text": "I'm Vantee, and thanks for counting circles with me!",
+     "caption": "I'm Vantee, and thanks for counting circles with me!",
+     "file": "2026-10-30-circles-through-grid-points/audio/34ee34d3d93552eb.wav",
+     "from": 444,
+     "frames": 107
+    }
+   ]
+  }
+ ]
+}
