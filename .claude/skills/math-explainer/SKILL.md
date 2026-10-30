@@ -40,7 +40,7 @@ the workbench step and its wrap-up (author shout-out, showcase, JianYing). Use o
 ```
 studio/                         shared Remotion project for all explainers (already set up)
   src/lib/                      shared pieces, reuse before writing new ones:
-    Explainer.tsx               the frame: scenes + voice audio + chapter pill + captions + Vantee avatar;
+    Explainer.tsx               the frame: scenes + voice audio + chapter pill + captions + static Vantee logo watermark;
                                 `at(scene, i, t)` = frame where line i starts (t = fraction into the line)
     grid.tsx                    dot grids, self-drawing polygons, step arrows, boxSquare(), boxSpots()
     Tex.tsx                     KaTeX (verified: fonts render in headless renders)
@@ -119,21 +119,36 @@ creates one WAV per line (unchanged lines are cached), `studio/public/<slug>/tim
 `videos/<slug>/script.md`, and prints the chapter list. Fix any chapter warnings (YouTube needs
 ≥ 3 chapters, the first at 0:00, each ≥ 10 s).
 
-`--check` transcribes every WAV back and prints it next to the script line. Go through every
-pair. A dropped, added or wrong word (especially a number) means you reword that line and re-run.
-Only the changed lines get regenerated. Ignore digits vs words ("26" vs "twenty-six") and the
-transcriber's spelling of "Vantee". If the user says the TTS *mispronounces* Vantee, write it as
-"Van-tee" in the narration lines, and have the caption component show "Vantee" in its place.
+Keep writing "Vantee" in narration: `tts.py`'s `SPOKEN` map sends "Van-tee" (/ˈvæn.ti/) to the
+TTS and the captions keep "Vantee".
 
 Delivery style follows the official Gemini 3.8 TTS guidance
 (https://ai.google.dev/gemini-api/docs/speech-generation): `tts.py` sends each line as a verbatim
 transcript and puts the delivery in the `speech_metadata` `style` field. Default: voice `Achird`
-("Friendly"), style "warm, encouraging and playful, speaking at a relaxed pace". Override
+("Friendly"), style "warm and encouraging, speaking at a relaxed pace, no laughing" ("playful" made it laugh;
+the user doesn't want laughs). Override
 `voice` / `style` in `narration.json`, but keep the style a few words long: long styles drift.
 - Never put stage directions in the line text, because they get spoken.
 - For a moment in the line, use an inline angle-bracket tag: `<short pause>` before a reveal,
-  `<long pause>`, `<laugh>`. Use them sparingly.
+  `<long pause>`. Use them sparingly. No `<laugh>`.
 - CAPITALIZE a word for vocal emphasis ("the answer is NOT twenty-six").
+
+### 4b. Verify the voice (required, after every generation)
+The TTS is generative, not a word-by-word reader: it adds, drops and changes words. "If you got
+fifty" came out as "fifty PERCENT", "Try" as "Tried", and some takes had laughs. So after **every**
+`tts.py` run, before building or rendering:
+
+1. Run `tts.py <slug> --check`. It transcribes every WAV with `gemini-3.8-flash`, diffs it word by
+   word against the script (digits vs words, `2x2`, `+`, `*`, `%`, punctuation and the spelling of
+   "Vantee" are normalized away) and prints `MISMATCH: script -> heard` lines. A laugh shows as
+   `- -> LAUGH`. It exits 1 if any line mismatches.
+2. Treat every MISMATCH as a real error in the audio. **Never dismiss one as a transcriber quirk.**
+   Reword the line so it is unambiguous: give a bare number its noun ("all fifty squares"), avoid
+   words that blur ("Try" → "Use") and avoid a weak first word ("And one big…" → "Last, one big…").
+   Then re-run. Only changed lines are regenerated.
+3. Repeat until it prints `voice check: all lines match`. If the check flags a line that you are
+   sure is right after re-transcribing it twice, list it for the user rather than skipping it silently.
+4. Re-copy the chapter times into `meta.json` whenever a line changes, because timings shift.
 
 ### 5. Storyboard and animation
 The visuals must *explain*, not decorate. Plan each scene's visual from the math:
@@ -154,7 +169,7 @@ The visuals must *explain*, not decorate. Plan each scene's visual from the math
 Visual language follows Vantee (`/home/brad/code/vnt/DESIGN.md`):
 - Font Nunito. Primary `#0cc281`, secondary `#7b61ff`, text `#333333`, light background.
 - Error `#ef4343` for traps, success `#21c45d` for correct answers.
-- Avatar `priv/static/images/Vantee_avatar_point2x.png` in the corner while Vantee talks.
+- Vantee leaf logo (`priv/static/images/logo.svg` → `studio/public/brand/logo.svg`) bottom-left as a static watermark. No motion. Not the mascot avatar.
 - Burned-in captions from each timeline line's `caption` (the text without TTS tags), big and readable. Math at ≥ 48 px.
 
 ### 6. Build

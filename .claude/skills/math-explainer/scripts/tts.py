@@ -9,6 +9,7 @@ Writes  studio/public/<slug>/audio/<hash>.wav   (cached: unchanged lines are not
 Prints  chapter lines for the YouTube description.
 """
 import base64
+import difflib
 import hashlib
 import json
 import math
@@ -24,10 +25,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[4]
 MODEL = "gemini-3.8-flash-tts"
 DEFAULT_VOICE = "Achird"  # "Friendly" in the Gemini voice list
-DEFAULT_STYLE = "warm, encouraging and playful, speaking at a relaxed pace"
+DEFAULT_STYLE = "warm and encouraging, speaking at a relaxed pace, no laughing"  # "playful" added laughs
 CHECK_MODEL = "gemini-3.8-flash"
 LINE_GAP = 0.35    # seconds of silence between lines
 SCENE_TAIL = 0.8   # seconds after a scene's last line
+# Spellings the TTS reads right. Captions keep the real word. "Van-tee" -> /ˈvæn.ti/ (plain "Vantee" came out "Vansi").
+SPOKEN = {"Vantee": "Van-tee"}
 
 
 def post(path, body):
@@ -67,14 +70,52 @@ def synth(text, voice, style):
 def transcribe(path):
     resp = post(f"models/{CHECK_MODEL}:generateContent", {"contents": [{"parts": [
         {"inlineData": {"mimeType": "audio/wav", "data": base64.b64encode(path.read_bytes()).decode()}},
-        {"text": "Transcribe this audio verbatim. Output only the words spoken."},
+        {"text": "Transcribe this audio verbatim. Output only the words spoken, and mark any laughter, giggle or chuckle as [laugh]."},
     ]}]})
     return resp["candidates"][0]["content"]["parts"][0]["text"].strip()
+
+
+ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+
+
+def num_words(n):
+    """0-999 as words (enough for contest narration)."""
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + ("" if n % 10 == 0 else " " + ONES[n % 10])
+    return ONES[n // 100] + " hundred" + ("" if n % 100 == 0 else " " + num_words(n % 100))
+
+
+def words(text):
+    """Normalized word list for comparing script vs heard: digits -> words, 2x2 -> two by two, % -> percent."""
+    t = re.sub(r"<[^>]+>", " ", text.lower())
+    t = re.sub(r"(\d)\s*x\s*(\d)", r"\1 by \2", t).replace("%", " percent ").replace("+", " plus ").replace("*", " times ").replace("[laugh]", " LAUGH ")
+    t = re.sub(r"\d+", lambda m: " " + num_words(int(m.group())) + " ", t)
+    return re.findall(r"[a-z']+|LAUGH", t.replace("neighbour", "neighbor"))
+
+
+def diff(script, heard):
+    """Differences between what the line says and what the TTS said ([] = clean). Vantee's spelling is ignored."""
+    a, b = words(script), words(heard)
+    out = []
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(a=a, b=b, autojunk=False).get_opcodes():
+        if op == "equal" or (op == "replace" and a[i1:i2] == ["vantee"] and j2 - j1 == 1):
+            continue
+        out.append(f"{' '.join(a[i1:i2]) or '-'} -> {' '.join(b[j1:j2]) or '-'}")
+    return out
 
 
 def wav_seconds(path):
     with wave.open(str(path)) as w:
         return w.getnframes() / w.getframerate()
+
+
+def spoken(text):
+    for word, say in SPOKEN.items():
+        text = re.sub(rf"\b{word}\b", say, text)
+    return text
 
 
 def caption(text):
@@ -138,11 +179,12 @@ def main():
         for text in s.get("lines", []):
             if text in audio:
                 continue
-            name = hashlib.sha1(f"{MODEL}|{voice}|{style}|{text}".encode()).hexdigest()[:16] + ".wav"
+            say = spoken(text)
+            name = hashlib.sha1(f"{MODEL}|{voice}|{style}|{say}".encode()).hexdigest()[:16] + ".wav"
             f = pub / "audio" / name
             if not f.exists():
                 print("tts:", text[:70], file=sys.stderr)
-                f.write_bytes(synth(text, voice, style))
+                f.write_bytes(synth(say, voice, style))
             audio[text] = (f"{slug}/audio/{name}", wav_seconds(f))
 
     tl = build_timeline(n["scenes"], audio, fps)
@@ -159,8 +201,14 @@ def main():
 
     if "--check" in sys.argv:  # what the kid will actually hear, for comparing with the script
         print("\n--- check: script / heard ---")
+        bad = 0
         for text, (file, _) in audio.items():
-            print(f"script: {text}\nheard:  {transcribe(ROOT / 'studio/public' / file)}\n")
+            heard = transcribe(ROOT / "studio/public" / file)
+            d = diff(text, heard)
+            bad += bool(d)
+            print(f"script: {text}\nheard:  {heard}" + "".join(f"\nMISMATCH: {x}" for x in d) + "\n")
+        print(f"{bad} line(s) with MISMATCH" if bad else "voice check: all lines match")
+        sys.exit(1 if bad else 0)
 
 
 if __name__ == "__main__":

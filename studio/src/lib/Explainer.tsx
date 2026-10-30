@@ -48,19 +48,10 @@ const Captions: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
   return null;
 };
 
-const isTalking = (timeline: Timeline, f: number) =>
-  timeline.scenes.some((s) => s.lines.some((l) => f >= s.from + l.from && f < s.from + l.from + l.frames));
-
-const Avatar: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
-  const f = useCurrentFrame();
-  const bob = isTalking(timeline, f) ? Math.sin(f / 3.2) * 7 : Math.sin(f / 22) * 4;
-  return (
-    <Img
-      src={staticFile('brand/vantee.png')}
-      style={{ position: 'absolute', left: 30, bottom: 26, height: 210, transform: `translateY(${bob}px)` }}
-    />
-  );
-};
+/** Static Vantee logo, bottom-left: a watermark only, no motion. */
+const Watermark: React.FC = () => (
+  <Img src={staticFile('brand/logo.svg')} style={{ position: 'absolute', left: 40, bottom: 20, height: 220 }} />
+);
 
 const ChapterPill: React.FC<{ timeline: Timeline; badge: string }> = ({ timeline, badge }) => {
   const f = useCurrentFrame();
@@ -94,7 +85,7 @@ const ChapterPill: React.FC<{ timeline: Timeline; badge: string }> = ({ timeline
   );
 };
 
-/** Shared frame for every explainer: scenes + narration audio + chapter pill + captions + Vantee. */
+/** Shared frame for every explainer: scenes + narration audio + chapter pill + captions + Vantee logo. */
 export const Explainer: React.FC<{ timeline: Timeline; scenes: Record<string, SceneComponent>; badge: string }> = ({
   timeline,
   scenes,
@@ -117,6 +108,6 @@ export const Explainer: React.FC<{ timeline: Timeline; scenes: Record<string, Sc
     })}
     <ChapterPill timeline={timeline} badge={badge} />
     <Captions timeline={timeline} />
-    <Avatar timeline={timeline} />
+    <Watermark />
   </AbsoluteFill>
 );

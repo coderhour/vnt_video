@@ -20,7 +20,7 @@
    "Pick any four dots. If they make a perfect square, it counts.",
    "Like this little one.",
    "Squares can be bigger, like this one.",
-   "And this one counts too, even though it's standing on its corner!",
+   "This one counts too, even though it's standing on its corner!",
    "Our job is to count them ALL, without missing any, and without counting any twice."
   ]},
   {"id": "try1", "chapter": "Try it yourself", "kind": "pause", "hold": 10, "lines": [
@@ -45,14 +45,14 @@
    "Now a bigger tilted square. Each side goes two across, and one down.",
    "It fits inside a three by three box. And look, it has a mirror twin!",
    "Two three by three boxes, with two tilted squares each. That's four more.",
-   "Any bigger tilted square would need a four by four box. That doesn't fit.",
+   "A bigger tilted square would need a four by four box. And that won't fit.",
    "So we have twenty, plus six, plus four. <short pause> That's thirty squares!"
   ]},
   {"id": "boxtrick", "chapter": "Solution 2: the box trick", "hold": 1.2, "lines": [
    "Now here's a faster way. I call it the box trick.",
    "Every square, upright or tilted, fits snugly inside an upright box. It touches all four sides.",
    "Look at this two by two box. It holds the box itself, plus one tilted square. That's two squares.",
-   "Now a three by three box. The corners step along its sides, from dot to dot.",
+   "Now a three by three box. Its corners step along the sides, from dot to dot.",
    "Zero steps. One step. Two steps. With three steps, we are back to the box! So, three squares in one box.",
    "See the pattern? A two by two box holds two snug squares. A three by three box holds three.",
    "So we just count the boxes, and multiply by their size.",
@@ -73,7 +73,7 @@
    "Ready for a challenge? Here's a bigger grid.",
    "Now there are twenty-five dots, in five rows of five.",
    "How many squares have all four corners on dots? Tilted ones count too.",
-   "Try the box trick!"
+   "Use the box trick!"
   ]},
   {"id": "try2", "kind": "pause", "hold": 12, "lines": [
    "Pause the video, and go for it!"
@@ -83,9 +83,9 @@
    "One by one boxes: sixteen of them. Times one, that's sixteen.",
    "Two by two boxes: three across and three down, so nine. Times two, that's eighteen.",
    "Three by three boxes: four of them. Times three, that's twelve.",
-   "And one big four by four box. It hides four squares!",
+   "Last, one big four by four box. It hides four squares!",
    "Sixteen, plus eighteen, plus twelve, plus four. <short pause> That's fifty!",
-   "If you got fifty, amazing work!"
+   "If you found all fifty squares, amazing work!"
   ]},
   {"id": "recap", "chapter": "Recap", "hold": 2, "lines": [
    "Here's the big idea to remember.",

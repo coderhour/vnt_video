@@ -32,7 +32,7 @@ Like this little one.
 
 Squares can be bigger, like this one.
 
-And this one counts too, even though it's standing on its corner!
+This one counts too, even though it's standing on its corner!
 
 Our job is to count them ALL, without missing any, and without counting any twice.
 
@@ -76,7 +76,7 @@ It fits inside a three by three box. And look, it has a mirror twin!
 
 Two three by three boxes, with two tilted squares each. That's four more.
 
-Any bigger tilted square would need a four by four box. That doesn't fit.
+A bigger tilted square would need a four by four box. And that won't fit.
 
 So we have twenty, plus six, plus four. That's thirty squares!
 
@@ -88,7 +88,7 @@ Every square, upright or tilted, fits snugly inside an upright box. It touches a
 
 Look at this two by two box. It holds the box itself, plus one tilted square. That's two squares.
 
-Now a three by three box. The corners step along its sides, from dot to dot.
+Now a three by three box. Its corners step along the sides, from dot to dot.
 
 Zero steps. One step. Two steps. With three steps, we are back to the box! So, three squares in one box.
 
@@ -126,7 +126,7 @@ Now there are twenty-five dots, in five rows of five.
 
 How many squares have all four corners on dots? Tilted ones count too.
 
-Try the box trick!
+Use the box trick!
 
 Pause the video, and go for it!
 
@@ -142,11 +142,11 @@ Two by two boxes: three across and three down, so nine. Times two, that's eighte
 
 Three by three boxes: four of them. Times three, that's twelve.
 
-And one big four by four box. It hides four squares!
+Last, one big four by four box. It hides four squares!
 
 Sixteen, plus eighteen, plus twelve, plus four. That's fifty!
 
-If you got fifty, amazing work!
+If you found all fifty squares, amazing work!
 
 ## Recap
 
