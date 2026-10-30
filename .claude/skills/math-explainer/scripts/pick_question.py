@@ -18,8 +18,7 @@ BANKS = Path(os.environ.get("VNT_REPO", "/home/brad/code/vnt")) / "priv/quiz_ban
 def used_keys():
     keys = set()
     for meta in (ROOT / "videos").glob("*/meta.json"):
-        src = json.loads(meta.read_text()).get("source") or {}
-        keys.add(f"{src.get('bank')}:{src.get('id')}")
+        keys.add(json.loads(meta.read_text()).get("question_id"))
     return keys
 
 

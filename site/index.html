@@ -41,7 +41,7 @@ function render() {
     v.video ? el('video', { src: v.video, controls: true, ...(v.poster && { poster: v.poster }) })
             : el('p', {}, 'video.mp4 not found'),
     el('h1', {}, v.title || v.slug),
-    el('p', { className: 'meta' }, `Created ${v.created || '—'} · ${v.slug}`),
+    el('p', { className: 'meta' }, `Created ${v.created || '—'} · ${v.slug}${v.question_id ? ` · Question ${v.question_id}` : ''}`),
     el('p', { style: 'white-space: pre-line' }, v.description || ''),
     ...(v.posts?.length ? [el('h2', {}, 'Published'), el('ul', {}, ...v.posts.map(p =>
       el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.platform || p.url))))] : []),

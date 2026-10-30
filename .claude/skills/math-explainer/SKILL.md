@@ -199,10 +199,12 @@ In `studio/src/videos/<slug>/Composition.tsx`:
   {"title": "Can You Find All 30 Squares? | AMC 8-Style Level 5",
    "description": "<2–3 kid-friendly lines>\n\n<chapter lines from tts.py>",
    "created": "YYYY-MM-DD",
-   "source": {"bank": "amc_practice_amc8_geometry_template", "id": "c1-010", "difficulty": 5},
+   "question_id": "amc_practice_amc8_geometry_template:c1-010",
    "posts": []}
   ```
-  `source` is how `pick_question.py` knows the question is used, because ids repeat across banks.
+  `question_id` = `<bank file name without .json>:<question id>`, the same key `pick_question.py`
+  prints. It is **required**: it links the video to its quiz-bank question (ids repeat across banks,
+  so the bank name is part of it), and `pick_question.py` uses it to skip used questions.
 
 ### 8. Independent review (required)
 Send a fresh-context subagent the video, key frames, `narration.json`, the question JSON and

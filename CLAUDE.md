@@ -5,7 +5,9 @@ This is the video generation project for Vantee. The Vantee code repo is located
 ## Layout
 
 - `videos/<YYYY-MM-DD-slug>/` — one folder per finished video:
-  - `meta.json` — `{"title", "description", "created": "YYYY-MM-DD", "posts": [{"platform", "url"}]}`
+  - `meta.json` — `{"title", "description", "created": "YYYY-MM-DD", "question_id", "posts": [{"platform", "url"}]}`
+    (`question_id` = `<quiz bank file name>:<question id>`, e.g. `amc_practice_amc8_geometry_template:c1-010`,
+    linking the video to its question in `/home/brad/code/vnt/priv/quiz_banks/`)
     (`posts` is filled in by hand after manually publishing)
   - `script.md` — narration / shot script
   - `video.mp4` (gitignored), optional `poster.jpg`
