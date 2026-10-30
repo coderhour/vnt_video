@@ -1,0 +1,552 @@
+{
+ "fps": 30,
+ "durationInFrames": 11210,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 523,
+   "lines": [
+    {
+     "text": "One point inside a rectangle makes four triangles. You know three of their areas.",
+     "caption": "One point inside a rectangle makes four triangles. You know three of their areas.",
+     "file": "2026-10-30-point-in-rectangle/audio/92a097915bf8ea65.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "Can you find the fourth, without knowing where the point is? <short pause> You can!",
+     "caption": "Can you find the fourth, without knowing where the point is? You can!",
+     "file": "2026-10-30-point-in-rectangle/audio/6b1f4e68f752130e.wav",
+     "from": 182,
+     "frames": 156
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's crack this puzzle together.",
+     "caption": "Hi there, I'm Vantee! Let's crack this puzzle together.",
+     "file": "2026-10-30-point-in-rectangle/audio/e4be78fff3fa49ee.wav",
+     "from": 349,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 523,
+   "frames": 696,
+   "lines": [
+    {
+     "text": "Here's the question. Point P is inside a rectangle, and it's joined to all four corners.",
+     "caption": "Here's the question. Point P is inside a rectangle, and it's joined to all four corners.",
+     "file": "2026-10-30-point-in-rectangle/audio/804c72b5beedb6d3.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "The triangles on the bottom, right and top sides have areas fifteen, twenty-two and twenty-five.",
+     "caption": "The triangles on the bottom, right and top sides have areas fifteen, twenty-two and twenty-five.",
+     "file": "2026-10-30-point-in-rectangle/audio/543e17b66abd8f44.wav",
+     "from": 195,
+     "frames": 237
+    },
+    {
+     "text": "What is the area of the triangle on the left side?",
+     "caption": "What is the area of the triangle on the left side?",
+     "file": "2026-10-30-point-in-rectangle/audio/1f8b0e2f831c4779.wav",
+     "from": 442,
+     "frames": 104
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-point-in-rectangle/audio/b97a89671840f7ca.wav",
+     "from": 556,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1219,
+   "frames": 851,
+   "lines": [
+    {
+     "text": "Let's break it down. P is joined to all four corners, so we get four triangles.",
+     "caption": "Let's break it down. P is joined to all four corners, so we get four triangles.",
+     "file": "2026-10-30-point-in-rectangle/audio/631d5836c711fded.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "Each triangle sits on one side of the rectangle.",
+     "caption": "Each triangle sits on one side of the rectangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/89525459f48f9a1d.wav",
+     "from": 182,
+     "frames": 119
+    },
+    {
+     "text": "The bottom one has area fifteen, the right one has twenty-two, and the top one has twenty-five.",
+     "caption": "The bottom one has area fifteen, the right one has twenty-two, and the top one has twenty-five.",
+     "file": "2026-10-30-point-in-rectangle/audio/da53bdf14f9735fa.wav",
+     "from": 311,
+     "frames": 212
+    },
+    {
+     "text": "We want the area of the left one.",
+     "caption": "We want the area of the left one.",
+     "file": "2026-10-30-point-in-rectangle/audio/022d5d6bebf957fc.wav",
+     "from": 533,
+     "frames": 84
+    },
+    {
+     "text": "We don't know how big the rectangle is, or exactly where P is. That's the puzzle!",
+     "caption": "We don't know how big the rectangle is, or exactly where P is. That's the puzzle!",
+     "file": "2026-10-30-point-in-rectangle/audio/70c140cb89d362ce.wav",
+     "from": 627,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2070,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-point-in-rectangle/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "sol1-pair",
+   "kind": "scene",
+   "chapter": "Solution 1: base times height",
+   "from": 2532,
+   "frames": 986,
+   "lines": [
+    {
+     "text": "Welcome back! Let's use the area rule: one over two, times base, times height.",
+     "caption": "Welcome back! Let's use the area rule: one over two, times base, times height.",
+     "file": "2026-10-30-point-in-rectangle/audio/da685950400c22e7.wav",
+     "from": 0,
+     "frames": 204
+    },
+    {
+     "text": "Look at the bottom triangle and the top triangle together.",
+     "caption": "Look at the bottom triangle and the top triangle together.",
+     "file": "2026-10-30-point-in-rectangle/audio/58c33757a1740504.wav",
+     "from": 214,
+     "frames": 120
+    },
+    {
+     "text": "The bottom side and the top side have the same length: the width of the rectangle.",
+     "caption": "The bottom side and the top side have the same length: the width of the rectangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/9161fa003a1649a9.wav",
+     "from": 345,
+     "frames": 165
+    },
+    {
+     "text": "The bottom triangle's height goes from P down to the bottom side.",
+     "caption": "The bottom triangle's height goes from P down to the bottom side.",
+     "file": "2026-10-30-point-in-rectangle/audio/da20c0f4441a3cdd.wav",
+     "from": 520,
+     "frames": 138
+    },
+    {
+     "text": "The top triangle's height goes from P up to the top side.",
+     "caption": "The top triangle's height goes from P up to the top side.",
+     "file": "2026-10-30-point-in-rectangle/audio/cc4bbf99815b4591.wav",
+     "from": 668,
+     "frames": 134
+    },
+    {
+     "text": "Stack those two heights, and they make the full height of the rectangle.",
+     "caption": "Stack those two heights, and they make the full height of the rectangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/bbef967f4c889bf8.wav",
+     "from": 812,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "sol1-half",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3518,
+   "frames": 759,
+   "lines": [
+    {
+     "text": "Add the two areas, and you get the width times the full height, divided by two.",
+     "caption": "Add the two areas, and you get the width times the full height, divided by two.",
+     "file": "2026-10-30-point-in-rectangle/audio/97df663e04fde4df.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Width times height is the whole rectangle. So the pair makes HALF the rectangle!",
+     "caption": "Width times height is the whole rectangle. So the pair makes HALF the rectangle!",
+     "file": "2026-10-30-point-in-rectangle/audio/c0bcb9d035198bb3.wav",
+     "from": 177,
+     "frames": 172
+    },
+    {
+     "text": "Watch P slide up and down. One triangle grows, and the other one shrinks.",
+     "caption": "Watch P slide up and down. One triangle grows, and the other one shrinks.",
+     "file": "2026-10-30-point-in-rectangle/audio/4e2aa733b011c7fc.wav",
+     "from": 359,
+     "frames": 182
+    },
+    {
+     "text": "But their total never changes. It stays half the rectangle.",
+     "caption": "But their total never changes. It stays half the rectangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/f783f2f4422c69b3.wav",
+     "from": 550,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "sol1-solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4277,
+   "frames": 1029,
+   "lines": [
+    {
+     "text": "The same idea works for the left and right triangles.",
+     "caption": "The same idea works for the left and right triangles.",
+     "file": "2026-10-30-point-in-rectangle/audio/1b9c35b03c6ad9bf.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "Their bases are the left and right sides, and their heights add up to the width.",
+     "caption": "Their bases are the left and right sides, and their heights add up to the width.",
+     "file": "2026-10-30-point-in-rectangle/audio/c4313d9a4e295266.wav",
+     "from": 120,
+     "frames": 154
+    },
+    {
+     "text": "So that pair makes the other half.",
+     "caption": "So that pair makes the other half.",
+     "file": "2026-10-30-point-in-rectangle/audio/da8224ecbe64edae.wav",
+     "from": 284,
+     "frames": 76
+    },
+    {
+     "text": "Bottom plus top is fifteen plus twenty-five, which is forty. That's half the rectangle.",
+     "caption": "Bottom plus top is fifteen plus twenty-five, which is forty. That's half the rectangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/d136a14700ab5884.wav",
+     "from": 370,
+     "frames": 198
+    },
+    {
+     "text": "So the right one plus the left one is also forty.",
+     "caption": "So the right one plus the left one is also forty.",
+     "file": "2026-10-30-point-in-rectangle/audio/a994aba0ad3f1559.wav",
+     "from": 579,
+     "frames": 123
+    },
+    {
+     "text": "Twenty-two plus the left one is forty. <short pause> So the left one is eighteen. The answer is C!",
+     "caption": "Twenty-two plus the left one is forty. So the left one is eighteen. The answer is C!",
+     "file": "2026-10-30-point-in-rectangle/audio/62dca47957545bc2.wav",
+     "from": 711,
+     "frames": 264
+    }
+   ]
+  },
+  {
+   "id": "check",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5306,
+   "frames": 522,
+   "lines": [
+    {
+     "text": "Let's double-check. Bottom plus top is forty, so the whole rectangle is two times forty: eighty.",
+     "caption": "Let's double-check. Bottom plus top is forty, so the whole rectangle is two times forty: eighty.",
+     "file": "2026-10-30-point-in-rectangle/audio/7d99afc92fc75aca.wav",
+     "from": 0,
+     "frames": 246
+    },
+    {
+     "text": "Take away fifteen, twenty-two and twenty-five. That leaves eighteen. It matches!",
+     "caption": "Take away fifteen, twenty-two and twenty-five. That leaves eighteen. It matches!",
+     "file": "2026-10-30-point-in-rectangle/audio/29081f23e3204dcc.wav",
+     "from": 257,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: cut it into four",
+   "from": 5828,
+   "frames": 1360,
+   "lines": [
+    {
+     "text": "Here's a second way to SEE it, just by cutting.",
+     "caption": "Here's a second way to SEE it, just by cutting.",
+     "file": "2026-10-30-point-in-rectangle/audio/000794a98969164a.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "Draw a line across through P, and a line up and down through P.",
+     "caption": "Draw a line across through P, and a line up and down through P.",
+     "file": "2026-10-30-point-in-rectangle/audio/fdac93be498e1671.wav",
+     "from": 110,
+     "frames": 150
+    },
+    {
+     "text": "Now the big rectangle is made of four small rectangles.",
+     "caption": "Now the big rectangle is made of four small rectangles.",
+     "file": "2026-10-30-point-in-rectangle/audio/46f4bc434446e627.wav",
+     "from": 271,
+     "frames": 123
+    },
+    {
+     "text": "The line from P to a corner cuts each small rectangle into two matching halves.",
+     "caption": "The line from P to a corner cuts each small rectangle into two matching halves.",
+     "file": "2026-10-30-point-in-rectangle/audio/6569dda7a3ce41fe.wav",
+     "from": 404,
+     "frames": 215
+    },
+    {
+     "text": "In every small rectangle, one piece belongs to the top or bottom triangle.",
+     "caption": "In every small rectangle, one piece belongs to the top or bottom triangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/1d88dc144cbefea0.wav",
+     "from": 629,
+     "frames": 176
+    },
+    {
+     "text": "The other piece belongs to the left or right triangle.",
+     "caption": "The other piece belongs to the left or right triangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/f6b30877f0a7be08.wav",
+     "from": 815,
+     "frames": 107
+    },
+    {
+     "text": "So top plus bottom gets exactly half of the whole rectangle, and left plus right gets the rest.",
+     "caption": "So top plus bottom gets exactly half of the whole rectangle, and left plus right gets the rest.",
+     "file": "2026-10-30-point-in-rectangle/audio/b1a704f8ce009e57.wav",
+     "from": 932,
+     "frames": 231
+    },
+    {
+     "text": "When would you pick this one? When you want to see why the rule is true.",
+     "caption": "When would you pick this one? When you want to see why the rule is true.",
+     "file": "2026-10-30-point-in-rectangle/audio/ffb903d498a1626e.wav",
+     "from": 1173,
+     "frames": 134
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7188,
+   "frames": 1433,
+   "lines": [
+    {
+     "text": "Now let's look at the traps.",
+     "caption": "Now let's look at the traps.",
+     "file": "2026-10-30-point-in-rectangle/audio/7a816d0e1b45c226.wav",
+     "from": 0,
+     "frames": 69
+    },
+    {
+     "text": "Twenty-two feels right, because it sits across from the missing triangle.",
+     "caption": "Twenty-two feels right, because it sits across from the missing triangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/8bde39b65e44a81f.wav",
+     "from": 79,
+     "frames": 152
+    },
+    {
+     "text": "But left and right only match when P is halfway across. Here, P is a bit to the left.",
+     "caption": "But left and right only match when P is halfway across. Here, P is a bit to the left.",
+     "file": "2026-10-30-point-in-rectangle/audio/7a7504dc4d6f8792.wav",
+     "from": 241,
+     "frames": 195
+    },
+    {
+     "text": "Twelve comes from pairing neighbours: fifteen plus twenty-two, take away twenty-five.",
+     "caption": "Twelve comes from pairing neighbours: fifteen plus twenty-two, take away twenty-five.",
+     "file": "2026-10-30-point-in-rectangle/audio/e3c89a1f7e42229f.wav",
+     "from": 445,
+     "frames": 180
+    },
+    {
+     "text": "But neighbours don't make a pair. Fifteen plus twenty-two is thirty-seven, not forty.",
+     "caption": "But neighbours don't make a pair. Fifteen plus twenty-two is thirty-seven, not forty.",
+     "file": "2026-10-30-point-in-rectangle/audio/f68c03632f3c4ba5.wav",
+     "from": 636,
+     "frames": 203
+    },
+    {
+     "text": "Fifteen just copies the bottom triangle. Nothing makes the left one match it.",
+     "caption": "Fifteen just copies the bottom triangle. Nothing makes the left one match it.",
+     "file": "2026-10-30-point-in-rectangle/audio/e07de783112c62d4.wav",
+     "from": 849,
+     "frames": 165
+    },
+    {
+     "text": "Twenty-eight is too big. The left and right pair would be fifty, but each pair must be forty.",
+     "caption": "Twenty-eight is too big. The left and right pair would be fifty, but each pair must be forty.",
+     "file": "2026-10-30-point-in-rectangle/audio/41bb743bf17086a0.wav",
+     "from": 1024,
+     "frames": 191
+    },
+    {
+     "text": "Quick check for any answer: opposite pairs must have the same total.",
+     "caption": "Quick check for any answer: opposite pairs must have the same total.",
+     "file": "2026-10-30-point-in-rectangle/audio/739085ab7905e3a5.wav",
+     "from": 1225,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a variant",
+   "from": 8621,
+   "frames": 539,
+   "lines": [
+    {
+     "text": "Your turn! Same trick, new numbers.",
+     "caption": "Your turn! Same trick, new numbers.",
+     "file": "2026-10-30-point-in-rectangle/audio/efbd5ab4d340cbb1.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "This time, the bottom triangle is nine, the right one is twenty, and the left one is sixteen.",
+     "caption": "This time, the bottom triangle is nine, the right one is twenty, and the left one is sixteen.",
+     "file": "2026-10-30-point-in-rectangle/audio/15181921a015be1a.wav",
+     "from": 99,
+     "frames": 210
+    },
+    {
+     "text": "Find the area of the top triangle. Bonus: find the area of the whole rectangle.",
+     "caption": "Find the area of the top triangle. Bonus: find the area of the whole rectangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/f94b735530872749.wav",
+     "from": 320,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9160,
+   "frames": 511,
+   "lines": [
+    {
+     "text": "Pause the video and try it. Which pair do you know completely?",
+     "caption": "Pause the video and try it. Which pair do you know completely?",
+     "file": "2026-10-30-point-in-rectangle/audio/3b5f445fc07f3a75.wav",
+     "from": 0,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Variant: the answer",
+   "from": 9671,
+   "frames": 993,
+   "lines": [
+    {
+     "text": "Welcome back! This time, the pair we know is left and right.",
+     "caption": "Welcome back! This time, the pair we know is left and right.",
+     "file": "2026-10-30-point-in-rectangle/audio/71aa2e9cb6c17cc3.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "Sixteen plus twenty is thirty-six. That's half the rectangle.",
+     "caption": "Sixteen plus twenty is thirty-six. That's half the rectangle.",
+     "file": "2026-10-30-point-in-rectangle/audio/79fe38852fc757b9.wav",
+     "from": 169,
+     "frames": 165
+    },
+    {
+     "text": "So bottom plus top is also thirty-six.",
+     "caption": "So bottom plus top is also thirty-six.",
+     "file": "2026-10-30-point-in-rectangle/audio/2e1eed889b85dbb8.wav",
+     "from": 344,
+     "frames": 114
+    },
+    {
+     "text": "Nine plus the top one is thirty-six, so the top triangle is twenty-seven.",
+     "caption": "Nine plus the top one is thirty-six, so the top triangle is twenty-seven.",
+     "file": "2026-10-30-point-in-rectangle/audio/2b37c589307aaf24.wav",
+     "from": 468,
+     "frames": 219
+    },
+    {
+     "text": "And the whole rectangle is two times thirty-six, which is seventy-two.",
+     "caption": "And the whole rectangle is two times thirty-six, which is seventy-two.",
+     "file": "2026-10-30-point-in-rectangle/audio/dd3ec9b08f2f85f0.wav",
+     "from": 697,
+     "frames": 149
+    },
+    {
+     "text": "Amazing work if you got both!",
+     "caption": "Amazing work if you got both!",
+     "file": "2026-10-30-point-in-rectangle/audio/4d2c26f14acb9da9.wav",
+     "from": 857,
+     "frames": 83
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10664,
+   "frames": 546,
+   "lines": [
+    {
+     "text": "Let's recap. Join a point inside a rectangle to all four corners.",
+     "caption": "Let's recap. Join a point inside a rectangle to all four corners.",
+     "file": "2026-10-30-point-in-rectangle/audio/7ad306fbaf14dc94.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "Opposite triangles always add up to half the rectangle, wherever the point is.",
+     "caption": "Opposite triangles always add up to half the rectangle, wherever the point is.",
+     "file": "2026-10-30-point-in-rectangle/audio/2800d16dde2f9fba.wav",
+     "from": 180,
+     "frames": 159
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and see you next time!",
+     "file": "2026-10-30-point-in-rectangle/audio/9c92f9bc4fb37db2.wav",
+     "from": 349,
+     "frames": 113
+    }
+   ]
+  }
+ ]
+}

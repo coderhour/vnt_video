@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 10944,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 568,
+   "lines": [
+    {
+     "text": "Four half circles inside a square make a pretty flower. How much of it is shaded?",
+     "caption": "Four half circles inside a square make a pretty flower. How much of it is shaded?",
+     "file": "2026-10-30-half-circle-petals/audio/5c4d5ef88c35caa2.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "Many kids find the white petals and stop there. <short pause> But that's NOT what we're asked!",
+     "caption": "Many kids find the white petals and stop there. But that's NOT what we're asked!",
+     "file": "2026-10-30-half-circle-petals/audio/f75143e5bd4c618c.wav",
+     "from": 200,
+     "frames": 194
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find the shaded part together.",
+     "caption": "Hi, I'm Vantee! Let's find the shaded part together.",
+     "file": "2026-10-30-half-circle-petals/audio/fee38d47d2efe618.wav",
+     "from": 404,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 568,
+   "frames": 638,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-half-circle-petals/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "A square has side four. A half circle is drawn inside the square on each side.",
+     "caption": "A square has side four. A half circle is drawn inside the square on each side.",
+     "file": "2026-10-30-half-circle-petals/audio/8ace6fde538406e7.wav",
+     "from": 53,
+     "frames": 191
+    },
+    {
+     "text": "The half circles overlap in four white petals. What is the total shaded area?",
+     "caption": "The half circles overlap in four white petals. What is the total shaded area?",
+     "file": "2026-10-30-half-circle-petals/audio/5b831524ce6735f2.wav",
+     "from": 255,
+     "frames": 172
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-half-circle-petals/audio/b97a89671840f7ca.wav",
+     "from": 437,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1206,
+   "frames": 750,
+   "lines": [
+    {
+     "text": "So what are we really looking for?",
+     "caption": "So what are we really looking for?",
+     "file": "2026-10-30-half-circle-petals/audio/cf00bd321bc19d75.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "Each half circle sits on one side of the square. That side is its diameter.",
+     "caption": "Each half circle sits on one side of the square. That side is its diameter.",
+     "file": "2026-10-30-half-circle-petals/audio/8375c8fd733aee01.wav",
+     "from": 94,
+     "frames": 170
+    },
+    {
+     "text": "So every half circle has a radius of two.",
+     "caption": "So every half circle has a radius of two.",
+     "file": "2026-10-30-half-circle-petals/audio/5ab2dcecc01de41b.wav",
+     "from": 273,
+     "frames": 108
+    },
+    {
+     "text": "A white petal is where two half circles overlap.",
+     "caption": "A white petal is where two half circles overlap.",
+     "file": "2026-10-30-half-circle-petals/audio/1e1b2d15c6574155.wav",
+     "from": 392,
+     "frames": 120
+    },
+    {
+     "text": "We want the colored part. That's the square, minus all four petals.",
+     "caption": "We want the colored part. That's the square, minus all four petals.",
+     "file": "2026-10-30-half-circle-petals/audio/7bfb2c05423b48f8.wav",
+     "from": 522,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1956,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-half-circle-petals/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "split",
+   "kind": "scene",
+   "chapter": "Solution 1: slice a petal",
+   "from": 2414,
+   "frames": 651,
+   "lines": [
+    {
+     "text": "Welcome back! Here's our plan: find the area of one petal first.",
+     "caption": "Welcome back! Here's our plan: find the area of one petal first.",
+     "file": "2026-10-30-half-circle-petals/audio/c5f3f7feebbf708c.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Cut the big square into four small squares, each two by two.",
+     "caption": "Cut the big square into four small squares, each two by two.",
+     "file": "2026-10-30-half-circle-petals/audio/c7ae76e75e89318b.wav",
+     "from": 167,
+     "frames": 154
+    },
+    {
+     "text": "Each small square holds exactly one petal, from its corner to the center.",
+     "caption": "Each small square holds exactly one petal, from its corner to the center.",
+     "file": "2026-10-30-half-circle-petals/audio/61c1d82173ac8f87.wav",
+     "from": 331,
+     "frames": 176
+    },
+    {
+     "text": "Let's zoom in on the bottom left one.",
+     "caption": "Let's zoom in on the bottom left one.",
+     "file": "2026-10-30-half-circle-petals/audio/44d9d06df9426e50.wav",
+     "from": 516,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "slice",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3065,
+   "frames": 1260,
+   "lines": [
+    {
+     "text": "Only two half circles come into this small square. Each one makes a quarter circle.",
+     "caption": "Only two half circles come into this small square. Each one makes a quarter circle.",
+     "file": "2026-10-30-half-circle-petals/audio/4e2b62f858be8f5e.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "Their overlap is the petal. Now draw the diagonal. It cuts the petal into two equal slices.",
+     "caption": "Their overlap is the petal. Now draw the diagonal. It cuts the petal into two equal slices.",
+     "file": "2026-10-30-half-circle-petals/audio/0c913120af4289a1.wav",
+     "from": 181,
+     "frames": 194
+    },
+    {
+     "text": "Take the blue quarter circle, and remove the triangle under the diagonal.",
+     "caption": "Take the blue quarter circle, and remove the triangle under the diagonal.",
+     "file": "2026-10-30-half-circle-petals/audio/29e20e056ccee9cb.wav",
+     "from": 384,
+     "frames": 160
+    },
+    {
+     "text": "What's left is exactly one slice.",
+     "caption": "What's left is exactly one slice.",
+     "file": "2026-10-30-half-circle-petals/audio/c5a0d3c981b2bfa8.wav",
+     "from": 555,
+     "frames": 111
+    },
+    {
+     "text": "The quarter circle has radius two. Two squared is four, and a quarter of four pi is just pi!",
+     "caption": "The quarter circle has radius two. Two squared is four, and a quarter of four pi is just pi!",
+     "file": "2026-10-30-half-circle-petals/audio/38c464cdfe8a1e88.wav",
+     "from": 675,
+     "frames": 232
+    },
+    {
+     "text": "The triangle has two legs of length two, so its area is two.",
+     "caption": "The triangle has two legs of length two, so its area is two.",
+     "file": "2026-10-30-half-circle-petals/audio/5450f7bfff6d8e34.wav",
+     "from": 917,
+     "frames": 162
+    },
+    {
+     "text": "So one slice is pi minus two.",
+     "caption": "So one slice is pi minus two.",
+     "file": "2026-10-30-half-circle-petals/audio/ff3ca9da0f147409.wav",
+     "from": 1090,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "total",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4325,
+   "frames": 1217,
+   "lines": [
+    {
+     "text": "A petal is two slices, so one petal is two pi minus four.",
+     "caption": "A petal is two slices, so one petal is two pi minus four.",
+     "file": "2026-10-30-half-circle-petals/audio/07c316ca47ba998b.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "All four petals are the same shape and size.",
+     "caption": "All four petals are the same shape and size.",
+     "file": "2026-10-30-half-circle-petals/audio/b8383d5ebb8f9091.wav",
+     "from": 169,
+     "frames": 107
+    },
+    {
+     "text": "So four petals make eight pi minus sixteen.",
+     "caption": "So four petals make eight pi minus sixteen.",
+     "file": "2026-10-30-half-circle-petals/audio/dc1daffa674a0864.wav",
+     "from": 287,
+     "frames": 124
+    },
+    {
+     "text": "The shaded part is the square, sixteen, minus all the petals.",
+     "caption": "The shaded part is the square, sixteen, minus all the petals.",
+     "file": "2026-10-30-half-circle-petals/audio/c2c27a77cf640846.wav",
+     "from": 421,
+     "frames": 153
+    },
+    {
+     "text": "Open the bracket. Sixteen minus eight pi plus sixteen makes thirty-two minus eight pi.",
+     "caption": "Open the bracket. Sixteen minus eight pi plus sixteen makes thirty-two minus eight pi.",
+     "file": "2026-10-30-half-circle-petals/audio/a82d06237526f58a.wav",
+     "from": 584,
+     "frames": 250
+    },
+    {
+     "text": "That's about forty-three percent of the square, a bit less than half. That looks right!",
+     "caption": "That's about forty-three percent of the square, a bit less than half. That looks right!",
+     "file": "2026-10-30-half-circle-petals/audio/8a88ccb675a54a40.wav",
+     "from": 844,
+     "frames": 178
+    },
+    {
+     "text": "The answer is B, thirty-two minus eight pi!",
+     "caption": "The answer is B, thirty-two minus eight pi!",
+     "file": "2026-10-30-half-circle-petals/audio/659404035f7a1689.wav",
+     "from": 1032,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": "Solution 2: count twice",
+   "from": 5542,
+   "frames": 1752,
+   "lines": [
+    {
+     "text": "Here's a faster way. Let's add up all four half circles.",
+     "caption": "Here's a faster way. Let's add up all four half circles.",
+     "file": "2026-10-30-half-circle-petals/audio/bbc2a0b601c043fb.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Each one has radius two. Two squared is four, and half of four pi is two pi.",
+     "caption": "Each one has radius two. Two squared is four, and half of four pi is two pi.",
+     "file": "2026-10-30-half-circle-petals/audio/12a0c9a06aa82ba6.wav",
+     "from": 141,
+     "frames": 204
+    },
+    {
+     "text": "Together, all four half circles make eight pi. But the square is only sixteen!",
+     "caption": "Together, all four half circles make eight pi. But the square is only sixteen!",
+     "file": "2026-10-30-half-circle-petals/audio/b306c5c021feded0.wav",
+     "from": 356,
+     "frames": 206
+    },
+    {
+     "text": "Together they cover the square with no gaps. The shaded parts are covered once.",
+     "caption": "Together they cover the square with no gaps. The shaded parts are covered once.",
+     "file": "2026-10-30-half-circle-petals/audio/61b86203a135f894.wav",
+     "from": 572,
+     "frames": 186
+    },
+    {
+     "text": "Each petal sits inside two half circles, so it was counted twice.",
+     "caption": "Each petal sits inside two half circles, so it was counted twice.",
+     "file": "2026-10-30-half-circle-petals/audio/0d20094f72f99e68.wav",
+     "from": 768,
+     "frames": 158
+    },
+    {
+     "text": "No spot is inside three of them. Only the center point touches all four.",
+     "caption": "No spot is inside three of them. Only the center point touches all four.",
+     "file": "2026-10-30-half-circle-petals/audio/44e566ce192dbb51.wav",
+     "from": 936,
+     "frames": 183
+    },
+    {
+     "text": "That means eight pi is the square, plus each petal one extra time.",
+     "caption": "That means eight pi is the square, plus each petal one extra time.",
+     "file": "2026-10-30-half-circle-petals/audio/e5f7b8922b7d1f08.wav",
+     "from": 1129,
+     "frames": 173
+    },
+    {
+     "text": "The petals are eight pi minus sixteen. Then the shaded part is thirty-two minus eight pi again.",
+     "caption": "The petals are eight pi minus sixteen. Then the shaded part is thirty-two minus eight pi again.",
+     "file": "2026-10-30-half-circle-petals/audio/406f6c6742c5218d.wav",
+     "from": 1312,
+     "frames": 243
+    },
+    {
+     "text": "Use this trick whenever overlapping shapes cover a whole region.",
+     "caption": "Use this trick whenever overlapping shapes cover a whole region.",
+     "file": "2026-10-30-half-circle-petals/audio/82bf7c457089886e.wav",
+     "from": 1565,
+     "frames": 134
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7294,
+   "frames": 1107,
+   "lines": [
+    {
+     "text": "C, eight pi minus sixteen, is the white petals. A great step, but not the shaded part!",
+     "caption": "C, eight pi minus sixteen, is the white petals. A great step, but not the shaded part!",
+     "file": "2026-10-30-half-circle-petals/audio/4f8adae10c527c88.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "D, sixteen minus two pi, takes away only one half circle.",
+     "caption": "D, sixteen minus two pi, takes away only one half circle.",
+     "file": "2026-10-30-half-circle-petals/audio/435d8d776495c13c.wav",
+     "from": 212,
+     "frames": 166
+    },
+    {
+     "text": "A, sixteen minus four pi, takes away only two half circles, like one whole circle.",
+     "caption": "A, sixteen minus four pi, takes away only two half circles, like one whole circle.",
+     "file": "2026-10-30-half-circle-petals/audio/a9fab39f9f14ff44.wav",
+     "from": 388,
+     "frames": 213
+    },
+    {
+     "text": "E, forty-eight minus eight pi, is about twenty-three. That's bigger than the whole square!",
+     "caption": "E, forty-eight minus eight pi, is about twenty-three. That's bigger than the whole square!",
+     "file": "2026-10-30-half-circle-petals/audio/5f2696457537c3c2.wav",
+     "from": 611,
+     "frames": 201
+    },
+    {
+     "text": "Quick check: the shaded part plus the petals must make sixteen. And it does!",
+     "caption": "Quick check: the shaded part plus the petals must make sixteen. And it does!",
+     "file": "2026-10-30-half-circle-petals/audio/310cd4af49ff2609.wav",
+     "from": 822,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a variant",
+   "from": 8401,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Your turn! This time the square has side six.",
+     "caption": "Your turn! This time the square has side six.",
+     "file": "2026-10-30-half-circle-petals/audio/b6d0a1eaaeb5a77e.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "The same four half circles are drawn inside. What is the shaded area now?",
+     "caption": "The same four half circles are drawn inside. What is the shaded area now?",
+     "file": "2026-10-30-half-circle-petals/audio/fa3cd9a19de66b9f.wav",
+     "from": 137,
+     "frames": 189
+    },
+    {
+     "text": "Hint: find the radius first!",
+     "caption": "Hint: find the radius first!",
+     "file": "2026-10-30-half-circle-petals/audio/a06e18440cffe458.wav",
+     "from": 336,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8869,
+   "frames": 483,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-half-circle-petals/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": null,
+   "from": 9352,
+   "frames": 1050,
+   "lines": [
+    {
+     "text": "Let's check. The side is six, so the radius is three.",
+     "caption": "Let's check. The side is six, so the radius is three.",
+     "file": "2026-10-30-half-circle-petals/audio/7312c354154c8fc8.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Pi times three squared is nine pi. So each half circle is half of nine pi.",
+     "caption": "Pi times three squared is nine pi. So each half circle is half of nine pi.",
+     "file": "2026-10-30-half-circle-petals/audio/290470f60ddfb52e.wav",
+     "from": 170,
+     "frames": 210
+    },
+    {
+     "text": "All four together make eighteen pi.",
+     "caption": "All four together make eighteen pi.",
+     "file": "2026-10-30-half-circle-petals/audio/5f09ab00ec620276.wav",
+     "from": 391,
+     "frames": 98
+    },
+    {
+     "text": "The square is thirty-six, so the petals are eighteen pi minus thirty-six.",
+     "caption": "The square is thirty-six, so the petals are eighteen pi minus thirty-six.",
+     "file": "2026-10-30-half-circle-petals/audio/85405547f443ae68.wav",
+     "from": 498,
+     "frames": 186
+    },
+    {
+     "text": "The shaded part is thirty-six minus the petals. That's seventy-two minus eighteen pi!",
+     "caption": "The shaded part is thirty-six minus the petals. That's seventy-two minus eighteen pi!",
+     "file": "2026-10-30-half-circle-petals/audio/83bc2ff30e29191c.wav",
+     "from": 695,
+     "frames": 196
+    },
+    {
+     "text": "If you got that, amazing work!",
+     "caption": "If you got that, amazing work!",
+     "file": "2026-10-30-half-circle-petals/audio/64d7275de66b5134.wav",
+     "from": 901,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10402,
+   "frames": 542,
+   "lines": [
+    {
+     "text": "When two shapes overlap, adding up their areas counts the overlap twice.",
+     "caption": "When two shapes overlap, adding up their areas counts the overlap twice.",
+     "file": "2026-10-30-half-circle-petals/audio/4caecf547237bcd7.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "So the overlap is the shapes added up, minus the area they cover.",
+     "caption": "So the overlap is the shapes added up, minus the area they cover.",
+     "file": "2026-10-30-half-circle-petals/audio/1d3c69b3942b94b9.wav",
+     "from": 177,
+     "frames": 150
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-half-circle-petals/audio/31a6054d0b03b932.wav",
+     "from": 337,
+     "frames": 122
+    }
+   ]
+  }
+ ]
+}

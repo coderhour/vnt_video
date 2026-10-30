@@ -1,0 +1,88 @@
+{
+ "title": "How Many Routes Dodge X? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {"id": "intro", "chapter": "Intro", "hold": 0.5, "lines": [
+   "There are fifty-six ways to walk across this street grid.",
+   "Block just one corner, <short pause> and more than half of them vanish!",
+   "Hi there, I'm Vantee! Let's solve this together, two different ways."
+  ]},
+  {"id": "question", "chapter": "The question", "hold": 0.5, "lines": [
+   "Here's the question.",
+   "In this street grid, Mia walks from A to B. She goes only right or up, along the streets of the grid.",
+   "She does not go through the corner marked X. How many different routes can she take?",
+   "Here are the five choices. Take a good look."
+  ]},
+  {"id": "asked", "chapter": "What are we asked?", "hold": 1, "lines": [
+   "Let's break it down. The grid is five blocks across and three blocks up.",
+   "So every route has five right steps and three up steps. That's eight steps in all.",
+   "Different routes just put those same eight steps in a different order.",
+   "Here's one route Mia could take. It stays away from X.",
+   "This route is not allowed, because it passes through X.",
+   "We need to count every route that stays away from X."
+  ]},
+  {"id": "try1", "chapter": "Try it yourself", "kind": "pause", "hold": 10, "lines": [
+   "Now it's your turn. Pause the video and give it a go. I'll wait!"
+  ]},
+  {"id": "sol1", "chapter": "Solution 1: number the corners", "hold": 1, "lines": [
+   "Welcome back! Let's write a number on every corner: the number of ways Mia can reach it.",
+   "Along the bottom street, Mia can only walk right. So each corner there gets a one.",
+   "Up the left street, she can only walk up. Each corner there gets a one as well.",
+   "Here's the key idea. Mia's last step into a corner comes from the left, or from below.",
+   "So add the number on the left and the number below. One plus one is two.",
+   "Check it: right then up, or up then right. That's two ways!",
+   "Mia can never stand on X, so X gets a zero.",
+   "Next to X, zero plus one is one. Then come two and three.",
+   "Next row up: one plus two is three. Then three plus zero is three.",
+   "Keep going: four, six, and nine.",
+   "The top row gives four, seven, eleven, and seventeen.",
+   "At B, seventeen plus nine is twenty-six. That's Choice B!"
+  ]},
+  {"id": "sol2", "chapter": "Solution 2: count all, then subtract", "hold": 1, "lines": [
+   "Now for another method. First count EVERY route, then remove the bad ones.",
+   "A route is eight steps long, and we only choose which three of them go up.",
+   "There are eight choices for the first step that goes up, seven for the second, and six for the third.",
+   "But the same three steps get picked in six different orders. So divide by six.",
+   "Three hundred thirty-six over six is fifty-six routes in all.",
+   "Now the bad routes, the ones through X.",
+   "From A to X is two rights and one up. The up step can be first, second, or third.",
+   "That's three ways. From X to B is three rights and two ups.",
+   "Pick two of those five steps to go up. Five times four is twenty, and each pair is counted twice.",
+   "So that's ten ways to finish. Each of the three starts goes with each of the ten finishes.",
+   "Why multiply? Every start can be paired with every finish.",
+   "Three times ten is thirty routes through X. Fifty-six minus thirty is twenty-six. It matches!",
+   "So when would you pick each way? Corner numbers work even with lots of blocked corners.",
+   "Subtracting is the fastest when just one corner is blocked."
+  ]},
+  {"id": "traps", "chapter": "Common traps", "hold": 1, "lines": [
+   "Choice C, thirty, counts every route that goes THROUGH X. Those are the ones to take away!",
+   "Choice E, fifty-six, counts every route, and forgets about X.",
+   "Thirty-five is what you'd get if you counted the grid as only four blocks wide.",
+   "Twenty is what a grid three blocks wide would give.",
+   "Watch out: don't add three and ten here. Fifty-six minus thirteen is forty-three, and that's not a choice.",
+   "So here's a great habit: count the blocks carefully, and check which routes you were asked for."
+  ]},
+  {"id": "variant", "chapter": "Your turn: a four by four grid", "hold": 0.5, "lines": [
+   "Ready for a challenge? Now the grid is four blocks across and four blocks up.",
+   "Corner X is right in the middle. How many routes go from A to B without passing X?"
+  ]},
+  {"id": "try2", "kind": "pause", "hold": 10, "lines": [
+   "Pause the video, and go for it!"
+  ]},
+  {"id": "variant-answer", "chapter": "Four by four: the answer", "hold": 1, "lines": [
+   "Let's solve it by subtracting. Every route has four rights and four ups.",
+   "Eight times seven times six times five, over four times three times two times one, is seventy.",
+   "Pick which two of the four steps go up: four times three is twelve, and each pair is counted twice, so six ways.",
+   "From X to B is six ways too. So six times six is thirty-six routes through X.",
+   "Seventy minus thirty-six is thirty-four!",
+   "In the corner table, the zero in the middle wipes out every route through X.",
+   "The corner numbers give thirty-four as well. If you found it, amazing work!"
+  ]},
+  {"id": "recap", "chapter": "Recap", "hold": 1.5, "lines": [
+   "Here's the big idea to remember.",
+   "Count all the routes, then subtract the routes through the blocked corner.",
+   "Or fill in corner numbers: add the left and below, with a zero on the blocked corner.",
+   "I'm Vantee. Keep exploring, and I'll see you next time!"
+  ]}
+ ]
+}

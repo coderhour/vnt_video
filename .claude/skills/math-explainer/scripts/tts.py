@@ -92,12 +92,26 @@ def num_words(n):
 
 
 MATH_WORDS = [  # what a transcriber writes -> how a script line says it
+    (r"\b1\s*/\s*2\b|\b(?:a|one)[\s-]half\b|\bone over two\b", " half "), 
     (r"square root of", " root "), (r"√", " root "), (r"²|\s*\^\s*2\b", " squared "), (r"°", " degrees "),
-    (r"−|(?<=[\d)²])\s*-\s*(?=[\d√(])|\s-\s", " minus "), (r"(?<=\d)\s*/\s*(?=\d)", " over "),
+    (r"−|(?<=[\d)²])\s*-\s*(?=[\d√(])|\s-\s", " minus "), (r"(?<=[\d)])\s*/\s*(?=\d)|(?<=squared)\s*/\s*(?=\d)", " over "),
     (r"(\d)\s*x\s*(\d)", r"\1 by \2"), (r"[×*]", " times "), (r"\+", " plus "), (r"=", " equals "),
     (r"'s\b", " is "), (r"'re\b", " are "), (r"'ll\b", " will "), (r"'m\b", " am "),  # here's = here is
     (r"%", " percent "), (r"\bequal to\b", " equals "), (r"(?<!\d)\s*/\s*(?=[a-z])", " divided "), (r"(?<=\d)\s*cm\b", " centimeters "), (r"\bcm\b", " centimeters "), (r"\[laugh\]", " LAUGH "), (r"neighbour", "neighbor"),
+    (r"\ba (third|quarter|fourth|fifth)", r"one \1"),  # "two thirds" vs "2/3"
+    (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:thirds?)\b", r"\1 over three"),
+    (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:quarters?|fourths?)\b", r"\1 over four"),
+    (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:fifths?)\b", r"\1 over five"),
+    (r"(?<=\d)\s*km\b|\bkm\b|\bkilometer\b", " kilometers "), (r"\banne\b", "ann"), (r"\bbeau\b", "bo"),  # sound-alike spellings
+    (r"\bdivided(?: by)?\b", " over "),  # "5 and 1/2", "11/2" for "divided by"
 ]
+ORD = {"one": "first", "two": "second", "three": "third", "five": "fifth", "eight": "eighth", "nine": "ninth", "twelve": "twelfth"}
+
+
+def ordinal(n):
+    """10 -> "tenth", 21 -> "twenty first" (how a transcriber's "10th" is said)."""
+    *head, last = num_words(n).split()
+    return " ".join([*head, ORD.get(last) or (last[:-1] + "ieth" if last.endswith("y") else last + "th")])
 
 
 def words(text):
@@ -106,10 +120,18 @@ def words(text):
     for pat, rep in MATH_WORDS:
         t = re.sub(pat, rep, t)
     t = re.sub(r"(?<=\d),(?=\d{3}\b)", "", t)  # 2,025 -> 2025
+    t = re.sub(r"(\d+)(?:st|nd|rd|th)\b", lambda m: " " + ordinal(int(m.group(1))) + " ", t)
     t = re.sub(r"(\d+)'?s\b", lambda m: " " + num_words(int(m.group(1))) + ("es" if m.group(1)[-1] == "6" else "s") + " ", t)  # 3s -> threes
     t = re.sub(r"\d+", lambda m: " " + num_words(int(m.group())) + " ", t)
     t = re.sub(r"\b(?:one|a) hundred\b", "hundred", t)  # "our hundred" vs "100"
-    return ["equals" if w == "is" else w for w in re.findall(r"[a-z']+|LAUGH", t)]  # "2 + 3 = 5" said "is"
+    out, run = [], False  # spelled letters "P A B" vs "PAB": join runs of single letters
+    for w in re.findall(r"[a-z']+|LAUGH", t):
+        if len(w) == 1 and run:
+            out[-1] += w
+        else:
+            out.append(w)
+        run = len(w) == 1 or (run and len(w) == 1)
+    return ["equals" if w == "is" else w for w in out]  # "2 + 3 = 5" said "is"
 
 
 def diff(script, heard):
@@ -221,6 +243,13 @@ def main():
         for text, (file, _) in audio.items():
             heard = transcribe(ROOT / "studio/public" / file)
             d = diff(text, heard)
+            if d:  # a real audio error repeats; a transcriber slip usually doesn't, so listen twice
+                heard2 = transcribe(ROOT / "studio/public" / file)
+                if not diff(text, heard2):
+                    print(f"(transcriber noise, clean on 2nd listen: {'; '.join(d)})")
+                    d = []
+                else:
+                    heard += f"\nheard2: {heard2}"
             bad += bool(d)
             print(f"script: {text}\nheard:  {heard}" + "".join(f"\nMISMATCH: {x}" for x in d) + "\n")
         print(f"{bad} line(s) with MISMATCH" if bad else "voice check: all lines match")

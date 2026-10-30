@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 12330,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 582,
+   "lines": [
+    {
+     "text": "Twenty times a number is a perfect square. Fifty times the same number is a perfect cube.",
+     "caption": "Twenty times a number is a perfect square. Fifty times the same number is a perfect cube.",
+     "file": "2026-10-30-square-and-cube/audio/9bf79e6093285e6b.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "Can one small number do both jobs? <short pause> It can, and we'll find it two ways.",
+     "caption": "Can one small number do both jobs? It can, and we'll find it two ways.",
+     "file": "2026-10-30-square-and-cube/audio/5fd46bc4d7e4b42a.wav",
+     "from": 211,
+     "frames": 201
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's crack this one together.",
+     "caption": "Hi there, I'm Vantee! Let's crack this one together.",
+     "file": "2026-10-30-square-and-cube/audio/8893d7b7a1d0e823.wav",
+     "from": 422,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 582,
+   "frames": 589,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-square-and-cube/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "What is the smallest positive integer n, such that twenty times n is a perfect square,",
+     "caption": "What is the smallest positive integer n, such that twenty times n is a perfect square,",
+     "file": "2026-10-30-square-and-cube/audio/1102cf1fc03b3e4b.wav",
+     "from": 61,
+     "frames": 248
+    },
+    {
+     "text": "and fifty times n is a perfect cube?",
+     "caption": "and fifty times n is a perfect cube?",
+     "file": "2026-10-30-square-and-cube/audio/a24cbdf85dadad5a.wav",
+     "from": 319,
+     "frames": 118
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-square-and-cube/audio/b97a89671840f7ca.wav",
+     "from": 447,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1171,
+   "frames": 728,
+   "lines": [
+    {
+     "text": "Let's break it down. A perfect square is a whole number times itself, like nine, or four hundred.",
+     "caption": "Let's break it down. A perfect square is a whole number times itself, like nine, or four hundred.",
+     "file": "2026-10-30-square-and-cube/audio/aabddbc427825b45.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "A perfect cube is a whole number times itself, times itself again, like eight, or one thousand.",
+     "caption": "A perfect cube is a whole number times itself, times itself again, like eight, or one thousand.",
+     "file": "2026-10-30-square-and-cube/audio/5d99070c61da8e64.wav",
+     "from": 235,
+     "frames": 252
+    },
+    {
+     "text": "We need ONE number n that does both jobs. And we want the smallest one!",
+     "caption": "We need ONE number n that does both jobs. And we want the smallest one!",
+     "file": "2026-10-30-square-and-cube/audio/d9a9bc269310a522.wav",
+     "from": 497,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1899,
+   "frames": 461,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-square-and-cube/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": "Solution 1: make a list",
+   "from": 2360,
+   "frames": 2042,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start with the square part, and make a list.",
+     "caption": "Welcome back! Let's start with the square part, and make a list.",
+     "file": "2026-10-30-square-and-cube/audio/47f817a2f62ebb30.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "Twenty is four times five, and four is already a perfect square.",
+     "caption": "Twenty is four times five, and four is already a perfect square.",
+     "file": "2026-10-30-square-and-cube/audio/0aaffa9ecda23810.wav",
+     "from": 152,
+     "frames": 158
+    },
+    {
+     "text": "So twenty times n is a square exactly when five times n is a square.",
+     "caption": "So twenty times n is a square exactly when five times n is a square.",
+     "file": "2026-10-30-square-and-cube/audio/742d5930e474f6d7.wav",
+     "from": 319,
+     "frames": 178
+    },
+    {
+     "text": "For that, the five needs a partner five. So n is five times a perfect square.",
+     "caption": "For that, the five needs a partner five. So n is five times a perfect square.",
+     "file": "2026-10-30-square-and-cube/audio/d2a5578418a2c7fd.wav",
+     "from": 507,
+     "frames": 216
+    },
+    {
+     "text": "That gives five, twenty, forty-five, eighty, and so on, smallest first.",
+     "caption": "That gives five, twenty, forty-five, eighty, and so on, smallest first.",
+     "file": "2026-10-30-square-and-cube/audio/1dcdd5988971c0b2.wav",
+     "from": 734,
+     "frames": 218
+    },
+    {
+     "text": "Now the cube test. Start with n equals five. Fifty times five is two hundred fifty.",
+     "caption": "Now the cube test. Start with n equals five. Fifty times five is two hundred fifty.",
+     "file": "2026-10-30-square-and-cube/audio/acbe536267860399.wav",
+     "from": 962,
+     "frames": 225
+    },
+    {
+     "text": "Six cubed is two hundred sixteen. Seven cubed is three hundred forty-three.",
+     "caption": "Six cubed is two hundred sixteen. Seven cubed is three hundred forty-three.",
+     "file": "2026-10-30-square-and-cube/audio/5e51cb62e1946208.wav",
+     "from": 1196,
+     "frames": 189
+    },
+    {
+     "text": "Two hundred fifty sits in between, so it's NOT a cube.",
+     "caption": "Two hundred fifty sits in between, so it's NOT a cube.",
+     "file": "2026-10-30-square-and-cube/audio/fea33513e655ccd3.wav",
+     "from": 1395,
+     "frames": 135
+    },
+    {
+     "text": "Next up, n equals twenty. Fifty times twenty is one thousand. That's ten times ten times ten!",
+     "caption": "Next up, n equals twenty. Fifty times twenty is one thousand. That's ten times ten times ten!",
+     "file": "2026-10-30-square-and-cube/audio/44cbf926554913df.wav",
+     "from": 1540,
+     "frames": 250
+    },
+    {
+     "text": "We went smallest first, so twenty is the smallest that works. That's Choice B!",
+     "caption": "We went smallest first, so twenty is the smallest that works. That's Choice B!",
+     "file": "2026-10-30-square-and-cube/audio/d87f869c10e49222.wav",
+     "from": 1800,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "primes",
+   "kind": "scene",
+   "chapter": "Solution 2: count the primes",
+   "from": 4402,
+   "frames": 1252,
+   "lines": [
+    {
+     "text": "Here's a second way, with prime factors.",
+     "caption": "Here's a second way, with prime factors.",
+     "file": "2026-10-30-square-and-cube/audio/de41ea5eab505813.wav",
+     "from": 0,
+     "frames": 94
+    },
+    {
+     "text": "Twenty is two times two times five. Fifty is two times five times five.",
+     "caption": "Twenty is two times two times five. Fifty is two times five times five.",
+     "file": "2026-10-30-square-and-cube/audio/6ddf25828dfbed04.wav",
+     "from": 104,
+     "frames": 236
+    },
+    {
+     "text": "In a perfect square, every prime shows up an even number of times.",
+     "caption": "In a perfect square, every prime shows up an even number of times.",
+     "file": "2026-10-30-square-and-cube/audio/aaf78d1e6102b253.wav",
+     "from": 349,
+     "frames": 150
+    },
+    {
+     "text": "Four hundred has four copies of two, and two copies of five. Both even!",
+     "caption": "Four hundred has four copies of two, and two copies of five. Both even!",
+     "file": "2026-10-30-square-and-cube/audio/c71bd377990be035.wav",
+     "from": 510,
+     "frames": 168
+    },
+    {
+     "text": "In a perfect cube, every count is a multiple of three, like one thousand: three of each.",
+     "caption": "In a perfect cube, every count is a multiple of three, like one thousand: three of each.",
+     "file": "2026-10-30-square-and-cube/audio/4fc5ff19b0423be0.wav",
+     "from": 688,
+     "frames": 190
+    },
+    {
+     "text": "Say n has x copies of two, and y copies of five.",
+     "caption": "Say n has x copies of two, and y copies of five.",
+     "file": "2026-10-30-square-and-cube/audio/ac18515f929e1c1b.wav",
+     "from": 888,
+     "frames": 146
+    },
+    {
+     "text": "Other primes don't help the twos or the fives. They'd only make n bigger.",
+     "caption": "Other primes don't help the twos or the fives. They'd only make n bigger.",
+     "file": "2026-10-30-square-and-cube/audio/d77f06f2198bd0ce.wav",
+     "from": 1044,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "twos",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5654,
+   "frames": 911,
+   "lines": [
+    {
+     "text": "First, the twos. Twenty times n has x plus two of them. Fifty times n has x plus one.",
+     "caption": "First, the twos. Twenty times n has x plus two of them. Fifty times n has x plus one.",
+     "file": "2026-10-30-square-and-cube/audio/39682964669cc2c7.wav",
+     "from": 0,
+     "frames": 251
+    },
+    {
+     "text": "For the square, x plus two is even. So x is zero, two, four, and so on.",
+     "caption": "For the square, x plus two is even. So x is zero, two, four, and so on.",
+     "file": "2026-10-30-square-and-cube/audio/e1e2c0f7d2c2772a.wav",
+     "from": 262,
+     "frames": 208
+    },
+    {
+     "text": "For the cube, x plus one is a multiple of three. So x is two, five, eight, and so on.",
+     "caption": "For the cube, x plus one is a multiple of three. So x is two, five, eight, and so on.",
+     "file": "2026-10-30-square-and-cube/audio/6f02df5e3ae4f449.wav",
+     "from": 480,
+     "frames": 248
+    },
+    {
+     "text": "The smallest number on both lists is two.",
+     "caption": "The smallest number on both lists is two.",
+     "file": "2026-10-30-square-and-cube/audio/0122c7752f512746.wav",
+     "from": 737,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "fives",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6565,
+   "frames": 1331,
+   "lines": [
+    {
+     "text": "Now the fives. Twenty times n has y plus one of them. Fifty times n has y plus two.",
+     "caption": "Now the fives. Twenty times n has y plus one of them. Fifty times n has y plus two.",
+     "file": "2026-10-30-square-and-cube/audio/3db6cc070354dfde.wav",
+     "from": 0,
+     "frames": 270
+    },
+    {
+     "text": "For the square, y plus one is even. So y is one, three, five, and so on.",
+     "caption": "For the square, y plus one is even. So y is one, three, five, and so on.",
+     "file": "2026-10-30-square-and-cube/audio/cb285c6408e0a889.wav",
+     "from": 281,
+     "frames": 250
+    },
+    {
+     "text": "For the cube, y plus two is a multiple of three. So y is one, four, seven, and so on.",
+     "caption": "For the cube, y plus two is a multiple of three. So y is one, four, seven, and so on.",
+     "file": "2026-10-30-square-and-cube/audio/c4bdbf0a9f2c6cd9.wav",
+     "from": 541,
+     "frames": 237
+    },
+    {
+     "text": "Both lists start at one! So n is two times two times five, which is twenty. Same answer!",
+     "caption": "Both lists start at one! So n is two times two times five, which is twenty. Same answer!",
+     "file": "2026-10-30-square-and-cube/audio/e26ec2046094dc58.wav",
+     "from": 788,
+     "frames": 257
+    },
+    {
+     "text": "Which way should you pick? A list is quick for small answers. Counting primes always works.",
+     "caption": "Which way should you pick? A list is quick for small answers. Counting primes always works.",
+     "file": "2026-10-30-square-and-cube/audio/766d67ca45e637ca.wav",
+     "from": 1055,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7896,
+   "frames": 1450,
+   "lines": [
+    {
+     "text": "Now the traps. Choice D uses the number fifty itself.",
+     "caption": "Now the traps. Choice D uses the number fifty itself.",
+     "file": "2026-10-30-square-and-cube/audio/ea6d9a023b93fbb5.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Twenty times fifty is one thousand. That's a cube, but not a square.",
+     "caption": "Twenty times fifty is one thousand. That's a cube, but not a square.",
+     "file": "2026-10-30-square-and-cube/audio/02d2eff8e8391900.wav",
+     "from": 170,
+     "frames": 185
+    },
+    {
+     "text": "Fifty times fifty is a square, but not a cube. The two jobs got swapped!",
+     "caption": "Fifty times fifty is a square, but not a cube. The two jobs got swapped!",
+     "file": "2026-10-30-square-and-cube/audio/a8f80d75d2259c0c.wav",
+     "from": 365,
+     "frames": 179
+    },
+    {
+     "text": "Choice E is one hundred, since twenty and fifty both divide it. But two thousand isn't a square.",
+     "caption": "Choice E is one hundred, since twenty and fifty both divide it. But two thousand isn't a square.",
+     "file": "2026-10-30-square-and-cube/audio/73f3b11be7bf0224.wav",
+     "from": 554,
+     "frames": 214
+    },
+    {
+     "text": "Choice A, ten, gives two hundred and then five hundred. Neither one works.",
+     "caption": "Choice A, ten, gives two hundred and then five hundred. Neither one works.",
+     "file": "2026-10-30-square-and-cube/audio/3ba53a40e9d85432.wav",
+     "from": 778,
+     "frames": 189
+    },
+    {
+     "text": "Choice C, forty, gives eight hundred and then two thousand. Those fail too.",
+     "caption": "Choice C, forty, gives eight hundred and then two thousand. Those fail too.",
+     "file": "2026-10-30-square-and-cube/audio/62c01376e46c54e4.wav",
+     "from": 977,
+     "frames": 178
+    },
+    {
+     "text": "And don't stop at five! It passes the square test, but fails the cube. Always check BOTH rules.",
+     "caption": "And don't stop at five! It passes the square test, but fails the cube. Always check BOTH rules.",
+     "file": "2026-10-30-square-and-cube/audio/3186d95179c2b62e.wav",
+     "from": 1165,
+     "frames": 231
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a variant",
+   "from": 9346,
+   "frames": 409,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Find the smallest positive integer n,",
+     "caption": "Ready for a challenge? Find the smallest positive integer n,",
+     "file": "2026-10-30-square-and-cube/audio/a9c82aeca58adc85.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "such that two times n is a perfect square, and three times n is a perfect cube.",
+     "caption": "such that two times n is a perfect square, and three times n is a perfect cube.",
+     "file": "2026-10-30-square-and-cube/audio/e3db50020b0bd1bf.wav",
+     "from": 157,
+     "frames": 214
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9755,
+   "frames": 394,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-square-and-cube/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Variant: the answer",
+   "from": 10149,
+   "frames": 1539,
+   "lines": [
+    {
+     "text": "Let's count primes. Say n has x copies of two, and y copies of three.",
+     "caption": "Let's count primes. Say n has x copies of two, and y copies of three.",
+     "file": "2026-10-30-square-and-cube/audio/9c46fb2b77512c7c.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "For the twos, x plus one is even, and x is a multiple of three. So x is three.",
+     "caption": "For the twos, x plus one is even, and x is a multiple of three. So x is three.",
+     "file": "2026-10-30-square-and-cube/audio/b4b7b415f07fcd65.wav",
+     "from": 195,
+     "frames": 243
+    },
+    {
+     "text": "Threes: y is even, and y plus one is a multiple of three. So y is two.",
+     "caption": "Threes: y is even, and y plus one is a multiple of three. So y is two.",
+     "file": "2026-10-30-square-and-cube/audio/b434edc304b66d8c.wav",
+     "from": 448,
+     "frames": 242
+    },
+    {
+     "text": "So n is two cubed times three squared. That's eight times nine, which is seventy-two!",
+     "caption": "So n is two cubed times three squared. That's eight times nine, which is seventy-two!",
+     "file": "2026-10-30-square-and-cube/audio/d0568a8c57a9a358.wav",
+     "from": 700,
+     "frames": 239
+    },
+    {
+     "text": "Check: two times seventy-two is one hundred forty-four, which is twelve times twelve.",
+     "caption": "Check: two times seventy-two is one hundred forty-four, which is twelve times twelve.",
+     "file": "2026-10-30-square-and-cube/audio/e5cb82993e9de30b.wav",
+     "from": 949,
+     "frames": 216
+    },
+    {
+     "text": "And three times seventy-two is two hundred sixteen, which is six times six times six.",
+     "caption": "And three times seventy-two is two hundred sixteen, which is six times six times six.",
+     "file": "2026-10-30-square-and-cube/audio/62fa6d8b1b058919.wav",
+     "from": 1176,
+     "frames": 186
+    },
+    {
+     "text": "If you found seventy-two, amazing work!",
+     "caption": "If you found seventy-two, amazing work!",
+     "file": "2026-10-30-square-and-cube/audio/b09e91d9c3bef543.wav",
+     "from": 1372,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11688,
+   "frames": 642,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-square-and-cube/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 74
+    },
+    {
+     "text": "Break the number into primes, and count the copies of each prime.",
+     "caption": "Break the number into primes, and count the copies of each prime.",
+     "file": "2026-10-30-square-and-cube/audio/d49b87c47820dd85.wav",
+     "from": 84,
+     "frames": 144
+    },
+    {
+     "text": "Square: every count is even. Cube: every count is a multiple of three.",
+     "caption": "Square: every count is even. Cube: every count is a multiple of three.",
+     "file": "2026-10-30-square-and-cube/audio/29a5ca6ccbd41876.wav",
+     "from": 238,
+     "frames": 198
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-square-and-cube/audio/31a6054d0b03b932.wav",
+     "from": 447,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

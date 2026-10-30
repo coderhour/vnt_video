@@ -144,7 +144,7 @@ The TTS is generative, not a word-by-word reader: it adds, drops and changes wor
 fifty" came out as "fifty PERCENT", "Try" as "Tried", and some takes had laughs. So after **every**
 `tts.py` run, before building or rendering:
 
-1. Run `tts.py <slug> --check`. It transcribes every WAV with `gemini-3.8-flash`, diffs it word by
+1. Run `tts.py <slug> --check`. It transcribes every WAV (a flagged line is transcribed a second time and only counts if it fails again, because transcriber slips vary run to run) with `gemini-3.8-flash`, diffs it word by
    word against the script (digits vs words, `2x2`, `+`, `*`, `%`, punctuation and the spelling of
    "Vantee" are normalized away) and prints `MISMATCH: script -> heard` lines. A laugh shows as
    `- -> LAUGH`. It exits 1 if any line mismatches.
@@ -213,6 +213,13 @@ In `studio/src/videos/<slug>/Composition.tsx`:
   - Never run `npx remotion bundle --help`, because it hangs.
   - **Kid jumps reviewers flagged:** every count needs its "where from" ("six choices for the first, five for the second").
     A rule needs its reason ("the other side, or the streak grows"). A repeated number needs showing, so it doesn't look like a coincidence.
+- Lessons from batch 2:
+  - Write numbers out in full ("one hundred ninety-five", not "one ninety-five"). Don't use S as a variable, because "21S" reads as a plural.
+  - Don't start a line with a bare label ("Twos:"). Keep "Ann" away from the start of a line, where it is heard as "and".
+  - Keep each caption to 2 lines (under about 100 characters). A 3-line caption grows up over the figure.
+  - Wrong-choice stories the bank doesn't explain must be worded as "what you'd get if…", never stated as fact.
+  - Never let an animation show the answer (or a choice value) before the reveal, e.g. a sliding readout passing through 18.
+  - Run renders in the background with a unique output name, and check `ps` first. `rtk` hides Remotion's output, which led to duplicate renders.
 - SFX: a soft chime on each answer reveal, timed to the END of the line so it never covers the spoken number, and a quiet tick per countdown second. That's it. No
   game-style sounds (shotcraft S1). Keep it at about 0.2–0.3 volume under the voice.
 

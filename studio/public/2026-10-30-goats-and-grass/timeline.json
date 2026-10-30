@@ -1,0 +1,549 @@
+{
+ "fps": 30,
+ "durationInFrames": 12047,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 608,
+   "lines": [
+    {
+     "text": "Ten goats can eat a whole field of grass in twenty days.",
+     "caption": "Ten goats can eat a whole field of grass in twenty days.",
+     "file": "2026-10-30-goats-and-grass/audio/c3ed921321fa1faf.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "Add just five more goats, and they finish in ten days. <short pause> Half the time!",
+     "caption": "Add just five more goats, and they finish in ten days. Half the time!",
+     "file": "2026-10-30-goats-and-grass/audio/09a017e9da4638cf.wav",
+     "from": 151,
+     "frames": 167
+    },
+    {
+     "text": "So how do five more goats save ten whole days? Hi, I'm Vantee. Let's find out together.",
+     "caption": "So how do five more goats save ten whole days? Hi, I'm Vantee. Let's find out together.",
+     "file": "2026-10-30-goats-and-grass/audio/ea870665ec1dc671.wav",
+     "from": 328,
+     "frames": 242
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 608,
+   "frames": 716,
+   "lines": [
+    {
+     "text": "Here's the question. A field starts with some grass, and new grass grows at a steady rate.",
+     "caption": "Here's the question. A field starts with some grass, and new grass grows at a steady rate.",
+     "file": "2026-10-30-goats-and-grass/audio/cd0cd9ec543008f8.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "Ten goats can eat all the grass in twenty days. Fifteen goats can eat it all in ten days.",
+     "caption": "Ten goats can eat all the grass in twenty days. Fifteen goats can eat it all in ten days.",
+     "file": "2026-10-30-goats-and-grass/audio/71a29c4367068c84.wav",
+     "from": 200,
+     "frames": 196
+    },
+    {
+     "text": "All goats eat at the same rate. How many days would twenty-five goats take?",
+     "caption": "All goats eat at the same rate. How many days would twenty-five goats take?",
+     "file": "2026-10-30-goats-and-grass/audio/a66ce34d215dee8b.wav",
+     "from": 407,
+     "frames": 160
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-goats-and-grass/audio/b97a89671840f7ca.wav",
+     "from": 577,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1324,
+   "frames": 881,
+   "lines": [
+    {
+     "text": "Let's break it down. The grass keeps growing while the goats eat.",
+     "caption": "Let's break it down. The grass keeps growing while the goats eat.",
+     "file": "2026-10-30-goats-and-grass/audio/9e24fa0a9d7bc6bb.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "So the goats eat the starting grass, PLUS all the new grass that grows.",
+     "caption": "So the goats eat the starting grass, PLUS all the new grass that grows.",
+     "file": "2026-10-30-goats-and-grass/audio/d11bcdff68888287.wav",
+     "from": 144,
+     "frames": 168
+    },
+    {
+     "text": "We don't know the starting amount, or how fast it grows. That's two unknowns!",
+     "caption": "We don't know the starting amount, or how fast it grows. That's two unknowns!",
+     "file": "2026-10-30-goats-and-grass/audio/efbef5e536fa96df.wav",
+     "from": 323,
+     "frames": 180
+    },
+    {
+     "text": "Here's a handy unit. One goat-day is the grass that one goat eats in one day.",
+     "caption": "Here's a handy unit. One goat-day is the grass that one goat eats in one day.",
+     "file": "2026-10-30-goats-and-grass/audio/78655af23013d8f5.wav",
+     "from": 513,
+     "frames": 189
+    },
+    {
+     "text": "Our goal: the number of days for twenty-five goats.",
+     "caption": "Our goal: the number of days for twenty-five goats.",
+     "file": "2026-10-30-goats-and-grass/audio/2169c1f5a9d4f78a.wav",
+     "from": 712,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2205,
+   "frames": 465,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-goats-and-grass/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "eaten",
+   "kind": "scene",
+   "chapter": "Solution 1: count goat-days",
+   "from": 2670,
+   "frames": 612,
+   "lines": [
+    {
+     "text": "Welcome back! Let's count everything in goat-days.",
+     "caption": "Welcome back! Let's count everything in goat-days.",
+     "file": "2026-10-30-goats-and-grass/audio/fe440a79d78edd85.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Ten goats for twenty days eat ten times twenty, which is two hundred goat-days.",
+     "caption": "Ten goats for twenty days eat ten times twenty, which is two hundred goat-days.",
+     "file": "2026-10-30-goats-and-grass/audio/ed69780b303eecfe.wav",
+     "from": 142,
+     "frames": 212
+    },
+    {
+     "text": "Fifteen goats for ten days eat fifteen times ten, which is one hundred fifty goat-days.",
+     "caption": "Fifteen goats for ten days eat fifteen times ten, which is one hundred fifty goat-days.",
+     "file": "2026-10-30-goats-and-grass/audio/700184f448549a44.wav",
+     "from": 364,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "growth",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3282,
+   "frames": 751,
+   "lines": [
+    {
+     "text": "Both cases start with the same grass. So why did the first goats eat more?",
+     "caption": "Both cases start with the same grass. So why did the first goats eat more?",
+     "file": "2026-10-30-goats-and-grass/audio/9016da460a5d7082.wav",
+     "from": 0,
+     "frames": 164
+    },
+    {
+     "text": "Because their field had ten more days to grow!",
+     "caption": "Because their field had ten more days to grow!",
+     "file": "2026-10-30-goats-and-grass/audio/d2d9728632812f48.wav",
+     "from": 173,
+     "frames": 106
+    },
+    {
+     "text": "Those ten extra days grew two hundred minus one hundred fifty, which is fifty goat-days.",
+     "caption": "Those ten extra days grew two hundred minus one hundred fifty, which is fifty goat-days.",
+     "file": "2026-10-30-goats-and-grass/audio/b90234c09c949529.wav",
+     "from": 290,
+     "frames": 198
+    },
+    {
+     "text": "Fifty goat-days in ten days is five goat-days each day. Enough to feed five goats!",
+     "caption": "Fifty goat-days in ten days is five goat-days each day. Enough to feed five goats!",
+     "file": "2026-10-30-goats-and-grass/audio/bb28ab9ac2e45f18.wav",
+     "from": 498,
+     "frames": 214
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4033,
+   "frames": 703,
+   "lines": [
+    {
+     "text": "In twenty days, the field grows twenty times five, which is one hundred goat-days.",
+     "caption": "In twenty days, the field grows twenty times five, which is one hundred goat-days.",
+     "file": "2026-10-30-goats-and-grass/audio/a0413ef472dd3e21.wav",
+     "from": 0,
+     "frames": 198
+    },
+    {
+     "text": "So the starting grass is two hundred minus one hundred, which is one hundred goat-days.",
+     "caption": "So the starting grass is two hundred minus one hundred, which is one hundred goat-days.",
+     "file": "2026-10-30-goats-and-grass/audio/aa11c507a1e8b173.wav",
+     "from": 208,
+     "frames": 202
+    },
+    {
+     "text": "Check the fifteen goats: one hundred, plus ten days times five, is one hundred fifty. It matches!",
+     "caption": "Check the fifteen goats: one hundred, plus ten days times five, is one hundred fifty. It matches!",
+     "file": "2026-10-30-goats-and-grass/audio/256dd26f31462cbe.wav",
+     "from": 420,
+     "frames": 244
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4736,
+   "frames": 1086,
+   "lines": [
+    {
+     "text": "Now let's use twenty-five goats. Each day, they eat twenty-five goat-days.",
+     "caption": "Now let's use twenty-five goats. Each day, they eat twenty-five goat-days.",
+     "file": "2026-10-30-goats-and-grass/audio/71d53b20cc0bed26.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "But five goat-days grow back. So the pile shrinks by twenty-five minus five, which is twenty a day.",
+     "caption": "But five goat-days grow back. So the pile shrinks by twenty-five minus five, which is twenty a day.",
+     "file": "2026-10-30-goats-and-grass/audio/e64a5a1b035c499e.wav",
+     "from": 191,
+     "frames": 231
+    },
+    {
+     "text": "One hundred goat-days, at twenty a day, lasts one hundred over twenty, which is five days.",
+     "caption": "One hundred goat-days, at twenty a day, lasts one hundred over twenty, which is five days.",
+     "file": "2026-10-30-goats-and-grass/audio/c132beb1e139d347.wav",
+     "from": 432,
+     "frames": 222
+    },
+    {
+     "text": "Check: twenty-five times five is one hundred twenty-five. That's one hundred, plus twenty-five more.",
+     "caption": "Check: twenty-five times five is one hundred twenty-five. That's one hundred, plus twenty-five more.",
+     "file": "2026-10-30-goats-and-grass/audio/0b9f47240cd404c5.wav",
+     "from": 665,
+     "frames": 218
+    },
+    {
+     "text": "The answer is five days. That's choice B!",
+     "caption": "The answer is five days. That's choice B!",
+     "file": "2026-10-30-goats-and-grass/audio/1de349f6aeaf2adb.wav",
+     "from": 893,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "teams",
+   "kind": "scene",
+   "chapter": "Solution 2: helper goats",
+   "from": 5822,
+   "frames": 391,
+   "lines": [
+    {
+     "text": "Here's a clever way to picture it. Let's split the goats into two teams.",
+     "caption": "Here's a clever way to picture it. Let's split the goats into two teams.",
+     "file": "2026-10-30-goats-and-grass/audio/323b34a71bb03afe.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "The helpers eat only the new grass, as fast as it grows. The rest eat the starting pile.",
+     "caption": "The helpers eat only the new grass, as fast as it grows. The rest eat the starting pile.",
+     "file": "2026-10-30-goats-and-grass/audio/0b44e185fc7965d0.wav",
+     "from": 158,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "guess",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6213,
+   "frames": 966,
+   "lines": [
+    {
+     "text": "How many helpers? Let's guess and check. The pile must come out the same in both cases.",
+     "caption": "How many helpers? Let's guess and check. The pile must come out the same in both cases.",
+     "file": "2026-10-30-goats-and-grass/audio/c3162405b86c3a3e.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "No helpers: ten times twenty is two hundred, but fifteen times ten is one hundred fifty.",
+     "caption": "No helpers: ten times twenty is two hundred, but fifteen times ten is one hundred fifty.",
+     "file": "2026-10-30-goats-and-grass/audio/fbd9d16b2cf7c810.wav",
+     "from": 219,
+     "frames": 210
+    },
+    {
+     "text": "Each helper takes twenty off the first pile, but only ten off the second. So the gap shrinks by ten.",
+     "caption": "Each helper takes twenty off the first pile, but only ten off the second. So the gap shrinks by ten.",
+     "file": "2026-10-30-goats-and-grass/audio/acb991f8436f89fe.wav",
+     "from": 439,
+     "frames": 234
+    },
+    {
+     "text": "The gap was fifty, so five helpers close it. Both piles come out at one hundred goat-days!",
+     "caption": "The gap was fifty, so five helpers close it. Both piles come out at one hundred goat-days!",
+     "file": "2026-10-30-goats-and-grass/audio/04dc97df5b31e7b1.wav",
+     "from": 684,
+     "frames": 228
+    }
+   ]
+  },
+  {
+   "id": "use",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7179,
+   "frames": 682,
+   "lines": [
+    {
+     "text": "Now twenty-five goats. Five are helpers, and twenty munch the pile.",
+     "caption": "Now twenty-five goats. Five are helpers, and twenty munch the pile.",
+     "file": "2026-10-30-goats-and-grass/audio/dc3a4ef7087ab4d5.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "Twenty goats finish one hundred goat-days in one hundred over twenty: five days. Same answer!",
+     "caption": "Twenty goats finish one hundred goat-days in one hundred over twenty: five days. Same answer!",
+     "file": "2026-10-30-goats-and-grass/audio/ca021d3f2df248d2.wav",
+     "from": 188,
+     "frames": 200
+    },
+    {
+     "text": "Pick this way when you like to draw. The helper goats turn a growing field into a pile that stays put.",
+     "caption": "Pick this way when you like to draw. The helper goats turn a growing field into a pile that stays put.",
+     "file": "2026-10-30-goats-and-grass/audio/05decca3b1465bf1.wav",
+     "from": 398,
+     "frames": 231
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7861,
+   "frames": 1189,
+   "lines": [
+    {
+     "text": "Now the traps. Most of them forget that the grass keeps growing.",
+     "caption": "Now the traps. Most of them forget that the grass keeps growing.",
+     "file": "2026-10-30-goats-and-grass/audio/b121b6a4a694260b.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "Four is one hundred over twenty-five. It forgets the new grass that grows while the goats eat.",
+     "caption": "Four is one hundred over twenty-five. It forgets the new grass that grows while the goats eat.",
+     "file": "2026-10-30-goats-and-grass/audio/287baaaa4fe46d40.wav",
+     "from": 155,
+     "frames": 200
+    },
+    {
+     "text": "Six is one hundred fifty over twenty-five, and eight is two hundred over twenty-five.",
+     "caption": "Six is one hundred fifty over twenty-five, and eight is two hundred over twenty-five.",
+     "file": "2026-10-30-goats-and-grass/audio/beddbebe89b6932f.wav",
+     "from": 364,
+     "frames": 184
+    },
+    {
+     "text": "Those totals hold ten or twenty days of growth, but twenty-five goats only take five days.",
+     "caption": "Those totals hold ten or twenty days of growth, but twenty-five goats only take five days.",
+     "file": "2026-10-30-goats-and-grass/audio/a80d4bf9ef4478c5.wav",
+     "from": 558,
+     "frames": 220
+    },
+    {
+     "text": "Ten is two hundred over twenty. It treats the first total as the starting pile.",
+     "caption": "Ten is two hundred over twenty. It treats the first total as the starting pile.",
+     "file": "2026-10-30-goats-and-grass/audio/7557804ce85b4be1.wav",
+     "from": 789,
+     "frames": 184
+    },
+    {
+     "text": "Remember: the goats eat the starting grass PLUS everything that grows.",
+     "caption": "Remember: the goats eat the starting grass PLUS everything that grows.",
+     "file": "2026-10-30-goats-and-grass/audio/85a3b3c1b2108f91.wav",
+     "from": 983,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: hungry sheep",
+   "from": 9050,
+   "frames": 443,
+   "lines": [
+    {
+     "text": "Now it's your turn. Eight sheep eat all the grass in thirty days. Twelve sheep take fifteen days.",
+     "caption": "Now it's your turn. Eight sheep eat all the grass in thirty days. Twelve sheep take fifteen days.",
+     "file": "2026-10-30-goats-and-grass/audio/3f3c637d267ba110.wav",
+     "from": 0,
+     "frames": 214
+    },
+    {
+     "text": "The grass grows at a steady rate. How many days would twenty-four sheep take?",
+     "caption": "The grass grows at a steady rate. How many days would twenty-four sheep take?",
+     "file": "2026-10-30-goats-and-grass/audio/4a715ae4a5c3a9f3.wav",
+     "from": 224,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9493,
+   "frames": 539,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. Think in sheep-days!",
+     "caption": "Pause the video and give it a go. Think in sheep-days!",
+     "file": "2026-10-30-goats-and-grass/audio/02598a4a9a62f63c.wav",
+     "from": 0,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Sheep: the answer",
+   "from": 10032,
+   "frames": 1351,
+   "lines": [
+    {
+     "text": "Welcome back! Eight sheep for thirty days eat two hundred forty sheep-days.",
+     "caption": "Welcome back! Eight sheep for thirty days eat two hundred forty sheep-days.",
+     "file": "2026-10-30-goats-and-grass/audio/a476784c2f801c7b.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "Twelve sheep for fifteen days eat one hundred eighty sheep-days.",
+     "caption": "Twelve sheep for fifteen days eat one hundred eighty sheep-days.",
+     "file": "2026-10-30-goats-and-grass/audio/25e2d2e3dba7457e.wav",
+     "from": 198,
+     "frames": 155
+    },
+    {
+     "text": "Fifteen extra days grew sixty sheep-days. That's four sheep-days each day.",
+     "caption": "Fifteen extra days grew sixty sheep-days. That's four sheep-days each day.",
+     "file": "2026-10-30-goats-and-grass/audio/251a096ff9f0a3e5.wav",
+     "from": 363,
+     "frames": 184
+    },
+    {
+     "text": "Thirty days of growth is thirty times four, which is one hundred twenty sheep-days.",
+     "caption": "Thirty days of growth is thirty times four, which is one hundred twenty sheep-days.",
+     "file": "2026-10-30-goats-and-grass/audio/7f297175a3f1cfe6.wav",
+     "from": 557,
+     "frames": 185
+    },
+    {
+     "text": "Two hundred forty minus one hundred twenty leaves one hundred twenty to start.",
+     "caption": "Two hundred forty minus one hundred twenty leaves one hundred twenty to start.",
+     "file": "2026-10-30-goats-and-grass/audio/6174f0dfb288b48f.wav",
+     "from": 752,
+     "frames": 154
+    },
+    {
+     "text": "Twenty-four sheep: four are helpers, and twenty munch the pile.",
+     "caption": "Twenty-four sheep: four are helpers, and twenty munch the pile.",
+     "file": "2026-10-30-goats-and-grass/audio/3a142c9bc05a4816.wav",
+     "from": 916,
+     "frames": 173
+    },
+    {
+     "text": "One hundred twenty over twenty is six. The sheep need six days!",
+     "caption": "One hundred twenty over twenty is six. The sheep need six days!",
+     "file": "2026-10-30-goats-and-grass/audio/88d64a5778fe63bf.wav",
+     "from": 1100,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11383,
+   "frames": 664,
+   "lines": [
+    {
+     "text": "Let's recap. When the food keeps growing, count in animal-days.",
+     "caption": "Let's recap. When the food keeps growing, count in animal-days.",
+     "file": "2026-10-30-goats-and-grass/audio/1ad26896e2920734.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "Two cases give you the daily growth, and then the starting pile.",
+     "caption": "Two cases give you the daily growth, and then the starting pile.",
+     "file": "2026-10-30-goats-and-grass/audio/940a1ebec7d7ff46.wav",
+     "from": 159,
+     "frames": 126
+    },
+    {
+     "text": "Helpers match the growth, and everyone else eats the starting pile.",
+     "caption": "Helpers match the growth, and everyone else eats the starting pile.",
+     "file": "2026-10-30-goats-and-grass/audio/cb7ae0f19cf1b23d.wav",
+     "from": 296,
+     "frames": 155
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-goats-and-grass/audio/31a6054d0b03b932.wav",
+     "from": 461,
+     "frames": 119
+    }
+   ]
+  }
+ ]
+}

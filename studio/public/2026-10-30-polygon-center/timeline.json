@@ -1,0 +1,527 @@
+{
+ "fps": 30,
+ "durationInFrames": 12242,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 605,
+   "lines": [
+    {
+     "text": "Pick four corners of this thirteen-sided shape, and join them up.",
+     "caption": "Pick four corners of this thirteen-sided shape, and join them up.",
+     "file": "2026-10-30-polygon-center/audio/7099b42b79a69f5e.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "Sometimes the shape covers the center dot, and sometimes it misses. <short pause> Which happens more?",
+     "caption": "Sometimes the shape covers the center dot, and sometimes it misses. Which happens more?",
+     "file": "2026-10-30-polygon-center/audio/446ee25711372a04.wav",
+     "from": 160,
+     "frames": 209
+    },
+    {
+     "text": "Hi there, I'm Vantee! Today's trick is to count the misses instead of the hits.",
+     "caption": "Hi there, I'm Vantee! Today's trick is to count the misses instead of the hits.",
+     "file": "2026-10-30-polygon-center/audio/add4be9028a103aa.wav",
+     "from": 380,
+     "frames": 186
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 605,
+   "frames": 668,
+   "lines": [
+    {
+     "text": "Here's the question. Four of the thirteen vertices of a regular thirteen-sided polygon are chosen.",
+     "caption": "Here's the question. Four of the thirteen vertices of a regular thirteen-sided polygon are chosen.",
+     "file": "2026-10-30-polygon-center/audio/552a7202fa4d56ec.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "They are joined in order to make a quadrilateral.",
+     "caption": "They are joined in order to make a quadrilateral.",
+     "file": "2026-10-30-polygon-center/audio/65ba9ed3d6d86c0f.wav",
+     "from": 220,
+     "frames": 102
+    },
+    {
+     "text": "For how many choices of the four vertices does the quadrilateral contain the center?",
+     "caption": "For how many choices of the four vertices does the quadrilateral contain the center?",
+     "file": "2026-10-30-polygon-center/audio/b3d64bb4a471159f.wav",
+     "from": 333,
+     "frames": 183
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-polygon-center/audio/b97a89671840f7ca.wav",
+     "from": 526,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1273,
+   "frames": 1492,
+   "lines": [
+    {
+     "text": "Let's break it down. A vertex is a corner. These thirteen vertices sit evenly around a circle.",
+     "caption": "Let's break it down. A vertex is a corner. These thirteen vertices sit evenly around a circle.",
+     "file": "2026-10-30-polygon-center/audio/bb85777517e1341a.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "Join four of them in order around the circle, and you get a quadrilateral.",
+     "caption": "Join four of them in order around the circle, and you get a quadrilateral.",
+     "file": "2026-10-30-polygon-center/audio/00e93683da4b7098.wav",
+     "from": 231,
+     "frames": 147
+    },
+    {
+     "text": "This one holds the center inside. That's a hit.",
+     "caption": "This one holds the center inside. That's a hit.",
+     "file": "2026-10-30-polygon-center/audio/72d9f046bdb46b00.wav",
+     "from": 388,
+     "frames": 120
+    },
+    {
+     "text": "This one misses the center completely.",
+     "caption": "This one misses the center completely.",
+     "file": "2026-10-30-polygon-center/audio/90cac291f3b53200.wav",
+     "from": 519,
+     "frames": 96
+    },
+    {
+     "text": "No vertex sits directly across from another, so the center is never right on a side.",
+     "caption": "No vertex sits directly across from another, so the center is never right on a side.",
+     "file": "2026-10-30-polygon-center/audio/58ad221282e103af.wav",
+     "from": 625,
+     "frames": 197
+    },
+    {
+     "text": "How many choices in all? Thirteen ways to pick a first vertex, then twelve, eleven, and ten.",
+     "caption": "How many choices in all? Thirteen ways to pick a first vertex, then twelve, eleven, and ten.",
+     "file": "2026-10-30-polygon-center/audio/ee16f515a53c76bd.wav",
+     "from": 832,
+     "frames": 228
+    },
+    {
+     "text": "But each group of four shows up in twenty-four orders: four times three times two times one.",
+     "caption": "But each group of four shows up in twenty-four orders: four times three times two times one.",
+     "file": "2026-10-30-polygon-center/audio/e2dd8a857cc5aeaa.wav",
+     "from": 1071,
+     "frames": 216
+    },
+    {
+     "text": "Divide by twenty-four, and you get seven hundred fifteen choices in all.",
+     "caption": "Divide by twenty-four, and you get seven hundred fifteen choices in all.",
+     "file": "2026-10-30-polygon-center/audio/892d1742a3742127.wav",
+     "from": 1297,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2765,
+   "frames": 449,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-polygon-center/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "miss",
+   "kind": "scene",
+   "chapter": "Solution 1: count the misses",
+   "from": 3214,
+   "frames": 1619,
+   "lines": [
+    {
+     "text": "Welcome back! Counting the hits directly is tricky. So let's count the misses, and subtract.",
+     "caption": "Welcome back! Counting the hits directly is tricky. So let's count the misses, and subtract.",
+     "file": "2026-10-30-polygon-center/audio/3aeefacd19ce5ab2.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "Look at one side of the quadrilateral. It cuts off an arc with no chosen vertices on it.",
+     "caption": "Look at one side of the quadrilateral. It cuts off an arc with no chosen vertices on it.",
+     "file": "2026-10-30-polygon-center/audio/2ba4575570ede118.wav",
+     "from": 211,
+     "frames": 178
+    },
+    {
+     "text": "If that empty arc is less than half the circle, the center stays on the inside of that side.",
+     "caption": "If that empty arc is less than half the circle, the center stays on the inside of that side.",
+     "file": "2026-10-30-polygon-center/audio/8e172d4111c3d36b.wav",
+     "from": 399,
+     "frames": 196
+    },
+    {
+     "text": "If one empty arc is MORE than half the circle, that side cuts the center off. The shape misses it.",
+     "caption": "If one empty arc is MORE than half the circle, that side cuts the center off. The shape misses it.",
+     "file": "2026-10-30-polygon-center/audio/04b2edc48ab8d6f2.wav",
+     "from": 605,
+     "frames": 210
+    },
+    {
+     "text": "So a choice misses exactly when all four vertices squeeze into half of the circle.",
+     "caption": "So a choice misses exactly when all four vertices squeeze into half of the circle.",
+     "file": "2026-10-30-polygon-center/audio/06a7e99f542ca8b7.wav",
+     "from": 826,
+     "frames": 219
+    },
+    {
+     "text": "How many vertices fit in a half? Going all the way around takes thirteen steps.",
+     "caption": "How many vertices fit in a half? Going all the way around takes thirteen steps.",
+     "file": "2026-10-30-polygon-center/audio/f7b7921ef15488f4.wav",
+     "from": 1055,
+     "frames": 194
+    },
+    {
+     "text": "Half of that is six and a half steps.",
+     "caption": "Half of that is six and a half steps.",
+     "file": "2026-10-30-polygon-center/audio/922eca109b5f8a71.wav",
+     "from": 1258,
+     "frames": 90
+    },
+    {
+     "text": "So a half holds a first vertex and the next six vertices. The seventh one is past halfway.",
+     "caption": "So a half holds a first vertex and the next six vertices. The seventh one is past halfway.",
+     "file": "2026-10-30-polygon-center/audio/ef7988161b1a71ac.wav",
+     "from": 1359,
+     "frames": 221
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4833,
+   "frames": 1663,
+   "lines": [
+    {
+     "text": "Let's count the misses. Go clockwise. The first vertex comes right after the big empty arc.",
+     "caption": "Let's count the misses. Go clockwise. The first vertex comes right after the big empty arc.",
+     "file": "2026-10-30-polygon-center/audio/ace4fc2a7cdbd2d2.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "The other three vertices must be among the next six.",
+     "caption": "The other three vertices must be among the next six.",
+     "file": "2026-10-30-polygon-center/audio/443f28bc40d738d0.wav",
+     "from": 226,
+     "frames": 113
+    },
+    {
+     "text": "Six choose three is six times five times four, over six for the orders. That's twenty ways.",
+     "caption": "Six choose three is six times five times four, over six for the orders. That's twenty ways.",
+     "file": "2026-10-30-polygon-center/audio/7466115bcbc26f9d.wav",
+     "from": 349,
+     "frames": 236
+    },
+    {
+     "text": "The first vertex can be any of the thirteen vertices.",
+     "caption": "The first vertex can be any of the thirteen vertices.",
+     "file": "2026-10-30-polygon-center/audio/f83788815e771e98.wav",
+     "from": 595,
+     "frames": 129
+    },
+    {
+     "text": "So thirteen times twenty gives two hundred sixty misses.",
+     "caption": "So thirteen times twenty gives two hundred sixty misses.",
+     "file": "2026-10-30-polygon-center/audio/f4639445540b8516.wav",
+     "from": 734,
+     "frames": 159
+    },
+    {
+     "text": "Could one miss get counted twice? No! It has only one empty arc bigger than half.",
+     "caption": "Could one miss get counted twice? No! It has only one empty arc bigger than half.",
+     "file": "2026-10-30-polygon-center/audio/bdf23b6f04e140e2.wav",
+     "from": 903,
+     "frames": 198
+    },
+    {
+     "text": "A bigger-than-half arc is at least seven steps. Two need fourteen steps, but there are only thirteen.",
+     "caption": "A bigger-than-half arc is at least seven steps. Two need fourteen steps, but there are only thirteen.",
+     "file": "2026-10-30-polygon-center/audio/0485a78101d83fca.wav",
+     "from": 1111,
+     "frames": 238
+    },
+    {
+     "text": "So the hits are seven hundred fifteen minus two hundred sixty: four hundred fifty-five. Choice C!",
+     "caption": "So the hits are seven hundred fifteen minus two hundred sixty: four hundred fifty-five. Choice C!",
+     "file": "2026-10-30-polygon-center/audio/c4a492081e4e2146.wav",
+     "from": 1360,
+     "frames": 250
+    }
+   ]
+  },
+  {
+   "id": "gaps",
+   "kind": "scene",
+   "chapter": "Solution 2: the big gap",
+   "from": 6496,
+   "frames": 1764,
+   "lines": [
+    {
+     "text": "Here's another way. The four gaps between chosen vertices always add up to thirteen steps.",
+     "caption": "Here's another way. The four gaps between chosen vertices always add up to thirteen steps.",
+     "file": "2026-10-30-polygon-center/audio/432bd63fb9489781.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "A miss has one big gap of seven steps or more. The other three gaps share what's left.",
+     "caption": "A miss has one big gap of seven steps or more. The other three gaps share what's left.",
+     "file": "2026-10-30-polygon-center/audio/eeda2e9b577535cb.wav",
+     "from": 218,
+     "frames": 197
+    },
+    {
+     "text": "If the big gap is seven steps, the other three gaps add up to six. Let's list them: ten ways.",
+     "caption": "If the big gap is seven steps, the other three gaps add up to six. Let's list them: ten ways.",
+     "file": "2026-10-30-polygon-center/audio/755491ec304a7d0f.wav",
+     "from": 426,
+     "frames": 210
+    },
+    {
+     "text": "A big gap of eight steps leaves five. That's six ways.",
+     "caption": "A big gap of eight steps leaves five. That's six ways.",
+     "file": "2026-10-30-polygon-center/audio/9f0d1b9f9c99951d.wav",
+     "from": 646,
+     "frames": 162
+    },
+    {
+     "text": "A gap of nine leaves four: three ways. A gap of ten leaves three: just one way.",
+     "caption": "A gap of nine leaves four: three ways. A gap of ten leaves three: just one way.",
+     "file": "2026-10-30-polygon-center/audio/519d5395146a24e9.wav",
+     "from": 819,
+     "frames": 213
+    },
+    {
+     "text": "Ten plus six plus three plus one is twenty. That's the same twenty as before!",
+     "caption": "Ten plus six plus three plus one is twenty. That's the same twenty as before!",
+     "file": "2026-10-30-polygon-center/audio/19326ac23b5d2a4f.wav",
+     "from": 1041,
+     "frames": 237
+    },
+    {
+     "text": "The big gap can start at any of the thirteen vertices, so again there are two hundred sixty misses.",
+     "caption": "The big gap can start at any of the thirteen vertices, so again there are two hundred sixty misses.",
+     "file": "2026-10-30-polygon-center/audio/14f7f182f5d25425.wav",
+     "from": 1288,
+     "frames": 221
+    },
+    {
+     "text": "When would you pick each? The first vertex is fastest. The gaps show WHY there's one big gap.",
+     "caption": "When would you pick each? The first vertex is fastest. The gaps show WHY there's one big gap.",
+     "file": "2026-10-30-polygon-center/audio/280c184515871d7f.wav",
+     "from": 1520,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8260,
+   "frames": 1412,
+   "lines": [
+    {
+     "text": "Choice E, seven hundred fifteen, counts every choice. It forgets about the center.",
+     "caption": "Choice E, seven hundred fifteen, counts every choice. It forgets about the center.",
+     "file": "2026-10-30-polygon-center/audio/65a122f0a35e8cb5.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "Choice A, two hundred sixty, is the number of misses. Don't forget to subtract!",
+     "caption": "Choice A, two hundred sixty, is the number of misses. Don't forget to subtract!",
+     "file": "2026-10-30-polygon-center/audio/af696dce3373e9d5.wav",
+     "from": 192,
+     "frames": 173
+    },
+    {
+     "text": "Choice D, five hundred twenty, picks all four vertices from the next six. That's only fifteen ways.",
+     "caption": "Choice D, five hundred twenty, picks all four vertices from the next six. That's only fifteen ways.",
+     "file": "2026-10-30-polygon-center/audio/1604df6fbfef76d0.wav",
+     "from": 375,
+     "frames": 227
+    },
+    {
+     "text": "That gives one hundred ninety-five misses, and five hundred twenty hits.",
+     "caption": "That gives one hundred ninety-five misses, and five hundred twenty hits.",
+     "file": "2026-10-30-polygon-center/audio/de616d43f4f9b6f0.wav",
+     "from": 612,
+     "frames": 143
+    },
+    {
+     "text": "But the first vertex is already one of the four, so only three more come from the next six.",
+     "caption": "But the first vertex is already one of the four, so only three more come from the next six.",
+     "file": "2026-10-30-polygon-center/audio/d7c4e554f43d181b.wav",
+     "from": 765,
+     "frames": 180
+    },
+    {
+     "text": "Choice B, three hundred ninety, needs twenty-five misses per first vertex. We found only twenty.",
+     "caption": "Choice B, three hundred ninety, needs twenty-five misses per first vertex. We found only twenty.",
+     "file": "2026-10-30-polygon-center/audio/51894657d8ea46fb.wav",
+     "from": 956,
+     "frames": 208
+    },
+    {
+     "text": "So here's a great habit: when the hits are hard to count, count the misses and subtract.",
+     "caption": "So here's a great habit: when the hits are hard to count, count the misses and subtract.",
+     "file": "2026-10-30-polygon-center/audio/fbbfd1679114c947.wav",
+     "from": 1174,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: eleven vertices",
+   "from": 9672,
+   "frames": 417,
+   "lines": [
+    {
+     "text": "Ready for a challenge? This time, take a regular eleven-sided polygon.",
+     "caption": "Ready for a challenge? This time, take a regular eleven-sided polygon.",
+     "file": "2026-10-30-polygon-center/audio/eac6d175c0112b59.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "Choose three of its vertices to make a triangle. How many of these triangles contain the center?",
+     "caption": "Choose three of its vertices to make a triangle. How many of these triangles contain the center?",
+     "file": "2026-10-30-polygon-center/audio/45df897edc814526.wav",
+     "from": 185,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10089,
+   "frames": 364,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-polygon-center/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Eleven vertices: the answer",
+   "from": 10453,
+   "frames": 1189,
+   "lines": [
+    {
+     "text": "Eleven times ten times nine, over six for the orders, is one hundred sixty-five triangles.",
+     "caption": "Eleven times ten times nine, over six for the orders, is one hundred sixty-five triangles.",
+     "file": "2026-10-30-polygon-center/audio/ccfef25640fb80ea.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "Five steps is less than half of eleven, and six is more. So a half holds the first vertex and the next five.",
+     "caption": "Five steps is less than half of eleven, and six is more. So a half holds the first vertex and the next five.",
+     "file": "2026-10-30-polygon-center/audio/37479d3afcbcfb5f.wav",
+     "from": 225,
+     "frames": 257
+    },
+    {
+     "text": "The other two vertices come from those five. Five choose two is ten ways.",
+     "caption": "The other two vertices come from those five. Five choose two is ten ways.",
+     "file": "2026-10-30-polygon-center/audio/26fd40fe91992712.wav",
+     "from": 492,
+     "frames": 167
+    },
+    {
+     "text": "Eleven first vertices times ten ways gives one hundred ten misses.",
+     "caption": "Eleven first vertices times ten ways gives one hundred ten misses.",
+     "file": "2026-10-30-polygon-center/audio/39c21727e8306eff.wav",
+     "from": 669,
+     "frames": 172
+    },
+    {
+     "text": "One hundred sixty-five minus one hundred ten is fifty-five triangles.",
+     "caption": "One hundred sixty-five minus one hundred ten is fifty-five triangles.",
+     "file": "2026-10-30-polygon-center/audio/af9853b8ee85307c.wav",
+     "from": 852,
+     "frames": 184
+    },
+    {
+     "text": "If you found fifty-five, amazing work!",
+     "caption": "If you found fifty-five, amazing work!",
+     "file": "2026-10-30-polygon-center/audio/8e8a8f985b81886f.wav",
+     "from": 1046,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11642,
+   "frames": 600,
+   "lines": [
+    {
+     "text": "Here's the big idea: when the hits are hard to count, count the misses, and subtract.",
+     "caption": "Here's the big idea: when the hits are hard to count, count the misses, and subtract.",
+     "file": "2026-10-30-polygon-center/audio/05abec599aa7445f.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "Here, a miss has all its vertices in one half, so count each miss by its first vertex.",
+     "caption": "Here, a miss has all its vertices in one half, so count each miss by its first vertex.",
+     "file": "2026-10-30-polygon-center/audio/ada6d258cccdaf64.wav",
+     "from": 200,
+     "frames": 198
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-polygon-center/audio/31a6054d0b03b932.wav",
+     "from": 409,
+     "frames": 123
+    }
+   ]
+  }
+ ]
+}

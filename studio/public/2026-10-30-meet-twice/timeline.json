@@ -1,0 +1,540 @@
+{
+ "fps": 30,
+ "durationInFrames": 11500,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 514,
+   "lines": [
+    {
+     "text": "Two friends walk toward each other, pass, turn around, and meet again.",
+     "caption": "Two friends walk toward each other, pass, turn around, and meet again.",
+     "file": "2026-10-30-meet-twice/audio/26c3aa929803d1be.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "One number unlocks this whole puzzle. <short pause> It's the number THREE!",
+     "caption": "One number unlocks this whole puzzle. It's the number THREE!",
+     "file": "2026-10-30-meet-twice/audio/30ae875af8d1afd7.wav",
+     "from": 194,
+     "frames": 144
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's find out where that three comes from.",
+     "caption": "Hi there, I'm Vantee! Let's find out where that three comes from.",
+     "file": "2026-10-30-meet-twice/audio/6da97375818f5629.wav",
+     "from": 349,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 514,
+   "frames": 924,
+   "lines": [
+    {
+     "text": "Ann and Bo start at the same time from towns A and B.",
+     "caption": "Ann and Bo start at the same time from towns A and B.",
+     "file": "2026-10-30-meet-twice/audio/26238b2e0ad0477b.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "They walk toward each other on the same road, each at a steady speed.",
+     "caption": "They walk toward each other on the same road, each at a steady speed.",
+     "file": "2026-10-30-meet-twice/audio/bb280291cacce8c1.wav",
+     "from": 155,
+     "frames": 148
+    },
+    {
+     "text": "They first meet 12 km from A.",
+     "caption": "They first meet 12 km from A.",
+     "file": "2026-10-30-meet-twice/audio/6fa6f17ae9543741.wav",
+     "from": 313,
+     "frames": 96
+    },
+    {
+     "text": "Each keeps walking to the other town, turns around at once, and walks back.",
+     "caption": "Each keeps walking to the other town, turns around at once, and walks back.",
+     "file": "2026-10-30-meet-twice/audio/c6c94a44ca666f61.wav",
+     "from": 420,
+     "frames": 174
+    },
+    {
+     "text": "They meet for the second time 10 km from A. How far apart are A and B?",
+     "caption": "They meet for the second time 10 km from A. How far apart are A and B?",
+     "file": "2026-10-30-meet-twice/audio/26b1b290357cca88.wav",
+     "from": 604,
+     "frames": 177
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-meet-twice/audio/b97a89671840f7ca.wav",
+     "from": 791,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1438,
+   "frames": 714,
+   "lines": [
+    {
+     "text": "Let's break it down. Ann and Bo keep the same speeds the whole time.",
+     "caption": "Let's break it down. Ann and Bo keep the same speeds the whole time.",
+     "file": "2026-10-30-meet-twice/audio/aadfdd838d07c190.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "The first meeting is 12 km from A.",
+     "caption": "The first meeting is 12 km from A.",
+     "file": "2026-10-30-meet-twice/audio/6e64d1d28af29e68.wav",
+     "from": 180,
+     "frames": 96
+    },
+    {
+     "text": "Each walker reaches the far town and turns around. Only then do they meet again, 10 km from A.",
+     "caption": "Each walker reaches the far town and turns around. Only then do they meet again, 10 km from A.",
+     "file": "2026-10-30-meet-twice/audio/ddb54e3603222f7c.wav",
+     "from": 286,
+     "frames": 244
+    },
+    {
+     "text": "We want the length of the road. Let's call it d.",
+     "caption": "We want the length of the road. Let's call it d.",
+     "file": "2026-10-30-meet-twice/audio/2ea0f44e99654bea.wav",
+     "from": 540,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2152,
+   "frames": 463,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-meet-twice/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "walk1",
+   "kind": "scene",
+   "chapter": "Solution 1: count road lengths",
+   "from": 2615,
+   "frames": 611,
+   "lines": [
+    {
+     "text": "Welcome back! Let's count how far they walk together, in whole road lengths.",
+     "caption": "Welcome back! Let's count how far they walk together, in whole road lengths.",
+     "file": "2026-10-30-meet-twice/audio/5e72acc2210f8f6a.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "At the first meeting, Ann's part and Bo's part fill the road exactly once.",
+     "caption": "At the first meeting, Ann's part and Bo's part fill the road exactly once.",
+     "file": "2026-10-30-meet-twice/audio/c6fba9b6e3076103.wav",
+     "from": 196,
+     "frames": 178
+    },
+    {
+     "text": "So together they've walked one road length, and Ann's share is 12 km.",
+     "caption": "So together they've walked one road length, and Ann's share is 12 km.",
+     "file": "2026-10-30-meet-twice/audio/1a2c7d8e634738c6.wav",
+     "from": 384,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "walk2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3226,
+   "frames": 982,
+   "lines": [
+    {
+     "text": "They walk on to the second meeting. Now let's line up every piece of both walks.",
+     "caption": "They walk on to the second meeting. Now let's line up every piece of both walks.",
+     "file": "2026-10-30-meet-twice/audio/b10f48dbd2822d15.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "Ann's first piece goes the whole way to B. That's one road length.",
+     "caption": "Ann's first piece goes the whole way to B. That's one road length.",
+     "file": "2026-10-30-meet-twice/audio/cacc56978402c636.wav",
+     "from": 199,
+     "frames": 155
+    },
+    {
+     "text": "Bo walked the whole road to A. That's a second road length.",
+     "caption": "Bo walked the whole road to A. That's a second road length.",
+     "file": "2026-10-30-meet-twice/audio/154cf701ae0d3e25.wav",
+     "from": 364,
+     "frames": 146
+    },
+    {
+     "text": "Then Bo walked back from A to the meeting spot, and Ann walked back from B to it.",
+     "caption": "Then Bo walked back from A to the meeting spot, and Ann walked back from B to it.",
+     "file": "2026-10-30-meet-twice/audio/2648e99dcb865000.wav",
+     "from": 520,
+     "frames": 200
+    },
+    {
+     "text": "Together, those two pieces fill the road one more time. That makes three road lengths!",
+     "caption": "Together, those two pieces fill the road one more time. That makes three road lengths!",
+     "file": "2026-10-30-meet-twice/audio/c83b3ae368b6718d.wav",
+     "from": 730,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "triple",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4208,
+   "frames": 611,
+   "lines": [
+    {
+     "text": "Here's the key. Their speeds never change, so each road length together takes the same time.",
+     "caption": "Here's the key. Their speeds never change, so each road length together takes the same time.",
+     "file": "2026-10-30-meet-twice/audio/198fea4a03a31f29.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "And in each one, Ann walks 12 km, just like the first time.",
+     "caption": "And in each one, Ann walks 12 km, just like the first time.",
+     "file": "2026-10-30-meet-twice/audio/5f214b7ec49c4586.wav",
+     "from": 209,
+     "frames": 154
+    },
+    {
+     "text": "Three road lengths means Ann walks 3 times 12, which is 36 km.",
+     "caption": "Three road lengths means Ann walks 3 times 12, which is 36 km.",
+     "file": "2026-10-30-meet-twice/audio/473bbb06d2776c1e.wav",
+     "from": 374,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "solve1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4819,
+   "frames": 960,
+   "lines": [
+    {
+     "text": "Now let's split her walk of 36 km into two parts.",
+     "caption": "Now let's split her walk of 36 km into two parts.",
+     "file": "2026-10-30-meet-twice/audio/6b585dd81953a6ba.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "First she walks the whole road to B. That's d.",
+     "caption": "First she walks the whole road to B. That's d.",
+     "file": "2026-10-30-meet-twice/audio/139867b8b63ff728.wav",
+     "from": 157,
+     "frames": 129
+    },
+    {
+     "text": "Then she walks back from B to the spot 10 km from A. That's d minus 10.",
+     "caption": "Then she walks back from B to the spot 10 km from A. That's d minus 10.",
+     "file": "2026-10-30-meet-twice/audio/bb1f0ac34180db6f.wav",
+     "from": 296,
+     "frames": 210
+    },
+    {
+     "text": "So d plus d minus 10 equals 36.",
+     "caption": "So d plus d minus 10 equals 36.",
+     "file": "2026-10-30-meet-twice/audio/e6e25e7ed7141be3.wav",
+     "from": 516,
+     "frames": 155
+    },
+    {
+     "text": "2d equals 46, so d equals 23 km. That's Choice D!",
+     "caption": "2d equals 46, so d equals 23 km. That's Choice D!",
+     "file": "2026-10-30-meet-twice/audio/e4e06d848df42785.wav",
+     "from": 682,
+     "frames": 225
+    }
+   ]
+  },
+  {
+   "id": "check1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5779,
+   "frames": 283,
+   "lines": [
+    {
+     "text": "Let's walk it. Ann goes 23 km to B, then 13 back, ending 10 km from A!",
+     "caption": "Let's walk it. Ann goes 23 km to B, then 13 back, ending 10 km from A!",
+     "file": "2026-10-30-meet-twice/audio/237d69401d7533b1.wav",
+     "from": 0,
+     "frames": 230
+    }
+   ]
+  },
+  {
+   "id": "bo",
+   "kind": "scene",
+   "chapter": "Solution 2: follow Bo",
+   "from": 6062,
+   "frames": 1347,
+   "lines": [
+    {
+     "text": "Here's a second way. Let's follow Bo instead.",
+     "caption": "Here's a second way. Let's follow Bo instead.",
+     "file": "2026-10-30-meet-twice/audio/d339940f6a75e559.wav",
+     "from": 0,
+     "frames": 113
+    },
+    {
+     "text": "At the first meeting, Bo has walked the rest of the road. That's d minus 12.",
+     "caption": "At the first meeting, Bo has walked the rest of the road. That's d minus 12.",
+     "file": "2026-10-30-meet-twice/audio/eac469478fb3b986.wav",
+     "from": 124,
+     "frames": 183
+    },
+    {
+     "text": "By the second meeting he walks 3 times as far, for the same reason as Ann: 3 groups of d minus 12.",
+     "caption": "By the second meeting he walks 3 times as far, for the same reason as Ann: 3 groups of d minus 12.",
+     "file": "2026-10-30-meet-twice/audio/741bce110d7b8f2a.wav",
+     "from": 317,
+     "frames": 234
+    },
+    {
+     "text": "He walked the whole road to A, then 10 km back. That's d plus 10.",
+     "caption": "He walked the whole road to A, then 10 km back. That's d plus 10.",
+     "file": "2026-10-30-meet-twice/audio/5f2589256548d78e.wav",
+     "from": 561,
+     "frames": 200
+    },
+    {
+     "text": "So 3d minus 36 equals d plus 10.",
+     "caption": "So 3d minus 36 equals d plus 10.",
+     "file": "2026-10-30-meet-twice/audio/bcf4d42e7e21fa29.wav",
+     "from": 771,
+     "frames": 155
+    },
+    {
+     "text": "2d equals 46 again, so d is 23. It matches!",
+     "caption": "2d equals 46 again, so d is 23. It matches!",
+     "file": "2026-10-30-meet-twice/audio/f33bdef2f914f6ed.wav",
+     "from": 936,
+     "frames": 164
+    },
+    {
+     "text": "Which way to pick? Follow the walker whose first distance you know. Here, that's Ann.",
+     "caption": "Which way to pick? Follow the walker whose first distance you know. Here, that's Ann.",
+     "file": "2026-10-30-meet-twice/audio/130432e85feba4fa.wav",
+     "from": 1110,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7409,
+   "frames": 1364,
+   "lines": [
+    {
+     "text": "Let's test every choice. Ann always walks 36 km. Where does she end up?",
+     "caption": "Let's test every choice. Ann always walks 36 km. Where does she end up?",
+     "file": "2026-10-30-meet-twice/audio/b7b884d0e3c4a816.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "Choice A, 18, is half of 36. That puts her back at A, not 10 km away.",
+     "caption": "Choice A, 18, is half of 36. That puts her back at A, not 10 km away.",
+     "file": "2026-10-30-meet-twice/audio/9eb9030e649925bc.wav",
+     "from": 204,
+     "frames": 242
+    },
+    {
+     "text": "Choice B, 21, comes from no step at all. She would end up 6 km from A.",
+     "caption": "Choice B, 21, comes from no step at all. She would end up 6 km from A.",
+     "file": "2026-10-30-meet-twice/audio/d168a73481060235.wav",
+     "from": 456,
+     "frames": 191
+    },
+    {
+     "text": "Choice C, 22, just adds 12 and 10. She would end up 8 km from A.",
+     "caption": "Choice C, 22, just adds 12 and 10. She would end up 8 km from A.",
+     "file": "2026-10-30-meet-twice/audio/c7e60c2abbf66afa.wav",
+     "from": 657,
+     "frames": 202
+    },
+    {
+     "text": "Choice E, 26, says Ann walked back only 10. But she walks back from B, not from A!",
+     "caption": "Choice E, 26, says Ann walked back only 10. But she walks back from B, not from A!",
+     "file": "2026-10-30-meet-twice/audio/61b809acaa337515.wav",
+     "from": 869,
+     "frames": 230
+    },
+    {
+     "text": "With 26, she'd end up 16 km from A. Only 23 lands on 10!",
+     "caption": "With 26, she'd end up 16 km from A. Only 23 lands on 10!",
+     "file": "2026-10-30-meet-twice/audio/c8d09cca2a4aaea5.wav",
+     "from": 1109,
+     "frames": 202
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a variant",
+   "from": 8773,
+   "frames": 491,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same story, new numbers.",
+     "caption": "Ready for a challenge? Same story, new numbers.",
+     "file": "2026-10-30-meet-twice/audio/60ba52ad1edc84a7.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "The first meeting is 7 km from A. The second is 5 km from B.",
+     "caption": "The first meeting is 7 km from A. The second is 5 km from B.",
+     "file": "2026-10-30-meet-twice/audio/13d4db95a7414f75.wav",
+     "from": 118,
+     "frames": 183
+    },
+    {
+     "text": "Watch out, that's from B this time! How far apart are the towns?",
+     "caption": "Watch out, that's from B this time! How far apart are the towns?",
+     "file": "2026-10-30-meet-twice/audio/e1563299dbc74d84.wav",
+     "from": 311,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9264,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-meet-twice/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Variant: the answer",
+   "from": 9724,
+   "frames": 1196,
+   "lines": [
+    {
+     "text": "Let's check. Three road lengths again, so Ann walks 3 times 7, which is 21.",
+     "caption": "Let's check. Three road lengths again, so Ann walks 3 times 7, which is 21.",
+     "file": "2026-10-30-meet-twice/audio/69591d82b030a681.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "She walks the whole road to B, then 5 km back. That's d plus 5.",
+     "caption": "She walks the whole road to B, then 5 km back. That's d plus 5.",
+     "file": "2026-10-30-meet-twice/audio/50fe0982ae9e30cd.wav",
+     "from": 219,
+     "frames": 185
+    },
+    {
+     "text": "So d plus 5 equals 21, and d is 16 km!",
+     "caption": "So d plus 5 equals 21, and d is 16 km!",
+     "file": "2026-10-30-meet-twice/audio/c510394d8242019b.wav",
+     "from": 414,
+     "frames": 176
+    },
+    {
+     "text": "Check with Bo. He walks 9 km at first, so 27 in all.",
+     "caption": "Check with Bo. He walks 9 km at first, so 27 in all.",
+     "file": "2026-10-30-meet-twice/audio/5205cb6689eb892d.wav",
+     "from": 600,
+     "frames": 192
+    },
+    {
+     "text": "That's 16 to A, then 11 back, which is 5 km from B. It works!",
+     "caption": "That's 16 to A, then 11 back, which is 5 km from B. It works!",
+     "file": "2026-10-30-meet-twice/audio/d25b7f50042e3f03.wav",
+     "from": 803,
+     "frames": 206
+    },
+    {
+     "text": "If you found 16 km, amazing work!",
+     "caption": "If you found 16 km, amazing work!",
+     "file": "2026-10-30-meet-twice/audio/1faae2dcc12b390e.wav",
+     "from": 1018,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10920,
+   "frames": 580,
+   "lines": [
+    {
+     "text": "Here's the big idea. By the first meeting, together they've walked the road once.",
+     "caption": "Here's the big idea. By the first meeting, together they've walked the road once.",
+     "file": "2026-10-30-meet-twice/audio/2f7b3be1a77ffd3c.wav",
+     "from": 0,
+     "frames": 179
+    },
+    {
+     "text": "By the second meeting, it's three times. So each walker goes three times as far!",
+     "caption": "By the second meeting, it's three times. So each walker goes three times as far!",
+     "file": "2026-10-30-meet-twice/audio/14e0ced30cb61915.wav",
+     "from": 189,
+     "frames": 191
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-meet-twice/audio/31a6054d0b03b932.wav",
+     "from": 391,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}

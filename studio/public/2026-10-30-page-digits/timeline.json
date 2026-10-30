@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "durationInFrames": 11082,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 565,
+   "lines": [
+    {
+     "text": "Number the pages of a book, and count every digit you print.",
+     "caption": "Number the pages of a book, and count every digit you print.",
+     "file": "2026-10-30-page-digits/audio/281e68470f17782e.wav",
+     "from": 0,
+     "frames": 130
+    },
+    {
+     "text": "Here's a surprise. Ninety-nine pages use one hundred eighty-nine digits, not twice ninety-nine.",
+     "caption": "Here's a surprise. Ninety-nine pages use one hundred eighty-nine digits, not twice ninety-nine.",
+     "file": "2026-10-30-page-digits/audio/bc4615a6c0dd8886.wav",
+     "from": 140,
+     "frames": 215
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's find out why, and crack today's puzzle.",
+     "caption": "Hi there, I'm Vantee! Let's find out why, and crack today's puzzle.",
+     "file": "2026-10-30-page-digits/audio/a9cf3f2a96df1e46.wav",
+     "from": 365,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 565,
+   "frames": 581,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-page-digits/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 56
+    },
+    {
+     "text": "The pages of a book are numbered in order, starting at page one.",
+     "caption": "The pages of a book are numbered in order, starting at page one.",
+     "file": "2026-10-30-page-digits/audio/1a45db55d6e13acc.wav",
+     "from": 66,
+     "frames": 143
+    },
+    {
+     "text": "The total number of digits printed is exactly twice the number of pages.",
+     "caption": "The total number of digits printed is exactly twice the number of pages.",
+     "file": "2026-10-30-page-digits/audio/4673bfa90fae0329.wav",
+     "from": 219,
+     "frames": 165
+    },
+    {
+     "text": "How many pages does the book have? Here are the five choices.",
+     "caption": "How many pages does the book have? Here are the five choices.",
+     "file": "2026-10-30-page-digits/audio/f81cfa9d94923045.wav",
+     "from": 394,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1146,
+   "frames": 984,
+   "lines": [
+    {
+     "text": "Let's break it down. Page seven uses one digit.",
+     "caption": "Let's break it down. Page seven uses one digit.",
+     "file": "2026-10-30-page-digits/audio/6306369ccf568ac3.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Page forty-two uses two digits. Page one hundred five uses three digits.",
+     "caption": "Page forty-two uses two digits. Page one hundred five uses three digits.",
+     "file": "2026-10-30-page-digits/audio/e20d663c62b2bd21.wav",
+     "from": 141,
+     "frames": 192
+    },
+    {
+     "text": "Take a small book with twelve pages. Nine pages with one digit, then three pages with two.",
+     "caption": "Take a small book with twelve pages. Nine pages with one digit, then three pages with two.",
+     "file": "2026-10-30-page-digits/audio/f2239bd30f9a63e1.wav",
+     "from": 344,
+     "frames": 213
+    },
+    {
+     "text": "That's fifteen digits. Twice twelve is twenty-four, so fifteen digits is too few.",
+     "caption": "That's fifteen digits. Twice twelve is twenty-four, so fifteen digits is too few.",
+     "file": "2026-10-30-page-digits/audio/0a61ea5bdecb3468.wav",
+     "from": 566,
+     "frames": 200
+    },
+    {
+     "text": "We want a book where the digits equal two times the pages, exactly.",
+     "caption": "We want a book where the digits equal two times the pages, exactly.",
+     "file": "2026-10-30-page-digits/audio/987c22f1faf09284.wav",
+     "from": 776,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2130,
+   "frames": 464,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-page-digits/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "groups",
+   "kind": "scene",
+   "chapter": "Solution 1: count in groups",
+   "from": 2594,
+   "frames": 1340,
+   "lines": [
+    {
+     "text": "Welcome back! Let's count the digits in groups.",
+     "caption": "Welcome back! Let's count the digits in groups.",
+     "file": "2026-10-30-page-digits/audio/ed18378bb2c53b63.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "Pages one to nine are nine pages with one digit each. That's nine digits.",
+     "caption": "Pages one to nine are nine pages with one digit each. That's nine digits.",
+     "file": "2026-10-30-page-digits/audio/89318fc74d985a30.wav",
+     "from": 111,
+     "frames": 178
+    },
+    {
+     "text": "Pages ten to ninety-nine are ninety pages with two digits each: one hundred eighty digits.",
+     "caption": "Pages ten to ninety-nine are ninety pages with two digits each: one hundred eighty digits.",
+     "file": "2026-10-30-page-digits/audio/a2c645aa09e01c62.wav",
+     "from": 299,
+     "frames": 210
+    },
+    {
+     "text": "So a book of ninety-nine pages uses one hundred eighty-nine digits.",
+     "caption": "So a book of ninety-nine pages uses one hundred eighty-nine digits.",
+     "file": "2026-10-30-page-digits/audio/1d06f7b990e2bdb1.wav",
+     "from": 520,
+     "frames": 153
+    },
+    {
+     "text": "But our target, twice the pages, is one hundred ninety-eight. We're nine digits short.",
+     "caption": "But our target, twice the pages, is one hundred ninety-eight. We're nine digits short.",
+     "file": "2026-10-30-page-digits/audio/93bb0c8e87a1999f.wav",
+     "from": 683,
+     "frames": 194
+    },
+    {
+     "text": "Each two-digit page adds two digits, and our target grows by two. The gap never closes.",
+     "caption": "Each two-digit page adds two digits, and our target grows by two. The gap never closes.",
+     "file": "2026-10-30-page-digits/audio/fe463ad2fd970f2a.wav",
+     "from": 887,
+     "frames": 218
+    },
+    {
+     "text": "So no book under one hundred pages works. We need some three-digit pages.",
+     "caption": "So no book under one hundred pages works. We need some three-digit pages.",
+     "file": "2026-10-30-page-digits/audio/dfa8a8b4ea85607c.wav",
+     "from": 1114,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "gap",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3934,
+   "frames": 1177,
+   "lines": [
+    {
+     "text": "Page one hundred adds three digits, but the target only grows by two.",
+     "caption": "Page one hundred adds three digits, but the target only grows by two.",
+     "file": "2026-10-30-page-digits/audio/6a5e5516aa34ab8f.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "So the gap shrinks from nine digits to eight digits.",
+     "caption": "So the gap shrinks from nine digits to eight digits.",
+     "file": "2026-10-30-page-digits/audio/da3aba96739db624.wav",
+     "from": 175,
+     "frames": 135
+    },
+    {
+     "text": "Every three-digit page closes the gap by one more digit.",
+     "caption": "Every three-digit page closes the gap by one more digit.",
+     "file": "2026-10-30-page-digits/audio/43df5f906d9539d6.wav",
+     "from": 320,
+     "frames": 148
+    },
+    {
+     "text": "After nine three-digit pages, the gap is zero! That's page one hundred eight.",
+     "caption": "After nine three-digit pages, the gap is zero! That's page one hundred eight.",
+     "file": "2026-10-30-page-digits/audio/f02f3cb427f0b9a4.wav",
+     "from": 478,
+     "frames": 186
+    },
+    {
+     "text": "Let's check. Nine, plus one hundred eighty, plus twenty-seven, is two hundred sixteen digits.",
+     "caption": "Let's check. Nine, plus one hundred eighty, plus twenty-seven, is two hundred sixteen digits.",
+     "file": "2026-10-30-page-digits/audio/800e4c4a4ab3658f.wav",
+     "from": 674,
+     "frames": 227
+    },
+    {
+     "text": "And twice one hundred eight is two hundred sixteen. It matches! That's Choice C.",
+     "caption": "And twice one hundred eight is two hundred sixteen. It matches! That's Choice C.",
+     "file": "2026-10-30-page-digits/audio/7c6d6dfde72d0f36.wav",
+     "from": 912,
+     "frames": 197
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "kind": "scene",
+   "chapter": "Solution 2: the balance trick",
+   "from": 5111,
+   "frames": 1470,
+   "lines": [
+    {
+     "text": "Here's a faster way. Pretend every page owes exactly two digits.",
+     "caption": "Here's a faster way. Pretend every page owes exactly two digits.",
+     "file": "2026-10-30-page-digits/audio/ba583c162f2abee1.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "A one-digit page pays only one. So each one is one digit short.",
+     "caption": "A one-digit page pays only one. So each one is one digit short.",
+     "file": "2026-10-30-page-digits/audio/5fba05e142545fd6.wav",
+     "from": 172,
+     "frames": 186
+    },
+    {
+     "text": "Nine one-digit pages leave us nine digits short.",
+     "caption": "Nine one-digit pages leave us nine digits short.",
+     "file": "2026-10-30-page-digits/audio/fdd6548e7f589903.wav",
+     "from": 368,
+     "frames": 126
+    },
+    {
+     "text": "A two-digit page pays exactly two. Those pages are perfectly even.",
+     "caption": "A two-digit page pays exactly two. Those pages are perfectly even.",
+     "file": "2026-10-30-page-digits/audio/64c25113990ce08e.wav",
+     "from": 505,
+     "frames": 176
+    },
+    {
+     "text": "A three-digit page pays three, so each one gives one extra digit.",
+     "caption": "A three-digit page pays three, so each one gives one extra digit.",
+     "file": "2026-10-30-page-digits/audio/8947d60aa6da0e80.wav",
+     "from": 690,
+     "frames": 159
+    },
+    {
+     "text": "To cancel nine missing digits, we need nine three-digit pages: page one hundred to one hundred eight.",
+     "caption": "To cancel nine missing digits, we need nine three-digit pages: page one hundred to one hundred eight.",
+     "file": "2026-10-30-page-digits/audio/cd2e89ac2517e1c2.wav",
+     "from": 859,
+     "frames": 228
+    },
+    {
+     "text": "After that, every new page adds an extra digit, so we can never balance again.",
+     "caption": "After that, every new page adds an extra digit, so we can never balance again.",
+     "file": "2026-10-30-page-digits/audio/9f897b508e356242.wav",
+     "from": 1098,
+     "frames": 178
+    },
+    {
+     "text": "So one hundred eight pages is the only answer!",
+     "caption": "So one hundred eight pages is the only answer!",
+     "file": "2026-10-30-page-digits/audio/002a5f814a653d25.wav",
+     "from": 1286,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "compare",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6581,
+   "frames": 384,
+   "lines": [
+    {
+     "text": "So when would you pick each way? Counting in groups gives you the totals to check.",
+     "caption": "So when would you pick each way? Counting in groups gives you the totals to check.",
+     "file": "2026-10-30-page-digits/audio/6b10f5e11598316c.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "The balance trick is faster, because it skips all the big sums.",
+     "caption": "The balance trick is faster, because it skips all the big sums.",
+     "file": "2026-10-30-page-digits/audio/59ec229d55b7dd3a.wav",
+     "from": 185,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6965,
+   "frames": 1249,
+   "lines": [
+    {
+     "text": "Choice A, ninety-nine pages, forgets that pages one to nine have one digit. It's nine digits short.",
+     "caption": "Choice A, ninety-nine pages, forgets that pages one to nine have one digit. It's nine digits short.",
+     "file": "2026-10-30-page-digits/audio/d0f05a363547f2a5.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "Choice B, one hundred pages, is a nice round guess. It's still eight digits short.",
+     "caption": "Choice B, one hundred pages, is a nice round guess. It's still eight digits short.",
+     "file": "2026-10-30-page-digits/audio/09d4242b6ba72934.wav",
+     "from": 237,
+     "frames": 204
+    },
+    {
+     "text": "Choice D, one hundred seventeen pages, goes too far. It uses two hundred forty-three digits.",
+     "caption": "Choice D, one hundred seventeen pages, goes too far. It uses two hundred forty-three digits.",
+     "file": "2026-10-30-page-digits/audio/5f8a8e1718abf6ce.wav",
+     "from": 451,
+     "frames": 215
+    },
+    {
+     "text": "But twice the pages is only two hundred thirty-four. That's nine digits too many.",
+     "caption": "But twice the pages is only two hundred thirty-four. That's nine digits too many.",
+     "file": "2026-10-30-page-digits/audio/cbd74c305ea2c758.wav",
+     "from": 676,
+     "frames": 170
+    },
+    {
+     "text": "Choice E is one hundred eighty-nine. That counts digits, not pages!",
+     "caption": "Choice E is one hundred eighty-nine. That counts digits, not pages!",
+     "file": "2026-10-30-page-digits/audio/2113f12dfe5998a4.wav",
+     "from": 856,
+     "frames": 176
+    },
+    {
+     "text": "So here's a great habit: count the digits for your answer, and check it.",
+     "caption": "So here's a great habit: count the digits for your answer, and check it.",
+     "file": "2026-10-30-page-digits/audio/4dc04b002ec4cee7.wav",
+     "from": 1042,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: three times",
+   "from": 8214,
+   "frames": 295,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the digits are exactly THREE times the number of pages.",
+     "caption": "Ready for a challenge? Now the digits are exactly THREE times the number of pages.",
+     "file": "2026-10-30-page-digits/audio/2a480432cf124bc2.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "How many pages does that book have?",
+     "caption": "How many pages does that book have?",
+     "file": "2026-10-30-page-digits/audio/ce96e87e7905c0d9.wav",
+     "from": 185,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8509,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-page-digits/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 77
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Three times: the answer",
+   "from": 8969,
+   "frames": 1458,
+   "lines": [
+    {
+     "text": "Let's use the balance trick again. This time, each page owes three digits.",
+     "caption": "Let's use the balance trick again. This time, each page owes three digits.",
+     "file": "2026-10-30-page-digits/audio/c9175d27fe2afe99.wav",
+     "from": 0,
+     "frames": 177
+    },
+    {
+     "text": "Each one-digit page is two digits short. Nine pages make eighteen digits short.",
+     "caption": "Each one-digit page is two digits short. Nine pages make eighteen digits short.",
+     "file": "2026-10-30-page-digits/audio/3cf7c8acc551f133.wav",
+     "from": 187,
+     "frames": 208
+    },
+    {
+     "text": "Each two-digit page is one digit short. Ninety pages make ninety digits short.",
+     "caption": "Each two-digit page is one digit short. Ninety pages make ninety digits short.",
+     "file": "2026-10-30-page-digits/audio/95d1b1970d65e023.wav",
+     "from": 405,
+     "frames": 200
+    },
+    {
+     "text": "Add them up. Eighteen plus ninety gives one hundred eight missing digits.",
+     "caption": "Add them up. Eighteen plus ninety gives one hundred eight missing digits.",
+     "file": "2026-10-30-page-digits/audio/a437ffe88f2a60e4.wav",
+     "from": 615,
+     "frames": 195
+    },
+    {
+     "text": "Three-digit pages are even. Each four-digit page gives one extra digit.",
+     "caption": "Three-digit pages are even. Each four-digit page gives one extra digit.",
+     "file": "2026-10-30-page-digits/audio/c4e8e99e08046ea8.wav",
+     "from": 820,
+     "frames": 174
+    },
+    {
+     "text": "So we need one hundred eight four-digit pages: from one thousand to one thousand one hundred seven!",
+     "caption": "So we need one hundred eight four-digit pages: from one thousand to one thousand one hundred seven!",
+     "file": "2026-10-30-page-digits/audio/830399e92a416490.wav",
+     "from": 1004,
+     "frames": 224
+    },
+    {
+     "text": "If you found one thousand one hundred seven pages, amazing work!",
+     "caption": "If you found one thousand one hundred seven pages, amazing work!",
+     "file": "2026-10-30-page-digits/audio/9206c9d7c361c1ce.wav",
+     "from": 1238,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10427,
+   "frames": 655,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-page-digits/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 78
+    },
+    {
+     "text": "Count the digits in groups: one-digit pages, then two-digit pages, then three-digit pages.",
+     "caption": "Count the digits in groups: one-digit pages, then two-digit pages, then three-digit pages.",
+     "file": "2026-10-30-page-digits/audio/ba3409aacbcff2fd.wav",
+     "from": 89,
+     "frames": 226
+    },
+    {
+     "text": "Then track the gap to the target, and find where it hits zero.",
+     "caption": "Then track the gap to the target, and find where it hits zero.",
+     "file": "2026-10-30-page-digits/audio/fdc1031dad65ab23.wav",
+     "from": 325,
+     "frames": 136
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-page-digits/audio/31a6054d0b03b932.wav",
+     "from": 471,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

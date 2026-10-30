@@ -1,0 +1,143 @@
+# Does It Hold the Center? | AMC 10-Style Level 4
+
+## Intro
+
+Pick four corners of this thirteen-sided shape, and join them up.
+
+Sometimes the shape covers the center dot, and sometimes it misses. Which happens more?
+
+Hi there, I'm Vantee! Today's trick is to count the misses instead of the hits.
+
+## The question
+
+Here's the question. Four of the thirteen vertices of a regular thirteen-sided polygon are chosen.
+
+They are joined in order to make a quadrilateral.
+
+For how many choices of the four vertices does the quadrilateral contain the center?
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+Let's break it down. A vertex is a corner. These thirteen vertices sit evenly around a circle.
+
+Join four of them in order around the circle, and you get a quadrilateral.
+
+This one holds the center inside. That's a hit.
+
+This one misses the center completely.
+
+No vertex sits directly across from another, so the center is never right on a side.
+
+How many choices in all? Thirteen ways to pick a first vertex, then twelve, eleven, and ten.
+
+But each group of four shows up in twenty-four orders: four times three times two times one.
+
+Divide by twenty-four, and you get seven hundred fifteen choices in all.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 9 s countdown)*
+
+## Solution 1: count the misses
+
+Welcome back! Counting the hits directly is tricky. So let's count the misses, and subtract.
+
+Look at one side of the quadrilateral. It cuts off an arc with no chosen vertices on it.
+
+If that empty arc is less than half the circle, the center stays on the inside of that side.
+
+If one empty arc is MORE than half the circle, that side cuts the center off. The shape misses it.
+
+So a choice misses exactly when all four vertices squeeze into half of the circle.
+
+How many vertices fit in a half? Going all the way around takes thirteen steps.
+
+Half of that is six and a half steps.
+
+So a half holds a first vertex and the next six vertices. The seventh one is past halfway.
+
+Let's count the misses. Go clockwise. The first vertex comes right after the big empty arc.
+
+The other three vertices must be among the next six.
+
+Six choose three is six times five times four, over six for the orders. That's twenty ways.
+
+The first vertex can be any of the thirteen vertices.
+
+So thirteen times twenty gives two hundred sixty misses.
+
+Could one miss get counted twice? No! It has only one empty arc bigger than half.
+
+A bigger-than-half arc is at least seven steps. Two need fourteen steps, but there are only thirteen.
+
+So the hits are seven hundred fifteen minus two hundred sixty: four hundred fifty-five. Choice C!
+
+## Solution 2: the big gap
+
+Here's another way. The four gaps between chosen vertices always add up to thirteen steps.
+
+A miss has one big gap of seven steps or more. The other three gaps share what's left.
+
+If the big gap is seven steps, the other three gaps add up to six. Let's list them: ten ways.
+
+A big gap of eight steps leaves five. That's six ways.
+
+A gap of nine leaves four: three ways. A gap of ten leaves three: just one way.
+
+Ten plus six plus three plus one is twenty. That's the same twenty as before!
+
+The big gap can start at any of the thirteen vertices, so again there are two hundred sixty misses.
+
+When would you pick each? The first vertex is fastest. The gaps show WHY there's one big gap.
+
+## Common traps
+
+Choice E, seven hundred fifteen, counts every choice. It forgets about the center.
+
+Choice A, two hundred sixty, is the number of misses. Don't forget to subtract!
+
+Choice D, five hundred twenty, picks all four vertices from the next six. That's only fifteen ways.
+
+That gives one hundred ninety-five misses, and five hundred twenty hits.
+
+But the first vertex is already one of the four, so only three more come from the next six.
+
+Choice B, three hundred ninety, needs twenty-five misses per first vertex. We found only twenty.
+
+So here's a great habit: when the hits are hard to count, count the misses and subtract.
+
+## Your turn: eleven vertices
+
+Ready for a challenge? This time, take a regular eleven-sided polygon.
+
+Choose three of its vertices to make a triangle. How many of these triangles contain the center?
+
+Pause the video, and go for it!
+
+*(Pause and try it: 9 s countdown)*
+
+## Eleven vertices: the answer
+
+Eleven times ten times nine, over six for the orders, is one hundred sixty-five triangles.
+
+Five steps is less than half of eleven, and six is more. So a half holds the first vertex and the next five.
+
+The other two vertices come from those five. Five choose two is ten ways.
+
+Eleven first vertices times ten ways gives one hundred ten misses.
+
+One hundred sixty-five minus one hundred ten is fifty-five triangles.
+
+If you found fifty-five, amazing work!
+
+## Recap
+
+Here's the big idea: when the hits are hard to count, count the misses, and subtract.
+
+Here, a miss has all its vertices in one half, so count each miss by its first vertex.
+
+I'm Vantee. Keep exploring, and I'll see you next time!

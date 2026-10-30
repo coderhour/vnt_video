@@ -1,0 +1,7 @@
+{
+ "title": "Does It Hold the Center? | AMC 10-Style Level 4",
+ "description": "Pick four of the 13 corners of a regular 13-sided polygon. How often does the quadrilateral hold the center? Vantee shows a neat trick: count the misses and subtract.\nA miss fits in half the circle, so count each one by its first vertex. Then check it a second way with the big gap, spot the common traps, and try an 11-sided version yourself.\n\n0:00 Intro\n0:20 The question\n0:42 What are we asked?\n1:32 Try it yourself\n1:47 Solution 1: count the misses\n3:36 Solution 2: the big gap\n4:35 Common traps\n5:22 Your turn: eleven vertices\n5:48 Eleven vertices: the answer\n6:28 Recap",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc10_mock_test_template:c2-007",
+ "posts": []
+}

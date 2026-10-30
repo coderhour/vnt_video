@@ -1,0 +1,547 @@
+{
+ "fps": 30,
+ "durationInFrames": 12281,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 527,
+   "lines": [
+    {
+     "text": "Here's a sequence where each term is the sum of the two before it.",
+     "caption": "Here's a sequence where each term is the sum of the two before it.",
+     "file": "2026-10-30-fibonacci-2024/audio/c753a7004b53c013.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "Term ten is two thousand twenty-four. <short pause> How big can the first two terms add up to?",
+     "caption": "Term ten is two thousand twenty-four. How big can the first two terms add up to?",
+     "file": "2026-10-30-fibonacci-2024/audio/3881a545eb496357.wav",
+     "from": 153,
+     "frames": 216
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's crack this one together.",
+     "caption": "Hi there, I'm Vantee! Let's crack this one together.",
+     "file": "2026-10-30-fibonacci-2024/audio/8893d7b7a1d0e823.wav",
+     "from": 380,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 527,
+   "frames": 609,
+   "lines": [
+    {
+     "text": "In a sequence of positive whole numbers, each term is the sum of the two before it.",
+     "caption": "In a sequence of positive whole numbers, each term is the sum of the two before it.",
+     "file": "2026-10-30-fibonacci-2024/audio/f8117f5c6975861b.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "Term ten is two thousand twenty-four.",
+     "caption": "Term ten is two thousand twenty-four.",
+     "file": "2026-10-30-fibonacci-2024/audio/cb9876c367c85296.wav",
+     "from": 178,
+     "frames": 107
+    },
+    {
+     "text": "What is the largest possible value of the first term plus the second term?",
+     "caption": "What is the largest possible value of the first term plus the second term?",
+     "file": "2026-10-30-fibonacci-2024/audio/26c71a1db143d601.wav",
+     "from": 296,
+     "frames": 164
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-fibonacci-2024/audio/b97a89671840f7ca.wav",
+     "from": 469,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1136,
+   "frames": 789,
+   "lines": [
+    {
+     "text": "Let's break it down. Once you pick the first two terms, the rest is fixed.",
+     "caption": "Let's break it down. Once you pick the first two terms, the rest is fixed.",
+     "file": "2026-10-30-fibonacci-2024/audio/a8a70065a2bf03b0.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "For example, start with one and two. Then come three, five, eight, and so on.",
+     "caption": "For example, start with one and two. Then come three, five, eight, and so on.",
+     "file": "2026-10-30-fibonacci-2024/audio/32ee20c5b872754d.wav",
+     "from": 170,
+     "frames": 227
+    },
+    {
+     "text": "Our start must make term ten exactly two thousand twenty-four.",
+     "caption": "Our start must make term ten exactly two thousand twenty-four.",
+     "file": "2026-10-30-fibonacci-2024/audio/017d0a93799719fd.wav",
+     "from": 408,
+     "frames": 160
+    },
+    {
+     "text": "Out of all those starts, we want the biggest first term plus second term.",
+     "caption": "Out of all those starts, we want the biggest first term plus second term.",
+     "file": "2026-10-30-fibonacci-2024/audio/161dfaa1c9300a15.wav",
+     "from": 578,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1925,
+   "frames": 465,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-fibonacci-2024/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "kind": "scene",
+   "chapter": "Solution 1: write every term with x and y",
+   "from": 2390,
+   "frames": 1054,
+   "lines": [
+    {
+     "text": "Welcome back! Let's call the first term x, and the second term y.",
+     "caption": "Welcome back! Let's call the first term x, and the second term y.",
+     "file": "2026-10-30-fibonacci-2024/audio/db067df3cbdbbe2e.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "The third term is x plus y. The fourth is x plus two y.",
+     "caption": "The third term is x plus y. The fourth is x plus two y.",
+     "file": "2026-10-30-fibonacci-2024/audio/b4951011fcc36a85.wav",
+     "from": 191,
+     "frames": 180
+    },
+    {
+     "text": "Keep adding the last two terms, and watch the numbers in front grow.",
+     "caption": "Keep adding the last two terms, and watch the numbers in front grow.",
+     "file": "2026-10-30-fibonacci-2024/audio/fd643304bd3fc1e8.wav",
+     "from": 381,
+     "frames": 137
+    },
+    {
+     "text": "Term ten is twenty-one x plus thirty-four y.",
+     "caption": "Term ten is twenty-one x plus thirty-four y.",
+     "file": "2026-10-30-fibonacci-2024/audio/94a0c75b30a27c21.wav",
+     "from": 529,
+     "frames": 137
+    },
+    {
+     "text": "Look at the numbers in front. They're the Fibonacci numbers!",
+     "caption": "Look at the numbers in front. They're the Fibonacci numbers!",
+     "file": "2026-10-30-fibonacci-2024/audio/d753657a3b7e357d.wav",
+     "from": 676,
+     "frames": 120
+    },
+    {
+     "text": "So our equation is twenty-one x plus thirty-four y equals two thousand twenty-four.",
+     "caption": "So our equation is twenty-one x plus thirty-four y equals two thousand twenty-four.",
+     "file": "2026-10-30-fibonacci-2024/audio/b8d108d01e221b1c.wav",
+     "from": 806,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "split",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3444,
+   "frames": 1363,
+   "lines": [
+    {
+     "text": "We want x plus y. So split thirty-four y into twenty-one y plus thirteen y.",
+     "caption": "We want x plus y. So split thirty-four y into twenty-one y plus thirteen y.",
+     "file": "2026-10-30-fibonacci-2024/audio/e67b7d148bd151ad.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "Now twenty-one x plus twenty-one y is twenty-one times x plus y.",
+     "caption": "Now twenty-one x plus twenty-one y is twenty-one times x plus y.",
+     "file": "2026-10-30-fibonacci-2024/audio/7a20924476ff94e0.wav",
+     "from": 239,
+     "frames": 179
+    },
+    {
+     "text": "Call that sum T, for total. Now twenty-one T plus thirteen y equals two thousand twenty-four.",
+     "caption": "Call that sum T, for total. Now twenty-one T plus thirteen y equals two thousand twenty-four.",
+     "file": "2026-10-30-fibonacci-2024/audio/130a2c98ce0aeab1.wav",
+     "from": 428,
+     "frames": 262
+    },
+    {
+     "text": "To make T big, thirteen y should be as small as possible. So we want a small y.",
+     "caption": "To make T big, thirteen y should be as small as possible. So we want a small y.",
+     "file": "2026-10-30-fibonacci-2024/audio/d3b815d380282474.wav",
+     "from": 700,
+     "frames": 220
+    },
+    {
+     "text": "y is at least one, so twenty-one T is at most two thousand eleven.",
+     "caption": "y is at least one, so twenty-one T is at most two thousand eleven.",
+     "file": "2026-10-30-fibonacci-2024/audio/7f427050eaeef46e.wav",
+     "from": 930,
+     "frames": 194
+    },
+    {
+     "text": "Twenty-one times ninety-six is too big, so T is at most ninety-five.",
+     "caption": "Twenty-one times ninety-six is too big, so T is at most ninety-five.",
+     "file": "2026-10-30-fibonacci-2024/audio/f0d771867dd34d00.wav",
+     "from": 1134,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "countdown",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4807,
+   "frames": 1260,
+   "lines": [
+    {
+     "text": "Now let's count down from ninety-five. The leftover must be thirteen times y.",
+     "caption": "Now let's count down from ninety-five. The leftover must be thirteen times y.",
+     "file": "2026-10-30-fibonacci-2024/audio/698bb59b6e85ef92.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "T equals ninety-five leaves twenty-nine. That's not a multiple of thirteen.",
+     "caption": "T equals ninety-five leaves twenty-nine. That's not a multiple of thirteen.",
+     "file": "2026-10-30-fibonacci-2024/audio/7a1ec34b35bc1eb9.wav",
+     "from": 194,
+     "frames": 198
+    },
+    {
+     "text": "Each step down adds twenty-one, so next come fifty, seventy-one, ninety-two, and so on.",
+     "caption": "Each step down adds twenty-one, so next come fifty, seventy-one, ninety-two, and so on.",
+     "file": "2026-10-30-fibonacci-2024/audio/d22f141cfc84dd74.wav",
+     "from": 402,
+     "frames": 268
+    },
+    {
+     "text": "None of them work, until T equals eighty-four. The leftover is two hundred sixty.",
+     "caption": "None of them work, until T equals eighty-four. The leftover is two hundred sixty.",
+     "file": "2026-10-30-fibonacci-2024/audio/1b76537457a9e657.wav",
+     "from": 680,
+     "frames": 204
+    },
+    {
+     "text": "Two hundred sixty is thirteen times twenty. So y is twenty!",
+     "caption": "Two hundred sixty is thirteen times twenty. So y is twenty!",
+     "file": "2026-10-30-fibonacci-2024/audio/a9e4e1dd91e2424d.wav",
+     "from": 895,
+     "frames": 160
+    },
+    {
+     "text": "Then x is eighty-four minus twenty, which is sixty-four.",
+     "caption": "Then x is eighty-four minus twenty, which is sixty-four.",
+     "file": "2026-10-30-fibonacci-2024/audio/ee058d4d847e181a.wav",
+     "from": 1065,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "check",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6067,
+   "frames": 648,
+   "lines": [
+    {
+     "text": "Let's check. Start with sixty-four and twenty, and keep adding.",
+     "caption": "Let's check. Start with sixty-four and twenty, and keep adding.",
+     "file": "2026-10-30-fibonacci-2024/audio/b10342b0e6315a91.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Eighty-four, one hundred four, one hundred eighty-eight, and on up to term ten.",
+     "caption": "Eighty-four, one hundred four, one hundred eighty-eight, and on up to term ten.",
+     "file": "2026-10-30-fibonacci-2024/audio/5fb16798d5283b01.wav",
+     "from": 163,
+     "frames": 234
+    },
+    {
+     "text": "Term ten is two thousand twenty-four! So the answer is eighty-four, Choice C.",
+     "caption": "Term ten is two thousand twenty-four! So the answer is eighty-four, Choice C.",
+     "file": "2026-10-30-fibonacci-2024/audio/742c83e307e2d628.wav",
+     "from": 407,
+     "frames": 202
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: test the choices",
+   "from": 6715,
+   "frames": 687,
+   "lines": [
+    {
+     "text": "Here's a faster way. Notice that x plus y is exactly term three. That's T!",
+     "caption": "Here's a faster way. Notice that x plus y is exactly term three. That's T!",
+     "file": "2026-10-30-fibonacci-2024/audio/0aea8439ee05d5dd.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "So start the list at term two and term three. That's y, then T.",
+     "caption": "So start the list at term two and term three. That's y, then T.",
+     "file": "2026-10-30-fibonacci-2024/audio/91e214a75d688270.wav",
+     "from": 220,
+     "frames": 195
+    },
+    {
+     "text": "Build it up the same way. Term ten is thirteen y plus twenty-one T. Same equation!",
+     "caption": "Build it up the same way. Term ten is thirteen y plus twenty-one T. Same equation!",
+     "file": "2026-10-30-fibonacci-2024/audio/4f945c407aac6230.wav",
+     "from": 425,
+     "frames": 224
+    }
+   ]
+  },
+  {
+   "id": "test",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7402,
+   "frames": 965,
+   "lines": [
+    {
+     "text": "Biggest first: twenty-one times one hundred five is two thousand two hundred five. Too big!",
+     "caption": "Biggest first: twenty-one times one hundred five is two thousand two hundred five. Too big!",
+     "file": "2026-10-30-fibonacci-2024/audio/f95aadfce2c1829e.wav",
+     "from": 0,
+     "frames": 219
+    },
+    {
+     "text": "T equals ninety-four leaves fifty. Fifty is not a multiple of thirteen.",
+     "caption": "T equals ninety-four leaves fifty. Fifty is not a multiple of thirteen.",
+     "file": "2026-10-30-fibonacci-2024/audio/c2d1267b6f1c2945.wav",
+     "from": 229,
+     "frames": 183
+    },
+    {
+     "text": "T equals eighty-four leaves two hundred sixty, which is thirteen times twenty.",
+     "caption": "T equals eighty-four leaves two hundred sixty, which is thirteen times twenty.",
+     "file": "2026-10-30-fibonacci-2024/audio/e808c33502032de4.wav",
+     "from": 422,
+     "frames": 170
+    },
+    {
+     "text": "So y is twenty, and x is sixty-four, which is positive. It works!",
+     "caption": "So y is twenty, and x is sixty-four, which is positive. It works!",
+     "file": "2026-10-30-fibonacci-2024/audio/42ab91516ac19637.wav",
+     "from": 602,
+     "frames": 142
+    },
+    {
+     "text": "When would you pick this way? When a question asks for the largest, test from the top.",
+     "caption": "When would you pick this way? When a question asks for the largest, test from the top.",
+     "file": "2026-10-30-fibonacci-2024/audio/b87cb1cfa800c08e.wav",
+     "from": 754,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8367,
+   "frames": 1379,
+   "lines": [
+    {
+     "text": "Choice B is seventy-one. Keep counting down, and T equals seventy-one works too.",
+     "caption": "Choice B is seventy-one. Keep counting down, and T equals seventy-one works too.",
+     "file": "2026-10-30-fibonacci-2024/audio/d99e7d8b4691ccaf.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "Then x is thirty and y is forty-one. Try small x first, and you might find this one and stop!",
+     "caption": "Then x is thirty and y is forty-one. Try small x first, and you might find this one and stop!",
+     "file": "2026-10-30-fibonacci-2024/audio/53044bdf06393ba2.wav",
+     "from": 202,
+     "frames": 237
+    },
+    {
+     "text": "But seventy-one is smaller than eighty-four. The next one, fifty-eight, makes x negative.",
+     "caption": "But seventy-one is smaller than eighty-four. The next one, fifty-eight, makes x negative.",
+     "file": "2026-10-30-fibonacci-2024/audio/faf97026b252bfe2.wav",
+     "from": 449,
+     "frames": 203
+    },
+    {
+     "text": "You could get the others by mixing the two starts. Sixty-four plus forty-one is one hundred five.",
+     "caption": "You could get the others by mixing the two starts. Sixty-four plus forty-one is one hundred five.",
+     "file": "2026-10-30-fibonacci-2024/audio/7fafb6e771cd973e.wav",
+     "from": 662,
+     "frames": 224
+    },
+    {
+     "text": "Sixty-four plus thirty is ninety-four, and thirty plus twenty is fifty. No mixed pair works here.",
+     "caption": "Sixty-four plus thirty is ninety-four, and thirty plus twenty is fifty. No mixed pair works here.",
+     "file": "2026-10-30-fibonacci-2024/audio/c063f03e233e8aa3.wav",
+     "from": 896,
+     "frames": 252
+    },
+    {
+     "text": "So here's a great habit: find every start that works, then compare them.",
+     "caption": "So here's a great habit: find every start that works, then compare them.",
+     "file": "2026-10-30-fibonacci-2024/audio/af6a2af0de183c57.wav",
+     "from": 1159,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new year",
+   "from": 9746,
+   "frames": 408,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same rule, but now term ten is two thousand twenty-five.",
+     "caption": "Ready for a challenge? Same rule, but now term ten is two thousand twenty-five.",
+     "file": "2026-10-30-fibonacci-2024/audio/51cc509e72947a8e.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "What is the largest possible value of the first term plus the second term?",
+     "caption": "What is the largest possible value of the first term plus the second term?",
+     "file": "2026-10-30-fibonacci-2024/audio/26c71a1db143d601.wav",
+     "from": 206,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10154,
+   "frames": 394,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-fibonacci-2024/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "A new year: the answer",
+   "from": 10548,
+   "frames": 1203,
+   "lines": [
+    {
+     "text": "Let's check. Now twenty-one T plus thirteen y equals two thousand twenty-five.",
+     "caption": "Let's check. Now twenty-one T plus thirteen y equals two thousand twenty-five.",
+     "file": "2026-10-30-fibonacci-2024/audio/b7b5f6a9953c6867.wav",
+     "from": 0,
+     "frames": 248
+    },
+    {
+     "text": "T is still at most ninety-five. The leftovers are thirty, fifty-one, seventy-two, and so on.",
+     "caption": "T is still at most ninety-five. The leftovers are thirty, fifty-one, seventy-two, and so on.",
+     "file": "2026-10-30-fibonacci-2024/audio/1ec10bbdfd5a8edb.wav",
+     "from": 257,
+     "frames": 290
+    },
+    {
+     "text": "At T equals eighty-nine, the leftover is one hundred fifty-six. That's thirteen times twelve.",
+     "caption": "At T equals eighty-nine, the leftover is one hundred fifty-six. That's thirteen times twelve.",
+     "file": "2026-10-30-fibonacci-2024/audio/f6e4b9158bf5aead.wav",
+     "from": 557,
+     "frames": 207
+    },
+    {
+     "text": "So y is twelve and x is seventy-seven. That lands right on two thousand twenty-five!",
+     "caption": "So y is twelve and x is seventy-seven. That lands right on two thousand twenty-five!",
+     "file": "2026-10-30-fibonacci-2024/audio/69eae49ae37a7319.wav",
+     "from": 774,
+     "frames": 219
+    },
+    {
+     "text": "The largest sum is eighty-nine. If you found that, amazing work!",
+     "caption": "The largest sum is eighty-nine. If you found that, amazing work!",
+     "file": "2026-10-30-fibonacci-2024/audio/f4c7a27780c2737f.wav",
+     "from": 1003,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11751,
+   "frames": 530,
+   "lines": [
+    {
+     "text": "In a sequence like this, every term is a fixed mix of the first two.",
+     "caption": "In a sequence like this, every term is a fixed mix of the first two.",
+     "file": "2026-10-30-fibonacci-2024/audio/c3301886a186af3a.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Use the first two to build term ten, and you get one equation in whole numbers.",
+     "caption": "Use the first two to build term ten, and you get one equation in whole numbers.",
+     "file": "2026-10-30-fibonacci-2024/audio/39b1a7d6ef62f009.wav",
+     "from": 163,
+     "frames": 170
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-fibonacci-2024/audio/31a6054d0b03b932.wav",
+     "from": 342,
+     "frames": 119
+    }
+   ]
+  }
+ ]
+}

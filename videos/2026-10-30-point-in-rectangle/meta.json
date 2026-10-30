@@ -1,0 +1,7 @@
+{
+ "title": "One Point, Four Triangles | AMC 8-Style Level 4",
+ "description": "A point inside a rectangle makes four triangles, and you know three of their areas. Can you find the fourth without knowing where the point is? Vantee shows why opposite triangles always make half the rectangle, with base times height and then just by cutting, and gives you a new one to try.\n\n0:00 Intro\n0:17 The question\n0:40 What are we asked?\n1:09 Try it yourself\n1:24 Solution 1: base times height\n3:14 Solution 2: cut it into four\n3:59 Common traps\n4:47 Your turn: a variant\n5:22 Variant: the answer\n5:55 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc8_mock_test_template:c2-441",
+ "posts": []
+}

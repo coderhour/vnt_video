@@ -1,0 +1,536 @@
+{
+ "fps": 30,
+ "durationInFrames": 11762,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 464,
+   "lines": [
+    {
+     "text": "Here's a rectangle with a shaded shape inside. Can you find its area?",
+     "caption": "Here's a rectangle with a shaded shape inside. Can you find its area?",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/ab7c9f02c40a1776.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Lots of kids answer forty-eight. <short pause> But that's NOT quite right!",
+     "caption": "Lots of kids answer forty-eight. But that's NOT quite right!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/b2914171836252ef.wav",
+     "from": 142,
+     "frames": 143
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find the little piece they forgot.",
+     "caption": "Hi, I'm Vantee! Let's find the little piece they forgot.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/72c6ee4f957bfdda.wav",
+     "from": 296,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 464,
+   "frames": 796,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 50
+    },
+    {
+     "text": "Rectangle ABCD is twelve by eight, and M is the midpoint of side CD.",
+     "caption": "Rectangle ABCD is twelve by eight, and M is the midpoint of side CD.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/25a101555bb36d43.wav",
+     "from": 60,
+     "frames": 212
+    },
+    {
+     "text": "The diagonal from A to C crosses the line from B to M at a point called P.",
+     "caption": "The diagonal from A to C crosses the line from B to M at a point called P.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/07ccaa8a4d98d194.wav",
+     "from": 282,
+     "frames": 197
+    },
+    {
+     "text": "What is the area of the shaded region, APMD?",
+     "caption": "What is the area of the shaded region, APMD?",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/c3ef3e7067c2505d.wav",
+     "from": 489,
+     "frames": 126
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/b97a89671840f7ca.wav",
+     "from": 626,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1260,
+   "frames": 864,
+   "lines": [
+    {
+     "text": "Let's break it down. A is at the bottom left. Then come B, C and D, going around.",
+     "caption": "Let's break it down. A is at the bottom left. Then come B, C and D, going around.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/67b9fc45b4351883.wav",
+     "from": 0,
+     "frames": 264
+    },
+    {
+     "text": "M is halfway along the top, so each half of the top side is six.",
+     "caption": "M is halfway along the top, so each half of the top side is six.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/ee9a180f7a0e1a57.wav",
+     "from": 274,
+     "frames": 153
+    },
+    {
+     "text": "The shaded shape has four corners: A, P, M and D.",
+     "caption": "The shaded shape has four corners: A, P, M and D.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/85496c6881726d22.wav",
+     "from": 437,
+     "frames": 184
+    },
+    {
+     "text": "It isn't a rectangle or a triangle. So how can we find its area?",
+     "caption": "It isn't a rectangle or a triangle. So how can we find its area?",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/ea5cadb3cdf748f4.wav",
+     "from": 632,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2124,
+   "frames": 476,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "big",
+   "kind": "scene",
+   "chapter": "Solution 1: big triangle minus small",
+   "from": 2600,
+   "frames": 737,
+   "lines": [
+    {
+     "text": "Welcome back! Here's our plan: start with a bigger shape we already know.",
+     "caption": "Welcome back! Here's our plan: start with a bigger shape we already know.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/e2046dab301a75c5.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Triangle ACD is exactly half of the rectangle.",
+     "caption": "Triangle ACD is exactly half of the rectangle.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/77f9f61a185a25f6.wav",
+     "from": 170,
+     "frames": 138
+    },
+    {
+     "text": "Twelve times eight is ninety-six. Half of that is forty-eight.",
+     "caption": "Twelve times eight is ninety-six. Half of that is forty-eight.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/11986c565aea876e.wav",
+     "from": 318,
+     "frames": 176
+    },
+    {
+     "text": "Our shaded shape is that triangle, with one small corner cut off: triangle PCM.",
+     "caption": "Our shaded shape is that triangle, with one small corner cut off: triangle PCM.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/e4600767053ec15b.wav",
+     "from": 504,
+     "frames": 195
+    }
+   ]
+  },
+  {
+   "id": "similar",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3337,
+   "frames": 1162,
+   "lines": [
+    {
+     "text": "Triangle PCM has a base of six. But how tall is it?",
+     "caption": "Triangle PCM has a base of six. But how tall is it?",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/c66de07f43f3cb5c.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "Look at the triangle below it, PAB. Its base is twelve.",
+     "caption": "Look at the triangle below it, PAB. Its base is twelve.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/bc9dd69ac7732201.wav",
+     "from": 181,
+     "frames": 142
+    },
+    {
+     "text": "The top and bottom sides are parallel, so the angles match. The triangles are similar!",
+     "caption": "The top and bottom sides are parallel, so the angles match. The triangles are similar!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/aeed90c379cc2979.wav",
+     "from": 333,
+     "frames": 191
+    },
+    {
+     "text": "Six is half of twelve. So the top triangle is half as wide, so half as tall.",
+     "caption": "Six is half of twelve. So the top triangle is half as wide, so half as tall.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/3bb53111e840557d.wav",
+     "from": 535,
+     "frames": 196
+    },
+    {
+     "text": "Together the two heights make eight. So split eight into one part and two parts.",
+     "caption": "Together the two heights make eight. So split eight into one part and two parts.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/80a1e1c29d751ec0.wav",
+     "from": 741,
+     "frames": 179
+    },
+    {
+     "text": "Each part is eight over three. So triangle PCM is eight over three tall.",
+     "caption": "Each part is eight over three. So triangle PCM is eight over three tall.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/48d80e2cd2c77470.wav",
+     "from": 930,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "subtract",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4499,
+   "frames": 557,
+   "lines": [
+    {
+     "text": "Its area is base times height, over two.",
+     "caption": "Its area is base times height, over two.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/919b714afce595c2.wav",
+     "from": 0,
+     "frames": 102
+    },
+    {
+     "text": "Six times eight over three is sixteen. Half of sixteen is eight.",
+     "caption": "Six times eight over three is sixteen. Half of sixteen is eight.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/02f99b70923b144f.wav",
+     "from": 112,
+     "frames": 176
+    },
+    {
+     "text": "Forty-eight minus eight is forty. <short pause> The answer is forty, choice A!",
+     "caption": "Forty-eight minus eight is forty. The answer is forty, choice A!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/85297b8f0274177c.wav",
+     "from": 298,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "split",
+   "kind": "scene",
+   "chapter": "Solution 2: split it in two",
+   "from": 5056,
+   "frames": 2125,
+   "lines": [
+    {
+     "text": "Here's a second way. Let's cut the shaded shape from A to M.",
+     "caption": "Here's a second way. Let's cut the shaded shape from A to M.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/9143da129f4c4128.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "Now we have two triangles: ADM on the left, and APM on the right.",
+     "caption": "Now we have two triangles: ADM on the left, and APM on the right.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/e9c471fc5d2510b4.wav",
+     "from": 155,
+     "frames": 194
+    },
+    {
+     "text": "Triangle ADM has legs six and eight. Six times eight is forty-eight, and half of that is twenty-four.",
+     "caption": "Triangle ADM has legs six and eight. Six times eight is forty-eight, and half of that is twenty-four.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/4171c94bbe680c4f.wav",
+     "from": 359,
+     "frames": 224
+    },
+    {
+     "text": "Triangle APM is part of a bigger triangle, AMC.",
+     "caption": "Triangle APM is part of a bigger triangle, AMC.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/22004a5094069f53.wav",
+     "from": 592,
+     "frames": 137
+    },
+    {
+     "text": "That one has base six and height eight. So its area is twenty-four, too.",
+     "caption": "That one has base six and height eight. So its area is twenty-four, too.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/fe0e5411acb40390.wav",
+     "from": 740,
+     "frames": 176
+    },
+    {
+     "text": "The similar triangles cut the diagonal two parts to one. So AP is two of the three equal parts.",
+     "caption": "The similar triangles cut the diagonal two parts to one. So AP is two of the three equal parts.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/f5d90fe28c342e2c.wav",
+     "from": 925,
+     "frames": 225
+    },
+    {
+     "text": "Both triangles share the tip at M, so they have the same height.",
+     "caption": "Both triangles share the tip at M, so they have the same height.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/a136b12d5f0ab251.wav",
+     "from": 1160,
+     "frames": 135
+    },
+    {
+     "text": "Their bases are on the diagonal, so the purple area is two of the three parts, too.",
+     "caption": "Their bases are on the diagonal, so the purple area is two of the three parts, too.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/7b9f47caff6191e4.wav",
+     "from": 1305,
+     "frames": 179
+    },
+    {
+     "text": "Two over three times twenty-four is sixteen. And twenty-four plus sixteen is forty again!",
+     "caption": "Two over three times twenty-four is sixteen. And twenty-four plus sixteen is forty again!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/b2bd1985c8834956.wav",
+     "from": 1495,
+     "frames": 212
+    },
+    {
+     "text": "So when would you pick each way? Subtracting is fast when a big triangle is easy to see.",
+     "caption": "So when would you pick each way? Subtracting is fast when a big triangle is easy to see.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/316a838d18b646fc.wav",
+     "from": 1716,
+     "frames": 208
+    },
+    {
+     "text": "Splitting is great when a point cuts a line into known parts.",
+     "caption": "Splitting is great when a point cuts a line into known parts.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/61e6f4e7f9807016.wav",
+     "from": 1934,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7181,
+   "frames": 1141,
+   "lines": [
+    {
+     "text": "Choice C, forty-eight, is the big trap. It's all of triangle ACD. The corner was never cut off.",
+     "caption": "Choice C, forty-eight, is the big trap. It's all of triangle ACD. The corner was never cut off.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/0037d8377a50a76e.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "Choice B, forty-four, takes away only four. That's half the small triangle. Check its area!",
+     "caption": "Choice B, forty-four, takes away only four. That's half the small triangle. Check its area!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/984ea7e18503a7a7.wav",
+     "from": 235,
+     "frames": 222
+    },
+    {
+     "text": "Choice E, fifty-six, is the part NOT shaded: ninety-six minus forty is fifty-six.",
+     "caption": "Choice E, fifty-six, is the part NOT shaded: ninety-six minus forty is fifty-six.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/0abcd82073f7039c.wav",
+     "from": 468,
+     "frames": 227
+    },
+    {
+     "text": "Choice D, fifty-two, is too big. Our shape fits inside triangle ACD, so it's under forty-eight.",
+     "caption": "Choice D, fifty-two, is too big. Our shape fits inside triangle ACD, so it's under forty-eight.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/5e87e29537e3022a.wav",
+     "from": 705,
+     "frames": 232
+    },
+    {
+     "text": "Here's a great habit: after you subtract, check which pieces are left.",
+     "caption": "Here's a great habit: after you subtract, check which pieces are left.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/5643f60d61e4910b.wav",
+     "from": 947,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new rectangle",
+   "from": 8322,
+   "frames": 608,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the rectangle is fifteen by eight.",
+     "caption": "Ready for a challenge? Now the rectangle is fifteen by eight.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/af8f0206d1d61bcb.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "Point M is on the top side, with MC equal to five. The diagonal from A to C meets BM at P.",
+     "caption": "Point M is on the top side, with MC equal to five. The diagonal from A to C meets BM at P.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/91e11abbbaed2e04.wav",
+     "from": 169,
+     "frames": 263
+    },
+    {
+     "text": "What is the area of the shaded region, APMD?",
+     "caption": "What is the area of the shaded region, APMD?",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/c3ef3e7067c2505d.wav",
+     "from": 442,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8930,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New rectangle: the answer",
+   "from": 9383,
+   "frames": 1767,
+   "lines": [
+    {
+     "text": "Let's check. The top base is five, and the bottom base is fifteen.",
+     "caption": "Let's check. The top base is five, and the bottom base is fifteen.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/c8dd1e348a4bd875.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "So the bottom triangle is three times as wide, and three times as tall.",
+     "caption": "So the bottom triangle is three times as wide, and three times as tall.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/5a1033041b1653f7.wav",
+     "from": 169,
+     "frames": 172
+    },
+    {
+     "text": "Split the height of eight into one part and three parts. Each part is two.",
+     "caption": "Split the height of eight into one part and three parts. Each part is two.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/74bea2987fa2cfa9.wav",
+     "from": 351,
+     "frames": 195
+    },
+    {
+     "text": "So triangle PCM has base five and height two. Its area is five.",
+     "caption": "So triangle PCM has base five and height two. Its area is five.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/6fc51a4b5db8275e.wav",
+     "from": 556,
+     "frames": 196
+    },
+    {
+     "text": "Triangle ACD is half of fifteen times eight, which is sixty. Sixty minus five is fifty-five!",
+     "caption": "Triangle ACD is half of fifteen times eight, which is sixty. Sixty minus five is fifty-five!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/265a2bea70dc650f.wav",
+     "from": 762,
+     "frames": 254
+    },
+    {
+     "text": "Check by splitting: ADM is forty, and AMC is twenty.",
+     "caption": "Check by splitting: ADM is forty, and AMC is twenty.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/dca2ec3944a7fa3c.wav",
+     "from": 1026,
+     "frames": 152
+    },
+    {
+     "text": "AP is three of the four equal parts of the diagonal.",
+     "caption": "AP is three of the four equal parts of the diagonal.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/6b8c06b2610f97e3.wav",
+     "from": 1187,
+     "frames": 135
+    },
+    {
+     "text": "So the purple triangle is three quarters of twenty: fifteen.",
+     "caption": "So the purple triangle is three quarters of twenty: fifteen.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/89ee8bb6c2120bed.wav",
+     "from": 1332,
+     "frames": 165
+    },
+    {
+     "text": "Forty plus fifteen is fifty-five. If you found fifty-five, amazing work!",
+     "caption": "Forty plus fifteen is fifty-five. If you found fifty-five, amazing work!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/de314be4416f715c.wav",
+     "from": 1507,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11150,
+   "frames": 612,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 86
+    },
+    {
+     "text": "When two lines cross, look for similar triangles to find the crossing point.",
+     "caption": "When two lines cross, look for similar triangles to find the crossing point.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/0ad21ac8e73fbce4.wav",
+     "from": 96,
+     "frames": 161
+    },
+    {
+     "text": "Then take a big triangle, and subtract the small piece you don't want.",
+     "caption": "Then take a big triangle, and subtract the small piece you don't want.",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/bf659d07a2173843.wav",
+     "from": 267,
+     "frames": 150
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-rectangle-midpoint-area/audio/31a6054d0b03b932.wav",
+     "from": 428,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

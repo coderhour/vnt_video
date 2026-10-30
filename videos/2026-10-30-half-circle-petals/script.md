@@ -1,0 +1,139 @@
+# Four Half Circles, Four Petals | AMC 8-Style Level 4
+
+## Intro
+
+Four half circles inside a square make a pretty flower. How much of it is shaded?
+
+Many kids find the white petals and stop there. But that's NOT what we're asked!
+
+Hi, I'm Vantee! Let's find the shaded part together.
+
+## The question
+
+Here's the question.
+
+A square has side four. A half circle is drawn inside the square on each side.
+
+The half circles overlap in four white petals. What is the total shaded area?
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+So what are we really looking for?
+
+Each half circle sits on one side of the square. That side is its diameter.
+
+So every half circle has a radius of two.
+
+A white petal is where two half circles overlap.
+
+We want the colored part. That's the square, minus all four petals.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: slice a petal
+
+Welcome back! Here's our plan: find the area of one petal first.
+
+Cut the big square into four small squares, each two by two.
+
+Each small square holds exactly one petal, from its corner to the center.
+
+Let's zoom in on the bottom left one.
+
+Only two half circles come into this small square. Each one makes a quarter circle.
+
+Their overlap is the petal. Now draw the diagonal. It cuts the petal into two equal slices.
+
+Take the blue quarter circle, and remove the triangle under the diagonal.
+
+What's left is exactly one slice.
+
+The quarter circle has radius two. Two squared is four, and a quarter of four pi is just pi!
+
+The triangle has two legs of length two, so its area is two.
+
+So one slice is pi minus two.
+
+A petal is two slices, so one petal is two pi minus four.
+
+All four petals are the same shape and size.
+
+So four petals make eight pi minus sixteen.
+
+The shaded part is the square, sixteen, minus all the petals.
+
+Open the bracket. Sixteen minus eight pi plus sixteen makes thirty-two minus eight pi.
+
+That's about forty-three percent of the square, a bit less than half. That looks right!
+
+The answer is B, thirty-two minus eight pi!
+
+## Solution 2: count twice
+
+Here's a faster way. Let's add up all four half circles.
+
+Each one has radius two. Two squared is four, and half of four pi is two pi.
+
+Together, all four half circles make eight pi. But the square is only sixteen!
+
+Together they cover the square with no gaps. The shaded parts are covered once.
+
+Each petal sits inside two half circles, so it was counted twice.
+
+No spot is inside three of them. Only the center point touches all four.
+
+That means eight pi is the square, plus each petal one extra time.
+
+The petals are eight pi minus sixteen. Then the shaded part is thirty-two minus eight pi again.
+
+Use this trick whenever overlapping shapes cover a whole region.
+
+## Common traps
+
+C, eight pi minus sixteen, is the white petals. A great step, but not the shaded part!
+
+D, sixteen minus two pi, takes away only one half circle.
+
+A, sixteen minus four pi, takes away only two half circles, like one whole circle.
+
+E, forty-eight minus eight pi, is about twenty-three. That's bigger than the whole square!
+
+Quick check: the shaded part plus the petals must make sixteen. And it does!
+
+## Your turn: a variant
+
+Your turn! This time the square has side six.
+
+The same four half circles are drawn inside. What is the shaded area now?
+
+Hint: find the radius first!
+
+Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 12 s countdown)*
+
+Let's check. The side is six, so the radius is three.
+
+Pi times three squared is nine pi. So each half circle is half of nine pi.
+
+All four together make eighteen pi.
+
+The square is thirty-six, so the petals are eighteen pi minus thirty-six.
+
+The shaded part is thirty-six minus the petals. That's seventy-two minus eighteen pi!
+
+If you got that, amazing work!
+
+## Recap
+
+When two shapes overlap, adding up their areas counts the overlap twice.
+
+So the overlap is the shapes added up, minus the area they cover.
+
+I'm Vantee. Keep exploring, and I'll see you next time!

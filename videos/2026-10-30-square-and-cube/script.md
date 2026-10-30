@@ -1,0 +1,141 @@
+# Square AND Cube? | AMC 8-Style Level 4
+
+## Intro
+
+Twenty times a number is a perfect square. Fifty times the same number is a perfect cube.
+
+Can one small number do both jobs? It can, and we'll find it two ways.
+
+Hi there, I'm Vantee! Let's crack this one together.
+
+## The question
+
+Here's the question.
+
+What is the smallest positive integer n, such that twenty times n is a perfect square,
+
+and fifty times n is a perfect cube?
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+Let's break it down. A perfect square is a whole number times itself, like nine, or four hundred.
+
+A perfect cube is a whole number times itself, times itself again, like eight, or one thousand.
+
+We need ONE number n that does both jobs. And we want the smallest one!
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: make a list
+
+Welcome back! Let's start with the square part, and make a list.
+
+Twenty is four times five, and four is already a perfect square.
+
+So twenty times n is a square exactly when five times n is a square.
+
+For that, the five needs a partner five. So n is five times a perfect square.
+
+That gives five, twenty, forty-five, eighty, and so on, smallest first.
+
+Now the cube test. Start with n equals five. Fifty times five is two hundred fifty.
+
+Six cubed is two hundred sixteen. Seven cubed is three hundred forty-three.
+
+Two hundred fifty sits in between, so it's NOT a cube.
+
+Next up, n equals twenty. Fifty times twenty is one thousand. That's ten times ten times ten!
+
+We went smallest first, so twenty is the smallest that works. That's Choice B!
+
+## Solution 2: count the primes
+
+Here's a second way, with prime factors.
+
+Twenty is two times two times five. Fifty is two times five times five.
+
+In a perfect square, every prime shows up an even number of times.
+
+Four hundred has four copies of two, and two copies of five. Both even!
+
+In a perfect cube, every count is a multiple of three, like one thousand: three of each.
+
+Say n has x copies of two, and y copies of five.
+
+Other primes don't help the twos or the fives. They'd only make n bigger.
+
+First, the twos. Twenty times n has x plus two of them. Fifty times n has x plus one.
+
+For the square, x plus two is even. So x is zero, two, four, and so on.
+
+For the cube, x plus one is a multiple of three. So x is two, five, eight, and so on.
+
+The smallest number on both lists is two.
+
+Now the fives. Twenty times n has y plus one of them. Fifty times n has y plus two.
+
+For the square, y plus one is even. So y is one, three, five, and so on.
+
+For the cube, y plus two is a multiple of three. So y is one, four, seven, and so on.
+
+Both lists start at one! So n is two times two times five, which is twenty. Same answer!
+
+Which way should you pick? A list is quick for small answers. Counting primes always works.
+
+## Common traps
+
+Now the traps. Choice D uses the number fifty itself.
+
+Twenty times fifty is one thousand. That's a cube, but not a square.
+
+Fifty times fifty is a square, but not a cube. The two jobs got swapped!
+
+Choice E is one hundred, since twenty and fifty both divide it. But two thousand isn't a square.
+
+Choice A, ten, gives two hundred and then five hundred. Neither one works.
+
+Choice C, forty, gives eight hundred and then two thousand. Those fail too.
+
+And don't stop at five! It passes the square test, but fails the cube. Always check BOTH rules.
+
+## Your turn: a variant
+
+Ready for a challenge? Find the smallest positive integer n,
+
+such that two times n is a perfect square, and three times n is a perfect cube.
+
+Pause the video, and go for it!
+
+*(Pause and try it: 10 s countdown)*
+
+## Variant: the answer
+
+Let's count primes. Say n has x copies of two, and y copies of three.
+
+For the twos, x plus one is even, and x is a multiple of three. So x is three.
+
+Threes: y is even, and y plus one is a multiple of three. So y is two.
+
+So n is two cubed times three squared. That's eight times nine, which is seventy-two!
+
+Check: two times seventy-two is one hundred forty-four, which is twelve times twelve.
+
+And three times seventy-two is two hundred sixteen, which is six times six times six.
+
+If you found seventy-two, amazing work!
+
+## Recap
+
+Here's the big idea to remember.
+
+Break the number into primes, and count the copies of each prime.
+
+Square: every count is even. Cube: every count is a multiple of three.
+
+I'm Vantee. Keep exploring, and I'll see you next time!

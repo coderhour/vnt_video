@@ -1,0 +1,525 @@
+{
+ "fps": 30,
+ "durationInFrames": 11566,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 490,
+   "lines": [
+    {
+     "text": "There are fifty-six ways to walk across this street grid.",
+     "caption": "There are fifty-six ways to walk across this street grid.",
+     "file": "2026-10-30-grid-routes/audio/5f5a8a5661182c11.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "Block just one corner, <short pause> and more than half of them vanish!",
+     "caption": "Block just one corner, and more than half of them vanish!",
+     "file": "2026-10-30-grid-routes/audio/1dc77c6b1539882a.wav",
+     "from": 139,
+     "frames": 153
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's solve this together, two different ways.",
+     "caption": "Hi there, I'm Vantee! Let's solve this together, two different ways.",
+     "file": "2026-10-30-grid-routes/audio/7ef920d4fd86ecb7.wav",
+     "from": 302,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 490,
+   "frames": 607,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-grid-routes/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 41
+    },
+    {
+     "text": "In this street grid, Mia walks from A to B. She goes only right or up, along the streets of the grid.",
+     "caption": "In this street grid, Mia walks from A to B. She goes only right or up, along the streets of the grid.",
+     "file": "2026-10-30-grid-routes/audio/c3f43e4e3de9ab76.wav",
+     "from": 51,
+     "frames": 216
+    },
+    {
+     "text": "She does not go through the corner marked X. How many different routes can she take?",
+     "caption": "She does not go through the corner marked X. How many different routes can she take?",
+     "file": "2026-10-30-grid-routes/audio/1d004ce84de84096.wav",
+     "from": 277,
+     "frames": 172
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-grid-routes/audio/b97a89671840f7ca.wav",
+     "from": 460,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1097,
+   "frames": 952,
+   "lines": [
+    {
+     "text": "Let's break it down. The grid is five blocks across and three blocks up.",
+     "caption": "Let's break it down. The grid is five blocks across and three blocks up.",
+     "file": "2026-10-30-grid-routes/audio/6cd0d49a07562748.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "So every route has five right steps and three up steps. That's eight steps in all.",
+     "caption": "So every route has five right steps and three up steps. That's eight steps in all.",
+     "file": "2026-10-30-grid-routes/audio/99ac0e31f136657b.wav",
+     "from": 174,
+     "frames": 185
+    },
+    {
+     "text": "Different routes just put those same eight steps in a different order.",
+     "caption": "Different routes just put those same eight steps in a different order.",
+     "file": "2026-10-30-grid-routes/audio/a7f2137c01d33a2f.wav",
+     "from": 370,
+     "frames": 140
+    },
+    {
+     "text": "Here's one route Mia could take. It stays away from X.",
+     "caption": "Here's one route Mia could take. It stays away from X.",
+     "file": "2026-10-30-grid-routes/audio/7d4ff3da5a475517.wav",
+     "from": 519,
+     "frames": 122
+    },
+    {
+     "text": "This route is not allowed, because it passes through X.",
+     "caption": "This route is not allowed, because it passes through X.",
+     "file": "2026-10-30-grid-routes/audio/873b1dd8b84eea59.wav",
+     "from": 651,
+     "frames": 119
+    },
+    {
+     "text": "We need to count every route that stays away from X.",
+     "caption": "We need to count every route that stays away from X.",
+     "file": "2026-10-30-grid-routes/audio/43a77e24fa03fa59.wav",
+     "from": 780,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2049,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-grid-routes/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "sol1",
+   "kind": "scene",
+   "chapter": "Solution 1: number the corners",
+   "from": 2519,
+   "frames": 2246,
+   "lines": [
+    {
+     "text": "Welcome back! Let's write a number on every corner: the number of ways Mia can reach it.",
+     "caption": "Welcome back! Let's write a number on every corner: the number of ways Mia can reach it.",
+     "file": "2026-10-30-grid-routes/audio/bb1bdf74b03e92a1.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "Along the bottom street, Mia can only walk right. So each corner there gets a one.",
+     "caption": "Along the bottom street, Mia can only walk right. So each corner there gets a one.",
+     "file": "2026-10-30-grid-routes/audio/96936de9861c6ef4.wav",
+     "from": 205,
+     "frames": 171
+    },
+    {
+     "text": "Up the left street, she can only walk up. Each corner there gets a one as well.",
+     "caption": "Up the left street, she can only walk up. Each corner there gets a one as well.",
+     "file": "2026-10-30-grid-routes/audio/8b4b6be89419e65b.wav",
+     "from": 386,
+     "frames": 174
+    },
+    {
+     "text": "Here's the key idea. Mia's last step into a corner comes from the left, or from below.",
+     "caption": "Here's the key idea. Mia's last step into a corner comes from the left, or from below.",
+     "file": "2026-10-30-grid-routes/audio/c03cf0cd47a668a5.wav",
+     "from": 571,
+     "frames": 207
+    },
+    {
+     "text": "So add the number on the left and the number below. One plus one is two.",
+     "caption": "So add the number on the left and the number below. One plus one is two.",
+     "file": "2026-10-30-grid-routes/audio/0f99b84b4daf62d4.wav",
+     "from": 788,
+     "frames": 173
+    },
+    {
+     "text": "Check it: right then up, or up then right. That's two ways!",
+     "caption": "Check it: right then up, or up then right. That's two ways!",
+     "file": "2026-10-30-grid-routes/audio/18776c76088b7866.wav",
+     "from": 971,
+     "frames": 167
+    },
+    {
+     "text": "Mia can never stand on X, so X gets a zero.",
+     "caption": "Mia can never stand on X, so X gets a zero.",
+     "file": "2026-10-30-grid-routes/audio/ff087c9a7ed849a4.wav",
+     "from": 1148,
+     "frames": 132
+    },
+    {
+     "text": "Next to X, zero plus one is one. Then come two and three.",
+     "caption": "Next to X, zero plus one is one. Then come two and three.",
+     "file": "2026-10-30-grid-routes/audio/54754d1dcf6a697e.wav",
+     "from": 1291,
+     "frames": 180
+    },
+    {
+     "text": "Next row up: one plus two is three. Then three plus zero is three.",
+     "caption": "Next row up: one plus two is three. Then three plus zero is three.",
+     "file": "2026-10-30-grid-routes/audio/49a289471649840c.wav",
+     "from": 1481,
+     "frames": 215
+    },
+    {
+     "text": "Keep going: four, six, and nine.",
+     "caption": "Keep going: four, six, and nine.",
+     "file": "2026-10-30-grid-routes/audio/f49821e7491d7185.wav",
+     "from": 1707,
+     "frames": 137
+    },
+    {
+     "text": "The top row gives four, seven, eleven, and seventeen.",
+     "caption": "The top row gives four, seven, eleven, and seventeen.",
+     "file": "2026-10-30-grid-routes/audio/1d41aca8460c0498.wav",
+     "from": 1854,
+     "frames": 156
+    },
+    {
+     "text": "At B, seventeen plus nine is twenty-six. That's Choice B!",
+     "caption": "At B, seventeen plus nine is twenty-six. That's Choice B!",
+     "file": "2026-10-30-grid-routes/audio/e46f10f7c407a8aa.wav",
+     "from": 2020,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: count all, then subtract",
+   "from": 4765,
+   "frames": 2673,
+   "lines": [
+    {
+     "text": "Now for another method. First count EVERY route, then remove the bad ones.",
+     "caption": "Now for another method. First count EVERY route, then remove the bad ones.",
+     "file": "2026-10-30-grid-routes/audio/a8541273a1c0eba3.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "A route is eight steps long, and we only choose which three of them go up.",
+     "caption": "A route is eight steps long, and we only choose which three of them go up.",
+     "file": "2026-10-30-grid-routes/audio/dc15f2b838473fd4.wav",
+     "from": 178,
+     "frames": 159
+    },
+    {
+     "text": "There are eight choices for the first step that goes up, seven for the second, and six for the third.",
+     "caption": "There are eight choices for the first step that goes up, seven for the second, and six for the third.",
+     "file": "2026-10-30-grid-routes/audio/a50ddd05047be9d0.wav",
+     "from": 347,
+     "frames": 201
+    },
+    {
+     "text": "But the same three steps get picked in six different orders. So divide by six.",
+     "caption": "But the same three steps get picked in six different orders. So divide by six.",
+     "file": "2026-10-30-grid-routes/audio/16bc247fd847f305.wav",
+     "from": 558,
+     "frames": 188
+    },
+    {
+     "text": "Three hundred thirty-six over six is fifty-six routes in all.",
+     "caption": "Three hundred thirty-six over six is fifty-six routes in all.",
+     "file": "2026-10-30-grid-routes/audio/d69d5a725507f7c1.wav",
+     "from": 756,
+     "frames": 137
+    },
+    {
+     "text": "Now the bad routes, the ones through X.",
+     "caption": "Now the bad routes, the ones through X.",
+     "file": "2026-10-30-grid-routes/audio/ef55c56d37422c7e.wav",
+     "from": 903,
+     "frames": 102
+    },
+    {
+     "text": "From A to X is two rights and one up. The up step can be first, second, or third.",
+     "caption": "From A to X is two rights and one up. The up step can be first, second, or third.",
+     "file": "2026-10-30-grid-routes/audio/a469150b69b408ca.wav",
+     "from": 1016,
+     "frames": 197
+    },
+    {
+     "text": "That's three ways. From X to B is three rights and two ups.",
+     "caption": "That's three ways. From X to B is three rights and two ups.",
+     "file": "2026-10-30-grid-routes/audio/f329525a3f224cc0.wav",
+     "from": 1223,
+     "frames": 155
+    },
+    {
+     "text": "Pick two of those five steps to go up. Five times four is twenty, and each pair is counted twice.",
+     "caption": "Pick two of those five steps to go up. Five times four is twenty, and each pair is counted twice.",
+     "file": "2026-10-30-grid-routes/audio/8d5056996ac0c763.wav",
+     "from": 1388,
+     "frames": 231
+    },
+    {
+     "text": "So that's ten ways to finish. Each of the three starts goes with each of the ten finishes.",
+     "caption": "So that's ten ways to finish. Each of the three starts goes with each of the ten finishes.",
+     "file": "2026-10-30-grid-routes/audio/c242e1642c6db5a5.wav",
+     "from": 1629,
+     "frames": 215
+    },
+    {
+     "text": "Why multiply? Every start can be paired with every finish.",
+     "caption": "Why multiply? Every start can be paired with every finish.",
+     "file": "2026-10-30-grid-routes/audio/7c5d7aec4a4c0ca6.wav",
+     "from": 1854,
+     "frames": 148
+    },
+    {
+     "text": "Three times ten is thirty routes through X. Fifty-six minus thirty is twenty-six. It matches!",
+     "caption": "Three times ten is thirty routes through X. Fifty-six minus thirty is twenty-six. It matches!",
+     "file": "2026-10-30-grid-routes/audio/89a909cfc98dd29c.wav",
+     "from": 2013,
+     "frames": 273
+    },
+    {
+     "text": "So when would you pick each way? Corner numbers work even with lots of blocked corners.",
+     "caption": "So when would you pick each way? Corner numbers work even with lots of blocked corners.",
+     "file": "2026-10-30-grid-routes/audio/0838411b2d413fba.wav",
+     "from": 2295,
+     "frames": 183
+    },
+    {
+     "text": "Subtracting is the fastest when just one corner is blocked.",
+     "caption": "Subtracting is the fastest when just one corner is blocked.",
+     "file": "2026-10-30-grid-routes/audio/a546a240ffbd064f.wav",
+     "from": 2488,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7438,
+   "frames": 1165,
+   "lines": [
+    {
+     "text": "Choice C, thirty, counts every route that goes THROUGH X. Those are the ones to take away!",
+     "caption": "Choice C, thirty, counts every route that goes THROUGH X. Those are the ones to take away!",
+     "file": "2026-10-30-grid-routes/audio/60ecd97f178b0c21.wav",
+     "from": 0,
+     "frames": 204
+    },
+    {
+     "text": "Choice E, fifty-six, counts every route, and forgets about X.",
+     "caption": "Choice E, fifty-six, counts every route, and forgets about X.",
+     "file": "2026-10-30-grid-routes/audio/f52748dad2afe169.wav",
+     "from": 215,
+     "frames": 160
+    },
+    {
+     "text": "Thirty-five is what you'd get if you counted the grid as only four blocks wide.",
+     "caption": "Thirty-five is what you'd get if you counted the grid as only four blocks wide.",
+     "file": "2026-10-30-grid-routes/audio/e902f2d577649342.wav",
+     "from": 385,
+     "frames": 148
+    },
+    {
+     "text": "Twenty is what a grid three blocks wide would give.",
+     "caption": "Twenty is what a grid three blocks wide would give.",
+     "file": "2026-10-30-grid-routes/audio/f3de19c495ebd4cd.wav",
+     "from": 543,
+     "frames": 108
+    },
+    {
+     "text": "Watch out: don't add three and ten here. Fifty-six minus thirteen is forty-three, and that's not a choice.",
+     "caption": "Watch out: don't add three and ten here. Fifty-six minus thirteen is forty-three, and that's not a choice.",
+     "file": "2026-10-30-grid-routes/audio/abec80a6236e6948.wav",
+     "from": 661,
+     "frames": 255
+    },
+    {
+     "text": "So here's a great habit: count the blocks carefully, and check which routes you were asked for.",
+     "caption": "So here's a great habit: count the blocks carefully, and check which routes you were asked for.",
+     "file": "2026-10-30-grid-routes/audio/1922c10d6edaa79a.wav",
+     "from": 926,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a four by four grid",
+   "from": 8603,
+   "frames": 424,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the grid is four blocks across and four blocks up.",
+     "caption": "Ready for a challenge? Now the grid is four blocks across and four blocks up.",
+     "file": "2026-10-30-grid-routes/audio/a3a43b04b621f584.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Corner X is right in the middle. How many routes go from A to B without passing X?",
+     "caption": "Corner X is right in the middle. How many routes go from A to B without passing X?",
+     "file": "2026-10-30-grid-routes/audio/a791924af76661e6.wav",
+     "from": 176,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9027,
+   "frames": 391,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-grid-routes/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Four by four: the answer",
+   "from": 9418,
+   "frames": 1514,
+   "lines": [
+    {
+     "text": "Let's solve it by subtracting. Every route has four rights and four ups.",
+     "caption": "Let's solve it by subtracting. Every route has four rights and four ups.",
+     "file": "2026-10-30-grid-routes/audio/ca89af9b9f36c1cb.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "Eight times seven times six times five, over four times three times two times one, is seventy.",
+     "caption": "Eight times seven times six times five, over four times three times two times one, is seventy.",
+     "file": "2026-10-30-grid-routes/audio/ce4d742953ae0d47.wav",
+     "from": 192,
+     "frames": 298
+    },
+    {
+     "text": "Pick which two of the four steps go up: four times three is twelve, and each pair is counted twice, so six ways.",
+     "caption": "Pick which two of the four steps go up: four times three is twelve, and each pair is counted twice, so six ways.",
+     "file": "2026-10-30-grid-routes/audio/02868e5d5762d9a2.wav",
+     "from": 500,
+     "frames": 263
+    },
+    {
+     "text": "From X to B is six ways too. So six times six is thirty-six routes through X.",
+     "caption": "From X to B is six ways too. So six times six is thirty-six routes through X.",
+     "file": "2026-10-30-grid-routes/audio/512b83d09067168a.wav",
+     "from": 773,
+     "frames": 216
+    },
+    {
+     "text": "Seventy minus thirty-six is thirty-four!",
+     "caption": "Seventy minus thirty-six is thirty-four!",
+     "file": "2026-10-30-grid-routes/audio/635de1b4dbd56d06.wav",
+     "from": 1000,
+     "frames": 114
+    },
+    {
+     "text": "In the corner table, the zero in the middle wipes out every route through X.",
+     "caption": "In the corner table, the zero in the middle wipes out every route through X.",
+     "file": "2026-10-30-grid-routes/audio/a0daeafc1e5ddc6e.wav",
+     "from": 1124,
+     "frames": 165
+    },
+    {
+     "text": "The corner numbers give thirty-four as well. If you found it, amazing work!",
+     "caption": "The corner numbers give thirty-four as well. If you found it, amazing work!",
+     "file": "2026-10-30-grid-routes/audio/ff0d10605d2723c7.wav",
+     "from": 1299,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10932,
+   "frames": 634,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-grid-routes/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 70
+    },
+    {
+     "text": "Count all the routes, then subtract the routes through the blocked corner.",
+     "caption": "Count all the routes, then subtract the routes through the blocked corner.",
+     "file": "2026-10-30-grid-routes/audio/941b27c9df28aec2.wav",
+     "from": 80,
+     "frames": 144
+    },
+    {
+     "text": "Or fill in corner numbers: add the left and below, with a zero on the blocked corner.",
+     "caption": "Or fill in corner numbers: add the left and below, with a zero on the blocked corner.",
+     "file": "2026-10-30-grid-routes/audio/ca3993a16666d9f2.wav",
+     "from": 235,
+     "frames": 196
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-grid-routes/audio/31a6054d0b03b932.wav",
+     "from": 441,
+     "frames": 125
+    }
+   ]
+  }
+ ]
+}
