@@ -1,0 +1,583 @@
+{
+ "fps": 30,
+ "durationInFrames": 12519,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 466,
+   "lines": [
+    {
+     "text": "Twenty dots. How many squares can you make with them?",
+     "caption": "Twenty dots. How many squares can you make with them?",
+     "file": "2026-10-29-dot-grid-squares/audio/9c6d2f44c1ae0827.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "Most kids find twenty. <short pause> But there are MORE hiding in here.",
+     "caption": "Most kids find twenty. But there are MORE hiding in here.",
+     "file": "2026-10-29-dot-grid-squares/audio/5795fb93912f9692.wav",
+     "from": 127,
+     "frames": 150
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find every last one, together.",
+     "caption": "Hi, I'm Vantee! Let's find every last one, together.",
+     "file": "2026-10-29-dot-grid-squares/audio/568c5e809092452a.wav",
+     "from": 287,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 466,
+   "frames": 850,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-29-dot-grid-squares/audio/0535bb34c96f0b01.wav",
+     "from": 0,
+     "frames": 58
+    },
+    {
+     "text": "We have twenty dots, in four rows of five.",
+     "caption": "We have twenty dots, in four rows of five.",
+     "file": "2026-10-29-dot-grid-squares/audio/913e553fc862819e.wav",
+     "from": 68,
+     "frames": 123
+    },
+    {
+     "text": "Neighbouring dots are one unit apart.",
+     "caption": "Neighbouring dots are one unit apart.",
+     "file": "2026-10-29-dot-grid-squares/audio/a6d60c213659bd1c.wav",
+     "from": 201,
+     "frames": 94
+    },
+    {
+     "text": "How many squares have all four corners on dots?",
+     "caption": "How many squares have all four corners on dots?",
+     "file": "2026-10-29-dot-grid-squares/audio/707e9316519dc8db.wav",
+     "from": 305,
+     "frames": 128
+    },
+    {
+     "text": "And here's the twist: count squares of every size, including tilted ones.",
+     "caption": "And here's the twist: count squares of every size, including tilted ones.",
+     "file": "2026-10-29-dot-grid-squares/audio/3436bff585fee6f3.wav",
+     "from": 442,
+     "frames": 167
+    },
+    {
+     "text": "Is it twenty, twenty-four, twenty-six, thirty, or forty?",
+     "caption": "Is it twenty, twenty-four, twenty-six, thirty, or forty?",
+     "file": "2026-10-29-dot-grid-squares/audio/eea7109fb17e43ea.wav",
+     "from": 620,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1316,
+   "frames": 795,
+   "lines": [
+    {
+     "text": "So what are we really looking for?",
+     "caption": "So what are we really looking for?",
+     "file": "2026-10-29-dot-grid-squares/audio/8c41594cbb3a63e4.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "Pick any four dots. If they make a perfect square, it counts.",
+     "caption": "Pick any four dots. If they make a perfect square, it counts.",
+     "file": "2026-10-29-dot-grid-squares/audio/9826708ea725236c.wav",
+     "from": 99,
+     "frames": 135
+    },
+    {
+     "text": "Like this little one.",
+     "caption": "Like this little one.",
+     "file": "2026-10-29-dot-grid-squares/audio/cc9fe0da3e183eab.wav",
+     "from": 244,
+     "frames": 59
+    },
+    {
+     "text": "Squares can be bigger, like this one.",
+     "caption": "Squares can be bigger, like this one.",
+     "file": "2026-10-29-dot-grid-squares/audio/065266eb40abfcf5.wav",
+     "from": 314,
+     "frames": 93
+    },
+    {
+     "text": "And this one counts too, even though it's standing on its corner!",
+     "caption": "And this one counts too, even though it's standing on its corner!",
+     "file": "2026-10-29-dot-grid-squares/audio/b758b155e183a76e.wav",
+     "from": 416,
+     "frames": 136
+    },
+    {
+     "text": "Our job is to count them ALL, without missing any, and without counting any twice.",
+     "caption": "Our job is to count them ALL, without missing any, and without counting any twice.",
+     "file": "2026-10-29-dot-grid-squares/audio/926e3f74040e5ce0.wav",
+     "from": 563,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2111,
+   "frames": 450,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-29-dot-grid-squares/audio/66eef6b9496db808.wav",
+     "from": 0,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "upright",
+   "kind": "scene",
+   "chapter": "Solution 1: sort by size",
+   "from": 2561,
+   "frames": 1696,
+   "lines": [
+    {
+     "text": "Welcome back! Our first strategy is to sort the squares by size.",
+     "caption": "Welcome back! Our first strategy is to sort the squares by size.",
+     "file": "2026-10-29-dot-grid-squares/audio/6a2ab4b6bf5417dd.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Let's start with the upright ones. They sit straight, like floor tiles.",
+     "caption": "Let's start with the upright ones. They sit straight, like floor tiles.",
+     "file": "2026-10-29-dot-grid-squares/audio/be38fb44639218a6.wav",
+     "from": 163,
+     "frames": 154
+    },
+    {
+     "text": "The smallest are one by one. The grid is four squares across, and three down.",
+     "caption": "The smallest are one by one. The grid is four squares across, and three down.",
+     "file": "2026-10-29-dot-grid-squares/audio/abd0e4d6896a2965.wav",
+     "from": 327,
+     "frames": 198
+    },
+    {
+     "text": "So that's four times three. Twelve!",
+     "caption": "So that's four times three. Twelve!",
+     "file": "2026-10-29-dot-grid-squares/audio/6aa25be41717f9d4.wav",
+     "from": 536,
+     "frames": 126
+    },
+    {
+     "text": "Next, two by two squares. Let's slide one around the grid.",
+     "caption": "Next, two by two squares. Let's slide one around the grid.",
+     "file": "2026-10-29-dot-grid-squares/audio/c2bf49e3b3da0bff.wav",
+     "from": 672,
+     "frames": 150
+    },
+    {
+     "text": "It fits in three spots across, and two spots down. That's six.",
+     "caption": "It fits in three spots across, and two spots down. That's six.",
+     "file": "2026-10-29-dot-grid-squares/audio/f78a6b6c4cf91060.wav",
+     "from": 833,
+     "frames": 166
+    },
+    {
+     "text": "Three by three squares fit in just two spots.",
+     "caption": "Three by three squares fit in just two spots.",
+     "file": "2026-10-29-dot-grid-squares/audio/b48d713d5b7c1aa0.wav",
+     "from": 1009,
+     "frames": 108
+    },
+    {
+     "text": "Can we go bigger? A four by four square needs four units of height, but our grid is only three tall. So, no.",
+     "caption": "Can we go bigger? A four by four square needs four units of height, but our grid is only three tall. So, no.",
+     "file": "2026-10-29-dot-grid-squares/audio/dd17bd53841175e1.wav",
+     "from": 1127,
+     "frames": 306
+    },
+    {
+     "text": "Twelve, plus six, plus two. That's twenty upright squares.",
+     "caption": "Twelve, plus six, plus two. That's twenty upright squares.",
+     "file": "2026-10-29-dot-grid-squares/audio/4c6dfb468988b997.wav",
+     "from": 1444,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "tilted",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4257,
+   "frames": 1889,
+   "lines": [
+    {
+     "text": "Twenty! Are we done? <short pause> Not yet. Remember the tilted squares?",
+     "caption": "Twenty! Are we done? Not yet. Remember the tilted squares?",
+     "file": "2026-10-29-dot-grid-squares/audio/68125595a16945db.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "Here's the smallest tilted square. Each side goes one across, and one down.",
+     "caption": "Here's the smallest tilted square. Each side goes one across, and one down.",
+     "file": "2026-10-29-dot-grid-squares/audio/7462790d53f7fd9e.wav",
+     "from": 235,
+     "frames": 174
+    },
+    {
+     "text": "It fits snugly inside a two by two box.",
+     "caption": "It fits snugly inside a two by two box.",
+     "file": "2026-10-29-dot-grid-squares/audio/27a46cef2587e3c1.wav",
+     "from": 419,
+     "frames": 107
+    },
+    {
+     "text": "We already found six two by two boxes. Each one holds one of these. So, six more!",
+     "caption": "We already found six two by two boxes. Each one holds one of these. So, six more!",
+     "file": "2026-10-29-dot-grid-squares/audio/a7ecc1924778425c.wav",
+     "from": 537,
+     "frames": 237
+    },
+    {
+     "text": "Now a bigger tilted square. Each side goes two across, and one down.",
+     "caption": "Now a bigger tilted square. Each side goes two across, and one down.",
+     "file": "2026-10-29-dot-grid-squares/audio/e5c0a43783297959.wav",
+     "from": 784,
+     "frames": 186
+    },
+    {
+     "text": "It fits inside a three by three box. And look, it has a mirror twin!",
+     "caption": "It fits inside a three by three box. And look, it has a mirror twin!",
+     "file": "2026-10-29-dot-grid-squares/audio/34d6dadbb399ac80.wav",
+     "from": 980,
+     "frames": 189
+    },
+    {
+     "text": "Two three by three boxes, with two tilted squares each. That's four more.",
+     "caption": "Two three by three boxes, with two tilted squares each. That's four more.",
+     "file": "2026-10-29-dot-grid-squares/audio/0727370fa833831e.wav",
+     "from": 1179,
+     "frames": 188
+    },
+    {
+     "text": "Any bigger tilted square would need a four by four box. That doesn't fit.",
+     "caption": "Any bigger tilted square would need a four by four box. That doesn't fit.",
+     "file": "2026-10-29-dot-grid-squares/audio/af7f6fef6b7d67fa.wav",
+     "from": 1377,
+     "frames": 194
+    },
+    {
+     "text": "So we have twenty, plus six, plus four. <short pause> That's thirty squares!",
+     "caption": "So we have twenty, plus six, plus four. That's thirty squares!",
+     "file": "2026-10-29-dot-grid-squares/audio/f100431a1d801168.wav",
+     "from": 1580,
+     "frames": 225
+    }
+   ]
+  },
+  {
+   "id": "boxtrick",
+   "kind": "scene",
+   "chapter": "Solution 2: the box trick",
+   "from": 6146,
+   "frames": 2478,
+   "lines": [
+    {
+     "text": "Now here's a faster way. I call it the box trick.",
+     "caption": "Now here's a faster way. I call it the box trick.",
+     "file": "2026-10-29-dot-grid-squares/audio/29429646a85024c3.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Every square, upright or tilted, fits snugly inside an upright box. It touches all four sides.",
+     "caption": "Every square, upright or tilted, fits snugly inside an upright box. It touches all four sides.",
+     "file": "2026-10-29-dot-grid-squares/audio/cbebf408708f9828.wav",
+     "from": 129,
+     "frames": 242
+    },
+    {
+     "text": "Look at this two by two box. It holds the box itself, plus one tilted square. That's two squares.",
+     "caption": "Look at this two by two box. It holds the box itself, plus one tilted square. That's two squares.",
+     "file": "2026-10-29-dot-grid-squares/audio/295f1221d01be027.wav",
+     "from": 381,
+     "frames": 218
+    },
+    {
+     "text": "Now a three by three box. The corners step along its sides, from dot to dot.",
+     "caption": "Now a three by three box. The corners step along its sides, from dot to dot.",
+     "file": "2026-10-29-dot-grid-squares/audio/428d098c22588508.wav",
+     "from": 608,
+     "frames": 195
+    },
+    {
+     "text": "Zero steps. One step. Two steps. With three steps, we are back to the box! So, three squares in one box.",
+     "caption": "Zero steps. One step. Two steps. With three steps, we are back to the box! So, three squares in one box.",
+     "file": "2026-10-29-dot-grid-squares/audio/865c82e38b2434a1.wav",
+     "from": 813,
+     "frames": 347
+    },
+    {
+     "text": "See the pattern? A two by two box holds two snug squares. A three by three box holds three.",
+     "caption": "See the pattern? A two by two box holds two snug squares. A three by three box holds three.",
+     "file": "2026-10-29-dot-grid-squares/audio/c570034b7661c93d.wav",
+     "from": 1171,
+     "frames": 225
+    },
+    {
+     "text": "So we just count the boxes, and multiply by their size.",
+     "caption": "So we just count the boxes, and multiply by their size.",
+     "file": "2026-10-29-dot-grid-squares/audio/91035d9ab3a04d11.wav",
+     "from": 1406,
+     "frames": 165
+    },
+    {
+     "text": "Twelve one by one boxes, times one, is twelve.",
+     "caption": "Twelve one by one boxes, times one, is twelve.",
+     "file": "2026-10-29-dot-grid-squares/audio/77e921744e77e91f.wav",
+     "from": 1580,
+     "frames": 154
+    },
+    {
+     "text": "Six two by two boxes, times two, is twelve.",
+     "caption": "Six two by two boxes, times two, is twelve.",
+     "file": "2026-10-29-dot-grid-squares/audio/128c30ca4dd7cd01.wav",
+     "from": 1745,
+     "frames": 138
+    },
+    {
+     "text": "Two three by three boxes, times three, is six.",
+     "caption": "Two three by three boxes, times three, is six.",
+     "file": "2026-10-29-dot-grid-squares/audio/03ee932d018b0df9.wav",
+     "from": 1893,
+     "frames": 143
+    },
+    {
+     "text": "Twelve, plus twelve, plus six. Thirty again!",
+     "caption": "Twelve, plus twelve, plus six. Thirty again!",
+     "file": "2026-10-29-dot-grid-squares/audio/2c2ae28a558d91bb.wav",
+     "from": 2046,
+     "frames": 161
+    },
+    {
+     "text": "When should you use the box trick? When the grid gets big. It saves a LOT of drawing.",
+     "caption": "When should you use the box trick? When the grid gets big. It saves a LOT of drawing.",
+     "file": "2026-10-29-dot-grid-squares/audio/e6da517c200feef1.wav",
+     "from": 2218,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8624,
+   "frames": 930,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-29-dot-grid-squares/audio/174a5a5a65b926ec.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "Twenty is what you get if you forget the tilted squares completely.",
+     "caption": "Twenty is what you get if you forget the tilted squares completely.",
+     "file": "2026-10-29-dot-grid-squares/audio/278270bdaf224bbe.wav",
+     "from": 150,
+     "frames": 143
+    },
+    {
+     "text": "Twenty-four means you missed the six small tilted squares.",
+     "caption": "Twenty-four means you missed the six small tilted squares.",
+     "file": "2026-10-29-dot-grid-squares/audio/286747014eb3d2ae.wav",
+     "from": 303,
+     "frames": 142
+    },
+    {
+     "text": "Twenty-six means you missed the four big tilted ones. And forty is just too many!",
+     "caption": "Twenty-six means you missed the four big tilted ones. And forty is just too many!",
+     "file": "2026-10-29-dot-grid-squares/audio/bf18518305bcfe62.wav",
+     "from": 455,
+     "frames": 196
+    },
+    {
+     "text": "So here's a great habit. Sort by size, and always ask: did I check for tilted ones?",
+     "caption": "So here's a great habit. Sort by size, and always ask: did I check for tilted ones?",
+     "file": "2026-10-29-dot-grid-squares/audio/7dba8df8fa7d4f23.wav",
+     "from": 661,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a bigger grid",
+   "from": 9554,
+   "frames": 515,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a bigger grid.",
+     "caption": "Ready for a challenge? Here's a bigger grid.",
+     "file": "2026-10-29-dot-grid-squares/audio/fa1d75145962f053.wav",
+     "from": 0,
+     "frames": 96
+    },
+    {
+     "text": "Now there are twenty-five dots, in five rows of five.",
+     "caption": "Now there are twenty-five dots, in five rows of five.",
+     "file": "2026-10-29-dot-grid-squares/audio/bb1bbc91ea945717.wav",
+     "from": 107,
+     "frames": 130
+    },
+    {
+     "text": "How many squares have all four corners on dots? Tilted ones count too.",
+     "caption": "How many squares have all four corners on dots? Tilted ones count too.",
+     "file": "2026-10-29-dot-grid-squares/audio/fc8f4fb7c04c304b.wav",
+     "from": 247,
+     "frames": 166
+    },
+    {
+     "text": "Try the box trick!",
+     "caption": "Try the box trick!",
+     "file": "2026-10-29-dot-grid-squares/audio/1c9dbedb6668ed2b.wav",
+     "from": 423,
+     "frames": 53
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10069,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-29-dot-grid-squares/audio/6bb193bfc0c754d6.wav",
+     "from": 0,
+     "frames": 87
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Bigger grid: the answer",
+   "from": 10539,
+   "frames": 1393,
+   "lines": [
+    {
+     "text": "Let's check. This grid is four units across, and four down.",
+     "caption": "Let's check. This grid is four units across, and four down.",
+     "file": "2026-10-29-dot-grid-squares/audio/8d133eab212db4f5.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "One by one boxes: sixteen of them. Times one, that's sixteen.",
+     "caption": "One by one boxes: sixteen of them. Times one, that's sixteen.",
+     "file": "2026-10-29-dot-grid-squares/audio/0e4ac4cec02e21ae.wav",
+     "from": 200,
+     "frames": 170
+    },
+    {
+     "text": "Two by two boxes: three across and three down, so nine. Times two, that's eighteen.",
+     "caption": "Two by two boxes: three across and three down, so nine. Times two, that's eighteen.",
+     "file": "2026-10-29-dot-grid-squares/audio/d98fcc337a282f36.wav",
+     "from": 380,
+     "frames": 215
+    },
+    {
+     "text": "Three by three boxes: four of them. Times three, that's twelve.",
+     "caption": "Three by three boxes: four of them. Times three, that's twelve.",
+     "file": "2026-10-29-dot-grid-squares/audio/5ae7cf25159f0138.wav",
+     "from": 605,
+     "frames": 164
+    },
+    {
+     "text": "And one big four by four box. It hides four squares!",
+     "caption": "And one big four by four box. It hides four squares!",
+     "file": "2026-10-29-dot-grid-squares/audio/d0bca2b51b2848f8.wav",
+     "from": 779,
+     "frames": 161
+    },
+    {
+     "text": "Sixteen, plus eighteen, plus twelve, plus four. <short pause> That's fifty!",
+     "caption": "Sixteen, plus eighteen, plus twelve, plus four. That's fifty!",
+     "file": "2026-10-29-dot-grid-squares/audio/2ac854d187dcd586.wav",
+     "from": 950,
+     "frames": 261
+    },
+    {
+     "text": "If you got fifty, amazing work!",
+     "caption": "If you got fifty, amazing work!",
+     "file": "2026-10-29-dot-grid-squares/audio/fa240d0dfc756922.wav",
+     "from": 1221,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11932,
+   "frames": 587,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-29-dot-grid-squares/audio/ebf6b571fcdae3cb.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "Sort squares by the box they fit in snugly. A three by three box holds three snug squares.",
+     "caption": "Sort squares by the box they fit in snugly. A three by three box holds three snug squares.",
+     "file": "2026-10-29-dot-grid-squares/audio/192c34e8c40b6f3f.wav",
+     "from": 85,
+     "frames": 198
+    },
+    {
+     "text": "And never forget the tilted ones!",
+     "caption": "And never forget the tilted ones!",
+     "file": "2026-10-29-dot-grid-squares/audio/10f759d1d1949b05.wav",
+     "from": 294,
+     "frames": 84
+    },
+    {
+     "text": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "file": "2026-10-29-dot-grid-squares/audio/db9bcf7334e43672.wav",
+     "from": 388,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

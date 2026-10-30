@@ -38,20 +38,22 @@ the workbench step and its wrap-up (author shout-out, showcase, JianYing). Use o
 ## Project layout
 
 ```
-studio/                         shared Remotion project for all explainers
-  src/lib/                      copied shotcraft components + math components (Tex, Figure, PauseCard…)
-  src/videos/<slug>/            narration.json + Composition.tsx for one video
-  public/<slug>/                generated audio/*.wav + timeline.json
+studio/                         shared Remotion project for all explainers (already set up)
+  src/lib/                      shared pieces, reuse before writing new ones:
+    Explainer.tsx               the frame: scenes + voice audio + chapter pill + captions + Vantee avatar;
+                                `at(scene, i, t)` = frame where line i starts (t = fraction into the line)
+    grid.tsx                    dot grids, self-drawing polygons, step arrows, boxSquare(), boxSpots()
+    Tex.tsx                     KaTeX (verified: fonts render in headless renders)
+    PauseCard.tsx               "Pause & try it" countdown ring (optional tick SFX per second)
+    anim.ts, theme.ts, fonts.ts easing helpers, Vantee colours, Nunito + Pacifico (wordmark only)
+  src/videos/<slug>/            narration.json, verify.py, Composition.tsx (one component per scene id)
+  src/Root.tsx                  register each video: `calculateMetadata={fromTimeline(SLUG)}`
+  public/<slug>/                generated audio/*.wav + timeline.json, sfx/ (Freesound downloads + credits)
 videos/<slug>/                  deliverable: video.mp4, poster.jpg, meta.json, script.md
 ```
 
-`<slug>` = `YYYY-MM-DD-short-name`.
-
-**One-time studio setup** (only if `studio/` doesn't exist): `npx create-video@latest studio --blank`,
-then `cd studio && npm i katex @remotion/google-fonts`. Don't copy shotcraft's whole `template/`.
-Then **verify KaTeX renders before relying on it**: `npx remotion still` a frame with
-`\dfrac{2^{10}}{2^9}` and look at it. If the glyphs are fallback fonts, import `katex/dist/katex.min.css`
-and hold with `delayRender` until `document.fonts.ready`. Load Nunito via `@remotion/google-fonts`.
+`<slug>` = `YYYY-MM-DD-short-name`. The first video, `2026-10-29-dot-grid-squares`, is the reference
+for how the scenes are built.
 
 ## Workflow
 
@@ -91,6 +93,13 @@ Tutor voice:
 - **Write the spoken form.** TTS mangles LaTeX, so write "two to the tenth", not `2^{10}`, and
   "A B" for segment AB. Put the LaTeX on screen instead.
 - Every number or expression the voice says must be on screen at that moment, and the reverse.
+- Rules the kid will remember must be exactly true. "A 3-wide box hides 3 squares" is false, because it
+  holds 14 upright ones. Say "holds 3 squares that fit it snugly". Re-read every recap or rule line as
+  a skeptic.
+- Direction words must match the screen. Screen y grows downward, so a side drawn going right and
+  down is "one across, one down".
+- Explain EVERY wrong choice, including ones the bank's `choice_notes` skip. Even a short "and 40 is
+  just too many" closes the gap.
 
 `narration.json` format (read by `.claude/skills/math-explainer/scripts/tts.py`):
 ```json
@@ -133,6 +142,11 @@ The visuals must *explain*, not decorate. Plan each scene's visual from the math
 - **Counting:** build the list or tree on screen as it's counted, grouping cases with color.
 - **Algebra / number theory:** equations morph term by term (moved terms travel, cancelled
   terms fade). Use blocks or grids for divisibility and remainders.
+- Counting many copies: slide ONE shape through its spots, leave faint ghosts and show a ×n
+  counter (`Slide` + `slideCount` in the reference video). Never pop all the copies in at once, and
+  never draw slightly inset copies: overlapping outlines turn into a mesh nobody can count.
+- Never animate through invalid states. If corners must sit on dots, step from dot to dot. A smooth
+  tween shows shapes that don't count.
 - Pause card: big countdown ring, the question still visible, calm.
 - The answer reveal and the "aha" moment get the one strong motion beat. Use shotcraft cards for
   these and for chapter transitions only.
@@ -149,12 +163,22 @@ In `studio/src/videos/<slug>/Composition.tsx`:
 - Put each scene in a `<Sequence from durationInFrames>`, and each line's `<Audio>` at its `from`.
 - Drive animation timing from line frames so the visuals land on the words.
 - Register the composition in the studio's `Root.tsx`.
-- Check key frames with `npx remotion still` while building. Don't render the whole video to
-  look at one frame.
+- Check key frames with `npx remotion still --frame=N` while building. Don't render the whole
+  video to look at one frame. Render a still near the end of every line (about 2 s each), tile 4 of
+  them into one image with ffmpeg `xstack`, and look at every sheet.
+- Layout traps found on the first video:
+  - keep the stage above y ≈ 860, because the captions own the bottom;
+  - give each piece of text its own slot so labels never overlap;
+  - long totals must not wrap (the `Row` helper uses `nowrap`), so check that they fit the frame;
+  - don't stack many semi-transparent shapes on one grid, because it reads as a tangle.
+- SFX: a soft chime on each answer reveal, timed to the END of the line so it never covers the spoken number, and a quiet tick per countdown second. That's it. No
+  game-style sounds (shotcraft S1). Keep it at about 0.2–0.3 volume under the voice.
 
 ### 7. Render and package
 - `npx remotion render ... ../videos/<slug>/video.mp4`
-- `poster.jpg`: a still of the question scene.
+- Normalise the loudness to YouTube's -14 LUFS (the raw render comes out around -19). Video is copied, not re-encoded:
+  `ffmpeg -i video.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k out.mp4`
+- `poster.jpg`: a still of the question scene (`ffmpeg -ss <sec> -i video.mp4 -frames:v 1 poster.jpg`).
 - `videos/<slug>/meta.json`:
   ```json
   {"title": "Can You Find All 30 Squares? | AMC 8-Style Level 5",

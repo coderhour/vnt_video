@@ -1,0 +1,11 @@
+{
+ "title": "Can You Find All the Squares? | AMC 8-Style Level 5",
+ "description": "20 dots, and most kids find 20 squares. But there are more hiding in there! Vantee shows two ways to find every one, including the sneaky tilted squares, then gives you a bigger grid to try yourself.\n\n0:00 Intro\n0:15 The question\n0:43 What are we asked?\n1:10 Try it yourself\n1:25 Solution 1: sort by size\n3:24 Solution 2: the box trick\n4:47 Common traps\n5:18 Your turn: a bigger grid\n5:51 Bigger grid: the answer\n6:37 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-29",
+ "source": {
+  "bank": "amc_practice_amc8_geometry_template",
+  "id": "c1-010",
+  "difficulty": 5
+ },
+ "posts": []
+}
