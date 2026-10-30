@@ -1,0 +1,566 @@
+{
+ "fps": 30,
+ "durationInFrames": 11920,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 415,
+   "lines": [
+    {
+     "text": "Two lines cut this shape into four triangles.",
+     "caption": "Two lines cut this shape into four triangles.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/214674d8ee381c98.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "We know the area of just ONE of them. <short pause> Can we find all four?",
+     "caption": "We know the area of just ONE of them. Can we find all four?",
+     "file": "2026-10-30-trapezoid-diagonals/audio/38a04409c2467df6.wav",
+     "from": 128,
+     "frames": 135
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack it together.",
+     "caption": "Hi, I'm Vantee! Let's crack it together.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/661802bfe72e72dd.wav",
+     "from": 273,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 415,
+   "frames": 866,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 40
+    },
+    {
+     "text": "In trapezoid A B C D, side A B is parallel to side D C.",
+     "caption": "In trapezoid A B C D, side A B is parallel to side D C.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/700fa129a484e550.wav",
+     "from": 50,
+     "frames": 200
+    },
+    {
+     "text": "A B is six, and D C is ten.",
+     "caption": "A B is six, and D C is ten.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/6abaef8fc4876d02.wav",
+     "from": 260,
+     "frames": 119
+    },
+    {
+     "text": "The diagonals cross at point E. The shaded triangle A B E has area nine.",
+     "caption": "The diagonals cross at point E. The shaded triangle A B E has area nine.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/af89c190ba3209bd.wav",
+     "from": 389,
+     "frames": 203
+    },
+    {
+     "text": "What is the area of the whole trapezoid?",
+     "caption": "What is the area of the whole trapezoid?",
+     "file": "2026-10-30-trapezoid-diagonals/audio/87f3e28a67cdf1cd.wav",
+     "from": 603,
+     "frames": 96
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/b97a89671840f7ca.wav",
+     "from": 709,
+     "frames": 88
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1281,
+   "frames": 498,
+   "lines": [
+    {
+     "text": "So what do we really know?",
+     "caption": "So what do we really know?",
+     "file": "2026-10-30-trapezoid-diagonals/audio/95d10a5a1a6da445.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "The diagonals split the trapezoid into four triangles: top, bottom, left and right.",
+     "caption": "The diagonals split the trapezoid into four triangles: top, bottom, left and right.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/14adab9b0ef447cc.wav",
+     "from": 89,
+     "frames": 214
+    },
+    {
+     "text": "We know the top one is nine. We need all four added up.",
+     "caption": "We know the top one is nine. We need all four added up.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/fedff63d064a93ce.wav",
+     "from": 314,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1779,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "similar",
+   "kind": "scene",
+   "chapter": "Solution 1: four triangles",
+   "from": 2249,
+   "frames": 1267,
+   "lines": [
+    {
+     "text": "Welcome back! Let's look at the top triangle and the bottom triangle.",
+     "caption": "Welcome back! Let's look at the top triangle and the bottom triangle.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/5535988429a5d0db.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "The top and bottom are parallel, so these two angles match. They make a Z shape.",
+     "caption": "The top and bottom are parallel, so these two angles match. They make a Z shape.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/17593f2ff3587350.wav",
+     "from": 165,
+     "frames": 192
+    },
+    {
+     "text": "These two match as well. That's another Z, along the other diagonal.",
+     "caption": "These two match as well. That's another Z, along the other diagonal.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/c52913ac2d4d9b7b.wav",
+     "from": 367,
+     "frames": 147
+    },
+    {
+     "text": "And the angles at E are opposite each other, so they're equal too.",
+     "caption": "And the angles at E are opposite each other, so they're equal too.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/a5beab1848b53067.wav",
+     "from": 524,
+     "frames": 138
+    },
+    {
+     "text": "Same angles make the same shape! The bottom triangle is a blown-up copy of the top one.",
+     "caption": "Same angles make the same shape! The bottom triangle is a blown-up copy of the top one.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/226b16e1db7b586e.wav",
+     "from": 673,
+     "frames": 172
+    },
+    {
+     "text": "How much bigger? The top side is six, the bottom side is ten.",
+     "caption": "How much bigger? The top side is six, the bottom side is ten.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/f8d12aa944ceb6d0.wav",
+     "from": 855,
+     "frames": 143
+    },
+    {
+     "text": "Six to ten is the same as three to five. So every length grows by five over three.",
+     "caption": "Six to ten is the same as three to five. So every length grows by five over three.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/e35ece225606e770.wav",
+     "from": 1008,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "bottom",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3516,
+   "frames": 826,
+   "lines": [
+    {
+     "text": "Now here's the key step. What happens to the area?",
+     "caption": "Now here's the key step. What happens to the area?",
+     "file": "2026-10-30-trapezoid-diagonals/audio/876a1172065c60de.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "The base grows by five over three. And the height grows by five over three too.",
+     "caption": "The base grows by five over three. And the height grows by five over three too.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/bc2f8161007e7747.wav",
+     "from": 154,
+     "frames": 185
+    },
+    {
+     "text": "So the area grows by five over three, TWICE. That's twenty-five over nine.",
+     "caption": "So the area grows by five over three, TWICE. That's twenty-five over nine.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/e26295a65be752da.wav",
+     "from": 349,
+     "frames": 192
+    },
+    {
+     "text": "Nine times twenty-five over nine is twenty-five. The bottom triangle is twenty-five!",
+     "caption": "Nine times twenty-five over nine is twenty-five. The bottom triangle is twenty-five!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/ba5034b94e7b668d.wav",
+     "from": 551,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "sides",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4342,
+   "frames": 1185,
+   "lines": [
+    {
+     "text": "Now the triangle on the right, B C E. Look at it next to the top triangle.",
+     "caption": "Now the triangle on the right, B C E. Look at it next to the top triangle.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/186a1bc8b29fe555.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "They share the corner B, and their bases sit on the same diagonal.",
+     "caption": "They share the corner B, and their bases sit on the same diagonal.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/8edafe88e0295b27.wav",
+     "from": 193,
+     "frames": 160
+    },
+    {
+     "text": "So they have the same height! Their areas compare just like their bases.",
+     "caption": "So they have the same height! Their areas compare just like their bases.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/86d5fa6f7337bf23.wav",
+     "from": 363,
+     "frames": 140
+    },
+    {
+     "text": "In our copy, A E matches C E. So A E to E C is three to five.",
+     "caption": "In our copy, A E matches C E. So A E to E C is three to five.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/d078240f8831ff6f.wav",
+     "from": 513,
+     "frames": 226
+    },
+    {
+     "text": "So the triangle on the right is nine times five over three. That's fifteen.",
+     "caption": "So the triangle on the right is nine times five over three. That's fifteen.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/bdf9880f19614fe5.wav",
+     "from": 749,
+     "frames": 186
+    },
+    {
+     "text": "The triangle on the left works the same way, using the other diagonal. It's fifteen too.",
+     "caption": "The triangle on the left works the same way, using the other diagonal. It's fifteen too.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/a1f9dc21a6266e13.wav",
+     "from": 946,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "total1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5527,
+   "frames": 404,
+   "lines": [
+    {
+     "text": "Let's add them all up. Nine, plus twenty-five, plus fifteen, plus fifteen.",
+     "caption": "Let's add them all up. Nine, plus twenty-five, plus fifteen, plus fifteen.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/3adb4cd238a8deee.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "That's sixty-four! The answer is D.",
+     "caption": "That's sixty-four! The answer is D.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/ae55866c06c38f85.wav",
+     "from": 247,
+     "frames": 88
+    }
+   ]
+  },
+  {
+   "id": "height",
+   "kind": "scene",
+   "chapter": "Solution 2: find the height",
+   "from": 5931,
+   "frames": 1423,
+   "lines": [
+    {
+     "text": "Here's a second way. The top triangle has base six and area nine.",
+     "caption": "Here's a second way. The top triangle has base six and area nine.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/f17285bac5450f65.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "Half of six, times its height, is nine. So its height is three.",
+     "caption": "Half of six, times its height, is nine. So its height is three.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/182cd64ebfcffc89.wav",
+     "from": 175,
+     "frames": 173
+    },
+    {
+     "text": "The bottom triangle is the five over three copy. So its height is three times five over three. That's five.",
+     "caption": "The bottom triangle is the five over three copy. So its height is three times five over three. That's five.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/3d160e75ba8bc1e4.wav",
+     "from": 358,
+     "frames": 239
+    },
+    {
+     "text": "Stack them up. The whole trapezoid is three plus five, which is eight, tall.",
+     "caption": "Stack them up. The whole trapezoid is three plus five, which is eight, tall.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/962df4f97f85c217.wav",
+     "from": 607,
+     "frames": 185
+    },
+    {
+     "text": "Trapezoid area: add the top and bottom, take half, then times the height.",
+     "caption": "Trapezoid area: add the top and bottom, take half, then times the height.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/4a43c714263ac60c.wav",
+     "from": 803,
+     "frames": 197
+    },
+    {
+     "text": "Six plus ten is sixteen. Half is eight. Eight times eight is sixty-four!",
+     "caption": "Six plus ten is sixteen. Half is eight. Eight times eight is sixty-four!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/2de559854b142273.wav",
+     "from": 1010,
+     "frames": 174
+    },
+    {
+     "text": "When would you pick this way? It's fast, and it's a great double-check.",
+     "caption": "When would you pick this way? It's fast, and it's a great double-check.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/b3629f989bfdbe27.wav",
+     "from": 1195,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7354,
+   "frames": 1296,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "Thirty-four is just the top and bottom triangles. It forgets the two side ones.",
+     "caption": "Thirty-four is just the top and bottom triangles. It forgets the two side ones.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/bd2ca81e88fa92b3.wav",
+     "from": 138,
+     "frames": 165
+    },
+    {
+     "text": "Forty-nine counts only one side triangle, not both.",
+     "caption": "Forty-nine counts only one side triangle, not both.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/7ef3affd51d06ee2.wav",
+     "from": 313,
+     "frames": 114
+    },
+    {
+     "text": "Fifty-four is what you'd get if you grew the area by five over three only once.",
+     "caption": "Fifty-four is what you'd get if you grew the area by five over three only once.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/42e63ca82f89ad98.wav",
+     "from": 437,
+     "frames": 159
+    },
+    {
+     "text": "Sixty-eight is what you'd get if each side triangle were halfway between nine and twenty-five.",
+     "caption": "Sixty-eight is what you'd get if each side triangle were halfway between nine and twenty-five.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/748bb729c99b9cdf.wav",
+     "from": 606,
+     "frames": 197
+    },
+    {
+     "text": "Halfway is seventeen. But the true side area is nine times five over three, which is fifteen.",
+     "caption": "Halfway is seventeen. But the true side area is nine times five over three, which is fifteen.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/abcc54eb33156acb.wav",
+     "from": 814,
+     "frames": 230
+    },
+    {
+     "text": "So here's a great habit. Always count every piece, and square the scale for areas.",
+     "caption": "So here's a great habit. Always count every piece, and square the scale for areas.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/42052c78461534fc.wav",
+     "from": 1053,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new trapezoid",
+   "from": 8650,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new trapezoid.",
+     "caption": "Ready for a challenge? Here's a new trapezoid.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/fc25679e0b2caa3a.wav",
+     "from": 0,
+     "frames": 106
+    },
+    {
+     "text": "The top is four, and the bottom is eight.",
+     "caption": "The top is four, and the bottom is eight.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/27be40a00ddc4f12.wav",
+     "from": 116,
+     "frames": 119
+    },
+    {
+     "text": "The top triangle has area four. What is the area of the whole trapezoid?",
+     "caption": "The top triangle has area four. What is the area of the whole trapezoid?",
+     "file": "2026-10-30-trapezoid-diagonals/audio/6468ab5512bcdb7f.wav",
+     "from": 245,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9108,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New trapezoid: the answer",
+   "from": 9564,
+   "frames": 1705,
+   "lines": [
+    {
+     "text": "Let's check. Four to eight is one to two. So the bottom is a copy, twice as big.",
+     "caption": "Let's check. Four to eight is one to two. So the bottom is a copy, twice as big.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/7df5e05811662b3c.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "Area grows by two, twice. That's four. So the bottom triangle is four times four, which is sixteen.",
+     "caption": "Area grows by two, twice. That's four. So the bottom triangle is four times four, which is sixteen.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/aef4dc0acab33f26.wav",
+     "from": 237,
+     "frames": 272
+    },
+    {
+     "text": "Each side triangle is four times two. That's eight.",
+     "caption": "Each side triangle is four times two. That's eight.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/932a0d02b47abd4a.wav",
+     "from": 519,
+     "frames": 137
+    },
+    {
+     "text": "Four, plus sixteen, plus eight, plus eight. That's thirty-six!",
+     "caption": "Four, plus sixteen, plus eight, plus eight. That's thirty-six!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/b07122d3a6d078cc.wav",
+     "from": 666,
+     "frames": 201
+    },
+    {
+     "text": "Check with heights. Half of four, times the height, is four. So the top height is two.",
+     "caption": "Check with heights. Half of four, times the height, is four. So the top height is two.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/06915e94fdb337df.wav",
+     "from": 877,
+     "frames": 201
+    },
+    {
+     "text": "The bottom height is twice that, four. Two plus four is six.",
+     "caption": "The bottom height is twice that, four. Two plus four is six.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/75bed5097c193ad5.wav",
+     "from": 1088,
+     "frames": 182
+    },
+    {
+     "text": "Four plus eight is twelve. Half is six. Six times six is thirty-six. It matches!",
+     "caption": "Four plus eight is twelve. Half is six. Six times six is thirty-six. It matches!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/e3795f527de65dc9.wav",
+     "from": 1280,
+     "frames": 227
+    },
+    {
+     "text": "If you found thirty-six, amazing work!",
+     "caption": "If you found thirty-six, amazing work!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/c56f816f59481364.wav",
+     "from": 1517,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11269,
+   "frames": 651,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "The diagonals cut a trapezoid into four triangles. The top and bottom ones are copies.",
+     "caption": "The diagonals cut a trapezoid into four triangles. The top and bottom ones are copies.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/e3b77f6ef03b1798.wav",
+     "from": 86,
+     "frames": 196
+    },
+    {
+     "text": "Lengths grow by the scale. Areas grow by the scale, twice.",
+     "caption": "Lengths grow by the scale. Areas grow by the scale, twice.",
+     "file": "2026-10-30-trapezoid-diagonals/audio/bcd5af4bd0741514.wav",
+     "from": 292,
+     "frames": 152
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-trapezoid-diagonals/audio/31a6054d0b03b932.wav",
+     "from": 454,
+     "frames": 113
+    }
+   ]
+  }
+ ]
+}

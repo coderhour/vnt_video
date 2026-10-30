@@ -58,6 +58,23 @@ videos/<slug>/                  deliverable: video.mp4, poster.jpg, meta.json, s
 with y up, a live graph driven by the same formula as verify.py, equation rows on a right panel).
 Copy the two sfx files and `FREESOUND-CREDITS.md` into each new `public/<slug>/sfx/`, since credits travel with the video.
 
+## Model routing
+
+The main session orchestrates and does the thinking. Spend Opus where mistakes are costly and Sonnet where the work is bulky:
+
+- **Step 1**: no model needed beyond running `pick_question.py`.
+- **Steps 2–3 (solve, verify, script)**: do these in the main session, which should be Opus. If the session
+  runs on a smaller model, hand steps 2–3 to an Agent with `model: "opus"`.
+- **Steps 4–7 (voice, scenes, render, package)**: spawn ONE Agent with `model: "sonnet"`. Give it the slug and
+  tell it to read this SKILL.md and follow steps 4–7. `narration.json` and `verify.py` are the contract:
+  the builder must not change any maths or narration meaning. It may reword a line only when TTS mishears it,
+  and it must list every reworded line in its report. In the brief, list the key visuals for each scene: what must be
+  drawn or highlighted on which line (angle marks, heights, matching sides, the sums on trap cards). The builder
+  won't infer teaching visuals the script only implies. Check that any figure coordinates you give don't mislead
+  (e.g. diagonals that happen to be perpendicular).
+- **Step 8 (review)**: the reviewer Agent runs with `model: "opus"`. Send the fixes it finds back to the
+  Sonnet builder (SendMessage), or do small ones yourself.
+
 ## Workflow
 
 ### 1. Pick the question
@@ -241,7 +258,7 @@ In `studio/src/videos/<slug>/Composition.tsx`:
   so the bank name is part of it), and `pick_question.py` uses it to skip used questions.
 
 ### 8. Independent review (required)
-Send a fresh-context subagent the video, key frames, `narration.json`, the question JSON and
+Send a fresh-context subagent (`model: "opus"`) the video, key frames, `narration.json`, the question JSON and
 `verify.py`. Ask it to check:
 1. **Math**: re-solve blind and re-run `verify.py`. Every step is valid and the variant's answer is right.
 2. **Spoken vs shown**: the numbers and expressions match at the same moment, and nothing is misread.
