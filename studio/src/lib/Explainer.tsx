@@ -35,6 +35,7 @@ const Captions: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
                 fontWeight: 700,
                 lineHeight: 1.3,
                 textAlign: 'center',
+                textWrap: 'balance', // no 1-2 word (or hanzi) orphan last line
                 boxShadow: '0 6px 24px rgba(30, 40, 80, 0.08)',
               }}
             >
@@ -86,12 +87,14 @@ const ChapterPill: React.FC<{ timeline: Timeline; badge: string }> = ({ timeline
 };
 
 /** Shared frame for every explainer: scenes + narration audio + chapter pill + captions + Vantee logo. */
-export const Explainer: React.FC<{ timeline: Timeline; scenes: Record<string, SceneComponent>; badge: string }> = ({
+// `font` overrides the base font stack, e.g. `${NUNITO}, "Noto Sans CJK SC"` for a Chinese video (system font, see fonts.ts).
+export const Explainer: React.FC<{ timeline: Timeline; scenes: Record<string, SceneComponent>; badge: string; font?: string }> = ({
   timeline,
   scenes,
   badge,
+  font = NUNITO,
 }) => (
-  <AbsoluteFill style={{ background: C.bg, fontFamily: NUNITO, color: C.ink }}>
+  <AbsoluteFill style={{ background: C.bg, fontFamily: font, color: C.ink }}>
     {timeline.scenes.map((s) => {
       const Comp = scenes[s.id];
       if (!Comp) throw new Error(`No component for scene "${s.id}"`);

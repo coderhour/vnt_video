@@ -1,0 +1,520 @@
+{
+ "fps": 30,
+ "durationInFrames": 10793,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "A ladder leans over a big box and reaches a wall.",
+     "caption": "A ladder leans over a big box and reaches a wall.",
+     "file": "2026-10-30-ladder-over-box/audio/3d0e8a363dc3bf94.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "Most kids stop halfway and pick the wrong answer. <short pause> Not us!",
+     "caption": "Most kids stop halfway and pick the wrong answer. Not us!",
+     "file": "2026-10-30-ladder-over-box/audio/d542d0521fab91b2.wav",
+     "from": 144,
+     "frames": 147
+    },
+    {
+     "text": "Hello, my name is Vantee! Let's climb this one together.",
+     "caption": "Hello, my name is Vantee! Let's climb this one together.",
+     "file": "2026-10-30-ladder-over-box/audio/c42b46bb3aa75c7c.wav",
+     "from": 301,
+     "frames": 129
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 468,
+   "frames": 807,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-ladder-over-box/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "A box twelve feet tall and twelve feet deep sits on the ground, against a wall.",
+     "caption": "A box twelve feet tall and twelve feet deep sits on the ground, against a wall.",
+     "file": "2026-10-30-ladder-over-box/audio/02f0d0c4913e2632.wav",
+     "from": 54,
+     "frames": 194
+    },
+    {
+     "text": "A ladder has its foot on the ground, nine feet from the box.",
+     "caption": "A ladder has its foot on the ground, nine feet from the box.",
+     "file": "2026-10-30-ladder-over-box/audio/157f01f48203624e.wav",
+     "from": 257,
+     "frames": 136
+    },
+    {
+     "text": "It touches the top outer edge of the box, and reaches the wall.",
+     "caption": "It touches the top outer edge of the box, and reaches the wall.",
+     "file": "2026-10-30-ladder-over-box/audio/a105fd253fce3a54.wav",
+     "from": 403,
+     "frames": 137
+    },
+    {
+     "text": "How long is the ladder, in feet?",
+     "caption": "How long is the ladder, in feet?",
+     "file": "2026-10-30-ladder-over-box/audio/a3924572bc7abf24.wav",
+     "from": 551,
+     "frames": 82
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-ladder-over-box/audio/b97a89671840f7ca.wav",
+     "from": 643,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1275,
+   "frames": 652,
+   "lines": [
+    {
+     "text": "So what do we really know?",
+     "caption": "So what do we really know?",
+     "file": "2026-10-30-ladder-over-box/audio/95d10a5a1a6da445.wav",
+     "from": 0,
+     "frames": 68
+    },
+    {
+     "text": "The foot is nine feet from the box. The box is twelve deep, so the wall is twenty-one feet away.",
+     "caption": "The foot is nine feet from the box. The box is twelve deep, so the wall is twenty-one feet away.",
+     "file": "2026-10-30-ladder-over-box/audio/b0a560003f98a8be.wav",
+     "from": 77,
+     "frames": 225
+    },
+    {
+     "text": "The ladder just touches the box's top corner, twelve feet up.",
+     "caption": "The ladder just touches the box's top corner, twelve feet up.",
+     "file": "2026-10-30-ladder-over-box/audio/589214aed09436f2.wav",
+     "from": 312,
+     "frames": 140
+    },
+    {
+     "text": "We need the WHOLE ladder, from the ground all the way to the wall.",
+     "caption": "We need the WHOLE ladder, from the ground all the way to the wall.",
+     "file": "2026-10-30-ladder-over-box/audio/2b4a2c59d926e359.wav",
+     "from": 462,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1927,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-ladder-over-box/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "slope",
+   "kind": "scene",
+   "chapter": "Solution 1: rise over run",
+   "from": 2385,
+   "frames": 1178,
+   "lines": [
+    {
+     "text": "Welcome back! Let's look at the small triangle, from the foot to the box's corner.",
+     "caption": "Welcome back! Let's look at the small triangle, from the foot to the box's corner.",
+     "file": "2026-10-30-ladder-over-box/audio/4234c1489c71420c.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "Going nine feet across, the ladder rises twelve feet.",
+     "caption": "Going nine feet across, the ladder rises twelve feet.",
+     "file": "2026-10-30-ladder-over-box/audio/85210a333d99f52e.wav",
+     "from": 186,
+     "frames": 136
+    },
+    {
+     "text": "A straight ladder keeps the same steepness the whole way up.",
+     "caption": "A straight ladder keeps the same steepness the whole way up.",
+     "file": "2026-10-30-ladder-over-box/audio/cb397d1fc8d118f8.wav",
+     "from": 332,
+     "frames": 143
+    },
+    {
+     "text": "Twelve up for nine across is the same as four up for every three across.",
+     "caption": "Twelve up for nine across is the same as four up for every three across.",
+     "file": "2026-10-30-ladder-over-box/audio/ee7f9a6d1a56d865.wav",
+     "from": 485,
+     "frames": 194
+    },
+    {
+     "text": "The wall is twenty-one feet away. That's seven groups of three.",
+     "caption": "The wall is twenty-one feet away. That's seven groups of three.",
+     "file": "2026-10-30-ladder-over-box/audio/ec305aadd8a5774a.wav",
+     "from": 689,
+     "frames": 153
+    },
+    {
+     "text": "So the ladder rises seven groups of four. Seven times four is twenty-eight.",
+     "caption": "So the ladder rises seven groups of four. Seven times four is twenty-eight.",
+     "file": "2026-10-30-ladder-over-box/audio/4373bcf3b65b9688.wav",
+     "from": 852,
+     "frames": 162
+    },
+    {
+     "text": "The ladder meets the wall twenty-eight feet up!",
+     "caption": "The ladder meets the wall twenty-eight feet up!",
+     "file": "2026-10-30-ladder-over-box/audio/a1cc0a2fca1ea8e5.wav",
+     "from": 1024,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "pythag",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3563,
+   "frames": 1101,
+   "lines": [
+    {
+     "text": "Now we have a big right triangle. Twenty-one across, twenty-eight up.",
+     "caption": "Now we have a big right triangle. Twenty-one across, twenty-eight up.",
+     "file": "2026-10-30-ladder-over-box/audio/9b4bc2e671274ba5.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "The ladder is the long side. Let's use Pythagoras.",
+     "caption": "The ladder is the long side. Let's use Pythagoras.",
+     "file": "2026-10-30-ladder-over-box/audio/d8fe39b5725ac31a.wav",
+     "from": 171,
+     "frames": 113
+    },
+    {
+     "text": "Twenty-one squared is four hundred forty-one. Twenty-eight squared is seven hundred eighty-four.",
+     "caption": "Twenty-one squared is four hundred forty-one. Twenty-eight squared is seven hundred eighty-four.",
+     "file": "2026-10-30-ladder-over-box/audio/e6c2f6d3ff78c52c.wav",
+     "from": 294,
+     "frames": 242
+    },
+    {
+     "text": "Add them up. That's one thousand two hundred twenty-five.",
+     "caption": "Add them up. That's one thousand two hundred twenty-five.",
+     "file": "2026-10-30-ladder-over-box/audio/71e7b37f95fa9583.wav",
+     "from": 546,
+     "frames": 136
+    },
+    {
+     "text": "And thirty-five times thirty-five is one thousand two hundred twenty-five.",
+     "caption": "And thirty-five times thirty-five is one thousand two hundred twenty-five.",
+     "file": "2026-10-30-ladder-over-box/audio/b9382db7394dc717.wav",
+     "from": 692,
+     "frames": 168
+    },
+    {
+     "text": "So the ladder is thirty-five feet long. The answer is D!",
+     "caption": "So the ladder is thirty-five feet long. The answer is D!",
+     "file": "2026-10-30-ladder-over-box/audio/a692120a0a3dec0d.wav",
+     "from": 871,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "pieces",
+   "kind": "scene",
+   "chapter": "Solution 2: two pieces",
+   "from": 4664,
+   "frames": 1546,
+   "lines": [
+    {
+     "text": "Here is another way. The box corner cuts the ladder into two pieces.",
+     "caption": "Here is another way. The box corner cuts the ladder into two pieces.",
+     "file": "2026-10-30-ladder-over-box/audio/54f8d968642f8510.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "The lower piece: nine across, twelve up. That's the three, four, five triangle, times three.",
+     "caption": "The lower piece: nine across, twelve up. That's the three, four, five triangle, times three.",
+     "file": "2026-10-30-ladder-over-box/audio/8193c67cb156fdf6.wav",
+     "from": 170,
+     "frames": 194
+    },
+    {
+     "text": "So the lower piece is fifteen feet.",
+     "caption": "So the lower piece is fifteen feet.",
+     "file": "2026-10-30-ladder-over-box/audio/c1b3e459dcc836ab.wav",
+     "from": 373,
+     "frames": 82
+    },
+    {
+     "text": "The upper piece runs over the box, twelve feet across.",
+     "caption": "The upper piece runs over the box, twelve feet across.",
+     "file": "2026-10-30-ladder-over-box/audio/36f1b2e58939e017.wav",
+     "from": 465,
+     "frames": 134
+    },
+    {
+     "text": "Same steepness, so it rises four for every three. Twelve across means sixteen up.",
+     "caption": "Same steepness, so it rises four for every three. Twelve across means sixteen up.",
+     "file": "2026-10-30-ladder-over-box/audio/079374e8b2a2631d.wav",
+     "from": 609,
+     "frames": 219
+    },
+    {
+     "text": "Sides twelve, sixteen and twenty. That's the three, four, five triangle, times four.",
+     "caption": "Sides twelve, sixteen and twenty. That's the three, four, five triangle, times four.",
+     "file": "2026-10-30-ladder-over-box/audio/00de6f5bb09eb26f.wav",
+     "from": 838,
+     "frames": 201
+    },
+    {
+     "text": "So the upper piece is twenty feet. Fifteen plus twenty is thirty-five! It matches.",
+     "caption": "So the upper piece is twenty feet. Fifteen plus twenty is thirty-five! It matches.",
+     "file": "2026-10-30-ladder-over-box/audio/d2ca7490a81dfcfb.wav",
+     "from": 1049,
+     "frames": 225
+    },
+    {
+     "text": "When would you pick this way? When the pieces are nice triangles, the numbers stay small.",
+     "caption": "When would you pick this way? When the pieces are nice triangles, the numbers stay small.",
+     "file": "2026-10-30-ladder-over-box/audio/1cf915d05e87760c.wav",
+     "from": 1284,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6210,
+   "frames": 1304,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-ladder-over-box/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "Fifteen is just the lower piece. It stops at the box's corner.",
+     "caption": "Fifteen is just the lower piece. It stops at the box's corner.",
+     "file": "2026-10-30-ladder-over-box/audio/e9dff688c1cd6d21.wav",
+     "from": 162,
+     "frames": 141
+    },
+    {
+     "text": "Twenty is what you'd get if you only measured the upper piece, from the box to the wall.",
+     "caption": "Twenty is what you'd get if you only measured the upper piece, from the box to the wall.",
+     "file": "2026-10-30-ladder-over-box/audio/43f06915499f627b.wav",
+     "from": 313,
+     "frames": 161
+    },
+    {
+     "text": "Twenty-eight is how high the ladder reaches on the wall. That's a height, not the ladder's length.",
+     "caption": "Twenty-eight is how high the ladder reaches on the wall. That's a height, not the ladder's length.",
+     "file": "2026-10-30-ladder-over-box/audio/fba94add727b9513.wav",
+     "from": 484,
+     "frames": 189
+    },
+    {
+     "text": "Thirty-seven is what you'd get if you added nine across and twenty-eight up.",
+     "caption": "Thirty-seven is what you'd get if you added nine across and twenty-eight up.",
+     "file": "2026-10-30-ladder-over-box/audio/06a11177b63b29f6.wav",
+     "from": 683,
+     "frames": 161
+    },
+    {
+     "text": "But you can't just add across and up. The ladder cuts the corner, so use Pythagoras.",
+     "caption": "But you can't just add across and up. The ladder cuts the corner, so use Pythagoras.",
+     "file": "2026-10-30-ladder-over-box/audio/361f8f9d201dac77.wav",
+     "from": 854,
+     "frames": 212
+    },
+    {
+     "text": "So here's a great habit. Read the question again: the ladder goes all the way to the wall.",
+     "caption": "So here's a great habit. Read the question again: the ladder goes all the way to the wall.",
+     "file": "2026-10-30-ladder-over-box/audio/10413a9dcd4cd6bd.wav",
+     "from": 1076,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new ladder",
+   "from": 7514,
+   "frames": 649,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Let's try a new ladder, one with different numbers.",
+     "caption": "Ready for a challenge? Let's try a new ladder, one with different numbers.",
+     "file": "2026-10-30-ladder-over-box/audio/7f89805d5b6caf6a.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "This box is eight feet tall and nine feet deep, against a wall.",
+     "caption": "This box is eight feet tall and nine feet deep, against a wall.",
+     "file": "2026-10-30-ladder-over-box/audio/a1f938f68cc46948.wav",
+     "from": 166,
+     "frames": 166
+    },
+    {
+     "text": "The ladder's foot is six feet from the box. It touches the top outer edge and reaches the wall.",
+     "caption": "The ladder's foot is six feet from the box. It touches the top outer edge and reaches the wall.",
+     "file": "2026-10-30-ladder-over-box/audio/42c65897a0a9e3e0.wav",
+     "from": 342,
+     "frames": 195
+    },
+    {
+     "text": "How long is this ladder?",
+     "caption": "How long is this ladder?",
+     "file": "2026-10-30-ladder-over-box/audio/fb450c3a63579aac.wav",
+     "from": 547,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8163,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-ladder-over-box/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New ladder: the answer",
+   "from": 8616,
+   "frames": 1500,
+   "lines": [
+    {
+     "text": "Let's check. Six across, eight up. That's four up for every three across again.",
+     "caption": "Let's check. Six across, eight up. That's four up for every three across again.",
+     "file": "2026-10-30-ladder-over-box/audio/9ee73a68faf04c68.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "The wall is six plus nine, which is fifteen feet away. That's five groups of three.",
+     "caption": "The wall is six plus nine, which is fifteen feet away. That's five groups of three.",
+     "file": "2026-10-30-ladder-over-box/audio/7283bc8edfe786b4.wav",
+     "from": 238,
+     "frames": 197
+    },
+    {
+     "text": "So the ladder rises five groups of four. That's twenty feet up the wall.",
+     "caption": "So the ladder rises five groups of four. That's twenty feet up the wall.",
+     "file": "2026-10-30-ladder-over-box/audio/c1ae19e172244a37.wav",
+     "from": 445,
+     "frames": 172
+    },
+    {
+     "text": "Fifteen across, twenty up. Fifteen squared plus twenty squared is six hundred twenty-five.",
+     "caption": "Fifteen across, twenty up. Fifteen squared plus twenty squared is six hundred twenty-five.",
+     "file": "2026-10-30-ladder-over-box/audio/a719d58ff607350c.wav",
+     "from": 627,
+     "frames": 239
+    },
+    {
+     "text": "Twenty-five times twenty-five is six hundred twenty-five. So the ladder is twenty-five feet!",
+     "caption": "Twenty-five times twenty-five is six hundred twenty-five. So the ladder is twenty-five feet!",
+     "file": "2026-10-30-ladder-over-box/audio/b089d96176045cd4.wav",
+     "from": 876,
+     "frames": 195
+    },
+    {
+     "text": "Check with pieces: ten below the corner, fifteen above. Ten plus fifteen is twenty-five!",
+     "caption": "Check with pieces: ten below the corner, fifteen above. Ten plus fifteen is twenty-five!",
+     "file": "2026-10-30-ladder-over-box/audio/cb88d71bf33ce38a.wav",
+     "from": 1081,
+     "frames": 240
+    },
+    {
+     "text": "If you found twenty-five, amazing work!",
+     "caption": "If you found twenty-five, amazing work!",
+     "file": "2026-10-30-ladder-over-box/audio/6b287cbaeed7633c.wav",
+     "from": 1332,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10116,
+   "frames": 677,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-ladder-over-box/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "A straight line rises the same amount for every step across.",
+     "caption": "A straight line rises the same amount for every step across.",
+     "file": "2026-10-30-ladder-over-box/audio/fe7445eaadd882fc.wav",
+     "from": 94,
+     "frames": 140
+    },
+    {
+     "text": "So use the small triangle to find how high it goes, then use Pythagoras for the length.",
+     "caption": "So use the small triangle to find how high it goes, then use Pythagoras for the length.",
+     "file": "2026-10-30-ladder-over-box/audio/747006f354df90e9.wav",
+     "from": 243,
+     "frames": 188
+    },
+    {
+     "text": "Keep exploring, and I'll see you next time. Vantee, signing off!",
+     "caption": "Keep exploring, and I'll see you next time. Vantee, signing off!",
+     "file": "2026-10-30-ladder-over-box/audio/21d3e9c32d56bbf0.wav",
+     "from": 441,
+     "frames": 153
+    }
+   ]
+  }
+ ]
+}

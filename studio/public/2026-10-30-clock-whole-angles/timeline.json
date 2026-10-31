@@ -1,0 +1,561 @@
+{
+ "fps": 30,
+ "durationInFrames": 12325,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 553,
+   "lines": [
+    {
+     "text": "At one o'clock, the clock hands make a nice whole angle: thirty degrees.",
+     "caption": "At one o'clock, the clock hands make a nice whole angle: thirty degrees.",
+     "file": "2026-10-30-clock-whole-angles/audio/c1f5a14174a40c84.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "One minute later, it's twenty-four and a half degrees. <short pause> That is not a whole number.",
+     "caption": "One minute later, it's twenty-four and a half degrees. That is not a whole number.",
+     "file": "2026-10-30-clock-whole-angles/audio/3e783efef99e0e71.wav",
+     "from": 196,
+     "frames": 201
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find out when it stays whole.",
+     "caption": "Hi, I'm Vantee! Let's find out when it stays whole.",
+     "file": "2026-10-30-clock-whole-angles/audio/920ada4b55c365f3.wav",
+     "from": 407,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 553,
+   "frames": 626,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-clock-whole-angles/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 46
+    },
+    {
+     "text": "Look at every time from one o'clock to one fifty-nine, one minute apart.",
+     "caption": "Look at every time from one o'clock to one fifty-nine, one minute apart.",
+     "file": "2026-10-30-clock-whole-angles/audio/9ed164ee07569e99.wav",
+     "from": 56,
+     "frames": 194
+    },
+    {
+     "text": "At how many of these times is the smaller angle between the hands a whole number of degrees?",
+     "caption": "At how many of these times is the smaller angle between the hands a whole number of degrees?",
+     "file": "2026-10-30-clock-whole-angles/audio/6c910381e7cbc928.wav",
+     "from": 260,
+     "frames": 186
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-clock-whole-angles/audio/b97a89671840f7ca.wav",
+     "from": 457,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1179,
+   "frames": 450,
+   "lines": [
+    {
+     "text": "So we have sixty times to check, from one o'clock to one fifty-nine.",
+     "caption": "So we have sixty times to check, from one o'clock to one fifty-nine.",
+     "file": "2026-10-30-clock-whole-angles/audio/0ad6a02aa17d3048.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "We count the times when the smaller angle is whole, like thirty, not twenty-four and a half.",
+     "caption": "We count the times when the smaller angle is whole, like thirty, not twenty-four and a half.",
+     "file": "2026-10-30-clock-whole-angles/audio/3c568ce15e58f51e.wav",
+     "from": 182,
+     "frames": 214
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1629,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-clock-whole-angles/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "speeds",
+   "kind": "scene",
+   "chapter": "Solution 1: a formula",
+   "from": 2087,
+   "frames": 601,
+   "lines": [
+    {
+     "text": "Welcome back! The minute hand makes a full turn, three hundred sixty degrees, in sixty minutes.",
+     "caption": "Welcome back! The minute hand makes a full turn, three hundred sixty degrees, in sixty minutes.",
+     "file": "2026-10-30-clock-whole-angles/audio/cf2056c97d8f7638.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "That's six degrees every minute.",
+     "caption": "That's six degrees every minute.",
+     "file": "2026-10-30-clock-whole-angles/audio/db5c85e205791258.wav",
+     "from": 231,
+     "frames": 100
+    },
+    {
+     "text": "The hour hand moves one number, thirty degrees, in sixty minutes. That's half a degree a minute.",
+     "caption": "The hour hand moves one number, thirty degrees, in sixty minutes. That's half a degree a minute.",
+     "file": "2026-10-30-clock-whole-angles/audio/495b9624bbdca964.wav",
+     "from": 341,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "formula",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2688,
+   "frames": 1224,
+   "lines": [
+    {
+     "text": "Now let's build a formula. Call the minutes past one o'clock m.",
+     "caption": "Now let's build a formula. Call the minutes past one o'clock m.",
+     "file": "2026-10-30-clock-whole-angles/audio/dca645224d9d22f2.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "At one o'clock, the hour hand points at the one. That's thirty degrees past the twelve.",
+     "caption": "At one o'clock, the hour hand points at the one. That's thirty degrees past the twelve.",
+     "file": "2026-10-30-clock-whole-angles/audio/3e2f86aeab6654a1.wav",
+     "from": 169,
+     "frames": 174
+    },
+    {
+     "text": "After m minutes, it has moved half a degree for each minute. So it's at thirty plus half of m.",
+     "caption": "After m minutes, it has moved half a degree for each minute. So it's at thirty plus half of m.",
+     "file": "2026-10-30-clock-whole-angles/audio/7ac1d7cd5d833cdf.wav",
+     "from": 353,
+     "frames": 224
+    },
+    {
+     "text": "The minute hand starts at the twelve. After m minutes, it's at six m.",
+     "caption": "The minute hand starts at the twelve. After m minutes, it's at six m.",
+     "file": "2026-10-30-clock-whole-angles/audio/76c34d6234c528a1.wav",
+     "from": 587,
+     "frames": 173
+    },
+    {
+     "text": "Every minute, the minute hand gains six minus a half. That's five and a half degrees per minute.",
+     "caption": "Every minute, the minute hand gains six minus a half. That's five and a half degrees per minute.",
+     "file": "2026-10-30-clock-whole-angles/audio/c0045efcbc2c7e15.wav",
+     "from": 770,
+     "frames": 216
+    },
+    {
+     "text": "So the gap between the hands is thirty minus five and a half m.",
+     "caption": "So the gap between the hands is thirty minus five and a half m.",
+     "file": "2026-10-30-clock-whole-angles/audio/9fe8be11b9b94a76.wav",
+     "from": 997,
+     "frames": 167
+    }
+   ]
+  },
+  {
+   "id": "test",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3912,
+   "frames": 826,
+   "lines": [
+    {
+     "text": "Let's test it at twenty past one. Thirty minus one hundred ten is minus eighty.",
+     "caption": "Let's test it at twenty past one. Thirty minus one hundred ten is minus eighty.",
+     "file": "2026-10-30-clock-whole-angles/audio/77157d88752564fa.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "A gap can't be negative, so the angle is eighty degrees.",
+     "caption": "A gap can't be negative, so the angle is eighty degrees.",
+     "file": "2026-10-30-clock-whole-angles/audio/644e104373b441b2.wav",
+     "from": 220,
+     "frames": 148
+    },
+    {
+     "text": "At forty past one, the gap is one hundred ninety. That's more than one hundred eighty.",
+     "caption": "At forty past one, the gap is one hundred ninety. That's more than one hundred eighty.",
+     "file": "2026-10-30-clock-whole-angles/audio/19a0a72806ce1d19.wav",
+     "from": 378,
+     "frames": 201
+    },
+    {
+     "text": "So the smaller angle is three hundred sixty minus that: one hundred seventy degrees.",
+     "caption": "So the smaller angle is three hundred sixty minus that: one hundred seventy degrees.",
+     "file": "2026-10-30-clock-whole-angles/audio/b7fd8171a2907ea6.wav",
+     "from": 589,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "whole",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4738,
+   "frames": 848,
+   "lines": [
+    {
+     "text": "Now the big question. When is thirty minus five and a half m a whole number?",
+     "caption": "Now the big question. When is thirty minus five and a half m a whole number?",
+     "file": "2026-10-30-clock-whole-angles/audio/1acebf27d8df1dd7.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "Thirty is whole. So we need five and a half times m to be whole.",
+     "caption": "Thirty is whole. So we need five and a half times m to be whole.",
+     "file": "2026-10-30-clock-whole-angles/audio/98d1f09cf99c7d37.wav",
+     "from": 203,
+     "frames": 174
+    },
+    {
+     "text": "Five and a half times an even number is whole. Five and a half times two is eleven.",
+     "caption": "Five and a half times an even number is whole. Five and a half times two is eleven.",
+     "file": "2026-10-30-clock-whole-angles/audio/82c2d6ecd894d29f.wav",
+     "from": 388,
+     "frames": 207
+    },
+    {
+     "text": "An odd number leaves a half. Five and a half times three is sixteen and a half.",
+     "caption": "An odd number leaves a half. Five and a half times three is sixteen and a half.",
+     "file": "2026-10-30-clock-whole-angles/audio/027602573441d5c6.wav",
+     "from": 605,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5586,
+   "frames": 793,
+   "lines": [
+    {
+     "text": "Three hundred sixty minus a whole number is whole too. So it's whole exactly when m is even.",
+     "caption": "Three hundred sixty minus a whole number is whole too. So it's whole exactly when m is even.",
+     "file": "2026-10-30-clock-whole-angles/audio/f62c921fe7922a7a.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "Let's count the even minutes. Pair them up: zero and one, two and three, and so on.",
+     "caption": "Let's count the even minutes. Pair them up: zero and one, two and three, and so on.",
+     "file": "2026-10-30-clock-whole-angles/audio/0eca94c4c0dbef16.wav",
+     "from": 222,
+     "frames": 213
+    },
+    {
+     "text": "Sixty minutes make thirty pairs, with one even minute in each pair.",
+     "caption": "Sixty minutes make thirty pairs, with one even minute in each pair.",
+     "file": "2026-10-30-clock-whole-angles/audio/7dba02f5a4e45d33.wav",
+     "from": 445,
+     "frames": 162
+    },
+    {
+     "text": "So the answer is thirty. That's D!",
+     "caption": "So the answer is thirty. That's D!",
+     "file": "2026-10-30-clock-whole-angles/audio/1cd715ed5292ef38.wav",
+     "from": 617,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "hands",
+   "kind": "scene",
+   "chapter": "Solution 2: watch each hand",
+   "from": 6379,
+   "frames": 1312,
+   "lines": [
+    {
+     "text": "Here's a quicker way. Look at each hand on its own.",
+     "caption": "Here's a quicker way. Look at each hand on its own.",
+     "file": "2026-10-30-clock-whole-angles/audio/1e8f8c0fc380d4bb.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "The minute hand moves six degrees a minute, so it always sits on a whole degree.",
+     "caption": "The minute hand moves six degrees a minute, so it always sits on a whole degree.",
+     "file": "2026-10-30-clock-whole-angles/audio/074c354fe6ff1139.wav",
+     "from": 127,
+     "frames": 177
+    },
+    {
+     "text": "The hour hand starts at thirty and moves half a degree a minute.",
+     "caption": "The hour hand starts at thirty and moves half a degree a minute.",
+     "file": "2026-10-30-clock-whole-angles/audio/493337e36f989981.wav",
+     "from": 314,
+     "frames": 159
+    },
+    {
+     "text": "On even minutes, it's on a whole degree. On odd minutes, it's on a half, like thirty and a half.",
+     "caption": "On even minutes, it's on a whole degree. On odd minutes, it's on a half, like thirty and a half.",
+     "file": "2026-10-30-clock-whole-angles/audio/761a92957f8ca93b.wav",
+     "from": 483,
+     "frames": 207
+    },
+    {
+     "text": "Whole minus whole is whole. But a whole number minus something and a half is never whole.",
+     "caption": "Whole minus whole is whole. But a whole number minus something and a half is never whole.",
+     "file": "2026-10-30-clock-whole-angles/audio/a9772ce9d25769da.wav",
+     "from": 700,
+     "frames": 215
+    },
+    {
+     "text": "So the angle is whole every other minute. Thirty times!",
+     "caption": "So the angle is whole every other minute. Thirty times!",
+     "file": "2026-10-30-clock-whole-angles/audio/48df312ef998cf55.wav",
+     "from": 925,
+     "frames": 144
+    },
+    {
+     "text": "When would you pick this way? When you want a fast answer without a formula.",
+     "caption": "When would you pick this way? When you want a fast answer without a formula.",
+     "file": "2026-10-30-clock-whole-angles/audio/c0a7fab06d34bc53.wav",
+     "from": 1080,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7691,
+   "frames": 1204,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-clock-whole-angles/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Sixty counts every minute, without checking whether the angle is whole.",
+     "caption": "Sixty counts every minute, without checking whether the angle is whole.",
+     "file": "2026-10-30-clock-whole-angles/audio/afbbc2fc484505cf.wav",
+     "from": 147,
+     "frames": 140
+    },
+    {
+     "text": "Twenty-nine counts the even minutes from two up to fifty-eight, and forgets one o'clock itself.",
+     "caption": "Twenty-nine counts the even minutes from two up to fifty-eight, and forgets one o'clock itself.",
+     "file": "2026-10-30-clock-whole-angles/audio/f9cd254d0bb4a20c.wav",
+     "from": 297,
+     "frames": 213
+    },
+    {
+     "text": "Twelve is what you would get if you only counted times when the minute hand points right at a number.",
+     "caption": "Twelve is what you would get if you only counted times when the minute hand points right at a number.",
+     "file": "2026-10-30-clock-whole-angles/audio/77338ffd42d47698.wav",
+     "from": 520,
+     "frames": 179
+    },
+    {
+     "text": "Fifteen is what you'd get if you counted only even angles. But odd ones, like nineteen, count too.",
+     "caption": "Fifteen is what you'd get if you counted only even angles. But odd ones, like nineteen, count too.",
+     "file": "2026-10-30-clock-whole-angles/audio/1d52048fc9efcb30.wav",
+     "from": 709,
+     "frames": 203
+    },
+    {
+     "text": "So here's a great habit. Check the very first time, and test an even minute AND an odd minute.",
+     "caption": "So here's a great habit. Check the very first time, and test an even minute AND an odd minute.",
+     "file": "2026-10-30-clock-whole-angles/audio/d8256cc7f5372e6d.wav",
+     "from": 922,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new hour",
+   "from": 8895,
+   "frames": 459,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the times run from two o'clock to two fifty-nine.",
+     "caption": "Ready for a challenge? Now the times run from two o'clock to two fifty-nine.",
+     "file": "2026-10-30-clock-whole-angles/audio/fe8245b4a11d49be.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "At how many of them is the smaller angle a multiple of five degrees, like five, ten or fifteen?",
+     "caption": "At how many of them is the smaller angle a multiple of five degrees, like five, ten or fifteen?",
+     "file": "2026-10-30-clock-whole-angles/audio/aba3dfa96da25122.wav",
+     "from": 186,
+     "frames": 234
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9354,
+   "frames": 455,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-clock-whole-angles/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New hour: the answer",
+   "from": 9809,
+   "frames": 1888,
+   "lines": [
+    {
+     "text": "At two o'clock, the hour hand is at sixty degrees. So the gap is sixty minus five and a half m.",
+     "caption": "At two o'clock, the hour hand is at sixty degrees. So the gap is sixty minus five and a half m.",
+     "file": "2026-10-30-clock-whole-angles/audio/130872c3bc57af34.wav",
+     "from": 0,
+     "frames": 238
+    },
+    {
+     "text": "First, the angle must be whole, so m must be even.",
+     "caption": "First, the angle must be whole, so m must be even.",
+     "file": "2026-10-30-clock-whole-angles/audio/139b8005c56560a7.wav",
+     "from": 248,
+     "frames": 155
+    },
+    {
+     "text": "Five and a half times an even minute gives eleven, twenty-two, thirty-three: multiples of eleven.",
+     "caption": "Five and a half times an even minute gives eleven, twenty-two, thirty-three: multiples of eleven.",
+     "file": "2026-10-30-clock-whole-angles/audio/87367070bcc91666.wav",
+     "from": 413,
+     "frames": 214
+    },
+    {
+     "text": "Sixty is a multiple of five. So we need a multiple of eleven that is ALSO a multiple of five.",
+     "caption": "Sixty is a multiple of five. So we need a multiple of eleven that is ALSO a multiple of five.",
+     "file": "2026-10-30-clock-whole-angles/audio/1639a22e22f9b6da.wav",
+     "from": 637,
+     "frames": 203
+    },
+    {
+     "text": "That's zero, then fifty-five, then one hundred ten, and so on.",
+     "caption": "That's zero, then fifty-five, then one hundred ten, and so on.",
+     "file": "2026-10-30-clock-whole-angles/audio/7747d1039db38605.wav",
+     "from": 851,
+     "frames": 198
+    },
+    {
+     "text": "Fifty-five is five and a half times ten, so they come every ten minutes.",
+     "caption": "Fifty-five is five and a half times ten, so they come every ten minutes.",
+     "file": "2026-10-30-clock-whole-angles/audio/196d827535e76498.wav",
+     "from": 1059,
+     "frames": 154
+    },
+    {
+     "text": "Three hundred sixty minus a multiple of five is one too. So m is zero, ten, twenty, up to fifty.",
+     "caption": "Three hundred sixty minus a multiple of five is one too. So m is zero, ten, twenty, up to fifty.",
+     "file": "2026-10-30-clock-whole-angles/audio/de75ea4c5c935baa.wav",
+     "from": 1223,
+     "frames": 252
+    },
+    {
+     "text": "That's six times! Check ten past two: sixty minus fifty-five is five degrees.",
+     "caption": "That's six times! Check ten past two: sixty minus fifty-five is five degrees.",
+     "file": "2026-10-30-clock-whole-angles/audio/e01e28187e1c5486.wav",
+     "from": 1486,
+     "frames": 230
+    },
+    {
+     "text": "If you found six, amazing work!",
+     "caption": "If you found six, amazing work!",
+     "file": "2026-10-30-clock-whole-angles/audio/6d35a0ed647aadf9.wav",
+     "from": 1725,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11697,
+   "frames": 628,
+   "lines": [
+    {
+     "text": "Here's the big idea.",
+     "caption": "Here's the big idea.",
+     "file": "2026-10-30-clock-whole-angles/audio/4f3d14433c3cdfd5.wav",
+     "from": 0,
+     "frames": 68
+    },
+    {
+     "text": "Write the gap between the hands as a formula in the minutes: thirty minus five and a half m.",
+     "caption": "Write the gap between the hands as a formula in the minutes: thirty minus five and a half m.",
+     "file": "2026-10-30-clock-whole-angles/audio/fe860feede89e76d.wav",
+     "from": 78,
+     "frames": 196
+    },
+    {
+     "text": "Then ask which minutes make it whole. Here, every even minute works.",
+     "caption": "Then ask which minutes make it whole. Here, every even minute works.",
+     "file": "2026-10-30-clock-whole-angles/audio/3b612e51656bbd62.wav",
+     "from": 284,
+     "frames": 142
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-clock-whole-angles/audio/31a6054d0b03b932.wav",
+     "from": 436,
+     "frames": 108
+    }
+   ]
+  }
+ ]
+}

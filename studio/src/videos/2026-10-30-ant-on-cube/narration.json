@@ -1,0 +1,156 @@
+{
+ "title": "An Ant's Random Walk on a Cube | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "lines": [
+    "An ant takes three random steps along the edges of a cube.",
+    "How likely is it to end up at the far corner? <short pause> Let's find out!",
+    "Hi, I'm Vantee! Let's crack it together."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "lines": [
+    "Here's the question.",
+    "An ant stands on a corner of a cube.",
+    "Each minute, it walks along an edge to one of the three nearest corners.",
+    "Each of those three corners has the same chance.",
+    "What is the probability that after three minutes, it's at the corner farthest from its start?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "lines": [
+    "Let's name the corners. The ant starts at corner A.",
+    "The corner farthest from A is G, at the opposite end of the cube.",
+    "The ant takes exactly three steps. We want the chance that it ends at G."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "layers",
+   "chapter": "Solution 1: step by step",
+   "hold": 1,
+   "lines": [
+    "Welcome back! Let's sort the corners by how many edges they are from A.",
+    "B, D and E are next to A. They're one edge away.",
+    "C, F and H are two edges away. And G is three edges away.",
+    "Here's the key. The ant has only three steps, and G is three edges away.",
+    "So every step must take it farther from A. If it ever steps back, it runs out of steps."
+   ]
+  },
+  {
+   "id": "steps",
+   "hold": 1.2,
+   "lines": [
+    "Step one: from A, all three edges lead away. The chance is three over three, which is one.",
+    "Step two: say the ant went to B. From D or E, the picture is just the same.",
+    "From B, one edge goes back to A, and two go farther away. That's two over three.",
+    "Step three: say it's at C now. Two edges go back, and only one goes to G. That's one over three.",
+    "All three steps must go right, one after another. So we multiply the chances.",
+    "One, times two over three, times one over three,",
+    "is two over nine. That's choice C!"
+   ]
+  },
+  {
+   "id": "count",
+   "chapter": "Solution 2: count the walks",
+   "hold": 5,
+   "lines": [
+    "Here's another way. Let's count every possible walk.",
+    "Each minute, the ant has three choices. Three times three times three is twenty-seven walks.",
+    "All twenty-seven walks are equally likely. So how many of them end at G?",
+    "Think of the edges as three directions: across, up, and in.",
+    "To get from A to G, the ant must go across once, up once, and in once.",
+    "Going the same direction twice cancels out. Then three steps can't cover all three directions.",
+    "So every good walk is one order of those three moves.",
+    "Three choices for the first move, two for the second, one for the last. That's six walks.",
+    "Here are all six routes, drawn on the cube."
+   ]
+  },
+  {
+   "id": "total2",
+   "hold": 1.5,
+   "lines": [
+    "Six out of twenty-seven is six over twenty-seven. That's two over nine. It matches!",
+    "Look! Three, two, one on top, and three, three, three below. The same numbers as before.",
+    "When would you pick this way? When the walks are easy to list, it's a great double-check."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "lines": [
+    "Now, let's look at the wrong answers. Each one is a trap.",
+    "One over twenty-seven is one over three, three times. It treats every step like step three.",
+    "But step one is always safe, and step two has two good edges. There are six routes, not one.",
+    "One over nine is what you'd get if step two had only one good edge. But it has two.",
+    "One over three is what you'd get if you only looked at the last step.",
+    "Four over nine is what you'd get if the last step had two good edges. Only one reaches G.",
+    "So here's a great habit. At each step, count only the edges that keep you on track."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a sleepy ant",
+   "hold": 0.5,
+   "lines": [
+    "Ready for a challenge? Here's a sleepy ant on the same cube.",
+    "Each minute, it walks along one of the three edges, or it naps and stays put.",
+    "All four choices are equally likely. What's the chance it's at G after three minutes?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Sleepy ant: the answer",
+   "hold": 1.5,
+   "lines": [
+    "Let's check. G is still three edges away, and there are still three minutes.",
+    "So the ant can't nap at all! Every step must move away from A.",
+    "Now each minute has four choices, not three.",
+    "The chances are three over four, then two over four, then one over four.",
+    "Multiply them: six over sixty-four,",
+    "which is three over thirty-two.",
+    "Count check: four times four times four is sixty-four walks, and the same six routes work.",
+    "If you found three over thirty-two, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "lines": [
+    "Here's the big idea to remember.",
+    "At each step, ask which moves keep you on the path, and find that chance.",
+    "Then multiply the chances along the path.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

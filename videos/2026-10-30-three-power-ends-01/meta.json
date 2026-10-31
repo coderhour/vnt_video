@@ -1,0 +1,7 @@
+{
+  "title": "When Does 3^n End in 01? | AMC 8-Style Level 4",
+  "description": "Powers of three grow huge fast, so how can we ever tell when one ends in 01?\nVantee shows two tricks: follow the loop of the last digit, then watch the last two digits step down by twenty.\nThen try a powers-of-nine challenge on your own!\n\n0:00 Intro\n0:17 The question\n0:37 What are we asked?\n0:51 Try it yourself\n1:07 Solution 1: last digit first\n2:56 Solution 2: just add eighty\n3:57 Common traps\n4:57 Your turn: powers of nine\n5:23 Powers of nine: the answer\n6:13 Recap",
+  "created": "2026-10-30",
+  "question_id": "amc_practice_amc8_mixed_template:c1-339",
+  "posts": []
+}

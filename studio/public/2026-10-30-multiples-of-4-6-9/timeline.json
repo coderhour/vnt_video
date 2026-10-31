@@ -1,0 +1,575 @@
+{
+ "fps": 30,
+ "durationInFrames": 12534,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 544,
+   "lines": [
+    {
+     "text": "How many numbers up to one thousand are multiples of four, six or nine?",
+     "caption": "How many numbers up to one thousand are multiples of four, six or nine?",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/2fa7fb2a8deeff6d.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "It's tempting to count each one and add. <short pause> But some numbers sneak in twice!",
+     "caption": "It's tempting to count each one and add. But some numbers sneak in twice!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/c63635ebbde9456f.wav",
+     "from": 194,
+     "frames": 161
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count them carefully together.",
+     "caption": "Hi, I'm Vantee! Let's count them carefully together.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/1c6d49f067669aaf.wav",
+     "from": 365,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 544,
+   "frames": 520,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "How many whole numbers from one to one thousand",
+     "caption": "How many whole numbers from one to one thousand",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/15e0f668b7ce8f04.wav",
+     "from": 53,
+     "frames": 110
+    },
+    {
+     "text": "are multiples of at least one of four, six and nine?",
+     "caption": "are multiples of at least one of four, six and nine?",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/5346130426992aec.wav",
+     "from": 173,
+     "frames": 147
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/b97a89671840f7ca.wav",
+     "from": 330,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1064,
+   "frames": 488,
+   "lines": [
+    {
+     "text": "So what are we counting? A number counts if four, six or nine goes into it.",
+     "caption": "So what are we counting? A number counts if four, six or nine goes into it.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/f3153a7d71c14ed9.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "Just one is enough. Twelve fits two rules, four and six, but it counts only ONCE.",
+     "caption": "Just one is enough. Twelve fits two rules, four and six, but it counts only ONCE.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/6c8c1d73b1b2a0bf.wav",
+     "from": 231,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1552,
+   "frames": 467,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "singles",
+   "kind": "scene",
+   "chapter": "Solution 1: a Venn diagram",
+   "from": 2019,
+   "frames": 994,
+   "lines": [
+    {
+     "text": "Welcome back! First, let's count the multiples of each number on its own.",
+     "caption": "Welcome back! First, let's count the multiples of each number on its own.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/d3b8ccb2bb6cd79c.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "One thousand divided by four is two hundred fifty. That's two hundred fifty multiples of four.",
+     "caption": "One thousand divided by four is two hundred fifty. That's two hundred fifty multiples of four.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/39b441bbf2bb7064.wav",
+     "from": 175,
+     "frames": 196
+    },
+    {
+     "text": "One thousand divided by six is one hundred sixty-six, with four left over.",
+     "caption": "One thousand divided by six is one hundred sixty-six, with four left over.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/9b1ad9531a71b056.wav",
+     "from": 381,
+     "frames": 173
+    },
+    {
+     "text": "One thousand divided by nine is one hundred eleven, with one left over.",
+     "caption": "One thousand divided by nine is one hundred eleven, with one left over.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/c8a208c59459f31c.wav",
+     "from": 564,
+     "frames": 164
+    },
+    {
+     "text": "Adding them gives five hundred twenty-seven. But wait, some numbers got counted twice!",
+     "caption": "Adding them gives five hundred twenty-seven. But wait, some numbers got counted twice!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/805aa1528358db9f.wav",
+     "from": 738,
+     "frames": 202
+    }
+   ]
+  },
+  {
+   "id": "pairs",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3013,
+   "frames": 1099,
+   "lines": [
+    {
+     "text": "Twelve is a multiple of four AND six. So we counted it twice.",
+     "caption": "Twelve is a multiple of four AND six. So we counted it twice.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/6c9c92b08d65350f.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "Where do four and six meet? Four, eight, twelve. And six, twelve. They first meet at twelve.",
+     "caption": "Where do four and six meet? Four, eight, twelve. And six, twelve. They first meet at twelve.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/70e1757e85f56b56.wav",
+     "from": 158,
+     "frames": 306
+    },
+    {
+     "text": "So the overlap is the multiples of twelve. Twenty-four would miss twelve and thirty-six!",
+     "caption": "So the overlap is the multiples of twelve. Twenty-four would miss twelve and thirty-six!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/b8e6b04f744151aa.wav",
+     "from": 474,
+     "frames": 212
+    },
+    {
+     "text": "Six and nine first meet at eighteen.",
+     "caption": "Six and nine first meet at eighteen.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/3e99b841704aa724.wav",
+     "from": 696,
+     "frames": 101
+    },
+    {
+     "text": "Four and nine share no factor except one. So they first meet at four times nine, thirty-six.",
+     "caption": "Four and nine share no factor except one. So they first meet at four times nine, thirty-six.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/f5830f050b6e406f.wav",
+     "from": 807,
+     "frames": 238
+    }
+   ]
+  },
+  {
+   "id": "subtract",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4112,
+   "frames": 840,
+   "lines": [
+    {
+     "text": "Now divide by twelve, eighteen and thirty-six. We get eighty-three, fifty-five and twenty-seven.",
+     "caption": "Now divide by twelve, eighteen and thirty-six. We get eighty-three, fifty-five and twenty-seven.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/1947bc69e3021ede.wav",
+     "from": 0,
+     "frames": 284
+    },
+    {
+     "text": "Eighty-three plus fifty-five plus twenty-seven is one hundred sixty-five. Let's take those away.",
+     "caption": "Eighty-three plus fifty-five plus twenty-seven is one hundred sixty-five. Let's take those away.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/2865017e72c08996.wav",
+     "from": 294,
+     "frames": 219
+    },
+    {
+     "text": "Five hundred twenty-seven minus one hundred sixty-five,",
+     "caption": "Five hundred twenty-seven minus one hundred sixty-five,",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/3d79a829b5617c27.wav",
+     "from": 522,
+     "frames": 144
+    },
+    {
+     "text": "That is three hundred sixty-two. Are we done?",
+     "caption": "That is three hundred sixty-two. Are we done?",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/3dca3a0e1e10ea0a.wav",
+     "from": 677,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "addback",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4952,
+   "frames": 943,
+   "lines": [
+    {
+     "text": "Not yet! Think about thirty-six. It's a multiple of four, six AND nine.",
+     "caption": "Not yet! Think about thirty-six. It's a multiple of four, six AND nine.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/de9b411c146f13a8.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "We counted it three times, then took it away three times. Now it's not counted at all!",
+     "caption": "We counted it three times, then took it away three times. Now it's not counted at all!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/4cba24ff0014599d.wav",
+     "from": 219,
+     "frames": 190
+    },
+    {
+     "text": "All three first meet at thirty-six. So we add back those twenty-seven numbers, once.",
+     "caption": "All three first meet at thirty-six. So we add back those twenty-seven numbers, once.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/b0254d6f9aab1b3d.wav",
+     "from": 419,
+     "frames": 198
+    },
+    {
+     "text": "Three hundred sixty-two plus twenty-seven,",
+     "caption": "Three hundred sixty-two plus twenty-seven,",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/f3f992cee75a1f3a.wav",
+     "from": 628,
+     "frames": 122
+    },
+    {
+     "text": "That makes three hundred eighty-nine. The answer is C!",
+     "caption": "That makes three hundred eighty-nine. The answer is C!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/7b58aace87a96960.wav",
+     "from": 760,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "aha",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5895,
+   "frames": 625,
+   "lines": [
+    {
+     "text": "Here's something cool. Look at the slice for four and nine, without six.",
+     "caption": "Here's something cool. Look at the slice for four and nine, without six.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/88976ce4c19f6efe.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "A multiple of four and nine is a multiple of thirty-six. And thirty-six is a multiple of six!",
+     "caption": "A multiple of four and nine is a multiple of thirty-six. And thirty-six is a multiple of six!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/5bf9394cdf2cbd94.wav",
+     "from": 178,
+     "frames": 200
+    },
+    {
+     "text": "So that slice is empty. That's why the twenty-seven we took away came right back.",
+     "caption": "So that slice is empty. That's why the twenty-seven we took away came right back.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/568d73fc3bfff85a.wav",
+     "from": 388,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "buildup",
+   "kind": "scene",
+   "chapter": "Solution 2: build it up",
+   "from": 6520,
+   "frames": 1796,
+   "lines": [
+    {
+     "text": "Now for a second way. Let's build the list one rule at a time.",
+     "caption": "Now for a second way. Let's build the list one rule at a time.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/b559d84d27b25e80.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "First, the multiples of four or six.",
+     "caption": "First, the multiples of four or six.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/5fd48134872c4b50.wav",
+     "from": 158,
+     "frames": 101
+    },
+    {
+     "text": "Two hundred fifty plus one hundred sixty-six, minus eighty-three multiples of twelve.",
+     "caption": "Two hundred fifty plus one hundred sixty-six, minus eighty-three multiples of twelve.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/8d73a78292f2a8af.wav",
+     "from": 269,
+     "frames": 203
+    },
+    {
+     "text": "That's three hundred thirty-three so far. Now, which multiples of nine are NEW?",
+     "caption": "That's three hundred thirty-three so far. Now, which multiples of nine are NEW?",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/277e5ce6de17c475.wav",
+     "from": 483,
+     "frames": 188
+    },
+    {
+     "text": "An even multiple of nine is a multiple of eighteen. So it's a multiple of six, already counted.",
+     "caption": "An even multiple of nine is a multiple of eighteen. So it's a multiple of six, already counted.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/d9f7b4a73e59c3fb.wav",
+     "from": 680,
+     "frames": 214
+    },
+    {
+     "text": "Multiples of four and six are all even. So every ODD multiple of nine is new.",
+     "caption": "Multiples of four and six are all even. So every ODD multiple of nine is new.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/5078a7619736b352.wav",
+     "from": 904,
+     "frames": 207
+    },
+    {
+     "text": "There are one hundred eleven multiples of nine, and fifty-five are even. So fifty-six are odd.",
+     "caption": "There are one hundred eleven multiples of nine, and fifty-five are even. So fifty-six are odd.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/5e053c9039387350.wav",
+     "from": 1121,
+     "frames": 213
+    },
+    {
+     "text": "Three hundred thirty-three plus fifty-six is three hundred eighty-nine. Same answer!",
+     "caption": "Three hundred thirty-three plus fifty-six is three hundred eighty-nine. Same answer!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/3ef300f824750327.wav",
+     "from": 1344,
+     "frames": 191
+    },
+    {
+     "text": "When would you pick this way? When one overlap hides inside another, it saves steps.",
+     "caption": "When would you pick this way? When one overlap hides inside another, it saves steps.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/c18991be12fed89c.wav",
+     "from": 1545,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8316,
+   "frames": 1416,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "Five hundred twenty-seven adds the three counts, but never takes away the overlaps.",
+     "caption": "Five hundred twenty-seven adds the three counts, but never takes away the overlaps.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/55ab0e399ca5f25a.wav",
+     "from": 143,
+     "frames": 176
+    },
+    {
+     "text": "Three hundred sixty-two takes away the overlaps, but forgets to add the thirty-sixes back.",
+     "caption": "Three hundred sixty-two takes away the overlaps, but forgets to add the thirty-sixes back.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/1a78f1a536bd5e46.wav",
+     "from": 329,
+     "frames": 196
+    },
+    {
+     "text": "Three hundred eighty-eight is what you'd get if you left out one thousand, a multiple of four!",
+     "caption": "Three hundred eighty-eight is what you'd get if you left out one thousand, a multiple of four!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/b9053f1dc108bbfc.wav",
+     "from": 535,
+     "frames": 173
+    },
+    {
+     "text": "You'd get four hundred sixteen if you skipped four and nine, but added the thirty-sixes back.",
+     "caption": "You'd get four hundred sixteen if you skipped four and nine, but added the thirty-sixes back.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/24ea2f476a4a243f.wav",
+     "from": 718,
+     "frames": 194
+    },
+    {
+     "text": "Four and nine share no factor, but they still meet at thirty-six, seventy-two and more.",
+     "caption": "Four and nine share no factor, but they still meet at thirty-six, seventy-two and more.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/3ed0fa6a0786b6f2.wav",
+     "from": 922,
+     "frames": 225
+    },
+    {
+     "text": "So here's a great habit. For each overlap, find the FIRST number where the two rules meet.",
+     "caption": "So here's a great habit. For each overlap, find the FIRST number where the two rules meet.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/7ff232e98b5edf35.wav",
+     "from": 1157,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: four, six or ten",
+   "from": 9732,
+   "frames": 448,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new one.",
+     "caption": "Ready for a challenge? Here's a new one.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/bf21733c8ff1d25b.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "How many whole numbers from one to three hundred",
+     "caption": "How many whole numbers from one to three hundred",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/8c4e783b42a6b757.wav",
+     "from": 94,
+     "frames": 120
+    },
+    {
+     "text": "are multiples of at least one of four, six and ten?",
+     "caption": "are multiples of at least one of four, six and ten?",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/ae139a8553ffa7c7.wav",
+     "from": 224,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10180,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Four, six or ten: the answer",
+   "from": 10633,
+   "frames": 1208,
+   "lines": [
+    {
+     "text": "Let's check. Three hundred divided by four, six and ten gives seventy-five, fifty and thirty.",
+     "caption": "Let's check. Three hundred divided by four, six and ten gives seventy-five, fifty and thirty.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/a6c7c7d404e02545.wav",
+     "from": 0,
+     "frames": 255
+    },
+    {
+     "text": "Adding those gives one hundred fifty-five.",
+     "caption": "Adding those gives one hundred fifty-five.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/bbf31b8f401d2474.wav",
+     "from": 265,
+     "frames": 101
+    },
+    {
+     "text": "The pairs first meet at twelve, twenty and thirty. That's twenty-five, fifteen and ten numbers.",
+     "caption": "The pairs first meet at twelve, twenty and thirty. That's twenty-five, fifteen and ten numbers.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/0287f7944d148a6b.wav",
+     "from": 377,
+     "frames": 255
+    },
+    {
+     "text": "Take away those fifty. All three meet at sixty, and three hundred divided by sixty is five.",
+     "caption": "Take away those fifty. All three meet at sixty, and three hundred divided by sixty is five.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/2ab052d7d93841f3.wav",
+     "from": 642,
+     "frames": 203
+    },
+    {
+     "text": "So one hundred fifty-five minus fifty, plus five back,",
+     "caption": "So one hundred fifty-five minus fifty, plus five back,",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/a982778671dfe76a.wav",
+     "from": 855,
+     "frames": 159
+    },
+    {
+     "text": "That makes one hundred ten! Amazing work!",
+     "caption": "That makes one hundred ten! Amazing work!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/ed0edbbff967ca89.wav",
+     "from": 1024,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11841,
+   "frames": 693,
+   "lines": [
+    {
+     "text": "Here's the big idea. Add the three counts. Take away each pair's overlap.",
+     "caption": "Here's the big idea. Add the three counts. Take away each pair's overlap.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/e34dbf9e2b477c88.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Then add back the overlap of all three.",
+     "caption": "Then add back the overlap of all three.",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/f7287a70935f76ff.wav",
+     "from": 176,
+     "frames": 101
+    },
+    {
+     "text": "For each overlap, use the smallest number they all go into. That's twelve, not twenty-four!",
+     "caption": "For each overlap, use the smallest number they all go into. That's twelve, not twenty-four!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/e572c760720eea4b.wav",
+     "from": 287,
+     "frames": 197
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-multiples-of-4-6-9/audio/31a6054d0b03b932.wav",
+     "from": 495,
+     "frames": 114
+    }
+   ]
+  }
+ ]
+}

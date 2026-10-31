@@ -242,8 +242,8 @@ In `studio/src/videos/<slug>/Composition.tsx`:
 
 ### 7. Render and package
 - `npx remotion render ... ../videos/<slug>/video.mp4`
-- Normalise the loudness to YouTube's -14 LUFS (the raw render comes out around -19). Video is copied, not re-encoded:
-  `ffmpeg -i video.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k out.mp4`
+- Normalise the loudness to YouTube's -14 LUFS (the raw render comes out around -19). One loudnorm pass overshoots the -1.5 dB true peak, so the limiter (0.8 ≈ -1.9 dB, headroom for AAC) caps it. Video is copied, not re-encoded:
+  `ffmpeg -i video.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.8:level=false -ar 48000 -c:a aac -b:a 192k out.mp4`
 - `poster.jpg`: a still of the question scene (`ffmpeg -ss <sec> -i video.mp4 -frames:v 1 poster.jpg`).
 - `videos/<slug>/meta.json`:
   ```json

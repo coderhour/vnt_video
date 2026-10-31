@@ -1,0 +1,538 @@
+{
+ "fps": 30,
+ "durationInFrames": 12580,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 443,
+   "lines": [
+    {
+     "text": "Two lines cross inside a triangle, and one piece is shaded.",
+     "caption": "Two lines cross inside a triangle, and one piece is shaded.",
+     "file": "2026-10-30-cevian-area-ratio/audio/38f710ed80c6be1c.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "It's tempting to guess half the triangle. <short pause> But the real answer is sneakier.",
+     "caption": "It's tempting to guess half the triangle. But the real answer is sneakier.",
+     "file": "2026-10-30-cevian-area-ratio/audio/5fedabc3be1b9316.wav",
+     "from": 136,
+     "frames": 159
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack it together.",
+     "caption": "Hi, I'm Vantee! Let's crack it together.",
+     "file": "2026-10-30-cevian-area-ratio/audio/661802bfe72e72dd.wav",
+     "from": 305,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 443,
+   "frames": 796,
+   "lines": [
+    {
+     "text": "Here's the question. Triangle A B C has area sixty.",
+     "caption": "Here's the question. Triangle A B C has area sixty.",
+     "file": "2026-10-30-cevian-area-ratio/audio/db0b57c29ab3e740.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "D is the midpoint of B C.",
+     "caption": "D is the midpoint of B C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/8ad3c2d7cb43f322.wav",
+     "from": 157,
+     "frames": 90
+    },
+    {
+     "text": "E is on A C, and A E to E C is two to one.",
+     "caption": "E is on A C, and A E to E C is two to one.",
+     "file": "2026-10-30-cevian-area-ratio/audio/2f6f5ca1126f824c.wav",
+     "from": 257,
+     "frames": 149
+    },
+    {
+     "text": "Segments A D and B E meet at point P. What is the area of the shaded triangle A B P?",
+     "caption": "Segments A D and B E meet at point P. What is the area of the shaded triangle A B P?",
+     "file": "2026-10-30-cevian-area-ratio/audio/333dd50c0a4f03d0.wav",
+     "from": 417,
+     "frames": 238
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-cevian-area-ratio/audio/b97a89671840f7ca.wav",
+     "from": 665,
+     "frames": 87
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1239,
+   "frames": 616,
+   "lines": [
+    {
+     "text": "So what do we really know?",
+     "caption": "So what do we really know?",
+     "file": "2026-10-30-cevian-area-ratio/audio/95d10a5a1a6da445.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "D cuts B C into two equal halves. E cuts A C into three equal parts: two near A, one near C.",
+     "caption": "D cuts B C into two equal halves. E cuts A C into three equal parts: two near A, one near C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/dea0340c7d690de4.wav",
+     "from": 90,
+     "frames": 285
+    },
+    {
+     "text": "The real puzzle is where P sits on A D. Once we know that, we're nearly done.",
+     "caption": "The real puzzle is where P sits on A D. Once we know that, we're nearly done.",
+     "file": "2026-10-30-cevian-area-ratio/audio/158eb656918143c6.wav",
+     "from": 385,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1855,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-cevian-area-ratio/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": "Solution 1: same-height triangles",
+   "from": 2323,
+   "frames": 710,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start with one handy rule.",
+     "caption": "Welcome back! Let's start with one handy rule.",
+     "file": "2026-10-30-cevian-area-ratio/audio/406d61569d4ae642.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "Two triangles with the same corner, and bases on the same line, have the same height.",
+     "caption": "Two triangles with the same corner, and bases on the same line, have the same height.",
+     "file": "2026-10-30-cevian-area-ratio/audio/72aa0fcc1982e67f.wav",
+     "from": 117,
+     "frames": 166
+    },
+    {
+     "text": "So their areas compare just like their bases.",
+     "caption": "So their areas compare just like their bases.",
+     "file": "2026-10-30-cevian-area-ratio/audio/d99ef859ee7df7ea.wav",
+     "from": 293,
+     "frames": 101
+    },
+    {
+     "text": "D is the midpoint, so triangles A B D and A D C each get half of sixty. That's thirty each.",
+     "caption": "D is the midpoint, so triangles A B D and A D C each get half of sixty. That's thirty each.",
+     "file": "2026-10-30-cevian-area-ratio/audio/0b8298edea84df09.wav",
+     "from": 404,
+     "frames": 267
+    }
+   ]
+  },
+  {
+   "id": "pieces",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3033,
+   "frames": 1006,
+   "lines": [
+    {
+     "text": "Now draw one more line, from C to P. That cuts the triangle into five pieces.",
+     "caption": "Now draw one more line, from C to P. That cuts the triangle into five pieces.",
+     "file": "2026-10-30-cevian-area-ratio/audio/b2436cc0f281e49c.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "Look at B P D and C P D. Same corner P, equal bases. So they're equal. Call each one x.",
+     "caption": "Look at B P D and C P D. Same corner P, equal bases. So they're equal. Call each one x.",
+     "file": "2026-10-30-cevian-area-ratio/audio/f23b4ff13067ed0a.wav",
+     "from": 219,
+     "frames": 264
+    },
+    {
+     "text": "Now A P E and C P E. Same corner P, and A E is double the length of E C.",
+     "caption": "Now A P E and C P E. Same corner P, and A E is double the length of E C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/5c0739e9ba053eae.wav",
+     "from": 494,
+     "frames": 238
+    },
+    {
+     "text": "So A P E is twice as big. Call C P E y, and A P E two y.",
+     "caption": "So A P E is twice as big. Call C P E y, and A P E two y.",
+     "file": "2026-10-30-cevian-area-ratio/audio/f4cf601d2e2c77ac.wav",
+     "from": 742,
+     "frames": 226
+    }
+   ]
+  },
+  {
+   "id": "equations",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4039,
+   "frames": 1118,
+   "lines": [
+    {
+     "text": "Time for two equations. Triangle A D C is thirty, and its pieces are x, y and two y.",
+     "caption": "Time for two equations. Triangle A D C is thirty, and its pieces are x, y and two y.",
+     "file": "2026-10-30-cevian-area-ratio/audio/8c695c8ee3e3b628.wav",
+     "from": 0,
+     "frames": 288
+    },
+    {
+     "text": "So x plus three y equals thirty.",
+     "caption": "So x plus three y equals thirty.",
+     "file": "2026-10-30-cevian-area-ratio/audio/6bbd6e9f35fd4198.wav",
+     "from": 299,
+     "frames": 125
+    },
+    {
+     "text": "Next, triangle B E C. It shares corner B with the big triangle, and E C is one third of A C.",
+     "caption": "Next, triangle B E C. It shares corner B with the big triangle, and E C is one third of A C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/8419b5842c7d7712.wav",
+     "from": 434,
+     "frames": 264
+    },
+    {
+     "text": "So B E C is one third of sixty, which is twenty. Its pieces are x, x and y.",
+     "caption": "So B E C is one third of sixty, which is twenty. Its pieces are x, x and y.",
+     "file": "2026-10-30-cevian-area-ratio/audio/2f075a3e5a211778.wav",
+     "from": 709,
+     "frames": 238
+    },
+    {
+     "text": "So two x plus y equals twenty.",
+     "caption": "So two x plus y equals twenty.",
+     "file": "2026-10-30-cevian-area-ratio/audio/25aacb5d49ee9204.wav",
+     "from": 957,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "id": "solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5157,
+   "frames": 1316,
+   "lines": [
+    {
+     "text": "Let's double the first equation. Two x plus six y equals sixty.",
+     "caption": "Let's double the first equation. Two x plus six y equals sixty.",
+     "file": "2026-10-30-cevian-area-ratio/audio/5589c5b501c6a058.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "The other one says two x plus y equals twenty. The difference is five y, and that's forty.",
+     "caption": "The other one says two x plus y equals twenty. The difference is five y, and that's forty.",
+     "file": "2026-10-30-cevian-area-ratio/audio/8d3d9fa4b9d775d7.wav",
+     "from": 175,
+     "frames": 216
+    },
+    {
+     "text": "So y is eight. Then two x plus eight is twenty, so x is six.",
+     "caption": "So y is eight. Then two x plus eight is twenty, so x is six.",
+     "file": "2026-10-30-cevian-area-ratio/audio/b08f2960dedcd746.wav",
+     "from": 401,
+     "frames": 212
+    },
+    {
+     "text": "A B D is thirty, and B P D is six. So A B P is thirty minus six: <short pause> twenty-four! That's C.",
+     "caption": "A B D is thirty, and B P D is six. So A B P is thirty minus six: twenty-four! That's C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/851a15ed50523dfd.wav",
+     "from": 623,
+     "frames": 329
+    },
+    {
+     "text": "Check: A B P and A P E make A B E. Twenty-four plus sixteen is forty, two thirds of sixty.",
+     "caption": "Check: A B P and A P E make A B E. Twenty-four plus sixteen is forty, two thirds of sixty.",
+     "file": "2026-10-30-cevian-area-ratio/audio/3e2babf277f47417.wav",
+     "from": 962,
+     "frames": 315
+    }
+   ]
+  },
+  {
+   "id": "parallel",
+   "kind": "scene",
+   "chapter": "Solution 2: a parallel line",
+   "from": 6473,
+   "frames": 2164,
+   "lines": [
+    {
+     "text": "Here's a second way, with one clever extra line.",
+     "caption": "Here's a second way, with one clever extra line.",
+     "file": "2026-10-30-cevian-area-ratio/audio/7e21cb8dde0f91a6.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "Here's the rule we need. A line parallel to one side of a triangle cuts the other two sides in the same ratio.",
+     "caption": "Here's the rule we need. A line parallel to one side of a triangle cuts the other two sides in the same ratio.",
+     "file": "2026-10-30-cevian-area-ratio/audio/2a27f7f9f5a0156c.wav",
+     "from": 130,
+     "frames": 242
+    },
+    {
+     "text": "From D, draw a line parallel to B E. It meets A C at a new point, F.",
+     "caption": "From D, draw a line parallel to B E. It meets A C at a new point, F.",
+     "file": "2026-10-30-cevian-area-ratio/audio/03b49e29e2146c75.wav",
+     "from": 382,
+     "frames": 204
+    },
+    {
+     "text": "D is halfway along C B. So the parallel line lands halfway along C E. F is the midpoint of E C.",
+     "caption": "D is halfway along C B. So the parallel line lands halfway along C E. F is the midpoint of E C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/e9d253af3ea9d75c.wav",
+     "from": 597,
+     "frames": 298
+    },
+    {
+     "text": "Now count steps along A C. E C is two steps, so A E is four steps, and E F is one.",
+     "caption": "Now count steps along A C. E C is two steps, so A E is four steps, and E F is one.",
+     "file": "2026-10-30-cevian-area-ratio/audio/733f8366f8e6c8e5.wav",
+     "from": 905,
+     "frames": 275
+    },
+    {
+     "text": "In triangle A D F, P E is parallel to D F. So A P to P D matches A E to E F: four to one.",
+     "caption": "In triangle A D F, P E is parallel to D F. So A P to P D matches A E to E F: four to one.",
+     "file": "2026-10-30-cevian-area-ratio/audio/71bd1e804fad448a.wav",
+     "from": 1190,
+     "frames": 329
+    },
+    {
+     "text": "So A P is four fifths of A D. That makes A B P four fifths of A B D.",
+     "caption": "So A P is four fifths of A D. That makes A B P four fifths of A B D.",
+     "file": "2026-10-30-cevian-area-ratio/audio/552112d9f2c76983.wav",
+     "from": 1529,
+     "frames": 231
+    },
+    {
+     "text": "Four fifths of thirty is twenty-four. Same answer! It's C.",
+     "caption": "Four fifths of thirty is twenty-four. Same answer! It's C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/b766fb7413b1c017.wav",
+     "from": 1770,
+     "frames": 160
+    },
+    {
+     "text": "When would you pick this way? When you need a ratio along a line, fast, with no equations.",
+     "caption": "When would you pick this way? When you need a ratio along a line, fast, with no equations.",
+     "file": "2026-10-30-cevian-area-ratio/audio/66355283681eb361.wav",
+     "from": 1940,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8637,
+   "frames": 1405,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-cevian-area-ratio/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Thirty is triangle A B D, half the whole. Too big, because A B P is only part of it.",
+     "caption": "Thirty is triangle A B D, half the whole. Too big, because A B P is only part of it.",
+     "file": "2026-10-30-cevian-area-ratio/audio/f52b7349089a08d6.wav",
+     "from": 137,
+     "frames": 236
+    },
+    {
+     "text": "Forty is triangle A B E, two thirds of the whole. Also too big.",
+     "caption": "Forty is triangle A B E, two thirds of the whole. Also too big.",
+     "file": "2026-10-30-cevian-area-ratio/audio/207c91afed6d99e8.wav",
+     "from": 382,
+     "frames": 191
+    },
+    {
+     "text": "Twenty is what you'd get if you copied two to one onto A D. Two thirds of thirty is twenty.",
+     "caption": "Twenty is what you'd get if you copied two to one onto A D. Two thirds of thirty is twenty.",
+     "file": "2026-10-30-cevian-area-ratio/audio/4437642534cee111.wav",
+     "from": 583,
+     "frames": 203
+    },
+    {
+     "text": "But two to one belongs to line A C. Line A D has its own split: four to one.",
+     "caption": "But two to one belongs to line A C. Line A D has its own split: four to one.",
+     "file": "2026-10-30-cevian-area-ratio/audio/bce64f0a9a26af2a.wav",
+     "from": 797,
+     "frames": 173
+    },
+    {
+     "text": "Fifteen is what you'd get if P were the midpoint of A D. Half of thirty is fifteen.",
+     "caption": "Fifteen is what you'd get if P were the midpoint of A D. Half of thirty is fifteen.",
+     "file": "2026-10-30-cevian-area-ratio/audio/fa2fe2e1c3275391.wav",
+     "from": 980,
+     "frames": 188
+    },
+    {
+     "text": "So here's a great habit. Every line gets its own ratio. Find it before you use it.",
+     "caption": "So here's a great habit. Every line gets its own ratio. Find it before you use it.",
+     "file": "2026-10-30-cevian-area-ratio/audio/fde34c7926cb04fc.wav",
+     "from": 1178,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new triangle",
+   "from": 10042,
+   "frames": 521,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new triangle with area eighty-four.",
+     "caption": "Ready for a challenge? Here's a new triangle with area eighty-four.",
+     "file": "2026-10-30-cevian-area-ratio/audio/213558c1c64e5b6c.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "D is still the midpoint of B C. But now A E to E C is three to one.",
+     "caption": "D is still the midpoint of B C. But now A E to E C is three to one.",
+     "file": "2026-10-30-cevian-area-ratio/audio/71dd2ccecda4717a.wav",
+     "from": 161,
+     "frames": 194
+    },
+    {
+     "text": "What is the area of triangle A B P?",
+     "caption": "What is the area of triangle A B P?",
+     "file": "2026-10-30-cevian-area-ratio/audio/5e363206934fc0c2.wav",
+     "from": 364,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10563,
+   "frames": 394,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-cevian-area-ratio/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New triangle: the answer",
+   "from": 10957,
+   "frames": 948,
+   "lines": [
+    {
+     "text": "Let's use the parallel line. D F is parallel to B E, so F is still the midpoint of E C.",
+     "caption": "Let's use the parallel line. D F is parallel to B E, so F is still the midpoint of E C.",
+     "file": "2026-10-30-cevian-area-ratio/audio/a9ec64d94778e885.wav",
+     "from": 0,
+     "frames": 261
+    },
+    {
+     "text": "E C is two steps, so A E is six steps, and E F is one. So A P is six sevenths of A D.",
+     "caption": "E C is two steps, so A E is six steps, and E F is one. So A P is six sevenths of A D.",
+     "file": "2026-10-30-cevian-area-ratio/audio/5054ae486f4e846b.wav",
+     "from": 271,
+     "frames": 323
+    },
+    {
+     "text": "Triangle A B D is half of eighty-four, which is forty-two.",
+     "caption": "Triangle A B D is half of eighty-four, which is forty-two.",
+     "file": "2026-10-30-cevian-area-ratio/audio/f2412235a059aac6.wav",
+     "from": 604,
+     "frames": 158
+    },
+    {
+     "text": "Six sevenths of forty-two is thirty-six!",
+     "caption": "Six sevenths of forty-two is thirty-six!",
+     "file": "2026-10-30-cevian-area-ratio/audio/87c6337e8d9acbbe.wav",
+     "from": 771,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11905,
+   "frames": 675,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-cevian-area-ratio/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "When two lines cross inside a triangle, find how the crossing point splits each line.",
+     "caption": "When two lines cross inside a triangle, find how the crossing point splits each line.",
+     "file": "2026-10-30-cevian-area-ratio/audio/fb354a9b110709e6.wav",
+     "from": 85,
+     "frames": 185
+    },
+    {
+     "text": "Use same-height triangles, or a parallel line. Then take that fraction of a bigger triangle.",
+     "caption": "Use same-height triangles, or a parallel line. Then take that fraction of a bigger triangle.",
+     "file": "2026-10-30-cevian-area-ratio/audio/f9bb9d701e54e53a.wav",
+     "from": 281,
+     "frames": 213
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-cevian-area-ratio/audio/31a6054d0b03b932.wav",
+     "from": 504,
+     "frames": 118
+    }
+   ]
+  }
+ ]
+}

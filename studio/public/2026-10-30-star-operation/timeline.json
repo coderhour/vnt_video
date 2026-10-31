@@ -1,0 +1,568 @@
+{
+ "fps": 30,
+ "durationInFrames": 12818,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 438,
+   "lines": [
+    {
+     "text": "This puzzle uses a strange new symbol: a star.",
+     "caption": "This puzzle uses a strange new symbol: a star.",
+     "file": "2026-10-30-star-operation/audio/bfe0973f1bc8847a.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Lots of kids stop one step too early here. Let's go all the way!",
+     "caption": "Lots of kids stop one step too early here. Let's go all the way!",
+     "file": "2026-10-30-star-operation/audio/304f18a1178137ff.wav",
+     "from": 134,
+     "frames": 152
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack it together.",
+     "caption": "Hi, I'm Vantee! Let's crack it together.",
+     "file": "2026-10-30-star-operation/audio/661802bfe72e72dd.wav",
+     "from": 296,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 438,
+   "frames": 715,
+   "lines": [
+    {
+     "text": "Here's the question. For numbers a and b, a star b means a plus b, over one plus a times b.",
+     "caption": "Here's the question. For numbers a and b, a star b means a plus b, over one plus a times b.",
+     "file": "2026-10-30-star-operation/audio/867cde8519dd3ea4.wav",
+     "from": 0,
+     "frames": 261
+    },
+    {
+     "text": "Find the value of one over two, star one over three, then star one over four, then star one over five.",
+     "caption": "Find the value of one over two, star one over three, then star one over four, then star one over five.",
+     "file": "2026-10-30-star-operation/audio/872a2556b6d9df2c.wav",
+     "from": 271,
+     "frames": 270
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-star-operation/audio/b97a89671840f7ca.wav",
+     "from": 551,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1153,
+   "frames": 501,
+   "lines": [
+    {
+     "text": "So what are we really asked?",
+     "caption": "So what are we really asked?",
+     "file": "2026-10-30-star-operation/audio/a5bbe2eaf37c0f6d.wav",
+     "from": 0,
+     "frames": 84
+    },
+    {
+     "text": "Star is a made-up rule. Put in two numbers, and out comes a new one.",
+     "caption": "Star is a made-up rule. Put in two numbers, and out comes a new one.",
+     "file": "2026-10-30-star-operation/audio/cadba6e6540e60b1.wav",
+     "from": 95,
+     "frames": 164
+    },
+    {
+     "text": "The brackets say: begin inside, then star each answer with the next number.",
+     "caption": "The brackets say: begin inside, then star each answer with the next number.",
+     "file": "2026-10-30-star-operation/audio/43f458b2c35e8007.wav",
+     "from": 268,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1654,
+   "frames": 463,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-star-operation/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "step1",
+   "kind": "scene",
+   "chapter": "Solution 1: step by step",
+   "from": 2117,
+   "frames": 945,
+   "lines": [
+    {
+     "text": "Welcome back! Let's follow the rule, one step at a time.",
+     "caption": "Welcome back! Let's follow the rule, one step at a time.",
+     "file": "2026-10-30-star-operation/audio/87a90460e144024c.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "First, one over two, star one over three. We'll do the top and bottom separately.",
+     "caption": "First, one over two, star one over three. We'll do the top and bottom separately.",
+     "file": "2026-10-30-star-operation/audio/1640d23087e272b7.wav",
+     "from": 145,
+     "frames": 172
+    },
+    {
+     "text": "Top: one over two plus one over three. That's five over six.",
+     "caption": "Top: one over two plus one over three. That's five over six.",
+     "file": "2026-10-30-star-operation/audio/9d48a93404b76d46.wav",
+     "from": 327,
+     "frames": 185
+    },
+    {
+     "text": "Bottom: one plus one over six. That's seven over six.",
+     "caption": "Bottom: one plus one over six. That's seven over six.",
+     "file": "2026-10-30-star-operation/audio/cdcab15d939bda58.wav",
+     "from": 523,
+     "frames": 141
+    },
+    {
+     "text": "Five over six, divided by seven over six. The sixes cancel. Five over seven!",
+     "caption": "Five over six, divided by seven over six. The sixes cancel. Five over seven!",
+     "file": "2026-10-30-star-operation/audio/7b2b9b71e2e95235.wav",
+     "from": 674,
+     "frames": 218
+    }
+   ]
+  },
+  {
+   "id": "step2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3062,
+   "frames": 792,
+   "lines": [
+    {
+     "text": "Step two: five over seven, star one over four.",
+     "caption": "Step two: five over seven, star one over four.",
+     "file": "2026-10-30-star-operation/audio/cf559f7ea49f83b7.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "Top: five over seven plus one over four is twenty-seven over twenty-eight.",
+     "caption": "Top: five over seven plus one over four is twenty-seven over twenty-eight.",
+     "file": "2026-10-30-star-operation/audio/511b7ef59e0ee67d.wav",
+     "from": 145,
+     "frames": 184
+    },
+    {
+     "text": "Bottom: one plus five over twenty-eight is thirty-three over twenty-eight.",
+     "caption": "Bottom: one plus five over twenty-eight is thirty-three over twenty-eight.",
+     "file": "2026-10-30-star-operation/audio/fa9e17f896769405.wav",
+     "from": 339,
+     "frames": 196
+    },
+    {
+     "text": "So we get twenty-seven over thirty-three. Divide both by three. Nine over eleven!",
+     "caption": "So we get twenty-seven over thirty-three. Divide both by three. Nine over eleven!",
+     "file": "2026-10-30-star-operation/audio/da6c3a6b764621e6.wav",
+     "from": 545,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "step3",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3854,
+   "frames": 900,
+   "lines": [
+    {
+     "text": "Last step: nine over eleven, star one over five.",
+     "caption": "Last step: nine over eleven, star one over five.",
+     "file": "2026-10-30-star-operation/audio/bdc5b032ee7a4d7c.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "Top: nine over eleven plus one over five is fifty-six over fifty-five.",
+     "caption": "Top: nine over eleven plus one over five is fifty-six over fifty-five.",
+     "file": "2026-10-30-star-operation/audio/b07fd7fb3994a5b7.wav",
+     "from": 156,
+     "frames": 188
+    },
+    {
+     "text": "Bottom: one plus nine over fifty-five is sixty-four over fifty-five.",
+     "caption": "Bottom: one plus nine over fifty-five is sixty-four over fifty-five.",
+     "file": "2026-10-30-star-operation/audio/7074d2040acbc9f9.wav",
+     "from": 354,
+     "frames": 203
+    },
+    {
+     "text": "So we get fifty-six over sixty-four. Divide both by eight.",
+     "caption": "So we get fifty-six over sixty-four. Divide both by eight.",
+     "file": "2026-10-30-star-operation/audio/cb7bbc80a34bacd0.wav",
+     "from": 567,
+     "frames": 161
+    },
+    {
+     "text": "<short pause> That's seven over eight! The answer is C.",
+     "caption": "That's seven over eight! The answer is C.",
+     "file": "2026-10-30-star-operation/audio/bba952dfeb8dcfdc.wav",
+     "from": 738,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "kind": "scene",
+   "chapter": "Solution 2: the score trick",
+   "from": 4754,
+   "frames": 1221,
+   "lines": [
+    {
+     "text": "Here's a sneaky second way. Let's give each number a score.",
+     "caption": "Here's a sneaky second way. Let's give each number a score.",
+     "file": "2026-10-30-star-operation/audio/3cf98ca7bb65d0c4.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "The score is one plus the number, over one minus the number.",
+     "caption": "The score is one plus the number, over one minus the number.",
+     "file": "2026-10-30-star-operation/audio/a62536d0407dca3e.wav",
+     "from": 153,
+     "frames": 162
+    },
+    {
+     "text": "Take one over two. Its score is three over two, divided by one over two. That's three.",
+     "caption": "Take one over two. Its score is three over two, divided by one over two. That's three.",
+     "file": "2026-10-30-star-operation/audio/4507bff5d7795005.wav",
+     "from": 325,
+     "frames": 204
+    },
+    {
+     "text": "And one over three scores two. Here's the magic: star two numbers, and their scores multiply!",
+     "caption": "And one over three scores two. Here's the magic: star two numbers, and their scores multiply!",
+     "file": "2026-10-30-star-operation/audio/6d4dba467f870c29.wav",
+     "from": 540,
+     "frames": 228
+    },
+    {
+     "text": "Let's test it. Our first step gave five over seven.",
+     "caption": "Let's test it. Our first step gave five over seven.",
+     "file": "2026-10-30-star-operation/audio/af9b8ebe66fb6867.wav",
+     "from": 778,
+     "frames": 122
+    },
+    {
+     "text": "Its score is twelve over seven, divided by two over seven. That's six. And three times two is six!",
+     "caption": "Its score is twelve over seven, divided by two over seven. That's six. And three times two is six!",
+     "file": "2026-10-30-star-operation/audio/c838172ecc65aa74.wav",
+     "from": 910,
+     "frames": 257
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5975,
+   "frames": 614,
+   "lines": [
+    {
+     "text": "Why does it work? Add one to a star b: the top becomes one plus a, times one plus b. Multiply it out!",
+     "caption": "Why does it work? Add one to a star b: the top becomes one plus a, times one plus b. Multiply it out!",
+     "file": "2026-10-30-star-operation/audio/a0f9114d293e57ab.wav",
+     "from": 0,
+     "frames": 257
+    },
+    {
+     "text": "Take a star b away from one. The top is one minus a, times one minus b. Divide: the bottoms cancel!",
+     "caption": "Take a star b away from one. The top is one minus a, times one minus b. Divide: the bottoms cancel!",
+     "file": "2026-10-30-star-operation/audio/0376e794f29adcf9.wav",
+     "from": 267,
+     "frames": 293
+    }
+   ]
+  },
+  {
+   "id": "score-chain",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6589,
+   "frames": 1836,
+   "lines": [
+    {
+     "text": "Each star multiplies the scores. So the score of the final answer is the four scores, multiplied.",
+     "caption": "Each star multiplies the scores. So the score of the final answer is the four scores, multiplied.",
+     "file": "2026-10-30-star-operation/audio/c72fa519f717a2cf.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "Now our four scores: three over one, four over two, five over three, and six over four.",
+     "caption": "Now our four scores: three over one, four over two, five over three, and six over four.",
+     "file": "2026-10-30-star-operation/audio/f5839d50b1c30e8a.wav",
+     "from": 226,
+     "frames": 258
+    },
+    {
+     "text": "Multiply them, and almost everything cancels! Five times six, over two. That's fifteen.",
+     "caption": "Multiply them, and almost everything cancels! Five times six, over two. That's fifteen.",
+     "file": "2026-10-30-star-operation/audio/d37ce5d45ae6ce9f.wav",
+     "from": 495,
+     "frames": 232
+    },
+    {
+     "text": "So one plus the answer is fifteen times one minus the answer.",
+     "caption": "So one plus the answer is fifteen times one minus the answer.",
+     "file": "2026-10-30-star-operation/audio/69403baf0dbb4840.wav",
+     "from": 737,
+     "frames": 189
+    },
+    {
+     "text": "One plus the answer, plus one minus the answer, is always two.",
+     "caption": "One plus the answer, plus one minus the answer, is always two.",
+     "file": "2026-10-30-star-operation/audio/f7c621970ac13b35.wav",
+     "from": 936,
+     "frames": 176
+    },
+    {
+     "text": "That's fifteen parts plus one part, so sixteen parts make two. Each part is one over eight.",
+     "caption": "That's fifteen parts plus one part, so sixteen parts make two. Each part is one over eight.",
+     "file": "2026-10-30-star-operation/audio/2d8f7f60b4266215.wav",
+     "from": 1122,
+     "frames": 231
+    },
+    {
+     "text": "One minus the answer is one over eight. So the answer is seven over eight!",
+     "caption": "One minus the answer is one over eight. So the answer is seven over eight!",
+     "file": "2026-10-30-star-operation/audio/38aa7c11b6996cb1.wav",
+     "from": 1362,
+     "frames": 228
+    },
+    {
+     "text": "When would you pick this way? When the chain is long, like ten stars in a row.",
+     "caption": "When would you pick this way? When the chain is long, like ten stars in a row.",
+     "file": "2026-10-30-star-operation/audio/74bfd5b9c1159189.wav",
+     "from": 1601,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8425,
+   "frames": 1319,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-star-operation/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "Five over seven is only the first step. Two more stars are left!",
+     "caption": "Five over seven is only the first step. Two more stars are left!",
+     "file": "2026-10-30-star-operation/audio/cd46285e85dc6689.wav",
+     "from": 146,
+     "frames": 152
+    },
+    {
+     "text": "Nine over eleven comes after two steps. There's still one more to go.",
+     "caption": "Nine over eleven comes after two steps. There's still one more to go.",
+     "file": "2026-10-30-star-operation/audio/9e44e46377046633.wav",
+     "from": 307,
+     "frames": 142
+    },
+    {
+     "text": "Seventy-seven over sixty just adds the four fractions. It forgets the bottom of the rule.",
+     "caption": "Seventy-seven over sixty just adds the four fractions. It forgets the bottom of the rule.",
+     "file": "2026-10-30-star-operation/audio/b2484d08a7d532e4.wav",
+     "from": 459,
+     "frames": 182
+    },
+    {
+     "text": "Use the star on two numbers between zero and one, and the result stays below one. So it's too big!",
+     "caption": "Use the star on two numbers between zero and one, and the result stays below one. So it's too big!",
+     "file": "2026-10-30-star-operation/audio/2227f902ec54b6af.wav",
+     "from": 651,
+     "frames": 243
+    },
+    {
+     "text": "Fourteen over fifteen is what you'd get if you just did one minus one over fifteen.",
+     "caption": "Fourteen over fifteen is what you'd get if you just did one minus one over fifteen.",
+     "file": "2026-10-30-star-operation/audio/600ec5cd7d06c400.wav",
+     "from": 904,
+     "frames": 185
+    },
+    {
+     "text": "But fifteen is the score, not the answer. You still have to turn it back.",
+     "caption": "But fifteen is the score, not the answer. You still have to turn it back.",
+     "file": "2026-10-30-star-operation/audio/edb8f801180683b4.wav",
+     "from": 1099,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new chain",
+   "from": 9744,
+   "frames": 438,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same star rule, new numbers.",
+     "caption": "Ready for a challenge? Same star rule, new numbers.",
+     "file": "2026-10-30-star-operation/audio/3e811600a9bda753.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "Start with one over three, star one over four. Then star one over five, then star one over six.",
+     "caption": "Start with one over three, star one over four. Then star one over five, then star one over six.",
+     "file": "2026-10-30-star-operation/audio/37197587a762d690.wav",
+     "from": 127,
+     "frames": 273
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10182,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-star-operation/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New chain: the answer",
+   "from": 10635,
+   "frames": 1503,
+   "lines": [
+    {
+     "text": "Let's check. One over three, star one over four, is seven over thirteen.",
+     "caption": "Let's check. One over three, star one over four, is seven over thirteen.",
+     "file": "2026-10-30-star-operation/audio/8eae18bd88e53659.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "Seven over thirteen, star one over five, is two over three.",
+     "caption": "Seven over thirteen, star one over five, is two over three.",
+     "file": "2026-10-30-star-operation/audio/9e1ad88ffa45d32d.wav",
+     "from": 220,
+     "frames": 176
+    },
+    {
+     "text": "Two over three, star one over six, is three over four!",
+     "caption": "Two over three, star one over six, is three over four!",
+     "file": "2026-10-30-star-operation/audio/f3b7b4d9ba963fbb.wav",
+     "from": 406,
+     "frames": 143
+    },
+    {
+     "text": "Our four scores are four over two, five over three, six over four, and seven over five. They multiply to seven.",
+     "caption": "Our four scores are four over two, five over three, six over four, and seven over five. They multiply to seven.",
+     "file": "2026-10-30-star-operation/audio/879444d3ff6eb55d.wav",
+     "from": 559,
+     "frames": 326
+    },
+    {
+     "text": "So one plus the answer is seven times one minus the answer.",
+     "caption": "So one plus the answer is seven times one minus the answer.",
+     "file": "2026-10-30-star-operation/audio/33bdfcc3ef713db5.wav",
+     "from": 895,
+     "frames": 160
+    },
+    {
+     "text": "Seven plus one is eight parts. Eight parts make two, so each is one over four. Three over four again!",
+     "caption": "Seven plus one is eight parts. Eight parts make two, so each is one over four. Three over four again!",
+     "file": "2026-10-30-star-operation/audio/947c7e8bcbb26cb8.wav",
+     "from": 1065,
+     "frames": 258
+    },
+    {
+     "text": "If you found three over four, amazing work!",
+     "caption": "If you found three over four, amazing work!",
+     "file": "2026-10-30-star-operation/audio/9e0b4d0bf76463da.wav",
+     "from": 1333,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12138,
+   "frames": 680,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-star-operation/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 70
+    },
+    {
+     "text": "With a made-up rule, follow it exactly: one step at a time, top and bottom separately.",
+     "caption": "With a made-up rule, follow it exactly: one step at a time, top and bottom separately.",
+     "file": "2026-10-30-star-operation/audio/4dc9b8f5ad05f51f.wav",
+     "from": 80,
+     "frames": 222
+    },
+    {
+     "text": "And go all the way to the last step. Stopping early is the trap!",
+     "caption": "And go all the way to the last step. Stopping early is the trap!",
+     "file": "2026-10-30-star-operation/audio/41799a3905608e8d.wav",
+     "from": 313,
+     "frames": 148
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-star-operation/audio/31a6054d0b03b932.wav",
+     "from": 471,
+     "frames": 125
+    }
+   ]
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-from tts import build_timeline, caption, chapters, diff, line_style
+from tts import build_timeline, caption, chapters, diff, line_style, zh_num
 
 scenes = [
     {"id": "hook", "chapter": "Intro", "lines": ["a", "b"]},
@@ -73,3 +73,25 @@ assert diff("the third side", "the third side") == []
 assert diff("the third side", "the 3rd side") == []
 assert diff("add up to one over two times the width", "add up to 1/2 times the width") == []
 assert diff("one-half of it", "half of it") == []
+assert diff("ends in zero one", "ends in 01") == []
+assert diff("add the eighties", "add the 80s") == []
+assert diff("it is twelve feet tall", "it is 12 ft tall") == []
+assert diff("a three, four, five triangle", "a 3-4-5 triangle") == []
+assert diff("the sixes and threes", "the 6s and 3s") == []
+assert diff("four fifths of it", "four-fifths of it") == []
+assert diff("triangle C P E y", "triangle CPE y") == []
+assert diff("the answer is NOT twenty-six", "The answer is not 26") == []
+assert diff('hi there', 'hi [LAUGH] there') == ['- -> LAUGH']
+assert diff("at one o'clock sharp", 'at 1:00 sharp') == []
+assert diff("it is ALSO a whole number", "it is also a whole number") == []
+assert diff("five and a half degrees", "5 1/2 degrees") == []
+assert zh_num(42) == "四十二" and zh_num(15) == "十五" and zh_num(105) == "一百零五" and zh_num(1000) == "一千" and zh_num(2025) == "二千零二十五"
+assert diff("P十在四十二点七五。", "P10在42.75", "zh") == []
+assert diff("我是Vantee，两个点！", "我是 vantee 二个点", "zh") == []
+assert diff("答案是四十二。", "答案是四十三", "zh") == ["二 -> 三"]
+assert diff("好的", "好的[laugh]", "zh") == ["- -> LAUGH"]
+assert zh_num(110) == "一百一十" and zh_num(64) == "六十四"
+assert "VAN-tee" in line_style("我是Vantee，你好", "warm")
+assert diff("we take one over two, times twelve", "We take 1 over 2 times 12") == []
+assert caption("所以P十是 <short pause> 四十二。") == "所以P十是四十二。" and caption("So <short pause> forty.") == "So forty."
+assert diff("P10在42又3/4。", "P十在四十二又四分之三", "zh") == []

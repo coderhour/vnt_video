@@ -13,6 +13,8 @@
   nav summary { padding: 10px 16px; font-weight: 600; cursor: pointer; background: #8881; border-bottom: 1px solid #8882; }
   nav details a { padding-left: 32px; }
   nav small, .meta { opacity: .7; }
+  nav select, nav input { box-sizing: border-box; width: calc(100% - 24px); margin: 12px 12px 0; padding: 6px; font: inherit; }
+  #list { margin-top: 12px; }
   main { overflow-y: auto; padding: 24px; }
   video { width: 100%; max-height: 70vh; background: #000; }
   pre { white-space: pre-wrap; font: inherit; background: #8881; padding: 12px; border-radius: 6px; }
@@ -25,7 +27,7 @@
 </style>
 </head>
 <body>
-<nav id="list"></nav>
+<nav><input id="q" type="search" placeholder="Search videos…" oninput="render()" aria-label="Search videos"><select id="filter" onchange="render()" aria-label="Filter by status"></select><div id="list"></div></nav>
 <main id="detail"></main>
 <script>
 function el(tag, props, ...kids) {
@@ -83,16 +85,28 @@ const closed = new Set();  // folders the user collapsed, kept across re-renders
 
 function render() {
   const slug = decodeURIComponent(location.hash.slice(1)) || videos[0]?.slug;
+  // Status filter, with counts; the selection survives re-renders.
+  const want = filter.value || 'all';
+  const counts = Object.groupBy(videos, v => status(v)[0]);
+  filter.replaceChildren(...Object.entries({ all: 'All', ...LABELS, published: 'Published' }).map(([k, t]) =>
+    el('option', { value: k, selected: k === want }, `${t} (${k === 'all' ? videos.length : counts[k]?.length || 0})`)));
+  // Search: every word must appear in the title, slug, question id or description.
+  const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+  const shown = (want === 'all' ? videos : counts[want] || []).filter(v => {
+    const text = [v.title, v.slug, v.question_id, v.description].join(' ').toLowerCase();
+    return words.every(w => text.includes(w));
+  });
   // One folder per quiz bank (question_id = "<bank>:<id>"), videos inside.
-  const banks = Map.groupBy(videos, v => v.question_id?.split(':')[0] || 'Other');
+  const banks = Map.groupBy(shown, v => v.question_id?.split(':')[0] || 'Other');
   list.replaceChildren(...[...banks].sort(([a], [b]) => a.localeCompare(b)).map(([bank, vs]) =>
-    el('details', { open: !closed.has(bank), ontoggle: e => closed[e.target.open ? 'delete' : 'add'](bank) },
+    el('details', { open: words.length > 0 || !closed.has(bank), ontoggle: e => closed[e.target.open ? 'delete' : 'add'](bank) },
       el('summary', { title: bank }, `${bank.replace(/^amc_practice_|_template$/g, '')} (${vs.length})`),
       ...vs.map(v => el('a',
         { href: '#' + encodeURIComponent(v.slug), className: v.slug === slug ? 'active' : '' },
         v.title || v.slug, el('br'), badge(v),
         el('small', {}, [v.question_id?.split(':')[1], v.created].filter(Boolean).join(' · ')))))));
 
+  if (!shown.length) list.replaceChildren(el('p', { style: 'padding: 0 16px' }, 'No matching videos.'));
   const v = videos.find(v => v.slug === slug);
   if (!v) return detail.replaceChildren(el('p', {}, 'No videos yet. Add a folder under videos/ with a meta.json.'));
   detail.replaceChildren(

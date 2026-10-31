@@ -68,10 +68,18 @@ def synth(text, voice, style):
     return base64.b64decode(audio)  # WAV (RIFF, 24 kHz mono 16-bit)
 
 
-def transcribe(path):
+ASK = {
+    "en": "Transcribe this audio verbatim. Output only the words spoken, and mark any laughter, giggle or chuckle as [laugh].",
+    "zh": "Transcribe this audio verbatim in Simplified Chinese characters. Write every number in Chinese characters, "
+          "write Latin letters and the name Vantee as spoken in Latin letters, output only the words spoken, "
+          "and mark any laughter, giggle or chuckle as [laugh].",
+}
+
+
+def transcribe(path, lang="en"):
     resp = post(f"models/{CHECK_MODEL}:generateContent", {"contents": [{"parts": [
         {"inlineData": {"mimeType": "audio/wav", "data": base64.b64encode(path.read_bytes()).decode()}},
-        {"text": "Transcribe this audio verbatim. Output only the words spoken, and mark any laughter, giggle or chuckle as [laugh]."},
+        {"text": ASK[lang]},
     ]}]})
     return resp["candidates"][0]["content"]["parts"][0]["text"].strip()
 
@@ -94,10 +102,14 @@ def num_words(n):
 MATH_WORDS = [  # what a transcriber writes -> how a script line says it
     (r"\b1\s*/\s*2\b|\b(?:a|one)[\s-]half\b|\bone over two\b", " half "), 
     (r"square root of", " root "), (r"√", " root "), (r"²|\s*\^\s*2\b", " squared "), (r"°", " degrees "),
+    (r"(?<=[a-z])-(?=[a-z])", " "),
+    (r"\b(\d{1,2}):00\b", r"\1 o'clock"), (r"(\d)\s+half\b", r"\1 and half"),  # "5 1/2" (1/2 is already "half") = "five and a half"
+     # "1:00" for "one o'clock"  # four-fifths = four fifths
+    (r"\b(\d+)-(\d+)-(\d+)\b", r"\1 \2 \3"),  # "3-4-5 triangle" is not a subtraction
     (r"−|(?<=[\d)²])\s*-\s*(?=[\d√(])|\s-\s", " minus "), (r"(?<=[\d)])\s*/\s*(?=\d)|(?<=squared)\s*/\s*(?=\d)", " over "),
     (r"(\d)\s*x\s*(\d)", r"\1 by \2"), (r"[×*]", " times "), (r"\+", " plus "), (r"=", " equals "),
     (r"'s\b", " is "), (r"'re\b", " are "), (r"'ll\b", " will "), (r"'m\b", " am "),  # here's = here is
-    (r"%", " percent "), (r"\bequal to\b", " equals "), (r"(?<!\d)\s*/\s*(?=[a-z])", " divided "), (r"(?<=\d)\s*cm\b", " centimeters "), (r"\bcm\b", " centimeters "), (r"\[laugh\]", " LAUGH "), (r"neighbour", "neighbor"),
+    (r"%", " percent "), (r"\bequal to\b", " equals "), (r"(?<!\d)\s*/\s*(?=[a-z])", " divided "), (r"(?<=\d)\s*cm\b", " centimeters "), (r"\bcm\b", " centimeters "), (r"\bft\b", " feet "), (r"\[laugh\]", " LAUGH "), (r"neighbour", "neighbor"),
     (r"\ba (third|quarter|fourth|fifth)", r"one \1"),  # "two thirds" vs "2/3"
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:thirds?)\b", r"\1 over three"),
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:quarters?|fourths?)\b", r"\1 over four"),
@@ -114,6 +126,10 @@ def ordinal(n):
     return " ".join([*head, ORD.get(last) or (last[:-1] + "ieth" if last.endswith("y") else last + "th")])
 
 
+def plural(w):
+    return w[:-1] + "ies" if w.endswith("y") else w + ("es" if w.endswith("x") else "s")
+
+
 def words(text):
     """Normalized word list for comparing script vs heard: digits -> words, math symbols -> their spoken words."""
     t = re.sub(r"<[^>]+>", " ", text.lower())
@@ -121,9 +137,11 @@ def words(text):
         t = re.sub(pat, rep, t)
     t = re.sub(r"(?<=\d),(?=\d{3}\b)", "", t)  # 2,025 -> 2025
     t = re.sub(r"(\d+)(?:st|nd|rd|th)\b", lambda m: " " + ordinal(int(m.group(1))) + " ", t)
-    t = re.sub(r"(\d+)'?s\b", lambda m: " " + num_words(int(m.group(1))) + ("es" if m.group(1)[-1] == "6" else "s") + " ", t)  # 3s -> threes
+    t = re.sub(r"(\d+)'?s\b", lambda m: " " + plural(num_words(int(m.group(1)))) + " ", t)  # 3s -> threes, 80s -> eighties
+    t = re.sub(r"\b0(?=\d)", " zero ", t)  # "01" is said "zero one"
     t = re.sub(r"\d+", lambda m: " " + num_words(int(m.group())) + " ", t)
     t = re.sub(r"\b(?:one|a) hundred\b", "hundred", t)  # "our hundred" vs "100"
+    t = re.sub(r"\bone\s+over\s+two\b", " half ", t)  # "1 over 2" only becomes words here
     out, run = [], False  # spelled letters "P A B" vs "PAB": join runs of single letters
     for w in re.findall(r"[a-z']+|LAUGH", t):
         if len(w) == 1 and run:
@@ -134,12 +152,44 @@ def words(text):
     return ["equals" if w == "is" else w for w in out]  # "2 + 3 = 5" said "is"
 
 
-def diff(script, heard):
+ZH_DIGITS = "零一二三四五六七八九"
+
+
+def zh_num(n):
+    """1234 -> 一千二百三十四, 15 -> 十五, 105 -> 一百零五 (how a Mandarin speaker reads a digit string)."""
+    if n < 10:
+        return ZH_DIGITS[n]
+    if n < 20:
+        return "十" + (ZH_DIGITS[n % 10] if n % 10 else "")
+    if n >= 10000:
+        return "".join(ZH_DIGITS[int(c)] for c in str(n))  # ponytail: no 万 grouping, add when a video needs it
+    out, zero = "", False
+    for unit, v in (("千", 1000), ("百", 100), ("十", 10), ("", 1)):
+        d = n // v % 10
+        if d:
+            out += ("零" if zero and out else "") + ZH_DIGITS[d] + unit
+            zero = False
+        elif out:
+            zero = True
+    return out
+
+
+def words_zh(text):
+    """Chinese line -> one token per character (Latin words stay whole); digits -> Chinese numerals, 两 = 二."""
+    t = re.sub(r"<[^>]+>", " ", text.lower())
+    t = re.sub(r"(\d+)\s*/\s*(\d+)", lambda m: zh_num(int(m.group(2))) + "分之" + zh_num(int(m.group(1))), t)  # 3/4 = 四分之三
+    t = re.sub(r"(\d+)\.(\d+)", lambda m: zh_num(int(m.group(1))) + "点" + "".join(ZH_DIGITS[int(c)] for c in m.group(2)), t)
+    t = re.sub(r"\d+", lambda m: zh_num(int(m.group())), t).replace("两", "二")
+    return ["LAUGH" if w == "[laugh]" else w for w in re.findall(r"\[laugh\]|[a-z]+|[\u4e00-\u9fff]", t)]
+
+
+def diff(script, heard, lang="en"):
     """Differences between what the line says and what the TTS said ([] = clean). Vantee's spelling is ignored, but it must still start with a V sound ("Fancy" is flagged)."""
-    a, b = words(script), words(heard)
+    w = words_zh if lang == "zh" else words
+    a, b = w(script), w(heard)
     out = []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(a=a, b=b, autojunk=False).get_opcodes():
-        if op == "equal" or (op == "replace" and a[i1:i2] == ["vantee"] and j2 - j1 <= 3 and b[j1].startswith("v")):
+        if op == "equal" or "".join(a[i1:i2]) == "".join(b[j1:j2]) or (op == "replace" and a[i1:i2] == ["vantee"] and j2 - j1 <= 3 and b[j1].startswith("v")):
             continue
         out.append(f"{' '.join(a[i1:i2]) or '-'} -> {' '.join(b[j1:j2]) or '-'}")
     return out
@@ -152,13 +202,14 @@ def wav_seconds(path):
 
 def line_style(text, style):
     """The style annotation for one line: the delivery style plus a hint for each name it says."""
-    hints = [f'Pronounce the name "{w}" as {ipa}.' for w, ipa in PRONOUNCE.items() if re.search(rf"\b{w}\b", text)]
+    hints = [f'Pronounce the name "{w}" as {ipa}.' for w, ipa in PRONOUNCE.items() if re.search(rf"(?<![A-Za-z]){w}(?![A-Za-z])", text)]  # not \b: hanzi count as word characters
     return ". ".join([style, *hints]) if hints else style
 
 
 def caption(text):
     """Line text without inline TTS tags like <short pause>."""
-    return re.sub(r"\s*<[^>]+>\s*", " ", text).strip()
+    t = re.sub(r"\s*<[^>]+>\s*", " ", text).strip()
+    return re.sub(r"(?<=[\u3000-\u9fff\uff00-\uffef]) | (?=[\u3000-\u9fff\uff00-\uffef])", "", t)  # no gap where a tag sat in Chinese
 
 
 def build_timeline(scenes, audio, fps):
@@ -209,6 +260,7 @@ def main():
     slug = sys.argv[1]
     n = json.loads((ROOT / "studio/src/videos" / slug / "narration.json").read_text())
     fps, voice, style = n.get("fps", 30), n.get("voice", DEFAULT_VOICE), n.get("style", DEFAULT_STYLE)
+    lang = n.get("lang", "en")  # "zh": Simplified Chinese narration, checked character by character
     pub = ROOT / "studio/public" / slug
     (pub / "audio").mkdir(parents=True, exist_ok=True)
 
@@ -241,11 +293,11 @@ def main():
         print("\n--- check: script / heard ---")
         bad = 0
         for text, (file, _) in audio.items():
-            heard = transcribe(ROOT / "studio/public" / file)
-            d = diff(text, heard)
+            heard = transcribe(ROOT / "studio/public" / file, lang)
+            d = diff(text, heard, lang)
             if d:  # a real audio error repeats; a transcriber slip usually doesn't, so listen twice
-                heard2 = transcribe(ROOT / "studio/public" / file)
-                if not diff(text, heard2):
+                heard2 = transcribe(ROOT / "studio/public" / file, lang)
+                if not diff(text, heard2, lang):
                     print(f"(transcriber noise, clean on 2nd listen: {'; '.join(d)})")
                     d = []
                 else:

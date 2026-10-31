@@ -1,0 +1,147 @@
+# The Star Puzzle: Fractions in a Chain | AMC 8-Style Level 4
+
+## Intro
+
+This puzzle uses a strange new symbol: a star.
+
+Lots of kids stop one step too early here. Let's go all the way!
+
+Hi, I'm Vantee! Let's crack it together.
+
+## The question
+
+Here's the question. For numbers a and b, a star b means a plus b, over one plus a times b.
+
+Find the value of one over two, star one over three, then star one over four, then star one over five.
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+So what are we really asked?
+
+Star is a made-up rule. Put in two numbers, and out comes a new one.
+
+The brackets say: begin inside, then star each answer with the next number.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: step by step
+
+Welcome back! Let's follow the rule, one step at a time.
+
+First, one over two, star one over three. We'll do the top and bottom separately.
+
+Top: one over two plus one over three. That's five over six.
+
+Bottom: one plus one over six. That's seven over six.
+
+Five over six, divided by seven over six. The sixes cancel. Five over seven!
+
+Step two: five over seven, star one over four.
+
+Top: five over seven plus one over four is twenty-seven over twenty-eight.
+
+Bottom: one plus five over twenty-eight is thirty-three over twenty-eight.
+
+So we get twenty-seven over thirty-three. Divide both by three. Nine over eleven!
+
+Last step: nine over eleven, star one over five.
+
+Top: nine over eleven plus one over five is fifty-six over fifty-five.
+
+Bottom: one plus nine over fifty-five is sixty-four over fifty-five.
+
+So we get fifty-six over sixty-four. Divide both by eight.
+
+That's seven over eight! The answer is C.
+
+## Solution 2: the score trick
+
+Here's a sneaky second way. Let's give each number a score.
+
+The score is one plus the number, over one minus the number.
+
+Take one over two. Its score is three over two, divided by one over two. That's three.
+
+And one over three scores two. Here's the magic: star two numbers, and their scores multiply!
+
+Let's test it. Our first step gave five over seven.
+
+Its score is twelve over seven, divided by two over seven. That's six. And three times two is six!
+
+Why does it work? Add one to a star b: the top becomes one plus a, times one plus b. Multiply it out!
+
+Take a star b away from one. The top is one minus a, times one minus b. Divide: the bottoms cancel!
+
+Each star multiplies the scores. So the score of the final answer is the four scores, multiplied.
+
+Now our four scores: three over one, four over two, five over three, and six over four.
+
+Multiply them, and almost everything cancels! Five times six, over two. That's fifteen.
+
+So one plus the answer is fifteen times one minus the answer.
+
+One plus the answer, plus one minus the answer, is always two.
+
+That's fifteen parts plus one part, so sixteen parts make two. Each part is one over eight.
+
+One minus the answer is one over eight. So the answer is seven over eight!
+
+When would you pick this way? When the chain is long, like ten stars in a row.
+
+## Common traps
+
+Now, let's look at the wrong answers. Each one is a trap.
+
+Five over seven is only the first step. Two more stars are left!
+
+Nine over eleven comes after two steps. There's still one more to go.
+
+Seventy-seven over sixty just adds the four fractions. It forgets the bottom of the rule.
+
+Use the star on two numbers between zero and one, and the result stays below one. So it's too big!
+
+Fourteen over fifteen is what you'd get if you just did one minus one over fifteen.
+
+But fifteen is the score, not the answer. You still have to turn it back.
+
+## Your turn: a new chain
+
+Ready for a challenge? Same star rule, new numbers.
+
+Start with one over three, star one over four. Then star one over five, then star one over six.
+
+Pause the video, and go for it!
+
+*(Pause and try it: 12 s countdown)*
+
+## New chain: the answer
+
+Let's check. One over three, star one over four, is seven over thirteen.
+
+Seven over thirteen, star one over five, is two over three.
+
+Two over three, star one over six, is three over four!
+
+Our four scores are four over two, five over three, six over four, and seven over five. They multiply to seven.
+
+So one plus the answer is seven times one minus the answer.
+
+Seven plus one is eight parts. Eight parts make two, so each is one over four. Three over four again!
+
+If you found three over four, amazing work!
+
+## Recap
+
+Here's the big idea to remember.
+
+With a made-up rule, follow it exactly: one step at a time, top and bottom separately.
+
+And go all the way to the last step. Stopping early is the trap!
+
+I'm Vantee. Keep exploring, and I'll see you next time!

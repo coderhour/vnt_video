@@ -1,0 +1,552 @@
+{
+ "fps": 30,
+ "durationInFrames": 11446,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 522,
+   "lines": [
+    {
+     "text": "Take a triangle. Copy it. Slide the copy a little to the right.",
+     "caption": "Take a triangle. Copy it. Slide the copy a little to the right.",
+     "file": "2026-10-30-sliding-triangle/audio/1513679a087c8906.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "How much of the copied triangle sticks out? Lots of kids answer twenty-four here.",
+     "caption": "How much of the copied triangle sticks out? Lots of kids answer twenty-four here.",
+     "file": "2026-10-30-sliding-triangle/audio/8c20847a65718b8e.wav",
+     "from": 177,
+     "frames": 166
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find out what's really going on.",
+     "caption": "Hi, I'm Vantee! Let's find out what's really going on.",
+     "file": "2026-10-30-sliding-triangle/audio/28cf6eab9a0b92d5.wav",
+     "from": 353,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 522,
+   "frames": 711,
+   "lines": [
+    {
+     "text": "Here's the question. A right triangle has legs twelve and nine.",
+     "caption": "Here's the question. A right triangle has legs twelve and nine.",
+     "file": "2026-10-30-sliding-triangle/audio/ccf98c99001f3238.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "The triangle is copied, and the copy is slid four to the right, as shown.",
+     "caption": "The triangle is copied, and the copy is slid four to the right, as shown.",
+     "file": "2026-10-30-sliding-triangle/audio/f530340f770013bf.wav",
+     "from": 169,
+     "frames": 155
+    },
+    {
+     "text": "What is the area of the shaded part of the copy, the part that does not overlap the original?",
+     "caption": "What is the area of the shaded part of the copy, the part that does not overlap the original?",
+     "file": "2026-10-30-sliding-triangle/audio/ba8c586be93bdaae.wav",
+     "from": 334,
+     "frames": 194
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-sliding-triangle/audio/b97a89671840f7ca.wav",
+     "from": 538,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1233,
+   "frames": 627,
+   "lines": [
+    {
+     "text": "So what do we know?",
+     "caption": "So what do we know?",
+     "file": "2026-10-30-sliding-triangle/audio/6b582c82d4ebc322.wav",
+     "from": 0,
+     "frames": 54
+    },
+    {
+     "text": "The bottom leg is twelve, and the left leg is nine. The square corner is at the bottom left.",
+     "caption": "The bottom leg is twelve, and the left leg is nine. The square corner is at the bottom left.",
+     "file": "2026-10-30-sliding-triangle/audio/667d33f0483e1ddc.wav",
+     "from": 65,
+     "frames": 208
+    },
+    {
+     "text": "The copy slides four to the right, along the bottom line.",
+     "caption": "The copy slides four to the right, along the bottom line.",
+     "file": "2026-10-30-sliding-triangle/audio/7fb244ea508f559f.wav",
+     "from": 283,
+     "frames": 120
+    },
+    {
+     "text": "We want the shaded part: the copy, minus the piece both triangles share.",
+     "caption": "We want the shaded part: the copy, minus the piece both triangles share.",
+     "file": "2026-10-30-sliding-triangle/audio/d3b640308c04429d.wav",
+     "from": 413,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1860,
+   "frames": 467,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-sliding-triangle/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "whole",
+   "kind": "scene",
+   "chapter": "Solution 1: whole minus overlap",
+   "from": 2327,
+   "frames": 574,
+   "lines": [
+    {
+     "text": "Welcome back! Our strategy: find the whole copy, then take away the overlap.",
+     "caption": "Welcome back! Our strategy: find the whole copy, then take away the overlap.",
+     "file": "2026-10-30-sliding-triangle/audio/d7895b1f96ec23ba.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "The copy is the same triangle. To get its area, we take one over two, times twelve, times nine.",
+     "caption": "The copy is the same triangle. To get its area, we take one over two, times twelve, times nine.",
+     "file": "2026-10-30-sliding-triangle/audio/d1d68502cbbd107e.wav",
+     "from": 190,
+     "frames": 221
+    },
+    {
+     "text": "That's fifty-four. So the whole copy is fifty-four.",
+     "caption": "That's fifty-four. So the whole copy is fifty-four.",
+     "file": "2026-10-30-sliding-triangle/audio/e445653ac0a0ba43.wav",
+     "from": 422,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "overlap",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2901,
+   "frames": 1493,
+   "lines": [
+    {
+     "text": "Now look at the overlap. It's a triangle too!",
+     "caption": "Now look at the overlap. It's a triangle too!",
+     "file": "2026-10-30-sliding-triangle/audio/e0367303f9968d67.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "Its square corner is where the copy's left side stands, four along the bottom.",
+     "caption": "Its square corner is where the copy's left side stands, four along the bottom.",
+     "file": "2026-10-30-sliding-triangle/audio/412eda366cbaec81.wav",
+     "from": 110,
+     "frames": 177
+    },
+    {
+     "text": "Its bottom runs from there to the end of the original. That's twelve minus four, which is eight.",
+     "caption": "Its bottom runs from there to the end of the original. That's twelve minus four, which is eight.",
+     "file": "2026-10-30-sliding-triangle/audio/b1e11f61b7d99561.wav",
+     "from": 297,
+     "frames": 200
+    },
+    {
+     "text": "Its slanted side lies along the original's long side. So it has the same slant.",
+     "caption": "Its slanted side lies along the original's long side. So it has the same slant.",
+     "file": "2026-10-30-sliding-triangle/audio/b7cd26f396638c32.wav",
+     "from": 507,
+     "frames": 172
+    },
+    {
+     "text": "A square corner and the same slant mean the same angles. It's a smaller copy of the original.",
+     "caption": "A square corner and the same slant mean the same angles. It's a smaller copy of the original.",
+     "file": "2026-10-30-sliding-triangle/audio/a8699debeccadfde.wav",
+     "from": 689,
+     "frames": 220
+    },
+    {
+     "text": "Same shape, smaller size. Eight out of twelve is two over three.",
+     "caption": "Same shape, smaller size. Eight out of twelve is two over three.",
+     "file": "2026-10-30-sliding-triangle/audio/050cf2b3b5f0f852.wav",
+     "from": 919,
+     "frames": 171
+    },
+    {
+     "text": "So its height is two over three of nine. That's six.",
+     "caption": "So its height is two over three of nine. That's six.",
+     "file": "2026-10-30-sliding-triangle/audio/2dea3d0b488fe0d6.wav",
+     "from": 1100,
+     "frames": 140
+    },
+    {
+     "text": "The overlap's area is one over two, times eight, times six. That's twenty-four.",
+     "caption": "The overlap's area is one over two, times eight, times six. That's twenty-four.",
+     "file": "2026-10-30-sliding-triangle/audio/c33d116d34d84121.wav",
+     "from": 1249,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "total1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4394,
+   "frames": 382,
+   "lines": [
+    {
+     "text": "Now take it away. Fifty-four minus twenty-four is thirty.",
+     "caption": "Now take it away. Fifty-four minus twenty-four is thirty.",
+     "file": "2026-10-30-sliding-triangle/audio/c32fe6cb14bd0764.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "The shaded part is thirty! The answer is E.",
+     "caption": "The shaded part is thirty! The answer is E.",
+     "file": "2026-10-30-sliding-triangle/audio/a7a7f37b0eb1f4ed.wav",
+     "from": 191,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "id": "strip",
+   "kind": "scene",
+   "chapter": "Solution 2: the left-over strip",
+   "from": 4776,
+   "frames": 1227,
+   "lines": [
+    {
+     "text": "Let's try another way. Look at the original triangle this time.",
+     "caption": "Let's try another way. Look at the original triangle this time.",
+     "file": "2026-10-30-sliding-triangle/audio/cd526c7399a0b123.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "It loses the same overlap. And it has the same area, fifty-four.",
+     "caption": "It loses the same overlap. And it has the same area, fifty-four.",
+     "file": "2026-10-30-sliding-triangle/audio/d07c47205d61ae71.wav",
+     "from": 144,
+     "frames": 167
+    },
+    {
+     "text": "So the part of the original left over is the SAME size as the shaded part!",
+     "caption": "So the part of the original left over is the SAME size as the shaded part!",
+     "file": "2026-10-30-sliding-triangle/audio/92acce8cb561733e.wav",
+     "from": 321,
+     "frames": 152
+    },
+    {
+     "text": "That remaining part is the strip on the left, four wide.",
+     "caption": "That remaining part is the strip on the left, four wide.",
+     "file": "2026-10-30-sliding-triangle/audio/38a3976683801fe5.wav",
+     "from": 483,
+     "frames": 128
+    },
+    {
+     "text": "Its left side is nine tall. How tall is its right side?",
+     "caption": "Its left side is nine tall. How tall is its right side?",
+     "file": "2026-10-30-sliding-triangle/audio/eca9894a42b94af0.wav",
+     "from": 620,
+     "frames": 126
+    },
+    {
+     "text": "The long side drops nine as it goes twelve across. That's three for every four.",
+     "caption": "The long side drops nine as it goes twelve across. That's three for every four.",
+     "file": "2026-10-30-sliding-triangle/audio/89a7174c1baf136e.wav",
+     "from": 757,
+     "frames": 200
+    },
+    {
+     "text": "So after four across, it has dropped three. Nine minus three is six.",
+     "caption": "So after four across, it has dropped three. Nine minus three is six.",
+     "file": "2026-10-30-sliding-triangle/audio/cc6bbb217cfe791d.wav",
+     "from": 967,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "strip-area",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6003,
+   "frames": 876,
+   "lines": [
+    {
+     "text": "The strip is a trapezoid, with parallel sides nine and six, and width four.",
+     "caption": "The strip is a trapezoid, with parallel sides nine and six, and width four.",
+     "file": "2026-10-30-sliding-triangle/audio/6e1f3f9fbdbd2324.wav",
+     "from": 0,
+     "frames": 203
+    },
+    {
+     "text": "A trapezoid's area is the average of its two parallel sides, times the width.",
+     "caption": "A trapezoid's area is the average of its two parallel sides, times the width.",
+     "file": "2026-10-30-sliding-triangle/audio/abab289c8e483d06.wav",
+     "from": 213,
+     "frames": 173
+    },
+    {
+     "text": "Nine plus six is fifteen. Half is seven and a half. Times four is thirty!",
+     "caption": "Nine plus six is fifteen. Half is seven and a half. Times four is thirty!",
+     "file": "2026-10-30-sliding-triangle/audio/41e407edae5afd1e.wav",
+     "from": 397,
+     "frames": 203
+    },
+    {
+     "text": "Same answer! When would you pick this way? When the strip is easier to see than the overlap.",
+     "caption": "Same answer! When would you pick this way? When the strip is easier to see than the overlap.",
+     "file": "2026-10-30-sliding-triangle/audio/c02e24dd13142a19.wav",
+     "from": 610,
+     "frames": 197
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6879,
+   "frames": 1546,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-sliding-triangle/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Twenty-four is the overlap. It answers the wrong question. We wanted the part outside it.",
+     "caption": "Twenty-four is the overlap. It answers the wrong question. We wanted the part outside it.",
+     "file": "2026-10-30-sliding-triangle/audio/42761f2d9232bcec.wav",
+     "from": 166,
+     "frames": 198
+    },
+    {
+     "text": "Twenty-seven is half of fifty-four. But nothing in the picture cuts the copy in half.",
+     "caption": "Twenty-seven is half of fifty-four. But nothing in the picture cuts the copy in half.",
+     "file": "2026-10-30-sliding-triangle/audio/7c9027c682563371.wav",
+     "from": 375,
+     "frames": 182
+    },
+    {
+     "text": "Eighteen is what you'd get if you called the strip a triangle, base four, height nine.",
+     "caption": "Eighteen is what you'd get if you called the strip a triangle, base four, height nine.",
+     "file": "2026-10-30-sliding-triangle/audio/60db6aa8b0e07c09.wav",
+     "from": 566,
+     "frames": 183
+    },
+    {
+     "text": "But the strip's right side is six tall. A triangle would come to a point there.",
+     "caption": "But the strip's right side is six tall. A triangle would come to a point there.",
+     "file": "2026-10-30-sliding-triangle/audio/eb77b8740119d0bf.wav",
+     "from": 759,
+     "frames": 161
+    },
+    {
+     "text": "Twenty-eight is what you'd get if the long side dropped four, not three, for every four across.",
+     "caption": "Twenty-eight is what you'd get if the long side dropped four, not three, for every four across.",
+     "file": "2026-10-30-sliding-triangle/audio/dd80d2b6f48b1007.wav",
+     "from": 931,
+     "frames": 202
+    },
+    {
+     "text": "Then the right side would be five, and the trapezoid would give twenty-eight.",
+     "caption": "Then the right side would be five, and the trapezoid would give twenty-eight.",
+     "file": "2026-10-30-sliding-triangle/audio/e02fac4e0d2c1441.wav",
+     "from": 1143,
+     "frames": 153
+    },
+    {
+     "text": "So here's a great habit. Ask what the shaded part is, then check every height.",
+     "caption": "So here's a great habit. Ask what the shaded part is, then check every height.",
+     "file": "2026-10-30-sliding-triangle/audio/eaf3c6d2c580cd75.wav",
+     "from": 1306,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new slide",
+   "from": 8425,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new triangle.",
+     "caption": "Ready for a challenge? Here's a new triangle.",
+     "file": "2026-10-30-sliding-triangle/audio/1214430b7ee541c8.wav",
+     "from": 0,
+     "frames": 108
+    },
+    {
+     "text": "Its bottom leg is ten, and its left leg is five.",
+     "caption": "Its bottom leg is ten, and its left leg is five.",
+     "file": "2026-10-30-sliding-triangle/audio/b549bd1149b352dd.wav",
+     "from": 118,
+     "frames": 134
+    },
+    {
+     "text": "The copy slides four to the right. What is the area of the shaded part?",
+     "caption": "The copy slides four to the right. What is the area of the shaded part?",
+     "file": "2026-10-30-sliding-triangle/audio/78b4b0f7b72352e1.wav",
+     "from": 262,
+     "frames": 167
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8893,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-sliding-triangle/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New slide: the answer",
+   "from": 9351,
+   "frames": 1458,
+   "lines": [
+    {
+     "text": "Let's check. The whole triangle's area is one over two, times ten, times five. That's twenty-five.",
+     "caption": "Let's check. The whole triangle's area is one over two, times ten, times five. That's twenty-five.",
+     "file": "2026-10-30-sliding-triangle/audio/5612e7ffc4431d02.wav",
+     "from": 0,
+     "frames": 238
+    },
+    {
+     "text": "The overlap's bottom is ten minus four, which is six. Six out of ten is three over five.",
+     "caption": "The overlap's bottom is ten minus four, which is six. Six out of ten is three over five.",
+     "file": "2026-10-30-sliding-triangle/audio/e52eeb838c465252.wav",
+     "from": 248,
+     "frames": 224
+    },
+    {
+     "text": "Its height is three over five of five. That's three.",
+     "caption": "Its height is three over five of five. That's three.",
+     "file": "2026-10-30-sliding-triangle/audio/ebbb1512a5e9dea1.wav",
+     "from": 482,
+     "frames": 140
+    },
+    {
+     "text": "The overlap is one over two, times six, times three. That's nine.",
+     "caption": "The overlap is one over two, times six, times three. That's nine.",
+     "file": "2026-10-30-sliding-triangle/audio/35c09c90118e9e36.wav",
+     "from": 631,
+     "frames": 173
+    },
+    {
+     "text": "Twenty-five minus nine is sixteen!",
+     "caption": "Twenty-five minus nine is sixteen!",
+     "file": "2026-10-30-sliding-triangle/audio/893eb4a6146197f8.wav",
+     "from": 815,
+     "frames": 96
+    },
+    {
+     "text": "Check with the strip. Its sides are five and three, and it's four wide.",
+     "caption": "Check with the strip. Its sides are five and three, and it's four wide.",
+     "file": "2026-10-30-sliding-triangle/audio/1e5973804014251b.wav",
+     "from": 921,
+     "frames": 138
+    },
+    {
+     "text": "Five plus three is eight. Half is four. Four times four is sixteen. It matches!",
+     "caption": "Five plus three is eight. Half is four. Four times four is sixteen. It matches!",
+     "file": "2026-10-30-sliding-triangle/audio/e31b5ad73b81e6bc.wav",
+     "from": 1070,
+     "frames": 203
+    },
+    {
+     "text": "If you found sixteen, amazing work!",
+     "caption": "If you found sixteen, amazing work!",
+     "file": "2026-10-30-sliding-triangle/audio/64d72e6a9de2d439.wav",
+     "from": 1283,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10809,
+   "frames": 637,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-sliding-triangle/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 77
+    },
+    {
+     "text": "Slide a triangle along its base, and the overlap is a smaller copy of the same shape.",
+     "caption": "Slide a triangle along its base, and the overlap is a smaller copy of the same shape.",
+     "file": "2026-10-30-sliding-triangle/audio/a86fa9009024312a.wav",
+     "from": 87,
+     "frames": 179
+    },
+    {
+     "text": "Find the whole, take away the overlap, and you have the part left over.",
+     "caption": "Find the whole, take away the overlap, and you have the part left over.",
+     "file": "2026-10-30-sliding-triangle/audio/1c9217f751d845c0.wav",
+     "from": 276,
+     "frames": 156
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-sliding-triangle/audio/31a6054d0b03b932.wav",
+     "from": 443,
+     "frames": 111
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,513 @@
+{
+ "fps": 30,
+ "durationInFrames": 11409,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 475,
+   "lines": [
+    {
+     "text": "Two points on a number line. Then a chase begins.",
+     "caption": "Two points on a number line. Then a chase begins.",
+     "file": "2026-10-30-midpoint-chase/audio/8a47aaa1c127817e.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "Each new point lands halfway between the last two. <short pause> Where does it end up?",
+     "caption": "Each new point lands halfway between the last two. Where does it end up?",
+     "file": "2026-10-30-midpoint-chase/audio/38ac7ab60769bafd.wav",
+     "from": 144,
+     "frames": 174
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's follow the chase together.",
+     "caption": "Hi, I'm Vantee! Let's follow the chase together.",
+     "file": "2026-10-30-midpoint-chase/audio/ace699af80d00cd2.wav",
+     "from": 328,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 475,
+   "frames": 850,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-midpoint-chase/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "Point P one is at zero, and point P two is at sixty-four, on a number line.",
+     "caption": "Point P one is at zero, and point P two is at sixty-four, on a number line.",
+     "file": "2026-10-30-midpoint-chase/audio/1d90c9d574a129ed.wav",
+     "from": 61,
+     "frames": 191
+    },
+    {
+     "text": "Each later point is the midpoint of the two points before it.",
+     "caption": "Each later point is the midpoint of the two points before it.",
+     "file": "2026-10-30-midpoint-chase/audio/92f9da231a498c06.wav",
+     "from": 262,
+     "frames": 137
+    },
+    {
+     "text": "So P three is at thirty-two, and P four is at forty-eight.",
+     "caption": "So P three is at thirty-two, and P four is at forty-eight.",
+     "file": "2026-10-30-midpoint-chase/audio/38fc48d14ce77859.wav",
+     "from": 410,
+     "frames": 156
+    },
+    {
+     "text": "Where does P ten land?",
+     "caption": "Where does P ten land?",
+     "file": "2026-10-30-midpoint-chase/audio/d1201812b6545573.wav",
+     "from": 576,
+     "frames": 83
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-midpoint-chase/audio/b97a89671840f7ca.wav",
+     "from": 669,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1325,
+   "frames": 680,
+   "lines": [
+    {
+     "text": "So what do we really know?",
+     "caption": "So what do we really know?",
+     "file": "2026-10-30-midpoint-chase/audio/95d10a5a1a6da445.wav",
+     "from": 0,
+     "frames": 63
+    },
+    {
+     "text": "We start with two points. Each new point is the midpoint of the newest two.",
+     "caption": "We start with two points. Each new point is the midpoint of the newest two.",
+     "file": "2026-10-30-midpoint-chase/audio/1dda0ae8e2acbac3.wav",
+     "from": 73,
+     "frames": 189
+    },
+    {
+     "text": "We need P ten. That's eight more midpoints after P two.",
+     "caption": "We need P ten. That's eight more midpoints after P two.",
+     "file": "2026-10-30-midpoint-chase/audio/b33d25edea8e91d4.wav",
+     "from": 272,
+     "frames": 150
+    },
+    {
+     "text": "The choices use decimals. Here's a key for halves, quarters and eighths.",
+     "caption": "The choices use decimals. Here's a key for halves, quarters and eighths.",
+     "file": "2026-10-30-midpoint-chase/audio/e74c02f1ac4ed70f.wav",
+     "from": 432,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2005,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-midpoint-chase/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "jumps",
+   "kind": "scene",
+   "chapter": "Solution 1: follow the jumps",
+   "from": 2473,
+   "frames": 1205,
+   "lines": [
+    {
+     "text": "Welcome back! Let's make a list, one point at a time, and watch the jumps.",
+     "caption": "Welcome back! Let's make a list, one point at a time, and watch the jumps.",
+     "file": "2026-10-30-midpoint-chase/audio/87307a5790241612.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "From zero to sixty-four is a jump of sixty-four, to the right.",
+     "caption": "From zero to sixty-four is a jump of sixty-four, to the right.",
+     "file": "2026-10-30-midpoint-chase/audio/66520af981591fe5.wav",
+     "from": 167,
+     "frames": 149
+    },
+    {
+     "text": "P three is the midpoint, thirty-two. That's a jump of thirty-two, back to the left.",
+     "caption": "P three is the midpoint, thirty-two. That's a jump of thirty-two, back to the left.",
+     "file": "2026-10-30-midpoint-chase/audio/ae99c92be8bc1b4c.wav",
+     "from": 326,
+     "frames": 186
+    },
+    {
+     "text": "P four is halfway between thirty-two and sixty-four. That's forty-eight, sixteen to the right.",
+     "caption": "P four is halfway between thirty-two and sixty-four. That's forty-eight, sixteen to the right.",
+     "file": "2026-10-30-midpoint-chase/audio/2abea57068a14c5b.wav",
+     "from": 523,
+     "frames": 216
+    },
+    {
+     "text": "Notice the pattern? Each jump is half the one before, and it flips direction.",
+     "caption": "Notice the pattern? Each jump is half the one before, and it flips direction.",
+     "file": "2026-10-30-midpoint-chase/audio/4032580b096ad63e.wav",
+     "from": 749,
+     "frames": 197
+    },
+    {
+     "text": "Why? The new point sits halfway along the last jump. So it goes back, half as far.",
+     "caption": "Why? The new point sits halfway along the last jump. So it goes back, half as far.",
+     "file": "2026-10-30-midpoint-chase/audio/8fbc10b279893b85.wav",
+     "from": 956,
+     "frames": 195
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3678,
+   "frames": 1194,
+   "lines": [
+    {
+     "text": "So the next jumps are eight left, four right, two left, and one right.",
+     "caption": "So the next jumps are eight left, four right, two left, and one right.",
+     "file": "2026-10-30-midpoint-chase/audio/62a2b35e049b7663.wav",
+     "from": 0,
+     "frames": 245
+    },
+    {
+     "text": "That puts P five at forty, P six at forty-four, P seven at forty-two, and P eight at forty-three.",
+     "caption": "That puts P five at forty, P six at forty-four, P seven at forty-two, and P eight at forty-three.",
+     "file": "2026-10-30-midpoint-chase/audio/b4210b904c751792.wav",
+     "from": 255,
+     "frames": 256
+    },
+    {
+     "text": "See how the points squeeze closer and closer? They close in on one spot.",
+     "caption": "See how the points squeeze closer and closer? They close in on one spot.",
+     "file": "2026-10-30-midpoint-chase/audio/53bc5614c31a3ee3.wav",
+     "from": 521,
+     "frames": 158
+    },
+    {
+     "text": "Next, a jump of one half to the left. P nine is forty-two and a half.",
+     "caption": "Next, a jump of one half to the left. P nine is forty-two and a half.",
+     "file": "2026-10-30-midpoint-chase/audio/ea6fd6cc9a565f39.wav",
+     "from": 689,
+     "frames": 166
+    },
+    {
+     "text": "Last, a jump of one quarter to the right.",
+     "caption": "Last, a jump of one quarter to the right.",
+     "file": "2026-10-30-midpoint-chase/audio/2cb89eb5de2af6e4.wav",
+     "from": 865,
+     "frames": 106
+    },
+    {
+     "text": "P ten is forty-two and three quarters! <short pause> The answer is C.",
+     "caption": "P ten is forty-two and three quarters! The answer is C.",
+     "file": "2026-10-30-midpoint-chase/audio/d3d58bab9e51d41f.wav",
+     "from": 981,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "pairs",
+   "kind": "scene",
+   "chapter": "Solution 2: pair up the jumps",
+   "from": 4872,
+   "frames": 1870,
+   "lines": [
+    {
+     "text": "Here's a clever second way. Start at zero, and add up all nine jumps.",
+     "caption": "Here's a clever second way. Start at zero, and add up all nine jumps.",
+     "file": "2026-10-30-midpoint-chase/audio/902c1cd1b3de51cf.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "Right jumps are plus, left jumps are minus. Sixty-four, minus thirty-two, plus sixteen, and so on.",
+     "caption": "Right jumps are plus, left jumps are minus. Sixty-four, minus thirty-two, plus sixteen, and so on.",
+     "file": "2026-10-30-midpoint-chase/audio/2f3497a400d26cc5.wav",
+     "from": 164,
+     "frames": 297
+    },
+    {
+     "text": "Let's pair them up. Sixty-four minus thirty-two is thirty-two.",
+     "caption": "Let's pair them up. Sixty-four minus thirty-two is thirty-two.",
+     "file": "2026-10-30-midpoint-chase/audio/b8d8d2a484f49552.wav",
+     "from": 471,
+     "frames": 160
+    },
+    {
+     "text": "Sixteen minus eight is eight. Four minus two is two.",
+     "caption": "Sixteen minus eight is eight. Four minus two is two.",
+     "file": "2026-10-30-midpoint-chase/audio/e624458c2c42ac7e.wav",
+     "from": 641,
+     "frames": 178
+    },
+    {
+     "text": "One minus one half is one half. The last jump, one quarter, is on its own.",
+     "caption": "One minus one half is one half. The last jump, one quarter, is on its own.",
+     "file": "2026-10-30-midpoint-chase/audio/e0541f2f508eb9b2.wav",
+     "from": 829,
+     "frames": 183
+    },
+    {
+     "text": "Look, each pair is a quarter of the pair before: thirty-two, eight, two, one half.",
+     "caption": "Look, each pair is a quarter of the pair before: thirty-two, eight, two, one half.",
+     "file": "2026-10-30-midpoint-chase/audio/c3edb6d8208ded3e.wav",
+     "from": 1022,
+     "frames": 251
+    },
+    {
+     "text": "Thirty-two plus eight plus two is forty-two.",
+     "caption": "Thirty-two plus eight plus two is forty-two.",
+     "file": "2026-10-30-midpoint-chase/audio/f3600722e902ed5a.wav",
+     "from": 1283,
+     "frames": 136
+    },
+    {
+     "text": "One half plus one quarter is three quarters. So it's forty-two and three quarters again!",
+     "caption": "One half plus one quarter is three quarters. So it's forty-two and three quarters again!",
+     "file": "2026-10-30-midpoint-chase/audio/a2e5feb4c38fdd8e.wav",
+     "from": 1430,
+     "frames": 198
+    },
+    {
+     "text": "When would you pick this way? When there are lots of steps, pairs keep it tidy.",
+     "caption": "When would you pick this way? When there are lots of steps, pairs keep it tidy.",
+     "file": "2026-10-30-midpoint-chase/audio/e35f2ff3f306efec.wav",
+     "from": 1638,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6742,
+   "frames": 1390,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a real point in the chase!",
+     "caption": "Now, let's look at the wrong answers. Each one is a real point in the chase!",
+     "file": "2026-10-30-midpoint-chase/audio/13020d8c7e766b44.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "Forty-two and a half is P nine. That answer is one step early.",
+     "caption": "Forty-two and a half is P nine. That answer is one step early.",
+     "file": "2026-10-30-midpoint-chase/audio/29c6b4caebae1293.wav",
+     "from": 181,
+     "frames": 168
+    },
+    {
+     "text": "Forty-three is P eight. You'd get it if you stopped before the jumps turned into fractions.",
+     "caption": "Forty-three is P eight. You'd get it if you stopped before the jumps turned into fractions.",
+     "file": "2026-10-30-midpoint-chase/audio/39f50ac00b6c5bd2.wav",
+     "from": 360,
+     "frames": 192
+    },
+    {
+     "text": "Forty-four is P six. That stops far too early.",
+     "caption": "Forty-four is P six. That stops far too early.",
+     "file": "2026-10-30-midpoint-chase/audio/497a00021ea0a47d.wav",
+     "from": 562,
+     "frames": 156
+    },
+    {
+     "text": "Next, forty-two and five over eight. That is P eleven, one step late.",
+     "caption": "Next, forty-two and five over eight. That is P eleven, one step late.",
+     "file": "2026-10-30-midpoint-chase/audio/c76e934ba07ab3aa.wav",
+     "from": 729,
+     "frames": 209
+    },
+    {
+     "text": "You'd get it if you called the first point P zero. Then your tenth point is really P eleven.",
+     "caption": "You'd get it if you called the first point P zero. Then your tenth point is really P eleven.",
+     "file": "2026-10-30-midpoint-chase/audio/09258bde5ca219ec.wav",
+     "from": 948,
+     "frames": 203
+    },
+    {
+     "text": "So here's a great habit. Write the point number next to every point as you go.",
+     "caption": "So here's a great habit. Write the point number next to every point as you go.",
+     "file": "2026-10-30-midpoint-chase/audio/d9eae556417a7da7.wav",
+     "from": 1161,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new chase",
+   "from": 8132,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new chase.",
+     "caption": "Ready for a challenge? Here's a new chase.",
+     "file": "2026-10-30-midpoint-chase/audio/a0904362628bcf6b.wav",
+     "from": 0,
+     "frames": 106
+    },
+    {
+     "text": "P one is at zero again, but P two is at thirty-two.",
+     "caption": "P one is at zero again, but P two is at thirty-two.",
+     "file": "2026-10-30-midpoint-chase/audio/60eaf6fff0cb9ab5.wav",
+     "from": 116,
+     "frames": 146
+    },
+    {
+     "text": "Each point is the midpoint of the two before it. Where is P nine?",
+     "caption": "Each point is the midpoint of the two before it. Where is P nine?",
+     "file": "2026-10-30-midpoint-chase/audio/463f59ee6358a0fc.wav",
+     "from": 272,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8590,
+   "frames": 451,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-midpoint-chase/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New chase: the answer",
+   "from": 9041,
+   "frames": 1616,
+   "lines": [
+    {
+     "text": "Let's check. The jumps start at thirty-two, then halve and flip each time.",
+     "caption": "Let's check. The jumps start at thirty-two, then halve and flip each time.",
+     "file": "2026-10-30-midpoint-chase/audio/c42f0f44a542ebb4.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "Thirty-two right, sixteen left, eight right, four left, two right, one left.",
+     "caption": "Thirty-two right, sixteen left, eight right, four left, two right, one left.",
+     "file": "2026-10-30-midpoint-chase/audio/29302586f75cba0e.wav",
+     "from": 205,
+     "frames": 280
+    },
+    {
+     "text": "Then a half to the right, and a quarter to the left. That's eight jumps, which takes us to P nine.",
+     "caption": "Then a half to the right, and a quarter to the left. That's eight jumps, which takes us to P nine.",
+     "file": "2026-10-30-midpoint-chase/audio/b67fc08ee8789dec.wav",
+     "from": 495,
+     "frames": 249
+    },
+    {
+     "text": "Pair them up. Thirty-two minus sixteen is sixteen. Eight minus four is four.",
+     "caption": "Pair them up. Thirty-two minus sixteen is sixteen. Eight minus four is four.",
+     "file": "2026-10-30-midpoint-chase/audio/192d0618d2430761.wav",
+     "from": 754,
+     "frames": 192
+    },
+    {
+     "text": "Two minus one is one. One half minus one quarter is one quarter.",
+     "caption": "Two minus one is one. One half minus one quarter is one quarter.",
+     "file": "2026-10-30-midpoint-chase/audio/c7b5315fedee138d.wav",
+     "from": 956,
+     "frames": 188
+    },
+    {
+     "text": "Sixteen plus four plus one is twenty-one. Then add one quarter.",
+     "caption": "Sixteen plus four plus one is twenty-one. Then add one quarter.",
+     "file": "2026-10-30-midpoint-chase/audio/0c1b8ee4b52230e2.wav",
+     "from": 1154,
+     "frames": 197
+    },
+    {
+     "text": "So P nine is twenty-one and a quarter! If you found that, amazing work!",
+     "caption": "So P nine is twenty-one and a quarter! If you found that, amazing work!",
+     "file": "2026-10-30-midpoint-chase/audio/24f1c33a982e115f.wav",
+     "from": 1361,
+     "frames": 186
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10657,
+   "frames": 752,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-midpoint-chase/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "When each new point is a midpoint, each new jump is half the one before, and flips direction.",
+     "caption": "When each new point is a midpoint, each new jump is half the one before, and flips direction.",
+     "file": "2026-10-30-midpoint-chase/audio/ddb015c031bc5804.wav",
+     "from": 91,
+     "frames": 208
+    },
+    {
+     "text": "So list the points one at a time, and watch the jumps. The points close in on one value.",
+     "caption": "So list the points one at a time, and watch the jumps. The points close in on one value.",
+     "file": "2026-10-30-midpoint-chase/audio/a7ff35ab374e8165.wav",
+     "from": 309,
+     "frames": 222
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-midpoint-chase/audio/31a6054d0b03b932.wav",
+     "from": 542,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

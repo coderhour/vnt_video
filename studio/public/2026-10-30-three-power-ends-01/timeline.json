@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 11800,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 521,
+   "lines": [
+    {
+     "text": "Three, nine, twenty-seven, eighty-one. Powers of three grow fast!",
+     "caption": "Three, nine, twenty-seven, eighty-one. Powers of three grow fast!",
+     "file": "2026-10-30-three-power-ends-01/audio/7d0d5f2f6705788c.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "Can one of them ever end in zero one? <short pause> Let's find out.",
+     "caption": "Can one of them ever end in zero one? Let's find out.",
+     "file": "2026-10-30-three-power-ends-01/audio/f8bfd34368760459.wav",
+     "from": 226,
+     "frames": 144
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack it together.",
+     "caption": "Hi, I'm Vantee! Let's crack it together.",
+     "file": "2026-10-30-three-power-ends-01/audio/661802bfe72e72dd.wav",
+     "from": 381,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 521,
+   "frames": 607,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-three-power-ends-01/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "What is the smallest positive whole number n, so three to the n ends in zero one?",
+     "caption": "What is the smallest positive whole number n, so three to the n ends in zero one?",
+     "file": "2026-10-30-three-power-ends-01/audio/306eb87f4f5d14d9.wav",
+     "from": 57,
+     "frames": 232
+    },
+    {
+     "text": "The choices are four, ten, twenty, forty and one hundred. Take a good look.",
+     "caption": "The choices are four, ten, twenty, forty and one hundred. Take a good look.",
+     "file": "2026-10-30-three-power-ends-01/audio/7234619601f01567.wav",
+     "from": 299,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1128,
+   "frames": 424,
+   "lines": [
+    {
+     "text": "So what are we really asking?",
+     "caption": "So what are we really asking?",
+     "file": "2026-10-30-three-power-ends-01/audio/58eae3af99f92bec.wav",
+     "from": 0,
+     "frames": 82
+    },
+    {
+     "text": "Keep multiplying by three. We want the last two digits to be zero, then one.",
+     "caption": "Keep multiplying by three. We want the last two digits to be zero, then one.",
+     "file": "2026-10-30-three-power-ends-01/audio/6acf04ed97f3aaec.wav",
+     "from": 92,
+     "frames": 161
+    },
+    {
+     "text": "And we want the FIRST power where that happens.",
+     "caption": "And we want the FIRST power where that happens.",
+     "file": "2026-10-30-three-power-ends-01/audio/efa5b96eb2d66e32.wav",
+     "from": 263,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1552,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-three-power-ends-01/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "sol1-digit",
+   "kind": "scene",
+   "chapter": "Solution 1: last digit first",
+   "from": 2014,
+   "frames": 1364,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start small, with just the last digit.",
+     "caption": "Welcome back! Let's start small, with just the last digit.",
+     "file": "2026-10-30-three-power-ends-01/audio/d7d40d3d10d03e1f.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "Here's a handy fact. A product's last digit depends only on the last digits you multiply.",
+     "caption": "Here's a handy fact. A product's last digit depends only on the last digits you multiply.",
+     "file": "2026-10-30-three-power-ends-01/audio/443edec9f4937be4.wav",
+     "from": 146,
+     "frames": 207
+    },
+    {
+     "text": "Three, then nine. Nine times three is twenty-seven, so the last digit is seven.",
+     "caption": "Three, then nine. Nine times three is twenty-seven, so the last digit is seven.",
+     "file": "2026-10-30-three-power-ends-01/audio/73adcedc26af785c.wav",
+     "from": 363,
+     "frames": 198
+    },
+    {
+     "text": "Seven times three is twenty-one, so one. And one times three is three again.",
+     "caption": "Seven times three is twenty-one, so one. And one times three is three again.",
+     "file": "2026-10-30-three-power-ends-01/audio/d53c4d17d875ce7e.wav",
+     "from": 572,
+     "frames": 226
+    },
+    {
+     "text": "The last digits go three, nine, seven, one, and then repeat. A loop of four!",
+     "caption": "The last digits go three, nine, seven, one, and then repeat. A loop of four!",
+     "file": "2026-10-30-three-power-ends-01/audio/4c61a719a3aff017.wav",
+     "from": 808,
+     "frames": 231
+    },
+    {
+     "text": "So three to the n ends in one only for n equals four, eight, twelve, and so on.",
+     "caption": "So three to the n ends in one only for n equals four, eight, twelve, and so on.",
+     "file": "2026-10-30-three-power-ends-01/audio/3bbfd8db900a25b2.wav",
+     "from": 1049,
+     "frames": 262
+    }
+   ]
+  },
+  {
+   "id": "sol1-test",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3378,
+   "frames": 1706,
+   "lines": [
+    {
+     "text": "That shrinks our search a lot! Now let's test those powers, in order.",
+     "caption": "That shrinks our search a lot! Now let's test those powers, in order.",
+     "file": "2026-10-30-three-power-ends-01/audio/b585cea7ff373031.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "Same trick for two digits: only the last two digits matter. The rest are just hundreds.",
+     "caption": "Same trick for two digits: only the last two digits matter. The rest are just hundreds.",
+     "file": "2026-10-30-three-power-ends-01/audio/06eff969e69aff49.wav",
+     "from": 157,
+     "frames": 192
+    },
+    {
+     "text": "Three to the fourth is eighty-one. It ends in one, but not zero one. Not yet!",
+     "caption": "Three to the fourth is eighty-one. It ends in one, but not zero one. Not yet!",
+     "file": "2026-10-30-three-power-ends-01/audio/47158b7cad0f02d7.wav",
+     "from": 360,
+     "frames": 204
+    },
+    {
+     "text": "To jump four more powers, we multiply by eighty-one.",
+     "caption": "To jump four more powers, we multiply by eighty-one.",
+     "file": "2026-10-30-three-power-ends-01/audio/44662d20fec0bd0e.wav",
+     "from": 574,
+     "frames": 128
+    },
+    {
+     "text": "Eighty-one times eighty-one ends in sixty-one. That's three to the eighth.",
+     "caption": "Eighty-one times eighty-one ends in sixty-one. That's three to the eighth.",
+     "file": "2026-10-30-three-power-ends-01/audio/00c0a4022af7fd1c.wav",
+     "from": 712,
+     "frames": 148
+    },
+    {
+     "text": "Sixty-one times eighty-one ends in forty-one. That's three to the twelfth.",
+     "caption": "Sixty-one times eighty-one ends in forty-one. That's three to the twelfth.",
+     "file": "2026-10-30-three-power-ends-01/audio/95b5564ee0b8d247.wav",
+     "from": 870,
+     "frames": 166
+    },
+    {
+     "text": "Forty-one times eighty-one ends in twenty-one. That's three to the sixteenth.",
+     "caption": "Forty-one times eighty-one ends in twenty-one. That's three to the sixteenth.",
+     "file": "2026-10-30-three-power-ends-01/audio/a06bd112b13078c7.wav",
+     "from": 1046,
+     "frames": 208
+    },
+    {
+     "text": "Notice the pattern? The tens digit drops by two every time.",
+     "caption": "Notice the pattern? The tens digit drops by two every time.",
+     "file": "2026-10-30-three-power-ends-01/audio/7aa36b7a4a444824.wav",
+     "from": 1264,
+     "frames": 134
+    },
+    {
+     "text": "Twenty-one times eighty-one ends in <short pause> zero one! That's three to the twentieth.",
+     "caption": "Twenty-one times eighty-one ends in zero one! That's three to the twentieth.",
+     "file": "2026-10-30-three-power-ends-01/audio/96b014ad53ce5ac4.wav",
+     "from": 1408,
+     "frames": 244
+    }
+   ]
+  },
+  {
+   "id": "sol1-answer",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5084,
+   "frames": 201,
+   "lines": [
+    {
+     "text": "So the smallest n is twenty. The answer is C!",
+     "caption": "So the smallest n is twenty. The answer is C!",
+     "file": "2026-10-30-three-power-ends-01/audio/c88cb71f9784c43b.wav",
+     "from": 0,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: just add eighty",
+   "from": 5285,
+   "frames": 1852,
+   "lines": [
+    {
+     "text": "Here's a clever second way. Think of eighty-one as eighty plus one.",
+     "caption": "Here's a clever second way. Think of eighty-one as eighty plus one.",
+     "file": "2026-10-30-three-power-ends-01/audio/7929c40d32ba265b.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "So times eighty-one means: times eighty, plus one more copy of the number.",
+     "caption": "So times eighty-one means: times eighty, plus one more copy of the number.",
+     "file": "2026-10-30-three-power-ends-01/audio/bd8fb3b5df96b12a.wav",
+     "from": 177,
+     "frames": 159
+    },
+    {
+     "text": "Our numbers all end in one. Anything ending in one, times eighty, ends in eighty.",
+     "caption": "Our numbers all end in one. Anything ending in one, times eighty, ends in eighty.",
+     "file": "2026-10-30-three-power-ends-01/audio/529bc1b877554630.wav",
+     "from": 346,
+     "frames": 226
+    },
+    {
+     "text": "So each time we multiply by eighty-one, we just ADD eighty to the last two digits!",
+     "caption": "So each time we multiply by eighty-one, we just ADD eighty to the last two digits!",
+     "file": "2026-10-30-three-power-ends-01/audio/520c1a4e973cdf5d.wav",
+     "from": 582,
+     "frames": 188
+    },
+    {
+     "text": "Start at three to the zero, which is one. Every jump of four powers adds another eighty.",
+     "caption": "Start at three to the zero, which is one. Every jump of four powers adds another eighty.",
+     "file": "2026-10-30-three-power-ends-01/audio/5027550f9bd07b6c.wav",
+     "from": 780,
+     "frames": 197
+    },
+    {
+     "text": "We need the eighties to add up to a number ending in zero zero.",
+     "caption": "We need the eighties to add up to a number ending in zero zero.",
+     "file": "2026-10-30-three-power-ends-01/audio/ff72438b2f1efebf.wav",
+     "from": 987,
+     "frames": 144
+    },
+    {
+     "text": "Eighty, one hundred sixty, two hundred forty, three hundred twenty, <short pause> four hundred!",
+     "caption": "Eighty, one hundred sixty, two hundred forty, three hundred twenty, four hundred!",
+     "file": "2026-10-30-three-power-ends-01/audio/8321141f7c02c0ca.wav",
+     "from": 1141,
+     "frames": 230
+    },
+    {
+     "text": "Four hundred is five eighties. Five jumps of four powers is twenty. Three to the twentieth again!",
+     "caption": "Four hundred is five eighties. Five jumps of four powers is twenty. Three to the twentieth again!",
+     "file": "2026-10-30-three-power-ends-01/audio/f87f83f28a9ef4e9.wav",
+     "from": 1381,
+     "frames": 220
+    },
+    {
+     "text": "When would you pick this way? When a power ends in one, multiplying turns into adding.",
+     "caption": "When would you pick this way? When a power ends in one, multiplying turns into adding.",
+     "file": "2026-10-30-three-power-ends-01/audio/cedd639dcc44c58b.wav",
+     "from": 1611,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7137,
+   "frames": 1781,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-three-power-ends-01/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "Four stops too soon. Three to the fourth is eighty-one. It ends in one, but not zero one.",
+     "caption": "Four stops too soon. Three to the fourth is eighty-one. It ends in one, but not zero one.",
+     "file": "2026-10-30-three-power-ends-01/audio/0ecb5aab5bdc6491.wav",
+     "from": 139,
+     "frames": 230
+    },
+    {
+     "text": "Ten might feel like a nice round guess. But ten isn't a multiple of four.",
+     "caption": "Ten might feel like a nice round guess. But ten isn't a multiple of four.",
+     "file": "2026-10-30-three-power-ends-01/audio/686ed105fc71c966.wav",
+     "from": 378,
+     "frames": 195
+    },
+    {
+     "text": "Three to the tenth is fifty-nine thousand forty-nine. It ends in forty-nine, not zero one.",
+     "caption": "Three to the tenth is fifty-nine thousand forty-nine. It ends in forty-nine, not zero one.",
+     "file": "2026-10-30-three-power-ends-01/audio/fa44b08edfb6a01e.wav",
+     "from": 583,
+     "frames": 189
+    },
+    {
+     "text": "Forty and one hundred are sneaky. Those powers of three really DO end in zero one!",
+     "caption": "Forty and one hundred are sneaky. Those powers of three really DO end in zero one!",
+     "file": "2026-10-30-three-power-ends-01/audio/dfbf7fc0cc9b06e3.wav",
+     "from": 782,
+     "frames": 190
+    },
+    {
+     "text": "Three to the fortieth is two copies of three to the twentieth, multiplied. So it ends in zero one.",
+     "caption": "Three to the fortieth is two copies of three to the twentieth, multiplied. So it ends in zero one.",
+     "file": "2026-10-30-three-power-ends-01/audio/ca863a063e3bb895.wav",
+     "from": 982,
+     "frames": 225
+    },
+    {
+     "text": "Three to the hundredth is five of them multiplied, so it ends in zero one too.",
+     "caption": "Three to the hundredth is five of them multiplied, so it ends in zero one too.",
+     "file": "2026-10-30-three-power-ends-01/audio/fece57b4a8849242.wav",
+     "from": 1217,
+     "frames": 171
+    },
+    {
+     "text": "But the question asks for the SMALLEST. Twenty comes first.",
+     "caption": "But the question asks for the SMALLEST. Twenty comes first.",
+     "file": "2026-10-30-three-power-ends-01/audio/3911ca595d7cdba4.wav",
+     "from": 1398,
+     "frames": 150
+    },
+    {
+     "text": "So here's a great habit. Test in order, and stop at the first one that works.",
+     "caption": "So here's a great habit. Test in order, and stop at the first one that works.",
+     "file": "2026-10-30-three-power-ends-01/audio/d4ca6ea47ce6985f.wav",
+     "from": 1559,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: powers of nine",
+   "from": 8918,
+   "frames": 326,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new one.",
+     "caption": "Ready for a challenge? Here's a new one.",
+     "file": "2026-10-30-three-power-ends-01/audio/bf21733c8ff1d25b.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "What is the smallest positive n, so that nine to the n ends in zero one?",
+     "caption": "What is the smallest positive n, so that nine to the n ends in zero one?",
+     "file": "2026-10-30-three-power-ends-01/audio/02989dbc59284647.wav",
+     "from": 84,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9244,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-three-power-ends-01/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Powers of nine: the answer",
+   "from": 9704,
+   "frames": 1506,
+   "lines": [
+    {
+     "text": "Let's check. Last digit first. Nine, then nine times nine is eighty-one, so one.",
+     "caption": "Let's check. Last digit first. Nine, then nine times nine is eighty-one, so one.",
+     "file": "2026-10-30-three-power-ends-01/audio/15fe75aaa8ffdaf7.wav",
+     "from": 0,
+     "frames": 261
+    },
+    {
+     "text": "Then nine, then one again. A loop of two! So n must be even.",
+     "caption": "Then nine, then one again. A loop of two! So n must be even.",
+     "file": "2026-10-30-three-power-ends-01/audio/6700ef311111e044.wav",
+     "from": 271,
+     "frames": 176
+    },
+    {
+     "text": "Nine to the second is eighty-one. So each jump of two powers adds eighty again.",
+     "caption": "Nine to the second is eighty-one. So each jump of two powers adds eighty again.",
+     "file": "2026-10-30-three-power-ends-01/audio/52e08f6879e6aa8b.wav",
+     "from": 456,
+     "frames": 188
+    },
+    {
+     "text": "Eighty-one, sixty-one, forty-one, twenty-one, zero one. Five jumps again!",
+     "caption": "Eighty-one, sixty-one, forty-one, twenty-one, zero one. Five jumps again!",
+     "file": "2026-10-30-three-power-ends-01/audio/764718a20c24bdab.wav",
+     "from": 654,
+     "frames": 256
+    },
+    {
+     "text": "Five jumps, and each jump covers two powers. Five times two is ten. So n is ten!",
+     "caption": "Five jumps, and each jump covers two powers. Five times two is ten. So n is ten!",
+     "file": "2026-10-30-three-power-ends-01/audio/cedcd51958a366eb.wav",
+     "from": 920,
+     "frames": 200
+    },
+    {
+     "text": "Double-check: nine is three times three. So nine to the tenth is three to the twentieth!",
+     "caption": "Double-check: nine is three times three. So nine to the tenth is three to the twentieth!",
+     "file": "2026-10-30-three-power-ends-01/audio/888828b3a4bf1f6a.wav",
+     "from": 1130,
+     "frames": 200
+    },
+    {
+     "text": "If you found ten, amazing work!",
+     "caption": "If you found ten, amazing work!",
+     "file": "2026-10-30-three-power-ends-01/audio/d021a62e93abe421.wav",
+     "from": 1340,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11210,
+   "frames": 590,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-three-power-ends-01/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "First, find the loop of the last digit. It tells you which powers to test.",
+     "caption": "First, find the loop of the last digit. It tells you which powers to test.",
+     "file": "2026-10-30-three-power-ends-01/audio/057085f2762b4b3d.wav",
+     "from": 89,
+     "frames": 154
+    },
+    {
+     "text": "Then test them in order, keeping just the last two digits.",
+     "caption": "Then test them in order, keeping just the last two digits.",
+     "file": "2026-10-30-three-power-ends-01/audio/adab53390da4f7c9.wav",
+     "from": 254,
+     "frames": 117
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-three-power-ends-01/audio/31a6054d0b03b932.wav",
+     "from": 380,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

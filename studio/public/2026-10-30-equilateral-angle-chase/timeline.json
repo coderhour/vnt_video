@@ -1,0 +1,561 @@
+{
+ "fps": 30,
+ "durationInFrames": 11820,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 476,
+   "lines": [
+    {
+     "text": "This angle looks tiny. But a neat pattern is hiding here.",
+     "caption": "This angle looks tiny. But a neat pattern is hiding here.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/04c985ce85ac44e8.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "We only get ONE number to start with. Can we chase it all the way here?",
+     "caption": "We only get ONE number to start with. Can we chase it all the way here?",
+     "file": "2026-10-30-equilateral-angle-chase/audio/a27643dcb69ede0e.wav",
+     "from": 144,
+     "frames": 156
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's go angle chasing together.",
+     "caption": "Hi, I'm Vantee! Let's go angle chasing together.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/4b45521e6db37107.wav",
+     "from": 310,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 476,
+   "frames": 883,
+   "lines": [
+    {
+     "text": "Here's the question. Triangle A B C is equilateral.",
+     "caption": "Here's the question. Triangle A B C is equilateral.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/b103aa940c36ede8.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "Point D is on side B C, and point E is on side A C.",
+     "caption": "Point D is on side B C, and point E is on side A C.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/52ed50101be67e2c.wav",
+     "from": 160,
+     "frames": 168
+    },
+    {
+     "text": "The little tick marks say A D and A E are equal.",
+     "caption": "The little tick marks say A D and A E are equal.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/985e3af8569f0755.wav",
+     "from": 338,
+     "frames": 122
+    },
+    {
+     "text": "Angle B A D is twenty degrees.",
+     "caption": "Angle B A D is twenty degrees.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/29ecd115886f7d01.wav",
+     "from": 470,
+     "frames": 104
+    },
+    {
+     "text": "What is x, the angle E D C?",
+     "caption": "What is x, the angle E D C?",
+     "file": "2026-10-30-equilateral-angle-chase/audio/f0124237ecb12341.wav",
+     "from": 584,
+     "frames": 110
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/b97a89671840f7ca.wav",
+     "from": 703,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1359,
+   "frames": 676,
+   "lines": [
+    {
+     "text": "So what do we know? Equilateral means every angle is sixty degrees.",
+     "caption": "So what do we know? Equilateral means every angle is sixty degrees.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/0e16599fdcc66aa7.wav",
+     "from": 0,
+     "frames": 233
+    },
+    {
+     "text": "A D equals A E, so triangle A D E has two equal sides.",
+     "caption": "A D equals A E, so triangle A D E has two equal sides.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/a9415080343e4f7c.wav",
+     "from": 243,
+     "frames": 190
+    },
+    {
+     "text": "We want the small angle at D, between D E and side D C.",
+     "caption": "We want the small angle at D, between D E and side D C.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/9a3f863b8689d7f7.wav",
+     "from": 443,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2035,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "top",
+   "kind": "scene",
+   "chapter": "Solution 1: the outside angle",
+   "from": 2489,
+   "frames": 523,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start at the top corner, A.",
+     "caption": "Welcome back! Let's start at the top corner, A.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/799346ed627f77e2.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "The whole angle at A is sixty. Angle B A D takes twenty of it.",
+     "caption": "The whole angle at A is sixty. Angle B A D takes twenty of it.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/acef93bf65f983b9.wav",
+     "from": 130,
+     "frames": 167
+    },
+    {
+     "text": "So angle D A E is sixty minus twenty. That's forty degrees.",
+     "caption": "So angle D A E is sixty minus twenty. That's forty degrees.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/fb21a9d4803f7127.wav",
+     "from": 307,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "isos",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3012,
+   "frames": 783,
+   "lines": [
+    {
+     "text": "Now look at triangle A D E. It's isosceles: two sides are equal.",
+     "caption": "Now look at triangle A D E. It's isosceles: two sides are equal.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/9be6c33463e2fed3.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "Side D E is the base. The angles at D and E, the base angles, are equal.",
+     "caption": "Side D E is the base. The angles at D and E, the base angles, are equal.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/fb3a315bc8e5ee80.wav",
+     "from": 193,
+     "frames": 189
+    },
+    {
+     "text": "Its three angles add up to one hundred eighty. Take away forty, and one hundred forty is left.",
+     "caption": "Its three angles add up to one hundred eighty. Take away forty, and one hundred forty is left.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/a0ee25252d4a9eff.wav",
+     "from": 392,
+     "frames": 195
+    },
+    {
+     "text": "Split it in half. Each base angle is seventy degrees.",
+     "caption": "Split it in half. Each base angle is seventy degrees.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/cab96cfa29ea2940.wav",
+     "from": 597,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "outside",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3795,
+   "frames": 1120,
+   "lines": [
+    {
+     "text": "Here's the clever step. Look at triangle A B D on the left.",
+     "caption": "Here's the clever step. Look at triangle A B D on the left.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/f5582d496e2715db.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "Angle A D C sits outside that triangle, on the straight line B C.",
+     "caption": "Angle A D C sits outside that triangle, on the straight line B C.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/7af9edc99bd4af1d.wav",
+     "from": 159,
+     "frames": 160
+    },
+    {
+     "text": "An outside angle equals the two far inside angles added together.",
+     "caption": "An outside angle equals the two far inside angles added together.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/3875344b9205ca91.wav",
+     "from": 329,
+     "frames": 147
+    },
+    {
+     "text": "Why? Triangle A B D adds up to one hundred eighty. So does the straight line at D.",
+     "caption": "Why? Triangle A B D adds up to one hundred eighty. So does the straight line at D.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/dfef1c94d9711f52.wav",
+     "from": 486,
+     "frames": 179
+    },
+    {
+     "text": "Both include angle A D B, so the leftover parts must match.",
+     "caption": "Both include angle A D B, so the leftover parts must match.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/366d85a05a2e8e5b.wav",
+     "from": 676,
+     "frames": 146
+    },
+    {
+     "text": "That's angle B, sixty, plus angle B A D, twenty. So angle A D C is eighty.",
+     "caption": "That's angle B, sixty, plus angle B A D, twenty. So angle A D C is eighty.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/90815736009d1f9c.wav",
+     "from": 831,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "subtract",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4915,
+   "frames": 467,
+   "lines": [
+    {
+     "text": "Angle A D C is made of two parts: angle A D E, and our x.",
+     "caption": "Angle A D C is made of two parts: angle A D E, and our x.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/b230e0bde705212c.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "So x is eighty minus seventy.",
+     "caption": "So x is eighty minus seventy.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/8d729a902af4bac9.wav",
+     "from": 186,
+     "frames": 105
+    },
+    {
+     "text": "That's ten degrees! The answer is A.",
+     "caption": "That's ten degrees! The answer is A.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/72aace77c908e7b8.wav",
+     "from": 301,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: the straight line at E",
+   "from": 5382,
+   "frames": 1076,
+   "lines": [
+    {
+     "text": "Here's a second way. Angle A E D is seventy, and A E C is a straight line.",
+     "caption": "Here's a second way. Angle A E D is seventy, and A E C is a straight line.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/6c9b5b0ac01ff1f5.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "So angle D E C is one hundred eighty minus seventy. That's one hundred ten.",
+     "caption": "So angle D E C is one hundred eighty minus seventy. That's one hundred ten.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/277cef2792a26b61.wav",
+     "from": 212,
+     "frames": 197
+    },
+    {
+     "text": "Now look at the small triangle D E C. Angle C is sixty.",
+     "caption": "Now look at the small triangle D E C. Angle C is sixty.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/ef45012a812e632a.wav",
+     "from": 420,
+     "frames": 156
+    },
+    {
+     "text": "So x is one hundred eighty, minus one hundred ten, minus sixty. That's ten again!",
+     "caption": "So x is one hundred eighty, minus one hundred ten, minus sixty. That's ten again!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/f64f55a5c5856324.wav",
+     "from": 586,
+     "frames": 218
+    },
+    {
+     "text": "When would you pick this way? It's a great double-check, using a straight line and the triangle sum.",
+     "caption": "When would you pick this way? It's a great double-check, using a straight line and the triangle sum.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/1d6bffc16229f29d.wav",
+     "from": 814,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "pattern",
+   "kind": "scene",
+   "chapter": "The hidden pattern",
+   "from": 6458,
+   "frames": 1135,
+   "lines": [
+    {
+     "text": "Did you notice? Angle B A D was twenty, and x was ten. Exactly half!",
+     "caption": "Did you notice? Angle B A D was twenty, and x was ten. Exactly half!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/90a5ccafd15d074f.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "Is that luck? Let's call angle B A D the letter a, and redo our steps.",
+     "caption": "Is that luck? Let's call angle B A D the letter a, and redo our steps.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/7964e2cc6f3e2945.wav",
+     "from": 235,
+     "frames": 182
+    },
+    {
+     "text": "Angle D A E is sixty minus a. So each base angle works out to sixty, plus half of a.",
+     "caption": "Angle D A E is sixty minus a. So each base angle works out to sixty, plus half of a.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/8713e22d8a813958.wav",
+     "from": 427,
+     "frames": 230
+    },
+    {
+     "text": "Angle A D C is sixty plus a. Subtract, and the two copies of sixty cancel.",
+     "caption": "Angle A D C is sixty plus a. Subtract, and the two copies of sixty cancel.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/41a684cf9e46f19c.wav",
+     "from": 666,
+     "frames": 225
+    },
+    {
+     "text": "So in this picture, x is ALWAYS half of angle B A D!",
+     "caption": "So in this picture, x is ALWAYS half of angle B A D!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/53e22c021a0c1c3c.wav",
+     "from": 901,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7593,
+   "frames": 1522,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "Twenty is angle B A D. That's the number we were given, not x.",
+     "caption": "Twenty is angle B A D. That's the number we were given, not x.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/a3d1e8730cd12430.wav",
+     "from": 131,
+     "frames": 166
+    },
+    {
+     "text": "Forty is angle D A E, at the top. It's not the angle at D.",
+     "caption": "Forty is angle D A E, at the top. It's not the angle at D.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/ce046253bc14f6df.wav",
+     "from": 307,
+     "frames": 161
+    },
+    {
+     "text": "Thirty is what you would get if you used angle A D B instead.",
+     "caption": "Thirty is what you would get if you used angle A D B instead.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/68e610c0f6f88250.wav",
+     "from": 479,
+     "frames": 130
+    },
+    {
+     "text": "Angle A D B is one hundred. One hundred minus seventy is thirty. But x is inside angle A D C, on the C side.",
+     "caption": "Angle A D B is one hundred. One hundred minus seventy is thirty. But x is inside angle A D C, on the C side.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/ff7b899b3e496b18.wav",
+     "from": 619,
+     "frames": 305
+    },
+    {
+     "text": "Fifteen is what you would get if A D cut angle A exactly in half. Then B A D is thirty, and half of thirty is fifteen. But ours is twenty.",
+     "caption": "Fifteen is what you would get if A D cut angle A exactly in half. Then B A D is thirty, and half of thirty is fifteen. But ours is twenty.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/7a4d690786f9a1d6.wav",
+     "from": 934,
+     "frames": 348
+    },
+    {
+     "text": "So here's a great habit. Mark every angle you find on the picture as you go.",
+     "caption": "So here's a great habit. Mark every angle you find on the picture as you go.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/eae36ffec2e230bd.wav",
+     "from": 1293,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new angle",
+   "from": 9115,
+   "frames": 559,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same picture, one new number.",
+     "caption": "Ready for a challenge? Same picture, one new number.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/029756407511d8dc.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Triangle A B C is still equilateral, and A D still equals A E.",
+     "caption": "Triangle A B C is still equilateral, and A D still equals A E.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/771492b638ee6b4b.wav",
+     "from": 136,
+     "frames": 200
+    },
+    {
+     "text": "This time, angle B A D is thirty-six degrees. What is x?",
+     "caption": "This time, angle B A D is thirty-six degrees. What is x?",
+     "file": "2026-10-30-equilateral-angle-chase/audio/f0e196c1fae6d294.wav",
+     "from": 346,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9674,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New angle: the answer",
+   "from": 10134,
+   "frames": 1124,
+   "lines": [
+    {
+     "text": "Let's check. Angle D A E is sixty minus thirty-six. That's twenty-four.",
+     "caption": "Let's check. Angle D A E is sixty minus thirty-six. That's twenty-four.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/c677fd153cf38fce.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "One hundred eighty minus twenty-four is one hundred fifty-six. Half is seventy-eight.",
+     "caption": "One hundred eighty minus twenty-four is one hundred fifty-six. Half is seventy-eight.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/7ddc695d63b10060.wav",
+     "from": 238,
+     "frames": 204
+    },
+    {
+     "text": "Angle A D C is sixty plus thirty-six. That's ninety-six.",
+     "caption": "Angle A D C is sixty plus thirty-six. That's ninety-six.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/6859d4843b0ee43e.wav",
+     "from": 453,
+     "frames": 168
+    },
+    {
+     "text": "So x is ninety-six minus seventy-eight. That's eighteen degrees!",
+     "caption": "So x is ninety-six minus seventy-eight. That's eighteen degrees!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/37e39ab9c90cc1e0.wav",
+     "from": 631,
+     "frames": 179
+    },
+    {
+     "text": "And the pattern agrees. Half of thirty-six is eighteen.",
+     "caption": "And the pattern agrees. Half of thirty-six is eighteen.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/f0de0ba2e4454828.wav",
+     "from": 820,
+     "frames": 136
+    },
+    {
+     "text": "If you found eighteen, amazing work!",
+     "caption": "If you found eighteen, amazing work!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/05c1821fffe1a412.wav",
+     "from": 967,
+     "frames": 89
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11258,
+   "frames": 562,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 74
+    },
+    {
+     "text": "Find the angle at D with the outside angle trick.",
+     "caption": "Find the angle at D with the outside angle trick.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/f3a60ad6b74844dd.wav",
+     "from": 84,
+     "frames": 112
+    },
+    {
+     "text": "Then take away the base angle of the isosceles triangle inside it.",
+     "caption": "Then take away the base angle of the isosceles triangle inside it.",
+     "file": "2026-10-30-equilateral-angle-chase/audio/d7ff005a00048250.wav",
+     "from": 206,
+     "frames": 134
+    },
+    {
+     "text": "I'm Vantee. Keep chasing those angles, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep chasing those angles, and I'll see you next time!",
+     "file": "2026-10-30-equilateral-angle-chase/audio/1c7db85cb0203aea.wav",
+     "from": 350,
+     "frames": 129
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "title": "The Tiny Angle Inside a Triangle | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "lines": [
+    "This angle looks tiny. But a neat pattern is hiding here.",
+    "We only get ONE number to start with. Can we chase it all the way here?",
+    "Hi, I'm Vantee! Let's go angle chasing together."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "lines": [
+    "Here's the question. Triangle A B C is equilateral.",
+    "Point D is on side B C, and point E is on side A C.",
+    "The little tick marks say A D and A E are equal.",
+    "Angle B A D is twenty degrees.",
+    "What is x, the angle E D C?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "lines": [
+    "So what do we know? Equilateral means every angle is sixty degrees.",
+    "A D equals A E, so triangle A D E has two equal sides.",
+    "We want the small angle at D, between D E and side D C."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "top",
+   "chapter": "Solution 1: the outside angle",
+   "hold": 1,
+   "lines": [
+    "Welcome back! Let's start at the top corner, A.",
+    "The whole angle at A is sixty. Angle B A D takes twenty of it.",
+    "So angle D A E is sixty minus twenty. That's forty degrees."
+   ]
+  },
+  {
+   "id": "isos",
+   "hold": 1,
+   "lines": [
+    "Now look at triangle A D E. It's isosceles: two sides are equal.",
+    "Side D E is the base. The angles at D and E, the base angles, are equal.",
+    "Its three angles add up to one hundred eighty. Take away forty, and one hundred forty is left.",
+    "Split it in half. Each base angle is seventy degrees."
+   ]
+  },
+  {
+   "id": "outside",
+   "hold": 1,
+   "lines": [
+    "Here's the clever step. Look at triangle A B D on the left.",
+    "Angle A D C sits outside that triangle, on the straight line B C.",
+    "An outside angle equals the two far inside angles added together.",
+    "Why? Triangle A B D adds up to one hundred eighty. So does the straight line at D.",
+    "Both include angle A D B, so the leftover parts must match.",
+    "That's angle B, sixty, plus angle B A D, twenty. So angle A D C is eighty."
+   ]
+  },
+  {
+   "id": "subtract",
+   "hold": 1.5,
+   "lines": [
+    "Angle A D C is made of two parts: angle A D E, and our x.",
+    "So x is eighty minus seventy.",
+    "That's ten degrees! The answer is A."
+   ]
+  },
+  {
+   "id": "sol2",
+   "chapter": "Solution 2: the straight line at E",
+   "hold": 1.5,
+   "lines": [
+    "Here's a second way. Angle A E D is seventy, and A E C is a straight line.",
+    "So angle D E C is one hundred eighty minus seventy. That's one hundred ten.",
+    "Now look at the small triangle D E C. Angle C is sixty.",
+    "So x is one hundred eighty, minus one hundred ten, minus sixty. That's ten again!",
+    "When would you pick this way? It's a great double-check, using a straight line and the triangle sum."
+   ]
+  },
+  {
+   "id": "pattern",
+   "chapter": "The hidden pattern",
+   "hold": 1.5,
+   "lines": [
+    "Did you notice? Angle B A D was twenty, and x was ten. Exactly half!",
+    "Is that luck? Let's call angle B A D the letter a, and redo our steps.",
+    "Angle D A E is sixty minus a. So each base angle works out to sixty, plus half of a.",
+    "Angle A D C is sixty plus a. Subtract, and the two copies of sixty cancel.",
+    "So in this picture, x is ALWAYS half of angle B A D!"
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "lines": [
+    "Now, let's look at the wrong answers. Each one is a trap.",
+    "Twenty is angle B A D. That's the number we were given, not x.",
+    "Forty is angle D A E, at the top. It's not the angle at D.",
+    "Thirty is what you would get if you used angle A D B instead.",
+    "Angle A D B is one hundred. One hundred minus seventy is thirty. But x is inside angle A D C, on the C side.",
+    "Fifteen is what you would get if A D cut angle A exactly in half. Then B A D is thirty, and half of thirty is fifteen. But ours is twenty.",
+    "So here's a great habit. Mark every angle you find on the picture as you go."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a new angle",
+   "hold": 0.5,
+   "lines": [
+    "Ready for a challenge? Same picture, one new number.",
+    "Triangle A B C is still equilateral, and A D still equals A E.",
+    "This time, angle B A D is thirty-six degrees. What is x?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New angle: the answer",
+   "hold": 1.5,
+   "lines": [
+    "Let's check. Angle D A E is sixty minus thirty-six. That's twenty-four.",
+    "One hundred eighty minus twenty-four is one hundred fifty-six. Half is seventy-eight.",
+    "Angle A D C is sixty plus thirty-six. That's ninety-six.",
+    "So x is ninety-six minus seventy-eight. That's eighteen degrees!",
+    "And the pattern agrees. Half of thirty-six is eighteen.",
+    "If you found eighteen, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "lines": [
+    "Here's the big idea to remember.",
+    "Find the angle at D with the outside angle trick.",
+    "Then take away the base angle of the isosceles triangle inside it.",
+    "I'm Vantee. Keep chasing those angles, and I'll see you next time!"
+   ]
+  }
+ ]
+}
