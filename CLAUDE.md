@@ -8,7 +8,8 @@ This is the video generation project for Vantee. The Vantee code repo is located
   - `meta.json` — `{"title", "description", "created": "YYYY-MM-DD", "question_id", "posts": [{"platform", "url"}]}`
     (`question_id` = `<quiz bank file name>:<question id>`, e.g. `amc_practice_amc8_geometry_template:c1-010`,
     linking the video to its question in `/home/brad/code/vnt/priv/quiz_banks/`)
-    (`posts` is filled in by hand after manually publishing)
+    (`posts` is filled in by hand after manually publishing, or by the site's "Publish to YouTube" button, which also
+    writes `"youtube_id"`; setup in `tools/youtube.py`)
     Optional: `"status"`: `draft` (default) / `ready` / `fix` (+ `"fixes": ["…"]`), set from the site buttons; `"tags": [...]` overrides the
     default publish tags. Having `posts` means published.
   - `script.md` — narration / shot script
@@ -19,4 +20,4 @@ This is the video generation project for Vantee. The Vantee code repo is located
 - `./start.sh [port]` — starts `tools/serve.py`, listening on all interfaces (default port 8000).
   Test: `cd tools && python3 test_serve.py`.
 
-Publishing is manual for now; no publish/stats automation.
+Publishing: YouTube via the site button (`tools/youtube.py`); other platforms are manual. No stats automation.

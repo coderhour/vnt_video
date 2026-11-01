@@ -1,0 +1,166 @@
+{
+ "title": "Five Rectangles, Perimeter 66: Find the Area | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "The figure (bank SVG scaled up: two flat rectangles on top, three upright below, light grey fill). Line 1: the outline of the big rectangle glows with '66' on it. Line 2: a single small rectangle lifts slightly with a '?' inside. Line 3: Vantee title card.",
+   "lines": [
+    "Five rectangles, one perimeter, and not a single side length given.",
+    "Can we still find the area of one little rectangle? We sure can!",
+    "Hi, I'm Vantee! Let's crack this one together."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, figure right. Line 2: the five rectangles get numbered 1–5 briefly. Line 3: big outline traced with label 'perimeter 66'. Line 4: one small rectangle highlighted with 'area = ?'. Line 5: choice chips 36, 45, 54, 72, 81 (A–E).",
+   "lines": [
+    "Here's the question.",
+    "Five identical rectangles fit together to make a large rectangle, like this.",
+    "The large rectangle has a perimeter of sixty-six.",
+    "What is the area of one small rectangle?",
+    "Here are your five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: all five rectangles pulse together with tag 'identical = same short side, same long side'. Line 2: one rectangle shows its short side in purple labeled 'short' and long side in green labeled 'long'. Line 3: tag 'goal: short × long'.",
+   "lines": [
+    "Identical means every small rectangle is the same size.",
+    "So each one has a short side and a long side, and they're the same for all five.",
+    "We want the area of one of them: short side times long side."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; figure and question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "match",
+   "chapter": "Solution 1: build with blocks",
+   "hold": 1,
+   "visual": "Figure large. Line 1: brace above the top edge spanning the two flat rectangles; brace below the bottom spanning the three upright ones. Line 2: the top brace labeled 'long + long', the bottom brace labeled 'short + short + short'. Line 3: both braces turn the same color with '=' between them: '2 long = 3 short'.",
+   "lines": [
+    "Welcome back! Let's start by matching edges. Look at the top and the bottom of the big rectangle.",
+    "Across the top are two long sides. Across the bottom are three short sides.",
+    "They're the same width! So two long sides equal three short sides."
+   ]
+  },
+  {
+   "id": "blocks",
+   "hold": 1.5,
+   "visual": "Line 1: overlay a grid of equal square 'blocks' on ONE small rectangle: short side = 2 blocks, long side = 3 blocks (rectangle is 2 by 3 blocks). Line 2: rows '2 long = 3 × 2 = 6 blocks' and '3 short = 2 × 3 = 6 blocks' — both 6 ✓. Line 3: the block grid extends over the whole figure: width marked '6 blocks'. Line 4: height marked 'short + long = 2 + 3 = 5 blocks'. Keep block grid faint so the five rectangle outlines stay readable.",
+   "lines": [
+    "Here's a neat trick. Measure everything in equal blocks.",
+    "Say the short side is two blocks and the long side is three.",
+    "Check: two long sides make six blocks, and three short sides also make six. It fits!",
+    "So the big rectangle is six blocks wide.",
+    "Its height is one short side plus one long side. That's two plus three, five blocks."
+   ]
+  },
+  {
+   "id": "block-size",
+   "hold": 1.5,
+   "visual": "Line 1: row 'perimeter = 6 + 5 + 6 + 5 = 22 blocks' while a dot walks around the outline. Line 2: '22 blocks = 66' → '1 block = 66 ÷ 22 = 3'. Line 3: one small rectangle relabeled 'short = 2 × 3 = 6', 'long = 3 × 3 = 9'. Line 4: answer badge '6 × 9 = 54', chime at line end, choice C highlighted. Line 5: check row 'big: 18 by 15 → 2 × (18 + 15) = 66 ✓'.",
+   "lines": [
+    "Walk all the way around: six, plus five, plus six, plus five. That's twenty-two blocks.",
+    "Twenty-two blocks make sixty-six, so one block is sixty-six divided by twenty-two, which is three.",
+    "Now the short side is two times three, six. The long side is three times three, nine.",
+    "The area is six times nine, fifty-four. That's Choice C!",
+    "Check: the big rectangle is eighteen by fifteen. Two times thirty-three is sixty-six. Perfect!"
+   ]
+  },
+  {
+   "id": "walk",
+   "chapter": "Solution 2: walk the edge",
+   "hold": 1.5,
+   "visual": "Fresh figure. Line 1: as a dot travels the outline, each piece of the edge lights up: purple for short pieces, green for long pieces. Line 2: tallies 'top: 2 long', 'bottom: 3 short', 'each side: 1 short + 1 long'. Line 3: row '4 long + 5 short = 66'. Line 4: '4 long = 2 × (2 long) = 2 × (3 short) = 6 short'. Line 5: '6 short + 5 short = 11 short = 66' → 'short = 6', then 'long = 9' (from 2 long = 18). Line 6: small text 'count the pieces of the edge'.",
+   "lines": [
+    "Here's another way. Let's walk around the edge and count the pieces.",
+    "The top has two long sides. The bottom has three short sides. Each side has one short and one long.",
+    "That's four long sides and five short sides, all adding to sixty-six.",
+    "Four long sides are twice two long sides. That's twice three short sides, which is six short sides.",
+    "So eleven short sides make sixty-six. One short side is six, and the long side is nine.",
+    "When would you pick this way? When you'd rather swap long sides for short ones than draw blocks."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips in a row. Line 1: '36 = 6 × 6' on chip A, red. Line 2: '81 = 9 × 9' on chip E, red. Line 3: chip B '45 = 5 × 9', test rows '3 × 5 = 15' vs '2 × 9 = 18'. Line 4: '15 ≠ 18', chip B red. Line 5: chip D '72 = 8 × 9', '3 × 8 = 24 ≠ 18', red. Line 6: '3 × 6 = 18 = 2 × 9 ✓', chip C '54' green.",
+   "lines": [
+    "Now let's look at the traps. Choice A, thirty-six, is six times six. That squares the short side.",
+    "Choice E, eighty-one, is nine times nine. That squares the long side. Our rectangle isn't a square!",
+    "Choice B, forty-five, is what you'd get from sides five and nine.",
+    "But three fives make fifteen, and two nines make eighteen.",
+    "Those don't match, so that rectangle can't fit the picture.",
+    "Choice D, seventy-two, could come from sides eight and nine.",
+    "Three eights make twenty-four, not eighteen. No fit either.",
+    "Of the choices, only six and nine fit, and they give a perimeter of sixty-six.",
+    "So the area is fifty-four."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: seven rectangles",
+   "hold": 0.5,
+   "visual": "New figure: seven identical rectangles: three lying flat side by side on top, four standing upright side by side below (top width 3L = bottom width 4W, with L:W = 4:3). Line 2: outline labeled 'perimeter 76', one rectangle with 'area = ?'.",
+   "lines": [
+    "Ready for a challenge?",
+    "Now seven identical rectangles: three lying flat on top, four standing up below.",
+    "The big rectangle has a perimeter of seventy-six. What is the area of one small rectangle?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant figure visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Seven rectangles: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line on the variant figure: '3 long = 4 short'; blocks on one rectangle 'short = 3 blocks, long = 4 blocks' with '3 × 4 = 4 × 3 = 12'; 'width 12 blocks, height 3 + 4 = 7 blocks'; '12 + 7 + 12 + 7 = 38 blocks = 76 → 1 block = 2'; 'short 6, long 8'; answer badge '6 × 8 = 48' chime at end of that line.",
+   "lines": [
+    "Let's check. Three long sides on top match four short sides below.",
+    "So use blocks again: short side three blocks, long side four. Both rows are twelve blocks wide.",
+    "The height is three plus four, seven blocks.",
+    "Around the edge: twelve, seven, twelve, seven.",
+    "Thirty-eight blocks make seventy-six, so one block is two.",
+    "The short side is six, and the long side is eight.",
+    "The area is six times eight, forty-eight!",
+    "If you got forty-eight, fantastic work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: one small rectangle split into blocks with arrows 'match edges → block size → sides → area'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Match the edges to see how the short and long sides compare.",
+    "Then measure everything in equal blocks.",
+    "The big perimeter tells you how big one block is, and that unlocks the area.",
+    "I'm Vantee. Keep building, and I'll see you next time!"
+   ]
+  }
+ ]
+}

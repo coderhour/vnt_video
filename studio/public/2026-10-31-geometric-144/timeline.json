@@ -1,0 +1,534 @@
+{
+ "fps": 30,
+ "durationInFrames": 11707,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 634,
+   "lines": [
+    {
+     "text": "One, twelve, one hundred forty-four. Each number is twelve times the one before.",
+     "caption": "One, twelve, one hundred forty-four. Each number is twelve times the one before.",
+     "file": "2026-10-31-geometric-144/audio/43433d2a05819df8.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "How many three-number chains like this end at one hundred forty-four?",
+     "caption": "How many three-number chains like this end at one hundred forty-four?",
+     "file": "2026-10-31-geometric-144/audio/37329cce751411cf.wav",
+     "from": 238,
+     "frames": 150
+    },
+    {
+     "text": "More than you'd think!",
+     "caption": "More than you'd think!",
+     "file": "2026-10-31-geometric-144/audio/79748d3b94205986.wav",
+     "from": 399,
+     "frames": 64
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find every single one.",
+     "caption": "Hi, I'm Vantee! Let's find every single one.",
+     "file": "2026-10-31-geometric-144/audio/c872e4cf30db73c9.wav",
+     "from": 473,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 634,
+   "frames": 532,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-geometric-144/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 54
+    },
+    {
+     "text": "How many increasing geometric sequences of three positive whole numbers, a, b, c,",
+     "caption": "How many increasing geometric sequences of three positive whole numbers, a, b, c,",
+     "file": "2026-10-31-geometric-144/audio/44e651e861e1f10d.wav",
+     "from": 65,
+     "frames": 219
+    },
+    {
+     "text": "have c equal to one hundred forty-four?",
+     "caption": "have c equal to one hundred forty-four?",
+     "file": "2026-10-31-geometric-144/audio/9d8bedbd4a63d212.wav",
+     "from": 294,
+     "frames": 88
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-geometric-144/audio/4c78df72243d4b0b.wav",
+     "from": 392,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1166,
+   "frames": 842,
+   "lines": [
+    {
+     "text": "Geometric means we multiply by the same ratio each step, from a to b, then from b to c.",
+     "caption": "Geometric means we multiply by the same ratio each step, from a to b, then from b to c.",
+     "file": "2026-10-31-geometric-144/audio/48479b9827932afe.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "Increasing means a is less than b, and b is less than c.",
+     "caption": "Increasing means a is less than b, and b is less than c.",
+     "file": "2026-10-31-geometric-144/audio/51a9e0e07f11620e.wav",
+     "from": 231,
+     "frames": 182
+    },
+    {
+     "text": "And watch out: the ratio doesn't have to be whole.",
+     "caption": "And watch out: the ratio doesn't have to be whole.",
+     "file": "2026-10-31-geometric-144/audio/5556c073b7038775.wav",
+     "from": 423,
+     "frames": 119
+    },
+    {
+     "text": "Sixty-four, ninety-six, one hundred forty-four uses a ratio of three over two.",
+     "caption": "Sixty-four, ninety-six, one hundred forty-four uses a ratio of three over two.",
+     "file": "2026-10-31-geometric-144/audio/7826294f7355f54c.wav",
+     "from": 552,
+     "frames": 237
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2008,
+   "frames": 418,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-geometric-144/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "middle",
+   "kind": "scene",
+   "chapter": "Solution 1: focus on the middle",
+   "from": 2426,
+   "frames": 958,
+   "lines": [
+    {
+     "text": "Welcome back! Let's focus on the middle number, b.",
+     "caption": "Welcome back! Let's focus on the middle number, b.",
+     "file": "2026-10-31-geometric-144/audio/49a395be49ebdc14.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Same ratio means b over a equals c over b. So b times b equals a times c.",
+     "caption": "Same ratio means b over a equals c over b. So b times b equals a times c.",
+     "file": "2026-10-31-geometric-144/audio/7acdbfce3543ee45.wav",
+     "from": 143,
+     "frames": 262
+    },
+    {
+     "text": "With c equal to one hundred forty-four, a equals b squared,",
+     "caption": "With c equal to one hundred forty-four, a equals b squared,",
+     "file": "2026-10-31-geometric-144/audio/b695c13b7dd261c8.wav",
+     "from": 415,
+     "frames": 177
+    },
+    {
+     "text": "divided by one hundred forty-four.",
+     "caption": "divided by one hundred forty-four.",
+     "file": "2026-10-31-geometric-144/audio/f121e311a5759ed1.wav",
+     "from": 602,
+     "frames": 84
+    },
+    {
+     "text": "Try a few. Six or eighteen give fractions. But twenty-four works: a is four.",
+     "caption": "Try a few. Six or eighteen give fractions. But twenty-four works: a is four.",
+     "file": "2026-10-31-geometric-144/audio/46334506b164603c.wav",
+     "from": 696,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "twelve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3384,
+   "frames": 1842,
+   "lines": [
+    {
+     "text": "Here's the trick. One hundred forty-four is twelve squared.",
+     "caption": "Here's the trick. One hundred forty-four is twelve squared.",
+     "file": "2026-10-31-geometric-144/audio/222803526163666a.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "So a is b over twelve, squared.",
+     "caption": "So a is b over twelve, squared.",
+     "file": "2026-10-31-geometric-144/audio/1d3845f57499f304.wav",
+     "from": 151,
+     "frames": 122
+    },
+    {
+     "text": "If b over twelve weren't whole, its square wouldn't be whole either.",
+     "caption": "If b over twelve weren't whole, its square wouldn't be whole either.",
+     "file": "2026-10-31-geometric-144/audio/47a71107f3b4365b.wav",
+     "from": 282,
+     "frames": 141
+    },
+    {
+     "text": "Three over two squared is nine over four. Not whole!",
+     "caption": "Three over two squared is nine over four. Not whole!",
+     "file": "2026-10-31-geometric-144/audio/b6e022ae9bc6c4f2.wav",
+     "from": 433,
+     "frames": 136
+    },
+    {
+     "text": "But a IS whole. So b over twelve must be whole.",
+     "caption": "But a IS whole. So b over twelve must be whole.",
+     "file": "2026-10-31-geometric-144/audio/d1e74dcd5ade19ba.wav",
+     "from": 579,
+     "frames": 143
+    },
+    {
+     "text": "Call it k. Then b is twelve k, and a is k squared.",
+     "caption": "Call it k. Then b is twelve k, and a is k squared.",
+     "file": "2026-10-31-geometric-144/audio/72ed58ce8362c5e8.wav",
+     "from": 733,
+     "frames": 179
+    },
+    {
+     "text": "k equals one gives one, twelve, one hundred forty-four.",
+     "caption": "k equals one gives one, twelve, one hundred forty-four.",
+     "file": "2026-10-31-geometric-144/audio/803fdd011ce8afb1.wav",
+     "from": 922,
+     "frames": 168
+    },
+    {
+     "text": "k equals two gives four, twenty-four, one hundred forty-four. And so on.",
+     "caption": "k equals two gives four, twenty-four, one hundred forty-four. And so on.",
+     "file": "2026-10-31-geometric-144/audio/dbc70224d5c7ff19.wav",
+     "from": 1100,
+     "frames": 203
+    },
+    {
+     "text": "At k equals twelve, all three numbers are one hundred forty-four.",
+     "caption": "At k equals twelve, all three numbers are one hundred forty-four.",
+     "file": "2026-10-31-geometric-144/audio/706c6116cb5265b4.wav",
+     "from": 1314,
+     "frames": 162
+    },
+    {
+     "text": "That's not increasing, so we stop at eleven.",
+     "caption": "That's not increasing, so we stop at eleven.",
+     "file": "2026-10-31-geometric-144/audio/0a28b02add6ad432.wav",
+     "from": 1486,
+     "frames": 98
+    },
+    {
+     "text": "k can be one through eleven. That's eleven sequences, Choice C!",
+     "caption": "k can be one through eleven. That's eleven sequences, Choice C!",
+     "file": "2026-10-31-geometric-144/audio/4850f17777c56244.wav",
+     "from": 1594,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "kind": "scene",
+   "chapter": "Solution 2: the ratio as a fraction",
+   "from": 5226,
+   "frames": 1953,
+   "lines": [
+    {
+     "text": "Here's another way. Write the ratio as a fraction, p over q, in lowest terms.",
+     "caption": "Here's another way. Write the ratio as a fraction, p over q, in lowest terms.",
+     "file": "2026-10-31-geometric-144/audio/6e6f066dd7cf0630.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "p is bigger than q, since the chain increases.",
+     "caption": "p is bigger than q, since the chain increases.",
+     "file": "2026-10-31-geometric-144/audio/128ccb4486325c23.wav",
+     "from": 212,
+     "frames": 114
+    },
+    {
+     "text": "Going backward from c, a is one hundred forty-four times q squared, over p squared.",
+     "caption": "Going backward from c, a is one hundred forty-four times q squared, over p squared.",
+     "file": "2026-10-31-geometric-144/audio/7575ee75685065e3.wav",
+     "from": 336,
+     "frames": 201
+    },
+    {
+     "text": "q squared shares no factor with p squared, so p squared must divide one hundred forty-four.",
+     "caption": "q squared shares no factor with p squared, so p squared must divide one hundred forty-four.",
+     "file": "2026-10-31-geometric-144/audio/30c4dcb0baf61f3d.wav",
+     "from": 547,
+     "frames": 212
+    },
+    {
+     "text": "The squares above one that divide it are four, nine, sixteen, thirty-six and one hundred forty-four.",
+     "caption": "The squares above one that divide it are four, nine, sixteen, thirty-six and one hundred forty-four.",
+     "file": "2026-10-31-geometric-144/audio/b92ffa027a371679.wav",
+     "from": 769,
+     "frames": 280
+    },
+    {
+     "text": "So p is two, three, four, six or twelve.",
+     "caption": "So p is two, three, four, six or twelve.",
+     "file": "2026-10-31-geometric-144/audio/cff3305c7e73fdc3.wav",
+     "from": 1059,
+     "frames": 207
+    },
+    {
+     "text": "For each p, q is any smaller number that shares no factor with p.",
+     "caption": "For each p, q is any smaller number that shares no factor with p.",
+     "file": "2026-10-31-geometric-144/audio/96de9ff9e1aa754d.wav",
+     "from": 1276,
+     "frames": 162
+    },
+    {
+     "text": "That's one, plus two, plus two, plus two, plus four. Eleven again!",
+     "caption": "That's one, plus two, plus two, plus two, plus four. Eleven again!",
+     "file": "2026-10-31-geometric-144/audio/34fe172ec5030a5b.wav",
+     "from": 1448,
+     "frames": 219
+    },
+    {
+     "text": "When would you pick this way? When c isn't a perfect square. This method works for any c.",
+     "caption": "When would you pick this way? When c isn't a perfect square. This method works for any c.",
+     "file": "2026-10-31-geometric-144/audio/45652fbbd0391502.wav",
+     "from": 1677,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7179,
+   "frames": 1150,
+   "lines": [
+    {
+     "text": "Now the traps. Choice D, twelve, includes the chain where all three are one hundred forty-four.",
+     "caption": "Now the traps. Choice D, twelve, includes the chain where all three are one hundred forty-four.",
+     "file": "2026-10-31-geometric-144/audio/bbecf5f512253006.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "But that doesn't increase!",
+     "caption": "But that doesn't increase!",
+     "file": "2026-10-31-geometric-144/audio/719f6c8b5113de7d.wav",
+     "from": 239,
+     "frames": 62
+    },
+    {
+     "text": "Choice E, fourteen, is what you'd get if any factor of one hundred forty-four could go first.",
+     "caption": "Choice E, fourteen, is what you'd get if any factor of one hundred forty-four could go first.",
+     "file": "2026-10-31-geometric-144/audio/0ed23a737bee07b0.wav",
+     "from": 311,
+     "frames": 189
+    },
+    {
+     "text": "But if a is two, then b squared is two hundred eighty-eight. That's not a square!",
+     "caption": "But if a is two, then b squared is two hundred eighty-eight. That's not a square!",
+     "file": "2026-10-31-geometric-144/audio/1cdb011aa5e155fc.wav",
+     "from": 510,
+     "frames": 188
+    },
+    {
+     "text": "Choices A and B, nine and ten, are what you'd get if you skip fractions like twelve over eleven.",
+     "caption": "Choices A and B, nine and ten, are what you'd get if you skip fractions like twelve over eleven.",
+     "file": "2026-10-31-geometric-144/audio/6fa27788c76c585c.wav",
+     "from": 708,
+     "frames": 204
+    },
+    {
+     "text": "Count every letter k from one to eleven, and none slip away.",
+     "caption": "Count every letter k from one to eleven, and none slip away.",
+     "file": "2026-10-31-geometric-144/audio/4f483a4ca7ebe868.wav",
+     "from": 922,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: ending at 72",
+   "from": 8329,
+   "frames": 392,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same question, but now c is seventy-two.",
+     "caption": "Ready for a challenge? Same question, but now c is seventy-two.",
+     "file": "2026-10-31-geometric-144/audio/b5f745b4ff95eb07.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "Careful: seventy-two is not a perfect square! How many sequences are there?",
+     "caption": "Careful: seventy-two is not a perfect square! How many sequences are there?",
+     "file": "2026-10-31-geometric-144/audio/d711af1763ce97be.wav",
+     "from": 179,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8721,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-geometric-144/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Ending at 72: the answer",
+   "from": 9175,
+   "frames": 1751,
+   "lines": [
+    {
+     "text": "Let's check. Again, b squared equals seventy-two times a.",
+     "caption": "Let's check. Again, b squared equals seventy-two times a.",
+     "file": "2026-10-31-geometric-144/audio/c49c083785132aea.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "Seventy-two is thirty-six times two, and thirty-six is a square.",
+     "caption": "Seventy-two is thirty-six times two, and thirty-six is a square.",
+     "file": "2026-10-31-geometric-144/audio/07003b60f56cee4f.wav",
+     "from": 169,
+     "frames": 160
+    },
+    {
+     "text": "Then b over six, squared, equals two times a. So two times a is a perfect square.",
+     "caption": "Then b over six, squared, equals two times a. So two times a is a perfect square.",
+     "file": "2026-10-31-geometric-144/audio/aee83244f2c3834c.wav",
+     "from": 339,
+     "frames": 254
+    },
+    {
+     "text": "Two times a is even, so the square is even: four, sixteen, thirty-six, sixty-four, one hundred.",
+     "caption": "Two times a is even, so the square is even: four, sixteen, thirty-six, sixty-four, one hundred.",
+     "file": "2026-10-31-geometric-144/audio/852440c72970e5ba.wav",
+     "from": 603,
+     "frames": 323
+    },
+    {
+     "text": "So a is two, eight, eighteen, thirty-two or fifty.",
+     "caption": "So a is two, eight, eighteen, thirty-two or fifty.",
+     "file": "2026-10-31-geometric-144/audio/a6b82254d70695e7.wav",
+     "from": 936,
+     "frames": 204
+    },
+    {
+     "text": "The chains run from two, twelve, seventy-two, up to fifty, sixty, seventy-two.",
+     "caption": "The chains run from two, twelve, seventy-two, up to fifty, sixty, seventy-two.",
+     "file": "2026-10-31-geometric-144/audio/ddf5ab9af528c928.wav",
+     "from": 1151,
+     "frames": 219
+    },
+    {
+     "text": "The next one would be seventy-two, seventy-two, seventy-two. Not increasing!",
+     "caption": "The next one would be seventy-two, seventy-two, seventy-two. Not increasing!",
+     "file": "2026-10-31-geometric-144/audio/d3ccde04501081e6.wav",
+     "from": 1380,
+     "frames": 136
+    },
+    {
+     "text": "So there are five sequences. If you got five, amazing work!",
+     "caption": "So there are five sequences. If you got five, amazing work!",
+     "file": "2026-10-31-geometric-144/audio/3c35aa8fdf202b31.wav",
+     "from": 1526,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10926,
+   "frames": 781,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-geometric-144/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 77
+    },
+    {
+     "text": "In a geometric sequence, the middle times itself equals the outside two multiplied.",
+     "caption": "In a geometric sequence, the middle times itself equals the outside two multiplied.",
+     "file": "2026-10-31-geometric-144/audio/442b61689635c1b3.wav",
+     "from": 87,
+     "frames": 184
+    },
+    {
+     "text": "So a times c must be a perfect square.",
+     "caption": "So a times c must be a perfect square.",
+     "file": "2026-10-31-geometric-144/audio/cdc41276d5e8d313.wav",
+     "from": 281,
+     "frames": 116
+    },
+    {
+     "text": "Find every way, and stop when the chain stops increasing.",
+     "caption": "Find every way, and stop when the chain stops increasing.",
+     "file": "2026-10-31-geometric-144/audio/28eefe17c7772858.wav",
+     "from": 407,
+     "frames": 137
+    },
+    {
+     "text": "I'm Vantee. Keep multiplying your skills, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep multiplying your skills, and I'll see you next time!",
+     "file": "2026-10-31-geometric-144/audio/188242e12fea4bc5.wav",
+     "from": 554,
+     "frames": 143
+    }
+   ]
+  }
+ ]
+}

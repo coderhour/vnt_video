@@ -1,0 +1,161 @@
+{
+ "title": "Write Every Number in a Row: What Is the 2026th Digit? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A long ribbon of digits '123456789101112131415…' scrolling left across the screen. Line 1: a counter 'digit #' ticking past 1, 10, 100, 1000 (a fast blur, stopping on nothing). Line 2: a big '2026th?' tag. Line 3: Vantee title card.",
+   "lines": [
+    "Write the whole numbers in a row, with no spaces. One, two, three, all the way up.",
+    "Which digit lands in spot number two thousand twenty-six? No need to write them all!",
+    "Hi, I'm Vantee! Let's count smart, not hard."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text with the ribbon '123456789101112…' in KaTeX-sized digits. Line 2: digits 1–9 get numbered spots underneath (spot 1 under '1', …). Line 3: '10' and '11' bracket, showing spots 10–13. Line 4: tag '2026th digit = ?'. Line 5: choice chips 1, 2, 6, 7, 8.",
+   "lines": [
+    "Here's the question.",
+    "The whole numbers are written in order, with no spaces. One, two, three, and so on.",
+    "After nine comes one zero, then one one, and the digits keep running together.",
+    "What is the two thousand twenty-sixth digit?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: ribbon with '1' under spot 1 and '1','0' under spots 10, 11. Line 2: tags '1-digit numbers', '2-digit numbers', '3-digit numbers' as colored blocks on the ribbon. Line 3: tag 'find: which number, which digit of it'.",
+   "lines": [
+    "Each spot holds one digit. Spots ten and eleven hold the one and the zero of ten.",
+    "Small numbers use one digit each. Bigger numbers use two, then three.",
+    "We need two things: which number covers spot two thousand twenty-six, and which of its digits it is."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "blocks",
+   "chapter": "Solution 1: count digits in blocks",
+   "hold": 1,
+   "visual": "A horizontal 'digit budget' bar out of 2026. Line 1: tag 'count in blocks'. Line 2: block '1 to 9: 9 numbers × 1 digit = 9 digits' (green). Line 3: '10 to 99: 99 − 10 + 1 = 90 numbers'. Line 4: '90 × 2 = 180 digits' (purple). Line 5: '9 + 180 = 189 digits used'. (Added line 4: 'We add one because we count both ten and ninety-nine.')",
+   "lines": [
+    "Welcome back! Let's count the digits in blocks.",
+    "One to nine: nine numbers, one digit each. That's nine digits.",
+    "Ten to ninety-nine: that's ninety numbers. Ninety-nine minus ten, plus one.",
+    "We add one because we count both ten and ninety-nine.",
+    "Each one has two digits, so that's one hundred eighty digits.",
+    "So far: nine plus one hundred eighty, one hundred eighty-nine digits."
+   ]
+  },
+  {
+   "id": "three-digit",
+   "hold": 1.5,
+   "visual": "Line 1: '2026 − 189'. Line 2: '= 1837 digits left'. Line 3: '1837 ÷ 3'. Line 4: '= 612 remainder 1'. Line 5: compressed bracket '100, 101, …, ?' with '612 numbers'. Line 6: bracket end becomes '711' with row '100 + 612 − 1 = 711'. Line 7: row '189 + 1836 = 2025 → last digit of 711'. Line 8: ribbon zoom '…7 1 1 | 7 1 2…' with spot labels 2023, 2024, 2025 under 711 and 2026 under the 7 of 712. Line 9: answer badge '7' chime at end of line, choice D highlighted.",
+   "lines": [
+    "Spot two thousand twenty-six is still ahead. We've used one hundred eighty-nine digits.",
+    "Two thousand twenty-six minus one hundred eighty-nine is one thousand eight hundred thirty-seven.",
+    "Now every number has three digits. So divide one thousand eight hundred thirty-seven by three.",
+    "That's six hundred twelve, remainder one.",
+    "So six hundred twelve full three-digit numbers fit, starting at one hundred.",
+    "Careful here! They run from one hundred up to seven hundred eleven.",
+    "Six hundred twelve numbers use one thousand eight hundred thirty-six digits.",
+    "That reaches spot two thousand twenty-five, the last digit of seven hundred eleven.",
+    "The remainder one means one more digit: the first digit of the next number, seven hundred twelve.",
+    "The two thousand twenty-sixth digit is seven. That's Choice D!"
+   ]
+  },
+  {
+   "id": "hundreds",
+   "chapter": "Solution 2: jump by hundreds",
+   "hold": 1.5,
+   "visual": "A number line of spots with big jumps. Line 1: '100 numbers × 3 digits = 300 digits'. Line 2: start marker at 189. Line 3: jumps by 300: 489 (end of 199), 789 (299), 1089 (399), 1389, 1689, 1989 (699). Line 4: a faded jump to '2289 (799)' past 2026; '1989 < 2026 < 2289 → in the 700s'. Line 5: '2026 − 1989 = 37'. Line 6: '37 = 3 × 12 + 1'. Line 7: '700 … 711 = 12 numbers'. Line 8: '712 → 7'. Line 9: small text 'big jumps first, then small steps'.",
+   "lines": [
+    "Here's another way. Every hundred three-digit numbers uses three hundred digits.",
+    "Start at one hundred eighty-nine, and jump by three hundreds.",
+    "By the end of six hundred ninety-nine, we've used one thousand nine hundred eighty-nine digits.",
+    "The next jump would pass two thousand twenty-six. So our digit is in the seven hundreds!",
+    "Two thousand twenty-six minus one thousand nine hundred eighty-nine is thirty-seven.",
+    "That's twelve threes, plus one.",
+    "Twelve numbers, seven hundred through seven hundred eleven. Then one more digit.",
+    "It's the first digit of seven hundred twelve. Seven again!",
+    "When would you pick this way? When the target is far away. Big jumps first, then small steps."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Big '7 1 2' with each digit in its own box and choice chips under them. Lines 1–2: the '1' box red, chip A. Line 3: the '2' box red, chip B. Lines 4–5: '612' with its '6' red, chip C, and note 'starts at 100, not 0'. Line 6: chip E '8' red. Line 7: '7' box green, chip D.",
+   "lines": [
+    "Now the traps. Choice A, one, is the middle digit of seven hundred twelve.",
+    "That reads the wrong spot inside the number.",
+    "Choice B, two, is the last digit. Same mistake: the remainder one means the FIRST digit.",
+    "Choice C, six, is what you'd get if you forgot that three-digit numbers start at one hundred.",
+    "Count from zero instead of one hundred, and the next number would be six hundred twelve.",
+    "Choice E, eight, can't happen. Our digit is the first digit of a number in the seven hundreds.",
+    "So it must be seven."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: the 1000th digit",
+   "hold": 0.5,
+   "visual": "Ribbon '123456789101112…' again with tag '1000th digit = ?'.",
+   "lines": [
+    "Ready for a challenge? Same long row of digits.",
+    "What is the digit in spot one thousand?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant text visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "1000th digit: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: '189 digits used'; '1000 − 189 = 811'; '811 ÷ 3 = 270 remainder 1'; '100 … 369 = 270 numbers'; ribbon zoom '…3 6 9 | 3 7 0…' with spot 1000 under the 3 of 370; answer badge '3' chime at end of that line.",
+   "lines": [
+    "Let's check. The first one hundred eighty-nine digits are used up again.",
+    "One thousand minus one hundred eighty-nine is eight hundred eleven.",
+    "Eight hundred eleven divided by three is two hundred seventy, remainder one.",
+    "Two hundred seventy numbers run from one hundred to three hundred sixty-nine.",
+    "The remainder one is the first digit of the next number, three hundred seventy.",
+    "So the digit in spot one thousand is three!",
+    "If you got three, brilliant counting!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: blocks '9', '180', '3 each' with arrows 'subtract → divide → remainder picks the digit'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Count the digits block by block, and subtract what's used up.",
+    "Then divide by the digits per number. How many times it goes in finds the number.",
+    "The remainder finds the digit inside it.",
+    "I'm Vantee. Keep counting, and I'll see you next time!"
+   ]
+  }
+ ]
+}

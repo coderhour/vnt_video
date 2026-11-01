@@ -1,0 +1,155 @@
+{
+ "title": "40 Blue Edge Tiles, 80 White: How Long Is the Floor? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A tiled floor drawn as a grid (NOT 12 by 10 yet — use a neutral blurred/unlabeled floor silhouette, or a generic 7 by 5 example floor) with a blue border and white inside. Line 1: the blue ring glows. Line 2: a '?' between the long side and the short side. Line 3: Vantee title card.",
+   "lines": [
+    "A floor has a ring of blue tiles around the edge and white tiles inside.",
+    "Just from two counts, can we find its shape? Let's see!",
+    "Hi, I'm Vantee! Let's tile this one together."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, an example floor right (a small 7 by 5 tiled floor, clearly labeled 'example', blue edge, white inside). Line 2: one tile highlighted '1 ft'. Line 3: the edge ring glows, label '40 blue' next to the question text. Line 4: '80 white'. Line 5: 'longer by ? ft' arrow. Line 6: choice chips 1, 2, 3, 4, 6.",
+   "lines": [
+    "Here's the question.",
+    "A rectangular floor is covered with square tiles, each one foot on a side.",
+    "The forty tiles along the edge are blue.",
+    "The other eighty tiles are white.",
+    "How many feet longer is the floor than it is wide?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: row '40 + 80 = 120 tiles'. Line 2: example floor with long side 'L' and short side 'W' labels, tag 'L × W = 120'. Line 3: tag 'goal: L − W'.",
+   "lines": [
+    "Forty blue plus eighty white makes one hundred twenty tiles in all.",
+    "Each tile is one foot, so the floor's length times its width is one hundred twenty.",
+    "We want the difference: length minus width."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "edge-rule",
+   "chapter": "Solution 1: make a list",
+   "hold": 1,
+   "visual": "The 7 by 5 example floor. Line 1: tag 'make a list of floors with 120 tiles'. Line 2: the top and bottom rows light up blue-dark: '7 + 7'. Line 3: the left and right columns WITHOUT corners light up: '3 + 3' (5 − 2 = 3). Line 4: row 'edge = 7 + 7 + 3 + 3 = 20' on the example.",
+   "lines": [
+    "Welcome back! Let's make a list of floors with one hundred twenty tiles, and count each one's edge.",
+    "First, how do we count edge tiles? Take the whole top row and the whole bottom row.",
+    "Then add the two side columns, but skip their corners. Five minus two leaves three each.",
+    "On this small example, that's seven plus seven plus three plus three, twenty edge tiles."
+   ]
+  },
+  {
+   "id": "list",
+   "hold": 1.5,
+   "visual": "A table: 'length × width', 'edge tiles'. Line 1: rows '60 × 2 → 120' and '40 × 3 → 82' (long thin floors, red). Line 2: '30 × 4 → 64', '24 × 5 → 54', '20 × 6 → 48' (red, falling). Line 3: '15 × 8 → 42' (red, close). Line 4: '12 × 10 → 40' green; a 12 by 10 tiled floor draws with 40 blue tiles and an 10 by 8 white inside labeled '80'. Line 5: answer badge '12 − 10 = 2' chime at end of line, choice B highlighted.",
+   "lines": [
+    "Long, thin floors are almost all edge.",
+    "Sixty by two has one hundred twenty edge tiles. Forty by three has eighty-two.",
+    "As the floor gets squarer, the edge shrinks: sixty-four, fifty-four, forty-eight.",
+    "Fifteen by eight gives forty-two. So close!",
+    "Twelve by ten gives exactly forty. And the inside is ten by eight, eighty white tiles. Perfect!",
+    "Twelve minus ten is two. The floor is two feet longer. That's Choice B!"
+   ]
+  },
+  {
+   "id": "sum",
+   "chapter": "Solution 2: the edge gives a sum",
+   "hold": 1.5,
+   "visual": "A generic floor with labels L and W. Line 1: rows lit 'L + L', columns lit '(W − 2) + (W − 2)'. Line 2: row '2L + 2W − 4 = 40'. Line 3: '2L + 2W = 44', 'L + W = 22'. Line 4: 'L + W = 22, L × W = 120'; small hint '11 × 11 = 121'. Line 5: '12 + 10 = 22, 12 × 10 = 120'. Line 6: small text 'sum + product → the two numbers'.",
+   "lines": [
+    "Here's a faster way.",
+    "The edge is two lengths plus two widths, minus the four corners we'd count twice.",
+    "So two lengths plus two widths, minus four, is forty.",
+    "Add four: two lengths plus two widths is forty-four. So length plus width is twenty-two.",
+    "Now find two numbers that add to twenty-two and multiply to one hundred twenty.",
+    "Eleven times eleven is one hundred twenty-one, just one too many.",
+    "Spread them apart by one each: twelve and ten.",
+    "Twelve times ten is one hundred twenty. Again, a difference of two!",
+    "When would you pick this way? When you know a sum and a product. That pins down the two numbers."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "A test table using 'L + W = 22': columns 'difference', 'width', 'length', 'tiles'. Line 2: rows '1 → 10.5, 11.5' and '3 → 9.5, 12.5' red with 'half tiles!'. Line 3: '4 → 9, 13 → 117' red. Line 4: '6 → 8, 14 → 112' red. Line 5: '2 → 10, 12 → 120' green.",
+   "lines": [
+    "Now let's test every choice. We know length plus width is twenty-two.",
+    "A difference of one or three can't work.",
+    "Twenty-two minus an odd number is odd, and half of an odd number isn't whole.",
+    "A difference of four gives nine and thirteen. That's one hundred seventeen tiles, three short.",
+    "A difference of six gives eight and fourteen. That's only one hundred twelve tiles.",
+    "Only a difference of two gives ten and twelve, exactly one hundred twenty tiles."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a new floor",
+   "hold": 0.5,
+   "visual": "Card: '36 blue edge tiles, 60 white tiles. How many feet longer than wide?' with a generic floor silhouette (no dimensions).",
+   "lines": [
+    "Ready for a challenge?",
+    "A new floor has thirty-six blue tiles on the edge and sixty white tiles inside.",
+    "How many feet longer is it than it is wide?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant text visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New floor: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: '36 + 60 = 96 tiles'; '2L + 2W − 4 = 36 → L + W = 20'; '10 × 10 = 100, too many' then '12 × 8 = 96 ✓'; a 12 by 8 floor draws with inside 10 by 6 = 60; answer badge '12 − 8 = 4' chime at end of that line.",
+   "lines": [
+    "Let's check. Thirty-six plus sixty is ninety-six tiles in all.",
+    "Add the four corners to thirty-six. Then cut forty in half. Length plus width is twenty.",
+    "Ten times ten is one hundred, too many. Twelve times eight is ninety-six. That's it!",
+    "The inside is ten by six, sixty white tiles. It checks out.",
+    "Twelve minus eight is four. The floor is four feet longer!",
+    "If you got four, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: a floor with the edge highlighted, 'edge → length + width', 'all tiles → length × width', 'find the pair'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Add four to the edge tiles, then cut it in half. That's length plus width.",
+    "Count every tile in the floor to get length times width.",
+    "Then find the pair of numbers that fits both.",
+    "I'm Vantee. Keep counting, and I'll see you next time!"
+   ]
+  }
+ ]
+}

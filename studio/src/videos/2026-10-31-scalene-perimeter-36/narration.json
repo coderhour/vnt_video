@@ -1,0 +1,160 @@
+{
+ "title": "Perimeter 36, Three Different Sides: How Many Triangles? | AMC 8-Style Level 5",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A loop of string labeled '36' morphing between a few different triangle shapes (e.g. 10-12-14, 5-15-16, 11-12-13), each with side labels. Line 3: one flat 'triangle' 9-9-18 collapses into a line with a red ✗. Line 4: Vantee title card.",
+   "lines": [
+    "Take a string thirty-six units long, and bend it into a triangle.",
+    "How many different shapes can you make?",
+    "Watch out: some tries go flat, and some repeat a side!",
+    "Hi, I'm Vantee! Let's count them without missing any."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left. Line 2: chips 'whole-number sides', 'perimeter 36'. Line 3: chip 'all three sides different'. Line 4: choice chips 17, 19, 20, 27, 35.",
+   "lines": [
+    "Here's the question.",
+    "How many triangles have whole-number side lengths and a perimeter of thirty-six,",
+    "and have three different side lengths?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: example triangle 10, 12, 14 with '10 + 12 + 14 = 36 ✓'. Line 2: example 12, 12, 12 crossed ('sides repeat'). Line 3: tag 'same three sides in a different order = same triangle'.",
+   "lines": [
+    "The three sides must add to thirty-six. For example, ten, twelve and fourteen.",
+    "All three must be different, so twelve, twelve, twelve doesn't count.",
+    "And the same three sides in a different order make the same triangle. We count it once."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "rule",
+   "chapter": "Solution 1: list by the longest side",
+   "hold": 1,
+   "visual": "Line 1: tag 'list them, smallest < middle < longest'. Line 2: rule card 'the two shorter sides must add to MORE than the longest'; a demo of 9, 9, 18 lying flat. Line 3: row 'shorter two = 36 − longest > longest' → 'longest < 18'. Line 4: row 'longest ≥ 36 ÷ 3 = 12'. Line 5: range bar 'longest: 12 to 17'.",
+   "lines": [
+    "Welcome back! Let's make an organized list. Write each triangle smallest side first.",
+    "Here's the triangle rule. The two shorter sides must add to MORE than the longest side.",
+    "The shorter two make thirty-six minus the longest. So the longest side must be less than eighteen.",
+    "And the longest side is at least a third of thirty-six. That's twelve.",
+    "So the longest side is somewhere from twelve to seventeen."
+   ]
+  },
+  {
+   "id": "list",
+   "hold": 1.5,
+   "visual": "A table with one row per longest side, triangles listed as chips 'a, b, c'. Line 1: row 'longest 17: other two add to 19'. Line 2: chips 3,16 · 4,15 · … · 9,10 → count '7'. Line 3: note 'middle < 17, smallest < middle'. Line 4: row 16 (add to 20): 5,15 … 9,11. Line 5: count '5'. Line 6: row 15 (21): 7,14 · 8,13 · 9,12 · 10,11 → '4'. Line 7: row 14 (22): 9,13 · 10,12 → '2'; row 13 (23): 11,12 → '1'. Line 8: row 12 (24): empty → '0', note '10 + 11 = 21 < 24'. Line 9: sum '7 + 5 + 4 + 2 + 1 = 19' answer badge, chime at end, choice B highlighted.",
+   "lines": [
+    "Longest side seventeen: the other two add to nineteen.",
+    "From three and sixteen up to nine and ten. That's seven.",
+    "The middle side has to stay below seventeen, and the smallest below the middle.",
+    "Longest side sixteen: the other two add to twenty. From five and fifteen up to nine and eleven.",
+    "That's five more.",
+    "Longest fifteen: seven and fourteen, up to ten and eleven. That's four.",
+    "Longest fourteen gives two. Longest thirteen gives just one: eleven, twelve, thirteen.",
+    "Longest twelve gives none. Two different sides below twelve add to at most twenty-one.",
+    "Seven plus five plus four plus two plus one is nineteen. That's Choice B!"
+   ]
+  },
+  {
+   "id": "subtract",
+   "chapter": "Solution 2: count all, then subtract",
+   "hold": 1.5,
+   "visual": "Line 1: tag 'all triangles − ones with a repeat'. Line 2: counts by longest side for ALL triangles: '8 + 7 + 5 + 4 + 2 + 1 = 27'. Line 3: isosceles triangle drawing with two sides 'x'. Line 4: third side '36 − 2x'. Line 5: row '36 − 2x > 0 → x < 18'. Line 6: row 'x + x > 36 − 2x → 4x > 36 → x > 9'. Line 7: chips x = 10, 11, …, 17 → '8 triangles'. Line 8: chip 12 highlighted '12, 12, 12: equilateral, once'. Line 9: '27 − 8 = 19'. Line 10: small text 'count the leftovers'.",
+   "lines": [
+    "Here's another way. Count every triangle, then take away the ones with a repeated side.",
+    "Allow repeats, and the same list grows to twenty-seven triangles in all.",
+    "A triangle with a repeat has two equal sides. Call each one x.",
+    "So the third side is thirty-six minus two x.",
+    "The third side must be more than zero, so x is less than eighteen.",
+    "And x plus x must beat the third side, so x is more than nine.",
+    "That's x from ten to seventeen: eight triangles.",
+    "Twelve, twelve, twelve is one of them, counted just once.",
+    "Twenty-seven minus eight is nineteen. Same answer!",
+    "When would you pick this way? When the leftovers are easier to count than what you want."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips row; each turns red with a short note. Line 1: chip D '27 = all triangles'. Lines 2–3: chip C '27 − 7 = 20', with 12,12,12 circled 'forgot this one'. Line 4: chip E '35 > 27'. Lines 5–6: chip A '17 = 19 − 2', the 'longest 14' row crossed. Line 7: chip B '19' green.",
+   "lines": [
+    "Now the traps. Choice D, twenty-seven, counts every triangle. It forgets to remove the repeats.",
+    "Choice C, twenty, removes the repeats but forgets twelve, twelve, twelve.",
+    "That's twenty-seven minus seven.",
+    "Choice E, thirty-five, is too many. There are only twenty-seven triangles in all!",
+    "Choice A, seventeen, is what you'd get if you skipped a row of the list.",
+    "For example, the two with longest side fourteen.",
+    "An organized list by longest side keeps every triangle, so we land on nineteen."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: perimeter 24",
+   "hold": 0.5,
+   "visual": "Card: 'whole-number sides, perimeter 24, three different side lengths: how many triangles?'.",
+   "lines": [
+    "Ready for a challenge? Now the perimeter is twenty-four.",
+    "How many triangles with whole-number sides and three different side lengths are there?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant text visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Perimeter 24: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: 'longest < 12 and ≥ 8'; row 11 'other two add to 13'; chips 3,10 · 4,9 · 5,8 · 6,7 → '4'; row 10 (14): 5,9 · 6,8 → '2'; row 9 (15): 7,8 → '1'; row 8: '0'; answer badge '4 + 2 + 1 = 7' chime at end of that line; check '12 − 5 = 7'.",
+   "lines": [
+    "Let's check. The longest side must be less than twelve, and at least eight.",
+    "Longest eleven: the other two add to thirteen.",
+    "Three and ten, four and nine, five and eight, six and seven. Four!",
+    "Longest ten: five and nine, six and eight. That's two.",
+    "Longest nine: just seven and eight. And longest eight gives none.",
+    "Four plus two plus one is seven triangles!",
+    "Check another way: twelve triangles in all, minus five with a repeat. Seven!",
+    "If you got seven, terrific work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'longest side: between a third and a half of the perimeter', 'list row by row', 'or: all − repeats'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Fix the longest side. It's at least a third of the perimeter, and less than half.",
+    "Then list row by row. Or count them all, and subtract the repeats.",
+    "I'm Vantee. Keep counting, and I'll see you next time!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,522 @@
+{
+ "fps": 30,
+ "durationInFrames": 10988,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 499,
+   "lines": [
+    {
+     "text": "Five rectangles, one perimeter, and not a single side length given.",
+     "caption": "Five rectangles, one perimeter, and not a single side length given.",
+     "file": "2026-10-31-five-rectangles/audio/5ed9082a816b4c31.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "Can we still find the area of one little rectangle? We sure can!",
+     "caption": "Can we still find the area of one little rectangle? We sure can!",
+     "file": "2026-10-31-five-rectangles/audio/391ea683a165911b.wav",
+     "from": 184,
+     "frames": 147
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack this one together.",
+     "caption": "Hi, I'm Vantee! Let's crack this one together.",
+     "file": "2026-10-31-five-rectangles/audio/b53a45a233d1900d.wav",
+     "from": 341,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 499,
+   "frames": 645,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-five-rectangles/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 59
+    },
+    {
+     "text": "Five identical rectangles fit together to make a large rectangle, like this.",
+     "caption": "Five identical rectangles fit together to make a large rectangle, like this.",
+     "file": "2026-10-31-five-rectangles/audio/89f33f9e32623995.wav",
+     "from": 69,
+     "frames": 185
+    },
+    {
+     "text": "The large rectangle has a perimeter of sixty-six.",
+     "caption": "The large rectangle has a perimeter of sixty-six.",
+     "file": "2026-10-31-five-rectangles/audio/69005314ac63a758.wav",
+     "from": 265,
+     "frames": 119
+    },
+    {
+     "text": "What is the area of one small rectangle?",
+     "caption": "What is the area of one small rectangle?",
+     "file": "2026-10-31-five-rectangles/audio/a8e7b127173c1158.wav",
+     "from": 394,
+     "frames": 104
+    },
+    {
+     "text": "Here are your five choices.",
+     "caption": "Here are your five choices.",
+     "file": "2026-10-31-five-rectangles/audio/4cd5fcf6d6e9c20e.wav",
+     "from": 508,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1144,
+   "frames": 540,
+   "lines": [
+    {
+     "text": "Identical means every small rectangle is the same size.",
+     "caption": "Identical means every small rectangle is the same size.",
+     "file": "2026-10-31-five-rectangles/audio/cbfecd45d8cc62a6.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "So each one has a short side and a long side, and they're the same for all five.",
+     "caption": "So each one has a short side and a long side, and they're the same for all five.",
+     "file": "2026-10-31-five-rectangles/audio/2a689981705e7a73.wav",
+     "from": 143,
+     "frames": 188
+    },
+    {
+     "text": "We want the area of one of them: short side times long side.",
+     "caption": "We want the area of one of them: short side times long side.",
+     "file": "2026-10-31-five-rectangles/audio/a819b316bf6f16df.wav",
+     "from": 340,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1684,
+   "frames": 420,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-five-rectangles/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "match",
+   "kind": "scene",
+   "chapter": "Solution 1: build with blocks",
+   "from": 2104,
+   "frames": 661,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start by matching edges. Look at the top and the bottom of the big rectangle.",
+     "caption": "Welcome back! Let's start by matching edges. Look at the top and the bottom of the big rectangle.",
+     "file": "2026-10-31-five-rectangles/audio/debabcf66c66a717.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "Across the top are two long sides. Across the bottom are three short sides.",
+     "caption": "Across the top are two long sides. Across the bottom are three short sides.",
+     "file": "2026-10-31-five-rectangles/audio/639a7cc15fbf588a.wav",
+     "from": 218,
+     "frames": 210
+    },
+    {
+     "text": "They're the same width! So two long sides equal three short sides.",
+     "caption": "They're the same width! So two long sides equal three short sides.",
+     "file": "2026-10-31-five-rectangles/audio/e19473cec88a7e14.wav",
+     "from": 438,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "blocks",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2765,
+   "frames": 950,
+   "lines": [
+    {
+     "text": "Here's a neat trick. Measure everything in equal blocks.",
+     "caption": "Here's a neat trick. Measure everything in equal blocks.",
+     "file": "2026-10-31-five-rectangles/audio/7938c97ba57003b5.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "Say the short side is two blocks and the long side is three.",
+     "caption": "Say the short side is two blocks and the long side is three.",
+     "file": "2026-10-31-five-rectangles/audio/13dbffad355131c8.wav",
+     "from": 133,
+     "frames": 154
+    },
+    {
+     "text": "Check: two long sides make six blocks, and three short sides also make six. It fits!",
+     "caption": "Check: two long sides make six blocks, and three short sides also make six. It fits!",
+     "file": "2026-10-31-five-rectangles/audio/7e598d09a7261fff.wav",
+     "from": 297,
+     "frames": 219
+    },
+    {
+     "text": "So the big rectangle is six blocks wide.",
+     "caption": "So the big rectangle is six blocks wide.",
+     "file": "2026-10-31-five-rectangles/audio/e20f6367684d2422.wav",
+     "from": 526,
+     "frames": 130
+    },
+    {
+     "text": "Its height is one short side plus one long side. That's two plus three, five blocks.",
+     "caption": "Its height is one short side plus one long side. That's two plus three, five blocks.",
+     "file": "2026-10-31-five-rectangles/audio/36235b0e55c84e85.wav",
+     "from": 666,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "block-size",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3715,
+   "frames": 1221,
+   "lines": [
+    {
+     "text": "Walk all the way around: six, plus five, plus six, plus five. That's twenty-two blocks.",
+     "caption": "Walk all the way around: six, plus five, plus six, plus five. That's twenty-two blocks.",
+     "file": "2026-10-31-five-rectangles/audio/29ac3837a9647f53.wav",
+     "from": 0,
+     "frames": 248
+    },
+    {
+     "text": "Twenty-two blocks make sixty-six, so one block is sixty-six divided by twenty-two, which is three.",
+     "caption": "Twenty-two blocks make sixty-six, so one block is sixty-six divided by twenty-two, which is three.",
+     "file": "2026-10-31-five-rectangles/audio/0f073f8a8a1761be.wav",
+     "from": 258,
+     "frames": 245
+    },
+    {
+     "text": "Now the short side is two times three, six. The long side is three times three, nine.",
+     "caption": "Now the short side is two times three, six. The long side is three times three, nine.",
+     "file": "2026-10-31-five-rectangles/audio/27be45b0e2cfd79a.wav",
+     "from": 513,
+     "frames": 233
+    },
+    {
+     "text": "The area is six times nine, fifty-four. That's Choice C!",
+     "caption": "The area is six times nine, fifty-four. That's Choice C!",
+     "file": "2026-10-31-five-rectangles/audio/fe6e0cbee3b71213.wav",
+     "from": 756,
+     "frames": 144
+    },
+    {
+     "text": "Check: the big rectangle is eighteen by fifteen. Two times thirty-three is sixty-six. Perfect!",
+     "caption": "Check: the big rectangle is eighteen by fifteen. Two times thirty-three is sixty-six. Perfect!",
+     "file": "2026-10-31-five-rectangles/audio/2f5789e90915f98b.wav",
+     "from": 911,
+     "frames": 242
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "kind": "scene",
+   "chapter": "Solution 2: walk the edge",
+   "from": 4936,
+   "frames": 1373,
+   "lines": [
+    {
+     "text": "Here's another way. Let's walk around the edge and count the pieces.",
+     "caption": "Here's another way. Let's walk around the edge and count the pieces.",
+     "file": "2026-10-31-five-rectangles/audio/50895f65ae03a83f.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "The top has two long sides. The bottom has three short sides. Each side has one short and one long.",
+     "caption": "The top has two long sides. The bottom has three short sides. Each side has one short and one long.",
+     "file": "2026-10-31-five-rectangles/audio/f97016037993d1cb.wav",
+     "from": 157,
+     "frames": 257
+    },
+    {
+     "text": "That's four long sides and five short sides, all adding to sixty-six.",
+     "caption": "That's four long sides and five short sides, all adding to sixty-six.",
+     "file": "2026-10-31-five-rectangles/audio/01734f1abc1d67cf.wav",
+     "from": 424,
+     "frames": 164
+    },
+    {
+     "text": "Four long sides are twice two long sides. That's twice three short sides, which is six short sides.",
+     "caption": "Four long sides are twice two long sides. That's twice three short sides, which is six short sides.",
+     "file": "2026-10-31-five-rectangles/audio/0cb3016541f0febd.wav",
+     "from": 598,
+     "frames": 264
+    },
+    {
+     "text": "So eleven short sides make sixty-six. One short side is six, and the long side is nine.",
+     "caption": "So eleven short sides make sixty-six. One short side is six, and the long side is nine.",
+     "file": "2026-10-31-five-rectangles/audio/356248c7c7017b06.wav",
+     "from": 873,
+     "frames": 232
+    },
+    {
+     "text": "When would you pick this way? When you'd rather swap long sides for short ones than draw blocks.",
+     "caption": "When would you pick this way? When you'd rather swap long sides for short ones than draw blocks.",
+     "file": "2026-10-31-five-rectangles/audio/208c907745dcd95b.wav",
+     "from": 1115,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6309,
+   "frames": 1680,
+   "lines": [
+    {
+     "text": "Now let's look at the traps. Choice A, thirty-six, is six times six. That squares the short side.",
+     "caption": "Now let's look at the traps. Choice A, thirty-six, is six times six. That squares the short side.",
+     "file": "2026-10-31-five-rectangles/audio/f6df7956bcca6d50.wav",
+     "from": 0,
+     "frames": 250
+    },
+    {
+     "text": "Choice E, eighty-one, is nine times nine. That squares the long side. Our rectangle isn't a square!",
+     "caption": "Choice E, eighty-one, is nine times nine. That squares the long side. Our rectangle isn't a square!",
+     "file": "2026-10-31-five-rectangles/audio/1132b9662f40e21a.wav",
+     "from": 260,
+     "frames": 266
+    },
+    {
+     "text": "Choice B, forty-five, is what you'd get from sides five and nine.",
+     "caption": "Choice B, forty-five, is what you'd get from sides five and nine.",
+     "file": "2026-10-31-five-rectangles/audio/361ef46bd437d6e4.wav",
+     "from": 536,
+     "frames": 162
+    },
+    {
+     "text": "But three fives make fifteen, and two nines make eighteen.",
+     "caption": "But three fives make fifteen, and two nines make eighteen.",
+     "file": "2026-10-31-five-rectangles/audio/d9277c6868d690c1.wav",
+     "from": 709,
+     "frames": 160
+    },
+    {
+     "text": "Those don't match, so that rectangle can't fit the picture.",
+     "caption": "Those don't match, so that rectangle can't fit the picture.",
+     "file": "2026-10-31-five-rectangles/audio/bc7e3cad172a639b.wav",
+     "from": 879,
+     "frames": 136
+    },
+    {
+     "text": "Choice D, seventy-two, could come from sides eight and nine.",
+     "caption": "Choice D, seventy-two, could come from sides eight and nine.",
+     "file": "2026-10-31-five-rectangles/audio/c966100f790c2fa1.wav",
+     "from": 1025,
+     "frames": 141
+    },
+    {
+     "text": "Three eights make twenty-four, not eighteen. No fit either.",
+     "caption": "Three eights make twenty-four, not eighteen. No fit either.",
+     "file": "2026-10-31-five-rectangles/audio/c4f9479eaa26b740.wav",
+     "from": 1176,
+     "frames": 159
+    },
+    {
+     "text": "Of the choices, only six and nine fit, and they give a perimeter of sixty-six.",
+     "caption": "Of the choices, only six and nine fit, and they give a perimeter of sixty-six.",
+     "file": "2026-10-31-five-rectangles/audio/cbf580a0a2709b77.wav",
+     "from": 1345,
+     "frames": 182
+    },
+    {
+     "text": "So the area is fifty-four.",
+     "caption": "So the area is fifty-four.",
+     "file": "2026-10-31-five-rectangles/audio/f86b516a1751e7bb.wav",
+     "from": 1536,
+     "frames": 84
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: seven rectangles",
+   "from": 7989,
+   "frames": 519,
+   "lines": [
+    {
+     "text": "Ready for a challenge?",
+     "caption": "Ready for a challenge?",
+     "file": "2026-10-31-five-rectangles/audio/a19a3d2db526576d.wav",
+     "from": 0,
+     "frames": 50
+    },
+    {
+     "text": "Now seven identical rectangles: three lying flat on top, four standing up below.",
+     "caption": "Now seven identical rectangles: three lying flat on top, four standing up below.",
+     "file": "2026-10-31-five-rectangles/audio/392ca2b19cc7e483.wav",
+     "from": 60,
+     "frames": 206
+    },
+    {
+     "text": "The big rectangle has a perimeter of seventy-six. What is the area of one small rectangle?",
+     "caption": "The big rectangle has a perimeter of seventy-six. What is the area of one small rectangle?",
+     "file": "2026-10-31-five-rectangles/audio/0f374554f6080e2f.wav",
+     "from": 276,
+     "frames": 204
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8508,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-five-rectangles/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Seven rectangles: the answer",
+   "from": 8964,
+   "frames": 1307,
+   "lines": [
+    {
+     "text": "Let's check. Three long sides on top match four short sides below.",
+     "caption": "Let's check. Three long sides on top match four short sides below.",
+     "file": "2026-10-31-five-rectangles/audio/a54a7f3476ccbb2a.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "So use blocks again: short side three blocks, long side four. Both rows are twelve blocks wide.",
+     "caption": "So use blocks again: short side three blocks, long side four. Both rows are twelve blocks wide.",
+     "file": "2026-10-31-five-rectangles/audio/25703f44c84b60e1.wav",
+     "from": 182,
+     "frames": 249
+    },
+    {
+     "text": "The height is three plus four, seven blocks.",
+     "caption": "The height is three plus four, seven blocks.",
+     "file": "2026-10-31-five-rectangles/audio/82e9843def018695.wav",
+     "from": 441,
+     "frames": 119
+    },
+    {
+     "text": "Around the edge: twelve, seven, twelve, seven.",
+     "caption": "Around the edge: twelve, seven, twelve, seven.",
+     "file": "2026-10-31-five-rectangles/audio/cd1358aaa497c917.wav",
+     "from": 570,
+     "frames": 138
+    },
+    {
+     "text": "Thirty-eight blocks make seventy-six, so one block is two.",
+     "caption": "Thirty-eight blocks make seventy-six, so one block is two.",
+     "file": "2026-10-31-five-rectangles/audio/24b9d73b4c551232.wav",
+     "from": 718,
+     "frames": 155
+    },
+    {
+     "text": "The short side is six, and the long side is eight.",
+     "caption": "The short side is six, and the long side is eight.",
+     "file": "2026-10-31-five-rectangles/audio/215ea1bd2ee9dc97.wav",
+     "from": 884,
+     "frames": 130
+    },
+    {
+     "text": "The area is six times eight, forty-eight!",
+     "caption": "The area is six times eight, forty-eight!",
+     "file": "2026-10-31-five-rectangles/audio/200e11dd31252393.wav",
+     "from": 1024,
+     "frames": 108
+    },
+    {
+     "text": "If you got forty-eight, fantastic work!",
+     "caption": "If you got forty-eight, fantastic work!",
+     "file": "2026-10-31-five-rectangles/audio/91f6f58b65aa09c7.wav",
+     "from": 1142,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10271,
+   "frames": 717,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-five-rectangles/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "Match the edges to see how the short and long sides compare.",
+     "caption": "Match the edges to see how the short and long sides compare.",
+     "file": "2026-10-31-five-rectangles/audio/22d0dd137444fc15.wav",
+     "from": 90,
+     "frames": 128
+    },
+    {
+     "text": "Then measure everything in equal blocks.",
+     "caption": "Then measure everything in equal blocks.",
+     "file": "2026-10-31-five-rectangles/audio/6f6fe2c621cb138b.wav",
+     "from": 228,
+     "frames": 102
+    },
+    {
+     "text": "The big perimeter tells you how big one block is, and that unlocks the area.",
+     "caption": "The big perimeter tells you how big one block is, and that unlocks the area.",
+     "file": "2026-10-31-five-rectangles/audio/9961b6a79787a883.wav",
+     "from": 340,
+     "frames": 172
+    },
+    {
+     "text": "I'm Vantee. Keep building, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep building, and I'll see you next time!",
+     "file": "2026-10-31-five-rectangles/audio/2b1d5ffea7ff8a54.wav",
+     "from": 522,
+     "frames": 111
+    }
+   ]
+  }
+ ]
+}

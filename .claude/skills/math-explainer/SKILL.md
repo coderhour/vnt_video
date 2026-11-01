@@ -81,8 +81,9 @@ The main session orchestrates and does the thinking. Spend Opus where mistakes a
   cached lines are skipped), and wait for renders with the blocking loop in step 7.
 - What parallelises: TTS, scene writing and stills (cheap). What doesn't: full renders, which use about 4 cores each.
   `render.sh` queues them for 2 slots, so builders never `ps`-check or wait by hand.
-- Orchestrator: when a builder's notice says "waiting on its own background work", check
-  `ps aux | grep -E "[r]emotion render|[t]ts.py"` and its `videos/<slug>/render.*` markers. If nothing is running, nudge it right away.
+- Orchestrator: when a builder's notice says "waiting on its own background work", check its `videos/<slug>/render.*` markers
+  and whether `render.log` is still growing (`stat -c %y`). Don't trust `ps` from the orchestrator: its sandboxed shell can't see
+  the builders' processes, so a busy queue looks dead. Never start a render for a builder's slug; nudge the builder instead.
 
 ## Workflow
 
@@ -181,6 +182,9 @@ fifty" came out as "fifty PERCENT", "Try" as "Tried", and some takes had laughs.
 3. Repeat until it prints `voice check: all lines match`. If the check flags a line that you are
    sure is right after re-transcribing it twice, list it for the user rather than skipping it silently.
 4. Re-copy the chapter times into `meta.json` whenever a line changes, because timings shift.
+5. Run `python3 .claude/skills/math-explainer/scripts/name_check.py <slug>`. `--check` normalizes the spelling of "Vantee"
+   away, so it can't hear VON-tee or VEN-tee (4 of 10 videos in batch 3 had one). For a BAD line, delete its WAV and re-run
+   `tts.py --check`, which regenerates only that line. Repeat until every line is ok.
 
 ### 5. Storyboard and animation
 The visuals must *explain*, not decorate. Plan each scene's visual from the math:

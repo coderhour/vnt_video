@@ -1,0 +1,152 @@
+{
+ "title": "Spin the Hour Hand 1, 2, 3… 20 Hours: Where Does It Stop? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A big clock face (numbers 1–12, ≥ 48 px) with only an hour hand, pointing at 3. Line 1: tags '+1', '+2', '+3', '…', '+20' pop in a row beside the clock (the hand does NOT step: 3+1+2+3 would land on 9, the answer). Line 2: the hand spins as a fast blur and fades to a '?' without ever stopping on a number. Line 3: Vantee title card.",
+   "lines": [
+    "Move a clock's hour hand one hour, then two, then three, all the way up to twenty.",
+    "Where does it stop? You won't need to spin it by hand!",
+    "Hi, I'm Vantee! Let's go around the clock."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, clock right with the hand at 3 (the hand stays still in this scene). Line 2: hand at 3 glows. Line 3: tags '+1', '+2', '+3' appear in a row. Line 4: tag '… +20'. Line 5: '?' on the clock. Line 6: choice chips 3, 6, 7, 9, 10.",
+   "lines": [
+    "Here's the question.",
+    "The hour hand of a clock points to three.",
+    "Tom moves it forward one hour, then two hours, then three hours, and so on.",
+    "He finishes with a move of twenty hours.",
+    "To which number does the hour hand point at the end?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: tags '+1 +2 +3 … +20' in a row, '20 moves'. Lines 2–3: the hand does one full 12-hour turn back to 3, tag '12 hours = back where you started'. Line 4: tag 'goal: the final number'.",
+   "lines": [
+    "There are twenty moves, and each one is one hour longer than the last.",
+    "Here's a key fact. Twelve hours is one full turn.",
+    "The hand lands right back where it started.",
+    "We want the number the hand points to at the very end."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; clock (hand at 3) and question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "total",
+   "chapter": "Solution 1: add it all up",
+   "hold": 1,
+   "visual": "Right panel. Line 1: tag 'add up all the moves'. Line 2: row '1 + 2 + 3 + … + 20'. Line 3: pairing arcs '1 + 20 = 21', '2 + 19 = 21', '3 + 18 = 21'… Line 4: '10 pairs × 21 = 210'.",
+   "lines": [
+    "Welcome back! Let's add up all the moves first.",
+    "We need one plus two plus three, all the way to twenty.",
+    "Pair them up. One and twenty make twenty-one. Two and nineteen make twenty-one too.",
+    "Twenty numbers make ten pairs. Ten times twenty-one is two hundred ten hours."
+   ]
+  },
+  {
+   "id": "turns",
+   "hold": 1.5,
+   "visual": "Line 1: row '210 ÷ 12 = 17 remainder 6' with '17 × 12 = 204', '210 − 204 = 6'. Line 2: the clock: 17 full turns shown as a fast spinning counter '×17' that ends back at 3. Line 3: the hand moves 6 more hours, one hour at a time from 3: 4, 5, 6, 7, 8, 9 (label '+6'). Line 4: answer badge '3 + 6 = 9', chime at end, choice D highlighted.",
+   "lines": [
+    "Twelve hours is a full turn. Two hundred ten divided by twelve is seventeen, remainder six.",
+    "Seventeen full turns bring the hand right back to three. They don't change anything!",
+    "Only the six leftover hours matter. Count six more from three.",
+    "The hand ends at nine. That's Choice D!"
+   ]
+  },
+  {
+   "id": "throw",
+   "chapter": "Solution 2: throw away full turns",
+   "hold": 1.5,
+   "visual": "The 20 moves as chips 1…20. Line 1: tag 'throw away 12s as you go'. Line 2: chips paired with arcs '1+11', '2+10', '3+9', '4+8', '5+7' each '= 12' and fading out. Line 3: chip 12 fades too. Line 4: chip '6' left glowing, hand from 3 → 9. Line 5: chips 13…20 each split '12 + 1' … '12 + 8', the 12s fade. Line 6: '1 + 2 + … + 8 = 36 = 3 × 12' fades. Line 7: hand stays at 9. Line 8: small text 'only leftovers matter'.",
+   "lines": [
+    "Here's another way. Throw away full turns as you go.",
+    "One and eleven make twelve. So do two and ten, three and nine, four and eight, and five and seven.",
+    "And the move of twelve is a full turn by itself.",
+    "From the first twelve moves, only the six is left. So far, the hand goes from three to nine.",
+    "Each move from thirteen to twenty is a full turn, plus one to eight extra hours.",
+    "One through eight adds to thirty-six. That's three more full turns!",
+    "So the last eight moves change nothing. The hand stays at nine.",
+    "When would you pick this way? When you'd rather not add big numbers."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips row; each turns red with a note. Line 1: chip B '6 = leftover, not the final number', small clock showing 6 hours counted from 12 vs from 3. Lines 2–3: chip A '3 = back to start?' with '210 ÷ 12 is not whole'. Line 4: chip C '7 needs leftover 4', chip E '10 needs leftover 7', vs '210 − 204 = 6'. Line 5: chip D '9' green.",
+   "lines": [
+    "Now the traps. Choice B, six, is the leftover. It counts from twelve, but the hand started at three!",
+    "Choice A, three, says the hand ends where it started. That needs whole turns only.",
+    "But two hundred ten isn't a multiple of twelve.",
+    "Choices C and E, seven and ten, would need four or seven leftover hours. But the leftover is six.",
+    "Start at three, add six, and land on nine."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: start at 8",
+   "hold": 0.5,
+   "visual": "Clock with the hand at 8. Card: 'moves 1, 2, 3, …, 16 hours. Where does it point?'.",
+   "lines": [
+    "Ready for a challenge? This time the hand starts at eight.",
+    "It moves one hour, then two, then three, finishing with a move of sixteen hours.",
+    "Where does it point?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 11,
+   "visual": "Pause card, countdown, variant clock visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Start at 8: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: '1 + 16 = 17, 8 pairs'; '8 × 17 = 136'; '136 ÷ 12 = 11 remainder 4'; hand from 8 moves 4 hours: 9, 10, 11, 12; answer badge '12' chime at end of that line; tag '8 + 4 = 12 → the 12 itself'. Added line 'Eight plus four lands on the twelve itself.': '8 + 4 = 12' and tag on that line.",
+   "lines": [
+    "Let's check. Pair them up: one and sixteen make seventeen, and there are eight pairs.",
+    "Eight times seventeen is one hundred thirty-six.",
+    "One hundred thirty-six divided by twelve is eleven, remainder four.",
+    "Count four hours from eight: nine, ten, eleven, twelve.",
+    "The hand points to twelve!",
+    "Eight plus four lands on the twelve itself.",
+    "If you got twelve, fantastic work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: clock with '12 = full turn', 'add all moves → keep the remainder → count from the start'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Add up all the moves. Full turns of twelve change nothing, so keep only the remainder.",
+    "Then count that many from where you started.",
+    "I'm Vantee. Keep spinning, and I'll see you next time!"
+   ]
+  }
+ ]
+}

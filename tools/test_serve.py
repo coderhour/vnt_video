@@ -22,3 +22,8 @@ with tempfile.TemporaryDirectory() as d:
     assert not serve.set_status("../v1", "ready")
     assert not serve.set_status("nope", "ready")
 print("ok")
+import youtube
+assert youtube.tags({"question_id": "amc_practice_amc10_algebra_template:c4-067"})[0] == "AMC 10"
+assert youtube.tags({"tags": ["x"]}) == ["x"]
+assert not serve.valid_slug("../videos") and not serve.valid_slug(None)
+print("ok youtube")

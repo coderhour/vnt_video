@@ -1,0 +1,163 @@
+{
+ "title": "Pour It There, Pour It Back: How Much Juice? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Two jugs side by side, big bold labels 'JUG A' (clear water, light blue) and 'JUG B' (orange-tinted drink). Line 1: an arrow B→A then an arrow A→B. Line 2: a '?' over jug B. Line 3: Vantee title card.",
+   "lines": [
+    "Pour some juice into water, stir, then pour some back.",
+    "How much of the drink is juice now? Lots of kids get mixed up here!",
+    "Hi, I'm Vantee! Let's follow the juice, one pour at a time."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, two jugs right with level markings. Line 2: jug A labeled '10 L water'. Line 3: jug B labeled '10 L, 60% juice'. Line 4: arrow B→A '5 L' with a stir swirl. Line 5: arrow A→B '5 L'. Line 6: '? % juice' on jug B. Line 7: choice chips 20%, 30%, 40%, 45%, 60%.",
+   "lines": [
+    "Here's the question.",
+    "Jug A holds ten liters of water.",
+    "Jug B holds ten liters of a drink that is sixty percent juice.",
+    "Five liters are poured from jug B into jug A and stirred.",
+    "Then five liters are poured from jug A back into jug B.",
+    "What percent of the drink in jug B is now juice?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: '2 pours: B → A, then A → B'. Line 2: a stir swirl icon with tag 'stirred = evenly mixed'. Line 3: tag 'goal: juice in B ÷ drink in B'.",
+   "lines": [
+    "There are two pours. First from B into A, then from A back into B.",
+    "Stirred means the drink is mixed evenly. Every scoop is the same.",
+    "At the end, we want the share of jug B that is juice."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; jugs and question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "liters",
+   "chapter": "Solution 1: count liters of juice",
+   "hold": 1,
+   "visual": "A tracking table on the right with columns 'Jug A: drink | juice' and 'Jug B: drink | juice'. Line 1: tag 'count liters, not percents'. Line 2: row 'Start: A 10 L | 0 L juice' and 'B 10 L | 60% of 10 = 6 L juice'; jug B shows 6 orange blocks and 4 blue blocks (each block = 1 L).",
+   "lines": [
+    "Welcome back! Here's the strategy: count liters of juice, not percents.",
+    "At the start, jug A has no juice. Jug B has sixty percent of ten liters. That's six liters of juice."
+   ]
+  },
+  {
+   "id": "pour1",
+   "hold": 1.5,
+   "visual": "Animate 5 L flowing B→A. Line 1: '5 of 10 = half of B'. Line 2: 'half of 6 = 3 L juice moves'; 3 orange blocks travel to A. Line 3: table row 'After pour 1: A 15 L | 3 L juice', 'B 5 L | 3 L juice'. Line 4: next to jug A, '3 out of 15 = 1/5 = 20%' (\\dfrac).",
+   "lines": [
+    "First pour. Five liters is half of jug B.",
+    "So half of its juice moves too. Half of six is three liters of juice.",
+    "Now jug A has fifteen liters, with three liters of juice.",
+    "Jug B has five liters, with three liters of juice.",
+    "Jug A is three out of fifteen juice. That's one fifth, or twenty percent."
+   ]
+  },
+  {
+   "id": "pour2",
+   "hold": 1.5,
+   "visual": "Animate 5 L flowing A→B. Line 1: '5 of 15 = 1/3 of A'. Line 2: '1/3 of 3 = 1 L juice comes back'; 1 orange block travels to B. Line 3: table row 'After pour 2: B 10 L | 3 + 1 = 4 L juice'. Line 4: '4 out of 10 = 40%' answer badge, chime at end of line, choice C highlighted.",
+   "lines": [
+    "Second pour. Five liters is one third of jug A.",
+    "One third of its three liters of juice is one liter. That liter goes back to jug B.",
+    "Jug B is back to ten liters, with three plus one, four liters of juice.",
+    "Four out of ten is forty percent. That's Choice C!"
+   ]
+  },
+  {
+   "id": "keep",
+   "chapter": "Solution 2: juice never disappears",
+   "hold": 1.5,
+   "visual": "Both jugs at the end, 10 L each. Line 1: '6 L juice total' brace over both jugs. Line 2: jug A '10 L at 20%' (A's mix doesn't change when you pour from it). Line 3: '20% of 10 = 2 L juice in A'. Line 4: '6 − 2 = 4 L in B → 40%'. Line 5: small text 'find the easy jug, subtract'.",
+   "lines": [
+    "Here's a shortcut. Juice never disappears. There are six liters of juice in all, the whole time.",
+    "Pouring out of jug A doesn't change its mix.",
+    "It stays twenty percent juice. Fifteen minus five leaves ten liters.",
+    "So jug A keeps twenty percent of ten, two liters of juice.",
+    "The rest is in jug B: six minus two is four liters. Four out of ten, forty percent!",
+    "When would you pick this way? When one jug is easier to figure out. Then subtract from the total."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips in a row, each turning red with a short label as it's discussed. Line 1: chip A '20% = jug A' with a small jug-A icon. Line 2: chip B '3 ÷ 10 = 30%' with the returning orange block crossed out → 'forgot 1 L'. Line 3: chip D '(30 + 60) ÷ 2 = 45'. Line 4: chip E '60% = start'. Line 5: chip C '40%' green.",
+   "lines": [
+    "Now the traps. Choice A, twenty percent, is the right number for the wrong jug.",
+    "That's jug A, not jug B!",
+    "Choice B, thirty percent, counts only the three liters left in jug B.",
+    "It forgets the liter of juice that came back.",
+    "Choice D, forty-five, is what you'd get by averaging trap B's thirty with the starting sixty.",
+    "Averaging percents doesn't work here.",
+    "Choice E, sixty percent, is where jug B started. But the pours traded some of its juice for water.",
+    "Only forty percent tracks every liter of juice."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a new mix",
+   "hold": 0.5,
+   "visual": "New jugs: 'Jug A: 8 L water', 'Jug B: 8 L, 75% juice'. Line 2: arrows '4 L B → A, stir', '4 L A → B', '? % juice in B'.",
+   "lines": [
+    "Ready for a challenge? Jug A has eight liters of water.",
+    "Jug B has eight liters of a drink that is seventy-five percent juice.",
+    "Pour four liters from B into A and stir. Then pour four liters back. What percent of jug B is juice?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant jugs visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New mix: the answer",
+   "hold": 1.5,
+   "visual": "Same tracking table style, rows appear per line: 'B: 75% of 8 = 6 L juice'; '4 of 8 = half → 3 L juice to A'; 'A: 12 L, 3 L juice = 1/4'; '4 of 12 = 1/3 → 1 L juice back'; 'B: 8 L, 3 + 1 = 4 L juice'; answer badge '4 out of 8 = 50%' chime at end of that line.",
+   "lines": [
+    "Let's check. Jug B starts with seventy-five percent of eight, six liters of juice.",
+    "Four liters is half of jug B, so three liters of juice go into jug A.",
+    "Jug A now has twelve liters, with three liters of juice.",
+    "Four liters is one third of jug A, so one liter of juice comes back.",
+    "Jug B has eight liters again, with three plus one, four liters of juice.",
+    "Four out of eight is fifty percent!",
+    "If you got fifty percent, wonderful work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: a jug with arrow 'what fraction of the jug moves → that fraction of its juice moves', and 'count liters, not percents'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Count liters of juice, not percents.",
+    "When you pour out part of a jug, that same part of its juice goes too.",
+    "I'm Vantee. Keep pouring your brain into math, and I'll see you next time!"
+   ]
+  }
+ ]
+}

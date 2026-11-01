@@ -1,0 +1,162 @@
+{
+ "title": "Geometric Sequences Ending at 144: How Many? | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Three boxes '? → ? → 144' with '× r' arrows between them. Line 1: example '1 → 12 → 144' with '×12' arrows. Lines 2–3: a second example '36 → 72 → 144' with '×2', then a '?' badge 'how many?'. Line 4: Vantee title card.",
+   "lines": [
+    "One, twelve, one hundred forty-four. Each number is twelve times the one before.",
+    "How many three-number chains like this end at one hundred forty-four?",
+    "More than you'd think!",
+    "Hi, I'm Vantee! Let's find every single one."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text with KaTeX 'a < b < c', 'c = 144'. Line 2: tag 'geometric = multiply by the same ratio each step'. Line 3: tags 'positive whole numbers', 'increasing'. Line 4: choice chips 9, 10, 11, 12, 14.",
+   "lines": [
+    "Here's the question.",
+    "How many increasing geometric sequences of three positive whole numbers, a, b, c,",
+    "have c equal to one hundred forty-four?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: 'a → b → c' with the same '× r' on both arrows. Line 2: 'a < b < c'. Line 3: tag 'r can be a fraction!'. Line 4: '64 → 96 → 144' with '× 3/2' arrows (\\dfrac{3}{2}).",
+   "lines": [
+    "Geometric means we multiply by the same ratio each step, from a to b, then from b to c.",
+    "Increasing means a is less than b, and b is less than c.",
+    "And watch out: the ratio doesn't have to be whole.",
+    "Sixty-four, ninety-six, one hundred forty-four uses a ratio of three over two."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "middle",
+   "chapter": "Solution 1: focus on the middle",
+   "hold": 1,
+   "visual": "Equation rows right. Line 1: tag 'focus on b'. Line 2: rows 'b ÷ a = c ÷ b' → 'b × b = a × c'. Lines 3–4: 'b² = 144 × a' → 'a = b² ÷ 144'. Line 5: try-table: 'b = 6 → 36 ÷ 144 = 1/4 ✗', 'b = 18 → 324 ÷ 144 = 9/4 ✗', 'b = 24 → 576 ÷ 144 = 4 ✓'.",
+   "lines": [
+    "Welcome back! Let's focus on the middle number, b.",
+    "Same ratio means b over a equals c over b. So b times b equals a times c.",
+    "With c equal to one hundred forty-four, a equals b squared,",
+    "divided by one hundred forty-four.",
+    "Try a few. Six or eighteen give fractions. But twenty-four works: a is four."
+   ]
+  },
+  {
+   "id": "twelve",
+   "hold": 1.5,
+   "visual": "Line 1: '144 = 12²'. Line 2: row 'a = b² ÷ 12² = (b ÷ 12)²' (KaTeX \\left(\\dfrac{b}{12}\\right)^2). Line 3: note 'a fraction in lowest terms, squared, is still a fraction' with example '(3/2)² = 9/4'. Line 4: 'b = 12k, a = k²'. Lines 5–6: list builds one row per k: 'k = 1: 1, 12, 144', 'k = 2: 4, 24, 144', then 'k = 3: 9, 36, 144', '…', 'k = 11: 121, 132, 144' (show all 11 rows compactly, two columns). Lines 7–8: row 'k = 12: 144, 144, 144 ✗ not increasing'. Line 9: answer badge '11', chime at end, choice C highlighted.",
+   "lines": [
+    "Here's the trick. One hundred forty-four is twelve squared.",
+    "So a is b over twelve, squared.",
+    "If b over twelve weren't whole, its square wouldn't be whole either.",
+    "Three over two squared is nine over four. Not whole!",
+    "But a IS whole. So b over twelve must be whole.",
+    "Call it k. Then b is twelve k, and a is k squared.",
+    "k equals one gives one, twelve, one hundred forty-four.",
+    "k equals two gives four, twenty-four, one hundred forty-four. And so on.",
+    "At k equals twelve, all three numbers are one hundred forty-four.",
+    "That's not increasing, so we stop at eleven.",
+    "k can be one through eleven. That's eleven sequences, Choice C!"
+   ]
+  },
+  {
+   "id": "ratio",
+   "chapter": "Solution 2: the ratio as a fraction",
+   "hold": 1.5,
+   "visual": "Lines 1–2: 'ratio = p/q in lowest terms, p > q'. Line 3: 'a = 144 × q²/p²' (\\dfrac). Line 4: 'p² divides 144'. Line 5: squares dividing 144: '4, 9, 16, 36, 144'. Line 6: 'p = 2, 3, 4, 6, 12'. Line 7: table 'p = 2: q = 1', 'p = 3: q = 1, 2', 'p = 4: q = 1, 3', 'p = 6: q = 1, 5', 'p = 12: q = 1, 5, 7, 11'. Line 8: '1 + 2 + 2 + 2 + 4 = 11'. Line 9: small text 'works for any c'.",
+   "lines": [
+    "Here's another way. Write the ratio as a fraction, p over q, in lowest terms.",
+    "p is bigger than q, since the chain increases.",
+    "Going backward from c, a is one hundred forty-four times q squared, over p squared.",
+    "q squared shares no factor with p squared, so p squared must divide one hundred forty-four.",
+    "The squares above one that divide it are four, nine, sixteen, thirty-six and one hundred forty-four.",
+    "So p is two, three, four, six or twelve.",
+    "For each p, q is any smaller number that shares no factor with p.",
+    "That's one, plus two, plus two, plus two, plus four. Eleven again!",
+    "When would you pick this way? When c isn't a perfect square. This method works for any c."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips row; each turns red with a note. Lines 1–2: chip D '12' with '144, 144, 144 ✗'. Line 3: chip E '14' with the divisor list '1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48, 72'. Line 4: counterexample 'a = 2 → b² = 288 ✗'. Line 5: chips A and B with the list of 11 ratios, the fraction ones (12/5, 12/7, 3/2, 4/3, 6/5, 12/11) highlighted. Line 6: chip C '11' green.",
+   "lines": [
+    "Now the traps. Choice D, twelve, includes the chain where all three are one hundred forty-four.",
+    "But that doesn't increase!",
+    "Choice E, fourteen, is what you'd get if any factor of one hundred forty-four could go first.",
+    "But if a is two, then b squared is two hundred eighty-eight. That's not a square!",
+    "Choices A and B, nine and ten, are what you'd get if you skip fractions like twelve over eleven.",
+    "Count every letter k from one to eleven, and none slip away."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: ending at 72",
+   "hold": 0.5,
+   "visual": "Card: 'increasing geometric a < b < c, positive whole numbers, c = 72. How many?'.",
+   "lines": [
+    "Ready for a challenge? Same question, but now c is seventy-two.",
+    "Careful: seventy-two is not a perfect square! How many sequences are there?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant text visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Ending at 72: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: 'b² = 72 × a'; '72 × a = 36 × 2a → 2a must be a square'; '2a = 4, 16, 36, 64, 100'; 'a = 2, 8, 18, 32, 50'; list '2, 12, 72 · 8, 24, 72 · 18, 36, 72 · 32, 48, 72 · 50, 60, 72'; '2a = 144 → 72, 72, 72 ✗'; answer badge '5' chime at end of that line.",
+   "lines": [
+    "Let's check. Again, b squared equals seventy-two times a.",
+    "Seventy-two is thirty-six times two, and thirty-six is a square.",
+    "Then b over six, squared, equals two times a. So two times a is a perfect square.",
+    "Two times a is even, so the square is even: four, sixteen, thirty-six, sixty-four, one hundred.",
+    "So a is two, eight, eighteen, thirty-two or fifty.",
+    "The chains run from two, twelve, seventy-two, up to fifty, sixty, seventy-two.",
+    "The next one would be seventy-two, seventy-two, seventy-two. Not increasing!",
+    "So there are five sequences. If you got five, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'b × b = a × c', 'make a × c a perfect square', 'list, and stop before it stops increasing'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "In a geometric sequence, the middle times itself equals the outside two multiplied.",
+    "So a times c must be a perfect square.",
+    "Find every way, and stop when the chain stops increasing.",
+    "I'm Vantee. Keep multiplying your skills, and I'll see you next time!"
+   ]
+  }
+ ]
+}

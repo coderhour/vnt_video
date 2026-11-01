@@ -1,0 +1,520 @@
+{
+ "fps": 30,
+ "durationInFrames": 10706,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 559,
+   "lines": [
+    {
+     "text": "Take a string thirty-six units long, and bend it into a triangle.",
+     "caption": "Take a string thirty-six units long, and bend it into a triangle.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/afa28c733637bd84.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "How many different shapes can you make?",
+     "caption": "How many different shapes can you make?",
+     "file": "2026-10-31-scalene-perimeter-36/audio/66261b301aa7da8c.wav",
+     "from": 157,
+     "frames": 70
+    },
+    {
+     "text": "Watch out: some tries go flat, and some repeat a side!",
+     "caption": "Watch out: some tries go flat, and some repeat a side!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/b5cb2be044d3c800.wav",
+     "from": 237,
+     "frames": 138
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count them without missing any.",
+     "caption": "Hi, I'm Vantee! Let's count them without missing any.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/b43502deb161e00c.wav",
+     "from": 385,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 559,
+   "frames": 471,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "How many triangles have whole-number side lengths and a perimeter of thirty-six,",
+     "caption": "How many triangles have whole-number side lengths and a perimeter of thirty-six,",
+     "file": "2026-10-31-scalene-perimeter-36/audio/f60dd960f2d90fbd.wav",
+     "from": 57,
+     "frames": 179
+    },
+    {
+     "text": "and have three different side lengths?",
+     "caption": "and have three different side lengths?",
+     "file": "2026-10-31-scalene-perimeter-36/audio/b0ae54e14852fce0.wav",
+     "from": 246,
+     "frames": 80
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/4c78df72243d4b0b.wav",
+     "from": 336,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1030,
+   "frames": 618,
+   "lines": [
+    {
+     "text": "The three sides must add to thirty-six. For example, ten, twelve and fourteen.",
+     "caption": "The three sides must add to thirty-six. For example, ten, twelve and fourteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/97bc15a58b9ab772.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "All three must be different, so twelve, twelve, twelve doesn't count.",
+     "caption": "All three must be different, so twelve, twelve, twelve doesn't count.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/c2513b40dd27a718.wav",
+     "from": 221,
+     "frames": 132
+    },
+    {
+     "text": "And the same three sides in a different order make the same triangle. We count it once.",
+     "caption": "And the same three sides in a different order make the same triangle. We count it once.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/a6bc7d12af2f64e8.wav",
+     "from": 363,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1648,
+   "frames": 429,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": "Solution 1: list by the longest side",
+   "from": 2077,
+   "frames": 1038,
+   "lines": [
+    {
+     "text": "Welcome back! Let's make an organized list. Write each triangle smallest side first.",
+     "caption": "Welcome back! Let's make an organized list. Write each triangle smallest side first.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/46ed0c39ae494a12.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "Here's the triangle rule. The two shorter sides must add to MORE than the longest side.",
+     "caption": "Here's the triangle rule. The two shorter sides must add to MORE than the longest side.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/3f2e44710b7f3929.wav",
+     "from": 203,
+     "frames": 201
+    },
+    {
+     "text": "The shorter two make thirty-six minus the longest. So the longest side must be less than eighteen.",
+     "caption": "The shorter two make thirty-six minus the longest. So the longest side must be less than eighteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/91e8406fd5b7b0ff.wav",
+     "from": 414,
+     "frames": 238
+    },
+    {
+     "text": "And the longest side is at least a third of thirty-six. That's twelve.",
+     "caption": "And the longest side is at least a third of thirty-six. That's twelve.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/0b76bdb5bc40e43f.wav",
+     "from": 662,
+     "frames": 155
+    },
+    {
+     "text": "So the longest side is somewhere from twelve to seventeen.",
+     "caption": "So the longest side is somewhere from twelve to seventeen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/ebafeb61b251edda.wav",
+     "from": 827,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3115,
+   "frames": 1744,
+   "lines": [
+    {
+     "text": "Longest side seventeen: the other two add to nineteen.",
+     "caption": "Longest side seventeen: the other two add to nineteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/334bec6597f767f7.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "From three and sixteen up to nine and ten. That's seven.",
+     "caption": "From three and sixteen up to nine and ten. That's seven.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/63941c026f651595.wav",
+     "from": 138,
+     "frames": 146
+    },
+    {
+     "text": "The middle side has to stay below seventeen, and the smallest below the middle.",
+     "caption": "The middle side has to stay below seventeen, and the smallest below the middle.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/49af8dfcebd52b2c.wav",
+     "from": 294,
+     "frames": 165
+    },
+    {
+     "text": "Longest side sixteen: the other two add to twenty. From five and fifteen up to nine and eleven.",
+     "caption": "Longest side sixteen: the other two add to twenty. From five and fifteen up to nine and eleven.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/a747ffdfc90f6695.wav",
+     "from": 469,
+     "frames": 245
+    },
+    {
+     "text": "That's five more.",
+     "caption": "That's five more.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/2c4fa1f72fb47e0b.wav",
+     "from": 724,
+     "frames": 63
+    },
+    {
+     "text": "Longest fifteen: seven and fourteen, up to ten and eleven. That's four.",
+     "caption": "Longest fifteen: seven and fourteen, up to ten and eleven. That's four.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/f55b71e459b592e3.wav",
+     "from": 797,
+     "frames": 194
+    },
+    {
+     "text": "Longest fourteen gives two. Longest thirteen gives just one: eleven, twelve, thirteen.",
+     "caption": "Longest fourteen gives two. Longest thirteen gives just one: eleven, twelve, thirteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/9ba12ab1c2901f5a.wav",
+     "from": 1000,
+     "frames": 216
+    },
+    {
+     "text": "Longest twelve gives none. Two different sides below twelve add to at most twenty-one.",
+     "caption": "Longest twelve gives none. Two different sides below twelve add to at most twenty-one.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/00040514c4b31479.wav",
+     "from": 1227,
+     "frames": 238
+    },
+    {
+     "text": "Seven plus five plus four plus two plus one is nineteen. That's Choice B!",
+     "caption": "Seven plus five plus four plus two plus one is nineteen. That's Choice B!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/0e9fa9922422fee3.wav",
+     "from": 1475,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "subtract",
+   "kind": "scene",
+   "chapter": "Solution 2: count all, then subtract",
+   "from": 4859,
+   "frames": 1703,
+   "lines": [
+    {
+     "text": "Here's another way. Count every triangle, then take away the ones with a repeated side.",
+     "caption": "Here's another way. Count every triangle, then take away the ones with a repeated side.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/ee3eb7714f996c86.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "Allow repeats, and the same list grows to twenty-seven triangles in all.",
+     "caption": "Allow repeats, and the same list grows to twenty-seven triangles in all.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/666a26e75fa47b92.wav",
+     "from": 201,
+     "frames": 159
+    },
+    {
+     "text": "A triangle with a repeat has two equal sides. Call each one x.",
+     "caption": "A triangle with a repeat has two equal sides. Call each one x.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/8669039fa4301ab0.wav",
+     "from": 369,
+     "frames": 149
+    },
+    {
+     "text": "So the third side is thirty-six minus two x.",
+     "caption": "So the third side is thirty-six minus two x.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/aa69c007af1aef49.wav",
+     "from": 529,
+     "frames": 132
+    },
+    {
+     "text": "The third side must be more than zero, so x is less than eighteen.",
+     "caption": "The third side must be more than zero, so x is less than eighteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/e2ba7d37dbd52827.wav",
+     "from": 671,
+     "frames": 159
+    },
+    {
+     "text": "And x plus x must beat the third side, so x is more than nine.",
+     "caption": "And x plus x must beat the third side, so x is more than nine.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/4d33debf7370908c.wav",
+     "from": 840,
+     "frames": 176
+    },
+    {
+     "text": "That's x from ten to seventeen: eight triangles.",
+     "caption": "That's x from ten to seventeen: eight triangles.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/242fac66f6eff255.wav",
+     "from": 1026,
+     "frames": 164
+    },
+    {
+     "text": "Twelve, twelve, twelve is one of them, counted just once.",
+     "caption": "Twelve, twelve, twelve is one of them, counted just once.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/592837673aa6e5dc.wav",
+     "from": 1199,
+     "frames": 128
+    },
+    {
+     "text": "Twenty-seven minus eight is nineteen. Same answer!",
+     "caption": "Twenty-seven minus eight is nineteen. Same answer!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/822f9951ef07385b.wav",
+     "from": 1337,
+     "frames": 131
+    },
+    {
+     "text": "When would you pick this way? When the leftovers are easier to count than what you want.",
+     "caption": "When would you pick this way? When the leftovers are easier to count than what you want.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/481b96470ea44f36.wav",
+     "from": 1479,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6562,
+   "frames": 1265,
+   "lines": [
+    {
+     "text": "Now the traps. Choice D, twenty-seven, counts every triangle. It forgets to remove the repeats.",
+     "caption": "Now the traps. Choice D, twenty-seven, counts every triangle. It forgets to remove the repeats.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/2a65dba1047f46dc.wav",
+     "from": 0,
+     "frames": 242
+    },
+    {
+     "text": "Choice C, twenty, removes the repeats but forgets twelve, twelve, twelve.",
+     "caption": "Choice C, twenty, removes the repeats but forgets twelve, twelve, twelve.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/d2ef8b5827b900aa.wav",
+     "from": 252,
+     "frames": 177
+    },
+    {
+     "text": "That's twenty-seven minus seven.",
+     "caption": "That's twenty-seven minus seven.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/7ee0b9686d5e6c25.wav",
+     "from": 439,
+     "frames": 93
+    },
+    {
+     "text": "Choice E, thirty-five, is too many. There are only twenty-seven triangles in all!",
+     "caption": "Choice E, thirty-five, is too many. There are only twenty-seven triangles in all!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/6667ffd16d88e05e.wav",
+     "from": 542,
+     "frames": 164
+    },
+    {
+     "text": "Choice A, seventeen, is what you'd get if you skipped a row of the list.",
+     "caption": "Choice A, seventeen, is what you'd get if you skipped a row of the list.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/aa8bf21c1c1619ce.wav",
+     "from": 716,
+     "frames": 170
+    },
+    {
+     "text": "For example, the two with longest side fourteen.",
+     "caption": "For example, the two with longest side fourteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/19cbaae32cca1cd5.wav",
+     "from": 895,
+     "frames": 119
+    },
+    {
+     "text": "An organized list by longest side keeps every triangle, so we land on nineteen.",
+     "caption": "An organized list by longest side keeps every triangle, so we land on nineteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/df3a1b89b98df3e4.wav",
+     "from": 1025,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: perimeter 24",
+   "from": 7827,
+   "frames": 342,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the perimeter is twenty-four.",
+     "caption": "Ready for a challenge? Now the perimeter is twenty-four.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/a0baf49036c07098.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "How many triangles with whole-number sides and three different side lengths are there?",
+     "caption": "How many triangles with whole-number sides and three different side lengths are there?",
+     "file": "2026-10-31-scalene-perimeter-36/audio/69ecbbea3b4e5933.wav",
+     "from": 142,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8169,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Perimeter 24: the answer",
+   "from": 8629,
+   "frames": 1457,
+   "lines": [
+    {
+     "text": "Let's check. The longest side must be less than twelve, and at least eight.",
+     "caption": "Let's check. The longest side must be less than twelve, and at least eight.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/8948cc0a8b418d41.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "Longest eleven: the other two add to thirteen.",
+     "caption": "Longest eleven: the other two add to thirteen.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/7942d17faa43c064.wav",
+     "from": 191,
+     "frames": 111
+    },
+    {
+     "text": "Three and ten, four and nine, five and eight, six and seven. Four!",
+     "caption": "Three and ten, four and nine, five and eight, six and seven. Four!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/dd9406d744d78333.wav",
+     "from": 312,
+     "frames": 279
+    },
+    {
+     "text": "Longest ten: five and nine, six and eight. That's two.",
+     "caption": "Longest ten: five and nine, six and eight. That's two.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/9936a1c9d0c601ba.wav",
+     "from": 601,
+     "frames": 176
+    },
+    {
+     "text": "Longest nine: just seven and eight. And longest eight gives none.",
+     "caption": "Longest nine: just seven and eight. And longest eight gives none.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/926b8fdf9b365469.wav",
+     "from": 787,
+     "frames": 148
+    },
+    {
+     "text": "Four plus two plus one is seven triangles!",
+     "caption": "Four plus two plus one is seven triangles!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/e7942b81b8b39668.wav",
+     "from": 945,
+     "frames": 140
+    },
+    {
+     "text": "Check another way: twelve triangles in all, minus five with a repeat. Seven!",
+     "caption": "Check another way: twelve triangles in all, minus five with a repeat. Seven!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/1a5123e52bf1b460.wav",
+     "from": 1095,
+     "frames": 202
+    },
+    {
+     "text": "If you got seven, terrific work!",
+     "caption": "If you got seven, terrific work!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/c4cfbdbc400ceb29.wav",
+     "from": 1307,
+     "frames": 82
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10086,
+   "frames": 620,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 71
+    },
+    {
+     "text": "Fix the longest side. It's at least a third of the perimeter, and less than half.",
+     "caption": "Fix the longest side. It's at least a third of the perimeter, and less than half.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/db4d3f3444c9de76.wav",
+     "from": 82,
+     "frames": 160
+    },
+    {
+     "text": "Then list row by row. Or count them all, and subtract the repeats.",
+     "caption": "Then list row by row. Or count them all, and subtract the repeats.",
+     "file": "2026-10-31-scalene-perimeter-36/audio/2c591001c6571f40.wav",
+     "from": 252,
+     "frames": 154
+    },
+    {
+     "text": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "file": "2026-10-31-scalene-perimeter-36/audio/df39d3330a3a433f.wav",
+     "from": 416,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}

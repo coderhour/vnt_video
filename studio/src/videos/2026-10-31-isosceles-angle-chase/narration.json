@@ -1,0 +1,164 @@
+{
+ "title": "Two Isosceles Triangles, One Mystery Angle | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "The figure (bank SVG scaled up). Line 1: the 24° mark glows, then a '?' appears at the top angle A. Line 2: two tick marks on AB and AC, and two (different style) on BD and BC. Line 3: Vantee title card.",
+   "lines": [
+    "We know just one angle, twenty-four degrees. Can we find the angle at the top?",
+    "The secret is hiding in two isosceles triangles.",
+    "Hi, I'm Vantee, your math tutor! Let's go on an angle chase."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, figure right. Line 2: AB and AC flash with single tick marks. Line 3: D pulses on side AC; BD and BC flash with double tick marks. Line 4: angle ABD marked '24°'. Line 5: angle BAC marked '?'. Line 6: choice chips 22°, 24°, 34°, 36°, 44°.",
+   "lines": [
+    "Here's the question.",
+    "In triangle A B C, side A B equals side A C.",
+    "Point D is on side A C, so that B D equals B C.",
+    "Angle A B D is twenty-four degrees.",
+    "What is the measure of angle B A C, the angle at the top?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: triangle ABC shaded light green with tag 'isosceles: AB = AC'. Line 2: triangle BDC shaded light purple with tag 'isosceles: BD = BC'. Line 3: tag 'goal: angle A'.",
+   "lines": [
+    "So we have two isosceles triangles. The big one, A B C, has two equal sides from A.",
+    "The small one, B D C, has two equal sides from B.",
+    "Our goal is the top angle, at A."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; figure and question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "big",
+   "chapter": "Solution 1: chase with a letter",
+   "hold": 1,
+   "visual": "Figure left, equation rows right. Line 1: angle A labeled 'a'. Line 2: equal sides AB, AC tick-marked; the two base angles at B (whole angle ABC) and C both get the same arc color. Line 3: row 'a + C + C = 180' → 'C = 90 − a/2' (use \\dfrac{a}{2}), and angle C labeled with it.",
+   "lines": [
+    "Welcome back! Let's name what we don't know. Call the top angle a.",
+    "Side A B equals side A C, so the angles at B and C are equal. Those are the base angles.",
+    "The three angles add to one hundred eighty, so each base angle is ninety minus half of a."
+   ]
+  },
+  {
+   "id": "small",
+   "hold": 1.5,
+   "visual": "Line 1: triangle BDC highlighted; BD and BC tick-marked; angle BDC gets the same arc color as angle C, labeled 'C'. Line 2: row 'angle DBC = 180 − C − C'. Line 3: row '= 180 − (180 − a) = a', and angle DBC labeled 'a' in the same color as the top angle. Line 4: both 'a' angles pulse together (aha beat).",
+   "lines": [
+    "Now the small triangle. B D equals B C, so the angles at D and C match. Angle B D C equals angle C.",
+    "So angle D B C is one hundred eighty, minus angle C, minus angle C.",
+    "Two base angles add to one hundred eighty minus a. So angle D B C is just a!",
+    "Look at that. The little angle at B is the same as the top angle."
+   ]
+  },
+  {
+   "id": "solve",
+   "hold": 1.5,
+   "visual": "Line 1: angle ABC split into '24°' and 'a', row 'angle ABC = 24 + a'. Line 2: row '24 + a = 90 − a/2'. Line 3: row 'a + a/2 = 66' (66 = 90 − 24 shown). Line 4: 'one and a half a = 66 → a = 44' answer badge '44°', chime at end of line, choice E highlighted. Line 5: check row 'C = 68, 68 − 44 = 24 ✓'.",
+   "lines": [
+    "Angle A B C is made of two parts: twenty-four degrees, plus a.",
+    "But angle A B C is also a base angle. So twenty-four plus a equals ninety minus half of a.",
+    "Add half of a to both sides, and take away twenty-four. One and a half a equals sixty-six.",
+    "So a is forty-four degrees. That's Choice E!",
+    "Check: each base angle is sixty-eight. And sixty-eight minus forty-four is twenty-four. It works!"
+   ]
+  },
+  {
+   "id": "exterior",
+   "chapter": "Solution 2: the outside angle",
+   "hold": 1.5,
+   "visual": "Fresh figure. Line 1: triangle ABD highlighted; angle BDC (outside it, at D) marked. Line 2: rule card 'outside angle = sum of the two far inside angles'. Line 3: row 'angle BDC = a + 24'. Line 4: angle C labeled 'a + 24' too (BD = BC); angle ABC also 'a + 24'. Line 5: rows '(a + 24) + (a + 24) + a = 180', '3a + 48 = 180', '3a = 132', 'a = 44'. Line 6: small text 'no fractions!'.",
+   "lines": [
+    "Here's another way, with no fractions. Look at triangle A B D, on the left.",
+    "An outside angle of a triangle equals the two inside angles far from it.",
+    "So angle B D C equals a plus twenty-four.",
+    "Angle C matches angle B D C, so it's a plus twenty-four too. And so is angle A B C.",
+    "The big triangle adds up: three a plus forty-eight is one hundred eighty.",
+    "So three a is one hundred thirty-two, and a is forty-four.",
+    "When would you pick this way? When you spot an outside angle. It saves a step."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "A test table: columns 'top angle a', 'base angle C', 'angle DBC = a', 'angle ABD = C − a'. Rows fill as discussed: 24 → 78 → 54 (red); 36 → 72 → 36 (red); 22 → 79 → 57 (red); 34 → 73 → 39 (red); 44 → 68 → 24 (green). Line 1: chip B '24° = angle ABD'.",
+   "lines": [
+    "Now the traps. Choice B, twenty-four, is the angle we were given.",
+    "It's not the one we were asked for.",
+    "Here's a quick test for any choice.",
+    "Find the base angle, then subtract the top angle. You should get twenty-four.",
+    "Try twenty-four on top.",
+    "The base angle is seventy-eight, and seventy-eight minus twenty-four is fifty-four. Too big.",
+    "Choice D, thirty-six, comes from a famous triangle",
+    "with angles thirty-six, seventy-two and seventy-two. But here it gives thirty-six, not twenty-four.",
+    "Choices A and C, twenty-two and thirty-four, give fifty-seven and thirty-nine. Neither works.",
+    "Only forty-four gives exactly twenty-four."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a new angle",
+   "hold": 0.5,
+   "visual": "Same figure setup (redrawn with apex 40°, so proportions differ slightly), angle ABD labeled '30°', top angle '?'. Tick marks AB = AC and BD = BC.",
+   "lines": [
+    "Ready for a challenge? Same setup: A B equals A C, and B D equals B C.",
+    "This time, angle A B D is thirty degrees. What is the top angle?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant figure visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New angle: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line on the variant figure: 'outside angle BDC = a + 30'; 'C = a + 30, angle ABC = a + 30'; '3a + 60 = 180 → 3a = 120 → a = 40' answer badge '40°' chime at end of that line; check 'C = 70, 70 − 40 = 30 ✓'.",
+   "lines": [
+    "Let's check. The outside angle at D is a plus thirty.",
+    "So angle C and angle A B C are both a plus thirty.",
+    "The angles add up: three a plus sixty is one hundred eighty. So three a is one hundred twenty.",
+    "The top angle is forty degrees!",
+    "Check: the base angles are seventy. Seventy minus forty is thirty. Yes!",
+    "If you got forty degrees, superb angle chasing!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: the figure with both isosceles triangles shaded, 'equal sides → equal angles', 'name the unknown, chase it around'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Equal sides mean equal angles.",
+    "Name the unknown angle with a letter, and chase it from triangle to triangle.",
+    "This is Vantee, signing off. Keep chasing, and I'll see you next time!"
+   ]
+  }
+ ]
+}

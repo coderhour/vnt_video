@@ -31,7 +31,8 @@ LINE_GAP = 0.35    # seconds of silence between lines
 SCENE_TAIL = 0.8   # seconds after a scene's last line
 # Pronunciation hints, added to the style annotation of every line that uses the word (never spoken).
 # Google's TTS has no IPA/SSML field; a style hint got /ˈvæn.ti/ in 4/4 takes vs 2/4 for spelling it "Van-tee".
-PRONOUNCE = {"Vantee": '/ˈvæn.ti/ (VAN-tee, rhymes with "can tea")'}
+PRONOUNCE = {"Vantee": '/ˈvæn.ti/ (VAN-tee, rhymes with "can tea")',
+             "Ali": '/ˈɑː.li/ (AH-lee, as in the boxer Muhammad Ali: first syllable "ah" like "father", never "al" or "oll")', "Bea": '/ˈbiː.ə/ (BEE-uh, as in the name Beatrice without "trice": two syllables, never just the letter B)'}
 
 
 def post(path, body):
@@ -100,6 +101,7 @@ def num_words(n):
 
 
 MATH_WORDS = [  # what a transcriber writes -> how a script line says it
+    (r"(\d)\s*/\s*(\d+)(?:st|nd|rd|th)\b", r"\1/\2"),  # "1/5th" for "one fifth"
     (r"\b1\s*/\s*2\b|\b(?:a|one)[\s-]half\b|\bone over two\b", " half "), 
     (r"square root of", " root "), (r"√", " root "), (r"²|\s*\^\s*2\b", " squared "), (r"°", " degrees "),
     (r"(?<=[a-z])-(?=[a-z])", " "),
@@ -115,7 +117,7 @@ MATH_WORDS = [  # what a transcriber writes -> how a script line says it
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:thirds?)\b", r"\1 over three"),
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:quarters?|fourths?)\b", r"\1 over four"),
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:fifths?)\b", r"\1 over five"),
-    (r"(?<=\d)\s*km\b|\bkm\b|\bkilometer\b", " kilometers "), (r"\banne\b", "ann"), (r"\bjoe\b", "jo"), (r"\bbeau\b", "bo"),  # sound-alike spellings
+    (r"(?<=\d)\s*km\b|\bkm\b|\bkilometer\b", " kilometers "), (r"\banne\b", "ann"), (r"\bjoe\b", "jo"), (r"\bbeau\b", "bo"), (r"\ballie\b|\bally\b|\bollie\b|\boli\b", "ali"), (r"\bbia\b|\bbeah\b|\bbee\b", "bea"), (r"\$\s*(\d+)", r"\1 dollars"),  # sound-alike spellings
     (r"\bdivided(?: by)?\b", " over "),  # "5 and 1/2", "11/2" for "divided by"
 ]
 ORD = {"one": "first", "two": "second", "three": "third", "five": "fifth", "eight": "eighth", "nine": "ninth", "twelve": "twelfth"}
@@ -150,7 +152,7 @@ def words(text):
         else:
             out.append(w)
         run = len(w) == 1 or (run and len(w) == 1)
-    return ["equals" if w == "is" else w for w in out]  # "2 + 3 = 5" said "is"
+    return ["bea" if w == "b" else "equals" if w == "is" else w for w in out]  # "B" is how a transcriber spells the name Bea (same map on both sides)  # "2 + 3 = 5" said "is"
 
 
 ZH_DIGITS = "零一二三四五六七八九"

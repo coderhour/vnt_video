@@ -1,0 +1,161 @@
+{
+ "title": "How Many Triangles Hide in This Hexagon? | AMC 8-Style Level 5",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "The hexagon figure (bank SVG, redrawn large on a triangular lattice). Line 1: a few small triangles flash one at a time. Line 2: one size-2 triangle outline flashes, then one big size-3 triangle outline flashes (just a hint, no counts). Line 3: Vantee title card.",
+   "lines": [
+    "This hexagon is cut into twenty-four little triangles. But that's not the whole story!",
+    "Bigger triangles are hiding in it too. Some of them are sneaky.",
+    "Hi, I'm Vantee! Let's hunt down every triangle."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, hexagon right. Line 2: one hexagon side marked '2' (two small edges). Line 3: small triangles fill in light color briefly, label '24 small'. Line 4: tag 'any size'. Line 5: choice chips 24, 30, 32, 36, 38.",
+   "lines": [
+    "Here's the question.",
+    "A regular hexagon has side length two.",
+    "It's cut into twenty-four small equilateral triangles.",
+    "How many triangles of any size are in the figure?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: one small triangle highlighted 'side 1'. Line 2: one size-2 up triangle (4 small ones) highlighted 'side 2'. Line 3: an up and a down small triangle side by side with arrows '▲ points up', '▼ points down'.",
+   "lines": [
+    "Each little triangle has side one. Two small edges make a hexagon side.",
+    "We count triangles of every size, as long as their edges are drawn lines.",
+    "And watch the direction. Some triangles point up, and some point down."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; hexagon and question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "size1",
+   "chapter": "Solution 1: count by size",
+   "hold": 1,
+   "visual": "A tally panel right: 'side 1', 'side 2', 'side 3'. Line 1: tag 'one size at a time'. Line 2: all 24 small triangles shade in, row by row (4 rows), tally 'side 1: 24'.",
+   "lines": [
+    "Welcome back! Let's count one size at a time.",
+    "Side one is easy. Those are the twenty-four little triangles we were given."
+   ]
+  },
+  {
+   "id": "size2",
+   "hold": 1.5,
+   "visual": "Line 1: one size-2 triangle (4 small, with a corner at the hexagon's centre) outlined. Line 2: the six 'wedge' size-2 triangles around the centre appear one by one (ONE outline moving to each spot, leaving faint ghosts, ×n counter to 6), alternating up/down. Line 3: tag 'all touch the centre with a corner'. Lines 4–5: a different size-2 triangle outlined whose side passes through the centre (centre dot at the middle of one of its sides). Line 6: the six of these appear one by one the same way, counter 6 more. Line 7: tally 'side 2: 6 + 6 = 12'. On line 6 each new one's far corner lands on a dot at the middle of a hexagon side.",
+   "lines": [
+    "Side two is made of four small triangles.",
+    "Six of them fit around the center, like slices of a pizza.",
+    "Each slice has a corner right at the center.",
+    "But here's a sneaky one. None of its corners is at the center.",
+    "The center sits in the middle of one of its sides.",
+    "There are six of these too, each pointing to the middle of a hexagon side.",
+    "So side two gives six plus six, twelve triangles."
+   ]
+  },
+  {
+   "id": "size3",
+   "hold": 1.5,
+   "visual": "Line 1: dots on the midpoints of the hexagon's six sides. Line 2: the up size-3 triangle joining three alternate midpoints draws itself. Line 3: the down size-3 triangle joining the other three midpoints. Lines 4–5: a side-4 base laid on the middle line, its apex poking 2 rows outside the hexagon, red ✗. Line 6: tally total '24 + 12 + 2 = 38' answer badge, chime at end, choice E highlighted.",
+   "lines": [
+    "What about side three? Look at the middle of each side of the hexagon.",
+    "Join every other middle, and you get one big triangle pointing up.",
+    "Join the other three, and you get one pointing down. That's two.",
+    "Side four won't fit. Its bottom edge would need one of the long lines through the middle.",
+    "But only two rows fit above or below that line.",
+    "Twenty-four plus twelve plus two is thirty-eight. That's Choice E!"
+   ]
+  },
+  {
+   "id": "flip",
+   "chapter": "Solution 2: count up, then double",
+   "hold": 1.5,
+   "visual": "Fresh hexagon. Line 1: tag 'count only ▲'. Line 2: the 12 up small triangles shade (down ones stay white): '12'. Line 3: the 6 up size-2 triangles appear one by one: '6'; then the 1 up size-3: '1'. Line 4: '12 + 6 + 1 = 19'. Line 5: the hexagon rotates 180° (half turn) and the shaded ▲ become ▼; '19 ▼ too'. Line 6: '2 × 19 = 38'. Line 7: small text 'use symmetry'.",
+   "lines": [
+    "Time for a clever shortcut. Count only the triangles that point up.",
+    "Twelve of the small ones point up.",
+    "Six of the side-two triangles point up, and one of the big ones.",
+    "That's twelve plus six plus one, nineteen.",
+    "Now turn the hexagon upside down. It looks the same, but every up triangle now points down!",
+    "So there are nineteen pointing down too. Two times nineteen is thirty-eight.",
+    "When would you pick this way? When the shape looks the same upside down."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips with the sums under them. Line 1: chip A '24 = small only'. Line 2: chip B '24 + 6 = 30' with the 6 pizza slices shown. Line 3: chip C '24 + 6 + 2 = 32' with only up size-2 ones shown. Line 4: chip D '24 + 12 = 36' with the two big ones crossed out. Line 5: chip E '38' green.",
+   "lines": [
+    "Now the traps. Choice A, twenty-four, counts only the little triangles.",
+    "Choice B, thirty, is what you'd get if you found only the six pizza slices of side two.",
+    "Choice C, thirty-two, counts side-two triangles in only one direction.",
+    "Choice D, thirty-six, forgets the two big triangles that stretch across the hexagon.",
+    "Count every size, in both directions, and you get thirty-eight."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a big triangle",
+   "hold": 0.5,
+   "visual": "New figure: an equilateral triangle of side 4, cut into 16 small triangles (lattice lines drawn). Tag 'how many triangles of any size?'.",
+   "lines": [
+    "Ready for a challenge? This big triangle has side four. It's cut into sixteen small triangles.",
+    "How many triangles of any size are in it?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant figure visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Big triangle: the answer",
+   "hold": 1.5,
+   "visual": "Tally per line: 'side 1: 16'; 'side 2: 6 ▲' (shown one by one) then the single ▼ side-2 triangle in the middle highlighted, '+1 = 7'; 'side 3: 3'; 'side 4: 1'; answer badge '16 + 7 + 3 + 1 = 27' chime at end of that line.",
+   "lines": [
+    "Let's check. Side one: the sixteen small ones.",
+    "Side two: six point up. And don't miss the sneaky one in the middle, pointing down. That's seven.",
+    "Side three: three of them, one in each corner.",
+    "Side four: the whole triangle.",
+    "Sixteen plus seven plus three plus one is twenty-seven!",
+    "If you got twenty-seven, outstanding hunting!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'size by size', '▲ and ▼', 'symmetry can halve the work'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Count the triangles one size at a time, and check both directions, up and down.",
+    "If the shape looks the same upside down, count one direction and double it.",
+    "I'm Vantee. Keep hunting, and I'll see you next time!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "title": "Two Swaps, One Total: How Much Money Do They Have? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Two characters as simple labeled wallets/piggy banks: 'Ali' (green) and 'Bea' (purple), with '?' amounts. Line 1: a coin arrow Ali→Bea, '=' sign. Line 2: a coin arrow Bea→Ali, '×2'. Line 3: Vantee title card.",
+   "lines": [
+    "Two friends, two different money swaps, and two clues.",
+    "Can we find how much money they have together? Let's draw it out!",
+    "Hi, I'm Vantee! Let's solve this with bars."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, Ali and Bea wallets right. Line 2: arrow Ali→Bea '20% of Ali's money' then both wallets 'same'. Line 3: tag 'OR, instead:' then arrow Bea→Ali '$10', Ali '= 2 × Bea'. Line 4: 'together = ?'. Line 5: choice chips 90, 150, 200, 240, 300.",
+   "lines": [
+    "Here's the question.",
+    "If Ali gives Bea twenty percent of his money, they will have the same amount.",
+    "If instead Bea gives Ali ten dollars, Ali will have twice as much as Bea.",
+    "How many dollars do our two friends, Ali and Bea, have together?",
+    "Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: two separate cards side by side 'Clue 1' and 'Clue 2', each starting from the same two wallets; 'instead' highlighted. Line 2: tag 'goal: Ali + Bea'.",
+   "lines": [
+    "There are two clues. The word instead means each one starts fresh, from the same amounts again.",
+    "We want the total: Ali's money plus Bea's money."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "bars",
+   "chapter": "Solution 1: draw bars",
+   "hold": 1,
+   "visual": "Bar model. Line 1: tag 'draw a bar model'. Line 2: '20% = 1/5' (\\dfrac); Ali's bar split into 5 equal green parts. Line 3: one part slides from Ali's bar to Bea's side; Ali now 4 parts. Line 4: Bea's bar after the gift is 4 parts long, matching Ali (dashed '=' line). Line 5: remove the gifted part: Bea's starting bar = 3 parts (purple).",
+   "lines": [
+    "Welcome back! Let's draw a bar model.",
+    "Twenty percent is one fifth. So split Ali's money into five equal parts.",
+    "Clue one: Ali gives one part to Bea. Now Ali has four parts.",
+    "They have the same amount, so Bea now has four parts too.",
+    "One of those parts was Ali's gift. So Bea started with three parts."
+   ]
+  },
+  {
+   "id": "part",
+   "hold": 1.5,
+   "visual": "Fresh bars: Ali 5 parts, Bea 3 parts. Lines 1–2: '$10' block slides from Bea's bar onto Ali's: Ali '5 parts + 10', Bea '3 parts − 10'. Line 3: Bea's bar doubled underneath: '6 parts − 20'. Line 4: row '5 parts + 10 = 6 parts − 20'. Line 5: cancel 5 parts from both sides → '1 part − 20 = 10'. Line 6: '1 part = 30'. Line 7: bars labeled 'Ali 5 × 30 = 150', 'Bea 3 × 30 = 90'. Line 8: answer badge '150 + 90 = 240', chime at end, choice D highlighted.",
+   "lines": [
+    "Clue two, starting fresh: Bea gives Ali ten dollars.",
+    "After the swap, Ali has five parts plus ten, and Bea has three parts minus ten.",
+    "Twice Bea's money is six parts, minus twenty dollars.",
+    "Ali has twice as much, so five parts plus ten equals six parts minus twenty.",
+    "Take five parts from both sides. One part minus twenty is ten.",
+    "So one part is thirty dollars.",
+    "So Ali has five parts, one hundred fifty dollars, and Bea has three parts, ninety dollars.",
+    "Together, that's two hundred forty dollars. Choice D!"
+   ]
+  },
+  {
+   "id": "check",
+   "hold": 1,
+   "visual": "Two check rows. Lines 1–2: 'Clue 1: 20% of 150 = 30 → 150 − 30 = 120 and 90 + 30 = 120 ✓'. Lines 3–4: 'Clue 2: 150 + 10 = 160, 90 − 10 = 80, 160 = 2 × 80 ✓'.",
+   "lines": [
+    "Let's check clue one. Twenty percent of one hundred fifty is thirty.",
+    "Ali keeps one hundred twenty, and Bea ends up with one hundred twenty.",
+    "Clue two: Ali ends with one hundred sixty, and Bea drops to eighty.",
+    "One hundred sixty is twice eighty. Both clues work!"
+   ]
+  },
+  {
+   "id": "letters",
+   "chapter": "Solution 2: use letters",
+   "hold": 1.5,
+   "visual": "Equation rows right. Line 1: 'Ali = a, Bea = b'. Line 2: 'a − a/5 = b + a/5' (\\dfrac). Line 3: 'b = a − 2a/5 = 3a/5'. Line 4: 'a + 10 = 2(b − 10)'. Line 5: '= 6a/5 − 20'. Line 6: 'a/5 = 30 → a = 150, b = 90'. Line 7: small text 'when bars get messy'.",
+   "lines": [
+    "Here's another way. Use letters: a for Ali's dollars and b for Bea's.",
+    "Clue one: a minus a fifth of a equals b plus a fifth of a.",
+    "So b is a minus two fifths of a. That's three fifths of a.",
+    "Clue two: a plus ten equals two times, b minus ten.",
+    "That's six fifths of a, minus twenty.",
+    "So one fifth of a is thirty. Then a is one hundred fifty, and b is ninety. Same answer!",
+    "When would you pick this way? When the parts don't come out even, letters still work."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips row; each turns red with a note. Line 1: chip A '90 = Bea only', chip B '150 = Ali only'. Line 2: chip E '2 × 150 = 300'. Lines 3–4: chip C '200 = 8 parts of 25'. Line 5: 'Ali 125, Bea 75'. Line 6: '135 and 65'. Line 7: '2 × 65 = 130 ≠ 135' red. Line 8: chip D '240' green.",
+   "lines": [
+    "Now the traps. Choices A and B, ninety and one hundred fifty, are each person alone.",
+    "Choice E, three hundred, doubles Ali's money instead of adding Bea's.",
+    "Choice C, two hundred, looks friendly. Let's test it.",
+    "The total is eight parts, so one part is twenty-five.",
+    "Then Ali has one hundred twenty-five, and Bea has seventy-five.",
+    "After Bea gives ten, that's one hundred thirty-five and sixty-five.",
+    "Twice sixty-five is only one hundred thirty. Not a match!",
+    "Only two hundred forty passes both clues."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: new clues",
+   "hold": 0.5,
+   "visual": "Card: 'If Ali gives Bea 25% of his money, they have the same. If instead Bea gives Ali $6, Ali has 3 times as much as Bea. Together = ?'.",
+   "lines": [
+    "Ready for a challenge? If Ali gives Bea twenty-five percent of his money, they have the same amount.",
+    "If instead Bea gives Ali six dollars, Ali has three times as much as Bea.",
+    "How much do they have together?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant text visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New clues: the answer",
+   "hold": 1.5,
+   "visual": "Bars per line: '25% = 1/4' Ali 4 parts; gives 1 → 3; Bea 3 − 1 = 2 parts; 'Ali 4 parts + 6 = 3 × (2 parts − 6)'; '= 6 parts − 18 → 2 parts = 24 → 1 part = 12'; 'Ali 48, Bea 24'; answer badge '48 + 24 = 72' chime at end of that line; check '54 = 3 × 18 ✓'.",
+   "lines": [
+    "Let's check. Twenty-five percent is one quarter, so Ali has four parts.",
+    "He gives one part and keeps three.",
+    "Bea ends with three parts, so she started with two.",
+    "Clue two: four parts plus six equals three times, two parts minus six.",
+    "That's six parts minus eighteen. So two parts make twenty-four, and one part is twelve.",
+    "Ali has forty-eight, and Bea has twenty-four.",
+    "Together, they have seventy-two dollars!",
+    "Check: after Bea gives six, it's fifty-four and eighteen. Fifty-four is three times eighteen!",
+    "Now clue one: forty-eight minus twelve is thirty-six, and twenty-four plus twelve is thirty-six.",
+    "If you got seventy-two, wonderful work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'percent → equal parts', 'each clue → one balance', 'solve for one part'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Turn the percent into equal parts, and turn each clue into a balance.",
+    "Find what one part is worth, and everything else falls into place.",
+    "I'm Vantee. Keep balancing, and I'll see you next time!"
+   ]
+  }
+ ]
+}

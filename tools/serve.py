@@ -8,6 +8,8 @@ import urllib.parse
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
+import youtube
+
 ROOT = Path(__file__).resolve().parent.parent
 VIDEOS = ROOT / "videos"
 
@@ -26,6 +28,7 @@ def list_videos():
             script=script.read_text() if script.exists() else "",
             video=f"/videos/{d.name}/video.mp4" if (d / "video.mp4").exists() else None,
             poster=f"/videos/{d.name}/poster.jpg" if (d / "poster.jpg").exists() else None,
+            publish_tags=youtube.tags(v),
         )
         out.append(v)
     return sorted(out, key=lambda v: str(v.get("created", "")), reverse=True)
@@ -34,11 +37,15 @@ def list_videos():
 STATUSES = ("draft", "ready", "fix")  # "published" is implied by meta.json posts
 
 
+def valid_slug(slug):
+    return isinstance(slug, str) and "/" not in slug and not slug.startswith(".") and (VIDEOS / slug / "meta.json").is_file()
+
+
 def set_status(slug, status, fixes=None):
     """Write status (and fix notes) into videos/<slug>/meta.json. Returns False on bad input."""
-    meta = VIDEOS / str(slug) / "meta.json"
-    if status not in STATUSES or "/" in str(slug) or str(slug).startswith(".") or not meta.is_file():
+    if status not in STATUSES or not valid_slug(slug):
         return False
+    meta = VIDEOS / slug / "meta.json"
     v = json.loads(meta.read_text())
     v["status"] = status
     if status == "fix":
@@ -85,6 +92,8 @@ class Handler(SimpleHTTPRequestHandler):
         super().do_GET()
 
     def do_POST(self):
+        if self.path == "/api/youtube":
+            return self.post_youtube()
         if self.path != "/api/status":
             return self.send_error(404)
         try:
@@ -94,6 +103,22 @@ class Handler(SimpleHTTPRequestHandler):
             ok = False
         self.send_response(204 if ok else 400)
         self.end_headers()
+
+    def post_youtube(self):
+        # Blocks until the upload finishes (a minute or so); ThreadingHTTPServer keeps the site responsive.
+        try:
+            slug = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))["slug"]
+            if not valid_slug(slug):
+                raise RuntimeError("bad slug")
+            body, code = {"id": youtube.upload(slug)}, 200
+        except Exception as e:  # report every failure (auth, quota, network) to the page
+            body, code = {"error": str(e)}, 500
+        body = json.dumps(body).encode()
+        self.send_response(code)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
 
     def send_range(self):
         # http.server has no Range support; browsers need it to seek in <video>.

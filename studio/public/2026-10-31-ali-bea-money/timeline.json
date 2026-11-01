@@ -1,0 +1,550 @@
+{
+ "fps": 30,
+ "durationInFrames": 11207,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Two friends, two different money swaps, and two clues.",
+     "caption": "Two friends, two different money swaps, and two clues.",
+     "file": "2026-10-31-ali-bea-money/audio/80f73ad46700f360.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Can we find how much money they have together? Let's draw it out!",
+     "caption": "Can we find how much money they have together? Let's draw it out!",
+     "file": "2026-10-31-ali-bea-money/audio/5bf22f0d2065c89f.wav",
+     "from": 170,
+     "frames": 123
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's solve this with bars.",
+     "caption": "Hi, I'm Vantee! Let's solve this with bars.",
+     "file": "2026-10-31-ali-bea-money/audio/2d13dfa2628fed05.wav",
+     "from": 303,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 468,
+   "frames": 717,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-ali-bea-money/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "If Ali gives Bea twenty percent of his money, they will have the same amount.",
+     "caption": "If Ali gives Bea twenty percent of his money, they will have the same amount.",
+     "file": "2026-10-31-ali-bea-money/audio/c61cd6cc93115eb8.wav",
+     "from": 61,
+     "frames": 162
+    },
+    {
+     "text": "If instead Bea gives Ali ten dollars, Ali will have twice as much as Bea.",
+     "caption": "If instead Bea gives Ali ten dollars, Ali will have twice as much as Bea.",
+     "file": "2026-10-31-ali-bea-money/audio/23108279ebd16f10.wav",
+     "from": 233,
+     "frames": 186
+    },
+    {
+     "text": "How many dollars do our two friends, Ali and Bea, have together?",
+     "caption": "How many dollars do our two friends, Ali and Bea, have together?",
+     "file": "2026-10-31-ali-bea-money/audio/dea502d72d6ebf0d.wav",
+     "from": 430,
+     "frames": 141
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-ali-bea-money/audio/4c78df72243d4b0b.wav",
+     "from": 581,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1185,
+   "frames": 403,
+   "lines": [
+    {
+     "text": "There are two clues. The word instead means each one starts fresh, from the same amounts again.",
+     "caption": "There are two clues. The word instead means each one starts fresh, from the same amounts again.",
+     "file": "2026-10-31-ali-bea-money/audio/91b1c9fe4581d5e4.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "We want the total: Ali's money plus Bea's money.",
+     "caption": "We want the total: Ali's money plus Bea's money.",
+     "file": "2026-10-31-ali-bea-money/audio/234db66abd13f1f3.wav",
+     "from": 225,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1588,
+   "frames": 432,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-ali-bea-money/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "bars",
+   "kind": "scene",
+   "chapter": "Solution 1: draw bars",
+   "from": 2020,
+   "frames": 884,
+   "lines": [
+    {
+     "text": "Welcome back! Let's draw a bar model.",
+     "caption": "Welcome back! Let's draw a bar model.",
+     "file": "2026-10-31-ali-bea-money/audio/8a5ab32ad14c1c6d.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "Twenty percent is one fifth. So split Ali's money into five equal parts.",
+     "caption": "Twenty percent is one fifth. So split Ali's money into five equal parts.",
+     "file": "2026-10-31-ali-bea-money/audio/4292f9dbe681d2e4.wav",
+     "from": 103,
+     "frames": 192
+    },
+    {
+     "text": "Clue one: Ali gives one part to Bea. Now Ali has four parts.",
+     "caption": "Clue one: Ali gives one part to Bea. Now Ali has four parts.",
+     "file": "2026-10-31-ali-bea-money/audio/be9a6eb576e51439.wav",
+     "from": 305,
+     "frames": 188
+    },
+    {
+     "text": "They have the same amount, so Bea now has four parts too.",
+     "caption": "They have the same amount, so Bea now has four parts too.",
+     "file": "2026-10-31-ali-bea-money/audio/aa09c066c34a9714.wav",
+     "from": 503,
+     "frames": 153
+    },
+    {
+     "text": "One of those parts was Ali's gift. So Bea started with three parts.",
+     "caption": "One of those parts was Ali's gift. So Bea started with three parts.",
+     "file": "2026-10-31-ali-bea-money/audio/cc7b0b96e8212295.wav",
+     "from": 666,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "part",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2904,
+   "frames": 1438,
+   "lines": [
+    {
+     "text": "Clue two, starting fresh: Bea gives Ali ten dollars.",
+     "caption": "Clue two, starting fresh: Bea gives Ali ten dollars.",
+     "file": "2026-10-31-ali-bea-money/audio/6ed9cb03d755ea1d.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "After the swap, Ali has five parts plus ten, and Bea has three parts minus ten.",
+     "caption": "After the swap, Ali has five parts plus ten, and Bea has three parts minus ten.",
+     "file": "2026-10-31-ali-bea-money/audio/8d9ecf9d3e1364bb.wav",
+     "from": 185,
+     "frames": 197
+    },
+    {
+     "text": "Twice Bea's money is six parts, minus twenty dollars.",
+     "caption": "Twice Bea's money is six parts, minus twenty dollars.",
+     "file": "2026-10-31-ali-bea-money/audio/827c6f0c2172983f.wav",
+     "from": 392,
+     "frames": 152
+    },
+    {
+     "text": "Ali has twice as much, so five parts plus ten equals six parts minus twenty.",
+     "caption": "Ali has twice as much, so five parts plus ten equals six parts minus twenty.",
+     "file": "2026-10-31-ali-bea-money/audio/87c1139ff01c426f.wav",
+     "from": 554,
+     "frames": 213
+    },
+    {
+     "text": "Take five parts from both sides. One part minus twenty is ten.",
+     "caption": "Take five parts from both sides. One part minus twenty is ten.",
+     "file": "2026-10-31-ali-bea-money/audio/fa5d547d480d1014.wav",
+     "from": 777,
+     "frames": 165
+    },
+    {
+     "text": "So one part is thirty dollars.",
+     "caption": "So one part is thirty dollars.",
+     "file": "2026-10-31-ali-bea-money/audio/0d30795523258661.wav",
+     "from": 952,
+     "frames": 83
+    },
+    {
+     "text": "So Ali has five parts, one hundred fifty dollars, and Bea has three parts, ninety dollars.",
+     "caption": "So Ali has five parts, one hundred fifty dollars, and Bea has three parts, ninety dollars.",
+     "file": "2026-10-31-ali-bea-money/audio/cdfb242ea7856f16.wav",
+     "from": 1045,
+     "frames": 201
+    },
+    {
+     "text": "Together, that's two hundred forty dollars. Choice D!",
+     "caption": "Together, that's two hundred forty dollars. Choice D!",
+     "file": "2026-10-31-ali-bea-money/audio/f42c25c1e77314e1.wav",
+     "from": 1256,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "check",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4342,
+   "frames": 714,
+   "lines": [
+    {
+     "text": "Let's check clue one. Twenty percent of one hundred fifty is thirty.",
+     "caption": "Let's check clue one. Twenty percent of one hundred fifty is thirty.",
+     "file": "2026-10-31-ali-bea-money/audio/83c47e585412cd58.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "Ali keeps one hundred twenty, and Bea ends up with one hundred twenty.",
+     "caption": "Ali keeps one hundred twenty, and Bea ends up with one hundred twenty.",
+     "file": "2026-10-31-ali-bea-money/audio/e621f75cbf98feb2.wav",
+     "from": 194,
+     "frames": 149
+    },
+    {
+     "text": "Clue two: Ali ends with one hundred sixty, and Bea drops to eighty.",
+     "caption": "Clue two: Ali ends with one hundred sixty, and Bea drops to eighty.",
+     "file": "2026-10-31-ali-bea-money/audio/abb9f5ac86efad62.wav",
+     "from": 353,
+     "frames": 170
+    },
+    {
+     "text": "One hundred sixty is twice eighty. Both clues work!",
+     "caption": "One hundred sixty is twice eighty. Both clues work!",
+     "file": "2026-10-31-ali-bea-money/audio/d0df81ef0108bff3.wav",
+     "from": 533,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "letters",
+   "kind": "scene",
+   "chapter": "Solution 2: use letters",
+   "from": 5056,
+   "frames": 1421,
+   "lines": [
+    {
+     "text": "Here's another way. Use letters: a for Ali's dollars and b for Bea's.",
+     "caption": "Here's another way. Use letters: a for Ali's dollars and b for Bea's.",
+     "file": "2026-10-31-ali-bea-money/audio/24606b406d83583f.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "Clue one: a minus a fifth of a equals b plus a fifth of a.",
+     "caption": "Clue one: a minus a fifth of a equals b plus a fifth of a.",
+     "file": "2026-10-31-ali-bea-money/audio/fb052dfd7a515c4a.wav",
+     "from": 183,
+     "frames": 206
+    },
+    {
+     "text": "So b is a minus two fifths of a. That's three fifths of a.",
+     "caption": "So b is a minus two fifths of a. That's three fifths of a.",
+     "file": "2026-10-31-ali-bea-money/audio/f0a6abf1de9963e9.wav",
+     "from": 399,
+     "frames": 166
+    },
+    {
+     "text": "Clue two: a plus ten equals two times, b minus ten.",
+     "caption": "Clue two: a plus ten equals two times, b minus ten.",
+     "file": "2026-10-31-ali-bea-money/audio/150ada62a8e71d4b.wav",
+     "from": 575,
+     "frames": 194
+    },
+    {
+     "text": "That's six fifths of a, minus twenty.",
+     "caption": "That's six fifths of a, minus twenty.",
+     "file": "2026-10-31-ali-bea-money/audio/612dbd533cc5b11c.wav",
+     "from": 779,
+     "frames": 105
+    },
+    {
+     "text": "So one fifth of a is thirty. Then a is one hundred fifty, and b is ninety. Same answer!",
+     "caption": "So one fifth of a is thirty. Then a is one hundred fifty, and b is ninety. Same answer!",
+     "file": "2026-10-31-ali-bea-money/audio/5435530376b3bcbc.wav",
+     "from": 894,
+     "frames": 269
+    },
+    {
+     "text": "When would you pick this way? When the parts don't come out even, letters still work.",
+     "caption": "When would you pick this way? When the parts don't come out even, letters still work.",
+     "file": "2026-10-31-ali-bea-money/audio/47b058fc605edc00.wav",
+     "from": 1173,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6477,
+   "frames": 1312,
+   "lines": [
+    {
+     "text": "Now the traps. Choices A and B, ninety and one hundred fifty, are each person alone.",
+     "caption": "Now the traps. Choices A and B, ninety and one hundred fifty, are each person alone.",
+     "file": "2026-10-31-ali-bea-money/audio/d9d099a4d01f0764.wav",
+     "from": 0,
+     "frames": 213
+    },
+    {
+     "text": "Choice E, three hundred, doubles Ali's money instead of adding Bea's.",
+     "caption": "Choice E, three hundred, doubles Ali's money instead of adding Bea's.",
+     "file": "2026-10-31-ali-bea-money/audio/b9b208c3896a6ab6.wav",
+     "from": 223,
+     "frames": 165
+    },
+    {
+     "text": "Choice C, two hundred, looks friendly. Let's test it.",
+     "caption": "Choice C, two hundred, looks friendly. Let's test it.",
+     "file": "2026-10-31-ali-bea-money/audio/5979519a22475abe.wav",
+     "from": 398,
+     "frames": 118
+    },
+    {
+     "text": "The total is eight parts, so one part is twenty-five.",
+     "caption": "The total is eight parts, so one part is twenty-five.",
+     "file": "2026-10-31-ali-bea-money/audio/2df37186a077b1ac.wav",
+     "from": 526,
+     "frames": 135
+    },
+    {
+     "text": "Then Ali has one hundred twenty-five, and Bea has seventy-five.",
+     "caption": "Then Ali has one hundred twenty-five, and Bea has seventy-five.",
+     "file": "2026-10-31-ali-bea-money/audio/65140e51753c69d4.wav",
+     "from": 671,
+     "frames": 150
+    },
+    {
+     "text": "After Bea gives ten, that's one hundred thirty-five and sixty-five.",
+     "caption": "After Bea gives ten, that's one hundred thirty-five and sixty-five.",
+     "file": "2026-10-31-ali-bea-money/audio/047fe390aef1f5fa.wav",
+     "from": 831,
+     "frames": 154
+    },
+    {
+     "text": "Twice sixty-five is only one hundred thirty. Not a match!",
+     "caption": "Twice sixty-five is only one hundred thirty. Not a match!",
+     "file": "2026-10-31-ali-bea-money/audio/e8db9ce36c94ed4a.wav",
+     "from": 995,
+     "frames": 136
+    },
+    {
+     "text": "Only two hundred forty passes both clues.",
+     "caption": "Only two hundred forty passes both clues.",
+     "file": "2026-10-31-ali-bea-money/audio/77db6b2515243848.wav",
+     "from": 1141,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: new clues",
+   "from": 7789,
+   "frames": 514,
+   "lines": [
+    {
+     "text": "Ready for a challenge? If Ali gives Bea twenty-five percent of his money, they have the same amount.",
+     "caption": "Ready for a challenge? If Ali gives Bea twenty-five percent of his money, they have the same amount.",
+     "file": "2026-10-31-ali-bea-money/audio/b09b8a557e0015b5.wav",
+     "from": 0,
+     "frames": 198
+    },
+    {
+     "text": "If instead Bea gives Ali six dollars, Ali has three times as much as Bea.",
+     "caption": "If instead Bea gives Ali six dollars, Ali has three times as much as Bea.",
+     "file": "2026-10-31-ali-bea-money/audio/399ad3c33cd679e4.wav",
+     "from": 208,
+     "frames": 203
+    },
+    {
+     "text": "How much do they have together?",
+     "caption": "How much do they have together?",
+     "file": "2026-10-31-ali-bea-money/audio/3b660f587ed2dd7e.wav",
+     "from": 421,
+     "frames": 54
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8303,
+   "frames": 459,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-ali-bea-money/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New clues: the answer",
+   "from": 8762,
+   "frames": 1822,
+   "lines": [
+    {
+     "text": "Let's check. Twenty-five percent is one quarter, so Ali has four parts.",
+     "caption": "Let's check. Twenty-five percent is one quarter, so Ali has four parts.",
+     "file": "2026-10-31-ali-bea-money/audio/efdc3cb14b0e3abd.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "He gives one part and keeps three.",
+     "caption": "He gives one part and keeps three.",
+     "file": "2026-10-31-ali-bea-money/audio/d2a0ff67e31c0bb7.wav",
+     "from": 194,
+     "frames": 93
+    },
+    {
+     "text": "Bea ends with three parts, so she started with two.",
+     "caption": "Bea ends with three parts, so she started with two.",
+     "file": "2026-10-31-ali-bea-money/audio/60e99fae374b9822.wav",
+     "from": 297,
+     "frames": 124
+    },
+    {
+     "text": "Clue two: four parts plus six equals three times, two parts minus six.",
+     "caption": "Clue two: four parts plus six equals three times, two parts minus six.",
+     "file": "2026-10-31-ali-bea-money/audio/46f34c8279296a29.wav",
+     "from": 431,
+     "frames": 248
+    },
+    {
+     "text": "That's six parts minus eighteen. So two parts make twenty-four, and one part is twelve.",
+     "caption": "That's six parts minus eighteen. So two parts make twenty-four, and one part is twelve.",
+     "file": "2026-10-31-ali-bea-money/audio/7dea6a9da311b281.wav",
+     "from": 689,
+     "frames": 231
+    },
+    {
+     "text": "Ali has forty-eight, and Bea has twenty-four.",
+     "caption": "Ali has forty-eight, and Bea has twenty-four.",
+     "file": "2026-10-31-ali-bea-money/audio/2395ced4bb19c377.wav",
+     "from": 930,
+     "frames": 124
+    },
+    {
+     "text": "Together, they have seventy-two dollars!",
+     "caption": "Together, they have seventy-two dollars!",
+     "file": "2026-10-31-ali-bea-money/audio/75b741d8d9cf0d2e.wav",
+     "from": 1064,
+     "frames": 88
+    },
+    {
+     "text": "Check: after Bea gives six, it's fifty-four and eighteen. Fifty-four is three times eighteen!",
+     "caption": "Check: after Bea gives six, it's fifty-four and eighteen. Fifty-four is three times eighteen!",
+     "file": "2026-10-31-ali-bea-money/audio/d149449dcd09d564.wav",
+     "from": 1162,
+     "frames": 230
+    },
+    {
+     "text": "Now clue one: forty-eight minus twelve is thirty-six, and twenty-four plus twelve is thirty-six.",
+     "caption": "Now clue one: forty-eight minus twelve is thirty-six, and twenty-four plus twelve is thirty-six.",
+     "file": "2026-10-31-ali-bea-money/audio/f48bde99b235e808.wav",
+     "from": 1401,
+     "frames": 245
+    },
+    {
+     "text": "If you got seventy-two, wonderful work!",
+     "caption": "If you got seventy-two, wonderful work!",
+     "file": "2026-10-31-ali-bea-money/audio/9392aceb959fa523.wav",
+     "from": 1657,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10584,
+   "frames": 623,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-ali-bea-money/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "Turn the percent into equal parts, and turn each clue into a balance.",
+     "caption": "Turn the percent into equal parts, and turn each clue into a balance.",
+     "file": "2026-10-31-ali-bea-money/audio/762b50d8b4d33c63.wav",
+     "from": 85,
+     "frames": 170
+    },
+    {
+     "text": "Find what one part is worth, and everything else falls into place.",
+     "caption": "Find what one part is worth, and everything else falls into place.",
+     "file": "2026-10-31-ali-bea-money/audio/647f1001aaeee60d.wav",
+     "from": 264,
+     "frames": 144
+    },
+    {
+     "text": "I'm Vantee. Keep balancing, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep balancing, and I'll see you next time!",
+     "file": "2026-10-31-ali-bea-money/audio/a698572fb98a186e.wav",
+     "from": 419,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}

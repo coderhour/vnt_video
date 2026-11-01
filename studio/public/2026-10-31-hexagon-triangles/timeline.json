@@ -1,0 +1,487 @@
+{
+ "fps": 30,
+ "durationInFrames": 9063,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 506,
+   "lines": [
+    {
+     "text": "This hexagon is cut into twenty-four little triangles. But that's not the whole story!",
+     "caption": "This hexagon is cut into twenty-four little triangles. But that's not the whole story!",
+     "file": "2026-10-31-hexagon-triangles/audio/ad60ba3cc6597971.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "Bigger triangles are hiding in it too. Some of them are sneaky.",
+     "caption": "Bigger triangles are hiding in it too. Some of them are sneaky.",
+     "file": "2026-10-31-hexagon-triangles/audio/670f7a222490c041.wav",
+     "from": 211,
+     "frames": 113
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's hunt down every triangle.",
+     "caption": "Hi, I'm Vantee! Let's hunt down every triangle.",
+     "file": "2026-10-31-hexagon-triangles/audio/9394fc9e49353a91.wav",
+     "from": 334,
+     "frames": 134
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 506,
+   "frames": 558,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-hexagon-triangles/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "A regular hexagon has side length two.",
+     "caption": "A regular hexagon has side length two.",
+     "file": "2026-10-31-hexagon-triangles/audio/609178fae1a83a3e.wav",
+     "from": 54,
+     "frames": 98
+    },
+    {
+     "text": "It's cut into twenty-four small equilateral triangles.",
+     "caption": "It's cut into twenty-four small equilateral triangles.",
+     "file": "2026-10-31-hexagon-triangles/audio/9db656b15bf32588.wav",
+     "from": 162,
+     "frames": 130
+    },
+    {
+     "text": "How many triangles of any size are in the figure?",
+     "caption": "How many triangles of any size are in the figure?",
+     "file": "2026-10-31-hexagon-triangles/audio/632c4cb49e1d378d.wav",
+     "from": 302,
+     "frames": 112
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-hexagon-triangles/audio/4c78df72243d4b0b.wav",
+     "from": 424,
+     "frames": 65
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1064,
+   "frames": 585,
+   "lines": [
+    {
+     "text": "Each little triangle has side one. Two small edges make a hexagon side.",
+     "caption": "Each little triangle has side one. Two small edges make a hexagon side.",
+     "file": "2026-10-31-hexagon-triangles/audio/3d1d5d665c7a83f5.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "We count triangles of every size, as long as their edges are drawn lines.",
+     "caption": "We count triangles of every size, as long as their edges are drawn lines.",
+     "file": "2026-10-31-hexagon-triangles/audio/134c0293cd65e7bd.wav",
+     "from": 194,
+     "frames": 167
+    },
+    {
+     "text": "And watch the direction. Some triangles point up, and some point down.",
+     "caption": "And watch the direction. Some triangles point up, and some point down.",
+     "file": "2026-10-31-hexagon-triangles/audio/02b48abb9cf5d2dd.wav",
+     "from": 371,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1649,
+   "frames": 425,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-hexagon-triangles/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "size1",
+   "kind": "scene",
+   "chapter": "Solution 1: count by size",
+   "from": 2074,
+   "frames": 314,
+   "lines": [
+    {
+     "text": "Welcome back! Let's count one size at a time.",
+     "caption": "Welcome back! Let's count one size at a time.",
+     "file": "2026-10-31-hexagon-triangles/audio/a0153548d9e445b4.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "Side one is easy. Those are the twenty-four little triangles we were given.",
+     "caption": "Side one is easy. Those are the twenty-four little triangles we were given.",
+     "file": "2026-10-31-hexagon-triangles/audio/5994061f9e505322.wav",
+     "from": 120,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "size2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2388,
+   "frames": 1020,
+   "lines": [
+    {
+     "text": "Side two is made of four small triangles.",
+     "caption": "Side two is made of four small triangles.",
+     "file": "2026-10-31-hexagon-triangles/audio/803ea2597c865316.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "Six of them fit around the center, like slices of a pizza.",
+     "caption": "Six of them fit around the center, like slices of a pizza.",
+     "file": "2026-10-31-hexagon-triangles/audio/b7b21a2507e43fe7.wav",
+     "from": 110,
+     "frames": 137
+    },
+    {
+     "text": "Each slice has a corner right at the center.",
+     "caption": "Each slice has a corner right at the center.",
+     "file": "2026-10-31-hexagon-triangles/audio/2d7a2ffc897da0b0.wav",
+     "from": 257,
+     "frames": 104
+    },
+    {
+     "text": "But here's a sneaky one. None of its corners is at the center.",
+     "caption": "But here's a sneaky one. None of its corners is at the center.",
+     "file": "2026-10-31-hexagon-triangles/audio/f4e2945a07b477a7.wav",
+     "from": 371,
+     "frames": 147
+    },
+    {
+     "text": "The center sits in the middle of one of its sides.",
+     "caption": "The center sits in the middle of one of its sides.",
+     "file": "2026-10-31-hexagon-triangles/audio/7959b93ebcd069d0.wav",
+     "from": 528,
+     "frames": 110
+    },
+    {
+     "text": "There are six of these too, each pointing to the middle of a hexagon side.",
+     "caption": "There are six of these too, each pointing to the middle of a hexagon side.",
+     "file": "2026-10-31-hexagon-triangles/audio/e81820de43a24693.wav",
+     "from": 647,
+     "frames": 148
+    },
+    {
+     "text": "So side two gives six plus six, twelve triangles.",
+     "caption": "So side two gives six plus six, twelve triangles.",
+     "file": "2026-10-31-hexagon-triangles/audio/5f5de5057724b7bd.wav",
+     "from": 806,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "size3",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3408,
+   "frames": 1050,
+   "lines": [
+    {
+     "text": "What about side three? Look at the middle of each side of the hexagon.",
+     "caption": "What about side three? Look at the middle of each side of the hexagon.",
+     "file": "2026-10-31-hexagon-triangles/audio/3e9d1576b7a89b28.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "Join every other middle, and you get one big triangle pointing up.",
+     "caption": "Join every other middle, and you get one big triangle pointing up.",
+     "file": "2026-10-31-hexagon-triangles/audio/6883f4a8df14fbad.wav",
+     "from": 183,
+     "frames": 150
+    },
+    {
+     "text": "Join the other three, and you get one pointing down. That's two.",
+     "caption": "Join the other three, and you get one pointing down. That's two.",
+     "file": "2026-10-31-hexagon-triangles/audio/1676e7969689924f.wav",
+     "from": 344,
+     "frames": 153
+    },
+    {
+     "text": "Side four won't fit. Its bottom edge would need one of the long lines through the middle.",
+     "caption": "Side four won't fit. Its bottom edge would need one of the long lines through the middle.",
+     "file": "2026-10-31-hexagon-triangles/audio/be479ba6db59b25b.wav",
+     "from": 506,
+     "frames": 180
+    },
+    {
+     "text": "But only two rows fit above or below that line.",
+     "caption": "But only two rows fit above or below that line.",
+     "file": "2026-10-31-hexagon-triangles/audio/3cf0df43506af9b9.wav",
+     "from": 697,
+     "frames": 120
+    },
+    {
+     "text": "Twenty-four plus twelve plus two is thirty-eight. That's Choice E!",
+     "caption": "Twenty-four plus twelve plus two is thirty-eight. That's Choice E!",
+     "file": "2026-10-31-hexagon-triangles/audio/7fb67481b7fe640a.wav",
+     "from": 827,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "flip",
+   "kind": "scene",
+   "chapter": "Solution 2: count up, then double",
+   "from": 4458,
+   "frames": 1192,
+   "lines": [
+    {
+     "text": "Time for a clever shortcut. Count only the triangles that point up.",
+     "caption": "Time for a clever shortcut. Count only the triangles that point up.",
+     "file": "2026-10-31-hexagon-triangles/audio/3ac14b1b6bbeb1fb.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "Twelve of the small ones point up.",
+     "caption": "Twelve of the small ones point up.",
+     "file": "2026-10-31-hexagon-triangles/audio/0ad319de232110ca.wav",
+     "from": 152,
+     "frames": 94
+    },
+    {
+     "text": "Six of the side-two triangles point up, and one of the big ones.",
+     "caption": "Six of the side-two triangles point up, and one of the big ones.",
+     "file": "2026-10-31-hexagon-triangles/audio/c932a4888eb1847c.wav",
+     "from": 256,
+     "frames": 137
+    },
+    {
+     "text": "That's twelve plus six plus one, nineteen.",
+     "caption": "That's twelve plus six plus one, nineteen.",
+     "file": "2026-10-31-hexagon-triangles/audio/b3cf629c0dfe8986.wav",
+     "from": 403,
+     "frames": 137
+    },
+    {
+     "text": "Now turn the hexagon upside down. It looks the same, but every up triangle now points down!",
+     "caption": "Now turn the hexagon upside down. It looks the same, but every up triangle now points down!",
+     "file": "2026-10-31-hexagon-triangles/audio/dce8c1b1ededbff7.wav",
+     "from": 551,
+     "frames": 225
+    },
+    {
+     "text": "So there are nineteen pointing down too. Two times nineteen is thirty-eight.",
+     "caption": "So there are nineteen pointing down too. Two times nineteen is thirty-eight.",
+     "file": "2026-10-31-hexagon-triangles/audio/b6951f6cc6aa1eb6.wav",
+     "from": 786,
+     "frames": 189
+    },
+    {
+     "text": "When would you pick this way? When the shape looks the same upside down.",
+     "caption": "When would you pick this way? When the shape looks the same upside down.",
+     "file": "2026-10-31-hexagon-triangles/audio/ae412757d2f6f98f.wav",
+     "from": 985,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 5650,
+   "frames": 975,
+   "lines": [
+    {
+     "text": "Now the traps. Choice A, twenty-four, counts only the little triangles.",
+     "caption": "Now the traps. Choice A, twenty-four, counts only the little triangles.",
+     "file": "2026-10-31-hexagon-triangles/audio/b032e1637ce45eb5.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "Choice B, thirty, is what you'd get if you found only the six pizza slices of side two.",
+     "caption": "Choice B, thirty, is what you'd get if you found only the six pizza slices of side two.",
+     "file": "2026-10-31-hexagon-triangles/audio/17a59e88851442c1.wav",
+     "from": 197,
+     "frames": 188
+    },
+    {
+     "text": "Choice C, thirty-two, counts side-two triangles in only one direction.",
+     "caption": "Choice C, thirty-two, counts side-two triangles in only one direction.",
+     "file": "2026-10-31-hexagon-triangles/audio/f2c948774cd09d8c.wav",
+     "from": 395,
+     "frames": 168
+    },
+    {
+     "text": "Choice D, thirty-six, forgets the two big triangles that stretch across the hexagon.",
+     "caption": "Choice D, thirty-six, forgets the two big triangles that stretch across the hexagon.",
+     "file": "2026-10-31-hexagon-triangles/audio/d99684ba14fbedf4.wav",
+     "from": 573,
+     "frames": 192
+    },
+    {
+     "text": "Count every size, in both directions, and you get thirty-eight.",
+     "caption": "Count every size, in both directions, and you get thirty-eight.",
+     "file": "2026-10-31-hexagon-triangles/audio/d209f606d0ef171a.wav",
+     "from": 776,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a big triangle",
+   "from": 6625,
+   "frames": 370,
+   "lines": [
+    {
+     "text": "Ready for a challenge? This big triangle has side four. It's cut into sixteen small triangles.",
+     "caption": "Ready for a challenge? This big triangle has side four. It's cut into sixteen small triangles.",
+     "file": "2026-10-31-hexagon-triangles/audio/0fb763b10b6b41d5.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "How many triangles of any size are in it?",
+     "caption": "How many triangles of any size are in it?",
+     "file": "2026-10-31-hexagon-triangles/audio/44f3326ff905ffeb.wav",
+     "from": 230,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 6995,
+   "frames": 457,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-hexagon-triangles/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Big triangle: the answer",
+   "from": 7452,
+   "frames": 947,
+   "lines": [
+    {
+     "text": "Let's check. Side one: the sixteen small ones.",
+     "caption": "Let's check. Side one: the sixteen small ones.",
+     "file": "2026-10-31-hexagon-triangles/audio/6be013c573b67deb.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "Side two: six point up. And don't miss the sneaky one in the middle, pointing down. That's seven.",
+     "caption": "Side two: six point up. And don't miss the sneaky one in the middle, pointing down. That's seven.",
+     "file": "2026-10-31-hexagon-triangles/audio/b8cf6620b249fd0b.wav",
+     "from": 145,
+     "frames": 219
+    },
+    {
+     "text": "Side three: three of them, one in each corner.",
+     "caption": "Side three: three of them, one in each corner.",
+     "file": "2026-10-31-hexagon-triangles/audio/6cfe36c4b384ea7f.wav",
+     "from": 374,
+     "frames": 113
+    },
+    {
+     "text": "Side four: the whole triangle.",
+     "caption": "Side four: the whole triangle.",
+     "file": "2026-10-31-hexagon-triangles/audio/45684dc584fbb985.wav",
+     "from": 497,
+     "frames": 90
+    },
+    {
+     "text": "Sixteen plus seven plus three plus one is twenty-seven!",
+     "caption": "Sixteen plus seven plus three plus one is twenty-seven!",
+     "file": "2026-10-31-hexagon-triangles/audio/4b3fe87ed5cce853.wav",
+     "from": 598,
+     "frames": 158
+    },
+    {
+     "text": "If you got twenty-seven, outstanding hunting!",
+     "caption": "If you got twenty-seven, outstanding hunting!",
+     "file": "2026-10-31-hexagon-triangles/audio/01bde8d5fd09688d.wav",
+     "from": 766,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 8399,
+   "frames": 664,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-hexagon-triangles/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 77
+    },
+    {
+     "text": "Count the triangles one size at a time, and check both directions, up and down.",
+     "caption": "Count the triangles one size at a time, and check both directions, up and down.",
+     "file": "2026-10-31-hexagon-triangles/audio/a4072ec5c891500a.wav",
+     "from": 88,
+     "frames": 195
+    },
+    {
+     "text": "If the shape looks the same upside down, count one direction and double it.",
+     "caption": "If the shape looks the same upside down, count one direction and double it.",
+     "file": "2026-10-31-hexagon-triangles/audio/eecd748bb2f31c44.wav",
+     "from": 293,
+     "frames": 155
+    },
+    {
+     "text": "I'm Vantee. Keep hunting, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep hunting, and I'll see you next time!",
+     "file": "2026-10-31-hexagon-triangles/audio/b2bdf788c88b008c.wav",
+     "from": 458,
+     "frames": 123
+    }
+   ]
+  }
+ ]
+}

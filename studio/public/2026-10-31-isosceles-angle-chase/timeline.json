@@ -1,0 +1,508 @@
+{
+ "fps": 30,
+ "durationInFrames": 10682,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 514,
+   "lines": [
+    {
+     "text": "We know just one angle, twenty-four degrees. Can we find the angle at the top?",
+     "caption": "We know just one angle, twenty-four degrees. Can we find the angle at the top?",
+     "file": "2026-10-31-isosceles-angle-chase/audio/ccdb7780415e383a.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "The secret is hiding in two isosceles triangles.",
+     "caption": "The secret is hiding in two isosceles triangles.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/4e112a839590742e.wav",
+     "from": 177,
+     "frames": 134
+    },
+    {
+     "text": "Hi, I'm Vantee, your math tutor! Let's go on an angle chase.",
+     "caption": "Hi, I'm Vantee, your math tutor! Let's go on an angle chase.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/0f313a6659618ce1.wav",
+     "from": 321,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 514,
+   "frames": 843,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 48
+    },
+    {
+     "text": "In triangle A B C, side A B equals side A C.",
+     "caption": "In triangle A B C, side A B equals side A C.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/9872e845548de872.wav",
+     "from": 58,
+     "frames": 172
+    },
+    {
+     "text": "Point D is on side A C, so that B D equals B C.",
+     "caption": "Point D is on side A C, so that B D equals B C.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/c48d56896aced112.wav",
+     "from": 240,
+     "frames": 179
+    },
+    {
+     "text": "Angle A B D is twenty-four degrees.",
+     "caption": "Angle A B D is twenty-four degrees.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/cb94e3ea6ffbee12.wav",
+     "from": 429,
+     "frames": 105
+    },
+    {
+     "text": "What is the measure of angle B A C, the angle at the top?",
+     "caption": "What is the measure of angle B A C, the angle at the top?",
+     "file": "2026-10-31-isosceles-angle-chase/audio/8d7944c1fe78d10d.wav",
+     "from": 544,
+     "frames": 155
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/4c78df72243d4b0b.wav",
+     "from": 710,
+     "frames": 65
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1357,
+   "frames": 545,
+   "lines": [
+    {
+     "text": "So we have two isosceles triangles. The big one, A B C, has two equal sides from A.",
+     "caption": "So we have two isosceles triangles. The big one, A B C, has two equal sides from A.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/90870b8333b834f0.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "The small one, B D C, has two equal sides from B.",
+     "caption": "The small one, B D C, has two equal sides from B.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/0d7c9ae31bc40309.wav",
+     "from": 235,
+     "frames": 154
+    },
+    {
+     "text": "Our goal is the top angle, at A.",
+     "caption": "Our goal is the top angle, at A.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/1f26f104ebb8b114.wav",
+     "from": 399,
+     "frames": 92
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1902,
+   "frames": 424,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "big",
+   "kind": "scene",
+   "chapter": "Solution 1: chase with a letter",
+   "from": 2326,
+   "frames": 683,
+   "lines": [
+    {
+     "text": "Welcome back! Let's name what we don't know. Call the top angle a.",
+     "caption": "Welcome back! Let's name what we don't know. Call the top angle a.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/b5f81782741fa5c5.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Side A B equals side A C, so the angles at B and C are equal. Those are the base angles.",
+     "caption": "Side A B equals side A C, so the angles at B and C are equal. Those are the base angles.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/70bc2888163f643f.wav",
+     "from": 178,
+     "frames": 243
+    },
+    {
+     "text": "The three angles add to one hundred eighty, so each base angle is ninety minus half of a.",
+     "caption": "The three angles add to one hundred eighty, so each base angle is ninety minus half of a.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/92a81e5d35d4db2c.wav",
+     "from": 431,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "small",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3009,
+   "frames": 997,
+   "lines": [
+    {
+     "text": "Now the small triangle. B D equals B C, so the angles at D and C match. Angle B D C equals angle C.",
+     "caption": "Now the small triangle. B D equals B C, so the angles at D and C match. Angle B D C equals angle C.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f6cdc5b8c5a6765e.wav",
+     "from": 0,
+     "frames": 317
+    },
+    {
+     "text": "So angle D B C is one hundred eighty, minus angle C, minus angle C.",
+     "caption": "So angle D B C is one hundred eighty, minus angle C, minus angle C.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/ca59325b15067e2e.wav",
+     "from": 327,
+     "frames": 221
+    },
+    {
+     "text": "Two base angles add to one hundred eighty minus a. So angle D B C is just a!",
+     "caption": "Two base angles add to one hundred eighty minus a. So angle D B C is just a!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/40a1dd4e75a0469b.wav",
+     "from": 558,
+     "frames": 214
+    },
+    {
+     "text": "Look at that. The little angle at B is the same as the top angle.",
+     "caption": "Look at that. The little angle at B is the same as the top angle.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/43fcd62268cc7ad0.wav",
+     "from": 782,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4006,
+   "frames": 1140,
+   "lines": [
+    {
+     "text": "Angle A B C is made of two parts: twenty-four degrees, plus a.",
+     "caption": "Angle A B C is made of two parts: twenty-four degrees, plus a.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f75eacd40a328e8a.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "But angle A B C is also a base angle. So twenty-four plus a equals ninety minus half of a.",
+     "caption": "But angle A B C is also a base angle. So twenty-four plus a equals ninety minus half of a.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f2f876f617b9d5c5.wav",
+     "from": 158,
+     "frames": 284
+    },
+    {
+     "text": "Add half of a to both sides, and take away twenty-four. One and a half a equals sixty-six.",
+     "caption": "Add half of a to both sides, and take away twenty-four. One and a half a equals sixty-six.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/9b597d572e1ab62f.wav",
+     "from": 451,
+     "frames": 238
+    },
+    {
+     "text": "So a is forty-four degrees. That's Choice E!",
+     "caption": "So a is forty-four degrees. That's Choice E!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f347ec59d39f6568.wav",
+     "from": 700,
+     "frames": 124
+    },
+    {
+     "text": "Check: each base angle is sixty-eight. And sixty-eight minus forty-four is twenty-four. It works!",
+     "caption": "Check: each base angle is sixty-eight. And sixty-eight minus forty-four is twenty-four. It works!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/cc863f3c88222fa5.wav",
+     "from": 834,
+     "frames": 238
+    }
+   ]
+  },
+  {
+   "id": "exterior",
+   "kind": "scene",
+   "chapter": "Solution 2: the outside angle",
+   "from": 5146,
+   "frames": 1349,
+   "lines": [
+    {
+     "text": "Here's another way, with no fractions. Look at triangle A B D, on the left.",
+     "caption": "Here's another way, with no fractions. Look at triangle A B D, on the left.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/42bcd1cf089d860c.wav",
+     "from": 0,
+     "frames": 177
+    },
+    {
+     "text": "An outside angle of a triangle equals the two inside angles far from it.",
+     "caption": "An outside angle of a triangle equals the two inside angles far from it.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f5593a2111e79d94.wav",
+     "from": 187,
+     "frames": 155
+    },
+    {
+     "text": "So angle B D C equals a plus twenty-four.",
+     "caption": "So angle B D C equals a plus twenty-four.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/bce8759cfd595091.wav",
+     "from": 352,
+     "frames": 134
+    },
+    {
+     "text": "Angle C matches angle B D C, so it's a plus twenty-four too. And so is angle A B C.",
+     "caption": "Angle C matches angle B D C, so it's a plus twenty-four too. And so is angle A B C.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/08bb8909758f7d19.wav",
+     "from": 496,
+     "frames": 232
+    },
+    {
+     "text": "The big triangle adds up: three a plus forty-eight is one hundred eighty.",
+     "caption": "The big triangle adds up: three a plus forty-eight is one hundred eighty.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/5ac153240421ca7e.wav",
+     "from": 738,
+     "frames": 177
+    },
+    {
+     "text": "So three a is one hundred thirty-two, and a is forty-four.",
+     "caption": "So three a is one hundred thirty-two, and a is forty-four.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/0b52de4d7b49eeef.wav",
+     "from": 925,
+     "frames": 161
+    },
+    {
+     "text": "When would you pick this way? When you spot an outside angle. It saves a step.",
+     "caption": "When would you pick this way? When you spot an outside angle. It saves a step.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/ac68ca04ffe7a7ce.wav",
+     "from": 1096,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6495,
+   "frames": 1665,
+   "lines": [
+    {
+     "text": "Now the traps. Choice B, twenty-four, is the angle we were given.",
+     "caption": "Now the traps. Choice B, twenty-four, is the angle we were given.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/2e9392cf4afb8aca.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "It's not the one we were asked for.",
+     "caption": "It's not the one we were asked for.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/0a2b47741fc556a4.wav",
+     "from": 171,
+     "frames": 81
+    },
+    {
+     "text": "Here's a quick test for any choice.",
+     "caption": "Here's a quick test for any choice.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/b622aee9de75dba6.wav",
+     "from": 262,
+     "frames": 81
+    },
+    {
+     "text": "Find the base angle, then subtract the top angle. You should get twenty-four.",
+     "caption": "Find the base angle, then subtract the top angle. You should get twenty-four.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/aebe76d249a829ec.wav",
+     "from": 353,
+     "frames": 162
+    },
+    {
+     "text": "Try twenty-four on top.",
+     "caption": "Try twenty-four on top.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/b3527e1162576db8.wav",
+     "from": 526,
+     "frames": 64
+    },
+    {
+     "text": "The base angle is seventy-eight, and seventy-eight minus twenty-four is fifty-four. Too big.",
+     "caption": "The base angle is seventy-eight, and seventy-eight minus twenty-four is fifty-four. Too big.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/3478dd1668536cc7.wav",
+     "from": 600,
+     "frames": 213
+    },
+    {
+     "text": "Choice D, thirty-six, comes from a famous triangle",
+     "caption": "Choice D, thirty-six, comes from a famous triangle",
+     "file": "2026-10-31-isosceles-angle-chase/audio/21658860e673ea1b.wav",
+     "from": 823,
+     "frames": 138
+    },
+    {
+     "text": "with angles thirty-six, seventy-two and seventy-two. But here it gives thirty-six, not twenty-four.",
+     "caption": "with angles thirty-six, seventy-two and seventy-two. But here it gives thirty-six, not twenty-four.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/9204bf7f9d7c371f.wav",
+     "from": 971,
+     "frames": 243
+    },
+    {
+     "text": "Choices A and C, twenty-two and thirty-four, give fifty-seven and thirty-nine. Neither works.",
+     "caption": "Choices A and C, twenty-two and thirty-four, give fifty-seven and thirty-nine. Neither works.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/ece3bc1be4395ac5.wav",
+     "from": 1224,
+     "frames": 243
+    },
+    {
+     "text": "Only forty-four gives exactly twenty-four.",
+     "caption": "Only forty-four gives exactly twenty-four.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/c4f577d8eca2b188.wav",
+     "from": 1477,
+     "frames": 129
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new angle",
+   "from": 8160,
+   "frames": 425,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same setup: A B equals A C, and B D equals B C.",
+     "caption": "Ready for a challenge? Same setup: A B equals A C, and B D equals B C.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/0d34cf6155919429.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "This time, angle A B D is thirty degrees. What is the top angle?",
+     "caption": "This time, angle A B D is thirty degrees. What is the top angle?",
+     "file": "2026-10-31-isosceles-angle-chase/audio/4027cb45edd9494e.wav",
+     "from": 227,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8585,
+   "frames": 448,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 64
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New angle: the answer",
+   "from": 9033,
+   "frames": 1077,
+   "lines": [
+    {
+     "text": "Let's check. The outside angle at D is a plus thirty.",
+     "caption": "Let's check. The outside angle at D is a plus thirty.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/b1a5904f98967c34.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "So angle C and angle A B C are both a plus thirty.",
+     "caption": "So angle C and angle A B C are both a plus thirty.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/643b26cfdc423040.wav",
+     "from": 157,
+     "frames": 155
+    },
+    {
+     "text": "The angles add up: three a plus sixty is one hundred eighty. So three a is one hundred twenty.",
+     "caption": "The angles add up: three a plus sixty is one hundred eighty. So three a is one hundred twenty.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f1186b65f6ddb1bf.wav",
+     "from": 322,
+     "frames": 222
+    },
+    {
+     "text": "The top angle is forty degrees!",
+     "caption": "The top angle is forty degrees!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f7461d7b86e7ff33.wav",
+     "from": 555,
+     "frames": 88
+    },
+    {
+     "text": "Check: the base angles are seventy. Seventy minus forty is thirty. Yes!",
+     "caption": "Check: the base angles are seventy. Seventy minus forty is thirty. Yes!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f9dae49fbae4baff.wav",
+     "from": 653,
+     "frames": 220
+    },
+    {
+     "text": "If you got forty degrees, superb angle chasing!",
+     "caption": "If you got forty degrees, superb angle chasing!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/1b6c05d918b47caf.wav",
+     "from": 883,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10110,
+   "frames": 572,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "Equal sides mean equal angles.",
+     "caption": "Equal sides mean equal angles.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/f167c245352cfa1a.wav",
+     "from": 89,
+     "frames": 90
+    },
+    {
+     "text": "Name the unknown angle with a letter, and chase it from triangle to triangle.",
+     "caption": "Name the unknown angle with a letter, and chase it from triangle to triangle.",
+     "file": "2026-10-31-isosceles-angle-chase/audio/2a4c8cc28e2e06c4.wav",
+     "from": 190,
+     "frames": 150
+    },
+    {
+     "text": "This is Vantee, signing off. Keep chasing, and I'll see you next time!",
+     "caption": "This is Vantee, signing off. Keep chasing, and I'll see you next time!",
+     "file": "2026-10-31-isosceles-angle-chase/audio/4e8e2b2634021aa9.wav",
+     "from": 350,
+     "frames": 138
+    }
+   ]
+  }
+ ]
+}

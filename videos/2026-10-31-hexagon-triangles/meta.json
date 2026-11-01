@@ -1,0 +1,7 @@
+{
+  "title": "How Many Triangles Hide in This Hexagon? | AMC 8-Style Level 5",
+  "description": "This hexagon is cut into 24 little triangles, but bigger ones are hiding in it too!\nCan you find every triangle of every size, pointing up and pointing down?\nWe count them two ways and then try a big triangle of your own.\n\n0:00 Intro\n0:16 The question\n0:35 What are we asked?\n0:54 Try it yourself\n1:09 Solution 1: count by size\n2:28 Solution 2: count up, then double\n3:08 Common traps\n3:40 Your turn: a big triangle\n4:08 Big triangle: the answer\n4:39 Recap",
+  "created": "2026-10-31",
+  "question_id": "amc_practice_amc8_counting_template:c1-520",
+  "posts": []
+}

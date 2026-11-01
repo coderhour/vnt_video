@@ -1,0 +1,464 @@
+{
+ "fps": 30,
+ "durationInFrames": 8975,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 515,
+   "lines": [
+    {
+     "text": "Move a clock's hour hand one hour, then two, then three, all the way up to twenty.",
+     "caption": "Move a clock's hour hand one hour, then two, then three, all the way up to twenty.",
+     "file": "2026-10-31-clock-hand-moves/audio/b51d421a7877adb9.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "Where does it stop? You won't need to spin it by hand!",
+     "caption": "Where does it stop? You won't need to spin it by hand!",
+     "file": "2026-10-31-clock-hand-moves/audio/36462f9786476945.wav",
+     "from": 238,
+     "frames": 124
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's go around the clock.",
+     "caption": "Hi, I'm Vantee! Let's go around the clock.",
+     "file": "2026-10-31-clock-hand-moves/audio/a345e33d4baf5abb.wav",
+     "from": 373,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 515,
+   "frames": 754,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-clock-hand-moves/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "The hour hand of a clock points to three.",
+     "caption": "The hour hand of a clock points to three.",
+     "file": "2026-10-31-clock-hand-moves/audio/7af80f7f113774e9.wav",
+     "from": 57,
+     "frames": 101
+    },
+    {
+     "text": "Tom moves it forward one hour, then two hours, then three hours, and so on.",
+     "caption": "Tom moves it forward one hour, then two hours, then three hours, and so on.",
+     "file": "2026-10-31-clock-hand-moves/audio/d1ee4dcc098ff1cb.wav",
+     "from": 168,
+     "frames": 201
+    },
+    {
+     "text": "He finishes with a move of twenty hours.",
+     "caption": "He finishes with a move of twenty hours.",
+     "file": "2026-10-31-clock-hand-moves/audio/848838f0c544b921.wav",
+     "from": 379,
+     "frames": 101
+    },
+    {
+     "text": "To which number does the hour hand point at the end?",
+     "caption": "To which number does the hour hand point at the end?",
+     "file": "2026-10-31-clock-hand-moves/audio/93759d5112ace966.wav",
+     "from": 491,
+     "frames": 112
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-clock-hand-moves/audio/4c78df72243d4b0b.wav",
+     "from": 613,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1269,
+   "frames": 595,
+   "lines": [
+    {
+     "text": "There are twenty moves, and each one is one hour longer than the last.",
+     "caption": "There are twenty moves, and each one is one hour longer than the last.",
+     "file": "2026-10-31-clock-hand-moves/audio/c4602bfc2ea63f62.wav",
+     "from": 0,
+     "frames": 162
+    },
+    {
+     "text": "Here's a key fact. Twelve hours is one full turn.",
+     "caption": "Here's a key fact. Twelve hours is one full turn.",
+     "file": "2026-10-31-clock-hand-moves/audio/7ce3a6b7dcebb426.wav",
+     "from": 172,
+     "frames": 141
+    },
+    {
+     "text": "The hand lands right back where it started.",
+     "caption": "The hand lands right back where it started.",
+     "file": "2026-10-31-clock-hand-moves/audio/b8ed033e8fc208f4.wav",
+     "from": 323,
+     "frames": 90
+    },
+    {
+     "text": "We want the number the hand points to at the very end.",
+     "caption": "We want the number the hand points to at the very end.",
+     "file": "2026-10-31-clock-hand-moves/audio/c547aa6768142800.wav",
+     "from": 424,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1864,
+   "frames": 421,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-clock-hand-moves/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "total",
+   "kind": "scene",
+   "chapter": "Solution 1: add it all up",
+   "from": 2285,
+   "frames": 775,
+   "lines": [
+    {
+     "text": "Welcome back! Let's add up all the moves first.",
+     "caption": "Welcome back! Let's add up all the moves first.",
+     "file": "2026-10-31-clock-hand-moves/audio/3ed21130b41edcfe.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "We need one plus two plus three, all the way to twenty.",
+     "caption": "We need one plus two plus three, all the way to twenty.",
+     "file": "2026-10-31-clock-hand-moves/audio/147c6d68c44c68b8.wav",
+     "from": 127,
+     "frames": 164
+    },
+    {
+     "text": "Pair them up. One and twenty make twenty-one. Two and nineteen make twenty-one too.",
+     "caption": "Pair them up. One and twenty make twenty-one. Two and nineteen make twenty-one too.",
+     "file": "2026-10-31-clock-hand-moves/audio/9c598a1346e1d62f.wav",
+     "from": 301,
+     "frames": 216
+    },
+    {
+     "text": "Twenty numbers make ten pairs. Ten times twenty-one is two hundred ten hours.",
+     "caption": "Twenty numbers make ten pairs. Ten times twenty-one is two hundred ten hours.",
+     "file": "2026-10-31-clock-hand-moves/audio/8b10d9a3c6cd31e4.wav",
+     "from": 528,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "turns",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3060,
+   "frames": 778,
+   "lines": [
+    {
+     "text": "Twelve hours is a full turn. Two hundred ten divided by twelve is seventeen, remainder six.",
+     "caption": "Twelve hours is a full turn. Two hundred ten divided by twelve is seventeen, remainder six.",
+     "file": "2026-10-31-clock-hand-moves/audio/ff9367a199e1513e.wav",
+     "from": 0,
+     "frames": 236
+    },
+    {
+     "text": "Seventeen full turns bring the hand right back to three. They don't change anything!",
+     "caption": "Seventeen full turns bring the hand right back to three. They don't change anything!",
+     "file": "2026-10-31-clock-hand-moves/audio/ef82c7aad01fca93.wav",
+     "from": 245,
+     "frames": 182
+    },
+    {
+     "text": "Only the six leftover hours matter. Count six more from three.",
+     "caption": "Only the six leftover hours matter. Count six more from three.",
+     "file": "2026-10-31-clock-hand-moves/audio/8547e1bab0c243d2.wav",
+     "from": 437,
+     "frames": 159
+    },
+    {
+     "text": "The hand ends at nine. That's Choice D!",
+     "caption": "The hand ends at nine. That's Choice D!",
+     "file": "2026-10-31-clock-hand-moves/audio/a705c2a3c66b266f.wav",
+     "from": 606,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "throw",
+   "kind": "scene",
+   "chapter": "Solution 2: throw away full turns",
+   "from": 3838,
+   "frames": 1537,
+   "lines": [
+    {
+     "text": "Here's another way. Throw away full turns as you go.",
+     "caption": "Here's another way. Throw away full turns as you go.",
+     "file": "2026-10-31-clock-hand-moves/audio/aacb4a31ba0d921b.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "One and eleven make twelve. So do two and ten, three and nine, four and eight, and five and seven.",
+     "caption": "One and eleven make twelve. So do two and ten, three and nine, four and eight, and five and seven.",
+     "file": "2026-10-31-clock-hand-moves/audio/541bdec863a8a25a.wav",
+     "from": 142,
+     "frames": 280
+    },
+    {
+     "text": "And the move of twelve is a full turn by itself.",
+     "caption": "And the move of twelve is a full turn by itself.",
+     "file": "2026-10-31-clock-hand-moves/audio/7743f8065d2d5422.wav",
+     "from": 432,
+     "frames": 125
+    },
+    {
+     "text": "From the first twelve moves, only the six is left. So far, the hand goes from three to nine.",
+     "caption": "From the first twelve moves, only the six is left. So far, the hand goes from three to nine.",
+     "file": "2026-10-31-clock-hand-moves/audio/ea2d0eb8a5ccafb5.wav",
+     "from": 567,
+     "frames": 224
+    },
+    {
+     "text": "Each move from thirteen to twenty is a full turn, plus one to eight extra hours.",
+     "caption": "Each move from thirteen to twenty is a full turn, plus one to eight extra hours.",
+     "file": "2026-10-31-clock-hand-moves/audio/16a7da86fd1e3996.wav",
+     "from": 801,
+     "frames": 191
+    },
+    {
+     "text": "One through eight adds to thirty-six. That's three more full turns!",
+     "caption": "One through eight adds to thirty-six. That's three more full turns!",
+     "file": "2026-10-31-clock-hand-moves/audio/12e0690db16ad989.wav",
+     "from": 1002,
+     "frames": 172
+    },
+    {
+     "text": "So the last eight moves change nothing. The hand stays at nine.",
+     "caption": "So the last eight moves change nothing. The hand stays at nine.",
+     "file": "2026-10-31-clock-hand-moves/audio/b6e38fdec013d27d.wav",
+     "from": 1184,
+     "frames": 128
+    },
+    {
+     "text": "When would you pick this way? When you'd rather not add big numbers.",
+     "caption": "When would you pick this way? When you'd rather not add big numbers.",
+     "file": "2026-10-31-clock-hand-moves/audio/4781159fe20acc1c.wav",
+     "from": 1322,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 5375,
+   "frames": 994,
+   "lines": [
+    {
+     "text": "Now the traps. Choice B, six, is the leftover. It counts from twelve, but the hand started at three!",
+     "caption": "Now the traps. Choice B, six, is the leftover. It counts from twelve, but the hand started at three!",
+     "file": "2026-10-31-clock-hand-moves/audio/e1c009dbc5576978.wav",
+     "from": 0,
+     "frames": 244
+    },
+    {
+     "text": "Choice A, three, says the hand ends where it started. That needs whole turns only.",
+     "caption": "Choice A, three, says the hand ends where it started. That needs whole turns only.",
+     "file": "2026-10-31-clock-hand-moves/audio/0964bbfb70efa197.wav",
+     "from": 254,
+     "frames": 188
+    },
+    {
+     "text": "But two hundred ten isn't a multiple of twelve.",
+     "caption": "But two hundred ten isn't a multiple of twelve.",
+     "file": "2026-10-31-clock-hand-moves/audio/9a1b5bb6e417d54a.wav",
+     "from": 452,
+     "frames": 110
+    },
+    {
+     "text": "Choices C and E, seven and ten, would need four or seven leftover hours. But the leftover is six.",
+     "caption": "Choices C and E, seven and ten, would need four or seven leftover hours. But the leftover is six.",
+     "file": "2026-10-31-clock-hand-moves/audio/04fbf0d92034f9cf.wav",
+     "from": 572,
+     "frames": 225
+    },
+    {
+     "text": "Start at three, add six, and land on nine.",
+     "caption": "Start at three, add six, and land on nine.",
+     "file": "2026-10-31-clock-hand-moves/audio/801180da089dbfe6.wav",
+     "from": 807,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: start at 8",
+   "from": 6369,
+   "frames": 464,
+   "lines": [
+    {
+     "text": "Ready for a challenge? This time the hand starts at eight.",
+     "caption": "Ready for a challenge? This time the hand starts at eight.",
+     "file": "2026-10-31-clock-hand-moves/audio/93c80235fbcd823f.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "It moves one hour, then two, then three, finishing with a move of sixteen hours.",
+     "caption": "It moves one hour, then two, then three, finishing with a move of sixteen hours.",
+     "file": "2026-10-31-clock-hand-moves/audio/4cc2a4ef3aa686d0.wav",
+     "from": 141,
+     "frames": 226
+    },
+    {
+     "text": "Where does it point?",
+     "caption": "Where does it point?",
+     "file": "2026-10-31-clock-hand-moves/audio/de4b40f975220eaa.wav",
+     "from": 377,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 6833,
+   "frames": 426,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-clock-hand-moves/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Start at 8: the answer",
+   "from": 7259,
+   "frames": 1115,
+   "lines": [
+    {
+     "text": "Let's check. Pair them up: one and sixteen make seventeen, and there are eight pairs.",
+     "caption": "Let's check. Pair them up: one and sixteen make seventeen, and there are eight pairs.",
+     "file": "2026-10-31-clock-hand-moves/audio/97580f99b5f8b26c.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "Eight times seventeen is one hundred thirty-six.",
+     "caption": "Eight times seventeen is one hundred thirty-six.",
+     "file": "2026-10-31-clock-hand-moves/audio/651c864c885608eb.wav",
+     "from": 221,
+     "frames": 125
+    },
+    {
+     "text": "One hundred thirty-six divided by twelve is eleven, remainder four.",
+     "caption": "One hundred thirty-six divided by twelve is eleven, remainder four.",
+     "file": "2026-10-31-clock-hand-moves/audio/6a63227c332bbb86.wav",
+     "from": 356,
+     "frames": 168
+    },
+    {
+     "text": "Count four hours from eight: nine, ten, eleven, twelve.",
+     "caption": "Count four hours from eight: nine, ten, eleven, twelve.",
+     "file": "2026-10-31-clock-hand-moves/audio/5940c509e930a605.wav",
+     "from": 534,
+     "frames": 221
+    },
+    {
+     "text": "The hand points to twelve!",
+     "caption": "The hand points to twelve!",
+     "file": "2026-10-31-clock-hand-moves/audio/d9713e093545692f.wav",
+     "from": 766,
+     "frames": 72
+    },
+    {
+     "text": "Eight plus four lands on the twelve itself.",
+     "caption": "Eight plus four lands on the twelve itself.",
+     "file": "2026-10-31-clock-hand-moves/audio/38624c00ea70d9a5.wav",
+     "from": 848,
+     "frames": 99
+    },
+    {
+     "text": "If you got twelve, fantastic work!",
+     "caption": "If you got twelve, fantastic work!",
+     "file": "2026-10-31-clock-hand-moves/audio/0be5a0fdad20b728.wav",
+     "from": 957,
+     "frames": 89
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 8374,
+   "frames": 601,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-clock-hand-moves/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 78
+    },
+    {
+     "text": "Add up all the moves. Full turns of twelve change nothing, so keep only the remainder.",
+     "caption": "Add up all the moves. Full turns of twelve change nothing, so keep only the remainder.",
+     "file": "2026-10-31-clock-hand-moves/audio/c8f04671a9b34ee1.wav",
+     "from": 88,
+     "frames": 195
+    },
+    {
+     "text": "Then count that many from where you started.",
+     "caption": "Then count that many from where you started.",
+     "file": "2026-10-31-clock-hand-moves/audio/30d92513dadf307c.wav",
+     "from": 293,
+     "frames": 100
+    },
+    {
+     "text": "I'm Vantee. Keep spinning, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep spinning, and I'll see you next time!",
+     "file": "2026-10-31-clock-hand-moves/audio/8b3c6ad49d283241.wav",
+     "from": 403,
+     "frames": 114
+    }
+   ]
+  }
+ ]
+}

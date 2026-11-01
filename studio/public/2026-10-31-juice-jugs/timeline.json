@@ -1,0 +1,501 @@
+{
+ "fps": 30,
+ "durationInFrames": 9889,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 497,
+   "lines": [
+    {
+     "text": "Pour some juice into water, stir, then pour some back.",
+     "caption": "Pour some juice into water, stir, then pour some back.",
+     "file": "2026-10-31-juice-jugs/audio/2a686d5c702707f9.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "How much of the drink is juice now? Lots of kids get mixed up here!",
+     "caption": "How much of the drink is juice now? Lots of kids get mixed up here!",
+     "file": "2026-10-31-juice-jugs/audio/fcd1e85b5640e1e5.wav",
+     "from": 150,
+     "frames": 137
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's follow the juice, one pour at a time.",
+     "caption": "Hi, I'm Vantee! Let's follow the juice, one pour at a time.",
+     "file": "2026-10-31-juice-jugs/audio/ee85c7c905ea9bf3.wav",
+     "from": 297,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 497,
+   "frames": 907,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-juice-jugs/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 42
+    },
+    {
+     "text": "Jug A holds ten liters of water.",
+     "caption": "Jug A holds ten liters of water.",
+     "file": "2026-10-31-juice-jugs/audio/142392660dbf5863.wav",
+     "from": 52,
+     "frames": 100
+    },
+    {
+     "text": "Jug B holds ten liters of a drink that is sixty percent juice.",
+     "caption": "Jug B holds ten liters of a drink that is sixty percent juice.",
+     "file": "2026-10-31-juice-jugs/audio/5407795c0bc7580e.wav",
+     "from": 162,
+     "frames": 155
+    },
+    {
+     "text": "Five liters are poured from jug B into jug A and stirred.",
+     "caption": "Five liters are poured from jug B into jug A and stirred.",
+     "file": "2026-10-31-juice-jugs/audio/510f0a49f24da781.wav",
+     "from": 328,
+     "frames": 155
+    },
+    {
+     "text": "Then five liters are poured from jug A back into jug B.",
+     "caption": "Then five liters are poured from jug A back into jug B.",
+     "file": "2026-10-31-juice-jugs/audio/2f8e3aad43a9a4ef.wav",
+     "from": 493,
+     "frames": 142
+    },
+    {
+     "text": "What percent of the drink in jug B is now juice?",
+     "caption": "What percent of the drink in jug B is now juice?",
+     "file": "2026-10-31-juice-jugs/audio/f25c73be804f13a6.wav",
+     "from": 645,
+     "frames": 120
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-juice-jugs/audio/4c78df72243d4b0b.wav",
+     "from": 776,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1404,
+   "frames": 541,
+   "lines": [
+    {
+     "text": "There are two pours. First from B into A, then from A back into B.",
+     "caption": "There are two pours. First from B into A, then from A back into B.",
+     "file": "2026-10-31-juice-jugs/audio/90dd0809917112f6.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "Stirred means the drink is mixed evenly. Every scoop is the same.",
+     "caption": "Stirred means the drink is mixed evenly. Every scoop is the same.",
+     "file": "2026-10-31-juice-jugs/audio/21d86c35ccc1e105.wav",
+     "from": 201,
+     "frames": 152
+    },
+    {
+     "text": "At the end, we want the share of jug B that is juice.",
+     "caption": "At the end, we want the share of jug B that is juice.",
+     "file": "2026-10-31-juice-jugs/audio/39df15ec5df67501.wav",
+     "from": 363,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1945,
+   "frames": 430,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-juice-jugs/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "liters",
+   "kind": "scene",
+   "chapter": "Solution 1: count liters of juice",
+   "from": 2375,
+   "frames": 486,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: count liters of juice, not percents.",
+     "caption": "Welcome back! Here's the strategy: count liters of juice, not percents.",
+     "file": "2026-10-31-juice-jugs/audio/a371fd07aa147616.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "At the start, jug A has no juice. Jug B has sixty percent of ten liters. That's six liters of juice.",
+     "caption": "At the start, jug A has no juice. Jug B has sixty percent of ten liters. That's six liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/6fa70e8c14a5899e.wav",
+     "from": 192,
+     "frames": 240
+    }
+   ]
+  },
+  {
+   "id": "pour1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2861,
+   "frames": 891,
+   "lines": [
+    {
+     "text": "First pour. Five liters is half of jug B.",
+     "caption": "First pour. Five liters is half of jug B.",
+     "file": "2026-10-31-juice-jugs/audio/84b3a996af384c51.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "So half of its juice moves too. Half of six is three liters of juice.",
+     "caption": "So half of its juice moves too. Half of six is three liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/0ed2220ae259931e.wav",
+     "from": 144,
+     "frames": 176
+    },
+    {
+     "text": "Now jug A has fifteen liters, with three liters of juice.",
+     "caption": "Now jug A has fifteen liters, with three liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/341e0fee0d8aaac7.wav",
+     "from": 329,
+     "frames": 153
+    },
+    {
+     "text": "Jug B has five liters, with three liters of juice.",
+     "caption": "Jug B has five liters, with three liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/cd41a61feff872c7.wav",
+     "from": 492,
+     "frames": 128
+    },
+    {
+     "text": "Jug A is three out of fifteen juice. That's one fifth, or twenty percent.",
+     "caption": "Jug A is three out of fifteen juice. That's one fifth, or twenty percent.",
+     "file": "2026-10-31-juice-jugs/audio/8ba2e43c9e756cc6.wav",
+     "from": 630,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "pour2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3752,
+   "frames": 761,
+   "lines": [
+    {
+     "text": "Second pour. Five liters is one third of jug A.",
+     "caption": "Second pour. Five liters is one third of jug A.",
+     "file": "2026-10-31-juice-jugs/audio/50a86cb4aa9ac417.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "One third of its three liters of juice is one liter. That liter goes back to jug B.",
+     "caption": "One third of its three liters of juice is one liter. That liter goes back to jug B.",
+     "file": "2026-10-31-juice-jugs/audio/0dba5bce9071c7be.wav",
+     "from": 171,
+     "frames": 190
+    },
+    {
+     "text": "Jug B is back to ten liters, with three plus one, four liters of juice.",
+     "caption": "Jug B is back to ten liters, with three plus one, four liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/a873c97e7ea46d1c.wav",
+     "from": 372,
+     "frames": 186
+    },
+    {
+     "text": "Four out of ten is forty percent. That's Choice C!",
+     "caption": "Four out of ten is forty percent. That's Choice C!",
+     "file": "2026-10-31-juice-jugs/audio/a775ec204c6c1e64.wav",
+     "from": 568,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "keep",
+   "kind": "scene",
+   "chapter": "Solution 2: juice never disappears",
+   "from": 4513,
+   "frames": 1194,
+   "lines": [
+    {
+     "text": "Here's a shortcut. Juice never disappears. There are six liters of juice in all, the whole time.",
+     "caption": "Here's a shortcut. Juice never disappears. There are six liters of juice in all, the whole time.",
+     "file": "2026-10-31-juice-jugs/audio/133e71003ec94318.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "Pouring out of jug A doesn't change its mix.",
+     "caption": "Pouring out of jug A doesn't change its mix.",
+     "file": "2026-10-31-juice-jugs/audio/f6e6c84c0d24f129.wav",
+     "from": 225,
+     "frames": 96
+    },
+    {
+     "text": "It stays twenty percent juice. Fifteen minus five leaves ten liters.",
+     "caption": "It stays twenty percent juice. Fifteen minus five leaves ten liters.",
+     "file": "2026-10-31-juice-jugs/audio/25ebef4a4618ac03.wav",
+     "from": 331,
+     "frames": 166
+    },
+    {
+     "text": "So jug A keeps twenty percent of ten, two liters of juice.",
+     "caption": "So jug A keeps twenty percent of ten, two liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/7b16e17856046af3.wav",
+     "from": 507,
+     "frames": 167
+    },
+    {
+     "text": "The rest is in jug B: six minus two is four liters. Four out of ten, forty percent!",
+     "caption": "The rest is in jug B: six minus two is four liters. Four out of ten, forty percent!",
+     "file": "2026-10-31-juice-jugs/audio/066233f624a07dd5.wav",
+     "from": 685,
+     "frames": 231
+    },
+    {
+     "text": "When would you pick this way? When one jug is easier to figure out. Then subtract from the total.",
+     "caption": "When would you pick this way? When one jug is easier to figure out. Then subtract from the total.",
+     "file": "2026-10-31-juice-jugs/audio/307b91d647a06301.wav",
+     "from": 926,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 5707,
+   "frames": 1306,
+   "lines": [
+    {
+     "text": "Now the traps. Choice A, twenty percent, is the right number for the wrong jug.",
+     "caption": "Now the traps. Choice A, twenty percent, is the right number for the wrong jug.",
+     "file": "2026-10-31-juice-jugs/audio/28656196fa074975.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "That's jug A, not jug B!",
+     "caption": "That's jug A, not jug B!",
+     "file": "2026-10-31-juice-jugs/audio/099cf66c73f89261.wav",
+     "from": 201,
+     "frames": 84
+    },
+    {
+     "text": "Choice B, thirty percent, counts only the three liters left in jug B.",
+     "caption": "Choice B, thirty percent, counts only the three liters left in jug B.",
+     "file": "2026-10-31-juice-jugs/audio/f562313fc5b28582.wav",
+     "from": 296,
+     "frames": 177
+    },
+    {
+     "text": "It forgets the liter of juice that came back.",
+     "caption": "It forgets the liter of juice that came back.",
+     "file": "2026-10-31-juice-jugs/audio/f722277fc771227b.wav",
+     "from": 483,
+     "frames": 101
+    },
+    {
+     "text": "Choice D, forty-five, is what you'd get by averaging trap B's thirty with the starting sixty.",
+     "caption": "Choice D, forty-five, is what you'd get by averaging trap B's thirty with the starting sixty.",
+     "file": "2026-10-31-juice-jugs/audio/16c241fb7736c5a8.wav",
+     "from": 594,
+     "frames": 209
+    },
+    {
+     "text": "Averaging percents doesn't work here.",
+     "caption": "Averaging percents doesn't work here.",
+     "file": "2026-10-31-juice-jugs/audio/5ec4ffd4163ccd97.wav",
+     "from": 813,
+     "frames": 86
+    },
+    {
+     "text": "Choice E, sixty percent, is where jug B started. But the pours traded some of its juice for water.",
+     "caption": "Choice E, sixty percent, is where jug B started. But the pours traded some of its juice for water.",
+     "file": "2026-10-31-juice-jugs/audio/2ed53b8cea71f5a2.wav",
+     "from": 909,
+     "frames": 203
+    },
+    {
+     "text": "Only forty percent tracks every liter of juice.",
+     "caption": "Only forty percent tracks every liter of juice.",
+     "file": "2026-10-31-juice-jugs/audio/d1563e61f44c14d7.wav",
+     "from": 1122,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new mix",
+   "from": 7013,
+   "frames": 650,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Jug A has eight liters of water.",
+     "caption": "Ready for a challenge? Jug A has eight liters of water.",
+     "file": "2026-10-31-juice-jugs/audio/c22306a226c24ab7.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Jug B has eight liters of a drink that is seventy-five percent juice.",
+     "caption": "Jug B has eight liters of a drink that is seventy-five percent juice.",
+     "file": "2026-10-31-juice-jugs/audio/ead280142d27c024.wav",
+     "from": 148,
+     "frames": 158
+    },
+    {
+     "text": "Pour four liters from B into A and stir. Then pour four liters back. What percent of jug B is juice?",
+     "caption": "Pour four liters from B into A and stir. Then pour four liters back. What percent of jug B is juice?",
+     "file": "2026-10-31-juice-jugs/audio/758cba4b6851c85d.wav",
+     "from": 316,
+     "frames": 296
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 7663,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-juice-jugs/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New mix: the answer",
+   "from": 8117,
+   "frames": 1183,
+   "lines": [
+    {
+     "text": "Let's check. Jug B starts with seventy-five percent of eight, six liters of juice.",
+     "caption": "Let's check. Jug B starts with seventy-five percent of eight, six liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/086919e76ddd5ce3.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "Four liters is half of jug B, so three liters of juice go into jug A.",
+     "caption": "Four liters is half of jug B, so three liters of juice go into jug A.",
+     "file": "2026-10-31-juice-jugs/audio/fd1c2efbb0115f01.wav",
+     "from": 195,
+     "frames": 190
+    },
+    {
+     "text": "Jug A now has twelve liters, with three liters of juice.",
+     "caption": "Jug A now has twelve liters, with three liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/f57e5228b3ed0dd1.wav",
+     "from": 395,
+     "frames": 131
+    },
+    {
+     "text": "Four liters is one third of jug A, so one liter of juice comes back.",
+     "caption": "Four liters is one third of jug A, so one liter of juice comes back.",
+     "file": "2026-10-31-juice-jugs/audio/ed449c104d608b3d.wav",
+     "from": 536,
+     "frames": 166
+    },
+    {
+     "text": "Jug B has eight liters again, with three plus one, four liters of juice.",
+     "caption": "Jug B has eight liters again, with three plus one, four liters of juice.",
+     "file": "2026-10-31-juice-jugs/audio/aa6820f9043b3d90.wav",
+     "from": 713,
+     "frames": 183
+    },
+    {
+     "text": "Four out of eight is fifty percent!",
+     "caption": "Four out of eight is fifty percent!",
+     "file": "2026-10-31-juice-jugs/audio/89d61389645a9aee.wav",
+     "from": 905,
+     "frames": 90
+    },
+    {
+     "text": "If you got fifty percent, wonderful work!",
+     "caption": "If you got fifty percent, wonderful work!",
+     "file": "2026-10-31-juice-jugs/audio/ca6c234e095fdb22.wav",
+     "from": 1006,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 9300,
+   "frames": 589,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-juice-jugs/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 84
+    },
+    {
+     "text": "Count liters of juice, not percents.",
+     "caption": "Count liters of juice, not percents.",
+     "file": "2026-10-31-juice-jugs/audio/7daa76efd2c74c5f.wav",
+     "from": 94,
+     "frames": 96
+    },
+    {
+     "text": "When you pour out part of a jug, that same part of its juice goes too.",
+     "caption": "When you pour out part of a jug, that same part of its juice goes too.",
+     "file": "2026-10-31-juice-jugs/audio/15e4831b29f59309.wav",
+     "from": 201,
+     "frames": 164
+    },
+    {
+     "text": "I'm Vantee. Keep pouring your brain into math, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep pouring your brain into math, and I'll see you next time!",
+     "file": "2026-10-31-juice-jugs/audio/b34138e575f508e8.wav",
+     "from": 375,
+     "frames": 131
+    }
+   ]
+  }
+ ]
+}

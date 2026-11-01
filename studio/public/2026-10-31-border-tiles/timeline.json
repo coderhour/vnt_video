@@ -1,0 +1,485 @@
+{
+ "fps": 30,
+ "durationInFrames": 9961,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 463,
+   "lines": [
+    {
+     "text": "A floor has a ring of blue tiles around the edge and white tiles inside.",
+     "caption": "A floor has a ring of blue tiles around the edge and white tiles inside.",
+     "file": "2026-10-31-border-tiles/audio/3045d48337891685.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "Just from two counts, can we find its shape? Let's see!",
+     "caption": "Just from two counts, can we find its shape? Let's see!",
+     "file": "2026-10-31-border-tiles/audio/6fd443e8cc2cd74b.wav",
+     "from": 182,
+     "frames": 134
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's tile this one together.",
+     "caption": "Hi, I'm Vantee! Let's tile this one together.",
+     "file": "2026-10-31-border-tiles/audio/32e4a6146246d3bf.wav",
+     "from": 326,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 463,
+   "frames": 702,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-border-tiles/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "A rectangular floor is covered with square tiles, each one foot on a side.",
+     "caption": "A rectangular floor is covered with square tiles, each one foot on a side.",
+     "file": "2026-10-31-border-tiles/audio/f362900779f73037.wav",
+     "from": 61,
+     "frames": 164
+    },
+    {
+     "text": "The forty tiles along the edge are blue.",
+     "caption": "The forty tiles along the edge are blue.",
+     "file": "2026-10-31-border-tiles/audio/065912bff5fb1e5a.wav",
+     "from": 235,
+     "frames": 105
+    },
+    {
+     "text": "The other eighty tiles are white.",
+     "caption": "The other eighty tiles are white.",
+     "file": "2026-10-31-border-tiles/audio/feccf8ed1b6b6b90.wav",
+     "from": 350,
+     "frames": 75
+    },
+    {
+     "text": "How many feet longer is the floor than it is wide?",
+     "caption": "How many feet longer is the floor than it is wide?",
+     "file": "2026-10-31-border-tiles/audio/1b9426ae6bded4fe.wav",
+     "from": 435,
+     "frames": 123
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-border-tiles/audio/4c78df72243d4b0b.wav",
+     "from": 567,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1165,
+   "frames": 554,
+   "lines": [
+    {
+     "text": "Forty blue plus eighty white makes one hundred twenty tiles in all.",
+     "caption": "Forty blue plus eighty white makes one hundred twenty tiles in all.",
+     "file": "2026-10-31-border-tiles/audio/9d74b26fbf3eb3d2.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Each tile is one foot, so the floor's length times its width is one hundred twenty.",
+     "caption": "Each tile is one foot, so the floor's length times its width is one hundred twenty.",
+     "file": "2026-10-31-border-tiles/audio/f8e1381ba8525f41.wav",
+     "from": 177,
+     "frames": 195
+    },
+    {
+     "text": "We want the difference: length minus width.",
+     "caption": "We want the difference: length minus width.",
+     "file": "2026-10-31-border-tiles/audio/9925e82e180bf968.wav",
+     "from": 381,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1719,
+   "frames": 429,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-border-tiles/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "edge-rule",
+   "kind": "scene",
+   "chapter": "Solution 1: make a list",
+   "from": 2148,
+   "frames": 908,
+   "lines": [
+    {
+     "text": "Welcome back! Let's make a list of floors with one hundred twenty tiles, and count each one's edge.",
+     "caption": "Welcome back! Let's make a list of floors with one hundred twenty tiles, and count each one's edge.",
+     "file": "2026-10-31-border-tiles/audio/f2790d08a38f1716.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "First, how do we count edge tiles? Take the whole top row and the whole bottom row.",
+     "caption": "First, how do we count edge tiles? Take the whole top row and the whole bottom row.",
+     "file": "2026-10-31-border-tiles/audio/e915173a131bfb39.wav",
+     "from": 220,
+     "frames": 200
+    },
+    {
+     "text": "Then add the two side columns, but skip their corners. Five minus two leaves three each.",
+     "caption": "Then add the two side columns, but skip their corners. Five minus two leaves three each.",
+     "file": "2026-10-31-border-tiles/audio/07d9ec21ef26d2fd.wav",
+     "from": 430,
+     "frames": 198
+    },
+    {
+     "text": "On this small example, that's seven plus seven plus three plus three, twenty edge tiles.",
+     "caption": "On this small example, that's seven plus seven plus three plus three, twenty edge tiles.",
+     "file": "2026-10-31-border-tiles/audio/82a2cb9f4b4b1b15.wav",
+     "from": 638,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3056,
+   "frames": 1234,
+   "lines": [
+    {
+     "text": "Long, thin floors are almost all edge.",
+     "caption": "Long, thin floors are almost all edge.",
+     "file": "2026-10-31-border-tiles/audio/fb99e5e26db33e45.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "Sixty by two has one hundred twenty edge tiles. Forty by three has eighty-two.",
+     "caption": "Sixty by two has one hundred twenty edge tiles. Forty by three has eighty-two.",
+     "file": "2026-10-31-border-tiles/audio/81aa075a5ec5290e.wav",
+     "from": 131,
+     "frames": 200
+    },
+    {
+     "text": "As the floor gets squarer, the edge shrinks: sixty-four, fifty-four, forty-eight.",
+     "caption": "As the floor gets squarer, the edge shrinks: sixty-four, fifty-four, forty-eight.",
+     "file": "2026-10-31-border-tiles/audio/f01b32f1f2c437e0.wav",
+     "from": 341,
+     "frames": 215
+    },
+    {
+     "text": "Fifteen by eight gives forty-two. So close!",
+     "caption": "Fifteen by eight gives forty-two. So close!",
+     "file": "2026-10-31-border-tiles/audio/d5bb8f5bdbe0eac6.wav",
+     "from": 566,
+     "frames": 148
+    },
+    {
+     "text": "Twelve by ten gives exactly forty. And the inside is ten by eight, eighty white tiles. Perfect!",
+     "caption": "Twelve by ten gives exactly forty. And the inside is ten by eight, eighty white tiles. Perfect!",
+     "file": "2026-10-31-border-tiles/audio/802a98c85aacc1d4.wav",
+     "from": 724,
+     "frames": 254
+    },
+    {
+     "text": "Twelve minus ten is two. The floor is two feet longer. That's Choice B!",
+     "caption": "Twelve minus ten is two. The floor is two feet longer. That's Choice B!",
+     "file": "2026-10-31-border-tiles/audio/510020235cafcc71.wav",
+     "from": 988,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "sum",
+   "kind": "scene",
+   "chapter": "Solution 2: the edge gives a sum",
+   "from": 4290,
+   "frames": 1663,
+   "lines": [
+    {
+     "text": "Here's a faster way.",
+     "caption": "Here's a faster way.",
+     "file": "2026-10-31-border-tiles/audio/a2236094d0f2cdad.wav",
+     "from": 0,
+     "frames": 64
+    },
+    {
+     "text": "The edge is two lengths plus two widths, minus the four corners we'd count twice.",
+     "caption": "The edge is two lengths plus two widths, minus the four corners we'd count twice.",
+     "file": "2026-10-31-border-tiles/audio/82615bc5e62be42d.wav",
+     "from": 74,
+     "frames": 190
+    },
+    {
+     "text": "So two lengths plus two widths, minus four, is forty.",
+     "caption": "So two lengths plus two widths, minus four, is forty.",
+     "file": "2026-10-31-border-tiles/audio/bc7019405e0f83cb.wav",
+     "from": 274,
+     "frames": 156
+    },
+    {
+     "text": "Add four: two lengths plus two widths is forty-four. So length plus width is twenty-two.",
+     "caption": "Add four: two lengths plus two widths is forty-four. So length plus width is twenty-two.",
+     "file": "2026-10-31-border-tiles/audio/cc656c197e623b32.wav",
+     "from": 441,
+     "frames": 248
+    },
+    {
+     "text": "Now find two numbers that add to twenty-two and multiply to one hundred twenty.",
+     "caption": "Now find two numbers that add to twenty-two and multiply to one hundred twenty.",
+     "file": "2026-10-31-border-tiles/audio/7231377bf75decc0.wav",
+     "from": 699,
+     "frames": 180
+    },
+    {
+     "text": "Eleven times eleven is one hundred twenty-one, just one too many.",
+     "caption": "Eleven times eleven is one hundred twenty-one, just one too many.",
+     "file": "2026-10-31-border-tiles/audio/702fffea7db2e7b2.wav",
+     "from": 889,
+     "frames": 170
+    },
+    {
+     "text": "Spread them apart by one each: twelve and ten.",
+     "caption": "Spread them apart by one each: twelve and ten.",
+     "file": "2026-10-31-border-tiles/audio/14ac4f48a7479700.wav",
+     "from": 1069,
+     "frames": 137
+    },
+    {
+     "text": "Twelve times ten is one hundred twenty. Again, a difference of two!",
+     "caption": "Twelve times ten is one hundred twenty. Again, a difference of two!",
+     "file": "2026-10-31-border-tiles/audio/ecb8c24e7e1cba8b.wav",
+     "from": 1216,
+     "frames": 176
+    },
+    {
+     "text": "When would you pick this way? When you know a sum and a product. That pins down the two numbers.",
+     "caption": "When would you pick this way? When you know a sum and a product. That pins down the two numbers.",
+     "file": "2026-10-31-border-tiles/audio/b78f0ab5383b17b4.wav",
+     "from": 1402,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 5953,
+   "frames": 1184,
+   "lines": [
+    {
+     "text": "Now let's test every choice. We know length plus width is twenty-two.",
+     "caption": "Now let's test every choice. We know length plus width is twenty-two.",
+     "file": "2026-10-31-border-tiles/audio/6b0b3046bc1a91ac.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "A difference of one or three can't work.",
+     "caption": "A difference of one or three can't work.",
+     "file": "2026-10-31-border-tiles/audio/37eab25a83b8bb6b.wav",
+     "from": 170,
+     "frames": 105
+    },
+    {
+     "text": "Twenty-two minus an odd number is odd, and half of an odd number isn't whole.",
+     "caption": "Twenty-two minus an odd number is odd, and half of an odd number isn't whole.",
+     "file": "2026-10-31-border-tiles/audio/11c0c7def4343420.wav",
+     "from": 285,
+     "frames": 191
+    },
+    {
+     "text": "A difference of four gives nine and thirteen. That's one hundred seventeen tiles, three short.",
+     "caption": "A difference of four gives nine and thirteen. That's one hundred seventeen tiles, three short.",
+     "file": "2026-10-31-border-tiles/audio/f132701d75e6ec8a.wav",
+     "from": 486,
+     "frames": 230
+    },
+    {
+     "text": "A difference of six gives eight and fourteen. That's only one hundred twelve tiles.",
+     "caption": "A difference of six gives eight and fourteen. That's only one hundred twelve tiles.",
+     "file": "2026-10-31-border-tiles/audio/1bd2bf1d2852f0f1.wav",
+     "from": 726,
+     "frames": 200
+    },
+    {
+     "text": "Only a difference of two gives ten and twelve, exactly one hundred twenty tiles.",
+     "caption": "Only a difference of two gives ten and twelve, exactly one hundred twenty tiles.",
+     "file": "2026-10-31-border-tiles/audio/2ae267c81c8dda34.wav",
+     "from": 936,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new floor",
+   "from": 7137,
+   "frames": 421,
+   "lines": [
+    {
+     "text": "Ready for a challenge?",
+     "caption": "Ready for a challenge?",
+     "file": "2026-10-31-border-tiles/audio/a19a3d2db526576d.wav",
+     "from": 0,
+     "frames": 56
+    },
+    {
+     "text": "A new floor has thirty-six blue tiles on the edge and sixty white tiles inside.",
+     "caption": "A new floor has thirty-six blue tiles on the edge and sixty white tiles inside.",
+     "file": "2026-10-31-border-tiles/audio/2c85b53f20888702.wav",
+     "from": 66,
+     "frames": 194
+    },
+    {
+     "text": "How many feet longer is it than it is wide?",
+     "caption": "How many feet longer is it than it is wide?",
+     "file": "2026-10-31-border-tiles/audio/23f5567b37d413b7.wav",
+     "from": 269,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 7558,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-border-tiles/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New floor: the answer",
+   "from": 8012,
+   "frames": 1202,
+   "lines": [
+    {
+     "text": "Let's check. Thirty-six plus sixty is ninety-six tiles in all.",
+     "caption": "Let's check. Thirty-six plus sixty is ninety-six tiles in all.",
+     "file": "2026-10-31-border-tiles/audio/f53ae0926dd9e957.wav",
+     "from": 0,
+     "frames": 198
+    },
+    {
+     "text": "Add the four corners to thirty-six. Then cut forty in half. Length plus width is twenty.",
+     "caption": "Add the four corners to thirty-six. Then cut forty in half. Length plus width is twenty.",
+     "file": "2026-10-31-border-tiles/audio/667f52f3667a601c.wav",
+     "from": 208,
+     "frames": 216
+    },
+    {
+     "text": "Ten times ten is one hundred, too many. Twelve times eight is ninety-six. That's it!",
+     "caption": "Ten times ten is one hundred, too many. Twelve times eight is ninety-six. That's it!",
+     "file": "2026-10-31-border-tiles/audio/f0433cad10ee6811.wav",
+     "from": 435,
+     "frames": 232
+    },
+    {
+     "text": "The inside is ten by six, sixty white tiles. It checks out.",
+     "caption": "The inside is ten by six, sixty white tiles. It checks out.",
+     "file": "2026-10-31-border-tiles/audio/8a9527f05267a90c.wav",
+     "from": 677,
+     "frames": 162
+    },
+    {
+     "text": "Twelve minus eight is four. The floor is four feet longer!",
+     "caption": "Twelve minus eight is four. The floor is four feet longer!",
+     "file": "2026-10-31-border-tiles/audio/0e129dca35c90fe1.wav",
+     "from": 849,
+     "frames": 178
+    },
+    {
+     "text": "If you got four, amazing work!",
+     "caption": "If you got four, amazing work!",
+     "file": "2026-10-31-border-tiles/audio/43d6c1a400bd851e.wav",
+     "from": 1037,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 9214,
+   "frames": 747,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-border-tiles/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 74
+    },
+    {
+     "text": "Add four to the edge tiles, then cut it in half. That's length plus width.",
+     "caption": "Add four to the edge tiles, then cut it in half. That's length plus width.",
+     "file": "2026-10-31-border-tiles/audio/34925b74f843e8b7.wav",
+     "from": 84,
+     "frames": 194
+    },
+    {
+     "text": "Count every tile in the floor to get length times width.",
+     "caption": "Count every tile in the floor to get length times width.",
+     "file": "2026-10-31-border-tiles/audio/dda8291a5a6eceb3.wav",
+     "from": 288,
+     "frames": 141
+    },
+    {
+     "text": "Then find the pair of numbers that fits both.",
+     "caption": "Then find the pair of numbers that fits both.",
+     "file": "2026-10-31-border-tiles/audio/b463f4974c57a158.wav",
+     "from": 439,
+     "frames": 98
+    },
+    {
+     "text": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "file": "2026-10-31-border-tiles/audio/df39d3330a3a433f.wav",
+     "from": 546,
+     "frames": 117
+    }
+   ]
+  }
+ ]
+}

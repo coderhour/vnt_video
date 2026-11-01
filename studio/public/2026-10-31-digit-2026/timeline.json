@@ -1,0 +1,527 @@
+{
+ "fps": 30,
+ "durationInFrames": 11076,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 595,
+   "lines": [
+    {
+     "text": "Write the whole numbers in a row, with no spaces. One, two, three, all the way up.",
+     "caption": "Write the whole numbers in a row, with no spaces. One, two, three, all the way up.",
+     "file": "2026-10-31-digit-2026/audio/b6022d16fe2dadb8.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "Which digit lands in spot number two thousand twenty-six? No need to write them all!",
+     "caption": "Which digit lands in spot number two thousand twenty-six? No need to write them all!",
+     "file": "2026-10-31-digit-2026/audio/0ac0249c098be4e3.wav",
+     "from": 237,
+     "frames": 172
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count smart, not hard.",
+     "caption": "Hi, I'm Vantee! Let's count smart, not hard.",
+     "file": "2026-10-31-digit-2026/audio/8eb398de891b8691.wav",
+     "from": 419,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 595,
+   "frames": 794,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-digit-2026/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 56
+    },
+    {
+     "text": "The whole numbers are written in order, with no spaces. One, two, three, and so on.",
+     "caption": "The whole numbers are written in order, with no spaces. One, two, three, and so on.",
+     "file": "2026-10-31-digit-2026/audio/99da1eb0f124af91.wav",
+     "from": 66,
+     "frames": 245
+    },
+    {
+     "text": "After nine comes one zero, then one one, and the digits keep running together.",
+     "caption": "After nine comes one zero, then one one, and the digits keep running together.",
+     "file": "2026-10-31-digit-2026/audio/7db6df3bdfe7a823.wav",
+     "from": 321,
+     "frames": 220
+    },
+    {
+     "text": "What is the two thousand twenty-sixth digit?",
+     "caption": "What is the two thousand twenty-sixth digit?",
+     "file": "2026-10-31-digit-2026/audio/5c7dcb7bb347a655.wav",
+     "from": 551,
+     "frames": 98
+    },
+    {
+     "text": "Here are the five choices.",
+     "caption": "Here are the five choices.",
+     "file": "2026-10-31-digit-2026/audio/4c78df72243d4b0b.wav",
+     "from": 659,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1389,
+   "frames": 695,
+   "lines": [
+    {
+     "text": "Each spot holds one digit. Spots ten and eleven hold the one and the zero of ten.",
+     "caption": "Each spot holds one digit. Spots ten and eleven hold the one and the zero of ten.",
+     "file": "2026-10-31-digit-2026/audio/94c4602fdcf88b1d.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "Small numbers use one digit each. Bigger numbers use two, then three.",
+     "caption": "Small numbers use one digit each. Bigger numbers use two, then three.",
+     "file": "2026-10-31-digit-2026/audio/b66196b9c2a48196.wav",
+     "from": 237,
+     "frames": 167
+    },
+    {
+     "text": "We need two things: which number covers spot two thousand twenty-six, and which of its digits it is.",
+     "caption": "We need two things: which number covers spot two thousand twenty-six, and which of its digits it is.",
+     "file": "2026-10-31-digit-2026/audio/47b83f0cbc56886f.wav",
+     "from": 415,
+     "frames": 227
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2084,
+   "frames": 431,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-digit-2026/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "blocks",
+   "kind": "scene",
+   "chapter": "Solution 1: count digits in blocks",
+   "from": 2515,
+   "frames": 1076,
+   "lines": [
+    {
+     "text": "Welcome back! Let's count the digits in blocks.",
+     "caption": "Welcome back! Let's count the digits in blocks.",
+     "file": "2026-10-31-digit-2026/audio/15cff08bb19c3350.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "One to nine: nine numbers, one digit each. That's nine digits.",
+     "caption": "One to nine: nine numbers, one digit each. That's nine digits.",
+     "file": "2026-10-31-digit-2026/audio/9a34c9a7301defe9.wav",
+     "from": 129,
+     "frames": 158
+    },
+    {
+     "text": "Ten to ninety-nine: that's ninety numbers. Ninety-nine minus ten, plus one.",
+     "caption": "Ten to ninety-nine: that's ninety numbers. Ninety-nine minus ten, plus one.",
+     "file": "2026-10-31-digit-2026/audio/9d14d4bd81f5e7fd.wav",
+     "from": 297,
+     "frames": 203
+    },
+    {
+     "text": "We add one because we count both ten and ninety-nine.",
+     "caption": "We add one because we count both ten and ninety-nine.",
+     "file": "2026-10-31-digit-2026/audio/1e21c5381d1159a8.wav",
+     "from": 511,
+     "frames": 142
+    },
+    {
+     "text": "Each one has two digits, so that's one hundred eighty digits.",
+     "caption": "Each one has two digits, so that's one hundred eighty digits.",
+     "file": "2026-10-31-digit-2026/audio/fb789994d4913e53.wav",
+     "from": 663,
+     "frames": 173
+    },
+    {
+     "text": "So far: nine plus one hundred eighty, one hundred eighty-nine digits.",
+     "caption": "So far: nine plus one hundred eighty, one hundred eighty-nine digits.",
+     "file": "2026-10-31-digit-2026/audio/aa0de57f92f80e09.wav",
+     "from": 846,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "three-digit",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3591,
+   "frames": 1923,
+   "lines": [
+    {
+     "text": "Spot two thousand twenty-six is still ahead. We've used one hundred eighty-nine digits.",
+     "caption": "Spot two thousand twenty-six is still ahead. We've used one hundred eighty-nine digits.",
+     "file": "2026-10-31-digit-2026/audio/d4a73d2cc06615cd.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "Two thousand twenty-six minus one hundred eighty-nine is one thousand eight hundred thirty-seven.",
+     "caption": "Two thousand twenty-six minus one hundred eighty-nine is one thousand eight hundred thirty-seven.",
+     "file": "2026-10-31-digit-2026/audio/d0f0605d153a677f.wav",
+     "from": 204,
+     "frames": 228
+    },
+    {
+     "text": "Now every number has three digits. So divide one thousand eight hundred thirty-seven by three.",
+     "caption": "Now every number has three digits. So divide one thousand eight hundred thirty-seven by three.",
+     "file": "2026-10-31-digit-2026/audio/9fd291ac57a85dde.wav",
+     "from": 443,
+     "frames": 204
+    },
+    {
+     "text": "That's six hundred twelve, remainder one.",
+     "caption": "That's six hundred twelve, remainder one.",
+     "file": "2026-10-31-digit-2026/audio/db00b6351c2898b3.wav",
+     "from": 657,
+     "frames": 99
+    },
+    {
+     "text": "So six hundred twelve full three-digit numbers fit, starting at one hundred.",
+     "caption": "So six hundred twelve full three-digit numbers fit, starting at one hundred.",
+     "file": "2026-10-31-digit-2026/audio/68241c5330f01dd2.wav",
+     "from": 766,
+     "frames": 165
+    },
+    {
+     "text": "Careful here! They run from one hundred up to seven hundred eleven.",
+     "caption": "Careful here! They run from one hundred up to seven hundred eleven.",
+     "file": "2026-10-31-digit-2026/audio/7e9687207a8b752a.wav",
+     "from": 941,
+     "frames": 149
+    },
+    {
+     "text": "Six hundred twelve numbers use one thousand eight hundred thirty-six digits.",
+     "caption": "Six hundred twelve numbers use one thousand eight hundred thirty-six digits.",
+     "file": "2026-10-31-digit-2026/audio/e8e7c43cfdafd945.wav",
+     "from": 1100,
+     "frames": 183
+    },
+    {
+     "text": "That reaches spot two thousand twenty-five, the last digit of seven hundred eleven.",
+     "caption": "That reaches spot two thousand twenty-five, the last digit of seven hundred eleven.",
+     "file": "2026-10-31-digit-2026/audio/cd644452a300fabf.wav",
+     "from": 1293,
+     "frames": 195
+    },
+    {
+     "text": "The remainder one means one more digit: the first digit of the next number, seven hundred twelve.",
+     "caption": "The remainder one means one more digit: the first digit of the next number, seven hundred twelve.",
+     "file": "2026-10-31-digit-2026/audio/246ec8fdf060b4f6.wav",
+     "from": 1498,
+     "frames": 207
+    },
+    {
+     "text": "The two thousand twenty-sixth digit is seven. That's Choice D!",
+     "caption": "The two thousand twenty-sixth digit is seven. That's Choice D!",
+     "file": "2026-10-31-digit-2026/audio/7801e5ad0a2b43de.wav",
+     "from": 1715,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "hundreds",
+   "kind": "scene",
+   "chapter": "Solution 2: jump by hundreds",
+   "from": 5514,
+   "frames": 1643,
+   "lines": [
+    {
+     "text": "Here's another way. Every hundred three-digit numbers uses three hundred digits.",
+     "caption": "Here's another way. Every hundred three-digit numbers uses three hundred digits.",
+     "file": "2026-10-31-digit-2026/audio/6d80e11c4bfb619c.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Start at one hundred eighty-nine, and jump by three hundreds.",
+     "caption": "Start at one hundred eighty-nine, and jump by three hundreds.",
+     "file": "2026-10-31-digit-2026/audio/aa397223bf504e1e.wav",
+     "from": 176,
+     "frames": 132
+    },
+    {
+     "text": "By the end of six hundred ninety-nine, we've used one thousand nine hundred eighty-nine digits.",
+     "caption": "By the end of six hundred ninety-nine, we've used one thousand nine hundred eighty-nine digits.",
+     "file": "2026-10-31-digit-2026/audio/ba3c11ec694fd0a9.wav",
+     "from": 319,
+     "frames": 189
+    },
+    {
+     "text": "The next jump would pass two thousand twenty-six. So our digit is in the seven hundreds!",
+     "caption": "The next jump would pass two thousand twenty-six. So our digit is in the seven hundreds!",
+     "file": "2026-10-31-digit-2026/audio/600eac835b10fa30.wav",
+     "from": 518,
+     "frames": 179
+    },
+    {
+     "text": "Two thousand twenty-six minus one thousand nine hundred eighty-nine is thirty-seven.",
+     "caption": "Two thousand twenty-six minus one thousand nine hundred eighty-nine is thirty-seven.",
+     "file": "2026-10-31-digit-2026/audio/3cddfd139a89d768.wav",
+     "from": 707,
+     "frames": 190
+    },
+    {
+     "text": "That's twelve threes, plus one.",
+     "caption": "That's twelve threes, plus one.",
+     "file": "2026-10-31-digit-2026/audio/446db535dd7f0391.wav",
+     "from": 907,
+     "frames": 88
+    },
+    {
+     "text": "Twelve numbers, seven hundred through seven hundred eleven. Then one more digit.",
+     "caption": "Twelve numbers, seven hundred through seven hundred eleven. Then one more digit.",
+     "file": "2026-10-31-digit-2026/audio/c0ad0d662cd7d49d.wav",
+     "from": 1005,
+     "frames": 191
+    },
+    {
+     "text": "It's the first digit of seven hundred twelve. Seven again!",
+     "caption": "It's the first digit of seven hundred twelve. Seven again!",
+     "file": "2026-10-31-digit-2026/audio/273b3b257f108957.wav",
+     "from": 1206,
+     "frames": 144
+    },
+    {
+     "text": "When would you pick this way? When the target is far away. Big jumps first, then small steps.",
+     "caption": "When would you pick this way? When the target is far away. Big jumps first, then small steps.",
+     "file": "2026-10-31-digit-2026/audio/f62e6ee4e5e1717a.wav",
+     "from": 1361,
+     "frames": 214
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7157,
+   "frames": 1271,
+   "lines": [
+    {
+     "text": "Now the traps. Choice A, one, is the middle digit of seven hundred twelve.",
+     "caption": "Now the traps. Choice A, one, is the middle digit of seven hundred twelve.",
+     "file": "2026-10-31-digit-2026/audio/aed01e8708402514.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "That reads the wrong spot inside the number.",
+     "caption": "That reads the wrong spot inside the number.",
+     "file": "2026-10-31-digit-2026/audio/9e56b7b6079bb091.wav",
+     "from": 195,
+     "frames": 112
+    },
+    {
+     "text": "Choice B, two, is the last digit. Same mistake: the remainder one means the FIRST digit.",
+     "caption": "Choice B, two, is the last digit. Same mistake: the remainder one means the FIRST digit.",
+     "file": "2026-10-31-digit-2026/audio/b9e8d73c590448c1.wav",
+     "from": 317,
+     "frames": 203
+    },
+    {
+     "text": "Choice C, six, is what you'd get if you forgot that three-digit numbers start at one hundred.",
+     "caption": "Choice C, six, is what you'd get if you forgot that three-digit numbers start at one hundred.",
+     "file": "2026-10-31-digit-2026/audio/ff0005ecd18d9da3.wav",
+     "from": 530,
+     "frames": 206
+    },
+    {
+     "text": "Count from zero instead of one hundred, and the next number would be six hundred twelve.",
+     "caption": "Count from zero instead of one hundred, and the next number would be six hundred twelve.",
+     "file": "2026-10-31-digit-2026/audio/c9fff69319c3d1cc.wav",
+     "from": 746,
+     "frames": 174
+    },
+    {
+     "text": "Choice E, eight, can't happen. Our digit is the first digit of a number in the seven hundreds.",
+     "caption": "Choice E, eight, can't happen. Our digit is the first digit of a number in the seven hundreds.",
+     "file": "2026-10-31-digit-2026/audio/2246a0b005535d3d.wav",
+     "from": 930,
+     "frames": 204
+    },
+    {
+     "text": "So it must be seven.",
+     "caption": "So it must be seven.",
+     "file": "2026-10-31-digit-2026/audio/ff0d00d3e99795d9.wav",
+     "from": 1145,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: the 1000th digit",
+   "from": 8428,
+   "frames": 271,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same long row of digits.",
+     "caption": "Ready for a challenge? Same long row of digits.",
+     "file": "2026-10-31-digit-2026/audio/1f750788dd8ec677.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "What is the digit in spot one thousand?",
+     "caption": "What is the digit in spot one thousand?",
+     "file": "2026-10-31-digit-2026/audio/70da9bcdfec68cef.wav",
+     "from": 120,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8699,
+   "frames": 461,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-digit-2026/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 77
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "1000th digit: the answer",
+   "from": 9160,
+   "frames": 1178,
+   "lines": [
+    {
+     "text": "Let's check. The first one hundred eighty-nine digits are used up again.",
+     "caption": "Let's check. The first one hundred eighty-nine digits are used up again.",
+     "file": "2026-10-31-digit-2026/audio/d4b5fd4b74ddb030.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "One thousand minus one hundred eighty-nine is eight hundred eleven.",
+     "caption": "One thousand minus one hundred eighty-nine is eight hundred eleven.",
+     "file": "2026-10-31-digit-2026/audio/26067a336e5b1765.wav",
+     "from": 156,
+     "frames": 165
+    },
+    {
+     "text": "Eight hundred eleven divided by three is two hundred seventy, remainder one.",
+     "caption": "Eight hundred eleven divided by three is two hundred seventy, remainder one.",
+     "file": "2026-10-31-digit-2026/audio/2420ac4f52f012ed.wav",
+     "from": 330,
+     "frames": 186
+    },
+    {
+     "text": "Two hundred seventy numbers run from one hundred to three hundred sixty-nine.",
+     "caption": "Two hundred seventy numbers run from one hundred to three hundred sixty-nine.",
+     "file": "2026-10-31-digit-2026/audio/133a3b5842fdf37e.wav",
+     "from": 527,
+     "frames": 167
+    },
+    {
+     "text": "The remainder one is the first digit of the next number, three hundred seventy.",
+     "caption": "The remainder one is the first digit of the next number, three hundred seventy.",
+     "file": "2026-10-31-digit-2026/audio/aa04ab62ce852d99.wav",
+     "from": 704,
+     "frames": 171
+    },
+    {
+     "text": "So the digit in spot one thousand is three!",
+     "caption": "So the digit in spot one thousand is three!",
+     "file": "2026-10-31-digit-2026/audio/638ad2e7e4c4c163.wav",
+     "from": 885,
+     "frames": 110
+    },
+    {
+     "text": "If you got three, brilliant counting!",
+     "caption": "If you got three, brilliant counting!",
+     "file": "2026-10-31-digit-2026/audio/64a515ffd3d92582.wav",
+     "from": 1005,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10338,
+   "frames": 738,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-digit-2026/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 88
+    },
+    {
+     "text": "Count the digits block by block, and subtract what's used up.",
+     "caption": "Count the digits block by block, and subtract what's used up.",
+     "file": "2026-10-31-digit-2026/audio/06c794e08687d769.wav",
+     "from": 98,
+     "frames": 130
+    },
+    {
+     "text": "Then divide by the digits per number. How many times it goes in finds the number.",
+     "caption": "Then divide by the digits per number. How many times it goes in finds the number.",
+     "file": "2026-10-31-digit-2026/audio/0edf6987cfae369d.wav",
+     "from": 238,
+     "frames": 179
+    },
+    {
+     "text": "The remainder finds the digit inside it.",
+     "caption": "The remainder finds the digit inside it.",
+     "file": "2026-10-31-digit-2026/audio/7b7ffdbf0f442bdd.wav",
+     "from": 428,
+     "frames": 98
+    },
+    {
+     "text": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep counting, and I'll see you next time!",
+     "file": "2026-10-31-digit-2026/audio/df39d3330a3a433f.wav",
+     "from": 535,
+     "frames": 119
+    }
+   ]
+  }
+ ]
+}
