@@ -1,0 +1,159 @@
+{
+ "title": "Grab 4 Socks: How Many Sets Have a Pair? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A drawer with 10 socks: 5 colors (red, blue, green, purple, orange), two of each, drawn as simple sock shapes. Line 1: a hand grabs 4 socks; two match and sparkle. Line 2: the 4 socks shuffle into a different grab with no match. Line 3: Vantee title card.",
+   "lines": [
+    "Grab four socks from a drawer of five pairs. How often do you get a matching pair?",
+    "Counting the matches head-on gets messy. Counting the NON-matches is much easier.",
+    "Hello, I'm Vantee, and today we're sorting socks!"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left; drawer of 10 socks right (5 colors × 2). Line 3: 4 socks lift out. Line 4: a matching pair glows. Line 5: chips 80, 125, 130, 140, 210.",
+   "lines": [
+    "Here's the question.",
+    "A drawer has five pairs of socks, and each pair is a different color.",
+    "Zoe pulls out four socks.",
+    "How many sets of four socks contain at least one matching pair?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: '10 socks: 5 colors × 2'; the two socks of one color look slightly different (stripe on one) to show they are different socks. Line 2: 'a SET: order doesn't matter'. Line 3: two example sets: 'one pair' and 'two pairs', both green ticks.",
+   "lines": [
+    "So what do we know? Ten socks in all, two of each color. Each sock is its own sock.",
+    "A set of four is just which socks she holds. The order doesn't matter.",
+    "At least one pair means one matching pair, or even two pairs. Both count."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; drawer visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "all",
+   "chapter": "Solution 1: all minus no-pair",
+   "hold": 1,
+   "visual": "Right panel equation rows. Line 2: 'all sets − no-pair sets'. Line 3: '10 × 9 × 8 × 7 = 5040'. Line 4: one set of 4 socks shown shuffling into a few orders; '4 × 3 × 2 × 1 = 24 orders'. Line 5: '5040 ÷ 24 = 210'.",
+   "lines": [
+    "Welcome back! Here's the strategy: count everything, then take away the sets with no pair.",
+    "All sets minus no-pair sets leaves the sets with a pair.",
+    "First, all sets. Pick socks one at a time: ten choices, then nine, then eight, then seven.",
+    "That's five thousand forty.",
+    "But each set got counted once for every order.",
+    "Four socks can line up in four times three times two times one, twenty-four orders.",
+    "So five thousand forty divided by twenty-four is two hundred ten sets in all."
+   ]
+  },
+  {
+   "id": "nopair",
+   "hold": 1.5,
+   "visual": "Line 1: no-pair set: 4 socks of 4 different colors. Line 2: 5 color dots, one left out at a time: '5 ways'. Line 3: each of the 4 chosen colors flips between its two socks: '2 × 2 × 2 × 2 = 16'. Line 4: '5 × 16 = 80'. Line 5: '210 − 80 = 130'. Line 6: answer badge '130' with chime at line end, choice C highlighted.",
+   "lines": [
+    "Now the no-pair sets. No pair means four different colors.",
+    "Choose four of the five colors. That's the same as choosing the one color to leave out: five ways.",
+    "Each chosen color has two socks to pick from. Two times two times two times two is sixteen.",
+    "So there are five times sixteen, eighty sets with no pair.",
+    "Two hundred ten minus eighty is one hundred thirty.",
+    "One hundred thirty sets have a pair. That's Choice C!"
+   ]
+  },
+  {
+   "id": "direct",
+   "chapter": "Solution 2: count the pairs directly",
+   "hold": 1.5,
+   "visual": "Two groups. Line 2: exactly one pair: pick pair color '5', two other colors from the remaining 4: list them '6 ways', a sock of each '2 × 2 = 4'; row '5 × 6 × 4 = 120'. Line 3: two pairs: the 10 color-pairs listed as small dot pairs; '10'. Line 4: '120 + 10 = 130'. Line 5: card.",
+   "lines": [
+    "Here's another way. Let's count the sets with a pair directly, in two groups.",
+    "Exactly one pair: five colors for the pair.",
+    "Then two different colors from the other four, six ways, and a sock of each, four ways.",
+    "Five times six times four is one hundred twenty.",
+    "Two pairs: choose two of the five colors. There are ten ways.",
+    "One hundred twenty plus ten is one hundred thirty. Same answer!",
+    "When would you pick this way? It's a great double-check. But the first way didn't need to split into cases."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red. Line 2: 80 = no-pair sets. Line 3: 210 = all. Line 4: '5 × 28 = 140': pick a pair, then any 2 of the other 8 socks. Line 5: one two-pair set (red pair + blue pair) shown being counted twice: once 'red first', once 'blue first'; '140 − 10 = 130'. Line 6: chip 125 red.",
+   "lines": [
+    "Now let's look at the wrong answers. Each one is a trap.",
+    "Choice A says eighty. That's the sets with NO pair, the group we took away.",
+    "Choice E, two hundred ten, is every set, before taking any away.",
+    "Choice D, one hundred forty, comes from picking a pair, five ways.",
+    "Then any two of the other eight socks: eight times seven over two, twenty-eight ways. Five times twenty-eight is one hundred forty.",
+    "But a two-pair set gets counted twice, once for each pair.",
+    "Take away the ten extras, and you're back to one hundred thirty.",
+    "Choice B, one hundred twenty-five, doesn't come from any correct count. Both our methods give one hundred thirty.",
+    "So here's a great habit. For at least one, count the opposite and subtract."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: six pairs",
+   "hold": 0.5,
+   "visual": "Drawer now has 6 pairs (add a yellow pair): 12 socks.",
+   "lines": [
+    "Ready for a challenge? Now the drawer has six pairs, each a different color.",
+    "Zoe pulls out four socks again. How many sets of four contain at least one matching pair?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, 12-sock drawer visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Six pairs: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: '12 × 11 × 10 × 9 = 11880', '11880 ÷ 24 = 495'; 'leave out 2 of 6 colors: 15 ways', '15 × 16 = 240'; '495 − 240 = 255' answer badge with chime at end of line 4; check '6 × 10 × 4 = 240', '+ 15 = 255'.",
+   "lines": [
+    "Let's check. Count every set: twelve times eleven times ten times nine, divided by twenty-four.",
+    "That's four hundred ninety-five.",
+    "No pair: choose four of the six colors.",
+    "That's the same as leaving out two colors: six times five over two, fifteen ways. Then sixteen ways to pick the socks.",
+    "Fifteen times sixteen is two hundred forty sets with no pair.",
+    "Four hundred ninety-five minus two hundred forty is two hundred fifty-five!",
+    "Check: one pair gives six times ten times four, two hundred forty, and two pairs gives six times five over two, fifteen.",
+    "Two hundred fifty-five again!",
+    "If you got two hundred fifty-five, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'at least one pair = all − no pair', with sock icons.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "When a question says at least one, count the opposite.",
+    "Count all the sets, subtract the ones with none, and what's left is your answer.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

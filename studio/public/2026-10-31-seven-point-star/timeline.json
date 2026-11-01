@@ -1,0 +1,550 @@
+{
+ "fps": 30,
+ "durationInFrames": 11975,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 444,
+   "lines": [
+    {
+     "text": "Seven pointy tips on a star. What do their angles add up to?",
+     "caption": "Seven pointy tips on a star. What do their angles add up to?",
+     "file": "2026-10-31-seven-point-star/audio/7401b3c192fbef54.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "You don't need to measure a single one. A walking pencil can tell us!",
+     "caption": "You don't need to measure a single one. A walking pencil can tell us!",
+     "file": "2026-10-31-seven-point-star/audio/be090b4082396178.wav",
+     "from": 139,
+     "frames": 143
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's add up some star points.",
+     "caption": "Hi, I'm Vantee! Let's add up some star points.",
+     "file": "2026-10-31-seven-point-star/audio/50a15ad9d6f410bd.wav",
+     "from": 292,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 444,
+   "frames": 743,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-seven-point-star/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 53
+    },
+    {
+     "text": "Seven points are evenly spaced on a circle.",
+     "caption": "Seven points are evenly spaced on a circle.",
+     "file": "2026-10-31-seven-point-star/audio/7f42dcde2039e2ea.wav",
+     "from": 63,
+     "frames": 106
+    },
+    {
+     "text": "A star is drawn by joining each point to the second point after it, going around the circle.",
+     "caption": "A star is drawn by joining each point to the second point after it, going around the circle.",
+     "file": "2026-10-31-seven-point-star/audio/ea51887f7ae64b66.wav",
+     "from": 179,
+     "frames": 196
+    },
+    {
+     "text": "What is the sum, in degrees, of the seven angles at the tips of the star?",
+     "caption": "What is the sum, in degrees, of the seven angles at the tips of the star?",
+     "file": "2026-10-31-seven-point-star/audio/3e91cd0586931d5b.wav",
+     "from": 386,
+     "frames": 173
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-seven-point-star/audio/b97a89671840f7ca.wav",
+     "from": 569,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1187,
+   "frames": 575,
+   "lines": [
+    {
+     "text": "So what do we know? Each line skips one point. A joins to C, C joins to E, and so on.",
+     "caption": "So what do we know? Each line skips one point. A joins to C, C joins to E, and so on.",
+     "file": "2026-10-31-seven-point-star/audio/644eb4d3f0f6b208.wav",
+     "from": 0,
+     "frames": 242
+    },
+    {
+     "text": "The star is perfectly even, so all seven tips are the same size.",
+     "caption": "The star is perfectly even, so all seven tips are the same size.",
+     "file": "2026-10-31-seven-point-star/audio/7c5264bc8f4e7a84.wav",
+     "from": 252,
+     "frames": 149
+    },
+    {
+     "text": "We want the total of all seven tip angles.",
+     "caption": "We want the total of all seven tip angles.",
+     "file": "2026-10-31-seven-point-star/audio/c6cca832d5b1f5e1.wav",
+     "from": 411,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1762,
+   "frames": 475,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-seven-point-star/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "slices",
+   "kind": "scene",
+   "chapter": "Solution 1: slices from the center",
+   "from": 2237,
+   "frames": 1007,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: cut the circle into slices from the center.",
+     "caption": "Welcome back! Here's the strategy: cut the circle into slices from the center.",
+     "file": "2026-10-31-seven-point-star/audio/a9d8aeee3493065d.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "Seven equal slices fill the whole turn. Call each slice angle s.",
+     "caption": "Seven equal slices fill the whole turn. Call each slice angle s.",
+     "file": "2026-10-31-seven-point-star/audio/28689d27e69fa4ec.wav",
+     "from": 191,
+     "frames": 183
+    },
+    {
+     "text": "Seven copies of s make three hundred sixty degrees.",
+     "caption": "Seven copies of s make three hundred sixty degrees.",
+     "file": "2026-10-31-seven-point-star/audio/be2289bf210150e6.wav",
+     "from": 384,
+     "frames": 125
+    },
+    {
+     "text": "Now zoom in on the tip at A. Its two lines go to C and to F.",
+     "caption": "Now zoom in on the tip at A. Its two lines go to C and to F.",
+     "file": "2026-10-31-seven-point-star/audio/8154e12fd08e74d8.wav",
+     "from": 520,
+     "frames": 188
+    },
+    {
+     "text": "Draw lines from the center to A and to C. The angle at the center covers two slices, so it's two s.",
+     "caption": "Draw lines from the center to A and to C. The angle at the center covers two slices, so it's two s.",
+     "file": "2026-10-31-seven-point-star/audio/67ec9a259d8f48fe.wav",
+     "from": 717,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "triangle",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3244,
+   "frames": 2219,
+   "lines": [
+    {
+     "text": "Both of those lines are radii, so they're equal. Triangle O A C is isosceles.",
+     "caption": "Both of those lines are radii, so they're equal. Triangle O A C is isosceles.",
+     "file": "2026-10-31-seven-point-star/audio/cad21789683d9a0c.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "Its angles add to one hundred eighty. Subtract two times the letter s, then split the rest in half.",
+     "caption": "Its angles add to one hundred eighty. Subtract two times the letter s, then split the rest in half.",
+     "file": "2026-10-31-seven-point-star/audio/846da7f112780f8e.wav",
+     "from": 212,
+     "frames": 191
+    },
+    {
+     "text": "So each base angle is ninety minus s.",
+     "caption": "So each base angle is ninety minus s.",
+     "file": "2026-10-31-seven-point-star/audio/81fc424407da1337.wav",
+     "from": 413,
+     "frames": 107
+    },
+    {
+     "text": "The other side works the same way. Triangle O A F has a two s angle at the center too.",
+     "caption": "The other side works the same way. Triangle O A F has a two s angle at the center too.",
+     "file": "2026-10-31-seven-point-star/audio/75e6c8a7f3fab8ff.wav",
+     "from": 530,
+     "frames": 209
+    },
+    {
+     "text": "So its angle at A is also ninety minus s.",
+     "caption": "So its angle at A is also ninety minus s.",
+     "file": "2026-10-31-seven-point-star/audio/6c4d370f7c4aae74.wav",
+     "from": 750,
+     "frames": 136
+    },
+    {
+     "text": "So the tip at A is ninety minus s, twice. That's one hundred eighty minus two s.",
+     "caption": "So the tip at A is ninety minus s, twice. That's one hundred eighty minus two s.",
+     "file": "2026-10-31-seven-point-star/audio/8b902fef6b4cf38e.wav",
+     "from": 896,
+     "frames": 240
+    },
+    {
+     "text": "Seven tips make seven times one hundred eighty, minus fourteen times s.",
+     "caption": "Seven tips make seven times one hundred eighty, minus fourteen times s.",
+     "file": "2026-10-31-seven-point-star/audio/1611bd37d5934421.wav",
+     "from": 1146,
+     "frames": 200
+    },
+    {
+     "text": "That's one thousand two hundred sixty, minus fourteen s.",
+     "caption": "That's one thousand two hundred sixty, minus fourteen s.",
+     "file": "2026-10-31-seven-point-star/audio/fb18812ccf66966a.wav",
+     "from": 1356,
+     "frames": 143
+    },
+    {
+     "text": "Fourteen times s is two times seven times s.",
+     "caption": "Fourteen times s is two times seven times s.",
+     "file": "2026-10-31-seven-point-star/audio/15ba8c987cf07a38.wav",
+     "from": 1509,
+     "frames": 135
+    },
+    {
+     "text": "That's two times three hundred sixty, which is seven hundred twenty.",
+     "caption": "That's two times three hundred sixty, which is seven hundred twenty.",
+     "file": "2026-10-31-seven-point-star/audio/a9f241c9ebd94036.wav",
+     "from": 1654,
+     "frames": 130
+    },
+    {
+     "text": "One thousand two hundred sixty minus seven hundred twenty is five hundred forty.",
+     "caption": "One thousand two hundred sixty minus seven hundred twenty is five hundred forty.",
+     "file": "2026-10-31-seven-point-star/audio/1cd3b807cf91079d.wav",
+     "from": 1794,
+     "frames": 207
+    },
+    {
+     "text": "The tips add up to five hundred forty degrees. That's Choice C!",
+     "caption": "The tips add up to five hundred forty degrees. That's Choice C!",
+     "file": "2026-10-31-seven-point-star/audio/1aabd6a18724368f.wav",
+     "from": 2011,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "pencil",
+   "kind": "scene",
+   "chapter": "Solution 2: walk the pencil",
+   "from": 5463,
+   "frames": 1226,
+   "lines": [
+    {
+     "text": "Here's a really clever way. Put a pencil at A, pointing at C, and walk it around the star.",
+     "caption": "Here's a really clever way. Put a pencil at A, pointing at C, and walk it around the star.",
+     "file": "2026-10-31-seven-point-star/audio/24fba73c4ea11a1e.wav",
+     "from": 0,
+     "frames": 206
+    },
+    {
+     "text": "At each tip, the pencil turns to head down the next line.",
+     "caption": "At each tip, the pencil turns to head down the next line.",
+     "file": "2026-10-31-seven-point-star/audio/f98849b2900e4377.wav",
+     "from": 216,
+     "frames": 125
+    },
+    {
+     "text": "The turn and the tip angle sit on a straight line, so together they make one hundred eighty.",
+     "caption": "The turn and the tip angle sit on a straight line, so together they make one hundred eighty.",
+     "file": "2026-10-31-seven-point-star/audio/8e0d5984ffd2bb5f.wav",
+     "from": 351,
+     "frames": 170
+    },
+    {
+     "text": "Each line jumps two slices. Seven lines make fourteen slices: two full circles.",
+     "caption": "Each line jumps two slices. Seven lines make fourteen slices: two full circles.",
+     "file": "2026-10-31-seven-point-star/audio/7776f0a3f854609d.wav",
+     "from": 531,
+     "frames": 209
+    },
+    {
+     "text": "Watch the pencil go all the way round. It circles the center twice before it gets home!",
+     "caption": "Watch the pencil go all the way round. It circles the center twice before it gets home!",
+     "file": "2026-10-31-seven-point-star/audio/e63dfc1203033e62.wav",
+     "from": 750,
+     "frames": 200
+    },
+    {
+     "text": "Two full circles means two times three hundred sixty degrees of turning. That's seven hundred twenty.",
+     "caption": "Two full circles means two times three hundred sixty degrees of turning. That's seven hundred twenty.",
+     "file": "2026-10-31-seven-point-star/audio/45b17f75834f5e05.wav",
+     "from": 960,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "pencil2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6689,
+   "frames": 965,
+   "lines": [
+    {
+     "text": "At each of the seven tips, the tip plus the turn is one hundred eighty.",
+     "caption": "At each of the seven tips, the tip plus the turn is one hundred eighty.",
+     "file": "2026-10-31-seven-point-star/audio/8304afab89242d5b.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "Seven times one hundred eighty is one thousand two hundred sixty.",
+     "caption": "Seven times one hundred eighty is one thousand two hundred sixty.",
+     "file": "2026-10-31-seven-point-star/audio/5b491165160e0c71.wav",
+     "from": 184,
+     "frames": 150
+    },
+    {
+     "text": "The turns use up seven hundred twenty. So the tips get the rest.",
+     "caption": "The turns use up seven hundred twenty. So the tips get the rest.",
+     "file": "2026-10-31-seven-point-star/audio/f28337b665d296b5.wav",
+     "from": 344,
+     "frames": 170
+    },
+    {
+     "text": "One thousand two hundred sixty minus seven hundred twenty is five hundred forty again!",
+     "caption": "One thousand two hundred sixty minus seven hundred twenty is five hundred forty again!",
+     "file": "2026-10-31-seven-point-star/audio/99b114c267c40d85.wav",
+     "from": 524,
+     "frames": 170
+    },
+    {
+     "text": "When would you pick this way? For any star, just count how many times the pencil circles the center.",
+     "caption": "When would you pick this way? For any star, just count how many times the pencil circles the center.",
+     "file": "2026-10-31-seven-point-star/audio/ccb9192f2ba03b29.wav",
+     "from": 704,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7654,
+   "frames": 1386,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-seven-point-star/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "Choice A, one hundred eighty, is the famous answer for a five-point star. Seven points is a different star!",
+     "caption": "Choice A, one hundred eighty, is the famous answer for a five-point star. Seven points is a different star!",
+     "file": "2026-10-31-seven-point-star/audio/36519ef484cb146b.wav",
+     "from": 149,
+     "frames": 215
+    },
+    {
+     "text": "Choice E, nine hundred, is the angle total for an ordinary seven-sided shape.",
+     "caption": "Choice E, nine hundred, is the angle total for an ordinary seven-sided shape.",
+     "file": "2026-10-31-seven-point-star/audio/d3ec8dd3b4d49909.wav",
+     "from": 375,
+     "frames": 171
+    },
+    {
+     "text": "The pencil would circle only once.",
+     "caption": "The pencil would circle only once.",
+     "file": "2026-10-31-seven-point-star/audio/6cf4ff71489d0f77.wav",
+     "from": 555,
+     "frames": 98
+    },
+    {
+     "text": "Choice D, seven hundred twenty, is the total turning of the pencil, not the tips.",
+     "caption": "Choice D, seven hundred twenty, is the total turning of the pencil, not the tips.",
+     "file": "2026-10-31-seven-point-star/audio/348815a782aec6ae.wav",
+     "from": 663,
+     "frames": 168
+    },
+    {
+     "text": "Choice B, three hundred sixty, is one full turn.",
+     "caption": "Choice B, three hundred sixty, is one full turn.",
+     "file": "2026-10-31-seven-point-star/audio/063e10a041ff2e84.wav",
+     "from": 842,
+     "frames": 129
+    },
+    {
+     "text": "That's what the turns of an ordinary shape add to, not a star's tips.",
+     "caption": "That's what the turns of an ordinary shape add to, not a star's tips.",
+     "file": "2026-10-31-seven-point-star/audio/0602ff40d9d2422d.wav",
+     "from": 981,
+     "frames": 146
+    },
+    {
+     "text": "So here's a great habit. Don't use a rule you remember for a different shape. Check it.",
+     "caption": "So here's a great habit. Don't use a rule you remember for a different shape. Check it.",
+     "file": "2026-10-31-seven-point-star/audio/78fb8b89b72ff81b.wav",
+     "from": 1136,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a pointier star",
+   "from": 9040,
+   "frames": 417,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same seven points, but now join each point to the third point after it.",
+     "caption": "Ready for a challenge? Same seven points, but now join each point to the third point after it.",
+     "file": "2026-10-31-seven-point-star/audio/793f3d76e18eddd3.wav",
+     "from": 0,
+     "frames": 222
+    },
+    {
+     "text": "The star gets pointier. What do its seven tip angles add up to?",
+     "caption": "The star gets pointier. What do its seven tip angles add up to?",
+     "file": "2026-10-31-seven-point-star/audio/ce524f344ed4b701.wav",
+     "from": 232,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9457,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-seven-point-star/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Pointier star: the answer",
+   "from": 9913,
+   "frames": 1334,
+   "lines": [
+    {
+     "text": "Let's walk the pencil. Each line now jumps three slices, and seven lines make twenty-one slices.",
+     "caption": "Let's walk the pencil. Each line now jumps three slices, and seven lines make twenty-one slices.",
+     "file": "2026-10-31-seven-point-star/audio/18ac377f84d8ce64.wav",
+     "from": 0,
+     "frames": 234
+    },
+    {
+     "text": "Twenty-one slices is three full circles.",
+     "caption": "Twenty-one slices is three full circles.",
+     "file": "2026-10-31-seven-point-star/audio/5565f274003d6556.wav",
+     "from": 244,
+     "frames": 123
+    },
+    {
+     "text": "So the pencil turns three times three hundred sixty, which is one thousand eighty degrees.",
+     "caption": "So the pencil turns three times three hundred sixty, which is one thousand eighty degrees.",
+     "file": "2026-10-31-seven-point-star/audio/04a696216e84637d.wav",
+     "from": 377,
+     "frames": 208
+    },
+    {
+     "text": "Tips plus turns is still seven times one hundred eighty, one thousand two hundred sixty.",
+     "caption": "Tips plus turns is still seven times one hundred eighty, one thousand two hundred sixty.",
+     "file": "2026-10-31-seven-point-star/audio/03209891ae775d68.wav",
+     "from": 595,
+     "frames": 219
+    },
+    {
+     "text": "One thousand two hundred sixty minus one thousand eighty is one hundred eighty degrees!",
+     "caption": "One thousand two hundred sixty minus one thousand eighty is one hundred eighty degrees!",
+     "file": "2026-10-31-seven-point-star/audio/f61f94ae76195365.wav",
+     "from": 824,
+     "frames": 195
+    },
+    {
+     "text": "Here's the sneaky part. Pointier tips, so a smaller total. If you got one hundred eighty, amazing work!",
+     "caption": "Here's the sneaky part. Pointier tips, so a smaller total. If you got one hundred eighty, amazing work!",
+     "file": "2026-10-31-seven-point-star/audio/88a07e50f1db213a.wav",
+     "from": 1029,
+     "frames": 237
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11247,
+   "frames": 728,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-seven-point-star/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 77
+    },
+    {
+     "text": "At every corner, the tip and the pencil's turn add to one hundred eighty.",
+     "caption": "At every corner, the tip and the pencil's turn add to one hundred eighty.",
+     "file": "2026-10-31-seven-point-star/audio/4a778321fce93689.wav",
+     "from": 88,
+     "frames": 165
+    },
+    {
+     "text": "Count how many times the pencil circles the center. Times three hundred sixty is the total turning, and the tips get the rest.",
+     "caption": "Count how many times the pencil circles the center. Times three hundred sixty is the total turning, and the tips get the rest.",
+     "file": "2026-10-31-seven-point-star/audio/0a6b3c9b95361517.wav",
+     "from": 262,
+     "frames": 248
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-seven-point-star/audio/31a6054d0b03b932.wav",
+     "from": 520,
+     "frames": 124
+    }
+   ]
+  }
+ ]
+}

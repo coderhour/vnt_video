@@ -109,12 +109,13 @@ MATH_WORDS = [  # what a transcriber writes -> how a script line says it
     (r"−|(?<=[\d)²])\s*-\s*(?=[\d√(])|\s-\s", " minus "), (r"(?<=[\d)])\s*/\s*(?=\d)|(?<=squared)\s*/\s*(?=\d)", " over "),
     (r"(\d)\s*x\s*(\d)", r"\1 by \2"), (r"[×*]", " times "), (r"\+", " plus "), (r"=", " equals "),
     (r"'s\b", " is "), (r"'re\b", " are "), (r"'ll\b", " will "), (r"'m\b", " am "),  # here's = here is
-    (r"%", " percent "), (r"\bequal to\b", " equals "), (r"(?<!\d)\s*/\s*(?=[a-z])", " divided "), (r"(?<=\d)\s*cm\b", " centimeters "), (r"\bcm\b", " centimeters "), (r"\bft\b", " feet "), (r"\[laugh\]", " LAUGH "), (r"neighbour", "neighbor"),
+    (r"\bkm\s*/\s*h\b", " kilometers per hour "), (r"\bm\s*/\s*s\b", " meters per second "), (r"(?<=\d)\s*m\b", " meters "),
+    (r"%", " percent "), (r"\bequal to\b", " equals "), (r"(?<!\d)\s*/\s*(?=[a-z])", " divided "), (r"(?<=\d)\s*cm\b", " centimeters "), (r"\bcm\b", " centimeters "), (r"\b1\s*l\b", " 1 liter "), (r"(?<=\d)\s*l\b", " liters "), (r"\bft\b", " feet "), (r"\[laugh\]", " LAUGH "), (r"neighbour", "neighbor"),
     (r"\ba (third|quarter|fourth|fifth)", r"one \1"),  # "two thirds" vs "2/3"
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:thirds?)\b", r"\1 over three"),
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:quarters?|fourths?)\b", r"\1 over four"),
     (r"\b(one|two|three|four|five|six|seven|eight|nine|ten) (?:fifths?)\b", r"\1 over five"),
-    (r"(?<=\d)\s*km\b|\bkm\b|\bkilometer\b", " kilometers "), (r"\banne\b", "ann"), (r"\bbeau\b", "bo"),  # sound-alike spellings
+    (r"(?<=\d)\s*km\b|\bkm\b|\bkilometer\b", " kilometers "), (r"\banne\b", "ann"), (r"\bjoe\b", "jo"), (r"\bbeau\b", "bo"),  # sound-alike spellings
     (r"\bdivided(?: by)?\b", " over "),  # "5 and 1/2", "11/2" for "divided by"
 ]
 ORD = {"one": "first", "two": "second", "three": "third", "five": "fifth", "eight": "eighth", "nine": "ninth", "twelve": "twelfth"}

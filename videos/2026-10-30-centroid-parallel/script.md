@@ -1,0 +1,139 @@
+# Why Is the Centroid Two Thirds Down? | AMC 8-Style Level 4
+
+## Intro
+
+Three lines cross at one special point inside every triangle.
+
+That point hides a secret number. Today we'll find out WHY it's there.
+
+Hi, I'm Vantee! Let's crack it together.
+
+## The question
+
+Here's the question.
+
+In triangle A B C, side B C is twenty-four.
+
+The three medians meet at point G. A median joins a corner to the middle of the opposite side.
+
+A segment through G runs parallel to B C. Its ends, E and F, sit on the other two sides.
+
+How long is E F?
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+So what do we really know?
+
+The bottom side is twenty-four. E F runs parallel to it, right through G.
+
+So the real question is: how far down the triangle does G sit?
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: the midline
+
+Welcome back! Let's find where G sits. Call M the middle of B C, and L the middle of A C.
+
+Now join M and L. This short segment has a superpower.
+
+Shrink the whole triangle toward corner C, to half size. A lands on L, and B lands on M.
+
+So M L is a half-size copy of A B. It's half as long, and it points the same way. It's parallel!
+
+Now look at the two medians, A M and B L. They cross at G and make a bowtie.
+
+The big end of the bowtie is A B. The small end is M L.
+
+A B and M L are parallel, so these two angles match. They make a Z shape.
+
+These two match as well. That's another Z, along the other median.
+
+M L is half of A B. So the small triangle G M L is a half-size copy of G A B.
+
+That means G M is half of A G. Two parts from A down to G, and one part from G to M.
+
+So G is two thirds of the way down the median, starting from A!
+
+Now back to E F. It's parallel to B C, so triangle A E F is a shrunk copy of A B C.
+
+How much smaller? Shrink A B C toward corner A, until B C lands on E F.
+
+M slides up the median as it shrinks. It lands on E F, right at G.
+
+G is two thirds of the way down. So every length shrinks to two thirds.
+
+Two thirds of twenty-four is sixteen. E F is sixteen! That's choice C.
+
+## Solution 2: equal areas
+
+Here's a second way, using areas.
+
+First, a fact. A median cuts a triangle into two halves with equal area.
+
+Why? The two bases are equal, and both halves have the same height.
+
+The median A M splits triangle A B C in half. And G M splits triangle G B C in half.
+
+Take the small halves away from the big halves. So A B G and A C G have equal areas.
+
+Do the same with the median from B. Then A B G and B C G match too.
+
+So G cuts the triangle into three pieces with equal area. Each one is a third.
+
+Triangle G B C sits on B C, with a third of the area. So G is a third of the height up.
+
+So from A down to E F is two thirds of the height. E F is two thirds of twenty-four. Sixteen again!
+
+When would you pick this way? When a problem talks about areas, or to double-check.
+
+## Common traps
+
+Now, let's look at the wrong answers. Each one puts G in the wrong spot.
+
+Eight is what you'd get if you flipped it, and put G one third of the way down from A.
+
+Twelve is the line through the middles of A B and A C. That's halfway down, not two thirds.
+
+Eighteen is what you'd get if G were three quarters of the way down.
+
+Twenty would need G to sit five parts out of six of the way down. That's much too close to B C.
+
+So here's a great habit. Mark G two thirds of the way down a median, from the corner.
+
+## Your turn: a new triangle
+
+Ready for a challenge? Here's a new triangle.
+
+The segment joining the middles of A B and A C is twenty-one long.
+
+Again, E F runs through G, parallel to B C. How long is E F?
+
+Pause the video, and go for it!
+
+*(Pause and try it: 12 s countdown)*
+
+## New triangle: the answer
+
+Let's check. That middle segment is a half-size copy of B C. So B C is twice twenty-one, forty-two.
+
+G is two thirds of the way down, so E F is two thirds of B C.
+
+Two thirds of forty-two is twenty-eight. E F is twenty-eight!
+
+If you found twenty-eight, amazing work!
+
+## Recap
+
+Here's the big idea to remember.
+
+The medians of a triangle meet two thirds of the way down each one, from its corner.
+
+So a segment through that point, parallel to a side, is two thirds of that side.
+
+I'm Vantee. Keep exploring, and I'll see you next time!

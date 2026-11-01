@@ -1,0 +1,492 @@
+{
+ "fps": 30,
+ "durationInFrames": 10351,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 514,
+   "lines": [
+    {
+     "text": "A pond goes from ninety percent goldfish down to eighty percent. How many goldfish leave?",
+     "caption": "A pond goes from ninety percent goldfish down to eighty percent. How many goldfish leave?",
+     "file": "2026-10-31-goldfish-pond/audio/e1f209a6c407820e.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "Most kids guess ten. The real answer is much bigger!",
+     "caption": "Most kids guess ten. The real answer is much bigger!",
+     "file": "2026-10-31-goldfish-pond/audio/e25a352ee9420804.wav",
+     "from": 199,
+     "frames": 142
+    },
+    {
+     "text": "Hello, I'm Vantee! Let's go fishing for the answer.",
+     "caption": "Hello, I'm Vantee! Let's go fishing for the answer.",
+     "file": "2026-10-31-goldfish-pond/audio/9c1277a4a1c8b96b.wav",
+     "from": 351,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 514,
+   "frames": 604,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-goldfish-pond/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 39
+    },
+    {
+     "text": "A pond has two hundred fish.",
+     "caption": "A pond has two hundred fish.",
+     "file": "2026-10-31-goldfish-pond/audio/730b5073b530b269.wav",
+     "from": 48,
+     "frames": 90
+    },
+    {
+     "text": "Ninety percent of them are goldfish.",
+     "caption": "Ninety percent of them are goldfish.",
+     "file": "2026-10-31-goldfish-pond/audio/335cae6931418e49.wav",
+     "from": 149,
+     "frames": 90
+    },
+    {
+     "text": "How many goldfish must be taken out so that eighty percent of the fish left are goldfish?",
+     "caption": "How many goldfish must be taken out so that eighty percent of the fish left are goldfish?",
+     "file": "2026-10-31-goldfish-pond/audio/59f6c24bcff867d8.wav",
+     "from": 250,
+     "frames": 185
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-goldfish-pond/audio/b97a89671840f7ca.wav",
+     "from": 445,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1118,
+   "frames": 546,
+   "lines": [
+    {
+     "text": "So what do we know? Two hundred fish, and ninety percent are goldfish.",
+     "caption": "So what do we know? Two hundred fish, and ninety percent are goldfish.",
+     "file": "2026-10-31-goldfish-pond/audio/83265eef97e8bb6d.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "We only take out goldfish. The other fish all stay in the pond.",
+     "caption": "We only take out goldfish. The other fish all stay in the pond.",
+     "file": "2026-10-31-goldfish-pond/audio/20ada8616c646085.wav",
+     "from": 181,
+     "frames": 144
+    },
+    {
+     "text": "At the end, eighty percent of the fish that are LEFT must be goldfish.",
+     "caption": "At the end, eighty percent of the fish that are LEFT must be goldfish.",
+     "file": "2026-10-31-goldfish-pond/audio/64a6344ea5d8feea.wav",
+     "from": 335,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1664,
+   "frames": 477,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-goldfish-pond/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "stay",
+   "kind": "scene",
+   "chapter": "Solution 1: watch the fish that stay",
+   "from": 2141,
+   "frames": 768,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: watch the fish that don't change.",
+     "caption": "Welcome back! Here's the strategy: watch the fish that don't change.",
+     "file": "2026-10-31-goldfish-pond/audio/f1cbb8fd1af08aad.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Ten percent of two hundred is twenty. So ninety percent is nine times twenty, one hundred eighty goldfish.",
+     "caption": "Ten percent of two hundred is twenty. So ninety percent is nine times twenty, one hundred eighty goldfish.",
+     "file": "2026-10-31-goldfish-pond/audio/90ded072a13e121b.wav",
+     "from": 177,
+     "frames": 254
+    },
+    {
+     "text": "That leaves twenty other fish.",
+     "caption": "That leaves twenty other fish.",
+     "file": "2026-10-31-goldfish-pond/audio/f9ed23d9e569e9c7.wav",
+     "from": 441,
+     "frames": 78
+    },
+    {
+     "text": "Here's the key. We never take out those twenty fish. They stay, no matter what.",
+     "caption": "Here's the key. We never take out those twenty fish. They stay, no matter what.",
+     "file": "2026-10-31-goldfish-pond/audio/5fe341fda9027aa1.wav",
+     "from": 529,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "fifth",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2909,
+   "frames": 1190,
+   "lines": [
+    {
+     "text": "At the end, eighty percent are goldfish. So the other fish make up twenty percent.",
+     "caption": "At the end, eighty percent are goldfish. So the other fish make up twenty percent.",
+     "file": "2026-10-31-goldfish-pond/audio/3cd18e5544d6c0c3.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "Twenty percent is the same as one out of five.",
+     "caption": "Twenty percent is the same as one out of five.",
+     "file": "2026-10-31-goldfish-pond/audio/184632469b62de1c.wav",
+     "from": 179,
+     "frames": 111
+    },
+    {
+     "text": "So our twenty other fish are one fifth of the pond. The whole pond is five times twenty, one hundred fish.",
+     "caption": "So our twenty other fish are one fifth of the pond. The whole pond is five times twenty, one hundred fish.",
+     "file": "2026-10-31-goldfish-pond/audio/6d2a40cf8a05e77b.wav",
+     "from": 300,
+     "frames": 257
+    },
+    {
+     "text": "We started with two hundred fish and end with one hundred. So one hundred goldfish were taken out.",
+     "caption": "We started with two hundred fish and end with one hundred. So one hundred goldfish were taken out.",
+     "file": "2026-10-31-goldfish-pond/audio/43a2bb3d2de77aff.wav",
+     "from": 567,
+     "frames": 226
+    },
+    {
+     "text": "Check: eighty goldfish out of one hundred fish. That's eighty percent!",
+     "caption": "Check: eighty goldfish out of one hundred fish. That's eighty percent!",
+     "file": "2026-10-31-goldfish-pond/audio/50720b9564f18b0e.wav",
+     "from": 803,
+     "frames": 197
+    },
+    {
+     "text": "The answer is one hundred. That's Choice E!",
+     "caption": "The answer is one hundred. That's Choice E!",
+     "file": "2026-10-31-goldfish-pond/audio/e071a235ce6dfb53.wav",
+     "from": 1010,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "kind": "scene",
+   "chapter": "Solution 2: use a ratio",
+   "from": 4099,
+   "frames": 1045,
+   "lines": [
+    {
+     "text": "Here's another way. Think of a ratio.",
+     "caption": "Here's another way. Think of a ratio.",
+     "file": "2026-10-31-goldfish-pond/audio/a91496f2760822c1.wav",
+     "from": 0,
+     "frames": 94
+    },
+    {
+     "text": "Eighty percent goldfish and twenty percent others. That's four goldfish for every one other fish.",
+     "caption": "Eighty percent goldfish and twenty percent others. That's four goldfish for every one other fish.",
+     "file": "2026-10-31-goldfish-pond/audio/922ccad817380ef5.wav",
+     "from": 104,
+     "frames": 234
+    },
+    {
+     "text": "There are twenty other fish, so there must be four times twenty, eighty goldfish.",
+     "caption": "There are twenty other fish, so there must be four times twenty, eighty goldfish.",
+     "file": "2026-10-31-goldfish-pond/audio/2c029e3ff6411495.wav",
+     "from": 348,
+     "frames": 198
+    },
+    {
+     "text": "We had one hundred eighty goldfish, and we need eighty. Take out one hundred. Same answer!",
+     "caption": "We had one hundred eighty goldfish, and we need eighty. Take out one hundred. Same answer!",
+     "file": "2026-10-31-goldfish-pond/audio/7bbfee43586f75a9.wav",
+     "from": 557,
+     "frames": 220
+    },
+    {
+     "text": "When would you pick this way? When the percents turn into a neat ratio, like four to one.",
+     "caption": "When would you pick this way? When the percents turn into a neat ratio, like four to one.",
+     "file": "2026-10-31-goldfish-pond/audio/14756fdd38c62507.wav",
+     "from": 787,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 5144,
+   "frames": 1903,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-goldfish-pond/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "Choice A, ten, is ninety minus eighty. But that's a difference of percents, not a number of fish!",
+     "caption": "Choice A, ten, is ninety minus eighty. But that's a difference of percents, not a number of fish!",
+     "file": "2026-10-31-goldfish-pond/audio/cc1ee85ea7f063df.wav",
+     "from": 136,
+     "frames": 221
+    },
+    {
+     "text": "Here's a quick test. The twenty others must be one fifth of the fish left.",
+     "caption": "Here's a quick test. The twenty others must be one fifth of the fish left.",
+     "file": "2026-10-31-goldfish-pond/audio/5f39b66dcaedb80a.wav",
+     "from": 367,
+     "frames": 176
+    },
+    {
+     "text": "Take out ten, and one hundred ninety are left. One fifth of that is thirty-eight, not twenty.",
+     "caption": "Take out ten, and one hundred ninety are left. One fifth of that is thirty-eight, not twenty.",
+     "file": "2026-10-31-goldfish-pond/audio/50e8d0f35d1583b4.wav",
+     "from": 553,
+     "frames": 216
+    },
+    {
+     "text": "Choice B, twenty, is the number of other fish, not the number to take out.",
+     "caption": "Choice B, twenty, is the number of other fish, not the number to take out.",
+     "file": "2026-10-31-goldfish-pond/audio/5a5573967858859f.wav",
+     "from": 779,
+     "frames": 164
+    },
+    {
+     "text": "One hundred eighty left, so one fifth of that is thirty-six.",
+     "caption": "One hundred eighty left, so one fifth of that is thirty-six.",
+     "file": "2026-10-31-goldfish-pond/audio/38019da1b6d62a8f.wav",
+     "from": 953,
+     "frames": 150
+    },
+    {
+     "text": "Choice C, forty: one hundred sixty left, so one fifth of that is thirty-two.",
+     "caption": "Choice C, forty: one hundred sixty left, so one fifth of that is thirty-two.",
+     "file": "2026-10-31-goldfish-pond/audio/19336dea32be4267.wav",
+     "from": 1113,
+     "frames": 168
+    },
+    {
+     "text": "Choice D, fifty: one hundred fifty left, one fifth is thirty.",
+     "caption": "Choice D, fifty: one hundred fifty left, one fifth is thirty.",
+     "file": "2026-10-31-goldfish-pond/audio/d4cb673adf00e2fd.wav",
+     "from": 1292,
+     "frames": 164
+    },
+    {
+     "text": "Only one hundred works: one hundred left, and one fifth is exactly twenty.",
+     "caption": "Only one hundred works: one hundred left, and one fifth is exactly twenty.",
+     "file": "2026-10-31-goldfish-pond/audio/287274124b26e935.wav",
+     "from": 1466,
+     "frames": 191
+    },
+    {
+     "text": "So here's a great habit. Find the group that doesn't change, and build from it.",
+     "caption": "So here's a great habit. Find the group that doesn't change, and build from it.",
+     "file": "2026-10-31-goldfish-pond/audio/8d96caad292afe3a.wav",
+     "from": 1667,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a bigger pond",
+   "from": 7047,
+   "frames": 467,
+   "lines": [
+    {
+     "text": "Ready for a challenge? A bigger pond has four hundred fish, and ninety-five percent are goldfish.",
+     "caption": "Ready for a challenge? A bigger pond has four hundred fish, and ninety-five percent are goldfish.",
+     "file": "2026-10-31-goldfish-pond/audio/d29f652a3237973d.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "How many goldfish must be taken out so that seventy-five percent of the fish left are goldfish?",
+     "caption": "How many goldfish must be taken out so that seventy-five percent of the fish left are goldfish?",
+     "file": "2026-10-31-goldfish-pond/audio/ad18a5025ef23639.wav",
+     "from": 238,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 7514,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-goldfish-pond/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Bigger pond: the answer",
+   "from": 7972,
+   "frames": 1788,
+   "lines": [
+    {
+     "text": "Let's check. Five percent are not goldfish, and five percent of four hundred is twenty.",
+     "caption": "Let's check. Five percent are not goldfish, and five percent of four hundred is twenty.",
+     "file": "2026-10-31-goldfish-pond/audio/972977a4e73c42eb.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "Twenty other fish again!",
+     "caption": "Twenty other fish again!",
+     "file": "2026-10-31-goldfish-pond/audio/0487e917cc328489.wav",
+     "from": 218,
+     "frames": 78
+    },
+    {
+     "text": "At the end, goldfish are seventy-five percent, so the others are twenty-five percent. That's one quarter.",
+     "caption": "At the end, goldfish are seventy-five percent, so the others are twenty-five percent. That's one quarter.",
+     "file": "2026-10-31-goldfish-pond/audio/1dfbad938a1d8d01.wav",
+     "from": 306,
+     "frames": 251
+    },
+    {
+     "text": "Twenty is one quarter of the pond, so the pond ends with four times twenty, eighty fish.",
+     "caption": "Twenty is one quarter of the pond, so the pond ends with four times twenty, eighty fish.",
+     "file": "2026-10-31-goldfish-pond/audio/28c1bd4767cdef44.wav",
+     "from": 567,
+     "frames": 203
+    },
+    {
+     "text": "Four hundred minus eighty is three hundred twenty goldfish taken out!",
+     "caption": "Four hundred minus eighty is three hundred twenty goldfish taken out!",
+     "file": "2026-10-31-goldfish-pond/audio/e29da7dad971b6f1.wav",
+     "from": 781,
+     "frames": 154
+    },
+    {
+     "text": "So the pond starts with three hundred eighty goldfish.",
+     "caption": "So the pond starts with three hundred eighty goldfish.",
+     "file": "2026-10-31-goldfish-pond/audio/40a519b57f6b739f.wav",
+     "from": 945,
+     "frames": 129
+    },
+    {
+     "text": "Check: three hundred eighty goldfish minus three hundred twenty leaves sixty.",
+     "caption": "Check: three hundred eighty goldfish minus three hundred twenty leaves sixty.",
+     "file": "2026-10-31-goldfish-pond/audio/ef41f519779544fb.wav",
+     "from": 1084,
+     "frames": 184
+    },
+    {
+     "text": "Sixty out of eighty is seventy-five percent.",
+     "caption": "Sixty out of eighty is seventy-five percent.",
+     "file": "2026-10-31-goldfish-pond/audio/d43174ae4cc80a81.wav",
+     "from": 1278,
+     "frames": 94
+    },
+    {
+     "text": "Here's the sneaky part. Going from ninety-five to seventy-five percent emptied most of the pond!",
+     "caption": "Here's the sneaky part. Going from ninety-five to seventy-five percent emptied most of the pond!",
+     "file": "2026-10-31-goldfish-pond/audio/73557200c2d53379.wav",
+     "from": 1382,
+     "frames": 226
+    },
+    {
+     "text": "If you got three hundred twenty, amazing work!",
+     "caption": "If you got three hundred twenty, amazing work!",
+     "file": "2026-10-31-goldfish-pond/audio/51da14bad33cd76e.wav",
+     "from": 1618,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 9760,
+   "frames": 591,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-goldfish-pond/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 82
+    },
+    {
+     "text": "When only one kind of thing is removed, the other kind stays the same.",
+     "caption": "When only one kind of thing is removed, the other kind stays the same.",
+     "file": "2026-10-31-goldfish-pond/audio/1b1184616bf6e931.wav",
+     "from": 92,
+     "frames": 141
+    },
+    {
+     "text": "Use that fixed group to find the new total. Then subtract.",
+     "caption": "Use that fixed group to find the new total. Then subtract.",
+     "file": "2026-10-31-goldfish-pond/audio/0add3c764b8dcb5f.wav",
+     "from": 243,
+     "frames": 137
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-goldfish-pond/audio/31a6054d0b03b932.wav",
+     "from": 390,
+     "frames": 117
+    }
+   ]
+  }
+ ]
+}

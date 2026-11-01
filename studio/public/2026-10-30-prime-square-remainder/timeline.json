@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 11685,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 530,
+   "lines": [
+    {
+     "text": "Pick any prime number bigger than three. Square it, then add seventeen.",
+     "caption": "Pick any prime number bigger than three. Square it, then add seventeen.",
+     "file": "2026-10-30-prime-square-remainder/audio/8c46011fe4d4fb6b.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Now divide by twelve. <short pause> The remainder is ALWAYS the same! But why?",
+     "caption": "Now divide by twelve. The remainder is ALWAYS the same! But why?",
+     "file": "2026-10-30-prime-square-remainder/audio/559b95570ccbfe61.wav",
+     "from": 177,
+     "frames": 189
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack this one together.",
+     "caption": "Hi, I'm Vantee! Let's crack this one together.",
+     "file": "2026-10-30-prime-square-remainder/audio/b53a45a233d1900d.wav",
+     "from": 376,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 530,
+   "frames": 596,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-prime-square-remainder/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "Let p be a prime greater than three.",
+     "caption": "Let p be a prime greater than three.",
+     "file": "2026-10-30-prime-square-remainder/audio/c85a153d1b347aeb.wav",
+     "from": 58,
+     "frames": 108
+    },
+    {
+     "text": "What is the remainder when p squared plus seventeen is divided by twelve?",
+     "caption": "What is the remainder when p squared plus seventeen is divided by twelve?",
+     "file": "2026-10-30-prime-square-remainder/audio/5356a6d9ecad95ca.wav",
+     "from": 176,
+     "frames": 177
+    },
+    {
+     "text": "Is it zero, one, five, six, or eleven?",
+     "caption": "Is it zero, one, five, six, or eleven?",
+     "file": "2026-10-30-prime-square-remainder/audio/a4888a48127d8f8c.wav",
+     "from": 363,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1126,
+   "frames": 697,
+   "lines": [
+    {
+     "text": "A prime has exactly two factors, one and itself. Like five, seven, eleven and thirteen.",
+     "caption": "A prime has exactly two factors, one and itself. Like five, seven, eleven and thirteen.",
+     "file": "2026-10-30-prime-square-remainder/audio/667ed252293e4ec4.wav",
+     "from": 0,
+     "frames": 270
+    },
+    {
+     "text": "The remainder is what's left after taking out all the twelves. Twenty-six leaves two.",
+     "caption": "The remainder is what's left after taking out all the twelves. Twenty-six leaves two.",
+     "file": "2026-10-30-prime-square-remainder/audio/f063992d3551aa77.wav",
+     "from": 281,
+     "frames": 185
+    },
+    {
+     "text": "We don't know p. So the answer must work for EVERY prime bigger than three.",
+     "caption": "We don't know p. So the answer must work for EVERY prime bigger than three.",
+     "file": "2026-10-30-prime-square-remainder/audio/7d88de564c707b83.wav",
+     "from": 476,
+     "frames": 167
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1823,
+   "frames": 463,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-prime-square-remainder/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "test",
+   "kind": "scene",
+   "chapter": "Solution 1: try some primes",
+   "from": 2286,
+   "frames": 1920,
+   "lines": [
+    {
+     "text": "Welcome back! Our first strategy: try a few primes, and look for a pattern.",
+     "caption": "Welcome back! Our first strategy: try a few primes, and look for a pattern.",
+     "file": "2026-10-30-prime-square-remainder/audio/15b50de99456fd94.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "Start with five. Five squared is twenty-five. Plus seventeen is forty-two.",
+     "caption": "Start with five. Five squared is twenty-five. Plus seventeen is forty-two.",
+     "file": "2026-10-30-prime-square-remainder/audio/bae6c6cf2572ef58.wav",
+     "from": 198,
+     "frames": 219
+    },
+    {
+     "text": "That's three twelves, plus six.",
+     "caption": "That's three twelves, plus six.",
+     "file": "2026-10-30-prime-square-remainder/audio/f8e859a5517b7aa5.wav",
+     "from": 427,
+     "frames": 83
+    },
+    {
+     "text": "Next, seven. Seven squared is forty-nine. Plus seventeen is sixty-six.",
+     "caption": "Next, seven. Seven squared is forty-nine. Plus seventeen is sixty-six.",
+     "file": "2026-10-30-prime-square-remainder/audio/b71951f8e0a97287.wav",
+     "from": 520,
+     "frames": 202
+    },
+    {
+     "text": "That's five twelves, plus six. Six again!",
+     "caption": "That's five twelves, plus six. Six again!",
+     "file": "2026-10-30-prime-square-remainder/audio/55458fd22e89a287.wav",
+     "from": 732,
+     "frames": 140
+    },
+    {
+     "text": "Eleven squared is one hundred twenty-one. Plus seventeen is one hundred thirty-eight.",
+     "caption": "Eleven squared is one hundred twenty-one. Plus seventeen is one hundred thirty-eight.",
+     "file": "2026-10-30-prime-square-remainder/audio/88d170f3bcb2f483.wav",
+     "from": 882,
+     "frames": 176
+    },
+    {
+     "text": "That's eleven groups of twelve, plus six.",
+     "caption": "That's eleven groups of twelve, plus six.",
+     "file": "2026-10-30-prime-square-remainder/audio/3ffb23971b526336.wav",
+     "from": 1068,
+     "frames": 102
+    },
+    {
+     "text": "Thirteen squared is one hundred sixty-nine. Plus seventeen is one hundred eighty-six.",
+     "caption": "Thirteen squared is one hundred sixty-nine. Plus seventeen is one hundred eighty-six.",
+     "file": "2026-10-30-prime-square-remainder/audio/edd818e62aa4491d.wav",
+     "from": 1180,
+     "frames": 213
+    },
+    {
+     "text": "That's fifteen groups of twelve, plus six.",
+     "caption": "That's fifteen groups of twelve, plus six.",
+     "file": "2026-10-30-prime-square-remainder/audio/2410f8a0d6b8741e.wav",
+     "from": 1403,
+     "frames": 107
+    },
+    {
+     "text": "Six every time! So the answer is D.",
+     "caption": "Six every time! So the answer is D.",
+     "file": "2026-10-30-prime-square-remainder/audio/3e2a1e57e26f0cb8.wav",
+     "from": 1520,
+     "frames": 102
+    },
+    {
+     "text": "Testing is a smart contest shortcut. But it isn't a proof. So WHY is it always six?",
+     "caption": "Testing is a smart contest shortcut. But it isn't a proof. So WHY is it always six?",
+     "file": "2026-10-30-prime-square-remainder/audio/23f1f5fccedbf106.wav",
+     "from": 1633,
+     "frames": 227
+    }
+   ]
+  },
+  {
+   "id": "columns",
+   "kind": "scene",
+   "chapter": "Solution 2: the six columns",
+   "from": 4206,
+   "frames": 1369,
+   "lines": [
+    {
+     "text": "Here's another way. Let's write the numbers in rows of six.",
+     "caption": "Here's another way. Let's write the numbers in rows of six.",
+     "file": "2026-10-30-prime-square-remainder/audio/8dd99417419b9595.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "A prime bigger than three isn't even, or two would divide it. Cross out columns two, four and six.",
+     "caption": "A prime bigger than three isn't even, or two would divide it. Cross out columns two, four and six.",
+     "file": "2026-10-30-prime-square-remainder/audio/019002930554c3d6.wav",
+     "from": 146,
+     "frames": 263
+    },
+    {
+     "text": "It isn't a multiple of three either. Cross out column three.",
+     "caption": "It isn't a multiple of three either. Cross out column three.",
+     "file": "2026-10-30-prime-square-remainder/audio/a10e4f7db38b5271.wav",
+     "from": 419,
+     "frames": 136
+    },
+    {
+     "text": "Only columns one and five are left. Every prime bigger than three lands in them!",
+     "caption": "Only columns one and five are left. Every prime bigger than three lands in them!",
+     "file": "2026-10-30-prime-square-remainder/audio/13c98dfc93346c3e.wav",
+     "from": 565,
+     "frames": 183
+    },
+    {
+     "text": "Not every number there is prime, like twenty-five. But every prime past three is there.",
+     "caption": "Not every number there is prime, like twenty-five. But every prime past three is there.",
+     "file": "2026-10-30-prime-square-remainder/audio/6379ce4344d10cf5.wav",
+     "from": 758,
+     "frames": 204
+    },
+    {
+     "text": "That's why the question says bigger than three. Two and three got crossed out.",
+     "caption": "That's why the question says bigger than three. Two and three got crossed out.",
+     "file": "2026-10-30-prime-square-remainder/audio/acc43f50dc5b7ae8.wav",
+     "from": 973,
+     "frames": 148
+    },
+    {
+     "text": "Column one is one after a multiple of six. Column five is one before.",
+     "caption": "Column one is one after a multiple of six. Column five is one before.",
+     "file": "2026-10-30-prime-square-remainder/audio/fd06a7deab35d854.wav",
+     "from": 1131,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "neighbors",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5575,
+   "frames": 1615,
+   "lines": [
+    {
+     "text": "So p is always one away from a multiple of six. Now let's look at p squared.",
+     "caption": "So p is always one away from a multiple of six. Now let's look at p squared.",
+     "file": "2026-10-30-prime-square-remainder/audio/21848f3345884772.wav",
+     "from": 0,
+     "frames": 206
+    },
+    {
+     "text": "Take seven. Seven squared is forty-nine dots, in a seven by seven square.",
+     "caption": "Take seven. Seven squared is forty-nine dots, in a seven by seven square.",
+     "file": "2026-10-30-prime-square-remainder/audio/27e8bd8079d2cce1.wav",
+     "from": 216,
+     "frames": 184
+    },
+    {
+     "text": "Take away one corner dot. Then move the rest of the bottom row to the side.",
+     "caption": "Take away one corner dot. Then move the rest of the bottom row to the side.",
+     "file": "2026-10-30-prime-square-remainder/audio/7c2194e40b405179.wav",
+     "from": 410,
+     "frames": 180
+    },
+    {
+     "text": "Now it's a rectangle: six rows by eight columns. That's forty-eight!",
+     "caption": "Now it's a rectangle: six rows by eight columns. That's forty-eight!",
+     "file": "2026-10-30-prime-square-remainder/audio/765044aa5df20eda.wav",
+     "from": 601,
+     "frames": 168
+    },
+    {
+     "text": "Six and eight are the neighbors of seven, one below and one above.",
+     "caption": "Six and eight are the neighbors of seven, one below and one above.",
+     "file": "2026-10-30-prime-square-remainder/audio/3794c721f13214b6.wav",
+     "from": 779,
+     "frames": 161
+    },
+    {
+     "text": "This works for every p. p squared minus one equals p minus one, times p plus one.",
+     "caption": "This works for every p. p squared minus one equals p minus one, times p plus one.",
+     "file": "2026-10-30-prime-square-remainder/audio/81db659480f7748f.wav",
+     "from": 951,
+     "frames": 231
+    },
+    {
+     "text": "One neighbor is a multiple of six. And p is odd, so the other neighbor is even.",
+     "caption": "One neighbor is a multiple of six. And p is odd, so the other neighbor is even.",
+     "file": "2026-10-30-prime-square-remainder/audio/0be1ac857123261c.wav",
+     "from": 1191,
+     "frames": 203
+    },
+    {
+     "text": "A multiple of six, times an even number, is a multiple of twelve!",
+     "caption": "A multiple of six, times an even number, is a multiple of twelve!",
+     "file": "2026-10-30-prime-square-remainder/audio/3cea9a32b138c940.wav",
+     "from": 1405,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7190,
+   "frames": 690,
+   "lines": [
+    {
+     "text": "So p squared is always a multiple of twelve, plus one. Seventeen is twelve plus five.",
+     "caption": "So p squared is always a multiple of twelve, plus one. Seventeen is twelve plus five.",
+     "file": "2026-10-30-prime-square-remainder/audio/957a705355ac4103.wav",
+     "from": 0,
+     "frames": 246
+    },
+    {
+     "text": "One plus five is six. The answer is six, for EVERY prime bigger than three!",
+     "caption": "One plus five is six. The answer is six, for EVERY prime bigger than three!",
+     "file": "2026-10-30-prime-square-remainder/audio/ceefff0eabff488f.wav",
+     "from": 256,
+     "frames": 197
+    },
+    {
+     "text": "When would you pick this way? When you need to be sure a pattern never breaks.",
+     "caption": "When would you pick this way? When you need to be sure a pattern never breaks.",
+     "file": "2026-10-30-prime-square-remainder/audio/dd6d8c65fb1a11ed.wav",
+     "from": 464,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7880,
+   "frames": 1173,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-prime-square-remainder/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "One is the remainder of p squared alone. It forgets the seventeen.",
+     "caption": "One is the remainder of p squared alone. It forgets the seventeen.",
+     "file": "2026-10-30-prime-square-remainder/audio/77c9a9c2bf8a6d01.wav",
+     "from": 145,
+     "frames": 140
+    },
+    {
+     "text": "Five is the remainder of seventeen alone. It forgets p squared.",
+     "caption": "Five is the remainder of seventeen alone. It forgets p squared.",
+     "file": "2026-10-30-prime-square-remainder/audio/637c708ba9e10733.wav",
+     "from": 294,
+     "frames": 166
+    },
+    {
+     "text": "Zero is what seven gives if you forget to square. Seven plus seventeen is twenty-four, two twelves.",
+     "caption": "Zero is what seven gives if you forget to square. Seven plus seventeen is twenty-four, two twelves.",
+     "file": "2026-10-30-prime-square-remainder/audio/6de7195d48147a90.wav",
+     "from": 470,
+     "frames": 207
+    },
+    {
+     "text": "Eleven is the biggest remainder twelve allows. But we just showed it's always six.",
+     "caption": "Eleven is the biggest remainder twelve allows. But we just showed it's always six.",
+     "file": "2026-10-30-prime-square-remainder/audio/1f62ebc762007b87.wav",
+     "from": 687,
+     "frames": 189
+    },
+    {
+     "text": "So here's a great habit. Find each part's remainder, add them, and take out any extra group of twelve.",
+     "caption": "So here's a great habit. Find each part's remainder, add them, and take out any extra group of twelve.",
+     "file": "2026-10-30-prime-square-remainder/audio/c1dc008001ce76f0.wav",
+     "from": 886,
+     "frames": 227
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new remainder",
+   "from": 9053,
+   "frames": 377,
+   "lines": [
+    {
+     "text": "Ready for a challenge? p is still a prime bigger than three.",
+     "caption": "Ready for a challenge? p is still a prime bigger than three.",
+     "file": "2026-10-30-prime-square-remainder/audio/f6ebf4fc6cb52297.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "What is the remainder when five times p squared, plus nine, is divided by twelve?",
+     "caption": "What is the remainder when five times p squared, plus nine, is divided by twelve?",
+     "file": "2026-10-30-prime-square-remainder/audio/873d6fef40b77f2e.wav",
+     "from": 149,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9430,
+   "frames": 497,
+   "lines": [
+    {
+     "text": "Use the same plan. Pause the video, and go for it!",
+     "caption": "Use the same plan. Pause the video, and go for it!",
+     "file": "2026-10-30-prime-square-remainder/audio/16b051a86568d856.wav",
+     "from": 0,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New remainder: the answer",
+   "from": 9927,
+   "frames": 1117,
+   "lines": [
+    {
+     "text": "Let's check. p squared is a multiple of twelve, plus one.",
+     "caption": "Let's check. p squared is a multiple of twelve, plus one.",
+     "file": "2026-10-30-prime-square-remainder/audio/1f0b5d97c4aa9086.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "Five copies of that make a multiple of twelve, plus five.",
+     "caption": "Five copies of that make a multiple of twelve, plus five.",
+     "file": "2026-10-30-prime-square-remainder/audio/f53efbcf6a3f6c71.wav",
+     "from": 171,
+     "frames": 138
+    },
+    {
+     "text": "Five plus nine is fourteen. That's one more twelve, plus two. So the remainder is two!",
+     "caption": "Five plus nine is fourteen. That's one more twelve, plus two. So the remainder is two!",
+     "file": "2026-10-30-prime-square-remainder/audio/a42589c06240b541.wav",
+     "from": 320,
+     "frames": 244
+    },
+    {
+     "text": "Let's test with five. Five times twenty-five, plus nine, is one hundred thirty-four.",
+     "caption": "Let's test with five. Five times twenty-five, plus nine, is one hundred thirty-four.",
+     "file": "2026-10-30-prime-square-remainder/audio/378bfbb2839e62ee.wav",
+     "from": 574,
+     "frames": 206
+    },
+    {
+     "text": "That's eleven groups of twelve, plus two. It matches!",
+     "caption": "That's eleven groups of twelve, plus two. It matches!",
+     "file": "2026-10-30-prime-square-remainder/audio/78d6ebe65a3c693c.wav",
+     "from": 790,
+     "frames": 136
+    },
+    {
+     "text": "If you found a remainder of two, amazing work!",
+     "caption": "If you found a remainder of two, amazing work!",
+     "file": "2026-10-30-prime-square-remainder/audio/03d0feabf84db4f1.wav",
+     "from": 936,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11044,
+   "frames": 641,
+   "lines": [
+    {
+     "text": "Here's the big idea. Every prime bigger than three is one away from a multiple of six.",
+     "caption": "Here's the big idea. Every prime bigger than three is one away from a multiple of six.",
+     "file": "2026-10-30-prime-square-remainder/audio/59499e5ea168a444.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "So its square always leaves one when divided by twelve. Use that, then add the rest.",
+     "caption": "So its square always leaves one when divided by twelve. Use that, then add the rest.",
+     "file": "2026-10-30-prime-square-remainder/audio/18009cb09d35817e.wav",
+     "from": 219,
+     "frames": 198
+    },
+    {
+     "text": "I'm Vantee. Keep asking why, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep asking why, and I'll see you next time!",
+     "file": "2026-10-30-prime-square-remainder/audio/48f93b982e71dacc.wav",
+     "from": 427,
+     "frames": 130
+    }
+   ]
+  }
+ ]
+}

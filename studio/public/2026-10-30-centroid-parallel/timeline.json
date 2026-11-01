@@ -1,0 +1,522 @@
+{
+ "fps": 30,
+ "durationInFrames": 12037,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 512,
+   "lines": [
+    {
+     "text": "Three lines cross at one special point inside every triangle.",
+     "caption": "Three lines cross at one special point inside every triangle.",
+     "file": "2026-10-30-centroid-parallel/audio/95d412ba0de77492.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "That point hides a secret number. <short pause> Today we'll find out WHY it's there.",
+     "caption": "That point hides a secret number. Today we'll find out WHY it's there.",
+     "file": "2026-10-30-centroid-parallel/audio/75dbc2399de11235.wav",
+     "from": 171,
+     "frames": 179
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack it together.",
+     "caption": "Hi, I'm Vantee! Let's crack it together.",
+     "file": "2026-10-30-centroid-parallel/audio/661802bfe72e72dd.wav",
+     "from": 361,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 512,
+   "frames": 909,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-centroid-parallel/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 50
+    },
+    {
+     "text": "In triangle A B C, side B C is twenty-four.",
+     "caption": "In triangle A B C, side B C is twenty-four.",
+     "file": "2026-10-30-centroid-parallel/audio/f569d2ff3ea5024e.wav",
+     "from": 60,
+     "frames": 136
+    },
+    {
+     "text": "The three medians meet at point G. A median joins a corner to the middle of the opposite side.",
+     "caption": "The three medians meet at point G. A median joins a corner to the middle of the opposite side.",
+     "file": "2026-10-30-centroid-parallel/audio/a8ec2f6e4773029b.wav",
+     "from": 206,
+     "frames": 216
+    },
+    {
+     "text": "A segment through G runs parallel to B C. Its ends, E and F, sit on the other two sides.",
+     "caption": "A segment through G runs parallel to B C. Its ends, E and F, sit on the other two sides.",
+     "file": "2026-10-30-centroid-parallel/audio/89ab1b123ac00b6b.wav",
+     "from": 433,
+     "frames": 227
+    },
+    {
+     "text": "How long is E F?",
+     "caption": "How long is E F?",
+     "file": "2026-10-30-centroid-parallel/audio/084ef7242a4accc8.wav",
+     "from": 670,
+     "frames": 65
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-centroid-parallel/audio/b97a89671840f7ca.wav",
+     "from": 745,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1421,
+   "frames": 488,
+   "lines": [
+    {
+     "text": "So what do we really know?",
+     "caption": "So what do we really know?",
+     "file": "2026-10-30-centroid-parallel/audio/95d10a5a1a6da445.wav",
+     "from": 0,
+     "frames": 68
+    },
+    {
+     "text": "The bottom side is twenty-four. E F runs parallel to it, right through G.",
+     "caption": "The bottom side is twenty-four. E F runs parallel to it, right through G.",
+     "file": "2026-10-30-centroid-parallel/audio/c273410b9b22bca3.wav",
+     "from": 78,
+     "frames": 201
+    },
+    {
+     "text": "So the real question is: how far down the triangle does G sit?",
+     "caption": "So the real question is: how far down the triangle does G sit?",
+     "file": "2026-10-30-centroid-parallel/audio/7187a89b0e187504.wav",
+     "from": 289,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1909,
+   "frames": 473,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-centroid-parallel/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "midline",
+   "kind": "scene",
+   "chapter": "Solution 1: the midline",
+   "from": 2382,
+   "frames": 1032,
+   "lines": [
+    {
+     "text": "Welcome back! Let's find where G sits. Call M the middle of B C, and L the middle of A C.",
+     "caption": "Welcome back! Let's find where G sits. Call M the middle of B C, and L the middle of A C.",
+     "file": "2026-10-30-centroid-parallel/audio/d68eb8fdff7de5b5.wav",
+     "from": 0,
+     "frames": 255
+    },
+    {
+     "text": "Now join M and L. This short segment has a superpower.",
+     "caption": "Now join M and L. This short segment has a superpower.",
+     "file": "2026-10-30-centroid-parallel/audio/bfa0393f36677ce5.wav",
+     "from": 265,
+     "frames": 176
+    },
+    {
+     "text": "Shrink the whole triangle toward corner C, to half size. A lands on L, and B lands on M.",
+     "caption": "Shrink the whole triangle toward corner C, to half size. A lands on L, and B lands on M.",
+     "file": "2026-10-30-centroid-parallel/audio/b192145d698cb35d.wav",
+     "from": 450,
+     "frames": 248
+    },
+    {
+     "text": "So M L is a half-size copy of A B. It's half as long, and it points the same way. It's parallel!",
+     "caption": "So M L is a half-size copy of A B. It's half as long, and it points the same way. It's parallel!",
+     "file": "2026-10-30-centroid-parallel/audio/3581b2f9fb575929.wav",
+     "from": 708,
+     "frames": 270
+    }
+   ]
+  },
+  {
+   "id": "bowtie",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3414,
+   "frames": 1565,
+   "lines": [
+    {
+     "text": "Now look at the two medians, A M and B L. They cross at G and make a bowtie.",
+     "caption": "Now look at the two medians, A M and B L. They cross at G and make a bowtie.",
+     "file": "2026-10-30-centroid-parallel/audio/a6ce4b196fcfab11.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "The big end of the bowtie is A B. The small end is M L.",
+     "caption": "The big end of the bowtie is A B. The small end is M L.",
+     "file": "2026-10-30-centroid-parallel/audio/97d435b0d293dd6a.wav",
+     "from": 240,
+     "frames": 162
+    },
+    {
+     "text": "A B and M L are parallel, so these two angles match. They make a Z shape.",
+     "caption": "A B and M L are parallel, so these two angles match. They make a Z shape.",
+     "file": "2026-10-30-centroid-parallel/audio/a4c595f9b8cf0b87.wav",
+     "from": 412,
+     "frames": 195
+    },
+    {
+     "text": "These two match as well. That's another Z, along the other median.",
+     "caption": "These two match as well. That's another Z, along the other median.",
+     "file": "2026-10-30-centroid-parallel/audio/8dd71f49b1b295f7.wav",
+     "from": 617,
+     "frames": 155
+    },
+    {
+     "text": "M L is half of A B. So the small triangle G M L is a half-size copy of G A B.",
+     "caption": "M L is half of A B. So the small triangle G M L is a half-size copy of G A B.",
+     "file": "2026-10-30-centroid-parallel/audio/888b6e74c933d996.wav",
+     "from": 782,
+     "frames": 286
+    },
+    {
+     "text": "That means G M is half of A G. Two parts from A down to G, and one part from G to M.",
+     "caption": "That means G M is half of A G. Two parts from A down to G, and one part from G to M.",
+     "file": "2026-10-30-centroid-parallel/audio/a24880b32e557f65.wav",
+     "from": 1078,
+     "frames": 246
+    },
+    {
+     "text": "So G is two thirds of the way down the median, starting from A!",
+     "caption": "So G is two thirds of the way down the median, starting from A!",
+     "file": "2026-10-30-centroid-parallel/audio/f2429c0f7a8e70fa.wav",
+     "from": 1335,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "ef",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4979,
+   "frames": 1140,
+   "lines": [
+    {
+     "text": "Now back to E F. It's parallel to B C, so triangle A E F is a shrunk copy of A B C.",
+     "caption": "Now back to E F. It's parallel to B C, so triangle A E F is a shrunk copy of A B C.",
+     "file": "2026-10-30-centroid-parallel/audio/bc3367dcca45c512.wav",
+     "from": 0,
+     "frames": 243
+    },
+    {
+     "text": "How much smaller? Shrink A B C toward corner A, until B C lands on E F.",
+     "caption": "How much smaller? Shrink A B C toward corner A, until B C lands on E F.",
+     "file": "2026-10-30-centroid-parallel/audio/d590e3319d8f6ad5.wav",
+     "from": 253,
+     "frames": 227
+    },
+    {
+     "text": "M slides up the median as it shrinks. It lands on E F, right at G.",
+     "caption": "M slides up the median as it shrinks. It lands on E F, right at G.",
+     "file": "2026-10-30-centroid-parallel/audio/45cf8b4637212512.wav",
+     "from": 491,
+     "frames": 186
+    },
+    {
+     "text": "G is two thirds of the way down. So every length shrinks to two thirds.",
+     "caption": "G is two thirds of the way down. So every length shrinks to two thirds.",
+     "file": "2026-10-30-centroid-parallel/audio/85672068e96cfa28.wav",
+     "from": 687,
+     "frames": 168
+    },
+    {
+     "text": "Two thirds of twenty-four is sixteen. <short pause> E F is sixteen! That's choice C.",
+     "caption": "Two thirds of twenty-four is sixteen. E F is sixteen! That's choice C.",
+     "file": "2026-10-30-centroid-parallel/audio/0162b81d9225b15f.wav",
+     "from": 866,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "areas",
+   "kind": "scene",
+   "chapter": "Solution 2: equal areas",
+   "from": 6119,
+   "frames": 2195,
+   "lines": [
+    {
+     "text": "Here's a second way, using areas.",
+     "caption": "Here's a second way, using areas.",
+     "file": "2026-10-30-centroid-parallel/audio/09a3cdfabb63efda.wav",
+     "from": 0,
+     "frames": 92
+    },
+    {
+     "text": "First, a fact. A median cuts a triangle into two halves with equal area.",
+     "caption": "First, a fact. A median cuts a triangle into two halves with equal area.",
+     "file": "2026-10-30-centroid-parallel/audio/412762f07609981c.wav",
+     "from": 101,
+     "frames": 184
+    },
+    {
+     "text": "Why? The two bases are equal, and both halves have the same height.",
+     "caption": "Why? The two bases are equal, and both halves have the same height.",
+     "file": "2026-10-30-centroid-parallel/audio/8ef990ca8b6247f3.wav",
+     "from": 296,
+     "frames": 156
+    },
+    {
+     "text": "The median A M splits triangle A B C in half. And G M splits triangle G B C in half.",
+     "caption": "The median A M splits triangle A B C in half. And G M splits triangle G B C in half.",
+     "file": "2026-10-30-centroid-parallel/audio/46adad7b8982b3de.wav",
+     "from": 462,
+     "frames": 263
+    },
+    {
+     "text": "Take the small halves away from the big halves. So A B G and A C G have equal areas.",
+     "caption": "Take the small halves away from the big halves. So A B G and A C G have equal areas.",
+     "file": "2026-10-30-centroid-parallel/audio/0a25e70b442eacd3.wav",
+     "from": 735,
+     "frames": 219
+    },
+    {
+     "text": "Do the same with the median from B. Then A B G and B C G match too.",
+     "caption": "Do the same with the median from B. Then A B G and B C G match too.",
+     "file": "2026-10-30-centroid-parallel/audio/c3b2f3561f080711.wav",
+     "from": 964,
+     "frames": 197
+    },
+    {
+     "text": "So G cuts the triangle into three pieces with equal area. Each one is a third.",
+     "caption": "So G cuts the triangle into three pieces with equal area. Each one is a third.",
+     "file": "2026-10-30-centroid-parallel/audio/665db2497b096bdc.wav",
+     "from": 1172,
+     "frames": 195
+    },
+    {
+     "text": "Triangle G B C sits on B C, with a third of the area. So G is a third of the height up.",
+     "caption": "Triangle G B C sits on B C, with a third of the area. So G is a third of the height up.",
+     "file": "2026-10-30-centroid-parallel/audio/eeda249ce5a2219e.wav",
+     "from": 1376,
+     "frames": 257
+    },
+    {
+     "text": "So from A down to E F is two thirds of the height. E F is two thirds of twenty-four. Sixteen again!",
+     "caption": "So from A down to E F is two thirds of the height. E F is two thirds of twenty-four. Sixteen again!",
+     "file": "2026-10-30-centroid-parallel/audio/6c6eedbdaa6f9a41.wav",
+     "from": 1644,
+     "frames": 293
+    },
+    {
+     "text": "When would you pick this way? When a problem talks about areas, or to double-check.",
+     "caption": "When would you pick this way? When a problem talks about areas, or to double-check.",
+     "file": "2026-10-30-centroid-parallel/audio/aee43d04f43976ff.wav",
+     "from": 1947,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8314,
+   "frames": 1219,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one puts G in the wrong spot.",
+     "caption": "Now, let's look at the wrong answers. Each one puts G in the wrong spot.",
+     "file": "2026-10-30-centroid-parallel/audio/f307fcd245bb56d9.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "Eight is what you'd get if you flipped it, and put G one third of the way down from A.",
+     "caption": "Eight is what you'd get if you flipped it, and put G one third of the way down from A.",
+     "file": "2026-10-30-centroid-parallel/audio/0abd4635659a2cee.wav",
+     "from": 175,
+     "frames": 184
+    },
+    {
+     "text": "Twelve is the line through the middles of A B and A C. That's halfway down, not two thirds.",
+     "caption": "Twelve is the line through the middles of A B and A C. That's halfway down, not two thirds.",
+     "file": "2026-10-30-centroid-parallel/audio/75df5b03946c30f2.wav",
+     "from": 369,
+     "frames": 203
+    },
+    {
+     "text": "Eighteen is what you'd get if G were three quarters of the way down.",
+     "caption": "Eighteen is what you'd get if G were three quarters of the way down.",
+     "file": "2026-10-30-centroid-parallel/audio/b4b5ef5135da9e4f.wav",
+     "from": 582,
+     "frames": 141
+    },
+    {
+     "text": "Twenty would need G to sit five parts out of six of the way down. That's much too close to B C.",
+     "caption": "Twenty would need G to sit five parts out of six of the way down. That's much too close to B C.",
+     "file": "2026-10-30-centroid-parallel/audio/033abf620ab0b6cb.wav",
+     "from": 733,
+     "frames": 222
+    },
+    {
+     "text": "So here's a great habit. Mark G two thirds of the way down a median, from the corner.",
+     "caption": "So here's a great habit. Mark G two thirds of the way down a median, from the corner.",
+     "file": "2026-10-30-centroid-parallel/audio/b097f4617938b194.wav",
+     "from": 966,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new triangle",
+   "from": 9533,
+   "frames": 513,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new triangle.",
+     "caption": "Ready for a challenge? Here's a new triangle.",
+     "file": "2026-10-30-centroid-parallel/audio/1214430b7ee541c8.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "The segment joining the middles of A B and A C is twenty-one long.",
+     "caption": "The segment joining the middles of A B and A C is twenty-one long.",
+     "file": "2026-10-30-centroid-parallel/audio/234b888b8f165402.wav",
+     "from": 119,
+     "frames": 154
+    },
+    {
+     "text": "Again, E F runs through G, parallel to B C. How long is E F?",
+     "caption": "Again, E F runs through G, parallel to B C. How long is E F?",
+     "file": "2026-10-30-centroid-parallel/audio/4a4d87dd7341f9ab.wav",
+     "from": 284,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10046,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-centroid-parallel/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New triangle: the answer",
+   "from": 10508,
+   "frames": 868,
+   "lines": [
+    {
+     "text": "Let's check. That middle segment is a half-size copy of B C. So B C is twice twenty-one, forty-two.",
+     "caption": "Let's check. That middle segment is a half-size copy of B C. So B C is twice twenty-one, forty-two.",
+     "file": "2026-10-30-centroid-parallel/audio/18ed3a1ea1c69cf7.wav",
+     "from": 0,
+     "frames": 308
+    },
+    {
+     "text": "G is two thirds of the way down, so E F is two thirds of B C.",
+     "caption": "G is two thirds of the way down, so E F is two thirds of B C.",
+     "file": "2026-10-30-centroid-parallel/audio/a06bcf1e737fc353.wav",
+     "from": 318,
+     "frames": 198
+    },
+    {
+     "text": "Two thirds of forty-two is twenty-eight. <short pause> E F is twenty-eight!",
+     "caption": "Two thirds of forty-two is twenty-eight. E F is twenty-eight!",
+     "file": "2026-10-30-centroid-parallel/audio/ba63e72f5c3932ac.wav",
+     "from": 527,
+     "frames": 150
+    },
+    {
+     "text": "If you found twenty-eight, amazing work!",
+     "caption": "If you found twenty-eight, amazing work!",
+     "file": "2026-10-30-centroid-parallel/audio/27a4880afb8e178a.wav",
+     "from": 687,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11376,
+   "frames": 661,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-centroid-parallel/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 78
+    },
+    {
+     "text": "The medians of a triangle meet two thirds of the way down each one, from its corner.",
+     "caption": "The medians of a triangle meet two thirds of the way down each one, from its corner.",
+     "file": "2026-10-30-centroid-parallel/audio/1f9af0303bacd3b7.wav",
+     "from": 88,
+     "frames": 168
+    },
+    {
+     "text": "So a segment through that point, parallel to a side, is two thirds of that side.",
+     "caption": "So a segment through that point, parallel to a side, is two thirds of that side.",
+     "file": "2026-10-30-centroid-parallel/audio/a1406675b7228e72.wav",
+     "from": 267,
+     "frames": 182
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-centroid-parallel/audio/31a6054d0b03b932.wav",
+     "from": 458,
+     "frames": 119
+    }
+   ]
+  }
+ ]
+}

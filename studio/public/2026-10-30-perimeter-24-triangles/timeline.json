@@ -1,0 +1,538 @@
+{
+ "fps": 30,
+ "durationInFrames": 12613,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 448,
+   "lines": [
+    {
+     "text": "Three whole-number sides that add up to twenty-four. How many different triangles can you make?",
+     "caption": "Three whole-number sides that add up to twenty-four. How many different triangles can you make?",
+     "file": "2026-10-30-perimeter-24-triangles/audio/96c0650666870f71.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "Missing just one or two is the classic slip. I'm Vantee, and we'll find every single one!",
+     "caption": "Missing just one or two is the classic slip. I'm Vantee, and we'll find every single one!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/fc43b140b81cbb6a.wav",
+     "from": 201,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 448,
+   "frames": 520,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 56
+    },
+    {
+     "text": "How many different triangles have whole-number side lengths and a perimeter of twenty-four?",
+     "caption": "How many different triangles have whole-number side lengths and a perimeter of twenty-four?",
+     "file": "2026-10-30-perimeter-24-triangles/audio/405998d437140c94.wav",
+     "from": 66,
+     "frames": 195
+    },
+    {
+     "text": "Triangles with the same three side lengths count once. Here are the five choices.",
+     "caption": "Triangles with the same three side lengths count once. Here are the five choices.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/8e9bf90aa20962fe.wav",
+     "from": 271,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 968,
+   "frames": 610,
+   "lines": [
+    {
+     "text": "We need three whole numbers that add up to twenty-four. Each one is a side.",
+     "caption": "We need three whole numbers that add up to twenty-four. Each one is a side.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/3fe952a5f2ac2cbb.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "But not every three numbers make a triangle. Two, two and twenty can't close up.",
+     "caption": "But not every three numbers make a triangle. Two, two and twenty can't close up.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/ed9ddab7823d6b36.wav",
+     "from": 176,
+     "frames": 198
+    },
+    {
+     "text": "And order doesn't matter. Seven, eight, nine is the same triangle as nine, eight, seven.",
+     "caption": "And order doesn't matter. Seven, eight, nine is the same triangle as nine, eight, seven.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a003dd156524b3cf.wav",
+     "from": 384,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1578,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": "Solution 1: list by longest side",
+   "from": 2036,
+   "frames": 1143,
+   "lines": [
+    {
+     "text": "Welcome back! First, the triangle rule.",
+     "caption": "Welcome back! First, the triangle rule.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/44aec7574381c5e3.wav",
+     "from": 0,
+     "frames": 112
+    },
+    {
+     "text": "The two shorter sides must add up to MORE than the longest side, or they can't meet.",
+     "caption": "The two shorter sides must add up to MORE than the longest side, or they can't meet.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/5d72e1013c0aaae9.wav",
+     "from": 122,
+     "frames": 172
+    },
+    {
+     "text": "If they only tie, the triangle squashes flat into a line.",
+     "caption": "If they only tie, the triangle squashes flat into a line.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/b128894f934638bf.wav",
+     "from": 304,
+     "frames": 147
+    },
+    {
+     "text": "Now here's the trick. The two shorter sides make up the rest of the perimeter.",
+     "caption": "Now here's the trick. The two shorter sides make up the rest of the perimeter.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/dc42283f8fb64b1d.wav",
+     "from": 461,
+     "frames": 168
+    },
+    {
+     "text": "So the longest side must be shorter than half the perimeter. Half of twenty-four is twelve.",
+     "caption": "So the longest side must be shorter than half the perimeter. Half of twenty-four is twelve.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/ebf01ae4ab37117c.wav",
+     "from": 640,
+     "frames": 212
+    },
+    {
+     "text": "If the longest side is under twelve, the other sides always fit. So that's our only test.",
+     "caption": "If the longest side is under twelve, the other sides always fit. So that's our only test.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/9eaff3490deb2383.wav",
+     "from": 861,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "floor",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3179,
+   "frames": 733,
+   "lines": [
+    {
+     "text": "How short can the longest side be? If it were seven, all three sides would be seven or less.",
+     "caption": "How short can the longest side be? If it were seven, all three sides would be seven or less.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/374d34c296fdfcd9.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "Seven plus seven plus seven is only twenty-one. Too short! So the longest side is at least eight.",
+     "caption": "Seven plus seven plus seven is only twenty-one. Too short! So the longest side is at least eight.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/f3d05774feaec42d.wav",
+     "from": 221,
+     "frames": 269
+    },
+    {
+     "text": "So the longest side is eight, nine, ten or eleven. Let's make a list for each one.",
+     "caption": "So the longest side is eight, nine, ten or eleven. Let's make a list for each one.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/d4f032aeb4adb25d.wav",
+     "from": 500,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3912,
+   "frames": 1680,
+   "lines": [
+    {
+     "text": "Longest side eleven. The other two sides add up to thirteen.",
+     "caption": "Longest side eleven. The other two sides add up to thirteen.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/0a92aa4d86e4063d.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "The middle side can't be more than eleven. So we start with two and eleven.",
+     "caption": "The middle side can't be more than eleven. So we start with two and eleven.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/2d96fd3d1ff40b4f.wav",
+     "from": 159,
+     "frames": 161
+    },
+    {
+     "text": "Then three and ten, four and nine, five and eight, six and seven. That's five triangles.",
+     "caption": "Then three and ten, four and nine, five and eight, six and seven. That's five triangles.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/5a5b6d19dbce42e4.wav",
+     "from": 331,
+     "frames": 225
+    },
+    {
+     "text": "Why stop there? Next is seven and six, which is six and seven again.",
+     "caption": "Why stop there? Next is seven and six, which is six and seven again.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/414408b208b6b237.wav",
+     "from": 566,
+     "frames": 162
+    },
+    {
+     "text": "Longest side ten. The other two add up to fourteen, so we start with four and ten.",
+     "caption": "Longest side ten. The other two add up to fourteen, so we start with four and ten.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/df8532c65fe09efd.wav",
+     "from": 738,
+     "frames": 203
+    },
+    {
+     "text": "Then five and nine, six and eight, seven and seven. That's four triangles.",
+     "caption": "Then five and nine, six and eight, seven and seven. That's four triangles.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a772441244cb4c48.wav",
+     "from": 951,
+     "frames": 215
+    },
+    {
+     "text": "Longest side nine. The rest adds up to fifteen: six and nine, then seven and eight. That's two.",
+     "caption": "Longest side nine. The rest adds up to fifteen: six and nine, then seven and eight. That's two.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/dd2e33753cdfde4b.wav",
+     "from": 1177,
+     "frames": 224
+    },
+    {
+     "text": "Longest side eight. The other two add up to sixteen. Only eight and eight fits. That's one!",
+     "caption": "Longest side eight. The other two add up to sixteen. Only eight and eight fits. That's one!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/62c324380d80562e.wav",
+     "from": 1410,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "total1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5592,
+   "frames": 273,
+   "lines": [
+    {
+     "text": "Five, plus four, plus two, plus one. That's twelve triangles! The answer is C.",
+     "caption": "Five, plus four, plus two, plus one. That's twelve triangles! The answer is C.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a6bd83d29f840f0c.wav",
+     "from": 0,
+     "frames": 204
+    }
+   ]
+  },
+  {
+   "id": "gaps",
+   "kind": "scene",
+   "chapter": "Solution 2: the gap trick",
+   "from": 5865,
+   "frames": 2342,
+   "lines": [
+    {
+     "text": "Here's a clever second way. Measure how far each side is from twelve, half the perimeter. Call it the gap.",
+     "caption": "Here's a clever second way. Measure how far each side is from twelve, half the perimeter. Call it the gap.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/c12251cf5455e847.wav",
+     "from": 0,
+     "frames": 240
+    },
+    {
+     "text": "Take seven, eight, nine. The gaps are five, four and three.",
+     "caption": "Take seven, eight, nine. The gaps are five, four and three.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/9f3247ea9d7cee50.wav",
+     "from": 251,
+     "frames": 249
+    },
+    {
+     "text": "Three twelves make thirty-six. The sides use twenty-four. So the gaps always add up to twelve.",
+     "caption": "Three twelves make thirty-six. The sides use twenty-four. So the gaps always add up to twelve.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/375c2621a12eb9fd.wav",
+     "from": 510,
+     "frames": 234
+    },
+    {
+     "text": "Every gap is at least one, because every side is less than twelve.",
+     "caption": "Every gap is at least one, because every side is less than twelve.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/1631d5155a1d7bfb.wav",
+     "from": 754,
+     "frames": 164
+    },
+    {
+     "text": "It works backwards too. Gaps that add up to twelve give sides under twelve, so a real triangle.",
+     "caption": "It works backwards too. Gaps that add up to twelve give sides under twelve, so a real triangle.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a9ffe9d89c3573b1.wav",
+     "from": 928,
+     "frames": 226
+    },
+    {
+     "text": "So we count the ways to split twelve into three whole numbers, each at least one.",
+     "caption": "So we count the ways to split twelve into three whole numbers, each at least one.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/77bd9f79b75d856d.wav",
+     "from": 1164,
+     "frames": 180
+    },
+    {
+     "text": "A biggest gap of ten gives one way. Nine, one way. Eight, two ways. Seven, two ways.",
+     "caption": "A biggest gap of ten gives one way. Nine, one way. Eight, two ways. Seven, two ways.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/bb307aa6f4b8a81d.wav",
+     "from": 1354,
+     "frames": 258
+    },
+    {
+     "text": "Six, three ways. Five, two ways. And four, four, four is one more.",
+     "caption": "Six, three ways. Five, two ways. And four, four, four is one more.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/998ea24f2e82de4d.wav",
+     "from": 1623,
+     "frames": 240
+    },
+    {
+     "text": "One plus one plus two plus two plus three plus two plus one. Twelve again!",
+     "caption": "One plus one plus two plus two plus three plus two plus one. Twelve again!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/065ef480a9432ca3.wav",
+     "from": 1873,
+     "frames": 276
+    },
+    {
+     "text": "When would you pick this one? It's a great double-check on your list.",
+     "caption": "When would you pick this one? It's a great double-check on your list.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/98784f638efee0ba.wav",
+     "from": 2160,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8207,
+   "frames": 1141,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "Ten is what you'd get if you left out the longest side of nine. Those two triangles go missing.",
+     "caption": "Ten is what you'd get if you left out the longest side of nine. Those two triangles go missing.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/c678aa1e754ac4ae.wav",
+     "from": 128,
+     "frames": 213
+    },
+    {
+     "text": "Eleven is what you'd get if you forgot eight, eight, eight. An equilateral triangle still counts!",
+     "caption": "Eleven is what you'd get if you forgot eight, eight, eight. An equilateral triangle still counts!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/e70a206e9e73cb4d.wav",
+     "from": 351,
+     "frames": 207
+    },
+    {
+     "text": "Thirteen is what you'd get if one triangle is counted twice, in a different order.",
+     "caption": "Thirteen is what you'd get if one triangle is counted twice, in a different order.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/3df235f8ba223a69.wav",
+     "from": 568,
+     "frames": 155
+    },
+    {
+     "text": "And nineteen is just too many. Our full list has only twelve.",
+     "caption": "And nineteen is just too many. Our full list has only twelve.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/7935554eff0a0a7e.wav",
+     "from": 733,
+     "frames": 156
+    },
+    {
+     "text": "So here's a great habit. Pick the longest side first, then list the other two in order.",
+     "caption": "So here's a great habit. Pick the longest side first, then list the other two in order.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/42ca5e8422530f7a.wav",
+     "from": 899,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: perimeter twenty",
+   "from": 9348,
+   "frames": 334,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same question, new perimeter.",
+     "caption": "Ready for a challenge? Same question, new perimeter.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/4ff3a44c0d2415ed.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "How many different triangles have whole-number side lengths and a perimeter of twenty?",
+     "caption": "How many different triangles have whole-number side lengths and a perimeter of twenty?",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a39e4b2d2936ee7f.wav",
+     "from": 130,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9682,
+   "frames": 464,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Perimeter twenty: the answer",
+   "from": 10146,
+   "frames": 1794,
+   "lines": [
+    {
+     "text": "Let's check. Half of twenty is ten. So the longest side is less than ten.",
+     "caption": "Let's check. Half of twenty is ten. So the longest side is less than ten.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/bc082b04d5bca15c.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "Six plus six plus six is only eighteen. So the longest side is at least seven.",
+     "caption": "Six plus six plus six is only eighteen. So the longest side is at least seven.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/8850a3666e023abc.wav",
+     "from": 183,
+     "frames": 189
+    },
+    {
+     "text": "Longest side nine. The other two add up to eleven.",
+     "caption": "Longest side nine. The other two add up to eleven.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a0b768be097bb9c0.wav",
+     "from": 382,
+     "frames": 128
+    },
+    {
+     "text": "Two and nine, three and eight, four and seven, five and six. That's four.",
+     "caption": "Two and nine, three and eight, four and seven, five and six. That's four.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/f9637fba9b138541.wav",
+     "from": 520,
+     "frames": 250
+    },
+    {
+     "text": "Longest side eight. The rest is twelve: four and eight, five and seven, six and six. That's three.",
+     "caption": "Longest side eight. The rest is twelve: four and eight, five and seven, six and six. That's three.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/6aa772233abcbaab.wav",
+     "from": 780,
+     "frames": 279
+    },
+    {
+     "text": "Longest side seven. The rest is thirteen. Only six and seven works. That's one.",
+     "caption": "Longest side seven. The rest is thirteen. Only six and seven works. That's one.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a76c8d80ecba37ca.wav",
+     "from": 1069,
+     "frames": 224
+    },
+    {
+     "text": "Notice there's no equilateral this time. Twenty can't split into three equal whole numbers.",
+     "caption": "Notice there's no equilateral this time. Twenty can't split into three equal whole numbers.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/7ea97d68063d799f.wav",
+     "from": 1303,
+     "frames": 197
+    },
+    {
+     "text": "Four, plus three, plus one. That's eight triangles! If you found eight, amazing work!",
+     "caption": "Four, plus three, plus one. That's eight triangles! If you found eight, amazing work!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/32dd5857f2534795.wav",
+     "from": 1510,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11940,
+   "frames": 673,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 71
+    },
+    {
+     "text": "The longest side must be shorter than half the perimeter, since the other two must add up to more.",
+     "caption": "The longest side must be shorter than half the perimeter, since the other two must add up to more.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/23d8549c1a8867e2.wav",
+     "from": 81,
+     "frames": 173
+    },
+    {
+     "text": "So pick the longest side first, find its limits, then list the other two in order.",
+     "caption": "So pick the longest side first, find its limits, then list the other two in order.",
+     "file": "2026-10-30-perimeter-24-triangles/audio/a79a597f9a3ff628.wav",
+     "from": 264,
+     "frames": 195
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-perimeter-24-triangles/audio/31a6054d0b03b932.wav",
+     "from": 469,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}

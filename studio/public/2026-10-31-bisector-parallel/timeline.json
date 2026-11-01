@@ -1,0 +1,464 @@
+{
+ "fps": 30,
+ "durationInFrames": 10145,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 515,
+   "lines": [
+    {
+     "text": "This question gives you three side lengths. You only need one of them.",
+     "caption": "This question gives you three side lengths. You only need one of them.",
+     "file": "2026-10-31-bisector-parallel/audio/89624af0ec79cf8b.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "Hiding in the picture is a special triangle. Once you spot it, the answer pops right out.",
+     "caption": "Hiding in the picture is a special triangle. Once you spot it, the answer pops right out.",
+     "file": "2026-10-31-bisector-parallel/audio/e7bd810992ccd57b.wav",
+     "from": 157,
+     "frames": 195
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's go triangle hunting.",
+     "caption": "Hi, I'm Vantee! Let's go triangle hunting.",
+     "file": "2026-10-31-bisector-parallel/audio/a3cb7eb60256f1b2.wav",
+     "from": 362,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 515,
+   "frames": 870,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-bisector-parallel/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 52
+    },
+    {
+     "text": "Triangle A B C has A B and A C both equal to ten, and B C equal to twelve.",
+     "caption": "Triangle A B C has A B and A C both equal to ten, and B C equal to twelve.",
+     "file": "2026-10-31-bisector-parallel/audio/57ebb83b50671d01.wav",
+     "from": 62,
+     "frames": 219
+    },
+    {
+     "text": "A line through point A runs parallel to B C.",
+     "caption": "A line through point A runs parallel to B C.",
+     "file": "2026-10-31-bisector-parallel/audio/1226810a40f63034.wav",
+     "from": 291,
+     "frames": 114
+    },
+    {
+     "text": "The line that cuts angle A B C exactly in half meets this line at point F.",
+     "caption": "The line that cuts angle A B C exactly in half meets this line at point F.",
+     "file": "2026-10-31-bisector-parallel/audio/31d51967a38909d2.wav",
+     "from": 415,
+     "frames": 201
+    },
+    {
+     "text": "How long is A F?",
+     "caption": "How long is A F?",
+     "file": "2026-10-31-bisector-parallel/audio/e6365eb1d6170e6b.wav",
+     "from": 626,
+     "frames": 69
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-bisector-parallel/audio/b97a89671840f7ca.wav",
+     "from": 705,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1385,
+   "frames": 706,
+   "lines": [
+    {
+     "text": "So what do we know? The top line and B C never meet. They're parallel.",
+     "caption": "So what do we know? The top line and B C never meet. They're parallel.",
+     "file": "2026-10-31-bisector-parallel/audio/2fdf08fe3a138447.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "The line from B to F splits the corner at B into two equal angles. That's what bisector means.",
+     "caption": "The line from B to F splits the corner at B into two equal angles. That's what bisector means.",
+     "file": "2026-10-31-bisector-parallel/audio/91cf76d645cbe499.wav",
+     "from": 212,
+     "frames": 232
+    },
+    {
+     "text": "We want the length of A F, the piece of the top line from A to F.",
+     "caption": "We want the length of A F, the piece of the top line from A to F.",
+     "file": "2026-10-31-bisector-parallel/audio/50507128ed7fa269.wav",
+     "from": 454,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2091,
+   "frames": 478,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-bisector-parallel/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "chase",
+   "kind": "scene",
+   "chapter": "Solution 1: chase the angles",
+   "from": 2569,
+   "frames": 790,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: chase the angles.",
+     "caption": "Welcome back! Here's the strategy: chase the angles.",
+     "file": "2026-10-31-bisector-parallel/audio/9f2ffbc11107d643.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "The bisector splits angle B into two equal parts. Let's call each part x.",
+     "caption": "The bisector splits angle B into two equal parts. Let's call each part x.",
+     "file": "2026-10-31-bisector-parallel/audio/7041926d84e44383.wav",
+     "from": 147,
+     "frames": 184
+    },
+    {
+     "text": "Now look for a Z shape. The line B F crosses the two parallel lines.",
+     "caption": "Now look for a Z shape. The line B F crosses the two parallel lines.",
+     "file": "2026-10-31-bisector-parallel/audio/c50b9f9c3bd6f58e.wav",
+     "from": 341,
+     "frames": 182
+    },
+    {
+     "text": "Inside a Z, the two corner angles are equal. So the angle at F is also x!",
+     "caption": "Inside a Z, the two corner angles are equal. So the angle at F is also x!",
+     "file": "2026-10-31-bisector-parallel/audio/600001c19a001cf1.wav",
+     "from": 533,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "isosceles",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3359,
+   "frames": 917,
+   "lines": [
+    {
+     "text": "Now look at triangle A B F. It has two equal angles, both x.",
+     "caption": "Now look at triangle A B F. It has two equal angles, both x.",
+     "file": "2026-10-31-bisector-parallel/audio/fcb8ae4484c949ad.wav",
+     "from": 0,
+     "frames": 179
+    },
+    {
+     "text": "A triangle with two equal angles has two equal sides, the sides opposite those angles.",
+     "caption": "A triangle with two equal angles has two equal sides, the sides opposite those angles.",
+     "file": "2026-10-31-bisector-parallel/audio/0c9fea2a009870e7.wav",
+     "from": 189,
+     "frames": 194
+    },
+    {
+     "text": "Side A F sits across from the angle at B. Side A B sits across from the angle at F. So A F equals A B.",
+     "caption": "Side A F sits across from the angle at B. Side A B sits across from the angle at F. So A F equals A B.",
+     "file": "2026-10-31-bisector-parallel/audio/66270200f4c0550e.wav",
+     "from": 393,
+     "frames": 292
+    },
+    {
+     "text": "A B is ten, so A F is ten. That's Choice D!",
+     "caption": "A B is ten, so A F is ten. That's Choice D!",
+     "file": "2026-10-31-bisector-parallel/audio/fd2b3744c4b7a96d.wav",
+     "from": 695,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "rhombus",
+   "kind": "scene",
+   "chapter": "Solution 2: spot the rhombus",
+   "from": 4276,
+   "frames": 1787,
+   "lines": [
+    {
+     "text": "Here's another way to see it. Let's build a shape.",
+     "caption": "Here's another way to see it. Let's build a shape.",
+     "file": "2026-10-31-bisector-parallel/audio/e4671d3010a0f990.wav",
+     "from": 0,
+     "frames": 96
+    },
+    {
+     "text": "Mark a point G on B C so that B G is ten, the same as A B.",
+     "caption": "Mark a point G on B C so that B G is ten, the same as A B.",
+     "file": "2026-10-31-bisector-parallel/audio/a9cb6ed1e18a9cba.wav",
+     "from": 107,
+     "frames": 203
+    },
+    {
+     "text": "Now mark the spot ten along the top line from A. Let's check that the bisector lands exactly there.",
+     "caption": "Now mark the spot ten along the top line from A. Let's check that the bisector lands exactly there.",
+     "file": "2026-10-31-bisector-parallel/audio/6227e1639ee09c33.wav",
+     "from": 320,
+     "frames": 245
+    },
+    {
+     "text": "Join it up with A, B and G. The top and bottom are parallel and both ten.",
+     "caption": "Join it up with A, B and G. The top and bottom are parallel and both ten.",
+     "file": "2026-10-31-bisector-parallel/audio/08dd4c3c9e03f58e.wav",
+     "from": 576,
+     "frames": 200
+    },
+    {
+     "text": "Parallel and equal top and bottom make a parallelogram, so the slanted sides match too.",
+     "caption": "Parallel and equal top and bottom make a parallelogram, so the slanted sides match too.",
+     "file": "2026-10-31-bisector-parallel/audio/b841ae16cc56ba83.wav",
+     "from": 785,
+     "frames": 202
+    },
+    {
+     "text": "That's ten and ten. All four sides are ten. A rhombus!",
+     "caption": "That's ten and ten. All four sides are ten. A rhombus!",
+     "file": "2026-10-31-bisector-parallel/audio/a5add6bdd4d3daa9.wav",
+     "from": 997,
+     "frames": 160
+    },
+    {
+     "text": "A rhombus's diagonal cuts its corner exactly in half.",
+     "caption": "A rhombus's diagonal cuts its corner exactly in half.",
+     "file": "2026-10-31-bisector-parallel/audio/16928cedafc6fe31.wav",
+     "from": 1167,
+     "frames": 137
+    },
+    {
+     "text": "So the bisector from B goes right through that spot. It's F, ten from A. Same answer!",
+     "caption": "So the bisector from B goes right through that spot. It's F, ten from A. Same answer!",
+     "file": "2026-10-31-bisector-parallel/audio/5a3840a23ac9bc1e.wav",
+     "from": 1315,
+     "frames": 206
+    },
+    {
+     "text": "When would you pick this way? When you'd rather build a shape than chase angles. Both work!",
+     "caption": "When would you pick this way? When you'd rather build a shape than chase angles. Both work!",
+     "file": "2026-10-31-bisector-parallel/audio/6c8885019fec85a1.wav",
+     "from": 1530,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6063,
+   "frames": 1358,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-bisector-parallel/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "Choice B, six, is half of B C. That's a real length in the picture, but not A F.",
+     "caption": "Choice B, six, is half of B C. That's a real length in the picture, but not A F.",
+     "file": "2026-10-31-bisector-parallel/audio/5933f726f3bf3753.wav",
+     "from": 149,
+     "frames": 222
+    },
+    {
+     "text": "Choice E, twelve, is B C itself. A F is parallel to B C, but it isn't the same length.",
+     "caption": "Choice E, twelve, is B C itself. A F is parallel to B C, but it isn't the same length.",
+     "file": "2026-10-31-bisector-parallel/audio/639f5af8adb62b2f.wav",
+     "from": 382,
+     "frames": 248
+    },
+    {
+     "text": "Choice C, eight, is the height of the triangle, from A straight down to B C. That's a real length, but the wrong one.",
+     "caption": "Choice C, eight, is the height of the triangle, from A straight down to B C. That's a real length, but the wrong one.",
+     "file": "2026-10-31-bisector-parallel/audio/9a9761124c777826.wav",
+     "from": 640,
+     "frames": 267
+    },
+    {
+     "text": "Choice A, five, is what you'd get if you cut A B in half.",
+     "caption": "Choice A, five, is what you'd get if you cut A B in half.",
+     "file": "2026-10-31-bisector-parallel/audio/34ef78923d9ef4f0.wav",
+     "from": 916,
+     "frames": 158
+    },
+    {
+     "text": "So here's a great habit. When you see a bisector and a parallel line, look for an isosceles triangle.",
+     "caption": "So here's a great habit. When you see a bisector and a parallel line, look for an isosceles triangle.",
+     "file": "2026-10-31-bisector-parallel/audio/97a70ae2b02a0b96.wav",
+     "from": 1084,
+     "frames": 214
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a lopsided triangle",
+   "from": 7421,
+   "frames": 662,
+   "lines": [
+    {
+     "text": "Ready for a challenge? This triangle is lopsided.",
+     "caption": "Ready for a challenge? This triangle is lopsided.",
+     "file": "2026-10-31-bisector-parallel/audio/5f4ba7ba41331ccb.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "A B is seven, A C is nine, and B C is ten.",
+     "caption": "A B is seven, A C is nine, and B C is ten.",
+     "file": "2026-10-31-bisector-parallel/audio/9bef4938e7e4006e.wav",
+     "from": 134,
+     "frames": 176
+    },
+    {
+     "text": "Again, a line through A runs parallel to B C, and the bisector of angle B meets it at F.",
+     "caption": "Again, a line through A runs parallel to B C, and the bisector of angle B meets it at F.",
+     "file": "2026-10-31-bisector-parallel/audio/0841d70bd78d4387.wav",
+     "from": 320,
+     "frames": 234
+    },
+    {
+     "text": "How long is A F this time?",
+     "caption": "How long is A F this time?",
+     "file": "2026-10-31-bisector-parallel/audio/8b358b15010850a2.wav",
+     "from": 564,
+     "frames": 59
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8083,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-bisector-parallel/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Lopsided triangle: the answer",
+   "from": 8539,
+   "frames": 956,
+   "lines": [
+    {
+     "text": "Let's check. The bisector splits angle B into two equal angles, x and x.",
+     "caption": "Let's check. The bisector splits angle B into two equal angles, x and x.",
+     "file": "2026-10-31-bisector-parallel/audio/d6d3cfd7be83fcdf.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "The Z shape across the parallel lines makes the angle at F equal x too.",
+     "caption": "The Z shape across the parallel lines makes the angle at F equal x too.",
+     "file": "2026-10-31-bisector-parallel/audio/88ba0de2df8a0544.wav",
+     "from": 206,
+     "frames": 165
+    },
+    {
+     "text": "So triangle A B F has two equal angles, and A F equals A B.",
+     "caption": "So triangle A B F has two equal angles, and A F equals A B.",
+     "file": "2026-10-31-bisector-parallel/audio/2b570342d084ee6e.wav",
+     "from": 381,
+     "frames": 212
+    },
+    {
+     "text": "So the length of A F is seven!",
+     "caption": "So the length of A F is seven!",
+     "file": "2026-10-31-bisector-parallel/audio/89145620af74b012.wav",
+     "from": 603,
+     "frames": 82
+    },
+    {
+     "text": "Here's the sneaky part. The nine and the ten didn't matter at all. If you got seven, well done!",
+     "caption": "Here's the sneaky part. The nine and the ten didn't matter at all. If you got seven, well done!",
+     "file": "2026-10-31-bisector-parallel/audio/f261d3995d658c29.wav",
+     "from": 695,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 9495,
+   "frames": 650,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-bisector-parallel/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 82
+    },
+    {
+     "text": "A parallel line makes Z angles equal.",
+     "caption": "A parallel line makes Z angles equal.",
+     "file": "2026-10-31-bisector-parallel/audio/e522d66cf7593a36.wav",
+     "from": 92,
+     "frames": 105
+    },
+    {
+     "text": "So when a bisector crosses a parallel line, look for a triangle with two equal angles. Two of its sides match!",
+     "caption": "So when a bisector crosses a parallel line, look for a triangle with two equal angles. Two of its sides match!",
+     "file": "2026-10-31-bisector-parallel/audio/0a432a1adf84a7ed.wav",
+     "from": 207,
+     "frames": 244
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-bisector-parallel/audio/31a6054d0b03b932.wav",
+     "from": 461,
+     "frames": 106
+    }
+   ]
+  }
+ ]
+}

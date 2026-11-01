@@ -1,0 +1,492 @@
+{
+ "fps": 30,
+ "durationInFrames": 10507,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 534,
+   "lines": [
+    {
+     "text": "Jo bikes up a hill slowly, then zooms back down. What's her average speed?",
+     "caption": "Jo bikes up a hill slowly, then zooms back down. What's her average speed?",
+     "file": "2026-10-31-hill-average-speed/audio/bbc374ae92e288a4.wav",
+     "from": 0,
+     "frames": 177
+    },
+    {
+     "text": "Averaging the two speeds feels right. It's a trap, and there's a second trap hiding in the units!",
+     "caption": "Averaging the two speeds feels right. It's a trap, and there's a second trap hiding in the units!",
+     "file": "2026-10-31-hill-average-speed/audio/b0a06a8cc4ea04b4.wav",
+     "from": 187,
+     "frames": 186
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's ride this one carefully.",
+     "caption": "Hi, I'm Vantee! Let's ride this one carefully.",
+     "file": "2026-10-31-hill-average-speed/audio/9f67bcc692023924.wav",
+     "from": 383,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 534,
+   "frames": 698,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-hill-average-speed/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "Jo bikes up a three kilometer hill at twelve kilometers per hour.",
+     "caption": "Jo bikes up a three kilometer hill at twelve kilometers per hour.",
+     "file": "2026-10-31-hill-average-speed/audio/795f1f33b7273097.wav",
+     "from": 57,
+     "frames": 142
+    },
+    {
+     "text": "She then bikes back down the same hill at ten meters per second.",
+     "caption": "She then bikes back down the same hill at ten meters per second.",
+     "file": "2026-10-31-hill-average-speed/audio/8836a1e01344f5d7.wav",
+     "from": 209,
+     "frames": 137
+    },
+    {
+     "text": "What is her average speed for the whole round trip, in kilometers per hour?",
+     "caption": "What is her average speed for the whole round trip, in kilometers per hour?",
+     "file": "2026-10-31-hill-average-speed/audio/d98662700fa02635.wav",
+     "from": 357,
+     "frames": 154
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-hill-average-speed/audio/b97a89671840f7ca.wav",
+     "from": 521,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1232,
+   "frames": 591,
+   "lines": [
+    {
+     "text": "So what do we know? Three kilometers up, then the same three kilometers down.",
+     "caption": "So what do we know? Three kilometers up, then the same three kilometers down.",
+     "file": "2026-10-31-hill-average-speed/audio/4637ecb682fd9a08.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "Watch out: the two speeds use different units. Kilometers per hour, and meters per second.",
+     "caption": "Watch out: the two speeds use different units. Kilometers per hour, and meters per second.",
+     "file": "2026-10-31-hill-average-speed/audio/87400b0bc019f5f8.wav",
+     "from": 183,
+     "frames": 197
+    },
+    {
+     "text": "Average speed means total distance divided by total time.",
+     "caption": "Average speed means total distance divided by total time.",
+     "file": "2026-10-31-hill-average-speed/audio/25d0035f0fe760d1.wav",
+     "from": 390,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1823,
+   "frames": 459,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-hill-average-speed/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "convert",
+   "kind": "scene",
+   "chapter": "Solution 1: total distance over total time",
+   "from": 2282,
+   "frames": 1077,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: find the total distance and the total time.",
+     "caption": "Welcome back! Here's the strategy: find the total distance and the total time.",
+     "file": "2026-10-31-hill-average-speed/audio/5714987fb2483151.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "First, let's fix the units. Ten meters per second means ten meters every second.",
+     "caption": "First, let's fix the units. Ten meters per second means ten meters every second.",
+     "file": "2026-10-31-hill-average-speed/audio/b13cf9cd8bbf4358.wav",
+     "from": 240,
+     "frames": 203
+    },
+    {
+     "text": "An hour has three thousand six hundred seconds.",
+     "caption": "An hour has three thousand six hundred seconds.",
+     "file": "2026-10-31-hill-average-speed/audio/b3a89e8d5b5e0cb9.wav",
+     "from": 453,
+     "frames": 129
+    },
+    {
+     "text": "So in an hour she'd go ten times three thousand six hundred, thirty-six thousand meters.",
+     "caption": "So in an hour she'd go ten times three thousand six hundred, thirty-six thousand meters.",
+     "file": "2026-10-31-hill-average-speed/audio/00d98276d2402d2d.wav",
+     "from": 592,
+     "frames": 221
+    },
+    {
+     "text": "That's thirty-six kilometers. So going down, her speed is thirty-six kilometers per hour.",
+     "caption": "That's thirty-six kilometers. So going down, her speed is thirty-six kilometers per hour.",
+     "file": "2026-10-31-hill-average-speed/audio/b325d32d7b419aa0.wav",
+     "from": 824,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "times",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3359,
+   "frames": 1224,
+   "lines": [
+    {
+     "text": "Going up, three kilometers at twelve kilometers per hour takes a quarter of an hour. That's fifteen minutes.",
+     "caption": "Going up, three kilometers at twelve kilometers per hour takes a quarter of an hour. That's fifteen minutes.",
+     "file": "2026-10-31-hill-average-speed/audio/75de8dfbe93b9ef7.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "Going down, three kilometers at thirty-six kilometers per hour takes a twelfth of an hour.",
+     "caption": "Going down, three kilometers at thirty-six kilometers per hour takes a twelfth of an hour.",
+     "file": "2026-10-31-hill-average-speed/audio/20f5bebf6752410f.wav",
+     "from": 226,
+     "frames": 172
+    },
+    {
+     "text": "That's five minutes.",
+     "caption": "That's five minutes.",
+     "file": "2026-10-31-hill-average-speed/audio/68ca8f1029b261ae.wav",
+     "from": 408,
+     "frames": 54
+    },
+    {
+     "text": "In total, she rides six kilometers in twenty minutes.",
+     "caption": "In total, she rides six kilometers in twenty minutes.",
+     "file": "2026-10-31-hill-average-speed/audio/21a660ec5d998783.wav",
+     "from": 473,
+     "frames": 124
+    },
+    {
+     "text": "Twenty minutes is a third of an hour. So in a whole hour, at that pace, she'd go three times as far.",
+     "caption": "Twenty minutes is a third of an hour. So in a whole hour, at that pace, she'd go three times as far.",
+     "file": "2026-10-31-hill-average-speed/audio/c123848a991b5091.wav",
+     "from": 607,
+     "frames": 234
+    },
+    {
+     "text": "Six times three is eighteen. Her average speed is eighteen kilometers per hour.",
+     "caption": "Six times three is eighteen. Her average speed is eighteen kilometers per hour.",
+     "file": "2026-10-31-hill-average-speed/audio/65c921a140a76857.wav",
+     "from": 851,
+     "frames": 185
+    },
+    {
+     "text": "The answer is eighteen. That's Choice B!",
+     "caption": "The answer is eighteen. That's Choice B!",
+     "file": "2026-10-31-hill-average-speed/audio/8efece21bc3fa885.wav",
+     "from": 1047,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "friendly",
+   "kind": "scene",
+   "chapter": "Solution 2: pick a friendly hill",
+   "from": 4583,
+   "frames": 1129,
+   "lines": [
+    {
+     "text": "Here's a clever shortcut. The length of the hill doesn't change the average, because both times grow together.",
+     "caption": "Here's a clever shortcut. The length of the hill doesn't change the average, because both times grow together.",
+     "file": "2026-10-31-hill-average-speed/audio/561a3549bb25a3d3.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "So pick a friendly length, like thirty-six kilometers!",
+     "caption": "So pick a friendly length, like thirty-six kilometers!",
+     "file": "2026-10-31-hill-average-speed/audio/3440d93b062ee6d6.wav",
+     "from": 225,
+     "frames": 114
+    },
+    {
+     "text": "Going up at twelve takes three hours. Going down at thirty-six takes one hour.",
+     "caption": "Going up at twelve takes three hours. Going down at thirty-six takes one hour.",
+     "file": "2026-10-31-hill-average-speed/audio/8e98439b9857538a.wav",
+     "from": 350,
+     "frames": 190
+    },
+    {
+     "text": "That's seventy-two kilometers in four hours. Seventy-two divided by four is eighteen. Same answer!",
+     "caption": "That's seventy-two kilometers in four hours. Seventy-two divided by four is eighteen. Same answer!",
+     "file": "2026-10-31-hill-average-speed/audio/2e46ce852679b86a.wav",
+     "from": 550,
+     "frames": 234
+    },
+    {
+     "text": "When would you pick this way? When the distance makes awkward fractions.",
+     "caption": "When would you pick this way? When the distance makes awkward fractions.",
+     "file": "2026-10-31-hill-average-speed/audio/6e05325a62a5e74b.wav",
+     "from": 794,
+     "frames": 147
+    },
+    {
+     "text": "Choose one both speeds divide.",
+     "caption": "Choose one both speeds divide.",
+     "file": "2026-10-31-hill-average-speed/audio/8e2e668e240b099e.wav",
+     "from": 951,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 5712,
+   "frames": 1623,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-hill-average-speed/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "Choice A, eleven, is the average of twelve and ten. That mixes kilometers per hour with meters per second.",
+     "caption": "Choice A, eleven, is the average of twelve and ten. That mixes kilometers per hour with meters per second.",
+     "file": "2026-10-31-hill-average-speed/audio/40e828d18040c146.wav",
+     "from": 127,
+     "frames": 224
+    },
+    {
+     "text": "Choice C, twenty-two, is twelve plus ten. Adding speeds doesn't make sense at all.",
+     "caption": "Choice C, twenty-two, is twelve plus ten. Adding speeds doesn't make sense at all.",
+     "file": "2026-10-31-hill-average-speed/audio/f53d02887bdce6a8.wav",
+     "from": 361,
+     "frames": 185
+    },
+    {
+     "text": "Choice E, thirty-six, is just the downhill speed, not the whole trip.",
+     "caption": "Choice E, thirty-six, is just the downhill speed, not the whole trip.",
+     "file": "2026-10-31-hill-average-speed/audio/51b5b4074dabc93d.wav",
+     "from": 556,
+     "frames": 146
+    },
+    {
+     "text": "Choice D, twenty-four, is the average of twelve and thirty-six. The units are right, but it's still a trap!",
+     "caption": "Choice D, twenty-four, is the average of twelve and thirty-six. The units are right, but it's still a trap!",
+     "file": "2026-10-31-hill-average-speed/audio/7b370393b1378465.wav",
+     "from": 712,
+     "frames": 234
+    },
+    {
+     "text": "She spends fifteen minutes going slowly and only five minutes going fast.",
+     "caption": "She spends fifteen minutes going slowly and only five minutes going fast.",
+     "file": "2026-10-31-hill-average-speed/audio/be03aa555f12d78d.wav",
+     "from": 956,
+     "frames": 166
+    },
+    {
+     "text": "The slow part counts for more time, so the average is lower.",
+     "caption": "The slow part counts for more time, so the average is lower.",
+     "file": "2026-10-31-hill-average-speed/audio/78cc9855f95895c0.wav",
+     "from": 1132,
+     "frames": 137
+    },
+    {
+     "text": "So here's a great habit. Average speed is total distance over total time. Never just average the speeds.",
+     "caption": "So here's a great habit. Average speed is total distance over total time. Never just average the speeds.",
+     "file": "2026-10-31-hill-average-speed/audio/e302ab45cfc21f4c.wav",
+     "from": 1280,
+     "frames": 284
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a gentler hill",
+   "from": 7335,
+   "frames": 448,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Max bikes up a three kilometer hill at nine kilometers per hour.",
+     "caption": "Ready for a challenge? Max bikes up a three kilometer hill at nine kilometers per hour.",
+     "file": "2026-10-31-hill-average-speed/audio/e04d93817757d2d6.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "He comes back down at five meters per second. What's his average speed, in kilometers per hour?",
+     "caption": "He comes back down at five meters per second. What's his average speed, in kilometers per hour?",
+     "file": "2026-10-31-hill-average-speed/audio/4875aa6b5cb791fa.wav",
+     "from": 204,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 7783,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-hill-average-speed/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Gentler hill: the answer",
+   "from": 8236,
+   "frames": 1584,
+   "lines": [
+    {
+     "text": "Let's check.",
+     "caption": "Let's check.",
+     "file": "2026-10-31-hill-average-speed/audio/be51ca54da043fb2.wav",
+     "from": 0,
+     "frames": 36
+    },
+    {
+     "text": "Five meters per second is five times three thousand six hundred, eighteen thousand meters an hour.",
+     "caption": "Five meters per second is five times three thousand six hundred, eighteen thousand meters an hour.",
+     "file": "2026-10-31-hill-average-speed/audio/87eb6cdf2b73c96e.wav",
+     "from": 47,
+     "frames": 231
+    },
+    {
+     "text": "That's eighteen kilometers per hour.",
+     "caption": "That's eighteen kilometers per hour.",
+     "file": "2026-10-31-hill-average-speed/audio/86cd18231ac19d2a.wav",
+     "from": 288,
+     "frames": 87
+    },
+    {
+     "text": "Going up takes a third of an hour, twenty minutes. Going down takes a sixth of an hour, ten minutes.",
+     "caption": "Going up takes a third of an hour, twenty minutes. Going down takes a sixth of an hour, ten minutes.",
+     "file": "2026-10-31-hill-average-speed/audio/f0dba278910463ae.wav",
+     "from": 385,
+     "frames": 239
+    },
+    {
+     "text": "In total, he rides six kilometers in thirty minutes.",
+     "caption": "In total, he rides six kilometers in thirty minutes.",
+     "file": "2026-10-31-hill-average-speed/audio/11cc3583e90568b9.wav",
+     "from": 634,
+     "frames": 130
+    },
+    {
+     "text": "Thirty minutes is half an hour, so in a whole hour he'd go twice as far. Six times two is twelve kilometers per hour!",
+     "caption": "Thirty minutes is half an hour, so in a whole hour he'd go twice as far. Six times two is twelve kilometers per hour!",
+     "file": "2026-10-31-hill-average-speed/audio/dfe65eacfb440021.wav",
+     "from": 774,
+     "frames": 278
+    },
+    {
+     "text": "Here's the sneaky part. Averaging nine and eighteen gives more than thirteen.",
+     "caption": "Here's the sneaky part. Averaging nine and eighteen gives more than thirteen.",
+     "file": "2026-10-31-hill-average-speed/audio/1594ac52e3f1bd4b.wav",
+     "from": 1062,
+     "frames": 189
+    },
+    {
+     "text": "The real answer is lower, because the slow part takes longer.",
+     "caption": "The real answer is lower, because the slow part takes longer.",
+     "file": "2026-10-31-hill-average-speed/audio/4fbf858c1668d960.wav",
+     "from": 1261,
+     "frames": 141
+    },
+    {
+     "text": "If you got twelve, amazing work!",
+     "caption": "If you got twelve, amazing work!",
+     "file": "2026-10-31-hill-average-speed/audio/1911c11eadfd2759.wav",
+     "from": 1412,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 9820,
+   "frames": 687,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-hill-average-speed/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "First, make the units match. Then find the total distance and the total time.",
+     "caption": "First, make the units match. Then find the total distance and the total time.",
+     "file": "2026-10-31-hill-average-speed/audio/9e4461674cf7a412.wav",
+     "from": 86,
+     "frames": 171
+    },
+    {
+     "text": "Average speed is total distance divided by total time. Don't average the two speeds!",
+     "caption": "Average speed is total distance divided by total time. Don't average the two speeds!",
+     "file": "2026-10-31-hill-average-speed/audio/0dd6f4f660b60bca.wav",
+     "from": 267,
+     "frames": 208
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-hill-average-speed/audio/31a6054d0b03b932.wav",
+     "from": 485,
+     "frames": 118
+    }
+   ]
+  }
+ ]
+}

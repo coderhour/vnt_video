@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 12316,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 458,
+   "lines": [
+    {
+     "text": "Nine squares, three colors, and the center one is already red.",
+     "caption": "Nine squares, three colors, and the center one is already red.",
+     "file": "2026-10-30-grid-coloring/audio/9c6c676dfad2d941.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Neighbors can't match. <short pause> How many ways can we color the rest?",
+     "caption": "Neighbors can't match. How many ways can we color the rest?",
+     "file": "2026-10-30-grid-coloring/audio/a416bb2f09ba15b7.wav",
+     "from": 148,
+     "frames": 154
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count them together.",
+     "caption": "Hi, I'm Vantee! Let's count them together.",
+     "file": "2026-10-30-grid-coloring/audio/fab6650545d72a2e.wav",
+     "from": 313,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 458,
+   "frames": 715,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-grid-coloring/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 42
+    },
+    {
+     "text": "Each square of this three by three grid is colored red, blue or green.",
+     "caption": "Each square of this three by three grid is colored red, blue or green.",
+     "file": "2026-10-30-grid-coloring/audio/dcbb881bf06cd3e9.wav",
+     "from": 53,
+     "frames": 171
+    },
+    {
+     "text": "The center square is red. Squares that share a side must be different colors.",
+     "caption": "The center square is red. Squares that share a side must be different colors.",
+     "file": "2026-10-30-grid-coloring/audio/6eb586ecbe0b5885.wav",
+     "from": 234,
+     "frames": 164
+    },
+    {
+     "text": "Not every color has to be used. How many colorings are there?",
+     "caption": "Not every color has to be used. How many colorings are there?",
+     "file": "2026-10-30-grid-coloring/audio/f2f32b590f1e39d1.wav",
+     "from": 407,
+     "frames": 130
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-grid-coloring/audio/b97a89671840f7ca.wav",
+     "from": 548,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1173,
+   "frames": 541,
+   "lines": [
+    {
+     "text": "Four squares share a side with the center. Let's call them the edge squares.",
+     "caption": "Four squares share a side with the center. Let's call them the edge squares.",
+     "file": "2026-10-30-grid-coloring/audio/d0237a2ddc5a4b45.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "The other four are the corners. Each corner touches two edge squares, but NOT the center.",
+     "caption": "The other four are the corners. Each corner touches two edge squares, but NOT the center.",
+     "file": "2026-10-30-grid-coloring/audio/128edabfd55f7c09.wav",
+     "from": 171,
+     "frames": 188
+    },
+    {
+     "text": "We need to count every way to color these eight squares.",
+     "caption": "We need to count every way to color these eight squares.",
+     "file": "2026-10-30-grid-coloring/audio/f777fbbfae362d62.wav",
+     "from": 369,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1714,
+   "frames": 475,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-grid-coloring/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "edges",
+   "kind": "scene",
+   "chapter": "Solution 1: edges first",
+   "from": 2189,
+   "frames": 1381,
+   "lines": [
+    {
+     "text": "Welcome back! Let's color the edge squares first. Each one touches red, so it's blue or green.",
+     "caption": "Welcome back! Let's color the edge squares first. Each one touches red, so it's blue or green.",
+     "file": "2026-10-30-grid-coloring/audio/41e58d15a227c1fb.wav",
+     "from": 0,
+     "frames": 232
+    },
+    {
+     "text": "Two choices, four times. Two times two times two times two is sixteen edge patterns.",
+     "caption": "Two choices, four times. Two times two times two times two is sixteen edge patterns.",
+     "file": "2026-10-30-grid-coloring/audio/c2a7b9104954b871.wav",
+     "from": 242,
+     "frames": 230
+    },
+    {
+     "text": "Now look at one corner. Say its two edge neighbors are both blue.",
+     "caption": "Now look at one corner. Say its two edge neighbors are both blue.",
+     "file": "2026-10-30-grid-coloring/audio/d3cffde7890e99a0.wav",
+     "from": 482,
+     "frames": 160
+    },
+    {
+     "text": "It can't be blue. Red is fine, since it doesn't touch the center. So red or green: two options.",
+     "caption": "It can't be blue. Red is fine, since it doesn't touch the center. So red or green: two options.",
+     "file": "2026-10-30-grid-coloring/audio/625dedb25cedeabb.wav",
+     "from": 652,
+     "frames": 230
+    },
+    {
+     "text": "Now say its neighbors are blue and green. Both are out, so the corner must be red. Just one option.",
+     "caption": "Now say its neighbors are blue and green. Both are out, so the corner must be red. Just one option.",
+     "file": "2026-10-30-grid-coloring/audio/de0e0d540a5090f9.wav",
+     "from": 891,
+     "frames": 256
+    },
+    {
+     "text": "So a corner has two options when its neighbors match, and one when they don't.",
+     "caption": "So a corner has two options when its neighbors match, and one when they don't.",
+     "file": "2026-10-30-grid-coloring/audio/9936d87d769504a5.wav",
+     "from": 1157,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "groups",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3570,
+   "frames": 1756,
+   "lines": [
+    {
+     "text": "Let's sort the sixteen edge patterns by how many corners get two options.",
+     "caption": "Let's sort the sixteen edge patterns by how many corners get two options.",
+     "file": "2026-10-30-grid-coloring/audio/100366b64a78f6dc.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "First, all four edges match: all blue, or all green. That's two patterns.",
+     "caption": "First, all four edges match: all blue, or all green. That's two patterns.",
+     "file": "2026-10-30-grid-coloring/audio/e442a0f21d621623.wav",
+     "from": 177,
+     "frames": 208
+    },
+    {
+     "text": "Every corner gets two options: sixteen colorings each. Two times sixteen is thirty-two.",
+     "caption": "Every corner gets two options: sixteen colorings each. Two times sixteen is thirty-two.",
+     "file": "2026-10-30-grid-coloring/audio/7890db315ba1c2cc.wav",
+     "from": 395,
+     "frames": 228
+    },
+    {
+     "text": "Next, the colors take turns around the ring, like a checkerboard. Again, two patterns.",
+     "caption": "Next, the colors take turns around the ring, like a checkerboard. Again, two patterns.",
+     "file": "2026-10-30-grid-coloring/audio/c6e419626a3823d8.wav",
+     "from": 634,
+     "frames": 222
+    },
+    {
+     "text": "No corner has matching neighbors, so all four corners are red. One coloring each, so that's two.",
+     "caption": "No corner has matching neighbors, so all four corners are red. One coloring each, so that's two.",
+     "file": "2026-10-30-grid-coloring/audio/ded31862bfbcf5a7.wav",
+     "from": 866,
+     "frames": 240
+    },
+    {
+     "text": "That leaves twelve patterns. Eight split three and one. Four split two and two, side by side.",
+     "caption": "That leaves twelve patterns. Eight split three and one. Four split two and two, side by side.",
+     "file": "2026-10-30-grid-coloring/audio/2c506c1973283094.wav",
+     "from": 1117,
+     "frames": 213
+    },
+    {
+     "text": "Either way, exactly two corners have matching neighbors. So each gives two times two, which is four.",
+     "caption": "Either way, exactly two corners have matching neighbors. So each gives two times two, which is four.",
+     "file": "2026-10-30-grid-coloring/audio/1311000b7bd3afb4.wav",
+     "from": 1339,
+     "frames": 233
+    },
+    {
+     "text": "Twelve patterns times four is forty-eight.",
+     "caption": "Twelve patterns times four is forty-eight.",
+     "file": "2026-10-30-grid-coloring/audio/e90cd3bee4f538cc.wav",
+     "from": 1583,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "total1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5326,
+   "frames": 258,
+   "lines": [
+    {
+     "text": "Thirty-two, plus forty-eight, plus two, is eighty-two! The answer is D.",
+     "caption": "Thirty-two, plus forty-eight, plus two, is eighty-two! The answer is D.",
+     "file": "2026-10-30-grid-coloring/audio/7401bbc0d11a9231.wav",
+     "from": 0,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "corners",
+   "kind": "scene",
+   "chapter": "Solution 2: count non-red corners",
+   "from": 5584,
+   "frames": 2485,
+   "lines": [
+    {
+     "text": "Here's a second way. Let's sort colorings by how many corners are NOT red.",
+     "caption": "Here's a second way. Let's sort colorings by how many corners are NOT red.",
+     "file": "2026-10-30-grid-coloring/audio/a7aca4eec42f4957.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "A red corner is always safe, because edge squares are never red.",
+     "caption": "A red corner is always safe, because edge squares are never red.",
+     "file": "2026-10-30-grid-coloring/audio/f214dfa714213938.wav",
+     "from": 171,
+     "frames": 161
+    },
+    {
+     "text": "A corner that isn't red needs matching neighbors. If they're both blue, it must be green.",
+     "caption": "A corner that isn't red needs matching neighbors. If they're both blue, it must be green.",
+     "file": "2026-10-30-grid-coloring/audio/dabb3dba3475c682.wav",
+     "from": 343,
+     "frames": 186
+    },
+    {
+     "text": "No non-red corners: every corner is red, and the edges are free. That's sixteen.",
+     "caption": "No non-red corners: every corner is red, and the edges are free. That's sixteen.",
+     "file": "2026-10-30-grid-coloring/audio/45d6af2167d547bc.wav",
+     "from": 539,
+     "frames": 208
+    },
+    {
+     "text": "One non-red corner: four to pick. Its two neighbors match: two ways.",
+     "caption": "One non-red corner: four to pick. Its two neighbors match: two ways.",
+     "file": "2026-10-30-grid-coloring/audio/ed478ac29b7105fb.wav",
+     "from": 757,
+     "frames": 208
+    },
+    {
+     "text": "The other two edges are free: four ways. Four times two times four is thirty-two.",
+     "caption": "The other two edges are free: four ways. Four times two times four is thirty-two.",
+     "file": "2026-10-30-grid-coloring/audio/2a3c89045b7c47ff.wav",
+     "from": 976,
+     "frames": 213
+    },
+    {
+     "text": "Two on the same side: four pairs. Three edges match, one is free: four ways each. That's sixteen.",
+     "caption": "Two on the same side: four pairs. Three edges match, one is free: four ways each. That's sixteen.",
+     "file": "2026-10-30-grid-coloring/audio/d554db75e36ef33a.wav",
+     "from": 1198,
+     "frames": 255
+    },
+    {
+     "text": "Two opposite corners: two pairs. Each needs its own matching edges: four ways each. That's eight.",
+     "caption": "Two opposite corners: two pairs. Each needs its own matching edges: four ways each. That's eight.",
+     "file": "2026-10-30-grid-coloring/audio/75152bb5d9f5aa0d.wav",
+     "from": 1463,
+     "frames": 236
+    },
+    {
+     "text": "Three non-red corners: four to pick, and all edges match. That's eight. All four non-red: two.",
+     "caption": "Three non-red corners: four to pick, and all edges match. That's eight. All four non-red: two.",
+     "file": "2026-10-30-grid-coloring/audio/92d083399dab1a53.wav",
+     "from": 1709,
+     "frames": 261
+    },
+    {
+     "text": "Sixteen plus thirty-two plus sixteen plus eight plus eight plus two is eighty-two. It matches!",
+     "caption": "Sixteen plus thirty-two plus sixteen plus eight plus eight plus two is eighty-two. It matches!",
+     "file": "2026-10-30-grid-coloring/audio/0074a3882cf0e631.wav",
+     "from": 1980,
+     "frames": 251
+    },
+    {
+     "text": "When would you pick this way? Edges first is quicker. This way is a great double-check.",
+     "caption": "When would you pick this way? Edges first is quicker. This way is a great double-check.",
+     "file": "2026-10-30-grid-coloring/audio/81f3161f24472b3d.wav",
+     "from": 2241,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8069,
+   "frames": 1189,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-grid-coloring/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "Sixteen counts only the edge patterns. It forgets to color the corners.",
+     "caption": "Sixteen counts only the edge patterns. It forgets to color the corners.",
+     "file": "2026-10-30-grid-coloring/audio/a0e4b437391ace70.wav",
+     "from": 137,
+     "frames": 153
+    },
+    {
+     "text": "Thirty-two is what you'd get if you only kept the patterns where all four edges match.",
+     "caption": "Thirty-two is what you'd get if you only kept the patterns where all four edges match.",
+     "file": "2026-10-30-grid-coloring/audio/4981ee4b561759b3.wav",
+     "from": 300,
+     "frames": 162
+    },
+    {
+     "text": "Eighty-one is three to the fourth, a tempting guess. Or what you'd get if you missed one coloring.",
+     "caption": "Eighty-one is three to the fourth, a tempting guess. Or what you'd get if you missed one coloring.",
+     "file": "2026-10-30-grid-coloring/audio/08b5e9ba2ee19541.wav",
+     "from": 473,
+     "frames": 225
+    },
+    {
+     "text": "One hundred sixty-two is what you'd get if you doubled eighty-one. That's far too many.",
+     "caption": "One hundred sixty-two is what you'd get if you doubled eighty-one. That's far too many.",
+     "file": "2026-10-30-grid-coloring/audio/8ae0cc14296b55b4.wav",
+     "from": 708,
+     "frames": 178
+    },
+    {
+     "text": "So here's a great habit. When choices depend on the neighbors, split into cases and count each one.",
+     "caption": "So here's a great habit. When choices depend on the neighbors, split into cases and count each one.",
+     "file": "2026-10-30-grid-coloring/audio/54ae0a6fdbca6d36.wav",
+     "from": 896,
+     "frames": 233
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a two by three grid",
+   "from": 9258,
+   "frames": 413,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a two by three grid, with the same three colors.",
+     "caption": "Ready for a challenge? Here's a two by three grid, with the same three colors.",
+     "file": "2026-10-30-grid-coloring/audio/84780ed9a09a306d.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "The middle of the bottom row is red, and neighbors must differ. How many colorings are there?",
+     "caption": "The middle of the bottom row is red, and neighbors must differ. How many colorings are there?",
+     "file": "2026-10-30-grid-coloring/audio/c4bbb4c58fd46148.wav",
+     "from": 179,
+     "frames": 195
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9671,
+   "frames": 457,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-grid-coloring/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Two by three grid: the answer",
+   "from": 10128,
+   "frames": 1530,
+   "lines": [
+    {
+     "text": "Let's check. Three squares touch the red one: bottom left, bottom right, and top middle.",
+     "caption": "Let's check. Three squares touch the red one: bottom left, bottom right, and top middle.",
+     "file": "2026-10-30-grid-coloring/audio/b837bacb45605467.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "Each is blue or green. Two times two times two is eight patterns.",
+     "caption": "Each is blue or green. Two times two times two is eight patterns.",
+     "file": "2026-10-30-grid-coloring/audio/705727f2221adff6.wav",
+     "from": 247,
+     "frames": 177
+    },
+    {
+     "text": "Each top corner touches the top middle square and one bottom square.",
+     "caption": "Each top corner touches the top middle square and one bottom square.",
+     "file": "2026-10-30-grid-coloring/audio/60389615f6b4eabc.wav",
+     "from": 434,
+     "frames": 149
+    },
+    {
+     "text": "If all three match: two patterns, with two times two, four colorings each. That's eight.",
+     "caption": "If all three match: two patterns, with two times two, four colorings each. That's eight.",
+     "file": "2026-10-30-grid-coloring/audio/cbd36e73e13def4a.wav",
+     "from": 593,
+     "frames": 246
+    },
+    {
+     "text": "If just one bottom square matches the top middle: four patterns, two colorings each. That's eight.",
+     "caption": "If just one bottom square matches the top middle: four patterns, two colorings each. That's eight.",
+     "file": "2026-10-30-grid-coloring/audio/6d0d3379bc5722da.wav",
+     "from": 850,
+     "frames": 219
+    },
+    {
+     "text": "If neither matches: two patterns, with one coloring each. That's two.",
+     "caption": "If neither matches: two patterns, with one coloring each. That's two.",
+     "file": "2026-10-30-grid-coloring/audio/6aff7b0874487de5.wav",
+     "from": 1078,
+     "frames": 166
+    },
+    {
+     "text": "Eight plus eight plus two is eighteen! If you found eighteen, amazing work!",
+     "caption": "Eight plus eight plus two is eighteen! If you found eighteen, amazing work!",
+     "file": "2026-10-30-grid-coloring/audio/e59083ade5be0f77.wav",
+     "from": 1255,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11658,
+   "frames": 658,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-grid-coloring/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 72
+    },
+    {
+     "text": "Color the squares next to the red center first. Each one is blue or green.",
+     "caption": "Color the squares next to the red center first. Each one is blue or green.",
+     "file": "2026-10-30-grid-coloring/audio/d8669781f512c68e.wav",
+     "from": 82,
+     "frames": 172
+    },
+    {
+     "text": "Then a corner gets two options when its neighbors match, and just one when they don't.",
+     "caption": "Then a corner gets two options when its neighbors match, and just one when they don't.",
+     "file": "2026-10-30-grid-coloring/audio/f3c24ee72f990b14.wav",
+     "from": 265,
+     "frames": 185
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-grid-coloring/audio/31a6054d0b03b932.wav",
+     "from": 460,
+     "frames": 114
+    }
+   ]
+  }
+ ]
+}

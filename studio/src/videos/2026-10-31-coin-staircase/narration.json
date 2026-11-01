@@ -1,0 +1,165 @@
+{
+ "title": "Will She Land on Step 5? A Coin-Flip Staircase | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A staircase drawn side-on, steps numbered 0 (ground) to 7; a small round token 'Pia' hops up 1 or 2 steps, a coin flipping above showing H or T. Step 5 highlighted gold. Line 2: token jumps from 4 to 6, skipping 5, a little 'whoosh' arc. Line 3: Vantee title card.",
+   "lines": [
+    "Pia climbs a staircase, flipping a coin before every move. Will she land on step five?",
+    "Sometimes she does. Sometimes she jumps right over it!",
+    "Hello, I'm Vantee! Let's work out the chance."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left; staircase right (steps 0 to 7, Pia on step 0 = ground). Line 3: coin H → +1 arrow. Line 4: coin T → +2 arrow. Line 5: step 5 glows. Line 6: chips 1/2, 8/13, 5/8, 21/32, 11/16 (KaTeX \\dfrac, ≥48px).",
+   "lines": [
+    "Here's the question.",
+    "Pia climbs a long staircase. Before each move, she flips a fair coin.",
+    "On heads, she goes up one step.",
+    "On tails, she goes up two steps.",
+    "What is the probability that she stands on step five?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: Pia on the ground labeled 'step 0'. Line 2: 'heads: 1/2, tails: 1/2'. Line 3: two example climbs: one landing on 5 (green), one jumping 4→6 (red).",
+   "lines": [
+    "So what do we know? Pia starts on the ground, below step one.",
+    "Each flip is a fair coin: heads, one step, or tails, two steps.",
+    "We want the chance that she actually stands on step five at some point, instead of jumping over it."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; staircase visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "list",
+   "chapter": "Solution 1: make a list",
+   "hold": 1,
+   "visual": "A list panel grows one group at a time; each climb shown as a row of chips '1' and '2' (e.g. 1 1 1 1 1). Line 2: row '1 1 1 1 1' with prob '(1/2)^5 = 1/32'. Line 3: four rows with one '2' (2 1 1 1, 1 2 1 1, 1 1 2 1, 1 1 1 2), each '1/16'. Line 4: three rows with two '2's (2 2 1, 2 1 2, 1 2 2), each '1/8'.",
+   "lines": [
+    "Welcome back! Here's the strategy: make a list of every way to reach step five.",
+    "All ones: one, one, one, one, one.",
+    "That's five flips, so the chance is one over two, five times. One over thirty-two.",
+    "One two and three ones. The two can go in four places, and each takes four flips.",
+    "Each one is one over sixteen.",
+    "Two twos and one one. The one can go in three places, three flips each. Each one is one over eight."
+   ]
+  },
+  {
+   "id": "list2",
+   "hold": 1.5,
+   "visual": "Line 1: '1/32 + 4 × 1/16 + 3 × 1/8'. Line 2: converted '1/32 + 8/32 + 12/32'. Line 3: '= 21/32'. Line 4: answer badge '21/32' with chime at end of line, choice D highlighted. All fractions \\dfrac.",
+   "lines": [
+    "Now add them up: one over thirty-two, plus four times one over sixteen, plus three times one over eight.",
+    "Over thirty-two, that's one, plus eight, plus twelve.",
+    "One plus eight plus twelve is twenty-one. So the chance is twenty-one over thirty-two.",
+    "The answer is twenty-one over thirty-two. That's Choice D!"
+   ]
+  },
+  {
+   "id": "ladder",
+   "chapter": "Solution 2: climb the ladder",
+   "hold": 1,
+   "visual": "Staircase with a probability label on each step, filled in one per line. Line 2: arrows into step n from step n−1 (H) and n−2 (T). Line 3: step 0 = 1, step 1 = 1/2. Line 4: step 2 = (1/2 + 1)/2 = 3/4. Line 5: step 3 = (3/4 + 1/2)/2 = 5/8, step 4 = (5/8 + 3/4)/2 = 11/16. Equation rows on a right panel.",
+   "lines": [
+    "Here's a faster way: work up the stairs, one step at a time.",
+    "To stand on a step, you come from one below with heads, or from two below with tails. Each move has a one over two chance.",
+    "So the chance is half of one step's chance, plus half of the other's. That's their average.",
+    "She's on the ground for sure, that's one. Step one needs heads first: one over two.",
+    "Step two is the average of one over two and one. That's three over four.",
+    "Step three: the average of three over four and one over two is five over eight.",
+    "Step four: the average of five over eight and three over four is eleven over sixteen."
+   ]
+  },
+  {
+   "id": "ladder2",
+   "hold": 1.5,
+   "visual": "Line 1: step 5 = (11/16 + 5/8)/2 = (11/16 + 10/16)/2 = 21/32, label lands on step 5. Line 2: small card 'Ladder: each step = average of the two below'.",
+   "lines": [
+    "Step five: five over eight is ten over sixteen.",
+    "The average of eleven over sixteen and ten over sixteen is twenty-one over thirty-two.",
+    "When would you pick this way? When the list gets long, this way never gets harder."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red. Line 2: chip 1/2. Lines 3-4: the 8 listed climbs plus 5 jump-over climbs (rows ending '…, 2' from step 4 to 6), '8 out of 13' crossed out with note 'not equally likely'. Line 5: ladder with 5/8 on step 3 and 11/16 on step 4 pointing to those chips.",
+   "lines": [
+    "Now let's look at the wrong answers. Each one is a trap.",
+    "Choice A, one over two, feels like land or skip, half and half.",
+    "But she only skips step five from step four with tails, so landing is more likely.",
+    "Choice B, eight over thirteen, is sneaky.",
+    "Eight climbs land on step five, and five climbs jump from four to six.",
+    "That's thirteen climbs. But they aren't equally likely! A short climb with fewer flips is more likely.",
+    "Choices C and E, five over eight and eleven over sixteen, are the chances for steps three and four.",
+    "Both stopped too early!",
+    "So here's a great habit. With random steps, build each spot's chance from the spots before it."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: step six",
+   "hold": 0.5,
+   "visual": "Same staircase, step 6 highlighted gold.",
+   "lines": [
+    "Ready for a challenge? Same staircase, same coin.",
+    "What's the probability that she stands on step six?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, staircase visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Step six: the answer",
+   "hold": 1.5,
+   "visual": "Ladder labels 1/2, 3/4, 5/8, 11/16, 21/32 already on steps 1–5. Line 2: step 6 = (21/32 + 11/16)/2 = (21/32 + 22/32)/2 = 43/64 lands on step 6; answer badge with chime at line end. Line 3: check '1 − 21/32 × 1/2 = 1 − 21/64 = 43/64'.",
+   "lines": [
+    "Let's climb one more step on our ladder. We know steps four and five.",
+    "Eleven over sixteen is twenty-two over thirty-two.",
+    "The average of that and twenty-one over thirty-two is forty-three over sixty-four!",
+    "Check with a trick. She misses step six only if she's on step five and flips tails.",
+    "That's twenty-one over sixty-four.",
+    "One minus twenty-one over sixty-four is forty-three over sixty-four. It matches!",
+    "If you got forty-three over sixty-four, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: staircase with the ladder labels and the rule text.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "With random steps, the chance of landing on a spot comes from the spots that lead to it.",
+    "Build the chances up one step at a time, then read off the step you need.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

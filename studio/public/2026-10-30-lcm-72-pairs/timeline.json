@@ -1,0 +1,565 @@
+{
+ "fps": 30,
+ "durationInFrames": 12908,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 551,
+   "lines": [
+    {
+     "text": "Two numbers have a least common multiple of seventy-two. How many such pairs are there?",
+     "caption": "Two numbers have a least common multiple of seventy-two. How many such pairs are there?",
+     "file": "2026-10-30-lcm-72-pairs/audio/6e2d2c1d8609bb2b.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "Most kids find a few pairs, then guess. <short pause> There are more than you would think!",
+     "caption": "Most kids find a few pairs, then guess. There are more than you would think!",
+     "file": "2026-10-30-lcm-72-pairs/audio/48dbcc35ea8cd8c0.wav",
+     "from": 196,
+     "frames": 186
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count them all together.",
+     "caption": "Hi, I'm Vantee! Let's count them all together.",
+     "file": "2026-10-30-lcm-72-pairs/audio/b8ade8afcbd52628.wav",
+     "from": 393,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 551,
+   "frames": 436,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-lcm-72-pairs/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "How many ordered pairs of positive whole numbers",
+     "caption": "How many ordered pairs of positive whole numbers",
+     "file": "2026-10-30-lcm-72-pairs/audio/55b6aaefc51698f3.wav",
+     "from": 57,
+     "frames": 116
+    },
+    {
+     "text": "have least common multiple seventy-two?",
+     "caption": "have least common multiple seventy-two?",
+     "file": "2026-10-30-lcm-72-pairs/audio/b6807ec7fdd9f537.wav",
+     "from": 183,
+     "frames": 76
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-lcm-72-pairs/audio/b97a89671840f7ca.wav",
+     "from": 269,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 987,
+   "frames": 689,
+   "lines": [
+    {
+     "text": "So what's a least common multiple? It's the smallest number that both a and b go into.",
+     "caption": "So what's a least common multiple? It's the smallest number that both a and b go into.",
+     "file": "2026-10-30-lcm-72-pairs/audio/a75f9b11a9c418b3.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "Take eight and nine. The smallest number they both go into is seventy-two. So that pair counts!",
+     "caption": "Take eight and nine. The smallest number they both go into is seventy-two. So that pair counts!",
+     "file": "2026-10-30-lcm-72-pairs/audio/9ecd9b83f71e6d15.wav",
+     "from": 220,
+     "frames": 202
+    },
+    {
+     "text": "Ordered means order matters. Eight, nine and nine, eight are two DIFFERENT pairs.",
+     "caption": "Ordered means order matters. Eight, nine and nine, eight are two DIFFERENT pairs.",
+     "file": "2026-10-30-lcm-72-pairs/audio/5641fe1e7a00d0f2.wav",
+     "from": 432,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1676,
+   "frames": 476,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-lcm-72-pairs/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "divisors",
+   "kind": "scene",
+   "chapter": "Solution 1: a table of partners",
+   "from": 2152,
+   "frames": 739,
+   "lines": [
+    {
+     "text": "Welcome back! Since a and b both go into seventy-two, each one is a divisor of seventy-two.",
+     "caption": "Welcome back! Since a and b both go into seventy-two, each one is a divisor of seventy-two.",
+     "file": "2026-10-30-lcm-72-pairs/audio/26150a8cf7d7d51e.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "Seventy-two is eight times nine. That's two times two times two, times three times three.",
+     "caption": "Seventy-two is eight times nine. That's two times two times two, times three times three.",
+     "file": "2026-10-30-lcm-72-pairs/audio/dbfa4617f2b74faa.wav",
+     "from": 226,
+     "frames": 224
+    },
+    {
+     "text": "Let's put all twelve divisors in a table. Powers of two go across, and powers of three go down.",
+     "caption": "Let's put all twelve divisors in a table. Powers of two go across, and powers of three go down.",
+     "file": "2026-10-30-lcm-72-pairs/audio/87606b4b6db169c4.wav",
+     "from": 460,
+     "frames": 225
+    }
+   ]
+  },
+  {
+   "id": "partners",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2891,
+   "frames": 1401,
+   "lines": [
+    {
+     "text": "Here's the trick. Seventy-two has three twos. One number must bring all three: a multiple of eight.",
+     "caption": "Here's the trick. Seventy-two has three twos. One number must bring all three: a multiple of eight.",
+     "file": "2026-10-30-lcm-72-pairs/audio/32a5fb1a77c5ed28.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "Seventy-two has two threes, too. So one number must bring both: a multiple of nine.",
+     "caption": "Seventy-two has two threes, too. So one number must bring both: a multiple of nine.",
+     "file": "2026-10-30-lcm-72-pairs/audio/88046a8c2cd52e63.wav",
+     "from": 246,
+     "frames": 221
+    },
+    {
+     "text": "Say a is twelve. It's not a multiple of eight or nine. So b must be both. Only seventy-two works!",
+     "caption": "Say a is twelve. It's not a multiple of eight or nine. So b must be both. Only seventy-two works!",
+     "file": "2026-10-30-lcm-72-pairs/audio/c649da3e6014e2b2.wav",
+     "from": 478,
+     "frames": 240
+    },
+    {
+     "text": "Say a is eight. Then b only needs to be a multiple of nine.",
+     "caption": "Say a is eight. Then b only needs to be a multiple of nine.",
+     "file": "2026-10-30-lcm-72-pairs/audio/fc49786e685802f0.wav",
+     "from": 728,
+     "frames": 161
+    },
+    {
+     "text": "That's nine, eighteen, thirty-six or seventy-two. That makes four partners!",
+     "caption": "That's nine, eighteen, thirty-six or seventy-two. That makes four partners!",
+     "file": "2026-10-30-lcm-72-pairs/audio/60a2b950eea4668f.wav",
+     "from": 899,
+     "frames": 224
+    },
+    {
+     "text": "If a is seventy-two, it brings everything. So b can be any of the twelve divisors!",
+     "caption": "If a is seventy-two, it brings everything. So b can be any of the twelve divisors!",
+     "file": "2026-10-30-lcm-72-pairs/audio/9112f743ef377e91.wav",
+     "from": 1133,
+     "frames": 214
+    }
+   ]
+  },
+  {
+   "id": "fill",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4292,
+   "frames": 690,
+   "lines": [
+    {
+     "text": "Twelve and these five others aren't multiples of eight or nine. One partner each.",
+     "caption": "Twelve and these five others aren't multiples of eight or nine. One partner each.",
+     "file": "2026-10-30-lcm-72-pairs/audio/551d3887174e1808.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "Eight and twenty-four are multiples of eight, but not nine. Four partners each.",
+     "caption": "Eight and twenty-four are multiples of eight, but not nine. Four partners each.",
+     "file": "2026-10-30-lcm-72-pairs/audio/3276fcca074c1076.wav",
+     "from": 185,
+     "frames": 183
+    },
+    {
+     "text": "Nine, eighteen and thirty-six need eight, twenty-four or seventy-two. Three partners each.",
+     "caption": "Nine, eighteen and thirty-six need eight, twenty-four or seventy-two. Three partners each.",
+     "file": "2026-10-30-lcm-72-pairs/audio/1b3d9552515b3d00.wav",
+     "from": 378,
+     "frames": 258
+    }
+   ]
+  },
+  {
+   "id": "total1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4982,
+   "frames": 718,
+   "lines": [
+    {
+     "text": "Now add. The top row is one plus one plus one plus four, which is seven. So is the middle row.",
+     "caption": "Now add. The top row is one plus one plus one plus four, which is seven. So is the middle row.",
+     "file": "2026-10-30-lcm-72-pairs/audio/de4ba0039887ac6a.wav",
+     "from": 0,
+     "frames": 250
+    },
+    {
+     "text": "The bottom row is three plus three plus three plus twelve. That's twenty-one.",
+     "caption": "The bottom row is three plus three plus three plus twelve. That's twenty-one.",
+     "file": "2026-10-30-lcm-72-pairs/audio/d1bff288da407972.wav",
+     "from": 260,
+     "frames": 183
+    },
+    {
+     "text": "Seven plus seven plus twenty-one is thirty-five! The answer is D.",
+     "caption": "Seven plus seven plus twenty-one is thirty-five! The answer is D.",
+     "file": "2026-10-30-lcm-72-pairs/audio/df8603c5a9db0788.wav",
+     "from": 453,
+     "frames": 196
+    }
+   ]
+  },
+  {
+   "id": "maxrule",
+   "kind": "scene",
+   "chapter": "Solution 2: one prime at a time",
+   "from": 5700,
+   "frames": 713,
+   "lines": [
+    {
+     "text": "Now for a second way. Let's look at the twos and the threes separately.",
+     "caption": "Now for a second way. Let's look at the twos and the threes separately.",
+     "file": "2026-10-30-lcm-72-pairs/audio/8972fd09c3b86fb0.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "Take eight and eighteen. Eight has three twos and no threes. Eighteen has one two and two threes.",
+     "caption": "Take eight and eighteen. Eight has three twos and no threes. Eighteen has one two and two threes.",
+     "file": "2026-10-30-lcm-72-pairs/audio/1e4f31453503aa39.wav",
+     "from": 160,
+     "frames": 266
+    },
+    {
+     "text": "Their least common multiple keeps the most of each: three twos and two threes. That's seventy-two!",
+     "caption": "Their least common multiple keeps the most of each: three twos and two threes. That's seventy-two!",
+     "file": "2026-10-30-lcm-72-pairs/audio/63400be9b8917049.wav",
+     "from": 436,
+     "frames": 224
+    }
+   ]
+  },
+  {
+   "id": "grid2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6413,
+   "frames": 1246,
+   "lines": [
+    {
+     "text": "Let's make a grid for the twos. Across is how many twos a has: zero, one, two or three.",
+     "caption": "Let's make a grid for the twos. Across is how many twos a has: zero, one, two or three.",
+     "file": "2026-10-30-lcm-72-pairs/audio/286c96caaf18a00a.wav",
+     "from": 0,
+     "frames": 239
+    },
+    {
+     "text": "Down is how many twos b has. Four by four makes sixteen squares.",
+     "caption": "Down is how many twos b has. Four by four makes sixteen squares.",
+     "file": "2026-10-30-lcm-72-pairs/audio/9fb6db5496c61f01.wav",
+     "from": 250,
+     "frames": 206
+    },
+    {
+     "text": "The most twos must be three. So at least one of a and b has three twos.",
+     "caption": "The most twos must be three. So at least one of a and b has three twos.",
+     "file": "2026-10-30-lcm-72-pairs/audio/573611f6405ca2a2.wav",
+     "from": 465,
+     "frames": 206
+    },
+    {
+     "text": "That's the last column and the bottom row. Four plus four, but the corner is in both. Seven!",
+     "caption": "That's the last column and the bottom row. Four plus four, but the corner is in both. Seven!",
+     "file": "2026-10-30-lcm-72-pairs/audio/396d19f63099d78e.wav",
+     "from": 681,
+     "frames": 246
+    },
+    {
+     "text": "Let's double-check. The top-left three by three block has no three. Sixteen minus nine is seven.",
+     "caption": "Let's double-check. The top-left three by three block has no three. Sixteen minus nine is seven.",
+     "file": "2026-10-30-lcm-72-pairs/audio/d7c8d653e31e5456.wav",
+     "from": 938,
+     "frames": 249
+    }
+   ]
+  },
+  {
+   "id": "grid3",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7659,
+   "frames": 574,
+   "lines": [
+    {
+     "text": "Now the threes. Each of a and b has zero, one or two threes. That's a three by three grid.",
+     "caption": "Now the threes. Each of a and b has zero, one or two threes. That's a three by three grid.",
+     "file": "2026-10-30-lcm-72-pairs/audio/6eee5b5376fb220f.wav",
+     "from": 0,
+     "frames": 251
+    },
+    {
+     "text": "At least one needs two threes. Three plus three, minus the corner, is five. Or nine minus four!",
+     "caption": "At least one needs two threes. Three plus three, minus the corner, is five. Or nine minus four!",
+     "file": "2026-10-30-lcm-72-pairs/audio/62bb511e52e8db58.wav",
+     "from": 261,
+     "frames": 254
+    }
+   ]
+  },
+  {
+   "id": "multiply",
+   "kind": "scene",
+   "chapter": null,
+   "from": 8233,
+   "frames": 634,
+   "lines": [
+    {
+     "text": "Any way for the twos can go with any way for the threes. Like seven shirts and five pairs of pants.",
+     "caption": "Any way for the twos can go with any way for the threes. Like seven shirts and five pairs of pants.",
+     "file": "2026-10-30-lcm-72-pairs/audio/6ef67020b158a199.wav",
+     "from": 0,
+     "frames": 242
+    },
+    {
+     "text": "Seven times five is thirty-five. Same answer!",
+     "caption": "Seven times five is thirty-five. Same answer!",
+     "file": "2026-10-30-lcm-72-pairs/audio/67d381a12193d6dc.wav",
+     "from": 252,
+     "frames": 124
+    },
+    {
+     "text": "When would you pick this way? When the number is big, and the table would get huge.",
+     "caption": "When would you pick this way? When the number is big, and the table would get huge.",
+     "file": "2026-10-30-lcm-72-pairs/audio/651b601515d79c61.wav",
+     "from": 386,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8867,
+   "frames": 1533,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-lcm-72-pairs/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "Twelve counts the divisors of seventy-two. But we're counting pairs, not single numbers.",
+     "caption": "Twelve counts the divisors of seventy-two. But we're counting pairs, not single numbers.",
+     "file": "2026-10-30-lcm-72-pairs/audio/9cc21d65172e5506.wav",
+     "from": 144,
+     "frames": 183
+    },
+    {
+     "text": "Eighteen is what you'd get if order didn't matter. Then eight, nine and nine, eight are one pair.",
+     "caption": "Eighteen is what you'd get if order didn't matter. Then eight, nine and nine, eight are one pair.",
+     "file": "2026-10-30-lcm-72-pairs/audio/b211460db9d51e57.wav",
+     "from": 337,
+     "frames": 209
+    },
+    {
+     "text": "Every pair has a twin, except seventy-two, seventy-two. Thirty-four over two, plus one, is eighteen.",
+     "caption": "Every pair has a twin, except seventy-two, seventy-two. Thirty-four over two, plus one, is eighteen.",
+     "file": "2026-10-30-lcm-72-pairs/audio/732dfe755126873d.wav",
+     "from": 556,
+     "frames": 266
+    },
+    {
+     "text": "Twenty-four is what you'd get if you doubled the twelve divisors. But eight alone has four partners!",
+     "caption": "Twenty-four is what you'd get if you doubled the twelve divisors. But eight alone has four partners!",
+     "file": "2026-10-30-lcm-72-pairs/audio/608a992c574296cc.wav",
+     "from": 832,
+     "frames": 202
+    },
+    {
+     "text": "Seventy is what you'd get if you doubled thirty-five to handle order. But we already counted both orders.",
+     "caption": "Seventy is what you'd get if you doubled thirty-five to handle order. But we already counted both orders.",
+     "file": "2026-10-30-lcm-72-pairs/audio/baa1d28a1d371e2e.wav",
+     "from": 1044,
+     "frames": 209
+    },
+    {
+     "text": "So here's a great habit. Before you count, ask: does order matter? Here, it does!",
+     "caption": "So here's a great habit. Before you count, ask: does order matter? Here, it does!",
+     "file": "2026-10-30-lcm-72-pairs/audio/e97e9a3f19ca5c39.wav",
+     "from": 1263,
+     "frames": 210
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: LCM 48",
+   "from": 10400,
+   "frames": 332,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new one.",
+     "caption": "Ready for a challenge? Here's a new one.",
+     "file": "2026-10-30-lcm-72-pairs/audio/bf21733c8ff1d25b.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "How many ordered pairs of positive whole numbers",
+     "caption": "How many ordered pairs of positive whole numbers",
+     "file": "2026-10-30-lcm-72-pairs/audio/55b6aaefc51698f3.wav",
+     "from": 86,
+     "frames": 116
+    },
+    {
+     "text": "have least common multiple forty-eight?",
+     "caption": "have least common multiple forty-eight?",
+     "file": "2026-10-30-lcm-72-pairs/audio/b23353fc7b44dedf.wav",
+     "from": 212,
+     "frames": 82
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10732,
+   "frames": 399,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-lcm-72-pairs/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "LCM 48: the answer",
+   "from": 11131,
+   "frames": 1179,
+   "lines": [
+    {
+     "text": "Let's check. Forty-eight is sixteen times three. That's four twos and one three.",
+     "caption": "Let's check. Forty-eight is sixteen times three. That's four twos and one three.",
+     "file": "2026-10-30-lcm-72-pairs/audio/75f9585b66613735.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "For the twos, each of a and b has zero to four. That's a five by five grid, twenty-five squares.",
+     "caption": "For the twos, each of a and b has zero to four. That's a five by five grid, twenty-five squares.",
+     "file": "2026-10-30-lcm-72-pairs/audio/9123b31750ae45fa.wav",
+     "from": 220,
+     "frames": 262
+    },
+    {
+     "text": "The misses have fewer than four twos: a four by four block. Twenty-five minus sixteen is nine.",
+     "caption": "The misses have fewer than four twos: a four by four block. Twenty-five minus sixteen is nine.",
+     "file": "2026-10-30-lcm-72-pairs/audio/45796b87d835deb7.wav",
+     "from": 492,
+     "frames": 214
+    },
+    {
+     "text": "For the threes, it's zero or one. Two by two is four, minus one miss. That's three.",
+     "caption": "For the threes, it's zero or one. Two by two is four, minus one miss. That's three.",
+     "file": "2026-10-30-lcm-72-pairs/audio/8ee45f72dd6c0615.wav",
+     "from": 717,
+     "frames": 214
+    },
+    {
+     "text": "Nine times three is twenty-seven! If you found it, amazing work!",
+     "caption": "Nine times three is twenty-seven! If you found it, amazing work!",
+     "file": "2026-10-30-lcm-72-pairs/audio/ade54ad00aaf1d12.wav",
+     "from": 941,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12310,
+   "frames": 598,
+   "lines": [
+    {
+     "text": "Here's the big idea. For each prime, the least common multiple keeps the bigger of the two powers.",
+     "caption": "Here's the big idea. For each prime, the least common multiple keeps the bigger of the two powers.",
+     "file": "2026-10-30-lcm-72-pairs/audio/13a4ae6b9b0b94af.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "So make a grid of powers for each prime, count the good squares, then multiply.",
+     "caption": "So make a grid of powers for each prime, count the good squares, then multiply.",
+     "file": "2026-10-30-lcm-72-pairs/audio/b5c3142e53f5e15d.wav",
+     "from": 207,
+     "frames": 182
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-lcm-72-pairs/audio/31a6054d0b03b932.wav",
+     "from": 399,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

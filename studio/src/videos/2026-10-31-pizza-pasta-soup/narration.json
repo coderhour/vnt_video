@@ -1,0 +1,153 @@
+{
+ "title": "Pizza, Pasta, Soup: Who Likes All Three? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "24 kid tokens (simple circles with faces) in a 6×4 grid, numbered 1–24 small. Food icons pizza 🍕, pasta 🍝, soup 🥣 drawn as simple colored badges (not emoji fonts if they don't render; colored rounded squares with labels 'pizza', 'pasta', 'soup'). Line 2: three overlapping Venn circles appear then get crossed out with a friendly 'no need!'. Line 3: Vantee title card.",
+   "lines": [
+    "Twenty-four kids, three foods. What's the fewest kids who could like all three?",
+    "You might reach for a big Venn diagram. There's a much quicker trick.",
+    "Hi, I'm Vantee! Let's count the kids who say no."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left; kid grid right with food badges and counts: 'pizza 20', 'pasta 18', 'soup 16' appearing on lines 3-5. Line 6: chips 0, 4, 6, 14, 16.",
+   "lines": [
+    "Here's the question.",
+    "In a class of twenty-four kids,",
+    "Twenty kids like pizza,",
+    "Eighteen kids like pasta,",
+    "and sixteen like soup. What is the smallest possible number of kids who like all three?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: the three counts as cards. Line 2: words 'smallest POSSIBLE' marked. Line 3: two different arrangements flicker (some kids switching likes) to suggest 'we choose the arrangement'.",
+   "lines": [
+    "So what do we know? Twenty-four kids, and three counts: twenty, eighteen and sixteen.",
+    "We want the smallest POSSIBLE number who like all three.",
+    "So we get to arrange who likes what, and try to make that group as small as we can."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; counts visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "misses",
+   "chapter": "Solution 1: count the no's",
+   "hold": 1,
+   "visual": "Kid grid. Line 2: row '24 − 20 = 4' ; 4 kids get a red 'no pizza' tag. Line 3: '24 − 18 = 6', '24 − 16 = 8' rows. Line 4: plain text 'say no to something → not all three'.",
+   "lines": [
+    "Welcome back! Here's the strategy: count the kids who say no.",
+    "Twenty like pizza, so four kids don't.",
+    "Eighteen like pasta, so six don't. Sixteen like soup, so eight don't.",
+    "Any kid who says no to even one food is NOT in the all-three group."
+   ]
+  },
+  {
+   "id": "spread",
+   "hold": 1.5,
+   "visual": "Line 1: kids 1–4 tagged 'no pizza' (red), 5–10 'no pasta' (orange), 11–18 'no soup' (blue): each kid gets exactly one tag, no kid has two. Line 2: '4 + 6 + 8 = 18'. Line 3: '24 − 18 = 6'; kids 19–24 glow green 'all three'. Line 4: check row 'pizza: 24 − 4 = 20 ✓, pasta: 24 − 6 = 18 ✓, soup: 24 − 8 = 16 ✓'. Line 5: answer badge '6' with chime at line end, choice C highlighted.",
+   "lines": [
+    "To make the all-three group small, give the no's to different kids. No kid says no twice.",
+    "Then four plus six plus eight is eighteen kids who say no to something.",
+    "That leaves twenty-four minus eighteen, six kids who say no to nothing. They like all three!",
+    "Check the counts: twenty like pizza, eighteen like pasta, sixteen like soup. It works.",
+    "And we can't do better, because there are only eighteen no's to hand out.",
+    "The answer is six. That's Choice C!"
+   ]
+  },
+  {
+   "id": "pairs",
+   "chapter": "Solution 2: two at a time",
+   "hold": 1.5,
+   "visual": "Two horizontal bars of length 24 slots. Line 2: pizza bar 20 slots from the left, pasta bar 18 slots from the right; overlap highlighted: '20 + 18 = 38', '38 − 24 = 14'. Line 3: new bar 'pizza and pasta: 14' vs soup bar 16 from the other end: '14 + 16 = 30', '30 − 24 = 6'. Line 4: small card 'overlap ≥ a + b − total'.",
+   "lines": [
+    "Here's another way: combine two foods at a time.",
+    "Pizza and pasta: twenty plus eighteen is thirty-eight.",
+    "That's fourteen more than twenty-four, so at least fourteen kids like both.",
+    "Now add soup. Fourteen plus sixteen is thirty.",
+    "That's six more than twenty-four, so at least six like all three. Same answer!",
+    "When would you pick this way? When you want to see the overlap shrink one food at a time."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red. Line 2: '24 − 20 = 4'. Line 3: '16 = soup group'. Line 4: the 14 from solution 2 with 'stopped too early'. Line 5: chip 0 with '18 no's for 24 kids: 6 left over'.",
+   "lines": [
+    "Now let's look at the wrong answers. Each one is a trap.",
+    "Choice B, four, is the number of kids who don't like pizza. That's only one of the counts.",
+    "Choice E, sixteen, is the soup group.",
+    "That's the biggest the all-three group could be, not the smallest.",
+    "Choice D, fourteen, is the pizza and pasta overlap. That's what you get if you stop before adding soup.",
+    "Choice A, zero, would need twenty-four no's. There are only eighteen, so six kids must like everything.",
+    "So here's a great habit. To find the smallest group that says yes to everything, count the no's."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: four favorites",
+   "hold": 0.5,
+   "visual": "New card: '30 kids: cats 25, dogs 22, fish 20, birds 27'.",
+   "lines": [
+    "Ready for a challenge? Now there are four things to like.",
+    "In a class of thirty kids, twenty-five like cats and twenty-two like dogs.",
+    "Twenty like fish, and twenty-seven like birds.",
+    "What is the smallest possible number of kids who like all four?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant card visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Four favorites: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: '30 − 25 = 5', '30 − 22 = 8', '30 − 20 = 10', '30 − 27 = 3'; then '5 + 8 + 10 + 3 = 26'; then '30 − 26 = 4' answer badge with chime at line end.",
+   "lines": [
+    "Let's count the no's. Five don't like cats, eight don't like dogs.",
+    "Ten don't like fish, and three don't like birds.",
+    "Give them to different kids: five plus eight plus ten plus three is twenty-six no's in all.",
+    "Thirty minus twenty-six is four. At least four kids like all four!",
+    "Here's the cool part. A fourth favorite didn't make it harder, just one more count.",
+    "If you got four, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'fewest who like ALL = total − (sum of the no's)' with the kid grid icon.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Count how many kids say no to each thing, and give the no's to different kids.",
+    "Everyone left over must like everything. That's the smallest the group can be.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "title": "Why Do Prime Squares Always Leave 1? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "lines": [
+    "Pick any prime number bigger than three. Square it, then add seventeen.",
+    "Now divide by twelve. <short pause> The remainder is ALWAYS the same! But why?",
+    "Hi, I'm Vantee! Let's crack this one together."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "lines": [
+    "Here's the question.",
+    "Let p be a prime greater than three.",
+    "What is the remainder when p squared plus seventeen is divided by twelve?",
+    "Is it zero, one, five, six, or eleven?"
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "lines": [
+    "A prime has exactly two factors, one and itself. Like five, seven, eleven and thirteen.",
+    "The remainder is what's left after taking out all the twelves. Twenty-six leaves two.",
+    "We don't know p. So the answer must work for EVERY prime bigger than three."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "test",
+   "chapter": "Solution 1: try some primes",
+   "hold": 1.2,
+   "lines": [
+    "Welcome back! Our first strategy: try a few primes, and look for a pattern.",
+    "Start with five. Five squared is twenty-five. Plus seventeen is forty-two.",
+    "That's three twelves, plus six.",
+    "Next, seven. Seven squared is forty-nine. Plus seventeen is sixty-six.",
+    "That's five twelves, plus six. Six again!",
+    "Eleven squared is one hundred twenty-one. Plus seventeen is one hundred thirty-eight.",
+    "That's eleven groups of twelve, plus six.",
+    "Thirteen squared is one hundred sixty-nine. Plus seventeen is one hundred eighty-six.",
+    "That's fifteen groups of twelve, plus six.",
+    "Six every time! So the answer is D.",
+    "Testing is a smart contest shortcut. But it isn't a proof. So WHY is it always six?"
+   ]
+  },
+  {
+   "id": "columns",
+   "chapter": "Solution 2: the six columns",
+   "hold": 1,
+   "lines": [
+    "Here's another way. Let's write the numbers in rows of six.",
+    "A prime bigger than three isn't even, or two would divide it. Cross out columns two, four and six.",
+    "It isn't a multiple of three either. Cross out column three.",
+    "Only columns one and five are left. Every prime bigger than three lands in them!",
+    "Not every number there is prime, like twenty-five. But every prime past three is there.",
+    "That's why the question says bigger than three. Two and three got crossed out.",
+    "Column one is one after a multiple of six. Column five is one before."
+   ]
+  },
+  {
+   "id": "neighbors",
+   "hold": 1.2,
+   "lines": [
+    "So p is always one away from a multiple of six. Now let's look at p squared.",
+    "Take seven. Seven squared is forty-nine dots, in a seven by seven square.",
+    "Take away one corner dot. Then move the rest of the bottom row to the side.",
+    "Now it's a rectangle: six rows by eight columns. That's forty-eight!",
+    "Six and eight are the neighbors of seven, one below and one above.",
+    "This works for every p. p squared minus one equals p minus one, times p plus one.",
+    "One neighbor is a multiple of six. And p is odd, so the other neighbor is even.",
+    "A multiple of six, times an even number, is a multiple of twelve!"
+   ]
+  },
+  {
+   "id": "finish",
+   "hold": 1.5,
+   "lines": [
+    "So p squared is always a multiple of twelve, plus one. Seventeen is twelve plus five.",
+    "One plus five is six. The answer is six, for EVERY prime bigger than three!",
+    "When would you pick this way? When you need to be sure a pattern never breaks."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "lines": [
+    "Now, let's look at the wrong answers. Each one is a trap.",
+    "One is the remainder of p squared alone. It forgets the seventeen.",
+    "Five is the remainder of seventeen alone. It forgets p squared.",
+    "Zero is what seven gives if you forget to square. Seven plus seventeen is twenty-four, two twelves.",
+    "Eleven is the biggest remainder twelve allows. But we just showed it's always six.",
+    "So here's a great habit. Find each part's remainder, add them, and take out any extra group of twelve."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a new remainder",
+   "hold": 0.5,
+   "lines": [
+    "Ready for a challenge? p is still a prime bigger than three.",
+    "What is the remainder when five times p squared, plus nine, is divided by twelve?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "lines": [
+    "Use the same plan. Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New remainder: the answer",
+   "hold": 1.5,
+   "lines": [
+    "Let's check. p squared is a multiple of twelve, plus one.",
+    "Five copies of that make a multiple of twelve, plus five.",
+    "Five plus nine is fourteen. That's one more twelve, plus two. So the remainder is two!",
+    "Let's test with five. Five times twenty-five, plus nine, is one hundred thirty-four.",
+    "That's eleven groups of twelve, plus two. It matches!",
+    "If you found a remainder of two, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "lines": [
+    "Here's the big idea. Every prime bigger than three is one away from a multiple of six.",
+    "So its square always leaves one when divided by twelve. Use that, then add the rest.",
+    "I'm Vantee. Keep asking why, and I'll see you next time!"
+   ]
+  }
+ ]
+}

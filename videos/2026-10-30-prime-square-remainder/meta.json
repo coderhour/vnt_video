@@ -1,0 +1,7 @@
+{
+ "title": "Why Do Prime Squares Always Leave 1? | AMC 8-Style Level 4",
+ "description": "Pick any prime bigger than 3, square it, add 17, and divide by 12. The remainder is always the same! Vantee shows why, first by testing primes and then by finding the pattern behind them, explains each wrong answer, and gives you a new remainder to try yourself.\n\n0:00 Intro\n0:17 The question\n0:37 What are we asked?\n1:00 Try it yourself\n1:16 Solution 1: try some primes\n2:20 Solution 2: the six columns\n4:22 Common traps\n5:01 Your turn: a new remainder\n5:30 New remainder: the answer\n6:08 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-10-30",
+ "question_id": "amc_practice_amc8_number_theory_template:c1-960",
+ "posts": []
+}

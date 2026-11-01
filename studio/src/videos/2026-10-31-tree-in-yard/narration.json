@@ -1,0 +1,154 @@
+{
+ "title": "Where Is the Tree? A Rectangle Puzzle | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Rectangle yard (bank SVG geometry, scaled up: A bottom-left, B bottom-right, C top-right, D top-left, AB = 16 along the bottom, BC = 8 on the right). A small green tree icon slides along AB (step through whole-number spots only, don't land on 10 visibly labeled), with two strings from it to A and to C stretching. Line 3: Vantee title card.",
+   "lines": [
+    "A tree stands on the edge of a yard, exactly as far from one corner as from another.",
+    "Where is it? A right triangle is hiding in the yard, and it tells us.",
+    "Hi, I'm Vantee! Let's find that tree."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, figure right with labels A, B, C, D, E, '16' on a dimension line under AB and '8' beside BC (48px+). Line 4: segments EA and EC glow, both marked with matching ticks. Line 5: '? m' label above EA. Line 6: chips 6, 8, 10, 12, 14.",
+   "lines": [
+    "Here's the question.",
+    "A rectangular yard A B C D has A B equal to sixteen meters, and B C equal to eight meters.",
+    "A tree at point E on side A B",
+    "is the same distance from A as from C.",
+    "How far is the tree from A, in meters?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: E on the bottom side; EA and EC with matching ticks. Line 2: E C drawn as a dashed slanted line; triangle EBC shaded with a right-angle mark at B. Line 3: 'EA = ?'.",
+   "lines": [
+    "So what do we know? The distance from E to A equals the distance from E to C.",
+    "E A runs along the bottom. E C is slanted, and it makes a right triangle with the corner B.",
+    "We want E A."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; figure visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "test",
+   "chapter": "Solution 1: test the choices",
+   "hold": 1,
+   "visual": "Figure left, a table right with columns 'EA', 'EB = 16 − EA', 'EB² + 8²', 'EA²'. Line 2: right triangle EBC highlighted, legs EB and 8, slanted side EC; text 'EB² + 8² = EC²'. Line 3: 'EC = EA, so EB² + 8² must equal EA²'. Line 4: E placed at 6 from A: row '6 | 10 | 164 | 36' red.",
+   "lines": [
+    "Welcome back! Here's the strategy: test each choice with the Pythagorean theorem.",
+    "Triangle E B C has a right angle at B. So E B squared plus eight squared equals E C squared.",
+    "And E C must equal E A. So E B squared plus sixty-four must equal E A squared.",
+    "Try six. Then E B is ten, and ten squared plus sixty-four is one hundred sixty-four.",
+    "But six squared is just thirty-six."
+   ]
+  },
+  {
+   "id": "test2",
+   "hold": 1.5,
+   "visual": "E steps to each choice spot (dot to dot, no smooth tween). Line 1: row '8 | 8 | 128 | 64' red. Line 2: row '10 | 6 | 100 | 100' green; triangle EBC labeled 6, 8, 10. Line 3: '6-8-10 triangle', EC = 10 = EA. Line 4: answer badge '10 m' with chime at end of line, choice C highlighted. (Rows 12 and 14 come in the traps scene.)",
+   "lines": [
+    "Try eight. Then E B is eight, and eight squared plus sixty-four is one hundred twenty-eight.",
+    "Eight squared is only sixty-four.",
+    "Try ten. Then E B is six. Six squared plus sixty-four is one hundred.",
+    "And ten squared is one hundred. A match!",
+    "Triangle E B C has sides six, eight and ten, so E C is ten, just like E A.",
+    "The tree is ten meters from A. That's Choice C!"
+   ]
+  },
+  {
+   "id": "algebra",
+   "chapter": "Solution 2: name it x",
+   "hold": 1.5,
+   "visual": "Equation rows on the right, one per line, figure on the left with EA = x, EB = 16 − x, EC = x labeled. Line 2: '(16 − x)² + 8² = x²'. Line 3: '(16 − x)² = 256 − 32x + x²'. Line 4: '256 − 32x + x² + 64 = x²' with the two x² terms fading (cancel). Line 5: '320 = 32x', then 'x = 10'. Line 6: small card.",
+   "lines": [
+    "Here's a way that works even without choices. Call the distance x.",
+    "Then E C is also x, and E B is sixteen minus x.",
+    "The right triangle says sixteen minus x, squared, plus eight squared, equals x squared.",
+    "Sixteen minus x, times sixteen minus x, is two hundred fifty-six, minus sixteen x, minus sixteen x, plus x squared.",
+    "Sixteen minus x, squared, opens up to two hundred fifty-six, minus thirty-two x, plus x squared.",
+    "Add sixty-four. Now there's an x squared on both sides, so they cancel out.",
+    "That leaves three hundred twenty equals thirty-two x. So x is ten. Same answer!",
+    "When would you pick this way? When there are no choices to test, or the numbers aren't nice."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red. Line 2: EB = 6 highlighted on the figure. Line 3: BC = 8 highlighted. Line 4: table rows '12 | 4 | 80 | 144' and '14 | 2 | 68 | 196' red. Line 5: 10 chip green.",
+   "lines": [
+    "Now let's look at the wrong answers. Each one is a trap.",
+    "Choice A, six, is a real length: it's E B, from the tree to B. But we want the distance from A.",
+    "Choice B, eight, is the short side B C. And we just saw eight fails the test.",
+    "Choices D and E, twelve and fourteen: the length E B is only four, then two, and the numbers don't match.",
+    "Eighty versus one hundred forty-four, and sixty-eight versus one hundred ninety-six.",
+    "So here's a great habit. When two distances are equal, write one of them a second way, with a right triangle."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a bigger yard",
+   "hold": 0.5,
+   "visual": "New rectangle: AB = 18 bottom, BC = 12 right; E on AB with EA = EC ticks.",
+   "lines": [
+    "Ready for a challenge? A bigger yard has A B equal to eighteen meters and B C equal to twelve meters.",
+    "A tree at E on side A B is the same distance from A as from C. How far is it from A?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant figure visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Bigger yard: the answer",
+   "hold": 1.5,
+   "visual": "Rows per line: '(18 − x)² + 12² = x²'; '324 − 36x + x² + 144 = x²'; '468 = 36x', 'x = 13' answer badge with chime at end of line 3; check triangle labeled 5, 12, 13.",
+   "lines": [
+    "Let's call it x again. E B is eighteen minus x, and B C is twelve.",
+    "Eighteen minus x, times eighteen minus x, is three hundred twenty-four, minus eighteen x, twice, plus x squared.",
+    "Eighteen minus x, squared, is three hundred twenty-four, minus thirty-six x, plus x squared.",
+    "Add one hundred forty-four, and the x squared terms cancel.",
+    "That leaves four hundred sixty-eight equals thirty-six x. So x is thirteen!",
+    "Check: E B is five, and a five, twelve, thirteen triangle is a right triangle. It works!",
+    "If you got thirteen meters, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: rectangle with the right triangle shaded, text of the rule.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Name the unknown distance. Then write the same distance a second way, with the Pythagorean theorem.",
+    "Set the two equal, and solve.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

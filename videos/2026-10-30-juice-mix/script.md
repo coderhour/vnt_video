@@ -1,0 +1,141 @@
+# Juice or Water? A Mixing Puzzle | AMC 8-Style Level 4
+
+## Intro
+
+Ella makes her drink stronger by pouring in more juice AND more water.
+
+Lots of kids find the juice. But this question asks about the water!
+
+Hi, I'm Vantee! Let's keep the juice and the water apart.
+
+## The question
+
+Here's the question.
+
+Ella has twenty liters of a drink that is thirty percent juice.
+
+She adds some pure juice and some water.
+
+Now she has twenty-five liters of a drink that is forty percent juice.
+
+How many liters of water does she add?
+
+Here are the five choices. Take a good look.
+
+## What are we asked?
+
+So what do we know? There are two drinks: the one she starts with, and the one she ends with.
+
+Each drink is part juice, part water. Thirty percent juice means thirty parts in every hundred.
+
+She adds two things, juice and water. We want just the water.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: split each drink
+
+Welcome back! Here's the strategy: split each drink into juice and water.
+
+Start with the twenty liters. Ten percent of twenty is two, so thirty percent is six.
+
+So the first drink has six liters of juice.
+
+The rest is water. Twenty minus six is fourteen liters of water.
+
+Now the final drink: twenty-five liters that is forty percent juice.
+
+Forty percent is two fifths. One fifth of twenty-five is five, so two fifths is ten.
+
+So the final drink has ten liters of juice.
+
+And twenty-five minus ten is fifteen liters of water.
+
+Now line the two drinks up: juice next to juice, water next to water.
+
+Juice goes from six to ten. So Ella adds four liters of juice.
+
+Water goes from fourteen to fifteen. So she adds just one liter of water!
+
+Check: four plus one is five, and twenty plus five is twenty-five. It fits!
+
+The answer is one liter. That's Choice B!
+
+## Solution 2: watch only the water
+
+Here's a faster way. Forget the juice, and watch only the water.
+
+If thirty percent is juice, then seventy percent is water.
+
+Ten percent of twenty is two, so seventy percent is fourteen liters of water.
+
+In the final drink, forty percent is juice, so sixty percent is water.
+
+Sixty percent is three fifths. One fifth of twenty-five is five, so three fifths is fifteen liters of water.
+
+Water goes from fourteen to fifteen. She adds one liter. Same answer!
+
+When would you pick this way? When the question asks about one thing, follow just that one.
+
+## Common traps
+
+Now let's look at the wrong answers. Each one is a trap.
+
+Choice D, four, is the juice she adds, not the water. Read what the question asks!
+
+Choice E, five, is everything she adds, juice and water together.
+
+Choice A, zero, is what you'd get if you thought she adds only juice.
+
+But five liters of juice would give eleven liters of juice, not ten. Too strong!
+
+Choice C, two, is what you'd get from ten percent of twenty, the jump from thirty to forty percent.
+
+But with two liters of water, she adds three of juice. That's only nine liters of juice, not ten.
+
+So here's a great habit. Follow each part separately, and answer the exact question.
+
+## Your turn: a sneakier mix
+
+Ready for a challenge? Here's a new mix, and it's sneakier.
+
+Leo has fifteen liters of a drink that is sixty percent juice.
+
+He adds pure juice and water to make twenty-four liters that is fifty percent juice.
+
+How many liters of juice does he add, and how many liters of water?
+
+Pause the video, and go for it!
+
+*(Pause and try it: 12 s countdown)*
+
+## Sneakier mix: the answer
+
+Let's check. Sixty percent is three fifths. One fifth of fifteen is three, so three fifths is nine.
+
+So Leo starts with nine liters of juice, and fifteen minus nine is six liters of water.
+
+The final drink is half juice. Half of twenty-four is twelve. So, twelve juice and twelve water.
+
+Juice goes from nine to twelve. He adds three liters of juice.
+
+Water goes from six to twelve. He adds six liters of water.
+
+Check: three plus six is nine, and fifteen plus nine is twenty-four. It works!
+
+Here's the sneaky part. The drink got weaker, but he still added some juice.
+
+If you found three liters of juice and six liters of water, amazing work!
+
+## Recap
+
+Here's the big idea to remember.
+
+When you mix drinks, split each drink into its juice and its water.
+
+Find how much of each the final drink needs. Then subtract what was already there.
+
+I'm Vantee. Keep exploring, and I'll see you next time!

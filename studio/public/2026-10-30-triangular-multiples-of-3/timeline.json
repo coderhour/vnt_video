@@ -1,0 +1,517 @@
+{
+ "fps": 30,
+ "durationInFrames": 12577,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 612,
+   "lines": [
+    {
+     "text": "One, three, six, ten, fifteen. Each step adds one more than the last.",
+     "caption": "One, three, six, ten, fifteen. Each step adds one more than the last.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/1027ffee99608b04.wav",
+     "from": 0,
+     "frames": 246
+    },
+    {
+     "text": "Go on for one hundred numbers. How many are multiples of three? <short pause> A neat pattern is hiding here.",
+     "caption": "Go on for one hundred numbers. How many are multiples of three? A neat pattern is hiding here.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/f3f7be863f6b76bb.wav",
+     "from": 256,
+     "frames": 206
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack this one together.",
+     "caption": "Hi, I'm Vantee! Let's crack this one together.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/b53a45a233d1900d.wav",
+     "from": 472,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 612,
+   "frames": 720,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 40
+    },
+    {
+     "text": "So the list goes one, three, six, ten, fifteen, and it keeps going.",
+     "caption": "So the list goes one, three, six, ten, fifteen, and it keeps going.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/c0e0188f43359dee.wav",
+     "from": 50,
+     "frames": 231
+    },
+    {
+     "text": "How many of the first one hundred numbers in the list are multiples of three?",
+     "caption": "How many of the first one hundred numbers in the list are multiples of three?",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/5588589b0546976b.wav",
+     "from": 291,
+     "frames": 146
+    },
+    {
+     "text": "Is it thirty-three, thirty-four, fifty, sixty-six, or sixty-seven?",
+     "caption": "Is it thirty-three, thirty-four, fifty, sixty-six, or sixty-seven?",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/8e66bb905fcdac17.wav",
+     "from": 447,
+     "frames": 204
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1332,
+   "frames": 683,
+   "lines": [
+    {
+     "text": "Let's number the spots. Spot one holds one, spot two holds three, spot three holds six.",
+     "caption": "Let's number the spots. Spot one holds one, spot two holds three, spot three holds six.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/f82baedad724f067.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "We need to count the spots, from one to one hundred, that hold a multiple of three.",
+     "caption": "We need to count the spots, from one to one hundred, that hold a multiple of three.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/d8ea91059bbeb607.wav",
+     "from": 239,
+     "frames": 196
+    },
+    {
+     "text": "The last number is over five thousand. Too big to list them all! We need a pattern.",
+     "caption": "The last number is over five thousand. Too big to list them all! We need a pattern.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/160426e6538e7510.wav",
+     "from": 446,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2015,
+   "frames": 459,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "remainders",
+   "kind": "scene",
+   "chapter": "Solution 1: track the remainders",
+   "from": 2474,
+   "frames": 1859,
+   "lines": [
+    {
+     "text": "Welcome back! Our strategy: forget the big numbers. Track the remainder when you divide by three.",
+     "caption": "Welcome back! Our strategy: forget the big numbers. Track the remainder when you divide by three.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/459c0544bfe66b34.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "One leaves a remainder of one. Three leaves zero, so it's a multiple.",
+     "caption": "One leaves a remainder of one. Three leaves zero, so it's a multiple.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/2a5f3cd748c31dd8.wav",
+     "from": 225,
+     "frames": 166
+    },
+    {
+     "text": "Each number is the one before, plus a bit more. So we can just add up the remainders!",
+     "caption": "Each number is the one before, plus a bit more. So we can just add up the remainders!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/dbe8f533dd149127.wav",
+     "from": 401,
+     "frames": 200
+    },
+    {
+     "text": "Six is three plus three. Adding a three never changes the remainder. So six leaves zero.",
+     "caption": "Six is three plus three. Adding a three never changes the remainder. So six leaves zero.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/8a0ce7ad386fbaae.wav",
+     "from": 611,
+     "frames": 220
+    },
+    {
+     "text": "Ten is six plus four. Four leaves one. Zero plus one is one, so ten leaves one.",
+     "caption": "Ten is six plus four. Four leaves one. Zero plus one is one, so ten leaves one.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/5b9644f53a8e54db.wav",
+     "from": 841,
+     "frames": 262
+    },
+    {
+     "text": "Fifteen is ten plus five. Five leaves two. One plus two is three, which leaves zero!",
+     "caption": "Fifteen is ten plus five. Five leaves two. One plus two is three, which leaves zero!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/965becd6da451701.wav",
+     "from": 1113,
+     "frames": 264
+    },
+    {
+     "text": "Twenty-one is fifteen plus six. Adding six changes nothing, so it leaves zero.",
+     "caption": "Twenty-one is fifteen plus six. Adding six changes nothing, so it leaves zero.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/da121070ae17b5fc.wav",
+     "from": 1387,
+     "frames": 201
+    },
+    {
+     "text": "See the pattern? One, zero, zero. Then one, zero, zero again.",
+     "caption": "See the pattern? One, zero, zero. Then one, zero, zero again.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/7584e6e96ca154f2.wav",
+     "from": 1598,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4333,
+   "frames": 600,
+   "lines": [
+    {
+     "text": "Why does it keep repeating? Every three steps, we add three numbers in a row.",
+     "caption": "Why does it keep repeating? Every three steps, we add three numbers in a row.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/249d88afe7f1af03.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Like four, five and six. Together they make fifteen, which is five threes.",
+     "caption": "Like four, five and six. Together they make fifteen, which is five threes.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/94678578aa61c007.wav",
+     "from": 166,
+     "frames": 186
+    },
+    {
+     "text": "Three numbers in a row always make a multiple of three. So the remainder comes right back.",
+     "caption": "Three numbers in a row always make a multiple of three. So the remainder comes right back.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/680c8ee1c3555fea.wav",
+     "from": 363,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "cycles",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4933,
+   "frames": 1253,
+   "lines": [
+    {
+     "text": "So the list comes in groups of three spots. The remainders go one, zero, zero.",
+     "caption": "So the list comes in groups of three spots. The remainders go one, zero, zero.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/517c2ac0933619ab.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "Every group holds exactly two multiples of three, in its second and third spots.",
+     "caption": "Every group holds exactly two multiples of three, in its second and third spots.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/70a5664c502e0244.wav",
+     "from": 231,
+     "frames": 176
+    },
+    {
+     "text": "One hundred is thirty-three threes, plus one. That's thirty-three full groups, and one extra spot.",
+     "caption": "One hundred is thirty-three threes, plus one. That's thirty-three full groups, and one extra spot.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/fa7577bc2b7a22d0.wav",
+     "from": 417,
+     "frames": 219
+    },
+    {
+     "text": "Thirty-three groups, times two each, gives sixty-six multiples.",
+     "caption": "Thirty-three groups, times two each, gives sixty-six multiples.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/529cf722cebe084c.wav",
+     "from": 646,
+     "frames": 155
+    },
+    {
+     "text": "The extra spot is spot one hundred. It starts a new group, so it leaves one. Not a multiple!",
+     "caption": "The extra spot is spot one hundred. It starts a new group, so it leaves one. Not a multiple!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/459530182f716cc6.wav",
+     "from": 811,
+     "frames": 226
+    },
+    {
+     "text": "So the answer is sixty-six. That's D!",
+     "caption": "So the answer is sixty-six. That's D!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/d7dd7db6a4889e0e.wav",
+     "from": 1047,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "formula",
+   "kind": "scene",
+   "chapter": "Solution 2: use the formula",
+   "from": 6186,
+   "frames": 1005,
+   "lines": [
+    {
+     "text": "Here's a second way. Each number is a sum. Spot four holds one plus two plus three plus four.",
+     "caption": "Here's a second way. Each number is a sum. Spot four holds one plus two plus three plus four.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/7b9304b2ca46929e.wav",
+     "from": 0,
+     "frames": 281
+    },
+    {
+     "text": "Draw it as a staircase of dots. Then add a second copy, flipped upside down.",
+     "caption": "Draw it as a staircase of dots. Then add a second copy, flipped upside down.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/e2d6c5cda9af1d94.wav",
+     "from": 292,
+     "frames": 184
+    },
+    {
+     "text": "Together they make a rectangle, four by five. That's twenty dots, so one staircase is ten.",
+     "caption": "Together they make a rectangle, four by five. That's twenty dots, so one staircase is ten.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/b2cfc117de8ed2b8.wav",
+     "from": 486,
+     "frames": 233
+    },
+    {
+     "text": "The same works for any spot. Spot n holds n times n plus one, all divided by two.",
+     "caption": "The same works for any spot. Spot n holds n times n plus one, all divided by two.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/d90ae4efa267e592.wav",
+     "from": 729,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "when3",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7191,
+   "frames": 1616,
+   "lines": [
+    {
+     "text": "When is that a multiple of three? The top, n times n plus one, is twice our number.",
+     "caption": "When is that a multiple of three? The top, n times n plus one, is twice our number.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/b0900ee037b56147.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "Twice a number is a multiple of three exactly when the number is. So let's just check the top.",
+     "caption": "Twice a number is a multiple of three exactly when the number is. So let's just check the top.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/c48756f7ed35c5f4.wav",
+     "from": 237,
+     "frames": 214
+    },
+    {
+     "text": "Two whole numbers multiply to a multiple of three only when one of them is a multiple of three.",
+     "caption": "Two whole numbers multiply to a multiple of three only when one of them is a multiple of three.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/e3a4c132942270e9.wav",
+     "from": 461,
+     "frames": 192
+    },
+    {
+     "text": "First, n itself: three, six, up to ninety-nine. That's thirty-three spots.",
+     "caption": "First, n itself: three, six, up to ninety-nine. That's thirty-three spots.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/e2d18bbd5d9b57ef.wav",
+     "from": 664,
+     "frames": 198
+    },
+    {
+     "text": "Next, n plus one: n is two, five, up to ninety-eight. That's thirty-three more.",
+     "caption": "Next, n plus one: n is two, five, up to ninety-eight. That's thirty-three more.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/3456d0b7be82ae95.wav",
+     "from": 872,
+     "frames": 233
+    },
+    {
+     "text": "Neighbors can't both be multiples of three. So it's thirty-three plus thirty-three: sixty-six again!",
+     "caption": "Neighbors can't both be multiples of three. So it's thirty-three plus thirty-three: sixty-six again!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/6e3eaa4829096134.wav",
+     "from": 1116,
+     "frames": 232
+    },
+    {
+     "text": "When would you pick this way? When you know the formula, it gives the rule for every spot at once.",
+     "caption": "When would you pick this way? When you know the formula, it gives the rule for every spot at once.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/122485f56a4f87e5.wav",
+     "from": 1358,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8807,
+   "frames": 1217,
+   "lines": [
+    {
+     "text": "Thirty-three counts only spots three, six, nine, and so on. It forgets spots like two, five and eight.",
+     "caption": "Thirty-three counts only spots three, six, nine, and so on. It forgets spots like two, five and eight.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/8c4985db020a00ce.wav",
+     "from": 0,
+     "frames": 238
+    },
+    {
+     "text": "Thirty-four is what you'd get counting spots one, four, seven, up to one hundred. They all leave one!",
+     "caption": "Thirty-four is what you'd get counting spots one, four, seven, up to one hundred. They all leave one!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/72b6e48e1178eb86.wav",
+     "from": 248,
+     "frames": 226
+    },
+    {
+     "text": "Fifty is what you'd get guessing every other number. But the pattern repeats every three, not two.",
+     "caption": "Fifty is what you'd get guessing every other number. But the pattern repeats every three, not two.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/71b4d4e3ac486e96.wav",
+     "from": 485,
+     "frames": 198
+    },
+    {
+     "text": "Sixty-seven is what you'd get if you counted the extra spot too. But spot one hundred leaves one.",
+     "caption": "Sixty-seven is what you'd get if you counted the extra spot too. But spot one hundred leaves one.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/0cc5d8e1d04f6e1f.wav",
+     "from": 693,
+     "frames": 203
+    },
+    {
+     "text": "So here's a great habit. Find the cycle, count the full groups, then check the leftovers one by one.",
+     "caption": "So here's a great habit. Find the cycle, count the full groups, then check the leftovers one by one.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/d5b535619679f971.wav",
+     "from": 906,
+     "frames": 251
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: the first eighty",
+   "from": 10024,
+   "frames": 394,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same list, but now take just the first eighty numbers.",
+     "caption": "Ready for a challenge? Same list, but now take just the first eighty numbers.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/df4217af2032b334.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "How many of them are multiples of three? Use the same plan. Groups of three first!",
+     "caption": "How many of them are multiples of three? Use the same plan. Groups of three first!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/96111ea243e515c0.wav",
+     "from": 171,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10418,
+   "frames": 400,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "First eighty: the answer",
+   "from": 10818,
+   "frames": 1126,
+   "lines": [
+    {
+     "text": "Let's check. Eighty is twenty-six threes, plus two. So, twenty-six full groups and two extra spots.",
+     "caption": "Let's check. Eighty is twenty-six threes, plus two. So, twenty-six full groups and two extra spots.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/bd664649f871f643.wav",
+     "from": 0,
+     "frames": 269
+    },
+    {
+     "text": "Twenty-six groups, times two each, gives fifty-two multiples.",
+     "caption": "Twenty-six groups, times two each, gives fifty-two multiples.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/d48e228c53e90195.wav",
+     "from": 279,
+     "frames": 153
+    },
+    {
+     "text": "The two extra spots leave one, then zero. That's one more! Fifty-two plus one is fifty-three.",
+     "caption": "The two extra spots leave one, then zero. That's one more! Fifty-two plus one is fifty-three.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/517026f269437a53.wav",
+     "from": 442,
+     "frames": 250
+    },
+    {
+     "text": "Formula check: twenty-six spots for n, and twenty-seven for n plus one. Fifty-three again!",
+     "caption": "Formula check: twenty-six spots for n, and twenty-seven for n plus one. Fifty-three again!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/a1e7a9e73ef1c551.wav",
+     "from": 702,
+     "frames": 234
+    },
+    {
+     "text": "If you found fifty-three, amazing work!",
+     "caption": "If you found fifty-three, amazing work!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/a01828a1f095f6b3.wav",
+     "from": 946,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11944,
+   "frames": 633,
+   "lines": [
+    {
+     "text": "Don't chase the big numbers. Track the remainders, and find the rule for which spots work.",
+     "caption": "Don't chase the big numbers. Track the remainders, and find the rule for which spots work.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/fb94e78eb229778a.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "The pattern is one, zero, zero. So in every full group of three spots, two are multiples.",
+     "caption": "The pattern is one, zero, zero. So in every full group of three spots, two are multiples.",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/ab9114466f7782b2.wav",
+     "from": 193,
+     "frames": 225
+    },
+    {
+     "text": "I'm Vantee. Keep spotting patterns, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep spotting patterns, and I'll see you next time!",
+     "file": "2026-10-30-triangular-multiples-of-3/audio/bf64a12bc7648087.wav",
+     "from": 428,
+     "frames": 122
+    }
+   ]
+  }
+ ]
+}

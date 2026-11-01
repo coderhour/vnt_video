@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 11445,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 427,
+   "lines": [
+    {
+     "text": "Twenty-five dots. How many pairs are exactly five units apart?",
+     "caption": "Twenty-five dots. How many pairs are exactly five units apart?",
+     "file": "2026-10-30-dots-five-apart/audio/613474b69f06b077.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "There are two sneaky traps hiding in this one.",
+     "caption": "There are two sneaky traps hiding in this one.",
+     "file": "2026-10-30-dots-five-apart/audio/e4e4de51c0c305e7.wav",
+     "from": 162,
+     "frames": 99
+    },
+    {
+     "text": "Hi there, I'm Vantee! Let's hunt them down together.",
+     "caption": "Hi there, I'm Vantee! Let's hunt them down together.",
+     "file": "2026-10-30-dots-five-apart/audio/a12883d44f947542.wav",
+     "from": 271,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 427,
+   "frames": 530,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-dots-five-apart/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "The twenty-five dots shown are spaced one unit apart in rows and columns.",
+     "caption": "The twenty-five dots shown are spaced one unit apart in rows and columns.",
+     "file": "2026-10-30-dots-five-apart/audio/40b7235a400e26a0.wav",
+     "from": 57,
+     "frames": 156
+    },
+    {
+     "text": "How many pairs of dots are exactly five units apart?",
+     "caption": "How many pairs of dots are exactly five units apart?",
+     "file": "2026-10-30-dots-five-apart/audio/2ef09ba0e5eaaa4d.wav",
+     "from": 224,
+     "frames": 124
+    },
+    {
+     "text": "Here are the five choices. Take a good look at them.",
+     "caption": "Here are the five choices. Take a good look at them.",
+     "file": "2026-10-30-dots-five-apart/audio/bc37b5b6cf9da368.wav",
+     "from": 358,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 957,
+   "frames": 589,
+   "lines": [
+    {
+     "text": "So what are we counting?",
+     "caption": "So what are we counting?",
+     "file": "2026-10-30-dots-five-apart/audio/841d022c17ded241.wav",
+     "from": 0,
+     "frames": 59
+    },
+    {
+     "text": "A pair is just two dots. We want them exactly five units apart.",
+     "caption": "A pair is just two dots. We want them exactly five units apart.",
+     "file": "2026-10-30-dots-five-apart/audio/073b571a4f410d5b.wav",
+     "from": 70,
+     "frames": 161
+    },
+    {
+     "text": "Five means the straight-line distance, as if you used a ruler.",
+     "caption": "Five means the straight-line distance, as if you used a ruler.",
+     "file": "2026-10-30-dots-five-apart/audio/26cabbcf7f68fe30.wav",
+     "from": 241,
+     "frames": 123
+    },
+    {
+     "text": "Going from one dot to the other, or back again, is still the same pair.",
+     "caption": "Going from one dot to the other, or back again, is still the same pair.",
+     "file": "2026-10-30-dots-five-apart/audio/df67ecf13628181d.wav",
+     "from": 374,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1546,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-dots-five-apart/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "straight",
+   "kind": "scene",
+   "chapter": "Solution 1: list the slants",
+   "from": 2014,
+   "frames": 587,
+   "lines": [
+    {
+     "text": "Welcome back! First idea: go five units straight across.",
+     "caption": "Welcome back! First idea: go five units straight across.",
+     "file": "2026-10-30-dots-five-apart/audio/4af6ba140d017bb2.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "But look. A row of five dots has only four gaps. It's just four units long!",
+     "caption": "But look. A row of five dots has only four gaps. It's just four units long!",
+     "file": "2026-10-30-dots-five-apart/audio/f4e0467f6c2d170d.wav",
+     "from": 170,
+     "frames": 185
+    },
+    {
+     "text": "So no two dots in the same row, or the same column, are five apart.",
+     "caption": "So no two dots in the same row, or the same column, are five apart.",
+     "file": "2026-10-30-dots-five-apart/audio/2aa37206b32f3899.wav",
+     "from": 365,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "slant",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2601,
+   "frames": 1597,
+   "lines": [
+    {
+     "text": "So the pair must be on a slant. That slant is the long side of a right triangle.",
+     "caption": "So the pair must be on a slant. That slant is the long side of a right triangle.",
+     "file": "2026-10-30-dots-five-apart/audio/00fed37c314507d9.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "Pythagoras says: across squared, plus down squared, equals five squared.",
+     "caption": "Pythagoras says: across squared, plus down squared, equals five squared.",
+     "file": "2026-10-30-dots-five-apart/audio/02f928084844cac6.wav",
+     "from": 210,
+     "frames": 190
+    },
+    {
+     "text": "Five squared is twenty-five. Each step is at most four, since the grid is four units wide.",
+     "caption": "Five squared is twenty-five. Each step is at most four, since the grid is four units wide.",
+     "file": "2026-10-30-dots-five-apart/audio/7285d9c036bef909.wav",
+     "from": 410,
+     "frames": 224
+    },
+    {
+     "text": "Let's make a list. Across zero leaves twenty-five for down squared. Down five is too big.",
+     "caption": "Let's make a list. Across zero leaves twenty-five for down squared. Down five is too big.",
+     "file": "2026-10-30-dots-five-apart/audio/c9bbdeb9b9fc4922.wav",
+     "from": 644,
+     "frames": 225
+    },
+    {
+     "text": "Across one or two leaves twenty-four or twenty-one. Neither one is a square.",
+     "caption": "Across one or two leaves twenty-four or twenty-one. Neither one is a square.",
+     "file": "2026-10-30-dots-five-apart/audio/2ba93a487dd97bce.wav",
+     "from": 878,
+     "frames": 192
+    },
+    {
+     "text": "Across three leaves sixteen, which is four squared! Across four leaves nine, three squared.",
+     "caption": "Across three leaves sixteen, which is four squared! Across four leaves nine, three squared.",
+     "file": "2026-10-30-dots-five-apart/audio/1497de1c7c7c9f08.wav",
+     "from": 1081,
+     "frames": 261
+    },
+    {
+     "text": "So every pair is three and four. It's the famous three, four, five triangle!",
+     "caption": "So every pair is three and four. It's the famous three, four, five triangle!",
+     "file": "2026-10-30-dots-five-apart/audio/76989ba15d87d131.wav",
+     "from": 1352,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "fit",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4198,
+   "frames": 1288,
+   "lines": [
+    {
+     "text": "Which way can the slant point? Start at the upper dot and go down.",
+     "caption": "Which way can the slant point? Start at the upper dot and go down.",
+     "file": "2026-10-30-dots-five-apart/audio/40973d85952296a7.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "Three across and four down, to the right or to the left.",
+     "caption": "Three across and four down, to the right or to the left.",
+     "file": "2026-10-30-dots-five-apart/audio/8f01636bf25795a7.wav",
+     "from": 175,
+     "frames": 146
+    },
+    {
+     "text": "Or four across and three down, right or left again. That's four slants.",
+     "caption": "Or four across and three down, right or left again. That's four slants.",
+     "file": "2026-10-30-dots-five-apart/audio/ce0d1c0a5be52405.wav",
+     "from": 330,
+     "frames": 177
+    },
+    {
+     "text": "Three across and four down needs a box three wide and four tall.",
+     "caption": "Three across and four down needs a box three wide and four tall.",
+     "file": "2026-10-30-dots-five-apart/audio/d375e21ae17beb0c.wav",
+     "from": 517,
+     "frames": 170
+    },
+    {
+     "text": "It fits in two spots side by side, but only one top to bottom. So two places.",
+     "caption": "It fits in two spots side by side, but only one top to bottom. So two places.",
+     "file": "2026-10-30-dots-five-apart/audio/7f78add6e1aab2d2.wav",
+     "from": 697,
+     "frames": 194
+    },
+    {
+     "text": "The other three slants fit in two places each, just the same.",
+     "caption": "The other three slants fit in two places each, just the same.",
+     "file": "2026-10-30-dots-five-apart/audio/6ea44fa6de76cd5c.wav",
+     "from": 901,
+     "frames": 131
+    },
+    {
+     "text": "Four slants, two places each. Four times two is eight! The answer is D.",
+     "caption": "Four slants, two places each. Four times two is eight! The answer is D.",
+     "file": "2026-10-30-dots-five-apart/audio/0459d5b66b838296.wav",
+     "from": 1042,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "dots",
+   "kind": "scene",
+   "chapter": "Solution 2: dot by dot",
+   "from": 5486,
+   "frames": 1572,
+   "lines": [
+    {
+     "text": "Here's a second way. Visit each dot, and count its partners five units away.",
+     "caption": "Here's a second way. Visit each dot, and count its partners five units away.",
+     "file": "2026-10-30-dots-five-apart/audio/6f5baa6516838acf.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "Take the top-left corner. It has two partners: three across, four down, or four across, three down.",
+     "caption": "Take the top-left corner. It has two partners: three across, four down, or four across, three down.",
+     "file": "2026-10-30-dots-five-apart/audio/0e72bcab0ec018e1.wav",
+     "from": 172,
+     "frames": 226
+    },
+    {
+     "text": "The dot next to a corner, along the edge, has just one partner.",
+     "caption": "The dot next to a corner, along the edge, has just one partner.",
+     "file": "2026-10-30-dots-five-apart/audio/426c34022cc3ed83.wav",
+     "from": 408,
+     "frames": 158
+    },
+    {
+     "text": "Every other dot has none. Even the middle dot is too close to everything!",
+     "caption": "Every other dot has none. Even the middle dot is too close to everything!",
+     "file": "2026-10-30-dots-five-apart/audio/7f02c45baceb1cc2.wav",
+     "from": 576,
+     "frames": 161
+    },
+    {
+     "text": "Four corners with two each makes eight. Eight edge dots with one each makes eight more.",
+     "caption": "Four corners with two each makes eight. Eight edge dots with one each makes eight more.",
+     "file": "2026-10-30-dots-five-apart/audio/c4d2225f5f46831e.wav",
+     "from": 747,
+     "frames": 209
+    },
+    {
+     "text": "Eight plus eight is sixteen. But each pair got counted twice, once from each end.",
+     "caption": "Eight plus eight is sixteen. But each pair got counted twice, once from each end.",
+     "file": "2026-10-30-dots-five-apart/audio/0dbc56b37aef86cf.wav",
+     "from": 966,
+     "frames": 221
+    },
+    {
+     "text": "Sixteen over two is eight. It matches!",
+     "caption": "Sixteen over two is eight. It matches!",
+     "file": "2026-10-30-dots-five-apart/audio/7f09f92609c318bb.wav",
+     "from": 1197,
+     "frames": 112
+    },
+    {
+     "text": "When would you pick this way? It's a great double-check, and it shows where sixteen comes from.",
+     "caption": "When would you pick this way? It's a great double-check, and it shows where sixteen comes from.",
+     "file": "2026-10-30-dots-five-apart/audio/64a4e5c7ef36ae25.wav",
+     "from": 1320,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7058,
+   "frames": 1166,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-dots-five-apart/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "Two is what you'd get if you found only one slant: three across and four down, to the right.",
+     "caption": "Two is what you'd get if you found only one slant: three across and four down, to the right.",
+     "file": "2026-10-30-dots-five-apart/audio/5acb5f7d780363bc.wav",
+     "from": 128,
+     "frames": 213
+    },
+    {
+     "text": "Four is what you'd get if you only drew slants going down to the right.",
+     "caption": "Four is what you'd get if you only drew slants going down to the right.",
+     "file": "2026-10-30-dots-five-apart/audio/332b524d5ada0945.wav",
+     "from": 351,
+     "frames": 152
+    },
+    {
+     "text": "Six is what you'd get by halving the twelve dots that have a partner. But corners have TWO.",
+     "caption": "Six is what you'd get by halving the twelve dots that have a partner. But corners have TWO.",
+     "file": "2026-10-30-dots-five-apart/audio/6021592f092faa18.wav",
+     "from": 513,
+     "frames": 188
+    },
+    {
+     "text": "Sixteen counts every pair twice, once from each end. A pair is two dots, counted once.",
+     "caption": "Sixteen counts every pair twice, once from each end. A pair is two dots, counted once.",
+     "file": "2026-10-30-dots-five-apart/audio/40dc980f77ea01f1.wav",
+     "from": 711,
+     "frames": 218
+    },
+    {
+     "text": "And watch the fence posts! Five dots in a row make only four gaps.",
+     "caption": "And watch the fence posts! Five dots in a row make only four gaps.",
+     "file": "2026-10-30-dots-five-apart/audio/1eb88a921b7f02f4.wav",
+     "from": 938,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a bigger grid",
+   "from": 8224,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the grid is six dots by six dots.",
+     "caption": "Ready for a challenge? Now the grid is six dots by six dots.",
+     "file": "2026-10-30-dots-five-apart/audio/51f65a9e869e0274.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "That's six rows of six dots, still one unit apart. How many pairs are exactly five units apart now?",
+     "caption": "That's six rows of six dots, still one unit apart. How many pairs are exactly five units apart now?",
+     "file": "2026-10-30-dots-five-apart/audio/605f9ad29453889a.wav",
+     "from": 163,
+     "frames": 255
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8680,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-dots-five-apart/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Bigger grid: the answer",
+   "from": 9134,
+   "frames": 1617,
+   "lines": [
+    {
+     "text": "Let's check. Now a row has six dots, so five gaps. Five units fit straight across!",
+     "caption": "Let's check. Now a row has six dots, so five gaps. Five units fit straight across!",
+     "file": "2026-10-30-dots-five-apart/audio/e1ddeb3ba3142836.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "Each row has exactly one such pair: its two end dots. Six rows give six pairs.",
+     "caption": "Each row has exactly one such pair: its two end dots. Six rows give six pairs.",
+     "file": "2026-10-30-dots-five-apart/audio/be244bad3a492292.wav",
+     "from": 235,
+     "frames": 221
+    },
+    {
+     "text": "The six columns add six more pairs. That makes twelve straight pairs.",
+     "caption": "The six columns add six more pairs. That makes twelve straight pairs.",
+     "file": "2026-10-30-dots-five-apart/audio/07ff5313d5f78cd7.wav",
+     "from": 466,
+     "frames": 164
+    },
+    {
+     "text": "Now the slants. Three across, four down fits three ways side to side, two ways top to bottom.",
+     "caption": "Now the slants. Three across, four down fits three ways side to side, two ways top to bottom.",
+     "file": "2026-10-30-dots-five-apart/audio/9ec76913398ccfcb.wav",
+     "from": 640,
+     "frames": 254
+    },
+    {
+     "text": "Three times two is six places. The other three slants fit in six places each too.",
+     "caption": "Three times two is six places. The other three slants fit in six places each too.",
+     "file": "2026-10-30-dots-five-apart/audio/0702158b806b3416.wav",
+     "from": 904,
+     "frames": 194
+    },
+    {
+     "text": "Four slants, six places each. That's twenty-four slanted pairs.",
+     "caption": "Four slants, six places each. That's twenty-four slanted pairs.",
+     "file": "2026-10-30-dots-five-apart/audio/6af3ee7bba6fd1ef.wav",
+     "from": 1107,
+     "frames": 159
+    },
+    {
+     "text": "Twelve plus twenty-four is thirty-six pairs!",
+     "caption": "Twelve plus twenty-four is thirty-six pairs!",
+     "file": "2026-10-30-dots-five-apart/audio/a515a33f1e22665c.wav",
+     "from": 1276,
+     "frames": 116
+    },
+    {
+     "text": "If you found thirty-six, amazing work! Did you remember the straight ones?",
+     "caption": "If you found thirty-six, amazing work! Did you remember the straight ones?",
+     "file": "2026-10-30-dots-five-apart/audio/968adad53a924ffe.wav",
+     "from": 1402,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10751,
+   "frames": 694,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-dots-five-apart/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "To find pairs a set distance apart, first list the steps across and down that make it.",
+     "caption": "To find pairs a set distance apart, first list the steps across and down that make it.",
+     "file": "2026-10-30-dots-five-apart/audio/51e4b00aeb349a69.wav",
+     "from": 94,
+     "frames": 198
+    },
+    {
+     "text": "Then count the places each one fits, and count each pair only once.",
+     "caption": "Then count the places each one fits, and count each pair only once.",
+     "file": "2026-10-30-dots-five-apart/audio/80c86eef7498c1c4.wav",
+     "from": 302,
+     "frames": 168
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-dots-five-apart/audio/31a6054d0b03b932.wav",
+     "from": 481,
+     "frames": 130
+    }
+   ]
+  }
+ ]
+}

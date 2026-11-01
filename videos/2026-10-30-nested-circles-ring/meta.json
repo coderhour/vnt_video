@@ -1,0 +1,7 @@
+{
+  "title": "Circle, Square, Circle: Find the Ring | AMC 8-Style Level 4",
+  "description": "A square, a circle, a smaller square, a smaller circle, like nesting dolls! Vantee finds the area of the shaded ring two ways: find each radius, or fold and turn to a shrunk copy.\nWe also look at the wrong-answer traps and a one-level-deeper challenge to try yourself.\n\n0:00 Intro\n0:19 The question\n0:43 What are we asked?\n0:58 Try it yourself\n1:13 Solution 1: find each radius\n2:39 Solution 2: fold and turn\n3:46 Common traps\n4:35 Your turn: one level deeper\n5:22 One level deeper: the answer\n6:07 Recap",
+  "created": "2026-10-30",
+  "question_id": "amc_practice_amc8_mixed_template:c1-818",
+  "posts": []
+}

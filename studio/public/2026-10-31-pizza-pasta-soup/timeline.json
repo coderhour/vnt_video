@@ -1,0 +1,471 @@
+{
+ "fps": 30,
+ "durationInFrames": 9558,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 522,
+   "lines": [
+    {
+     "text": "Twenty-four kids, three foods. What's the fewest kids who could like all three?",
+     "caption": "Twenty-four kids, three foods. What's the fewest kids who could like all three?",
+     "file": "2026-10-31-pizza-pasta-soup/audio/47e043ae5296f6ee.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "You might reach for a big Venn diagram. There's a much quicker trick.",
+     "caption": "You might reach for a big Venn diagram. There's a much quicker trick.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/2aa64789ac950f47.wav",
+     "from": 190,
+     "frames": 150
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's count the kids who say no.",
+     "caption": "Hi, I'm Vantee! Let's count the kids who say no.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/1d06a4ed8fd8e1f2.wav",
+     "from": 351,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 522,
+   "frames": 718,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "In a class of twenty-four kids,",
+     "caption": "In a class of twenty-four kids,",
+     "file": "2026-10-31-pizza-pasta-soup/audio/8e64eefbf7f466b6.wav",
+     "from": 57,
+     "frames": 84
+    },
+    {
+     "text": "Twenty kids like pizza,",
+     "caption": "Twenty kids like pizza,",
+     "file": "2026-10-31-pizza-pasta-soup/audio/7d16e32e1250f3d8.wav",
+     "from": 152,
+     "frames": 76
+    },
+    {
+     "text": "Eighteen kids like pasta,",
+     "caption": "Eighteen kids like pasta,",
+     "file": "2026-10-31-pizza-pasta-soup/audio/30af632b77cefd04.wav",
+     "from": 238,
+     "frames": 76
+    },
+    {
+     "text": "and sixteen like soup. What is the smallest possible number of kids who like all three?",
+     "caption": "and sixteen like soup. What is the smallest possible number of kids who like all three?",
+     "file": "2026-10-31-pizza-pasta-soup/audio/f55890ac9f300ea9.wav",
+     "from": 324,
+     "frames": 218
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/b97a89671840f7ca.wav",
+     "from": 552,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1240,
+   "frames": 566,
+   "lines": [
+    {
+     "text": "So what do we know? Twenty-four kids, and three counts: twenty, eighteen and sixteen.",
+     "caption": "So what do we know? Twenty-four kids, and three counts: twenty, eighteen and sixteen.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/d8ecbd8c5f2f33df.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "We want the smallest POSSIBLE number who like all three.",
+     "caption": "We want the smallest POSSIBLE number who like all three.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/a8a12eb4ca726dbc.wav",
+     "from": 198,
+     "frames": 135
+    },
+    {
+     "text": "So we get to arrange who likes what, and try to make that group as small as we can.",
+     "caption": "So we get to arrange who likes what, and try to make that group as small as we can.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/3de0a00895e603d5.wav",
+     "from": 342,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1806,
+   "frames": 465,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "misses",
+   "kind": "scene",
+   "chapter": "Solution 1: count the no's",
+   "from": 2271,
+   "frames": 730,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: count the kids who say no.",
+     "caption": "Welcome back! Here's the strategy: count the kids who say no.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/e4410c4a79c77ba5.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Twenty like pizza, so four kids don't.",
+     "caption": "Twenty like pizza, so four kids don't.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/06537f3723101a05.wav",
+     "from": 163,
+     "frames": 116
+    },
+    {
+     "text": "Eighteen like pasta, so six don't. Sixteen like soup, so eight don't.",
+     "caption": "Eighteen like pasta, so six don't. Sixteen like soup, so eight don't.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/e046042234387be5.wav",
+     "from": 289,
+     "frames": 195
+    },
+    {
+     "text": "Any kid who says no to even one food is NOT in the all-three group.",
+     "caption": "Any kid who says no to even one food is NOT in the all-three group.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/ca0f8fd44a5c8f41.wav",
+     "from": 494,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "spread",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3001,
+   "frames": 1232,
+   "lines": [
+    {
+     "text": "To make the all-three group small, give the no's to different kids. No kid says no twice.",
+     "caption": "To make the all-three group small, give the no's to different kids. No kid says no twice.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/d6b73e4ad41210d9.wav",
+     "from": 0,
+     "frames": 206
+    },
+    {
+     "text": "Then four plus six plus eight is eighteen kids who say no to something.",
+     "caption": "Then four plus six plus eight is eighteen kids who say no to something.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/5315495bc90b6895.wav",
+     "from": 216,
+     "frames": 198
+    },
+    {
+     "text": "That leaves twenty-four minus eighteen, six kids who say no to nothing. They like all three!",
+     "caption": "That leaves twenty-four minus eighteen, six kids who say no to nothing. They like all three!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/d223efbf1302bbd0.wav",
+     "from": 424,
+     "frames": 220
+    },
+    {
+     "text": "Check the counts: twenty like pizza, eighteen like pasta, sixteen like soup. It works.",
+     "caption": "Check the counts: twenty like pizza, eighteen like pasta, sixteen like soup. It works.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/5362127fef7ffc0e.wav",
+     "from": 655,
+     "frames": 203
+    },
+    {
+     "text": "And we can't do better, because there are only eighteen no's to hand out.",
+     "caption": "And we can't do better, because there are only eighteen no's to hand out.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/b553fbea8dde924e.wav",
+     "from": 868,
+     "frames": 170
+    },
+    {
+     "text": "The answer is six. That's Choice C!",
+     "caption": "The answer is six. That's Choice C!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/3d58d9a5f0aca6b4.wav",
+     "from": 1048,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "pairs",
+   "kind": "scene",
+   "chapter": "Solution 2: two at a time",
+   "from": 4233,
+   "frames": 1072,
+   "lines": [
+    {
+     "text": "Here's another way: combine two foods at a time.",
+     "caption": "Here's another way: combine two foods at a time.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/351b3526d85f51e1.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "Pizza and pasta: twenty plus eighteen is thirty-eight.",
+     "caption": "Pizza and pasta: twenty plus eighteen is thirty-eight.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/b043af77958eac2e.wav",
+     "from": 117,
+     "frames": 154
+    },
+    {
+     "text": "That's fourteen more than twenty-four, so at least fourteen kids like both.",
+     "caption": "That's fourteen more than twenty-four, so at least fourteen kids like both.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/0f1504eb77987159.wav",
+     "from": 281,
+     "frames": 171
+    },
+    {
+     "text": "Now add soup. Fourteen plus sixteen is thirty.",
+     "caption": "Now add soup. Fourteen plus sixteen is thirty.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/ee321b211f09debe.wav",
+     "from": 462,
+     "frames": 152
+    },
+    {
+     "text": "That's six more than twenty-four, so at least six like all three. Same answer!",
+     "caption": "That's six more than twenty-four, so at least six like all three. Same answer!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/7ca1c5a29682d62d.wav",
+     "from": 624,
+     "frames": 180
+    },
+    {
+     "text": "When would you pick this way? When you want to see the overlap shrink one food at a time.",
+     "caption": "When would you pick this way? When you want to see the overlap shrink one food at a time.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/f8a897f35e34bc70.wav",
+     "from": 814,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 5305,
+   "frames": 1392,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Choice B, four, is the number of kids who don't like pizza. That's only one of the counts.",
+     "caption": "Choice B, four, is the number of kids who don't like pizza. That's only one of the counts.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/6cd18ca72ad70481.wav",
+     "from": 141,
+     "frames": 201
+    },
+    {
+     "text": "Choice E, sixteen, is the soup group.",
+     "caption": "Choice E, sixteen, is the soup group.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/d15732b9b473273c.wav",
+     "from": 352,
+     "frames": 98
+    },
+    {
+     "text": "That's the biggest the all-three group could be, not the smallest.",
+     "caption": "That's the biggest the all-three group could be, not the smallest.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/65a9fba948767d98.wav",
+     "from": 459,
+     "frames": 137
+    },
+    {
+     "text": "Choice D, fourteen, is the pizza and pasta overlap. That's what you get if you stop before adding soup.",
+     "caption": "Choice D, fourteen, is the pizza and pasta overlap. That's what you get if you stop before adding soup.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/8d01d1ff8f5e7c16.wav",
+     "from": 607,
+     "frames": 245
+    },
+    {
+     "text": "Choice A, zero, would need twenty-four no's. There are only eighteen, so six kids must like everything.",
+     "caption": "Choice A, zero, would need twenty-four no's. There are only eighteen, so six kids must like everything.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/b7d6c4588e19f0d1.wav",
+     "from": 862,
+     "frames": 255
+    },
+    {
+     "text": "So here's a great habit. To find the smallest group that says yes to everything, count the no's.",
+     "caption": "So here's a great habit. To find the smallest group that says yes to everything, count the no's.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/dc3098f7ac589422.wav",
+     "from": 1127,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: four favorites",
+   "from": 6697,
+   "frames": 638,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now there are four things to like.",
+     "caption": "Ready for a challenge? Now there are four things to like.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/d444fd1a597b2e66.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "In a class of thirty kids, twenty-five like cats and twenty-two like dogs.",
+     "caption": "In a class of thirty kids, twenty-five like cats and twenty-two like dogs.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/aa53e1050b1b0a5d.wav",
+     "from": 143,
+     "frames": 170
+    },
+    {
+     "text": "Twenty like fish, and twenty-seven like birds.",
+     "caption": "Twenty like fish, and twenty-seven like birds.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/a77c0808ace188a5.wav",
+     "from": 322,
+     "frames": 120
+    },
+    {
+     "text": "What is the smallest possible number of kids who like all four?",
+     "caption": "What is the smallest possible number of kids who like all four?",
+     "file": "2026-10-31-pizza-pasta-soup/audio/de76da8626d2e9bc.wav",
+     "from": 453,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 7335,
+   "frames": 457,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Four favorites: the answer",
+   "from": 7792,
+   "frames": 1086,
+   "lines": [
+    {
+     "text": "Let's count the no's. Five don't like cats, eight don't like dogs.",
+     "caption": "Let's count the no's. Five don't like cats, eight don't like dogs.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/6b560f4f74cb060c.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "Ten don't like fish, and three don't like birds.",
+     "caption": "Ten don't like fish, and three don't like birds.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/f2e0b06ec347f801.wav",
+     "from": 181,
+     "frames": 137
+    },
+    {
+     "text": "Give them to different kids: five plus eight plus ten plus three is twenty-six no's in all.",
+     "caption": "Give them to different kids: five plus eight plus ten plus three is twenty-six no's in all.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/cf96db382de58bc4.wav",
+     "from": 329,
+     "frames": 240
+    },
+    {
+     "text": "Thirty minus twenty-six is four. At least four kids like all four!",
+     "caption": "Thirty minus twenty-six is four. At least four kids like all four!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/528bc7a77f6f6520.wav",
+     "from": 579,
+     "frames": 167
+    },
+    {
+     "text": "Here's the cool part. A fourth favorite didn't make it harder, just one more count.",
+     "caption": "Here's the cool part. A fourth favorite didn't make it harder, just one more count.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/fea85fb144cd30e2.wav",
+     "from": 756,
+     "frames": 159
+    },
+    {
+     "text": "If you got four, amazing work!",
+     "caption": "If you got four, amazing work!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/43d6c1a400bd851e.wav",
+     "from": 925,
+     "frames": 92
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 8878,
+   "frames": 680,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "Count how many kids say no to each thing, and give the no's to different kids.",
+     "caption": "Count how many kids say no to each thing, and give the no's to different kids.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/97a02b99a9dfd270.wav",
+     "from": 86,
+     "frames": 207
+    },
+    {
+     "text": "Everyone left over must like everything. That's the smallest the group can be.",
+     "caption": "Everyone left over must like everything. That's the smallest the group can be.",
+     "file": "2026-10-31-pizza-pasta-soup/audio/df99a6fe032a794d.wav",
+     "from": 303,
+     "frames": 165
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-pizza-pasta-soup/audio/31a6054d0b03b932.wav",
+     "from": 477,
+     "frames": 119
+    }
+   ]
+  }
+ ]
+}

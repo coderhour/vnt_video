@@ -1,0 +1,478 @@
+{
+ "fps": 30,
+ "durationInFrames": 11064,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 530,
+   "lines": [
+    {
+     "text": "A tree stands on the edge of a yard, exactly as far from one corner as from another.",
+     "caption": "A tree stands on the edge of a yard, exactly as far from one corner as from another.",
+     "file": "2026-10-31-tree-in-yard/audio/2ec7be4a28776d82.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "Where is it? A right triangle is hiding in the yard, and it tells us.",
+     "caption": "Where is it? A right triangle is hiding in the yard, and it tells us.",
+     "file": "2026-10-31-tree-in-yard/audio/0019747196452d23.wav",
+     "from": 211,
+     "frames": 155
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find that tree.",
+     "caption": "Hi, I'm Vantee! Let's find that tree.",
+     "file": "2026-10-31-tree-in-yard/audio/a44bdc20309a5d3d.wav",
+     "from": 376,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 530,
+   "frames": 814,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-tree-in-yard/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 48
+    },
+    {
+     "text": "A rectangular yard A B C D has A B equal to sixteen meters, and B C equal to eight meters.",
+     "caption": "A rectangular yard A B C D has A B equal to sixteen meters, and B C equal to eight meters.",
+     "file": "2026-10-31-tree-in-yard/audio/2169263b7c4b88d3.wav",
+     "from": 59,
+     "frames": 245
+    },
+    {
+     "text": "A tree at point E on side A B",
+     "caption": "A tree at point E on side A B",
+     "file": "2026-10-31-tree-in-yard/audio/45584466520d0ae2.wav",
+     "from": 314,
+     "frames": 117
+    },
+    {
+     "text": "is the same distance from A as from C.",
+     "caption": "is the same distance from A as from C.",
+     "file": "2026-10-31-tree-in-yard/audio/b8f857891695f866.wav",
+     "from": 441,
+     "frames": 101
+    },
+    {
+     "text": "How far is the tree from A, in meters?",
+     "caption": "How far is the tree from A, in meters?",
+     "file": "2026-10-31-tree-in-yard/audio/8e00ce5cf8b714fc.wav",
+     "from": 552,
+     "frames": 94
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-tree-in-yard/audio/b97a89671840f7ca.wav",
+     "from": 656,
+     "frames": 89
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1344,
+   "frames": 608,
+   "lines": [
+    {
+     "text": "So what do we know? The distance from E to A equals the distance from E to C.",
+     "caption": "So what do we know? The distance from E to A equals the distance from E to C.",
+     "file": "2026-10-31-tree-in-yard/audio/747d793dac123877.wav",
+     "from": 0,
+     "frames": 219
+    },
+    {
+     "text": "E A runs along the bottom. E C is slanted, and it makes a right triangle with the corner B.",
+     "caption": "E A runs along the bottom. E C is slanted, and it makes a right triangle with the corner B.",
+     "file": "2026-10-31-tree-in-yard/audio/e5a9801cfbb70bde.wav",
+     "from": 229,
+     "frames": 234
+    },
+    {
+     "text": "We want E A.",
+     "caption": "We want E A.",
+     "file": "2026-10-31-tree-in-yard/audio/24dd09e1b82d8021.wav",
+     "from": 474,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1952,
+   "frames": 464,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-tree-in-yard/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "test",
+   "kind": "scene",
+   "chapter": "Solution 1: test the choices",
+   "from": 2416,
+   "frames": 1080,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: test each choice with the Pythagorean theorem.",
+     "caption": "Welcome back! Here's the strategy: test each choice with the Pythagorean theorem.",
+     "file": "2026-10-31-tree-in-yard/audio/815153e1ad44f5e8.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "Triangle E B C has a right angle at B. So E B squared plus eight squared equals E C squared.",
+     "caption": "Triangle E B C has a right angle at B. So E B squared plus eight squared equals E C squared.",
+     "file": "2026-10-31-tree-in-yard/audio/14cdfdc23dd78ed7.wav",
+     "from": 189,
+     "frames": 250
+    },
+    {
+     "text": "And E C must equal E A. So E B squared plus sixty-four must equal E A squared.",
+     "caption": "And E C must equal E A. So E B squared plus sixty-four must equal E A squared.",
+     "file": "2026-10-31-tree-in-yard/audio/573a07c17d10a340.wav",
+     "from": 449,
+     "frames": 244
+    },
+    {
+     "text": "Try six. Then E B is ten, and ten squared plus sixty-four is one hundred sixty-four.",
+     "caption": "Try six. Then E B is ten, and ten squared plus sixty-four is one hundred sixty-four.",
+     "file": "2026-10-31-tree-in-yard/audio/5acda7249bb78ba4.wav",
+     "from": 703,
+     "frames": 230
+    },
+    {
+     "text": "But six squared is just thirty-six.",
+     "caption": "But six squared is just thirty-six.",
+     "file": "2026-10-31-tree-in-yard/audio/1f5a5c316e500e20.wav",
+     "from": 942,
+     "frames": 84
+    }
+   ]
+  },
+  {
+   "id": "test2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3496,
+   "frames": 1084,
+   "lines": [
+    {
+     "text": "Try eight. Then E B is eight, and eight squared plus sixty-four is one hundred twenty-eight.",
+     "caption": "Try eight. Then E B is eight, and eight squared plus sixty-four is one hundred twenty-eight.",
+     "file": "2026-10-31-tree-in-yard/audio/3ca8d234b7c82ae1.wav",
+     "from": 0,
+     "frames": 219
+    },
+    {
+     "text": "Eight squared is only sixty-four.",
+     "caption": "Eight squared is only sixty-four.",
+     "file": "2026-10-31-tree-in-yard/audio/05cccf9624f5c6bf.wav",
+     "from": 229,
+     "frames": 82
+    },
+    {
+     "text": "Try ten. Then E B is six. Six squared plus sixty-four is one hundred.",
+     "caption": "Try ten. Then E B is six. Six squared plus sixty-four is one hundred.",
+     "file": "2026-10-31-tree-in-yard/audio/78b316cba737a1e6.wav",
+     "from": 322,
+     "frames": 202
+    },
+    {
+     "text": "And ten squared is one hundred. A match!",
+     "caption": "And ten squared is one hundred. A match!",
+     "file": "2026-10-31-tree-in-yard/audio/1193c047c135ae4d.wav",
+     "from": 534,
+     "frames": 117
+    },
+    {
+     "text": "Triangle E B C has sides six, eight and ten, so E C is ten, just like E A.",
+     "caption": "Triangle E B C has sides six, eight and ten, so E C is ten, just like E A.",
+     "file": "2026-10-31-tree-in-yard/audio/decf4520c2c770a9.wav",
+     "from": 660,
+     "frames": 220
+    },
+    {
+     "text": "The tree is ten meters from A. That's Choice C!",
+     "caption": "The tree is ten meters from A. That's Choice C!",
+     "file": "2026-10-31-tree-in-yard/audio/9bc82a48efad4303.wav",
+     "from": 891,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "algebra",
+   "kind": "scene",
+   "chapter": "Solution 2: name it x",
+   "from": 4580,
+   "frames": 1898,
+   "lines": [
+    {
+     "text": "Here's a way that works even without choices. Call the distance x.",
+     "caption": "Here's a way that works even without choices. Call the distance x.",
+     "file": "2026-10-31-tree-in-yard/audio/e1d49d96205ef53e.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "Then E C is also x, and E B is sixteen minus x.",
+     "caption": "Then E C is also x, and E B is sixteen minus x.",
+     "file": "2026-10-31-tree-in-yard/audio/c0f3aae293f0d939.wav",
+     "from": 160,
+     "frames": 197
+    },
+    {
+     "text": "The right triangle says sixteen minus x, squared, plus eight squared, equals x squared.",
+     "caption": "The right triangle says sixteen minus x, squared, plus eight squared, equals x squared.",
+     "file": "2026-10-31-tree-in-yard/audio/127df98ebfa3e502.wav",
+     "from": 367,
+     "frames": 248
+    },
+    {
+     "text": "Sixteen minus x, times sixteen minus x, is two hundred fifty-six, minus sixteen x, minus sixteen x, plus x squared.",
+     "caption": "Sixteen minus x, times sixteen minus x, is two hundred fifty-six, minus sixteen x, minus sixteen x, plus x squared.",
+     "file": "2026-10-31-tree-in-yard/audio/75941ce92d48b520.wav",
+     "from": 625,
+     "frames": 316
+    },
+    {
+     "text": "Sixteen minus x, squared, opens up to two hundred fifty-six, minus thirty-two x, plus x squared.",
+     "caption": "Sixteen minus x, squared, opens up to two hundred fifty-six, minus thirty-two x, plus x squared.",
+     "file": "2026-10-31-tree-in-yard/audio/259cc0d50d1e04ce.wav",
+     "from": 951,
+     "frames": 262
+    },
+    {
+     "text": "Add sixty-four. Now there's an x squared on both sides, so they cancel out.",
+     "caption": "Add sixty-four. Now there's an x squared on both sides, so they cancel out.",
+     "file": "2026-10-31-tree-in-yard/audio/a6ef1f6fb18dab59.wav",
+     "from": 1223,
+     "frames": 185
+    },
+    {
+     "text": "That leaves three hundred twenty equals thirty-two x. So x is ten. Same answer!",
+     "caption": "That leaves three hundred twenty equals thirty-two x. So x is ten. Same answer!",
+     "file": "2026-10-31-tree-in-yard/audio/2e3c4815fbd6e668.wav",
+     "from": 1418,
+     "frames": 210
+    },
+    {
+     "text": "When would you pick this way? When there are no choices to test, or the numbers aren't nice.",
+     "caption": "When would you pick this way? When there are no choices to test, or the numbers aren't nice.",
+     "file": "2026-10-31-tree-in-yard/audio/81cfd7da55c35b19.wav",
+     "from": 1639,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6478,
+   "frames": 1452,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-tree-in-yard/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Choice A, six, is a real length: it's E B, from the tree to B. But we want the distance from A.",
+     "caption": "Choice A, six, is a real length: it's E B, from the tree to B. But we want the distance from A.",
+     "file": "2026-10-31-tree-in-yard/audio/1769d830e4aaa937.wav",
+     "from": 137,
+     "frames": 276
+    },
+    {
+     "text": "Choice B, eight, is the short side B C. And we just saw eight fails the test.",
+     "caption": "Choice B, eight, is the short side B C. And we just saw eight fails the test.",
+     "file": "2026-10-31-tree-in-yard/audio/65e37cdab9273f2c.wav",
+     "from": 423,
+     "frames": 206
+    },
+    {
+     "text": "Choices D and E, twelve and fourteen: the length E B is only four, then two, and the numbers don't match.",
+     "caption": "Choices D and E, twelve and fourteen: the length E B is only four, then two, and the numbers don't match.",
+     "file": "2026-10-31-tree-in-yard/audio/08b651d38325606d.wav",
+     "from": 639,
+     "frames": 267
+    },
+    {
+     "text": "Eighty versus one hundred forty-four, and sixty-eight versus one hundred ninety-six.",
+     "caption": "Eighty versus one hundred forty-four, and sixty-eight versus one hundred ninety-six.",
+     "file": "2026-10-31-tree-in-yard/audio/afcd60f2d1dfc485.wav",
+     "from": 916,
+     "frames": 226
+    },
+    {
+     "text": "So here's a great habit. When two distances are equal, write one of them a second way, with a right triangle.",
+     "caption": "So here's a great habit. When two distances are equal, write one of them a second way, with a right triangle.",
+     "file": "2026-10-31-tree-in-yard/audio/8438d4b3540de491.wav",
+     "from": 1152,
+     "frames": 240
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a bigger yard",
+   "from": 7930,
+   "frames": 538,
+   "lines": [
+    {
+     "text": "Ready for a challenge? A bigger yard has A B equal to eighteen meters and B C equal to twelve meters.",
+     "caption": "Ready for a challenge? A bigger yard has A B equal to eighteen meters and B C equal to twelve meters.",
+     "file": "2026-10-31-tree-in-yard/audio/c4c6dde1cd35996c.wav",
+     "from": 0,
+     "frames": 238
+    },
+    {
+     "text": "A tree at E on side A B is the same distance from A as from C. How far is it from A?",
+     "caption": "A tree at E on side A B is the same distance from A as from C. How far is it from A?",
+     "file": "2026-10-31-tree-in-yard/audio/902c19182db7ba07.wav",
+     "from": 248,
+     "frames": 251
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8468,
+   "frames": 457,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-tree-in-yard/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Bigger yard: the answer",
+   "from": 8925,
+   "frames": 1542,
+   "lines": [
+    {
+     "text": "Let's call it x again. E B is eighteen minus x, and B C is twelve.",
+     "caption": "Let's call it x again. E B is eighteen minus x, and B C is twelve.",
+     "file": "2026-10-31-tree-in-yard/audio/0b7ed3ebb3b392ff.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "Eighteen minus x, times eighteen minus x, is three hundred twenty-four, minus eighteen x, twice, plus x squared.",
+     "caption": "Eighteen minus x, times eighteen minus x, is three hundred twenty-four, minus eighteen x, twice, plus x squared.",
+     "file": "2026-10-31-tree-in-yard/audio/51501e8a7df74cf1.wav",
+     "from": 220,
+     "frames": 336
+    },
+    {
+     "text": "Eighteen minus x, squared, is three hundred twenty-four, minus thirty-six x, plus x squared.",
+     "caption": "Eighteen minus x, squared, is three hundred twenty-four, minus thirty-six x, plus x squared.",
+     "file": "2026-10-31-tree-in-yard/audio/e697f13b98075b25.wav",
+     "from": 566,
+     "frames": 226
+    },
+    {
+     "text": "Add one hundred forty-four, and the x squared terms cancel.",
+     "caption": "Add one hundred forty-four, and the x squared terms cancel.",
+     "file": "2026-10-31-tree-in-yard/audio/cec67c2228ce56f0.wav",
+     "from": 802,
+     "frames": 126
+    },
+    {
+     "text": "That leaves four hundred sixty-eight equals thirty-six x. So x is thirteen!",
+     "caption": "That leaves four hundred sixty-eight equals thirty-six x. So x is thirteen!",
+     "file": "2026-10-31-tree-in-yard/audio/b06c9905857cea49.wav",
+     "from": 939,
+     "frames": 180
+    },
+    {
+     "text": "Check: E B is five, and a five, twelve, thirteen triangle is a right triangle. It works!",
+     "caption": "Check: E B is five, and a five, twelve, thirteen triangle is a right triangle. It works!",
+     "file": "2026-10-31-tree-in-yard/audio/8a00befeca0eec1d.wav",
+     "from": 1129,
+     "frames": 233
+    },
+    {
+     "text": "If you got thirteen meters, amazing work!",
+     "caption": "If you got thirteen meters, amazing work!",
+     "file": "2026-10-31-tree-in-yard/audio/b53d06237af7a824.wav",
+     "from": 1372,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10467,
+   "frames": 597,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-tree-in-yard/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 86
+    },
+    {
+     "text": "Name the unknown distance. Then write the same distance a second way, with the Pythagorean theorem.",
+     "caption": "Name the unknown distance. Then write the same distance a second way, with the Pythagorean theorem.",
+     "file": "2026-10-31-tree-in-yard/audio/4b2cbabd81cf9bde.wav",
+     "from": 96,
+     "frames": 210
+    },
+    {
+     "text": "Set the two equal, and solve.",
+     "caption": "Set the two equal, and solve.",
+     "file": "2026-10-31-tree-in-yard/audio/f32df798ac8d97d3.wav",
+     "from": 316,
+     "frames": 75
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-tree-in-yard/audio/31a6054d0b03b932.wav",
+     "from": 401,
+     "frames": 112
+    }
+   ]
+  }
+ ]
+}

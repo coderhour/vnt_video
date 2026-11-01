@@ -75,6 +75,15 @@ The main session orchestrates and does the thinking. Spend Opus where mistakes a
 - **Step 8 (review)**: the reviewer Agent runs with `model: "opus"`. Send the fixes it finds back to the
   Sonnet builder (SendMessage), or do small ones yourself.
 
+**Parallel builds without stalls** (a 10-video batch lost hours to agents that went idle):
+- A subagent that ends its turn "waiting for" its own background job is never woken. Builders must not end a turn
+  while their own work runs: run `tts.py --check` in the foreground (timeout 600000, re-run if it times out, because
+  cached lines are skipped), and wait for renders with the blocking loop in step 7.
+- What parallelises: TTS, scene writing and stills (cheap). What doesn't: full renders, which use about 4 cores each.
+  `render.sh` queues them for 2 slots, so builders never `ps`-check or wait by hand.
+- Orchestrator: when a builder's notice says "waiting on its own background work", check
+  `ps aux | grep -E "[r]emotion render|[t]ts.py"` and its `videos/<slug>/render.*` markers. If nothing is running, nudge it right away.
+
 ## Workflow
 
 ### 1. Pick the question
@@ -236,13 +245,16 @@ In `studio/src/videos/<slug>/Composition.tsx`:
   - Keep each caption to 2 lines (under about 100 characters). A 3-line caption grows up over the figure.
   - Wrong-choice stories the bank doesn't explain must be worded as "what you'd get if…", never stated as fact.
   - Never let an animation show the answer (or a choice value) before the reveal, e.g. a sliding readout passing through 18.
-  - Run renders in the background with a unique output name, and check `ps` first. `rtk` hides Remotion's output, which led to duplicate renders.
+  - Full renders go through `scripts/render.sh` only (step 7). `rtk` hides Remotion's output, which led to duplicate renders.
 - SFX: a soft chime on each answer reveal, timed to the END of the line so it never covers the spoken number, and a quiet tick per countdown second. That's it. No
   game-style sounds (shotcraft S1). Keep it at about 0.2–0.3 volume under the voice.
 
 ### 7. Render and package
-- `npx remotion render ... ../videos/<slug>/video.mp4`
-- Normalise the loudness to YouTube's -14 LUFS (the raw render comes out around -19). One loudnorm pass overshoots the -1.5 dB true peak, so the limiter (0.8 ≈ -1.9 dB, headroom for AAC) caps it. Video is copied, not re-encoded:
+- One command does the render, loudnorm and poster. Start it with `run_in_background`:
+  `.claude/skills/math-explainer/scripts/render.sh <slug> <poster_seconds>`. It waits for one of 2 render slots, logs to
+  `videos/<slug>/render.log`, and ends with `render.done` or `render.failed`. Then block in the foreground, repeating until a marker appears:
+  `timeout 590 bash -c 'until [ -e videos/<slug>/render.done ] || [ -e videos/<slug>/render.failed ]; do sleep 15; done'`
+- What the script does, for reference: normalise the loudness to YouTube's -14 LUFS (the raw render comes out around -19). One loudnorm pass overshoots the -1.5 dB true peak, so the limiter (0.8 ≈ -1.9 dB, headroom for AAC) caps it. Video is copied, not re-encoded:
   `ffmpeg -i video.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.8:level=false -ar 48000 -c:a aac -b:a 192k out.mp4`
 - `poster.jpg`: a still of the question scene (`ffmpeg -ss <sec> -i video.mp4 -frames:v 1 poster.jpg`).
 - `videos/<slug>/meta.json`:

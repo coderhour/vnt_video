@@ -1,0 +1,506 @@
+{
+ "fps": 30,
+ "durationInFrames": 11249,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 571,
+   "lines": [
+    {
+     "text": "A shape with two square corners, and every other corner is one hundred sixty degrees. How many sides?",
+     "caption": "A shape with two square corners, and every other corner is one hundred sixty degrees. How many sides?",
+     "file": "2026-10-31-polygon-right-angles/audio/3f89e6e4ea7ea623.wav",
+     "from": 0,
+     "frames": 238
+    },
+    {
+     "text": "Adding up the inside angles works, but there's a neater trick: take a walk around the outside.",
+     "caption": "Adding up the inside angles works, but there's a neater trick: take a walk around the outside.",
+     "file": "2026-10-31-polygon-right-angles/audio/b2eac7e506eaea01.wav",
+     "from": 248,
+     "frames": 176
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's go for a walk.",
+     "caption": "Hi, I'm Vantee! Let's go for a walk.",
+     "file": "2026-10-31-polygon-right-angles/audio/dcbdad42a3edd68c.wav",
+     "from": 434,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 571,
+   "frames": 596,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-polygon-right-angles/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 41
+    },
+    {
+     "text": "A convex polygon has exactly two interior angles of ninety degrees.",
+     "caption": "A convex polygon has exactly two interior angles of ninety degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/9184255030cc29b6.wav",
+     "from": 51,
+     "frames": 161
+    },
+    {
+     "text": "Every other interior angle is one hundred sixty degrees. How many sides does the polygon have?",
+     "caption": "Every other interior angle is one hundred sixty degrees. How many sides does the polygon have?",
+     "file": "2026-10-31-polygon-right-angles/audio/abc3f847265067ef.wav",
+     "from": 223,
+     "frames": 182
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-polygon-right-angles/audio/b97a89671840f7ca.wav",
+     "from": 415,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1167,
+   "frames": 581,
+   "lines": [
+    {
+     "text": "So what do we know? Convex means every corner points outward. No dents.",
+     "caption": "So what do we know? Convex means every corner points outward. No dents.",
+     "file": "2026-10-31-polygon-right-angles/audio/5882da957991dde7.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "Two corners are ninety degrees. All the others are one hundred sixty degrees.",
+     "caption": "Two corners are ninety degrees. All the others are one hundred sixty degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/044e08b32278a008.wav",
+     "from": 202,
+     "frames": 159
+    },
+    {
+     "text": "A polygon has as many sides as corners. So let's count the corners.",
+     "caption": "A polygon has as many sides as corners. So let's count the corners.",
+     "file": "2026-10-31-polygon-right-angles/audio/cff8b90e9929c0fc.wav",
+     "from": 371,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1748,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-polygon-right-angles/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "kind": "scene",
+   "chapter": "Solution 1: walk around the outside",
+   "from": 2201,
+   "frames": 1191,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: walk around the outside of the shape, and add up your turns.",
+     "caption": "Welcome back! Here's the strategy: walk around the outside of the shape, and add up your turns.",
+     "file": "2026-10-31-polygon-right-angles/audio/fea4ed4c980ab046.wav",
+     "from": 0,
+     "frames": 213
+    },
+    {
+     "text": "Walk around a square. You turn ninety degrees at each corner, four times. That's three hundred sixty.",
+     "caption": "Walk around a square. You turn ninety degrees at each corner, four times. That's three hundred sixty.",
+     "file": "2026-10-31-polygon-right-angles/audio/98d366f44c892809.wav",
+     "from": 223,
+     "frames": 215
+    },
+    {
+     "text": "Here's the amazing part.",
+     "caption": "Here's the amazing part.",
+     "file": "2026-10-31-polygon-right-angles/audio/57d38f104c43cc25.wav",
+     "from": 448,
+     "frames": 54
+    },
+    {
+     "text": "You end up facing the way you started, so you've spun around once.",
+     "caption": "You end up facing the way you started, so you've spun around once.",
+     "file": "2026-10-31-polygon-right-angles/audio/d4a1d8213ebdceda.wav",
+     "from": 513,
+     "frames": 146
+    },
+    {
+     "text": "For any convex shape, your turns always add up to one full circle, three hundred sixty degrees.",
+     "caption": "For any convex shape, your turns always add up to one full circle, three hundred sixty degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/a43a48b1e7fd941f.wav",
+     "from": 669,
+     "frames": 219
+    },
+    {
+     "text": "At each corner, the inside angle and the turn sit on a straight line. Together they make one hundred eighty.",
+     "caption": "At each corner, the inside angle and the turn sit on a straight line. Together they make one hundred eighty.",
+     "file": "2026-10-31-polygon-right-angles/audio/97f9e8dd96c5d31a.wav",
+     "from": 897,
+     "frames": 240
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3392,
+   "frames": 1319,
+   "lines": [
+    {
+     "text": "At a ninety degree corner, you turn one hundred eighty minus ninety, which is ninety degrees.",
+     "caption": "At a ninety degree corner, you turn one hundred eighty minus ninety, which is ninety degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/a1ce26715f9f453f.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "At a corner of one hundred sixty degrees, you turn just twenty degrees.",
+     "caption": "At a corner of one hundred sixty degrees, you turn just twenty degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/a356d17ae807af3a.wav",
+     "from": 203,
+     "frames": 150
+    },
+    {
+     "text": "The two square corners use up ninety plus ninety, one hundred eighty degrees of turning.",
+     "caption": "The two square corners use up ninety plus ninety, one hundred eighty degrees of turning.",
+     "file": "2026-10-31-polygon-right-angles/audio/7c181c27ce533a8c.wav",
+     "from": 363,
+     "frames": 203
+    },
+    {
+     "text": "That leaves one hundred eighty.",
+     "caption": "That leaves one hundred eighty.",
+     "file": "2026-10-31-polygon-right-angles/audio/d52c661505233ce8.wav",
+     "from": 577,
+     "frames": 75
+    },
+    {
+     "text": "Each of the other corners turns twenty degrees. One hundred eighty divided by twenty is nine corners.",
+     "caption": "Each of the other corners turns twenty degrees. One hundred eighty divided by twenty is nine corners.",
+     "file": "2026-10-31-polygon-right-angles/audio/43d4a9b825efe917.wav",
+     "from": 662,
+     "frames": 231
+    },
+    {
+     "text": "Nine corners plus the two square ones makes eleven corners, so eleven sides.",
+     "caption": "Nine corners plus the two square ones makes eleven corners, so eleven sides.",
+     "file": "2026-10-31-polygon-right-angles/audio/c40c76909443dc03.wav",
+     "from": 903,
+     "frames": 215
+    },
+    {
+     "text": "The polygon has eleven sides. That's Choice C!",
+     "caption": "The polygon has eleven sides. That's Choice C!",
+     "file": "2026-10-31-polygon-right-angles/audio/c0e5e3cd0e6b3ea4.wav",
+     "from": 1128,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "id": "inside",
+   "kind": "scene",
+   "chapter": "Solution 2: add the inside angles",
+   "from": 4711,
+   "frames": 1782,
+   "lines": [
+    {
+     "text": "Here's another way.",
+     "caption": "Here's another way.",
+     "file": "2026-10-31-polygon-right-angles/audio/a46c6e2c967c8199.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "A shape with n sides splits into n minus two triangles.",
+     "caption": "A shape with n sides splits into n minus two triangles.",
+     "file": "2026-10-31-polygon-right-angles/audio/17cddecf16a9c155.wav",
+     "from": 54,
+     "frames": 170
+    },
+    {
+     "text": "So its inside angles add to n minus two, times one hundred eighty.",
+     "caption": "So its inside angles add to n minus two, times one hundred eighty.",
+     "file": "2026-10-31-polygon-right-angles/audio/96f26b07873a15b3.wav",
+     "from": 234,
+     "frames": 168
+    },
+    {
+     "text": "Our shape has two ninety degree corners, and n minus two corners of one hundred sixty.",
+     "caption": "Our shape has two ninety degree corners, and n minus two corners of one hundred sixty.",
+     "file": "2026-10-31-polygon-right-angles/audio/65fd5cbbc18a525b.wav",
+     "from": 412,
+     "frames": 191
+    },
+    {
+     "text": "So n minus two times one hundred eighty, equals one hundred eighty, plus n minus two times one hundred sixty.",
+     "caption": "So n minus two times one hundred eighty, equals one hundred eighty, plus n minus two times one hundred sixty.",
+     "file": "2026-10-31-polygon-right-angles/audio/26c5c32480f2bb8f.wav",
+     "from": 613,
+     "frames": 290
+    },
+    {
+     "text": "n minus two groups of one hundred eighty, take away n minus two groups of one hundred sixty, leaves n minus two groups of twenty.",
+     "caption": "n minus two groups of one hundred eighty, take away n minus two groups of one hundred sixty, leaves n minus two groups of twenty.",
+     "file": "2026-10-31-polygon-right-angles/audio/dafa8bd318b7760c.wav",
+     "from": 913,
+     "frames": 290
+    },
+    {
+     "text": "And that equals one hundred eighty.",
+     "caption": "And that equals one hundred eighty.",
+     "file": "2026-10-31-polygon-right-angles/audio/ae68bfac865f4163.wav",
+     "from": 1213,
+     "frames": 80
+    },
+    {
+     "text": "So n minus two is nine, and n is eleven. Same answer!",
+     "caption": "So n minus two is nine, and n is eleven. Same answer!",
+     "file": "2026-10-31-polygon-right-angles/audio/3923929cbedefcf1.wav",
+     "from": 1303,
+     "frames": 178
+    },
+    {
+     "text": "When would you pick this way? When you like equations. The walk is quicker when lots of corners match.",
+     "caption": "When would you pick this way? When you like equations. The walk is quicker when lots of corners match.",
+     "file": "2026-10-31-polygon-right-angles/audio/22221d06e0e92667.wav",
+     "from": 1491,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6493,
+   "frames": 1721,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-polygon-right-angles/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "Choice A, nine, counts only the one hundred sixty degree corners. Don't forget the two square ones!",
+     "caption": "Choice A, nine, counts only the one hundred sixty degree corners. Don't forget the two square ones!",
+     "file": "2026-10-31-polygon-right-angles/audio/7594ed882ba45f0d.wav",
+     "from": 151,
+     "frames": 202
+    },
+    {
+     "text": "Choice E, twenty, is the turn at each of those corners, twenty degrees.",
+     "caption": "Choice E, twenty, is the turn at each of those corners, twenty degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/666b00b36f0f16a7.wav",
+     "from": 363,
+     "frames": 172
+    },
+    {
+     "text": "That's an angle, not a number of sides.",
+     "caption": "That's an angle, not a number of sides.",
+     "file": "2026-10-31-polygon-right-angles/audio/79234d06b336a47d.wav",
+     "from": 545,
+     "frames": 95
+    },
+    {
+     "text": "Choices B and D, ten and twelve, fail the angle check.",
+     "caption": "Choices B and D, ten and twelve, fail the angle check.",
+     "file": "2026-10-31-polygon-right-angles/audio/26f17acd37946f10.wav",
+     "from": 650,
+     "frames": 152
+    },
+    {
+     "text": "Ten sides should add to one thousand four hundred forty. But two corners of ninety and eight of one hundred sixty add to one thousand four hundred sixty.",
+     "caption": "Ten sides should add to one thousand four hundred forty. But two corners of ninety and eight of one hundred sixty add to one thousand four hundred sixty.",
+     "file": "2026-10-31-polygon-right-angles/audio/a4467b0a6a3dc67e.wav",
+     "from": 812,
+     "frames": 297
+    },
+    {
+     "text": "Twelve sides should add to one thousand eight hundred. But two corners of ninety and ten of one hundred sixty add to one thousand seven hundred eighty.",
+     "caption": "Twelve sides should add to one thousand eight hundred. But two corners of ninety and ten of one hundred sixty add to one thousand seven hundred eighty.",
+     "file": "2026-10-31-polygon-right-angles/audio/5372cc533fb58f8e.wav",
+     "from": 1119,
+     "frames": 297
+    },
+    {
+     "text": "So here's a great habit. For polygon angles, think about the turns. They always add up to three hundred sixty.",
+     "caption": "So here's a great habit. For polygon angles, think about the turns. They always add up to three hundred sixty.",
+     "file": "2026-10-31-polygon-right-angles/audio/68e3b5545eb5e740.wav",
+     "from": 1425,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: new corners",
+   "from": 8214,
+   "frames": 432,
+   "lines": [
+    {
+     "text": "Ready for a challenge? A convex polygon has exactly three angles of one hundred twenty degrees.",
+     "caption": "Ready for a challenge? A convex polygon has exactly three angles of one hundred twenty degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/40b1ed93ee39d909.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "Every other angle is one hundred fifty degrees. How many sides does it have?",
+     "caption": "Every other angle is one hundred fifty degrees. How many sides does it have?",
+     "file": "2026-10-31-polygon-right-angles/audio/875d92c3eddd4792.wav",
+     "from": 218,
+     "frames": 176
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8646,
+   "frames": 455,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-polygon-right-angles/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New corners: the answer",
+   "from": 9101,
+   "frames": 1467,
+   "lines": [
+    {
+     "text": "Let's walk it. At each one hundred twenty degree corner you turn sixty degrees.",
+     "caption": "Let's walk it. At each one hundred twenty degree corner you turn sixty degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/adc8bca57223003f.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "Three of them make one hundred eighty.",
+     "caption": "Three of them make one hundred eighty.",
+     "file": "2026-10-31-polygon-right-angles/audio/8c162600eab5131d.wav",
+     "from": 190,
+     "frames": 87
+    },
+    {
+     "text": "That leaves one hundred eighty degrees of turning for the other corners.",
+     "caption": "That leaves one hundred eighty degrees of turning for the other corners.",
+     "file": "2026-10-31-polygon-right-angles/audio/f9a8534741217880.wav",
+     "from": 287,
+     "frames": 125
+    },
+    {
+     "text": "Each one hundred fifty degree corner turns thirty degrees. One hundred eighty divided by thirty is six.",
+     "caption": "Each one hundred fifty degree corner turns thirty degrees. One hundred eighty divided by thirty is six.",
+     "file": "2026-10-31-polygon-right-angles/audio/d04d1012f30bac64.wav",
+     "from": 422,
+     "frames": 244
+    },
+    {
+     "text": "Six corners plus three makes nine sides!",
+     "caption": "Six corners plus three makes nine sides!",
+     "file": "2026-10-31-polygon-right-angles/audio/789b2d2559c3bd98.wav",
+     "from": 677,
+     "frames": 130
+    },
+    {
+     "text": "Check: nine sides means inside angles of one thousand two hundred sixty.",
+     "caption": "Check: nine sides means inside angles of one thousand two hundred sixty.",
+     "file": "2026-10-31-polygon-right-angles/audio/ef3977e961ee340a.wav",
+     "from": 817,
+     "frames": 177
+    },
+    {
+     "text": "Three times one hundred twenty, plus six times one hundred fifty, is one thousand two hundred sixty. It works!",
+     "caption": "Three times one hundred twenty, plus six times one hundred fifty, is one thousand two hundred sixty. It works!",
+     "file": "2026-10-31-polygon-right-angles/audio/363367ce20c7d6ea.wav",
+     "from": 1004,
+     "frames": 280
+    },
+    {
+     "text": "If you got nine, amazing work!",
+     "caption": "If you got nine, amazing work!",
+     "file": "2026-10-31-polygon-right-angles/audio/c761299b8446a626.wav",
+     "from": 1294,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10568,
+   "frames": 681,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-polygon-right-angles/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 86
+    },
+    {
+     "text": "Walk around a convex shape, and your turns always add up to three hundred sixty degrees.",
+     "caption": "Walk around a convex shape, and your turns always add up to three hundred sixty degrees.",
+     "file": "2026-10-31-polygon-right-angles/audio/a24a26aad6ed55f7.wav",
+     "from": 96,
+     "frames": 189
+    },
+    {
+     "text": "Subtract the turns you know, then divide what's left by the turn at each other corner.",
+     "caption": "Subtract the turns you know, then divide what's left by the turn at each other corner.",
+     "file": "2026-10-31-polygon-right-angles/audio/e506b2f1332fb9a6.wav",
+     "from": 295,
+     "frames": 183
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-polygon-right-angles/audio/31a6054d0b03b932.wav",
+     "from": 488,
+     "frames": 110
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "title": "Add Up the Tips of a 7-Point Star | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Seven points on a circle, the star draws itself point to point (A→C→E→G→B→D→F→A). Line 1: the seven tip angles get small arcs one by one. Line 2: a pencil icon traces the star. Line 3: Vantee title card.",
+   "lines": [
+    "Seven pointy tips on a star. What do their angles add up to?",
+    "You don't need to measure a single one. A walking pencil can tell us!",
+    "Hi, I'm Vantee! Let's add up some star points."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left; on the right the circle with seven evenly spaced points labeled A through G going counterclockwise, A at the top (bank figure has no labels — add them, 48px). Line 3: draw A→C, C→E, … one chord at a time. Line 4: tip arcs glow. Line 5: chips 180, 360, 540, 720, 900.",
+   "lines": [
+    "Here's the question.",
+    "Seven points are evenly spaced on a circle.",
+    "A star is drawn by joining each point to the second point after it, going around the circle.",
+    "What is the sum, in degrees, of the seven angles at the tips of the star?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: from A, a hop arrow skips B and lands on C ('second point after'). Line 2: all seven tip arcs in purple, all the same size; one labeled 'tip'. Line 3: '7 tips: total = ?'.",
+   "lines": [
+    "So what do we know? Each line skips one point. A joins to C, C joins to E, and so on.",
+    "The star is perfectly even, so all seven tips are the same size.",
+    "We want the total of all seven tip angles."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; star figure visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "slices",
+   "chapter": "Solution 1: slices from the center",
+   "hold": 1,
+   "visual": "Mark center O. Line 2: seven radii to the points, cutting seven equal slices; each center angle labeled s. Line 3: row '7s = 360°'. Line 4: zoom on tip at A: the two star lines from A go to C and to F; draw radii OA, OC, OF. Line 5: triangle OAC shaded green, angle AOC labeled '2s' (spans two slices). Keep right-side panel for equation rows.",
+   "lines": [
+    "Welcome back! Here's the strategy: cut the circle into slices from the center.",
+    "Seven equal slices fill the whole turn. Call each slice angle s.",
+    "Seven copies of s make three hundred sixty degrees.",
+    "Now zoom in on the tip at A. Its two lines go to C and to F.",
+    "Draw lines from the center to A and to C. The angle at the center covers two slices, so it's two s."
+   ]
+  },
+  {
+   "id": "triangle",
+   "hold": 1.5,
+   "visual": "Line 1: OA and OC get matching ticks ('radius'). Lines 2-3: row '180 − 2s', then halved: '90 − s' on each base angle of triangle OAC. Lines 4-5: triangle OAF shaded (other side), center angle 2s, base angle at A '90 − s'. Line 6: tip at A = (90 − s) + (90 − s) = 180 − 2s. Lines 7-8: '7 × (180 − 2s) = 1260 − 14s'. Line 9: '14s = 2 × 360 = 720'. Line 10: '1260 − 720 = 540'. Line 11: answer badge '540°' with chime at end, choice C highlighted.",
+   "lines": [
+    "Both of those lines are radii, so they're equal. Triangle O A C is isosceles.",
+    "Its angles add to one hundred eighty. Subtract two times the letter s, then split the rest in half.",
+    "So each base angle is ninety minus s.",
+    "The other side works the same way. Triangle O A F has a two s angle at the center too.",
+    "So its angle at A is also ninety minus s.",
+    "So the tip at A is ninety minus s, twice. That's one hundred eighty minus two s.",
+    "Seven tips make seven times one hundred eighty, minus fourteen times s.",
+    "That's one thousand two hundred sixty, minus fourteen s.",
+    "Fourteen times s is two times seven times s.",
+    "That's two times three hundred sixty, which is seven hundred twenty.",
+    "One thousand two hundred sixty minus seven hundred twenty is five hundred forty.",
+    "The tips add up to five hundred forty degrees. That's Choice C!"
+   ]
+  },
+  {
+   "id": "pencil",
+   "chapter": "Solution 2: walk the pencil",
+   "hold": 1,
+   "visual": "Pencil arrow at A pointing toward C. Line 2: pencil walks A→C, at C it turns (show the turn angle as an outside arc, green) and heads to E. Line 3: at a tip, label the tip angle (purple) and the turn (green); 'turn + tip = 180'. Line 4: pencil walks the full star; a lap counter around the center ticks 'lap 1' then 'lap 2' (14 slices = 2 laps). Line 5: 'total turn = 2 × 360 = 720'.",
+   "lines": [
+    "Here's a really clever way. Put a pencil at A, pointing at C, and walk it around the star.",
+    "At each tip, the pencil turns to head down the next line.",
+    "The turn and the tip angle sit on a straight line, so together they make one hundred eighty.",
+    "Each line jumps two slices. Seven lines make fourteen slices: two full circles.",
+    "Watch the pencil go all the way round. It circles the center twice before it gets home!",
+    "Two full circles means two times three hundred sixty degrees of turning. That's seven hundred twenty."
+   ]
+  },
+  {
+   "id": "pencil2",
+   "hold": 1.5,
+   "visual": "Lines 1-2: '7 × 180 = 1260' (tips + turns). Lines 3-4: 'tips = 1260 − 720 = 540'. Line 5: small card 'Pencil walk: count the laps'.",
+   "lines": [
+    "At each of the seven tips, the tip plus the turn is one hundred eighty.",
+    "Seven times one hundred eighty is one thousand two hundred sixty.",
+    "The turns use up seven hundred twenty. So the tips get the rest.",
+    "One thousand two hundred sixty minus seven hundred twenty is five hundred forty again!",
+    "When would you pick this way? For any star, just count how many times the pencil circles the center."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red with a mini-note. Line 2: small five-point star with '180°'. Line 3: plain seven-sided shape (heptagon) with '900°'. Line 4: '720 = the turns'. Line for B: '360 = one full turn' with a small plain-polygon turn circle.",
+   "lines": [
+    "Now let's look at the wrong answers. Each one is a trap.",
+    "Choice A, one hundred eighty, is the famous answer for a five-point star. Seven points is a different star!",
+    "Choice E, nine hundred, is the angle total for an ordinary seven-sided shape.",
+    "The pencil would circle only once.",
+    "Choice D, seven hundred twenty, is the total turning of the pencil, not the tips.",
+    "Choice B, three hundred sixty, is one full turn.",
+    "That's what the turns of an ordinary shape add to, not a star's tips.",
+    "So here's a great habit. Don't use a rule you remember for a different shape. Check it."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a pointier star",
+   "hold": 0.5,
+   "visual": "Same seven points; new star joining each point to the THIRD point after it: A→D→G→C→F→B→E→A draws itself. Tips visibly sharper.",
+   "lines": [
+    "Ready for a challenge? Same seven points, but now join each point to the third point after it.",
+    "The star gets pointier. What do its seven tip angles add up to?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, the pointier star visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Pointier star: the answer",
+   "hold": 1.5,
+   "visual": "Pencil walks the pointier star; lap counter shows 'lap 1, lap 2, lap 3' over lines 1-2. Rows: '3 × 360 = 1080', '7 × 180 = 1260', '1260 − 1080 = 180'. Answer badge '180°' with chime at end of the 'one hundred eighty degrees!' line. Last line before recap: no new maths.",
+   "lines": [
+    "Let's walk the pencil. Each line now jumps three slices, and seven lines make twenty-one slices.",
+    "Twenty-one slices is three full circles.",
+    "So the pencil turns three times three hundred sixty, which is one thousand eighty degrees.",
+    "Tips plus turns is still seven times one hundred eighty, one thousand two hundred sixty.",
+    "One thousand two hundred sixty minus one thousand eighty is one hundred eighty degrees!",
+    "Here's the sneaky part. Pointier tips, so a smaller total. If you got one hundred eighty, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: pencil-walk diagram with 'tip + turn = 180' and 'turns = laps × 360'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "At every corner, the tip and the pencil's turn add to one hundred eighty.",
+    "Count how many times the pencil circles the center. Times three hundred sixty is the total turning, and the tips get the rest.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 11234,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 503,
+   "lines": [
+    {
+     "text": "Ella makes her drink stronger by pouring in more juice AND more water.",
+     "caption": "Ella makes her drink stronger by pouring in more juice AND more water.",
+     "file": "2026-10-30-juice-mix/audio/ccbc7ec030108b5e.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "Lots of kids find the juice. <short pause> But this question asks about the water!",
+     "caption": "Lots of kids find the juice. But this question asks about the water!",
+     "file": "2026-10-30-juice-mix/audio/35b40bc56ae85dc4.wav",
+     "from": 169,
+     "frames": 148
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's keep the juice and the water apart.",
+     "caption": "Hi, I'm Vantee! Let's keep the juice and the water apart.",
+     "file": "2026-10-30-juice-mix/audio/d91fab2e0493ad45.wav",
+     "from": 327,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 503,
+   "frames": 730,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-juice-mix/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "Ella has twenty liters of a drink that is thirty percent juice.",
+     "caption": "Ella has twenty liters of a drink that is thirty percent juice.",
+     "file": "2026-10-30-juice-mix/audio/ada9712e757556db.wav",
+     "from": 57,
+     "frames": 138
+    },
+    {
+     "text": "She adds some pure juice and some water.",
+     "caption": "She adds some pure juice and some water.",
+     "file": "2026-10-30-juice-mix/audio/fbf4b6cc36ede193.wav",
+     "from": 206,
+     "frames": 100
+    },
+    {
+     "text": "Now she has twenty-five liters of a drink that is forty percent juice.",
+     "caption": "Now she has twenty-five liters of a drink that is forty percent juice.",
+     "file": "2026-10-30-juice-mix/audio/a045ce6e1c58cfd7.wav",
+     "from": 316,
+     "frames": 152
+    },
+    {
+     "text": "How many liters of water does she add?",
+     "caption": "How many liters of water does she add?",
+     "file": "2026-10-30-juice-mix/audio/ac68c3c9de160697.wav",
+     "from": 477,
+     "frames": 81
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-juice-mix/audio/b97a89671840f7ca.wav",
+     "from": 568,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1233,
+   "frames": 642,
+   "lines": [
+    {
+     "text": "So what do we know? There are two drinks: the one she starts with, and the one she ends with.",
+     "caption": "So what do we know? There are two drinks: the one she starts with, and the one she ends with.",
+     "file": "2026-10-30-juice-mix/audio/fd014b968a4ab57c.wav",
+     "from": 0,
+     "frames": 204
+    },
+    {
+     "text": "Each drink is part juice, part water. Thirty percent juice means thirty parts in every hundred.",
+     "caption": "Each drink is part juice, part water. Thirty percent juice means thirty parts in every hundred.",
+     "file": "2026-10-30-juice-mix/audio/885664562fcf98f3.wav",
+     "from": 214,
+     "frames": 215
+    },
+    {
+     "text": "She adds two things, juice and water. We want just the water.",
+     "caption": "She adds two things, juice and water. We want just the water.",
+     "file": "2026-10-30-juice-mix/audio/d9feee56ce84dc16.wav",
+     "from": 439,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1875,
+   "frames": 474,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-juice-mix/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "kind": "scene",
+   "chapter": "Solution 1: split each drink",
+   "from": 2349,
+   "frames": 782,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: split each drink into juice and water.",
+     "caption": "Welcome back! Here's the strategy: split each drink into juice and water.",
+     "file": "2026-10-30-juice-mix/audio/a244b3b6923e1e82.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "Start with the twenty liters. Ten percent of twenty is two, so thirty percent is six.",
+     "caption": "Start with the twenty liters. Ten percent of twenty is two, so thirty percent is six.",
+     "file": "2026-10-30-juice-mix/audio/688f506b831bbe57.wav",
+     "from": 197,
+     "frames": 216
+    },
+    {
+     "text": "So the first drink has six liters of juice.",
+     "caption": "So the first drink has six liters of juice.",
+     "file": "2026-10-30-juice-mix/audio/f881e1d8f47fc253.wav",
+     "from": 423,
+     "frames": 106
+    },
+    {
+     "text": "The rest is water. Twenty minus six is fourteen liters of water.",
+     "caption": "The rest is water. Twenty minus six is fourteen liters of water.",
+     "file": "2026-10-30-juice-mix/audio/76119ebb0c111b67.wav",
+     "from": 539,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3131,
+   "frames": 709,
+   "lines": [
+    {
+     "text": "Now the final drink: twenty-five liters that is forty percent juice.",
+     "caption": "Now the final drink: twenty-five liters that is forty percent juice.",
+     "file": "2026-10-30-juice-mix/audio/30c1f4e9875444c0.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Forty percent is two fifths. One fifth of twenty-five is five, so two fifths is ten.",
+     "caption": "Forty percent is two fifths. One fifth of twenty-five is five, so two fifths is ten.",
+     "file": "2026-10-30-juice-mix/audio/2fdc6b77cca4a31e.wav",
+     "from": 170,
+     "frames": 219
+    },
+    {
+     "text": "So the final drink has ten liters of juice.",
+     "caption": "So the final drink has ten liters of juice.",
+     "file": "2026-10-30-juice-mix/audio/7f7437e44ceda7d1.wav",
+     "from": 399,
+     "frames": 116
+    },
+    {
+     "text": "And twenty-five minus ten is fifteen liters of water.",
+     "caption": "And twenty-five minus ten is fifteen liters of water.",
+     "file": "2026-10-30-juice-mix/audio/02096d007b666f6a.wav",
+     "from": 525,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "compare",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3840,
+   "frames": 962,
+   "lines": [
+    {
+     "text": "Now line the two drinks up: juice next to juice, water next to water.",
+     "caption": "Now line the two drinks up: juice next to juice, water next to water.",
+     "file": "2026-10-30-juice-mix/audio/c21e9d5ce888ff85.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "Juice goes from six to ten. So Ella adds four liters of juice.",
+     "caption": "Juice goes from six to ten. So Ella adds four liters of juice.",
+     "file": "2026-10-30-juice-mix/audio/531a672f92a59297.wav",
+     "from": 180,
+     "frames": 161
+    },
+    {
+     "text": "Water goes from fourteen to fifteen. So she adds just one liter of water!",
+     "caption": "Water goes from fourteen to fifteen. So she adds just one liter of water!",
+     "file": "2026-10-30-juice-mix/audio/dd7c74d53bdba3cc.wav",
+     "from": 351,
+     "frames": 180
+    },
+    {
+     "text": "Check: four plus one is five, and twenty plus five is twenty-five. It fits!",
+     "caption": "Check: four plus one is five, and twenty plus five is twenty-five. It fits!",
+     "file": "2026-10-30-juice-mix/audio/25a73a3e31d22e0e.wav",
+     "from": 542,
+     "frames": 227
+    },
+    {
+     "text": "The answer is one liter. That's Choice B!",
+     "caption": "The answer is one liter. That's Choice B!",
+     "file": "2026-10-30-juice-mix/audio/4de35030f05e80a7.wav",
+     "from": 779,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "kind": "scene",
+   "chapter": "Solution 2: watch only the water",
+   "from": 4802,
+   "frames": 1394,
+   "lines": [
+    {
+     "text": "Here's a faster way. Forget the juice, and watch only the water.",
+     "caption": "Here's a faster way. Forget the juice, and watch only the water.",
+     "file": "2026-10-30-juice-mix/audio/91bae824861e9022.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "If thirty percent is juice, then seventy percent is water.",
+     "caption": "If thirty percent is juice, then seventy percent is water.",
+     "file": "2026-10-30-juice-mix/audio/2f50cd705e3e12d3.wav",
+     "from": 150,
+     "frames": 137
+    },
+    {
+     "text": "Ten percent of twenty is two, so seventy percent is fourteen liters of water.",
+     "caption": "Ten percent of twenty is two, so seventy percent is fourteen liters of water.",
+     "file": "2026-10-30-juice-mix/audio/9fe2e39860015869.wav",
+     "from": 297,
+     "frames": 194
+    },
+    {
+     "text": "In the final drink, forty percent is juice, so sixty percent is water.",
+     "caption": "In the final drink, forty percent is juice, so sixty percent is water.",
+     "file": "2026-10-30-juice-mix/audio/fe3fc156bc337218.wav",
+     "from": 501,
+     "frames": 166
+    },
+    {
+     "text": "Sixty percent is three fifths. One fifth of twenty-five is five, so three fifths is fifteen liters of water.",
+     "caption": "Sixty percent is three fifths. One fifth of twenty-five is five, so three fifths is fifteen liters of water.",
+     "file": "2026-10-30-juice-mix/audio/d2355e147a556bce.wav",
+     "from": 677,
+     "frames": 282
+    },
+    {
+     "text": "Water goes from fourteen to fifteen. She adds one liter. Same answer!",
+     "caption": "Water goes from fourteen to fifteen. She adds one liter. Same answer!",
+     "file": "2026-10-30-juice-mix/audio/b980089ec60ad9e5.wav",
+     "from": 969,
+     "frames": 159
+    },
+    {
+     "text": "When would you pick this way? When the question asks about one thing, follow just that one.",
+     "caption": "When would you pick this way? When the question asks about one thing, follow just that one.",
+     "file": "2026-10-30-juice-mix/audio/92cbd8b219e90f4f.wav",
+     "from": 1138,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6196,
+   "frames": 1592,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-juice-mix/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "Choice D, four, is the juice she adds, not the water. Read what the question asks!",
+     "caption": "Choice D, four, is the juice she adds, not the water. Read what the question asks!",
+     "file": "2026-10-30-juice-mix/audio/fba6a74168be3f49.wav",
+     "from": 139,
+     "frames": 191
+    },
+    {
+     "text": "Choice E, five, is everything she adds, juice and water together.",
+     "caption": "Choice E, five, is everything she adds, juice and water together.",
+     "file": "2026-10-30-juice-mix/audio/bed1dcae1eee873f.wav",
+     "from": 341,
+     "frames": 172
+    },
+    {
+     "text": "Choice A, zero, is what you'd get if you thought she adds only juice.",
+     "caption": "Choice A, zero, is what you'd get if you thought she adds only juice.",
+     "file": "2026-10-30-juice-mix/audio/c516d042b73a62f3.wav",
+     "from": 523,
+     "frames": 158
+    },
+    {
+     "text": "But five liters of juice would give eleven liters of juice, not ten. Too strong!",
+     "caption": "But five liters of juice would give eleven liters of juice, not ten. Too strong!",
+     "file": "2026-10-30-juice-mix/audio/8391b5fa6a54a851.wav",
+     "from": 690,
+     "frames": 179
+    },
+    {
+     "text": "Choice C, two, is what you'd get from ten percent of twenty, the jump from thirty to forty percent.",
+     "caption": "Choice C, two, is what you'd get from ten percent of twenty, the jump from thirty to forty percent.",
+     "file": "2026-10-30-juice-mix/audio/fc968708d8fdfecf.wav",
+     "from": 880,
+     "frames": 218
+    },
+    {
+     "text": "But with two liters of water, she adds three of juice. That's only nine liters of juice, not ten.",
+     "caption": "But with two liters of water, she adds three of juice. That's only nine liters of juice, not ten.",
+     "file": "2026-10-30-juice-mix/audio/2e1cdc2382dc9425.wav",
+     "from": 1108,
+     "frames": 214
+    },
+    {
+     "text": "So here's a great habit. Follow each part separately, and answer the exact question.",
+     "caption": "So here's a great habit. Follow each part separately, and answer the exact question.",
+     "file": "2026-10-30-juice-mix/audio/bd647657a302ecfd.wav",
+     "from": 1332,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a sneakier mix",
+   "from": 7788,
+   "frames": 670,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Here's a new mix, and it's sneakier.",
+     "caption": "Ready for a challenge? Here's a new mix, and it's sneakier.",
+     "file": "2026-10-30-juice-mix/audio/8a23de7f3eeaa4b0.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Leo has fifteen liters of a drink that is sixty percent juice.",
+     "caption": "Leo has fifteen liters of a drink that is sixty percent juice.",
+     "file": "2026-10-30-juice-mix/audio/84c383beed4132f8.wav",
+     "from": 142,
+     "frames": 143
+    },
+    {
+     "text": "He adds pure juice and water to make twenty-four liters that is fifty percent juice.",
+     "caption": "He adds pure juice and water to make twenty-four liters that is fifty percent juice.",
+     "file": "2026-10-30-juice-mix/audio/e6eadfdd62064010.wav",
+     "from": 296,
+     "frames": 190
+    },
+    {
+     "text": "How many liters of juice does he add, and how many liters of water?",
+     "caption": "How many liters of juice does he add, and how many liters of water?",
+     "file": "2026-10-30-juice-mix/audio/1e92b0550254d323.wav",
+     "from": 496,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8458,
+   "frames": 466,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-juice-mix/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 82
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Sneakier mix: the answer",
+   "from": 8924,
+   "frames": 1671,
+   "lines": [
+    {
+     "text": "Let's check. Sixty percent is three fifths. One fifth of fifteen is three, so three fifths is nine.",
+     "caption": "Let's check. Sixty percent is three fifths. One fifth of fifteen is three, so three fifths is nine.",
+     "file": "2026-10-30-juice-mix/audio/318c984b3be4afc7.wav",
+     "from": 0,
+     "frames": 266
+    },
+    {
+     "text": "So Leo starts with nine liters of juice, and fifteen minus nine is six liters of water.",
+     "caption": "So Leo starts with nine liters of juice, and fifteen minus nine is six liters of water.",
+     "file": "2026-10-30-juice-mix/audio/00b9267fc66d3deb.wav",
+     "from": 276,
+     "frames": 202
+    },
+    {
+     "text": "The final drink is half juice. Half of twenty-four is twelve. So, twelve juice and twelve water.",
+     "caption": "The final drink is half juice. Half of twenty-four is twelve. So, twelve juice and twelve water.",
+     "file": "2026-10-30-juice-mix/audio/5673974b9e7376a1.wav",
+     "from": 488,
+     "frames": 227
+    },
+    {
+     "text": "Juice goes from nine to twelve. He adds three liters of juice.",
+     "caption": "Juice goes from nine to twelve. He adds three liters of juice.",
+     "file": "2026-10-30-juice-mix/audio/9532d7f7281eab7b.wav",
+     "from": 725,
+     "frames": 142
+    },
+    {
+     "text": "Water goes from six to twelve. He adds six liters of water.",
+     "caption": "Water goes from six to twelve. He adds six liters of water.",
+     "file": "2026-10-30-juice-mix/audio/a47a9016221c92d1.wav",
+     "from": 877,
+     "frames": 152
+    },
+    {
+     "text": "Check: three plus six is nine, and fifteen plus nine is twenty-four. It works!",
+     "caption": "Check: three plus six is nine, and fifteen plus nine is twenty-four. It works!",
+     "file": "2026-10-30-juice-mix/audio/e8fce9cf3cfad412.wav",
+     "from": 1039,
+     "frames": 198
+    },
+    {
+     "text": "Here's the sneaky part. The drink got weaker, but he still added some juice.",
+     "caption": "Here's the sneaky part. The drink got weaker, but he still added some juice.",
+     "file": "2026-10-30-juice-mix/audio/3c724d72626b0280.wav",
+     "from": 1247,
+     "frames": 177
+    },
+    {
+     "text": "If you found three liters of juice and six liters of water, amazing work!",
+     "caption": "If you found three liters of juice and six liters of water, amazing work!",
+     "file": "2026-10-30-juice-mix/audio/7b6cb5706e7a1b44.wav",
+     "from": 1434,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10595,
+   "frames": 639,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-juice-mix/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 68
+    },
+    {
+     "text": "When you mix drinks, split each drink into its juice and its water.",
+     "caption": "When you mix drinks, split each drink into its juice and its water.",
+     "file": "2026-10-30-juice-mix/audio/8826ec3dfdc02ef8.wav",
+     "from": 78,
+     "frames": 161
+    },
+    {
+     "text": "Find how much of each the final drink needs. Then subtract what was already there.",
+     "caption": "Find how much of each the final drink needs. Then subtract what was already there.",
+     "file": "2026-10-30-juice-mix/audio/b8cf3c385355d64e.wav",
+     "from": 249,
+     "frames": 173
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-juice-mix/audio/31a6054d0b03b932.wav",
+     "from": 433,
+     "frames": 123
+    }
+   ]
+  }
+ ]
+}

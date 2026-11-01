@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 11826,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 504,
+   "lines": [
+    {
+     "text": "Shuffle eight kids into a line. Will two of the girls end up side by side?",
+     "caption": "Shuffle eight kids into a line. Will two of the girls end up side by side?",
+     "file": "2026-10-30-girls-apart/audio/3f3384286b648209.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Here's a surprise. <short pause> More often than not, they do!",
+     "caption": "Here's a surprise. More often than not, they do!",
+     "file": "2026-10-30-girls-apart/audio/7b31806cd64b6510.wav",
+     "from": 177,
+     "frames": 130
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find the exact chance, together.",
+     "caption": "Hi, I'm Vantee! Let's find the exact chance, together.",
+     "file": "2026-10-30-girls-apart/audio/133c12a012c37b84.wav",
+     "from": 317,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 504,
+   "frames": 607,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-girls-apart/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 56
+    },
+    {
+     "text": "Five boys and three girls stand in a row, in a random order. Every order is equally likely.",
+     "caption": "Five boys and three girls stand in a row, in a random order. Every order is equally likely.",
+     "file": "2026-10-30-girls-apart/audio/45837f0d9ed1b6f2.wav",
+     "from": 66,
+     "frames": 212
+    },
+    {
+     "text": "What is the probability that no two girls stand next to each other?",
+     "caption": "What is the probability that no two girls stand next to each other?",
+     "file": "2026-10-30-girls-apart/audio/4ecae16415eb83bb.wav",
+     "from": 287,
+     "frames": 146
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-girls-apart/audio/b97a89671840f7ca.wav",
+     "from": 443,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1111,
+   "frames": 628,
+   "lines": [
+    {
+     "text": "Let's picture eight spots in a row, numbered one to eight.",
+     "caption": "Let's picture eight spots in a row, numbered one to eight.",
+     "file": "2026-10-30-girls-apart/audio/aa5aeb7d5d0c1fec.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "This line is good. There's at least one boy between any two girls.",
+     "caption": "This line is good. There's at least one boy between any two girls.",
+     "file": "2026-10-30-girls-apart/audio/c225aae7ac90b50e.wav",
+     "from": 141,
+     "frames": 156
+    },
+    {
+     "text": "This line is bad. Two girls are standing side by side.",
+     "caption": "This line is bad. Two girls are standing side by side.",
+     "file": "2026-10-30-girls-apart/audio/4be7a6eb957cd099.wav",
+     "from": 308,
+     "frames": 138
+    },
+    {
+     "text": "So we want the fraction of all the lines that are good.",
+     "caption": "So we want the fraction of all the lines that are good.",
+     "file": "2026-10-30-girls-apart/audio/4e8d33fc32ca3565.wav",
+     "from": 456,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1739,
+   "frames": 463,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-girls-apart/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "kind": "scene",
+   "chapter": "Solution 1: just the girls' spots",
+   "from": 2202,
+   "frames": 1305,
+   "lines": [
+    {
+     "text": "Welcome back! Here's a trick. We only care WHERE the girls stand.",
+     "caption": "Welcome back! Here's a trick. We only care WHERE the girls stand.",
+     "file": "2026-10-30-girls-apart/audio/7f16622cb3042fc5.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "Say the girls take spots one, four, and seven.",
+     "caption": "Say the girls take spots one, four, and seven.",
+     "file": "2026-10-30-girls-apart/audio/01302fbd3772e25e.wav",
+     "from": 190,
+     "frames": 123
+    },
+    {
+     "text": "The girls can fill those spots in three, times two, times one. That's six orders.",
+     "caption": "The girls can fill those spots in three, times two, times one. That's six orders.",
+     "file": "2026-10-30-girls-apart/audio/5f345b579191e788.wav",
+     "from": 323,
+     "frames": 194
+    },
+    {
+     "text": "The boys fill the other five spots in five, times four, times three, times two, times one.",
+     "caption": "The boys fill the other five spots in five, times four, times three, times two, times one.",
+     "file": "2026-10-30-girls-apart/audio/d732fa3a79dc5c8f.wav",
+     "from": 527,
+     "frames": 224
+    },
+    {
+     "text": "That's one hundred twenty orders.",
+     "caption": "That's one hundred twenty orders.",
+     "file": "2026-10-30-girls-apart/audio/1e248bfcd5bbadd6.wav",
+     "from": 761,
+     "frames": 86
+    },
+    {
+     "text": "Six times one hundred twenty is seven hundred twenty. It's the same for EVERY three spots!",
+     "caption": "Six times one hundred twenty is seven hundred twenty. It's the same for EVERY three spots!",
+     "file": "2026-10-30-girls-apart/audio/ecb7cf946f3a4277.wav",
+     "from": 857,
+     "frames": 195
+    },
+    {
+     "text": "So each set of three spots is equally likely. We can count spots, not names.",
+     "caption": "So each set of three spots is equally likely. We can count spots, not names.",
+     "file": "2026-10-30-girls-apart/audio/38fdc6486d56ffbf.wav",
+     "from": 1061,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "all56",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3507,
+   "frames": 786,
+   "lines": [
+    {
+     "text": "How many ways can we pick three spots out of eight?",
+     "caption": "How many ways can we pick three spots out of eight?",
+     "file": "2026-10-30-girls-apart/audio/2b35006dcbe82b48.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Pick one spot, then another, then another. Eight, times seven, times six.",
+     "caption": "Pick one spot, then another, then another. Eight, times seven, times six.",
+     "file": "2026-10-30-girls-apart/audio/ca696464cb4b0b8b.wav",
+     "from": 129,
+     "frames": 206
+    },
+    {
+     "text": "That's three hundred thirty-six. But each set of spots got picked in six different orders.",
+     "caption": "That's three hundred thirty-six. But each set of spots got picked in six different orders.",
+     "file": "2026-10-30-girls-apart/audio/ac59a53e6dbc2663.wav",
+     "from": 345,
+     "frames": 210
+    },
+    {
+     "text": "So divide by six. There are fifty-six sets of spots in all.",
+     "caption": "So divide by six. There are fifty-six sets of spots in all.",
+     "file": "2026-10-30-girls-apart/audio/76d672066b07a764.wav",
+     "from": 566,
+     "frames": 167
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4293,
+   "frames": 2061,
+   "lines": [
+    {
+     "text": "Now let's list the good sets, sorted by where the first girl stands.",
+     "caption": "Now let's list the good sets, sorted by where the first girl stands.",
+     "file": "2026-10-30-girls-apart/audio/fadcdd256d5b3446.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "First girl in spot one. The second girl skips spot two, so she can stand in three.",
+     "caption": "First girl in spot one. The second girl skips spot two, so she can stand in three.",
+     "file": "2026-10-30-girls-apart/audio/296f0c381588a793.wav",
+     "from": 164,
+     "frames": 186
+    },
+    {
+     "text": "Then the last girl skips four. She has four choices: five, six, seven, or eight.",
+     "caption": "Then the last girl skips four. She has four choices: five, six, seven, or eight.",
+     "file": "2026-10-30-girls-apart/audio/57dffe6342bcec88.wav",
+     "from": 361,
+     "frames": 228
+    },
+    {
+     "text": "Move the second girl to four, then five, then six. That's three choices, then two, then one.",
+     "caption": "Move the second girl to four, then five, then six. That's three choices, then two, then one.",
+     "file": "2026-10-30-girls-apart/audio/ebe5b01f43b56eae.wav",
+     "from": 599,
+     "frames": 230
+    },
+    {
+     "text": "Four, plus three, plus two, plus one. Ten good sets start in spot one.",
+     "caption": "Four, plus three, plus two, plus one. Ten good sets start in spot one.",
+     "file": "2026-10-30-girls-apart/audio/f7ab7daba9a854f5.wav",
+     "from": 839,
+     "frames": 232
+    },
+    {
+     "text": "Start in spot two: three, plus two, plus one. That's six sets.",
+     "caption": "Start in spot two: three, plus two, plus one. That's six sets.",
+     "file": "2026-10-30-girls-apart/audio/7bfac27c09d01654.wav",
+     "from": 1081,
+     "frames": 179
+    },
+    {
+     "text": "Spot three gives two plus one, three sets. Spot four gives just one: four, six, eight.",
+     "caption": "Spot three gives two plus one, three sets. Spot four gives just one: four, six, eight.",
+     "file": "2026-10-30-girls-apart/audio/9e19310d1c24495f.wav",
+     "from": 1271,
+     "frames": 279
+    },
+    {
+     "text": "Ten, plus six, plus three, plus one. That's twenty good sets!",
+     "caption": "Ten, plus six, plus three, plus one. That's twenty good sets!",
+     "file": "2026-10-30-girls-apart/audio/a2f89d031a0b30fe.wav",
+     "from": 1559,
+     "frames": 221
+    },
+    {
+     "text": "Twenty over fifty-six. Divide both by four. That's five over fourteen. <short pause> Choice C!",
+     "caption": "Twenty over fifty-six. Divide both by four. That's five over fourteen. Choice C!",
+     "file": "2026-10-30-girls-apart/audio/da6acdd7a47345fc.wav",
+     "from": 1791,
+     "frames": 210
+    }
+   ]
+  },
+  {
+   "id": "gaps",
+   "kind": "scene",
+   "chapter": "Solution 2: boys first",
+   "from": 6354,
+   "frames": 1268,
+   "lines": [
+    {
+     "text": "Here's a faster way. Line up the five boys first.",
+     "caption": "Here's a faster way. Line up the five boys first.",
+     "file": "2026-10-30-girls-apart/audio/fc9e8b632ad0754f.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Look at the gaps: four between the boys, plus one at each end. That's six gaps.",
+     "caption": "Look at the gaps: four between the boys, plus one at each end. That's six gaps.",
+     "file": "2026-10-30-girls-apart/audio/fe59c5621b0dc18b.wav",
+     "from": 148,
+     "frames": 190
+    },
+    {
+     "text": "Two girls in the same gap would touch. So each gap gets at most one girl.",
+     "caption": "Two girls in the same gap would touch. So each gap gets at most one girl.",
+     "file": "2026-10-30-girls-apart/audio/0d3595239d7d8c31.wav",
+     "from": 348,
+     "frames": 179
+    },
+    {
+     "text": "We choose three of the six gaps. Six, times five, times four, over six, like before.",
+     "caption": "We choose three of the six gaps. Six, times five, times four, over six, like before.",
+     "file": "2026-10-30-girls-apart/audio/9022ee33cec8d93a.wav",
+     "from": 538,
+     "frames": 234
+    },
+    {
+     "text": "That's twenty again! Twenty over fifty-six is five over fourteen. And we never needed a list.",
+     "caption": "That's twenty again! Twenty over fifty-six is five over fourteen. And we never needed a list.",
+     "file": "2026-10-30-girls-apart/audio/c91dc329bfb12fd1.wav",
+     "from": 782,
+     "frames": 242
+    },
+    {
+     "text": "When would you pick this one? When the line is long, and a list would take forever.",
+     "caption": "When would you pick this one? When the line is long, and a list would take forever.",
+     "file": "2026-10-30-girls-apart/audio/7b10ca6e084c64db.wav",
+     "from": 1034,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7622,
+   "frames": 1671,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-girls-apart/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "Choice B uses only five gaps. Three of five gaps is ten ways. Ten over fifty-six.",
+     "caption": "Choice B uses only five gaps. Three of five gaps is ten ways. Ten over fifty-six.",
+     "file": "2026-10-30-girls-apart/audio/142148d99496a06d.wav",
+     "from": 133,
+     "frames": 238
+    },
+    {
+     "text": "That's five over twenty-eight. We forgot the gap at one end!",
+     "caption": "That's five over twenty-eight. We forgot the gap at one end!",
+     "file": "2026-10-30-girls-apart/audio/d624fb6b5df6e550.wav",
+     "from": 381,
+     "frames": 141
+    },
+    {
+     "text": "Choice A is what you'd get with no end gaps. Three of four gaps is four ways.",
+     "caption": "Choice A is what you'd get with no end gaps. Three of four gaps is four ways.",
+     "file": "2026-10-30-girls-apart/audio/75be2e3645802022.wav",
+     "from": 532,
+     "frames": 195
+    },
+    {
+     "text": "Four over fifty-six is one over fourteen. But a girl CAN stand at either end!",
+     "caption": "Four over fifty-six is one over fourteen. But a girl CAN stand at either end!",
+     "file": "2026-10-30-girls-apart/audio/89a07be16d926d5a.wav",
+     "from": 737,
+     "frames": 190
+    },
+    {
+     "text": "Choice D is what you'd get from three girls over eight kids. It ignores touching.",
+     "caption": "Choice D is what you'd get from three girls over eight kids. It ignores touching.",
+     "file": "2026-10-30-girls-apart/audio/4521bcbe0bcca39d.wav",
+     "from": 937,
+     "frames": 164
+    },
+    {
+     "text": "Choice E is what you'd get if touching and not touching were equally likely.",
+     "caption": "Choice E is what you'd get if touching and not touching were equally likely.",
+     "file": "2026-10-30-girls-apart/audio/c445c0fb249c6ed2.wav",
+     "from": 1111,
+     "frames": 156
+    },
+    {
+     "text": "They're not! Twenty sets are good, and thirty-six are bad.",
+     "caption": "They're not! Twenty sets are good, and thirty-six are bad.",
+     "file": "2026-10-30-girls-apart/audio/11d3f3ca931d25a5.wav",
+     "from": 1277,
+     "frames": 150
+    },
+    {
+     "text": "So here's a great habit. When you count gaps, always check both ends.",
+     "caption": "So here's a great habit. When you count gaps, always check both ends.",
+     "file": "2026-10-30-girls-apart/audio/8f294e6ba48706a3.wav",
+     "from": 1438,
+     "frames": 173
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: four boys",
+   "from": 9293,
+   "frames": 364,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now there are four boys and three girls.",
+     "caption": "Ready for a challenge? Now there are four boys and three girls.",
+     "file": "2026-10-30-girls-apart/audio/5c87cfdc80281c66.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "What is the probability that no two girls stand next to each other?",
+     "caption": "What is the probability that no two girls stand next to each other?",
+     "file": "2026-10-30-girls-apart/audio/4ecae16415eb83bb.wav",
+     "from": 179,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9657,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-girls-apart/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Four boys: the answer",
+   "from": 10111,
+   "frames": 999,
+   "lines": [
+    {
+     "text": "Let's check. Four boys make three gaps between them, plus two ends. Five gaps.",
+     "caption": "Let's check. Four boys make three gaps between them, plus two ends. Five gaps.",
+     "file": "2026-10-30-girls-apart/audio/1b3e90a0240c8c63.wav",
+     "from": 0,
+     "frames": 198
+    },
+    {
+     "text": "Choose three of the five gaps. Five, times four, times three, over six. That's ten.",
+     "caption": "Choose three of the five gaps. Five, times four, times three, over six. That's ten.",
+     "file": "2026-10-30-girls-apart/audio/c63f2456631b0982.wav",
+     "from": 209,
+     "frames": 221
+    },
+    {
+     "text": "Now all the sets of spots. Seven, times six, times five, over six. That's thirty-five.",
+     "caption": "Now all the sets of spots. Seven, times six, times five, over six. That's thirty-five.",
+     "file": "2026-10-30-girls-apart/audio/db413de400913309.wav",
+     "from": 440,
+     "frames": 239
+    },
+    {
+     "text": "Ten over thirty-five. Divide both by five. That's two over seven! Amazing work if you got it!",
+     "caption": "Ten over thirty-five. Divide both by five. That's two over seven! Amazing work if you got it!",
+     "file": "2026-10-30-girls-apart/audio/d3ac27103b11158a.wav",
+     "from": 690,
+     "frames": 240
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11110,
+   "frames": 716,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-girls-apart/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 86
+    },
+    {
+     "text": "Only the spots of the girls matter, and every set of spots is equally likely.",
+     "caption": "Only the spots of the girls matter, and every set of spots is equally likely.",
+     "file": "2026-10-30-girls-apart/audio/1cd1943273a52909.wav",
+     "from": 95,
+     "frames": 170
+    },
+    {
+     "text": "To keep the girls apart, place the boys first. Then choose gaps, one girl each, counting both ends.",
+     "caption": "To keep the girls apart, place the boys first. Then choose gaps, one girl each, counting both ends.",
+     "file": "2026-10-30-girls-apart/audio/c9e3d055a36b3e04.wav",
+     "from": 275,
+     "frames": 231
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-girls-apart/audio/31a6054d0b03b932.wav",
+     "from": 516,
+     "frames": 117
+    }
+   ]
+  }
+ ]
+}

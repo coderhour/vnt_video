@@ -1,0 +1,172 @@
+{
+ "title": "Two Buttons, One Target: Fewest Presses | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A big friendly calculator screen showing 3, with only two keys: '+1' and '×2'. Line 1: keys flash as random presses happen (3→6→7→14), screen wandering. Line 2: screen shows '90?'. Line 3: Vantee title card.",
+   "lines": [
+    "A calculator with just two buttons. Can you reach ninety in as few presses as possible?",
+    "Most kids start pressing forward and get lost. There's a much smarter direction.",
+    "Hello, I'm Vantee! Let's crack this calculator."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, calculator on the right (screen 3, keys '+1' and '×2'). Line 3: '+1' key glows. Line 4: '×2' key glows. Line 6: five choice chips 6, 7, 8, 9, 10.",
+   "lines": [
+    "Here's the question.",
+    "A calculator shows three.",
+    "It has only two keys. One adds one to the number on the screen.",
+    "The other doubles the number on the screen.",
+    "What is the fewest number of key presses needed to make the screen show ninety?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Three fact cards appear one per line: 'start: 3', 'keys: +1, ×2', 'goal: 90 in the FEWEST presses'. The word FEWEST highlighted with Mark sweep on line 3.",
+   "lines": [
+    "So what do we know? We start at three, and we want to end at ninety.",
+    "Each press either adds one, or doubles.",
+    "We don't just want a way to get there. We want the FEWEST presses."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; calculator and question visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "backward",
+   "chapter": "Solution 1: work backwards",
+   "hold": 1,
+   "visual": "A vertical (or right-to-left) chain starting at 90 on the right. Line 2: undo-keys shown: '×2 undone = ÷2', '+1 undone = −1'. Line 3: rule card 'even → ÷2, odd → −1'. Line 4: 90 → 45 with arrow labeled ÷2.",
+   "lines": [
+    "Welcome back! Here's the strategy: work backwards, from ninety down to three.",
+    "Going backwards, doubling becomes halving, and adding one becomes taking one away.",
+    "Halving is the big move, so halve whenever you can. If the number is odd, take one away first.",
+    "Ninety is even, so cut it in half. That gives forty-five."
+   ]
+  },
+  {
+   "id": "chain",
+   "hold": 1.5,
+   "visual": "Continue the chain one arrow per spoken step: 45 →(−1) 44 →(÷2) 22 →(÷2) 11 →(−1) 10 →(÷2) 5 →(−1) 4 →(−1) 3. Halving arrows purple, minus-one arrows green. Line 5: the full chain read forward 3, 4, 5, 10, 11, 22, 44, 45, 90, with the 8 arrows numbered 1–8 one by one. Line 6: answer badge '8 presses' with chime at end of line, choice C highlighted.",
+   "lines": [
+    "Forty-five is odd, so take one away: forty-four. Halve it: twenty-two. Halve again: eleven.",
+    "Eleven is odd, so take one away: ten. Halve it: five.",
+    "Five is odd, take one away: four. Now four is even, but half of four is two, and that's below three!",
+    "So take one away instead. Four minus one is three. We made it!",
+    "Read it forwards from three: every arrow is one key press.",
+    "Now count the arrows, not the numbers. One, two, three, four, five, six, seven, eight.",
+    "Eight presses. That's Choice C!"
+   ]
+  },
+  {
+   "id": "doubles",
+   "chapter": "Solution 2: plan the doubles",
+   "hold": 1,
+   "visual": "But can we beat 8? Line 2: row '3 × 2 × 2 × 2 × 2 × 2 = 96' in red with 'too big!'. Line 3: row '3 × 2 × 2 × 2 × 2 = 48', then '90 − 48 = 42'. Line 4: a +1 token travelling through two ×2 boxes and growing 1→2→4 (a 'snowball'). Line 5: value table: 'before all 4 doubles: 16, before 3: 8, before 2: 4, before 1: 2, at the end: 1'.",
+   "lines": [
+    "Can anyone beat eight? Let's plan the doubles, and see why not.",
+    "Five doubles is too many. Three doubled five times is ninety-six, already past ninety.",
+    "With four doubles, three becomes forty-eight. We still need forty-two more.",
+    "Here's the trick. A plus-one pressed early gets doubled later, like a snowball.",
+    "A plus-one before all four doubles is worth sixteen. Before three doubles, eight. Then four, two, and one."
+   ]
+  },
+  {
+   "id": "doubles2",
+   "hold": 1.5,
+   "visual": "Line 1: '42 = 16 + 16 + 8 + 2' with four +1 tokens. Line 2: try three tokens: '16 + 16 + 16 = 48' (too big, red), '16 + 16 + 8 = 40' (too small, red). Line 3: '4 doubles + 4 adds = 8 presses' boxed. Line 4: link to the forward chain 3, 4, 5, 10, 11, 22, 44, 45, 90 with the four +1 arrows highlighted. Line 5: text 'Fewer doubles? Three doubles needs 9 adds: 12 presses.'.",
+   "lines": [
+    "Make forty-two from those values: sixteen plus sixteen plus eight plus two. That's four adds.",
+    "Can three plus-one presses do it? The biggest three are sixteen, sixteen, sixteen: forty-eight, too big.",
+    "The next biggest is sixteen, sixteen, eight. That's forty, too small. Nothing in between!",
+    "So we need four doubles and four plus-one presses. That makes eight, and no fewer!",
+    "And it matches our chain: two plus-one presses at the start, one after the first double, one before the last.",
+    "With fewer doubles, it only gets worse. Three doubles would need nine adds. That's twelve presses."
+   ]
+  },
+  {
+   "id": "pick",
+   "hold": 1,
+   "visual": "Two small cards side by side: 'Work backwards: find a path fast' and 'Plan the doubles: prove nothing is shorter'.",
+   "lines": [
+    "When would you pick each way? Work backwards to find a short path fast.",
+    "Plan the doubles when you need to be sure nothing is shorter."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red with a one-line reason. Line 2: the chain 90…3 with its 9 numbers counted vs 8 arrows. Line 3: chips 6 and 7 crossed out with '4 doubles + 4 adds'. Line 4: chip 10 with note 'works, but not the fewest'.",
+   "lines": [
+    "Now let's look at the wrong answers. Each one is a trap.",
+    "Choice D, nine, counts the numbers in the chain. But the presses are the arrows between them, one fewer.",
+    "Choices A and B, six and seven, are too few. We showed you need four doubles and four adds.",
+    "Choice E, ten, can reach ninety, but it isn't the fewest. Two presses wasted!",
+    "So here's a great habit. Count the steps, not the stops."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: aim for 100",
+   "hold": 0.5,
+   "visual": "Calculator again showing 3; screen target '100'.",
+   "lines": [
+    "Ready for a challenge? Same calculator, same two keys, and it starts at three again.",
+    "This time, what's the fewest number of presses to reach one hundred?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, calculator visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Aim for 100: the answer",
+   "hold": 1.5,
+   "visual": "Backward chain 100 →(÷2) 50 →(÷2) 25 →(−1) 24 →(÷2) 12 →(÷2) 6 →(÷2) 3, one arrow per spoken step. Line 3: arrows numbered 1–6, answer badge '6 presses' with chime. Line 4: '3 × 2 × 2 × 2 × 2 × 2 = 96, 100 − 96 = 4' and '6 presses' check row.",
+   "lines": [
+    "Let's work backwards. One hundred, halve: fifty. Halve: twenty-five.",
+    "Twenty-five is odd, take one away: twenty-four. Then cut it in half three times: twelve, six, three!",
+    "Count the arrows: six presses.",
+    "Check: five doubles take three to ninety-six, and one snowball add-one makes the last four. Six presses!",
+    "Here's the sneaky part. The bigger target took fewer presses. If you got six, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'Work backwards: even → ÷2, odd → −1' and 'Count the arrows, not the numbers'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "To reach a target with doubling and adding one, work backwards.",
+    "Cut it in half when it's even, unless that drops below the start.",
+    "Otherwise, take one away.",
+    "And count the presses, the arrows, not the numbers.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

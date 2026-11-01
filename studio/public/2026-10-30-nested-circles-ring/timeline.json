@@ -1,0 +1,554 @@
+{
+ "fps": 30,
+ "durationInFrames": 11781,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 582,
+   "lines": [
+    {
+     "text": "A square, a circle, a smaller square, a smaller circle. Like nesting dolls!",
+     "caption": "A square, a circle, a smaller square, a smaller circle. Like nesting dolls!",
+     "file": "2026-10-30-nested-circles-ring/audio/bdbc97c318c97387.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "The shaded ring looks tricky. <short pause> But there's a neat surprise hiding inside.",
+     "caption": "The shaded ring looks tricky. But there's a neat surprise hiding inside.",
+     "file": "2026-10-30-nested-circles-ring/audio/d55903c23bd9b991.wav",
+     "from": 230,
+     "frames": 166
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find the ring's area together.",
+     "caption": "Hi, I'm Vantee! Let's find the ring's area together.",
+     "file": "2026-10-30-nested-circles-ring/audio/d1aab6fa88acc67d.wav",
+     "from": 406,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 582,
+   "frames": 725,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-30-nested-circles-ring/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "A circle fits inside a square with side length eight.",
+     "caption": "A circle fits inside a square with side length eight.",
+     "file": "2026-10-30-nested-circles-ring/audio/8c25f060e5ec8c73.wav",
+     "from": 57,
+     "frames": 119
+    },
+    {
+     "text": "A smaller square has its corners on that circle. A smaller circle fits inside that square.",
+     "caption": "A smaller square has its corners on that circle. A smaller circle fits inside that square.",
+     "file": "2026-10-30-nested-circles-ring/audio/a59c21986c763b66.wav",
+     "from": 187,
+     "frames": 210
+    },
+    {
+     "text": "What is the area of the shaded ring between the two circles?",
+     "caption": "What is the area of the shaded ring between the two circles?",
+     "file": "2026-10-30-nested-circles-ring/audio/aef78dc74eb2658d.wav",
+     "from": 407,
+     "frames": 131
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-30-nested-circles-ring/audio/b97a89671840f7ca.wav",
+     "from": 548,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1307,
+   "frames": 440,
+   "lines": [
+    {
+     "text": "So what are we really looking for?",
+     "caption": "So what are we really looking for?",
+     "file": "2026-10-30-nested-circles-ring/audio/cf00bd321bc19d75.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "The ring is the big circle, take away the small circle.",
+     "caption": "The ring is the big circle, take away the small circle.",
+     "file": "2026-10-30-nested-circles-ring/audio/1674de598e61cfc4.wav",
+     "from": 87,
+     "frames": 119
+    },
+    {
+     "text": "So we need the area of each circle. And for that, we need each radius.",
+     "caption": "So we need the area of each circle. And for that, we need each radius.",
+     "file": "2026-10-30-nested-circles-ring/audio/08ad32170ad7d82c.wav",
+     "from": 216,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1747,
+   "frames": 459,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-30-nested-circles-ring/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "big",
+   "kind": "scene",
+   "chapter": "Solution 1: find each radius",
+   "from": 2206,
+   "frames": 526,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start with the big circle.",
+     "caption": "Welcome back! Let's start with the big circle.",
+     "file": "2026-10-30-nested-circles-ring/audio/56b8dc1fe18896ba.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "It fits snugly in the square, so its diameter equals the side. That's eight.",
+     "caption": "It fits snugly in the square, so its diameter equals the side. That's eight.",
+     "file": "2026-10-30-nested-circles-ring/audio/4de7cd93f24b0f7e.wav",
+     "from": 128,
+     "frames": 160
+    },
+    {
+     "text": "So its radius is four. Pi times four squared is sixteen pi.",
+     "caption": "So its radius is four. Pi times four squared is sixteen pi.",
+     "file": "2026-10-30-nested-circles-ring/audio/7e7337e6d69244b9.wav",
+     "from": 298,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "diag",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2732,
+   "frames": 1118,
+   "lines": [
+    {
+     "text": "Now the small square. Its corners touch the big circle.",
+     "caption": "Now the small square. Its corners touch the big circle.",
+     "file": "2026-10-30-nested-circles-ring/audio/eb4aa6017ec1b6a5.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "So its diagonal goes right across the circle. The diagonal is a diameter, eight!",
+     "caption": "So its diagonal goes right across the circle. The diagonal is a diameter, eight!",
+     "file": "2026-10-30-nested-circles-ring/audio/7a02d4d8e26eb1d7.wav",
+     "from": 150,
+     "frames": 189
+    },
+    {
+     "text": "The diagonal and two sides of the small square make a right triangle.",
+     "caption": "The diagonal and two sides of the small square make a right triangle.",
+     "file": "2026-10-30-nested-circles-ring/audio/8b0915c9c07d95a3.wav",
+     "from": 348,
+     "frames": 143
+    },
+    {
+     "text": "Pythagoras says side squared plus side squared equals eight squared, which is sixty-four.",
+     "caption": "Pythagoras says side squared plus side squared equals eight squared, which is sixty-four.",
+     "file": "2026-10-30-nested-circles-ring/audio/f853920e935516cf.wav",
+     "from": 502,
+     "frames": 213
+    },
+    {
+     "text": "So side squared is thirty-two. The side is root thirty-two.",
+     "caption": "So side squared is thirty-two. The side is root thirty-two.",
+     "file": "2026-10-30-nested-circles-ring/audio/73ce848604c279e0.wav",
+     "from": 725,
+     "frames": 183
+    },
+    {
+     "text": "Thirty-two is sixteen times two, so that's four root two.",
+     "caption": "Thirty-two is sixteen times two, so that's four root two.",
+     "file": "2026-10-30-nested-circles-ring/audio/33777d622702a0f2.wav",
+     "from": 918,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "small",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3850,
+   "frames": 638,
+   "lines": [
+    {
+     "text": "The small circle fits snugly in the small square. So its diameter is four root two.",
+     "caption": "The small circle fits snugly in the small square. So its diameter is four root two.",
+     "file": "2026-10-30-nested-circles-ring/audio/910a237915db11ba.wav",
+     "from": 0,
+     "frames": 222
+    },
+    {
+     "text": "Its radius is half of that, two root two.",
+     "caption": "Its radius is half of that, two root two.",
+     "file": "2026-10-30-nested-circles-ring/audio/7244557c7e1648af.wav",
+     "from": 232,
+     "frames": 117
+    },
+    {
+     "text": "Two root two, squared, is four times two. That's eight. So the small circle is eight pi.",
+     "caption": "Two root two, squared, is four times two. That's eight. So the small circle is eight pi.",
+     "file": "2026-10-30-nested-circles-ring/audio/c5b11fbca6f93030.wav",
+     "from": 359,
+     "frames": 225
+    }
+   ]
+  },
+  {
+   "id": "total1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4488,
+   "frames": 300,
+   "lines": [
+    {
+     "text": "The ring is sixteen pi minus eight pi.",
+     "caption": "The ring is sixteen pi minus eight pi.",
+     "file": "2026-10-30-nested-circles-ring/audio/da3c13899c3f5963.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "That's eight pi! The answer is B.",
+     "caption": "That's eight pi! The answer is B.",
+     "file": "2026-10-30-nested-circles-ring/audio/2bcf35aa07938db0.wav",
+     "from": 143,
+     "frames": 88
+    }
+   ]
+  },
+  {
+   "id": "fold",
+   "kind": "scene",
+   "chapter": "Solution 2: fold and turn",
+   "from": 4788,
+   "frames": 980,
+   "lines": [
+    {
+     "text": "Here's a clever way, with no root two at all.",
+     "caption": "Here's a clever way, with no root two at all.",
+     "file": "2026-10-30-nested-circles-ring/audio/c007155ce6b2cd92.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "In the picture, the small square's corners sit at the middle of each side of the big square.",
+     "caption": "In the picture, the small square's corners sit at the middle of each side of the big square.",
+     "file": "2026-10-30-nested-circles-ring/audio/3853aaec161f16e1.wav",
+     "from": 129,
+     "frames": 182
+    },
+    {
+     "text": "Now fold the four corner triangles inward. They cover the small square exactly!",
+     "caption": "Now fold the four corner triangles inward. They cover the small square exactly!",
+     "file": "2026-10-30-nested-circles-ring/audio/4ffe81fe863e0eb2.wav",
+     "from": 321,
+     "frames": 184
+    },
+    {
+     "text": "Each corner triangle is half of four times four. That's eight. Four of them make thirty-two.",
+     "caption": "Each corner triangle is half of four times four. That's eight. Four of them make thirty-two.",
+     "file": "2026-10-30-nested-circles-ring/audio/3a2540cc711d2f61.wav",
+     "from": 515,
+     "frames": 222
+    },
+    {
+     "text": "So the small square is half of the big square. Thirty-two out of sixty-four.",
+     "caption": "So the small square is half of the big square. Thirty-two out of sixty-four.",
+     "file": "2026-10-30-nested-circles-ring/audio/af4f6778ac3d2f2e.wav",
+     "from": 748,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "turn",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5768,
+   "frames": 1037,
+   "lines": [
+    {
+     "text": "Now turn the small square forty-five degrees. It's a shrunk copy of the big picture!",
+     "caption": "Now turn the small square forty-five degrees. It's a shrunk copy of the big picture!",
+     "file": "2026-10-30-nested-circles-ring/audio/d7b5766a80b12d30.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Same shape, so every area shrinks the same way. The square's area halved, so the circle's does too.",
+     "caption": "Same shape, so every area shrinks the same way. The square's area halved, so the circle's does too.",
+     "file": "2026-10-30-nested-circles-ring/audio/4c21a2b9448e8e96.wav",
+     "from": 178,
+     "frames": 236
+    },
+    {
+     "text": "Half of sixteen pi is eight pi. That's the small circle.",
+     "caption": "Half of sixteen pi is eight pi. That's the small circle.",
+     "file": "2026-10-30-nested-circles-ring/audio/050bcad1bb9e4c67.wav",
+     "from": 423,
+     "frames": 143
+    },
+    {
+     "text": "So the ring is the other half. Eight pi again! The ring and the small circle are equal.",
+     "caption": "So the ring is the other half. Eight pi again! The ring and the small circle are equal.",
+     "file": "2026-10-30-nested-circles-ring/audio/2c656bf7747c3f60.wav",
+     "from": 577,
+     "frames": 197
+    },
+    {
+     "text": "When would you pick this way? When shapes nest inside each other, look for a shrunk copy.",
+     "caption": "When would you pick this way? When shapes nest inside each other, look for a shrunk copy.",
+     "file": "2026-10-30-nested-circles-ring/audio/84c1eab662167093.wav",
+     "from": 784,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6805,
+   "frames": 1454,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-30-nested-circles-ring/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Choice C, twelve pi, is what you'd get with a small radius of two. Sixteen pi minus four pi.",
+     "caption": "Choice C, twelve pi, is what you'd get with a small radius of two. Sixteen pi minus four pi.",
+     "file": "2026-10-30-nested-circles-ring/audio/a3dc2b2dbb4b5432.wav",
+     "from": 142,
+     "frames": 214
+    },
+    {
+     "text": "But the small square's side isn't four, it's four root two. The AREA halves, not the radius.",
+     "caption": "But the small square's side isn't four, it's four root two. The AREA halves, not the radius.",
+     "file": "2026-10-30-nested-circles-ring/audio/7eb073de9a1a7e5c.wav",
+     "from": 366,
+     "frames": 220
+    },
+    {
+     "text": "Choice D, sixteen pi, is just the big circle. It forgets to take away the small one.",
+     "caption": "Choice D, sixteen pi, is just the big circle. It forgets to take away the small one.",
+     "file": "2026-10-30-nested-circles-ring/audio/792a097c5f58a739.wav",
+     "from": 596,
+     "frames": 195
+    },
+    {
+     "text": "Choice E, twenty-four pi, adds the two circles instead of subtracting.",
+     "caption": "Choice E, twenty-four pi, adds the two circles instead of subtracting.",
+     "file": "2026-10-30-nested-circles-ring/audio/54253e4ed262100e.wav",
+     "from": 801,
+     "frames": 147
+    },
+    {
+     "text": "Choice A, four pi, halves one time too many. That's the area of the NEXT circle in, not our ring.",
+     "caption": "Choice A, four pi, halves one time too many. That's the area of the NEXT circle in, not our ring.",
+     "file": "2026-10-30-nested-circles-ring/audio/a142614b50027eaf.wav",
+     "from": 958,
+     "frames": 249
+    },
+    {
+     "text": "So here's a habit: the ring is the big circle MINUS the small circle.",
+     "caption": "So here's a habit: the ring is the big circle MINUS the small circle.",
+     "file": "2026-10-30-nested-circles-ring/audio/febd706425262c6e.wav",
+     "from": 1217,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: one level deeper",
+   "from": 8259,
+   "frames": 945,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Let's go one level deeper.",
+     "caption": "Ready for a challenge? Let's go one level deeper.",
+     "file": "2026-10-30-nested-circles-ring/audio/92e9c9d41fe945a4.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "The big square now has a side of twelve. Inside it sit a circle, a square, a circle, a square, and a circle.",
+     "caption": "The big square now has a side of twelve. Inside it sit a circle, a square, a circle, a square, and a circle.",
+     "file": "2026-10-30-nested-circles-ring/audio/46b36f9806a997be.wav",
+     "from": 120,
+     "frames": 336
+    },
+    {
+     "text": "Each circle fits snugly in its square. Each square has its corners on the circle around it.",
+     "caption": "Each circle fits snugly in its square. Each square has its corners on the circle around it.",
+     "file": "2026-10-30-nested-circles-ring/audio/3eabd1d99ed98bb5.wav",
+     "from": 466,
+     "frames": 232
+    },
+    {
+     "text": "Shade everything between the biggest circle and the smallest circle. What is its area?",
+     "caption": "Shade everything between the biggest circle and the smallest circle. What is its area?",
+     "file": "2026-10-30-nested-circles-ring/audio/86caf2dbb700ef26.wav",
+     "from": 708,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9204,
+   "frames": 457,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-30-nested-circles-ring/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "One level deeper: the answer",
+   "from": 9661,
+   "frames": 1359,
+   "lines": [
+    {
+     "text": "Let's check. The big circle has radius six. Pi times six squared is thirty-six pi.",
+     "caption": "Let's check. The big circle has radius six. Pi times six squared is thirty-six pi.",
+     "file": "2026-10-30-nested-circles-ring/audio/768f62a9302fb766.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "Circle, square, circle: each time, the circle's area halves. So the middle circle is eighteen pi.",
+     "caption": "Circle, square, circle: each time, the circle's area halves. So the middle circle is eighteen pi.",
+     "file": "2026-10-30-nested-circles-ring/audio/fd649bdb29cc133a.wav",
+     "from": 237,
+     "frames": 280
+    },
+    {
+     "text": "One more level in, and the smallest circle is nine pi.",
+     "caption": "One more level in, and the smallest circle is nine pi.",
+     "file": "2026-10-30-nested-circles-ring/audio/9154903399697be3.wav",
+     "from": 527,
+     "frames": 123
+    },
+    {
+     "text": "Thirty-six pi minus nine pi is twenty-seven pi!",
+     "caption": "Thirty-six pi minus nine pi is twenty-seven pi!",
+     "file": "2026-10-30-nested-circles-ring/audio/21a267897278a578.wav",
+     "from": 660,
+     "frames": 118
+    },
+    {
+     "text": "Double-check: the area went down to one fourth, so the radius is half of six. That's three.",
+     "caption": "Double-check: the area went down to one fourth, so the radius is half of six. That's three.",
+     "file": "2026-10-30-nested-circles-ring/audio/b53f412dc38bc7b3.wav",
+     "from": 788,
+     "frames": 228
+    },
+    {
+     "text": "Pi times three squared is nine pi. It matches!",
+     "caption": "Pi times three squared is nine pi. It matches!",
+     "file": "2026-10-30-nested-circles-ring/audio/1a7e40df2dc02413.wav",
+     "from": 1026,
+     "frames": 140
+    },
+    {
+     "text": "If you found twenty-seven pi, amazing work!",
+     "caption": "If you found twenty-seven pi, amazing work!",
+     "file": "2026-10-30-nested-circles-ring/audio/c010ad5c8a239fbc.wav",
+     "from": 1176,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11020,
+   "frames": 761,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-30-nested-circles-ring/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 77
+    },
+    {
+     "text": "Square in a circle: its diagonal is the diameter. Circle in a square: its diameter is the side.",
+     "caption": "Square in a circle: its diagonal is the diameter. Circle in a square: its diameter is the side.",
+     "file": "2026-10-30-nested-circles-ring/audio/7b8df4c522ff1c7d.wav",
+     "from": 87,
+     "frames": 239
+    },
+    {
+     "text": "And circle, square, circle: the inner circle has exactly half the AREA of the outer one.",
+     "caption": "And circle, square, circle: the inner circle has exactly half the AREA of the outer one.",
+     "file": "2026-10-30-nested-circles-ring/audio/3acb85a2d94578da.wav",
+     "from": 336,
+     "frames": 215
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-30-nested-circles-ring/audio/31a6054d0b03b932.wav",
+     "from": 562,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

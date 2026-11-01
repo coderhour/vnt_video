@@ -1,0 +1,524 @@
+{
+ "fps": 30,
+ "durationInFrames": 11583,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 563,
+   "lines": [
+    {
+     "text": "A calculator with just two buttons. Can you reach ninety in as few presses as possible?",
+     "caption": "A calculator with just two buttons. Can you reach ninety in as few presses as possible?",
+     "file": "2026-10-31-calculator-90/audio/2838cc9ec2a832e8.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "Most kids start pressing forward and get lost. There's a much smarter direction.",
+     "caption": "Most kids start pressing forward and get lost. There's a much smarter direction.",
+     "file": "2026-10-31-calculator-90/audio/10eb567b3920dcf7.wav",
+     "from": 207,
+     "frames": 182
+    },
+    {
+     "text": "Hello, I'm Vantee! Let's crack this calculator.",
+     "caption": "Hello, I'm Vantee! Let's crack this calculator.",
+     "file": "2026-10-31-calculator-90/audio/a05c138ab951b636.wav",
+     "from": 399,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 563,
+   "frames": 723,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-calculator-90/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 46
+    },
+    {
+     "text": "A calculator shows three.",
+     "caption": "A calculator shows three.",
+     "file": "2026-10-31-calculator-90/audio/a9592b7240c5e98d.wav",
+     "from": 56,
+     "frames": 70
+    },
+    {
+     "text": "It has only two keys. One adds one to the number on the screen.",
+     "caption": "It has only two keys. One adds one to the number on the screen.",
+     "file": "2026-10-31-calculator-90/audio/eef49ccaecc44f11.wav",
+     "from": 136,
+     "frames": 144
+    },
+    {
+     "text": "The other doubles the number on the screen.",
+     "caption": "The other doubles the number on the screen.",
+     "file": "2026-10-31-calculator-90/audio/91ea3b9eb11b94b6.wav",
+     "from": 290,
+     "frames": 88
+    },
+    {
+     "text": "What is the fewest number of key presses needed to make the screen show ninety?",
+     "caption": "What is the fewest number of key presses needed to make the screen show ninety?",
+     "file": "2026-10-31-calculator-90/audio/d75886230028a9c5.wav",
+     "from": 389,
+     "frames": 165
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-calculator-90/audio/b97a89671840f7ca.wav",
+     "from": 563,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1286,
+   "frames": 503,
+   "lines": [
+    {
+     "text": "So what do we know? We start at three, and we want to end at ninety.",
+     "caption": "So what do we know? We start at three, and we want to end at ninety.",
+     "file": "2026-10-31-calculator-90/audio/1fedca47c822e199.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Each press either adds one, or doubles.",
+     "caption": "Each press either adds one, or doubles.",
+     "file": "2026-10-31-calculator-90/audio/26bdf9c442ccf139.wav",
+     "from": 166,
+     "frames": 107
+    },
+    {
+     "text": "We don't just want a way to get there. We want the FEWEST presses.",
+     "caption": "We don't just want a way to get there. We want the FEWEST presses.",
+     "file": "2026-10-31-calculator-90/audio/6280b101fbfbbf25.wav",
+     "from": 283,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1789,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-calculator-90/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "backward",
+   "kind": "scene",
+   "chapter": "Solution 1: work backwards",
+   "from": 2257,
+   "frames": 838,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: work backwards, from ninety down to three.",
+     "caption": "Welcome back! Here's the strategy: work backwards, from ninety down to three.",
+     "file": "2026-10-31-calculator-90/audio/93bbcb9de9c0f553.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "Going backwards, doubling becomes halving, and adding one becomes taking one away.",
+     "caption": "Going backwards, doubling becomes halving, and adding one becomes taking one away.",
+     "file": "2026-10-31-calculator-90/audio/b86772e21402beed.wav",
+     "from": 178,
+     "frames": 216
+    },
+    {
+     "text": "Halving is the big move, so halve whenever you can. If the number is odd, take one away first.",
+     "caption": "Halving is the big move, so halve whenever you can. If the number is odd, take one away first.",
+     "file": "2026-10-31-calculator-90/audio/8912dc0a21cc98f6.wav",
+     "from": 405,
+     "frames": 216
+    },
+    {
+     "text": "Ninety is even, so cut it in half. That gives forty-five.",
+     "caption": "Ninety is even, so cut it in half. That gives forty-five.",
+     "file": "2026-10-31-calculator-90/audio/0336a19e732e461b.wav",
+     "from": 631,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "chain",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3095,
+   "frames": 1613,
+   "lines": [
+    {
+     "text": "Forty-five is odd, so take one away: forty-four. Halve it: twenty-two. Halve again: eleven.",
+     "caption": "Forty-five is odd, so take one away: forty-four. Halve it: twenty-two. Halve again: eleven.",
+     "file": "2026-10-31-calculator-90/audio/f4d3487b1b1c6d74.wav",
+     "from": 0,
+     "frames": 238
+    },
+    {
+     "text": "Eleven is odd, so take one away: ten. Halve it: five.",
+     "caption": "Eleven is odd, so take one away: ten. Halve it: five.",
+     "file": "2026-10-31-calculator-90/audio/51c0c5f65801dadd.wav",
+     "from": 248,
+     "frames": 195
+    },
+    {
+     "text": "Five is odd, take one away: four. Now four is even, but half of four is two, and that's below three!",
+     "caption": "Five is odd, take one away: four. Now four is even, but half of four is two, and that's below three!",
+     "file": "2026-10-31-calculator-90/audio/ecf5fb4e7ed36d2e.wav",
+     "from": 453,
+     "frames": 268
+    },
+    {
+     "text": "So take one away instead. Four minus one is three. We made it!",
+     "caption": "So take one away instead. Four minus one is three. We made it!",
+     "file": "2026-10-31-calculator-90/audio/a0209411c5a64587.wav",
+     "from": 731,
+     "frames": 197
+    },
+    {
+     "text": "Read it forwards from three: every arrow is one key press.",
+     "caption": "Read it forwards from three: every arrow is one key press.",
+     "file": "2026-10-31-calculator-90/audio/d0c2fe649180cf2f.wav",
+     "from": 938,
+     "frames": 149
+    },
+    {
+     "text": "Now count the arrows, not the numbers. One, two, three, four, five, six, seven, eight.",
+     "caption": "Now count the arrows, not the numbers. One, two, three, four, five, six, seven, eight.",
+     "file": "2026-10-31-calculator-90/audio/a88a390a338f6ca8.wav",
+     "from": 1097,
+     "frames": 342
+    },
+    {
+     "text": "Eight presses. That's Choice C!",
+     "caption": "Eight presses. That's Choice C!",
+     "file": "2026-10-31-calculator-90/audio/4a64816745f9883d.wav",
+     "from": 1450,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "doubles",
+   "kind": "scene",
+   "chapter": "Solution 2: plan the doubles",
+   "from": 4708,
+   "frames": 1074,
+   "lines": [
+    {
+     "text": "Can anyone beat eight? Let's plan the doubles, and see why not.",
+     "caption": "Can anyone beat eight? Let's plan the doubles, and see why not.",
+     "file": "2026-10-31-calculator-90/audio/1024ca9626557163.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Five doubles is too many. Three doubled five times is ninety-six, already past ninety.",
+     "caption": "Five doubles is too many. Three doubled five times is ninety-six, already past ninety.",
+     "file": "2026-10-31-calculator-90/audio/a192aeae0ce50420.wav",
+     "from": 142,
+     "frames": 203
+    },
+    {
+     "text": "With four doubles, three becomes forty-eight. We still need forty-two more.",
+     "caption": "With four doubles, three becomes forty-eight. We still need forty-two more.",
+     "file": "2026-10-31-calculator-90/audio/56cd150d504a3fbb.wav",
+     "from": 355,
+     "frames": 178
+    },
+    {
+     "text": "Here's the trick. A plus-one pressed early gets doubled later, like a snowball.",
+     "caption": "Here's the trick. A plus-one pressed early gets doubled later, like a snowball.",
+     "file": "2026-10-31-calculator-90/audio/d26cf07f0559e83a.wav",
+     "from": 543,
+     "frames": 189
+    },
+    {
+     "text": "A plus-one before all four doubles is worth sixteen. Before three doubles, eight. Then four, two, and one.",
+     "caption": "A plus-one before all four doubles is worth sixteen. Before three doubles, eight. Then four, two, and one.",
+     "file": "2026-10-31-calculator-90/audio/dd48cd06fd69cb89.wav",
+     "from": 742,
+     "frames": 278
+    }
+   ]
+  },
+  {
+   "id": "doubles2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5782,
+   "frames": 1527,
+   "lines": [
+    {
+     "text": "Make forty-two from those values: sixteen plus sixteen plus eight plus two. That's four adds.",
+     "caption": "Make forty-two from those values: sixteen plus sixteen plus eight plus two. That's four adds.",
+     "file": "2026-10-31-calculator-90/audio/563b6407b0f01da9.wav",
+     "from": 0,
+     "frames": 260
+    },
+    {
+     "text": "Can three plus-one presses do it? The biggest three are sixteen, sixteen, sixteen: forty-eight, too big.",
+     "caption": "Can three plus-one presses do it? The biggest three are sixteen, sixteen, sixteen: forty-eight, too big.",
+     "file": "2026-10-31-calculator-90/audio/18a4c25188b5364a.wav",
+     "from": 269,
+     "frames": 269
+    },
+    {
+     "text": "The next biggest is sixteen, sixteen, eight. That's forty, too small. Nothing in between!",
+     "caption": "The next biggest is sixteen, sixteen, eight. That's forty, too small. Nothing in between!",
+     "file": "2026-10-31-calculator-90/audio/da8db3239bbccef7.wav",
+     "from": 549,
+     "frames": 210
+    },
+    {
+     "text": "So we need four doubles and four plus-one presses. That makes eight, and no fewer!",
+     "caption": "So we need four doubles and four plus-one presses. That makes eight, and no fewer!",
+     "file": "2026-10-31-calculator-90/audio/7d3393f0d58e632a.wav",
+     "from": 769,
+     "frames": 204
+    },
+    {
+     "text": "And it matches our chain: two plus-one presses at the start, one after the first double, one before the last.",
+     "caption": "And it matches our chain: two plus-one presses at the start, one after the first double, one before the last.",
+     "file": "2026-10-31-calculator-90/audio/33e0c9d993d4437f.wav",
+     "from": 984,
+     "frames": 237
+    },
+    {
+     "text": "With fewer doubles, it only gets worse. Three doubles would need nine adds. That's twelve presses.",
+     "caption": "With fewer doubles, it only gets worse. Three doubles would need nine adds. That's twelve presses.",
+     "file": "2026-10-31-calculator-90/audio/4cc33bdb6c27a259.wav",
+     "from": 1230,
+     "frames": 228
+    }
+   ]
+  },
+  {
+   "id": "pick",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7309,
+   "frames": 361,
+   "lines": [
+    {
+     "text": "When would you pick each way? Work backwards to find a short path fast.",
+     "caption": "When would you pick each way? Work backwards to find a short path fast.",
+     "file": "2026-10-31-calculator-90/audio/e303e0ac69ee7cf0.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "Plan the doubles when you need to be sure nothing is shorter.",
+     "caption": "Plan the doubles when you need to be sure nothing is shorter.",
+     "file": "2026-10-31-calculator-90/audio/5cf87cbb1820f68d.wav",
+     "from": 183,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7670,
+   "frames": 1029,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-calculator-90/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Choice D, nine, counts the numbers in the chain. But the presses are the arrows between them, one fewer.",
+     "caption": "Choice D, nine, counts the numbers in the chain. But the presses are the arrows between them, one fewer.",
+     "file": "2026-10-31-calculator-90/audio/243fee6ed490a9b0.wav",
+     "from": 134,
+     "frames": 226
+    },
+    {
+     "text": "Choices A and B, six and seven, are too few. We showed you need four doubles and four adds.",
+     "caption": "Choices A and B, six and seven, are too few. We showed you need four doubles and four adds.",
+     "file": "2026-10-31-calculator-90/audio/aef539624eb69890.wav",
+     "from": 371,
+     "frames": 225
+    },
+    {
+     "text": "Choice E, ten, can reach ninety, but it isn't the fewest. Two presses wasted!",
+     "caption": "Choice E, ten, can reach ninety, but it isn't the fewest. Two presses wasted!",
+     "file": "2026-10-31-calculator-90/audio/468be3b286c624ff.wav",
+     "from": 605,
+     "frames": 209
+    },
+    {
+     "text": "So here's a great habit. Count the steps, not the stops.",
+     "caption": "So here's a great habit. Count the steps, not the stops.",
+     "file": "2026-10-31-calculator-90/audio/ff16f0002d1ef9a9.wav",
+     "from": 825,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: aim for 100",
+   "from": 8699,
+   "frames": 391,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same calculator, same two keys, and it starts at three again.",
+     "caption": "Ready for a challenge? Same calculator, same two keys, and it starts at three again.",
+     "file": "2026-10-31-calculator-90/audio/d880d2d4d1025e1a.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "This time, what's the fewest number of presses to reach one hundred?",
+     "caption": "This time, what's the fewest number of presses to reach one hundred?",
+     "file": "2026-10-31-calculator-90/audio/e3b9bd2ab4e4ee0e.wav",
+     "from": 197,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9090,
+   "frames": 483,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-calculator-90/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Aim for 100: the answer",
+   "from": 9573,
+   "frames": 1176,
+   "lines": [
+    {
+     "text": "Let's work backwards. One hundred, halve: fifty. Halve: twenty-five.",
+     "caption": "Let's work backwards. One hundred, halve: fifty. Halve: twenty-five.",
+     "file": "2026-10-31-calculator-90/audio/7465d4f8c602f74c.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "Twenty-five is odd, take one away: twenty-four. Then cut it in half three times: twelve, six, three!",
+     "caption": "Twenty-five is odd, take one away: twenty-four. Then cut it in half three times: twelve, six, three!",
+     "file": "2026-10-31-calculator-90/audio/5baed2132157eb8d.wav",
+     "from": 230,
+     "frames": 275
+    },
+    {
+     "text": "Count the arrows: six presses.",
+     "caption": "Count the arrows: six presses.",
+     "file": "2026-10-31-calculator-90/audio/f178aa3abf7ab126.wav",
+     "from": 515,
+     "frames": 96
+    },
+    {
+     "text": "Check: five doubles take three to ninety-six, and one snowball add-one makes the last four. Six presses!",
+     "caption": "Check: five doubles take three to ninety-six, and one snowball add-one makes the last four. Six presses!",
+     "file": "2026-10-31-calculator-90/audio/c14fbaaaeb4543ca.wav",
+     "from": 622,
+     "frames": 255
+    },
+    {
+     "text": "Here's the sneaky part. The bigger target took fewer presses. If you got six, amazing work!",
+     "caption": "Here's the sneaky part. The bigger target took fewer presses. If you got six, amazing work!",
+     "file": "2026-10-31-calculator-90/audio/68ae72f97e228692.wav",
+     "from": 886,
+     "frames": 221
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10749,
+   "frames": 834,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-calculator-90/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 77
+    },
+    {
+     "text": "To reach a target with doubling and adding one, work backwards.",
+     "caption": "To reach a target with doubling and adding one, work backwards.",
+     "file": "2026-10-31-calculator-90/audio/abecb095b636e011.wav",
+     "from": 88,
+     "frames": 138
+    },
+    {
+     "text": "Cut it in half when it's even, unless that drops below the start.",
+     "caption": "Cut it in half when it's even, unless that drops below the start.",
+     "file": "2026-10-31-calculator-90/audio/2fb28e0795b3f68d.wav",
+     "from": 236,
+     "frames": 150
+    },
+    {
+     "text": "Otherwise, take one away.",
+     "caption": "Otherwise, take one away.",
+     "file": "2026-10-31-calculator-90/audio/876240f79b247751.wav",
+     "from": 397,
+     "frames": 68
+    },
+    {
+     "text": "And count the presses, the arrows, not the numbers.",
+     "caption": "And count the presses, the arrows, not the numbers.",
+     "file": "2026-10-31-calculator-90/audio/7763174998210eb5.wav",
+     "from": 474,
+     "frames": 141
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-calculator-90/audio/31a6054d0b03b932.wav",
+     "from": 625,
+     "frames": 125
+    }
+   ]
+  }
+ ]
+}

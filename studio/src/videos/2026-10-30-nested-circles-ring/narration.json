@@ -1,0 +1,95 @@
+{
+ "title": "Circle, Square, Circle: Find the Ring | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {"id": "intro", "chapter": "Intro", "hold": 0.5, "lines": [
+   "A square, a circle, a smaller square, a smaller circle. Like nesting dolls!",
+   "The shaded ring looks tricky. <short pause> But there's a neat surprise hiding inside.",
+   "Hi, I'm Vantee! Let's find the ring's area together."
+  ]},
+  {"id": "question", "chapter": "The question", "hold": 1.5, "lines": [
+   "Here's the question.",
+   "A circle fits inside a square with side length eight.",
+   "A smaller square has its corners on that circle. A smaller circle fits inside that square.",
+   "What is the area of the shaded ring between the two circles?",
+   "Here are the five choices. Take a good look."
+  ]},
+  {"id": "asked", "chapter": "What are we asked?", "hold": 1, "lines": [
+   "So what are we really looking for?",
+   "The ring is the big circle, take away the small circle.",
+   "So we need the area of each circle. And for that, we need each radius."
+  ]},
+  {"id": "try1", "chapter": "Try it yourself", "kind": "pause", "hold": 10, "lines": [
+   "Now it's your turn. Pause the video and give it a go. I'll wait!"
+  ]},
+  {"id": "big", "chapter": "Solution 1: find each radius", "hold": 1, "lines": [
+   "Welcome back! Let's start with the big circle.",
+   "It fits snugly in the square, so its diameter equals the side. That's eight.",
+   "So its radius is four. Pi times four squared is sixteen pi."
+  ]},
+  {"id": "diag", "hold": 1, "lines": [
+   "Now the small square. Its corners touch the big circle.",
+   "So its diagonal goes right across the circle. The diagonal is a diameter, eight!",
+   "The diagonal and two sides of the small square make a right triangle.",
+   "Pythagoras says side squared plus side squared equals eight squared, which is sixty-four.",
+   "So side squared is thirty-two. The side is root thirty-two.",
+   "Thirty-two is sixteen times two, so that's four root two."
+  ]},
+  {"id": "small", "hold": 1, "lines": [
+   "The small circle fits snugly in the small square. So its diameter is four root two.",
+   "Its radius is half of that, two root two.",
+   "Two root two, squared, is four times two. That's eight. So the small circle is eight pi."
+  ]},
+  {"id": "total1", "hold": 1.5, "lines": [
+   "The ring is sixteen pi minus eight pi.",
+   "That's eight pi! The answer is B."
+  ]},
+  {"id": "fold", "chapter": "Solution 2: fold and turn", "hold": 1, "lines": [
+   "Here's a clever way, with no root two at all.",
+   "In the picture, the small square's corners sit at the middle of each side of the big square.",
+   "Now fold the four corner triangles inward. They cover the small square exactly!",
+   "Each corner triangle is half of four times four. That's eight. Four of them make thirty-two.",
+   "So the small square is half of the big square. Thirty-two out of sixty-four."
+  ]},
+  {"id": "turn", "hold": 1.5, "lines": [
+   "Now turn the small square forty-five degrees. It's a shrunk copy of the big picture!",
+   "Same shape, so every area shrinks the same way. The square's area halved, so the circle's does too.",
+   "Half of sixteen pi is eight pi. That's the small circle.",
+   "So the ring is the other half. Eight pi again! The ring and the small circle are equal.",
+   "When would you pick this way? When shapes nest inside each other, look for a shrunk copy."
+  ]},
+  {"id": "traps", "chapter": "Common traps", "hold": 1.5, "lines": [
+   "Now let's look at the wrong answers. Each one is a trap.",
+   "Choice C, twelve pi, is what you'd get with a small radius of two. Sixteen pi minus four pi.",
+   "But the small square's side isn't four, it's four root two. The AREA halves, not the radius.",
+   "Choice D, sixteen pi, is just the big circle. It forgets to take away the small one.",
+   "Choice E, twenty-four pi, adds the two circles instead of subtracting.",
+   "Choice A, four pi, halves one time too many. That's the area of the NEXT circle in, not our ring.",
+   "So here's a habit: the ring is the big circle MINUS the small circle."
+  ]},
+  {"id": "variant", "chapter": "Your turn: one level deeper", "hold": 0.5, "lines": [
+   "Ready for a challenge? Let's go one level deeper.",
+   "The big square now has a side of twelve. Inside it sit a circle, a square, a circle, a square, and a circle.",
+   "Each circle fits snugly in its square. Each square has its corners on the circle around it.",
+   "Shade everything between the biggest circle and the smallest circle. What is its area?"
+  ]},
+  {"id": "try2", "kind": "pause", "hold": 12, "lines": [
+   "Pause the video, and go for it!"
+  ]},
+  {"id": "variant-answer", "chapter": "One level deeper: the answer", "hold": 1.5, "lines": [
+   "Let's check. The big circle has radius six. Pi times six squared is thirty-six pi.",
+   "Circle, square, circle: each time, the circle's area halves. So the middle circle is eighteen pi.",
+   "One more level in, and the smallest circle is nine pi.",
+   "Thirty-six pi minus nine pi is twenty-seven pi!",
+   "Double-check: the area went down to one fourth, so the radius is half of six. That's three.",
+   "Pi times three squared is nine pi. It matches!",
+   "If you found twenty-seven pi, amazing work!"
+  ]},
+  {"id": "recap", "chapter": "Recap", "hold": 2, "lines": [
+   "Here's the big idea to remember.",
+   "Square in a circle: its diagonal is the diameter. Circle in a square: its diameter is the side.",
+   "And circle, square, circle: the inner circle has exactly half the AREA of the outer one.",
+   "I'm Vantee. Keep exploring, and I'll see you next time!"
+  ]}
+ ]
+}

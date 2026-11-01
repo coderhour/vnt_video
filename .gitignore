@@ -3,3 +3,6 @@
 node_modules/
 *.wav
 __pycache__/
+render.log
+render.done
+render.failed

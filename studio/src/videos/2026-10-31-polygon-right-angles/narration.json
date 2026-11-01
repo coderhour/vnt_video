@@ -1,0 +1,158 @@
+{
+ "title": "Two Right Angles, the Rest 160°: How Many Sides? | AMC 8-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "A partial convex shape (same as the question scene): two right-angle corners at the bottom-right, a few 160° corners, and the rest of the outline dashed/unknown, so the side count is NOT shown. Line 2: a walking arrow traces the known part of the boundary. Line 3: Vantee title card. Keep the real 11-gon for the 'count' scene.",
+   "lines": [
+    "A shape with two square corners, and every other corner is one hundred sixty degrees. How many sides?",
+    "Adding up the inside angles works, but there's a neater trick: take a walk around the outside.",
+    "Hi, I'm Vantee! Let's go for a walk."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left; on the right a generic convex shape outline with two right-angle marks and a few corners labeled 160° (the rest shown as '…' — not the exact 11-gon, so the side count isn't given away; e.g. a partial shape with a dashed unknown part). Line 4: chips 9, 10, 11, 12, 20.",
+   "lines": [
+    "Here's the question.",
+    "A convex polygon has exactly two interior angles of ninety degrees.",
+    "Every other interior angle is one hundred sixty degrees. How many sides does the polygon have?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: 'convex' card with a small example (all corners poke outward) vs a dented shape crossed out. Line 2: '2 corners: 90°', 'all others: 160°'. Line 3: 'sides = corners = ?'.",
+   "lines": [
+    "So what do we know? Convex means every corner points outward. No dents.",
+    "Two corners are ninety degrees. All the others are one hundred sixty degrees.",
+    "A polygon has as many sides as corners. So let's count the corners."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "walk",
+   "chapter": "Solution 1: walk around the outside",
+   "hold": 1,
+   "visual": "Use a simple example first: a square, then a pentagon. Line 2: arrow walks along the square, turning at each corner (green outside turn arc); 'turns: 90 + 90 + 90 + 90 = 360'. Line 3: same walk on a lopsided pentagon, turn arcs collect into a full circle at the center ('360°'). Line 4: at one corner, interior (purple) + turn (green) on a straight line: 'inside + turn = 180'.",
+   "lines": [
+    "Welcome back! Here's the strategy: walk around the outside of the shape, and add up your turns.",
+    "Walk around a square. You turn ninety degrees at each corner, four times. That's three hundred sixty.",
+    "Here's the amazing part.",
+    "You end up facing the way you started, so you've spun around once.",
+    "For any convex shape, your turns always add up to one full circle, three hundred sixty degrees.",
+    "At each corner, the inside angle and the turn sit on a straight line. Together they make one hundred eighty."
+   ]
+  },
+  {
+   "id": "count",
+   "hold": 1.5,
+   "visual": "Now the real 11-gon (from verify.py). Line 1: at a right-angle corner: '180 − 90 = 90' turn. Line 2: at a 160° corner: '180 − 160 = 20' turn. Line 3: the two 90° turns fill half of a turn-circle: '360 − 90 − 90 = 180'. Line 4: '180 ÷ 20 = 9' — 20° wedges fill the other half one by one, counter ×1…×9, while the walking arrow passes each 160° corner. Line 5: '9 + 2 = 11'. Line 6: answer badge '11 sides' with chime at line end, choice C highlighted.",
+   "lines": [
+    "At a ninety degree corner, you turn one hundred eighty minus ninety, which is ninety degrees.",
+    "At a corner of one hundred sixty degrees, you turn just twenty degrees.",
+    "The two square corners use up ninety plus ninety, one hundred eighty degrees of turning.",
+    "That leaves one hundred eighty.",
+    "Each of the other corners turns twenty degrees. One hundred eighty divided by twenty is nine corners.",
+    "Nine corners plus the two square ones makes eleven corners, so eleven sides.",
+    "The polygon has eleven sides. That's Choice C!"
+   ]
+  },
+  {
+   "id": "inside",
+   "chapter": "Solution 2: add the inside angles",
+   "hold": 1.5,
+   "visual": "Line 1: card 'n sides → inside angles add to (n − 2) × 180'; a pentagon split into 3 triangles from one corner. Line 2: '2 × 90 + (n − 2) × 160'. Line 3: '(n − 2) × 180 = 180 + (n − 2) × 160'. Line 4: '(n − 2) × 20 = 180', 'n − 2 = 9', 'n = 11'. Line 5: card.",
+   "lines": [
+    "Here's another way.",
+    "A shape with n sides splits into n minus two triangles.",
+    "So its inside angles add to n minus two, times one hundred eighty.",
+    "Our shape has two ninety degree corners, and n minus two corners of one hundred sixty.",
+    "So n minus two times one hundred eighty, equals one hundred eighty, plus n minus two times one hundred sixty.",
+    "n minus two groups of one hundred eighty, take away n minus two groups of one hundred sixty, leaves n minus two groups of twenty.",
+    "And that equals one hundred eighty.",
+    "So n minus two is nine, and n is eleven. Same answer!",
+    "When would you pick this way? When you like equations. The walk is quicker when lots of corners match."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red. Line 2: the 9 counter from solution 1 with '+ 2 forgotten'. Line 3: a 20° turn wedge labeled '20 = a turn, not a count'. Line 4: rows '10 sides: should be 1440, ours 1460' and '12 sides: should be 1800, ours 1780', both red.",
+   "lines": [
+    "Now let's look at the wrong answers. Each one is a trap.",
+    "Choice A, nine, counts only the one hundred sixty degree corners. Don't forget the two square ones!",
+    "Choice E, twenty, is the turn at each of those corners, twenty degrees.",
+    "That's an angle, not a number of sides.",
+    "Choices B and D, ten and twelve, fail the angle check.",
+    "Ten sides should add to one thousand four hundred forty. But two corners of ninety and eight of one hundred sixty add to one thousand four hundred sixty.",
+    "Twelve sides should add to one thousand eight hundred. But two corners of ninety and ten of one hundred sixty add to one thousand seven hundred eighty.",
+    "So here's a great habit. For polygon angles, think about the turns. They always add up to three hundred sixty."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: new corners",
+   "hold": 0.5,
+   "visual": "Variant card: 'convex polygon: three angles of 120°, all others 150°'.",
+   "lines": [
+    "Ready for a challenge? A convex polygon has exactly three angles of one hundred twenty degrees.",
+    "Every other angle is one hundred fifty degrees. How many sides does it have?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, countdown, variant card visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New corners: the answer",
+   "hold": 1.5,
+   "visual": "Turn-circle again. Rows: '180 − 120 = 60', '3 × 60 = 180'; '360 − 180 = 180'; '180 − 150 = 30', '180 ÷ 30 = 6'; '6 + 3 = 9' answer badge with chime at end of line 4. Line 5: check '(9 − 2) × 180 = 1260 = 3 × 120 + 6 × 150'.",
+   "lines": [
+    "Let's walk it. At each one hundred twenty degree corner you turn sixty degrees.",
+    "Three of them make one hundred eighty.",
+    "That leaves one hundred eighty degrees of turning for the other corners.",
+    "Each one hundred fifty degree corner turns thirty degrees. One hundred eighty divided by thirty is six.",
+    "Six corners plus three makes nine sides!",
+    "Check: nine sides means inside angles of one thousand two hundred sixty.",
+    "Three times one hundred twenty, plus six times one hundred fifty, is one thousand two hundred sixty. It works!",
+    "If you got nine, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: walking arrow around a polygon, 'turns add to 360°', 'turn = 180 − inside angle'.",
+   "lines": [
+    "Here's the big idea to remember.",
+    "Walk around a convex shape, and your turns always add up to three hundred sixty degrees.",
+    "Subtract the turns you know, then divide what's left by the turn at each other corner.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

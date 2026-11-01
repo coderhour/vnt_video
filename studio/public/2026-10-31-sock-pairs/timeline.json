@@ -1,0 +1,513 @@
+{
+ "fps": 30,
+ "durationInFrames": 11082,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 556,
+   "lines": [
+    {
+     "text": "Grab four socks from a drawer of five pairs. How often do you get a matching pair?",
+     "caption": "Grab four socks from a drawer of five pairs. How often do you get a matching pair?",
+     "file": "2026-10-31-sock-pairs/audio/33f51d547df83631.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "Counting the matches head-on gets messy. Counting the NON-matches is much easier.",
+     "caption": "Counting the matches head-on gets messy. Counting the NON-matches is much easier.",
+     "file": "2026-10-31-sock-pairs/audio/43e000b157a34407.wav",
+     "from": 183,
+     "frames": 190
+    },
+    {
+     "text": "Hello, I'm Vantee, and today we're sorting socks!",
+     "caption": "Hello, I'm Vantee, and today we're sorting socks!",
+     "file": "2026-10-31-sock-pairs/audio/619602737b4b5d93.wav",
+     "from": 383,
+     "frames": 134
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 556,
+   "frames": 642,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-sock-pairs/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 46
+    },
+    {
+     "text": "A drawer has five pairs of socks, and each pair is a different color.",
+     "caption": "A drawer has five pairs of socks, and each pair is a different color.",
+     "file": "2026-10-31-sock-pairs/audio/4bd2e75383ae29e2.wav",
+     "from": 56,
+     "frames": 147
+    },
+    {
+     "text": "Zoe pulls out four socks.",
+     "caption": "Zoe pulls out four socks.",
+     "file": "2026-10-31-sock-pairs/audio/a8666f61bc9e55a3.wav",
+     "from": 213,
+     "frames": 81
+    },
+    {
+     "text": "How many sets of four socks contain at least one matching pair?",
+     "caption": "How many sets of four socks contain at least one matching pair?",
+     "file": "2026-10-31-sock-pairs/audio/ef18a9f3504fdc30.wav",
+     "from": 304,
+     "frames": 147
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-sock-pairs/audio/b97a89671840f7ca.wav",
+     "from": 460,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1198,
+   "frames": 632,
+   "lines": [
+    {
+     "text": "So what do we know? Ten socks in all, two of each color. Each sock is its own sock.",
+     "caption": "So what do we know? Ten socks in all, two of each color. Each sock is its own sock.",
+     "file": "2026-10-31-sock-pairs/audio/20ca827af9771d45.wav",
+     "from": 0,
+     "frames": 232
+    },
+    {
+     "text": "A set of four is just which socks she holds. The order doesn't matter.",
+     "caption": "A set of four is just which socks she holds. The order doesn't matter.",
+     "file": "2026-10-31-sock-pairs/audio/9c8843b3bc62df38.wav",
+     "from": 242,
+     "frames": 148
+    },
+    {
+     "text": "At least one pair means one matching pair, or even two pairs. Both count.",
+     "caption": "At least one pair means one matching pair, or even two pairs. Both count.",
+     "file": "2026-10-31-sock-pairs/audio/038c2d66db452ba3.wav",
+     "from": 400,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1830,
+   "frames": 472,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-sock-pairs/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "all",
+   "kind": "scene",
+   "chapter": "Solution 1: all minus no-pair",
+   "from": 2302,
+   "frames": 1381,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: count everything, then take away the sets with no pair.",
+     "caption": "Welcome back! Here's the strategy: count everything, then take away the sets with no pair.",
+     "file": "2026-10-31-sock-pairs/audio/19c5f0ca14edc4a4.wav",
+     "from": 0,
+     "frames": 213
+    },
+    {
+     "text": "All sets minus no-pair sets leaves the sets with a pair.",
+     "caption": "All sets minus no-pair sets leaves the sets with a pair.",
+     "file": "2026-10-31-sock-pairs/audio/ca7901fb51c8e6ab.wav",
+     "from": 222,
+     "frames": 154
+    },
+    {
+     "text": "First, all sets. Pick socks one at a time: ten choices, then nine, then eight, then seven.",
+     "caption": "First, all sets. Pick socks one at a time: ten choices, then nine, then eight, then seven.",
+     "file": "2026-10-31-sock-pairs/audio/36183d29edfcbcd4.wav",
+     "from": 387,
+     "frames": 264
+    },
+    {
+     "text": "That's five thousand forty.",
+     "caption": "That's five thousand forty.",
+     "file": "2026-10-31-sock-pairs/audio/76b2c09efbcb3ec3.wav",
+     "from": 661,
+     "frames": 72
+    },
+    {
+     "text": "But each set got counted once for every order.",
+     "caption": "But each set got counted once for every order.",
+     "file": "2026-10-31-sock-pairs/audio/4ffbe13f63a507ba.wav",
+     "from": 744,
+     "frames": 125
+    },
+    {
+     "text": "Four socks can line up in four times three times two times one, twenty-four orders.",
+     "caption": "Four socks can line up in four times three times two times one, twenty-four orders.",
+     "file": "2026-10-31-sock-pairs/audio/2d043f07db0f3f21.wav",
+     "from": 879,
+     "frames": 221
+    },
+    {
+     "text": "So five thousand forty divided by twenty-four is two hundred ten sets in all.",
+     "caption": "So five thousand forty divided by twenty-four is two hundred ten sets in all.",
+     "file": "2026-10-31-sock-pairs/audio/ae40f129b8f604b7.wav",
+     "from": 1110,
+     "frames": 218
+    }
+   ]
+  },
+  {
+   "id": "nopair",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3683,
+   "frames": 1174,
+   "lines": [
+    {
+     "text": "Now the no-pair sets. No pair means four different colors.",
+     "caption": "Now the no-pair sets. No pair means four different colors.",
+     "file": "2026-10-31-sock-pairs/audio/552e61cf6dbfcd83.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "Choose four of the five colors. That's the same as choosing the one color to leave out: five ways.",
+     "caption": "Choose four of the five colors. That's the same as choosing the one color to leave out: five ways.",
+     "file": "2026-10-31-sock-pairs/audio/89141adca3e579c5.wav",
+     "from": 166,
+     "frames": 210
+    },
+    {
+     "text": "Each chosen color has two socks to pick from. Two times two times two times two is sixteen.",
+     "caption": "Each chosen color has two socks to pick from. Two times two times two times two is sixteen.",
+     "file": "2026-10-31-sock-pairs/audio/6cc4e322e74af2f0.wav",
+     "from": 386,
+     "frames": 260
+    },
+    {
+     "text": "So there are five times sixteen, eighty sets with no pair.",
+     "caption": "So there are five times sixteen, eighty sets with no pair.",
+     "file": "2026-10-31-sock-pairs/audio/3cf534f85e641ad2.wav",
+     "from": 656,
+     "frames": 171
+    },
+    {
+     "text": "Two hundred ten minus eighty is one hundred thirty.",
+     "caption": "Two hundred ten minus eighty is one hundred thirty.",
+     "file": "2026-10-31-sock-pairs/audio/7f4dc0224a44f765.wav",
+     "from": 837,
+     "frames": 153
+    },
+    {
+     "text": "One hundred thirty sets have a pair. That's Choice C!",
+     "caption": "One hundred thirty sets have a pair. That's Choice C!",
+     "file": "2026-10-31-sock-pairs/audio/a8d29a1abe83ef36.wav",
+     "from": 1000,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "direct",
+   "kind": "scene",
+   "chapter": "Solution 2: count the pairs directly",
+   "from": 4857,
+   "frames": 1289,
+   "lines": [
+    {
+     "text": "Here's another way. Let's count the sets with a pair directly, in two groups.",
+     "caption": "Here's another way. Let's count the sets with a pair directly, in two groups.",
+     "file": "2026-10-31-sock-pairs/audio/cb97a980dd9498e7.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Exactly one pair: five colors for the pair.",
+     "caption": "Exactly one pair: five colors for the pair.",
+     "file": "2026-10-31-sock-pairs/audio/e21eb1aef0e71e8c.wav",
+     "from": 176,
+     "frames": 125
+    },
+    {
+     "text": "Then two different colors from the other four, six ways, and a sock of each, four ways.",
+     "caption": "Then two different colors from the other four, six ways, and a sock of each, four ways.",
+     "file": "2026-10-31-sock-pairs/audio/d914ef09496476d1.wav",
+     "from": 312,
+     "frames": 220
+    },
+    {
+     "text": "Five times six times four is one hundred twenty.",
+     "caption": "Five times six times four is one hundred twenty.",
+     "file": "2026-10-31-sock-pairs/audio/6b50fa63f23fdf7c.wav",
+     "from": 542,
+     "frames": 150
+    },
+    {
+     "text": "Two pairs: choose two of the five colors. There are ten ways.",
+     "caption": "Two pairs: choose two of the five colors. There are ten ways.",
+     "file": "2026-10-31-sock-pairs/audio/e53778e002414150.wav",
+     "from": 702,
+     "frames": 146
+    },
+    {
+     "text": "One hundred twenty plus ten is one hundred thirty. Same answer!",
+     "caption": "One hundred twenty plus ten is one hundred thirty. Same answer!",
+     "file": "2026-10-31-sock-pairs/audio/deb2a54b561a3c68.wav",
+     "from": 858,
+     "frames": 137
+    },
+    {
+     "text": "When would you pick this way? It's a great double-check. But the first way didn't need to split into cases.",
+     "caption": "When would you pick this way? It's a great double-check. But the first way didn't need to split into cases.",
+     "file": "2026-10-31-sock-pairs/audio/cd02034a9b63e6f3.wav",
+     "from": 1005,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6146,
+   "frames": 1708,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-sock-pairs/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "Choice A says eighty. That's the sets with NO pair, the group we took away.",
+     "caption": "Choice A says eighty. That's the sets with NO pair, the group we took away.",
+     "file": "2026-10-31-sock-pairs/audio/73f4ae35b5311ce4.wav",
+     "from": 132,
+     "frames": 184
+    },
+    {
+     "text": "Choice E, two hundred ten, is every set, before taking any away.",
+     "caption": "Choice E, two hundred ten, is every set, before taking any away.",
+     "file": "2026-10-31-sock-pairs/audio/9cbd5c402f03dee0.wav",
+     "from": 326,
+     "frames": 155
+    },
+    {
+     "text": "Choice D, one hundred forty, comes from picking a pair, five ways.",
+     "caption": "Choice D, one hundred forty, comes from picking a pair, five ways.",
+     "file": "2026-10-31-sock-pairs/audio/23cdee7b05630898.wav",
+     "from": 491,
+     "frames": 143
+    },
+    {
+     "text": "Then any two of the other eight socks: eight times seven over two, twenty-eight ways. Five times twenty-eight is one hundred forty.",
+     "caption": "Then any two of the other eight socks: eight times seven over two, twenty-eight ways. Five times twenty-eight is one hundred forty.",
+     "file": "2026-10-31-sock-pairs/audio/55a89cf78846a9f2.wav",
+     "from": 644,
+     "frames": 308
+    },
+    {
+     "text": "But a two-pair set gets counted twice, once for each pair.",
+     "caption": "But a two-pair set gets counted twice, once for each pair.",
+     "file": "2026-10-31-sock-pairs/audio/822bc337f7b637cb.wav",
+     "from": 962,
+     "frames": 135
+    },
+    {
+     "text": "Take away the ten extras, and you're back to one hundred thirty.",
+     "caption": "Take away the ten extras, and you're back to one hundred thirty.",
+     "file": "2026-10-31-sock-pairs/audio/41bc258dcf08e50c.wav",
+     "from": 1107,
+     "frames": 117
+    },
+    {
+     "text": "Choice B, one hundred twenty-five, doesn't come from any correct count. Both our methods give one hundred thirty.",
+     "caption": "Choice B, one hundred twenty-five, doesn't come from any correct count. Both our methods give one hundred thirty.",
+     "file": "2026-10-31-sock-pairs/audio/a4901e8eb9c89d8f.wav",
+     "from": 1234,
+     "frames": 219
+    },
+    {
+     "text": "So here's a great habit. For at least one, count the opposite and subtract.",
+     "caption": "So here's a great habit. For at least one, count the opposite and subtract.",
+     "file": "2026-10-31-sock-pairs/audio/27c4a2f75ace4936.wav",
+     "from": 1463,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: six pairs",
+   "from": 7854,
+   "frames": 400,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the drawer has six pairs, each a different color.",
+     "caption": "Ready for a challenge? Now the drawer has six pairs, each a different color.",
+     "file": "2026-10-31-sock-pairs/audio/c3acc68185f63589.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "Zoe pulls out four socks again. How many sets of four contain at least one matching pair?",
+     "caption": "Zoe pulls out four socks again. How many sets of four contain at least one matching pair?",
+     "file": "2026-10-31-sock-pairs/audio/0eae9243e9861d17.wav",
+     "from": 164,
+     "frames": 197
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8254,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-sock-pairs/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Six pairs: the answer",
+   "from": 8716,
+   "frames": 1746,
+   "lines": [
+    {
+     "text": "Let's check. Count every set: twelve times eleven times ten times nine, divided by twenty-four.",
+     "caption": "Let's check. Count every set: twelve times eleven times ten times nine, divided by twenty-four.",
+     "file": "2026-10-31-sock-pairs/audio/e656296b52864979.wav",
+     "from": 0,
+     "frames": 285
+    },
+    {
+     "text": "That's four hundred ninety-five.",
+     "caption": "That's four hundred ninety-five.",
+     "file": "2026-10-31-sock-pairs/audio/6195c241aa837494.wav",
+     "from": 294,
+     "frames": 88
+    },
+    {
+     "text": "No pair: choose four of the six colors.",
+     "caption": "No pair: choose four of the six colors.",
+     "file": "2026-10-31-sock-pairs/audio/77e32b2864725ed5.wav",
+     "from": 393,
+     "frames": 105
+    },
+    {
+     "text": "That's the same as leaving out two colors: six times five over two, fifteen ways. Then sixteen ways to pick the socks.",
+     "caption": "That's the same as leaving out two colors: six times five over two, fifteen ways. Then sixteen ways to pick the socks.",
+     "file": "2026-10-31-sock-pairs/audio/997ae219b663a04e.wav",
+     "from": 507,
+     "frames": 266
+    },
+    {
+     "text": "Fifteen times sixteen is two hundred forty sets with no pair.",
+     "caption": "Fifteen times sixteen is two hundred forty sets with no pair.",
+     "file": "2026-10-31-sock-pairs/audio/774e7ae7ac4b9c6b.wav",
+     "from": 783,
+     "frames": 164
+    },
+    {
+     "text": "Four hundred ninety-five minus two hundred forty is two hundred fifty-five!",
+     "caption": "Four hundred ninety-five minus two hundred forty is two hundred fifty-five!",
+     "file": "2026-10-31-sock-pairs/audio/1dd5d8101b9b91ff.wav",
+     "from": 957,
+     "frames": 180
+    },
+    {
+     "text": "Check: one pair gives six times ten times four, two hundred forty, and two pairs gives six times five over two, fifteen.",
+     "caption": "Check: one pair gives six times ten times four, two hundred forty, and two pairs gives six times five over two, fifteen.",
+     "file": "2026-10-31-sock-pairs/audio/59dfae3fe4d264fd.wav",
+     "from": 1147,
+     "frames": 316
+    },
+    {
+     "text": "Two hundred fifty-five again!",
+     "caption": "Two hundred fifty-five again!",
+     "file": "2026-10-31-sock-pairs/audio/6882f72b210a5499.wav",
+     "from": 1474,
+     "frames": 75
+    },
+    {
+     "text": "If you got two hundred fifty-five, amazing work!",
+     "caption": "If you got two hundred fifty-five, amazing work!",
+     "file": "2026-10-31-sock-pairs/audio/0c95e845fc24ce5f.wav",
+     "from": 1558,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10462,
+   "frames": 620,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-sock-pairs/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "When a question says at least one, count the opposite.",
+     "caption": "When a question says at least one, count the opposite.",
+     "file": "2026-10-31-sock-pairs/audio/02c1353f2170f701.wav",
+     "from": 93,
+     "frames": 129
+    },
+    {
+     "text": "Count all the sets, subtract the ones with none, and what's left is your answer.",
+     "caption": "Count all the sets, subtract the ones with none, and what's left is your answer.",
+     "file": "2026-10-31-sock-pairs/audio/5fcdee4daaaf7cb4.wav",
+     "from": 232,
+     "frames": 173
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-sock-pairs/audio/31a6054d0b03b932.wav",
+     "from": 416,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}

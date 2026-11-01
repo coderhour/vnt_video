@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "durationInFrames": 10799,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 493,
+   "lines": [
+    {
+     "text": "Pia climbs a staircase, flipping a coin before every move. Will she land on step five?",
+     "caption": "Pia climbs a staircase, flipping a coin before every move. Will she land on step five?",
+     "file": "2026-10-31-coin-staircase/audio/ed1f0977a6da8f4c.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "Sometimes she does. Sometimes she jumps right over it!",
+     "caption": "Sometimes she does. Sometimes she jumps right over it!",
+     "file": "2026-10-31-coin-staircase/audio/fb8b069b43941ce5.wav",
+     "from": 225,
+     "frames": 114
+    },
+    {
+     "text": "Hello, I'm Vantee! Let's work out the chance.",
+     "caption": "Hello, I'm Vantee! Let's work out the chance.",
+     "file": "2026-10-31-coin-staircase/audio/04df5f5c1fdd697c.wav",
+     "from": 350,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 493,
+   "frames": 722,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-10-31-coin-staircase/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "Pia climbs a long staircase. Before each move, she flips a fair coin.",
+     "caption": "Pia climbs a long staircase. Before each move, she flips a fair coin.",
+     "file": "2026-10-31-coin-staircase/audio/11d5f123dc48ca97.wav",
+     "from": 61,
+     "frames": 167
+    },
+    {
+     "text": "On heads, she goes up one step.",
+     "caption": "On heads, she goes up one step.",
+     "file": "2026-10-31-coin-staircase/audio/933c93e087a368fc.wav",
+     "from": 238,
+     "frames": 87
+    },
+    {
+     "text": "On tails, she goes up two steps.",
+     "caption": "On tails, she goes up two steps.",
+     "file": "2026-10-31-coin-staircase/audio/0d91e644d25e5978.wav",
+     "from": 335,
+     "frames": 86
+    },
+    {
+     "text": "What is the probability that she stands on step five?",
+     "caption": "What is the probability that she stands on step five?",
+     "file": "2026-10-31-coin-staircase/audio/817f29c42786e2aa.wav",
+     "from": 431,
+     "frames": 119
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-10-31-coin-staircase/audio/b97a89671840f7ca.wav",
+     "from": 560,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1215,
+   "frames": 593,
+   "lines": [
+    {
+     "text": "So what do we know? Pia starts on the ground, below step one.",
+     "caption": "So what do we know? Pia starts on the ground, below step one.",
+     "file": "2026-10-31-coin-staircase/audio/ade0ba19fc687ac9.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "Each flip is a fair coin: heads, one step, or tails, two steps.",
+     "caption": "Each flip is a fair coin: heads, one step, or tails, two steps.",
+     "file": "2026-10-31-coin-staircase/audio/f4ba50f732afc760.wav",
+     "from": 167,
+     "frames": 183
+    },
+    {
+     "text": "We want the chance that she actually stands on step five at some point, instead of jumping over it.",
+     "caption": "We want the chance that she actually stands on step five at some point, instead of jumping over it.",
+     "file": "2026-10-31-coin-staircase/audio/3e4563c5e947a354.wav",
+     "from": 360,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1808,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-10-31-coin-staircase/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": "Solution 1: make a list",
+   "from": 2268,
+   "frames": 1315,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: make a list of every way to reach step five.",
+     "caption": "Welcome back! Here's the strategy: make a list of every way to reach step five.",
+     "file": "2026-10-31-coin-staircase/audio/1d0bd9b0ce40cb0e.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "All ones: one, one, one, one, one.",
+     "caption": "All ones: one, one, one, one, one.",
+     "file": "2026-10-31-coin-staircase/audio/8d237453e85f031a.wav",
+     "from": 197,
+     "frames": 226
+    },
+    {
+     "text": "That's five flips, so the chance is one over two, five times. One over thirty-two.",
+     "caption": "That's five flips, so the chance is one over two, five times. One over thirty-two.",
+     "file": "2026-10-31-coin-staircase/audio/7c26bca41187fdf8.wav",
+     "from": 434,
+     "frames": 257
+    },
+    {
+     "text": "One two and three ones. The two can go in four places, and each takes four flips.",
+     "caption": "One two and three ones. The two can go in four places, and each takes four flips.",
+     "file": "2026-10-31-coin-staircase/audio/6ef904fcf9ebe182.wav",
+     "from": 701,
+     "frames": 201
+    },
+    {
+     "text": "Each one is one over sixteen.",
+     "caption": "Each one is one over sixteen.",
+     "file": "2026-10-31-coin-staircase/audio/ba8ec2df975e819f.wav",
+     "from": 912,
+     "frames": 94
+    },
+    {
+     "text": "Two twos and one one. The one can go in three places, three flips each. Each one is one over eight.",
+     "caption": "Two twos and one one. The one can go in three places, three flips each. Each one is one over eight.",
+     "file": "2026-10-31-coin-staircase/audio/a213513bdea4ef5e.wav",
+     "from": 1016,
+     "frames": 245
+    }
+   ]
+  },
+  {
+   "id": "list2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3583,
+   "frames": 860,
+   "lines": [
+    {
+     "text": "Now add them up: one over thirty-two, plus four times one over sixteen, plus three times one over eight.",
+     "caption": "Now add them up: one over thirty-two, plus four times one over sixteen, plus three times one over eight.",
+     "file": "2026-10-31-coin-staircase/audio/c2d26ade62dd7a5f.wav",
+     "from": 0,
+     "frames": 260
+    },
+    {
+     "text": "Over thirty-two, that's one, plus eight, plus twelve.",
+     "caption": "Over thirty-two, that's one, plus eight, plus twelve.",
+     "file": "2026-10-31-coin-staircase/audio/b74b70aca4df9595.wav",
+     "from": 269,
+     "frames": 152
+    },
+    {
+     "text": "One plus eight plus twelve is twenty-one. So the chance is twenty-one over thirty-two.",
+     "caption": "One plus eight plus twelve is twenty-one. So the chance is twenty-one over thirty-two.",
+     "file": "2026-10-31-coin-staircase/audio/39686c8df0e62b25.wav",
+     "from": 431,
+     "frames": 210
+    },
+    {
+     "text": "The answer is twenty-one over thirty-two. That's Choice D!",
+     "caption": "The answer is twenty-one over thirty-two. That's Choice D!",
+     "file": "2026-10-31-coin-staircase/audio/dec600cc90eb5c81.wav",
+     "from": 651,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "ladder",
+   "kind": "scene",
+   "chapter": "Solution 2: climb the ladder",
+   "from": 4443,
+   "frames": 1533,
+   "lines": [
+    {
+     "text": "Here's a faster way: work up the stairs, one step at a time.",
+     "caption": "Here's a faster way: work up the stairs, one step at a time.",
+     "file": "2026-10-31-coin-staircase/audio/6ad7b3dec116748e.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "To stand on a step, you come from one below with heads, or from two below with tails. Each move has a one over two chance.",
+     "caption": "To stand on a step, you come from one below with heads, or from two below with tails. Each move has a one over two chance.",
+     "file": "2026-10-31-coin-staircase/audio/9606d1f2d459a98d.wav",
+     "from": 154,
+     "frames": 298
+    },
+    {
+     "text": "So the chance is half of one step's chance, plus half of the other's. That's their average.",
+     "caption": "So the chance is half of one step's chance, plus half of the other's. That's their average.",
+     "file": "2026-10-31-coin-staircase/audio/f9c718fca5db7822.wav",
+     "from": 462,
+     "frames": 191
+    },
+    {
+     "text": "She's on the ground for sure, that's one. Step one needs heads first: one over two.",
+     "caption": "She's on the ground for sure, that's one. Step one needs heads first: one over two.",
+     "file": "2026-10-31-coin-staircase/audio/ab35e24118ceede7.wav",
+     "from": 664,
+     "frames": 189
+    },
+    {
+     "text": "Step two is the average of one over two and one. That's three over four.",
+     "caption": "Step two is the average of one over two and one. That's three over four.",
+     "file": "2026-10-31-coin-staircase/audio/20146b93b922ba9a.wav",
+     "from": 863,
+     "frames": 170
+    },
+    {
+     "text": "Step three: the average of three over four and one over two is five over eight.",
+     "caption": "Step three: the average of three over four and one over two is five over eight.",
+     "file": "2026-10-31-coin-staircase/audio/8b5c28846af4f7f9.wav",
+     "from": 1042,
+     "frames": 208
+    },
+    {
+     "text": "Step four: the average of five over eight and three over four is eleven over sixteen.",
+     "caption": "Step four: the average of five over eight and three over four is eleven over sixteen.",
+     "file": "2026-10-31-coin-staircase/audio/ffc4007cc84b598c.wav",
+     "from": 1260,
+     "frames": 219
+    }
+   ]
+  },
+  {
+   "id": "ladder2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5976,
+   "frames": 578,
+   "lines": [
+    {
+     "text": "Step five: five over eight is ten over sixteen.",
+     "caption": "Step five: five over eight is ten over sixteen.",
+     "file": "2026-10-31-coin-staircase/audio/53c8cdd6639ddaa0.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "The average of eleven over sixteen and ten over sixteen is twenty-one over thirty-two.",
+     "caption": "The average of eleven over sixteen and ten over sixteen is twenty-one over thirty-two.",
+     "file": "2026-10-31-coin-staircase/audio/b29ecbbc6459ed14.wav",
+     "from": 147,
+     "frames": 188
+    },
+    {
+     "text": "When would you pick this way? When the list gets long, this way never gets harder.",
+     "caption": "When would you pick this way? When the list gets long, this way never gets harder.",
+     "file": "2026-10-31-coin-staircase/audio/4aaea26210450617.wav",
+     "from": 345,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 6554,
+   "frames": 1651,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-10-31-coin-staircase/audio/f2bed65832085677.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "Choice A, one over two, feels like land or skip, half and half.",
+     "caption": "Choice A, one over two, feels like land or skip, half and half.",
+     "file": "2026-10-31-coin-staircase/audio/b84db0b313fa922d.wav",
+     "from": 131,
+     "frames": 176
+    },
+    {
+     "text": "But she only skips step five from step four with tails, so landing is more likely.",
+     "caption": "But she only skips step five from step four with tails, so landing is more likely.",
+     "file": "2026-10-31-coin-staircase/audio/0f1a8d431e5df1bc.wav",
+     "from": 316,
+     "frames": 186
+    },
+    {
+     "text": "Choice B, eight over thirteen, is sneaky.",
+     "caption": "Choice B, eight over thirteen, is sneaky.",
+     "file": "2026-10-31-coin-staircase/audio/885beaf9ba5314d5.wav",
+     "from": 513,
+     "frames": 118
+    },
+    {
+     "text": "Eight climbs land on step five, and five climbs jump from four to six.",
+     "caption": "Eight climbs land on step five, and five climbs jump from four to six.",
+     "file": "2026-10-31-coin-staircase/audio/2b47003719b12770.wav",
+     "from": 641,
+     "frames": 183
+    },
+    {
+     "text": "That's thirteen climbs. But they aren't equally likely! A short climb with fewer flips is more likely.",
+     "caption": "That's thirteen climbs. But they aren't equally likely! A short climb with fewer flips is more likely.",
+     "file": "2026-10-31-coin-staircase/audio/17e89b6092d1571d.wav",
+     "from": 834,
+     "frames": 219
+    },
+    {
+     "text": "Choices C and E, five over eight and eleven over sixteen, are the chances for steps three and four.",
+     "caption": "Choices C and E, five over eight and eleven over sixteen, are the chances for steps three and four.",
+     "file": "2026-10-31-coin-staircase/audio/8a31fd8ebc5dd7aa.wav",
+     "from": 1063,
+     "frames": 212
+    },
+    {
+     "text": "Both stopped too early!",
+     "caption": "Both stopped too early!",
+     "file": "2026-10-31-coin-staircase/audio/10e0ccba1904e412.wav",
+     "from": 1284,
+     "frames": 74
+    },
+    {
+     "text": "So here's a great habit. With random steps, build each spot's chance from the spots before it.",
+     "caption": "So here's a great habit. With random steps, build each spot's chance from the spots before it.",
+     "file": "2026-10-31-coin-staircase/audio/9017cc39398b54d3.wav",
+     "from": 1368,
+     "frames": 224
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: step six",
+   "from": 8205,
+   "frames": 280,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same staircase, same coin.",
+     "caption": "Ready for a challenge? Same staircase, same coin.",
+     "file": "2026-10-31-coin-staircase/audio/7f00bfa681fd83d2.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "What's the probability that she stands on step six?",
+     "caption": "What's the probability that she stands on step six?",
+     "file": "2026-10-31-coin-staircase/audio/e141e83d8e829ac0.wav",
+     "from": 128,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8485,
+   "frames": 463,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-10-31-coin-staircase/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 80
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Step six: the answer",
+   "from": 8948,
+   "frames": 1210,
+   "lines": [
+    {
+     "text": "Let's climb one more step on our ladder. We know steps four and five.",
+     "caption": "Let's climb one more step on our ladder. We know steps four and five.",
+     "file": "2026-10-31-coin-staircase/audio/1c9cf5bfe4664f5f.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "Eleven over sixteen is twenty-two over thirty-two.",
+     "caption": "Eleven over sixteen is twenty-two over thirty-two.",
+     "file": "2026-10-31-coin-staircase/audio/4b0bc0a3ebdcf3f5.wav",
+     "from": 179,
+     "frames": 128
+    },
+    {
+     "text": "The average of that and twenty-one over thirty-two is forty-three over sixty-four!",
+     "caption": "The average of that and twenty-one over thirty-two is forty-three over sixty-four!",
+     "file": "2026-10-31-coin-staircase/audio/556c6d6ad8ebeffc.wav",
+     "from": 317,
+     "frames": 173
+    },
+    {
+     "text": "Check with a trick. She misses step six only if she's on step five and flips tails.",
+     "caption": "Check with a trick. She misses step six only if she's on step five and flips tails.",
+     "file": "2026-10-31-coin-staircase/audio/fe9ebcaf47d55392.wav",
+     "from": 500,
+     "frames": 192
+    },
+    {
+     "text": "That's twenty-one over sixty-four.",
+     "caption": "That's twenty-one over sixty-four.",
+     "file": "2026-10-31-coin-staircase/audio/0ae8bc0c2a6b2f6d.wav",
+     "from": 702,
+     "frames": 77
+    },
+    {
+     "text": "One minus twenty-one over sixty-four is forty-three over sixty-four. It matches!",
+     "caption": "One minus twenty-one over sixty-four is forty-three over sixty-four. It matches!",
+     "file": "2026-10-31-coin-staircase/audio/92766512c22e06e9.wav",
+     "from": 790,
+     "frames": 192
+    },
+    {
+     "text": "If you got forty-three over sixty-four, amazing work!",
+     "caption": "If you got forty-three over sixty-four, amazing work!",
+     "file": "2026-10-31-coin-staircase/audio/f2077800ee5caddd.wav",
+     "from": 992,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 10158,
+   "frames": 641,
+   "lines": [
+    {
+     "text": "Here's the big idea to remember.",
+     "caption": "Here's the big idea to remember.",
+     "file": "2026-10-31-coin-staircase/audio/63dfe2981d457b0b.wav",
+     "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "With random steps, the chance of landing on a spot comes from the spots that lead to it.",
+     "caption": "With random steps, the chance of landing on a spot comes from the spots that lead to it.",
+     "file": "2026-10-31-coin-staircase/audio/8a1fa475a803940b.wav",
+     "from": 91,
+     "frames": 166
+    },
+    {
+     "text": "Build the chances up one step at a time, then read off the step you need.",
+     "caption": "Build the chances up one step at a time, then read off the step you need.",
+     "file": "2026-10-31-coin-staircase/audio/7b4305b797e735ed.wav",
+     "from": 267,
+     "frames": 160
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-10-31-coin-staircase/audio/31a6054d0b03b932.wav",
+     "from": 437,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}
