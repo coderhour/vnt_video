@@ -1,0 +1,29 @@
+{
+ "title": "Perimeter 24 Triangles (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Three whole-number sides that add up to twenty-four.",
+   "How many different triangles? Most kids miss one or two!"
+  ]},
+  {"id": "question", "lines": [
+   "How many different triangles have whole-number sides and a perimeter of twenty-four?",
+   "The same three sides count only once."
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "list", "lines": [
+   "Here's the trick. The longest side must be under twelve. That's half the perimeter.",
+   "And at least eight, or the sides can't add up to twenty-four.",
+   "So list the triangles by their longest side. Eleven, ten, nine, and eight."
+  ]},
+  {"id": "reveal", "lines": [
+   "Five, plus four, plus two, plus one. That's twelve triangles, choice C!",
+   "Missing one or two is the classic slip. Listing by the longest side keeps you safe!"
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why under half? The full lesson shows two ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

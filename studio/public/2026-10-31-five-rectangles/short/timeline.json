@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1667,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 201,
+   "lines": [
+    {
+     "text": "Five rectangles, perimeter sixty-six, no side lengths!",
+     "caption": "Five rectangles, perimeter sixty-six, no side lengths!",
+     "file": "2026-10-31-five-rectangles/short/audio/a92eb4e91617f2c7.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Find the area of one?",
+     "caption": "Find the area of one?",
+     "file": "2026-10-31-five-rectangles/short/audio/3746c05ca8f6b5f0.wav",
+     "from": 134,
+     "frames": 44
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 201,
+   "frames": 296,
+   "lines": [
+    {
+     "text": "Five identical rectangles make one big rectangle.",
+     "caption": "Five identical rectangles make one big rectangle.",
+     "file": "2026-10-31-five-rectangles/short/audio/e4dd0ecb3f568151.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "Its perimeter is sixty-six. What's the area of one small rectangle?",
+     "caption": "Its perimeter is sixty-six. What's the area of one small rectangle?",
+     "file": "2026-10-31-five-rectangles/short/audio/40d89e56d893600f.wav",
+     "from": 121,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 497,
+   "frames": 156,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-five-rectangles/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 42
+    }
+   ]
+  },
+  {
+   "id": "blocks",
+   "kind": "scene",
+   "chapter": null,
+   "from": 653,
+   "frames": 518,
+   "lines": [
+    {
+     "text": "Look! Two long sides on top match three short sides below.",
+     "caption": "Look! Two long sides on top match three short sides below.",
+     "file": "2026-10-31-five-rectangles/short/audio/693ef423ef4d2a05.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Say short is two blocks, long is three. Both rows are six blocks wide!",
+     "caption": "Say short is two blocks, long is three. Both rows are six blocks wide!",
+     "file": "2026-10-31-five-rectangles/short/audio/2ab2fb3c1fa2bf54.wav",
+     "from": 134,
+     "frames": 168
+    },
+    {
+     "text": "Around is twenty-two blocks. Sixty-six over twenty-two: one block is three!",
+     "caption": "Around is twenty-two blocks. Sixty-six over twenty-two: one block is three!",
+     "file": "2026-10-31-five-rectangles/short/audio/0a524ed2a9285566.wav",
+     "from": 312,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1171,
+   "frames": 263,
+   "lines": [
+    {
+     "text": "Short is six, long is nine. The area is fifty-four!",
+     "caption": "Short is six, long is nine. The area is fifty-four!",
+     "file": "2026-10-31-five-rectangles/short/audio/3ffbfee2b7048f87.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "No side lengths needed!",
+     "caption": "No side lengths needed!",
+     "file": "2026-10-31-five-rectangles/short/audio/46f29ceeae5c424d.wav",
+     "from": 166,
+     "frames": 58
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1434,
+   "frames": 233,
+   "lines": [
+    {
+     "text": "The full lesson shows two ways, plus every trap.",
+     "caption": "The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-31-five-rectangles/short/audio/e45b2dc36cb38db5.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-five-rectangles/short/audio/82b8b7e1a12a7449.wav",
+     "from": 110,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

@@ -6,11 +6,12 @@ import { Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Check, Confetti, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-equilateral-angle-chase';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry: bank SVG coordinates (viewBox 291x260, y down) scaled to pixels ----------
 type G = { A: Pt; B: Pt; C: Pt; D: Pt; E: Pt };
@@ -19,18 +20,18 @@ const OX = 120;
 const OY = 180;
 const P = (X: number, Y: number): Pt => [OX + (X - 30) * S, OY + (Y - 30) * S];
 const mkG = (dx: number, ex: number, ey: number): G => ({ A: P(145.5, 30), B: P(30, 230), C: P(260.9, 230), D: P(dx, 230), E: P(ex, ey) });
-const G1 = mkG(110.2, 247, 205.9); // BAD = 20
+export const G1 = mkG(110.2, 247, 205.9); // BAD = 20
 const G2 = mkG(166.5, 246, 204.2); // BAD = 36
 
-const GIVEN = C.primary;
-const DERIVED = C.violet;
-const ANSWER = C.green;
-const TRAP = C.red;
+export const GIVEN = C.primary;
+export const DERIVED = C.violet;
+export const ANSWER = C.green;
+export const TRAP = C.red;
 
 const add = (p: Pt, dx: number, dy: number): Pt => [p[0] + dx, p[1] + dy];
 const mid = (a: Pt, b: Pt): Pt => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={9}>
       {text}
@@ -85,7 +86,7 @@ const line = (a: Pt, b: Pt, progress: number, width: number, color = C.ink) => (
 );
 
 /** The figure: triangle ABC, AD, DE, optional ticks, shades, angle marks and highlights. */
-const Fig: React.FC<{ g: G; draw?: number; dots?: number; ticks?: number; shades?: Shade[]; angs?: Ang[]; hls?: Hl[]; letters?: number }> = ({
+export const Fig: React.FC<{ g: G; draw?: number; dots?: number; ticks?: number; shades?: Shade[]; angs?: Ang[]; hls?: Hl[]; letters?: number }> = ({
   g, draw = 1, dots = 1, ticks = 0, shades = [], angs = [], hls = [], letters = 1,
 }) => {
   const { A, B, C: Cc, D, E } = g;
@@ -118,19 +119,19 @@ const Fig: React.FC<{ g: G; draw?: number; dots?: number; ticks?: number; shades
 
 // ---------- named angles (positions tuned for the bank figure; reused for the variant) ----------
 const a = (g: G, v: keyof G, p: keyof G, q: keyof G, o: Partial<Ang> & { color: string; op: number }): Ang => ({ v: g[v], p: g[p], q: g[q], r: 120, ...o });
-const angBAD = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'A', 'B', 'D', { r: 170, lr: 240, ...o });
-const angDAE = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'A', 'D', 'E', { r: 190, lr: g === G2 ? 330 : 270, ...o });
-const angA60 = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'A', 'B', 'C', { r: 110, at: [25, 150], ...o });
-const angB60 = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'B', 'A', 'C', { r: 100, lr: 150, ...o });
+export const angBAD = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'A', 'B', 'D', { r: 170, lr: 240, ...o });
+export const angDAE = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'A', 'D', 'E', { r: 190, lr: g === G2 ? 330 : 270, ...o });
+export const angA60 = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'A', 'B', 'C', { r: 110, at: [25, 150], ...o });
+export const angB60 = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'B', 'A', 'C', { r: 100, lr: 150, ...o });
 const angC60 = (g: G, o: { color: string; op: number; label?: string; side?: boolean }): Ang => a(g, 'C', 'A', 'B', { r: 60, at: [120, -5], ...o });
-const angADE = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'D', 'A', 'E', { r: g === G2 ? 100 : 130, lr: g === G2 ? 130 : 175, ...o });
+export const angADE = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'D', 'A', 'E', { r: g === G2 ? 100 : 130, lr: g === G2 ? 130 : 175, ...o });
 const angAED = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'E', 'A', 'D', g === G2 ? { r: 75, at: [75, -95], leader: true, ...o } : { r: 70, lr: 125, ...o });
-const angADC = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'D', 'A', 'C', g === G2 ? { r: 160, at: [225, -215], leader: true, ...o } : { r: 245, at: [163, -233], ...o });
+export const angADC = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'D', 'A', 'C', g === G2 ? { r: 160, at: [225, -215], leader: true, ...o } : { r: 245, at: [163, -233], ...o });
 const angADB = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'D', 'A', 'B', { r: 100, at: [-78, -100], ...o });
 const angDEC = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'E', 'D', 'C', { r: 35, at: [-60, 100], leader: true, ...o });
-const angX = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'D', 'E', 'C', { r: 160, at: [215, 60], leader: true, ...o });
+export const angX = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'D', 'E', 'C', { r: 160, at: [215, 60], leader: true, ...o });
 
-const tri = (...p: Pt[]) => p;
+export const tri = (...p: Pt[]) => p;
 
 // ---------- layout helpers ----------
 const PANEL = 980;
@@ -688,10 +689,8 @@ const Recap: SceneComponent = ({ scene }) => {
         <span style={{ fontSize: 42, fontWeight: 800, color: C.muted, marginRight: 14 }}>Bonus:</span>
         <Tex tex={'x = \\dfrac{\\angle BAD}{2}'} size={46} />
       </Chip>
-      <div style={{ position: 'absolute', left: 1400, width: 480, top: 640, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <span style={{ fontFamily: PACIFICO, fontSize: 76, color: C.violet }}>Vantee</span>
-      </div>
-      <Confetti x={1420} y={760} start={at(scene, 3, 0.5)} seed={3} />
+      <SignOff start={at(scene, 3, 0.1)} text="Keep chasing those angles!" />
+      <Confetti x={960} y={380} start={at(scene, 3, 0.5)} seed={3} />
     </>
   );
 };

@@ -6,6 +6,7 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 import { interpolate } from 'remotion';
 
@@ -577,10 +578,7 @@ const Recap: SceneComponent = ({ scene }) => {
         {step(2, '2. divide by the digits per number', C.violet, 520)}
         {step(3, '3. the remainder picks the digit', C.red, 640)}
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 4, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep counting!</div>
-      </div>
+      <SignOff start={at(scene, 4, 0.1)} text="Keep counting!" />
       <Confetti x={960} y={380} start={at(scene, 4, 0.2)} seed={3} />
       {void range}
     </>

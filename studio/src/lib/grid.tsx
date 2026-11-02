@@ -1,3 +1,4 @@
+import { createContext, useContext } from 'react';
 import { useCurrentFrame, useVideoConfig } from 'remotion';
 import { pop, range } from './anim';
 import { NUNITO } from './fonts';
@@ -116,8 +117,14 @@ export const XMark: React.FC<{ at: Pt; size?: number; opacity: number }> = ({ at
     </g>
   );
 
-export const Stage: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <svg viewBox="0 0 1920 1080" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
-    {children}
-  </svg>
-);
+/** Stage size in px; the vertical short frame provides 1080×1920. */
+export const StageSize = createContext<[number, number]>([1920, 1080]);
+
+export const Stage: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [w, h] = useContext(StageSize);
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
+      {children}
+    </svg>
+  );
+};

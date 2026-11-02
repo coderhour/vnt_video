@@ -1,0 +1,161 @@
+{
+ "title": "Ant on a Prism: Which Corner Comes First? | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Prism (brief: figure). Line 1: an ant dot hops C->B->C->F along edges, one hop per ~0.6 s (dot to dot, no off-edge paths). Line 2: E glows green with a flag, A glows red; '?' between them. Line 3: Vantee title card.",
+   "lines": [
+    "An ant wanders a prism, one random edge a second. Finish line or trap: which corner comes first?",
+    "I'm Vantee, and today we're racing an ant to the finish line!"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text left, prism right. Line 2: bottom triangle ABC then top DEF draw on. Line 3: edges AD, BE, CF highlight. Line 4: ant at C; its 3 edges pulse. Line 5: E green, A red. Line 6: 5 value chips 1/3, 4/11, 5/11, 6/11, 7/11 (NO letters A-E: they clash with vertex names).",
+   "lines": [
+    "A triangular prism has a bottom triangle, A B C, and a top triangle, D E F.",
+    "Edges A D, B E and C F join each bottom corner to the one above it.",
+    "An ant starts at corner C. Each second, it crawls along one of the three edges at its corner.",
+    "All three edges are equally likely. What's the chance it reaches E before it ever reaches A?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "Line 1: E tag 'finish' (green), A tag 'trap' (red). Line 2: a sample walk C->F->D->A ends at A (red X), the ant stops. Line 3: goal card 'P(E before A), start C'.",
+   "lines": [
+    "Let's sort out the facts. E is the finish line, and A is the trap.",
+    "The walk ends at whichever one the ant reaches first. Sooner or later, it's sure to reach one.",
+    "So we want the chance that E comes first, starting from C."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; prism with green E / red A visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "rules",
+   "chapter": "Solution 1: a chance for every corner",
+   "hold": 1,
+   "visual": "Prism left, equation rows right. Line 2: chips c, b, d, f at C, B, D, F; '1' at E, '0' at A. Line 3: from B, three arrows each labelled 1/3. Line 4: rule card 'chance = average of the 3 neighbours'. Lines 5-8: highlight the vertex and its 3 neighbours, write its row.",
+   "lines": [
+    "Welcome back! Here's the strategy: give every corner its own chance of winning.",
+    "From C, call it c. Do the same for B, D and F. E counts as one, and A as zero.",
+    "Each neighbor is next with chance one third. So a corner's chance is the average of theirs.",
+    "B touches A, C and E. So b equals zero plus c plus one, all over three.",
+    "D touches A, E and F. So d equals zero plus one plus f, all over three.",
+    "C touches A, B and F. So c equals zero plus b plus f, all over three.",
+    "F touches C, D and E. So f equals c plus d plus one, all over three."
+   ]
+  },
+  {
+   "id": "solve",
+   "hold": 1,
+   "visual": "Rows build one per step (brief: solve). The c-row and f-row results get boxed; line 4 adds them; line 7 answer badge 4/11, chip 4/11 lights green, chime at END of line 7.",
+   "lines": [
+    "Start with the rule at C. Multiply by three: three c equals b plus f.",
+    "Swap in b, then multiply by three again. Nine c equals one plus c plus three f.",
+    "So eight c equals one plus three f.",
+    "The same steps at F, using d, give eight f equals four plus three c.",
+    "Now a neat trick: add them. Eight c plus eight f equals five plus three c plus three f.",
+    "Take away three c and three f: five c plus five f equals five. So c plus f equals one!",
+    "Then f is one minus c. So eight c equals one plus three minus three c, and eleven c equals four.",
+    "So c is four over eleven. That's our answer!"
+   ]
+  },
+  {
+   "id": "spin",
+   "chapter": "Solution 2: spin the prism",
+   "hold": 1,
+   "visual": "Line 1: 'c + f = 1' card from solve. Line 2: front face ABED tinted, A and E circled, diagonal A-E dashed. Line 3: skewer through face centre and CF midpoint; prism spins 180 deg about it (brief: spin), labels ride along. Line 4: pairs A<->E, B<->D, C<->F with swap arrows. Line 5: two mini-cards: 'start F, race to E' = 'start C, race to A'. Line 6: rows f = 1 - c, d = 1 - b.",
+   "lines": [
+    "Here's a faster way. That c plus f equals one was no accident.",
+    "Look at the front face, A B E D. A and E are opposite corners.",
+    "Push a skewer through the middle of that face, and spin the prism half a turn.",
+    "A and E swap places. So do B and D, and so do C and F. It's the same prism!",
+    "So an ant at F racing to E is just like an ant at C racing to A.",
+    "From C, A comes first with chance one minus c. So f equals one minus c, and d equals one minus b."
+   ]
+  },
+  {
+   "id": "spin-solve",
+   "hold": 1,
+   "visual": "Rows (brief: spin-solve). Line 4 answer badge 4/11 again (chime at end). Line 5: C's edges: one to red A, none to green E. Line 6: card 'Look for a spin that swaps win and loss'.",
+   "lines": [
+    "Now plug f equals one minus c into our rule from before: eight c equals one plus three f.",
+    "So eight c equals four minus three c. Eleven c equals four. Four over eleven again!",
+    "When would you pick this way? Whenever a spin swaps the win and the loss. Look for it first."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Value chips; each wrong one turns red with its working (brief: traps). Prism small at the side with the solved chances 0, 5/11, 4/11, 6/11, 1, 7/11 at A..F.",
+   "lines": [
+    "Now let's look at the wrong answers.",
+    "One third is what you'd get if you guessed b and f are one half each. They aren't.",
+    "Five over eleven is b, the chance from B. Right work, wrong corner.",
+    "Six over eleven is the chance from D, the letter d. Also the wrong starting corner.",
+    "Seven over eleven is one minus c, the chance that A comes FIRST. That's the race backwards."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a new finish line",
+   "hold": 0.5,
+   "visual": "Same prism. Ant at C. Line 2: E loses its green; F turns green 'finish'; A stays red 'trap'. Line 3: question card 'P(F before A), start C'.",
+   "lines": [
+    "Ready for a challenge? Same prism, and the ant starts at C again.",
+    "Now F is the finish line, and A is still the trap. What's the chance F comes first?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown; prism with green F, red A, ant at C.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "New finish line: the answer",
+   "hold": 1,
+   "visual": "Line 1: face ACFD tinted, A and F circled; skewer + 180 deg spin about its centre and the midpoint of BE (brief). Line 2: pairs A<->F, C<->D, B<->E; row e = 1 - b. Lines 3-6: rows (brief). Line 6 badge 5/11, chime at end.",
+   "lines": [
+    "Let's check. A and F are opposite corners of the face A C F D. Skewer it and spin.",
+    "A swaps with F, C with D, and B with E. So e equals one minus b.",
+    "At C: c equals zero plus b plus one, all over three.",
+    "At B: three b equals c plus one minus b, so four b equals c plus one.",
+    "From the C rule, b equals three c minus one. Swap it in: twelve c minus four equals c plus one.",
+    "So eleven c equals five, and c is five over eleven. If you got it, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card, two rows with a small prism: '1. chance = average of the neighbours' / '2. a spin swaps win and loss -> paired chances add to 1'.",
+   "lines": [
+    "Give every corner a chance. Each one is the average of its neighbors' chances.",
+    "Then look for a spin that swaps the win and the loss. Paired chances add up to one.",
+    "I'm Vantee. Happy exploring, and see you next time!"
+   ]
+  }
+ ]
+}

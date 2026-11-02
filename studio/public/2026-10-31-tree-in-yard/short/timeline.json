@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1700,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 274,
+   "lines": [
+    {
+     "text": "A tree stands on the edge of a yard, as far from corner A as from corner C.",
+     "caption": "A tree stands on the edge of a yard, as far from corner A as from corner C.",
+     "file": "2026-10-31-tree-in-yard/short/audio/f24c306e6b54d2a2.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "Where is it? Let's find it without measuring!",
+     "caption": "Where is it? Let's find it without measuring!",
+     "file": "2026-10-31-tree-in-yard/short/audio/3650ec850db42a66.wav",
+     "from": 158,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 274,
+   "frames": 213,
+   "lines": [
+    {
+     "text": "The yard is sixteen meters long and eight meters wide.",
+     "caption": "The yard is sixteen meters long and eight meters wide.",
+     "file": "2026-10-31-tree-in-yard/short/audio/72bdb9c1e9868bee.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "How far is the tree from corner A?",
+     "caption": "How far is the tree from corner A?",
+     "file": "2026-10-31-tree-in-yard/short/audio/36619c73c69f79a3.wav",
+     "from": 111,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 487,
+   "frames": 166,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-tree-in-yard/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "name",
+   "kind": "scene",
+   "chapter": null,
+   "from": 653,
+   "frames": 534,
+   "lines": [
+    {
+     "text": "Call that distance x. Then E C is also x, and E B is sixteen minus x.",
+     "caption": "Call that distance x. Then E C is also x, and E B is sixteen minus x.",
+     "file": "2026-10-31-tree-in-yard/short/audio/ee0c360262c8c3d2.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.",
+     "caption": "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.",
+     "file": "2026-10-31-tree-in-yard/short/audio/d6b42e7d40625704.wav",
+     "from": 190,
+     "frames": 167
+    },
+    {
+     "text": "The x squared parts cancel, leaving three hundred twenty equals thirty-two x.",
+     "caption": "The x squared parts cancel, leaving three hundred twenty equals thirty-two x.",
+     "file": "2026-10-31-tree-in-yard/short/audio/3e7f11c73116e0ef.wav",
+     "from": 368,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1187,
+   "frames": 262,
+   "lines": [
+    {
+     "text": "So x is ten meters!",
+     "caption": "So x is ten meters!",
+     "file": "2026-10-31-tree-in-yard/short/audio/57f9303cc86ffc3a.wav",
+     "from": 0,
+     "frames": 64
+    },
+    {
+     "text": "Check: E B is six, and six, eight, ten is a right triangle.",
+     "caption": "Check: E B is six, and six, eight, ten is a right triangle.",
+     "file": "2026-10-31-tree-in-yard/short/audio/32c7aa0a68ef0927.wav",
+     "from": 75,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1449,
+   "frames": 251,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-31-tree-in-yard/short/audio/5a466bf8b2983070.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-tree-in-yard/short/audio/82b8b7e1a12a7449.wav",
+     "from": 146,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

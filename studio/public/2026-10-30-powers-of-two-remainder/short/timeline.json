@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1745,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 331,
+   "lines": [
+    {
+     "text": "Add one, two, four, eight, and keep doubling. One hundred numbers!",
+     "caption": "Add one, two, four, eight, and keep doubling. One hundred numbers!",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/5d5cb8c1593f29cd.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "The total is thirty-one digits long! Yet we can find its remainder.",
+     "caption": "The total is thirty-one digits long! Yet we can find its remainder.",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/37b83a80fc203dfe.wav",
+     "from": 170,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 331,
+   "frames": 221,
+   "lines": [
+    {
+     "text": "The last number is two to the ninety-ninth.",
+     "caption": "The last number is two to the ninety-ninth.",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/b6f227ce6a00d2d5.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "What's the remainder when the sum is divided by seven?",
+     "caption": "What's the remainder when the sum is divided by seven?",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/e2eb3591a4487567.wav",
+     "from": 99,
+     "frames": 89
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 552,
+   "frames": 155,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 41
+    }
+   ]
+  },
+  {
+   "id": "cycle",
+   "kind": "scene",
+   "chapter": null,
+   "from": 707,
+   "frames": 527,
+   "lines": [
+    {
+     "text": "Here's the trick. Look at each number's remainder.",
+     "caption": "Here's the trick. Look at each number's remainder.",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/184d883a634064ad.wav",
+     "from": 0,
+     "frames": 95
+    },
+    {
+     "text": "One, two, four, then eight leaves one again. It's a cycle!",
+     "caption": "One, two, four, then eight leaves one again. It's a cycle!",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/57b512e414bf1430.wav",
+     "from": 105,
+     "frames": 131
+    },
+    {
+     "text": "One plus two plus four is seven. Each group leaves nothing.",
+     "caption": "One plus two plus four is seven. Each group leaves nothing.",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/d4659e538b3023b0.wav",
+     "from": 246,
+     "frames": 117
+    },
+    {
+     "text": "Ninety-nine terms make thirty-three groups. The last term leaves one.",
+     "caption": "Ninety-nine terms make thirty-three groups. The last term leaves one.",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/ad490a6a97038006.wav",
+     "from": 373,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1234,
+   "frames": 226,
+   "lines": [
+    {
+     "text": "So the remainder is one!",
+     "caption": "So the remainder is one!",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/167caffeaec906a6.wav",
+     "from": 0,
+     "frames": 69
+    },
+    {
+     "text": "A giant sum, tamed by a tiny pattern.",
+     "caption": "A giant sum, tamed by a tiny pattern.",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/cb78317d0f8c4ad6.wav",
+     "from": 79,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1460,
+   "frames": 285,
+   "lines": [
+    {
+     "text": "Why a cycle? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Why a cycle? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/7d193da8c536f2c5.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-powers-of-two-remainder/short/audio/82b8b7e1a12a7449.wav",
+     "from": 159,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

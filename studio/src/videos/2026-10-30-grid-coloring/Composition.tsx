@@ -6,17 +6,18 @@ import { Step as Arrow, Stage, XMark } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-grid-coloring';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const RED = '#ef4343';
-const BLUE = '#3b82f6';
-const GRN = '#21c45d';
-const EDGE = C.primary; // outline colour for "edge" squares
-const CORN = '#7b61ff'; // outline colour for "corner" squares
+export const RED = '#ef4343';
+export const BLUE = '#3b82f6';
+export const GRN = '#21c45d';
+export const EDGE = C.primary; // outline colour for "edge" squares
+export const CORN = '#7b61ff'; // outline colour for "corner" squares
 const COL: Record<string, string> = { B: BLUE, G: GRN, R: RED };
 
 // ---------- grids ----------
@@ -41,7 +42,7 @@ const stepAt = (f: number, steps?: Step[]) => {
 const ctr = (names: Names, n: string, ox = OX, oy = OY, s = S): [number, number] => [ox + names[n][1] * s + s / 2, oy + names[n][0] * s + s / 2];
 
 type Num = Record<string, number>;
-const Board: React.FC<{
+export const Board: React.FC<{
   ox?: number;
   oy?: number;
   s?: number;
@@ -88,7 +89,7 @@ const Board: React.FC<{
 };
 
 /** Coloured outline around chosen cells. */
-const Out: React.FC<{ names?: Names; cells: string[]; color: string; o: number | number[]; ox?: number; oy?: number; s?: number }> = ({ names = N3, cells, color, o, ox = OX, oy = OY, s = S }) => (
+export const Out: React.FC<{ names?: Names; cells: string[]; color: string; o: number | number[]; ox?: number; oy?: number; s?: number }> = ({ names = N3, cells, color, o, ox = OX, oy = OY, s = S }) => (
   <g fill="none" stroke={color} strokeWidth={11} strokeLinejoin="round">
     {cells.map((n, i) => {
       const op = Array.isArray(o) ? o[i] : o;
@@ -100,7 +101,7 @@ const Out: React.FC<{ names?: Names; cells: string[]; color: string; o: number |
 );
 
 const redCenter: Step[] = [[0, RED]];
-const centerLabel = (o = 1) => ({ C: { text: 'R', color: '#fff', o, size: 72 } });
+export const centerLabel = (o = 1) => ({ C: { text: 'R', color: '#fff', o, size: 72 } });
 
 // ---------- mini grids (pattern lists) ----------
 
@@ -178,7 +179,7 @@ const Eq: React.FC<{ x: number; y: number; tex: string; a: number; b?: number; s
 };
 
 /** Five answer choices (all ≥ 48 px). `mark` = frame at which D gets the green check. `wrong` = frame at which the wrong ones get red outlines per index. */
-const CHOICES = ['16', '32', '81', '82', '162'];
+export const CHOICES = ['16', '32', '81', '82', '162'];
 const Chips: React.FC<{ x: number; y: number; start: (i: number) => number; mark?: number; size?: number }> = ({ x, y, start, mark, size = 52 }) => {
   const f = useCurrentFrame();
   const m = mark === undefined ? 0 : ease(f, mark, 10);
@@ -795,8 +796,8 @@ const Recap: SceneComponent = ({ scene }) => {
       </Stage>
       <T x={PANEL} y={190} w={960} size={60} weight={900} color={C.violet} a={l(0, 0.1)}>The big idea</T>
       <RuleCard x={PANEL} y={310} a={l(2, 0.15)} b={l(3, 0.0)} />
-      <Vantee x={PANEL + 40} y={310} a={l(3, 0.1)} />
-      <Confetti x={1350} y={420} start={l(3, 0.25)} seed={3} />
+      <SignOff start={l(3, 0.1)} />
+      <Confetti x={960} y={380} start={l(3, 0.25)} seed={3} />
     </>
   );
 };

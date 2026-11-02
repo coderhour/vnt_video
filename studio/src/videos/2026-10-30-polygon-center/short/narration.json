@@ -1,0 +1,30 @@
+{
+ "title": "Does It Hold the Center? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Pick four corners of a thirteen-sided shape.",
+   "Does it hold the center dot? Sometimes yes, sometimes no!"
+  ]},
+  {"id": "question", "lines": [
+   "Choose any four of the thirteen corners.",
+   "For how many choices does the shape contain the center?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "misses", "lines": [
+   "Here's the trick. Count the misses instead!",
+   "If all four corners fit in one half, the shape misses the center.",
+   "Pick the first corner. The other three must be among the next six.",
+   "That's twenty ways. Thirteen first corners make two hundred sixty misses."
+  ]},
+  {"id": "reveal", "lines": [
+   "Seven hundred fifteen minus two hundred sixty misses is four hundred fifty-five!",
+   "Count the misses, then subtract."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why six? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

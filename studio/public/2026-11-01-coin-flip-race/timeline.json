@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 12687,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 656,
+   "lines": [
+    {
+     "text": "Bob flips seven coins, and his friend Ann flips five. Who gets more heads?",
+     "caption": "Bob flips seven coins, and his friend Ann flips five. Who gets more heads?",
+     "file": "2026-11-01-coin-flip-race/audio/45f0ea1de768aea8.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "Bob has two extra coins, so he should usually win. But how often, exactly?",
+     "caption": "Bob has two extra coins, so he should usually win. But how often, exactly?",
+     "file": "2026-11-01-coin-flip-race/audio/1a02638e5f8fe15e.wav",
+     "from": 192,
+     "frames": 208
+    },
+    {
+     "text": "Hi, I'm Vantee! Today, one little flip turns a race into a single count.",
+     "caption": "Hi, I'm Vantee! Today, one little flip turns a race into a single count.",
+     "file": "2026-11-01-coin-flip-race/audio/3e39b8b65d2d856a.wav",
+     "from": 410,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 656,
+   "frames": 536,
+   "lines": [
+    {
+     "text": "Here's the question. Our friend Ann flips five fair coins, and Bob flips seven fair coins.",
+     "caption": "Here's the question. Our friend Ann flips five fair coins, and Bob flips seven fair coins.",
+     "file": "2026-11-01-coin-flip-race/audio/3aee305305965c51.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "What is the probability that Bob gets more heads than Ann?",
+     "caption": "What is the probability that Bob gets more heads than Ann?",
+     "file": "2026-11-01-coin-flip-race/audio/fca8cdd29517a809.wav",
+     "from": 226,
+     "frames": 144
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-01-coin-flip-race/audio/b97a89671840f7ca.wav",
+     "from": 380,
+     "frames": 87
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1192,
+   "frames": 617,
+   "lines": [
+    {
+     "text": "So what do we know? Every coin is fair: heads and tails are equally likely.",
+     "caption": "So what do we know? Every coin is fair: heads and tails are equally likely.",
+     "file": "2026-11-01-coin-flip-race/audio/621659a3ae0b49cf.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "We want Bob's heads to be MORE than Ann's heads. A tie does not count.",
+     "caption": "We want Bob's heads to be MORE than Ann's heads. A tie does not count.",
+     "file": "2026-11-01-coin-flip-race/audio/1f9980f1169e49ff.wav",
+     "from": 192,
+     "frames": 170
+    },
+    {
+     "text": "Comparing two piles of coins is tricky. Let's see if we can turn it into ONE count.",
+     "caption": "Comparing two piles of coins is tricky. Let's see if we can turn it into ONE count.",
+     "file": "2026-11-01-coin-flip-race/audio/27864e1a351ed165.wav",
+     "from": 372,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1809,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-coin-flip-race/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "sol1-flip",
+   "kind": "scene",
+   "chapter": "Solution 1: flip Ann's coins",
+   "from": 2265,
+   "frames": 1280,
+   "lines": [
+    {
+     "text": "Welcome back!",
+     "caption": "Welcome back!",
+     "file": "2026-11-01-coin-flip-race/audio/45c4a7933fe6a0c7.wav",
+     "from": 0,
+     "frames": 45
+    },
+    {
+     "text": "Look at Ann's coins. Her heads are five minus her tails, like three heads and two tails.",
+     "caption": "Look at Ann's coins. Her heads are five minus her tails, like three heads and two tails.",
+     "file": "2026-11-01-coin-flip-race/audio/2820c8922f5e1cbd.wav",
+     "from": 55,
+     "frames": 203
+    },
+    {
+     "text": "So Bob wins when his heads beat five minus Ann's tails.",
+     "caption": "So Bob wins when his heads beat five minus Ann's tails.",
+     "file": "2026-11-01-coin-flip-race/audio/a35902fab32061c6.wav",
+     "from": 268,
+     "frames": 170
+    },
+    {
+     "text": "Move Ann's tails across: Bob's heads plus Ann's tails is more than five, so at least six.",
+     "caption": "Move Ann's tails across: Bob's heads plus Ann's tails is more than five, so at least six.",
+     "file": "2026-11-01-coin-flip-race/audio/0ec73a086c186342.wav",
+     "from": 448,
+     "frames": 226
+    },
+    {
+     "text": "Now flip all of Ann's coins over. Her tails turn into heads.",
+     "caption": "Now flip all of Ann's coins over. Her tails turn into heads.",
+     "file": "2026-11-01-coin-flip-race/audio/5abc0b32f6c75638.wav",
+     "from": 684,
+     "frames": 153
+    },
+    {
+     "text": "Flipped fair coins are still fair coins, so every chance stays the same.",
+     "caption": "Flipped fair coins are still fair coins, so every chance stays the same.",
+     "file": "2026-11-01-coin-flip-race/audio/3d33cb9deaa2fb30.wav",
+     "from": 847,
+     "frames": 188
+    },
+    {
+     "text": "So Bob wins exactly when twelve fair coins show at least six heads.",
+     "caption": "So Bob wins exactly when twelve fair coins show at least six heads.",
+     "file": "2026-11-01-coin-flip-race/audio/4b14db5d997d183e.wav",
+     "from": 1045,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "sol1-piles",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3545,
+   "frames": 1925,
+   "lines": [
+    {
+     "text": "Twelve coins can land two to the twelfth ways. That's four thousand ninety-six.",
+     "caption": "Twelve coins can land two to the twelfth ways. That's four thousand ninety-six.",
+     "file": "2026-11-01-coin-flip-race/audio/e3b753c5876819f4.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "Sort them into three piles: fewer than six heads, exactly six, and more than six.",
+     "caption": "Sort them into three piles: fewer than six heads, exactly six, and more than six.",
+     "file": "2026-11-01-coin-flip-race/audio/f5088e337f487ebf.wav",
+     "from": 184,
+     "frames": 204
+    },
+    {
+     "text": "The outer piles are mirror images. Swap every head and tail, and one turns into the other.",
+     "caption": "The outer piles are mirror images. Swap every head and tail, and one turns into the other.",
+     "file": "2026-11-01-coin-flip-race/audio/3ae61f40d335dd6d.wav",
+     "from": 399,
+     "frames": 194
+    },
+    {
+     "text": "The middle pile is twelve choose six: pick which six coins show heads.",
+     "caption": "The middle pile is twelve choose six: pick which six coins show heads.",
+     "file": "2026-11-01-coin-flip-race/audio/e9c9918472406173.wav",
+     "from": 603,
+     "frames": 185
+    },
+    {
+     "text": "Multiply twelve down to seven, then divide by six down to one. That's nine hundred twenty-four.",
+     "caption": "Multiply twelve down to seven, then divide by six down to one. That's nine hundred twenty-four.",
+     "file": "2026-11-01-coin-flip-race/audio/aaef1947f9b6d943.wav",
+     "from": 798,
+     "frames": 266
+    },
+    {
+     "text": "Four thousand ninety-six minus nine hundred twenty-four is three thousand one hundred seventy-two.",
+     "caption": "Four thousand ninety-six minus nine hundred twenty-four is three thousand one hundred seventy-two.",
+     "file": "2026-11-01-coin-flip-race/audio/5afefdb709ced1fa.wav",
+     "from": 1074,
+     "frames": 215
+    },
+    {
+     "text": "The two outer piles share that evenly: one thousand five hundred eighty-six each.",
+     "caption": "The two outer piles share that evenly: one thousand five hundred eighty-six each.",
+     "file": "2026-11-01-coin-flip-race/audio/2d6cda716b99fac1.wav",
+     "from": 1299,
+     "frames": 184
+    },
+    {
+     "text": "At least six heads means the middle pile plus the top pile.",
+     "caption": "At least six heads means the middle pile plus the top pile.",
+     "file": "2026-11-01-coin-flip-race/audio/f9e495b5988326d5.wav",
+     "from": 1493,
+     "frames": 136
+    },
+    {
+     "text": "Nine hundred twenty-four plus one thousand five hundred eighty-six is two thousand five hundred ten.",
+     "caption": "Nine hundred twenty-four plus one thousand five hundred eighty-six is two thousand five hundred ten.",
+     "file": "2026-11-01-coin-flip-race/audio/a0e242d677657b05.wav",
+     "from": 1639,
+     "frames": 232
+    }
+   ]
+  },
+  {
+   "id": "sol1-answer",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5470,
+   "frames": 507,
+   "lines": [
+    {
+     "text": "So the chance is two thousand five hundred ten over four thousand ninety-six.",
+     "caption": "So the chance is two thousand five hundred ten over four thousand ninety-six.",
+     "file": "2026-11-01-coin-flip-race/audio/35e4a730a72ccf4a.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "Divide both by two: one thousand two hundred fifty-five over two thousand forty-eight. That's Choice D!",
+     "caption": "Divide both by two: one thousand two hundred fifty-five over two thousand forty-eight. That's Choice D!",
+     "file": "2026-11-01-coin-flip-race/audio/850efa7f9353a686.wav",
+     "from": 200,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: fair game plus a tiebreak",
+   "from": 5977,
+   "frames": 2317,
+   "lines": [
+    {
+     "text": "Here's another way. Hide one of Bob's coins for now: six coins against five.",
+     "caption": "Here's another way. Hide one of Bob's coins for now: six coins against five.",
+     "file": "2026-11-01-coin-flip-race/audio/9e35ca6eb5dc0e7d.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "Now Bob has more heads than Ann, or more tails than Ann. Exactly one of the two!",
+     "caption": "Now Bob has more heads than Ann, or more tails than Ann. Exactly one of the two!",
+     "file": "2026-11-01-coin-flip-race/audio/5f38e8e7c6a5adaf.wav",
+     "from": 193,
+     "frames": 186
+    },
+    {
+     "text": "More of neither, and he'd have five coins at most. More of both, and he'd need seven.",
+     "caption": "More of neither, and he'd have five coins at most. More of both, and he'd need seven.",
+     "file": "2026-11-01-coin-flip-race/audio/9125a5f5e2cb0d87.wav",
+     "from": 390,
+     "frames": 192
+    },
+    {
+     "text": "Heads and tails are equally likely, so Bob wins this six-coin game exactly half the time.",
+     "caption": "Heads and tails are equally likely, so Bob wins this six-coin game exactly half the time.",
+     "file": "2026-11-01-coin-flip-race/audio/10f3146197f5411a.wav",
+     "from": 592,
+     "frames": 203
+    },
+    {
+     "text": "Now bring back coin seven. It only matters when Bob's six coins tie with Ann.",
+     "caption": "Now bring back coin seven. It only matters when Bob's six coins tie with Ann.",
+     "file": "2026-11-01-coin-flip-race/audio/a031c4d6c335953c.wav",
+     "from": 806,
+     "frames": 188
+    },
+    {
+     "text": "To find a tie, flip Ann's coins again. A tie means exactly five heads among eleven coins.",
+     "caption": "To find a tie, flip Ann's coins again. A tie means exactly five heads among eleven coins.",
+     "file": "2026-11-01-coin-flip-race/audio/904d67e19a7e6f7a.wav",
+     "from": 1003,
+     "frames": 218
+    },
+    {
+     "text": "Eleven choose five is four hundred sixty-two, out of two to the eleventh, two thousand forty-eight.",
+     "caption": "Eleven choose five is four hundred sixty-two, out of two to the eleventh, two thousand forty-eight.",
+     "file": "2026-11-01-coin-flip-race/audio/f54273e584f77975.wav",
+     "from": 1231,
+     "frames": 230
+    },
+    {
+     "text": "Coin seven lands heads on half of those ties: two hundred thirty-one more wins.",
+     "caption": "Coin seven lands heads on half of those ties: two hundred thirty-one more wins.",
+     "file": "2026-11-01-coin-flip-race/audio/9050f2d959905f8f.wav",
+     "from": 1471,
+     "frames": 192
+    },
+    {
+     "text": "One half is one thousand twenty-four over two thousand forty-eight. Add two hundred thirty-one.",
+     "caption": "One half is one thousand twenty-four over two thousand forty-eight. Add two hundred thirty-one.",
+     "file": "2026-11-01-coin-flip-race/audio/968918831992a3d9.wav",
+     "from": 1673,
+     "frames": 196
+    },
+    {
+     "text": "One thousand two hundred fifty-five over two thousand forty-eight. Same answer!",
+     "caption": "One thousand two hundred fifty-five over two thousand forty-eight. Same answer!",
+     "file": "2026-11-01-coin-flip-race/audio/bd8e4b0de722eab3.wav",
+     "from": 1879,
+     "frames": 180
+    },
+    {
+     "text": "When would you pick this way? With just one extra coin, it gives one half right away.",
+     "caption": "When would you pick this way? With just one extra coin, it gives one half right away.",
+     "file": "2026-11-01-coin-flip-race/audio/8699aa1792b22a79.wav",
+     "from": 2070,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8294,
+   "frames": 1745,
+   "lines": [
+    {
+     "text": "Now the traps! First, let's write all five choices over two thousand forty-eight.",
+     "caption": "Now the traps! First, let's write all five choices over two thousand forty-eight.",
+     "file": "2026-11-01-coin-flip-race/audio/3c813baf420c1a40.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "Choice A is the top pile alone. That's what you'd get if exactly six heads didn't count.",
+     "caption": "Choice A is the top pile alone. That's what you'd get if exactly six heads didn't count.",
+     "file": "2026-11-01-coin-flip-race/audio/19b3d4c92b1e6f17.wav",
+     "from": 184,
+     "frames": 196
+    },
+    {
+     "text": "Choice B, one half, is right for six coins against five. Bob's seventh coin adds the tiebreak wins.",
+     "caption": "Choice B, one half, is right for six coins against five. Bob's seventh coin adds the tiebreak wins.",
+     "file": "2026-11-01-coin-flip-race/audio/0614a15e9103e9d8.wav",
+     "from": 390,
+     "frames": 239
+    },
+    {
+     "text": "Choice E adds the pile with exactly five heads. That's what you'd get if a tie counted as a win.",
+     "caption": "Choice E adds the pile with exactly five heads. That's what you'd get if a tie counted as a win.",
+     "file": "2026-11-01-coin-flip-race/audio/d53226a71575afe6.wav",
+     "from": 639,
+     "frames": 218
+    },
+    {
+     "text": "Choice C, five hundred seventy-five over one thousand twenty-four, is sneakier.",
+     "caption": "Choice C, five hundred seventy-five over one thousand twenty-four, is sneakier.",
+     "file": "2026-11-01-coin-flip-race/audio/186bb7102eafe9df.wav",
+     "from": 867,
+     "frames": 168
+    },
+    {
+     "text": "That's what you'd get if Bob's first five coins raced Ann's, and his two spares only broke ties.",
+     "caption": "That's what you'd get if Bob's first five coins raced Ann's, and his two spares only broke ties.",
+     "file": "2026-11-01-coin-flip-race/audio/51e5b0e0916af531.wav",
+     "from": 1046,
+     "frames": 227
+    },
+    {
+     "text": "But Bob can also come back from one behind, when both spares land heads!",
+     "caption": "But Bob can also come back from one behind, when both spares land heads!",
+     "file": "2026-11-01-coin-flip-race/audio/06b9dd45825042f4.wav",
+     "from": 1283,
+     "frames": 176
+    },
+    {
+     "text": "So here's a great habit: always ask if a tie counts. MORE than, or at least?",
+     "caption": "So here's a great habit: always ask if a tie counts. MORE than, or at least?",
+     "file": "2026-11-01-coin-flip-race/audio/32bb1e322cf32861.wav",
+     "from": 1469,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: three against five",
+   "from": 10039,
+   "frames": 417,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now our friend Ann flips three fair coins, and Bob flips five.",
+     "caption": "Ready for a challenge? Now our friend Ann flips three fair coins, and Bob flips five.",
+     "file": "2026-11-01-coin-flip-race/audio/6cb32af3c2a51c06.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "What is the probability that Bob gets more heads than Ann?",
+     "caption": "What is the probability that Bob gets more heads than Ann?",
+     "file": "2026-11-01-coin-flip-race/audio/fca8cdd29517a809.wav",
+     "from": 234,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10456,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-coin-flip-race/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Three against five: the answer",
+   "from": 10909,
+   "frames": 1170,
+   "lines": [
+    {
+     "text": "Let's check. Flip Ann's three coins over. Bob needs at least four heads among eight coins.",
+     "caption": "Let's check. Flip Ann's three coins over. Bob needs at least four heads among eight coins.",
+     "file": "2026-11-01-coin-flip-race/audio/314226da8dfca1bf.wav",
+     "from": 0,
+     "frames": 219
+    },
+    {
+     "text": "Eight coins land two to the eighth ways: two hundred fifty-six. Eight choose four is seventy.",
+     "caption": "Eight coins land two to the eighth ways: two hundred fifty-six. Eight choose four is seventy.",
+     "file": "2026-11-01-coin-flip-race/audio/b3c8d130ad19c3f1.wav",
+     "from": 229,
+     "frames": 238
+    },
+    {
+     "text": "The rest, two hundred fifty-six minus seventy, is one hundred eighty-six: ninety-three each.",
+     "caption": "The rest, two hundred fifty-six minus seventy, is one hundred eighty-six: ninety-three each.",
+     "file": "2026-11-01-coin-flip-race/audio/b926d07352a87593.wav",
+     "from": 477,
+     "frames": 216
+    },
+    {
+     "text": "At least four heads: seventy plus ninety-three is one hundred sixty-three.",
+     "caption": "At least four heads: seventy plus ninety-three is one hundred sixty-three.",
+     "file": "2026-11-01-coin-flip-race/audio/7c0ffee8b9763b62.wav",
+     "from": 703,
+     "frames": 179
+    },
+    {
+     "text": "The answer is one hundred sixty-three over two hundred fifty-six. If you got it, amazing work!",
+     "caption": "The answer is one hundred sixty-three over two hundred fifty-six. If you got it, amazing work!",
+     "file": "2026-11-01-coin-flip-race/audio/3fb880019c021475.wav",
+     "from": 893,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12079,
+   "frames": 608,
+   "lines": [
+    {
+     "text": "Flip one player's coins over. Fair coins stay fair, so the chances don't change.",
+     "caption": "Flip one player's coins over. Fair coins stay fair, so the chances don't change.",
+     "file": "2026-11-01-coin-flip-race/audio/95d5c5ce97eac51a.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "Then a race for more heads becomes one count, for one big pile of coins.",
+     "caption": "Then a race for more heads becomes one count, for one big pile of coins.",
+     "file": "2026-11-01-coin-flip-race/audio/15cdf7c7c28f341b.wav",
+     "from": 196,
+     "frames": 203
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-01-coin-flip-race/audio/31a6054d0b03b932.wav",
+     "from": 409,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

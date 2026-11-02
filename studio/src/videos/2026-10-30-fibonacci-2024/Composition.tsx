@@ -5,16 +5,17 @@ import { Countdown } from '../../lib/PauseCard';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-fibonacci-2024';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // x = first term (green), y = second term (violet). The same numbers as verify.py.
-const XC = C.primary;
-const YC = C.violet;
-const SEQ84 = [64, 20, 84, 104, 188, 292, 480, 772, 1252, 2024];
+export const XC = C.primary;
+export const YC = C.violet;
+export const SEQ84 = [64, 20, 84, 104, 188, 292, 480, 772, 1252, 2024];
 const SEQ71 = [30, 41, 71, 112, 183, 295, 478, 773, 1251, 2024];
 const SEQ89 = [77, 12, 89, 101, 190, 291, 481, 772, 1253, 2025];
 
@@ -123,7 +124,7 @@ const QText: React.FC<{ scene?: Scene; size?: number; tex?: number; marks?: bool
   );
 };
 
-const CHOICES = [50, 71, 84, 94, 105];
+export const CHOICES = [50, 71, 84, 94, 105];
 
 // ---------- scenes ----------
 
@@ -578,10 +579,7 @@ const Recap: SceneComponent = ({ scene }) => {
           One equation in whole numbers. Then find every start, and compare.
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, cue(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={cue(scene, 2, 0.1)} />
       <Confetti x={960} y={380} start={cue(scene, 2, 0.2)} seed={3} />
     </>
   );

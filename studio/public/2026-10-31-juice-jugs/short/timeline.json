@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1706,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 205,
+   "lines": [
+    {
+     "text": "Pour juice into water, stir, then pour some back.",
+     "caption": "Pour juice into water, stir, then pour some back.",
+     "file": "2026-10-31-juice-jugs/short/audio/3a96e86631f95eee.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "Most kids get the final mix wrong!",
+     "caption": "Most kids get the final mix wrong!",
+     "file": "2026-10-31-juice-jugs/short/audio/575b93dd62566dae.wav",
+     "from": 111,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 205,
+   "frames": 379,
+   "lines": [
+    {
+     "text": "Jug A holds ten liters of water. Jug B holds ten liters of sixty percent juice.",
+     "caption": "Jug A holds ten liters of water. Jug B holds ten liters of sixty percent juice.",
+     "file": "2026-10-31-juice-jugs/short/audio/e5ba9c6dcafed1a6.wav",
+     "from": 0,
+     "frames": 164
+    },
+    {
+     "text": "Pour five liters from B to A, stir, then pour five back. What percent of B is juice?",
+     "caption": "Pour five liters from B to A, stir, then pour five back. What percent of B is juice?",
+     "file": "2026-10-31-juice-jugs/short/audio/133d7a4ae157bfdc.wav",
+     "from": 174,
+     "frames": 173
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 584,
+   "frames": 168,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-juice-jugs/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 54
+    }
+   ]
+  },
+  {
+   "id": "pour",
+   "kind": "scene",
+   "chapter": null,
+   "from": 752,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "The trick: count liters of juice, not percents.",
+     "caption": "The trick: count liters of juice, not percents.",
+     "file": "2026-10-31-juice-jugs/short/audio/f8d66febe5d0216f.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "Jug B starts with six liters of juice. Half of B moves, so three liters of juice go over.",
+     "caption": "Jug B starts with six liters of juice. Half of B moves, so three liters of juice go over.",
+     "file": "2026-10-31-juice-jugs/short/audio/06b52bb51aa7ab8c.wav",
+     "from": 115,
+     "frames": 178
+    },
+    {
+     "text": "Pour back one third of jug A. One liter of juice goes back to B.",
+     "caption": "Pour back one third of jug A. One liter of juice goes back to B.",
+     "file": "2026-10-31-juice-jugs/short/audio/06cba84707e6daac.wav",
+     "from": 303,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1214,
+   "frames": 244,
+   "lines": [
+    {
+     "text": "Jug B ends with three plus one, four liters of juice, out of ten.",
+     "caption": "Jug B ends with three plus one, four liters of juice, out of ten.",
+     "file": "2026-10-31-juice-jugs/short/audio/ee0172e064e00d74.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "Forty percent! Not sixty.",
+     "caption": "Forty percent! Not sixty.",
+     "file": "2026-10-31-juice-jugs/short/audio/ed3c4045a7683aae.wav",
+     "from": 135,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1458,
+   "frames": 248,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson has two neat ways and every trap.",
+     "caption": "Want to see why? The full lesson has two neat ways and every trap.",
+     "file": "2026-10-31-juice-jugs/short/audio/189edcd4e99ec8dd.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-juice-jugs/short/audio/82b8b7e1a12a7449.wav",
+     "from": 145,
+     "frames": 56
+    }
+   ]
+  }
+ ]
+}

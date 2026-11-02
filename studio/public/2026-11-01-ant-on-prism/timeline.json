@@ -1,0 +1,487 @@
+{
+ "fps": 30,
+ "durationInFrames": 12538,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 469,
+   "lines": [
+    {
+     "text": "An ant wanders a prism, one random edge a second. Finish line or trap: which corner comes first?",
+     "caption": "An ant wanders a prism, one random edge a second. Finish line or trap: which corner comes first?",
+     "file": "2026-11-01-ant-on-prism/audio/528277cfb5a13d84.wav",
+     "from": 0,
+     "frames": 285
+    },
+    {
+     "text": "I'm Vantee, and today we're racing an ant to the finish line!",
+     "caption": "I'm Vantee, and today we're racing an ant to the finish line!",
+     "file": "2026-11-01-ant-on-prism/audio/bdd363bc796b0568.wav",
+     "from": 295,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 469,
+   "frames": 1085,
+   "lines": [
+    {
+     "text": "A triangular prism has a bottom triangle, A B C, and a top triangle, D E F.",
+     "caption": "A triangular prism has a bottom triangle, A B C, and a top triangle, D E F.",
+     "file": "2026-11-01-ant-on-prism/audio/276c35387758df6e.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "Edges A D, B E and C F join each bottom corner to the one above it.",
+     "caption": "Edges A D, B E and C F join each bottom corner to the one above it.",
+     "file": "2026-11-01-ant-on-prism/audio/28c01f09ef40f1d1.wav",
+     "from": 226,
+     "frames": 203
+    },
+    {
+     "text": "An ant starts at corner C. Each second, it crawls along one of the three edges at its corner.",
+     "caption": "An ant starts at corner C. Each second, it crawls along one of the three edges at its corner.",
+     "file": "2026-11-01-ant-on-prism/audio/1c7f89a8d3332e4d.wav",
+     "from": 439,
+     "frames": 220
+    },
+    {
+     "text": "All three edges are equally likely. What's the chance it reaches E before it ever reaches A?",
+     "caption": "All three edges are equally likely. What's the chance it reaches E before it ever reaches A?",
+     "file": "2026-11-01-ant-on-prism/audio/8ba5600ae974c520.wav",
+     "from": 669,
+     "frames": 234
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-01-ant-on-prism/audio/b97a89671840f7ca.wav",
+     "from": 914,
+     "frames": 102
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1554,
+   "frames": 627,
+   "lines": [
+    {
+     "text": "Let's sort out the facts. E is the finish line, and A is the trap.",
+     "caption": "Let's sort out the facts. E is the finish line, and A is the trap.",
+     "file": "2026-11-01-ant-on-prism/audio/855f6b9cebca6d29.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "The walk ends at whichever one the ant reaches first. Sooner or later, it's sure to reach one.",
+     "caption": "The walk ends at whichever one the ant reaches first. Sooner or later, it's sure to reach one.",
+     "file": "2026-11-01-ant-on-prism/audio/01f6a97f8a73f9f7.wav",
+     "from": 199,
+     "frames": 210
+    },
+    {
+     "text": "So we want the chance that E comes first, starting from C.",
+     "caption": "So we want the chance that E comes first, starting from C.",
+     "file": "2026-11-01-ant-on-prism/audio/68e1bc62ef81f2ba.wav",
+     "from": 419,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2181,
+   "frames": 469,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-ant-on-prism/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "kind": "scene",
+   "chapter": "Solution 1: a chance for every corner",
+   "from": 2650,
+   "frames": 1862,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: give every corner its own chance of winning.",
+     "caption": "Welcome back! Here's the strategy: give every corner its own chance of winning.",
+     "file": "2026-11-01-ant-on-prism/audio/6e4e972bacafb09e.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "From C, call it c. Do the same for B, D and F. E counts as one, and A as zero.",
+     "caption": "From C, call it c. Do the same for B, D and F. E counts as one, and A as zero.",
+     "file": "2026-11-01-ant-on-prism/audio/de1eef67aed6f4b8.wav",
+     "from": 190,
+     "frames": 268
+    },
+    {
+     "text": "Each neighbor is next with chance one third. So a corner's chance is the average of theirs.",
+     "caption": "Each neighbor is next with chance one third. So a corner's chance is the average of theirs.",
+     "file": "2026-11-01-ant-on-prism/audio/a6581ac279a54c9f.wav",
+     "from": 468,
+     "frames": 210
+    },
+    {
+     "text": "B touches A, C and E. So b equals zero plus c plus one, all over three.",
+     "caption": "B touches A, C and E. So b equals zero plus c plus one, all over three.",
+     "file": "2026-11-01-ant-on-prism/audio/1758100f93d1195e.wav",
+     "from": 689,
+     "frames": 261
+    },
+    {
+     "text": "D touches A, E and F. So d equals zero plus one plus f, all over three.",
+     "caption": "D touches A, E and F. So d equals zero plus one plus f, all over three.",
+     "file": "2026-11-01-ant-on-prism/audio/4313cbbda6b98312.wav",
+     "from": 960,
+     "frames": 281
+    },
+    {
+     "text": "C touches A, B and F. So c equals zero plus b plus f, all over three.",
+     "caption": "C touches A, B and F. So c equals zero plus b plus f, all over three.",
+     "file": "2026-11-01-ant-on-prism/audio/144bbc78571b6f3b.wav",
+     "from": 1251,
+     "frames": 257
+    },
+    {
+     "text": "F touches C, D and E. So f equals c plus d plus one, all over three.",
+     "caption": "F touches C, D and E. So f equals c plus d plus one, all over three.",
+     "file": "2026-11-01-ant-on-prism/audio/67b73d969784512e.wav",
+     "from": 1518,
+     "frames": 290
+    }
+   ]
+  },
+  {
+   "id": "solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4512,
+   "frames": 1926,
+   "lines": [
+    {
+     "text": "Start with the rule at C. Multiply by three: three c equals b plus f.",
+     "caption": "Start with the rule at C. Multiply by three: three c equals b plus f.",
+     "file": "2026-11-01-ant-on-prism/audio/f30b2db24c503229.wav",
+     "from": 0,
+     "frames": 214
+    },
+    {
+     "text": "Swap in b, then multiply by three again. Nine c equals one plus c plus three f.",
+     "caption": "Swap in b, then multiply by three again. Nine c equals one plus c plus three f.",
+     "file": "2026-11-01-ant-on-prism/audio/9899a3c3f1765841.wav",
+     "from": 224,
+     "frames": 280
+    },
+    {
+     "text": "So eight c equals one plus three f.",
+     "caption": "So eight c equals one plus three f.",
+     "file": "2026-11-01-ant-on-prism/audio/0cb608da37da76d5.wav",
+     "from": 514,
+     "frames": 147
+    },
+    {
+     "text": "The same steps at F, using d, give eight f equals four plus three c.",
+     "caption": "The same steps at F, using d, give eight f equals four plus three c.",
+     "file": "2026-11-01-ant-on-prism/audio/25fc64c3ba755bc2.wav",
+     "from": 671,
+     "frames": 200
+    },
+    {
+     "text": "Now a neat trick: add them. Eight c plus eight f equals five plus three c plus three f.",
+     "caption": "Now a neat trick: add them. Eight c plus eight f equals five plus three c plus three f.",
+     "file": "2026-11-01-ant-on-prism/audio/7c81570fe764e659.wav",
+     "from": 880,
+     "frames": 266
+    },
+    {
+     "text": "Take away three c and three f: five c plus five f equals five. So c plus f equals one!",
+     "caption": "Take away three c and three f: five c plus five f equals five. So c plus f equals one!",
+     "file": "2026-11-01-ant-on-prism/audio/bcff764b770e7ead.wav",
+     "from": 1156,
+     "frames": 248
+    },
+    {
+     "text": "Then f is one minus c. So eight c equals one plus three minus three c, and eleven c equals four.",
+     "caption": "Then f is one minus c. So eight c equals one plus three minus three c, and eleven c equals four.",
+     "file": "2026-11-01-ant-on-prism/audio/058e818b9803e625.wav",
+     "from": 1414,
+     "frames": 299
+    },
+    {
+     "text": "So c is four over eleven. That's our answer!",
+     "caption": "So c is four over eleven. That's our answer!",
+     "file": "2026-11-01-ant-on-prism/audio/1de2431d53edee4b.wav",
+     "from": 1723,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "spin",
+   "kind": "scene",
+   "chapter": "Solution 2: spin the prism",
+   "from": 6438,
+   "frames": 1329,
+   "lines": [
+    {
+     "text": "Here's a faster way. That c plus f equals one was no accident.",
+     "caption": "Here's a faster way. That c plus f equals one was no accident.",
+     "file": "2026-11-01-ant-on-prism/audio/5bc1f29eea73c924.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Look at the front face, A B E D. A and E are opposite corners.",
+     "caption": "Look at the front face, A B E D. A and E are opposite corners.",
+     "file": "2026-11-01-ant-on-prism/audio/125ff98de9ab8bc9.wav",
+     "from": 176,
+     "frames": 182
+    },
+    {
+     "text": "Push a skewer through the middle of that face, and spin the prism half a turn.",
+     "caption": "Push a skewer through the middle of that face, and spin the prism half a turn.",
+     "file": "2026-11-01-ant-on-prism/audio/6fd6d41d8232daca.wav",
+     "from": 368,
+     "frames": 171
+    },
+    {
+     "text": "A and E swap places. So do B and D, and so do C and F. It's the same prism!",
+     "caption": "A and E swap places. So do B and D, and so do C and F. It's the same prism!",
+     "file": "2026-11-01-ant-on-prism/audio/2aeca7c07978898a.wav",
+     "from": 549,
+     "frames": 227
+    },
+    {
+     "text": "So an ant at F racing to E is just like an ant at C racing to A.",
+     "caption": "So an ant at F racing to E is just like an ant at C racing to A.",
+     "file": "2026-11-01-ant-on-prism/audio/fd825273406b7254.wav",
+     "from": 786,
+     "frames": 192
+    },
+    {
+     "text": "From C, A comes first with chance one minus c. So f equals one minus c, and d equals one minus b.",
+     "caption": "From C, A comes first with chance one minus c. So f equals one minus c, and d equals one minus b.",
+     "file": "2026-11-01-ant-on-prism/audio/1cd72118eb346ced.wav",
+     "from": 988,
+     "frames": 287
+    }
+   ]
+  },
+  {
+   "id": "spin-solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7767,
+   "frames": 775,
+   "lines": [
+    {
+     "text": "Now plug f equals one minus c into our rule from before: eight c equals one plus three f.",
+     "caption": "Now plug f equals one minus c into our rule from before: eight c equals one plus three f.",
+     "file": "2026-11-01-ant-on-prism/audio/aa2f1f0235679421.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "So eight c equals four minus three c. Eleven c equals four. Four over eleven again!",
+     "caption": "So eight c equals four minus three c. Eleven c equals four. Four over eleven again!",
+     "file": "2026-11-01-ant-on-prism/audio/c8e6900999de01ad.wav",
+     "from": 238,
+     "frames": 264
+    },
+    {
+     "text": "When would you pick this way? Whenever a spin swaps the win and the loss. Look for it first.",
+     "caption": "When would you pick this way? Whenever a spin swaps the win and the loss. Look for it first.",
+     "file": "2026-11-01-ant-on-prism/audio/2a07f946be011a84.wav",
+     "from": 512,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8542,
+   "frames": 991,
+   "lines": [
+    {
+     "text": "Now let's look at the wrong answers.",
+     "caption": "Now let's look at the wrong answers.",
+     "file": "2026-11-01-ant-on-prism/audio/98f7fcb1af292501.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "One third is what you'd get if you guessed b and f are one half each. They aren't.",
+     "caption": "One third is what you'd get if you guessed b and f are one half each. They aren't.",
+     "file": "2026-11-01-ant-on-prism/audio/fb18c39ba1f7cf14.wav",
+     "from": 85,
+     "frames": 184
+    },
+    {
+     "text": "Five over eleven is b, the chance from B. Right work, wrong corner.",
+     "caption": "Five over eleven is b, the chance from B. Right work, wrong corner.",
+     "file": "2026-11-01-ant-on-prism/audio/d2ac26f13f52b67b.wav",
+     "from": 279,
+     "frames": 192
+    },
+    {
+     "text": "Six over eleven is the chance from D, the letter d. Also the wrong starting corner.",
+     "caption": "Six over eleven is the chance from D, the letter d. Also the wrong starting corner.",
+     "file": "2026-11-01-ant-on-prism/audio/eb8161d2f4154c04.wav",
+     "from": 481,
+     "frames": 204
+    },
+    {
+     "text": "Seven over eleven is one minus c, the chance that A comes FIRST. That's the race backwards.",
+     "caption": "Seven over eleven is one minus c, the chance that A comes FIRST. That's the race backwards.",
+     "file": "2026-11-01-ant-on-prism/audio/db3adb5b5328cfc6.wav",
+     "from": 696,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new finish line",
+   "from": 9533,
+   "frames": 412,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same prism, and the ant starts at C again.",
+     "caption": "Ready for a challenge? Same prism, and the ant starts at C again.",
+     "file": "2026-11-01-ant-on-prism/audio/c163268eb3f6a6c5.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Now F is the finish line, and A is still the trap. What's the chance F comes first?",
+     "caption": "Now F is the finish line, and A is still the trap. What's the chance F comes first?",
+     "file": "2026-11-01-ant-on-prism/audio/69a881b6bb259c50.wav",
+     "from": 170,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9945,
+   "frames": 395,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-ant-on-prism/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New finish line: the answer",
+   "from": 10340,
+   "frames": 1607,
+   "lines": [
+    {
+     "text": "Let's check. A and F are opposite corners of the face A C F D. Skewer it and spin.",
+     "caption": "Let's check. A and F are opposite corners of the face A C F D. Skewer it and spin.",
+     "file": "2026-11-01-ant-on-prism/audio/38feafd146e4a168.wav",
+     "from": 0,
+     "frames": 288
+    },
+    {
+     "text": "A swaps with F, C with D, and B with E. So e equals one minus b.",
+     "caption": "A swaps with F, C with D, and B with E. So e equals one minus b.",
+     "file": "2026-11-01-ant-on-prism/audio/468c74bdc3a9e24b.wav",
+     "from": 298,
+     "frames": 258
+    },
+    {
+     "text": "At C: c equals zero plus b plus one, all over three.",
+     "caption": "At C: c equals zero plus b plus one, all over three.",
+     "file": "2026-11-01-ant-on-prism/audio/726aac265fd40784.wav",
+     "from": 567,
+     "frames": 190
+    },
+    {
+     "text": "At B: three b equals c plus one minus b, so four b equals c plus one.",
+     "caption": "At B: three b equals c plus one minus b, so four b equals c plus one.",
+     "file": "2026-11-01-ant-on-prism/audio/11c0e733c74d9701.wav",
+     "from": 767,
+     "frames": 224
+    },
+    {
+     "text": "From the C rule, b equals three c minus one. Swap it in: twelve c minus four equals c plus one.",
+     "caption": "From the C rule, b equals three c minus one. Swap it in: twelve c minus four equals c plus one.",
+     "file": "2026-11-01-ant-on-prism/audio/0ab9db0718b5f69c.wav",
+     "from": 1001,
+     "frames": 290
+    },
+    {
+     "text": "So eleven c equals five, and c is five over eleven. If you got it, amazing work!",
+     "caption": "So eleven c equals five, and c is five over eleven. If you got it, amazing work!",
+     "file": "2026-11-01-ant-on-prism/audio/4813a418ec761d4d.wav",
+     "from": 1300,
+     "frames": 254
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11947,
+   "frames": 591,
+   "lines": [
+    {
+     "text": "Give every corner a chance. Each one is the average of its neighbors' chances.",
+     "caption": "Give every corner a chance. Each one is the average of its neighbors' chances.",
+     "file": "2026-11-01-ant-on-prism/audio/bfad6e29786c4222.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "Then look for a spin that swaps the win and the loss. Paired chances add up to one.",
+     "caption": "Then look for a spin that swaps the win and the loss. Paired chances add up to one.",
+     "file": "2026-11-01-ant-on-prism/audio/d78f02cb3b332b9f.wav",
+     "from": 192,
+     "frames": 190
+    },
+    {
+     "text": "I'm Vantee. Happy exploring, and see you next time!",
+     "caption": "I'm Vantee. Happy exploring, and see you next time!",
+     "file": "2026-11-01-ant-on-prism/audio/1b96f1bc2061af31.wav",
+     "from": 392,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

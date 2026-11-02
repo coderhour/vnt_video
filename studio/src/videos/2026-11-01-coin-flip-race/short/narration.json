@@ -1,0 +1,54 @@
+{
+ "title": "Who Gets More Heads? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Bob flips seven coins. Ann flips five.",
+    "Who gets more heads? There's a one-step trick!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Ann flips five fair coins, and Bob flips seven.",
+    "What's the chance that Bob gets MORE heads than Ann?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "flip",
+   "lines": [
+    "Here's the trick. Flip all of Ann's coins over.",
+    "Tails turn into heads, and fair coins stay fair.",
+    "Now Bob wins when twelve coins show at least six heads.",
+    "Exactly six is the middle. The two sides split the rest evenly."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "So the answer is <short pause> Choice D!",
+    "That's about sixty-one percent. Two extra coins really do pay off!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows every trap. Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

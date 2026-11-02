@@ -115,6 +115,8 @@ Structure (each bullet is a scene, and **bold** = starts a YouTube chapter):
 7. **Common traps**: from the bank's `choice_notes`. Show why each wrong choice is tempting.
 8. **Your turn: a variant**: state it, pause card, then a short worked answer.
 9. **Recap**: the `key_idea` as one memorable sentence, plus a cheerful sign-off from Vantee.
+   On screen the sign-off line is `<SignOff start={at(scene, <last line>, 0.1)} text="Keep exploring!" />` (`lib/Brand.tsx`):
+   a full-screen Vantee.ai card, so don't lay out your own "Vantee" wordmark there.
 
 Tutor voice:
 - Short sentences, about 15 words max. Talk *to* the kid ("Let's…", "Notice that…", "What if…?").

@@ -6,15 +6,16 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-five-rectangles';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const SHORT = '#7b61ff'; // short sides: always purple
-const LONG = '#0cc281'; // long sides: always green
-const LONG_T = '#08a56f'; // slightly darker green, for text
+export const SHORT = '#7b61ff'; // short sides: always purple
+export const LONG = '#0cc281'; // long sides: always green
+export const LONG_T = '#08a56f'; // slightly darker green, for text
 const BLOCK = '#3c83f6';
 const FILL = '#e6e8f0';
 const INK = '#333333';
@@ -26,7 +27,7 @@ const lo = (t = '\\text{long}') => col(LONG_T, t);
 // ---------- geometry: all in blocks (main: short 2, long 3; variant: short 3, long 4) ----------
 
 type T = { x: number; y: number; w: number; h: number };
-const MAIN: T[] = [
+export const MAIN: T[] = [
   { x: 0, y: 0, w: 3, h: 2 },
   { x: 3, y: 0, w: 3, h: 2 },
   { x: 0, y: 2, w: 2, h: 3 },
@@ -56,7 +57,7 @@ type FigP = {
 
 const bounds = (tiles: T[]) => ({ W: Math.max(...tiles.map((t) => t.x + t.w)), H: Math.max(...tiles.map((t) => t.y + t.h)) });
 
-const Fig: React.FC<FigP> = ({ tiles, ox, oy, px, op, grid, lift, emph, tags, tagOp = 1, tagColor = INK, outline = 0, outlineGlow = 0 }) => {
+export const Fig: React.FC<FigP> = ({ tiles, ox, oy, px, op, grid, lift, emph, tags, tagOp = 1, tagColor = INK, outline = 0, outlineGlow = 0 }) => {
   const { W, H } = bounds(tiles);
   const I = 5;
   return (
@@ -264,7 +265,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['36', '45', '54', '72', '81'];
+export const CH = ['36', '45', '54', '72', '81'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -687,10 +688,7 @@ const Recap: SceneComponent = ({ scene }) => {
           </div>
         ))}
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 4, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep building!</div>
-      </div>
+      <SignOff start={at(scene, 4, 0.1)} text="Keep building!" />
       <Confetti x={960} y={380} start={at(scene, 4, 0.2)} seed={3} />
     </>
   );

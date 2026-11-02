@@ -1,0 +1,12 @@
+{
+ "title": "Smallest n So 1+2+…+n Is a Multiple of 2024 | AMC 10-Style Level 4",
+ "description": "Add 1 + 2 + 3 + ... up to n. What is the smallest n that makes the total a multiple of 2024? Vantee shows a neat trick: neighbors like n and n+1 share no factors, so each piece of 2024 goes whole into one of them. You will also see a fast way to test the choices, why 736 works but still isn't the answer, and a 2025 puzzle to try yourself.\n\n0:00 Intro\n0:21 The question\n0:38 What are we asked?\n0:53 Try it yourself\n1:09 Solution 1: share out the factors\n4:00 Solution 2: test the choices\n4:51 Common traps\n5:24 Your turn: 2025\n5:46 2025: the answer\n6:38 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-01",
+ "question_id": "amc_practice_amc10_number_theory_template:c2-035",
+ "posts": [],
+ "short": {
+  "title": "Smallest n so 1+2+...+n hits a multiple of 2024 #Shorts",
+  "description": "Which n first makes 1+2+...+n a multiple of 2024? Neighbors share no factors, so each factor goes whole into one of them.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": []
+ }
+}

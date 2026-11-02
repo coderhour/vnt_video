@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1756,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 238,
+   "lines": [
+    {
+     "text": "Only ONE angle is given. Can you find this tiny one?",
+     "caption": "Only ONE angle is given. Can you find this tiny one?",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/8d58ccc1825b62c0.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "It looks impossible. But there's a trick!",
+     "caption": "It looks impossible. But there's a trick!",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/378f3c96cb343db6.wav",
+     "from": 117,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 238,
+   "frames": 312,
+   "lines": [
+    {
+     "text": "The big triangle is equilateral. A D equals A E.",
+     "caption": "The big triangle is equilateral. A D equals A E.",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/ae022d30251bae79.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "Angle B A D is twenty degrees. What is x, the angle E D C?",
+     "caption": "Angle B A D is twenty degrees. What is x, the angle E D C?",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/9886ac606a97543d.wav",
+     "from": 127,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 550,
+   "frames": 168,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 54
+    }
+   ]
+  },
+  {
+   "id": "chase",
+   "kind": "scene",
+   "chapter": null,
+   "from": 718,
+   "frames": 508,
+   "lines": [
+    {
+     "text": "Chase the angles! Angle A D C is outside the left triangle. So it's sixty plus twenty, that's eighty.",
+     "caption": "Chase the angles! Angle A D C is outside the left triangle. So it's sixty plus twenty, that's eighty.",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/226c24c296e64dd9.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "Inside, triangle A D E has a forty degree top and two equal sides. So each base angle is seventy.",
+     "caption": "Inside, triangle A D E has a forty degree top and two equal sides. So each base angle is seventy.",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/02ee025286bf9baf.wav",
+     "from": 192,
+     "frames": 192
+    },
+    {
+     "text": "Eighty, minus seventy, is what's left for x.",
+     "caption": "Eighty, minus seventy, is what's left for x.",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/da4d0a845a659f40.wav",
+     "from": 395,
+     "frames": 89
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1226,
+   "frames": 205,
+   "lines": [
+    {
+     "text": "So x is ten degrees!",
+     "caption": "So x is ten degrees!",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/dcfe4c00d5268c8f.wav",
+     "from": 0,
+     "frames": 69
+    },
+    {
+     "text": "Look! Ten is exactly half of twenty.",
+     "caption": "Look! Ten is exactly half of twenty.",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/009b18159ef5a646.wav",
+     "from": 79,
+     "frames": 88
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1431,
+   "frames": 325,
+   "lines": [
+    {
+     "text": "Is that luck? The full lesson shows two ways to solve it, the half pattern, and every trap.",
+     "caption": "Is that luck? The full lesson shows two ways to solve it, the half pattern, and every trap.",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/32c9f01b77cc652a.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-equilateral-angle-chase/short/audio/82b8b7e1a12a7449.wav",
+     "from": 197,
+     "frames": 59
+    }
+   ]
+  }
+ ]
+}

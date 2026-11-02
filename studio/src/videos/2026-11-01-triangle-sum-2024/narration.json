@@ -1,0 +1,186 @@
+{
+ "title": "Smallest n So 1+2+…+n Is a Multiple of 2024 | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Running sum 1+2+3+… with a counter. Line 1: counter ticks fast. Line 2: '2024?' badge with a question mark. Line 3: Vantee title card.",
+   "lines": [
+    "Keep adding one plus two plus three. When is the total a multiple of two thousand twenty-four?",
+    "Adding it all up would take forever. But a neat trick with neighbors finds it fast.",
+    "Hello, I'm Vantee, and today we're hunting for a number!"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Question text with LaTeX 1+2+\\cdots+n, read across lines 2–3. Line 4: choice chips 253, 483, 528, 736, 1012.",
+   "lines": [
+    "Find the smallest positive whole number n,",
+    "so that one plus two plus three, up to n, is divisible by two thousand twenty-four.",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1.5,
+   "visual": "Line 1: 1+2+⋯+n with 'n' highlighted. Line 2: 'sum ÷ 2024 = whole number', then 'SMALLEST n' marked.",
+   "lines": [
+    "So what do we know? We add every whole number from one to n.",
+    "The total must split into groups of two thousand twenty-four exactly. And we want the SMALLEST n."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question and choices visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "sum",
+   "chapter": "Solution 1: share out the factors",
+   "hold": 1,
+   "visual": "Line 1: two rows: 1, 2, …, n and n, …, 2, 1 under it. Line 2: column pairs glow, each 'n+1', 'n columns'. Line 3: 'sum = n(n+1)/2' (\\dfrac).",
+   "lines": [
+    "Welcome back! First, a shortcut for the sum. Write the numbers forward, then backward underneath.",
+    "Each column adds to n plus one, and there are n columns.",
+    "That counts every number twice, so the sum is half of n times n plus one."
+   ]
+  },
+  {
+   "id": "double",
+   "hold": 1,
+   "visual": "Rows: '\\dfrac{n(n+1)}{2} divisible by 2024' → 'n(n+1) divisible by 4048' → '4048 = 16 × 11 × 23' with factor tiles 16 (green), 11 (purple), 23 (orange); small note '16 = 2 × 2 × 2 × 2'.",
+   "lines": [
+    "So half of n times n plus one must be divisible by two thousand twenty-four.",
+    "Undo the halving: n times n plus one must be divisible by twice that, four thousand forty-eight.",
+    "That's sixteen times eleven times twenty-three. Sixteen is four factors of two; the others are primes."
+   ]
+  },
+  {
+   "id": "neighbors",
+   "hold": 1.0,
+   "visual": "Two boxes 'n' and 'n+1' side by side. Line 1: one box tagged 'odd: no 2s'. Line 2: the 16 tile slides whole into the even box. Line 3: an 11 tile tries to sit in both; 'difference = 1' ✗. Line 4: 11 and 23 tiles each drop whole into a box. Line 5: four piles listed: {16,11}|{23}, {16,23}|{11}, {16}|{11,23}, {16,11,23}|{}.",
+   "lines": [
+    "Here's the key. n and n plus one are neighbors, and one of them is odd. It has no factor of two.",
+    "So all four factors of two, the whole sixteen, must live in the even one.",
+    "Could eleven divide both neighbors? Then it would divide their difference, which is just one.",
+    "So eleven goes whole into one neighbor, and so does twenty-three.",
+    "We just choose which tiles share a box. That gives four piles to check."
+   ]
+  },
+  {
+   "id": "walkA",
+   "hold": 1.0,
+   "visual": "Pile A: box 16 × 11 = 176. Line 1: both neighbor slots shown (so it doesn't matter which is n). Line 2: 176 with neighbors 175, 177 ✗. Line 3: 352 with 351, 353 ✗. Side strip of multiples of 23 for reference: 161, 184 | 345, 368 | 506, 529. Line 4: 528 with 527 ✗, 529 ✓ and '529 = 23 × 23'. Line 5: 'n = 528, n+1 = 529' pinned as 'best so far' — not yet the final answer badge.",
+   "lines": [
+    "Pile one: sixteen and eleven together, a multiple of one hundred seventy-six. Check both neighbors.",
+    "One hundred seventy-six: neither neighbor is a multiple of twenty-three.",
+    "Now three hundred fifty-two. No luck again.",
+    "Five hundred twenty-eight: its neighbor five hundred twenty-nine is twenty-three times twenty-three!",
+    "So five hundred twenty-eight works! Keep it, and check the other piles."
+   ]
+  },
+  {
+   "id": "walkB",
+   "hold": 1,
+   "visual": "Pile B: 16 × 23 = 368. Line 1: 368 with 367, 369 ✗ (reference: 11 × 33 = 363, 11 × 34 = 374). Line 2: 736 with 737 = 11 × 67 ✓. Line 3: tag '736 > 528'.",
+   "lines": [
+    "Pile two: sixteen and twenty-three, so three hundred sixty-eight. Neither neighbor has an eleven.",
+    "Next, seven hundred thirty-six. Its neighbor seven hundred thirty-seven is eleven times sixty-seven.",
+    "It works, but it's bigger than five hundred twenty-eight."
+   ]
+  },
+  {
+   "id": "walkC",
+   "hold": 1.5,
+   "visual": "Pile C: 11 × 23 = 253. Line 2: 253 (252, 254 ✗), 506 (505, 507 ✗); reference multiples of 16: 240, 256 | 496, 512. Line 3: 759 greyed 'past 528, stop'. Line 4: pile D: 4048 greyed. Line 5: answer badge 528, choice C highlighted, chime at END of line.",
+   "lines": [
+    "Pile three: eleven and twenty-three together, a multiple of two hundred fifty-three.",
+    "Two hundred fifty-three and five hundred six: none of their neighbors is a multiple of sixteen.",
+    "The next is seven hundred fifty-nine, already past five hundred twenty-eight. We can stop.",
+    "Pile four: all three together means four thousand forty-eight. Far too big.",
+    "So the smallest n is five hundred twenty-eight. That's Choice C!"
+   ]
+  },
+  {
+   "id": "choices",
+   "chapter": "Solution 2: test the choices",
+   "hold": 1.0,
+   "visual": "Rows per line (\\dfrac for the halving): L1 'n(n+1)/2 → halve the even one'. L2 goal tiles '2×2×2, 11, 23'; '253 × 254 / 2 = 253 × 127' odd ✗. L3 '483 × 484 / 2 = 483 × 242', '242 = 2 × 121' (one two) ✗. L4 '528 × 529 / 2 = 264 × 529'. L5 '= (8 × 33) × (23 × 23)', '33 = 3 × 11' ✓. L6 small note 'smallest choice, not yet a proof'.",
+   "lines": [
+    "Faster on test day: check the choices, smallest first, and take half of the even number.",
+    "We need eight, eleven and twenty-three. With two hundred fifty-three, the sum is odd!",
+    "Four hundred eighty-three times two hundred forty-two has just one factor of two. Not enough!",
+    "Five hundred twenty-eight gives two hundred sixty-four times five hundred twenty-nine.",
+    "That's eight times three times eleven, times twenty-three times twenty-three. Everything's there!",
+    "So five hundred twenty-eight is the smallest CHOICE that works. Solution one proves no n is smaller.",
+    "When would you pick this way? On a timed test, with the choices right in front of you."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red with a one-line note. L2: '253 = 11 × 23', '2024 = 8 × 11 × 23' with the 8 circled red ('forgot the 8'); sum 253 × 127 is odd. L3: '1012 = 2024 ÷ 2', sum = 506 × 1013, '506 = 2 × 253'. L4: '483 = 21 × 23', '484 = 4 × 121', sum = 483 × 242 → one two. L5: 736 chip amber/green-outlined 'works, but 736 > 528'.",
+   "lines": [
+    "Choice A, two hundred fifty-three, is what you'd get by using just the eleven and twenty-three.",
+    "Choice E, one thousand twelve, is half of two thousand twenty-four. Its sum has one factor of two.",
+    "Choice B, four hundred eighty-three, has the twenty-three; its neighbor, the eleven. But not the eight!",
+    "Choice D, seven hundred thirty-six, really works! But it's pile two's answer, not the SMALLEST."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: 2025",
+   "hold": 0.5,
+   "visual": "Card: 'Smallest n with 1+2+⋯+n divisible by 2025?'",
+   "lines": [
+    "What is the smallest n so that one plus two, up to n, is divisible by two thousand twenty-five?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown, variant question visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "2025: the answer",
+   "hold": 1.5,
+   "visual": "L1: 'n(n+1) divisible by 4050'. L2: '4050 = 2 × 81 × 25', '2: free (one neighbor is even)'. L3: tiles 81 and 25; 'both in one: 2025 → n = 2024 or 2025; look for smaller'. L4: walk 81 (80, 82 ✗), 162 (161, 163 ✗), 243 (242, 244 ✗). L5: neighbors marked ✗ (ref: 75, 100 | 150, 175 | 225, 250). L6: 324 (323 ✗, 325 = 25 × 13 ✓). L7: answer badge 324, chime at end of the first sentence; small check row '324 × 325 / 2 = 162 × 325 = 2025 × 26'.",
+   "lines": [
+    "Let's check. Undo the halving: n times n plus one must be divisible by four thousand fifty.",
+    "That's two times eighty-one times twenty-five. The two is free, since one neighbor is always even.",
+    "Eighty-one and twenty-five each go whole into a neighbor. Both in one is far too big.",
+    "So walk the multiples of eighty-one: eighty-one, one hundred sixty-two, two hundred forty-three.",
+    "None of their neighbors is a multiple of twenty-five.",
+    "Three hundred twenty-four: its neighbor three hundred twenty-five is twenty-five times thirteen!",
+    "So n is three hundred twenty-four. If you got it, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: 'sum = n(n+1)/2 → neighbors share nothing → each prime power goes whole to one neighbor → walk the big multiples'.",
+   "lines": [
+    "Neighbors share no factor bigger than one, so each prime power goes whole into one of them.",
+    "Sort the pieces into piles, count up the multiples, and check the neighbors.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

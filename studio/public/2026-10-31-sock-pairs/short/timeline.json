@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1642,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 266,
+   "lines": [
+    {
+     "text": "Four socks from a drawer of five pairs. How many sets have a matching pair?",
+     "caption": "Four socks from a drawer of five pairs. How many sets have a matching pair?",
+     "file": "2026-10-31-sock-pairs/short/audio/8bfe639e469a8cfe.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "Don't count the matches. Count the misses!",
+     "caption": "Don't count the matches. Count the misses!",
+     "file": "2026-10-31-sock-pairs/short/audio/bfdc3e0c44f3c3cf.wav",
+     "from": 159,
+     "frames": 83
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 266,
+   "frames": 261,
+   "lines": [
+    {
+     "text": "Five pairs of socks, each a different color. You pull out four.",
+     "caption": "Five pairs of socks, each a different color. You pull out four.",
+     "file": "2026-10-31-sock-pairs/short/audio/2aa93baa5762daec.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "How many sets of four contain at least one matching pair?",
+     "caption": "How many sets of four contain at least one matching pair?",
+     "file": "2026-10-31-sock-pairs/short/audio/b38ed7f5c534ff56.wav",
+     "from": 132,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 527,
+   "frames": 153,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-sock-pairs/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 40
+    }
+   ]
+  },
+  {
+   "id": "nopair",
+   "kind": "scene",
+   "chapter": null,
+   "from": 680,
+   "frames": 452,
+   "lines": [
+    {
+     "text": "No pair means four different colors. Leave out one color: five ways.",
+     "caption": "No pair means four different colors. Leave out one color: five ways.",
+     "file": "2026-10-31-sock-pairs/short/audio/8ed0d1c962d2fbea.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Each color has two socks to pick from. Two times two times two times two is sixteen.",
+     "caption": "Each color has two socks to pick from. Two times two times two times two is sixteen.",
+     "file": "2026-10-31-sock-pairs/short/audio/fceb9c3cd175000c.wav",
+     "from": 137,
+     "frames": 170
+    },
+    {
+     "text": "So five times sixteen is eighty sets with no pair.",
+     "caption": "So five times sixteen is eighty sets with no pair.",
+     "file": "2026-10-31-sock-pairs/short/audio/2003d5e551efa69a.wav",
+     "from": 317,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1132,
+   "frames": 257,
+   "lines": [
+    {
+     "text": "There are two hundred ten sets in all. Take away eighty: one hundred thirty!",
+     "caption": "There are two hundred ten sets in all. Take away eighty: one hundred thirty!",
+     "file": "2026-10-31-sock-pairs/short/audio/fb56da15e7f3325a.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Counting the opposite is easier!",
+     "caption": "Counting the opposite is easier!",
+     "file": "2026-10-31-sock-pairs/short/audio/0d8c6d80c89234f1.wav",
+     "from": 149,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1389,
+   "frames": 253,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-31-sock-pairs/short/audio/5a466bf8b2983070.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-sock-pairs/short/audio/82b8b7e1a12a7449.wav",
+     "from": 143,
+     "frames": 63
+    }
+   ]
+  }
+ ]
+}

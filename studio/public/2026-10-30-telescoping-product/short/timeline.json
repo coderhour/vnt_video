@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1570,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 218,
+   "lines": [
+    {
+     "text": "Four brackets, all multiplied. Don't multiply them out!",
+     "caption": "Four brackets, all multiplied. Don't multiply them out!",
+     "file": "2026-10-30-telescoping-product/short/audio/fb973a57109c4182.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "There's a trick that makes it collapse.",
+     "caption": "There's a trick that makes it collapse.",
+     "file": "2026-10-30-telescoping-product/short/audio/b3d1a76e4c993a78.wav",
+     "from": 127,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 218,
+   "frames": 179,
+   "lines": [
+    {
+     "text": "What is the value of the whole product?",
+     "caption": "What is the value of the whole product?",
+     "file": "2026-10-30-telescoping-product/short/audio/2e13a12582a2bdfd.wav",
+     "from": 0,
+     "frames": 88
+    },
+    {
+     "text": "Here are the choices.",
+     "caption": "Here are the choices.",
+     "file": "2026-10-30-telescoping-product/short/audio/4c700db2f68259a7.wav",
+     "from": 98,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 397,
+   "frames": 157,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-telescoping-product/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 44
+    }
+   ]
+  },
+  {
+   "id": "helper",
+   "kind": "scene",
+   "chapter": null,
+   "from": 554,
+   "frames": 556,
+   "lines": [
+    {
+     "text": "Bring in a helper: one minus one over two.",
+     "caption": "Bring in a helper: one minus one over two.",
+     "file": "2026-10-30-telescoping-product/short/audio/5159e718fce7f883.wav",
+     "from": 0,
+     "frames": 104
+    },
+    {
+     "text": "Helper times the first bracket is one minus one over four. Each step knocks over the next one!",
+     "caption": "Helper times the first bracket is one minus one over four. Each step knocks over the next one!",
+     "file": "2026-10-30-telescoping-product/short/audio/46234f651bb60d42.wav",
+     "from": 114,
+     "frames": 173
+    },
+    {
+     "text": "The chain collapses to one minus one over two hundred fifty-six squared.",
+     "caption": "The chain collapses to one minus one over two hundred fifty-six squared.",
+     "file": "2026-10-30-telescoping-product/short/audio/a40d583d0233ea40.wav",
+     "from": 297,
+     "frames": 131
+    },
+    {
+     "text": "We used one half, so double the result!",
+     "caption": "We used one half, so double the result!",
+     "file": "2026-10-30-telescoping-product/short/audio/b0230dfb5117a43c.wav",
+     "from": 439,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1110,
+   "frames": 191,
+   "lines": [
+    {
+     "text": "Two, minus two over two hundred fifty-six squared!",
+     "caption": "Two, minus two over two hundred fifty-six squared!",
+     "file": "2026-10-30-telescoping-product/short/audio/88dd7c6b19a221b1.wav",
+     "from": 0,
+     "frames": 106
+    },
+    {
+     "text": "That's choice C.",
+     "caption": "That's choice C.",
+     "file": "2026-10-30-telescoping-product/short/audio/2e33e7bb9e02210b.wav",
+     "from": 116,
+     "frames": 36
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1301,
+   "frames": 269,
+   "lines": [
+    {
+     "text": "Why does the helper work? The full lesson shows two ways, plus every trap.",
+     "caption": "Why does the helper work? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-telescoping-product/short/audio/9a6d67a9ed6e212c.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-telescoping-product/short/audio/82b8b7e1a12a7449.wav",
+     "from": 149,
+     "frames": 52
+    }
+   ]
+  }
+ ]
+}

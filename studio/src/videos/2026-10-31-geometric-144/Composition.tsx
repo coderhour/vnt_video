@@ -5,6 +5,7 @@ import { Countdown } from '../../lib/PauseCard';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-geometric-144';
@@ -105,7 +106,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['9', '10', '11', '12', '14'];
+export const CH = ['9', '10', '11', '12', '14'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -406,10 +407,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Card y={420} start={at(scene, 2, 0.3)} color={C.primary}><Tex tex={'a\\times c\\ \\text{is a perfect square}'} size={58} /></Card>
         <Card y={590} start={at(scene, 3, 0.3)} color={C.amber}>stop when it stops increasing</Card>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 4, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep multiplying your skills!</div>
-      </div>
+      <SignOff start={at(scene, 4, 0.1)} text="Keep multiplying your skills!" />
       <Confetti x={960} y={380} start={at(scene, 4, 0.2)} seed={3} />
     </>
   );

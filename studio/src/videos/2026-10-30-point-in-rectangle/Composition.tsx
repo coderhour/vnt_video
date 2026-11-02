@@ -6,11 +6,12 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-point-in-rectangle';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (maths coordinates, y grows UPWARD) ----------
 // Same picture as the bank figure: A bottom-left, B bottom-right, C top-right, D top-left.
@@ -21,7 +22,7 @@ const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 type Side = 'bottom' | 'right' | 'top' | 'left';
 const SIDES: Side[] = ['bottom', 'right', 'top', 'left'];
 
-const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
+export const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
 
 const triOf = (w: number, h: number, p: Pt): Record<Side, Pt[]> => ({
   bottom: [p, [0, 0], [w, 0]],
@@ -43,16 +44,16 @@ const labelSpot = (w: number, h: number, p: Pt, s: Side): Pt => {
 };
 
 // Pairs: bottom + top = violet, left + right = blue. The missing triangle is amber until it is found.
-const PAIR: Record<Side, string> = { bottom: C.violet, top: C.violet, left: C.blue, right: C.blue };
+export const PAIR: Record<Side, string> = { bottom: C.violet, top: C.violet, left: C.blue, right: C.blue };
 
-const MAIN = { w: 10, h: 8, p: [4.5, 3] as Pt };
+export const MAIN = { w: 10, h: 8, p: [4.5, 3] as Pt };
 const VAR = { w: 9, h: 8, p: [4, 2] as Pt };
 const M = plane(150, 790, 62); // the working figure: 620 x 496 px, top edge at y = 294
 const PANEL = 900;
 
 // ---------- drawing helpers ----------
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
@@ -79,7 +80,7 @@ type FigProps = {
 };
 
 /** Rectangle ABCD with P joined to all four corners. */
-const Figure: React.FC<FigProps> = ({ m, w, h, p, progress = 1, fills = {}, colors = {}, labels = {}, labelColors = {}, labelOpacity = 1, letters = 1, size = 56, dim = 1 }) => {
+export const Figure: React.FC<FigProps> = ({ m, w, h, p, progress = 1, fills = {}, colors = {}, labels = {}, labelColors = {}, labelOpacity = 1, letters = 1, size = 56, dim = 1 }) => {
   const t = triOf(w, h, p);
   const corners: Pt[] = [[0, 0], [w, 0], [w, h], [0, h]];
   const P = m(p);
@@ -144,8 +145,8 @@ const Boxed: React.FC<{ x: number; y: number; w: number; h: number; start: numbe
   return <div style={{ position: 'absolute', left: x, top: y, width: w, height: h, border: `6px solid ${C.green}`, borderRadius: 20, opacity: ease(f, start, 12) * opacity }} />;
 };
 
-const ABOUT = { bottom: '15', right: '22', top: '25', left: '?' };
-const ABOUT_COLORS = { left: C.amber };
+export const ABOUT = { bottom: '15', right: '22', top: '25', left: '?' };
+export const ABOUT_COLORS = { left: C.amber };
 
 // ---------- scenes ----------
 
@@ -174,7 +175,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['12', '15', '18', '22', '28'];
+export const CHOICES = ['12', '15', '18', '22', '28'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -644,10 +645,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Figure m={m} {...MAIN} letters={0} fills={{ bottom: 0.3 * ease(f, at(scene, 1, 0.3), 12), top: 0.3 * ease(f, at(scene, 1, 0.3), 12), left: 0.3 * ease(f, at(scene, 1, 0.6), 12), right: 0.3 * ease(f, at(scene, 1, 0.6), 12) }} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 2, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 2, 0.2)} seed={3} />
     </>
   );

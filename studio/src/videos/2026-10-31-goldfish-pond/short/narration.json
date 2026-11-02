@@ -1,0 +1,53 @@
+{
+ "title": "Goldfish Pond (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "A pond has two hundred fish, ninety percent goldfish.",
+    "Remove goldfish until eighty percent remain. Most kids say ten!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "How many goldfish must go, so that eighty percent of the fish left are goldfish?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "kind": "pause",
+   "hold": 3
+  },
+  {
+   "id": "stay",
+   "lines": [
+    "Watch the fish that stay! One hundred eighty goldfish, so twenty other fish.",
+    "Those twenty never leave. At the end they're twenty percent, one fifth of the pond.",
+    "So the whole pond is five times twenty, one hundred fish."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Two hundred fish down to one hundred. So one hundred goldfish must go!",
+    "Not ninety minus eighty. The total changes!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why not ten? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

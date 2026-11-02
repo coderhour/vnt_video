@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1633,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 241,
+   "lines": [
+    {
+     "text": "Pia flips a coin before each move. Heads, one step. Tails, two.",
+     "caption": "Pia flips a coin before each move. Heads, one step. Tails, two.",
+     "file": "2026-10-31-coin-staircase/short/audio/154014ecaf6e4598.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "Will she land on step five?",
+     "caption": "Will she land on step five?",
+     "file": "2026-10-31-coin-staircase/short/audio/5bc778e8d1b7a379.wav",
+     "from": 157,
+     "frames": 60
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 241,
+   "frames": 216,
+   "lines": [
+    {
+     "text": "Heads, she goes up one step. Tails, up two.",
+     "caption": "Heads, she goes up one step. Tails, up two.",
+     "file": "2026-10-31-coin-staircase/short/audio/87a0e16afb44f14c.wav",
+     "from": 0,
+     "frames": 92
+    },
+    {
+     "text": "What's the chance she stands on step five?",
+     "caption": "What's the chance she stands on step five?",
+     "file": "2026-10-31-coin-staircase/short/audio/153c96d37f990b21.wav",
+     "from": 102,
+     "frames": 82
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 457,
+   "frames": 168,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-coin-staircase/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 54
+    }
+   ]
+  },
+  {
+   "id": "ladder",
+   "kind": "scene",
+   "chapter": null,
+   "from": 625,
+   "frames": 493,
+   "lines": [
+    {
+     "text": "Work up the stairs! She comes from one step below with heads, or two below with tails.",
+     "caption": "Work up the stairs! She comes from one step below with heads, or two below with tails.",
+     "file": "2026-10-31-coin-staircase/short/audio/c191d0e39a90e639.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Each move is a coin flip, so average those two chances.",
+     "caption": "Each move is a coin flip, so average those two chances.",
+     "file": "2026-10-31-coin-staircase/short/audio/eefb7b771843c50a.wav",
+     "from": 167,
+     "frames": 102
+    },
+    {
+     "text": "The ground is one. Then one half, three fourths, five eighths, eleven sixteenths.",
+     "caption": "The ground is one. Then one half, three fourths, five eighths, eleven sixteenths.",
+     "file": "2026-10-31-coin-staircase/short/audio/5213e615e3df1586.wav",
+     "from": 279,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1118,
+   "frames": 251,
+   "lines": [
+    {
+     "text": "Average eleven sixteenths and five eighths. That's twenty-one thirty-seconds!",
+     "caption": "Average eleven sixteenths and five eighths. That's twenty-one thirty-seconds!",
+     "file": "2026-10-31-coin-staircase/short/audio/ada40baa899dd79a.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "She lands on it more than half the time!",
+     "caption": "She lands on it more than half the time!",
+     "file": "2026-10-31-coin-staircase/short/audio/a59a10010447eccc.wav",
+     "from": 132,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1369,
+   "frames": 264,
+   "lines": [
+    {
+     "text": "Why is it not one half? The full lesson lists every way, plus every trap.",
+     "caption": "Why is it not one half? The full lesson lists every way, plus every trap.",
+     "file": "2026-10-31-coin-staircase/short/audio/bdaaa0ac8258cea6.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-coin-staircase/short/audio/82b8b7e1a12a7449.wav",
+     "from": 154,
+     "frames": 62
+    }
+   ]
+  }
+ ]
+}

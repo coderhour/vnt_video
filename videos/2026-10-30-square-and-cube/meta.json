@@ -3,5 +3,10 @@
  "description": "Twenty times n is a perfect square, and fifty times n is a perfect cube. What is the smallest n? Vantee solves it two ways: first by making a list, then by counting the copies of each prime. Then try a variant yourself!\n\n0:00 Intro\n0:19 The question\n0:39 What are we asked?\n1:03 Try it yourself\n1:18 Solution 1: make a list\n2:26 Solution 2: count the primes\n4:23 Common traps\n5:11 Your turn: a variant\n5:38 Variant: the answer\n6:29 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_number_theory_template:c1-272",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "One number: a square AND a cube? #Shorts",
+  "description": "Twenty times n is a perfect square and fifty times n is a perfect cube. Can ONE number do both? Count the prime copies!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

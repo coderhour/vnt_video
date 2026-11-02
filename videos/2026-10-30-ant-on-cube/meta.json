@@ -3,5 +3,10 @@
  "description": "An ant takes three random steps along the edges of a cube. What's the chance it ends up at the far corner?\nVantee solves it two ways, step by step and by counting all 27 walks, then shows the traps and gives you a sleepy-ant challenge to try.\n\n0:00 Intro\n0:16 The question\n0:43 What are we asked?\n1:00 Try it yourself\n1:15 Solution 1: step by step\n2:37 Solution 2: count the walks\n4:03 Common traps\n4:50 Your turn: a sleepy ant\n5:24 Sleepy ant: the answer\n6:08 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mock_test_template:c2-630",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "An ant, a cube, 3 random steps #Shorts",
+  "description": "An ant takes three random steps along a cube. What's the chance it ends at the far corner?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

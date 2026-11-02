@@ -3,5 +3,10 @@
  "description": "Mia walks across a street grid, only right or up, but one corner is blocked. How many routes are left? Vantee solves it two ways: writing a number on every corner, then counting all routes and subtracting the ones through the blocked corner. Then try a 4 by 4 grid yourself!\n\n0:00 Intro\n0:16 The question\n0:36 What are we asked?\n1:08 Try it yourself\n1:23 Solution 1: number the corners\n2:38 Solution 2: count all, then subtract\n4:07 Common traps\n4:46 Your turn: a four by four grid\n5:13 Four by four: the answer\n6:04 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mock_test_template:c2-479",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "Block ONE corner: 56 routes become...? #Shorts",
+  "description": "A street grid has 56 routes from A to B. Block one corner and how many are left? Number the corners to find out!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

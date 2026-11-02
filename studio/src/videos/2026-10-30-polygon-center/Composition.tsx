@@ -6,35 +6,36 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-polygon-center';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry ----------
 // Vertex 0 is at the top; vertex k sits k steps CLOCKWISE from it (screen y grows down, so a growing
 // angle turns clockwise on screen). "Next six" in the narration = the six vertices clockwise after it.
 
 type Geo = { cx: number; cy: number; R: number; n: number };
-const BIG: Geo = { cx: 540, cy: 480, R: 280, n: 13 };
-const HIT = [0, 3, 7, 10]; // gaps 3, 4, 3, 3: every empty arc < half
-const MISS = [0, 2, 3, 5]; // gaps 2, 1, 2, 8: one empty arc > half
+export const BIG: Geo = { cx: 540, cy: 480, R: 280, n: 13 };
+export const HIT = [0, 3, 7, 10]; // gaps 3, 4, 3, 3: every empty arc < half
+export const MISS = [0, 2, 3, 5]; // gaps 2, 1, 2, 8: one empty arc > half
 
 const ang = (g: Geo, k: number) => -Math.PI / 2 + (2 * Math.PI * k) / g.n;
 const onCircle = (g: Geo, k: number, r = g.R): Pt => [g.cx + r * Math.cos(ang(g, k)), g.cy + r * Math.sin(ang(g, k))];
-const mod = (a: number, n: number) => ((a % n) + n) % n;
-const rot = (s: number[], r: number, n: number) => s.map((v) => mod(v + r, n)).sort((a, b) => a - b);
+export const mod = (a: number, n: number) => ((a % n) + n) % n;
+export const rot = (s: number[], r: number, n: number) => s.map((v) => mod(v + r, n)).sort((a, b) => a - b);
 
 /** Every k-subset of xs (lexicographic). */
-const combos = (xs: number[], k: number): number[][] =>
+export const combos = (xs: number[], k: number): number[][] =>
   k === 0 ? [[]] : xs.length < k ? [] : [...combos(xs.slice(1), k - 1).map((c) => [xs[0], ...c]), ...combos(xs.slice(1), k)];
 /** Ordered ways to write `total` as `parts` positive whole numbers. */
 const splits = (total: number, parts: number): number[][] =>
   parts === 1 ? [[total]] : range(total - parts + 1).flatMap((i) => splits(total - i - 1, parts - 1).map((r) => [i + 1, ...r]));
 
 /** The polygon: faint circle + outline, the vertex dots, and the centre dot. */
-const Ngon: React.FC<{ g: Geo; start?: number; centre?: string; dim?: number; showCentre?: boolean }> = ({ g, start, centre = C.ink, dim = 1, showCentre = true }) => {
+export const Ngon: React.FC<{ g: Geo; start?: number; centre?: string; dim?: number; showCentre?: boolean }> = ({ g, start, centre = C.ink, dim = 1, showCentre = true }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pts = range(g.n).map((k) => onCircle(g, k));
@@ -52,7 +53,7 @@ const Ngon: React.FC<{ g: Geo; start?: number; centre?: string; dim?: number; sh
 };
 
 /** The chosen quadrilateral (or triangle), drawn on in circle order. */
-const Shape: React.FC<{ g: Geo; set: number[]; color: string; progress?: number; opacity?: number }> = ({ g, set, color, progress = 1, opacity = 1 }) =>
+export const Shape: React.FC<{ g: Geo; set: number[]; color: string; progress?: number; opacity?: number }> = ({ g, set, color, progress = 1, opacity = 1 }) =>
   opacity <= 0 || progress <= 0 ? null : (
     <g opacity={opacity}>
       <Poly pts={[...set].sort((a, b) => a - b).map((k) => onCircle(g, k))} color={color} width={7} fill={color} fillOpacity={0.18} progress={progress} />
@@ -64,7 +65,7 @@ const Shape: React.FC<{ g: Geo; set: number[]; color: string; progress?: number;
   );
 
 /** A thick arc along the circle, clockwise from vertex a for `steps` steps. */
-const Arc: React.FC<{ g: Geo; a: number; steps: number; color: string; opacity: number; r?: number; width?: number }> = ({ g, a, steps, color, opacity, r, width = 14 }) => {
+export const Arc: React.FC<{ g: Geo; a: number; steps: number; color: string; opacity: number; r?: number; width?: number }> = ({ g, a, steps, color, opacity, r, width = 14 }) => {
   if (opacity <= 0) return null;
   const rr = r ?? g.R + 22;
   const trim = 0.14;
@@ -75,7 +76,7 @@ const Arc: React.FC<{ g: Geo; a: number; steps: number; color: string; opacity: 
 };
 
 /** A shaded half of the circle, starting at vertex a and going clockwise for 180 degrees. */
-const Half: React.FC<{ g: Geo; a: number; opacity: number; color?: string }> = ({ g, a, opacity, color = C.violet }) => {
+export const Half: React.FC<{ g: Geo; a: number; opacity: number; color?: string }> = ({ g, a, opacity, color = C.violet }) => {
   if (opacity <= 0) return null;
   const t0 = ang(g, a);
   const r = g.R + 40;
@@ -90,14 +91,14 @@ const Half: React.FC<{ g: Geo; a: number; opacity: number; color?: string }> = (
 };
 
 /** Ring around vertex k. */
-const Ring: React.FC<{ g: Geo; k: number; color: string; opacity: number }> = ({ g, k, color, opacity }) => {
+export const Ring: React.FC<{ g: Geo; k: number; color: string; opacity: number }> = ({ g, k, color, opacity }) => {
   if (opacity <= 0) return null;
   const [x, y] = onCircle(g, k);
   return <circle cx={x} cy={y} r={24} fill="none" stroke={color} strokeWidth={6} opacity={opacity} />;
 };
 
 /** SVG text at a point. */
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' | 'end' }> = ({ p, text, color = C.ink, size = 48, opacity = 1, anchor = 'middle' }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' | 'end' }> = ({ p, text, color = C.ink, size = 48, opacity = 1, anchor = 'middle' }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor={anchor} dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
@@ -105,12 +106,12 @@ const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opac
   );
 
 /** Label just outside the circle, at step position k (may be fractional). */
-const Outside: React.FC<{ g: Geo; k: number; text: string; color?: string; opacity: number; d?: number; size?: number }> = ({ g, k, text, color, opacity, d = 62, size = 48 }) => (
+export const Outside: React.FC<{ g: Geo; k: number; text: string; color?: string; opacity: number; d?: number; size?: number }> = ({ g, k, text, color, opacity, d = 62, size = 48 }) => (
   <Label p={onCircle(g, k, g.R + d)} text={text} color={color} opacity={opacity} size={size} />
 );
 
 /** Gap sizes around a set (in circle order, starting at its smallest vertex). */
-const gapsOf = (set: number[], n: number) => {
+export const gapsOf = (set: number[], n: number) => {
   const s = [...set].sort((a, b) => a - b);
   return s.map((v, i) => mod(s[(i + 1) % s.length] - v, n) || n);
 };
@@ -164,7 +165,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['260', '390', '455', '520', '715'];
+export const CHOICES = ['260', '390', '455', '520', '715'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -310,7 +311,7 @@ const Miss: SceneComponent = ({ scene }) => {
   );
 };
 
-const NEXT6 = combos([1, 2, 3, 4, 5, 6], 3);
+export const NEXT6 = combos([1, 2, 3, 4, 5, 6], 3);
 
 const Count: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -561,10 +562,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Outside g={g} k={0} text="first" color={C.violet} opacity={1} d={46} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 2, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 2, 0.2)} seed={3} />
     </>
   );

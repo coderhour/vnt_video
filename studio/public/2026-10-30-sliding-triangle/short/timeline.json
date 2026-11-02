@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1574,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 270,
+   "lines": [
+    {
+     "text": "Copy a triangle, and slide the copy to the right.",
+     "caption": "Copy a triangle, and slide the copy to the right.",
+     "file": "2026-10-30-sliding-triangle/short/audio/54b59dbba2de5e4d.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "How much of the copy sticks out? Lots of kids say twenty-four. That's wrong!",
+     "caption": "How much of the copy sticks out? Lots of kids say twenty-four. That's wrong!",
+     "file": "2026-10-30-sliding-triangle/short/audio/7b3696f13433f5cd.wav",
+     "from": 110,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 270,
+   "frames": 241,
+   "lines": [
+    {
+     "text": "The legs are twelve and nine, and the copy slides four to the right.",
+     "caption": "The legs are twelve and nine, and the copy slides four to the right.",
+     "file": "2026-10-30-sliding-triangle/short/audio/8d332421da333efe.wav",
+     "from": 0,
+     "frames": 116
+    },
+    {
+     "text": "What is the area of the shaded part of the copy?",
+     "caption": "What is the area of the shaded part of the copy?",
+     "file": "2026-10-30-sliding-triangle/short/audio/5b9586a237924810.wav",
+     "from": 125,
+     "frames": 83
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 511,
+   "frames": 167,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-sliding-triangle/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 53
+    }
+   ]
+  },
+  {
+   "id": "overlap",
+   "kind": "scene",
+   "chapter": null,
+   "from": 678,
+   "frames": 413,
+   "lines": [
+    {
+     "text": "Here's the trick. The whole copy has area fifty-four.",
+     "caption": "Here's the trick. The whole copy has area fifty-four.",
+     "file": "2026-10-30-sliding-triangle/short/audio/f7fd76b664e14f88.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "The overlap is a smaller copy of the same shape.",
+     "caption": "The overlap is a smaller copy of the same shape.",
+     "file": "2026-10-30-sliding-triangle/short/audio/3b174335a6c8d6d8.wav",
+     "from": 128,
+     "frames": 105
+    },
+    {
+     "text": "Its bottom is eight out of twelve, so its height is six. Its area is twenty-four.",
+     "caption": "Its bottom is eight out of twelve, so its height is six. Its area is twenty-four.",
+     "file": "2026-10-30-sliding-triangle/short/audio/76285a621ac6cebb.wav",
+     "from": 243,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1091,
+   "frames": 195,
+   "lines": [
+    {
+     "text": "Fifty-four minus twenty-four is thirty!",
+     "caption": "Fifty-four minus twenty-four is thirty!",
+     "file": "2026-10-30-sliding-triangle/short/audio/e950730a9b5c8d81.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "Twenty-four was just the overlap.",
+     "caption": "Twenty-four was just the overlap.",
+     "file": "2026-10-30-sliding-triangle/short/audio/78042b1cf2ac7d4f.wav",
+     "from": 94,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1286,
+   "frames": 288,
+   "lines": [
+    {
+     "text": "Why is it a smaller copy? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Why is it a smaller copy? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-30-sliding-triangle/short/audio/367030ad2f185089.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-sliding-triangle/short/audio/82b8b7e1a12a7449.wav",
+     "from": 168,
+     "frames": 52
+    }
+   ]
+  }
+ ]
+}

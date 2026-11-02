@@ -1,0 +1,54 @@
+{
+ "title": "Four Triangles in a Trapezoid (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Two diagonals cut a trapezoid into four triangles. We know just ONE area!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Top six, bottom ten, shaded triangle nine. What's the whole area?",
+    "Here are the choices."
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "similar",
+   "lines": [
+    "Top and bottom are copies, sides six and ten: a three to five ratio.",
+    "Areas grow by the ratio twice. Nine times five over three, times five over three, is twenty-five.",
+    "The side triangles share the top one's height. Nine times five over three: fifteen each.",
+    "Now add: nine, twenty-five, fifteen, fifteen."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "The trapezoid has area sixty-four!",
+    "That's choice D."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why are they copies? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

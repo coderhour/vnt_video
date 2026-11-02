@@ -6,11 +6,12 @@ import { Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-half-circle-petals';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (maths coordinates, y grows UPWARD) ----------
 // The square is [0, S] x [0, S] with (0, 0) at the bottom-left on screen. Each half circle has one side as
@@ -21,19 +22,19 @@ const D2R = Math.PI / 180;
 type Mapper = (p: Pt) => Pt;
 
 /** Maths coords → pixels: (ox, oy) is the square's bottom-left corner on screen, `unit` px per 1. */
-const plane = (ox: number, oy: number, unit: number): Mapper => (p) => [ox + p[0] * unit, oy - p[1] * unit];
+export const plane = (ox: number, oy: number, unit: number): Mapper => (p) => [ox + p[0] * unit, oy - p[1] * unit];
 
 /** Points on a circle from angle a0 to a1 (degrees, maths orientation). */
-const arc = (c: Pt, r: number, a0: number, a1: number, n = 64): Pt[] =>
+export const arc = (c: Pt, r: number, a0: number, a1: number, n = 64): Pt[] =>
   range(n + 1).map((i) => {
     const a = (a0 + ((a1 - a0) * i) / n) * D2R;
     return [c[0] + r * Math.cos(a), c[1] + r * Math.sin(a)];
   });
 
-const path = (pts: Pt[], m: Mapper, close = true) => `M ${pts.map((p) => m(p).map((v) => v.toFixed(2)).join(' ')).join(' L ')}${close ? ' Z' : ''}`;
+export const path = (pts: Pt[], m: Mapper, close = true) => `M ${pts.map((p) => m(p).map((v) => v.toFixed(2)).join(' ')).join(' L ')}${close ? ' Z' : ''}`;
 
 /** The four half circles: centre (midpoint of a side) and the angle range that stays inside the square. */
-const halves = (S: number) => {
+export const halves = (S: number) => {
   const r = S / 2;
   return [
     { c: [r, 0] as Pt, a0: 0, a1: 180 }, // bottom
@@ -45,7 +46,7 @@ const halves = (S: number) => {
 
 /** Petal k (corner k: bottom-left, bottom-right, top-right, top-left): lens of the two half circles meeting there. */
 const CORNERS = [[0, 0], [1, 0], [1, 1], [0, 1]] as const;
-const petal = (S: number, k: number): Pt[] => {
+export const petal = (S: number, k: number): Pt[] => {
   const r = S / 2;
   const corner: Pt = [CORNERS[k][0] * S, CORNERS[k][1] * S];
   const mid: Pt = [r, r];
@@ -61,11 +62,11 @@ const petal = (S: number, k: number): Pt[] => {
   return [...piece(cs[0], corner, mid), ...piece(cs[1], mid, corner).slice(1)];
 };
 
-const square = (S: number): Pt[] => [[0, 0], [S, 0], [S, S], [0, S]];
+export const square = (S: number): Pt[] => [[0, 0], [S, 0], [S, S], [0, S]];
 
 // colours: shaded part = violet, petals = white, highlights
-const SHADE = C.violet;
-const SHADE_OP = 0.32;
+export const SHADE = C.violet;
+export const SHADE_OP = 0.32;
 
 // ---------- the figure ----------
 
@@ -84,14 +85,14 @@ type FigProps = {
   opacity?: number;
 };
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="central" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
     </text>
   );
 
-const Figure: React.FC<FigProps> = ({
+export const Figure: React.FC<FigProps> = ({
   m, S = 4, draw = [1, 1, 1, 1], shade = 1, petalHi = [0, 0, 0, 0], petalHiColor = C.green, halfHi = [0, 0, 0, 0], halfColors = [C.blue, C.amber, C.primary, C.red], shadeHi = 0, sideLabel, labelOpacity = 1, opacity = 1,
 }) => {
   if (opacity <= 0) return null;
@@ -172,7 +173,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['16 - 4\\pi', '32 - 8\\pi', '8\\pi - 16', '16 - 2\\pi', '48 - 8\\pi'];
+export const CHOICES = ['16 - 4\\pi', '32 - 8\\pi', '8\\pi - 16', '16 - 2\\pi', '48 - 8\\pi'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -620,10 +621,7 @@ const Recap: SceneComponent = ({ scene }) => {
           {COUNT_SPOTS_2.map((p, i) => <Label key={i} p={m(p)} text="2" color={C.green} size={48} />)}
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, cue(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={cue(scene, 2, 0.1)} />
       <Confetti x={960} y={380} start={cue(scene, 2, 0.2)} seed={3} />
     </>
   );

@@ -1,0 +1,54 @@
+{
+ "title": "Two Buttons, One Target (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "A calculator with two keys: plus one, and double.",
+    "Three to ninety in the FEWEST presses!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The screen shows three. One key adds one, the other doubles.",
+    "What's the fewest presses to make ninety?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "back",
+   "lines": [
+    "Work backwards! Doubling becomes halving, and plus one becomes minus one.",
+    "Halve when you can. If it's odd, take one away first.",
+    "Forty-five, forty-four, twenty-two, eleven, ten, five, four, three!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Count the arrows, not the numbers. Eight presses!",
+    "Count the numbers instead, and you'd say nine."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Can anything beat eight? The full lesson proves it, and shows every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

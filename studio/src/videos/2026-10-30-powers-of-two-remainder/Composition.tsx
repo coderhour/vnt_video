@@ -6,17 +6,18 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-powers-of-two-remainder';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // 1 + 2 + 2^2 + ... + 2^99 = 2^100 - 1 (same number verify.py checks).
-const TOTAL = '1267650600228229401496703205375';
+export const TOTAL = '1267650600228229401496703205375';
 
 /** One colour per remainder, used everywhere a remainder shows. */
-const REM: Record<number, string> = { 0: C.muted, 1: C.primary, 2: C.violet, 3: C.amber, 4: C.blue };
+export const REM: Record<number, string> = { 0: C.muted, 1: C.primary, 2: C.violet, 3: C.amber, 4: C.blue };
 
 // ---------- small helpers ----------
 
@@ -32,7 +33,7 @@ const Eq: React.FC<{ x: number; y: number; tex: string; start: number; size?: nu
 };
 
 /** Round remainder chip. */
-const Chip: React.FC<{ r: number; d?: number; style?: React.CSSProperties; ring?: number }> = ({ r, d = 92, style, ring = 0 }) => (
+export const Chip: React.FC<{ r: number; d?: number; style?: React.CSSProperties; ring?: number }> = ({ r, d = 92, style, ring = 0 }) => (
   <div style={{ width: d, height: d, borderRadius: '50%', background: REM[r], color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: d * 0.6, fontWeight: 900, boxShadow: ring > 0 ? `0 0 0 ${8 * ring}px rgba(245,159,10,${0.9 * ring})` : 'none', ...style }}>
     {r}
   </div>
@@ -143,7 +144,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['0', '1', '2', '4', '6'];
+export const CHOICES = ['0', '1', '2', '4', '6'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -502,10 +503,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Chip r={1} d={110} style={{ boxShadow: `0 0 0 8px ${C.amber}` }} />
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep spotting patterns!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep spotting patterns!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

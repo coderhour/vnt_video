@@ -1,0 +1,29 @@
+{
+ "title": "No Three in a Row (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Flip a coin eight times. Will the same side come up three times in a row?",
+   "It happens almost three times out of four!"
+  ]},
+  {"id": "question", "lines": [
+   "A fair coin is flipped eight times.",
+   "What is the chance the same side never comes up three times in a row?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "table", "lines": [
+   "Count the good strings, one flip at a time. One flip has two. Two flips have four.",
+   "Here's the pattern. Each count is the sum of the two before it!",
+   "Six, ten, sixteen, twenty-six, forty-two, sixty-eight!"
+  ]},
+  {"id": "reveal", "lines": [
+   "Sixty-eight good strings, out of two hundred fifty-six. That's seventeen over sixty-four, choice D!",
+   "Only about twenty-seven percent. So three in a row is really common!"
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why does it work? The full lesson shows two methods, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

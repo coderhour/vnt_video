@@ -6,18 +6,19 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-centroid-parallel';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (screen px, y down) ----------
 
-type Tri = { A: Pt; B: Pt; C: Pt; M: Pt; L: Pt; P: Pt; G: Pt; E: Pt; F: Pt };
-const lerp = (a: Pt, b: Pt, t: number): Pt => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
-const add = (p: Pt, dx: number, dy: number): Pt => [p[0] + dx, p[1] + dy];
-const mkTri = (A: Pt, B: Pt, Cc: Pt): Tri => ({
+export type Tri = { A: Pt; B: Pt; C: Pt; M: Pt; L: Pt; P: Pt; G: Pt; E: Pt; F: Pt };
+export const lerp = (a: Pt, b: Pt, t: number): Pt => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
+export const add = (p: Pt, dx: number, dy: number): Pt => [p[0] + dx, p[1] + dy];
+export const mkTri = (A: Pt, B: Pt, Cc: Pt): Tri => ({
   A, B, C: Cc,
   M: lerp(B, Cc, 0.5),
   L: lerp(A, Cc, 0.5),
@@ -32,21 +33,21 @@ const PANEL = 1150;
 
 // ---------- drawing helpers ----------
 
-const Lab: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
+export const Lab: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={9}>
       {text}
     </text>
   );
 
-const Ln: React.FC<{ a: Pt; b: Pt; color?: string; width?: number; p?: number; dashed?: boolean; opacity?: number }> = ({ a, b, color = C.ink, width = 5, p = 1, dashed, opacity = 1 }) =>
+export const Ln: React.FC<{ a: Pt; b: Pt; color?: string; width?: number; p?: number; dashed?: boolean; opacity?: number }> = ({ a, b, color = C.ink, width = 5, p = 1, dashed, opacity = 1 }) =>
   p <= 0 || opacity <= 0 ? null : dashed ? (
     <line x1={a[0]} y1={a[1]} x2={a[0] + (b[0] - a[0]) * p} y2={a[1] + (b[1] - a[1]) * p} stroke={color} strokeWidth={width} strokeLinecap="round" strokeDasharray="14 12" opacity={opacity} />
   ) : (
     <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={color} strokeWidth={width} strokeLinecap="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - p} opacity={opacity} />
   );
 
-const Dot: React.FC<{ p: Pt; color?: string; r?: number; opacity?: number }> = ({ p, color = C.ink, r = 10, opacity = 1 }) => (opacity <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r} fill={color} opacity={opacity} />);
+export const Dot: React.FC<{ p: Pt; color?: string; r?: number; opacity?: number }> = ({ p, color = C.ink, r = 10, opacity = 1 }) => (opacity <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r} fill={color} opacity={opacity} />);
 
 /** n small equal-mark strokes across segment a-b at fraction t. */
 const Tk: React.FC<{ a: Pt; b: Pt; t?: number; n?: number; color?: string; opacity: number; len?: number }> = ({ a, b, t = 0.5, n = 1, color = C.ink, opacity, len = 15 }) => {
@@ -135,7 +136,7 @@ const TexAt: React.FC<{ x: number; y: number; tex: string; size?: number; color?
   );
 
 /** Triangle outline + labels A B C, drawn on as `draw` goes 0..1. */
-const Outline: React.FC<{ g: Tri; draw?: number }> = ({ g, draw = 1 }) => (
+export const Outline: React.FC<{ g: Tri; draw?: number }> = ({ g, draw = 1 }) => (
   <>
     <Poly pts={[g.A, g.B, g.C]} color={C.ink} width={6} progress={draw} />
     <Lab p={add(g.A, 0, -44)} text="A" opacity={draw} />
@@ -145,7 +146,7 @@ const Outline: React.FC<{ g: Tri; draw?: number }> = ({ g, draw = 1 }) => (
 );
 
 /** The three dashed medians. */
-const Meds: React.FC<{ g: Tri; am?: number; bl?: number; cp?: number; color?: string; width?: number }> = ({ g, am = 1, bl = 1, cp = 1, color = C.muted, width = 5 }) => (
+export const Meds: React.FC<{ g: Tri; am?: number; bl?: number; cp?: number; color?: string; width?: number }> = ({ g, am = 1, bl = 1, cp = 1, color = C.muted, width = 5 }) => (
   <>
     <Ln a={g.A} b={g.M} p={am} dashed color={color} width={width} />
     <Ln a={g.B} b={g.L} p={bl} dashed color={color} width={width} />
@@ -154,13 +155,13 @@ const Meds: React.FC<{ g: Tri; am?: number; bl?: number; cp?: number; color?: st
 );
 
 /** Label beside AC / AB, pushed outside. */
-const outAC = (g: Tri, t: number, off = 52): Pt => {
+export const outAC = (g: Tri, t: number, off = 52): Pt => {
   const d: Pt = [g.C[0] - g.A[0], g.C[1] - g.A[1]];
   const l = Math.hypot(d[0], d[1]);
   const p = lerp(g.A, g.C, t);
   return [p[0] + (d[1] / l) * off, p[1] - (d[0] / l) * off];
 };
-const outAB = (g: Tri, t: number, off = 52): Pt => {
+export const outAB = (g: Tri, t: number, off = 52): Pt => {
   const d: Pt = [g.B[0] - g.A[0], g.B[1] - g.A[1]];
   const l = Math.hypot(d[0], d[1]);
   const p = lerp(g.A, g.B, t);
@@ -251,7 +252,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['8', '12', '16', '18', '20'];
+export const CHOICES = ['8', '12', '16', '18', '20'];
 
 /** Bank figure: ABC, dashed medians, G, EF, E and F, and 24. */
 const BankFig: React.FC<{ g: Tri; draw: number; meds: number; gOp: number; efOp: number; twenty4?: string; yellow?: number }> = ({ g, draw, meds, gOp, efOp, twenty4 = C.ink }) => (
@@ -773,10 +774,7 @@ const Recap: SceneComponent = ({ scene }) => {
         </Text>
         <Eq y={615} start={at(scene, 2, 0.4)} size={58} color={C.violet} tex={'EF = \\dfrac{2}{3}\\,BC'} />
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

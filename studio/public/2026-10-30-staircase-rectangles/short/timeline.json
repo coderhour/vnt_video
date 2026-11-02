@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1674,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 261,
+   "lines": [
+    {
+     "text": "Fifteen little squares make a staircase. Lots of kids say fifteen rectangles.",
+     "caption": "Fifteen little squares make a staircase. Lots of kids say fifteen rectangles.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/d4ec6c42c1381021.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "But the real answer is way BIGGER!",
+     "caption": "But the real answer is way BIGGER!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/9e579a83c1453015.wav",
+     "from": 164,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 261,
+   "frames": 205,
+   "lines": [
+    {
+     "text": "How many rectangles of any size are in the stairs? Squares count too.",
+     "caption": "How many rectangles of any size are in the stairs? Squares count too.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/38fa84c10963d17f.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "Here are the choices.",
+     "caption": "Here are the choices.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/4c700db2f68259a7.wav",
+     "from": 128,
+     "frames": 44
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 466,
+   "frames": 153,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 40
+    }
+   ]
+  },
+  {
+   "id": "corner",
+   "kind": "scene",
+   "chapter": null,
+   "from": 619,
+   "frames": 602,
+   "lines": [
+    {
+     "text": "Every rectangle is set by two squares: its top-right, and its bottom-left.",
+     "caption": "Every rectangle is set by two squares: its top-right, and its bottom-left.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/53f9469ef6b93279.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "Take the top-right square in column three, row two.",
+     "caption": "Take the top-right square in column three, row two.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/da61dcd3ae89300e.wav",
+     "from": 152,
+     "frames": 100
+    },
+    {
+     "text": "The bottom-left can be anywhere in this block: three times two, so six rectangles!",
+     "caption": "The bottom-left can be anywhere in this block: three times two, so six rectangles!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/77e1ebaa0f0c6b9a.wav",
+     "from": 262,
+     "frames": 174
+    },
+    {
+     "text": "So write column times row in every square, and add each column.",
+     "caption": "So write column times row in every square, and add each column.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/bfffdf97616617a4.wav",
+     "from": 447,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1221,
+   "frames": 176,
+   "lines": [
+    {
+     "text": "Seventy rectangles!",
+     "caption": "Seventy rectangles!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/c5a29b9468779e72.wav",
+     "from": 0,
+     "frames": 62
+    },
+    {
+     "text": "That's way more than fifteen!",
+     "caption": "That's way more than fifteen!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/7c1b1f34c1779099.wav",
+     "from": 71,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1397,
+   "frames": 277,
+   "lines": [
+    {
+     "text": "Why does the trick work? The full lesson shows two ways, plus every trap.",
+     "caption": "Why does the trick work? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/865e0caba2f30583.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/82b8b7e1a12a7449.wav",
+     "from": 155,
+     "frames": 53
+    }
+   ]
+  }
+ ]
+}

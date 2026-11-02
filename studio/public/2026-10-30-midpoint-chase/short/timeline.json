@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1669,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 266,
+   "lines": [
+    {
+     "text": "Two points on a number line: zero and sixty-four.",
+     "caption": "Two points on a number line: zero and sixty-four.",
+     "file": "2026-10-30-midpoint-chase/short/audio/5e70c2e5023fd45d.wav",
+     "from": 0,
+     "frames": 99
+    },
+    {
+     "text": "Each new point is halfway between the last two. Where does the tenth land?",
+     "caption": "Each new point is halfway between the last two. Where does the tenth land?",
+     "file": "2026-10-30-midpoint-chase/short/audio/fafaaa0ff40bd33b.wav",
+     "from": 109,
+     "frames": 134
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 266,
+   "frames": 278,
+   "lines": [
+    {
+     "text": "The first point is zero, the second is sixty-four.",
+     "caption": "The first point is zero, the second is sixty-four.",
+     "file": "2026-10-30-midpoint-chase/short/audio/94c9ae17cf2867d9.wav",
+     "from": 0,
+     "frames": 104
+    },
+    {
+     "text": "Each later point is the midpoint of the last two. Where is the tenth?",
+     "caption": "Each later point is the midpoint of the last two. Where is the tenth?",
+     "file": "2026-10-30-midpoint-chase/short/audio/a8ad4d29bd55a74a.wav",
+     "from": 114,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 544,
+   "frames": 152,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-midpoint-chase/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 39
+    }
+   ]
+  },
+  {
+   "id": "jumps",
+   "kind": "scene",
+   "chapter": null,
+   "from": 696,
+   "frames": 482,
+   "lines": [
+    {
+     "text": "Here's the trick. Watch the jumps: sixty-four right, thirty-two left, sixteen right.",
+     "caption": "Here's the trick. Watch the jumps: sixty-four right, thirty-two left, sixteen right.",
+     "file": "2026-10-30-midpoint-chase/short/audio/1199a1141fd11981.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "Each jump is half the last one, and it flips direction!",
+     "caption": "Each jump is half the last one, and it flips direction!",
+     "file": "2026-10-30-midpoint-chase/short/audio/159cf45982dc4598.wav",
+     "from": 156,
+     "frames": 106
+    },
+    {
+     "text": "Then eight left, four right, two left, one right, a half left, a quarter right.",
+     "caption": "Then eight left, four right, two left, one right, a half left, a quarter right.",
+     "file": "2026-10-30-midpoint-chase/short/audio/465ce8715f58fecb.wav",
+     "from": 272,
+     "frames": 186
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1178,
+   "frames": 238,
+   "lines": [
+    {
+     "text": "Closer and closer, the tenth point lands at forty-two and three quarters!",
+     "caption": "Closer and closer, the tenth point lands at forty-two and three quarters!",
+     "file": "2026-10-30-midpoint-chase/short/audio/4d19fa845c5defc1.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "That's Choice C.",
+     "caption": "That's Choice C.",
+     "file": "2026-10-30-midpoint-chase/short/audio/1421a23b18fdc9f6.wav",
+     "from": 155,
+     "frames": 50
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1416,
+   "frames": 253,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-midpoint-chase/short/audio/5a466bf8b2983070.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-midpoint-chase/short/audio/82b8b7e1a12a7449.wav",
+     "from": 158,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

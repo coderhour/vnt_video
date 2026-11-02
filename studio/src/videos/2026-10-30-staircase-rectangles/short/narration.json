@@ -1,0 +1,55 @@
+{
+ "title": "Rectangles in a Staircase (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Fifteen little squares make a staircase. Lots of kids say fifteen rectangles.",
+    "But the real answer is way BIGGER!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "How many rectangles of any size are in the stairs? Squares count too.",
+    "Here are the choices."
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "corner",
+   "lines": [
+    "Every rectangle is set by two squares: its top-right, and its bottom-left.",
+    "Take the top-right square in column three, row two.",
+    "The bottom-left can be anywhere in this block: three times two, so six rectangles!",
+    "So write column times row in every square, and add each column."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Seventy rectangles!",
+    "That's way more than fifteen!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why does the trick work? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

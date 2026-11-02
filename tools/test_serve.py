@@ -1,3 +1,4 @@
+import tempfile
 from serve import parse_range
 
 assert parse_range("bytes=0-", 100) == (0, 99)
@@ -25,5 +26,22 @@ print("ok")
 import youtube
 assert youtube.tags({"question_id": "amc_practice_amc10_algebra_template:c4-067"})[0] == "AMC 10"
 assert youtube.tags({"tags": ["x"]}) == ["x"]
+assert youtube.short_description({"youtube_id": "abc", "short": {"description": "Full: {full_video_url}"}}) == "Full: https://www.youtube.com/watch?v=abc"
+assert youtube.short_description({"youtube_id": "abc", "short": {"description": "Hi"}}) == "Hi\n\nFull lesson: https://www.youtube.com/watch?v=abc"
+with tempfile.TemporaryDirectory() as tmp:  # full video not on YouTube yet -> refused before any upload
+    real_root, youtube.ROOT = youtube.ROOT, Path(tmp)
+    (Path(tmp) / "videos/s").mkdir(parents=True)
+    (Path(tmp) / "videos/s/meta.json").write_text('{"short": {"title": "t"}}')
+    try:
+        youtube.upload_short("s")
+        raise AssertionError("short uploaded before the full video")
+    except RuntimeError as e:
+        assert "full video first" in str(e)
+    assert youtube.add_to_playlist("s") is False  # not on YouTube yet -> nothing to add, no API call
+    (Path(tmp) / "videos/s/meta.json").write_text('{"youtube_id": "v", "playlist_id": "p"}')
+    assert youtube.add_to_playlist("s") is False  # already in its playlist
+    youtube.ROOT = real_root
 assert not serve.valid_slug("../videos") and not serve.valid_slug(None)
+assert "utm_campaign=x-y" in youtube.footer("x-y", "video") and "{" not in youtube.footer("x-y", "short")
+assert youtube.contest({"question_id": "amc_practice_amc8_x:c1"}) == "AMC 8"
 print("ok youtube")

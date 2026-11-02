@@ -1,0 +1,29 @@
+{
+ "title": "Polygon Right Angles (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Two square corners, and every other corner is one hundred sixty degrees.",
+   "Don't add up angles. Go for a walk!"
+  ]},
+  {"id": "question", "lines": [
+   "Two corners are ninety degrees. All the others are one hundred sixty.",
+   "How many sides does it have?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "walk", "lines": [
+   "Walk around the outside. Your turns always add up to three hundred sixty degrees.",
+   "A square corner turns you ninety. A one hundred sixty corner turns you only twenty.",
+   "Square corners use up one hundred eighty. The rest comes in turns of twenty: nine corners!"
+  ]},
+  {"id": "reveal", "lines": [
+   "Nine plus the two square corners is eleven sides!",
+   "Nearly flat corners take lots of sides to go around."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Want to see why? The full lesson has two neat ways and every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 0.8}
+ ]
+}

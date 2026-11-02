@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1830,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 277,
+   "lines": [
+    {
+     "text": "A point inside a rectangle, joined to all four corners.",
+     "caption": "A point inside a rectangle, joined to all four corners.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/08dc435d802bfe88.wav",
+     "from": 0,
+     "frames": 104
+    },
+    {
+     "text": "Three triangle areas are known. Can you find the fourth, without knowing where the point is?",
+     "caption": "Three triangle areas are known. Can you find the fourth, without knowing where the point is?",
+     "file": "2026-10-30-point-in-rectangle/short/audio/89dbfec7f2746d62.wav",
+     "from": 114,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 277,
+   "frames": 282,
+   "lines": [
+    {
+     "text": "The bottom, right and top triangles have areas fifteen, twenty-two and twenty-five.",
+     "caption": "The bottom, right and top triangles have areas fifteen, twenty-two and twenty-five.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/fa3ffcf2c1daea09.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "What is the area of the left triangle?",
+     "caption": "What is the area of the left triangle?",
+     "file": "2026-10-30-point-in-rectangle/short/audio/084bfbc02c496e6a.wav",
+     "from": 175,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 559,
+   "frames": 159,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 45
+    }
+   ]
+  },
+  {
+   "id": "pairs",
+   "kind": "scene",
+   "chapter": null,
+   "from": 718,
+   "frames": 465,
+   "lines": [
+    {
+     "text": "Look at the bottom and top triangles together. Their heights stack up to the full height.",
+     "caption": "Look at the bottom and top triangles together. Their heights stack up to the full height.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/508d9b7e70d6b15a.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "So together, they make exactly HALF the rectangle!",
+     "caption": "So together, they make exactly HALF the rectangle!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/148c42b7bfe7a5bb.wav",
+     "from": 158,
+     "frames": 114
+    },
+    {
+     "text": "Fifteen plus twenty-five is forty. So the left and right pair must make forty too.",
+     "caption": "Fifteen plus twenty-five is forty. So the left and right pair must make forty too.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/5e76d809c1bad7d1.wav",
+     "from": 282,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1183,
+   "frames": 354,
+   "lines": [
+    {
+     "text": "Forty, take away twenty-two, is eighteen. The left triangle is eighteen, choice C!",
+     "caption": "Forty, take away twenty-two, is eighteen. The left triangle is eighteen, choice C!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/2748eed6e56471df.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "And the point can be anywhere. Opposite triangles always make half!",
+     "caption": "And the point can be anywhere. Opposite triangles always make half!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/a3d3b75dc1b07d45.wav",
+     "from": 165,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1537,
+   "frames": 293,
+   "lines": [
+    {
+     "text": "Why is it always half? The full lesson shows two ways, plus every trap.",
+     "caption": "Why is it always half? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/642b885e67b4be95.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/82b8b7e1a12a7449.wav",
+     "from": 168,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

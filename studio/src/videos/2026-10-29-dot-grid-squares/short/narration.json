@@ -1,0 +1,31 @@
+{
+ "title": "Can You Find All the Squares? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Twenty dots. How many squares?",
+   "Most kids say twenty. But there are MORE hiding!"
+  ]},
+  {"id": "question", "lines": [
+   "Twenty dots, in four rows of five.",
+   "Count every square with dot corners. Tilted ones too!",
+   "Is it twenty, twenty-four, twenty-six, thirty, or forty?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "tilt", "lines": [
+   "First, the upright squares. There are twenty.",
+   "But look at this one, standing on its corner!",
+   "Every two by two box hides one. That's six more.",
+   "And four big tilted ones. Twenty, plus six, plus four."
+  ]},
+  {"id": "reveal", "lines": [
+   "Thirty squares!",
+   "A third of them are tilted. Easy to miss!"
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Want the exact working? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

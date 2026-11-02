@@ -6,11 +6,12 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-rectangle-midpoint-area';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (maths coordinates, y up) ----------
 // A = (0, 0) bottom-left, B = (W, 0) bottom-right, C = (W, H) top-right, D = (0, H) top-left,
@@ -21,11 +22,11 @@ const geo = (W: number, H: number, cm: number): Geo => {
   const t = W / (W + cm); // AP / AC (PAB is W / cm times PCM)
   return { W, H, cm, A: [0, 0], B: [W, 0], C: [W, H], D: [0, H], M: [W - cm, H], P: [t * W, t * H] };
 };
-const Q = geo(12, 8, 6); // the question: P = (8, 16/3)
+export const Q = geo(12, 8, 6); // the question: P = (8, 16/3)
 const V = geo(15, 8, 5); // the variant:  P = (45/4, 6)
 
 /** Maths coords → pixels: (ox, oy) is A on screen, `unit` px per 1. */
-const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
+export const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
 type Map = (p: Pt) => Pt;
 
 // The working figure used by most scenes: 54 px per unit, A at (150, 780) → rectangle 648 × 432.
@@ -34,7 +35,7 @@ const PANEL = 960;
 
 // ---------- small drawing helpers ----------
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
@@ -103,7 +104,7 @@ const Eq: React.FC<{ y: number; tex: string; start: number; x?: number; size?: n
 };
 
 /** The rectangle with its diagonal, BM and the shaded region. Goes inside a <Stage>. */
-const Figure: React.FC<{
+export const Figure: React.FC<{
   g: Geo; m: Map; draw?: number; lines?: number; shade?: number; shadeColor?: string; letters?: number; dims?: number; half?: number; letterSize?: number; children?: React.ReactNode;
 }> = ({ g, m, draw = 1, lines = 1, shade = 1, shadeColor = C.primary, letters = 1, dims = 1, half = 0, letterSize = 48, children }) => {
   const rect: Pt[] = [g.A, g.B, g.C, g.D];
@@ -142,8 +143,8 @@ const Figure: React.FC<{
 };
 
 /** The two similar triangles: PCM (top, red) and PAB (bottom, blue). */
-const TOP = (g: Geo): Pt[] => [g.P, g.C, g.M];
-const BOT = (g: Geo): Pt[] => [g.P, g.A, g.B];
+export const TOP = (g: Geo): Pt[] => [g.P, g.C, g.M];
+export const BOT = (g: Geo): Pt[] => [g.P, g.A, g.B];
 
 // ---------- scenes ----------
 
@@ -175,7 +176,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['40', '44', '48', '52', '56'];
+export const CHOICES = ['40', '44', '48', '52', '56'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -269,7 +270,7 @@ const Big: SceneComponent = ({ scene }) => {
 };
 
 /** Similar-triangle overlays on the main figure. */
-const SimilarMarks: React.FC<{ g: Geo; m: Map; tri: number; angles: number; heights: number; parts: number}> = ({ g, m, tri, angles, heights, parts }) => {
+export const SimilarMarks: React.FC<{ g: Geo; m: Map; tri: number; angles: number; heights: number; parts: number}> = ({ g, m, tri, angles, heights, parts }) => {
   const [P, Cc, M, A, B] = [m(g.P), m(g.C), m(g.M), m(g.A), m(g.B)];
   const bx = m(g.C)[0] + 30;
   return (
@@ -604,10 +605,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Poly pts={BOT(Q).map(m)} color={C.blue} width={4} fill={C.blue} fillOpacity={0.2} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

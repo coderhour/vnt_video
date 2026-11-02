@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1658,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 272,
+   "lines": [
+    {
+     "text": "Two square corners, and every other corner is one hundred sixty degrees.",
+     "caption": "Two square corners, and every other corner is one hundred sixty degrees.",
+     "file": "2026-10-31-polygon-right-angles/short/audio/bbd643a951ed8573.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "Don't add up angles. Go for a walk!",
+     "caption": "Don't add up angles. Go for a walk!",
+     "file": "2026-10-31-polygon-right-angles/short/audio/f154c2c942e58b2c.wav",
+     "from": 154,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 272,
+   "frames": 213,
+   "lines": [
+    {
+     "text": "Two corners are ninety degrees. All the others are one hundred sixty.",
+     "caption": "Two corners are ninety degrees. All the others are one hundred sixty.",
+     "file": "2026-10-31-polygon-right-angles/short/audio/8d1cc836052d27e1.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "How many sides does it have?",
+     "caption": "How many sides does it have?",
+     "file": "2026-10-31-polygon-right-angles/short/audio/5a2e283e5176e64b.wav",
+     "from": 132,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 485,
+   "frames": 165,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-polygon-right-angles/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "kind": "scene",
+   "chapter": null,
+   "from": 650,
+   "frames": 494,
+   "lines": [
+    {
+     "text": "Walk around the outside. Your turns always add up to three hundred sixty degrees.",
+     "caption": "Walk around the outside. Your turns always add up to three hundred sixty degrees.",
+     "file": "2026-10-31-polygon-right-angles/short/audio/1bd7aef1efbf9792.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "A square corner turns you ninety. A one hundred sixty corner turns you only twenty.",
+     "caption": "A square corner turns you ninety. A one hundred sixty corner turns you only twenty.",
+     "file": "2026-10-31-polygon-right-angles/short/audio/8867d7e177b8f26a.wav",
+     "from": 148,
+     "frames": 153
+    },
+    {
+     "text": "Square corners use up one hundred eighty. The rest comes in turns of twenty: nine corners!",
+     "caption": "Square corners use up one hundred eighty. The rest comes in turns of twenty: nine corners!",
+     "file": "2026-10-31-polygon-right-angles/short/audio/e9ca47ac25acb608.wav",
+     "from": 311,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1144,
+   "frames": 263,
+   "lines": [
+    {
+     "text": "Nine plus the two square corners is eleven sides!",
+     "caption": "Nine plus the two square corners is eleven sides!",
+     "file": "2026-10-31-polygon-right-angles/short/audio/050c107b82ece263.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "Nearly flat corners take lots of sides to go around.",
+     "caption": "Nearly flat corners take lots of sides to go around.",
+     "file": "2026-10-31-polygon-right-angles/short/audio/e36df0d60a356426.wav",
+     "from": 115,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1407,
+   "frames": 251,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson has two neat ways and every trap.",
+     "caption": "Want to see why? The full lesson has two neat ways and every trap.",
+     "file": "2026-10-31-polygon-right-angles/short/audio/189edcd4e99ec8dd.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-polygon-right-angles/short/audio/82b8b7e1a12a7449.wav",
+     "from": 144,
+     "frames": 59
+    }
+   ]
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
 import { clamp, ease } from './anim';
+import { GRAD } from './Brand';
 import { NUNITO } from './fonts';
 import { C } from './theme';
 
@@ -49,9 +50,15 @@ const Captions: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
   return null;
 };
 
-/** Static Vantee logo, bottom-left: a watermark only, no motion. */
+/** Static Vantee logo with "Vantee.ai" under it, bottom-left: a watermark only, no motion. */
 const Watermark: React.FC = () => (
-  <Img src={staticFile('brand/logo.svg')} style={{ position: 'absolute', left: 40, bottom: 20, height: 220 }} />
+  <div style={{ position: 'absolute', left: 40, bottom: 34, width: 220, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Img src={staticFile('brand/logo.svg')} style={{ height: 180, marginBottom: -14 }} />
+    <div style={{ fontSize: 34, fontWeight: 900, lineHeight: 1, letterSpacing: -0.5 }}>
+      <span style={{ background: GRAD, WebkitBackgroundClip: 'text', color: 'transparent' }}>Vantee</span>
+      <span style={{ color: C.primary }}>.ai</span>
+    </div>
+  </div>
 );
 
 const ChapterPill: React.FC<{ timeline: Timeline; badge: string }> = ({ timeline, badge }) => {

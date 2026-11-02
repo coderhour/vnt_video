@@ -1,0 +1,12 @@
+{
+ "title": "100 Square-Root Fractions, No Calculator | AMC 10-Style Level 4",
+ "description": "What is the whole-number part of 1/√1 + 1/√2 + … + 1/√100? Vantee shows how to trap the sum between a floor and a ceiling by growing squares, then gives a quick algebra version for test day. You will see why 19 and 20 are tempting traps, and get a 10,000-term challenge to try yourself.\n\n0:00 Intro\n0:20 The question\n0:42 What are we asked?\n1:11 Try it yourself\n1:26 Solution 1: grow a square\n2:51 Solution 1: the ceiling\n4:05 Solution 2: the algebra shortcut\n4:50 Common traps\n5:32 Your turn: ten thousand terms\n6:05 Ten thousand terms: the answer\n6:41 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-01",
+ "question_id": "amc_practice_amc10_algebra_template:c2-021",
+ "posts": [],
+ "short": {
+  "title": "100 Square Roots, No Calculator? #Shorts",
+  "description": "Add 100 fractions with square roots and find the whole part, with no calculator.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "title": "When Does 3^n End in 01? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Three, nine, twenty-seven, eighty-one. Powers of three grow fast!",
+    "Can one end in zero one?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "What is the smallest n, so three to the n ends in zero one?",
+    "Here are the choices."
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "jump",
+   "lines": [
+    "The last digit loops: three, nine, seven, one. So only every fourth power ends in one.",
+    "Three to the fourth is eighty-one. Four powers later, the tens digit drops by two.",
+    "Sixty-one, forty-one, twenty-one, and then zero one!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Five jumps of four powers. So n is twenty!",
+    "Check: three to the twentieth ends in zero one."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why does it drop? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

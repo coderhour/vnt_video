@@ -6,15 +6,16 @@ import { Stage, XMark, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-ant-on-cube';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- the cube (cavalier projection, screen y grows downward) ----------
 
-const P: Record<string, Pt> = {
+export const P: Record<string, Pt> = {
   A: [260, 720], B: [580, 720], D: [260, 400], E: [420, 590],
   C: [580, 400], F: [740, 590], H: [420, 270], G: [740, 270],
 };
@@ -35,7 +36,7 @@ const CORNERS = 'ABCDEFGH'.split('');
 type Es = { c: string; o?: number; w?: number };
 type Dot = { c: string; txt?: string; r?: number };
 
-const Cube: React.FC<{
+export const Cube: React.FC<{
   draw?: number;
   edges?: Record<string, Es>;
   dots?: Record<string, Dot>;
@@ -86,11 +87,11 @@ const Cube: React.FC<{
   </>
 );
 
-const lerp = (a: Pt, b: Pt, t: number): Pt => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
+export const lerp = (a: Pt, b: Pt, t: number): Pt => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
 
-type Mv = { t: number; to: string; d?: number };
+export type Mv = { t: number; to: string; d?: number };
 /** Ant position: starts on `start`, then slides along an edge for each move (corner to corner). */
-const antAt = (f: number, start: string, moves: Mv[]): Pt => {
+export const antAt = (f: number, start: string, moves: Mv[]): Pt => {
   let cur = start;
   for (const m of moves) {
     const d = m.d ?? 18;
@@ -101,7 +102,7 @@ const antAt = (f: number, start: string, moves: Mv[]): Pt => {
   return P[cur];
 };
 
-const Ant: React.FC<{ p: Pt; zzz?: number; opacity?: number }> = ({ p, zzz = 0, opacity = 1 }) => {
+export const Ant: React.FC<{ p: Pt; zzz?: number; opacity?: number }> = ({ p, zzz = 0, opacity = 1 }) => {
   const f = useCurrentFrame();
   const bob = Math.sin(f / 5) * 1.5;
   return (
@@ -126,14 +127,14 @@ const Ant: React.FC<{ p: Pt; zzz?: number; opacity?: number }> = ({ p, zzz = 0, 
 };
 
 /** A route drawn as a polyline through corners, progress 0..1. */
-const Route: React.FC<{ path: string; p: number; color?: string; opacity?: number; width?: number }> = ({ path, p, color = C.green, opacity = 1, width = 16 }) =>
+export const Route: React.FC<{ path: string; p: number; color?: string; opacity?: number; width?: number }> = ({ path, p, color = C.green, opacity = 1, width = 16 }) =>
   p <= 0 || opacity <= 0 ? null : (
     <polyline points={path.split('').map((k) => P[k].join(',')).join(' ')} fill="none" stroke={color} strokeWidth={width} strokeLinecap="round" strokeLinejoin="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - p} opacity={opacity} />
   );
 
 const pulse = (f: number, s: number) => Math.max(0, 1 - Math.abs(f - s - 10) / 10);
 
-const PulseRing: React.FC<{ at: Pt; f: number; start: number; color: string }> = ({ at: p, f, start, color }) => {
+export const PulseRing: React.FC<{ at: Pt; f: number; start: number; color: string }> = ({ at: p, f, start, color }) => {
   const t = (f - start) / 24;
   if (t < 0 || t > 1) return null;
   return <circle cx={p[0]} cy={p[1]} r={16 + t * 34} fill="none" stroke={color} strokeWidth={6} opacity={1 - t} />;
@@ -178,7 +179,7 @@ const Slot: React.FC<{ x: number; y: number; n: number; tex?: string; start: num
 
 const SLOT_X = [PANEL, PANEL + 310, PANEL + 620];
 
-const CHOICES = ['\\dfrac{1}{27}', '\\dfrac{1}{9}', '\\dfrac{2}{9}', '\\dfrac{1}{3}', '\\dfrac{4}{9}'];
+export const CHOICES = ['\\dfrac{1}{27}', '\\dfrac{1}{9}', '\\dfrac{2}{9}', '\\dfrac{1}{3}', '\\dfrac{4}{9}'];
 
 const Chips: React.FC<{ x: number; y: number; start: (i: number) => number; win?: number; winAt?: number; dim?: boolean }> = ({ x, y, start, win = -1, winAt = 0, dim = false }) => {
   const f = useCurrentFrame();
@@ -686,10 +687,7 @@ const Recap: SceneComponent = ({ scene }) => {
         ))}
         <Text x={960} y={720} w={1500} size={50} weight={900} align="center" color={C.green} style={fadeUp(f, at(scene, 2, 0.5))}>Multiply the chances along the path</Text>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

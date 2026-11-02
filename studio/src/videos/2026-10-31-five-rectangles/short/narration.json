@@ -1,0 +1,54 @@
+{
+ "title": "Five Rectangles (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Five rectangles, perimeter sixty-six, no side lengths!",
+    "Find the area of one?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Five identical rectangles make one big rectangle.",
+    "Its perimeter is sixty-six. What's the area of one small rectangle?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "kind": "pause",
+   "hold": 3
+  },
+  {
+   "id": "blocks",
+   "lines": [
+    "Look! Two long sides on top match three short sides below.",
+    "Say short is two blocks, long is three. Both rows are six blocks wide!",
+    "Around is twenty-two blocks. Sixty-six over twenty-two: one block is three!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Short is six, long is nine. The area is fifty-four!",
+    "No side lengths needed!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

@@ -6,13 +6,14 @@ import { Poly, Stage, XMark, type Pt } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-perimeter-24-triangles';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const COLS = [C.primary, C.violet, C.blue, C.amber]; // c = 11, 10, 9, 8
+export const COLS = [C.primary, C.violet, C.blue, C.amber]; // c = 11, 10, 9, 8
 const COLX = (i: number) => 100 + i * 450;
 
 // ---------- small helpers ----------
@@ -38,7 +39,7 @@ const Card: React.FC<{ x: number; y: number; w: number; h: number; start: number
   );
 };
 
-const CHOICES = ['10', '11', '12', '13', '19'];
+export const CHOICES = ['10', '11', '12', '13', '19'];
 const Chips: React.FC<{ x: number; y: number; start: (i: number) => number }> = ({ x, y, start }) => {
   const f = useCurrentFrame();
   return (
@@ -54,7 +55,7 @@ const Chips: React.FC<{ x: number; y: number; start: (i: number) => number }> = 
 };
 
 /** Triangle with sides a <= b <= c lying on a base of length c whose left end is at (x, y). Pixel coords. */
-const triPts = (a: number, b: number, c: number, u: number, x: number, y: number): Pt[] => {
+export const triPts = (a: number, b: number, c: number, u: number, x: number, y: number): Pt[] => {
   const px = (b * b + c * c - a * a) / (2 * c);
   const h = Math.sqrt(Math.max(0, b * b - px * px));
   return [[x, y], [x + c * u, y], [x + px * u, y - h * u]];
@@ -333,7 +334,7 @@ const Floor: SceneComponent = ({ scene }) => {
   );
 };
 
-const LIST: { c: number; sum: number; rows: Row[] }[] = [
+export const LIST: { c: number; sum: number; rows: Row[] }[] = [
   { c: 11, sum: 13, rows: [[2, 11], [3, 10], [4, 9], [5, 8], [6, 7]] },
   { c: 10, sum: 14, rows: [[4, 10], [5, 9], [6, 8], [7, 7]] },
   { c: 9, sum: 15, rows: [[6, 9], [7, 8]] },
@@ -561,10 +562,7 @@ const Recap: SceneComponent = ({ scene }) => {
           </div>
         ))}
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

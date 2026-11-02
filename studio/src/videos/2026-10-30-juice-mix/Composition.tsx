@@ -6,17 +6,18 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-juice-mix';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const JUICE = '#ff9f1c';
-const WATER = '#4cc9f0';
-const JD = '#e08600'; // darker juice, for text
-const WD = '#168fbf'; // darker water, for text
-const BASE = 824; // bottom of every beaker
+export const JUICE = '#ff9f1c';
+export const WATER = '#4cc9f0';
+export const JD = '#e08600'; // darker juice, for text
+export const WD = '#168fbf'; // darker water, for text
+export const BASE = 824; // bottom of every beaker
 const SC = 24; // px per liter
 const B1 = 140;
 const B2 = 560;
@@ -32,7 +33,7 @@ type BP = {
   head?: [string, string]; headOp?: number; op?: number; dashed?: boolean; tint?: number; tintJ?: number; grey?: number; wShift?: number;
 };
 
-const Beaker: React.FC<BP> = ({ x, w = BW, sc = SC, total, j = 0, wt = 0, jp = 0, wp = 0, jl = 0, wl = 0, jText, wText, jAdd = 0, wAdd = 0, head, headOp = 1, op = 1, dashed = false, tint = 0, tintJ = 0.5, grey = 0, wShift = 0 }) => {
+export const Beaker: React.FC<BP> = ({ x, w = BW, sc = SC, total, j = 0, wt = 0, jp = 0, wp = 0, jl = 0, wl = 0, jText, wText, jAdd = 0, wAdd = 0, head, headOp = 1, op = 1, dashed = false, tint = 0, tintJ = 0.5, grey = 0, wShift = 0 }) => {
   const H = total * sc;
   const hj = j * sc * jp;
   const hw = wt * sc * wp;
@@ -163,7 +164,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['0', '1', '2', '4', '5'];
+export const CH = ['0', '1', '2', '4', '5'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -438,10 +439,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Eq y={470} start={at(scene, 2, 0.35)} size={54} tex={`${cJ('\\text{juice: need} - \\text{have} = \\text{add}')}`} />
         <Eq y={570} start={at(scene, 2, 0.65)} size={54} tex={`${cW('\\text{water: need} - \\text{have} = \\text{add}')}`} />
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

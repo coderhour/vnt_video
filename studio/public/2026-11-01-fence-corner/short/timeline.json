@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1734,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 271,
+   "lines": [
+    {
+     "text": "Twelve units of fence, bent once, tucked into a corner.",
+     "caption": "Twelve units of fence, bent once, tucked into a corner.",
+     "file": "2026-11-01-fence-corner/short/audio/14acd37a9ff5b1e4.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Most kids make a square. But a square is NOT the best!",
+     "caption": "Most kids make a square. But a square is NOT the best!",
+     "file": "2026-11-01-fence-corner/short/audio/eacd912b45590799.wav",
+     "from": 129,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 271,
+   "frames": 276,
+   "lines": [
+    {
+     "text": "Two walls meet at a right angle. A two-piece fence, total length twelve, joins them.",
+     "caption": "Two walls meet at a right angle. A two-piece fence, total length twelve, joins them.",
+     "file": "2026-11-01-fence-corner/short/audio/f60ecc95c096a9db.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "What's the largest area it can enclose?",
+     "caption": "What's the largest area it can enclose?",
+     "file": "2026-11-01-fence-corner/short/audio/c44f0a761de3c359.wav",
+     "from": 165,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 547,
+   "frames": 155,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-fence-corner/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 41
+    }
+   ]
+  },
+  {
+   "id": "mirror",
+   "kind": "scene",
+   "chapter": null,
+   "from": 702,
+   "frames": 518,
+   "lines": [
+    {
+     "text": "Here's the trick. Treat each wall like a mirror.",
+     "caption": "Here's the trick. Treat each wall like a mirror.",
+     "file": "2026-11-01-fence-corner/short/audio/7b923393f4ca88f4.wav",
+     "from": 0,
+     "frames": 98
+    },
+    {
+     "text": "Reflect the region across both walls, and the corner disappears.",
+     "caption": "Reflect the region across both walls, and the corner disappears.",
+     "file": "2026-11-01-fence-corner/short/audio/e1609cd48dcdd0db.wav",
+     "from": 108,
+     "frames": 125
+    },
+    {
+     "text": "Now the fence is a closed octagon, four times our area.",
+     "caption": "Now the fence is a closed octagon, four times our area.",
+     "file": "2026-11-01-fence-corner/short/audio/f090bc4605c7dcf4.wav",
+     "from": 243,
+     "frames": 111
+    },
+    {
+     "text": "The best octagon is the regular one. And our fence makes it!",
+     "caption": "The best octagon is the regular one. And our fence makes it!",
+     "file": "2026-11-01-fence-corner/short/audio/733242903a8d87ac.wav",
+     "from": 364,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1220,
+   "frames": 321,
+   "lines": [
+    {
+     "text": "Our region is a quarter of it. The answer is <short pause> Choice B!",
+     "caption": "Our region is a quarter of it. The answer is Choice B!",
+     "file": "2026-11-01-fence-corner/short/audio/6e6aae35f9b9dffc.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "About forty-three and a half. The square only gets thirty-six!",
+     "caption": "About forty-three and a half. The square only gets thirty-six!",
+     "file": "2026-11-01-fence-corner/short/audio/861cd7e9a9577fa8.wav",
+     "from": 160,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1541,
+   "frames": 193,
+   "lines": [
+    {
+     "text": "The full lesson shows every trap. Tap the link below to watch it!",
+     "caption": "The full lesson shows every trap. Tap the link below to watch it!",
+     "file": "2026-11-01-fence-corner/short/audio/090dc1015b1e291c.wav",
+     "from": 0,
+     "frames": 124
+    }
+   ]
+  }
+ ]
+}

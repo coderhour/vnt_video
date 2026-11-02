@@ -1,0 +1,54 @@
+{
+ "title": "Isosceles Angle Chase (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Two isosceles triangles, one angle given.",
+    "Find the angle at the top!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A B equals A C, and B D equals B C. Angle A B D is twenty-four degrees.",
+    "What is angle A at the top?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "kind": "pause",
+   "hold": 3
+  },
+  {
+   "id": "chase",
+   "lines": [
+    "Call the top angle a. The outside angle B D C equals a plus twenty-four.",
+    "Angle C matches it, and so does angle A B C.",
+    "All three angles of the big triangle: three a plus forty-eight equals one hundred eighty."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Three a is one hundred thirty-two. So a is forty-four degrees!",
+    "The twenty-four is the trap!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Is there another way? The full lesson shows two, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

@@ -6,14 +6,15 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-girls-apart';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const GIRL = '#e2478f';
-const BOY = C.blue;
+export const GIRL = '#e2478f';
+export const BOY = C.blue;
 const P = (f: number, st: number) => pop(f, st, 30);
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
@@ -81,7 +82,7 @@ const Parts: React.FC<{ x: number; y: number; parts: [string, number][]; size?: 
   );
 };
 
-const CH = ['\\dfrac{1}{14}', '\\dfrac{5}{28}', '\\dfrac{5}{14}', '\\dfrac{3}{8}', '\\dfrac{1}{2}'];
+export const CH = ['\\dfrac{1}{14}', '\\dfrac{5}{28}', '\\dfrac{5}{14}', '\\dfrac{3}{8}', '\\dfrac{1}{2}'];
 
 const ChoiceRow: React.FC<{ x: number; y: number; start: (i: number) => number; hi?: number; hiAt?: number }> = ({ x, y, start, hi, hiAt = Infinity }) => {
   const f = useCurrentFrame();
@@ -806,10 +807,7 @@ const Recap: SceneComponent = ({ scene }) => {
           ))}
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

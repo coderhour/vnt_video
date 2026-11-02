@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1649,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 173,
+   "lines": [
+    {
+     "text": "A made-up star rule, a chain of four fractions, and one sneaky trap!",
+     "caption": "A made-up star rule, a chain of four fractions, and one sneaky trap!",
+     "file": "2026-10-30-star-operation/short/audio/6abf85bee8afd7ab.wav",
+     "from": 0,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 173,
+   "frames": 225,
+   "lines": [
+    {
+     "text": "Star means a plus b, over one plus a times b.",
+     "caption": "Star means a plus b, over one plus a times b.",
+     "file": "2026-10-30-star-operation/short/audio/0604a9f7ec2e41bb.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "What's the value of the whole chain?",
+     "caption": "What's the value of the whole chain?",
+     "file": "2026-10-30-star-operation/short/audio/585c92f8237d8564.wav",
+     "from": 128,
+     "frames": 64
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 398,
+   "frames": 168,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-star-operation/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 54
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "kind": "scene",
+   "chapter": null,
+   "from": 566,
+   "frames": 553,
+   "lines": [
+    {
+     "text": "The trick: score each number as one plus it, over one minus it.",
+     "caption": "The trick: score each number as one plus it, over one minus it.",
+     "file": "2026-10-30-star-operation/short/audio/909dbfabe51ec3db.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "Our four numbers score three, two, five over three, and three over two.",
+     "caption": "Our four numbers score three, two, five over three, and three over two.",
+     "file": "2026-10-30-star-operation/short/audio/84a9de0c914d5054.wav",
+     "from": 149,
+     "frames": 153
+    },
+    {
+     "text": "The magic: star two numbers, and their scores multiply!",
+     "caption": "The magic: star two numbers, and their scores multiply!",
+     "file": "2026-10-30-star-operation/short/audio/99d22aa67f9a533e.wav",
+     "from": 312,
+     "frames": 123
+    },
+    {
+     "text": "Multiply the four scores, and you get fifteen.",
+     "caption": "Multiply the four scores, and you get fifteen.",
+     "file": "2026-10-30-star-operation/short/audio/d9d61b371c615de2.wav",
+     "from": 445,
+     "frames": 84
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1119,
+   "frames": 240,
+   "lines": [
+    {
+     "text": "Turn fifteen back, and the answer is seven over eight!",
+     "caption": "Turn fifteen back, and the answer is seven over eight!",
+     "file": "2026-10-30-star-operation/short/audio/07e2d27db40a9ae7.wav",
+     "from": 0,
+     "frames": 116
+    },
+    {
+     "text": "Five over seven is only step one.",
+     "caption": "Five over seven is only step one.",
+     "file": "2026-10-30-star-operation/short/audio/5bb6abe6af576cda.wav",
+     "from": 126,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1359,
+   "frames": 290,
+   "lines": [
+    {
+     "text": "Why do scores multiply? The full lesson shows both ways, plus every trap.",
+     "caption": "Why do scores multiply? The full lesson shows both ways, plus every trap.",
+     "file": "2026-10-30-star-operation/short/audio/8941bd46c81e8e47.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-star-operation/short/audio/82b8b7e1a12a7449.wav",
+     "from": 164,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

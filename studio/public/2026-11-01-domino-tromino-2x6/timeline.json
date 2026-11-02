@@ -1,0 +1,492 @@
+{
+ "fps": 30,
+ "durationInFrames": 12575,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 581,
+   "lines": [
+    {
+     "text": "Cover a two by six board with dominoes. There are exactly thirteen ways.",
+     "caption": "Cover a two by six board with dominoes. There are exactly thirteen ways.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/4925b30f94572888.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Next, add an L-shaped tile. How many ways now? Most kids lose count fast.",
+     "caption": "Next, add an L-shaped tile. How many ways now? Most kids lose count fast.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/e022ea018f3aaf36.wav",
+     "from": 177,
+     "frames": 212
+    },
+    {
+     "text": "Hello, I'm Vantee. Today we'll count without losing our place!",
+     "caption": "Hello, I'm Vantee. Today we'll count without losing our place!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/9882dca04d6eeb6a.wav",
+     "from": 399,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 581,
+   "frames": 791,
+   "lines": [
+    {
+     "text": "In how many ways can a two by six board be covered, with no gaps or overlaps,",
+     "caption": "In how many ways can a two by six board be covered, with no gaps or overlaps,",
+     "file": "2026-11-01-domino-tromino-2x6/audio/761cf5d755aa7e8b.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "using one by two dominoes, and L-shaped trominoes made of three squares? Pieces may be turned.",
+     "caption": "using one by two dominoes, and L-shaped trominoes made of three squares? Pieces may be turned.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/d4be7a13776e8ca9.wav",
+     "from": 219,
+     "frames": 210
+    },
+    {
+     "text": "Here are the five choices: thirteen, fifty, fifty-three, fifty-nine, and one hundred seventeen.",
+     "caption": "Here are the five choices: thirteen, fifty, fifty-three, fifty-nine, and one hundred seventeen.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/d59c7a24697fcaaa.wav",
+     "from": 440,
+     "frames": 298
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1372,
+   "frames": 651,
+   "lines": [
+    {
+     "text": "A board two squares tall, six long. That's twelve squares.",
+     "caption": "A board two squares tall, six long. That's twelve squares.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/2b5cdd4abd33c51f.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "A domino covers two squares. An L tromino covers three, and it can be turned four ways.",
+     "caption": "A domino covers two squares. An L tromino covers three, and it can be turned four ways.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/45846f3686c21867.wav",
+     "from": 167,
+     "frames": 224
+    },
+    {
+     "text": "Every square gets covered exactly once. And a cover with only dominoes still counts.",
+     "caption": "Every square gets covered exactly once. And a cover with only dominoes still counts.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/bce86c381729f6e0.wav",
+     "from": 400,
+     "frames": 197
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2023,
+   "frames": 479,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "sol1-cases",
+   "kind": "scene",
+   "chapter": "Solution 1: the top-left square",
+   "from": 2502,
+   "frames": 1703,
+   "lines": [
+    {
+     "text": "Welcome back! Here's the strategy: some tile must cover the top-left square. Which one?",
+     "caption": "Welcome back! Here's the strategy: some tile must cover the top-left square. Which one?",
+     "file": "2026-11-01-domino-tromino-2x6/audio/c51bc3fbcd362dd9.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "A standing domino leaves a two by five board.",
+     "caption": "A standing domino leaves a two by five board.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/5ac0036e8d4d7b1a.wav",
+     "from": 225,
+     "frames": 110
+    },
+    {
+     "text": "A lying domino on top needs a lying twin under it. Nothing else fits. That leaves two by four.",
+     "caption": "A lying domino on top needs a lying twin under it. Nothing else fits. That leaves two by four.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/a0837795a4a7accd.wav",
+     "from": 345,
+     "frames": 238
+    },
+    {
+     "text": "Or an L. Only two L tiles work. This third one would trap the square below it.",
+     "caption": "Or an L. Only two L tiles work. This third one would trap the square below it.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/a5e4c5b1cff07157.wav",
+     "from": 593,
+     "frames": 192
+    },
+    {
+     "text": "Each good L leaves one square sticking out. A lying domino can fill it, and the bump moves along.",
+     "caption": "Each good L leaves one square sticking out. A lying domino can fill it, and the bump moves along.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/4f60fa9ea2b76b7e.wav",
+     "from": 796,
+     "frames": 220
+    },
+    {
+     "text": "Or a second L tile fills it, and closes the block.",
+     "caption": "Or a second L tile fills it, and closes the block.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/daa205db90999a34.wav",
+     "from": 1026,
+     "frames": 144
+    },
+    {
+     "text": "So an L starts one zigzag: an L, some lying dominoes, then an L. It can be three to six long.",
+     "caption": "So an L starts one zigzag: an L, some lying dominoes, then an L. It can be three to six long.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/e2169a3a18be6b69.wav",
+     "from": 1180,
+     "frames": 248
+    },
+    {
+     "text": "Each zigzag has a mirror twin, flipped top to bottom. So there are two of every length.",
+     "caption": "Each zigzag has a mirror twin, flipped top to bottom. So there are two of every length.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/347d6a565c2a2198.wav",
+     "from": 1438,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "sol1-table",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4205,
+   "frames": 2135,
+   "lines": [
+    {
+     "text": "Let's fill a table, from short to long.",
+     "caption": "Let's fill a table, from short to long.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/3d82578963cfe28f.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "If a zigzag fills the whole board, that's one way. So length zero counts as one.",
+     "caption": "If a zigzag fills the whole board, that's one way. So length zero counts as one.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/fd80843b14c96b56.wav",
+     "from": 129,
+     "frames": 168
+    },
+    {
+     "text": "Length one: one way. Length two: two standing dominoes, or a lying pair. Two ways.",
+     "caption": "Length one: one way. Length two: two standing dominoes, or a lying pair. Two ways.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/02a7c2e9e29bf163.wav",
+     "from": 308,
+     "frames": 245
+    },
+    {
+     "text": "The rule: one shorter, plus two shorter, plus double everything the zigzags leave.",
+     "caption": "The rule: one shorter, plus two shorter, plus double everything the zigzags leave.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/6a4bcd1321d0dbbd.wav",
+     "from": 563,
+     "frames": 219
+    },
+    {
+     "text": "Length three: two, plus one, plus double one. That's five.",
+     "caption": "Length three: two, plus one, plus double one. That's five.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/7788e71ca60015e7.wav",
+     "from": 792,
+     "frames": 182
+    },
+    {
+     "text": "Now length four: five, plus two, plus double one plus one. That's eleven.",
+     "caption": "Now length four: five, plus two, plus double one plus one. That's eleven.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/039fd02fb4f6110d.wav",
+     "from": 984,
+     "frames": 243
+    },
+    {
+     "text": "Length five: eleven, plus five, plus double two plus one plus one. That's twenty-four.",
+     "caption": "Length five: eleven, plus five, plus double two plus one plus one. That's twenty-four.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/2ae7d72b96092c4d.wav",
+     "from": 1237,
+     "frames": 294
+    },
+    {
+     "text": "Length six: twenty-four, plus eleven, plus double five plus two plus one plus one.",
+     "caption": "Length six: twenty-four, plus eleven, plus double five plus two plus one plus one.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/dc744ef9980373e3.wav",
+     "from": 1541,
+     "frames": 297
+    },
+    {
+     "text": "That's twenty-four plus eleven plus eighteen: fifty-three ways. That's Choice C!",
+     "caption": "That's twenty-four plus eleven plus eighteen: fifty-three ways. That's Choice C!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/876c52d7e62705ca.wav",
+     "from": 1848,
+     "frames": 233
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: flat and bumpy boards",
+   "from": 6340,
+   "frames": 2094,
+   "lines": [
+    {
+     "text": "Here's a second way: flat boards, and bumpy ones, with one extra square sticking out on the left.",
+     "caption": "Here's a second way: flat boards, and bumpy ones, with one extra square sticking out on the left.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/0d523540be981a68.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "On a flat board, a domino start leaves a flat board. An L leaves a bumpy board, two shorter.",
+     "caption": "On a flat board, a domino start leaves a flat board. An L leaves a bumpy board, two shorter.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/58459efa98a2607c.wav",
+     "from": 247,
+     "frames": 227
+    },
+    {
+     "text": "There are two good L tiles, so that bumpy count gets doubled.",
+     "caption": "There are two good L tiles, so that bumpy count gets doubled.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/0a4cabe1586172e9.wav",
+     "from": 484,
+     "frames": 138
+    },
+    {
+     "text": "On a bumpy board, cover the lonely square first. A lying domino leaves a bumpy board, one shorter.",
+     "caption": "On a bumpy board, cover the lonely square first. A lying domino leaves a bumpy board, one shorter.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/57967f4eacf6fbe3.wav",
+     "from": 633,
+     "frames": 240
+    },
+    {
+     "text": "An L instead leaves a flat board, one shorter. Add those two.",
+     "caption": "An L instead leaves a flat board, one shorter. Add those two.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/d2fca07dfc3fd584.wav",
+     "from": 883,
+     "frames": 170
+    },
+    {
+     "text": "Bumpy one is just an L shape: one way. Bumpy two is one plus one, two.",
+     "caption": "Bumpy one is just an L shape: one way. Bumpy two is one plus one, two.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/df7d32cc9be223c2.wav",
+     "from": 1063,
+     "frames": 226
+    },
+    {
+     "text": "Bumpy three is two plus two, four. Bumpy four is four plus five, nine.",
+     "caption": "Bumpy three is two plus two, four. Bumpy four is four plus five, nine.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/76283328f3d5992e.wav",
+     "from": 1299,
+     "frames": 276
+    },
+    {
+     "text": "Flat six: twenty-four, plus eleven, plus two times nine. Fifty-three again!",
+     "caption": "Flat six: twenty-four, plus eleven, plus two times nine. Fifty-three again!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/80b38b4cde938dab.wav",
+     "from": 1585,
+     "frames": 279
+    },
+    {
+     "text": "When would you pick this way? For long boards. Just two short rules!",
+     "caption": "When would you pick this way? For long boards. Just two short rules!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/6dc8eb42618b8c2d.wav",
+     "from": 1874,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8434,
+   "frames": 1142,
+   "lines": [
+    {
+     "text": "Choice A, thirteen, uses dominoes only. It forgets every cover with a tromino.",
+     "caption": "Choice A, thirteen, uses dominoes only. It forgets every cover with a tromino.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/6f9aaa438949016d.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "Without zigzags, the table goes one, two, three, five, eight, thirteen.",
+     "caption": "Without zigzags, the table goes one, two, three, five, eight, thirteen.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/287734ab7577b260.wav",
+     "from": 206,
+     "frames": 244
+    },
+    {
+     "text": "Choice E, one hundred seventeen, is the count for a two by seven board.",
+     "caption": "Choice E, one hundred seventeen, is the count for a two by seven board.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/c7fc6f47acabb8f3.wav",
+     "from": 460,
+     "frames": 171
+    },
+    {
+     "text": "Fifty-three, plus twenty-four, plus double twenty, is one hundred seventeen.",
+     "caption": "Fifty-three, plus twenty-four, plus double twenty, is one hundred seventeen.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/3f67337d4ca99a37.wav",
+     "from": 641,
+     "frames": 197
+    },
+    {
+     "text": "Choices B and D, fifty and fifty-nine, are near misses. Both ways give exactly fifty-three.",
+     "caption": "Choices B and D, fifty and fifty-nine, are near misses. Both ways give exactly fifty-three.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/3d7f170163aabbd3.wav",
+     "from": 848,
+     "frames": 234
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: add a square",
+   "from": 9576,
+   "frames": 374,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same idea, one new tile.",
+     "caption": "Ready for a challenge? Same idea, one new tile.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/eea3127e332d7c86.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "Cover a two by five board with the same tiles, AND two by two squares. How many ways?",
+     "caption": "Cover a two by five board with the same tiles, AND two by two squares. How many ways?",
+     "file": "2026-11-01-domino-tromino-2x6/audio/481cf42f5ad08455.wav",
+     "from": 127,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9950,
+   "frames": 397,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Add a square: the answer",
+   "from": 10347,
+   "frames": 1690,
+   "lines": [
+    {
+     "text": "Let's check. A square on the top-left gives a second way to start, two columns wide.",
+     "caption": "Let's check. A square on the top-left gives a second way to start, two columns wide.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/c35109aa69e94ea1.wav",
+     "from": 0,
+     "frames": 203
+    },
+    {
+     "text": "A square can't fill a bump, so the zigzags stay the same.",
+     "caption": "A square can't fill a bump, so the zigzags stay the same.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/ef4017aa2ad7e8b0.wav",
+     "from": 213,
+     "frames": 137
+    },
+    {
+     "text": "New rule: one shorter, plus TWO times two shorter, plus double the zigzag leftovers.",
+     "caption": "New rule: one shorter, plus TWO times two shorter, plus double the zigzag leftovers.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/f97225966ca0502a.wav",
+     "from": 361,
+     "frames": 239
+    },
+    {
+     "text": "Length one: one. Length two: one plus two, three. Length three: three plus two plus two, seven.",
+     "caption": "Length one: one. Length two: one plus two, three. Length three: three plus two plus two, seven.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/129a20250634172f.wav",
+     "from": 610,
+     "frames": 345
+    },
+    {
+     "text": "Now length four: seven, plus double three, plus double one plus one. That's seventeen.",
+     "caption": "Now length four: seven, plus double three, plus double one plus one. That's seventeen.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/5240ddc8289ec4d6.wav",
+     "from": 965,
+     "frames": 264
+    },
+    {
+     "text": "Length five: seventeen, plus double seven, plus double three plus one plus one. Forty-one!",
+     "caption": "Length five: seventeen, plus double seven, plus double three plus one plus one. Forty-one!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/7880e9eca3b3d136.wav",
+     "from": 1239,
+     "frames": 284
+    },
+    {
+     "text": "If you got forty-one, amazing work!",
+     "caption": "If you got forty-one, amazing work!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/e241c8fe1bac2eb4.wav",
+     "from": 1533,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12037,
+   "frames": 538,
+   "lines": [
+    {
+     "text": "To count the ways to tile a strip, ask which tile covers the first square. Then count what's left.",
+     "caption": "To count the ways to tile a strip, ask which tile covers the first square. Then count what's left.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/ce76af6b13bf1604.wav",
+     "from": 0,
+     "frames": 224
+    },
+    {
+     "text": "Build up from the short boards, one length at a time.",
+     "caption": "Build up from the short boards, one length at a time.",
+     "file": "2026-11-01-domino-tromino-2x6/audio/2be0e7af8fbcdc45.wav",
+     "from": 234,
+     "frames": 118
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-01-domino-tromino-2x6/audio/31a6054d0b03b932.wav",
+     "from": 362,
+     "frames": 123
+    }
+   ]
+  }
+ ]
+}

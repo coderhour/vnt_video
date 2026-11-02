@@ -3,5 +3,10 @@
  "description": "A string 36 units long can bend into lots of triangles, but which ones count? Learn to list them by the longest side so you never miss one or count one twice.\nThen see a clever second way: count them all and take away the ones with a repeat.\nTry the perimeter-24 challenge at the end!\n\n0:00 Intro\n0:18 The question\n0:34 What are we asked?\n0:54 Try it yourself\n1:09 Solution 1: list by the longest side\n2:41 Solution 2: count all, then subtract\n3:38 Common traps\n4:20 Your turn: perimeter 24\n4:47 Perimeter 24: the answer\n5:36 Recap",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_geometry_template:c1-578",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "A 36-Unit String: How Many Triangles? #Shorts",
+  "description": "List the triangles by their longest side and never miss one.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

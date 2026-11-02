@@ -1,7 +1,12 @@
 {
-  "title": "Two Buttons, One Target: Fewest Presses | AMC 8-Style Level 4",
-  "description": "A calculator with only two keys, +1 and ×2. Can you get from 3 to 90 in the fewest presses? Vantee shows two ways: work backwards from the target, and plan the doubles to prove nothing is shorter.\n\nThen try the same trick on a bigger target of 100.\n\n0:00 Intro\n0:19 The question\n0:43 What are we asked?\n1:00 Try it yourself\n1:15 Solution 1: work backwards\n2:37 Solution 2: plan the doubles\n4:16 Common traps\n4:50 Your turn: aim for 100\n5:19 Aim for 100: the answer\n5:58 Recap",
-  "created": "2026-10-31",
-  "question_id": "amc_practice_amc8_arithmetic_template:c1-963",
+ "title": "Two Buttons, One Target: Fewest Presses | AMC 8-Style Level 4",
+ "description": "A calculator with only two keys, +1 and ×2. Can you get from 3 to 90 in the fewest presses? Vantee shows two ways: work backwards from the target, and plan the doubles to prove nothing is shorter.\n\nThen try the same trick on a bigger target of 100.\n\n0:00 Intro\n0:19 The question\n0:43 What are we asked?\n1:00 Try it yourself\n1:15 Solution 1: work backwards\n2:37 Solution 2: plan the doubles\n4:16 Common traps\n4:50 Your turn: aim for 100\n5:19 Aim for 100: the answer\n5:58 Recap",
+ "created": "2026-10-31",
+ "question_id": "amc_practice_amc8_arithmetic_template:c1-963",
+ "posts": [],
+ "short": {
+  "title": "+1 and x2 Only: 3 to 90 in Fewest Presses #Shorts",
+  "description": "A calculator with only +1 and x2. Working backwards from 90 finds the shortest path to the answer.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
   "posts": []
+ }
 }

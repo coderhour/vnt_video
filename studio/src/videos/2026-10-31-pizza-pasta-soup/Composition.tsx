@@ -6,23 +6,24 @@ import { Stage, XMark } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-pizza-pasta-soup';
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 
-const PIZ = '#ef4343';
-const PAS = '#f08c00';
-const SOUP = '#3c83f6';
+export const PIZ = '#ef4343';
+export const PAS = '#f08c00';
+export const SOUP = '#3c83f6';
 const VIO = C.violet;
-const GREEN = C.green;
+export const GREEN = C.green;
 const PANEL = 900;
 
 const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
 
 // ---------- kid tokens ----------
 
-type Group = { from: number; to: number; color: string; start: (k: number) => number };
+export type Group = { from: number; to: number; color: string; start: (k: number) => number };
 const bump = (t: number) => (t < 0 ? 0 : Math.sin(Math.min(1, t / 14) * Math.PI));
 
 const wedge = (cx: number, cy: number, r: number, i: number, n: number) => {
@@ -38,7 +39,7 @@ type KidsProps = {
 };
 
 /** n kid tokens (numbered circles) in a grid. A tag is a coloured wedge; a kid with two tags is split in half. */
-const Kids: React.FC<KidsProps> = ({ n = 24, cols = 6, cx = 150, cy = 205, cell = 118, r = 50, groups = [], glow, appear, op = 1, fs = 48 }) => {
+export const Kids: React.FC<KidsProps> = ({ n = 24, cols = 6, cx = 150, cy = 205, cell = 118, r = 50, groups = [], glow, appear, op = 1, fs = 48 }) => {
   const f = useCurrentFrame();
   return (
     <Stage>
@@ -114,8 +115,8 @@ const QBox: React.FC<{ x?: number; y: number; w?: number; minHeight?: number; st
   );
 };
 
-type LegendItem = { label: string; color: string; start: number };
-const Legend: React.FC<{ x: number; y: number; items: LegendItem[]; size?: number; wrap?: number }> = ({ x, y, items, size = 48, wrap = 800 }) => {
+export type LegendItem = { label: string; color: string; start: number };
+export const Legend: React.FC<{ x: number; y: number; items: LegendItem[]; size?: number; wrap?: number }> = ({ x, y, items, size = 48, wrap = 800 }) => {
   const f = useCurrentFrame();
   return (
     <div style={{ position: 'absolute', left: x, top: y, width: wrap, display: 'flex', flexWrap: 'wrap', gap: 14 }}>
@@ -128,7 +129,7 @@ const Legend: React.FC<{ x: number; y: number; items: LegendItem[]; size?: numbe
   );
 };
 
-const CH = ['0', '4', '6', '14', '16'];
+export const CH = ['0', '4', '6', '14', '16'];
 
 /** Answer-choice chips. `red[i]` / `green` = frame at which that chip changes colour. */
 const ChoiceRow: React.FC<{ x: number; y: number; start?: (i: number) => number; red?: Record<number, number>; green?: number; size?: number }> = ({ x, y, start, red = {}, green, size = 58 }) => {
@@ -151,7 +152,7 @@ const ChoiceRow: React.FC<{ x: number; y: number; start?: (i: number) => number;
   );
 };
 
-const FoodBadges: React.FC<{ x: number; y: number; start: (i: number) => number }> = ({ x, y, start }) => {
+export const FoodBadges: React.FC<{ x: number; y: number; start: (i: number) => number }> = ({ x, y, start }) => {
   const f = useCurrentFrame();
   return (
     <div style={{ position: 'absolute', left: x, top: y, display: 'flex', gap: 24 }}>
@@ -174,7 +175,7 @@ const countLegend = (s: (i: number) => number): LegendItem[] => [
 ];
 
 // the arrangement from verify.py: kids 1-4 no pizza, 5-10 no pasta, 11-18 no soup, 19-24 like all three
-const groupsFor = (start: (k: number) => number): Group[] => [
+export const groupsFor = (start: (k: number) => number): Group[] => [
   { from: 1, to: 4, color: PIZ, start },
   { from: 5, to: 10, color: PAS, start },
   { from: 11, to: 18, color: SOUP, start },
@@ -475,10 +476,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Eq y={590} size={56} start={at(scene, 2, 0.6)} tex={'\\text{fewest who like ALL}'} />
         <Eq y={670} size={56} start={at(scene, 2, 0.75)} tex={'= \\text{total} - (\\text{sum of the no\'s})'} />
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={7} />
     </>
   );

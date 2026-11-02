@@ -1,0 +1,12 @@
+{
+ "title": "Dominoes and L-Trominoes on a 2×6 Board | AMC 10-Style Level 4",
+ "description": "How many ways can you cover a 2×6 board with dominoes and L-shaped trominoes? Vantee looks at the tile on the top-left square, finds the zigzag blocks, and builds the answer up from short boards in a table. Then a second method with flat and bumpy boards checks it, the traps 13 and 117 get explained, and you get a new tile to try yourself.\n\n0:00 Intro\n0:19 The question\n0:45 What are we asked?\n1:07 Try it yourself\n1:23 Solution 1: the top-left square\n3:31 Solution 2: flat and bumpy boards\n4:41 Common traps\n5:19 Your turn: add a square\n5:44 Add a square: the answer\n6:41 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-01",
+ "question_id": "amc_practice_amc10_counting_template:c2-017",
+ "posts": [],
+ "short": {
+  "title": "Dominoes plus L tiles: how many ways? #Shorts",
+  "description": "Dominoes alone cover a 2x6 board 13 ways. Add L-shaped tiles and the zigzag trick makes the count doable.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": []
+ }
+}

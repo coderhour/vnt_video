@@ -1,7 +1,13 @@
 {
-  "title": "Geometric Sequences Ending at 144: How Many? | AMC 10-Style Level 4",
-  "description": "How many increasing geometric sequences of three whole numbers end at 144? Vantee shows two ways to find them all, with every trap explained.\nPause the video and try it first, then try the ending-at-72 challenge!\n\n0:00 Intro\n0:21 The question\n0:38 What are we asked?\n1:06 Try it yourself\n1:20 Solution 1: focus on the middle\n2:54 Solution 2: the ratio as a fraction\n3:59 Common traps\n4:37 Your turn: ending at 72\n5:05 Ending at 72: the answer\n6:04 Recap",
-  "created": "2026-10-31",
-  "question_id": "amc_practice_amc10_algebra_template:c4-067",
+ "title": "Geometric Sequences Ending at 144: How Many? | AMC 10-Style Level 4",
+ "description": "How many increasing geometric sequences of three whole numbers end at 144? Vantee shows two ways to find them all, with every trap explained.\nPause the video and try it first, then try the ending-at-72 challenge!\n\n0:00 Intro\n0:21 The question\n0:38 What are we asked?\n1:06 Try it yourself\n1:20 Solution 1: focus on the middle\n2:54 Solution 2: the ratio as a fraction\n3:59 Common traps\n4:37 Your turn: ending at 72\n5:05 Ending at 72: the answer\n6:04 Recap",
+ "created": "2026-10-31",
+ "question_id": "amc_practice_amc10_algebra_template:c4-067",
+ "posts": [],
+ "short": {
+  "title": "How Many Sequences End at 144? #Shorts",
+  "description": "How many increasing geometric sequences of three whole numbers end at 144? The ratio can be a fraction. Use the trick that 144 = 12 squared!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
   "posts": []
+ },
+ "status": "ready"
 }

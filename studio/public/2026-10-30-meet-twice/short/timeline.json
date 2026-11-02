@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1675,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 236,
+   "lines": [
+    {
+     "text": "Two friends walk toward each other, pass, turn around, and meet again.",
+     "caption": "Two friends walk toward each other, pass, turn around, and meet again.",
+     "file": "2026-10-30-meet-twice/short/audio/99ad977cceb7d7ab.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "One number unlocks it: THREE!",
+     "caption": "One number unlocks it: THREE!",
+     "file": "2026-10-30-meet-twice/short/audio/2bdc213311deb0a5.wav",
+     "from": 138,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 236,
+   "frames": 332,
+   "lines": [
+    {
+     "text": "Two walkers first meet twelve kilometers from town A, then turn around at the far end.",
+     "caption": "Two walkers first meet twelve kilometers from town A, then turn around at the far end.",
+     "file": "2026-10-30-meet-twice/short/audio/f4100cf7b4883ea4.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "They meet again ten kilometers from town A. How far apart are the towns?",
+     "caption": "They meet again ten kilometers from town A. How far apart are the towns?",
+     "file": "2026-10-30-meet-twice/short/audio/fadee7622ae239bd.wav",
+     "from": 169,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 568,
+   "frames": 151,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-meet-twice/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 38
+    }
+   ]
+  },
+  {
+   "id": "three",
+   "kind": "scene",
+   "chapter": null,
+   "from": 719,
+   "frames": 464,
+   "lines": [
+    {
+     "text": "Here's the trick. At the first meeting, they've walked one road together. Ann's part is twelve.",
+     "caption": "Here's the trick. At the first meeting, they've walked one road together. Ann's part is twelve.",
+     "file": "2026-10-30-meet-twice/short/audio/71e62f7844927ce3.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "At the second meeting, that's THREE roads together. So Ann walked thirty-six.",
+     "caption": "At the second meeting, that's THREE roads together. So Ann walked thirty-six.",
+     "file": "2026-10-30-meet-twice/short/audio/1cc33891fc903583.wav",
+     "from": 170,
+     "frames": 132
+    },
+    {
+     "text": "She walked the whole road, then back to ten kilometers from town A.",
+     "caption": "She walked the whole road, then back to ten kilometers from town A.",
+     "file": "2026-10-30-meet-twice/short/audio/bf08fa6194c9716b.wav",
+     "from": 312,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1183,
+   "frames": 242,
+   "lines": [
+    {
+     "text": "So road plus road minus ten is thirty-six. The road is twenty-three kilometers!",
+     "caption": "So road plus road minus ten is thirty-six. The road is twenty-three kilometers!",
+     "file": "2026-10-30-meet-twice/short/audio/2a1831074c281181.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "That's Choice D.",
+     "caption": "That's Choice D.",
+     "file": "2026-10-30-meet-twice/short/audio/288c8c0137133946.wav",
+     "from": 166,
+     "frames": 44
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1425,
+   "frames": 250,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-meet-twice/short/audio/5a466bf8b2983070.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-meet-twice/short/audio/82b8b7e1a12a7449.wav",
+     "from": 137,
+     "frames": 59
+    }
+   ]
+  }
+ ]
+}

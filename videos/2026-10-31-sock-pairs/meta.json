@@ -3,5 +3,10 @@
  "description": "Zoe pulls 4 socks from a drawer of 5 pairs. How many sets of 4 contain a matching pair? Vantee shows why it is easier to count the sets with NO pair and subtract, then double-checks by counting the pair sets head-on. You will also see why 140 is a tempting trap, and get a six-pair drawer to try yourself.\n\n0:00 Intro\n0:18 The question\n0:39 What are we asked?\n1:01 Try it yourself\n1:16 Solution 1: all minus no-pair\n2:41 Solution 2: count the pairs directly\n3:24 Common traps\n4:21 Your turn: six pairs\n4:50 Six pairs: the answer\n5:48 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_counting_template:c1-393",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "4 Socks, 5 Pairs: How Many Sets Match? #Shorts",
+  "description": "Count the sets with no pair, then subtract.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

@@ -6,18 +6,19 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-star-operation';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 const NEVER = 1e7;
 const PH = '#0cc281'; // TOP tint
 const VH = '#7b61ff'; // BOTTOM tint
 const tp = (s: string) => `\\textcolor{${PH}}{${s}}`;
 const bt = (s: string) => `\\textcolor{${VH}}{${s}}`;
-const RULE = `a\\star b=\\dfrac{${tp('a+b')}}{${bt('1+ab')}}`;
+export const RULE = `a\\star b=\\dfrac{${tp('a+b')}}{${bt('1+ab')}}`;
 
 // ---------- building blocks ----------
 
@@ -136,7 +137,7 @@ const Tracker: React.FC<{
   );
 };
 
-const CHOICES = ['\\dfrac57', '\\dfrac{9}{11}', '\\dfrac78', '\\dfrac{14}{15}', '\\dfrac{77}{60}'];
+export const CHOICES = ['\\dfrac57', '\\dfrac{9}{11}', '\\dfrac78', '\\dfrac{14}{15}', '\\dfrac{77}{60}'];
 
 /** The five answer chips. okAt turns C green, badAt marks a wrong one red. */
 const Chips: React.FC<{ x: number; y: number; start: (i: number) => number; okAt?: number[]; badAt?: number[]; vertical?: boolean; size?: number; dim?: number }> = ({
@@ -161,7 +162,7 @@ const Chips: React.FC<{ x: number; y: number; start: (i: number) => number; okAt
   );
 };
 
-const QEXPR = '\\left(\\left(\\dfrac12\\star\\dfrac13\\right)\\star\\dfrac14\\right)\\star\\dfrac15';
+export const QEXPR = '\\left(\\left(\\dfrac12\\star\\dfrac13\\right)\\star\\dfrac14\\right)\\star\\dfrac15';
 const VEXPR = '\\left(\\left(\\dfrac13\\star\\dfrac14\\right)\\star\\dfrac15\\right)\\star\\dfrac16';
 
 // ---------- scenes ----------
@@ -670,10 +671,7 @@ const Recap: SceneComponent = ({ scene }) => {
         </div>
         <Tracker x={260} y={610} fills={[0, 0, l(2, 0.3)]} hi={l(2, 0.3)} start={l(2, 0)} />
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, l(3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 150, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 56, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={l(3, 0.1)} />
       <Confetti x={960} y={380} start={l(3, 0.2)} seed={3} />
     </>
   );

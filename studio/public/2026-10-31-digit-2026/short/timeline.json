@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1666,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 242,
+   "lines": [
+    {
+     "text": "Write every number in a row, with no spaces.",
+     "caption": "Write every number in a row, with no spaces.",
+     "file": "2026-10-31-digit-2026/short/audio/19a6845d2c6a7233.wav",
+     "from": 0,
+     "frames": 98
+    },
+    {
+     "text": "Which digit lands in spot two thousand twenty-six?",
+     "caption": "Which digit lands in spot two thousand twenty-six?",
+     "file": "2026-10-31-digit-2026/short/audio/d510cd3cad8d2b58.wav",
+     "from": 108,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 242,
+   "frames": 206,
+   "lines": [
+    {
+     "text": "One long row of digits.",
+     "caption": "One long row of digits.",
+     "file": "2026-10-31-digit-2026/short/audio/72571054458bb07f.wav",
+     "from": 0,
+     "frames": 68
+    },
+    {
+     "text": "What is the two thousand twenty-sixth digit?",
+     "caption": "What is the two thousand twenty-sixth digit?",
+     "file": "2026-10-31-digit-2026/short/audio/9aea213afd0772f5.wav",
+     "from": 78,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 448,
+   "frames": 153,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-digit-2026/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 40
+    }
+   ]
+  },
+  {
+   "id": "blocks",
+   "kind": "scene",
+   "chapter": null,
+   "from": 601,
+   "frames": 551,
+   "lines": [
+    {
+     "text": "Count in blocks! One to ninety-nine uses one hundred eighty-nine spots.",
+     "caption": "Count in blocks! One to ninety-nine uses one hundred eighty-nine spots.",
+     "file": "2026-10-31-digit-2026/short/audio/1a6ec7755e8b961a.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "That leaves one thousand eight hundred thirty-seven.",
+     "caption": "That leaves one thousand eight hundred thirty-seven.",
+     "file": "2026-10-31-digit-2026/short/audio/ec28d82714f32cb4.wav",
+     "from": 146,
+     "frames": 89
+    },
+    {
+     "text": "Three digits each: six hundred twelve numbers, remainder one.",
+     "caption": "Three digits each: six hundred twelve numbers, remainder one.",
+     "file": "2026-10-31-digit-2026/short/audio/f43ea33c2ed3c4e0.wav",
+     "from": 246,
+     "frames": 116
+    },
+    {
+     "text": "The last one is seven hundred eleven. The leftover one lands on the next number!",
+     "caption": "The last one is seven hundred eleven. The leftover one lands on the next number!",
+     "file": "2026-10-31-digit-2026/short/audio/216ef80aa73f3267.wav",
+     "from": 371,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1152,
+   "frames": 243,
+   "lines": [
+    {
+     "text": "It's the FIRST digit of seven hundred twelve: a seven!",
+     "caption": "It's the FIRST digit of seven hundred twelve: a seven!",
+     "file": "2026-10-31-digit-2026/short/audio/d567dcf59389d4f8.wav",
+     "from": 0,
+     "frames": 108
+    },
+    {
+     "text": "The remainder picks a digit of the NEXT number.",
+     "caption": "The remainder picks a digit of the NEXT number.",
+     "file": "2026-10-31-digit-2026/short/audio/7bcad996b5ead57c.wav",
+     "from": 119,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1395,
+   "frames": 271,
+   "lines": [
+    {
+     "text": "Why that exactly? The full lesson shows two ways, plus every trap.",
+     "caption": "Why that exactly? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-31-digit-2026/short/audio/699b95c071002c50.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-digit-2026/short/audio/82b8b7e1a12a7449.wav",
+     "from": 147,
+     "frames": 56
+    }
+   ]
+  }
+ ]
+}

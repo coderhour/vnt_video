@@ -1,0 +1,167 @@
+{
+ "title": "Who Gets More Heads? 5 Coins vs 7 | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Two rows of coins: Ann 5 (secondary purple rim), Bob 7 (primary green rim). L0 coins spin and land; head counts tick under each row. L1 Bob's two extra coins glow; a big '?'. L2 title card.",
+   "lines": [
+    "Bob flips seven coins, and his friend Ann flips five. Who gets more heads?",
+    "Bob has two extra coins, so he should usually win. But how often, exactly?",
+    "Hi, I'm Vantee! Today, one little flip turns a race into a single count."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.5,
+   "visual": "Prompt card left; coin rows right. L2: choice chips A–E as KaTeX fractions (no highlight).",
+   "lines": [
+    "Here's the question. Our friend Ann flips five fair coins, and Bob flips seven fair coins.",
+    "What is the probability that Bob gets more heads than Ann?",
+    "Here are the five choices. Take a good look."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "L0 'fair: H and T equally likely'. L1 'Bob's heads > Ann's heads', 'tie = not a win' with the > marked. L2 two piles merging into one (no numbers).",
+   "lines": [
+    "So what do we know? Every coin is fair: heads and tails are equally likely.",
+    "We want Bob's heads to be MORE than Ann's heads. A tie does not count.",
+    "Comparing two piles of coins is tricky. Let's see if we can turn it into ONE count."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question and choices visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "sol1-flip",
+   "chapter": "Solution 1: flip Ann's coins",
+   "hold": 1,
+   "visual": "Equation rows B > A → B > 5 − T → B + T > 5 → B + T ≥ 6. Ann's coins physically flip over (strong beat). Then 12 coins in one row.",
+   "lines": [
+    "Welcome back!",
+    "Look at Ann's coins. Her heads are five minus her tails, like three heads and two tails.",
+    "So Bob wins when his heads beat five minus Ann's tails.",
+    "Move Ann's tails across: Bob's heads plus Ann's tails is more than five, so at least six.",
+    "Now flip all of Ann's coins over. Her tails turn into heads.",
+    "Flipped fair coins are still fair coins, so every chance stays the same.",
+    "So Bob wins exactly when twelve fair coins show at least six heads."
+   ]
+  },
+  {
+   "id": "sol1-piles",
+   "hold": 1,
+   "visual": "Three-pile picture (mirrored bars). Working rows for 2^12, C(12,6), 4096 − 924, ÷ 2, 924 + 1586.",
+   "lines": [
+    "Twelve coins can land two to the twelfth ways. That's four thousand ninety-six.",
+    "Sort them into three piles: fewer than six heads, exactly six, and more than six.",
+    "The outer piles are mirror images. Swap every head and tail, and one turns into the other.",
+    "The middle pile is twelve choose six: pick which six coins show heads.",
+    "Multiply twelve down to seven, then divide by six down to one. That's nine hundred twenty-four.",
+    "Four thousand ninety-six minus nine hundred twenty-four is three thousand one hundred seventy-two.",
+    "The two outer piles share that evenly: one thousand five hundred eighty-six each.",
+    "At least six heads means the middle pile plus the top pile.",
+    "Nine hundred twenty-four plus one thousand five hundred eighty-six is two thousand five hundred ten."
+   ]
+  },
+  {
+   "id": "sol1-answer",
+   "hold": 1.5,
+   "visual": "2510/4096 = 1255/2048 answer badge, chip D green, chime at end of L1.",
+   "lines": [
+    "So the chance is two thousand five hundred ten over four thousand ninety-six.",
+    "Divide both by two: one thousand two hundred fifty-five over two thousand forty-eight. That's Choice D!"
+   ]
+  },
+  {
+   "id": "sol2",
+   "chapter": "Solution 2: fair game plus a tiebreak",
+   "hold": 1.5,
+   "visual": "Bob's 7th coin set aside. Heads/tails comparison. Tie → 11 coins, C(11,5). 1024 + 231 = 1255 over 2048.",
+   "lines": [
+    "Here's another way. Hide one of Bob's coins for now: six coins against five.",
+    "Now Bob has more heads than Ann, or more tails than Ann. Exactly one of the two!",
+    "More of neither, and he'd have five coins at most. More of both, and he'd need seven.",
+    "Heads and tails are equally likely, so Bob wins this six-coin game exactly half the time.",
+    "Now bring back coin seven. It only matters when Bob's six coins tie with Ann.",
+    "To find a tie, flip Ann's coins again. A tie means exactly five heads among eleven coins.",
+    "Eleven choose five is four hundred sixty-two, out of two to the eleventh, two thousand forty-eight.",
+    "Coin seven lands heads on half of those ties: two hundred thirty-one more wins.",
+    "One half is one thousand twenty-four over two thousand forty-eight. Add two hundred thirty-one.",
+    "One thousand two hundred fifty-five over two thousand forty-eight. Same answer!",
+    "When would you pick this way? With just one extra coin, it gives one half right away."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Chips over 2048: 793, 1024, 1150, 1255, 1651. Red trap cards per choice.",
+   "lines": [
+    "Now the traps! First, let's write all five choices over two thousand forty-eight.",
+    "Choice A is the top pile alone. That's what you'd get if exactly six heads didn't count.",
+    "Choice B, one half, is right for six coins against five. Bob's seventh coin adds the tiebreak wins.",
+    "Choice E adds the pile with exactly five heads. That's what you'd get if a tie counted as a win.",
+    "Choice C, five hundred seventy-five over one thousand twenty-four, is sneakier.",
+    "That's what you'd get if Bob's first five coins raced Ann's, and his two spares only broke ties.",
+    "But Bob can also come back from one behind, when both spares land heads!",
+    "So here's a great habit: always ask if a tie counts. MORE than, or at least?"
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: three against five",
+   "hold": 0.5,
+   "visual": "Coin rows: Ann 3, Bob 5. No original choice chips.",
+   "lines": [
+    "Ready for a challenge? Now our friend Ann flips three fair coins, and Bob flips five.",
+    "What is the probability that Bob gets more heads than Ann?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 12,
+   "visual": "Pause card, variant question visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Three against five: the answer",
+   "hold": 1.5,
+   "visual": "B + T ≥ 4 of 8; 2^8 = 256; C(8,4) = 70; 186/2 = 93; 70 + 93 = 163 → 163/256; (cross-check 128 + 35 = 163 is in verify.py only).",
+   "lines": [
+    "Let's check. Flip Ann's three coins over. Bob needs at least four heads among eight coins.",
+    "Eight coins land two to the eighth ways: two hundred fifty-six. Eight choose four is seventy.",
+    "The rest, two hundred fifty-six minus seventy, is one hundred eighty-six: ninety-three each.",
+    "At least four heads: seventy plus ninety-three is one hundred sixty-three.",
+    "The answer is one hundred sixty-three over two hundred fifty-six. If you got it, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "visual": "Summary card: coins flipping + '5 vs 7 → at least 6 of 12'.",
+   "lines": [
+    "Flip one player's coins over. Fair coins stay fair, so the chances don't change.",
+    "Then a race for more heads becomes one count, for one big pile of coins.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

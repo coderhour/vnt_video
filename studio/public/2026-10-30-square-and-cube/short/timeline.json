@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1637,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 262,
+   "lines": [
+    {
+     "text": "Twenty times n is a perfect square. Fifty times n is a perfect cube!",
+     "caption": "Twenty times n is a perfect square. Fifty times n is a perfect cube!",
+     "file": "2026-10-30-square-and-cube/short/audio/6118189b89a07fbe.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Can ONE number do both?",
+     "caption": "Can ONE number do both?",
+     "file": "2026-10-30-square-and-cube/short/audio/6daa2591de6535b1.wav",
+     "from": 170,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 262,
+   "frames": 177,
+   "lines": [
+    {
+     "text": "What is the smallest n that works?",
+     "caption": "What is the smallest n that works?",
+     "file": "2026-10-30-square-and-cube/short/audio/32a2383ebb715562.wav",
+     "from": 0,
+     "frames": 88
+    },
+    {
+     "text": "Here are the choices.",
+     "caption": "Here are the choices.",
+     "file": "2026-10-30-square-and-cube/short/audio/4c700db2f68259a7.wav",
+     "from": 99,
+     "frames": 46
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 439,
+   "frames": 163,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-square-and-cube/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 50
+    }
+   ]
+  },
+  {
+   "id": "primes",
+   "kind": "scene",
+   "chapter": null,
+   "from": 602,
+   "frames": 513,
+   "lines": [
+    {
+     "text": "Twenty is two times two times five. Fifty is two times five times five.",
+     "caption": "Twenty is two times two times five. Fifty is two times five times five.",
+     "file": "2026-10-30-square-and-cube/short/audio/a7b68057d415b4b3.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "A square needs even counts. A cube needs multiples of three.",
+     "caption": "A square needs even counts. A cube needs multiples of three.",
+     "file": "2026-10-30-square-and-cube/short/audio/7ad04ecf14a1f6ad.wav",
+     "from": 179,
+     "frames": 135
+    },
+    {
+     "text": "The twos need two copies. The fives need one. So n is two times two times five.",
+     "caption": "The twos need two copies. The fives need one. So n is two times two times five.",
+     "file": "2026-10-30-square-and-cube/short/audio/b46809b30993e0a6.wav",
+     "from": 324,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1115,
+   "frames": 257,
+   "lines": [
+    {
+     "text": "That's twenty!",
+     "caption": "That's twenty!",
+     "file": "2026-10-30-square-and-cube/short/audio/68e289a8ae547a43.wav",
+     "from": 0,
+     "frames": 42
+    },
+    {
+     "text": "Twenty times twenty is four hundred, a square. Fifty times twenty is one thousand, a cube.",
+     "caption": "Twenty times twenty is four hundred, a square. Fifty times twenty is one thousand, a cube.",
+     "file": "2026-10-30-square-and-cube/short/audio/149d1c7bd9a8aa91.wav",
+     "from": 53,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1372,
+   "frames": 265,
+   "lines": [
+    {
+     "text": "Why does that work? The full lesson shows two ways, plus every trap.",
+     "caption": "Why does that work? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-square-and-cube/short/audio/4942d4cfc1b3f724.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-square-and-cube/short/audio/82b8b7e1a12a7449.wav",
+     "from": 142,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "title": "Circle, Square, Circle: the Ring (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "A square, a circle, a smaller square, a smaller circle.",
+   "Find the shaded ring! And no square roots needed!"
+  ]},
+  {"id": "question", "lines": [
+   "A circle fits in a square of side eight. A smaller square has its corners on that circle, with a smaller circle inside it.",
+   "What is the area of the shaded ring?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "fold", "lines": [
+   "Look! The small square's corners sit at the middle of each side.",
+   "Fold the four corner triangles in. They cover the small square exactly!",
+   "So the small square is half the big one, and its circle is half too!"
+  ]},
+  {"id": "reveal", "lines": [
+   "The big circle is sixteen pi. The small circle is half of that, eight pi.",
+   "So the ring is the other half. Eight pi, choice B!"
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why half? The full lesson shows the fold and the turn, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

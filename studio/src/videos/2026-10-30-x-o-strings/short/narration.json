@@ -1,0 +1,29 @@
+{
+ "title": "Can X Stay Ahead? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Four X tiles, four O tiles: seventy strings.",
+   "Is half of them good? NOT even close!"
+  ]},
+  {"id": "question", "lines": [
+   "Read left to right. At every point, X must have at least as many as O.",
+   "How many strings are good?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "walk", "lines": [
+   "Turn each string into a walk. Each X steps right, and each O steps down.",
+   "O can never pass X, so the walk never crosses this wall.",
+   "Now fill in the grid. Each spot is the left number, plus the number above."
+  ]},
+  {"id": "reveal", "lines": [
+   "Keep adding, all the way to the corner. The answer is fourteen!",
+   "That's just one string out of five!"
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why does adding work? The full lesson has a list, a table, and every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 0.8}
+ ]
+}

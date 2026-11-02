@@ -1,0 +1,531 @@
+{
+ "fps": 30,
+ "durationInFrames": 12585,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 331,
+   "lines": [
+    {
+     "text": "A little square tumbles around a big one. Most kids miss a sneaky detail at the corners.",
+     "caption": "A little square tumbles around a big one. Most kids miss a sneaky detail at the corners.",
+     "file": "2026-11-01-rolling-square/audio/8b5d4d50e6f66cdf.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's get rolling.",
+     "caption": "Hi, I'm Vantee! Let's get rolling.",
+     "file": "2026-11-01-rolling-square/audio/8f0480c503a68676.wav",
+     "from": 210,
+     "frames": 83
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 331,
+   "frames": 1040,
+   "lines": [
+    {
+     "text": "A square with side two is fixed in place.",
+     "caption": "A square with side two is fixed in place.",
+     "file": "2026-11-01-rolling-square/audio/795604d64f5ae34f.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "A square with side one sits on top of it, and their left sides line up.",
+     "caption": "A square with side one sits on top of it, and their left sides line up.",
+     "file": "2026-11-01-rolling-square/audio/266312bfff2785cb.wav",
+     "from": 115,
+     "frames": 171
+    },
+    {
+     "text": "The small square rolls clockwise around the big one, without sliding.",
+     "caption": "The small square rolls clockwise around the big one, without sliding.",
+     "file": "2026-11-01-rolling-square/audio/6c522ca4a5d34f89.wav",
+     "from": 296,
+     "frames": 147
+    },
+    {
+     "text": "Each move turns it about a corner touching the big square, until another side lies flat.",
+     "caption": "Each move turns it about a corner touching the big square, until another side lies flat.",
+     "file": "2026-11-01-rolling-square/audio/ea51d7a3dc0c011c.wav",
+     "from": 453,
+     "frames": 200
+    },
+    {
+     "text": "It stops when it first gets back to where it started. How long is the path of the marked corner?",
+     "caption": "It stops when it first gets back to where it started. How long is the path of the marked corner?",
+     "file": "2026-11-01-rolling-square/audio/ad1315d1efae2aeb.wav",
+     "from": 663,
+     "frames": 189
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-01-rolling-square/audio/b97a89671840f7ca.wav",
+     "from": 862,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1371,
+   "frames": 656,
+   "lines": [
+    {
+     "text": "Which corner do we follow? The one that started on the big square's top left corner. Call it P.",
+     "caption": "Which corner do we follow? The one that started on the big square's top left corner. Call it P.",
+     "file": "2026-11-01-rolling-square/audio/6fd41ded55d1c3a8.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "So P is the small square's BOTTOM left corner. Keep your eye on P.",
+     "caption": "So P is the small square's BOTTOM left corner. Keep your eye on P.",
+     "file": "2026-11-01-rolling-square/audio/41a620763813aaca.wav",
+     "from": 211,
+     "frames": 172
+    },
+    {
+     "text": "Each move tips the square over a pivot corner. We add up how far P travels on every move.",
+     "caption": "Each move tips the square over a pivot corner. We add up how far P travels on every move.",
+     "file": "2026-11-01-rolling-square/audio/17b22fa8ed85b172.wav",
+     "from": 393,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2027,
+   "frames": 465,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-rolling-square/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "roll1",
+   "kind": "scene",
+   "chapter": "Solution 1: one move at a time",
+   "from": 2492,
+   "frames": 1022,
+   "lines": [
+    {
+     "text": "Welcome back! Our strategy: follow the square one move at a time.",
+     "caption": "Welcome back! Our strategy: follow the square one move at a time.",
+     "file": "2026-11-01-rolling-square/audio/1559deadaa55925b.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "First move: the square tips over its bottom right corner. That corner is the pivot.",
+     "caption": "First move: the square tips over its bottom right corner. That corner is the pivot.",
+     "file": "2026-11-01-rolling-square/audio/55c6d7c74ef92ac4.wav",
+     "from": 184,
+     "frames": 185
+    },
+    {
+     "text": "It makes a quarter turn, ninety degrees, and lands flat on top again.",
+     "caption": "It makes a quarter turn, ninety degrees, and lands flat on top again.",
+     "file": "2026-11-01-rolling-square/audio/c558cb3a734bf394.wav",
+     "from": 379,
+     "frames": 162
+    },
+    {
+     "text": "P is one away from the pivot, so P swings along a quarter circle of radius one.",
+     "caption": "P is one away from the pivot, so P swings along a quarter circle of radius one.",
+     "file": "2026-11-01-rolling-square/audio/ab4e3178f874d3f6.wav",
+     "from": 552,
+     "frames": 204
+    },
+    {
+     "text": "A full circle of radius one is two pi long, so a quarter of it is pi over two.",
+     "caption": "A full circle of radius one is two pi long, so a quarter of it is pi over two.",
+     "file": "2026-11-01-rolling-square/audio/4ab1bf3652e9c11d.wav",
+     "from": 766,
+     "frames": 202
+    }
+   ]
+  },
+  {
+   "id": "corner",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3514,
+   "frames": 1122,
+   "lines": [
+    {
+     "text": "Now the small square sits at the big square's top right corner, and tips over it.",
+     "caption": "Now the small square sits at the big square's top right corner, and tips over it.",
+     "file": "2026-11-01-rolling-square/audio/ce2f630599eef15b.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "After a quarter turn, look! It only touches at one point. No side lies flat yet.",
+     "caption": "After a quarter turn, look! It only touches at one point. No side lies flat yet.",
+     "file": "2026-11-01-rolling-square/audio/5aeb73c1022c8dc9.wav",
+     "from": 201,
+     "frames": 192
+    },
+    {
+     "text": "So it keeps going. It needs a half turn, one hundred eighty degrees, to land flat on the right side.",
+     "caption": "So it keeps going. It needs a half turn, one hundred eighty degrees, to land flat on the right side.",
+     "file": "2026-11-01-rolling-square/audio/1c9d18c6c165c639.wav",
+     "from": 403,
+     "frames": 215
+    },
+    {
+     "text": "How far is P from this pivot? P is across the diagonal of the small square: root two.",
+     "caption": "How far is P from this pivot? P is across the diagonal of the small square: root two.",
+     "file": "2026-11-01-rolling-square/audio/d530cc2acb63f59a.wav",
+     "from": 629,
+     "frames": 226
+    },
+    {
+     "text": "So P sweeps half a circle of radius root two. That's root two times pi.",
+     "caption": "So P sweeps half a circle of radius root two. That's root two times pi.",
+     "file": "2026-11-01-rolling-square/audio/e0201c9ad8bc7a52.wav",
+     "from": 865,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "rest",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4636,
+   "frames": 1308,
+   "lines": [
+    {
+     "text": "Down the right side, another quarter turn. The corner P is one away again, so that's pi over two.",
+     "caption": "Down the right side, another quarter turn. The corner P is one away again, so that's pi over two.",
+     "file": "2026-11-01-rolling-square/audio/b91bcd5cf8e796b4.wav",
+     "from": 0,
+     "frames": 249
+    },
+    {
+     "text": "Next, the big square's bottom right corner. Surprise: the pivot IS P! The square flips, and P stays put.",
+     "caption": "Next, the big square's bottom right corner. Surprise: the pivot IS P! The square flips, and P stays put.",
+     "file": "2026-11-01-rolling-square/audio/4d2f9a66117c68d9.wav",
+     "from": 259,
+     "frames": 284
+    },
+    {
+     "text": "That move adds zero. That's half a lap, and the other half repeats the same four moves.",
+     "caption": "That move adds zero. That's half a lap, and the other half repeats the same four moves.",
+     "file": "2026-11-01-rolling-square/audio/92cc4d7867ef285f.wav",
+     "from": 553,
+     "frames": 208
+    },
+    {
+     "text": "Quarter turn, radius one. Half turn, root two. Quarter turn, radius one. Half turn, zero.",
+     "caption": "Quarter turn, radius one. Half turn, root two. Quarter turn, radius one. Half turn, zero.",
+     "file": "2026-11-01-rolling-square/audio/e790f9907413d807.wav",
+     "from": 771,
+     "frames": 299
+    },
+    {
+     "text": "P is back at its start, and the square is home. Done!",
+     "caption": "P is back at its start, and the square is home. Done!",
+     "file": "2026-11-01-rolling-square/audio/19c2bbb1abc4a218.wav",
+     "from": 1080,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "sum",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5944,
+   "frames": 803,
+   "lines": [
+    {
+     "text": "Now add it up. Four quarter circles of radius one: four times pi over two, which is two pi.",
+     "caption": "Now add it up. Four quarter circles of radius one: four times pi over two, which is two pi.",
+     "file": "2026-11-01-rolling-square/audio/69d80fa7bdde1131.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "Two half circles of radius root two: two times root two pi.",
+     "caption": "Two half circles of radius root two: two times root two pi.",
+     "file": "2026-11-01-rolling-square/audio/054703433c434071.wav",
+     "from": 239,
+     "frames": 188
+    },
+    {
+     "text": "And the two flips around P add nothing, zero.",
+     "caption": "And the two flips around P add nothing, zero.",
+     "file": "2026-11-01-rolling-square/audio/ce709543b4970704.wav",
+     "from": 437,
+     "frames": 123
+    },
+    {
+     "text": "Total: two plus two root two, all times pi. That's Choice C!",
+     "caption": "Total: two plus two root two, all times pi. That's Choice C!",
+     "file": "2026-11-01-rolling-square/audio/964ed48d89746caf.wav",
+     "from": 570,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "circles",
+   "kind": "scene",
+   "chapter": "Solution 2: glue arcs into circles",
+   "from": 6747,
+   "frames": 1086,
+   "lines": [
+    {
+     "text": "Here's a slicker way to see the total. Glue the arcs together into whole circles!",
+     "caption": "Here's a slicker way to see the total. Glue the arcs together into whole circles!",
+     "file": "2026-11-01-rolling-square/audio/d8721293d7ce8543.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "Four quarter circles of radius one make one full circle of radius one. That's two pi.",
+     "caption": "Four quarter circles of radius one make one full circle of radius one. That's two pi.",
+     "file": "2026-11-01-rolling-square/audio/9f993d9ab16907aa.wav",
+     "from": 164,
+     "frames": 224
+    },
+    {
+     "text": "Two half circles of radius root two make one full circle of radius root two. That's two root two pi.",
+     "caption": "Two half circles of radius root two make one full circle of radius root two. That's two root two pi.",
+     "file": "2026-11-01-rolling-square/audio/a941fbe95067dae5.wav",
+     "from": 398,
+     "frames": 258
+    },
+    {
+     "text": "One circle plus the other: two pi plus two root two pi. Same answer!",
+     "caption": "One circle plus the other: two pi plus two root two pi. Same answer!",
+     "file": "2026-11-01-rolling-square/audio/a09d218e9a9e998c.wav",
+     "from": 667,
+     "frames": 197
+    },
+    {
+     "text": "When would you pick this way? When the arcs come in matching sets, like here.",
+     "caption": "When would you pick this way? When the arcs come in matching sets, like here.",
+     "file": "2026-11-01-rolling-square/audio/8e8375c060755ac2.wav",
+     "from": 874,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7833,
+   "frames": 2164,
+   "lines": [
+    {
+     "text": "Now the wrong answers. Each one is a different slip.",
+     "caption": "Now the wrong answers. Each one is a different slip.",
+     "file": "2026-11-01-rolling-square/audio/832920fa1b4e1440.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "Choice A, two plus root two, all times pi, comes from treating each corner move as a quarter turn.",
+     "caption": "Choice A, two plus root two, all times pi, comes from treating each corner move as a quarter turn.",
+     "file": "2026-11-01-rolling-square/audio/d36782c53686dfb6.wav",
+     "from": 124,
+     "frames": 224
+    },
+    {
+     "text": "But after a quarter turn the square only touches at a point. It must go on to a half turn.",
+     "caption": "But after a quarter turn the square only touches at a point. It must go on to a half turn.",
+     "file": "2026-11-01-rolling-square/audio/7c1702b2bdc4a76c.wav",
+     "from": 358,
+     "frames": 218
+    },
+    {
+     "text": "Choice B, four pi, is what you'd get if you used radius one, not root two, for those half circles.",
+     "caption": "Choice B, four pi, is what you'd get if you used radius one, not root two, for those half circles.",
+     "file": "2026-11-01-rolling-square/audio/166d16ac2b9c6e0e.wav",
+     "from": 586,
+     "frames": 215
+    },
+    {
+     "text": "But at the top right corner, P is across the diagonal from the pivot, not along a side.",
+     "caption": "But at the top right corner, P is across the diagonal from the pivot, not along a side.",
+     "file": "2026-11-01-rolling-square/audio/6cc5b2225e165f50.wav",
+     "from": 811,
+     "frames": 184
+    },
+    {
+     "text": "Choice D, four plus root two, all times pi, is what you'd get if you followed the wrong corner.",
+     "caption": "Choice D, four plus root two, all times pi, is what you'd get if you followed the wrong corner.",
+     "file": "2026-11-01-rolling-square/audio/e3f6eb57e3ee9448.wav",
+     "from": 1005,
+     "frames": 200
+    },
+    {
+     "text": "That's how far the small square's TOP left corner travels. Our P started at the bottom left.",
+     "caption": "That's how far the small square's TOP left corner travels. Our P started at the bottom left.",
+     "file": "2026-11-01-rolling-square/audio/abb68852b3d4a9b6.wav",
+     "from": 1215,
+     "frames": 202
+    },
+    {
+     "text": "Choice E, four plus two root two, all times pi, is what you'd get if the flips around P had radius one.",
+     "caption": "Choice E, four plus two root two, all times pi, is what you'd get if the flips around P had radius one.",
+     "file": "2026-11-01-rolling-square/audio/fdcc1a3f6007428b.wav",
+     "from": 1427,
+     "frames": 249
+    },
+    {
+     "text": "But P is the pivot there, so its radius is zero. It doesn't move at all.",
+     "caption": "But P is the pivot there, so its radius is zero. It doesn't move at all.",
+     "file": "2026-11-01-rolling-square/audio/907f63b6f6edc8fe.wav",
+     "from": 1686,
+     "frames": 166
+    },
+    {
+     "text": "Wrong angle, wrong radius, wrong corner, forgotten zero. Four slips to watch for!",
+     "caption": "Wrong angle, wrong radius, wrong corner, forgotten zero. Four slips to watch for!",
+     "file": "2026-11-01-rolling-square/audio/883158671dda5cf8.wav",
+     "from": 1862,
+     "frames": 243
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: follow the center",
+   "from": 9997,
+   "frames": 274,
+   "lines": [
+    {
+     "text": "Same squares, same roll, but this time follow the CENTER of the small square. How long is its path?",
+     "caption": "Same squares, same roll, but this time follow the CENTER of the small square. How long is its path?",
+     "file": "2026-11-01-rolling-square/audio/bf6a8a1ccbdcb752.wav",
+     "from": 0,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10271,
+   "frames": 396,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-rolling-square/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Variant: the answer",
+   "from": 10667,
+   "frames": 1323,
+   "lines": [
+    {
+     "text": "Let's check. The center is half a diagonal from every corner: root two over two.",
+     "caption": "Let's check. The center is half a diagonal from every corner: root two over two.",
+     "file": "2026-11-01-rolling-square/audio/e2633bfd3d8af0c8.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "So on every move, the center is the same distance from the pivot. No zeros this time!",
+     "caption": "So on every move, the center is the same distance from the pivot. No zeros this time!",
+     "file": "2026-11-01-rolling-square/audio/ff4ec0052aafb076.wav",
+     "from": 212,
+     "frames": 200
+    },
+    {
+     "text": "Now count the turning: four quarter turns and four half turns.",
+     "caption": "Now count the turning: four quarter turns and four half turns.",
+     "file": "2026-11-01-rolling-square/audio/3b4bf4493776e336.wav",
+     "from": 422,
+     "frames": 160
+    },
+    {
+     "text": "Four times ninety plus four times one hundred eighty is one thousand eighty degrees.",
+     "caption": "Four times ninety plus four times one hundred eighty is one thousand eighty degrees.",
+     "file": "2026-11-01-rolling-square/audio/5098bcd4ba31d2ed.wav",
+     "from": 592,
+     "frames": 208
+    },
+    {
+     "text": "That's three full turns. So the center travels three full circles of radius root two over two.",
+     "caption": "That's three full turns. So the center travels three full circles of radius root two over two.",
+     "file": "2026-11-01-rolling-square/audio/d75083aa5adf50a6.wav",
+     "from": 810,
+     "frames": 203
+    },
+    {
+     "text": "Each circle is root two pi long, so the path is three root two pi. Fantastic work!",
+     "caption": "Each circle is root two pi long, so the path is three root two pi. Fantastic work!",
+     "file": "2026-11-01-rolling-square/audio/37423a184c303f1f.wav",
+     "from": 1024,
+     "frames": 231
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11990,
+   "frames": 595,
+   "lines": [
+    {
+     "text": "In a rolling problem, list every move: its pivot and its angle.",
+     "caption": "In a rolling problem, list every move: its pivot and its angle.",
+     "file": "2026-11-01-rolling-square/audio/79e100537d434c4e.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "Each point travels an arc whose radius is its distance from the pivot. Sometimes that's zero!",
+     "caption": "Each point travels an arc whose radius is its distance from the pivot. Sometimes that's zero!",
+     "file": "2026-11-01-rolling-square/audio/94a0dee65d0fa1cd.wav",
+     "from": 185,
+     "frames": 202
+    },
+    {
+     "text": "I'm Vantee. Keep rolling, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep rolling, and I'll see you next time!",
+     "file": "2026-11-01-rolling-square/audio/660a9535a1732f2e.wav",
+     "from": 397,
+     "frames": 114
+    }
+   ]
+  }
+ ]
+}

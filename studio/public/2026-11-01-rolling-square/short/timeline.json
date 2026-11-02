@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1795,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 252,
+   "lines": [
+    {
+     "text": "A little square rolls around a bigger one.",
+     "caption": "A little square rolls around a bigger one.",
+     "file": "2026-11-01-rolling-square/short/audio/743c74fdc162112e.wav",
+     "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "How far does the marked corner travel? Watch for a sneaky corner move!",
+     "caption": "How far does the marked corner travel? Watch for a sneaky corner move!",
+     "file": "2026-11-01-rolling-square/short/audio/e17bb5830beea88d.wav",
+     "from": 91,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 252,
+   "frames": 312,
+   "lines": [
+    {
+     "text": "A small square of side one rolls clockwise around a fixed square of side two.",
+     "caption": "A small square of side one rolls clockwise around a fixed square of side two.",
+     "file": "2026-11-01-rolling-square/short/audio/cfc810dc47b55d5b.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "How far does the marked corner travel before it first gets back home?",
+     "caption": "How far does the marked corner travel before it first gets back home?",
+     "file": "2026-11-01-rolling-square/short/audio/840c80d90a21fc6f.wav",
+     "from": 166,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 564,
+   "frames": 162,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-rolling-square/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "roll",
+   "kind": "scene",
+   "chapter": null,
+   "from": 726,
+   "frames": 566,
+   "lines": [
+    {
+     "text": "Follow one move at a time. Each move tips over a pivot corner.",
+     "caption": "Follow one move at a time. Each move tips over a pivot corner.",
+     "file": "2026-11-01-rolling-square/short/audio/0e680ae88de358a2.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "A quarter turn along a side makes a quarter circle of radius one.",
+     "caption": "A quarter turn along a side makes a quarter circle of radius one.",
+     "file": "2026-11-01-rolling-square/short/audio/d99198644034fbb7.wav",
+     "from": 141,
+     "frames": 132
+    },
+    {
+     "text": "At the top right corner, it needs a half turn, with radius root two!",
+     "caption": "At the top right corner, it needs a half turn, with radius root two!",
+     "file": "2026-11-01-rolling-square/short/audio/8c951f423e46323d.wav",
+     "from": 284,
+     "frames": 124
+    },
+    {
+     "text": "At the bottom right, the marked corner IS the pivot, so it adds nothing.",
+     "caption": "At the bottom right, the marked corner IS the pivot, so it adds nothing.",
+     "file": "2026-11-01-rolling-square/short/audio/b3ea6bcbf1875fd2.wav",
+     "from": 418,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1292,
+   "frames": 314,
+   "lines": [
+    {
+     "text": "Add it all up. The answer is <short pause> Choice C!",
+     "caption": "Add it all up. The answer is Choice C!",
+     "file": "2026-11-01-rolling-square/short/audio/62d8d8298b6fb786.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Two plus two root two, all times pi. Sneaky corners make it longer!",
+     "caption": "Two plus two root two, all times pi. Sneaky corners make it longer!",
+     "file": "2026-11-01-rolling-square/short/audio/3d48de88c248d8e2.wav",
+     "from": 129,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1606,
+   "frames": 189,
+   "lines": [
+    {
+     "text": "The full lesson shows every trap. Tap the link below to watch it!",
+     "caption": "The full lesson shows every trap. Tap the link below to watch it!",
+     "file": "2026-11-01-rolling-square/short/audio/090dc1015b1e291c.wav",
+     "from": 0,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}

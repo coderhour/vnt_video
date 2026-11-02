@@ -10,5 +10,17 @@
   }
  ],
  "status": "ready",
- "youtube_id": "se3GzWejAZo"
+ "youtube_id": "se3GzWejAZo",
+ "playlist_id": "PLbrpe4TxLJvg",
+ "short": {
+  "title": "How many triangles have a fixed multiplier? #Shorts",
+  "description": "Three whole sides growing by the same multiplier, longest side 2025: how many triangles close?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/g-OTMmAdZgs"
+   }
+  ],
+  "youtube_id": "g-OTMmAdZgs"
+ }
 }

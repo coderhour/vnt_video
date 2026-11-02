@@ -1,0 +1,522 @@
+{
+ "fps": 30,
+ "durationInFrames": 13048,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 630,
+   "lines": [
+    {
+     "text": "Put b equals negative one: x squared minus x minus twelve. Its roots are four and negative three.",
+     "caption": "Put b equals negative one: x squared minus x minus twelve. Its roots are four and negative three.",
+     "file": "2026-11-01-integer-roots-12b/audio/9665dee196a3318e.wav",
+     "from": 0,
+     "frames": 262
+    },
+    {
+     "text": "Both roots are integers! So how many values of b work like that?",
+     "caption": "Both roots are integers! So how many values of b work like that?",
+     "file": "2026-11-01-integer-roots-12b/audio/5b13ea694653fe34.wav",
+     "from": 272,
+     "frames": 143
+    },
+    {
+     "text": "Hello, I'm Vantee, and today one clever trick will find them all.",
+     "caption": "Hello, I'm Vantee, and today one clever trick will find them all.",
+     "file": "2026-11-01-integer-roots-12b/audio/153b9f4f277ffc13.wav",
+     "from": 425,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 630,
+   "frames": 578,
+   "lines": [
+    {
+     "text": "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?",
+     "caption": "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?",
+     "file": "2026-11-01-integer-roots-12b/audio/e309cd64b73c494e.wav",
+     "from": 0,
+     "frames": 254
+    },
+    {
+     "text": "Here are the five choices: eight, fifteen, sixteen, thirty and thirty-two.",
+     "caption": "Here are the five choices: eight, fifteen, sixteen, thirty and thirty-two.",
+     "file": "2026-11-01-integer-roots-12b/audio/82ae61dab0895cd9.wav",
+     "from": 264,
+     "frames": 261
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1208,
+   "frames": 415,
+   "lines": [
+    {
+     "text": "An integer is a whole number: positive, negative or zero. b and both roots must be integers.",
+     "caption": "An integer is a whole number: positive, negative or zero. b and both roots must be integers.",
+     "file": "2026-11-01-integer-roots-12b/audio/2dffb42c54026737.wav",
+     "from": 0,
+     "frames": 239
+    },
+    {
+     "text": "We're counting values of b, not pairs of roots.",
+     "caption": "We're counting values of b, not pairs of roots.",
+     "file": "2026-11-01-integer-roots-12b/audio/7ed2c958fceeec66.wav",
+     "from": 249,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1623,
+   "frames": 480,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-integer-roots-12b/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "sumprod",
+   "kind": "scene",
+   "chapter": "Solution 1: sum and product",
+   "from": 2103,
+   "frames": 1405,
+   "lines": [
+    {
+     "text": "Welcome back! Call the roots r and s. Then the left side is x minus r, times x minus s.",
+     "caption": "Welcome back! Call the roots r and s. Then the left side is x minus r, times x minus s.",
+     "file": "2026-11-01-integer-roots-12b/audio/47f394bf90565a48.wav",
+     "from": 0,
+     "frames": 244
+    },
+    {
+     "text": "Multiplying out gives x squared, minus the sum of the roots times x, plus their product.",
+     "caption": "Multiplying out gives x squared, minus the sum of the roots times x, plus their product.",
+     "file": "2026-11-01-integer-roots-12b/audio/db1cfccbdadd5eac.wav",
+     "from": 254,
+     "frames": 224
+    },
+    {
+     "text": "Match it up! First, b is the negative of the sum: b equals negative r minus s.",
+     "caption": "Match it up! First, b is the negative of the sum: b equals negative r minus s.",
+     "file": "2026-11-01-integer-roots-12b/audio/b21b886025564585.wav",
+     "from": 488,
+     "frames": 221
+    },
+    {
+     "text": "Second, twelve b is the product: twelve b equals r times s.",
+     "caption": "Second, twelve b is the product: twelve b equals r times s.",
+     "file": "2026-11-01-integer-roots-12b/audio/07cf12453e2b1375.wav",
+     "from": 719,
+     "frames": 179
+    },
+    {
+     "text": "Now let's get rid of b. We know r s equals twelve b, which is negative twelve r minus twelve s.",
+     "caption": "Now let's get rid of b. We know r s equals twelve b, which is negative twelve r minus twelve s.",
+     "file": "2026-11-01-integer-roots-12b/audio/c5fa9967a99f8316.wav",
+     "from": 908,
+     "frames": 244
+    },
+    {
+     "text": "Move it all to one side: r s plus twelve r plus twelve s equals zero.",
+     "caption": "Move it all to one side: r s plus twelve r plus twelve s equals zero.",
+     "file": "2026-11-01-integer-roots-12b/audio/bd121a520f79b3e7.wav",
+     "from": 1163,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "trick",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3508,
+   "frames": 1018,
+   "lines": [
+    {
+     "text": "Here's the clever step. Think of r plus twelve, times s plus twelve, as a grid with four parts.",
+     "caption": "Here's the clever step. Think of r plus twelve, times s plus twelve, as a grid with four parts.",
+     "file": "2026-11-01-integer-roots-12b/audio/9bad8386546946c3.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "The parts are r s, twelve r, twelve s, and twelve times twelve: one hundred forty-four.",
+     "caption": "The parts are r s, twelve r, twelve s, and twelve times twelve: one hundred forty-four.",
+     "file": "2026-11-01-integer-roots-12b/audio/cadb6988b9a79869.wav",
+     "from": 235,
+     "frames": 299
+    },
+    {
+     "text": "Our equation already has the first three parts. So add one hundred forty-four to both sides.",
+     "caption": "Our equation already has the first three parts. So add one hundred forty-four to both sides.",
+     "file": "2026-11-01-integer-roots-12b/audio/cede957a845ca1b7.wav",
+     "from": 544,
+     "frames": 200
+    },
+    {
+     "text": "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four.",
+     "caption": "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four.",
+     "file": "2026-11-01-integer-roots-12b/audio/8b5a0edd04bd65ac.wav",
+     "from": 754,
+     "frames": 210
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4526,
+   "frames": 2167,
+   "lines": [
+    {
+     "text": "Let's list the factor pairs. One times one hundred forty-four, two times seventy-two.",
+     "caption": "Let's list the factor pairs. One times one hundred forty-four, two times seventy-two.",
+     "file": "2026-11-01-integer-roots-12b/audio/b6bca6328222fded.wav",
+     "from": 0,
+     "frames": 204
+    },
+    {
+     "text": "Three times forty-eight, four times thirty-six, six times twenty-four.",
+     "caption": "Three times forty-eight, four times thirty-six, six times twenty-four.",
+     "file": "2026-11-01-integer-roots-12b/audio/cf11685a83e0b2ff.wav",
+     "from": 214,
+     "frames": 219
+    },
+    {
+     "text": "Eight times eighteen, nine times sixteen, and twelve times twelve. That's eight pairs.",
+     "caption": "Eight times eighteen, nine times sixteen, and twelve times twelve. That's eight pairs.",
+     "file": "2026-11-01-integer-roots-12b/audio/21fa950d9253cf1b.wav",
+     "from": 443,
+     "frames": 245
+    },
+    {
+     "text": "Swapping a pair just swaps r and s. Same equation, so the same value of b.",
+     "caption": "Swapping a pair just swaps r and s. Same equation, so the same value of b.",
+     "file": "2026-11-01-integer-roots-12b/audio/8b94d9975083b075.wav",
+     "from": 698,
+     "frames": 192
+    },
+    {
+     "text": "But wait! Two negatives also multiply to a positive. So there are eight negative pairs too.",
+     "caption": "But wait! Two negatives also multiply to a positive. So there are eight negative pairs too.",
+     "file": "2026-11-01-integer-roots-12b/audio/ba23f112cb1943bf.wav",
+     "from": 901,
+     "frames": 208
+    },
+    {
+     "text": "Each root is its factor minus twelve. So b is twenty-four minus the sum of the pair.",
+     "caption": "Each root is its factor minus twelve. So b is twenty-four minus the sum of the pair.",
+     "file": "2026-11-01-integer-roots-12b/audio/469349ed22dbb643.wav",
+     "from": 1119,
+     "frames": 209
+    },
+    {
+     "text": "Nine and sixteen add to twenty-five, so b is negative one. That's our opening example!",
+     "caption": "Nine and sixteen add to twenty-five, so b is negative one. That's our opening example!",
+     "file": "2026-11-01-integer-roots-12b/audio/1df9d2245ac1fdc3.wav",
+     "from": 1338,
+     "frames": 209
+    },
+    {
+     "text": "Twelve and twelve make both roots zero, so b is zero. That counts too!",
+     "caption": "Twelve and twelve make both roots zero, so b is zero. That counts too!",
+     "file": "2026-11-01-integer-roots-12b/audio/4046c82bafa775f5.wav",
+     "from": 1558,
+     "frames": 170
+    },
+    {
+     "text": "Different pairs have different sums, so each pair gives its own value of b.",
+     "caption": "Different pairs have different sums, so each pair gives its own value of b.",
+     "file": "2026-11-01-integer-roots-12b/audio/855c36faafbcfd02.wav",
+     "from": 1737,
+     "frames": 168
+    },
+    {
+     "text": "Eight positive pairs plus eight negative pairs is sixteen. That's Choice C!",
+     "caption": "Eight positive pairs plus eight negative pairs is sixteen. That's Choice C!",
+     "file": "2026-11-01-integer-roots-12b/audio/e6d16804dddada9e.wav",
+     "from": 1916,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "oneroot",
+   "kind": "scene",
+   "chapter": "Solution 2: chase one root",
+   "from": 6693,
+   "frames": 2370,
+   "lines": [
+    {
+     "text": "Here's another way: chase one root. Plug r in: r squared plus b r plus twelve b equals zero.",
+     "caption": "Here's another way: chase one root. Plug r in: r squared plus b r plus twelve b equals zero.",
+     "file": "2026-11-01-integer-roots-12b/audio/bcf482e6fad01261.wav",
+     "from": 0,
+     "frames": 248
+    },
+    {
+     "text": "Group the b terms: b times r plus twelve equals negative r squared.",
+     "caption": "Group the b terms: b times r plus twelve equals negative r squared.",
+     "file": "2026-11-01-integer-roots-12b/audio/363f16cf34bb821b.wav",
+     "from": 258,
+     "frames": 202
+    },
+    {
+     "text": "Let d be r plus twelve, so r is d minus twelve.",
+     "caption": "Let d be r plus twelve, so r is d minus twelve.",
+     "file": "2026-11-01-integer-roots-12b/audio/f4eef75e2bbf1ff4.wav",
+     "from": 470,
+     "frames": 168
+    },
+    {
+     "text": "Then r squared is d squared, minus twenty-four d, plus one hundred forty-four.",
+     "caption": "Then r squared is d squared, minus twenty-four d, plus one hundred forty-four.",
+     "file": "2026-11-01-integer-roots-12b/audio/6fdefe6e000d2268.wav",
+     "from": 649,
+     "frames": 214
+    },
+    {
+     "text": "Divide by d, and b equals twenty-four, minus d, minus one hundred forty-four over d.",
+     "caption": "Divide by d, and b equals twenty-four, minus d, minus one hundred forty-four over d.",
+     "file": "2026-11-01-integer-roots-12b/audio/fe299aa4a00a5379.wav",
+     "from": 873,
+     "frames": 238
+    },
+    {
+     "text": "So d must divide one hundred forty-four. That gives thirty choices, positive and negative.",
+     "caption": "So d must divide one hundred forty-four. That gives thirty choices, positive and negative.",
+     "file": "2026-11-01-integer-roots-12b/audio/ccf8ce7e2a285fda.wav",
+     "from": 1121,
+     "frames": 209
+    },
+    {
+     "text": "The other root, s, is negative b minus r. So it's an integer too.",
+     "caption": "The other root, s, is negative b minus r. So it's an integer too.",
+     "file": "2026-11-01-integer-roots-12b/audio/616defebdafe5fbc.wav",
+     "from": 1340,
+     "frames": 196
+    },
+    {
+     "text": "d is sixteen for the root four, and nine for the root negative three. Both give b negative one.",
+     "caption": "d is sixteen for the root four, and nine for the root negative three. Both give b negative one.",
+     "file": "2026-11-01-integer-roots-12b/audio/da8a97a51641e17a.wav",
+     "from": 1546,
+     "frames": 228
+    },
+    {
+     "text": "So the d values pair up. Only twelve and negative twelve pair with themselves.",
+     "caption": "So the d values pair up. Only twelve and negative twelve pair with themselves.",
+     "file": "2026-11-01-integer-roots-12b/audio/697f2a61e925217f.wav",
+     "from": 1785,
+     "frames": 161
+    },
+    {
+     "text": "The other twenty-eight make fourteen pairs. Fourteen plus two is sixteen!",
+     "caption": "The other twenty-eight make fourteen pairs. Fourteen plus two is sixteen!",
+     "file": "2026-11-01-integer-roots-12b/audio/e50b99c8360c37e2.wav",
+     "from": 1956,
+     "frames": 171
+    },
+    {
+     "text": "When would you pick this way? If you forget sum and product. One root is enough.",
+     "caption": "When would you pick this way? If you forget sum and product. One root is enough.",
+     "file": "2026-11-01-integer-roots-12b/audio/17aea393a17b0132.wav",
+     "from": 2137,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 9063,
+   "frames": 956,
+   "lines": [
+    {
+     "text": "Choice A, eight, counts only the positive pairs. It forgets the eight negative ones.",
+     "caption": "Choice A, eight, counts only the positive pairs. It forgets the eight negative ones.",
+     "file": "2026-11-01-integer-roots-12b/audio/d12655f79f583e59.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Choice B, fifteen, treats each positive divisor as its own b. But nine and sixteen share one b.",
+     "caption": "Choice B, fifteen, treats each positive divisor as its own b. But nine and sixteen share one b.",
+     "file": "2026-11-01-integer-roots-12b/audio/c9fe61bcafebeff0.wav",
+     "from": 177,
+     "frames": 230
+    },
+    {
+     "text": "Choice D, thirty, counts all thirty divisors. Most values of b get counted twice, once per root.",
+     "caption": "Choice D, thirty, counts all thirty divisors. Most values of b get counted twice, once per root.",
+     "file": "2026-11-01-integer-roots-12b/audio/e70d1f1b5658fab0.wav",
+     "from": 417,
+     "frames": 228
+    },
+    {
+     "text": "Choice E, thirty-two, is what you'd get by doubling sixteen, as if swapping roots made a new b.",
+     "caption": "Choice E, thirty-two, is what you'd get by doubling sixteen, as if swapping roots made a new b.",
+     "file": "2026-11-01-integer-roots-12b/audio/25bf9ea85f1b8158.wav",
+     "from": 655,
+     "frames": 242
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: x\u00b2 + bx + 6b",
+   "from": 10019,
+   "frames": 429,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now the equation is x squared plus b x plus six b equals zero.",
+     "caption": "Ready for a challenge? Now the equation is x squared plus b x plus six b equals zero.",
+     "file": "2026-11-01-integer-roots-12b/audio/1a5711e90d76f0a1.wav",
+     "from": 0,
+     "frames": 255
+    },
+    {
+     "text": "For how many integers b are both roots integers?",
+     "caption": "For how many integers b are both roots integers?",
+     "file": "2026-11-01-integer-roots-12b/audio/109904c4b00fe5a8.wav",
+     "from": 265,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10448,
+   "frames": 398,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-integer-roots-12b/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "x\u00b2 + bx + 6b: the answer",
+   "from": 10846,
+   "frames": 1681,
+   "lines": [
+    {
+     "text": "Same steps! The sum is negative b, the product is six b.",
+     "caption": "Same steps! The sum is negative b, the product is six b.",
+     "file": "2026-11-01-integer-roots-12b/audio/a0c0083798608064.wav",
+     "from": 0,
+     "frames": 164
+    },
+    {
+     "text": "Get rid of b, and we get r times s, plus six times r, plus six times s, equals zero.",
+     "caption": "Get rid of b, and we get r times s, plus six times r, plus six times s, equals zero.",
+     "file": "2026-11-01-integer-roots-12b/audio/56ae4f8b0a94b0f3.wav",
+     "from": 174,
+     "frames": 270
+    },
+    {
+     "text": "Add thirty-six to both sides: r plus six, times s plus six, equals thirty-six.",
+     "caption": "Add thirty-six to both sides: r plus six, times s plus six, equals thirty-six.",
+     "file": "2026-11-01-integer-roots-12b/audio/0640821fa3c71658.wav",
+     "from": 455,
+     "frames": 209
+    },
+    {
+     "text": "Pairs that make thirty-six: one and thirty-six, two and eighteen, three and twelve.",
+     "caption": "Pairs that make thirty-six: one and thirty-six, two and eighteen, three and twelve.",
+     "file": "2026-11-01-integer-roots-12b/audio/7a7ff906eceeba3c.wav",
+     "from": 674,
+     "frames": 209
+    },
+    {
+     "text": "Four and nine, and six and six. That's five pairs, plus five negative pairs.",
+     "caption": "Four and nine, and six and six. That's five pairs, plus five negative pairs.",
+     "file": "2026-11-01-integer-roots-12b/audio/cbfcb59020af8cd7.wav",
+     "from": 893,
+     "frames": 228
+    },
+    {
+     "text": "Five plus five gives ten values of b!",
+     "caption": "Five plus five gives ten values of b!",
+     "file": "2026-11-01-integer-roots-12b/audio/8e7a811fc1e4bbb7.wav",
+     "from": 1132,
+     "frames": 126
+    },
+    {
+     "text": "Check: four and nine give roots negative two and three. Sum one, so b is negative one.",
+     "caption": "Check: four and nine give roots negative two and three. Sum one, so b is negative one.",
+     "file": "2026-11-01-integer-roots-12b/audio/f596ea28ff8a8164.wav",
+     "from": 1268,
+     "frames": 240
+    },
+    {
+     "text": "If you got ten, amazing work!",
+     "caption": "If you got ten, amazing work!",
+     "file": "2026-11-01-integer-roots-12b/audio/de281fbff156560e.wav",
+     "from": 1519,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12527,
+   "frames": 521,
+   "lines": [
+    {
+     "text": "Turn the roots into a sum and a product, then get rid of b.",
+     "caption": "Turn the roots into a sum and a product, then get rid of b.",
+     "file": "2026-11-01-integer-roots-12b/audio/716042b74d014730.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Add a number so it factors, and count the factor pairs. Don't forget the negative ones!",
+     "caption": "Add a number so it factors, and count the factor pairs. Don't forget the negative ones!",
+     "file": "2026-11-01-integer-roots-12b/audio/02aba06b4d23fb46.wav",
+     "from": 149,
+     "frames": 168
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-01-integer-roots-12b/audio/31a6054d0b03b932.wav",
+     "from": 327,
+     "frames": 125
+    }
+   ]
+  }
+ ]
+}

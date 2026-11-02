@@ -14,10 +14,14 @@ This is the video generation project for Vantee. The Vantee code repo is located
     default publish tags. Having `posts` means published.
   - `script.md` — narration / shot script
   - `video.mp4` (gitignored), optional `poster.jpg`
+  - optional `short.mp4` (vertical teaser, `.claude/skills/math-short/`) + `"short": {"title", "description", "posts"}` in meta.json
 - `studio/` — shared Remotion project (created on first video): `src/videos/<slug>/`, generated `public/<slug>/`.
 - `.claude/skills/math-explainer/` — skill for AMC-style math explainer videos.
 - `site/index.html` — preview page (single file, no build).
 - `./start.sh [port]` — starts `tools/serve.py`, listening on all interfaces (default port 8000).
   Test: `cd tools && python3 test_serve.py`.
 
-Publishing: YouTube via the site button (`tools/youtube.py`); other platforms are manual. No stats automation.
+Publishing: YouTube via the site buttons (`tools/youtube.py`): video, video + short, or the short once the video is up
+(its description links the video via `{full_video_url}`). Full videos also go into the channel's AMC 8 / AMC 10
+playlist (ids in `videos/playlists.json`, `meta.json` gets `playlist_id`; backfill: `python3 tools/youtube.py playlists`).
+Other platforms are manual. No stats automation.

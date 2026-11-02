@@ -5,6 +5,7 @@ import { PACIFICO } from '../../lib/fonts';
 import { Countdown } from '../../lib/PauseCard';
 import { Stage } from '../../lib/grid';
 import { Tex } from '../../lib/Tex';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import {
@@ -13,13 +14,13 @@ import {
 } from './geom';
 
 export const SLUG = '2026-10-31-polygon-right-angles';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const AMBER = '#f59f0a';
-const G1 = '#0cc281';
-const G2 = '#0a9d68';
-const GD = '#0a9d68'; // green for text
+export const AMBER = '#f59f0a';
+export const G1 = '#0cc281';
+export const G2 = '#0a9d68';
+export const GD = '#0a9d68'; // green for text
 const VD = C.violet;
 
 const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
@@ -322,7 +323,7 @@ const Inside: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHIPS = ['9', '10', '11', '12', '20'];
+export const CHIPS = ['9', '10', '11', '12', '20'];
 
 const Traps: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -469,10 +470,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Eq x={1090} y={470} start={at(scene, 2, 0.5)} size={50} tex={'\\dfrac{360 - \\text{known turns}}{\\text{turn at each other corner}}'} />
         <Eq x={1090} y={640} start={at(scene, 2, 0.8)} size={50} tex={'= \\text{how many other corners}'} />
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

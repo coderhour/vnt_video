@@ -6,25 +6,26 @@ import { Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-grid-routes';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- grid geometry (maths coordinates: A = (0, 0) bottom-left, y grows UP, like the figure) ----------
 // Main grid: 5 blocks across, 3 blocks up, X at (2, 1) (bank figure: circle at svg 130,130, 50 px per block).
 
 const W = 5;
 const H = 3;
-const XC: Pt = [2, 1];
+export const XC: Pt = [2, 1];
 
 /** Corner coords → pixels: (ox, oy) is A on screen, `u` px per block. */
-const plane = (ox: number, oy: number, u: number) => (p: Pt): Pt => [ox + p[0] * u, oy - p[1] * u];
-type Map = (p: Pt) => Pt;
+export const plane = (ox: number, oy: number, u: number) => (p: Pt): Pt => [ox + p[0] * u, oy - p[1] * u];
+export type Map = (p: Pt) => Pt;
 
 /** Corners visited by a route string like "RRUR…". */
-const corners = (route: string, start: Pt = [0, 0]): Pt[] => {
+export const corners = (route: string, start: Pt = [0, 0]): Pt[] => {
   const pts: Pt[] = [start];
   let [x, y] = start;
   for (const s of route) {
@@ -34,7 +35,7 @@ const corners = (route: string, start: Pt = [0, 0]): Pt[] => {
   }
   return pts;
 };
-const passes = (route: string, p: Pt) => corners(route).some(([x, y]) => x === p[0] && y === p[1]);
+export const passes = (route: string, p: Pt) => corners(route).some(([x, y]) => x === p[0] && y === p[1]);
 
 /** Corner numbers: ways to reach each corner = left + below, 0 at the blocked corner. */
 const cornerTable = (w: number, h: number, bad: Pt | null) => {
@@ -47,7 +48,7 @@ const cornerTable = (w: number, h: number, bad: Pt | null) => {
     }
   return T;
 };
-const TABLE = cornerTable(W, H, XC); // B = 26 (same as verify.py)
+export const TABLE = cornerTable(W, H, XC); // B = 26 (same as verify.py)
 const VTABLE = cornerTable(4, 4, [2, 2]); // B = 34
 
 // ---------- drawing helpers ----------
@@ -60,7 +61,7 @@ const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opac
   );
 
 /** The street grid with A, B and (optionally) the corner X. `draw` 0→1 draws the streets on. */
-const Streets: React.FC<{ m: Map; w?: number; h?: number; x?: Pt | null; draw?: number; opacity?: number; labels?: number; xOpacity?: number; dot?: number; stroke?: number; lo?: number }> = ({
+export const Streets: React.FC<{ m: Map; w?: number; h?: number; x?: Pt | null; draw?: number; opacity?: number; labels?: number; xOpacity?: number; dot?: number; stroke?: number; lo?: number }> = ({
   m, w = W, h = H, x = XC, draw = 1, opacity = 1, labels = 48, xOpacity = 1, dot = 14, stroke = 6, lo = 0.75,
 }) => {
   if (opacity <= 0) return null;
@@ -106,14 +107,14 @@ const Streets: React.FC<{ m: Map; w?: number; h?: number; x?: Pt | null; draw?: 
 };
 
 /** A route drawn as a thick line that draws itself on as `progress` goes 0→1. */
-const Route: React.FC<{ m: Map; route: string; start?: Pt; color: string; progress?: number; opacity?: number; width?: number }> = ({ m, route, start, color, progress = 1, opacity = 1, width = 14 }) => {
+export const Route: React.FC<{ m: Map; route: string; start?: Pt; color: string; progress?: number; opacity?: number; width?: number }> = ({ m, route, start, color, progress = 1, opacity = 1, width = 14 }) => {
   if (progress <= 0 || opacity <= 0) return null;
   const d = `M ${corners(route, start).map((p) => m(p).join(' ')).join(' L ')}`;
   return <path d={d} fill="none" stroke={color} strokeWidth={width} strokeLinecap="round" strokeLinejoin="round" opacity={opacity} pathLength={1} strokeDasharray={1} strokeDashoffset={1 - progress} />;
 };
 
 /** Red cross over a corner. */
-const Cross: React.FC<{ p: Pt; size?: number; opacity: number }> = ({ p, size = 54, opacity }) =>
+export const Cross: React.FC<{ p: Pt; size?: number; opacity: number }> = ({ p, size = 54, opacity }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity} stroke={C.red} strokeWidth={12} strokeLinecap="round">
       <line x1={p[0] - size / 2} y1={p[1] - size / 2} x2={p[0] + size / 2} y2={p[1] + size / 2} />
@@ -122,7 +123,7 @@ const Cross: React.FC<{ p: Pt; size?: number; opacity: number }> = ({ p, size = 
   );
 
 /** A number badge on a corner. */
-const Num: React.FC<{ p: Pt; value: number; s: number; r?: number; color?: string; hi?: boolean }> = ({ p, value, s, r = 40, color = C.primary, hi }) =>
+export const Num: React.FC<{ p: Pt; value: number; s: number; r?: number; color?: string; hi?: boolean }> = ({ p, value, s, r = 40, color = C.primary, hi }) =>
   s <= 0 ? null : (
     <g transform={`translate(${p[0]} ${p[1]}) scale(${s})`}>
       <circle r={r} fill={hi ? color : C.card} stroke={color} strokeWidth={5} />
@@ -150,7 +151,7 @@ const Brace: React.FC<{ a: Pt; b: Pt; dx: number; dy: number; color: string; opa
   );
 
 /** Arrow from a to b (pixels). */
-const Arrow: React.FC<{ a: Pt; b: Pt; color: string; opacity: number; width?: number }> = ({ a, b, color, opacity, width = 7 }) => {
+export const Arrow: React.FC<{ a: Pt; b: Pt; color: string; opacity: number; width?: number }> = ({ a, b, color, opacity, width = 7 }) => {
   if (opacity <= 0) return null;
   const ang = Math.atan2(b[1] - a[1], b[0] - a[0]);
   const head = (s: number) => [b[0] - 22 * Math.cos(ang + s), b[1] - 22 * Math.sin(ang + s)].join(' ');
@@ -173,7 +174,7 @@ const Eq: React.FC<{ x: number; y: number; tex: string; start: number; size?: nu
   );
 };
 
-const Card: React.FC<{ x: number; y: number; w: number; h: number; style?: React.CSSProperties; children?: React.ReactNode }> = ({ x, y, w, h, style, children }) => (
+export const Card: React.FC<{ x: number; y: number; w: number; h: number; style?: React.CSSProperties; children?: React.ReactNode }> = ({ x, y, w, h, style, children }) => (
   <div style={{ position: 'absolute', left: x, top: y, width: w, height: h, background: C.card, borderRadius: 28, boxShadow: '0 8px 28px rgba(30,40,80,0.07)', ...style }}>{children}</div>
 );
 
@@ -190,7 +191,7 @@ const StepChips: React.FC<{ s: string; size?: number; style?: React.CSSPropertie
 
 // ---------- scenes ----------
 
-const HOOK_ROUTES = ['RRRRRUUU', 'RRUURRRU', 'UUURRRRR', 'URRRRRUU', 'RRRURURU', 'RURRRUUR', 'UURRRURR', 'RRURRUUR'];
+export const HOOK_ROUTES = ['RRRRRUUU', 'RRUURRRU', 'UUURRRRR', 'URRRRRUU', 'RRRURURU', 'RURRRUUR', 'UURRRURR', 'RRURRUUR'];
 
 const Intro: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -227,7 +228,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['20', '26', '30', '35', '56'];
+export const CHOICES = ['20', '26', '30', '35', '56'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -632,10 +633,7 @@ const Recap: SceneComponent = ({ scene }) => {
           Or fill in corner numbers: left + below, and 0 on the blocked corner.
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

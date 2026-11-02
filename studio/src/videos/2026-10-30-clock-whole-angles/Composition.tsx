@@ -6,11 +6,12 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-clock-whole-angles';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 const HOUR_C = C.violet;
 const MIN_C = C.primary;
@@ -23,7 +24,7 @@ const rad = (d: number) => (d * Math.PI) / 180;
 const polar = (cx: number, cy: number, r: number, deg: number): [number, number] => [cx + r * Math.sin(rad(deg)), cy - r * Math.cos(rad(deg))];
 
 /** Piecewise tween: starts at v0, moves to each [frame, value] over `dur` frames. */
-const tw = (f: number, v0: number, keys: [number, number][], dur = 10) => {
+export const tw = (f: number, v0: number, keys: [number, number][], dur = 10) => {
   let v = v0;
   let prev = v0;
   for (const [fr, val] of keys) {
@@ -34,19 +35,19 @@ const tw = (f: number, v0: number, keys: [number, number][], dur = 10) => {
 };
 
 /** Smaller wedge between two hand angles (degrees clockwise from 12). */
-const smaller = (hour: number, min: number) => {
+export const smaller = (hour: number, min: number) => {
   const d = (((min - hour) % 360) + 360) % 360;
   return d <= 180 ? { from: hour, sweep: d } : { from: min, sweep: 360 - d };
 };
 
-const hourAt = (h: number, m: number) => 30 * h + 0.5 * m;
-const minAt = (m: number) => 6 * m;
+export const hourAt = (h: number, m: number) => 30 * h + 0.5 * m;
+export const minAt = (m: number) => 6 * m;
 
 type Wedge = { from: number; sweep: number; color: string; op?: number };
 type Lab = { text: string; color: string; at: number; op?: number };
 
 /** Analogue clock. Hand angles are in degrees clockwise from 12. */
-const Clock: React.FC<{ cx: number; cy: number; R: number; hour: number; min: number; wedge?: Wedge | null; label?: Lab | null }> = ({ cx, cy, R, hour, min, wedge, label }) => {
+export const Clock: React.FC<{ cx: number; cy: number; R: number; hour: number; min: number; wedge?: Wedge | null; label?: Lab | null }> = ({ cx, cy, R, hour, min, wedge, label }) => {
   const sector = (w: Wedge) => {
     const r = R * 0.46;
     if (Math.abs(w.sweep) >= 359.5) return <circle cx={cx} cy={cy} r={r} fill={w.color} fillOpacity={0.28 * (w.op ?? 1)} stroke={w.color} strokeWidth={5} strokeOpacity={w.op ?? 1} />;
@@ -606,10 +607,7 @@ const Recap: SceneComponent = ({ scene }) => {
           every even minute
         </Pill>
       </div>
-      <div style={{ position: 'absolute', left: 960, top: 300, transform: 'translateX(-50%)', textAlign: 'center', whiteSpace: 'nowrap', ...fadeUp(f, l(3)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 190, color: C.primary }}>Vantee</div>
-        <div style={{ fontSize: 56, fontWeight: 800, color: C.ink }}>See you next time!</div>
-      </div>
+      <SignOff start={l(3)} text="See you next time!" />
     </>
   );
 };

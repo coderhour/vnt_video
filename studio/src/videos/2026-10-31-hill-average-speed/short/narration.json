@@ -1,0 +1,54 @@
+{
+ "title": "Hill Average Speed (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Jo bikes up a hill slowly, then zooms back down.",
+    "Is her average just the average of the two speeds?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Jo bikes up a three kilometer hill at twelve kilometers per hour, then back down at ten meters per second.",
+    "What's her average speed in kilometers per hour?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "kind": "pause",
+   "hold": 3
+  },
+  {
+   "id": "times",
+   "lines": [
+    "First fix the units. Ten meters per second is thirty-six kilometers per hour.",
+    "Up takes fifteen minutes. Down takes just five.",
+    "Six kilometers in twenty minutes. That's three times as far in one hour!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Six times three is eighteen kilometers per hour!",
+    "Averaging speeds is a trap. She's slow for longer!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why is the average so low? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

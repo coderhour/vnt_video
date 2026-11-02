@@ -1,0 +1,54 @@
+{
+ "title": "The Best Fence in a Corner (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Twelve units of fence, bent once, tucked into a corner.",
+    "Most kids make a square. But a square is NOT the best!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Two walls meet at a right angle. A two-piece fence, total length twelve, joins them.",
+    "What's the largest area it can enclose?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "mirror",
+   "lines": [
+    "Here's the trick. Treat each wall like a mirror.",
+    "Reflect the region across both walls, and the corner disappears.",
+    "Now the fence is a closed octagon, four times our area.",
+    "The best octagon is the regular one. And our fence makes it!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Our region is a quarter of it. The answer is <short pause> Choice B!",
+    "About forty-three and a half. The square only gets thirty-six!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows every trap. Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

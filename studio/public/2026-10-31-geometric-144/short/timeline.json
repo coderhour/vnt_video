@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1715,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 222,
+   "lines": [
+    {
+     "text": "Three whole numbers, same ratio each step.",
+     "caption": "Three whole numbers, same ratio each step.",
+     "file": "2026-10-31-geometric-144/short/audio/9925290abe9b0312.wav",
+     "from": 0,
+     "frames": 92
+    },
+    {
+     "text": "How many can finish at one hundred forty-four?",
+     "caption": "How many can finish at one hundred forty-four?",
+     "file": "2026-10-31-geometric-144/short/audio/81fcbe30a3182c02.wav",
+     "from": 102,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 222,
+   "frames": 226,
+   "lines": [
+    {
+     "text": "How many increasing geometric sequences a, b, c of whole numbers have c equal to one hundred forty-four?",
+     "caption": "How many increasing geometric sequences a, b, c of whole numbers have c equal to one hundred forty-four?",
+     "file": "2026-10-31-geometric-144/short/audio/e9ee99fe652086ab.wav",
+     "from": 0,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 448,
+   "frames": 158,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-geometric-144/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 45
+    }
+   ]
+  },
+  {
+   "id": "twelve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 606,
+   "frames": 568,
+   "lines": [
+    {
+     "text": "Here's the trick. One hundred forty-four is twelve squared.",
+     "caption": "Here's the trick. One hundred forty-four is twelve squared.",
+     "file": "2026-10-31-geometric-144/short/audio/3a33f476c77c4711.wav",
+     "from": 0,
+     "frames": 116
+    },
+    {
+     "text": "So b over twelve must be a whole number. Call it k.",
+     "caption": "So b over twelve must be a whole number. Call it k.",
+     "file": "2026-10-31-geometric-144/short/audio/1ebfa23d18cedf1c.wav",
+     "from": 126,
+     "frames": 102
+    },
+    {
+     "text": "Then b is twelve k, and a is k squared. Try k equals one, then two, and so on!",
+     "caption": "Then b is twelve k, and a is k squared. Try k equals one, then two, and so on!",
+     "file": "2026-10-31-geometric-144/short/audio/82cf8bb21c69c241.wav",
+     "from": 238,
+     "frames": 189
+    },
+    {
+     "text": "At k equals twelve all three match, so we stop.",
+     "caption": "At k equals twelve all three match, so we stop.",
+     "file": "2026-10-31-geometric-144/short/audio/056b50599ac2e1a5.wav",
+     "from": 437,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1174,
+   "frames": 256,
+   "lines": [
+    {
+     "text": "Counting k from one to eleven gives eleven sequences!",
+     "caption": "Counting k from one to eleven gives eleven sequences!",
+     "file": "2026-10-31-geometric-144/short/audio/974807534af84261.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "Some ratios are fractions, like three halves.",
+     "caption": "Some ratios are fractions, like three halves.",
+     "file": "2026-10-31-geometric-144/short/audio/a7587926dcb181ea.wav",
+     "from": 121,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1430,
+   "frames": 285,
+   "lines": [
+    {
+     "text": "Why does that work? The full lesson shows two ways, plus every trap.",
+     "caption": "Why does that work? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-31-geometric-144/short/audio/4942d4cfc1b3f724.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-geometric-144/short/audio/82b8b7e1a12a7449.wav",
+     "from": 162,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

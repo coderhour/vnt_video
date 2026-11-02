@@ -1,0 +1,552 @@
+{
+ "fps": 30,
+ "durationInFrames": 12658,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 601,
+   "lines": [
+    {
+     "text": "One hundred fractions with square roots, all added up. Sounds like a calculator job, right?",
+     "caption": "One hundred fractions with square roots, all added up. Sounds like a calculator job, right?",
+     "file": "2026-11-01-root-sum-floor/audio/2ee2d3411e4d1df9.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "Here's the surprise. You can pin it down with NO calculator at all.",
+     "caption": "Here's the surprise. You can pin it down with NO calculator at all.",
+     "file": "2026-11-01-root-sum-floor/audio/65fc9d406efa78e2.wav",
+     "from": 230,
+     "frames": 154
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's trap this sum between a floor and a ceiling.",
+     "caption": "Hi, I'm Vantee! Let's trap this sum between a floor and a ceiling.",
+     "file": "2026-11-01-root-sum-floor/audio/310266eea5bfc44b.wav",
+     "from": 394,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 601,
+   "frames": 679,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-11-01-root-sum-floor/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 57
+    },
+    {
+     "text": "Add one over root one, plus one over root two, and so on, up to one over root one hundred.",
+     "caption": "Add one over root one, plus one over root two, and so on, up to one over root one hundred.",
+     "file": "2026-11-01-root-sum-floor/audio/189b36f9f70a7b16.wav",
+     "from": 67,
+     "frames": 263
+    },
+    {
+     "text": "What is the greatest whole number less than or equal to this sum?",
+     "caption": "What is the greatest whole number less than or equal to this sum?",
+     "file": "2026-11-01-root-sum-floor/audio/0435404894bfa04f.wav",
+     "from": 340,
+     "frames": 165
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-01-root-sum-floor/audio/b97a89671840f7ca.wav",
+     "from": 515,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1280,
+   "frames": 862,
+   "lines": [
+    {
+     "text": "So what are we really looking for? Not the exact sum. Just the sum, rounded down.",
+     "caption": "So what are we really looking for? Not the exact sum. Just the sum, rounded down.",
+     "file": "2026-11-01-root-sum-floor/audio/24ec56d822099f94.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "If the sum sits between two whole numbers next to each other, the smaller one is our answer.",
+     "caption": "If the sum sits between two whole numbers next to each other, the smaller one is our answer.",
+     "file": "2026-11-01-root-sum-floor/audio/524b9c880cd665be.wav",
+     "from": 205,
+     "frames": 179
+    },
+    {
+     "text": "Every term is at least one over ten, and at most one. So the sum is between ten and one hundred.",
+     "caption": "Every term is at least one over ten, and at most one. So the sum is between ten and one hundred.",
+     "file": "2026-11-01-root-sum-floor/audio/b17a30ea2e4574df.wav",
+     "from": 394,
+     "frames": 255
+    },
+    {
+     "text": "That window is way too wide. We need a sharper floor and ceiling.",
+     "caption": "That window is way too wide. We need a sharper floor and ceiling.",
+     "file": "2026-11-01-root-sum-floor/audio/0c1ca532dc16cc9d.wav",
+     "from": 659,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2142,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-root-sum-floor/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "grow",
+   "kind": "scene",
+   "chapter": "Solution 1: grow a square",
+   "from": 2596,
+   "frames": 1536,
+   "lines": [
+    {
+     "text": "Welcome back! Here's our plan: turn each term into a picture.",
+     "caption": "Welcome back! Here's our plan: turn each term into a picture.",
+     "file": "2026-11-01-root-sum-floor/audio/19d57afadebddc92.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Draw a square with area k. Its side is root k.",
+     "caption": "Draw a square with area k. Its side is root k.",
+     "file": "2026-11-01-root-sum-floor/audio/e79f0d76282d6bed.wav",
+     "from": 166,
+     "frames": 158
+    },
+    {
+     "text": "Now grow it to area k plus one. Its side becomes root of k plus one.",
+     "caption": "Now grow it to area k plus one. Its side becomes root of k plus one.",
+     "file": "2026-11-01-root-sum-floor/audio/5d1e7e26f3aaac7b.wav",
+     "from": 334,
+     "frames": 171
+    },
+    {
+     "text": "The new part is an L-shaped strip, with area exactly one. Call its thickness g, the gap.",
+     "caption": "The new part is an L-shaped strip, with area exactly one. Call its thickness g, the gap.",
+     "file": "2026-11-01-root-sum-floor/audio/4f3cb9153f9efe8f.wav",
+     "from": 515,
+     "frames": 218
+    },
+    {
+     "text": "Cut the strip into two rectangles, both g thick. One is root k long, the other is a bit longer.",
+     "caption": "Cut the strip into two rectangles, both g thick. One is root k long, the other is a bit longer.",
+     "file": "2026-11-01-root-sum-floor/audio/1a837d814b4ba313.wav",
+     "from": 742,
+     "frames": 250
+    },
+    {
+     "text": "So the strip's area, one, is MORE than g times two root k.",
+     "caption": "So the strip's area, one, is MORE than g times two root k.",
+     "file": "2026-11-01-root-sum-floor/audio/e60d07861a66d864.wav",
+     "from": 1003,
+     "frames": 207
+    },
+    {
+     "text": "Divide both sides by root k. Two g is less than one over root k. Each term beats two gaps!",
+     "caption": "Divide both sides by root k. Two g is less than one over root k. Each term beats two gaps!",
+     "file": "2026-11-01-root-sum-floor/audio/b77350f322fdc22c.wav",
+     "from": 1219,
+     "frames": 263
+    }
+   ]
+  },
+  {
+   "id": "floor",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4132,
+   "frames": 1009,
+   "lines": [
+    {
+     "text": "Now do this for every k, from one to one hundred. The squares nest inside each other.",
+     "caption": "Now do this for every k, from one to one hundred. The squares nest inside each other.",
+     "file": "2026-11-01-root-sum-floor/audio/4409f7ab259a8755.wav",
+     "from": 0,
+     "frames": 218
+    },
+    {
+     "text": "All the gaps together grow the side from one to root one hundred one.",
+     "caption": "All the gaps together grow the side from one to root one hundred one.",
+     "file": "2026-11-01-root-sum-floor/audio/c884ee79ae09bb73.wav",
+     "from": 228,
+     "frames": 165
+    },
+    {
+     "text": "So the sum is more than two times, root one hundred one minus one.",
+     "caption": "So the sum is more than two times, root one hundred one minus one.",
+     "file": "2026-11-01-root-sum-floor/audio/6d60557521f7e429.wav",
+     "from": 403,
+     "frames": 164
+    },
+    {
+     "text": "Root one hundred one is a bit more than ten, because ten squared is one hundred.",
+     "caption": "Root one hundred one is a bit more than ten, because ten squared is one hundred.",
+     "file": "2026-11-01-root-sum-floor/audio/d7a9469d4656247e.wav",
+     "from": 577,
+     "frames": 186
+    },
+    {
+     "text": "So the sum is more than two times nine. That's eighteen! There's our floor.",
+     "caption": "So the sum is more than two times nine. That's eighteen! There's our floor.",
+     "file": "2026-11-01-root-sum-floor/audio/3900c56251bee1ff.wav",
+     "from": 773,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "ceiling",
+   "kind": "scene",
+   "chapter": "Solution 1: the ceiling",
+   "from": 5141,
+   "frames": 1725,
+   "lines": [
+    {
+     "text": "Next, a ceiling. This time, use the strip just INSIDE the square with side root k.",
+     "caption": "Next, a ceiling. This time, use the strip just INSIDE the square with side root k.",
+     "file": "2026-11-01-root-sum-floor/audio/bca506c4829fe8e1.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "Grow a square from area k minus one to area k. Again, the strip has area one.",
+     "caption": "Grow a square from area k minus one to area k. Again, the strip has area one.",
+     "file": "2026-11-01-root-sum-floor/audio/81d165e5ccfb26ba.wav",
+     "from": 205,
+     "frames": 236
+    },
+    {
+     "text": "Call its thickness h. Now both rectangles are at most root k long.",
+     "caption": "Call its thickness h. Now both rectangles are at most root k long.",
+     "file": "2026-11-01-root-sum-floor/audio/5093c1e0dd9f3c06.wav",
+     "from": 451,
+     "frames": 184
+    },
+    {
+     "text": "So one is LESS than h times two root k. Each term is less than two of these gaps.",
+     "caption": "So one is LESS than h times two root k. Each term is less than two of these gaps.",
+     "file": "2026-11-01-root-sum-floor/audio/30859967169a8d9d.wav",
+     "from": 645,
+     "frames": 243
+    },
+    {
+     "text": "Careful with the very first term! When k is one, that only says one is less than two.",
+     "caption": "Careful with the very first term! When k is one, that only says one is less than two.",
+     "file": "2026-11-01-root-sum-floor/audio/f8da2c87edfea902.wav",
+     "from": 898,
+     "frames": 198
+    },
+    {
+     "text": "So keep the first term as exactly one, and squeeze the other ninety-nine.",
+     "caption": "So keep the first term as exactly one, and squeeze the other ninety-nine.",
+     "file": "2026-11-01-root-sum-floor/audio/9595867274a53f0c.wav",
+     "from": 1107,
+     "frames": 180
+    },
+    {
+     "text": "Their gaps grow the side from root one to root one hundred. That's from one to ten.",
+     "caption": "Their gaps grow the side from root one to root one hundred. That's from one to ten.",
+     "file": "2026-11-01-root-sum-floor/audio/6be5d340fb6d98ed.wav",
+     "from": 1297,
+     "frames": 202
+    },
+    {
+     "text": "So the sum is less than one, plus two times nine. That's nineteen!",
+     "caption": "So the sum is less than one, plus two times nine. That's nineteen!",
+     "file": "2026-11-01-root-sum-floor/audio/8a75c53e0f61b829.wav",
+     "from": 1509,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6866,
+   "frames": 497,
+   "lines": [
+    {
+     "text": "The sum is more than eighteen, and less than nineteen.",
+     "caption": "The sum is more than eighteen, and less than nineteen.",
+     "file": "2026-11-01-root-sum-floor/audio/bf18d303d098071e.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Round it down, and the answer is <short pause> eighteen! Choice C.",
+     "caption": "Round it down, and the answer is eighteen! Choice C.",
+     "file": "2026-11-01-root-sum-floor/audio/4015b67699f61241.wav",
+     "from": 134,
+     "frames": 141
+    },
+    {
+     "text": "A computer agrees. The sum is a bit more than eighteen and a half.",
+     "caption": "A computer agrees. The sum is a bit more than eighteen and a half.",
+     "file": "2026-11-01-root-sum-floor/audio/4cdceb71033374cb.wav",
+     "from": 285,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "algebra",
+   "kind": "scene",
+   "chapter": "Solution 2: the algebra shortcut",
+   "from": 7363,
+   "frames": 1353,
+   "lines": [
+    {
+     "text": "Here's a faster way to get the lower bound, with algebra.",
+     "caption": "Here's a faster way to get the lower bound, with algebra.",
+     "file": "2026-11-01-root-sum-floor/audio/842518c872c284e8.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "Multiply root of k plus one, minus root k, by the same two roots added.",
+     "caption": "Multiply root of k plus one, minus root k, by the same two roots added.",
+     "file": "2026-11-01-root-sum-floor/audio/2089c93817aa68a8.wav",
+     "from": 115,
+     "frames": 200
+    },
+    {
+     "text": "Difference of squares! You get k plus one, minus k. That's just one.",
+     "caption": "Difference of squares! You get k plus one, minus k. That's just one.",
+     "file": "2026-11-01-root-sum-floor/audio/d9da885ff164895a.wav",
+     "from": 324,
+     "frames": 178
+    },
+    {
+     "text": "So the gap equals one over, root of k plus one, plus root k.",
+     "caption": "So the gap equals one over, root of k plus one, plus root k.",
+     "file": "2026-11-01-root-sum-floor/audio/f849fdb18f7f03cd.wav",
+     "from": 513,
+     "frames": 208
+    },
+    {
+     "text": "That bottom is bigger than two root k. So two gaps are less than one over root k.",
+     "caption": "That bottom is bigger than two root k. So two gaps are less than one over root k.",
+     "file": "2026-11-01-root-sum-floor/audio/bf32e3f501ab2ef8.wav",
+     "from": 731,
+     "frames": 248
+    },
+    {
+     "text": "Add them up, and every middle square root cancels. Only the two ends stay.",
+     "caption": "Add them up, and every middle square root cancels. Only the two ends stay.",
+     "file": "2026-11-01-root-sum-floor/audio/b3e6fb8a3d3f1c3d.wav",
+     "from": 988,
+     "frames": 147
+    },
+    {
+     "text": "When would you pick this one? On test day. It's just a few lines.",
+     "caption": "When would you pick this one? On test day. It's just a few lines.",
+     "file": "2026-11-01-root-sum-floor/audio/2ed8e356717ddfa3.wav",
+     "from": 1145,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8716,
+   "frames": 1246,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-11-01-root-sum-floor/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "A, ten, is what you'd get from every term being at least one over ten. True, but way too low.",
+     "caption": "A, ten, is what you'd get from every term being at least one over ten. True, but way too low.",
+     "file": "2026-11-01-root-sum-floor/audio/7c210600a218c34e.wav",
+     "from": 136,
+     "frames": 232
+    },
+    {
+     "text": "B, seventeen, is too small. Our floor already beat eighteen.",
+     "caption": "B, seventeen, is too small. Our floor already beat eighteen.",
+     "file": "2026-11-01-root-sum-floor/audio/fe0ab2a5958b6c84.wav",
+     "from": 378,
+     "frames": 168
+    },
+    {
+     "text": "D, nineteen, is what you'd get from the ceiling alone. But the sum stays UNDER nineteen.",
+     "caption": "D, nineteen, is what you'd get from the ceiling alone. But the sum stays UNDER nineteen.",
+     "file": "2026-11-01-root-sum-floor/audio/05f6cdc17b6f841e.wav",
+     "from": 557,
+     "frames": 214
+    },
+    {
+     "text": "E, twenty, is what you'd get from two root one hundred, forgetting to subtract anything.",
+     "caption": "E, twenty, is what you'd get from two root one hundred, forgetting to subtract anything.",
+     "file": "2026-11-01-root-sum-floor/audio/1e2422973a818f5d.wav",
+     "from": 781,
+     "frames": 197
+    },
+    {
+     "text": "So here's a great habit. One wall isn't enough. You need a floor AND a ceiling.",
+     "caption": "So here's a great habit. One wall isn't enough. You need a floor AND a ceiling.",
+     "file": "2026-11-01-root-sum-floor/audio/ab7cfb835cbb3783.wav",
+     "from": 988,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: ten thousand terms",
+   "from": 9962,
+   "frames": 545,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same idea, but way more terms.",
+     "caption": "Ready for a challenge? Same idea, but way more terms.",
+     "file": "2026-11-01-root-sum-floor/audio/df710f4fe72c1462.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Add one over root one, all the way up to one over root ten thousand.",
+     "caption": "Add one over root one, all the way up to one over root ten thousand.",
+     "file": "2026-11-01-root-sum-floor/audio/6d2d708e0e9c78fd.wav",
+     "from": 137,
+     "frames": 195
+    },
+    {
+     "text": "What is the greatest whole number less than or equal to this sum?",
+     "caption": "What is the greatest whole number less than or equal to this sum?",
+     "file": "2026-11-01-root-sum-floor/audio/0435404894bfa04f.wav",
+     "from": 342,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10507,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-root-sum-floor/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Ten thousand terms: the answer",
+   "from": 10967,
+   "frames": 1084,
+   "lines": [
+    {
+     "text": "For the floor, the side grows from one to root ten thousand one, just over one hundred.",
+     "caption": "For the floor, the side grows from one to root ten thousand one, just over one hundred.",
+     "file": "2026-11-01-root-sum-floor/audio/d75969414dd72e7c.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "So the sum is more than two times ninety-nine. That's one hundred ninety-eight.",
+     "caption": "So the sum is more than two times ninety-nine. That's one hundred ninety-eight.",
+     "file": "2026-11-01-root-sum-floor/audio/8c7420f5c738808f.wav",
+     "from": 190,
+     "frames": 189
+    },
+    {
+     "text": "For the ceiling, keep the first term as one. The rest grow the side from one to one hundred.",
+     "caption": "For the ceiling, keep the first term as one. The rest grow the side from one to one hundred.",
+     "file": "2026-11-01-root-sum-floor/audio/b24258267d671d74.wav",
+     "from": 389,
+     "frames": 221
+    },
+    {
+     "text": "So the sum is less than one, plus one hundred ninety-eight. That's one hundred ninety-nine.",
+     "caption": "So the sum is less than one, plus one hundred ninety-eight. That's one hundred ninety-nine.",
+     "file": "2026-11-01-root-sum-floor/audio/788729ea159a08b6.wav",
+     "from": 620,
+     "frames": 204
+    },
+    {
+     "text": "The answer is one hundred ninety-eight! Ten thousand terms, and no calculator.",
+     "caption": "The answer is one hundred ninety-eight! Ten thousand terms, and no calculator.",
+     "file": "2026-11-01-root-sum-floor/audio/8fb561432457bd8b.wav",
+     "from": 835,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12051,
+   "frames": 607,
+   "lines": [
+    {
+     "text": "The big idea: squeeze each term between two easy pieces. Add them up, and the middle cancels.",
+     "caption": "The big idea: squeeze each term between two easy pieces. Add them up, and the middle cancels.",
+     "file": "2026-11-01-root-sum-floor/audio/4ee36eec82241405.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "Then a floor and a ceiling, one apart, tell you the whole number.",
+     "caption": "Then a floor and a ceiling, one apart, tell you the whole number.",
+     "file": "2026-11-01-root-sum-floor/audio/b3d4b43c1da71cbf.wav",
+     "from": 237,
+     "frames": 160
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-01-root-sum-floor/audio/31a6054d0b03b932.wav",
+     "from": 407,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

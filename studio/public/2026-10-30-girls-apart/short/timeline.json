@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1657,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 218,
+   "lines": [
+    {
+     "text": "Five boys and three girls line up at random.",
+     "caption": "Five boys and three girls line up at random.",
+     "file": "2026-10-30-girls-apart/short/audio/b817895ac901d96a.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "What's the chance that no two girls stand together?",
+     "caption": "What's the chance that no two girls stand together?",
+     "file": "2026-10-30-girls-apart/short/audio/84a51d49b18d7ea4.wav",
+     "from": 103,
+     "frames": 92
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 218,
+   "frames": 258,
+   "lines": [
+    {
+     "text": "Five boys and three girls stand in a random order.",
+     "caption": "Five boys and three girls stand in a random order.",
+     "file": "2026-10-30-girls-apart/short/audio/24a153c9e9551a11.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "What is the probability that no two girls stand next to each other?",
+     "caption": "What is the probability that no two girls stand next to each other?",
+     "file": "2026-10-30-girls-apart/short/audio/47d117c31770fc90.wav",
+     "from": 111,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 476,
+   "frames": 164,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-girls-apart/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 50
+    }
+   ]
+  },
+  {
+   "id": "gaps",
+   "kind": "scene",
+   "chapter": null,
+   "from": 640,
+   "frames": 517,
+   "lines": [
+    {
+     "text": "Line up the five boys first. That makes six gaps, counting both ends.",
+     "caption": "Line up the five boys first. That makes six gaps, counting both ends.",
+     "file": "2026-10-30-girls-apart/short/audio/ec49b962146997bf.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Two girls in one gap would touch. So each gap holds at most one girl.",
+     "caption": "Two girls in one gap would touch. So each gap holds at most one girl.",
+     "file": "2026-10-30-girls-apart/short/audio/2400bac1f387fb64.wav",
+     "from": 148,
+     "frames": 154
+    },
+    {
+     "text": "Pick three of the six gaps. That's twenty ways, out of fifty-six equally likely sets of spots.",
+     "caption": "Pick three of the six gaps. That's twenty ways, out of fifty-six equally likely sets of spots.",
+     "file": "2026-10-30-girls-apart/short/audio/be9a22bce8402cf8.wav",
+     "from": 312,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1157,
+   "frames": 229,
+   "lines": [
+    {
+     "text": "Twenty over fifty-six is five over fourteen!",
+     "caption": "Twenty over fifty-six is five over fourteen!",
+     "file": "2026-10-30-girls-apart/short/audio/74bf57a0e156a662.wav",
+     "from": 0,
+     "frames": 94
+    },
+    {
+     "text": "Miss the end gaps, and you fall into the trap!",
+     "caption": "Miss the end gaps, and you fall into the trap!",
+     "file": "2026-10-30-girls-apart/short/audio/c6c775572c7e3abe.wav",
+     "from": 105,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1386,
+   "frames": 271,
+   "lines": [
+    {
+     "text": "Why fifty-six? The full lesson shows two ways to count, plus every trap.",
+     "caption": "Why fifty-six? The full lesson shows two ways to count, plus every trap.",
+     "file": "2026-10-30-girls-apart/short/audio/8a23cc6a400f6025.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-girls-apart/short/audio/82b8b7e1a12a7449.wav",
+     "from": 160,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

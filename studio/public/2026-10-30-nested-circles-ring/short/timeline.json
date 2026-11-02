@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1811,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 278,
+   "lines": [
+    {
+     "text": "A square, a circle, a smaller square, a smaller circle.",
+     "caption": "A square, a circle, a smaller square, a smaller circle.",
+     "file": "2026-10-30-nested-circles-ring/short/audio/7b86e4ab20a983bb.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "Find the shaded ring! And no square roots needed!",
+     "caption": "Find the shaded ring! And no square roots needed!",
+     "file": "2026-10-30-nested-circles-ring/short/audio/9c78f746127d65ee.wav",
+     "from": 146,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 278,
+   "frames": 351,
+   "lines": [
+    {
+     "text": "A circle fits in a square of side eight. A smaller square has its corners on that circle, with a smaller circle inside it.",
+     "caption": "A circle fits in a square of side eight. A smaller square has its corners on that circle, with a smaller circle inside it.",
+     "file": "2026-10-30-nested-circles-ring/short/audio/0251b63aee8e205a.wav",
+     "from": 0,
+     "frames": 231
+    },
+    {
+     "text": "What is the area of the shaded ring?",
+     "caption": "What is the area of the shaded ring?",
+     "file": "2026-10-30-nested-circles-ring/short/audio/c00c1ac1bedcc0fa.wav",
+     "from": 241,
+     "frames": 77
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 629,
+   "frames": 156,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-nested-circles-ring/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 42
+    }
+   ]
+  },
+  {
+   "id": "fold",
+   "kind": "scene",
+   "chapter": null,
+   "from": 785,
+   "frames": 413,
+   "lines": [
+    {
+     "text": "Look! The small square's corners sit at the middle of each side.",
+     "caption": "Look! The small square's corners sit at the middle of each side.",
+     "file": "2026-10-30-nested-circles-ring/short/audio/0c8fa556e5d19402.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "Fold the four corner triangles in. They cover the small square exactly!",
+     "caption": "Fold the four corner triangles in. They cover the small square exactly!",
+     "file": "2026-10-30-nested-circles-ring/short/audio/5a7abe2716e327ab.wav",
+     "from": 128,
+     "frames": 135
+    },
+    {
+     "text": "So the small square is half the big one, and its circle is half too!",
+     "caption": "So the small square is half the big one, and its circle is half too!",
+     "file": "2026-10-30-nested-circles-ring/short/audio/95f86aef8e3b4fce.wav",
+     "from": 273,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1198,
+   "frames": 309,
+   "lines": [
+    {
+     "text": "The big circle is sixteen pi. The small circle is half of that, eight pi.",
+     "caption": "The big circle is sixteen pi. The small circle is half of that, eight pi.",
+     "file": "2026-10-30-nested-circles-ring/short/audio/6109f6aa1f1eae33.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "So the ring is the other half. Eight pi, choice B!",
+     "caption": "So the ring is the other half. Eight pi, choice B!",
+     "file": "2026-10-30-nested-circles-ring/short/audio/b8060498ead0ca0f.wav",
+     "from": 157,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1507,
+   "frames": 304,
+   "lines": [
+    {
+     "text": "Why half? The full lesson shows the fold and the turn, plus every trap.",
+     "caption": "Why half? The full lesson shows the fold and the turn, plus every trap.",
+     "file": "2026-10-30-nested-circles-ring/short/audio/e574ac3654bd1421.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-nested-circles-ring/short/audio/82b8b7e1a12a7449.wav",
+     "from": 175,
+     "frames": 60
+    }
+   ]
+  }
+ ]
+}

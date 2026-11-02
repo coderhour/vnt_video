@@ -6,23 +6,24 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-consecutive-sums';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 const PINK = '#e0559a';
 const TEAL = '#14a3b8';
 /** Colour of each run length on the board. */
-const RUN = { 2: C.primary, 3: C.violet, 4: C.blue, 5: C.amber, 7: PINK, 8: TEAL } as Record<number, string>;
+export const RUN = { 2: C.primary, 3: C.violet, 4: C.blue, 5: C.amber, 7: PINK, 8: TEAL } as Record<number, string>;
 
 // Same numbers as verify.py: the sums each run length adds that no shorter run made.
 const sumsOf = (len: number, max = 50) =>
   range(50)
     .map((a) => len * (a + 1) + (len * (len - 1)) / 2)
     .filter((s) => s <= max);
-const NEW: Record<number, number[]> = {};
+export const NEW: Record<number, number[]> = {};
 {
   const seen = new Set<number>();
   for (let len = 2; len <= 10; len++) {
@@ -30,7 +31,7 @@ const NEW: Record<number, number[]> = {};
     sumsOf(len).forEach((s) => seen.add(s));
   }
 }
-const FAILS = [1, 2, 4, 8, 16, 32];
+export const FAILS = [1, 2, 4, 8, 16, 32];
 
 // ---------- small building blocks ----------
 
@@ -164,7 +165,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['24', '43', '44', '45', '47'];
+export const CHOICES = ['24', '43', '44', '45', '47'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -580,10 +581,7 @@ const Recap: SceneComponent = ({ scene }) => {
           Find them, and take them away.
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 2, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 2, 0.2)} seed={3} />
     </>
   );

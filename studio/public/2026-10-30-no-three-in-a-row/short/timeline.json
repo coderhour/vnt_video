@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1784,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 252,
+   "lines": [
+    {
+     "text": "Flip a coin eight times. Will the same side come up three times in a row?",
+     "caption": "Flip a coin eight times. Will the same side come up three times in a row?",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/0a2f33c358b7e259.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "It happens almost three times out of four!",
+     "caption": "It happens almost three times out of four!",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/0286093030109c44.wav",
+     "from": 144,
+     "frames": 84
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 252,
+   "frames": 252,
+   "lines": [
+    {
+     "text": "A fair coin is flipped eight times.",
+     "caption": "A fair coin is flipped eight times.",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/4cf87c6ff16488b6.wav",
+     "from": 0,
+     "frames": 77
+    },
+    {
+     "text": "What is the chance the same side never comes up three times in a row?",
+     "caption": "What is the chance the same side never comes up three times in a row?",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/5f474b63a2e16231.wav",
+     "from": 87,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 504,
+   "frames": 161,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 47
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "kind": "scene",
+   "chapter": null,
+   "from": 665,
+   "frames": 479,
+   "lines": [
+    {
+     "text": "Count the good strings, one flip at a time. One flip has two. Two flips have four.",
+     "caption": "Count the good strings, one flip at a time. One flip has two. Two flips have four.",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/0c578db0609a9f92.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Here's the pattern. Each count is the sum of the two before it!",
+     "caption": "Here's the pattern. Each count is the sum of the two before it!",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/5dc608cb9d9c305e.wav",
+     "from": 176,
+     "frames": 125
+    },
+    {
+     "text": "Six, ten, sixteen, twenty-six, forty-two, sixty-eight!",
+     "caption": "Six, ten, sixteen, twenty-six, forty-two, sixty-eight!",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/16f645ac1b9af07a.wav",
+     "from": 311,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1144,
+   "frames": 364,
+   "lines": [
+    {
+     "text": "Sixty-eight good strings, out of two hundred fifty-six. That's seventeen over sixty-four, choice D!",
+     "caption": "Sixty-eight good strings, out of two hundred fifty-six. That's seventeen over sixty-four, choice D!",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/2b6acca23a86d216.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "Only about twenty-seven percent. So three in a row is really common!",
+     "caption": "Only about twenty-seven percent. So three in a row is really common!",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/c4dbd298b65a0859.wav",
+     "from": 199,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1508,
+   "frames": 276,
+   "lines": [
+    {
+     "text": "Why does it work? The full lesson shows two methods, plus every trap.",
+     "caption": "Why does it work? The full lesson shows two methods, plus every trap.",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/84f12766fa96f3b4.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-no-three-in-a-row/short/audio/82b8b7e1a12a7449.wav",
+     "from": 149,
+     "frames": 59
+    }
+   ]
+  }
+ ]
+}

@@ -5,29 +5,30 @@ import { Countdown } from '../../lib/PauseCard';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Choices, Confetti, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-juice-jugs';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const OR = '#ff8a1f';
-const ORB = '#e06d00';
-const ORT = '#d96b00'; // text orange
-const BL = '#9fd4ff';
-const BLB = '#5fb0ee';
+export const OR = '#ff8a1f';
+export const ORB = '#e06d00';
+export const ORT = '#d96b00'; // text orange
+export const BL = '#9fd4ff';
+export const BLB = '#5fb0ee';
 const GR = '#eef0f6';
 const GRB = '#d3d8e4';
-const COL_A = C.violet;
-const COL_B = '#0aa56b';
+export const COL_A = C.violet;
+export const COL_B = '#0aa56b';
 
 // ---------- geometry (base units, scaled by the wrapper) ----------
 const PITCH = 80;
 const BLK = 72;
 const PAD = 20;
-const BODY_TOP = 90;
-const BH = 4 * PITCH + 2 * PAD; // 360
-const JX = { A: 0, B: 480 };
+export const BODY_TOP = 90;
+export const BH = 4 * PITCH + 2 * PAD; // 360
+export const JX = { A: 0, B: 480 };
 const JW = (cols: number) => cols * PITCH + 2 * PAD;
 type Jug = 'A' | 'B';
 type Loc = [Jug, number];
@@ -37,12 +38,12 @@ const slotXY = (j: Jug, slot: number, cols: number): [number, number] => [
 ];
 
 type Blk = { id: string; c: 'o' | 'b'; locs: Loc[] };
-type Win = [number, number];
-type Phases = { p1: Win; s1: Win; p2: Win; s2: Win };
-const NEVER: Win = [1e6, 1e6 + 1];
-const DONE: Win = [-200, -190];
-const T_START: Phases = { p1: NEVER, s1: NEVER, p2: NEVER, s2: NEVER };
-const T_END: Phases = { p1: DONE, s1: DONE, p2: DONE, s2: DONE };
+export type Win = [number, number];
+export type Phases = { p1: Win; s1: Win; p2: Win; s2: Win };
+export const NEVER: Win = [1e6, 1e6 + 1];
+export const DONE: Win = [-200, -190];
+export const T_START: Phases = { p1: NEVER, s1: NEVER, p2: NEVER, s2: NEVER };
+export const T_END: Phases = { p1: DONE, s1: DONE, p2: DONE, s2: DONE };
 const T_P1DONE: Phases = { p1: DONE, s1: DONE, p2: NEVER, s2: NEVER };
 
 const L = (s: string): Loc => [s[0] as Jug, Number(s.slice(1))];
@@ -50,7 +51,7 @@ const blk = (id: string, c: 'o' | 'b', ...locs: string[]): Blk => ({ id, c, locs
 const same = (id: string, c: 'o' | 'b', s: string) => blk(id, c, s, s, s, s, s);
 
 // Main puzzle: A 10 L water, B 10 L at 60%. 5 columns. locs = [start, after pour 1, after stir 1, after pour 2, after stir 2]
-const MAIN: Blk[] = [
+export const MAIN: Blk[] = [
   ...[0, 1, 2, 4, 5, 6, 7, 9].map((i) => same(`a${i}`, 'b', `A${i}`)),
   blk('a3', 'b', 'A3', 'A3', 'A10', 'B5', 'B3'),
   blk('a8', 'b', 'A8', 'A8', 'A12', 'B6', 'B6'),
@@ -122,7 +123,7 @@ const JugLabel: React.FC<{ j: Jug; op: number }> = ({ j, op }) => (
   </div>
 );
 
-const Jugs: React.FC<{
+export const Jugs: React.FC<{
   ox: number; oy: number; s?: number; cols?: number; blocks: Blk[]; T: Phases;
   known?: { A: number; B: number }; labelOp?: number; fadeIn?: number; children?: React.ReactNode;
 }> = ({ ox, oy, s = 1, cols = 5, blocks, T, known, labelOp = 1, fadeIn = 1, children }) => {
@@ -166,14 +167,14 @@ const rowRing = (j: Jug, row: number, cols: number, start: number, end?: number,
   const [x, y] = slotXY(j, row * cols, cols);
   return <Ring x={x - 10} y={y - 8} w={cols * PITCH + 12} h={PITCH + 12} start={start} end={end} color={color} />;
 };
-const JugGlow: React.FC<{ j: Jug; start: number; end?: number; color: string; cols?: number }> = ({ j, start, end = 1e6, color }) => {
+export const JugGlow: React.FC<{ j: Jug; start: number; end?: number; color: string; cols?: number }> = ({ j, start, end = 1e6, color }) => {
   const f = useCurrentFrame();
   const o = ease(f, start, 10) * fadeTo(f, end, 0, 10);
   if (o <= 0.01) return null;
   return <div style={{ position: 'absolute', left: JX[j] - 14, top: -10, width: 468, height: BODY_TOP + BH + 20, borderRadius: 34, boxShadow: `0 0 0 8px ${color}`, opacity: o * (0.6 + 0.4 * Math.sin(f / 6)) }} />;
 };
 
-const Swirl: React.FC<{ j: Jug; start: number; end: number }> = ({ j, start, end }) => {
+export const Swirl: React.FC<{ j: Jug; start: number; end: number }> = ({ j, start, end }) => {
   const f = useCurrentFrame();
   const o = ease(f, start, 6) * fadeTo(f, end - 6, 0, 6);
   if (o <= 0.01) return null;
@@ -190,7 +191,7 @@ const Swirl: React.FC<{ j: Jug; start: number; end: number }> = ({ j, start, end
 };
 
 /** Curved arrow in wrapper coords; draws on from `start`. */
-const Arc: React.FC<{ from: number; to: number; y0: number; peak: number; start: number; end?: number; label?: string; labelOp?: number }> = ({ from, to, y0, peak, start, end = 1e6, label, labelOp = 1 }) => {
+export const Arc: React.FC<{ from: number; to: number; y0: number; peak: number; start: number; end?: number; label?: string; labelOp?: number }> = ({ from, to, y0, peak, start, end = 1e6, label, labelOp = 1 }) => {
   const f = useCurrentFrame();
   const p = ease(f, start, 18);
   const vis = fadeTo(f, end, 0, 10);
@@ -213,7 +214,7 @@ const Arc: React.FC<{ from: number; to: number; y0: number; peak: number; start:
 };
 
 // ---------- small shared bits ----------
-const Legend: React.FC<{ x: number; y: number; start: number }> = ({ x, y, start }) => {
+export const Legend: React.FC<{ x: number; y: number; start: number }> = ({ x, y, start }) => {
   const f = useCurrentFrame();
   const sq = (c: string, b: string) => <div style={{ width: 40, height: 40, borderRadius: 10, background: c, border: `4px solid ${b}`, boxSizing: 'border-box' }} />;
   return (
@@ -319,7 +320,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['20', '30', '40', '45', '60'];
+export const CH = ['20', '30', '40', '45', '60'];
 const QS = 0.8;
 
 const Question: SceneComponent = ({ scene }) => {
@@ -601,10 +602,7 @@ const Recap: SceneComponent = ({ scene }) => {
         </div>
         <Tag x={880} y={590} start={at(scene, 2, 0.5)} color={ORT} size={46}>the same part of its juice moves</Tag>
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

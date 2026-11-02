@@ -1,0 +1,54 @@
+{
+ "title": "Spin the Hour Hand (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Move the hour hand one hour, then two, then three, up to twenty!",
+    "Where does it stop?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The hand starts at three. Tom moves it one hour, then two, then three, up to twenty.",
+    "Where does it point at the end?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "turns",
+   "lines": [
+    "First, add all the moves. One plus two, all the way to twenty, is two hundred ten hours.",
+    "Twelve hours is a full turn. Two hundred ten is seventeen turns, plus six.",
+    "So only the six leftover hours matter!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Count six hours from three. The hand points to nine!",
+    "Not six! That's only the leftover."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Want to skip the big sum? The full lesson has a second way, and every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

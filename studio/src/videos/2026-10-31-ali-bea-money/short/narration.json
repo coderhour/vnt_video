@@ -1,0 +1,55 @@
+{
+ "title": "Two Swaps, One Total (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Nobody says how much money Ali and Bea have!",
+    "Can two swaps still find the total?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "If Ali gives Bea twenty percent, they're equal.",
+    "If Bea gives Ali ten dollars instead, Ali has twice as much.",
+    "How many dollars together?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "bars",
+   "lines": [
+    "Twenty percent is one fifth. So split Ali's money into five parts.",
+    "He gives one part, and they're equal. So Bea started with three parts.",
+    "Ali has five parts, Bea has three. Eight in all!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "The ten dollar swap makes one part thirty dollars. So, two hundred forty dollars together!",
+    "Ali has one hundred fifty, and Bea has ninety."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why thirty? The full lesson shows it step by step, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

@@ -6,16 +6,17 @@ import { PACIFICO } from '../../lib/fonts';
 import { Stage, XMark, type Pt } from '../../lib/grid';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-hexagon-triangles';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const AMBER = '#f59f0a';
-const AMBER_D = '#c27a00';
-const GREEN_D = '#08925f';
-const VIOLET_D = '#5b43d6';
+export const AMBER = '#f59f0a';
+export const AMBER_D = '#c27a00';
+export const GREEN_D = '#08925f';
+export const VIOLET_D = '#5b43d6';
 const RED_D = '#d12f2f';
 const GRID = '#aab1c2';
 
@@ -40,7 +41,7 @@ const enumerate = (inside: Inside, n = 8): Tri[] => {
 
 const hexa: Inside = (i, j) => Math.abs(i) <= 2 && Math.abs(j) <= 2 && Math.abs(i + j) <= 2;
 const tri4: Inside = (i, j) => i >= 0 && j >= 0 && i + j <= 4;
-const HEX = enumerate(hexa);
+export const HEX = enumerate(hexa);
 const TRI4 = enumerate(tri4);
 const HEX_VERTS: IJ[] = [[2, 0], [0, 2], [-2, 2], [-2, 0], [0, -2], [2, -2]];
 const TRI4_VERTS: IJ[] = [[0, 0], [4, 0], [0, 4]];
@@ -56,13 +57,13 @@ const has = (t: Tri, q: IJ) => t.p.some((p) => p[0] === q[0] && p[1] === q[1]);
 // reading order, for sliding an outline along rows
 const byRow = (a: Tri[]) => [...a].sort((x, y) => x.p[0][1] - y.p[0][1] || x.p[0][0] - y.p[0][0]);
 
-const SMALL_HEX = HEX.filter((t) => t.s === 1);
+export const SMALL_HEX = HEX.filter((t) => t.s === 1);
 const SIZE2_ALL = [...pick(HEX, 'up', 2), ...pick(HEX, 'down', 2)];
 const WEDGE = byAngle(SIZE2_ALL.filter((t) => has(t, [0, 0]))); // six pizza slices, rotated 60 degrees from each other
 const OTHER = byAngle(SIZE2_ALL.filter((t) => !has(t, [0, 0]))); // six with the center at the middle of a side
-const UP2 = byRow(pick(HEX, 'up', 2));
-const BIG_UP = pick(HEX, 'up', 3)[0];
-const BIG_DOWN = pick(HEX, 'down', 3)[0];
+export const UP2 = byRow(pick(HEX, 'up', 2));
+export const BIG_UP = pick(HEX, 'up', 3)[0];
+export const BIG_DOWN = pick(HEX, 'down', 3)[0];
 // the far corner of each OTHER triangle that lands on a side-midpoint
 const farCorner = (t: Tri): IJ => t.p.find((q) => MIDS.some((m) => m[0] === q[0] && m[1] === q[1])) as IJ;
 // the side of an OTHER triangle that has the center at its middle
@@ -83,8 +84,8 @@ const HEX_EDGES = edgesOf(hexa);
 const TRI4_EDGES = edgesOf(tri4);
 
 type Map = (p: IJ) => Pt;
-const mk = (ox: number, oy: number, U: number): Map => (p) => [ox + U * (p[0] + p[1] / 2), oy - (U * p[1] * S3) / 2];
-const ptsOf = (t: Tri, T: Map) => t.p.map(T);
+export const mk = (ox: number, oy: number, U: number): Map => (p) => [ox + U * (p[0] + p[1] / 2), oy - (U * p[1] * S3) / 2];
+export const ptsOf = (t: Tri, T: Map) => t.p.map(T);
 const poly = (pts: Pt[]) => pts.map((p) => p.join(',')).join(' ');
 
 // main hexagon placement (left half)
@@ -96,7 +97,7 @@ const PX = 1000; // right panel x
 
 // ---------- drawing pieces ----------
 
-const Base: React.FC<{ T: Map; kind?: 'hex' | 'tri'; op?: number; lines?: number }> = ({ T, kind = 'hex', op = 1, lines = 1 }) => {
+export const Base: React.FC<{ T: Map; kind?: 'hex' | 'tri'; op?: number; lines?: number }> = ({ T, kind = 'hex', op = 1, lines = 1 }) => {
   const E = kind === 'hex' ? HEX_EDGES : TRI4_EDGES;
   const V = kind === 'hex' ? HEX_VERTS : TRI4_VERTS;
   return (
@@ -112,7 +113,7 @@ const Base: React.FC<{ T: Map; kind?: 'hex' | 'tri'; op?: number; lines?: number
   );
 };
 
-const Pg: React.FC<{ pts: Pt[]; fill?: string; fo?: number; stroke?: string; w?: number; op?: number; dash?: string }> = ({ pts, fill, fo = 0.25, stroke, w = 7, op = 1, dash }) =>
+export const Pg: React.FC<{ pts: Pt[]; fill?: string; fo?: number; stroke?: string; w?: number; op?: number; dash?: string }> = ({ pts, fill, fo = 0.25, stroke, w = 7, op = 1, dash }) =>
   op <= 0.005 ? null : (
     <polygon points={poly(pts)} fill={fill ?? 'none'} fillOpacity={fo} stroke={stroke ?? 'none'} strokeWidth={w} strokeLinejoin="round" strokeLinecap="round" opacity={op} strokeDasharray={dash} />
   );
@@ -204,7 +205,7 @@ const Down: React.FC<{ s?: number; color?: string }> = ({ s = 34, color = C.blue
   <svg width={s} height={s * 0.9} viewBox="0 0 100 90" style={{ verticalAlign: 'middle' }}><polygon points="4,4 96,4 50,86" fill={color} /></svg>
 );
 
-const BLUE_D = '#2a63c4';
+export const BLUE_D = '#2a63c4';
 
 // ---------- scenes ----------
 
@@ -235,7 +236,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['24', '30', '32', '36', '38'];
+export const CHOICES = ['24', '30', '32', '36', '38'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -686,10 +687,7 @@ const Recap: SceneComponent = ({ scene }) => {
           </div>
         ))}
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep hunting!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep hunting!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

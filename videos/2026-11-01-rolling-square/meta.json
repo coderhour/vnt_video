@@ -1,0 +1,12 @@
+{
+ "title": "How Far Does the Rolling Corner Travel? | AMC 10-Style Level 4",
+ "description": "A little square tumbles all the way around a bigger square. How far does one of its corners travel? Vantee follows the roll one move at a time, spots the sneaky half turn at each corner (and the moves where the corner doesn't budge), then glues the arcs into whole circles for a quick check. Then you track the center of the square yourself.\n\n0:00 Intro\n0:11 The question\n0:46 What are we asked?\n1:08 Try it yourself\n1:23 Solution 1: one move at a time\n3:45 Solution 2: glue arcs into circles\n4:21 Common traps\n5:33 Your turn: follow the center\n5:56 Variant: the answer\n6:40 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-01",
+ "question_id": "amc_practice_amc10_geometry_template:c2-075",
+ "posts": [],
+ "short": {
+  "title": "How Far Does the Rolling Corner Go? #Shorts",
+  "description": "A small square tumbles around a bigger one. How far does one corner travel?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": []
+ }
+}

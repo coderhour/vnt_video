@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1787,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 231,
+   "lines": [
+    {
+     "text": "Each term is the sum of the two before it.",
+     "caption": "Each term is the sum of the two before it.",
+     "file": "2026-10-30-fibonacci-2024/short/audio/26aeaa6f73a1a020.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "Term ten is two thousand twenty-four. Find the start!",
+     "caption": "Term ten is two thousand twenty-four. Find the start!",
+     "file": "2026-10-30-fibonacci-2024/short/audio/62fcd829a1ef59b1.wav",
+     "from": 99,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 231,
+   "frames": 269,
+   "lines": [
+    {
+     "text": "Each term is the sum of the two before it. Term ten is two thousand twenty-four.",
+     "caption": "Each term is the sum of the two before it. Term ten is two thousand twenty-four.",
+     "file": "2026-10-30-fibonacci-2024/short/audio/a8878631d5b63cc9.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "What's the largest first term plus second term?",
+     "caption": "What's the largest first term plus second term?",
+     "file": "2026-10-30-fibonacci-2024/short/audio/ffb904ffc5549777.wav",
+     "from": 151,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 500,
+   "frames": 159,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-fibonacci-2024/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 45
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 659,
+   "frames": 609,
+   "lines": [
+    {
+     "text": "Call the first two terms x and y, and their sum T.",
+     "caption": "Call the first two terms x and y, and their sum T.",
+     "file": "2026-10-30-fibonacci-2024/short/audio/2bd3fb0ff97c6236.wav",
+     "from": 0,
+     "frames": 108
+    },
+    {
+     "text": "Term ten works out to twenty-one T, plus thirteen y.",
+     "caption": "Term ten works out to twenty-one T, plus thirteen y.",
+     "file": "2026-10-30-fibonacci-2024/short/audio/e01b60f2aa16f14a.wav",
+     "from": 118,
+     "frames": 122
+    },
+    {
+     "text": "Count T down from ninety-five. The leftover must be a multiple of thirteen.",
+     "caption": "Count T down from ninety-five. The leftover must be a multiple of thirteen.",
+     "file": "2026-10-30-fibonacci-2024/short/audio/c20a00b271a9e0af.wav",
+     "from": 250,
+     "frames": 137
+    },
+    {
+     "text": "Ninety-five leaves twenty-nine, not a multiple. Keep going, and eighty-four leaves two hundred sixty!",
+     "caption": "Ninety-five leaves twenty-nine, not a multiple. Keep going, and eighty-four leaves two hundred sixty!",
+     "file": "2026-10-30-fibonacci-2024/short/audio/73a27aedad99f91e.wav",
+     "from": 397,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1268,
+   "frames": 254,
+   "lines": [
+    {
+     "text": "That's thirteen times twenty. So y is twenty, and x is sixty-four.",
+     "caption": "That's thirteen times twenty. So y is twenty, and x is sixty-four.",
+     "file": "2026-10-30-fibonacci-2024/short/audio/a43755b0113f8f8e.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "Their sum is eighty-four!",
+     "caption": "Their sum is eighty-four!",
+     "file": "2026-10-30-fibonacci-2024/short/audio/36fedd8440efa309.wav",
+     "from": 153,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1522,
+   "frames": 265,
+   "lines": [
+    {
+     "text": "Why twenty-one and thirteen? The full lesson shows two ways, plus every trap.",
+     "caption": "Why twenty-one and thirteen? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-fibonacci-2024/short/audio/aa7bd625dd3a6cd1.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-fibonacci-2024/short/audio/82b8b7e1a12a7449.wav",
+     "from": 156,
+     "frames": 56
+    }
+   ]
+  }
+ ]
+}

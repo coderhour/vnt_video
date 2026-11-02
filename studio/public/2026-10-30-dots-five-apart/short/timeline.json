@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1608,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 188,
+   "lines": [
+    {
+     "text": "Twenty-five dots in a grid.",
+     "caption": "Twenty-five dots in a grid.",
+     "file": "2026-10-30-dots-five-apart/short/audio/18e372056a2d40da.wav",
+     "from": 0,
+     "frames": 60
+    },
+    {
+     "text": "How many pairs are exactly five units apart?",
+     "caption": "How many pairs are exactly five units apart?",
+     "file": "2026-10-30-dots-five-apart/short/audio/13db13798183c058.wav",
+     "from": 70,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 188,
+   "frames": 260,
+   "lines": [
+    {
+     "text": "The dots are one unit apart, in rows and columns.",
+     "caption": "The dots are one unit apart, in rows and columns.",
+     "file": "2026-10-30-dots-five-apart/short/audio/f4e2c535e5d038e3.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "Count the pairs of dots that are exactly five units apart.",
+     "caption": "Count the pairs of dots that are exactly five units apart.",
+     "file": "2026-10-30-dots-five-apart/short/audio/43d28c44341df65c.wav",
+     "from": 121,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 448,
+   "frames": 165,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-dots-five-apart/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "slant",
+   "kind": "scene",
+   "chapter": null,
+   "from": 613,
+   "frames": 410,
+   "lines": [
+    {
+     "text": "A row of five dots is only four units long. So five has to be a slant!",
+     "caption": "A row of five dots is only four units long. So five has to be a slant!",
+     "file": "2026-10-30-dots-five-apart/short/audio/45782bb9c877a8b7.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "Three across and four down is a three, four, five triangle.",
+     "caption": "Three across and four down is a three, four, five triangle.",
+     "file": "2026-10-30-dots-five-apart/short/audio/e484ded67c98ac26.wav",
+     "from": 153,
+     "frames": 123
+    },
+    {
+     "text": "It fits in two spots, and there are four different slants.",
+     "caption": "It fits in two spots, and there are four different slants.",
+     "file": "2026-10-30-dots-five-apart/short/audio/cb103d942ca1b088.wav",
+     "from": 286,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1023,
+   "frames": 261,
+   "lines": [
+    {
+     "text": "Four slants, two spots each. That makes eight pairs!",
+     "caption": "Four slants, two spots each. That makes eight pairs!",
+     "file": "2026-10-30-dots-five-apart/short/audio/5f066a588a8b4f9e.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "Sixteen is the trap. It counts every pair twice.",
+     "caption": "Sixteen is the trap. It counts every pair twice.",
+     "file": "2026-10-30-dots-five-apart/short/audio/27f77d367cd07481.wav",
+     "from": 117,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1284,
+   "frames": 324,
+   "lines": [
+    {
+     "text": "Why does each slant fit twice? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Why does each slant fit twice? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-30-dots-five-apart/short/audio/80f3527110590d52.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-dots-five-apart/short/audio/82b8b7e1a12a7449.wav",
+     "from": 199,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

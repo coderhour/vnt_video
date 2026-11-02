@@ -1,0 +1,55 @@
+{
+ "title": "The 2026th Digit (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Write every number in a row, with no spaces.",
+    "Which digit lands in spot two thousand twenty-six?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "One long row of digits.",
+    "What is the two thousand twenty-sixth digit?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "blocks",
+   "lines": [
+    "Count in blocks! One to ninety-nine uses one hundred eighty-nine spots.",
+    "That leaves one thousand eight hundred thirty-seven.",
+    "Three digits each: six hundred twelve numbers, remainder one.",
+    "The last one is seven hundred eleven. The leftover one lands on the next number!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "It's the FIRST digit of seven hundred twelve: a seven!",
+    "The remainder picks a digit of the NEXT number."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why that exactly? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

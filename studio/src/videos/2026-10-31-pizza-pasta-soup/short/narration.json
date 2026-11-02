@@ -1,0 +1,29 @@
+{
+ "title": "Pizza, Pasta, Soup (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Twenty-four kids, three favorite foods. How few could like all three?",
+   "Skip the big Venn diagram. Count the no's instead!"
+  ]},
+  {"id": "question", "lines": [
+   "Twenty kids like pizza, eighteen like pasta, and sixteen like soup.",
+   "What's the smallest number who like all three?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "noes", "lines": [
+   "Four kids say no to pizza, six say no to pasta, and eight say no to soup.",
+   "Give those no's to different kids. That's eighteen kids who say no.",
+   "Everyone else says yes to all three! Twenty-four minus eighteen."
+  ]},
+  {"id": "reveal", "lines": [
+   "The answer is six!",
+   "You can't do better. There are only eighteen no's to hand out."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Want to see why? The full lesson has two neat ways and every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 0.8}
+ ]
+}

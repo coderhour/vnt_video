@@ -6,16 +6,17 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-goats-and-grass';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // Colour language: starting grass = green, new growth = blue, helper goats = violet.
-const START = C.primary;
-const GROW = C.blue;
-const HELP = C.violet;
+export const START = C.primary;
+export const GROW = C.blue;
+export const HELP = C.violet;
 const FIELD = '#e3f5e6';
 
 /** Frame of line i (t = fraction into it), plus an offset in frames. */
@@ -169,7 +170,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['4', '5', '6', '8', '10'];
+export const CHOICES = ['4', '5', '6', '8', '10'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -648,10 +649,7 @@ const Recap: SceneComponent = ({ scene }) => {
           </div>
         ))}
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, cue(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={cue(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={cue(scene, 3, 0.2) + 4} seed={3} />
     </>
   );

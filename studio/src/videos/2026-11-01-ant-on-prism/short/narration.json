@@ -1,0 +1,55 @@
+{
+ "title": "Ant on a Prism (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "An ant crawls this prism, one random edge every second.",
+    "Which corner does it hit first, E or A?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The ant starts at C. All three edges there are equally likely.",
+    "What's the chance it reaches E before A?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "spin",
+   "lines": [
+    "Look at the front face, A B E D. A and E are opposite corners.",
+    "Spin the prism a half turn.",
+    "A and E swap, and so do C and F. Same prism!",
+    "So F's chance is one minus C's chance."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Use that in the corner rules, and eleven c equals four.",
+    "So the chance from C is four over eleven!"
+   ],
+   "hold": 0.4
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

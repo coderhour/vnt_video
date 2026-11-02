@@ -1,0 +1,30 @@
+{
+ "title": "How Many Circles Through Nine Dots? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Nine dots. How many circles pass through at least three of them?",
+   "Lots of kids say seventy-six. But it's much smaller!"
+  ]},
+  {"id": "question", "lines": [
+   "Nine dots in a grid. How many different circles pass through at least three?",
+   "Each circle counts only once!"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "repeat", "lines": [
+   "Groups of three give seventy-six. But look at this square.",
+   "Leave out any corner. The other three make the SAME circle!",
+   "So that circle was counted four times. There are fourteen like it.",
+   "Take away three extra copies of each. Fourteen times three is forty-two."
+  ]},
+  {"id": "reveal", "lines": [
+   "Seventy-six minus forty-two is thirty-four!",
+   "Thirty-four circles, not seventy-six."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1}
+ ]
+}

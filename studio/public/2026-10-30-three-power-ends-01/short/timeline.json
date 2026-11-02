@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1699,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 267,
+   "lines": [
+    {
+     "text": "Three, nine, twenty-seven, eighty-one. Powers of three grow fast!",
+     "caption": "Three, nine, twenty-seven, eighty-one. Powers of three grow fast!",
+     "file": "2026-10-30-three-power-ends-01/short/audio/19d0ef89787ab5a6.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Can one end in zero one?",
+     "caption": "Can one end in zero one?",
+     "file": "2026-10-30-three-power-ends-01/short/audio/8798263a4e6b0eb9.wav",
+     "from": 170,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 267,
+   "frames": 232,
+   "lines": [
+    {
+     "text": "What is the smallest n, so three to the n ends in zero one?",
+     "caption": "What is the smallest n, so three to the n ends in zero one?",
+     "file": "2026-10-30-three-power-ends-01/short/audio/6c684d1ba7d12025.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "Here are the choices.",
+     "caption": "Here are the choices.",
+     "file": "2026-10-30-three-power-ends-01/short/audio/4c700db2f68259a7.wav",
+     "from": 152,
+     "frames": 47
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 499,
+   "frames": 162,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-three-power-ends-01/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "jump",
+   "kind": "scene",
+   "chapter": null,
+   "from": 661,
+   "frames": 498,
+   "lines": [
+    {
+     "text": "The last digit loops: three, nine, seven, one. So only every fourth power ends in one.",
+     "caption": "The last digit loops: three, nine, seven, one. So only every fourth power ends in one.",
+     "file": "2026-10-30-three-power-ends-01/short/audio/30dff3eadf6dcb15.wav",
+     "from": 0,
+     "frames": 165
+    },
+    {
+     "text": "Three to the fourth is eighty-one. Four powers later, the tens digit drops by two.",
+     "caption": "Three to the fourth is eighty-one. Four powers later, the tens digit drops by two.",
+     "file": "2026-10-30-three-power-ends-01/short/audio/9a84680bca0a4c12.wav",
+     "from": 175,
+     "frames": 158
+    },
+    {
+     "text": "Sixty-one, forty-one, twenty-one, and then zero one!",
+     "caption": "Sixty-one, forty-one, twenty-one, and then zero one!",
+     "file": "2026-10-30-three-power-ends-01/short/audio/2d51407489521f1e.wav",
+     "from": 343,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1159,
+   "frames": 277,
+   "lines": [
+    {
+     "text": "Five jumps of four powers. So n is twenty!",
+     "caption": "Five jumps of four powers. So n is twenty!",
+     "file": "2026-10-30-three-power-ends-01/short/audio/51b633b36053a38a.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "Check: three to the twentieth ends in zero one.",
+     "caption": "Check: three to the twentieth ends in zero one.",
+     "file": "2026-10-30-three-power-ends-01/short/audio/5d3440b52447ce9e.wav",
+     "from": 124,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1436,
+   "frames": 263,
+   "lines": [
+    {
+     "text": "Why does it drop? The full lesson shows two ways, plus every trap.",
+     "caption": "Why does it drop? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-three-power-ends-01/short/audio/980316e79f218268.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-three-power-ends-01/short/audio/82b8b7e1a12a7449.wav",
+     "from": 143,
+     "frames": 52
+    }
+   ]
+  }
+ ]
+}

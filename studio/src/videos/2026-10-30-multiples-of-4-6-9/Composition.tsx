@@ -7,15 +7,16 @@ import { Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-multiples-of-4-6-9';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const CIRC = [C.primary, C.violet, C.amber];
+export const CIRC = [C.primary, C.violet, C.amber];
 const PX = 980; // right panel x
-const CHOICES = ['362', '388', '389', '416', '527'];
+export const CHOICES = ['362', '388', '389', '416', '527'];
 
 // ---------- Venn diagram ----------
 
@@ -571,11 +572,8 @@ const Recap: SceneComponent = ({ scene }) => {
         <Tex tex="24" size={64} color={C.red} />
         <span style={{ fontSize: 56, fontWeight: 900, color: C.red }}>✗</span>
       </div>
-      <div style={{ position: 'absolute', left: 1180, top: 190, width: 650, textAlign: 'center', opacity: sign, transform: `translateY(${(1 - sign) * 24}px)` }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 6 }}>Keep exploring!</div>
-      </div>
-      <Confetti x={1500} y={330} start={at(scene, 3, 0.2)} seed={5} />
+      <SignOff start={at(scene, 3, 0.1)} />
+      <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={5} />
     </>
   );
 };

@@ -1,0 +1,29 @@
+{
+ "title": "The Tiny Angle Inside a Triangle (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Only ONE angle is given. Can you find this tiny one?",
+   "It looks impossible. But there's a trick!"
+  ]},
+  {"id": "question", "lines": [
+   "The big triangle is equilateral. A D equals A E.",
+   "Angle B A D is twenty degrees. What is x, the angle E D C?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "chase", "lines": [
+   "Chase the angles! Angle A D C is outside the left triangle. So it's sixty plus twenty, that's eighty.",
+   "Inside, triangle A D E has a forty degree top and two equal sides. So each base angle is seventy.",
+   "Eighty, minus seventy, is what's left for x."
+  ]},
+  {"id": "reveal", "lines": [
+   "So x is ten degrees!",
+   "Look! Ten is exactly half of twenty."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Is that luck? The full lesson shows two ways to solve it, the half pattern, and every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "title": "Tree in the Yard (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "A tree stands on the edge of a yard, as far from corner A as from corner C.",
+   "Where is it? Let's find it without measuring!"
+  ]},
+  {"id": "question", "lines": [
+   "The yard is sixteen meters long and eight meters wide.",
+   "How far is the tree from corner A?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "name", "lines": [
+   "Call that distance x. Then E C is also x, and E B is sixteen minus x.",
+   "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.",
+   "The x squared parts cancel, leaving three hundred twenty equals thirty-two x."
+  ]},
+  {"id": "reveal", "lines": [
+   "So x is ten meters!",
+   "Check: E B is six, and six, eight, ten is a right triangle."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Want to see why? The full lesson shows two ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 0.8}
+ ]
+}

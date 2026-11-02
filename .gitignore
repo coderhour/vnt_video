@@ -7,3 +7,4 @@ render.log
 render.done
 render.failed
 .youtube-token.json
+short.render.*

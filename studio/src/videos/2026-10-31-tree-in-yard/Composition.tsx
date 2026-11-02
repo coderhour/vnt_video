@@ -6,21 +6,22 @@ import { Poly, Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-tree-in-yard';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 const PANEL = 990;
-const BLUE = '#2f6fd6';
-const AMBER = '#d98600';
+export const BLUE = '#2f6fd6';
+export const AMBER = '#d98600';
 const GRASS = '#e6f6ec';
-const E0 = 10; // E at its true spot (the bank figure draws it there too)
+export const E0 = 10; // E at its true spot (the bank figure draws it there too)
 
 // ---------- the yard figure ----------
 
-type G = { X: (x: number) => number; Y: (y: number) => number; u: number; L: number; W: number; ox: number; oy: number; ex: number };
+export type G = { X: (x: number) => number; Y: (y: number) => number; u: number; L: number; W: number; ox: number; oy: number; ex: number };
 
 type YP = {
   L: number; W: number; u: number; ox: number; oy: number; ex: number;
@@ -32,7 +33,7 @@ type YP = {
 
 const LBL: React.CSSProperties = { paintOrder: 'stroke', stroke: '#ffffff', strokeWidth: 9, strokeLinejoin: 'round' };
 
-const Lab: React.FC<{ x: number; y: number; t: string; color?: string; op?: number; anchor?: 'start' | 'middle' | 'end'; size?: number }> = ({ x, y, t, color = C.ink, op = 1, anchor = 'middle', size = 48 }) =>
+export const Lab: React.FC<{ x: number; y: number; t: string; color?: string; op?: number; anchor?: 'start' | 'middle' | 'end'; size?: number }> = ({ x, y, t, color = C.ink, op = 1, anchor = 'middle', size = 48 }) =>
   op <= 0 ? null : (
     <text x={x} y={y} fontFamily={NUNITO} fontWeight={800} fontSize={size} fill={color} textAnchor={anchor} opacity={op} style={LBL}>
       {t}
@@ -57,7 +58,7 @@ const Ticks: React.FC<{ a: [number, number]; b: [number, number]; op: number }> 
   );
 };
 
-const Yard: React.FC<YP> = ({ L, W, u, ox, oy, ex, draw = 1, corners = 1, dim = 1, bc = 1, dot = 1, eLab = 1, tree = 0, lift = 0, ea = 0, ec = 0, ecDash = true, tick = 0, tri = 0, rt = 0, hiEB = 0, hiBC = 0, children }) => {
+export const Yard: React.FC<YP> = ({ L, W, u, ox, oy, ex, draw = 1, corners = 1, dim = 1, bc = 1, dot = 1, eLab = 1, tree = 0, lift = 0, ea = 0, ec = 0, ecDash = true, tick = 0, tri = 0, rt = 0, hiEB = 0, hiBC = 0, children }) => {
   const X = (x: number) => ox + x * u;
   const Y = (y: number) => oy - y * u;
   const g: G = { X, Y, u, L, W, ox, oy, ex };
@@ -172,7 +173,7 @@ const Card: React.FC<{ x?: number; y: number; w?: number; start: number; childre
   );
 };
 
-const VALS = ['6', '8', '10', '12', '14'];
+export const VALS = ['6', '8', '10', '12', '14'];
 
 type ChipState = ('' | 'bad' | 'good')[];
 const Chips: React.FC<{ x: number; y: number; start: (i: number) => number; states?: ChipState; fs?: number[] }> = ({ x, y, start, states = [], fs = [] }) => {
@@ -205,9 +206,9 @@ const Y1 = { L: 16, W: 8, u: 46, ox: 110, oy: 560 };
 const Y2 = { L: 18, W: 12, u: 38, ox: 110, oy: 640 };
 
 /** Labels inside the yard: x above EA (middle), EB above the bottom edge, EC beside the slant. */
-const eaLab = (g: G, t: string, op: number, color = C.primary) => <Lab x={g.X(g.ex / 4)} y={g.oy - 18} t={t} op={op} color={color} />;
-const ebLab = (g: G, t: string, op: number, color = BLUE, dx = 0) => <Lab x={g.X((g.ex + g.L) / 2) + dx} y={g.oy - 18} t={t} op={op} color={color} />;
-const ecLab = (g: G, t: string, op: number, color = C.violet) => <Lab x={g.X((g.ex + g.L) / 2) - 46} y={g.Y(g.W / 2) + 6} t={t} op={op} color={color} anchor="end" />;
+export const eaLab = (g: G, t: string, op: number, color = C.primary) => <Lab x={g.X(g.ex / 4)} y={g.oy - 18} t={t} op={op} color={color} />;
+export const ebLab = (g: G, t: string, op: number, color = BLUE, dx = 0) => <Lab x={g.X((g.ex + g.L) / 2) + dx} y={g.oy - 18} t={t} op={op} color={color} />;
+export const ecLab = (g: G, t: string, op: number, color = C.violet) => <Lab x={g.X((g.ex + g.L) / 2) - 46} y={g.Y(g.W / 2) + 6} t={t} op={op} color={color} anchor="end" />;
 
 // ---------- scenes ----------
 
@@ -475,10 +476,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Card y={370} start={at(scene, 1, 0.55)} color={C.blue}>2. Write the same distance a second way, with the Pythagorean theorem</Card>
         <Card y={560} start={at(scene, 2, 0.2)} color={C.green}>3. Set the two equal, and solve</Card>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={7} />
     </>
   );

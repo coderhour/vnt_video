@@ -6,25 +6,26 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-meet-twice';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // Ann = violet, Bo = amber. Time is measured in "meeting units": the first meeting is at t = 1,
 // so Ann walks `first` km per unit and Bo walks `d - first` km per unit (same model as verify.py).
-const ANN = C.violet;
-const BO = C.amber;
+export const ANN = C.violet;
+export const BO = C.amber;
 
 /** Position (km from A) of a walker bouncing between A (0) and B (d). Unfolded start s0: Ann 0, Bo d. */
-const bounce = (s0: number, v: number, d: number, t: number) => {
+export const bounce = (s0: number, v: number, d: number, t: number) => {
   const s = (((s0 + v * t) % (2 * d)) + 2 * d) % (2 * d);
   return s <= d ? s : 2 * d - s;
 };
 
 /** The legs a walker has covered up to time t, as [fromKm, toKm] pairs. */
-const legs = (s0: number, v: number, d: number, t: number): [number, number][] => {
+export const legs = (s0: number, v: number, d: number, t: number): [number, number][] => {
   const out: [number, number][] = [];
   let s = s0;
   const end = s0 + v * t;
@@ -36,10 +37,10 @@ const legs = (s0: number, v: number, d: number, t: number): [number, number][] =
   return out;
 };
 
-type Road = { x0: number; x1: number; y: number; d: number };
-const X = (r: Road, km: number) => r.x0 + ((r.x1 - r.x0) * km) / r.d;
+export type Road = { x0: number; x1: number; y: number; d: number };
+export const X = (r: Road, km: number) => r.x0 + ((r.x1 - r.x0) * km) / r.d;
 
-const Label: React.FC<{ x: number; y: number; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' | 'end' }> = ({ x, y, text, color = C.ink, size = 48, opacity = 1, anchor = 'middle' }) =>
+export const Label: React.FC<{ x: number; y: number; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' | 'end' }> = ({ x, y, text, color = C.ink, size = 48, opacity = 1, anchor = 'middle' }) =>
   opacity <= 0 ? null : (
     <text x={x} y={y} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor={anchor} dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
@@ -47,7 +48,7 @@ const Label: React.FC<{ x: number; y: number; text: string; color?: string; size
   );
 
 /** The road with towns A and B. */
-const RoadLine: React.FC<{ r: Road; opacity?: number; townSize?: number }> = ({ r, opacity = 1, townSize = 52 }) =>
+export const RoadLine: React.FC<{ r: Road; opacity?: number; townSize?: number }> = ({ r, opacity = 1, townSize = 52 }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity}>
       <line x1={r.x0} y1={r.y} x2={r.x1} y2={r.y} stroke={C.line} strokeWidth={22} strokeLinecap="round" />
@@ -67,7 +68,7 @@ const RoadLine: React.FC<{ r: Road; opacity?: number; townSize?: number }> = ({ 
   );
 
 /** A walker dot on the road with a name tag above (Ann) or below (Bo). */
-const Walker: React.FC<{ r: Road; km: number; who: 'Ann' | 'Bo'; opacity?: number; tag?: boolean }> = ({ r, km, who, opacity = 1, tag = true }) => {
+export const Walker: React.FC<{ r: Road; km: number; who: 'Ann' | 'Bo'; opacity?: number; tag?: boolean }> = ({ r, km, who, opacity = 1, tag = true }) => {
   if (opacity <= 0) return null;
   // Keep the dot beside the town box (66 px) so it never hides the letter A or B.
   const x = Math.min(r.x1 - 66, Math.max(r.x0 + 66, X(r, km)));
@@ -82,7 +83,7 @@ const Walker: React.FC<{ r: Road; km: number; who: 'Ann' | 'Bo'; opacity?: numbe
 };
 
 /** Arrow along a lane at height y, from km a to km b. */
-const Leg: React.FC<{ r: Road; a: number; b: number; y: number; color: string; opacity?: number; p?: number; label?: string; labelDy?: number }> = ({ r, a, b, y, color, opacity = 1, p = 1, label, labelDy = -40 }) => {
+export const Leg: React.FC<{ r: Road; a: number; b: number; y: number; color: string; opacity?: number; p?: number; label?: string; labelDy?: number }> = ({ r, a, b, y, color, opacity = 1, p = 1, label, labelDy = -40 }) => {
   if (opacity <= 0 || p <= 0) return null;
   const xa = X(r, a);
   const xb = xa + (X(r, b) - xa) * p;
@@ -97,7 +98,7 @@ const Leg: React.FC<{ r: Road; a: number; b: number; y: number; color: string; o
 };
 
 /** Distance bracket under/over the road, from km a to km b. */
-const Brace: React.FC<{ r: Road; a: number; b: number; y: number; color: string; label: string; opacity: number; up?: boolean; size?: number }> = ({ r, a, b, y, color, label, opacity, up = false, size = 48 }) => {
+export const Brace: React.FC<{ r: Road; a: number; b: number; y: number; color: string; label: string; opacity: number; up?: boolean; size?: number }> = ({ r, a, b, y, color, label, opacity, up = false, size = 48 }) => {
   if (opacity <= 0) return null;
   const xa = X(r, a);
   const xb = X(r, b);
@@ -111,7 +112,7 @@ const Brace: React.FC<{ r: Road; a: number; b: number; y: number; color: string;
 };
 
 /** A meeting marker: a ring on the road and a small numbered flag. */
-const Meet: React.FC<{ r: Road; km: number; n: string; opacity: number; color?: string }> = ({ r, km, n, opacity, color = C.primary }) =>
+export const Meet: React.FC<{ r: Road; km: number; n: string; opacity: number; color?: string }> = ({ r, km, n, opacity, color = C.primary }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity}>
       <circle cx={X(r, km)} cy={r.y} r={36} fill="none" stroke={color} strokeWidth={6} />
@@ -153,12 +154,12 @@ const Bar: React.FC<{ r: Road; y: number; pieces: [number, string, string][]; p:
 };
 
 /** Walk time t(frame) from `a` to `b` units over frames [f0, f1]. */
-const walkT = (f: number, f0: number, f1: number, a: number, b: number) => interpolate(f, [f0, Math.max(f0 + 1, f1)], [a, b], clamp);
+export const walkT = (f: number, f0: number, f1: number, a: number, b: number) => interpolate(f, [f0, Math.max(f0 + 1, f1)], [a, b], clamp);
 
 // ---------- the main question: d = 23, Ann 12 per unit, Bo 11 per unit ----------
-const D = 23;
-const VA = 12;
-const VB = D - VA;
+export const D = 23;
+export const VA = 12;
+export const VB = D - VA;
 
 // ---------- scenes ----------
 
@@ -190,7 +191,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['18', '21', '22', '23', '26'];
+export const CHOICES = ['18', '21', '22', '23', '26'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -270,7 +271,7 @@ const R1: Road = { x0: 260, x1: 1660, y: 260, d: D };
 const BAR = (i: number) => 420 + i * 110;
 
 /** Lanes for the walked legs: Ann above the road, Bo below it. */
-const Trails: React.FC<{ r: Road; t: number; annY?: number[]; boY?: number[]; opacity?: number }> = ({ r, t, annY = [r.y - 46, r.y - 80], boY = [r.y + 46, r.y + 80], opacity = 1 }) => (
+export const Trails: React.FC<{ r: Road; t: number; annY?: number[]; boY?: number[]; opacity?: number }> = ({ r, t, annY = [r.y - 46, r.y - 80], boY = [r.y + 46, r.y + 80], opacity = 1 }) => (
   <g opacity={opacity}>
     {legs(0, VA, r.d, t).map(([a, b], i) => <Leg key={`a${i}`} r={r} a={a} b={b} y={annY[i] ?? annY[0]} color={ANN} />)}
     {legs(r.d, VB, r.d, t).map(([a, b], i) => <Leg key={`b${i}`} r={r} a={a} b={b} y={boY[i] ?? boY[0]} color={BO} />)}
@@ -571,10 +572,7 @@ const Recap: SceneComponent = ({ scene }) => {
           So each walker goes <Tex tex="3\times" size={60} color={C.violet} /> as far!
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 2, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 2, 0.2)} seed={3} />
     </>
   );

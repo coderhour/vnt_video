@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1582,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 194,
+   "lines": [
+    {
+     "text": "Most kids fit a triangle in a square like THIS.",
+     "caption": "Most kids fit a triangle in a square like THIS.",
+     "file": "2026-10-29-triangle-in-square/short/audio/88d92042c0e5983d.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "But that's NOT the biggest one!",
+     "caption": "But that's NOT the biggest one!",
+     "file": "2026-10-29-triangle-in-square/short/audio/3898d3709c7931ae.wav",
+     "from": 103,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 194,
+   "frames": 251,
+   "lines": [
+    {
+     "text": "The square has side one, and all three triangle sides are equal.",
+     "caption": "The square has side one, and all three triangle sides are equal.",
+     "file": "2026-10-29-triangle-in-square/short/audio/1b02b1e1973d3904.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "What's the largest area it can have?",
+     "caption": "What's the largest area it can have?",
+     "file": "2026-10-29-triangle-in-square/short/audio/090a2440e54c59c2.wav",
+     "from": 146,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 445,
+   "frames": 177,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-29-triangle-in-square/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "turn",
+   "kind": "scene",
+   "chapter": null,
+   "from": 622,
+   "frames": 388,
+   "lines": [
+    {
+     "text": "Here's the trick. Pin one corner, and turn the triangle.",
+     "caption": "Here's the trick. Pin one corner, and turn the triangle.",
+     "file": "2026-10-29-triangle-in-square/short/audio/0e02b6b3452f897a.wav",
+     "from": 0,
+     "frames": 106
+    },
+    {
+     "text": "Watch the side. It grows, then shrinks again.",
+     "caption": "Watch the side. It grows, then shrinks again.",
+     "file": "2026-10-29-triangle-in-square/short/audio/6508bb9ba960a3e2.wav",
+     "from": 116,
+     "frames": 104
+    },
+    {
+     "text": "The biggest one sits at fifteen degrees, balanced on the diagonal.",
+     "caption": "The biggest one sits at fifteen degrees, balanced on the diagonal.",
+     "file": "2026-10-29-triangle-in-square/short/audio/50adc2564d5f3c22.wav",
+     "from": 229,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1010,
+   "frames": 276,
+   "lines": [
+    {
+     "text": "Its area is two root three, minus three.",
+     "caption": "Its area is two root three, minus three.",
+     "file": "2026-10-29-triangle-in-square/short/audio/649f8bf27382b85b.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "That's about forty-six percent of the square. Flat only gets forty-three!",
+     "caption": "That's about forty-six percent of the square. Flat only gets forty-three!",
+     "file": "2026-10-29-triangle-in-square/short/audio/4001c6233eb416fc.wav",
+     "from": 110,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1286,
+   "frames": 296,
+   "lines": [
+    {
+     "text": "Why exactly that? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Why exactly that? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-29-triangle-in-square/short/audio/817b05b489b65e1c.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-29-triangle-in-square/short/audio/82b8b7e1a12a7449.wav",
+     "from": 168,
+     "frames": 59
+    }
+   ]
+  }
+ ]
+}

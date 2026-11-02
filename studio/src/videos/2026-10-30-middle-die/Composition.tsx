@@ -6,17 +6,18 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Choices, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-middle-die';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // The three dice are told apart by colour (red, blue, green), so the 216 ordered rolls are equally likely.
 const RED = C.red;
 const BLUE = C.blue;
 const GREEN = C.primary;
-const DICE = [RED, BLUE, GREEN];
+export const DICE = [RED, BLUE, GREEN];
 
 // ---------- dice ----------
 
@@ -31,7 +32,7 @@ const PIPS: Record<number, [number, number][]> = {
 
 /** A die centred at (x, y). `color` fills the body (white pips); no colour = white die, dark pips.
  * v = 0 draws a "?" face. */
-const Die: React.FC<{ x: number; y: number; v: number; size?: number; color?: string; opacity?: number; scale?: number }> = ({ x, y, v, size = 120, color, opacity = 1, scale = 1 }) => {
+export const Die: React.FC<{ x: number; y: number; v: number; size?: number; color?: string; opacity?: number; scale?: number }> = ({ x, y, v, size = 120, color, opacity = 1, scale = 1 }) => {
   if (opacity <= 0 || scale <= 0) return null;
   const s = size;
   const body = color ?? C.card;
@@ -49,7 +50,7 @@ const Die: React.FC<{ x: number; y: number; v: number; size?: number; color?: st
 };
 
 /** Amber rounded box around a die: "this is the middle one". */
-const Ring: React.FC<{ x: number; y: number; size: number; opacity: number; color?: string }> = ({ x, y, size, opacity, color = C.amber }) =>
+export const Ring: React.FC<{ x: number; y: number; size: number; opacity: number; color?: string }> = ({ x, y, size, opacity, color = C.amber }) =>
   opacity <= 0 ? null : (
     <rect x={x - size / 2 - 14} y={y - size / 2 - 14} width={size + 28} height={size + 28} rx={size * 0.26} fill="none" stroke={color} strokeWidth={7} opacity={opacity} />
   );
@@ -63,7 +64,7 @@ const Slot: React.FC<{ x: number; y: number; size: number; label: string; color:
     </g>
   );
 
-const Label: React.FC<{ x: number; y: number; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' }> = ({ x, y, text, color = C.ink, size = 48, opacity = 1, anchor = 'middle' }) =>
+export const Label: React.FC<{ x: number; y: number; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' }> = ({ x, y, text, color = C.ink, size = 48, opacity = 1, anchor = 'middle' }) =>
   opacity <= 0 ? null : (
     <text x={x} y={y} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor={anchor} dominantBaseline="middle">
       {text}
@@ -80,7 +81,7 @@ const Arrow: React.FC<{ x1: number; x2: number; y: number; opacity: number }> = 
 
 /** A roll of three coloured dice that slide into sorted order at frame `sortAt`.
  * Unsorted slots start at x0, sorted slots at x1. The middle sorted die gets a ring. */
-const SortRoll: React.FC<{ vals: number[]; x0: number; x1: number; y: number; size: number; gap: number; start: number; sortAt: number; ringAt?: number; colors?: (string | undefined)[]; opacity?: number }> = ({
+export const SortRoll: React.FC<{ vals: number[]; x0: number; x1: number; y: number; size: number; gap: number; start: number; sortAt: number; ringAt?: number; colors?: (string | undefined)[]; opacity?: number }> = ({
   vals, x0, x1, y, size, gap, start, sortAt, ringAt, colors = DICE, opacity = 1,
 }) => {
   const f = useCurrentFrame();
@@ -167,7 +168,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['\\frac{1}{9}', '\\frac{1}{6}', '\\frac{5}{27}', '\\frac{11}{54}', '\\frac{2}{9}'];
+export const CHOICES = ['\\frac{1}{9}', '\\frac{1}{6}', '\\frac{5}{27}', '\\frac{11}{54}', '\\frac{2}{9}'];
 const choiceNodes = CHOICES.map((c) => <Tex key={c} tex={c} size={72} />);
 
 const QuestionCard: React.FC<{ marks?: number[]; width?: number; style?: React.CSSProperties }> = ({ marks = [-1, -1, -1], width = 1000, style }) => (
@@ -617,10 +618,7 @@ const Recap: SceneComponent = ({ scene }) => {
           ))}
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep rolling!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep rolling!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

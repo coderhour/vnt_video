@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1673,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 201,
+   "lines": [
+    {
+     "text": "A ladder leans over a big box to a wall.",
+     "caption": "A ladder leans over a big box to a wall.",
+     "file": "2026-10-30-ladder-over-box/short/audio/10de0d3a463360ee.wav",
+     "from": 0,
+     "frames": 87
+    },
+    {
+     "text": "How long is it? Most kids stop halfway!",
+     "caption": "How long is it? Most kids stop halfway!",
+     "file": "2026-10-30-ladder-over-box/short/audio/9732188b484e39f9.wav",
+     "from": 97,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 201,
+   "frames": 280,
+   "lines": [
+    {
+     "text": "The foot is nine feet from a box twelve tall, twelve deep.",
+     "caption": "The foot is nine feet from a box twelve tall, twelve deep.",
+     "file": "2026-10-30-ladder-over-box/short/audio/f1238541992df6ff.wav",
+     "from": 0,
+     "frames": 111
+    },
+    {
+     "text": "The ladder touches the box's top corner and reaches the wall. How long is it?",
+     "caption": "The ladder touches the box's top corner and reaches the wall. How long is it?",
+     "file": "2026-10-30-ladder-over-box/short/audio/51e1ba4f74afad51.wav",
+     "from": 121,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 481,
+   "frames": 160,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-ladder-over-box/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 46
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "kind": "scene",
+   "chapter": null,
+   "from": 641,
+   "frames": 410,
+   "lines": [
+    {
+     "text": "The trick: nine across, twelve up is just three across, four up, repeated.",
+     "caption": "The trick: nine across, twelve up is just three across, four up, repeated.",
+     "file": "2026-10-30-ladder-over-box/short/audio/6b96eb4f6d86cfef.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "The wall is twenty-one feet away. That's seven of those steps.",
+     "caption": "The wall is twenty-one feet away. That's seven of those steps.",
+     "file": "2026-10-30-ladder-over-box/short/audio/008fa1f302057ca7.wav",
+     "from": 146,
+     "frames": 114
+    },
+    {
+     "text": "So the ladder climbs seven fours, twenty-eight feet up the wall.",
+     "caption": "So the ladder climbs seven fours, twenty-eight feet up the wall.",
+     "file": "2026-10-30-ladder-over-box/short/audio/0a344a497e24f384.wav",
+     "from": 270,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1051,
+   "frames": 357,
+   "lines": [
+    {
+     "text": "Twenty-one by twenty-eight is a three, four, five triangle, seven times bigger!",
+     "caption": "Twenty-one by twenty-eight is a three, four, five triangle, seven times bigger!",
+     "file": "2026-10-30-ladder-over-box/short/audio/0c0667070140c99f.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "So the ladder is seven times five. Thirty-five feet, Choice D!",
+     "caption": "So the ladder is seven times five. Thirty-five feet, Choice D!",
+     "file": "2026-10-30-ladder-over-box/short/audio/dafe5bba45cd6da3.wav",
+     "from": 159,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1408,
+   "frames": 265,
+   "lines": [
+    {
+     "text": "Why exactly that? The full lesson shows two ways, plus every trap.",
+     "caption": "Why exactly that? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-ladder-over-box/short/audio/66554cbc453363b8.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-ladder-over-box/short/audio/82b8b7e1a12a7449.wav",
+     "from": 156,
+     "frames": 56
+    }
+   ]
+  }
+ ]
+}

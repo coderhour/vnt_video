@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1654,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 228,
+   "lines": [
+    {
+     "text": "Cover a two by six board with dominoes. Thirteen ways.",
+     "caption": "Cover a two by six board with dominoes. Thirteen ways.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/eb2d143172eff639.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "Now add L tiles. How many ways?",
+     "caption": "Now add L tiles. How many ways?",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/3f6ac57bc8fd7b60.wav",
+     "from": 120,
+     "frames": 84
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 228,
+   "frames": 244,
+   "lines": [
+    {
+     "text": "Cover a two by six board with dominoes and L-shaped tiles.",
+     "caption": "Cover a two by six board with dominoes and L-shaped tiles.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/aa56be7340ec66ee.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "How many ways? Pick one of the five choices.",
+     "caption": "How many ways? Pick one of the five choices.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/181746d35c7e95f3.wav",
+     "from": 133,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 472,
+   "frames": 170,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 57
+    }
+   ]
+  },
+  {
+   "id": "zigzag",
+   "kind": "scene",
+   "chapter": null,
+   "from": 642,
+   "frames": 448,
+   "lines": [
+    {
+     "text": "Here's the trick. An L in the top-left corner starts a zigzag.",
+     "caption": "Here's the trick. An L in the top-left corner starts a zigzag.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/9f9a8fbf80b0038f.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "An L, then lying dominoes, then another L. It's three to six long.",
+     "caption": "An L, then lying dominoes, then another L. It's three to six long.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/818459ecc7748f21.wav",
+     "from": 144,
+     "frames": 155
+    },
+    {
+     "text": "Each zigzag has a mirror twin, so we count them twice.",
+     "caption": "Each zigzag has a mirror twin, so we count them twice.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/d8868bcab00b7771.wav",
+     "from": 309,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1090,
+   "frames": 280,
+   "lines": [
+    {
+     "text": "Fill a table from short boards, and it grows to fifty-three.",
+     "caption": "Fill a table from short boards, and it grows to fifty-three.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/bd1f5b5e962b7e0c.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "That's Choice C. Without L tiles, it was only thirteen!",
+     "caption": "That's Choice C. Without L tiles, it was only thirteen!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/e6579276547072c6.wav",
+     "from": 120,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1370,
+   "frames": 284,
+   "lines": [
+    {
+     "text": "Why exactly that? The full lesson shows two ways, plus every trap.",
+     "caption": "Why exactly that? The full lesson shows two ways, plus every trap.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/66554cbc453363b8.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/82b8b7e1a12a7449.wav",
+     "from": 176,
+     "frames": 60
+    }
+   ]
+  }
+ ]
+}

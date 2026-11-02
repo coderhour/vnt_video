@@ -6,14 +6,15 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-hill-average-speed';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const KM = '#2a6fe0'; // km, km/h (blue)
-const MS = '#e8590c'; // m, m/s (orange)
+export const KM = '#2a6fe0'; // km, km/h (blue)
+export const MS = '#e8590c'; // m, m/s (orange)
 const PANEL = 1020;
 
 // ---------- hill geometry (maths-style: front slope rises left to right, back slope is scenery) ----------
@@ -197,7 +198,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['11', '18', '22', '24', '36'];
+export const CHOICES = ['11', '18', '22', '24', '36'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -435,10 +436,7 @@ const Recap: SceneComponent = ({ scene }) => {
         </Card>
         <div style={{ position: 'absolute', left: PANEL, top: 690, fontSize: 42, fontWeight: 800, color: C.red, ...fadeUp(f, at(scene, 2, 0.7)) }}>never average the two speeds</div>
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

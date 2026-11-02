@@ -1,0 +1,54 @@
+{
+ "title": "Meet Twice (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Two friends walk toward each other, pass, turn around, and meet again.",
+    "One number unlocks it: THREE!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Two walkers first meet twelve kilometers from town A, then turn around at the far end.",
+    "They meet again ten kilometers from town A. How far apart are the towns?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "three",
+   "lines": [
+    "Here's the trick. At the first meeting, they've walked one road together. Ann's part is twelve.",
+    "At the second meeting, that's THREE roads together. So Ann walked thirty-six.",
+    "She walked the whole road, then back to ten kilometers from town A."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "So road plus road minus ten is thirty-six. The road is twenty-three kilometers!",
+    "That's Choice D."
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Want to see why? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1
+  }
+ ]
+}

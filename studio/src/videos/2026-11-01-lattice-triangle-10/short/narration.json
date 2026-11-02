@@ -1,0 +1,54 @@
+{
+ "title": "Dots Inside a Triangle (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Exactly ten dots sit inside this right triangle.",
+    "How many different triangles can it be?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A right triangle has corners at zero zero, p zero, and zero q.",
+    "Exactly ten dots are strictly inside. How many ordered pairs, p and q, work?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "rect",
+   "lines": [
+    "Add a twin triangle to make a rectangle.",
+    "This six by four has fifteen dots inside. One sits ON the slanted line.",
+    "Split the other fourteen evenly: seven each.",
+    "So for ten inside, the rectangle has twenty dots, not counting the diagonal."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Checking every short leg gives <short pause> eleven pairs. Choice D!",
+    "Careful! Six and six flips into itself, so it only counts once."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows every trap. Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

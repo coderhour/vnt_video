@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1762,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 236,
+   "lines": [
+    {
+     "text": "Three whole-number sides that add up to twenty-four.",
+     "caption": "Three whole-number sides that add up to twenty-four.",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/acaa54b7d18cda55.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "How many different triangles? Most kids miss one or two!",
+     "caption": "How many different triangles? Most kids miss one or two!",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/92d942672cbd54e0.wav",
+     "from": 99,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 236,
+   "frames": 273,
+   "lines": [
+    {
+     "text": "How many different triangles have whole-number sides and a perimeter of twenty-four?",
+     "caption": "How many different triangles have whole-number sides and a perimeter of twenty-four?",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/8f5e378e9655ae7a.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "The same three sides count only once.",
+     "caption": "The same three sides count only once.",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/0001851ee62156aa.wav",
+     "from": 161,
+     "frames": 80
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 509,
+   "frames": 161,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 47
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 670,
+   "frames": 486,
+   "lines": [
+    {
+     "text": "Here's the trick. The longest side must be under twelve. That's half the perimeter.",
+     "caption": "Here's the trick. The longest side must be under twelve. That's half the perimeter.",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/4c49006387576e1c.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "And at least eight, or the sides can't add up to twenty-four.",
+     "caption": "And at least eight, or the sides can't add up to twenty-four.",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/46fdb21c63b6ed50.wav",
+     "from": 167,
+     "frames": 100
+    },
+    {
+     "text": "So list the triangles by their longest side. Eleven, ten, nine, and eight.",
+     "caption": "So list the triangles by their longest side. Eleven, ten, nine, and eight.",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/656775253234181f.wav",
+     "from": 277,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1156,
+   "frames": 324,
+   "lines": [
+    {
+     "text": "Five, plus four, plus two, plus one. That's twelve triangles, choice C!",
+     "caption": "Five, plus four, plus two, plus one. That's twelve triangles, choice C!",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/64b2d51e246a59f8.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "Missing one or two is the classic slip. Listing by the longest side keeps you safe!",
+     "caption": "Missing one or two is the classic slip. Listing by the longest side keeps you safe!",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/320bcc7b09471acd.wav",
+     "from": 150,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1480,
+   "frames": 282,
+   "lines": [
+    {
+     "text": "Why under half? The full lesson shows two ways, plus every trap.",
+     "caption": "Why under half? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/7afc3ccc5f4304f2.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-perimeter-24-triangles/short/audio/82b8b7e1a12a7449.wav",
+     "from": 159,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "title": "Biggest Triangle in a Square (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Most kids fit a triangle in a square like THIS.",
+   "But that's NOT the biggest one!"
+  ]},
+  {"id": "question", "lines": [
+   "The square has side one, and all three triangle sides are equal.",
+   "What's the largest area it can have?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "turn", "lines": [
+   "Here's the trick. Pin one corner, and turn the triangle.",
+   "Watch the side. It grows, then shrinks again.",
+   "The biggest one sits at fifteen degrees, balanced on the diagonal."
+  ]},
+  {"id": "reveal", "lines": [
+   "Its area is two root three, minus three.",
+   "That's about forty-six percent of the square. Flat only gets forty-three!"
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why exactly that? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

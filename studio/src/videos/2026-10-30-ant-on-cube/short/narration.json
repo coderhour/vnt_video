@@ -1,0 +1,55 @@
+{
+ "title": "An Ant's Random Walk on a Cube (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "An ant takes three random steps on a cube.",
+    "Can it reach the far corner?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "An ant starts at corner A, and walks a random edge each minute.",
+    "What's the chance it's at the far corner G after three minutes?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "steps",
+   "lines": [
+    "G is three edges away. So every step must go farther.",
+    "Step one: all three edges go farther. That's three out of three.",
+    "Step two: only two out of three go farther.",
+    "Step three: only one out of three reaches G."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "One, times two thirds, times one third. That's two ninths!",
+    "Much less than one third!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Want the exact working? The full lesson shows two neat ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

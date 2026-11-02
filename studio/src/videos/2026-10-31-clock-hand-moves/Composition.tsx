@@ -6,14 +6,15 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-clock-hand-moves';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const PINK = '#e0559c';
-const AMBD = '#c77f00';
+export const PINK = '#e0559c';
+export const AMBD = '#c77f00';
 const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
 
 // ---------- clock: a big face with an hour hand only ----------
@@ -27,7 +28,7 @@ type ClockP = {
   qx?: number; qy?: number;
 };
 
-const Clock: React.FC<ClockP> = ({ cx, cy, R, h, ghostH, ghostOp = 0, op = 1, handOp = 1, trail = 0, glow = 0, q = 0, qx, qy }) => {
+export const Clock: React.FC<ClockP> = ({ cx, cy, R, h, ghostH, ghostOp = 0, op = 1, handOp = 1, trail = 0, glow = 0, q = 0, qx, qy }) => {
   const f = useCurrentFrame();
   const fs = R >= 280 ? 58 : 50;
   const nr = R - (R >= 280 ? 62 : 54);
@@ -83,7 +84,7 @@ const Clock: React.FC<ClockP> = ({ cx, cy, R, h, ghostH, ghostOp = 0, op = 1, ha
 };
 
 /** hand position that steps one hour at a time at the given start frames */
-const stepH = (f: number, base: number, starts: number[], dur = 7) => starts.reduce((h, s) => h + ease(f, s, dur), base);
+export const stepH = (f: number, base: number, starts: number[], dur = 7) => starts.reduce((h, s) => h + ease(f, s, dur), base);
 
 const Tag: React.FC<{ x: number; y: number; start: number; color: string; children: React.ReactNode; size?: number; w?: number }> = ({ x, y, start, color, children, size = 40, w }) => {
   const f = useCurrentFrame();
@@ -164,7 +165,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['3', '6', '7', '9', '10'];
+export const CH = ['3', '6', '7', '9', '10'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -509,10 +510,7 @@ const Recap: SceneComponent = ({ scene }) => {
         {stepRow(390, '2', 'keep only the remainder', at(scene, 1, 0.6), C.violet)}
         {stepRow(510, '3', 'count from the start', at(scene, 2, 0.25), C.violet)}
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep spinning!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep spinning!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

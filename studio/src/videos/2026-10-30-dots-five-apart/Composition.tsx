@@ -5,17 +5,18 @@ import { PACIFICO, NUNITO } from '../../lib/fonts';
 import { Countdown } from '../../lib/PauseCard';
 import { Dots, Stage, XMark, makeGrid, type Pt } from '../../lib/grid';
 import { Tex } from '../../lib/Tex';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
 
 export const SLUG = '2026-10-30-dots-five-apart';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- small building blocks ----------
 
 /** Straight segment that draws itself on (progress 0→1), optionally with arrowheads at either end. */
-const Seg: React.FC<{ a: Pt; b: Pt; color: string; width?: number; progress?: number; opacity?: number; dash?: boolean; head?: 'end' | 'both' }> = ({
+export const Seg: React.FC<{ a: Pt; b: Pt; color: string; width?: number; progress?: number; opacity?: number; dash?: boolean; head?: 'end' | 'both' }> = ({
   a, b, color, width = 8, progress = 1, opacity = 1, dash = false, head,
 }) => {
   if (progress <= 0 || opacity <= 0) return null;
@@ -31,14 +32,14 @@ const Seg: React.FC<{ a: Pt; b: Pt; color: string; width?: number; progress?: nu
   );
 };
 
-const Lab: React.FC<{ at: Pt; children: React.ReactNode; color?: string; size?: number; opacity?: number; weight?: number }> = ({ at: p, children, color = C.ink, size = 48, opacity = 1, weight = 900 }) =>
+export const Lab: React.FC<{ at: Pt; children: React.ReactNode; color?: string; size?: number; opacity?: number; weight?: number }> = ({ at: p, children, color = C.ink, size = 48, opacity = 1, weight = 900 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} fontFamily={NUNITO} fontWeight={weight} fontSize={size} textAnchor="middle" dominantBaseline="central" opacity={opacity}>
       {children}
     </text>
   );
 
-const Ring: React.FC<{ at: Pt; color: string; opacity?: number; r?: number }> = ({ at: p, color, opacity = 1, r = 26 }) =>
+export const Ring: React.FC<{ at: Pt; color: string; opacity?: number; r?: number }> = ({ at: p, color, opacity = 1, r = 26 }) =>
   opacity <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r} fill={color} fillOpacity={0.2} stroke={color} strokeWidth={6} opacity={opacity} />;
 
 /** A shape that STEPS dot to dot through `spots` (no tween), leaving faint ghosts. */
@@ -100,7 +101,7 @@ const Warn: React.FC<{ x: number; y: number; start: number }> = ({ x, y, start }
 };
 
 const PROMPT = 'The 25 dots shown are spaced 1 unit apart in rows and columns. How many pairs of dots are exactly 5 units apart?';
-const CHOICES = ['2', '4', '6', '8', '16'];
+export const CHOICES = ['2', '4', '6', '8', '16'];
 
 const makePause = (n: number, seconds: number, prompt: string): SceneComponent => ({ scene }) => {
   const f = useCurrentFrame();
@@ -613,10 +614,7 @@ const Recap: SceneComponent = ({ scene }) => {
         {card(220, at(scene, 1, 0.1), '1. List the steps across and down', C.violet)}
         {card(410, at(scene, 2, 0.1), '2. Count the places each fits, count each pair once', C.blue)}
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={5} />
     </>
   );

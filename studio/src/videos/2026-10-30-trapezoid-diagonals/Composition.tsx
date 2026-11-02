@@ -6,18 +6,19 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-trapezoid-diagonals';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (maths coordinates, y up; A top-left, B top-right, C bottom-right, D bottom-left) ----------
 
 type Geo = { A: Pt; B: Pt; C: Pt; D: Pt; E: Pt; u: number };
 
 /** Trapezoid with AB = top, DC = bottom, height h; D at the origin, A shifted right by `shift`. Pixel coords. */
-const mk = (top: number, bottom: number, h: number, shift: number, ox: number, oy: number, u: number): Geo => {
+export const mk = (top: number, bottom: number, h: number, shift: number, ox: number, oy: number, u: number): Geo => {
   const m = (x: number, y: number): Pt => [ox + x * u, oy - y * u];
   const t = top / (top + bottom); // AE : EC = top : bottom
   return {
@@ -36,23 +37,23 @@ const LEFTC = C.primary;
 const RIGHTC = C.violet;
 const HEX = { amber: '#f59f0a', blue: '#3c83f6', primary: '#0cc281', violet: '#7b61ff' };
 
-const tris = (g: Geo) => ({
+export const tris = (g: Geo) => ({
   top: [g.A, g.B, g.E] as Pt[],
   bottom: [g.D, g.C, g.E] as Pt[],
   left: [g.A, g.D, g.E] as Pt[],
   right: [g.B, g.C, g.E] as Pt[],
 });
-const COLORS = { top: TOPC, bottom: BOTC, left: LEFTC, right: RIGHTC };
+export const COLORS = { top: TOPC, bottom: BOTC, left: LEFTC, right: RIGHTC };
 type Key = keyof typeof COLORS;
 const KEYS: Key[] = ['top', 'bottom', 'left', 'right'];
 
-const centroid = (p: Pt[]): Pt => [(p[0][0] + p[1][0] + p[2][0]) / 3, (p[0][1] + p[1][1] + p[2][1]) / 3];
+export const centroid = (p: Pt[]): Pt => [(p[0][0] + p[1][0] + p[2][0]) / 3, (p[0][1] + p[1][1] + p[2][1]) / 3];
 const mid = (a: Pt, b: Pt): Pt => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
 const add = (p: Pt, dx: number, dy: number): Pt => [p[0] + dx, p[1] + dy];
 
 // ---------- drawing helpers ----------
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
@@ -205,7 +206,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['34', '49', '54', '64', '68'];
+export const CHOICES = ['34', '49', '54', '64', '68'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -600,10 +601,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Trap g={g} fills={{ top: ease(f, at(scene, 1, 0.4), 12), bottom: ease(f, at(scene, 1, 0.65), 12), left: ease(f, at(scene, 1, 0.5), 12), right: ease(f, at(scene, 1, 0.5), 12) }} letters={0} eLabel={0} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

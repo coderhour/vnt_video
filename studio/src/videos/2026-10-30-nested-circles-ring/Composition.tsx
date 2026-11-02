@@ -6,36 +6,37 @@ import { Poly, Stage, XMark, type Pt } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-nested-circles-ring';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (bank SVG units, viewBox 300; centre (150,150)) ----------
 // Big square 30..270 (side 8 in the question), big circle R=120, diamond with corners on the big circle,
 // small circle r=120/sqrt2, and (variant only) an upright square 90..210 with a circle r=60.
 
-const R = 120;
-const RS = 120 / Math.SQRT2; // 84.853
+export const R = 120;
+export const RS = 120 / Math.SQRT2; // 84.853
 const R3 = 60;
-const SQ: Pt[] = [[30, 270], [270, 270], [270, 30], [30, 30]];
-const DIA: Pt[] = [[150, 270], [270, 150], [150, 30], [30, 150]];
+export const SQ: Pt[] = [[30, 270], [270, 270], [270, 30], [30, 30]];
+export const DIA: Pt[] = [[150, 270], [270, 150], [150, 30], [30, 150]];
 const SQ2: Pt[] = [[90, 90], [210, 90], [210, 210], [90, 210]];
 
-type Frame = { cx: number; cy: number; s: number };
+export type Frame = { cx: number; cy: number; s: number };
 const FIG: Frame = { cx: 480, cy: 470, s: 2.4 };
-const mkP = ({ cx, cy, s }: Frame) => (x: number, y: number): Pt => [cx + (x - 150) * s, cy + (y - 150) * s];
+export const mkP = ({ cx, cy, s }: Frame) => (x: number, y: number): Pt => [cx + (x - 150) * s, cy + (y - 150) * s];
 
-const BLUE = C.blue;
-const GREEN = C.primary;
-const VIOLET = C.violet;
-const AMBER = C.amber;
+export const BLUE = C.blue;
+export const GREEN = C.primary;
+export const VIOLET = C.violet;
+export const AMBER = C.amber;
 const PANEL = 960;
 
 // ---------- drawing helpers ----------
 
-const Ci: React.FC<{ cx: number; cy: number; r: number; p?: number; color?: string; width?: number; fill?: string; fillOp?: number; dash?: string; opacity?: number }> = ({
+export const Ci: React.FC<{ cx: number; cy: number; r: number; p?: number; color?: string; width?: number; fill?: string; fillOp?: number; dash?: string; opacity?: number }> = ({
   cx, cy, r, p = 1, color = C.ink, width = 6, fill, fillOp = 1, dash, opacity = 1,
 }) =>
   p <= 0 || opacity <= 0 ? null : (
@@ -49,19 +50,19 @@ const Ci: React.FC<{ cx: number; cy: number; r: number; p?: number; color?: stri
     </g>
   );
 
-const Ln: React.FC<{ a: Pt; b: Pt; p?: number; color?: string; width?: number; opacity?: number; dash?: string }> = ({ a, b, p = 1, color = C.ink, width = 12, opacity = 1, dash }) =>
+export const Ln: React.FC<{ a: Pt; b: Pt; p?: number; color?: string; width?: number; opacity?: number; dash?: string }> = ({ a, b, p = 1, color = C.ink, width = 12, opacity = 1, dash }) =>
   p <= 0 || opacity <= 0 ? null : (
     <line x1={a[0]} y1={a[1]} x2={a[0] + (b[0] - a[0]) * p} y2={a[1] + (b[1] - a[1]) * p} stroke={color} strokeWidth={width} strokeLinecap="round" opacity={opacity} strokeDasharray={dash} />
   );
 
-const Dot: React.FC<{ p: Pt; r?: number; color?: string; s?: number }> = ({ p, r = 13, color = AMBER, s = 1 }) =>
+export const Dot: React.FC<{ p: Pt; r?: number; color?: string; s?: number }> = ({ p, r = 13, color = AMBER, s = 1 }) =>
   s <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r * s} fill={color} stroke="#fff" strokeWidth={3} />;
 
-const ringPath = (cx: number, cy: number, ro: number, ri: number) =>
+export const ringPath = (cx: number, cy: number, ro: number, ri: number) =>
   `M ${cx + ro} ${cy} A ${ro} ${ro} 0 1 0 ${cx - ro} ${cy} A ${ro} ${ro} 0 1 0 ${cx + ro} ${cy} Z M ${cx + ri} ${cy} A ${ri} ${ri} 0 1 0 ${cx - ri} ${cy} A ${ri} ${ri} 0 1 0 ${cx + ri} ${cy} Z`;
 
 /** The bank figure, one level at a time. Everything is a fraction 0..1. */
-const Fig: React.FC<{
+export const Fig: React.FC<{
   fr?: Frame;
   sq?: number; c1?: number; dia?: number; c2?: number; sq2?: number; c3?: number;
   ring?: number; ringColor?: string; ringInner?: number;
@@ -87,7 +88,7 @@ const Fig: React.FC<{
 };
 
 /** Maths label centred on a point (HTML so KaTeX works), above the figure. */
-const TL: React.FC<{ p: Pt; tex: string; size?: number; color?: string; opacity?: number }> = ({ p, tex, size = 52, color = C.ink, opacity = 1 }) =>
+export const TL: React.FC<{ p: Pt; tex: string; size?: number; color?: string; opacity?: number }> = ({ p, tex, size = 52, color = C.ink, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <div style={{ position: 'absolute', left: p[0], top: p[1], transform: 'translate(-50%, -50%)', opacity, background: 'rgba(246,247,251,0.9)', borderRadius: 12, padding: '0 10px', whiteSpace: 'nowrap', lineHeight: 1.1 }}>
       <Tex tex={tex} size={size} color={color} />
@@ -108,7 +109,7 @@ const Chip: React.FC<{ color: string; children: React.ReactNode; size?: number }
   <span style={{ background: color, color: '#fff', borderRadius: 999, padding: '6px 26px', fontSize: size, fontWeight: 900, whiteSpace: 'nowrap' }}>{children}</span>
 );
 
-const Choices: React.FC<{ x: number; y: number; start: (i: number) => number; hi?: number; hiStart?: number; size?: number }> = ({ x, y, start, hi, hiStart = 0, size = 52 }) => {
+export const Choices: React.FC<{ x: number; y: number; start: (i: number) => number; hi?: number; hiStart?: number; size?: number }> = ({ x, y, start, hi, hiStart = 0, size = 52 }) => {
   const f = useCurrentFrame();
   const items = ['4\\pi', '8\\pi', '12\\pi', '16\\pi', '24\\pi'];
   const h = hi === undefined ? 0 : ease(f, hiStart, 10);
@@ -390,7 +391,7 @@ const Total1: SceneComponent = ({ scene }) => {
 };
 
 // ---- fold ----
-const foldPt = (p: Pt, a: Pt, b: Pt, q: number): Pt => {
+export const foldPt = (p: Pt, a: Pt, b: Pt, q: number): Pt => {
   const dx = b[0] - a[0], dy = b[1] - a[1];
   const l = Math.hypot(dx, dy);
   const n: Pt = [-dy / l, dx / l];
@@ -750,10 +751,7 @@ const Recap: SceneComponent = ({ scene }) => {
           </g>
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

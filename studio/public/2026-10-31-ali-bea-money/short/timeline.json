@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1665,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 198,
+   "lines": [
+    {
+     "text": "Nobody says how much money Ali and Bea have!",
+     "caption": "Nobody says how much money Ali and Bea have!",
+     "file": "2026-10-31-ali-bea-money/short/audio/a831a15cb0220663.wav",
+     "from": 0,
+     "frames": 94
+    },
+    {
+     "text": "Can two swaps still find the total?",
+     "caption": "Can two swaps still find the total?",
+     "file": "2026-10-31-ali-bea-money/short/audio/66068223e28cc644.wav",
+     "from": 104,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 198,
+   "frames": 319,
+   "lines": [
+    {
+     "text": "If Ali gives Bea twenty percent, they're equal.",
+     "caption": "If Ali gives Bea twenty percent, they're equal.",
+     "file": "2026-10-31-ali-bea-money/short/audio/31ee147327099ee7.wav",
+     "from": 0,
+     "frames": 87
+    },
+    {
+     "text": "If Bea gives Ali ten dollars instead, Ali has twice as much.",
+     "caption": "If Bea gives Ali ten dollars instead, Ali has twice as much.",
+     "file": "2026-10-31-ali-bea-money/short/audio/1c59be01137a3747.wav",
+     "from": 97,
+     "frames": 128
+    },
+    {
+     "text": "How many dollars together?",
+     "caption": "How many dollars together?",
+     "file": "2026-10-31-ali-bea-money/short/audio/97fd832f526f7c86.wav",
+     "from": 234,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 517,
+   "frames": 164,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-ali-bea-money/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 51
+    }
+   ]
+  },
+  {
+   "id": "bars",
+   "kind": "scene",
+   "chapter": null,
+   "from": 681,
+   "frames": 425,
+   "lines": [
+    {
+     "text": "Twenty percent is one fifth. So split Ali's money into five parts.",
+     "caption": "Twenty percent is one fifth. So split Ali's money into five parts.",
+     "file": "2026-10-31-ali-bea-money/short/audio/c9009da09ab4e381.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "He gives one part, and they're equal. So Bea started with three parts.",
+     "caption": "He gives one part, and they're equal. So Bea started with three parts.",
+     "file": "2026-10-31-ali-bea-money/short/audio/89a1924a22ac2aed.wav",
+     "from": 148,
+     "frames": 131
+    },
+    {
+     "text": "Ali has five parts, Bea has three. Eight in all!",
+     "caption": "Ali has five parts, Bea has three. Eight in all!",
+     "file": "2026-10-31-ali-bea-money/short/audio/420819beffb7080c.wav",
+     "from": 289,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1106,
+   "frames": 302,
+   "lines": [
+    {
+     "text": "The ten dollar swap makes one part thirty dollars. So, two hundred forty dollars together!",
+     "caption": "The ten dollar swap makes one part thirty dollars. So, two hundred forty dollars together!",
+     "file": "2026-10-31-ali-bea-money/short/audio/7b12db9426bcce29.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "Ali has one hundred fifty, and Bea has ninety.",
+     "caption": "Ali has one hundred fifty, and Bea has ninety.",
+     "file": "2026-10-31-ali-bea-money/short/audio/12ebaf9d316f4efb.wav",
+     "from": 161,
+     "frames": 102
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1408,
+   "frames": 257,
+   "lines": [
+    {
+     "text": "Why thirty? The full lesson shows it step by step, plus every trap.",
+     "caption": "Why thirty? The full lesson shows it step by step, plus every trap.",
+     "file": "2026-10-31-ali-bea-money/short/audio/d6b8629c64809a93.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-ali-bea-money/short/audio/82b8b7e1a12a7449.wav",
+     "from": 152,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "title": "Big Triangle, Minus a Small One (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Find the area of this shaded shape.",
+   "Lots of kids answer forty-eight. But that's NOT quite right!"
+  ]},
+  {"id": "question", "lines": [
+   "The rectangle is twelve by eight, and M is the midpoint of the top.",
+   "What is the area of the shaded shape A P M D?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "minus", "lines": [
+   "Here's the trick. Start with a bigger triangle, A C D. It's half the rectangle.",
+   "But our shape misses a small corner, triangle P C M.",
+   "Similar triangles tell us its height is eight over three. So its area is eight."
+  ]},
+  {"id": "reveal", "lines": [
+   "Forty-eight minus eight is forty!",
+   "Forty-eight forgets the little corner."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why eight over three? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

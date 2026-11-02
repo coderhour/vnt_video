@@ -1,0 +1,30 @@
+{
+ "title": "How Many Turns Does the Ring Make? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "A ring rolls all the way around inside a big hoop.",
+   "Lots of people guess five turns. But it's NOT five!"
+  ]},
+  {"id": "question", "lines": [
+   "The ring has radius two, and the hoop has radius ten.",
+   "How many full turns does the ring make on one trip around?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "center", "lines": [
+   "Here's the trick. Follow the center of the ring!",
+   "It stays two from the hoop, so it travels a circle of radius eight.",
+   "Each full turn moves the center one rim length, four pi.",
+   "That circle is sixteen pi long. Sixteen pi over four pi gives the turns."
+  ]},
+  {"id": "reveal", "lines": [
+   "Four full turns!",
+   "The dot touches the hoop five times, but the loop takes one turn back."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why one back? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

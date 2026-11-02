@@ -1,0 +1,54 @@
+{
+ "title": "Will She Land on Step 5? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Pia flips a coin before each move. Heads, one step. Tails, two.",
+    "Will she land on step five?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Heads, she goes up one step. Tails, up two.",
+    "What's the chance she stands on step five?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "ladder",
+   "lines": [
+    "Work up the stairs! She comes from one step below with heads, or two below with tails.",
+    "Each move is a coin flip, so average those two chances.",
+    "The ground is one. Then one half, three fourths, five eighths, eleven sixteenths."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Average eleven sixteenths and five eighths. That's twenty-one thirty-seconds!",
+    "She lands on it more than half the time!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why is it not one half? The full lesson lists every way, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

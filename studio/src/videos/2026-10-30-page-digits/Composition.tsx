@@ -6,14 +6,15 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-page-digits';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // Colour per digit count: 1-digit pages amber, 2-digit blue, 3-digit violet, 4-digit green.
-const DC: Record<number, string> = { 1: C.amber, 2: C.blue, 3: C.violet, 4: C.primary };
+export const DC: Record<number, string> = { 1: C.amber, 2: C.blue, 3: C.violet, 4: C.primary };
 const nd = (p: number) => String(p).length;
 
 // ---------- building blocks ----------
@@ -22,7 +23,7 @@ const TILE_H = 92;
 const tileW = (p: number) => 34 + nd(p) * 34;
 
 /** A little page with its number, centred at (x, y). Each digit is one coloured cell. */
-const Page: React.FC<{ p: number | string; x: number; y: number; s?: number; opacity?: number; color?: string }> = ({ p, x, y, s = 1, opacity = 1, color }) => {
+export const Page: React.FC<{ p: number | string; x: number; y: number; s?: number; opacity?: number; color?: string }> = ({ p, x, y, s = 1, opacity = 1, color }) => {
   if (s <= 0 || opacity <= 0) return null;
   const str = String(p);
   const n = typeof p === 'number' ? nd(p) : 1;
@@ -41,7 +42,7 @@ const Page: React.FC<{ p: number | string; x: number; y: number; s?: number; opa
 };
 
 /** A row of page tiles from x0, popping in from `start`, `stagger` frames apart. */
-const Pages: React.FC<{ ps: (number | string)[]; x0: number; y: number; gap?: number; start?: number; stagger?: number; opacity?: number }> = ({ ps, x0, y, gap = 14, start, stagger = 3, opacity = 1 }) => {
+export const Pages: React.FC<{ ps: (number | string)[]; x0: number; y: number; gap?: number; start?: number; stagger?: number; opacity?: number }> = ({ ps, x0, y, gap = 14, start, stagger = 3, opacity = 1 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   let x = x0;
@@ -57,7 +58,7 @@ const Pages: React.FC<{ ps: (number | string)[]; x0: number; y: number; gap?: nu
   );
 };
 
-const rowWidth = (ps: (number | string)[], gap = 14) => ps.reduce<number>((a, p) => a + (typeof p === 'number' ? tileW(p) : 80) + gap, -gap);
+export const rowWidth = (ps: (number | string)[], gap = 14) => ps.reduce<number>((a, p) => a + (typeof p === 'number' ? tileW(p) : 80) + gap, -gap);
 
 /** A maths line placed absolutely. */
 const Eq: React.FC<{ x: number; y: number; tex: string; start: number; size?: number; color?: string; opacity?: number; center?: boolean }> = ({ x, y, tex, start, size = 56, color = C.ink, opacity = 1, center }) => {
@@ -136,7 +137,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['99', '100', '108', '117', '189'];
+export const CHOICES = ['99', '100', '108', '117', '189'];
 
 const Book: React.FC<{ x: number; y: number; opacity: number }> = ({ x, y, opacity }) => (
   <g transform={`translate(${x} ${y})`} opacity={opacity}>
@@ -553,10 +554,7 @@ const Recap: SceneComponent = ({ scene }) => {
           Track the gap to the target, and find where it hits zero.
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

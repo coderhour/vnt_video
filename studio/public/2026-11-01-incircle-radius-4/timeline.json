@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "durationInFrames": 12789,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 548,
+   "lines": [
+    {
+     "text": "A circle of radius four sits snugly inside a triangle. How big can that triangle be?",
+     "caption": "A circle of radius four sits snugly inside a triangle. How big can that triangle be?",
+     "file": "2026-11-01-incircle-radius-4/audio/50a5ca40a00be2a4.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "One tiny slip here gives you exactly half the right answer.",
+     "caption": "One tiny slip here gives you exactly half the right answer.",
+     "file": "2026-11-01-incircle-radius-4/audio/892308757c772e1a.wav",
+     "from": 226,
+     "frames": 146
+    },
+    {
+     "text": "Hi, I'm Vantee. Let's go triangle hunting!",
+     "caption": "Hi, I'm Vantee. Let's go triangle hunting!",
+     "file": "2026-11-01-incircle-radius-4/audio/26c5358ff7f721a5.wav",
+     "from": 382,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 548,
+   "frames": 794,
+   "lines": [
+    {
+     "text": "A triangle has whole-number sides. Its inscribed circle has radius four.",
+     "caption": "A triangle has whole-number sides. Its inscribed circle has radius four.",
+     "file": "2026-11-01-incircle-radius-4/audio/8222822b75b24080.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "The circle touches A B and A C at the points six from A.",
+     "caption": "The circle touches A B and A C at the points six from A.",
+     "file": "2026-11-01-incircle-radius-4/audio/6b963a95db07d854.wav",
+     "from": 186,
+     "frames": 168
+    },
+    {
+     "text": "What's the largest possible perimeter?",
+     "caption": "What's the largest possible perimeter?",
+     "file": "2026-11-01-incircle-radius-4/audio/fe44b11d05c73be1.wav",
+     "from": 365,
+     "frames": 96
+    },
+    {
+     "text": "Your choices: forty-two, sixty, eighty-one, one hundred fifty, and one hundred sixty-two.",
+     "caption": "Your choices: forty-two, sixty, eighty-one, one hundred fifty, and one hundred sixty-two.",
+     "file": "2026-11-01-incircle-radius-4/audio/f6cfb03483adfb06.wav",
+     "from": 471,
+     "frames": 269
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1342,
+   "frames": 263,
+   "lines": [
+    {
+     "text": "So: radius four, six from A to each touch point, and we want the BIGGEST perimeter.",
+     "caption": "So: radius four, six from A to each touch point, and we want the BIGGEST perimeter.",
+     "file": "2026-11-01-incircle-radius-4/audio/f98b2efef0b62a77.wav",
+     "from": 0,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1605,
+   "frames": 419,
+   "lines": [
+    {
+     "text": "Pause the video and give it a go. I'll wait!",
+     "caption": "Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-incircle-radius-4/audio/5e848daaccaf8533.wav",
+     "from": 0,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "setup",
+   "kind": "scene",
+   "chapter": "Name the sides",
+   "from": 2024,
+   "frames": 1284,
+   "lines": [
+    {
+     "text": "Welcome back! Circle fact: two tangent pieces from one point are always equal.",
+     "caption": "Welcome back! Circle fact: two tangent pieces from one point are always equal.",
+     "file": "2026-11-01-incircle-radius-4/audio/e4b572faadb3894b.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "So both pieces at A are six. At corner B, call the two equal pieces y. At C, call them z.",
+     "caption": "So both pieces at A are six. At corner B, call the two equal pieces y. At C, call them z.",
+     "file": "2026-11-01-incircle-radius-4/audio/758b180c1a0079a2.wav",
+     "from": 221,
+     "frames": 282
+    },
+    {
+     "text": "Each side is two pieces: A B is six plus y, A C is six plus z, and B C is y plus z.",
+     "caption": "Each side is two pieces: A B is six plus y, A C is six plus z, and B C is y plus z.",
+     "file": "2026-11-01-incircle-radius-4/audio/6c2e281ac4a78dc0.wav",
+     "from": 514,
+     "frames": 282
+    },
+    {
+     "text": "A B is whole, so y is whole. A C is whole, so z is whole.",
+     "caption": "A B is whole, so y is whole. A C is whole, so z is whole.",
+     "file": "2026-11-01-incircle-radius-4/audio/56c5bd9bd72f72fb.wav",
+     "from": 806,
+     "frames": 180
+    },
+    {
+     "text": "Half the perimeter is one piece from each corner: six plus y plus z. Call it s.",
+     "caption": "Half the perimeter is one piece from each corner: six plus y plus z. Call it s.",
+     "file": "2026-11-01-incircle-radius-4/audio/cb39174fa285e6a2.wav",
+     "from": 997,
+     "frames": 249
+    }
+   ]
+  },
+  {
+   "id": "area",
+   "kind": "scene",
+   "chapter": "Area two ways",
+   "from": 3308,
+   "frames": 2026,
+   "lines": [
+    {
+     "text": "Now find the area two ways. Way one: join the center to each corner.",
+     "caption": "Now find the area two ways. Way one: join the center to each corner.",
+     "file": "2026-11-01-incircle-radius-4/audio/7b71b1e2ce8ee4a2.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "Three small triangles! Each has a side as its base, and the radius, four, as its height.",
+     "caption": "Three small triangles! Each has a side as its base, and the radius, four, as its height.",
+     "file": "2026-11-01-incircle-radius-4/audio/2e3cef1088e20ddb.wav",
+     "from": 200,
+     "frames": 213
+    },
+    {
+     "text": "Adding them gives one over two times four times the perimeter. That's four times s.",
+     "caption": "Adding them gives one over two times four times the perimeter. That's four times s.",
+     "file": "2026-11-01-incircle-radius-4/audio/80a46c273bde78f3.wav",
+     "from": 423,
+     "frames": 184
+    },
+    {
+     "text": "Way two: Heron's formula. The area is the square root of s times s minus each side.",
+     "caption": "Way two: Heron's formula. The area is the square root of s times s minus each side.",
+     "file": "2026-11-01-incircle-radius-4/audio/c7db7265e81a7e91.wav",
+     "from": 617,
+     "frames": 251
+    },
+    {
+     "text": "The magic: s minus a side leaves one tangent piece. That's six, y and z!",
+     "caption": "The magic: s minus a side leaves one tangent piece. That's six, y and z!",
+     "file": "2026-11-01-incircle-radius-4/audio/4e20355faabf139e.wav",
+     "from": 878,
+     "frames": 215
+    },
+    {
+     "text": "So Heron gives the square root of six times s times y times z.",
+     "caption": "So Heron gives the square root of six times s times y times z.",
+     "file": "2026-11-01-incircle-radius-4/audio/ebf25ce5a15c4be8.wav",
+     "from": 1104,
+     "frames": 196
+    },
+    {
+     "text": "Set the two areas equal, square, and divide by s.",
+     "caption": "Set the two areas equal, square, and divide by s.",
+     "file": "2026-11-01-incircle-radius-4/audio/6680fb0d27532829.wav",
+     "from": 1310,
+     "frames": 150
+    },
+    {
+     "text": "Sixteen times s equals six y z. Halve it: eight times s equals three y z.",
+     "caption": "Sixteen times s equals six y z. Halve it: eight times s equals three y z.",
+     "file": "2026-11-01-incircle-radius-4/audio/e2a90abd68a80bd6.wav",
+     "from": 1470,
+     "frames": 225
+    },
+    {
+     "text": "Put in six plus y plus z for s: forty-eight plus eight y plus eight z equals three y z.",
+     "caption": "Put in six plus y plus z for s: forty-eight plus eight y plus eight z equals three y z.",
+     "file": "2026-11-01-incircle-radius-4/audio/8cae97c2e0589d36.wav",
+     "from": 1705,
+     "frames": 267
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "kind": "scene",
+   "chapter": "Solution 1: make a table",
+   "from": 5334,
+   "frames": 2079,
+   "lines": [
+    {
+     "text": "Let's get z alone. Move eight z to the left, then pull out the z.",
+     "caption": "Let's get z alone. Move eight z to the left, then pull out the z.",
+     "file": "2026-11-01-incircle-radius-4/audio/b991f3049f48f4ea.wav",
+     "from": 0,
+     "frames": 164
+    },
+    {
+     "text": "So z equals eight y plus forty-eight, over three y minus eight.",
+     "caption": "So z equals eight y plus forty-eight, over three y minus eight.",
+     "file": "2026-11-01-incircle-radius-4/audio/4fdc818e3ac2d446.wav",
+     "from": 173,
+     "frames": 200
+    },
+    {
+     "text": "The top is positive, so the bottom must be too: y is at least three.",
+     "caption": "The top is positive, so the bottom must be too: y is at least three.",
+     "file": "2026-11-01-incircle-radius-4/audio/5a13bf5120037866.wav",
+     "from": 383,
+     "frames": 176
+    },
+    {
+     "text": "Make a table! At y equals three, z is seventy-two over one, so seventy-two.",
+     "caption": "Make a table! At y equals three, z is seventy-two over one, so seventy-two.",
+     "file": "2026-11-01-incircle-radius-4/audio/300c00e194321a5d.wav",
+     "from": 569,
+     "frames": 226
+    },
+    {
+     "text": "At four, z is eighty over four, which is twenty.",
+     "caption": "At four, z is eighty over four, which is twenty.",
+     "file": "2026-11-01-incircle-radius-4/audio/1bfebc953c470d4b.wav",
+     "from": 805,
+     "frames": 141
+    },
+    {
+     "text": "Five and six give eighty-eight over seven and ninety-six over ten. Not whole!",
+     "caption": "Five and six give eighty-eight over seven and ninety-six over ten. Not whole!",
+     "file": "2026-11-01-incircle-radius-4/audio/4cba22972468da67.wav",
+     "from": 956,
+     "frames": 196
+    },
+    {
+     "text": "At seven, z is one hundred four over thirteen, which is eight.",
+     "caption": "At seven, z is one hundred four over thirteen, which is eight.",
+     "file": "2026-11-01-incircle-radius-4/audio/6a2548c3eb584671.wav",
+     "from": 1162,
+     "frames": 158
+    },
+    {
+     "text": "At eight, z is seven: a flip. Now z is below y, so only flips are left.",
+     "caption": "At eight, z is seven: a flip. Now z is below y, so only flips are left.",
+     "file": "2026-11-01-incircle-radius-4/audio/b74cd47ef9b70212.wav",
+     "from": 1330,
+     "frames": 232
+    },
+    {
+     "text": "So s equals eighty-one, thirty and twenty-one. Doubled: one hundred sixty-two, sixty and forty-two.",
+     "caption": "So s equals eighty-one, thirty and twenty-one. Doubled: one hundred sixty-two, sixty and forty-two.",
+     "file": "2026-11-01-incircle-radius-4/audio/00c15c08e2d38804.wav",
+     "from": 1572,
+     "frames": 297
+    },
+    {
+     "text": "The biggest perimeter is one hundred sixty-two. That's choice E!",
+     "caption": "The biggest perimeter is one hundred sixty-two. That's choice E!",
+     "file": "2026-11-01-incircle-radius-4/audio/4f8cdf801f8211b0.wav",
+     "from": 1879,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "factor",
+   "kind": "scene",
+   "chapter": "Solution 2: factor it",
+   "from": 7413,
+   "frames": 1521,
+   "lines": [
+    {
+     "text": "Here's a slicker way: make a product. Multiply both sides by three.",
+     "caption": "Here's a slicker way: make a product. Multiply both sides by three.",
+     "file": "2026-11-01-incircle-radius-4/audio/30de10adf1966373.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "The right side becomes one hundred forty-four. Now add sixty-four to both sides.",
+     "caption": "The right side becomes one hundred forty-four. Now add sixty-four to both sides.",
+     "file": "2026-11-01-incircle-radius-4/audio/edc55dad70ffb7bb.wav",
+     "from": 183,
+     "frames": 182
+    },
+    {
+     "text": "The left side factors! Three y minus eight, times three z minus eight, equals two hundred eight.",
+     "caption": "The left side factors! Three y minus eight, times three z minus eight, equals two hundred eight.",
+     "file": "2026-11-01-incircle-radius-4/audio/8ae9088a9bae171d.wav",
+     "from": 375,
+     "frames": 226
+    },
+    {
+     "text": "Each factor plus eight must divide by three. Let's test the factor pairs of two hundred eight.",
+     "caption": "Each factor plus eight must divide by three. Let's test the factor pairs of two hundred eight.",
+     "file": "2026-11-01-incircle-radius-4/audio/532c246c4928e813.wav",
+     "from": 611,
+     "frames": 196
+    },
+    {
+     "text": "Two and eight fail. One, four and thirteen pass, and so do their partners.",
+     "caption": "Two and eight fail. One, four and thirteen pass, and so do their partners.",
+     "file": "2026-11-01-incircle-radius-4/audio/9113e9b9196e4f39.wav",
+     "from": 817,
+     "frames": 204
+    },
+    {
+     "text": "Same three triangles! One times two hundred eight gives y equals three, z equals seventy-two.",
+     "caption": "Same three triangles! One times two hundred eight gives y equals three, z equals seventy-two.",
+     "file": "2026-11-01-incircle-radius-4/audio/9664cc2dd78df9e3.wav",
+     "from": 1032,
+     "frames": 250
+    },
+    {
+     "text": "When would you pick this way? When you want every answer without wondering where to stop.",
+     "caption": "When would you pick this way? When you want every answer without wondering where to stop.",
+     "file": "2026-11-01-incircle-radius-4/audio/4dc5db3506bcad2b.wav",
+     "from": 1292,
+     "frames": 176
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8934,
+   "frames": 638,
+   "lines": [
+    {
+     "text": "Now the traps. Forty-two and sixty are real triangles with radius four, just not the biggest.",
+     "caption": "Now the traps. Forty-two and sixty are real triangles with radius four, just not the biggest.",
+     "file": "2026-11-01-incircle-radius-4/audio/98147ca6520b8908.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "Eighty-one equals s, only HALF the perimeter. That's the tiny slip!",
+     "caption": "Eighty-one equals s, only HALF the perimeter. That's the tiny slip!",
+     "file": "2026-11-01-incircle-radius-4/audio/b93e87f6732a4359.wav",
+     "from": 230,
+     "frames": 165
+    },
+    {
+     "text": "One hundred fifty is what you'd get if you left out the two sixes at corner A.",
+     "caption": "One hundred fifty is what you'd get if you left out the two sixes at corner A.",
+     "file": "2026-11-01-incircle-radius-4/audio/5da76eae954c5922.wav",
+     "from": 405,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: radius 3",
+   "from": 9572,
+   "frames": 336,
+   "lines": [
+    {
+     "text": "Now the circle has radius three, and the touch points are four from A.",
+     "caption": "Now the circle has radius three, and the touch points are four from A.",
+     "file": "2026-11-01-incircle-radius-4/audio/a63b74075a67a600.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "Whole-number sides again. What's the largest perimeter?",
+     "caption": "Whole-number sides again. What's the largest perimeter?",
+     "file": "2026-11-01-incircle-radius-4/audio/a32dfa2b82e10eb6.wav",
+     "from": 171,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9908,
+   "frames": 397,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-incircle-radius-4/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Radius 3: the answer",
+   "from": 10305,
+   "frames": 1846,
+   "lines": [
+    {
+     "text": "Let's check. The area is three times s, and also the square root of s times four y z.",
+     "caption": "Let's check. The area is three times s, and also the square root of s times four y z.",
+     "file": "2026-11-01-incircle-radius-4/audio/6caf3a6107ce1b67.wav",
+     "from": 0,
+     "frames": 249
+    },
+    {
+     "text": "Square, divide by s: nine times s equals four y z. Put in four plus y plus z for s.",
+     "caption": "Square, divide by s: nine times s equals four y z. Put in four plus y plus z for s.",
+     "file": "2026-11-01-incircle-radius-4/audio/180b481d5a8d38d4.wav",
+     "from": 259,
+     "frames": 352
+    },
+    {
+     "text": "Get z alone: z equals nine y plus thirty-six, over four y minus nine.",
+     "caption": "Get z alone: z equals nine y plus thirty-six, over four y minus nine.",
+     "file": "2026-11-01-incircle-radius-4/audio/667aabac608fe358.wav",
+     "from": 621,
+     "frames": 236
+    },
+    {
+     "text": "Again y is at least three. Three gives sixty-three over three, so z is twenty-one!",
+     "caption": "Again y is at least three. Three gives sixty-three over three, so z is twenty-one!",
+     "file": "2026-11-01-incircle-radius-4/audio/680048164dd9838c.wav",
+     "from": 867,
+     "frames": 222
+    },
+    {
+     "text": "Four and five don't work. Six gives ninety over fifteen, which is six. Then z drops below y.",
+     "caption": "Four and five don't work. Six gives ninety over fifteen, which is six. Then z drops below y.",
+     "file": "2026-11-01-incircle-radius-4/audio/b8e47b5149b30aac.wav",
+     "from": 1099,
+     "frames": 254
+    },
+    {
+     "text": "So s is twenty-eight or sixteen, perimeter fifty-six or thirty-two. The largest is fifty-six!",
+     "caption": "So s is twenty-eight or sixteen, perimeter fifty-six or thirty-two. The largest is fifty-six!",
+     "file": "2026-11-01-incircle-radius-4/audio/7bdfd62d587ed8b3.wav",
+     "from": 1363,
+     "frames": 258
+    },
+    {
+     "text": "It's the seven, twenty-four, twenty-five right triangle. Fantastic work!",
+     "caption": "It's the seven, twenty-four, twenty-five right triangle. Fantastic work!",
+     "file": "2026-11-01-incircle-radius-4/audio/21f7b619cabc6699.wav",
+     "from": 1632,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12151,
+   "frames": 638,
+   "lines": [
+    {
+     "text": "The big idea: tangent pieces from one corner are equal, so a few letters name every side.",
+     "caption": "The big idea: tangent pieces from one corner are equal, so a few letters name every side.",
+     "file": "2026-11-01-incircle-radius-4/audio/d5e1a2387c848d3f.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "Then find the area two ways: radius times half the perimeter, and Heron's formula.",
+     "caption": "Then find the area two ways: radius times half the perimeter, and Heron's formula.",
+     "file": "2026-11-01-incircle-radius-4/audio/a258bb98f2aa32bc.wav",
+     "from": 232,
+     "frames": 212
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-01-incircle-radius-4/audio/31a6054d0b03b932.wav",
+     "from": 453,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

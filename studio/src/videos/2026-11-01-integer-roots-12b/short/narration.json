@@ -1,0 +1,29 @@
+{
+ "title": "When Are Both Roots Integers (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Put b equals negative one. The roots are four and negative three.",
+   "Both whole numbers! How many values of b do that?"
+  ]},
+  {"id": "question", "lines": [
+   "For how many integers b are both roots of this equation integers?",
+   "Pick one of the five choices."
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "trick", "lines": [
+   "Call the roots r and s. Sum and product give this neat equation.",
+   "Here's the trick. Add one hundred forty-four to both sides.",
+   "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four."
+  ]},
+  {"id": "reveal", "lines": [
+   "Factor pairs of one hundred forty-four: eight positive, and eight negative.",
+   "Eight plus eight is sixteen. That's Choice C!"
+  ], "hold": 0.4},
+  {"id": "cta", "lines": [
+   "Why exactly that? The full lesson shows two ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 0.8}
+ ]
+}

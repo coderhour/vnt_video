@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1688,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 200,
+   "lines": [
+    {
+     "text": "Add up the tips of this star, without measuring a single angle!",
+     "caption": "Add up the tips of this star, without measuring a single angle!",
+     "file": "2026-10-31-seven-point-star/short/audio/143283630d963429.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "All you need is a pencil.",
+     "caption": "All you need is a pencil.",
+     "file": "2026-10-31-seven-point-star/short/audio/e562588dfdc19cb1.wav",
+     "from": 128,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 200,
+   "frames": 249,
+   "lines": [
+    {
+     "text": "Seven evenly spaced points, each joined to the second point after it.",
+     "caption": "Seven evenly spaced points, each joined to the second point after it.",
+     "file": "2026-10-31-seven-point-star/short/audio/d265176e520224b7.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "What do the seven tip angles add up to?",
+     "caption": "What do the seven tip angles add up to?",
+     "file": "2026-10-31-seven-point-star/short/audio/f934767b4d3a45cf.wav",
+     "from": 137,
+     "frames": 80
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 449,
+   "frames": 158,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-seven-point-star/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 45
+    }
+   ]
+  },
+  {
+   "id": "pencil",
+   "kind": "scene",
+   "chapter": null,
+   "from": 607,
+   "frames": 453,
+   "lines": [
+    {
+     "text": "Walk a pencil around the star. At every tip, the tip and the turn make one hundred eighty.",
+     "caption": "Walk a pencil around the star. At every tip, the tip and the turn make one hundred eighty.",
+     "file": "2026-10-31-seven-point-star/short/audio/7b14e0c11b4f3b2d.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "Watch it go all the way around. The pencil circles the center twice!",
+     "caption": "Watch it go all the way around. The pencil circles the center twice!",
+     "file": "2026-10-31-seven-point-star/short/audio/0d6ecb2c29ef929e.wav",
+     "from": 188,
+     "frames": 129
+    },
+    {
+     "text": "Two circles is seven hundred twenty degrees of turning.",
+     "caption": "Two circles is seven hundred twenty degrees of turning.",
+     "file": "2026-10-31-seven-point-star/short/audio/33c41ed6e5dabc5a.wav",
+     "from": 327,
+     "frames": 102
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1060,
+   "frames": 372,
+   "lines": [
+    {
+     "text": "Seven times one hundred eighty is one thousand two hundred sixty.",
+     "caption": "Seven times one hundred eighty is one thousand two hundred sixty.",
+     "file": "2026-10-31-seven-point-star/short/audio/1966e45aa6050fe8.wav",
+     "from": 0,
+     "frames": 113
+    },
+    {
+     "text": "So the tips get the rest: five hundred forty degrees!",
+     "caption": "So the tips get the rest: five hundred forty degrees!",
+     "file": "2026-10-31-seven-point-star/short/audio/2f484b55057b7cdb.wav",
+     "from": 124,
+     "frames": 110
+    },
+    {
+     "text": "Not one hundred eighty. That's the five-point star.",
+     "caption": "Not one hundred eighty. That's the five-point star.",
+     "file": "2026-10-31-seven-point-star/short/audio/ac290585bb78c97a.wav",
+     "from": 243,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1432,
+   "frames": 256,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson has two neat ways and every trap.",
+     "caption": "Want to see why? The full lesson has two neat ways and every trap.",
+     "file": "2026-10-31-seven-point-star/short/audio/189edcd4e99ec8dd.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-seven-point-star/short/audio/82b8b7e1a12a7449.wav",
+     "from": 148,
+     "frames": 60
+    }
+   ]
+  }
+ ]
+}

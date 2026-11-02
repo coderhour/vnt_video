@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1751,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 124,
+   "lines": [
+    {
+     "text": "How many triangles have sides growing by the same multiplier?",
+     "caption": "How many triangles have sides growing by the same multiplier?",
+     "file": "2026-10-30-geometric-triangle/short/audio/2817bbf4cb11abfc.wav",
+     "from": 0,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 124,
+   "frames": 319,
+   "lines": [
+    {
+     "text": "The triangle has three different whole sides, each the last one times a fixed multiplier.",
+     "caption": "The triangle has three different whole sides, each the last one times a fixed multiplier.",
+     "file": "2026-10-30-geometric-triangle/short/audio/f2f1508d248873e5.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "The longest is two thousand twenty-five. How many triangles?",
+     "caption": "The longest is two thousand twenty-five. How many triangles?",
+     "file": "2026-10-30-geometric-triangle/short/audio/64c71654edf178fb.wav",
+     "from": 176,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 443,
+   "frames": 172,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-geometric-triangle/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 58
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": null,
+   "from": 615,
+   "frames": 640,
+   "lines": [
+    {
+     "text": "The sides always look like k squared, forty-five k, and two thousand twenty-five.",
+     "caption": "The sides always look like k squared, forty-five k, and two thousand twenty-five.",
+     "file": "2026-10-30-geometric-triangle/short/audio/4e1e2c2e4563eebb.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "Here k runs from one to forty-four. Which ones close into a triangle?",
+     "caption": "Here k runs from one to forty-four. Which ones close into a triangle?",
+     "file": "2026-10-30-geometric-triangle/short/audio/05668fa3d4eb6b3c.wav",
+     "from": 160,
+     "frames": 143
+    },
+    {
+     "text": "The short sides must add up to more than the longest. At twenty-seven, they fall short.",
+     "caption": "The short sides must add up to more than the longest. At twenty-seven, they fall short.",
+     "file": "2026-10-30-geometric-triangle/short/audio/0baf2129e17243c8.wav",
+     "from": 313,
+     "frames": 165
+    },
+    {
+     "text": "At twenty-eight, they just make it. And so does every bigger one!",
+     "caption": "At twenty-eight, they just make it. And so does every bigger one!",
+     "file": "2026-10-30-geometric-triangle/short/audio/66792bf87147dc7e.wav",
+     "from": 488,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1255,
+   "frames": 225,
+   "lines": [
+    {
+     "text": "Twenty-eight up to forty-four. That's seventeen triangles!",
+     "caption": "Twenty-eight up to forty-four. That's seventeen triangles!",
+     "file": "2026-10-30-geometric-triangle/short/audio/5abba2957b1b6e10.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "Forty-four is the trap!",
+     "caption": "Forty-four is the trap!",
+     "file": "2026-10-30-geometric-triangle/short/audio/acdbd4f4bde4d6db.wav",
+     "from": 128,
+     "frames": 59
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1480,
+   "frames": 271,
+   "lines": [
+    {
+     "text": "Why those sides? The full lesson shows two ways, plus every trap.",
+     "caption": "Why those sides? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-geometric-triangle/short/audio/05a8bd63badb02e0.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-geometric-triangle/short/audio/82b8b7e1a12a7449.wav",
+     "from": 160,
+     "frames": 58
+    }
+   ]
+  }
+ ]
+}

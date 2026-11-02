@@ -1,0 +1,30 @@
+{
+ "title": "The Remainder of a Giant Sum (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Add one, two, four, eight, and keep doubling. One hundred numbers!",
+   "The total is thirty-one digits long! Yet we can find its remainder."
+  ]},
+  {"id": "question", "lines": [
+   "The last number is two to the ninety-ninth.",
+   "What's the remainder when the sum is divided by seven?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "cycle", "lines": [
+   "Here's the trick. Look at each number's remainder.",
+   "One, two, four, then eight leaves one again. It's a cycle!",
+   "One plus two plus four is seven. Each group leaves nothing.",
+   "Ninety-nine terms make thirty-three groups. The last term leaves one."
+  ]},
+  {"id": "reveal", "lines": [
+   "So the remainder is one!",
+   "A giant sum, tamed by a tiny pattern."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why a cycle? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

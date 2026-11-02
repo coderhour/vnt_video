@@ -1,0 +1,162 @@
+{
+ "title": "Exactly 10 Dots Inside a Right Triangle | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "lines": [
+    "Stretch a right triangle over a grid of dots. How many dots end up inside?",
+    "We need EXACTLY ten inside, and the slanted side is sneaky.",
+    "Hello, I'm Vantee. Let's count some dots!"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 0.5,
+   "lines": [
+    "Here's the question. A right triangle has corners at zero zero, p zero, and zero q.",
+    "Here p and q are positive whole numbers.",
+    "Exactly ten points with whole-number coordinates lie strictly inside it.",
+    "How many ordered pairs, p and then q, are possible?"
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 0.5,
+   "lines": [
+    "The legs lie along the axes: p across and q up.",
+    "Strictly inside means dots on the edges do NOT count.",
+    "Ordered pairs means two and twenty-one is different from twenty-one and two."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "rect",
+   "chapter": "Solution 1: cut a rectangle in half",
+   "hold": 0.5,
+   "lines": [
+    "Welcome back! Let's add a twin triangle to make a rectangle. First, a six by four one.",
+    "Inside are five across and three up: fifteen dots.",
+    "The slanted side cuts the rectangle into two triangles. One dot sits right ON it.",
+    "Turn it half a turn and the triangles swap, so the other fourteen dots split evenly: seven each."
+   ]
+  },
+  {
+   "id": "formula",
+   "hold": 1.5,
+   "lines": [
+    "Now any p by q rectangle. It holds p minus one, times q minus one, dots inside.",
+    "Call g the greatest common factor of p and q.",
+    "The slant splits into g equal hops, so g minus one dots sit strictly between its ends.",
+    "Take those away, then split in half. Ten in each half means the rest is twenty.",
+    "Add g minus one to both sides: p minus one, times q minus one, equals nineteen plus g."
+   ]
+  },
+  {
+   "id": "bound",
+   "hold": 1,
+   "lines": [
+    "Let's call p the shorter leg for now. We'll flip the pairs at the end.",
+    "If both legs were seven or more, the triangle would cover a seven by seven triangle.",
+    "That one has thirty-six minus six, thirty dots, and half is fifteen. Too many!",
+    "So the short leg p is at most six. And p equals one leaves no room inside."
+   ]
+  },
+  {
+   "id": "cases",
+   "hold": 0.5,
+   "lines": [
+    "Now try p from two to six. Remember, g must be a factor of p.",
+    "p equals two: g is one or two, so q is twenty-one or twenty-two. Both check out!",
+    "p equals three: two times q minus one is twenty or twenty-two. So q is eleven or twelve.",
+    "p equals four: only twenty-one splits into threes, so q is eight. But four and eight share four, not two!",
+    "p equals five: q is six or seven. Five and six works, but five and seven don't share a five!",
+    "p equals six: only twenty and twenty-five split into fives.",
+    "Twenty gives q equals five, already counted. Twenty-five gives q equals six!"
+   ]
+  },
+  {
+   "id": "count",
+   "hold": 1.5,
+   "lines": [
+    "Five of our six pairs have different legs, so flipping gives ten ordered pairs.",
+    "Six and six flips into itself, so it counts once. Ten plus one is eleven. That's Choice D!"
+   ]
+  },
+  {
+   "id": "pick",
+   "chapter": "Solution 2: Pick's theorem",
+   "hold": 1,
+   "lines": [
+    "Pick's theorem gives a faster road. Area equals the dots inside, plus half the edge dots, minus one.",
+    "Walk the edge: p steps along the bottom, g hops up the slant, q steps down. That's p plus q plus g.",
+    "The area is p times q over two. That equals ten, plus half of p plus q plus the letter g, minus one.",
+    "Double it and tidy up: p minus one, times q minus one, equals nineteen plus g. Same equation!",
+    "When would you pick this way? It's quick if you know the theorem. The rectangle works if you don't."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "lines": [
+    "Choice E, twelve, is what you'd get if you flipped all six pairs. But six and six flipped is itself!",
+    "Choice C, ten, is what you'd get if you missed six and six. Its slanted side hides five dots!",
+    "Choice B, six, is what you'd get if you never flipped, or if you forgot the dots on the slant.",
+    "Choice A, five, is what you'd get if you kept only p smaller than q, and never flipped."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: six dots inside",
+   "hold": 0.5,
+   "lines": [
+    "Your turn! Same triangle, but now exactly six dots lie inside. How many ordered pairs this time?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Six dots: the answer",
+   "hold": 1,
+   "lines": [
+    "Now the rest must be twelve, so p minus one, times q minus one, equals eleven plus g.",
+    "A six by six triangle has ten dots inside. Too many, so the short leg is at most five.",
+    "p equals two gives q equals thirteen or fourteen.",
+    "p equals three gives q equals seven. Eight fails, because three and eight don't share a three.",
+    "p equals four gives q equals five. Six fails, because four and six share two, not four.",
+    "p equals five: q is four, already counted, or five. And five and five do share a five.",
+    "Four pairs flip into eight. Add five, five: nine ordered pairs! Fantastic work if you got it."
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "lines": [
+    "Here's the big idea: count the rectangle's dots, take away the ones on the slant, and split in half.",
+    "Then keep the short leg small, and check each case.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

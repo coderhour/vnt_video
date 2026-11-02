@@ -6,15 +6,16 @@ import { Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 import { interpolate } from 'remotion';
 
 export const SLUG = '2026-10-31-seven-point-star';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const TIP = C.violet;
-const TURN = '#14a64a'; // darker green, readable as text
+export const TIP = C.violet;
+export const TURN = '#14a64a'; // darker green, readable as text
 const PANEL = 930;
 const LETTERS = 'ABCDEFG';
 const TAU = Math.PI * 2;
@@ -22,8 +23,8 @@ const TAU = Math.PI * 2;
 // ---------- geometry: n points on a circle, A at the top, counterclockwise (maths, y up) ----------
 
 type G = { n: number; k: number; cx: number; cy: number; R: number };
-const mkG = (cx: number, cy: number, R: number, n = 7, k = 2): G => ({ n, k, cx, cy, R });
-const pt = (g: G, i: number, extra = 0): Pt => {
+export const mkG = (cx: number, cy: number, R: number, n = 7, k = 2): G => ({ n, k, cx, cy, R });
+export const pt = (g: G, i: number, extra = 0): Pt => {
   const m = ((i % g.n) + g.n) % g.n;
   const th = ((90 + (m * 360) / g.n) * Math.PI) / 180;
   return [g.cx + (g.R + extra) * Math.cos(th), g.cy - (g.R + extra) * Math.sin(th)];
@@ -41,13 +42,13 @@ const arcD = (c: Pt, r: number, a1: number, diff: number, sector: boolean) => {
   const arc = `A ${r} ${r} 0 ${Math.abs(diff) > Math.PI ? 1 : 0} ${diff > 0 ? 1 : 0} ${p2.join(' ')}`;
   return sector ? `M ${c.join(' ')} L ${p1.join(' ')} ${arc} Z` : `M ${p1.join(' ')} ${arc}`;
 };
-const vert = (g: G, j: number) => (((j * g.k) % g.n) + g.n) % g.n; // j-th vertex of the walk
-const lapOf = (p: number, g: G) => Math.max(1, Math.ceil((p * g.k) / g.n - 1e-6));
-const arcOp = (p: number, m: number) => Math.min(1, Math.max(0, (p - (m - 0.03)) / 0.12));
+export const vert = (g: G, j: number) => (((j * g.k) % g.n) + g.n) % g.n; // j-th vertex of the walk
+export const lapOf = (p: number, g: G) => Math.max(1, Math.ceil((p * g.k) / g.n - 1e-6));
+export const arcOp = (p: number, m: number) => Math.min(1, Math.max(0, (p - (m - 0.03)) / 0.12));
 
 // ---------- SVG pieces ----------
 
-const T: React.FC<{ x: number; y: number; size?: number; color?: string; op?: number; anchor?: 'start' | 'middle' | 'end'; weight?: number; children: React.ReactNode }> = ({
+export const T: React.FC<{ x: number; y: number; size?: number; color?: string; op?: number; anchor?: 'start' | 'middle' | 'end'; weight?: number; children: React.ReactNode }> = ({
   x, y, size = 48, color = C.ink, op = 1, anchor = 'middle', weight = 800, children,
 }) =>
   op <= 0 ? null : (
@@ -56,7 +57,7 @@ const T: React.FC<{ x: number; y: number; size?: number; color?: string; op?: nu
     </text>
   );
 
-const Base: React.FC<{ g: G; op?: number; letters?: number; dots?: number; size?: number; disc?: boolean; off?: number }> = ({ g, op = 1, letters = 0, dots = 1, size = 56, disc = true, off = 64 }) => (
+export const Base: React.FC<{ g: G; op?: number; letters?: number; dots?: number; size?: number; disc?: boolean; off?: number }> = ({ g, op = 1, letters = 0, dots = 1, size = 56, disc = true, off = 64 }) => (
   <g opacity={op}>
     {disc && <circle cx={g.cx} cy={g.cy} r={g.R} fill={C.card} stroke="#c9cedb" strokeWidth={5} />}
     {range(g.n).map((i) => {
@@ -72,7 +73,7 @@ const Base: React.FC<{ g: G; op?: number; letters?: number; dots?: number; size?
 );
 
 /** The walk's lines, drawn one after another as p goes 0→n. */
-const Chords: React.FC<{ g: G; p: number; color?: string; width?: number; op?: number; dash?: boolean }> = ({ g, p, color = C.ink, width = 7, op = 1, dash = false }) => (
+export const Chords: React.FC<{ g: G; p: number; color?: string; width?: number; op?: number; dash?: boolean }> = ({ g, p, color = C.ink, width = 7, op = 1, dash = false }) => (
   <g opacity={op} stroke={color} strokeWidth={width} strokeLinecap="round" strokeDasharray={dash ? '14 14' : undefined}>
     {range(g.n).map((j) => {
       const fr = Math.min(1, Math.max(0, p - j));
@@ -91,7 +92,7 @@ const tipGeo = (g: G, v: number) => {
   const diff = wrap(ang(V, pt(g, v - g.k)) - a1);
   return { V, a1, diff };
 };
-const TipArc: React.FC<{ g: G; v: number; r?: number; op?: number; label?: string; labelR?: number; size?: number }> = ({ g, v, r = 52, op = 1, label, labelR, size = 48 }) => {
+export const TipArc: React.FC<{ g: G; v: number; r?: number; op?: number; label?: string; labelR?: number; size?: number }> = ({ g, v, r = 52, op = 1, label, labelR, size = 48 }) => {
   if (op <= 0) return null;
   const { V, a1, diff } = tipGeo(g, v);
   const lp = polar(V, labelR ?? r + 44, a1 + diff / 2);
@@ -104,7 +105,7 @@ const TipArc: React.FC<{ g: G; v: number; r?: number; op?: number; label?: strin
 };
 
 /** Turn at vertex v: from the straight-on direction to the new direction (green), with the dashed straight-on line. */
-const TurnArc: React.FC<{ g: G; v: number; r?: number; op?: number; label?: string; ext?: boolean; size?: number }> = ({ g, v, r = 52, op = 1, label, ext = true, size = 48 }) => {
+export const TurnArc: React.FC<{ g: G; v: number; r?: number; op?: number; label?: string; ext?: boolean; size?: number }> = ({ g, v, r = 52, op = 1, label, ext = true, size = 48 }) => {
   if (op <= 0) return null;
   const V = pt(g, v);
   const aIn = ang(pt(g, v - g.k), V);
@@ -160,7 +161,7 @@ const pencilAt = (g: G, p: number) => {
   return { x: a[0] + (b[0] - a[0]) * fr, y: a[1] + (b[1] - a[1]) * fr, heading };
 };
 
-const Walker: React.FC<{ g: G; p: number; op?: number; fin?: number }> = ({ g, p, op = 1, fin = 0 }) => {
+export const Walker: React.FC<{ g: G; p: number; op?: number; fin?: number }> = ({ g, p, op = 1, fin = 0 }) => {
   const { x, y, heading } = pencilAt(g, p);
   let hd = heading;
   if (fin > 0) {
@@ -173,7 +174,7 @@ const Walker: React.FC<{ g: G; p: number; op?: number; fin?: number }> = ({ g, p
 };
 
 /** Pie at the centre that fills once per lap. */
-const LapPie: React.FC<{ g: G; p: number; op?: number; r?: number }> = ({ g, p, op = 1, r = 34 }) => {
+export const LapPie: React.FC<{ g: G; p: number; op?: number; r?: number }> = ({ g, p, op = 1, r = 34 }) => {
   if (op <= 0) return null;
   const lap = lapOf(p, g);
   const fr = Math.min(1, Math.max(0, (p * g.k) / g.n - (lap - 1)));
@@ -245,12 +246,12 @@ const Choices: React.FC<{ x: number; y: number; start: (i: number) => number; it
 
 const Fade: React.FC<{ op: number; children: React.ReactNode }> = ({ op, children }) => (op <= 0 ? null : <div style={{ opacity: op, position: 'absolute', inset: 0 }}>{children}</div>);
 
-const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
-const cT = (t: string) => col(TIP, t);
-const cU = (t: string) => col(TURN, t);
-const DEG = '^\\circ';
+export const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
+export const cT = (t: string) => col(TIP, t);
+export const cU = (t: string) => col(TURN, t);
+export const DEG = '^\\circ';
 
-const linear = (f: number, a: number, b: number, v0: number, v1: number) => interpolate(f, [a, Math.max(a + 1, b)], [v0, v1], clamp);
+export const linear = (f: number, a: number, b: number, v0: number, v1: number) => interpolate(f, [a, Math.max(a + 1, b)], [v0, v1], clamp);
 
 // the main figure for most scenes (left half)
 const FG = mkG(500, 515, 265);
@@ -754,10 +755,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Eq y={270} size={60} parts={E1(`${cT('\\text{tip}')} + ${cU('\\text{turn}')} = 180${DEG}`, at(scene, 1, 0.45))} />
         <Eq y={400} size={60} parts={E1(`${cU('\\text{turns}')} = \\text{laps}\\times 360${DEG}`, at(scene, 2, 0.4))} />
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={7} />
     </>
   );

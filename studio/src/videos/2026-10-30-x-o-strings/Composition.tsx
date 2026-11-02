@@ -6,16 +6,17 @@ import { Stage, Step, XMark, makeGrid, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-x-o-strings';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- maths (same as verify.py) ----------
 
-const GOOD = 'XXOXOOXO'; // the "keep score" example that counts
-const BAD = 'XOOXXXOO'; // O leads 2 to 1 after three letters
+export const GOOD = 'XXOXOOXO'; // the "keep score" example that counts
+export const BAD = 'XOOXXXOO'; // O leads 2 to 1 after three letters
 
 /** The good strings, sorted by how many X's come before the first O (verify.py prints the same lists). */
 const GROUPS: Record<number, string[]> = {
@@ -32,11 +33,11 @@ const table = (nx: number, no: number) => {
     for (let x = 0; x <= nx; x++) v[`${x},${o}`] = o > x ? 0 : x === 0 && o === 0 ? 1 : (v[`${x - 1},${o}`] ?? 0) + (v[`${x},${o - 1}`] ?? 0);
   return v;
 };
-const T44 = table(4, 4);
+export const T44 = table(4, 4);
 const T53 = table(5, 3);
 
 /** Grid nodes visited by a string's walk: X steps right, O steps down. */
-const walk = (s: string): Pt[] => {
+export const walk = (s: string): Pt[] => {
   const out: Pt[] = [[0, 0]];
   for (const ch of s) {
     const [x, o] = out[out.length - 1];
@@ -46,7 +47,7 @@ const walk = (s: string): Pt[] => {
 };
 
 /** Frame (in the scene) where `phrase` starts inside line i, estimated from its position in the caption. */
-const cue = (scene: Scene, i: number, phrase: string, after = false) => {
+export const cue = (scene: Scene, i: number, phrase: string, after = false) => {
   const cap = scene.lines[i].caption;
   const k = cap.indexOf(phrase);
   if (k < 0) throw new Error(`cue: "${phrase}" not in line ${i} of ${scene.id}`);
@@ -58,7 +59,7 @@ const cue = (scene: Scene, i: number, phrase: string, after = false) => {
 const TILE = { X: C.primary, O: C.violet } as Record<string, string>;
 
 /** A string as a row of letter tiles. `on(i)` = how visible tile i is; `ring(i)` = optional outline colour. */
-const Tiles: React.FC<{
+export const Tiles: React.FC<{
   x: number;
   y: number;
   s: string;
@@ -103,7 +104,7 @@ const Tiles: React.FC<{
 );
 
 /** Tiles popping in one after another between frames a and b. */
-const seq = (f: number, a: number, b: number, n = 8) => (i: number) => ease(f, a + ((b - a) * i) / n, 8);
+export const seq = (f: number, a: number, b: number, n = 8) => (i: number) => ease(f, a + ((b - a) * i) / n, 8);
 
 /** A maths line placed at (x, y). */
 const Eq: React.FC<{ x: number; y: number; tex: string; start: number; size?: number; color?: string; opacity?: number }> = ({ x, y, tex, start, size = 56, color = C.ink, opacity = 1 }) => {
@@ -116,24 +117,24 @@ const Eq: React.FC<{ x: number; y: number; tex: string; start: number; size?: nu
   );
 };
 
-const Chime: React.FC<{ at: number }> = ({ at: a }) => (
+export const Chime: React.FC<{ at: number }> = ({ at: a }) => (
   <Sequence from={a} durationInFrames={60} layout="none">
     <Audio src={CHIME} volume={0.3} />
   </Sequence>
 );
 
-const Card: React.FC<{ x: number; y: number; w: number; h: number; style?: React.CSSProperties; children?: React.ReactNode }> = ({ x, y, w, h, style, children }) => (
+export const Card: React.FC<{ x: number; y: number; w: number; h: number; style?: React.CSSProperties; children?: React.ReactNode }> = ({ x, y, w, h, style, children }) => (
   <div style={{ position: 'absolute', left: x, top: y, width: w, height: h, background: C.card, borderRadius: 32, boxShadow: '0 8px 30px rgba(30,40,80,0.07)', ...style }}>{children}</div>
 );
 
 // ---------- the walk grid ----------
 
-type Node = { x: number; o: number; v: number; at: number };
+export type Node = { x: number; o: number; v: number; at: number };
 
 const R = 44; // node radius
 
 /** Lattice of X-steps (right) and O-steps (down). Spots below the wall (more O's than X's) are blocked. */
-const WalkGrid: React.FC<{
+export const WalkGrid: React.FC<{
   nx: number;
   no: number;
   g: (p: Pt) => Pt;
@@ -196,7 +197,7 @@ const WalkGrid: React.FC<{
 };
 
 /** A walk drawn node to node (never between nodes), `progress` 0→1 over its steps. */
-const WalkPath: React.FC<{ pts: Pt[]; g: (p: Pt) => Pt; progress: number; color: string; opacity?: number }> = ({ pts, g, progress, color, opacity = 1 }) => {
+export const WalkPath: React.FC<{ pts: Pt[]; g: (p: Pt) => Pt; progress: number; color: string; opacity?: number }> = ({ pts, g, progress, color, opacity = 1 }) => {
   if (progress <= 0 || opacity <= 0) return null;
   const steps = pts.length - 1;
   const t = progress * steps;
@@ -262,7 +263,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['8', '14', '16', '20', '35'];
+export const CHOICES = ['8', '14', '16', '20', '35'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -678,10 +679,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <WalkPath pts={walk(GOOD)} g={GR} progress={interpolate(f, [at(scene, 1, 0.3), at(scene, 1, 0.9)], [0, 1], clamp)} color={C.primary} opacity={fadeTo(f, at(scene, 2, 0.3), 0)} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep counting!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep counting!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

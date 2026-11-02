@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1849,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 292,
+   "lines": [
+    {
+     "text": "\u6570\u8f74\u4e0a\u6709\u4e24\u4e2a\u70b9\uff0c\u6bcf\u4e2a\u65b0\u70b9\uff0c\u90fd\u662f\u6700\u65b0\u4e24\u70b9\u7684\u4e2d\u70b9\u3002",
+     "caption": "\u6570\u8f74\u4e0a\u6709\u4e24\u4e2a\u70b9\uff0c\u6bcf\u4e2a\u65b0\u70b9\uff0c\u90fd\u662f\u6700\u65b0\u4e24\u70b9\u7684\u4e2d\u70b9\u3002",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/994c18351f0716ff.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "\u7b2c10\u4e2a\u70b9\uff0c\u4f1a\u505c\u5728\u54ea\u91cc\uff1f\u5f88\u591a\u4eba\u4f1a\u7b97\u9519\uff01",
+     "caption": "\u7b2c10\u4e2a\u70b9\uff0c\u4f1a\u505c\u5728\u54ea\u91cc\uff1f\u5f88\u591a\u4eba\u4f1a\u7b97\u9519\uff01",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/9340b1e23a1397e9.wav",
+     "from": 154,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 292,
+   "frames": 346,
+   "lines": [
+    {
+     "text": "\u70b9P1\u57280\uff0c\u70b9P2\u572864\u3002",
+     "caption": "\u70b9P1\u57280\uff0c\u70b9P2\u572864\u3002",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/6eaf453c40a8653c.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "\u4e4b\u540e\u7684\u6bcf\u4e00\u4e2a\u70b9\uff0c\u90fd\u662f\u5b83\u524d\u9762\u4e24\u4e2a\u70b9\u7684\u4e2d\u70b9\u3002",
+     "caption": "\u4e4b\u540e\u7684\u6bcf\u4e00\u4e2a\u70b9\uff0c\u90fd\u662f\u5b83\u524d\u9762\u4e24\u4e2a\u70b9\u7684\u4e2d\u70b9\u3002",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/ee9b0d151ed6c3fa.wav",
+     "from": 115,
+     "frames": 113
+    },
+    {
+     "text": "\u90a3\u4e48\uff0c\u7b2c10\u4e2a\u70b9\u5728\u54ea\u91cc\uff1f",
+     "caption": "\u90a3\u4e48\uff0c\u7b2c10\u4e2a\u70b9\u5728\u54ea\u91cc\uff1f",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/c3d283d701a439b7.wav",
+     "from": 239,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 638,
+   "frames": 158,
+   "lines": [
+    {
+     "text": "\u6682\u505c\uff0c\u8bd5\u4e00\u8bd5\uff01",
+     "caption": "\u6682\u505c\uff0c\u8bd5\u4e00\u8bd5\uff01",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/5d66a27253c08744.wav",
+     "from": 0,
+     "frames": 45
+    }
+   ]
+  },
+  {
+   "id": "jumps",
+   "kind": "scene",
+   "chapter": null,
+   "from": 796,
+   "frames": 447,
+   "lines": [
+    {
+     "text": "\u4ece0\u5411\u53f3\u8df364\uff0c\u518d\u5411\u5de6\u8df332\uff0c\u518d\u5411\u53f3\u8df316\u3002",
+     "caption": "\u4ece0\u5411\u53f3\u8df364\uff0c\u518d\u5411\u5de6\u8df332\uff0c\u518d\u5411\u53f3\u8df316\u3002",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/1496127976511ff8.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "\u53d1\u73b0\u89c4\u5f8b\u4e86\u5417\uff1f\u6bcf\u4e00\u8df3\u90fd\u662f\u4e0a\u4e00\u8df3\u7684\u4e00\u534a\uff0c\u800c\u4e14\u65b9\u5411\u76f8\u53cd\uff01",
+     "caption": "\u53d1\u73b0\u89c4\u5f8b\u4e86\u5417\uff1f\u6bcf\u4e00\u8df3\u90fd\u662f\u4e0a\u4e00\u8df3\u7684\u4e00\u534a\uff0c\u800c\u4e14\u65b9\u5411\u76f8\u53cd\uff01",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/27032872125f155c.wav",
+     "from": 156,
+     "frames": 141
+    },
+    {
+     "text": "\u63a5\u7740\u8ddd\u79bb\u8d8a\u6765\u8d8a\u77ed\uff0c\u70b9\u90fd\u5f80\u540c\u4e00\u4e2a\u4f4d\u7f6e\u9760\u62e2\u3002",
+     "caption": "\u63a5\u7740\u8ddd\u79bb\u8d8a\u6765\u8d8a\u77ed\uff0c\u70b9\u90fd\u5f80\u540c\u4e00\u4e2a\u4f4d\u7f6e\u9760\u62e2\u3002",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/79326b5dd138df8d.wav",
+     "from": 307,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1243,
+   "frames": 338,
+   "lines": [
+    {
+     "text": "\u628a\u8fd9\u4e5d\u6b21\u8df3\u52a0\u8d77\u6765\uff0c\u7b2c10\u4e2a\u70b9\u5c31\u662f42\u53c83/4\uff0c\u7b54\u6848\u662fC\uff01",
+     "caption": "\u628a\u8fd9\u4e5d\u6b21\u8df3\u52a0\u8d77\u6765\uff0c\u7b2c10\u4e2a\u70b9\u5c31\u662f42\u53c83/4\uff0c\u7b54\u6848\u662fC\uff01",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/26e2c34e7bebde7e.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "\u6bcf\u4e00\u4e2a\u9009\u9879\uff0c\u90fd\u662f\u8ffd\u9010\u4e2d\u771f\u5b9e\u51fa\u73b0\u8fc7\u7684\u70b9\uff01",
+     "caption": "\u6bcf\u4e00\u4e2a\u9009\u9879\uff0c\u90fd\u662f\u8ffd\u9010\u4e2d\u771f\u5b9e\u51fa\u73b0\u8fc7\u7684\u70b9\uff01",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/fb7d0f44c5ca5a19.wav",
+     "from": 185,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1581,
+   "frames": 268,
+   "lines": [
+    {
+     "text": "\u4e3a\u4ec0\u4e48\uff1f\u5b8c\u6574\u8bfe\u7a0b\u6709\u4e24\u79cd\u65b9\u6cd5\uff0c\u8fd8\u6709\u6bcf\u4e2a\u9677\u9631\u3002",
+     "caption": "\u4e3a\u4ec0\u4e48\uff1f\u5b8c\u6574\u8bfe\u7a0b\u6709\u4e24\u79cd\u65b9\u6cd5\uff0c\u8fd8\u6709\u6bcf\u4e2a\u9677\u9631\u3002",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/eb3b5e54687faceb.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "\u70b9\u51fb\u4e0b\u9762\u7684\u94fe\u63a5\u89c2\u770b\uff01",
+     "caption": "\u70b9\u51fb\u4e0b\u9762\u7684\u94fe\u63a5\u89c2\u770b\uff01",
+     "file": "2026-10-30-midpoint-chase-zh/short/audio/8a63590460857433.wav",
+     "from": 135,
+     "frames": 64
+    }
+   ]
+  }
+ ]
+}

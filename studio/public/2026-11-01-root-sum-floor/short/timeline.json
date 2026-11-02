@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1669,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 238,
+   "lines": [
+    {
+     "text": "One hundred fractions with square roots, all added up.",
+     "caption": "One hundred fractions with square roots, all added up.",
+     "file": "2026-11-01-root-sum-floor/short/audio/adb9dbecced6def7.wav",
+     "from": 0,
+     "frames": 104
+    },
+    {
+     "text": "Can you find the whole part with NO calculator?",
+     "caption": "Can you find the whole part with NO calculator?",
+     "file": "2026-11-01-root-sum-floor/short/audio/7cd513b3f1568b40.wav",
+     "from": 114,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 238,
+   "frames": 278,
+   "lines": [
+    {
+     "text": "Add one over root k, for k from one to one hundred.",
+     "caption": "Add one over root k, for k from one to one hundred.",
+     "file": "2026-11-01-root-sum-floor/short/audio/1d815cc5adf7c7c4.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "What's the greatest whole number at most this sum?",
+     "caption": "What's the greatest whole number at most this sum?",
+     "file": "2026-11-01-root-sum-floor/short/audio/3102af87f82d7b4e.wav",
+     "from": 135,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 516,
+   "frames": 166,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-root-sum-floor/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "squeeze",
+   "kind": "scene",
+   "chapter": null,
+   "from": 682,
+   "frames": 517,
+   "lines": [
+    {
+     "text": "Grow a square from area k to area k plus one.",
+     "caption": "Grow a square from area k to area k plus one.",
+     "file": "2026-11-01-root-sum-floor/short/audio/abdd9a199130ab67.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "Each fraction beats two of the side's little steps.",
+     "caption": "Each fraction beats two of the side's little steps.",
+     "file": "2026-11-01-root-sum-floor/short/audio/be7d2fd5ee42bfd4.wav",
+     "from": 114,
+     "frames": 94
+    },
+    {
+     "text": "Stack them: the side grows from one to root one hundred one, so the sum beats eighteen!",
+     "caption": "Stack them: the side grows from one to root one hundred one, so the sum beats eighteen!",
+     "file": "2026-11-01-root-sum-floor/short/audio/6896dc1600561e7d.wav",
+     "from": 219,
+     "frames": 174
+    },
+    {
+     "text": "A matching ceiling says: under nineteen.",
+     "caption": "A matching ceiling says: under nineteen.",
+     "file": "2026-11-01-root-sum-floor/short/audio/b94a6ada974af841.wav",
+     "from": 403,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1199,
+   "frames": 285,
+   "lines": [
+    {
+     "text": "So, rounded down, the answer is <short pause> eighteen! Choice C.",
+     "caption": "So, rounded down, the answer is eighteen! Choice C.",
+     "file": "2026-11-01-root-sum-floor/short/audio/69fbc92c65205bae.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "No calculator needed, just a floor and a ceiling!",
+     "caption": "No calculator needed, just a floor and a ceiling!",
+     "file": "2026-11-01-root-sum-floor/short/audio/6a0ca3efce9af674.wav",
+     "from": 147,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1484,
+   "frames": 185,
+   "lines": [
+    {
+     "text": "The full lesson shows every trap. Tap the link below to watch it!",
+     "caption": "The full lesson shows every trap. Tap the link below to watch it!",
+     "file": "2026-11-01-root-sum-floor/short/audio/090dc1015b1e291c.wav",
+     "from": 0,
+     "frames": 117
+    }
+   ]
+  }
+ ]
+}

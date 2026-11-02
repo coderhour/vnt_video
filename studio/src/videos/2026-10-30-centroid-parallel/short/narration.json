@@ -1,0 +1,29 @@
+{
+ "title": "Where Do the Three Medians Meet? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "The three medians of a triangle meet at one point, G.",
+   "Draw a line through G, parallel to the base. How long is it?"
+  ]},
+  {"id": "question", "lines": [
+   "The base B C is twenty-four. E F goes through G, parallel to B C.",
+   "How long is E F?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "shrink", "lines": [
+   "Here's the secret. G is two thirds of the way down each median.",
+   "So shrink the whole triangle toward A, to two thirds size.",
+   "Side B C lands right on E F. Every length becomes two thirds."
+  ]},
+  {"id": "reveal", "lines": [
+   "Two thirds of twenty-four is sixteen!",
+   "Not twelve. G is two thirds down, not halfway."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Want the exact working? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

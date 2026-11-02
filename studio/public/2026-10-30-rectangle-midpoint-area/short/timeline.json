@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1603,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 216,
+   "lines": [
+    {
+     "text": "Find the area of this shaded shape.",
+     "caption": "Find the area of this shaded shape.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/dd74d7f61809e3f7.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "Lots of kids answer forty-eight. But that's NOT quite right!",
+     "caption": "Lots of kids answer forty-eight. But that's NOT quite right!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/f305219524a8e466.wav",
+     "from": 85,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 216,
+   "frames": 275,
+   "lines": [
+    {
+     "text": "The rectangle is twelve by eight, and M is the midpoint of the top.",
+     "caption": "The rectangle is twelve by eight, and M is the midpoint of the top.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/d09252acf8ce3125.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "What is the area of the shaded shape A P M D?",
+     "caption": "What is the area of the shaded shape A P M D?",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/3037747b6ec4706f.wav",
+     "from": 130,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 491,
+   "frames": 180,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "minus",
+   "kind": "scene",
+   "chapter": null,
+   "from": 671,
+   "frames": 450,
+   "lines": [
+    {
+     "text": "Here's the trick. Start with a bigger triangle, A C D. It's half the rectangle.",
+     "caption": "Here's the trick. Start with a bigger triangle, A C D. It's half the rectangle.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/0b6ad03392a6f14f.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "But our shape misses a small corner, triangle P C M.",
+     "caption": "But our shape misses a small corner, triangle P C M.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/2bda01f2ed2457fb.wav",
+     "from": 152,
+     "frames": 120
+    },
+    {
+     "text": "Similar triangles tell us its height is eight over three. So its area is eight.",
+     "caption": "Similar triangles tell us its height is eight over three. So its area is eight.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/a2e806dea60e7686.wav",
+     "from": 282,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1121,
+   "frames": 195,
+   "lines": [
+    {
+     "text": "Forty-eight minus eight is forty!",
+     "caption": "Forty-eight minus eight is forty!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/755488fb1d279c7c.wav",
+     "from": 0,
+     "frames": 72
+    },
+    {
+     "text": "Forty-eight forgets the little corner.",
+     "caption": "Forty-eight forgets the little corner.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/4703d296babf5164.wav",
+     "from": 83,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1316,
+   "frames": 287,
+   "lines": [
+    {
+     "text": "Why eight over three? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Why eight over three? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/dc580c7f5ad8e9a9.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/82b8b7e1a12a7449.wav",
+     "from": 164,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

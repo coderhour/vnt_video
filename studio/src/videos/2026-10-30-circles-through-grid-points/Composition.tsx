@@ -6,15 +6,16 @@ import { Poly, Stage, XMark, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-circles-through-grid-points';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (maths coordinates: the 9 points (x, y), x, y in {0, 1, 2}, y grows UP) ----------
 
-const ALL9: Pt[] = range(3).flatMap((y) => range(3).map((x): Pt => [x, y]));
+export const ALL9: Pt[] = range(3).flatMap((y) => range(3).map((x): Pt => [x, y]));
 const MID: Pt = [1, 1];
 const EDGE8 = ALL9.filter((p) => !(p[0] === 1 && p[1] === 1));
 
@@ -41,7 +42,7 @@ const rot = (p: Pt): Pt => [2 - p[1], p[0]];
 const rots = (pts: Pt[]) => range(4).map((k) => pts.map((p) => range(k).reduce((q) => rot(q), p)));
 
 // The 14 four-point circles, as polygons (corners in order around the shape).
-const SMALL: Pt[][] = [[0, 0], [1, 0], [0, 1], [1, 1]].map(([x, y]) => [[x, y], [x + 1, y], [x + 1, y + 1], [x, y + 1]] as Pt[]);
+export const SMALL: Pt[][] = [[0, 0], [1, 0], [0, 1], [1, 1]].map(([x, y]) => [[x, y], [x + 1, y], [x + 1, y + 1], [x, y + 1]] as Pt[]);
 const BIG: Pt[] = [[0, 0], [2, 0], [2, 2], [0, 2]];
 const TILTED: Pt[] = [[1, 0], [2, 1], [1, 2], [0, 1]];
 const RECTS: Pt[][] = [
@@ -51,8 +52,8 @@ const RECTS: Pt[][] = [
   [[1, 0], [2, 0], [2, 2], [1, 2]],
 ];
 const TRAPS: Pt[][] = rots([[0, 0], [0, 1], [1, 2], [2, 2]]);
-const FOUR: Pt[][] = [...SMALL, BIG, TILTED, ...RECTS, ...TRAPS];
-const SHAPE_COLOR = (i: number) => (i < 6 ? C.primary : i < 10 ? C.blue : C.violet);
+export const FOUR: Pt[][] = [...SMALL, BIG, TILTED, ...RECTS, ...TRAPS];
+export const SHAPE_COLOR = (i: number) => (i < 6 ? C.primary : i < 10 ? C.blue : C.violet);
 
 // The 20 three-point circles in four families.
 const uniq = (sets: Pt[][]) => {
@@ -84,11 +85,11 @@ if (SMALL.some((s) => onCircle(s, EDGE8).length !== 3)) throw new Error('variant
 
 // ---------- drawing helpers ----------
 
-type G = { at: (p: Pt) => Pt; unit: number };
+export type G = { at: (p: Pt) => Pt; unit: number };
 /** Grid whose middle point (1, 1) sits at pixel (cx, cy). */
-const grid = (cx: number, cy: number, unit: number): G => ({ at: (p) => [cx + (p[0] - 1) * unit, cy - (p[1] - 1) * unit], unit });
+export const grid = (cx: number, cy: number, unit: number): G => ({ at: (p) => [cx + (p[0] - 1) * unit, cy - (p[1] - 1) * unit], unit });
 
-const Dots: React.FC<{ g: G; pts?: Pt[]; r?: number; start?: number }> = ({ g, pts = ALL9, r = 11, start }) => {
+export const Dots: React.FC<{ g: G; pts?: Pt[]; r?: number; start?: number }> = ({ g, pts = ALL9, r = 11, start }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   return (
@@ -103,7 +104,7 @@ const Dots: React.FC<{ g: G; pts?: Pt[]; r?: number; start?: number }> = ({ g, p
 };
 
 /** The circle through the first three points of `pts`, drawing itself on as progress goes 0→1. */
-const Circ: React.FC<{ g: G; pts: Pt[]; color: string; progress?: number; opacity?: number; width?: number; fill?: boolean }> = ({ g, pts, color, progress = 1, opacity = 1, width = 7, fill }) => {
+export const Circ: React.FC<{ g: G; pts: Pt[]; color: string; progress?: number; opacity?: number; width?: number; fill?: boolean }> = ({ g, pts, color, progress = 1, opacity = 1, width = 7, fill }) => {
   if (progress <= 0 || opacity <= 0) return null;
   const { c, r } = circum(pts[0], pts[1], pts[2]);
   const [x, y] = g.at(c);
@@ -115,7 +116,7 @@ const Circ: React.FC<{ g: G; pts: Pt[]; color: string; progress?: number; opacit
   );
 };
 
-const Rings: React.FC<{ g: G; pts: Pt[]; color: string; opacity: number; r?: number }> = ({ g, pts, color, opacity, r = 24 }) =>
+export const Rings: React.FC<{ g: G; pts: Pt[]; color: string; opacity: number; r?: number }> = ({ g, pts, color, opacity, r = 24 }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity}>
       {pts.map((p, i) => {
@@ -213,7 +214,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['20', '34', '48', '62', '76'];
+export const CHOICES = ['20', '34', '48', '62', '76'];
 
 /** Grid with axis numbers 0, 1, 2 (maths style: y up). */
 const Axes: React.FC<{ g: G; opacity: number }> = ({ g, opacity }) => (
@@ -880,10 +881,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Dots g={g} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep counting!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep counting!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

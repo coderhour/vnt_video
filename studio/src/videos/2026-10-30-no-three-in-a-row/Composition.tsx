@@ -6,11 +6,12 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-no-three-in-a-row';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // Coins: heads = amber "H", tails = blue "T". Streak blocks: single = green, double = violet.
 const SIDE: Record<string, string> = { H: C.amber, T: C.blue, '?': C.muted };
@@ -20,7 +21,7 @@ const DOUBLE = C.violet;
 // ---------- small building blocks ----------
 
 /** One coin, centred at (x, y). `ring` draws a green outline (a newly added flip). */
-const Coin: React.FC<{ x: number; y: number; side: string; r?: number; s?: number; ring?: string; dim?: number }> = ({ x, y, side, r = 40, s = 1, ring, dim = 1 }) =>
+export const Coin: React.FC<{ x: number; y: number; side: string; r?: number; s?: number; ring?: string; dim?: number }> = ({ x, y, side, r = 40, s = 1, ring, dim = 1 }) =>
   s <= 0 ? null : (
     <g transform={`translate(${x} ${y}) scale(${s})`} opacity={dim}>
       {ring && <circle r={r + 9} fill="none" stroke={ring} strokeWidth={6} />}
@@ -33,7 +34,7 @@ const Coin: React.FC<{ x: number; y: number; side: string; r?: number; s?: numbe
   );
 
 /** A string of coins left to right from x (centre of the first coin). Coins pop in from `start`, `stagger` frames apart. */
-const Coins: React.FC<{ s: string; x: number; y: number; r?: number; gap?: number; start?: number; stagger?: number; ringFrom?: number; ring?: string; opacity?: number }> = ({
+export const Coins: React.FC<{ s: string; x: number; y: number; r?: number; gap?: number; start?: number; stagger?: number; ringFrom?: number; ring?: string; opacity?: number }> = ({
   s, x, y, r = 40, gap, start, stagger = 4, ringFrom = 99, ring = C.green, opacity = 1,
 }) => {
   const f = useCurrentFrame();
@@ -50,7 +51,7 @@ const Coins: React.FC<{ s: string; x: number; y: number; r?: number; gap?: numbe
 };
 
 /** Rounded box behind coins i..j (inclusive) of a Coins row. */
-const RunBox: React.FC<{ x: number; y: number; r: number; gap: number; i: number; j: number; color: string; opacity: number; fill?: number }> = ({ x, y, r, gap, i, j, color, opacity, fill = 0.12 }) =>
+export const RunBox: React.FC<{ x: number; y: number; r: number; gap: number; i: number; j: number; color: string; opacity: number; fill?: number }> = ({ x, y, r, gap, i, j, color, opacity, fill = 0.12 }) =>
   opacity <= 0 ? null : (
     <rect x={x + i * gap - r - 12} y={y - r - 12} width={(j - i) * gap + 2 * r + 24} height={2 * r + 24} rx={r + 12} fill={color} fillOpacity={fill} stroke={color} strokeWidth={6} opacity={opacity} />
   );
@@ -145,7 +146,7 @@ const TableRow: React.FC<{ x: number; y: number; cw: number; values: number[]; s
 
 // ---------- scenes ----------
 
-const HOOK = 'THHHTTHT'; // a streak of three heads at flips 2-4
+export const HOOK = 'THHHTTHT'; // a streak of three heads at flips 2-4
 
 const Intro: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -174,7 +175,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['\\frac{1}{8}', '\\frac{17}{128}', '\\frac{1}{4}', '\\frac{17}{64}', '\\frac{149}{256}'];
+export const CHOICES = ['\\frac{1}{8}', '\\frac{17}{128}', '\\frac{1}{4}', '\\frac{17}{64}', '\\frac{149}{256}'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -340,7 +341,7 @@ const Build: SceneComponent = ({ scene }) => {
   );
 };
 
-const COUNTS = [2, 4, 6, 10, 16, 26, 42, 68];
+export const COUNTS = [2, 4, 6, 10, 16, 26, 42, 68];
 const CW = 180;
 const TX = 380;
 
@@ -692,10 +693,7 @@ const Recap: SceneComponent = ({ scene }) => {
       <div style={{ position: 'absolute', left: 1120, top: 490, opacity: ease(f, at(scene, 2, 0.3)) * cardOut }}>
         <Tex tex="\times\, 2" size={96} color={C.violet} />
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

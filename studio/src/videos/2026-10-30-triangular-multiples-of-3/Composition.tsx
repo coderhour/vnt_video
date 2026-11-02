@@ -6,11 +6,12 @@ import { Stage, XMark } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-triangular-multiples-of-3';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // Remainder colours, used everywhere: 0 = green, 1 = violet, 2 = amber.
 const REM = (r: number) => (r === 0 ? C.primary : r === 1 ? C.violet : C.amber);
@@ -666,10 +667,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <BlockSvg x={1210} y={300} s={2.6} o={ease(f, at(scene, 1, 0.1), 14) * cardOut} />
       </Stage>
       <div style={{ position: 'absolute', left: 1060, top: 520, width: 640, textAlign: 'center', fontSize: 62, fontWeight: 900, color: C.primary, ...fadeUp(f, at(scene, 1, 0.45)), opacity: ease(f, at(scene, 1, 0.45), 14) * cardOut }}>2 of every 3</div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep spotting patterns!</div>
-      </div>
+      <SignOff start={at(scene, 2, 0.1)} text="Keep spotting patterns!" />
       <Confetti x={960} y={380} start={at(scene, 2, 0.2)} seed={3} />
     </>
   );

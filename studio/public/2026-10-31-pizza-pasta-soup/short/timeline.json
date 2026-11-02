@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1569,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 273,
+   "lines": [
+    {
+     "text": "Twenty-four kids, three favorite foods. How few could like all three?",
+     "caption": "Twenty-four kids, three favorite foods. How few could like all three?",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/8ffbc63b3cf94aaa.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "Skip the big Venn diagram. Count the no's instead!",
+     "caption": "Skip the big Venn diagram. Count the no's instead!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/ef0c36daa51bae55.wav",
+     "from": 144,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 273,
+   "frames": 273,
+   "lines": [
+    {
+     "text": "Twenty kids like pizza, eighteen like pasta, and sixteen like soup.",
+     "caption": "Twenty kids like pizza, eighteen like pasta, and sixteen like soup.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/871f2315e69dad86.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "What's the smallest number who like all three?",
+     "caption": "What's the smallest number who like all three?",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/964a9ae32d3a0640.wav",
+     "from": 154,
+     "frames": 87
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 546,
+   "frames": 158,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 45
+    }
+   ]
+  },
+  {
+   "id": "noes",
+   "kind": "scene",
+   "chapter": null,
+   "from": 704,
+   "frames": 425,
+   "lines": [
+    {
+     "text": "Four kids say no to pizza, six say no to pasta, and eight say no to soup.",
+     "caption": "Four kids say no to pizza, six say no to pasta, and eight say no to soup.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/6dca71a3732af69d.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "Give those no's to different kids. That's eighteen kids who say no.",
+     "caption": "Give those no's to different kids. That's eighteen kids who say no.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/b84878262ada6e42.wav",
+     "from": 162,
+     "frames": 105
+    },
+    {
+     "text": "Everyone else says yes to all three! Twenty-four minus eighteen.",
+     "caption": "Everyone else says yes to all three! Twenty-four minus eighteen.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/17044659c37ad89f.wav",
+     "from": 277,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1129,
+   "frames": 199,
+   "lines": [
+    {
+     "text": "The answer is six!",
+     "caption": "The answer is six!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/01f9845ae767e794.wav",
+     "from": 0,
+     "frames": 41
+    },
+    {
+     "text": "You can't do better. There are only eighteen no's to hand out.",
+     "caption": "You can't do better. There are only eighteen no's to hand out.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/c81699c2af5447c2.wav",
+     "from": 51,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1328,
+   "frames": 241,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson has two neat ways and every trap.",
+     "caption": "Want to see why? The full lesson has two neat ways and every trap.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/189edcd4e99ec8dd.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/82b8b7e1a12a7449.wav",
+     "from": 139,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

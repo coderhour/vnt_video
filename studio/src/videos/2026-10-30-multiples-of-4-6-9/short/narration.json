@@ -1,0 +1,29 @@
+{
+ "title": "Multiples of 4, 6 or 9 (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "How many numbers from one to one thousand are multiples of four, six or nine?",
+   "Just adding them all up is a trap!"
+  ]},
+  {"id": "question", "lines": [
+   "How many whole numbers from one to one thousand",
+   "are multiples of at least one of four, six and nine?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "aha", "lines": [
+   "Look at twelve. It's a multiple of four AND six.",
+   "So it gets counted twice! Twenty-four and thirty-six sneak in twice too.",
+   "Fix it. Take away the overlaps, then add back the numbers in all three."
+  ]},
+  {"id": "reveal", "lines": [
+   "Five hundred twenty-seven, minus one hundred sixty-five, plus twenty-seven.",
+   "That's three hundred eighty-nine, choice C! Most kids stop at five hundred twenty-seven."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why twelve, and not twenty-four? The full lesson shows two methods, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

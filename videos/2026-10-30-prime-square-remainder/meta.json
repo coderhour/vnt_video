@@ -3,5 +3,10 @@
  "description": "Pick any prime bigger than 3, square it, add 17, and divide by 12. The remainder is always the same! Vantee shows why, first by testing primes and then by finding the pattern behind them, explains each wrong answer, and gives you a new remainder to try yourself.\n\n0:00 Intro\n0:17 The question\n0:37 What are we asked?\n1:00 Try it yourself\n1:16 Solution 1: try some primes\n2:20 Solution 2: the six columns\n4:22 Common traps\n5:01 Your turn: a new remainder\n5:30 New remainder: the answer\n6:08 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_number_theory_template:c1-960",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "Why Prime Squares + 17 Always Leave 6 #Shorts",
+  "description": "Square any prime bigger than 3, add 17, divide by 12: always the same remainder. A dot picture shows why.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

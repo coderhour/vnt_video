@@ -1,0 +1,54 @@
+{
+ "title": "LCM 72 Pairs (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Eight and nine have least common multiple seventy-two.",
+    "How many pairs do? More than you expect!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "How many ordered pairs of positive whole numbers",
+    "have least common multiple seventy-two? Order matters!"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "grids",
+   "lines": [
+    "The trick: seventy-two is three twos and two threes. Count each prime alone.",
+    "For the twos, each number has zero to three. One needs all three: seven squares.",
+    "For the threes, zero to two. One needs both: five squares."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Now multiply the choices: seven times five is thirty-five!",
+    "That's Choice D."
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Want to see why? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1
+  }
+ ]
+}

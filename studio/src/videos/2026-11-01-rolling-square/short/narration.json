@@ -1,0 +1,54 @@
+{
+ "title": "The Rolling Corner (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "A little square rolls around a bigger one.",
+    "How far does the marked corner travel? Watch for a sneaky corner move!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A small square of side one rolls clockwise around a fixed square of side two.",
+    "How far does the marked corner travel before it first gets back home?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "roll",
+   "lines": [
+    "Follow one move at a time. Each move tips over a pivot corner.",
+    "A quarter turn along a side makes a quarter circle of radius one.",
+    "At the top right corner, it needs a half turn, with radius root two!",
+    "At the bottom right, the marked corner IS the pivot, so it adds nothing."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Add it all up. The answer is <short pause> Choice C!",
+    "Two plus two root two, all times pi. Sneaky corners make it longer!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows every trap. Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

@@ -28,7 +28,9 @@ def list_videos():
             script=script.read_text() if script.exists() else "",
             video=f"/videos/{d.name}/video.mp4" if (d / "video.mp4").exists() else None,
             poster=f"/videos/{d.name}/poster.jpg" if (d / "poster.jpg").exists() else None,
+            short_video=f"/videos/{d.name}/short.mp4" if (d / "short.mp4").exists() else None,
             publish_tags=youtube.tags(v),
+            publish_description=v.get("description", "") + youtube.footer(d.name, "video"),
         )
         out.append(v)
     return sorted(out, key=lambda v: str(v.get("created", "")), reverse=True)
@@ -107,10 +109,21 @@ class Handler(SimpleHTTPRequestHandler):
     def post_youtube(self):
         # Blocks until the upload finishes (a minute or so); ThreadingHTTPServer keeps the site responsive.
         try:
-            slug = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))["slug"]
-            if not valid_slug(slug):
-                raise RuntimeError("bad slug")
-            body, code = {"id": youtube.upload(slug)}, 200
+            d = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
+            slug, kind = d["slug"], d.get("kind", "video")  # video | short | both
+            if not valid_slug(slug) or kind not in ("video", "short", "both"):
+                raise RuntimeError("bad slug or kind")
+            body = {}
+            if kind in ("video", "both"):
+                body["id"] = youtube.upload(slug)
+            if kind in ("short", "both"):  # after the video, so the short can link to it
+                body["short_id"] = youtube.upload_short(slug)
+            if kind in ("video", "both"):
+                try:
+                    youtube.add_to_playlist(slug)
+                except Exception as e:  # the upload worked; just report the playlist step
+                    body["warning"] = f"uploaded, but not added to the playlist: {e}"
+            code = 200
         except Exception as e:  # report every failure (auth, quota, network) to the page
             body, code = {"error": str(e)}, 500
         body = json.dumps(body).encode()

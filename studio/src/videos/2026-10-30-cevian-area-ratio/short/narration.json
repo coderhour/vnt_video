@@ -1,0 +1,55 @@
+{
+ "title": "Where Do the Lines Cross? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Two lines cross in a triangle of area sixty.",
+    "How big is the shaded piece? Half is tempting!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "D is the midpoint of B C. E splits A C, two to one.",
+    "A D and B E cross at P. What's the area of A B P?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "ratio",
+   "lines": [
+    "Triangle A B D is half of sixty. That's thirty.",
+    "Draw D F, parallel to B E. F is the midpoint of E C.",
+    "Four steps, one, one. So A P to P D is four to one.",
+    "That makes A B P four fifths of A B D."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Four fifths of thirty is twenty-four!",
+    "Every line gets its own ratio."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows two neat ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1
+  }
+ ]
+}

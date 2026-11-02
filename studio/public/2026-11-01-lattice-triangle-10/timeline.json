@@ -1,0 +1,519 @@
+{
+ "fps": 30,
+ "durationInFrames": 12556,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 515,
+   "lines": [
+    {
+     "text": "Stretch a right triangle over a grid of dots. How many dots end up inside?",
+     "caption": "Stretch a right triangle over a grid of dots. How many dots end up inside?",
+     "file": "2026-11-01-lattice-triangle-10/audio/5b242c669a2fbf9f.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "We need EXACTLY ten inside, and the slanted side is sneaky.",
+     "caption": "We need EXACTLY ten inside, and the slanted side is sneaky.",
+     "file": "2026-11-01-lattice-triangle-10/audio/3fdf3718f222aa81.wav",
+     "from": 176,
+     "frames": 165
+    },
+    {
+     "text": "Hello, I'm Vantee. Let's count some dots!",
+     "caption": "Hello, I'm Vantee. Let's count some dots!",
+     "file": "2026-11-01-lattice-triangle-10/audio/22eef41299ccbd6b.wav",
+     "from": 351,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 515,
+   "frames": 699,
+   "lines": [
+    {
+     "text": "Here's the question. A right triangle has corners at zero zero, p zero, and zero q.",
+     "caption": "Here's the question. A right triangle has corners at zero zero, p zero, and zero q.",
+     "file": "2026-11-01-lattice-triangle-10/audio/2cdb05892f93b4fd.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "Here p and q are positive whole numbers.",
+     "caption": "Here p and q are positive whole numbers.",
+     "file": "2026-11-01-lattice-triangle-10/audio/744e2293d9847830.wav",
+     "from": 219,
+     "frames": 118
+    },
+    {
+     "text": "Exactly ten points with whole-number coordinates lie strictly inside it.",
+     "caption": "Exactly ten points with whole-number coordinates lie strictly inside it.",
+     "file": "2026-11-01-lattice-triangle-10/audio/ecc0e3caed2c3ba3.wav",
+     "from": 347,
+     "frames": 176
+    },
+    {
+     "text": "How many ordered pairs, p and then q, are possible?",
+     "caption": "How many ordered pairs, p and then q, are possible?",
+     "file": "2026-11-01-lattice-triangle-10/audio/23fd310d43be81b6.wav",
+     "from": 533,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1214,
+   "frames": 523,
+   "lines": [
+    {
+     "text": "The legs lie along the axes: p across and q up.",
+     "caption": "The legs lie along the axes: p across and q up.",
+     "file": "2026-11-01-lattice-triangle-10/audio/ef8de11754d8350d.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "Strictly inside means dots on the edges do NOT count.",
+     "caption": "Strictly inside means dots on the edges do NOT count.",
+     "file": "2026-11-01-lattice-triangle-10/audio/56ca741f49cc632d.wav",
+     "from": 164,
+     "frames": 142
+    },
+    {
+     "text": "Ordered pairs means two and twenty-one is different from twenty-one and two.",
+     "caption": "Ordered pairs means two and twenty-one is different from twenty-one and two.",
+     "file": "2026-11-01-lattice-triangle-10/audio/812a2ad8b176698f.wav",
+     "from": 316,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1737,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-lattice-triangle-10/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "rect",
+   "kind": "scene",
+   "chapter": "Solution 1: cut a rectangle in half",
+   "from": 2191,
+   "frames": 843,
+   "lines": [
+    {
+     "text": "Welcome back! Let's add a twin triangle to make a rectangle. First, a six by four one.",
+     "caption": "Welcome back! Let's add a twin triangle to make a rectangle. First, a six by four one.",
+     "file": "2026-11-01-lattice-triangle-10/audio/86a6ba384dbbc686.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "Inside are five across and three up: fifteen dots.",
+     "caption": "Inside are five across and three up: fifteen dots.",
+     "file": "2026-11-01-lattice-triangle-10/audio/4017f8ec9944f627.wav",
+     "from": 231,
+     "frames": 150
+    },
+    {
+     "text": "The slanted side cuts the rectangle into two triangles. One dot sits right ON it.",
+     "caption": "The slanted side cuts the rectangle into two triangles. One dot sits right ON it.",
+     "file": "2026-11-01-lattice-triangle-10/audio/313bb78a56c71ebf.wav",
+     "from": 392,
+     "frames": 198
+    },
+    {
+     "text": "Turn it half a turn and the triangles swap, so the other fourteen dots split evenly: seven each.",
+     "caption": "Turn it half a turn and the triangles swap, so the other fourteen dots split evenly: seven each.",
+     "file": "2026-11-01-lattice-triangle-10/audio/4d74a72c7c861ae3.wav",
+     "from": 600,
+     "frames": 204
+    }
+   ]
+  },
+  {
+   "id": "formula",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3034,
+   "frames": 1183,
+   "lines": [
+    {
+     "text": "Now any p by q rectangle. It holds p minus one, times q minus one, dots inside.",
+     "caption": "Now any p by q rectangle. It holds p minus one, times q minus one, dots inside.",
+     "file": "2026-11-01-lattice-triangle-10/audio/27f911aa50503990.wav",
+     "from": 0,
+     "frames": 264
+    },
+    {
+     "text": "Call g the greatest common factor of p and q.",
+     "caption": "Call g the greatest common factor of p and q.",
+     "file": "2026-11-01-lattice-triangle-10/audio/5df2c0970925a171.wav",
+     "from": 275,
+     "frames": 125
+    },
+    {
+     "text": "The slant splits into g equal hops, so g minus one dots sit strictly between its ends.",
+     "caption": "The slant splits into g equal hops, so g minus one dots sit strictly between its ends.",
+     "file": "2026-11-01-lattice-triangle-10/audio/841de316d5a90d9a.wav",
+     "from": 410,
+     "frames": 240
+    },
+    {
+     "text": "Take those away, then split in half. Ten in each half means the rest is twenty.",
+     "caption": "Take those away, then split in half. Ten in each half means the rest is twenty.",
+     "file": "2026-11-01-lattice-triangle-10/audio/a6bc19d12f5cf94c.wav",
+     "from": 660,
+     "frames": 197
+    },
+    {
+     "text": "Add g minus one to both sides: p minus one, times q minus one, equals nineteen plus g.",
+     "caption": "Add g minus one to both sides: p minus one, times q minus one, equals nineteen plus g.",
+     "file": "2026-11-01-lattice-triangle-10/audio/73e6d6ed0e6687c4.wav",
+     "from": 868,
+     "frames": 246
+    }
+   ]
+  },
+  {
+   "id": "bound",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4217,
+   "frames": 850,
+   "lines": [
+    {
+     "text": "Let's call p the shorter leg for now. We'll flip the pairs at the end.",
+     "caption": "Let's call p the shorter leg for now. We'll flip the pairs at the end.",
+     "file": "2026-11-01-lattice-triangle-10/audio/5d211e722d9398b0.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "If both legs were seven or more, the triangle would cover a seven by seven triangle.",
+     "caption": "If both legs were seven or more, the triangle would cover a seven by seven triangle.",
+     "file": "2026-11-01-lattice-triangle-10/audio/2bb2f4fcbddf9c38.wav",
+     "from": 160,
+     "frames": 178
+    },
+    {
+     "text": "That one has thirty-six minus six, thirty dots, and half is fifteen. Too many!",
+     "caption": "That one has thirty-six minus six, thirty dots, and half is fifteen. Too many!",
+     "file": "2026-11-01-lattice-triangle-10/audio/789296d1b77ab2f4.wav",
+     "from": 348,
+     "frames": 219
+    },
+    {
+     "text": "So the short leg p is at most six. And p equals one leaves no room inside.",
+     "caption": "So the short leg p is at most six. And p equals one leaves no room inside.",
+     "file": "2026-11-01-lattice-triangle-10/audio/d1dc156223266702.wav",
+     "from": 577,
+     "frames": 219
+    }
+   ]
+  },
+  {
+   "id": "cases",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5067,
+   "frames": 1686,
+   "lines": [
+    {
+     "text": "Now try p from two to six. Remember, g must be a factor of p.",
+     "caption": "Now try p from two to six. Remember, g must be a factor of p.",
+     "file": "2026-11-01-lattice-triangle-10/audio/e550950dde082da0.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "p equals two: g is one or two, so q is twenty-one or twenty-two. Both check out!",
+     "caption": "p equals two: g is one or two, so q is twenty-one or twenty-two. Both check out!",
+     "file": "2026-11-01-lattice-triangle-10/audio/19fc2cd53707c16a.wav",
+     "from": 195,
+     "frames": 255
+    },
+    {
+     "text": "p equals three: two times q minus one is twenty or twenty-two. So q is eleven or twelve.",
+     "caption": "p equals three: two times q minus one is twenty or twenty-two. So q is eleven or twelve.",
+     "file": "2026-11-01-lattice-triangle-10/audio/f4bec7ccf15d7310.wav",
+     "from": 460,
+     "frames": 287
+    },
+    {
+     "text": "p equals four: only twenty-one splits into threes, so q is eight. But four and eight share four, not two!",
+     "caption": "p equals four: only twenty-one splits into threes, so q is eight. But four and eight share four, not two!",
+     "file": "2026-11-01-lattice-triangle-10/audio/b52ac147855fb6b8.wav",
+     "from": 757,
+     "frames": 261
+    },
+    {
+     "text": "p equals five: q is six or seven. Five and six works, but five and seven don't share a five!",
+     "caption": "p equals five: q is six or seven. Five and six works, but five and seven don't share a five!",
+     "file": "2026-11-01-lattice-triangle-10/audio/4ad7cd6a03b2cf6a.wav",
+     "from": 1028,
+     "frames": 233
+    },
+    {
+     "text": "p equals six: only twenty and twenty-five split into fives.",
+     "caption": "p equals six: only twenty and twenty-five split into fives.",
+     "file": "2026-11-01-lattice-triangle-10/audio/71609dd2793cb113.wav",
+     "from": 1271,
+     "frames": 147
+    },
+    {
+     "text": "Twenty gives q equals five, already counted. Twenty-five gives q equals six!",
+     "caption": "Twenty gives q equals five, already counted. Twenty-five gives q equals six!",
+     "file": "2026-11-01-lattice-triangle-10/audio/d6f5909f2ebea4e4.wav",
+     "from": 1428,
+     "frames": 219
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6753,
+   "frames": 474,
+   "lines": [
+    {
+     "text": "Five of our six pairs have different legs, so flipping gives ten ordered pairs.",
+     "caption": "Five of our six pairs have different legs, so flipping gives ten ordered pairs.",
+     "file": "2026-11-01-lattice-triangle-10/audio/95dc9ab653034f71.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "Six and six flips into itself, so it counts once. Ten plus one is eleven. That's Choice D!",
+     "caption": "Six and six flips into itself, so it counts once. Ten plus one is eleven. That's Choice D!",
+     "file": "2026-11-01-lattice-triangle-10/audio/1a8e12d568d783aa.wav",
+     "from": 177,
+     "frames": 228
+    }
+   ]
+  },
+  {
+   "id": "pick",
+   "kind": "scene",
+   "chapter": "Solution 2: Pick's theorem",
+   "from": 7227,
+   "frames": 1402,
+   "lines": [
+    {
+     "text": "Pick's theorem gives a faster road. Area equals the dots inside, plus half the edge dots, minus one.",
+     "caption": "Pick's theorem gives a faster road. Area equals the dots inside, plus half the edge dots, minus one.",
+     "file": "2026-11-01-lattice-triangle-10/audio/178ffde0e1ed7f28.wav",
+     "from": 0,
+     "frames": 250
+    },
+    {
+     "text": "Walk the edge: p steps along the bottom, g hops up the slant, q steps down. That's p plus q plus g.",
+     "caption": "Walk the edge: p steps along the bottom, g hops up the slant, q steps down. That's p plus q plus g.",
+     "file": "2026-11-01-lattice-triangle-10/audio/f07c6687aff32773.wav",
+     "from": 260,
+     "frames": 304
+    },
+    {
+     "text": "The area is p times q over two. That equals ten, plus half of p plus q plus the letter g, minus one.",
+     "caption": "The area is p times q over two. That equals ten, plus half of p plus q plus the letter g, minus one.",
+     "file": "2026-11-01-lattice-triangle-10/audio/81059175df1633c7.wav",
+     "from": 574,
+     "frames": 287
+    },
+    {
+     "text": "Double it and tidy up: p minus one, times q minus one, equals nineteen plus g. Same equation!",
+     "caption": "Double it and tidy up: p minus one, times q minus one, equals nineteen plus g. Same equation!",
+     "file": "2026-11-01-lattice-triangle-10/audio/d56c281ecdc0442a.wav",
+     "from": 871,
+     "frames": 286
+    },
+    {
+     "text": "When would you pick this way? It's quick if you know the theorem. The rectangle works if you don't.",
+     "caption": "When would you pick this way? It's quick if you know the theorem. The rectangle works if you don't.",
+     "file": "2026-11-01-lattice-triangle-10/audio/99c1813fbdcb44fa.wav",
+     "from": 1168,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8629,
+   "frames": 973,
+   "lines": [
+    {
+     "text": "Choice E, twelve, is what you'd get if you flipped all six pairs. But six and six flipped is itself!",
+     "caption": "Choice E, twelve, is what you'd get if you flipped all six pairs. But six and six flipped is itself!",
+     "file": "2026-11-01-lattice-triangle-10/audio/6a277f9a5a3bb40a.wav",
+     "from": 0,
+     "frames": 243
+    },
+    {
+     "text": "Choice C, ten, is what you'd get if you missed six and six. Its slanted side hides five dots!",
+     "caption": "Choice C, ten, is what you'd get if you missed six and six. Its slanted side hides five dots!",
+     "file": "2026-11-01-lattice-triangle-10/audio/0808f8757eb6ab3a.wav",
+     "from": 252,
+     "frames": 233
+    },
+    {
+     "text": "Choice B, six, is what you'd get if you never flipped, or if you forgot the dots on the slant.",
+     "caption": "Choice B, six, is what you'd get if you never flipped, or if you forgot the dots on the slant.",
+     "file": "2026-11-01-lattice-triangle-10/audio/652238a5551a7184.wav",
+     "from": 496,
+     "frames": 192
+    },
+    {
+     "text": "Choice A, five, is what you'd get if you kept only p smaller than q, and never flipped.",
+     "caption": "Choice A, five, is what you'd get if you kept only p smaller than q, and never flipped.",
+     "file": "2026-11-01-lattice-triangle-10/audio/4214d8ed6dbf9aa2.wav",
+     "from": 698,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: six dots inside",
+   "from": 9602,
+   "frames": 274,
+   "lines": [
+    {
+     "text": "Your turn! Same triangle, but now exactly six dots lie inside. How many ordered pairs this time?",
+     "caption": "Your turn! Same triangle, but now exactly six dots lie inside. How many ordered pairs this time?",
+     "file": "2026-11-01-lattice-triangle-10/audio/07305143844da966.wav",
+     "from": 0,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9876,
+   "frames": 396,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-lattice-triangle-10/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Six dots: the answer",
+   "from": 10272,
+   "frames": 1705,
+   "lines": [
+    {
+     "text": "Now the rest must be twelve, so p minus one, times q minus one, equals eleven plus g.",
+     "caption": "Now the rest must be twelve, so p minus one, times q minus one, equals eleven plus g.",
+     "file": "2026-11-01-lattice-triangle-10/audio/e6ec1ca58e6a7cbd.wav",
+     "from": 0,
+     "frames": 245
+    },
+    {
+     "text": "A six by six triangle has ten dots inside. Too many, so the short leg is at most five.",
+     "caption": "A six by six triangle has ten dots inside. Too many, so the short leg is at most five.",
+     "file": "2026-11-01-lattice-triangle-10/audio/a3eedd567debf630.wav",
+     "from": 256,
+     "frames": 215
+    },
+    {
+     "text": "p equals two gives q equals thirteen or fourteen.",
+     "caption": "p equals two gives q equals thirteen or fourteen.",
+     "file": "2026-11-01-lattice-triangle-10/audio/cc813e38dcea3f16.wav",
+     "from": 481,
+     "frames": 138
+    },
+    {
+     "text": "p equals three gives q equals seven. Eight fails, because three and eight don't share a three.",
+     "caption": "p equals three gives q equals seven. Eight fails, because three and eight don't share a three.",
+     "file": "2026-11-01-lattice-triangle-10/audio/5ef3ef932b71928b.wav",
+     "from": 629,
+     "frames": 230
+    },
+    {
+     "text": "p equals four gives q equals five. Six fails, because four and six share two, not four.",
+     "caption": "p equals four gives q equals five. Six fails, because four and six share two, not four.",
+     "file": "2026-11-01-lattice-triangle-10/audio/ecffbfdd9786aba2.wav",
+     "from": 869,
+     "frames": 254
+    },
+    {
+     "text": "p equals five: q is four, already counted, or five. And five and five do share a five.",
+     "caption": "p equals five: q is four, already counted, or five. And five and five do share a five.",
+     "file": "2026-11-01-lattice-triangle-10/audio/b86e6c1eb56856b4.wav",
+     "from": 1133,
+     "frames": 267
+    },
+    {
+     "text": "Four pairs flip into eight. Add five, five: nine ordered pairs! Fantastic work if you got it.",
+     "caption": "Four pairs flip into eight. Add five, five: nine ordered pairs! Fantastic work if you got it.",
+     "file": "2026-11-01-lattice-triangle-10/audio/03a413015d731121.wav",
+     "from": 1410,
+     "frames": 242
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11977,
+   "frames": 579,
+   "lines": [
+    {
+     "text": "Here's the big idea: count the rectangle's dots, take away the ones on the slant, and split in half.",
+     "caption": "Here's the big idea: count the rectangle's dots, take away the ones on the slant, and split in half.",
+     "file": "2026-11-01-lattice-triangle-10/audio/508fe12dbf5fa2e5.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "Then keep the short leg small, and check each case.",
+     "caption": "Then keep the short leg small, and check each case.",
+     "file": "2026-11-01-lattice-triangle-10/audio/56dcf003166406c4.wav",
+     "from": 226,
+     "frames": 129
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-01-lattice-triangle-10/audio/31a6054d0b03b932.wav",
+     "from": 365,
+     "frames": 130
+    }
+   ]
+  }
+ ]
+}

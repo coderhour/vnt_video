@@ -1,0 +1,54 @@
+{
+ "title": "Juice Mix (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Ella adds juice AND water to her drink.",
+    "And it gets STRONGER! How much water?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A twenty-liter drink is thirty percent juice. She adds juice and water.",
+    "Now twenty-five liters, forty percent juice. How much water did she add?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "split",
+   "lines": [
+    "Here's the trick. Split each drink into juice and water.",
+    "First drink: six juice, fourteen water. Last drink: ten juice, fifteen water.",
+    "Now watch the water: fourteen, then fifteen."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "She added just ONE liter of water! That's Choice B.",
+    "Most kids say four. But that's the juice!"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why exactly that? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1
+  }
+ ]
+}

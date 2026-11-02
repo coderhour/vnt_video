@@ -1,0 +1,54 @@
+{
+ "title": "Square AND Cube? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Twenty times n is a perfect square. Fifty times n is a perfect cube!",
+    "Can ONE number do both?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "What is the smallest n that works?",
+    "Here are the choices."
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "primes",
+   "lines": [
+    "Twenty is two times two times five. Fifty is two times five times five.",
+    "A square needs even counts. A cube needs multiples of three.",
+    "The twos need two copies. The fives need one. So n is two times two times five."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "That's twenty!",
+    "Twenty times twenty is four hundred, a square. Fifty times twenty is one thousand, a cube."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why does that work? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.5
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "title": "Color the Grid (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Color a three by three grid. The center is red.",
+    "Touching squares must differ. How many colorings?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Each square is red, blue or green. Touching squares must differ.",
+    "How many colorings are there?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "edges",
+   "lines": [
+    "Color the four squares touching the center first. Each is blue or green.",
+    "A corner touches two of them. If they match, it has two options. If not, only red works.",
+    "All four match: two patterns, sixteen each. That's thirty-two.",
+    "Taking turns: two patterns, one each. That's two.",
+    "The other twelve give four each. That's forty-eight."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Thirty-two plus forty-eight plus two is eighty-two!",
+    "Not eighty-one. That's a tempting guess!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows two ways to count, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.6
+  }
+ ]
+}

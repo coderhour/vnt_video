@@ -5,13 +5,14 @@ import { Countdown } from '../../lib/PauseCard';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-sock-pairs';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const COL = ['#ef4343', '#3c83f6', '#21c45d', '#7b61ff', '#ff9f1c', '#f2c200']; // red blue green purple orange yellow
+export const COL = ['#ef4343', '#3c83f6', '#21c45d', '#7b61ff', '#ff9f1c', '#f2c200']; // red blue green purple orange yellow
 const PANEL = 760;
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 const c01 = (x: number) => Math.max(0, Math.min(1, x));
@@ -22,7 +23,7 @@ const BODY = 'M16 4 Q16 0 20 0 H60 Q64 0 64 4 V66 Q64 74 72 78 L92 88 Q104 95 10
 const STAR = 'M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z';
 
 /** One sock, centred at (x, y). v = 1 has two white stripes, so the two socks of a color are visibly different socks. */
-const Sock: React.FC<{ x: number; y: number; k?: number; c: number; v: number; op?: number; glow?: number }> = ({ x, y, k = 1, c, v, op = 1, glow = 0 }) => {
+export const Sock: React.FC<{ x: number; y: number; k?: number; c: number; v: number; op?: number; glow?: number }> = ({ x, y, k = 1, c, v, op = 1, glow = 0 }) => {
   const f = useCurrentFrame();
   if (op <= 0) return null;
   const pulse = 0.85 + 0.15 * Math.sin(f / 4);
@@ -54,7 +55,7 @@ const Svg: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   </svg>
 );
 
-type Over = { to?: [number, number, number]; p?: number; op?: number; glow?: number };
+export type Over = { to?: [number, number, number]; p?: number; op?: number; glow?: number };
 
 /** Centre of the sock (color c, variant v) lying in a drawer at (x, y). */
 const dpos = (x: number, y: number, cell: number, c: number, v: number): [number, number] => {
@@ -63,7 +64,7 @@ const dpos = (x: number, y: number, cell: number, c: number, v: number): [number
 };
 
 /** A drawer of n colors x 2 socks. `over(c, v)` lifts / dims / glows single socks. */
-const Drawer: React.FC<{ x: number; y: number; n: number; cell?: number; over?: (c: number, v: number) => Over | undefined; op?: number }> = ({ x, y, n, cell = 150, over, op = 1 }) => {
+export const Drawer: React.FC<{ x: number; y: number; n: number; cell?: number; over?: (c: number, v: number) => Over | undefined; op?: number }> = ({ x, y, n, cell = 150, over, op = 1 }) => {
   const k = cell / 150;
   const W = n * cell + 48;
   const H = 2 * 140 * k + 60;
@@ -97,7 +98,7 @@ const SockRow: React.FC<{ x: number; y: number; k?: number; gap?: number; socks:
   </g>
 );
 
-const Dot: React.FC<{ x: number; y: number; c: number; r?: number; ring?: boolean; dim?: number; op?: number }> = ({ x, y, c, r = 32, ring = false, dim = 0, op = 1 }) => (
+export const Dot: React.FC<{ x: number; y: number; c: number; r?: number; ring?: boolean; dim?: number; op?: number }> = ({ x, y, c, r = 32, ring = false, dim = 0, op = 1 }) => (
   <g opacity={op}>
     {ring && <circle cx={x} cy={y} r={r + 12} fill="none" stroke={C.ink} strokeWidth={6} />}
     <circle cx={x} cy={y} r={r} fill={COL[c]} opacity={1 - 0.8 * dim} />
@@ -156,7 +157,7 @@ const Chime: React.FC<{ start: number }> = ({ start }) => (
   </Sequence>
 );
 
-const CHOICES = ['80', '125', '130', '140', '210'];
+export const CHOICES = ['80', '125', '130', '140', '210'];
 const ChoiceChips: React.FC<{ x: number; y: number; start: (i: number) => number; bad?: (i: number) => number }> = ({ x, y, start, bad }) => {
   const f = useCurrentFrame();
   return (
@@ -528,10 +529,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Text x={920} y={labelY} w={440} size={44} weight={900} align="center" color={C.red} style={fadeUp(f, at(scene, 2, 0.55))}>no pair</Text>
         <Text x={1390} y={labelY} w={440} size={44} weight={900} align="center" color={C.green} style={fadeUp(f, at(scene, 2, 0.85))}>has a pair</Text>
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

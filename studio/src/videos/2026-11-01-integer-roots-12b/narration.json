@@ -1,0 +1,166 @@
+{
+ "title": "When Are Both Roots Integers? x² + bx + 12b | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "L0: x² + bx + 12b with b = −1 dropping in → x² − x − 12 = (x − 4)(x + 3), roots 4 and −3 on a number line. L1: green ticks on both roots, a big '?' over b. L2: Vantee title card.",
+   "lines": [
+    "Put b equals negative one: x squared minus x minus twelve. Its roots are four and negative three.",
+    "Both roots are integers! So how many values of b work like that?",
+    "Hello, I'm Vantee, and today one clever trick will find them all."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1.0,
+   "visual": "Prompt card: 'For how many integers b are both roots of x² + bx + 12b = 0 integers?' L2: choices A 8, B 15, C 16, D 30, E 32.",
+   "lines": [
+    "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?",
+    "Here are the five choices: eight, fifteen, sixteen, thirty and thirty-two."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "visual": "L0: number line …, −2, −1, 0, 1, 2, … 'integers'; pills 'b integer', 'both roots integers'. L1: goal pill 'count values of b' (not pairs of roots).",
+   "lines": [
+    "An integer is a whole number: positive, negative or zero. b and both roots must be integers.",
+    "We're counting values of b, not pairs of roots."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question and choices visible.",
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "sumprod",
+   "chapter": "Solution 1: sum and product",
+   "hold": 1,
+   "visual": "Equation rows on the right. L0: x² + bx + 12b = (x − r)(x − s). L1: = x² − (r + s)x + rs. L2: the two forms stacked, matching terms colour-linked. L3: b = −(r + s) = −r − s. L4: 12b = rs. L5: rs = 12b = −12r − 12s. L6: rs + 12r + 12s = 0.",
+   "lines": [
+    "Welcome back! Call the roots r and s. Then the left side is x minus r, times x minus s.",
+    "Multiplying out gives x squared, minus the sum of the roots times x, plus their product.",
+    "Match it up! First, b is the negative of the sum: b equals negative r minus s.",
+    "Second, twelve b is the product: twelve b equals r times s.",
+    "Now let's get rid of b. We know r s equals twelve b, which is negative twelve r minus twelve s.",
+    "Move it all to one side: r s plus twelve r plus twelve s equals zero."
+   ]
+  },
+  {
+   "id": "trick",
+   "hold": 1,
+   "visual": "Aha beat. L0: area grid (r + 12) by (s + 12), split into four cells. L1: cells labelled rs, 12r, 12s, 144 (12 × 12 = 144). L2: rs + 12r + 12s + 144 = 144; the 144 cell lights up. L3: (r + 12)(s + 12) = 144, big.",
+   "lines": [
+    "Here's the clever step. Think of r plus twelve, times s plus twelve, as a grid with four parts.",
+    "The parts are r s, twelve r, twelve s, and twelve times twelve: one hundred forty-four.",
+    "Our equation already has the first three parts. So add one hundred forty-four to both sides.",
+    "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four."
+   ]
+  },
+  {
+   "id": "count",
+   "hold": 1.5,
+   "visual": "Factor-pair table builds row by row (L0–L2): 1×144, 2×72, 3×48, 4×36, 6×24, 8×18, 9×16, 12×12, '8 pairs'. L3: swap arrow 9×16 ↔ 16×9 'same b'. L4: negative column (−1)(−144) … (−12)(−12), '8 more'. L5: r = u − 12, s = v − 12, b = −(r + s) = 24 − (u + v). L6: 9 + 16 = 25 → b = −1, roots −3 and 4. L7: 12 + 12 = 24 → b = 0, x² = 0. L8: b column fills in, all different. L9: 8 + 8 = 16, answer reveal, choice C.",
+   "lines": [
+    "Let's list the factor pairs. One times one hundred forty-four, two times seventy-two.",
+    "Three times forty-eight, four times thirty-six, six times twenty-four.",
+    "Eight times eighteen, nine times sixteen, and twelve times twelve. That's eight pairs.",
+    "Swapping a pair just swaps r and s. Same equation, so the same value of b.",
+    "But wait! Two negatives also multiply to a positive. So there are eight negative pairs too.",
+    "Each root is its factor minus twelve. So b is twenty-four minus the sum of the pair.",
+    "Nine and sixteen add to twenty-five, so b is negative one. That's our opening example!",
+    "Twelve and twelve make both roots zero, so b is zero. That counts too!",
+    "Different pairs have different sums, so each pair gives its own value of b.",
+    "Eight positive pairs plus eight negative pairs is sixteen. That's Choice C!"
+   ]
+  },
+  {
+   "id": "oneroot",
+   "chapter": "Solution 2: chase one root",
+   "hold": 1.0,
+   "visual": "Rows. L0: r² + br + 12b = 0. L1: b(r + 12) = −r². L2: d = r + 12, r = d − 12. L3: r² = d² − 24d + 144. L4: bd = −d² + 24d − 144 → b = 24 − d − 144/d. L5: d | 144; divisor list ±1 … ±144, '15 + 15 = 30'. L6: s = −b − r. L7: d = 16 → r = 4, d = 9 → r = −3, both b = −1. L8: d ↔ 144/d pairing arrows; 12 and −12 loop to themselves. L9: 28 ÷ 2 = 14, 14 + 2 = 16. L10: tip card.",
+   "lines": [
+    "Here's another way: chase one root. Plug r in: r squared plus b r plus twelve b equals zero.",
+    "Group the b terms: b times r plus twelve equals negative r squared.",
+    "Let d be r plus twelve, so r is d minus twelve.",
+    "Then r squared is d squared, minus twenty-four d, plus one hundred forty-four.",
+    "Divide by d, and b equals twenty-four, minus d, minus one hundred forty-four over d.",
+    "So d must divide one hundred forty-four. That gives thirty choices, positive and negative.",
+    "The other root, s, is negative b minus r. So it's an integer too.",
+    "d is sixteen for the root four, and nine for the root negative three. Both give b negative one.",
+    "So the d values pair up. Only twelve and negative twelve pair with themselves.",
+    "The other twenty-eight make fourteen pairs. Fourteen plus two is sixteen!",
+    "When would you pick this way? If you forget sum and product. One root is enough."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red one by one. L0: A 8 → only the positive column; negative column greyed '8 missing'. L1: B 15 → the 15 positive divisors as separate b's; 9 and 16 both → b = −1 circled. L2: D 30 → all 30 divisors, pairs bracketed '×2'. L3: E 32 → 2 × 16 with r ↔ s swap arrow crossed out. L4: habit card 'count values of b, not orders of roots'.",
+   "lines": [
+    "Choice A, eight, counts only the positive pairs. It forgets the eight negative ones.",
+    "Choice B, fifteen, treats each positive divisor as its own b. But nine and sixteen share one b.",
+    "Choice D, thirty, counts all thirty divisors. Most values of b get counted twice, once per root.",
+    "Choice E, thirty-two, is what you'd get by doubling sixteen, as if swapping roots made a new b."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: x² + bx + 6b",
+   "hold": 0.5,
+   "visual": "New question card: 'For how many integers b are both roots of x² + bx + 6b = 0 integers?' No choices.",
+   "lines": [
+    "Ready for a challenge? Now the equation is x squared plus b x plus six b equals zero.",
+    "For how many integers b are both roots integers?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown, variant question visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "x² + bx + 6b: the answer",
+   "hold": 1.5,
+   "visual": "Rows. L0: r + s = −b, rs = 6b → rs + 6r + 6s = 0. L1: + 36 → (r + 6)(s + 6) = 36. L2–L3: pairs 1×36, 2×18, 3×12, 4×9, 6×6 and the negative column. L4: 5 + 5 = 10, success reveal + chime at line end. L5: 4×9 → roots −2, 3; b = −1; x² − x − 6 = (x − 3)(x + 2).",
+   "lines": [
+    "Same steps! The sum is negative b, the product is six b.",
+    "Get rid of b, and we get r times s, plus six times r, plus six times s, equals zero.",
+    "Add thirty-six to both sides: r plus six, times s plus six, equals thirty-six.",
+    "Pairs that make thirty-six: one and thirty-six, two and eighteen, three and twelve.",
+    "Four and nine, and six and six. That's five pairs, plus five negative pairs.",
+    "Five plus five gives ten values of b!",
+    "Check: four and nine give roots negative two and three. Sum one, so b is negative one.",
+    "If you got ten, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 1.5,
+   "visual": "Summary card: roots → sum & product → remove b → add a constant so it factors → count factor pairs (± both!).",
+   "lines": [
+    "Turn the roots into a sum and a product, then get rid of b.",
+    "Add a number so it factors, and count the factor pairs. Don't forget the negative ones!",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

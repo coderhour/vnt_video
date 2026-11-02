@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1645,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 262,
+   "lines": [
+    {
+     "text": "Put b equals negative one. The roots are four and negative three.",
+     "caption": "Put b equals negative one. The roots are four and negative three.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/f239b37dea84bf99.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "Both whole numbers! How many values of b do that?",
+     "caption": "Both whole numbers! How many values of b do that?",
+     "file": "2026-11-01-integer-roots-12b/short/audio/688e5894ff07e6b8.wav",
+     "from": 132,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 262,
+   "frames": 237,
+   "lines": [
+    {
+     "text": "For how many integers b are both roots of this equation integers?",
+     "caption": "For how many integers b are both roots of this equation integers?",
+     "file": "2026-11-01-integer-roots-12b/short/audio/f1e74eab6c364070.wav",
+     "from": 0,
+     "frames": 130
+    },
+    {
+     "text": "Pick one of the five choices.",
+     "caption": "Pick one of the five choices.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/565779d0d27ca641.wav",
+     "from": 141,
+     "frames": 64
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 499,
+   "frames": 160,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 46
+    }
+   ]
+  },
+  {
+   "id": "trick",
+   "kind": "scene",
+   "chapter": null,
+   "from": 659,
+   "frames": 435,
+   "lines": [
+    {
+     "text": "Call the roots r and s. Sum and product give this neat equation.",
+     "caption": "Call the roots r and s. Sum and product give this neat equation.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/6fc4cae4eea63559.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "Here's the trick. Add one hundred forty-four to both sides.",
+     "caption": "Here's the trick. Add one hundred forty-four to both sides.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/d7dff20ec1a1d5ce.wav",
+     "from": 133,
+     "frames": 110
+    },
+    {
+     "text": "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four.",
+     "caption": "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/1d2770996c34d80c.wav",
+     "from": 252,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1094,
+   "frames": 268,
+   "lines": [
+    {
+     "text": "Factor pairs of one hundred forty-four: eight positive, and eight negative.",
+     "caption": "Factor pairs of one hundred forty-four: eight positive, and eight negative.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/3da1513dfca0279b.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Eight plus eight is sixteen. That's Choice C!",
+     "caption": "Eight plus eight is sixteen. That's Choice C!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/74251eff5caae9ba.wav",
+     "from": 147,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1362,
+   "frames": 283,
+   "lines": [
+    {
+     "text": "Why exactly that? The full lesson shows two ways, plus every trap.",
+     "caption": "Why exactly that? The full lesson shows two ways, plus every trap.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/66554cbc453363b8.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/82b8b7e1a12a7449.wav",
+     "from": 170,
+     "frames": 65
+    }
+   ]
+  }
+ ]
+}

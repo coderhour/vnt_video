@@ -6,11 +6,12 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-cevian-area-ratio';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (bank SVG coordinates, scaled uniformly; screen y down) ----------
 
@@ -27,12 +28,12 @@ const F0: Bk = [226.333, 178.667];
 const E1: Bk = [213.5, 164];
 const P1: Bk = [135.714, 182.857];
 const F1: Bk = [232.75, 186];
-const main = (ox = 150, oy = 200) => mk(ox, oy, E0, P0, F0);
+export const main = (ox = 150, oy = 200) => mk(ox, oy, E0, P0, F0);
 const variant = (ox = 150, oy = 200) => mk(ox, oy, E1, P1, F1);
 
-const lerp = (a: Pt, b: Pt, t: number): Pt => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
-const add = (p: Pt, dx: number, dy: number): Pt => [p[0] + dx, p[1] + dy];
-const cen = (p: Pt[]): Pt => [p.reduce((s, q) => s + q[0], 0) / p.length, p.reduce((s, q) => s + q[1], 0) / p.length];
+export const lerp = (a: Pt, b: Pt, t: number): Pt => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
+export const add = (p: Pt, dx: number, dy: number): Pt => [p[0] + dx, p[1] + dy];
+export const cen = (p: Pt[]): Pt => [p.reduce((s, q) => s + q[0], 0) / p.length, p.reduce((s, q) => s + q[1], 0) / p.length];
 const foot = (p: Pt, a: Pt, b: Pt): Pt => {
   const d: Pt = [b[0] - a[0], b[1] - a[1]];
   const t = ((p[0] - a[0]) * d[0] + (p[1] - a[1]) * d[1]) / (d[0] ** 2 + d[1] ** 2);
@@ -43,24 +44,24 @@ const OUT: Pt = [176 / Math.hypot(154, 176), -154 / Math.hypot(154, 176)];
 
 // ---------- drawing helpers ----------
 
-const Lab: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
+export const Lab: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 52, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
     </text>
   );
 
-const Ln: React.FC<{ a: Pt; b: Pt; color?: string; width?: number; p?: number; dashed?: boolean; opacity?: number }> = ({ a, b, color = C.ink, width = 5, p = 1, dashed, opacity = 1 }) =>
+export const Ln: React.FC<{ a: Pt; b: Pt; color?: string; width?: number; p?: number; dashed?: boolean; opacity?: number }> = ({ a, b, color = C.ink, width = 5, p = 1, dashed, opacity = 1 }) =>
   p <= 0 || opacity <= 0 ? null : dashed ? (
     <line x1={a[0]} y1={a[1]} x2={a[0] + (b[0] - a[0]) * p} y2={a[1] + (b[1] - a[1]) * p} stroke={color} strokeWidth={width} strokeLinecap="round" strokeDasharray="14 12" opacity={opacity} />
   ) : (
     <line x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={color} strokeWidth={width} strokeLinecap="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - p} opacity={opacity} />
   );
 
-const Dot: React.FC<{ p: Pt; color?: string; r?: number; opacity?: number }> = ({ p, color = C.ink, r = 10, opacity = 1 }) => (opacity <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r} fill={color} opacity={opacity} />);
+export const Dot: React.FC<{ p: Pt; color?: string; r?: number; opacity?: number }> = ({ p, color = C.ink, r = 10, opacity = 1 }) => (opacity <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r} fill={color} opacity={opacity} />);
 
 /** n small equal-mark strokes across segment a-b at fraction t. */
-const Tk: React.FC<{ a: Pt; b: Pt; t?: number; n?: number; color?: string; opacity: number; len?: number }> = ({ a, b, t = 0.5, n = 1, color = C.ink, opacity, len = 15 }) => {
+export const Tk: React.FC<{ a: Pt; b: Pt; t?: number; n?: number; color?: string; opacity: number; len?: number }> = ({ a, b, t = 0.5, n = 1, color = C.ink, opacity, len = 15 }) => {
   if (opacity <= 0) return null;
   const l = Math.hypot(b[0] - a[0], b[1] - a[1]);
   const u: Pt = [(b[0] - a[0]) / l, (b[1] - a[1]) / l];
@@ -89,7 +90,7 @@ const Chev: React.FC<{ a: Pt; b: Pt; t: number; color: string; opacity: number }
   );
 };
 
-const Fill: React.FC<{ pts: Pt[]; color: string; opacity: number; fo?: number; stroke?: number }> = ({ pts, color, opacity, fo = 0.34, stroke = 0 }) =>
+export const Fill: React.FC<{ pts: Pt[]; color: string; opacity: number; fo?: number; stroke?: number }> = ({ pts, color, opacity, fo = 0.34, stroke = 0 }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity}>
       <path d={`M ${pts.map((p) => p.join(' ')).join(' L ')} Z`} fill={color} fillOpacity={fo} stroke={stroke ? color : 'none'} strokeWidth={stroke} strokeLinejoin="round" />
@@ -97,7 +98,7 @@ const Fill: React.FC<{ pts: Pt[]; color: string; opacity: number; fo?: number; s
   );
 
 /** Base figure: outline, D, E, the two cevians, P and the shaded ABP. */
-const Fig: React.FC<{
+export const Fig: React.FC<{
   g: Geo;
   draw?: number;
   dOp?: number;
@@ -125,7 +126,7 @@ const Fig: React.FC<{
 );
 
 /** Equal-mark ticks on BD and DC. */
-const MidTicks: React.FC<{ g: Geo; op: number; color?: string }> = ({ g, op, color = C.ink }) => (
+export const MidTicks: React.FC<{ g: Geo; op: number; color?: string }> = ({ g, op, color = C.ink }) => (
   <>
     <Tk a={g.B} b={g.D} opacity={op} color={color} />
     <Tk a={g.D} b={g.C} opacity={op} color={color} />
@@ -133,7 +134,7 @@ const MidTicks: React.FC<{ g: Geo; op: number; color?: string }> = ({ g, op, col
 );
 
 /** Equal steps along AC: `n` parts. */
-const StepTicks: React.FC<{ g: Geo; n: number; op: number; color?: string }> = ({ g, n, op, color = C.ink }) => (
+export const StepTicks: React.FC<{ g: Geo; n: number; op: number; color?: string }> = ({ g, n, op, color = C.ink }) => (
   <>
     {range(n - 1).map((k) => (
       <Tk key={k} a={g.A} b={g.C} t={(k + 1) / n} opacity={op} color={color} len={13} />
@@ -142,7 +143,7 @@ const StepTicks: React.FC<{ g: Geo; n: number; op: number; color?: string }> = (
 );
 
 /** Label beside AC at fraction t, pushed `off` px outside. */
-const AcLab = (g: Geo, t: number, off = 62): Pt => add(lerp(g.A, g.C, t), OUT[0] * off, OUT[1] * off);
+export const AcLab = (g: Geo, t: number, off = 62): Pt => add(lerp(g.A, g.C, t), OUT[0] * off, OUT[1] * off);
 
 const PANEL = 1000;
 
@@ -165,7 +166,7 @@ const RightBox: React.FC<{ F: Pt; along: Pt; to: Pt; up: Pt; opacity: number }> 
   return <path d={`M ${F[0] + u[0] * k} ${F[1] + u[1] * k} L ${F[0] + (u[0] + v[0]) * k} ${F[1] + (u[1] + v[1]) * k} L ${F[0] + v[0] * k} ${F[1] + v[1] * k}`} stroke={C.ink} strokeWidth={5} fill="none" opacity={opacity} />;
 };
 
-const bump = (f: number, s: number, hold = 30) => ease(f, s, 8) * (1 - ease(f, s + hold, 12));
+export const bump = (f: number, s: number, hold = 30) => ease(f, s, 8) * (1 - ease(f, s + hold, 12));
 
 const GoalChip: React.FC<{ y: number; start: number }> = ({ y, start }) => {
   const f = useCurrentFrame();
@@ -198,7 +199,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['15', '20', '24', '30', '40'];
+export const CHOICES = ['15', '20', '24', '30', '40'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -687,10 +688,7 @@ const Recap: SceneComponent = ({ scene }) => {
       <Text x={1040} y={725} w={560} size={40} weight={800} color={C.violet} align="center" style={{ opacity: t2 }}>
         a parallel line
       </Text>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

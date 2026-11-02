@@ -1,0 +1,166 @@
+{
+ "title": "A Circle of Radius 4: How Big Can the Triangle Get? | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "visual": "Line 1: the compact figure (y=7, z=8) draws itself, circle inside, '4' radius. Line 2: a red '÷ 2' slip card shakes (no numbers). Line 3: Vantee title card.",
+   "lines": [
+    "A circle of radius four sits snugly inside a triangle. How big can that triangle be?",
+    "One tiny slip here gives you exactly half the right answer.",
+    "Hi, I'm Vantee. Let's go triangle hunting!"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1,
+   "visual": "Question text left, compact figure right (A, B, C, circle, radius 4, the two 6s from A). Line 4: choices 42, 60, 81, 150, 162.",
+   "lines": [
+    "A triangle has whole-number sides. Its inscribed circle has radius four.",
+    "The circle touches A B and A C at the points six from A.",
+    "What's the largest possible perimeter?",
+    "Your choices: forty-two, sixty, eighty-one, one hundred fifty, and one hundred sixty-two."
+   ]
+  },
+  {
+   "id": "asked",
+   "hold": 1,
+   "visual": "Line 1: circle and its three touch points pulse, radius '4'. Line 2: the two '6' pieces at A glow; goal pill 'BIGGEST perimeter, whole-number sides'.",
+   "lines": [
+    "So: radius four, six from A to each touch point, and we want the BIGGEST perimeter."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question figure visible.",
+   "lines": [
+    "Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "setup",
+   "chapter": "Name the sides",
+   "hold": 0.5,
+   "visual": "Line 1: side demo: a point outside a circle, two tangent segments with equal tick marks. Line 2: pieces at A labelled 6 and 6; pieces at B labelled y, y. Line 3: pieces at C labelled z, z. Line 4: rows AB = 6 + y, AC = 6 + z, BC = y + z. Line 5: note 'AB whole ⇒ y whole'. Line 6: s = 6 + y + z.",
+   "lines": [
+    "Welcome back! Circle fact: two tangent pieces from one point are always equal.",
+    "So both pieces at A are six. At corner B, call the two equal pieces y. At C, call them z.",
+    "Each side is two pieces: A B is six plus y, A C is six plus z, and B C is y plus z.",
+    "A B is whole, so y is whole. A C is whole, so z is whole.",
+    "Half the perimeter is one piece from each corner: six plus y plus z. Call it s."
+   ]
+  },
+  {
+   "id": "area",
+   "chapter": "Area two ways",
+   "hold": 1,
+   "visual": "Line 1-2: centre I joined to A, B, C; three small triangles tinted, each radius 4 drawn to its touch point with a right-angle mark. Line 3: rows. Line 4: Heron. Line 5: s − BC = 6, s − AC = y, s − AB = z. Line 6: Area = √(s·6·y·z). Lines 7-9: equation rows.",
+   "lines": [
+    "Now find the area two ways. Way one: join the center to each corner.",
+    "Three small triangles! Each has a side as its base, and the radius, four, as its height.",
+    "Adding them gives one over two times four times the perimeter. That's four times s.",
+    "Way two: Heron's formula. The area is the square root of s times s minus each side.",
+    "The magic: s minus a side leaves one tangent piece. That's six, y and z!",
+    "So Heron gives the square root of six times s times y times z.",
+    "Set the two areas equal, square, and divide by s.",
+    "Sixteen times s equals six y z. Halve it: eight times s equals three y z.",
+    "Put in six plus y plus z for s: forty-eight plus eight y plus eight z equals three y z."
+   ]
+  },
+  {
+   "id": "table",
+   "chapter": "Solution 1: make a table",
+   "hold": 1,
+   "visual": "Rows for z alone, then a table y | z built row by row. Line 10: s and perimeter columns. Line 11: answer reveal 162, choice E.",
+   "lines": [
+    "Let's get z alone. Move eight z to the left, then pull out the z.",
+    "So z equals eight y plus forty-eight, over three y minus eight.",
+    "The top is positive, so the bottom must be too: y is at least three.",
+    "Make a table! At y equals three, z is seventy-two over one, so seventy-two.",
+    "At four, z is eighty over four, which is twenty.",
+    "Five and six give eighty-eight over seven and ninety-six over ten. Not whole!",
+    "At seven, z is one hundred four over thirteen, which is eight.",
+    "At eight, z is seven: a flip. Now z is below y, so only flips are left.",
+    "So s equals eighty-one, thirty and twenty-one. Doubled: one hundred sixty-two, sixty and forty-two.",
+    "The biggest perimeter is one hundred sixty-two. That's choice E!"
+   ]
+  },
+  {
+   "id": "factor",
+   "chapter": "Solution 2: factor it",
+   "hold": 1,
+   "visual": "Equation morphs: ×3 row, +64 row, factored row with expansion check. Factor-pair list with 'add 8, divide by 3' test per pair.",
+   "lines": [
+    "Here's a slicker way: make a product. Multiply both sides by three.",
+    "The right side becomes one hundred forty-four. Now add sixty-four to both sides.",
+    "The left side factors! Three y minus eight, times three z minus eight, equals two hundred eight.",
+    "Each factor plus eight must divide by three. Let's test the factor pairs of two hundred eight.",
+    "Two and eight fail. One, four and thirteen pass, and so do their partners.",
+    "Same three triangles! One times two hundred eight gives y equals three, z equals seventy-two.",
+    "When would you pick this way? When you want every answer without wondering where to stop."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 0.8,
+   "visual": "Choice chips; wrong ones turn red with their story. Line 1: the 13-14-15 and 10-24-26 triangles drawn with the same circle. Line 2: 81 = s. Line 3: 2(3 + 72) = 150. Line 4: habit pill.",
+   "lines": [
+    "Now the traps. Forty-two and sixty are real triangles with radius four, just not the biggest.",
+    "Eighty-one equals s, only HALF the perimeter. That's the tiny slip!",
+    "One hundred fifty is what you'd get if you left out the two sixes at corner A."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: radius 3",
+   "hold": 0.5,
+   "visual": "New figure: circle radius 3, the two pieces at A labelled 4.",
+   "lines": [
+    "Now the circle has radius three, and the touch points are four from A.",
+    "Whole-number sides again. What's the largest perimeter?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown, variant figure visible.",
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Radius 3: the answer",
+   "hold": 1,
+   "visual": "Equation rows, short table, reveal 56 with chime at end of line 6, then the 7-24-25 triangle.",
+   "lines": [
+    "Let's check. The area is three times s, and also the square root of s times four y z.",
+    "Square, divide by s: nine times s equals four y z. Put in four plus y plus z for s.",
+    "Get z alone: z equals nine y plus thirty-six, over four y minus nine.",
+    "Again y is at least three. Three gives sixty-three over three, so z is twenty-one!",
+    "Four and five don't work. Six gives ninety over fifteen, which is six. Then z drops below y.",
+    "So s is twenty-eight or sixteen, perimeter fifty-six or thirty-two. The largest is fifty-six!",
+    "It's the seven, twenty-four, twenty-five right triangle. Fantastic work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 1.5,
+   "visual": "Key idea card with the figure: equal tangent pieces 6, y, z; Area = r × s = Heron.",
+   "lines": [
+    "The big idea: tangent pieces from one corner are equal, so a few letters name every side.",
+    "Then find the area two ways: radius times half the perimeter, and Heron's formula.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

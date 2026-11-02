@@ -1,0 +1,25 @@
+{
+ "title": "Ant on a Prism: Which Corner Comes First? | AMC 10-Style Level 4",
+ "description": "An ant crawls randomly along the edges of a triangular prism. What's the chance it reaches corner E before corner A? Vantee gives every corner its own chance and solves for them, then shows a half-turn of the prism that cuts the work in half. You'll also see where each wrong choice comes from, and get a new finish line to try yourself.\n\n0:00 Intro\n0:15 The question\n0:51 What are we asked?\n1:12 Try it yourself\n1:28 Solution 1: a chance for every corner\n3:34 Solution 2: spin the prism\n4:44 Common traps\n5:17 Your turn: a new finish line\n5:44 New finish line: the answer\n6:38 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-01",
+ "question_id": "amc_practice_amc10_counting_template:c3-017",
+ "posts": [
+  {
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=OMvPjNtzo9o"
+  }
+ ],
+ "youtube_id": "OMvPjNtzo9o",
+ "playlist_id": "PLbrpe4TxLJvg",
+ "short": {
+  "title": "Ant on a prism: which corner first? #Shorts",
+  "description": "A random ant on a triangular prism: what's the chance it reaches corner E before A? A half-turn of the prism is the key.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/tkFksLiLjjY"
+   }
+  ],
+  "youtube_id": "tkFksLiLjjY"
+ }
+}

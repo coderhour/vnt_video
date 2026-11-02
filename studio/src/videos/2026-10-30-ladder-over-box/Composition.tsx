@@ -6,32 +6,33 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-ladder-over-box';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (feet, y up; foot at the origin) ----------
 
-type Cfg = { a: number; d: number; h: number; u: number; ox: number; oy: number };
+export type Cfg = { a: number; d: number; h: number; u: number; ox: number; oy: number };
 /** Question: foot 9 ft from the box, box 12 deep and 12 tall. */
-const Q: Cfg = { a: 9, d: 12, h: 12, u: 21, ox: 150, oy: 700 };
+export const Q: Cfg = { a: 9, d: 12, h: 12, u: 21, ox: 150, oy: 700 };
 /** Variant: foot 6 ft from the box, box 9 deep and 8 tall. */
-const V: Cfg = { a: 6, d: 9, h: 8, u: 26, ox: 200, oy: 700 };
+export const V: Cfg = { a: 6, d: 9, h: 8, u: 26, ox: 200, oy: 700 };
 
-const wx = (c: Cfg) => c.a + c.d; // wall distance
-const wy = (c: Cfg) => (c.h / c.a) * wx(c); // height where the ladder meets the wall
-const px = (c: Cfg, x: number, y: number): Pt => [c.ox + x * c.u, c.oy - y * c.u];
+export const wx = (c: Cfg) => c.a + c.d; // wall distance
+export const wy = (c: Cfg) => (c.h / c.a) * wx(c); // height where the ladder meets the wall
+export const px = (c: Cfg, x: number, y: number): Pt => [c.ox + x * c.u, c.oy - y * c.u];
 /** Point at fraction t of the ladder. */
-const lad = (c: Cfg, t: number): Pt => px(c, t * wx(c), t * wy(c));
+export const lad = (c: Cfg, t: number): Pt => px(c, t * wx(c), t * wy(c));
 
-const WOOD = '#a0662b';
-const GREY = '#dfe3ec';
-const WALLC = '#cdd3e0';
+export const WOOD = '#a0662b';
+export const GREY = '#dfe3ec';
+export const WALLC = '#cdd3e0';
 const PANEL = 820;
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' | 'end' }> = ({
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number; anchor?: 'start' | 'middle' | 'end' }> = ({
   p, text, color = C.ink, size = 50, opacity = 1, anchor = 'middle',
 }) =>
   opacity <= 0 ? null : (
@@ -40,13 +41,13 @@ const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opac
     </text>
   );
 
-const Seg: React.FC<{ a: Pt; b: Pt; color: string; opacity?: number; width?: number; dashed?: boolean; p?: number }> = ({ a, b, color, opacity = 1, width = 14, dashed, p = 1 }) =>
+export const Seg: React.FC<{ a: Pt; b: Pt; color: string; opacity?: number; width?: number; dashed?: boolean; p?: number }> = ({ a, b, color, opacity = 1, width = 14, dashed, p = 1 }) =>
   opacity <= 0 || p <= 0 ? null : (
     <line x1={a[0]} y1={a[1]} x2={a[0] + (b[0] - a[0]) * p} y2={a[1] + (b[1] - a[1]) * p} stroke={color} strokeWidth={width} strokeLinecap="round" opacity={opacity} strokeDasharray={dashed ? '16 14' : undefined} />
   );
 
 /** Horizontal bracket (pixels) with label below it. */
-const HBrace: React.FC<{ x1: number; x2: number; y: number; color: string; opacity: number; label: string }> = ({ x1, x2, y, color, opacity, label }) =>
+export const HBrace: React.FC<{ x1: number; x2: number; y: number; color: string; opacity: number; label: string }> = ({ x1, x2, y, color, opacity, label }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity}>
       <path d={`M ${x1} ${y - 12} L ${x1} ${y} L ${x2} ${y} L ${x2} ${y - 12}`} stroke={color} strokeWidth={6} fill="none" strokeLinecap="round" strokeLinejoin="round" />
@@ -55,7 +56,7 @@ const HBrace: React.FC<{ x1: number; x2: number; y: number; color: string; opaci
   );
 
 /** Vertical bracket (pixels) with label to the right. */
-const VBrace: React.FC<{ x: number; y1: number; y2: number; color: string; opacity: number; label: string; lx?: number }> = ({ x, y1, y2, color, opacity, label, lx = 64 }) =>
+export const VBrace: React.FC<{ x: number; y1: number; y2: number; color: string; opacity: number; label: string; lx?: number }> = ({ x, y1, y2, color, opacity, label, lx = 64 }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity}>
       <path d={`M ${x - 12} ${y1} L ${x} ${y1} L ${x} ${y2} L ${x - 12} ${y2}`} stroke={color} strokeWidth={6} fill="none" strokeLinecap="round" strokeLinejoin="round" />
@@ -77,7 +78,7 @@ type FigProps = {
 };
 
 /** Side view: ground, wall, box and the ladder through the box's top outer corner. */
-const Fig: React.FC<FigProps> = ({ c, draw = 1, ladder = 1, dotP = 1, dotW = 0, small = 0, big = 0, up = 0, wallLabel = 1, dim = 1 }) => {
+export const Fig: React.FC<FigProps> = ({ c, draw = 1, ladder = 1, dotP = 1, dotW = 0, small = 0, big = 0, up = 0, wallLabel = 1, dim = 1 }) => {
   const { a, d, h } = c;
   const X = wx(c);
   const top = wy(c) + 3;
@@ -114,7 +115,7 @@ const Eq: React.FC<{ y: number; tex: string; start: number; x?: number; size?: n
   );
 };
 
-const CHOICES = ['15', '20', '28', '35', '37'];
+export const CHOICES = ['15', '20', '28', '35', '37'];
 
 // ---------- scenes ----------
 
@@ -531,10 +532,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Label p={[200 + 3 * u + 54, 700 - 2 * u]} text="up" color={C.violet} size={40} opacity={s(1, 0.5)} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={5} />
     </>
   );

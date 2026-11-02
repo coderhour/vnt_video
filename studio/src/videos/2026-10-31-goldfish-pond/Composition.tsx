@@ -6,6 +6,7 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-goldfish-pond';
@@ -158,7 +159,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['10', '20', '40', '50', '100'];
+export const CH = ['10', '20', '40', '50', '100'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -462,10 +463,7 @@ const Recap: SceneComponent = ({ scene }) => {
         </div>
         <Eq y={540} size={54} start={at(scene, 2, 0.6)} tex={'\\text{new total} \\;\\to\\; \\text{subtract}'} />
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

@@ -1,0 +1,54 @@
+{
+ "title": "Smallest n for 1+2+...+n (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Add one plus two plus three, up to n.",
+    "When is the total a multiple of two thousand twenty-four?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "What's the smallest n that makes the sum a multiple of two thousand twenty-four?"
+   ],
+   "hold": 1.0
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "share",
+   "lines": [
+    "The sum is half of n times n plus one.",
+    "So n times n plus one needs sixteen, eleven and twenty-three.",
+    "Here's the trick. Neighbors share no factors, so each goes whole into one of them.",
+    "Sort them into two boxes, and check the multiples."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Five hundred twenty-eight and five hundred twenty-nine fit perfectly.",
+    "So n is five hundred twenty-eight: Choice C!"
+   ],
+   "hold": 0.4
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

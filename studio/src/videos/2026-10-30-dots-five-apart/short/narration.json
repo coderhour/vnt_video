@@ -1,0 +1,29 @@
+{
+ "title": "Dots Exactly 5 Apart (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Twenty-five dots in a grid.",
+   "How many pairs are exactly five units apart?"
+  ]},
+  {"id": "question", "lines": [
+   "The dots are one unit apart, in rows and columns.",
+   "Count the pairs of dots that are exactly five units apart."
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "slant", "lines": [
+   "A row of five dots is only four units long. So five has to be a slant!",
+   "Three across and four down is a three, four, five triangle.",
+   "It fits in two spots, and there are four different slants."
+  ]},
+  {"id": "reveal", "lines": [
+   "Four slants, two spots each. That makes eight pairs!",
+   "Sixteen is the trap. It counts every pair twice."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why does each slant fit twice? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

@@ -6,36 +6,37 @@ import { Poly, Stage, XMark, type Pt } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-scalene-perimeter-36';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 const CARD_SHADOW = '0 6px 22px rgba(30,40,80,0.08)';
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
-const seg = (f: number, a: number, b: number) => Math.max(0, Math.min(1, (f - a) / Math.max(1, b - a)));
+export const seg = (f: number, a: number, b: number) => Math.max(0, Math.min(1, (f - a) / Math.max(1, b - a)));
 
 // ---------- to-scale triangles ----------
 
 /** Vertices of the triangle with sides a, b, c (base c along the bottom), y grows downward, in side-length units. */
-const geom = (a: number, b: number, c: number): Pt[] => {
+export const geom = (a: number, b: number, c: number): Pt[] => {
   const x = (b * b + c * c - a * a) / (2 * c);
   const y = Math.sqrt(Math.max(0, b * b - x * x));
   return [[0, 0], [c, 0], [x, -y]];
 };
 /** Centre the bounding box on (cx, cy) and scale by `u` px per unit. */
-const place = (pts: Pt[], cx: number, cy: number, u: number): Pt[] => {
+export const place = (pts: Pt[], cx: number, cy: number, u: number): Pt[] => {
   const xs = pts.map((p) => p[0]);
   const ys = pts.map((p) => p[1]);
   const mx = (Math.min(...xs) + Math.max(...xs)) / 2;
   const my = (Math.min(...ys) + Math.max(...ys)) / 2;
   return pts.map((p): Pt => [cx + (p[0] - mx) * u, cy + (p[1] - my) * u]);
 };
-const mix = (p: Pt[], q: Pt[], t: number): Pt[] => p.map((a, i): Pt => [lerp(a[0], q[i][0], t), lerp(a[1], q[i][1], t)]);
+export const mix = (p: Pt[], q: Pt[], t: number): Pt[] => p.map((a, i): Pt => [lerp(a[0], q[i][0], t), lerp(a[1], q[i][1], t)]);
 
 /** Side labels at the middle of each edge (AB, BC, CA), pushed away from the centre. */
-const SideLabels: React.FC<{ pts: Pt[]; labels: React.ReactNode[]; op?: number; push?: number; size?: number; color?: string }> = ({ pts, labels, op = 1, push = 46, size = 52, color = C.ink }) => {
+export const SideLabels: React.FC<{ pts: Pt[]; labels: React.ReactNode[]; op?: number; push?: number; size?: number; color?: string }> = ({ pts, labels, op = 1, push = 46, size = 52, color = C.ink }) => {
   if (op <= 0) return null;
   const g: Pt = [(pts[0][0] + pts[1][0] + pts[2][0]) / 3, (pts[0][1] + pts[1][1] + pts[2][1]) / 3];
   return (
@@ -93,7 +94,7 @@ const QCard: React.FC<{ x: number; y: number; w: number; size?: number; children
   );
 };
 
-const CHOICES = ['17', '19', '20', '27', '35'];
+export const CHOICES = ['17', '19', '20', '27', '35'];
 const ChoiceRow: React.FC<{ x: number; y: number; start: (i: number) => number; hi?: number; hiAt?: number; dim?: number }> = ({ x, y, start, hi, hiAt = 0 }) => {
   const f = useCurrentFrame();
   const on = hi !== undefined ? ease(f, hiAt, 12) : 0;
@@ -584,10 +585,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <div style={{ background: C.primary, color: '#fff', borderRadius: 28, padding: '16px 40px', fontSize: 50, fontWeight: 900, ...fadeUp(f, at(scene, 2, 0.6)) }}>or: all − repeats</div>
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep counting!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep counting!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={7} />
     </>
   );

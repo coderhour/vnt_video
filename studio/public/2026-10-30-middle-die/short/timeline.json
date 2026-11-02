@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1685,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 254,
+   "lines": [
+    {
+     "text": "Roll three dice and sort them. How often is the middle one a two?",
+     "caption": "Roll three dice and sort them. How often is the middle one a two?",
+     "file": "2026-10-30-middle-die/short/audio/f05680c527446c70.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Most kids say one in six. That's NOT right!",
+     "caption": "Most kids say one in six. That's NOT right!",
+     "file": "2026-10-30-middle-die/short/audio/5b292dad27bea25f.wav",
+     "from": 129,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 254,
+   "frames": 246,
+   "lines": [
+    {
+     "text": "Three fair dice are rolled and put in order.",
+     "caption": "Three fair dice are rolled and put in order.",
+     "file": "2026-10-30-middle-die/short/audio/ec99891da079b4f2.wav",
+     "from": 0,
+     "frames": 88
+    },
+    {
+     "text": "What is the probability that the middle one is two?",
+     "caption": "What is the probability that the middle one is two?",
+     "file": "2026-10-30-middle-die/short/audio/96342f593b21f829.wav",
+     "from": 98,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 500,
+   "frames": 166,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-middle-die/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "cases",
+   "kind": "scene",
+   "chapter": null,
+   "from": 666,
+   "frames": 490,
+   "lines": [
+    {
+     "text": "Here's the trick. Sort the rolls by how many dice show a two.",
+     "caption": "Here's the trick. Sort the rolls by how many dice show a two.",
+     "file": "2026-10-30-middle-die/short/audio/275aeb03e818650a.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Exactly one two: the others are a one and a bigger number. That's twenty-four rolls.",
+     "caption": "Exactly one two: the others are a one and a bigger number. That's twenty-four rolls.",
+     "file": "2026-10-30-middle-die/short/audio/57cd391e3798e172.wav",
+     "from": 129,
+     "frames": 164
+    },
+    {
+     "text": "Exactly two dice show a two: fifteen rolls. All three: just one.",
+     "caption": "Exactly two dice show a two: fifteen rolls. All three: just one.",
+     "file": "2026-10-30-middle-die/short/audio/2e242554560622d1.wav",
+     "from": 303,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1156,
+   "frames": 288,
+   "lines": [
+    {
+     "text": "Twenty-four plus fifteen plus one is forty, out of two hundred sixteen.",
+     "caption": "Twenty-four plus fifteen plus one is forty, out of two hundred sixteen.",
+     "file": "2026-10-30-middle-die/short/audio/6600004e3e178896.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "That's five over twenty-seven. Choice C!",
+     "caption": "That's five over twenty-seven. Choice C!",
+     "file": "2026-10-30-middle-die/short/audio/addbee8c09b12d2d.wav",
+     "from": 168,
+     "frames": 88
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1444,
+   "frames": 241,
+   "lines": [
+    {
+     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-middle-die/short/audio/5a466bf8b2983070.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-middle-die/short/audio/82b8b7e1a12a7449.wav",
+     "from": 148,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

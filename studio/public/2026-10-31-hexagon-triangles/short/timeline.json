@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1676,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 237,
+   "lines": [
+    {
+     "text": "This hexagon is cut into twenty-four little triangles.",
+     "caption": "This hexagon is cut into twenty-four little triangles.",
+     "file": "2026-10-31-hexagon-triangles/short/audio/54afa8dbac4209fe.wav",
+     "from": 0,
+     "frames": 102
+    },
+    {
+     "text": "But bigger ones hide inside! How many in all?",
+     "caption": "But bigger ones hide inside! How many in all?",
+     "file": "2026-10-31-hexagon-triangles/short/audio/d05a815200782572.wav",
+     "from": 112,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 237,
+   "frames": 253,
+   "lines": [
+    {
+     "text": "A regular hexagon is cut into twenty-four small triangles.",
+     "caption": "A regular hexagon is cut into twenty-four small triangles.",
+     "file": "2026-10-31-hexagon-triangles/short/audio/f592ed11d376eab3.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "How many triangles of any size are in the figure?",
+     "caption": "How many triangles of any size are in the figure?",
+     "file": "2026-10-31-hexagon-triangles/short/audio/37f3c0bd27facc79.wav",
+     "from": 125,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 490,
+   "frames": 157,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-hexagon-triangles/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 44
+    }
+   ]
+  },
+  {
+   "id": "flip",
+   "kind": "scene",
+   "chapter": null,
+   "from": 647,
+   "frames": 514,
+   "lines": [
+    {
+     "text": "Here's a shortcut. Count only the triangles pointing up.",
+     "caption": "Here's a shortcut. Count only the triangles pointing up.",
+     "file": "2026-10-31-hexagon-triangles/short/audio/6ed3c8641bdc6e8c.wav",
+     "from": 0,
+     "frames": 102
+    },
+    {
+     "text": "Twelve little ones, six medium ones, and one big one. That's nineteen pointing up.",
+     "caption": "Twelve little ones, six medium ones, and one big one. That's nineteen pointing up.",
+     "file": "2026-10-31-hexagon-triangles/short/audio/ce90aeea217cad57.wav",
+     "from": 112,
+     "frames": 176
+    },
+    {
+     "text": "Now flip the hexagon upside down. It looks the same, so there are nineteen pointing down too!",
+     "caption": "Now flip the hexagon upside down. It looks the same, so there are nineteen pointing down too!",
+     "file": "2026-10-31-hexagon-triangles/short/audio/365d51b72d9c1600.wav",
+     "from": 298,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1161,
+   "frames": 226,
+   "lines": [
+    {
+     "text": "Two times nineteen is thirty-eight!",
+     "caption": "Two times nineteen is thirty-eight!",
+     "file": "2026-10-31-hexagon-triangles/short/audio/d70789c80ea8d88f.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "Counting by size is slow. Flipping is fast.",
+     "caption": "Counting by size is slow. Flipping is fast.",
+     "file": "2026-10-31-hexagon-triangles/short/audio/ffa22cfbbe797eaf.wav",
+     "from": 86,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1387,
+   "frames": 289,
+   "lines": [
+    {
+     "text": "Why only one big one? The full lesson counts every size, plus every trap.",
+     "caption": "Why only one big one? The full lesson counts every size, plus every trap.",
+     "file": "2026-10-31-hexagon-triangles/short/audio/e0ae2648ef5572bb.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-hexagon-triangles/short/audio/82b8b7e1a12a7449.wav",
+     "from": 166,
+     "frames": 54
+    }
+   ]
+  }
+ ]
+}

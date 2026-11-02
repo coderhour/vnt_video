@@ -6,12 +6,13 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 import { interpolate } from 'remotion';
 
 export const SLUG = '2026-10-30-three-power-ends-01';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 const GREY = '#b3b9c6';
 const HLBG = '#c5f0df';
@@ -119,7 +120,7 @@ const Wheel: React.FC<{ cx: number; cy: number; R: number; r: number; labels: st
 /** Question card text shared by several scenes. */
 const Prompt: React.FC<{ tex: string; w?: number; marks?: number[]; markWord?: number }> = ({ tex }) => <Tex tex={tex} size={60} />;
 
-const CHOICES = ['4', '10', '20', '40', '100'];
+export const CHOICES = ['4', '10', '20', '40', '100'];
 
 const ChoiceRow: React.FC<{ x: number; y: number; start: (i: number) => number; hi?: number; hiAt?: number; size?: number }> = ({ x, y, start, hi = -1, hiAt = 0, size = 48 }) => {
   const f = useCurrentFrame();
@@ -558,10 +559,7 @@ const Recap: SceneComponent = ({ scene }) => {
           </div>
         ))}
       </div>
-      <div style={{ position: 'absolute', right: 80, top: 150, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 96, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 40, fontWeight: 900 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
     </>
   );
 };

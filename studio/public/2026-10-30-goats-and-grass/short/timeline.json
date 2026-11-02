@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1792,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 244,
+   "lines": [
+    {
+     "text": "Ten goats eat a field in twenty days. Fifteen need only ten!",
+     "caption": "Ten goats eat a field in twenty days. Fifteen need only ten!",
+     "file": "2026-10-30-goats-and-grass/short/audio/db47e25afcef972d.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "How long for twenty-five goats?",
+     "caption": "How long for twenty-five goats?",
+     "file": "2026-10-30-goats-and-grass/short/audio/a14267a90acce56b.wav",
+     "from": 150,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 244,
+   "frames": 254,
+   "lines": [
+    {
+     "text": "New grass grows steadily. Ten goats take twenty days, fifteen take ten.",
+     "caption": "New grass grows steadily. Ten goats take twenty days, fifteen take ten.",
+     "file": "2026-10-30-goats-and-grass/short/audio/980287df6b295f07.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "How many days for twenty-five goats?",
+     "caption": "How many days for twenty-five goats?",
+     "file": "2026-10-30-goats-and-grass/short/audio/acddd882f1006e12.wav",
+     "from": 161,
+     "frames": 60
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 498,
+   "frames": 152,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-goats-and-grass/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 39
+    }
+   ]
+  },
+  {
+   "id": "growth",
+   "kind": "scene",
+   "chapter": null,
+   "from": 650,
+   "frames": 656,
+   "lines": [
+    {
+     "text": "In goat-days, ten times twenty is two hundred. Fifteen times ten is one hundred fifty.",
+     "caption": "In goat-days, ten times twenty is two hundred. Fifteen times ten is one hundred fifty.",
+     "file": "2026-10-30-goats-and-grass/short/audio/a76ae007eae9e825.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "Fifty less: ten fewer days of growth. So grass grows five goat-days a day.",
+     "caption": "Fifty less: ten fewer days of growth. So grass grows five goat-days a day.",
+     "file": "2026-10-30-goats-and-grass/short/audio/4253d4936700e5c5.wav",
+     "from": 184,
+     "frames": 153
+    },
+    {
+     "text": "Twenty days of growth is one hundred. That leaves a starting pile of one hundred.",
+     "caption": "Twenty days of growth is one hundred. That leaves a starting pile of one hundred.",
+     "file": "2026-10-30-goats-and-grass/short/audio/7fb9cb3c60571bba.wav",
+     "from": 347,
+     "frames": 142
+    },
+    {
+     "text": "Twenty-five goats: five keep up with the growth. Twenty eat the pile.",
+     "caption": "Twenty-five goats: five keep up with the growth. Twenty eat the pile.",
+     "file": "2026-10-30-goats-and-grass/short/audio/a9edb06edcb520a4.wav",
+     "from": 499,
+     "frames": 134
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1306,
+   "frames": 241,
+   "lines": [
+    {
+     "text": "One hundred over twenty is five days!",
+     "caption": "One hundred over twenty is five days!",
+     "file": "2026-10-30-goats-and-grass/short/audio/a0b6a0a06a5193da.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "Not four. That forgets the growing grass!",
+     "caption": "Not four. That forgets the growing grass!",
+     "file": "2026-10-30-goats-and-grass/short/audio/aa90fbddfdf8cda2.wav",
+     "from": 99,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1547,
+   "frames": 245,
+   "lines": [
+    {
+     "text": "Why does that work? The full lesson shows two ways, plus every trap.",
+     "caption": "Why does that work? The full lesson shows two ways, plus every trap.",
+     "file": "2026-10-30-goats-and-grass/short/audio/4942d4cfc1b3f724.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-goats-and-grass/short/audio/82b8b7e1a12a7449.wav",
+     "from": 145,
+     "frames": 58
+    }
+   ]
+  }
+ ]
+}

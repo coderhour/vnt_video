@@ -5,20 +5,21 @@ import { Countdown } from '../../lib/PauseCard';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-ali-bea-money';
-const CHIME = `${SLUG}/sfx/fs-541985.mp3`; // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = `${SLUG}/sfx/fs-668355.mp3`;
+export const CHIME = `${SLUG}/sfx/fs-541985.mp3`; // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = `${SLUG}/sfx/fs-668355.mp3`;
 
-const chime = staticFile(CHIME);
-const tick = staticFile(TICK);
+export const chime = staticFile(CHIME);
+export const tick = staticFile(TICK);
 
-const ALI = '#0cc281';
-const ALI_D = '#079a66';
-const BEA = '#7b61ff';
-const BEA_D = '#5b43e0';
-const COIN = '#f59f0a';
+export const ALI = '#0cc281';
+export const ALI_D = '#079a66';
+export const BEA = '#7b61ff';
+export const BEA_D = '#5b43e0';
+export const COIN = '#f59f0a';
 
 const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
 const cA = (t: string) => col(ALI_D, t);
@@ -58,7 +59,7 @@ const Card: React.FC<{ x: number; y: number; w: number; start: number; color?: s
 const Fade: React.FC<{ op: number; children: React.ReactNode }> = ({ op, children }) => (op <= 0 ? null : <div style={{ opacity: op, position: 'absolute', inset: 0 }}>{children}</div>);
 
 /** Little wallet: a card with the name and an amount (or ?). */
-const Wallet: React.FC<{ x: number; y: number; w?: number; h?: number; name: 'Ali' | 'Bea'; amount?: string; start: number; size?: number }> = ({ x, y, w = 330, h = 200, name, amount = '$ ?', start, size = 64 }) => {
+export const Wallet: React.FC<{ x: number; y: number; w?: number; h?: number; name: 'Ali' | 'Bea'; amount?: string; start: number; size?: number }> = ({ x, y, w = 330, h = 200, name, amount = '$ ?', start, size = 64 }) => {
   const f = useCurrentFrame();
   const c = name === 'Ali' ? ALI : BEA;
   const cd = name === 'Ali' ? ALI_D : BEA_D;
@@ -95,12 +96,12 @@ const Arrow: React.FC<{ x: number; y: number; w: number; dir: 1 | -1; color: str
 
 // ---------- bar model ----------
 
-const PW = 120; // every part is exactly this wide, in every bar
-const GP = 6;
-const BH = 80;
+export const PW = 120; // every part is exactly this wide, in every bar
+export const GP = 6;
+export const BH = 80;
 const X0 = 290;
 const px = (i: number) => X0 + i * (PW + GP);
-const BLK = 86; // the $10 block: small and fixed, clearly not a part
+export const BLK = 86; // the $10 block: small and fixed, clearly not a part
 
 const Part: React.FC<{ x: number; y: number; color: string; op?: number; dashed?: boolean; lift?: number; glow?: number }> = ({ x, y, color, op = 1, dashed, lift = 0, glow = 0 }) => (
   <div
@@ -185,7 +186,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['90', '150', '200', '240', '300'];
+export const CH = ['90', '150', '200', '240', '300'];
 
 const Choices: React.FC<{ x: number; y: number; start: (i: number) => number; items: React.ReactNode[] }> = ({ x, y, start, items }) => {
   const f = useCurrentFrame();
@@ -526,10 +527,7 @@ const Recap: SceneComponent = ({ scene }) => {
         {row(400, at(scene, 1, 0.6), BEA, 'each clue', 'one balance')}
         {row(540, at(scene, 2, 0.2), C.violet, 'one part', 'everything else')}
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep balancing!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep balancing!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

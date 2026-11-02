@@ -6,6 +6,7 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-calculator-90';
@@ -13,12 +14,12 @@ const CHIME = `${SLUG}/sfx/fs-541985.mp3`; // Freesound CC0, see sfx/FREESOUND-C
 const TICK = `${SLUG}/sfx/fs-668355.mp3`;
 
 import { staticFile } from 'remotion';
-const CH_URL = staticFile(CHIME);
-const TICK_URL = staticFile(TICK);
+export const CH_URL = staticFile(CHIME);
+export const TICK_URL = staticFile(TICK);
 
 const PANEL = 620;
-const VD = '#5b43e0'; // darker violet for text
-const GD = '#139a4a'; // darker green for text
+export const VD = '#5b43e0'; // darker violet for text
+export const GD = '#139a4a'; // darker green for text
 
 // ---------- calculator ----------
 
@@ -254,7 +255,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['6', '7', '8', '9', '10'];
+export const CH = ['6', '7', '8', '9', '10'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -571,10 +572,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Card x={140} y={520} w={1500} color={GD} start={at(scene, 3, 0.2)} size={50}>Otherwise → <span style={{ color: GD }}>−1</span></Card>
         <Card x={140} y={650} w={1500} color={C.amber} start={at(scene, 4, 0.3)} size={50}>Count the arrows, not the numbers.</Card>
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 5, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 5, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 5, 0.2)} seed={3} />
     </>
   );

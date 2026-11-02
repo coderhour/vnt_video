@@ -1,0 +1,30 @@
+{
+ "title": "The Product That Collapses (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Four brackets, all multiplied. Don't multiply them out!",
+   "There's a trick that makes it collapse."
+  ]},
+  {"id": "question", "lines": [
+   "What is the value of the whole product?",
+   "Here are the choices."
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "helper", "lines": [
+   "Bring in a helper: one minus one over two.",
+   "Helper times the first bracket is one minus one over four. Each step knocks over the next one!",
+   "The chain collapses to one minus one over two hundred fifty-six squared.",
+   "We used one half, so double the result!"
+  ]},
+  {"id": "reveal", "lines": [
+   "Two, minus two over two hundred fifty-six squared!",
+   "That's choice C."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why does the helper work? The full lesson shows two ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

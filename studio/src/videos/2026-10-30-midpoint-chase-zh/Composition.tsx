@@ -6,21 +6,22 @@ import { Stage } from '../../lib/grid';
 import { PACIFICO, ZH_FONT } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-midpoint-chase-zh';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- the chase (contract: same as verify.py) ----------
 
-const PTS = [0, 64, 32, 48, 40, 44, 42, 43, 42.5, 42.75, 42.625]; // P1 .. P11
-const GREY = '#9aa1b0';
+export const PTS = [0, 64, 32, 48, 40, 44, 42, 43, 42.5, 42.75, 42.625]; // P1 .. P11
+export const GREY = '#9aa1b0';
 const BG = C.bg;
 const HALO = `0 0 8px ${BG}, 0 0 8px ${BG}, 0 0 6px ${BG}`;
 
 type M = (v: number) => number;
-const mapper = (lo: number, hi: number, x0: number, x1: number): M => (v) => x0 + ((v - lo) / (hi - lo)) * (x1 - x0);
+export const mapper = (lo: number, hi: number, x0: number, x1: number): M => (v) => x0 + ((v - lo) / (hi - lo)) * (x1 - x0);
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
 /** Frame in a scene where `phrase` (in line i's caption) ends (or starts). */
@@ -54,7 +55,7 @@ const Z: React.FC<{ p: Part[] | string; size: number; color?: string }> = ({ p, 
 // ---------- SVG building blocks ----------
 
 /** Centred KaTeX (optionally mixed with hanzi) inside the SVG. */
-const T: React.FC<{ x: number; y: number; tex: string | Part[]; size?: number; color?: string; op?: number; w?: number }> = ({ x, y, tex, size = 52, color = C.ink, op = 1, w = 560 }) =>
+export const T: React.FC<{ x: number; y: number; tex: string | Part[]; size?: number; color?: string; op?: number; w?: number }> = ({ x, y, tex, size = 52, color = C.ink, op = 1, w = 560 }) =>
   op <= 0.01 ? null : (
     <foreignObject x={x - w / 2} y={y - size} width={w} height={size * 2} style={{ overflow: 'visible' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: size * 2, whiteSpace: 'nowrap', textShadow: HALO, opacity: op }}>
@@ -63,7 +64,7 @@ const T: React.FC<{ x: number; y: number; tex: string | Part[]; size?: number; c
     </foreignObject>
   );
 
-const NLine: React.FC<{ m: M; x0: number; x1: number; y: number; lo: number; hi: number; step: number; labels?: number[]; op?: number; major?: number }> = ({ m, x0, x1, y, lo, hi, step, labels = [], op = 1, major }) => {
+export const NLine: React.FC<{ m: M; x0: number; x1: number; y: number; lo: number; hi: number; step: number; labels?: number[]; op?: number; major?: number }> = ({ m, x0, x1, y, lo, hi, step, labels = [], op = 1, major }) => {
   if (op <= 0.01) return null;
   const n = Math.round((hi - lo) / step);
   return (
@@ -82,7 +83,7 @@ const NLine: React.FC<{ m: M; x0: number; x1: number; y: number; lo: number; hi:
 };
 
 /** A point on the line: dot, P_n label above, value (and optional mixed-number chip) below. */
-const Dot: React.FC<{
+export const Dot: React.FC<{
   x: number; y: number; n: number; color?: string; op?: number; r?: number;
   label?: number; val?: string; valOp?: number; chip?: string; chipOp?: number; lx?: number; valColor?: string; below?: boolean;
 }> = ({ x, y, n, color = C.primary, op = 1, r = 15, label = 1, val, valOp = 1, chip, chipOp = 1, lx = 0, valColor, below }) => {
@@ -100,7 +101,7 @@ const Dot: React.FC<{
 };
 
 /** Curved jump arrow from pixel a to pixel b. Right jumps go above the line (green), left jumps below (purple). */
-const Jump: React.FC<{ a: number; b: number; y: number; p: number; op?: number; hMax?: number; lab?: string | Part[]; labDy?: number; labSize?: number; color?: string; grow?: number; labOp?: number }> = ({ a, b, y, p, op = 1, hMax = 230, lab, labDy, labSize = 52, color, grow = 0.16, labOp = 1 }) => {
+export const Jump: React.FC<{ a: number; b: number; y: number; p: number; op?: number; hMax?: number; lab?: string | Part[]; labDy?: number; labSize?: number; color?: string; grow?: number; labOp?: number }> = ({ a, b, y, p, op = 1, hMax = 230, lab, labDy, labSize = 52, color, grow = 0.16, labOp = 1 }) => {
   if (p <= 0.001 || op <= 0.01) return null;
   const right = b > a;
   const col = color ?? (right ? C.primary : C.violet);
@@ -185,7 +186,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['42.5', '42.625', '42.75', '43', '44'];
+export const CHOICES = ['42.5', '42.625', '42.75', '43', '44'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -737,9 +738,8 @@ const Recap: SceneComponent = ({ scene }) => {
           ))}
         </g>
       </Stage>
-      <VanteeMark x={960} y={330} size={140} sub="" style={fadeUp(f, at(scene, 3, 0.1))} />
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 540, textAlign: 'center', fontSize: 56, fontWeight: 900, ...fadeUp(f, at(scene, 3, 0.3)) }}>继续探索吧！</div>
-      <Confetti x={960} y={420} start={at(scene, 3, 0.2)} seed={7} />
+      <SignOff start={at(scene, 3, 0.1)} text="继续探索吧！" tagline="你的家庭 AI 教练" />
+      <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={7} />
     </>
   );
 };

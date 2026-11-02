@@ -6,15 +6,16 @@ import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Pill, Text } from '../../lib/ui';
 import { Choices } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-border-tiles';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const BLUE = '#3b82f6';
-const BLUE_D = '#1e40af'; // lit rows
-const AMBER = '#f59f0a'; // lit side columns
+export const BLUE = '#3b82f6';
+export const BLUE_D = '#1e40af'; // lit rows
+export const AMBER = '#f59f0a'; // lit side columns
 const WHITE_LINE = '#d3d9e6';
 
 const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
@@ -32,7 +33,7 @@ type FloorP = {
 
 const isEdge = (c: number, r: number, cols: number, rows: number) => c === 0 || r === 0 || c === cols - 1 || r === rows - 1;
 
-const Floor: React.FC<FloorP> = ({ cols, rows, x, y, cell, appear = 1, op = 1, paint, glow = 0, insideTint = 0 }) => {
+export const Floor: React.FC<FloorP> = ({ cols, rows, x, y, cell, appear = 1, op = 1, paint, glow = 0, insideTint = 0 }) => {
   const f = useCurrentFrame();
   const pulse = glow * (0.5 + 0.5 * Math.sin(f / 5));
   const cells: React.ReactNode[] = [];
@@ -86,15 +87,15 @@ const Tag: React.FC<{ x: number; y: number; start: number; color: string; childr
 const Fade: React.FC<{ op: number; children: React.ReactNode }> = ({ op, children }) => (op <= 0 ? null : <div style={{ opacity: op, position: 'absolute', inset: 0 }}>{children}</div>);
 
 /** Plain floor outline with no tile grid (variant card: no dimensions). */
-const Silhouette: React.FC<{ x: number; y: number; w: number; h: number; op?: number }> = ({ x, y, w, h, op = 1 }) => (
+export const Silhouette: React.FC<{ x: number; y: number; w: number; h: number; op?: number }> = ({ x, y, w, h, op = 1 }) => (
   <div style={{ position: 'absolute', left: x, top: y, width: w, height: h, borderRadius: 14, background: BLUE, padding: 36, opacity: op, boxSizing: 'border-box' }}>
     <div style={{ width: '100%', height: '100%', background: '#fff', borderRadius: 6, border: `2px solid ${WHITE_LINE}` }} />
   </div>
 );
 
 // 7 x 5 example floor geometry (used in several scenes)
-const EC = 7;
-const ER = 5;
+export const EC = 7;
+export const ER = 5;
 
 // ---------- scenes ----------
 
@@ -121,7 +122,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CH = ['1', '2', '3', '4', '6'];
+export const CH = ['1', '2', '3', '4', '6'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -449,10 +450,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <div style={{ background: C.violet, borderRadius: 28, padding: '12px 32px', fontSize: 50, fontWeight: 900, color: '#fff' }}>find the pair!</div>
         </div>
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 4, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep counting!</div>
-      </div>
+      <SignOff start={at(scene, 4, 0.1)} text="Keep counting!" />
       <Confetti x={960} y={380} start={at(scene, 4, 0.2)} seed={3} />
     </>
   );

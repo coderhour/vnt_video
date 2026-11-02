@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1653,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 175,
+   "lines": [
+    {
+     "text": "An ant takes three random steps on a cube.",
+     "caption": "An ant takes three random steps on a cube.",
+     "file": "2026-10-30-ant-on-cube/short/audio/2085c2eba8a3e9a8.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "Can it reach the far corner?",
+     "caption": "Can it reach the far corner?",
+     "file": "2026-10-30-ant-on-cube/short/audio/8653e96ca8f1d8f2.wav",
+     "from": 99,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 175,
+   "frames": 275,
+   "lines": [
+    {
+     "text": "An ant starts at corner A, and walks a random edge each minute.",
+     "caption": "An ant starts at corner A, and walks a random edge each minute.",
+     "file": "2026-10-30-ant-on-cube/short/audio/e98dbd03b16ebed0.wav",
+     "from": 0,
+     "frames": 116
+    },
+    {
+     "text": "What's the chance it's at the far corner G after three minutes?",
+     "caption": "What's the chance it's at the far corner G after three minutes?",
+     "file": "2026-10-30-ant-on-cube/short/audio/820104a61f65d559.wav",
+     "from": 126,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 450,
+   "frames": 160,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-ant-on-cube/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 46
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "kind": "scene",
+   "chapter": null,
+   "from": 610,
+   "frames": 503,
+   "lines": [
+    {
+     "text": "G is three edges away. So every step must go farther.",
+     "caption": "G is three edges away. So every step must go farther.",
+     "file": "2026-10-30-ant-on-cube/short/audio/21f28a3188b684cc.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Step one: all three edges go farther. That's three out of three.",
+     "caption": "Step one: all three edges go farther. That's three out of three.",
+     "file": "2026-10-30-ant-on-cube/short/audio/2d25bdf56f58d3dd.wav",
+     "from": 136,
+     "frames": 119
+    },
+    {
+     "text": "Step two: only two out of three go farther.",
+     "caption": "Step two: only two out of three go farther.",
+     "file": "2026-10-30-ant-on-cube/short/audio/d2a5073ff43a648d.wav",
+     "from": 265,
+     "frames": 98
+    },
+    {
+     "text": "Step three: only one out of three reaches G.",
+     "caption": "Step three: only one out of three reaches G.",
+     "file": "2026-10-30-ant-on-cube/short/audio/055cb41744cd4647.wav",
+     "from": 373,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1113,
+   "frames": 242,
+   "lines": [
+    {
+     "text": "One, times two thirds, times one third. That's two ninths!",
+     "caption": "One, times two thirds, times one third. That's two ninths!",
+     "file": "2026-10-30-ant-on-cube/short/audio/f8b654ab99f05efb.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Much less than one third!",
+     "caption": "Much less than one third!",
+     "file": "2026-10-30-ant-on-cube/short/audio/4c4dfe5f1d4c7e64.wav",
+     "from": 136,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1355,
+   "frames": 298,
+   "lines": [
+    {
+     "text": "Want the exact working? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Want the exact working? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-30-ant-on-cube/short/audio/a4e699143037749c.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-ant-on-cube/short/audio/82b8b7e1a12a7449.wav",
+     "from": 167,
+     "frames": 63
+    }
+   ]
+  }
+ ]
+}

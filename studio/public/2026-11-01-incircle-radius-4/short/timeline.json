@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1614,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 233,
+   "lines": [
+    {
+     "text": "A circle of radius four sits in a whole-number triangle.",
+     "caption": "A circle of radius four sits in a whole-number triangle.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/e661fa36f7d989ab.wav",
+     "from": 0,
+     "frames": 104
+    },
+    {
+     "text": "Biggest perimeter? Most kids stop at half!",
+     "caption": "Biggest perimeter? Most kids stop at half!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/ea50d7d1988051df.wav",
+     "from": 114,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 233,
+   "frames": 233,
+   "lines": [
+    {
+     "text": "The circle touches A B and A C, six from A.",
+     "caption": "The circle touches A B and A C, six from A.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/b5a49d38abbae550.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "What's the largest possible perimeter?",
+     "caption": "What's the largest possible perimeter?",
+     "file": "2026-11-01-incircle-radius-4/short/audio/23b1fa8d540e9ae9.wav",
+     "from": 126,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 466,
+   "frames": 162,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "pieces",
+   "kind": "scene",
+   "chapter": null,
+   "from": 628,
+   "frames": 495,
+   "lines": [
+    {
+     "text": "Here's the trick. Tangent pieces from one corner are equal.",
+     "caption": "Here's the trick. Tangent pieces from one corner are equal.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/0d12e616852dce4f.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "So each side is two pieces: six plus y, six plus z, and y plus z.",
+     "caption": "So each side is two pieces: six plus y, six plus z, and y plus z.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/1b3edc25336d3052.wav",
+     "from": 138,
+     "frames": 158
+    },
+    {
+     "text": "Area two ways links y and z. If y is three, z is seventy-two!",
+     "caption": "Area two ways links y and z. If y is three, z is seventy-two!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/f974b1562168b231.wav",
+     "from": 306,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1123,
+   "frames": 281,
+   "lines": [
+    {
+     "text": "The sides: nine, seventy-five, seventy-eight. That's one hundred sixty-two!",
+     "caption": "The sides: nine, seventy-five, seventy-eight. That's one hundred sixty-two!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/3911b1f2b7c23f84.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Choice E. Eighty-one is only half of it!",
+     "caption": "Choice E. Eighty-one is only half of it!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/7c0674e69b48eb44.wav",
+     "from": 147,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1404,
+   "frames": 210,
+   "lines": [
+    {
+     "text": "The full lesson shows two ways, plus every trap.",
+     "caption": "The full lesson shows two ways, plus every trap.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/e45b2dc36cb38db5.wav",
+     "from": 0,
+     "frames": 94
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/82b8b7e1a12a7449.wav",
+     "from": 104,
+     "frames": 58
+    }
+   ]
+  }
+ ]
+}

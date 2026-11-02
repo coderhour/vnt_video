@@ -1,0 +1,29 @@
+{
+ "title": "Slide a Triangle, Find the Shaded Part (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Copy a triangle, and slide the copy to the right.",
+   "How much of the copy sticks out? Lots of kids say twenty-four. That's wrong!"
+  ]},
+  {"id": "question", "lines": [
+   "The legs are twelve and nine, and the copy slides four to the right.",
+   "What is the area of the shaded part of the copy?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "overlap", "lines": [
+   "Here's the trick. The whole copy has area fifty-four.",
+   "The overlap is a smaller copy of the same shape.",
+   "Its bottom is eight out of twelve, so its height is six. Its area is twenty-four."
+  ]},
+  {"id": "reveal", "lines": [
+   "Fifty-four minus twenty-four is thirty!",
+   "Twenty-four was just the overlap."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why is it a smaller copy? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

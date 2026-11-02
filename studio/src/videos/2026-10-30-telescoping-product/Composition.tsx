@@ -5,11 +5,12 @@ import { Countdown } from '../../lib/PauseCard';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-telescoping-product';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- maths strings ----------
 // (1 + 1/2)(1 + 1/4)(1 + 1/16)(1 + 1/256): each bottom number is the one before it, squared.
@@ -17,8 +18,8 @@ const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 const DENS = ['2', '4', '16', '256'];
 const col = (c: string | undefined, tex: string) => (c ? `{\\color{${c}}${tex}}` : tex);
 /** One bracket (1 ± 1/d), optionally coloured. */
-const br = (sign: '+' | '-', d: string, c?: string) => col(c, `\\left(1${sign}\\dfrac{1}{${d}}\\right)`);
-const PRODUCT = DENS.map((d) => br('+', d)).join('');
+export const br = (sign: '+' | '-', d: string, c?: string) => col(c, `\\left(1${sign}\\dfrac{1}{${d}}\\right)`);
+export const PRODUCT = DENS.map((d) => br('+', d)).join('');
 
 // ---------- small helpers ----------
 
@@ -109,7 +110,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['\\dfrac{65535}{65536}', '\\dfrac{255}{128}', '\\dfrac{65535}{32768}', '\\dfrac{131071}{65536}', '\\dfrac{65537}{32768}'];
+export const CHOICES = ['\\dfrac{65535}{65536}', '\\dfrac{255}{128}', '\\dfrac{65535}{32768}', '\\dfrac{131071}{65536}', '\\dfrac{65537}{32768}'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -492,10 +493,7 @@ const Recap: SceneComponent = ({ scene }) => {
           Then undo the helper.
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

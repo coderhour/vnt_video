@@ -7,11 +7,12 @@ import { Poly, Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-sliding-triangle';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 const GRAY = '#8e95a5';
 const PANEL = 950;
@@ -19,21 +20,21 @@ const PANEL = 950;
 // ---------- drawing helpers ----------
 
 type Mapper = (x: number, y: number) => Pt; // maths coords (y up) -> pixels
-const mkP = (ox: number, oy: number, u: number): Mapper => (x, y) => [ox + x * u, oy - y * u];
+export const mkP = (ox: number, oy: number, u: number): Mapper => (x, y) => [ox + x * u, oy - y * u];
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
     </text>
   );
 
-const Seg: React.FC<{ a: Pt; b: Pt; color: string; opacity?: number; width?: number; dashed?: boolean; progress?: number }> = ({ a, b, color, opacity = 1, width = 12, dashed, progress = 1 }) =>
+export const Seg: React.FC<{ a: Pt; b: Pt; color: string; opacity?: number; width?: number; dashed?: boolean; progress?: number }> = ({ a, b, color, opacity = 1, width = 12, dashed, progress = 1 }) =>
   opacity <= 0 || progress <= 0 ? null : (
     <line x1={a[0]} y1={a[1]} x2={a[0] + (b[0] - a[0]) * progress} y2={a[1] + (b[1] - a[1]) * progress} stroke={color} strokeWidth={width} strokeLinecap="round" opacity={opacity} strokeDasharray={dashed ? '14 12' : undefined} />
   );
 
-const Dot: React.FC<{ p: Pt; color: string; opacity?: number; r?: number }> = ({ p, color, opacity = 1, r = 13 }) =>
+export const Dot: React.FC<{ p: Pt; color: string; opacity?: number; r?: number }> = ({ p, color, opacity = 1, r = 13 }) =>
   opacity <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r} fill={color} opacity={opacity} />;
 
 const gap = (t: string) => 18 + t.length * 17;
@@ -56,7 +57,7 @@ const DimV: React.FC<{ x: number; y1: number; y2: number; label: string; color?:
     </g>
   );
 
-const RightMark: React.FC<{ p: Pt; opacity: number; k?: number }> = ({ p, opacity, k = 30 }) =>
+export const RightMark: React.FC<{ p: Pt; opacity: number; k?: number }> = ({ p, opacity, k = 30 }) =>
   opacity <= 0 ? null : <path d={`M ${p[0] + k} ${p[1]} L ${p[0] + k} ${p[1] - k} L ${p[0]} ${p[1] - k}`} stroke={C.ink} strokeWidth={5} fill="none" opacity={opacity} />;
 
 const Eq: React.FC<{ y: number; tex: string; start: number; x?: number; size?: number; color?: string; opacity?: number }> = ({ y, tex, start, x = PANEL, size = 54, color = C.ink, opacity = 1 }) => {
@@ -96,7 +97,7 @@ const geo = (b: number, h: number, d: number) => {
   return { oh };
 };
 
-const Fig: React.FC<FigProps> = ({ P, b = 12, h = 9, d = 4, slide, drawT = 1, drawC = 1, tFill = 0, cFill = 0.1, cOp = 1, shade = 0, ov = 0, strip = 0, stripColor = C.violet, labels = {}, barY = 100, children }) => {
+export const Fig: React.FC<FigProps> = ({ P, b = 12, h = 9, d = 4, slide, drawT = 1, drawC = 1, tFill = 0, cFill = 0.1, cOp = 1, shade = 0, ov = 0, strip = 0, stripColor = C.violet, labels = {}, barY = 100, children }) => {
   const s = slide ?? d;
   const { oh } = geo(b, h, d);
   const T: Pt[] = [P(0, 0), P(b, 0), P(0, h)];
@@ -153,7 +154,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['18', '24', '27', '28', '30'];
+export const CHOICES = ['18', '24', '27', '28', '30'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -522,10 +523,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Fig P={P} cFill={0.1} ov={ease(f, at(scene, 1, 0.6), 14)} shade={ease(f, at(scene, 2, 0.3), 12)} labels={{}} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

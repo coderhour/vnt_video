@@ -1,0 +1,29 @@
+{
+ "title": "Point in a Rectangle (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "A point inside a rectangle, joined to all four corners.",
+   "Three triangle areas are known. Can you find the fourth, without knowing where the point is?"
+  ]},
+  {"id": "question", "lines": [
+   "The bottom, right and top triangles have areas fifteen, twenty-two and twenty-five.",
+   "What is the area of the left triangle?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "pairs", "lines": [
+   "Look at the bottom and top triangles together. Their heights stack up to the full height.",
+   "So together, they make exactly HALF the rectangle!",
+   "Fifteen plus twenty-five is forty. So the left and right pair must make forty too."
+  ]},
+  {"id": "reveal", "lines": [
+   "Forty, take away twenty-two, is eighteen. The left triangle is eighteen, choice C!",
+   "And the point can be anywhere. Opposite triangles always make half!"
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why is it always half? The full lesson shows two ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

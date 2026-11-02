@@ -3,5 +3,10 @@
  "description": "Nine dots in a 3 by 3 grid. How many different circles pass through at least three of them? Lots of kids say 76, but some circles get counted again and again! Vantee shows how to count groups of three and then fix the repeats, checks the answer a second way, and gives you an eight-point puzzle to try.\n\n0:00 Intro\n0:18 The question\n0:36 What are we asked?\n1:00 Try it yourself\n1:14 Solution 1: count groups of three\n3:32 Solution 2: two piles\n4:48 Common traps\n5:21 Your turn: eight points\n5:47 Eight points: the answer\n6:37 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc10_geometry_template:c2-035",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "Circles through 9 dots: not 76! #Shorts",
+  "description": "How many circles pass through at least three of nine dots? Lots of kids say 76. It's much smaller!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": []
+ }
 }

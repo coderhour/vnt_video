@@ -6,11 +6,12 @@ import { Stage, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-rolling-ring';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- rolling geometry (maths coordinates, y UP, angles counterclockwise) ----------
 // The hoop's centre is (0, 0). The ring starts at the bottom of the hoop (centre direction PHI0 = -90°),
@@ -21,14 +22,14 @@ const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 //   slide:   spin = PHI0 + d                       (glued, no rolling: the arrow always points at the hoop)
 // where d is how far the centre has gone around (0 … 2pi).
 
-const TAU = Math.PI * 2;
-const PHI0 = -Math.PI / 2;
+export const TAU = Math.PI * 2;
+export const PHI0 = -Math.PI / 2;
 const e = (a: number): Pt => [Math.cos(a), Math.sin(a)];
 
 type Mode = 'inside' | 'outside' | 'slide';
 type Pose = { c: Pt; spin: number };
 
-const pose = (R: number, r: number, mode: Mode, d: number): Pose => {
+export const pose = (R: number, r: number, mode: Mode, d: number): Pose => {
   const phi = PHI0 + d;
   const dist = mode === 'outside' ? R + r : R - r;
   const c: Pt = [dist * Math.cos(phi), dist * Math.sin(phi)];
@@ -43,14 +44,14 @@ const turnsSoFar = (R: number, r: number, mode: Mode, d: number) => {
 };
 
 /** Maths coords → pixels: (ox, oy) is the hoop centre on screen, `unit` px per cm. */
-const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
+export const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
 
 /** Lap progress d (0 … 2pi) between frames a and b. */
-const lap = (f: number, a: number, b: number) => interpolate(f, [a, b], [0, TAU], { ...clamp, easing: Easing.inOut(Easing.quad) });
+export const lap = (f: number, a: number, b: number) => interpolate(f, [a, b], [0, TAU], { ...clamp, easing: Easing.inOut(Easing.quad) });
 
 // ---------- drawing helpers ----------
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 48, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
@@ -85,7 +86,7 @@ const Ring: React.FC<{ m: (p: Pt) => Pt; unit: number; r: number; p: Pose; opaci
 };
 
 /** Dashed circle of radius `rad` around the hoop centre, drawn from the bottom counterclockwise as `progress` goes 0 → 1. */
-const Path: React.FC<{ m: (p: Pt) => Pt; unit: number; rad: number; progress: number; color: string; opacity?: number }> = ({ m, rad, progress, color, opacity = 1 }) => {
+export const Path: React.FC<{ m: (p: Pt) => Pt; unit: number; rad: number; progress: number; color: string; opacity?: number }> = ({ m, rad, progress, color, opacity = 1 }) => {
   if (progress <= 0 || opacity <= 0) return null;
   const n = Math.max(2, Math.ceil(240 * progress));
   const pts = range(n + 1).map((k) => {
@@ -96,7 +97,7 @@ const Path: React.FC<{ m: (p: Pt) => Pt; unit: number; rad: number; progress: nu
 };
 
 /** Radius line from the hoop centre at angle `a`, with a label. */
-const Radius: React.FC<{ m: (p: Pt) => Pt; from?: Pt; a: number; len: number; text: string; color: string; opacity: number; off?: number; side?: number; tip?: number }> = ({
+export const Radius: React.FC<{ m: (p: Pt) => Pt; from?: Pt; a: number; len: number; text: string; color: string; opacity: number; off?: number; side?: number; tip?: number }> = ({
   m, from = [0, 0], a, len, text, color, opacity, off = 1.1, side = 1, tip,
 }) => {
   if (opacity <= 0) return null;
@@ -146,8 +147,8 @@ const Badge: React.FC<{ p: Pt; n: number; color: string; opacity?: number }> = (
   );
 
 // The question's numbers.
-const R = 10;
-const r = 2;
+export const R = 10;
+export const r = 2;
 // The variant's numbers (outside).
 const VR = 12;
 const Vr = 3;
@@ -157,7 +158,7 @@ const M = plane(520, 450, 30);
 const U = 30;
 
 /** The hoop, the ring at lap progress d, ghosts at each finished turn, and (optionally) the dot's touch marks and trail. */
-const Rolling: React.FC<{
+export const Rolling: React.FC<{
   d: number;
   ghosts?: boolean;
   ghostOpacity?: number;
@@ -705,10 +706,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <Rolling d={d} path={1} m={m} unit={17} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

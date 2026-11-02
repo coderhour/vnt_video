@@ -5,6 +5,7 @@ import { PACIFICO } from '../../lib/fonts';
 import { Countdown } from '../../lib/PauseCard';
 import { Stage } from '../../lib/grid';
 import { Tex } from '../../lib/Tex';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 import { Answer, Check, Confetti, Pill, Text } from '../../lib/ui';
 
@@ -12,9 +13,9 @@ export const SLUG = '2026-10-31-isosceles-angle-chase';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const VA = C.violet; // top angle a, and angle DBC (they are equal)
-const VC = C.blue; // angle C, angle BDC, base angle ABC
-const VD = '#e08600'; // angle ABD (the given 24)
+export const VA = C.violet; // top angle a, and angle DBC (they are equal)
+export const VC = C.blue; // angle C, angle BDC, base angle ABC
+export const VD = '#e08600'; // angle ABD (the given 24)
 const PANEL = 900;
 
 const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
@@ -51,7 +52,7 @@ const span = (a1: number, a2: number) => ((((a2 - a1) % 360) + 540) % 360) - 180
 
 const LETTER_OFF: Record<Names, Pt> = { A: [-44, 4], B: [-42, 24], C: [42, 24], D: [40, -6] };
 
-const Fig: React.FC<{
+export const Fig: React.FC<{
   apex?: number; bx: number; by: number; H?: number;
   shades?: Shade[]; ticks?: Tick[]; arcs?: ArcS[]; labels?: Lab[]; op?: number; pulseD?: number;
 }> = ({ apex = 44, bx, by, H = 650, shades = [], ticks = [], arcs = [], labels = [], op = 1, pulseD = 0 }) => {
@@ -139,21 +140,21 @@ const Fig: React.FC<{
 };
 
 // ---- standard pieces ----
-const arcA = (op: number): ArcS => ({ v: 'A', p: 'B', q: 'C', rf: 0.45, color: VA, op });
+export const arcA = (op: number): ArcS => ({ v: 'A', p: 'B', q: 'C', rf: 0.45, color: VA, op });
 const arcDBC = (op: number): ArcS => ({ v: 'B', p: 'D', q: 'C', rf: 0.38, color: VA, op });
-const arcABD = (op: number): ArcS => ({ v: 'B', p: 'A', q: 'D', rf: 0.38, color: VD, op });
-const arcB = (op: number): ArcS => ({ v: 'B', p: 'A', q: 'C', rf: 0.56, color: VC, op, fill: false });
-const arcC = (op: number): ArcS => ({ v: 'C', p: 'B', q: 'A', rf: 0.4, color: VC, op });
-const arcBDC = (op: number): ArcS => ({ v: 'D', p: 'B', q: 'C', rf: 0.3, color: VC, op });
+export const arcABD = (op: number): ArcS => ({ v: 'B', p: 'A', q: 'D', rf: 0.38, color: VD, op });
+export const arcB = (op: number): ArcS => ({ v: 'B', p: 'A', q: 'C', rf: 0.56, color: VC, op, fill: false });
+export const arcC = (op: number): ArcS => ({ v: 'C', p: 'B', q: 'A', rf: 0.4, color: VC, op });
+export const arcBDC = (op: number): ArcS => ({ v: 'D', p: 'B', q: 'C', rf: 0.3, color: VC, op });
 
-const labA = (text: string, op: number, scale = 1): Lab => ({ v: 'A', p: 'B', q: 'C', rf: 1.0, text, color: VA, op, scale });
+export const labA = (text: string, op: number, scale = 1): Lab => ({ v: 'A', p: 'B', q: 'C', rf: 1.0, text, color: VA, op, scale });
 const labDBC = (text: string, op: number, scale = 1): Lab => ({ v: 'B', p: 'D', q: 'C', rf: 0.88, text, color: VA, op, scale });
-const labABD = (text: string, op: number, scale = 1): Lab => ({ v: 'B', p: 'A', q: 'D', rf: 1.4, text, color: VD, op, scale });
-const labB = (text: string, op: number): Lab => ({ v: 'B', ang: 100, rf: 0.85, text, color: VC, op, leader: { ang: 66, rf: 0.56 } });
-const labC = (text: string, op: number): Lab => ({ v: 'C', ang: 160, rf: 0.85, text, color: VC, op });
-const labD = (text: string, op: number): Lab => ({ v: 'D', p: 'B', q: 'C', rf: 0.62, text, color: VC, op });
+export const labABD = (text: string, op: number, scale = 1): Lab => ({ v: 'B', p: 'A', q: 'D', rf: 1.4, text, color: VD, op, scale });
+export const labB = (text: string, op: number): Lab => ({ v: 'B', ang: 100, rf: 0.85, text, color: VC, op, leader: { ang: 66, rf: 0.56 } });
+export const labC = (text: string, op: number): Lab => ({ v: 'C', ang: 160, rf: 0.85, text, color: VC, op });
+export const labD = (text: string, op: number): Lab => ({ v: 'D', p: 'B', q: 'C', rf: 0.62, text, color: VC, op });
 
-const pulse = (f: number, start: number, dur = 30) => Math.sin(Math.PI * Math.min(1, Math.max(0, (f - start) / dur)));
+export const pulse = (f: number, start: number, dur = 30) => Math.sin(Math.PI * Math.min(1, Math.max(0, (f - start) / dur)));
 
 const FB: Pt = [150, 800];
 
@@ -192,14 +193,14 @@ const QBox: React.FC<{ x: number; y: number; w: number; size?: number; children:
   </div>
 );
 
-const tickSet = (f: number, scene: { frames: number }, t1: number, t2: number): Tick[] => [
+export const tickSet = (f: number, scene: { frames: number }, t1: number, t2: number): Tick[] => [
   { a: 'A', b: 'B', frac: 0.22, n: 1, op: ease(f, t1, 8), flash: pulse(f, t1) },
   { a: 'A', b: 'C', frac: 0.22, n: 1, op: ease(f, t1, 8), flash: pulse(f, t1) },
   { a: 'B', b: 'D', frac: 0.5, n: 2, op: ease(f, t2, 8), flash: pulse(f, t2) },
   { a: 'B', b: 'C', frac: 0.5, n: 2, op: ease(f, t2, 8), flash: pulse(f, t2) },
 ];
 const ON = 0; // ticks already on: start frame 0, never flashing (flash is 0 after dur)
-const allTicks = (f: number): Tick[] => tickSet(f, { frames: 0 }, -100, -100);
+export const allTicks = (f: number): Tick[] => tickSet(f, { frames: 0 }, -100, -100);
 
 // ---------------- scenes ----------------
 
@@ -232,7 +233,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['22°', '24°', '34°', '36°', '44°'];
+export const CHOICES = ['22°', '24°', '34°', '36°', '44°'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -569,10 +570,7 @@ const Recap: SceneComponent = ({ scene }) => {
         <Card x={PANEL} y={260} w={900} start={at(scene, 1, 0.2)} color={C.primary} size={46}>equal sides → equal angles</Card>
         <Card x={PANEL} y={420} w={900} start={at(scene, 2, 0.1)} color={C.violet} size={46}>name the unknown, chase it around</Card>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep chasing!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep chasing!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

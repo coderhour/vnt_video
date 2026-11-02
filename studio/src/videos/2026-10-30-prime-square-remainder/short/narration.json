@@ -1,0 +1,31 @@
+{
+ "title": "Why Do Prime Squares Always Leave 1? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {"id": "hook", "lines": [
+   "Pick any prime bigger than three. Square it, add seventeen.",
+   "Divide by twelve, and the remainder is ALWAYS the same!"
+  ]},
+  {"id": "question", "lines": [
+   "Let p be a prime bigger than three. Divide p squared plus seventeen by twelve.",
+   "What's the remainder?"
+  ], "hold": 0.3},
+  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
+  {"id": "dots", "lines": [
+   "Take seven. Seven squared is forty-nine dots.",
+   "Remove a corner dot, and slide the bottom row to the side.",
+   "Now it's a rectangle: six by eight. The neighbors of seven!",
+   "One neighbor is a multiple of six, and the other is even.",
+   "So p squared is a multiple of twelve, plus one."
+  ]},
+  {"id": "reveal", "lines": [
+   "One plus seventeen is eighteen. The remainder is six!",
+   "Always six, for every prime bigger than three."
+  ], "hold": 0.5},
+  {"id": "cta", "lines": [
+   "Why a multiple of six? The full lesson shows two neat ways, plus every trap.",
+   "Tap the link below to watch it!"
+  ], "hold": 1.5}
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1766,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 243,
+   "lines": [
+    {
+     "text": "A ring rolls all the way around inside a big hoop.",
+     "caption": "A ring rolls all the way around inside a big hoop.",
+     "file": "2026-10-30-rolling-ring/short/audio/50e2398fc297a552.wav",
+     "from": 0,
+     "frames": 102
+    },
+    {
+     "text": "Lots of people guess five turns. But it's NOT five!",
+     "caption": "Lots of people guess five turns. But it's NOT five!",
+     "file": "2026-10-30-rolling-ring/short/audio/cec9f34ec6aef564.wav",
+     "from": 112,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 243,
+   "frames": 285,
+   "lines": [
+    {
+     "text": "The ring has radius two, and the hoop has radius ten.",
+     "caption": "The ring has radius two, and the hoop has radius ten.",
+     "file": "2026-10-30-rolling-ring/short/audio/40b67ee19f790429.wav",
+     "from": 0,
+     "frames": 112
+    },
+    {
+     "text": "How many full turns does the ring make on one trip around?",
+     "caption": "How many full turns does the ring make on one trip around?",
+     "file": "2026-10-30-rolling-ring/short/audio/230c4c23e4abe60d.wav",
+     "from": 122,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 528,
+   "frames": 155,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-rolling-ring/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 41
+    }
+   ]
+  },
+  {
+   "id": "center",
+   "kind": "scene",
+   "chapter": null,
+   "from": 683,
+   "frames": 555,
+   "lines": [
+    {
+     "text": "Here's the trick. Follow the center of the ring!",
+     "caption": "Here's the trick. Follow the center of the ring!",
+     "file": "2026-10-30-rolling-ring/short/audio/00959e508db36bed.wav",
+     "from": 0,
+     "frames": 92
+    },
+    {
+     "text": "It stays two from the hoop, so it travels a circle of radius eight.",
+     "caption": "It stays two from the hoop, so it travels a circle of radius eight.",
+     "file": "2026-10-30-rolling-ring/short/audio/1283c39684ac586a.wav",
+     "from": 102,
+     "frames": 138
+    },
+    {
+     "text": "Each full turn moves the center one rim length, four pi.",
+     "caption": "Each full turn moves the center one rim length, four pi.",
+     "file": "2026-10-30-rolling-ring/short/audio/2ccae1e5ee01585f.wav",
+     "from": 250,
+     "frames": 107
+    },
+    {
+     "text": "That circle is sixteen pi long. Sixteen pi over four pi gives the turns.",
+     "caption": "That circle is sixteen pi long. Sixteen pi over four pi gives the turns.",
+     "file": "2026-10-30-rolling-ring/short/audio/4d060f9a0a01262c.wav",
+     "from": 367,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1238,
+   "frames": 246,
+   "lines": [
+    {
+     "text": "Four full turns!",
+     "caption": "Four full turns!",
+     "file": "2026-10-30-rolling-ring/short/audio/35c24237b57e894a.wav",
+     "from": 0,
+     "frames": 63
+    },
+    {
+     "text": "The dot touches the hoop five times, but the loop takes one turn back.",
+     "caption": "The dot touches the hoop five times, but the loop takes one turn back.",
+     "file": "2026-10-30-rolling-ring/short/audio/0de2702a67d9b72e.wav",
+     "from": 72,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1484,
+   "frames": 282,
+   "lines": [
+    {
+     "text": "Why one back? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Why one back? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-30-rolling-ring/short/audio/3c9794b561d81e9f.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-rolling-ring/short/audio/82b8b7e1a12a7449.wav",
+     "from": 157,
+     "frames": 57
+    }
+   ]
+  }
+ ]
+}

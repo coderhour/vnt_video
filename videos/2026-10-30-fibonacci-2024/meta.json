@@ -3,5 +3,10 @@
  "description": "A sequence where each term is the sum of the two before it reaches 2024 at term ten. How big can the first two terms be? Vantee writes every term with x and y (hello, Fibonacci!), counts down to the answer, then shows a faster way: test the choices from the top. Then try it yourself with 2025.\n\n0:00 Intro\n0:17 The question\n0:37 What are we asked?\n1:04 Try it yourself\n1:19 Solution 1: write every term with x and y\n3:43 Solution 2: test the choices\n4:38 Common traps\n5:24 Your turn: a new year\n5:51 A new year: the answer\n6:31 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc10_algebra_template:c2-043",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "Which start reaches 2024? #Shorts",
+  "description": "Each term is the sum of the two before it, and term 10 is 2024. How big can the first two terms add up to?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": []
+ }
 }

@@ -6,15 +6,16 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-prime-square-remainder';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const AMBER = '#f59f0a';
-const GREEN = '#21c45d';
-const VIOLET = '#7b61ff';
+export const AMBER = '#f59f0a';
+export const GREEN = '#21c45d';
+export const VIOLET = '#7b61ff';
 
 // ---------- helpers ----------
 
@@ -43,7 +44,7 @@ const Say: React.FC<{ x: number; y: number; w?: number; start: number; end?: num
 };
 
 /** Position along a polyline at progress u in [0,1] (by arc length). */
-const along = (pts: [number, number][], u: number): [number, number] => {
+export const along = (pts: [number, number][], u: number): [number, number] => {
   const segs = pts.slice(1).map((p, i) => Math.hypot(p[0] - pts[i][0], p[1] - pts[i][1]));
   const total = segs.reduce((a, b) => a + b, 0);
   let d = Math.max(0, Math.min(1, u)) * total;
@@ -57,7 +58,7 @@ const along = (pts: [number, number][], u: number): [number, number] => {
   return pts[pts.length - 1];
 };
 
-const CHOICES = ['0', '1', '5', '6', '11'];
+export const CHOICES = ['0', '1', '5', '6', '11'];
 
 // ---------- scenes ----------
 
@@ -600,10 +601,7 @@ const Recap: SceneComponent = ({ scene }) => {
           then add the rest
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 2, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep asking why!</div>
-      </div>
+      <SignOff start={at(scene, 2, 0.1)} text="Keep asking why!" />
       <Confetti x={960} y={380} start={at(scene, 2, 0.2)} seed={3} />
     </>
   );

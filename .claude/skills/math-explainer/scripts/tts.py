@@ -108,6 +108,7 @@ MATH_WORDS = [  # what a transcriber writes -> how a script line says it
     (r"\b(\d{1,2}):00\b", r"\1 o'clock"), (r"(\d)\s+half\b", r"\1 and half"),  # "5 1/2" (1/2 is already "half") = "five and a half"
      # "1:00" for "one o'clock"  # four-fifths = four fifths
     (r"\b(\d+)-(\d+)-(\d+)\b", r"\1 \2 \3"),  # "3-4-5 triangle" is not a subtraction
+    (r"(?<![\w)².])[-−](?=[a-z\d])", " negative "),  # "-1" for "negative one"
     (r"−|(?<=[\d)²])\s*-\s*(?=[\d√(])|\s-\s", " minus "), (r"(?<=[\d)])\s*/\s*(?=\d)|(?<=squared)\s*/\s*(?=\d)", " over "),
     (r"(\d)\s*x\s*(\d)", r"\1 by \2"), (r"[×*]", " times "), (r"\+", " plus "), (r"=", " equals "),
     (r"'s\b", " is "), (r"'re\b", " are "), (r"'ll\b", " will "), (r"'m\b", " am "),  # here's = here is

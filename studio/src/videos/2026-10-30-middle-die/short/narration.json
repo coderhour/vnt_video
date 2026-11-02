@@ -1,0 +1,54 @@
+{
+ "title": "Middle Die (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Roll three dice and sort them. How often is the middle one a two?",
+    "Most kids say one in six. That's NOT right!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Three fair dice are rolled and put in order.",
+    "What is the probability that the middle one is two?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "cases",
+   "lines": [
+    "Here's the trick. Sort the rolls by how many dice show a two.",
+    "Exactly one two: the others are a one and a bigger number. That's twenty-four rolls.",
+    "Exactly two dice show a two: fifteen rolls. All three: just one."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Twenty-four plus fifteen plus one is forty, out of two hundred sixteen.",
+    "That's five over twenty-seven. Choice C!"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Want to see why? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.5
+  }
+ ]
+}

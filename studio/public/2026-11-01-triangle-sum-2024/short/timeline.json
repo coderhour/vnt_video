@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1576,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 230,
+   "lines": [
+    {
+     "text": "Add one plus two plus three, up to n.",
+     "caption": "Add one plus two plus three, up to n.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/2951da0e4e49404e.wav",
+     "from": 0,
+     "frames": 88
+    },
+    {
+     "text": "When is the total a multiple of two thousand twenty-four?",
+     "caption": "When is the total a multiple of two thousand twenty-four?",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/c025a074c9f7aa9d.wav",
+     "from": 98,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 230,
+   "frames": 182,
+   "lines": [
+    {
+     "text": "What's the smallest n that makes the sum a multiple of two thousand twenty-four?",
+     "caption": "What's the smallest n that makes the sum a multiple of two thousand twenty-four?",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/5c650d749396ea8b.wav",
+     "from": 0,
+     "frames": 129
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 412,
+   "frames": 156,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 42
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "kind": "scene",
+   "chapter": null,
+   "from": 568,
+   "frames": 525,
+   "lines": [
+    {
+     "text": "The sum is half of n times n plus one.",
+     "caption": "The sum is half of n times n plus one.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/e140abf9bdf7ef7e.wav",
+     "from": 0,
+     "frames": 95
+    },
+    {
+     "text": "So n times n plus one needs sixteen, eleven and twenty-three.",
+     "caption": "So n times n plus one needs sixteen, eleven and twenty-three.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/f1ffda1a09d6dcf6.wav",
+     "from": 106,
+     "frames": 135
+    },
+    {
+     "text": "Here's the trick. Neighbors share no factors, so each goes whole into one of them.",
+     "caption": "Here's the trick. Neighbors share no factors, so each goes whole into one of them.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/8ae0cbf5f18b2baf.wav",
+     "from": 251,
+     "frames": 146
+    },
+    {
+     "text": "Sort them into two boxes, and check the multiples.",
+     "caption": "Sort them into two boxes, and check the multiples.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/1f5eb9993b86ba86.wav",
+     "from": 406,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1093,
+   "frames": 264,
+   "lines": [
+    {
+     "text": "Five hundred twenty-eight and five hundred twenty-nine fit perfectly.",
+     "caption": "Five hundred twenty-eight and five hundred twenty-nine fit perfectly.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/ad1d62176e9fa72b.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "So n is five hundred twenty-eight: Choice C!",
+     "caption": "So n is five hundred twenty-eight: Choice C!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/46e1025d5fe6f654.wav",
+     "from": 125,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1357,
+   "frames": 219,
+   "lines": [
+    {
+     "text": "The full lesson shows two ways, plus every trap.",
+     "caption": "The full lesson shows two ways, plus every trap.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/e45b2dc36cb38db5.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/82b8b7e1a12a7449.wav",
+     "from": 120,
+     "frames": 52
+    }
+   ]
+  }
+ ]
+}

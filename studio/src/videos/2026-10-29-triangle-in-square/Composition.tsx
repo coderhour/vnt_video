@@ -4,39 +4,40 @@ import { Explainer, at, type Scene, type SceneComponent, type Timeline } from '.
 import { Countdown } from '../../lib/PauseCard';
 import { Poly, Stage, Step, type Pt } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
+import { SignOff } from '../../lib/Brand';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-29-triangle-in-square';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // ---------- geometry (unit square, maths coordinates) ----------
 // The square's bottom-left corner is (0, 0) and y grows UPWARD (maths style), so on screen the pinned
 // corner is bottom-left, the "gap on the right side" goes up from the bottom-right corner, and the
 // "gap along the top" goes right from the top-left corner. Narration directions follow this picture.
 
-const R3 = Math.sqrt(3);
-const T = 2 - R3; // the gap x, about 0.268
-const D2R = Math.PI / 180;
+export const R3 = Math.sqrt(3);
+export const T = 2 - R3; // the gap x, about 0.268
+export const D2R = Math.PI / 180;
 
 /** Maths coords → pixels: (ox, oy) is the square's bottom-left corner on screen, `unit` px per 1. */
-const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
+export const plane = (ox: number, oy: number, unit: number) => (p: Pt): Pt => [ox + p[0] * unit, oy - p[1] * unit];
 
 /** Equilateral triangle with a vertex at the corner, one side `a` degrees above the bottom edge. */
-const tri = (a: number, s: number): Pt[] => [
+export const tri = (a: number, s: number): Pt[] => [
   [0, 0],
   [s * Math.cos(a * D2R), s * Math.sin(a * D2R)],
   [s * Math.cos((a + 60) * D2R), s * Math.sin((a + 60) * D2R)],
 ];
 
 /** The biggest side that still fits at angle a (0…30): same formula as verify.py. */
-const fitSide = (a: number) => Math.min(1 / Math.cos(a * D2R), 1 / Math.sin((a + 60) * D2R));
+export const fitSide = (a: number) => Math.min(1 / Math.cos(a * D2R), 1 / Math.sin((a + 60) * D2R));
 
-const SQ: Pt[] = [[0, 0], [1, 0], [1, 1], [0, 1]];
-const BEST: Pt[] = [[0, 0], [1, T], [T, 1]];
-const FLAT = tri(0, 1);
+export const SQ: Pt[] = [[0, 0], [1, 0], [1, 1], [0, 1]];
+export const BEST: Pt[] = [[0, 0], [1, T], [T, 1]];
+export const FLAT = tri(0, 1);
 const LONG_R: Pt[] = [[0, 0], [1, 0], [1, T]]; // right triangle under the bottom side
 const LONG_T: Pt[] = [[0, 0], [T, 1], [0, 1]]; // right triangle beside the left side
 const CORNER: Pt[] = [[1, T], [1, 1], [T, 1]];
@@ -47,11 +48,11 @@ const PANEL = 880;
 
 // ---------- small drawing helpers ----------
 
-const Square: React.FC<{ at: (p: Pt) => Pt; progress?: number; opacity?: number; fill?: boolean }> = ({ at: m, progress = 1, opacity = 1, fill = true }) => (
+export const Square: React.FC<{ at: (p: Pt) => Pt; progress?: number; opacity?: number; fill?: boolean }> = ({ at: m, progress = 1, opacity = 1, fill = true }) => (
   <Poly pts={SQ.map(m)} color={C.ink} width={6} fill={fill ? C.card : undefined} fillOpacity={1} progress={progress} opacity={opacity} />
 );
 
-const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 40, opacity = 1 }) =>
+export const Label: React.FC<{ p: Pt; text: string; color?: string; size?: number; opacity?: number }> = ({ p, text, color = C.ink, size = 40, opacity = 1 }) =>
   opacity <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={opacity} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={8}>
       {text}
@@ -67,11 +68,11 @@ const Brace: React.FC<{ a: Pt; b: Pt; dx: number; dy: number; color: string; opa
     </g>
   );
 
-const Ring: React.FC<{ p: Pt; color: string; opacity: number }> = ({ p, color, opacity }) =>
+export const Ring: React.FC<{ p: Pt; color: string; opacity: number }> = ({ p, color, opacity }) =>
   opacity <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={24} fill="none" stroke={color} strokeWidth={6} opacity={opacity} />;
 
 /** Equal-side tick marks on each side of a triangle. */
-const Ticks: React.FC<{ pts: Pt[]; color: string; opacity: number }> = ({ pts, color, opacity }) =>
+export const Ticks: React.FC<{ pts: Pt[]; color: string; opacity: number }> = ({ pts, color, opacity }) =>
   opacity <= 0 ? null : (
     <g opacity={opacity} stroke={color} strokeWidth={6} strokeLinecap="round">
       {pts.map((a, i) => {
@@ -131,7 +132,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['\\frac{\\sqrt{3}}{4}', '\\frac{3\\sqrt{2}-\\sqrt{6}}{4}', '2\\sqrt{3}-3', '\\frac{\\sqrt{3}}{3}', '\\frac{\\sqrt{3}}{2}'];
+export const CHOICES = ['\\frac{\\sqrt{3}}{4}', '\\frac{3\\sqrt{2}-\\sqrt{6}}{4}', '2\\sqrt{3}-3', '\\frac{\\sqrt{3}}{3}', '\\frac{\\sqrt{3}}{2}'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -160,7 +161,7 @@ const Question: SceneComponent = ({ scene }) => {
 };
 
 /** The part of the square outside a triangle (even-odd fill). */
-const Outside: React.FC<{ tri: Pt[]; at: (p: Pt) => Pt; color: string; opacity: number }> = ({ tri: t, at: m, color, opacity }) => {
+export const Outside: React.FC<{ tri: Pt[]; at: (p: Pt) => Pt; color: string; opacity: number }> = ({ tri: t, at: m, color, opacity }) => {
   const d = (pts: Pt[]) => `M ${pts.map((p) => m(p).join(' ')).join(' L ')} Z`;
   return opacity <= 0 ? null : <path d={`${d(SQ)} ${d(t)}`} fill={color} fillRule="evenodd" opacity={opacity} />;
 };
@@ -543,10 +544,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <circle cx={m([0, 0])[0]} cy={m([0, 0])[1]} r={14} fill={C.amber} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

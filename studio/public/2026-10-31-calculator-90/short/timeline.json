@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1658,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 250,
+   "lines": [
+    {
+     "text": "A calculator with two keys: plus one, and double.",
+     "caption": "A calculator with two keys: plus one, and double.",
+     "file": "2026-10-31-calculator-90/short/audio/3c29c04717fe5397.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Three to ninety in the FEWEST presses!",
+     "caption": "Three to ninety in the FEWEST presses!",
+     "file": "2026-10-31-calculator-90/short/audio/b044457f353ffa49.wav",
+     "from": 129,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 250,
+   "frames": 229,
+   "lines": [
+    {
+     "text": "The screen shows three. One key adds one, the other doubles.",
+     "caption": "The screen shows three. One key adds one, the other doubles.",
+     "file": "2026-10-31-calculator-90/short/audio/86cb6c1e5ffcb3ee.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "What's the fewest presses to make ninety?",
+     "caption": "What's the fewest presses to make ninety?",
+     "file": "2026-10-31-calculator-90/short/audio/a55b7770d97a100a.wav",
+     "from": 120,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 479,
+   "frames": 156,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-calculator-90/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 42
+    }
+   ]
+  },
+  {
+   "id": "back",
+   "kind": "scene",
+   "chapter": null,
+   "from": 635,
+   "frames": 518,
+   "lines": [
+    {
+     "text": "Work backwards! Doubling becomes halving, and plus one becomes minus one.",
+     "caption": "Work backwards! Doubling becomes halving, and plus one becomes minus one.",
+     "file": "2026-10-31-calculator-90/short/audio/88eb633a9b50e31d.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "Halve when you can. If it's odd, take one away first.",
+     "caption": "Halve when you can. If it's odd, take one away first.",
+     "file": "2026-10-31-calculator-90/short/audio/c3c064941d32543a.wav",
+     "from": 165,
+     "frames": 99
+    },
+    {
+     "text": "Forty-five, forty-four, twenty-two, eleven, ten, five, four, three!",
+     "caption": "Forty-five, forty-four, twenty-two, eleven, ten, five, four, three!",
+     "file": "2026-10-31-calculator-90/short/audio/1ec403007c3e9b36.wav",
+     "from": 274,
+     "frames": 220
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1153,
+   "frames": 234,
+   "lines": [
+    {
+     "text": "Count the arrows, not the numbers. Eight presses!",
+     "caption": "Count the arrows, not the numbers. Eight presses!",
+     "file": "2026-10-31-calculator-90/short/audio/21b8200068adafd7.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "Count the numbers instead, and you'd say nine.",
+     "caption": "Count the numbers instead, and you'd say nine.",
+     "file": "2026-10-31-calculator-90/short/audio/e51654a65bfb58b0.wav",
+     "from": 124,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1387,
+   "frames": 271,
+   "lines": [
+    {
+     "text": "Can anything beat eight? The full lesson proves it, and shows every trap.",
+     "caption": "Can anything beat eight? The full lesson proves it, and shows every trap.",
+     "file": "2026-10-31-calculator-90/short/audio/7767ee47e706b094.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-calculator-90/short/audio/82b8b7e1a12a7449.wav",
+     "from": 163,
+     "frames": 60
+    }
+   ]
+  }
+ ]
+}

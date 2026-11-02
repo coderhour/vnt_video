@@ -3,5 +3,10 @@
  "description": "25 dots in a grid, and the question sounds easy: how many pairs are exactly 5 units apart? Two sneaky traps are hiding in this one. Vantee shows two ways to count the pairs, explains why every wrong answer is tempting, then gives you a bigger grid to try yourself.\n\n0:00 Intro\n0:14 The question\n0:31 What are we asked?\n0:51 Try it yourself\n1:07 Solution 1: list the slants\n3:02 Solution 2: dot by dot\n3:55 Common traps\n4:34 Your turn: a bigger grid\n5:04 Bigger grid: the answer\n5:58 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mixed_template:c1-769",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "Which dots are exactly 5 apart? #Shorts",
+  "description": "25 dots in a grid: how many pairs are exactly 5 units apart? A 3-4-5 triangle hides the answer.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

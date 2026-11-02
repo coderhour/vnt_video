@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1622,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 218,
+   "lines": [
+    {
+     "text": "Move the hour hand one hour, then two, then three, up to twenty!",
+     "caption": "Move the hour hand one hour, then two, then three, up to twenty!",
+     "file": "2026-10-31-clock-hand-moves/short/audio/987d4c2bfd0b93c5.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "Where does it stop?",
+     "caption": "Where does it stop?",
+     "file": "2026-10-31-clock-hand-moves/short/audio/47719c9acd98e056.wav",
+     "from": 151,
+     "frames": 44
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 218,
+   "frames": 275,
+   "lines": [
+    {
+     "text": "The hand starts at three. Tom moves it one hour, then two, then three, up to twenty.",
+     "caption": "The hand starts at three. Tom moves it one hour, then two, then three, up to twenty.",
+     "file": "2026-10-31-clock-hand-moves/short/audio/8ec2748998b816c8.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "Where does it point at the end?",
+     "caption": "Where does it point at the end?",
+     "file": "2026-10-31-clock-hand-moves/short/audio/f480df3ca4f1155e.wav",
+     "from": 185,
+     "frames": 58
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 493,
+   "frames": 163,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-31-clock-hand-moves/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 50
+    }
+   ]
+  },
+  {
+   "id": "turns",
+   "kind": "scene",
+   "chapter": null,
+   "from": 656,
+   "frames": 447,
+   "lines": [
+    {
+     "text": "First, add all the moves. One plus two, all the way to twenty, is two hundred ten hours.",
+     "caption": "First, add all the moves. One plus two, all the way to twenty, is two hundred ten hours.",
+     "file": "2026-10-31-clock-hand-moves/short/audio/691b13b9a4a04601.wav",
+     "from": 0,
+     "frames": 162
+    },
+    {
+     "text": "Twelve hours is a full turn. Two hundred ten is seventeen turns, plus six.",
+     "caption": "Twelve hours is a full turn. Two hundred ten is seventeen turns, plus six.",
+     "file": "2026-10-31-clock-hand-moves/short/audio/704c9880ff7431f2.wav",
+     "from": 173,
+     "frames": 160
+    },
+    {
+     "text": "So only the six leftover hours matter!",
+     "caption": "So only the six leftover hours matter!",
+     "file": "2026-10-31-clock-hand-moves/short/audio/67cf23b069dd152a.wav",
+     "from": 343,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1103,
+   "frames": 237,
+   "lines": [
+    {
+     "text": "Count six hours from three. The hand points to nine!",
+     "caption": "Count six hours from three. The hand points to nine!",
+     "file": "2026-10-31-clock-hand-moves/short/audio/b67fac0ad125b046.wav",
+     "from": 0,
+     "frames": 108
+    },
+    {
+     "text": "Not six! That's only the leftover.",
+     "caption": "Not six! That's only the leftover.",
+     "file": "2026-10-31-clock-hand-moves/short/audio/11be03cc706b085e.wav",
+     "from": 119,
+     "frames": 80
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1340,
+   "frames": 282,
+   "lines": [
+    {
+     "text": "Want to skip the big sum? The full lesson has a second way, and every trap.",
+     "caption": "Want to skip the big sum? The full lesson has a second way, and every trap.",
+     "file": "2026-10-31-clock-hand-moves/short/audio/ff6d5f402dfe0f10.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-31-clock-hand-moves/short/audio/82b8b7e1a12a7449.wav",
+     "from": 170,
+     "frames": 64
+    }
+   ]
+  }
+ ]
+}

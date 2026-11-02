@@ -1,0 +1,542 @@
+{
+ "fps": 30,
+ "durationInFrames": 12538,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 616,
+   "lines": [
+    {
+     "text": "Keep adding one plus two plus three. When is the total a multiple of two thousand twenty-four?",
+     "caption": "Keep adding one plus two plus three. When is the total a multiple of two thousand twenty-four?",
+     "file": "2026-11-01-triangle-sum-2024/audio/b4818cb1dfc4483e.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "Adding it all up would take forever. But a neat trick with neighbors finds it fast.",
+     "caption": "Adding it all up would take forever. But a neat trick with neighbors finds it fast.",
+     "file": "2026-11-01-triangle-sum-2024/audio/f56d51e3e2d7eaad.wav",
+     "from": 222,
+     "frames": 188
+    },
+    {
+     "text": "Hello, I'm Vantee, and today we're hunting for a number!",
+     "caption": "Hello, I'm Vantee, and today we're hunting for a number!",
+     "file": "2026-11-01-triangle-sum-2024/audio/8c89db1d7bfa1468.wav",
+     "from": 419,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 616,
+   "frames": 525,
+   "lines": [
+    {
+     "text": "Find the smallest positive whole number n,",
+     "caption": "Find the smallest positive whole number n,",
+     "file": "2026-11-01-triangle-sum-2024/audio/733cff955dad7a6a.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "so that one plus two plus three, up to n, is divisible by two thousand twenty-four.",
+     "caption": "so that one plus two plus three, up to n, is divisible by two thousand twenty-four.",
+     "file": "2026-11-01-triangle-sum-2024/audio/11da082ec56325f5.wav",
+     "from": 117,
+     "frames": 232
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-01-triangle-sum-2024/audio/b97a89671840f7ca.wav",
+     "from": 359,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1141,
+   "frames": 461,
+   "lines": [
+    {
+     "text": "So what do we know? We add every whole number from one to n.",
+     "caption": "So what do we know? We add every whole number from one to n.",
+     "file": "2026-11-01-triangle-sum-2024/audio/f75c1d79d02c7e06.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "The total must split into groups of two thousand twenty-four exactly. And we want the SMALLEST n.",
+     "caption": "The total must split into groups of two thousand twenty-four exactly. And we want the SMALLEST n.",
+     "file": "2026-11-01-triangle-sum-2024/audio/fa9255f06add4f48.wav",
+     "from": 157,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1602,
+   "frames": 466,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-01-triangle-sum-2024/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "sum",
+   "kind": "scene",
+   "chapter": "Solution 1: share out the factors",
+   "from": 2068,
+   "frames": 632,
+   "lines": [
+    {
+     "text": "Welcome back! First, a shortcut for the sum. Write the numbers forward, then backward underneath.",
+     "caption": "Welcome back! First, a shortcut for the sum. Write the numbers forward, then backward underneath.",
+     "file": "2026-11-01-triangle-sum-2024/audio/28a5e35955eb3bfa.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "Each column adds to n plus one, and there are n columns.",
+     "caption": "Each column adds to n plus one, and there are n columns.",
+     "file": "2026-11-01-triangle-sum-2024/audio/5926700658e4baf8.wav",
+     "from": 236,
+     "frames": 144
+    },
+    {
+     "text": "That counts every number twice, so the sum is half of n times n plus one.",
+     "caption": "That counts every number twice, so the sum is half of n times n plus one.",
+     "file": "2026-11-01-triangle-sum-2024/audio/83743925be978292.wav",
+     "from": 391,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "double",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2700,
+   "frames": 776,
+   "lines": [
+    {
+     "text": "So half of n times n plus one must be divisible by two thousand twenty-four.",
+     "caption": "So half of n times n plus one must be divisible by two thousand twenty-four.",
+     "file": "2026-11-01-triangle-sum-2024/audio/d2cd8ddbb9c97e15.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "Undo the halving: n times n plus one must be divisible by twice that, four thousand forty-eight.",
+     "caption": "Undo the halving: n times n plus one must be divisible by twice that, four thousand forty-eight.",
+     "file": "2026-11-01-triangle-sum-2024/audio/9d4ebb71ca8b0afe.wav",
+     "from": 230,
+     "frames": 227
+    },
+    {
+     "text": "That's sixteen times eleven times twenty-three. Sixteen is four factors of two; the others are primes.",
+     "caption": "That's sixteen times eleven times twenty-three. Sixteen is four factors of two; the others are primes.",
+     "file": "2026-11-01-triangle-sum-2024/audio/d46b53cfb4b8b084.wav",
+     "from": 467,
+     "frames": 255
+    }
+   ]
+  },
+  {
+   "id": "neighbors",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3476,
+   "frames": 1008,
+   "lines": [
+    {
+     "text": "Here's the key. n and n plus one are neighbors, and one of them is odd. It has no factor of two.",
+     "caption": "Here's the key. n and n plus one are neighbors, and one of them is odd. It has no factor of two.",
+     "file": "2026-11-01-triangle-sum-2024/audio/1022ca0191174b25.wav",
+     "from": 0,
+     "frames": 239
+    },
+    {
+     "text": "So all four factors of two, the whole sixteen, must live in the even one.",
+     "caption": "So all four factors of two, the whole sixteen, must live in the even one.",
+     "file": "2026-11-01-triangle-sum-2024/audio/7c65ce7acc9e134e.wav",
+     "from": 249,
+     "frames": 182
+    },
+    {
+     "text": "Could eleven divide both neighbors? Then it would divide their difference, which is just one.",
+     "caption": "Could eleven divide both neighbors? Then it would divide their difference, which is just one.",
+     "file": "2026-11-01-triangle-sum-2024/audio/fa012d6073ba6bc8.wav",
+     "from": 441,
+     "frames": 186
+    },
+    {
+     "text": "So eleven goes whole into one neighbor, and so does twenty-three.",
+     "caption": "So eleven goes whole into one neighbor, and so does twenty-three.",
+     "file": "2026-11-01-triangle-sum-2024/audio/a3a042ab2b0ae1f4.wav",
+     "from": 637,
+     "frames": 147
+    },
+    {
+     "text": "We just choose which tiles share a box. That gives four piles to check.",
+     "caption": "We just choose which tiles share a box. That gives four piles to check.",
+     "file": "2026-11-01-triangle-sum-2024/audio/5be67540ec9e88e3.wav",
+     "from": 794,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "walkA",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4484,
+   "frames": 1010,
+   "lines": [
+    {
+     "text": "Pile one: sixteen and eleven together, a multiple of one hundred seventy-six. Check both neighbors.",
+     "caption": "Pile one: sixteen and eleven together, a multiple of one hundred seventy-six. Check both neighbors.",
+     "file": "2026-11-01-triangle-sum-2024/audio/a1a6a1ad89ff84ee.wav",
+     "from": 0,
+     "frames": 257
+    },
+    {
+     "text": "One hundred seventy-six: neither neighbor is a multiple of twenty-three.",
+     "caption": "One hundred seventy-six: neither neighbor is a multiple of twenty-three.",
+     "file": "2026-11-01-triangle-sum-2024/audio/956bf8b633a9c6d9.wav",
+     "from": 267,
+     "frames": 168
+    },
+    {
+     "text": "Now three hundred fifty-two. No luck again.",
+     "caption": "Now three hundred fifty-two. No luck again.",
+     "file": "2026-11-01-triangle-sum-2024/audio/7dc351eadada0839.wav",
+     "from": 445,
+     "frames": 122
+    },
+    {
+     "text": "Five hundred twenty-eight: its neighbor five hundred twenty-nine is twenty-three times twenty-three!",
+     "caption": "Five hundred twenty-eight: its neighbor five hundred twenty-nine is twenty-three times twenty-three!",
+     "file": "2026-11-01-triangle-sum-2024/audio/38d92d0b78fe8379.wav",
+     "from": 577,
+     "frames": 212
+    },
+    {
+     "text": "So five hundred twenty-eight works! Keep it, and check the other piles.",
+     "caption": "So five hundred twenty-eight works! Keep it, and check the other piles.",
+     "file": "2026-11-01-triangle-sum-2024/audio/94dd6a1d12c5a357.wav",
+     "from": 799,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "walkB",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5494,
+   "frames": 660,
+   "lines": [
+    {
+     "text": "Pile two: sixteen and twenty-three, so three hundred sixty-eight. Neither neighbor has an eleven.",
+     "caption": "Pile two: sixteen and twenty-three, so three hundred sixty-eight. Neither neighbor has an eleven.",
+     "file": "2026-11-01-triangle-sum-2024/audio/940a88d75d6cc4ed.wav",
+     "from": 0,
+     "frames": 266
+    },
+    {
+     "text": "Next, seven hundred thirty-six. Its neighbor seven hundred thirty-seven is eleven times sixty-seven.",
+     "caption": "Next, seven hundred thirty-six. Its neighbor seven hundred thirty-seven is eleven times sixty-seven.",
+     "file": "2026-11-01-triangle-sum-2024/audio/c74911b9e14d4cb1.wav",
+     "from": 276,
+     "frames": 206
+    },
+    {
+     "text": "It works, but it's bigger than five hundred twenty-eight.",
+     "caption": "It works, but it's bigger than five hundred twenty-eight.",
+     "file": "2026-11-01-triangle-sum-2024/audio/5283f34f24bfbf89.wav",
+     "from": 491,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "walkC",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6154,
+   "frames": 1031,
+   "lines": [
+    {
+     "text": "Pile three: eleven and twenty-three together, a multiple of two hundred fifty-three.",
+     "caption": "Pile three: eleven and twenty-three together, a multiple of two hundred fifty-three.",
+     "file": "2026-11-01-triangle-sum-2024/audio/f87687f706a65983.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "Two hundred fifty-three and five hundred six: none of their neighbors is a multiple of sixteen.",
+     "caption": "Two hundred fifty-three and five hundred six: none of their neighbors is a multiple of sixteen.",
+     "file": "2026-11-01-triangle-sum-2024/audio/68c5f634dfe59830.wav",
+     "from": 208,
+     "frames": 200
+    },
+    {
+     "text": "The next is seven hundred fifty-nine, already past five hundred twenty-eight. We can stop.",
+     "caption": "The next is seven hundred fifty-nine, already past five hundred twenty-eight. We can stop.",
+     "file": "2026-11-01-triangle-sum-2024/audio/6c4978327e7bdc6a.wav",
+     "from": 417,
+     "frames": 174
+    },
+    {
+     "text": "Pile four: all three together means four thousand forty-eight. Far too big.",
+     "caption": "Pile four: all three together means four thousand forty-eight. Far too big.",
+     "file": "2026-11-01-triangle-sum-2024/audio/25d246b4146b3846.wav",
+     "from": 602,
+     "frames": 197
+    },
+    {
+     "text": "So the smallest n is five hundred twenty-eight. That's Choice C!",
+     "caption": "So the smallest n is five hundred twenty-eight. That's Choice C!",
+     "file": "2026-11-01-triangle-sum-2024/audio/8821c768140e7991.wav",
+     "from": 809,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "choices",
+   "kind": "scene",
+   "chapter": "Solution 2: test the choices",
+   "from": 7185,
+   "frames": 1559,
+   "lines": [
+    {
+     "text": "Faster on test day: check the choices, smallest first, and take half of the even number.",
+     "caption": "Faster on test day: check the choices, smallest first, and take half of the even number.",
+     "file": "2026-11-01-triangle-sum-2024/audio/8e656ef69d74044d.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "We need eight, eleven and twenty-three. With two hundred fifty-three, the sum is odd!",
+     "caption": "We need eight, eleven and twenty-three. With two hundred fifty-three, the sum is odd!",
+     "file": "2026-11-01-triangle-sum-2024/audio/cc5949e9a7a8c3fb.wav",
+     "from": 206,
+     "frames": 222
+    },
+    {
+     "text": "Four hundred eighty-three times two hundred forty-two has just one factor of two. Not enough!",
+     "caption": "Four hundred eighty-three times two hundred forty-two has just one factor of two. Not enough!",
+     "file": "2026-11-01-triangle-sum-2024/audio/b4daec824652c6f9.wav",
+     "from": 438,
+     "frames": 213
+    },
+    {
+     "text": "Five hundred twenty-eight gives two hundred sixty-four times five hundred twenty-nine.",
+     "caption": "Five hundred twenty-eight gives two hundred sixty-four times five hundred twenty-nine.",
+     "file": "2026-11-01-triangle-sum-2024/audio/148a8b110d34e924.wav",
+     "from": 661,
+     "frames": 197
+    },
+    {
+     "text": "That's eight times three times eleven, times twenty-three times twenty-three. Everything's there!",
+     "caption": "That's eight times three times eleven, times twenty-three times twenty-three. Everything's there!",
+     "file": "2026-11-01-triangle-sum-2024/audio/511aee705ae7fbbc.wav",
+     "from": 868,
+     "frames": 221
+    },
+    {
+     "text": "So five hundred twenty-eight is the smallest CHOICE that works. Solution one proves no n is smaller.",
+     "caption": "So five hundred twenty-eight is the smallest CHOICE that works. Solution one proves no n is smaller.",
+     "file": "2026-11-01-triangle-sum-2024/audio/bab86856fe3fafd8.wav",
+     "from": 1100,
+     "frames": 215
+    },
+    {
+     "text": "When would you pick this way? On a timed test, with the choices right in front of you.",
+     "caption": "When would you pick this way? On a timed test, with the choices right in front of you.",
+     "file": "2026-11-01-triangle-sum-2024/audio/42c7e62450683968.wav",
+     "from": 1325,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8744,
+   "frames": 962,
+   "lines": [
+    {
+     "text": "Choice A, two hundred fifty-three, is what you'd get by using just the eleven and twenty-three.",
+     "caption": "Choice A, two hundred fifty-three, is what you'd get by using just the eleven and twenty-three.",
+     "file": "2026-11-01-triangle-sum-2024/audio/6fb6706ba8e3dd3e.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "Choice E, one thousand twelve, is half of two thousand twenty-four. Its sum has one factor of two.",
+     "caption": "Choice E, one thousand twelve, is half of two thousand twenty-four. Its sum has one factor of two.",
+     "file": "2026-11-01-triangle-sum-2024/audio/9d748b8806d55652.wav",
+     "from": 212,
+     "frames": 226
+    },
+    {
+     "text": "Choice B, four hundred eighty-three, has the twenty-three; its neighbor, the eleven. But not the eight!",
+     "caption": "Choice B, four hundred eighty-three, has the twenty-three; its neighbor, the eleven. But not the eight!",
+     "file": "2026-11-01-triangle-sum-2024/audio/edddbd89dc4a8c69.wav",
+     "from": 448,
+     "frames": 210
+    },
+    {
+     "text": "Choice D, seven hundred thirty-six, really works! But it's pile two's answer, not the SMALLEST.",
+     "caption": "Choice D, seven hundred thirty-six, really works! But it's pile two's answer, not the SMALLEST.",
+     "file": "2026-11-01-triangle-sum-2024/audio/ebf9a31e0bb6552a.wav",
+     "from": 669,
+     "frames": 233
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: 2025",
+   "from": 9706,
+   "frames": 275,
+   "lines": [
+    {
+     "text": "What is the smallest n so that one plus two, up to n, is divisible by two thousand twenty-five?",
+     "caption": "What is the smallest n so that one plus two, up to n, is divisible by two thousand twenty-five?",
+     "file": "2026-11-01-triangle-sum-2024/audio/e7edc41b5a2f5188.wav",
+     "from": 0,
+     "frames": 237
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9981,
+   "frames": 394,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-01-triangle-sum-2024/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "2025: the answer",
+   "from": 10375,
+   "frames": 1575,
+   "lines": [
+    {
+     "text": "Let's check. Undo the halving: n times n plus one must be divisible by four thousand fifty.",
+     "caption": "Let's check. Undo the halving: n times n plus one must be divisible by four thousand fifty.",
+     "file": "2026-11-01-triangle-sum-2024/audio/8e47e015efe82d80.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "That's two times eighty-one times twenty-five. The two is free, since one neighbor is always even.",
+     "caption": "That's two times eighty-one times twenty-five. The two is free, since one neighbor is always even.",
+     "file": "2026-11-01-triangle-sum-2024/audio/5dd96236ad7dd5f8.wav",
+     "from": 230,
+     "frames": 210
+    },
+    {
+     "text": "Eighty-one and twenty-five each go whole into a neighbor. Both in one is far too big.",
+     "caption": "Eighty-one and twenty-five each go whole into a neighbor. Both in one is far too big.",
+     "file": "2026-11-01-triangle-sum-2024/audio/f6eca633ea79a0df.wav",
+     "from": 450,
+     "frames": 239
+    },
+    {
+     "text": "So walk the multiples of eighty-one: eighty-one, one hundred sixty-two, two hundred forty-three.",
+     "caption": "So walk the multiples of eighty-one: eighty-one, one hundred sixty-two, two hundred forty-three.",
+     "file": "2026-11-01-triangle-sum-2024/audio/e4fc2fdb1533fef8.wav",
+     "from": 699,
+     "frames": 244
+    },
+    {
+     "text": "None of their neighbors is a multiple of twenty-five.",
+     "caption": "None of their neighbors is a multiple of twenty-five.",
+     "file": "2026-11-01-triangle-sum-2024/audio/b1c8d6b2ee388283.wav",
+     "from": 954,
+     "frames": 124
+    },
+    {
+     "text": "Three hundred twenty-four: its neighbor three hundred twenty-five is twenty-five times thirteen!",
+     "caption": "Three hundred twenty-four: its neighbor three hundred twenty-five is twenty-five times thirteen!",
+     "file": "2026-11-01-triangle-sum-2024/audio/c08435f79538a8d9.wav",
+     "from": 1088,
+     "frames": 225
+    },
+    {
+     "text": "So n is three hundred twenty-four. If you got it, amazing work!",
+     "caption": "So n is three hundred twenty-four. If you got it, amazing work!",
+     "file": "2026-11-01-triangle-sum-2024/audio/953078ac7b953f2b.wav",
+     "from": 1323,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11950,
+   "frames": 588,
+   "lines": [
+    {
+     "text": "Neighbors share no factor bigger than one, so each prime power goes whole into one of them.",
+     "caption": "Neighbors share no factor bigger than one, so each prime power goes whole into one of them.",
+     "file": "2026-11-01-triangle-sum-2024/audio/e6e2457b41568a28.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "Sort the pieces into piles, count up the multiples, and check the neighbors.",
+     "caption": "Sort the pieces into piles, count up the multiples, and check the neighbors.",
+     "file": "2026-11-01-triangle-sum-2024/audio/5c849817821140d6.wav",
+     "from": 198,
+     "frames": 167
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-01-triangle-sum-2024/audio/31a6054d0b03b932.wav",
+     "from": 375,
+     "frames": 129
+    }
+   ]
+  }
+ ]
+}

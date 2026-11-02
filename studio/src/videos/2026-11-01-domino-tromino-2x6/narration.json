@@ -1,0 +1,144 @@
+{
+ "title": "Dominoes and L-Trominoes on a 2×6 Board | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "lines": [
+    "Cover a two by six board with dominoes. There are exactly thirteen ways.",
+    "Next, add an L-shaped tile. How many ways now? Most kids lose count fast.",
+    "Hello, I'm Vantee. Today we'll count without losing our place!"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 1,
+   "lines": [
+    "In how many ways can a two by six board be covered, with no gaps or overlaps,",
+    "using one by two dominoes, and L-shaped trominoes made of three squares? Pieces may be turned.",
+    "Here are the five choices: thirteen, fifty, fifty-three, fifty-nine, and one hundred seventeen."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 1,
+   "lines": [
+    "A board two squares tall, six long. That's twelve squares.",
+    "A domino covers two squares. An L tromino covers three, and it can be turned four ways.",
+    "Every square gets covered exactly once. And a cover with only dominoes still counts."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "sol1-cases",
+   "chapter": "Solution 1: the top-left square",
+   "hold": 1,
+   "lines": [
+    "Welcome back! Here's the strategy: some tile must cover the top-left square. Which one?",
+    "A standing domino leaves a two by five board.",
+    "A lying domino on top needs a lying twin under it. Nothing else fits. That leaves two by four.",
+    "Or an L. Only two L tiles work. This third one would trap the square below it.",
+    "Each good L leaves one square sticking out. A lying domino can fill it, and the bump moves along.",
+    "Or a second L tile fills it, and closes the block.",
+    "So an L starts one zigzag: an L, some lying dominoes, then an L. It can be three to six long.",
+    "Each zigzag has a mirror twin, flipped top to bottom. So there are two of every length."
+   ]
+  },
+  {
+   "id": "sol1-table",
+   "hold": 1,
+   "lines": [
+    "Let's fill a table, from short to long.",
+    "If a zigzag fills the whole board, that's one way. So length zero counts as one.",
+    "Length one: one way. Length two: two standing dominoes, or a lying pair. Two ways.",
+    "The rule: one shorter, plus two shorter, plus double everything the zigzags leave.",
+    "Length three: two, plus one, plus double one. That's five.",
+    "Now length four: five, plus two, plus double one plus one. That's eleven.",
+    "Length five: eleven, plus five, plus double two plus one plus one. That's twenty-four.",
+    "Length six: twenty-four, plus eleven, plus double five plus two plus one plus one.",
+    "That's twenty-four plus eleven plus eighteen: fifty-three ways. That's Choice C!"
+   ]
+  },
+  {
+   "id": "sol2",
+   "chapter": "Solution 2: flat and bumpy boards",
+   "hold": 1,
+   "lines": [
+    "Here's a second way: flat boards, and bumpy ones, with one extra square sticking out on the left.",
+    "On a flat board, a domino start leaves a flat board. An L leaves a bumpy board, two shorter.",
+    "There are two good L tiles, so that bumpy count gets doubled.",
+    "On a bumpy board, cover the lonely square first. A lying domino leaves a bumpy board, one shorter.",
+    "An L instead leaves a flat board, one shorter. Add those two.",
+    "Bumpy one is just an L shape: one way. Bumpy two is one plus one, two.",
+    "Bumpy three is two plus two, four. Bumpy four is four plus five, nine.",
+    "Flat six: twenty-four, plus eleven, plus two times nine. Fifty-three again!",
+    "When would you pick this way? For long boards. Just two short rules!"
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 1.2,
+   "lines": [
+    "Choice A, thirteen, uses dominoes only. It forgets every cover with a tromino.",
+    "Without zigzags, the table goes one, two, three, five, eight, thirteen.",
+    "Choice E, one hundred seventeen, is the count for a two by seven board.",
+    "Fifty-three, plus twenty-four, plus double twenty, is one hundred seventeen.",
+    "Choices B and D, fifty and fifty-nine, are near misses. Both ways give exactly fifty-three."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: add a square",
+   "hold": 0.5,
+   "lines": [
+    "Ready for a challenge? Same idea, one new tile.",
+    "Cover a two by five board with the same tiles, AND two by two squares. How many ways?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "Add a square: the answer",
+   "hold": 1,
+   "lines": [
+    "Let's check. A square on the top-left gives a second way to start, two columns wide.",
+    "A square can't fill a bump, so the zigzags stay the same.",
+    "New rule: one shorter, plus TWO times two shorter, plus double the zigzag leftovers.",
+    "Length one: one. Length two: one plus two, three. Length three: three plus two plus two, seven.",
+    "Now length four: seven, plus double three, plus double one plus one. That's seventeen.",
+    "Length five: seventeen, plus double seven, plus double three plus one plus one. Forty-one!",
+    "If you got forty-one, amazing work!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 1,
+   "lines": [
+    "To count the ways to tile a strip, ask which tile covers the first square. Then count what's left.",
+    "Build up from the short boards, one length at a time.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "fps": 30,
+ "durationInFrames": 1614,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 247,
+   "lines": [
+    {
+     "text": "An ant crawls this prism, one random edge every second.",
+     "caption": "An ant crawls this prism, one random edge every second.",
+     "file": "2026-11-01-ant-on-prism/short/audio/f6737a74e04323c5.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "Which corner does it hit first, E or A?",
+     "caption": "Which corner does it hit first, E or A?",
+     "file": "2026-11-01-ant-on-prism/short/audio/27ff9919e4ffc3da.wav",
+     "from": 129,
+     "frames": 94
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 247,
+   "frames": 245,
+   "lines": [
+    {
+     "text": "The ant starts at C. All three edges there are equally likely.",
+     "caption": "The ant starts at C. All three edges there are equally likely.",
+     "file": "2026-11-01-ant-on-prism/short/audio/44c69a8dd81d9037.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "What's the chance it reaches E before A?",
+     "caption": "What's the chance it reaches E before A?",
+     "file": "2026-11-01-ant-on-prism/short/audio/073728897c22d1cf.wav",
+     "from": 133,
+     "frames": 80
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 492,
+   "frames": 166,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-11-01-ant-on-prism/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 52
+    }
+   ]
+  },
+  {
+   "id": "spin",
+   "kind": "scene",
+   "chapter": null,
+   "from": 658,
+   "frames": 491,
+   "lines": [
+    {
+     "text": "Look at the front face, A B E D. A and E are opposite corners.",
+     "caption": "Look at the front face, A B E D. A and E are opposite corners.",
+     "file": "2026-11-01-ant-on-prism/short/audio/7a2b66c5debd9ba9.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "Spin the prism a half turn.",
+     "caption": "Spin the prism a half turn.",
+     "file": "2026-11-01-ant-on-prism/short/audio/3c8a7e6848f098af.wav",
+     "from": 156,
+     "frames": 65
+    },
+    {
+     "text": "A and E swap, and so do C and F. Same prism!",
+     "caption": "A and E swap, and so do C and F. Same prism!",
+     "file": "2026-11-01-ant-on-prism/short/audio/b99f051a17a2cb40.wav",
+     "from": 232,
+     "frames": 119
+    },
+    {
+     "text": "So F's chance is one minus C's chance.",
+     "caption": "So F's chance is one minus C's chance.",
+     "file": "2026-11-01-ant-on-prism/short/audio/2bcf0e032ca38a41.wav",
+     "from": 361,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1149,
+   "frames": 238,
+   "lines": [
+    {
+     "text": "Use that in the corner rules, and eleven c equals four.",
+     "caption": "Use that in the corner rules, and eleven c equals four.",
+     "file": "2026-11-01-ant-on-prism/short/audio/4afb3c190dac2ddc.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "So the chance from C is four over eleven!",
+     "caption": "So the chance from C is four over eleven!",
+     "file": "2026-11-01-ant-on-prism/short/audio/ce5623950b69cd9c.wav",
+     "from": 115,
+     "frames": 88
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1387,
+   "frames": 227,
+   "lines": [
+    {
+     "text": "The full lesson shows two ways, plus every trap.",
+     "caption": "The full lesson shows two ways, plus every trap.",
+     "file": "2026-11-01-ant-on-prism/short/audio/e45b2dc36cb38db5.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-11-01-ant-on-prism/short/audio/82b8b7e1a12a7449.wav",
+     "from": 120,
+     "frames": 59
+    }
+   ]
+  }
+ ]
+}

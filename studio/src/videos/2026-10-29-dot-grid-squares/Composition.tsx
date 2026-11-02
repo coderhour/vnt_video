@@ -5,21 +5,22 @@ import { Countdown } from '../../lib/PauseCard';
 import { Dots, Poly, Stage, Step, XMark, boxSpots, boxSquare, makeGrid, type Pt } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-29-dot-grid-squares';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 // The question: 5 dots across, 4 down. The variant: 5 × 5.
-const COLS = 5;
-const ROWS = 4;
-const TILT = [C.violet, C.blue]; // a = 1, a = 2 tilted squares
+export const COLS = 5;
+export const ROWS = 4;
+export const TILT = [C.violet, C.blue]; // a = 1, a = 2 tilted squares
 
 // ---------- small building blocks ----------
 
 /** Upright square of side k with top-left (x, y), in grid coordinates. */
-const sq = (x: number, y: number, k: number) => boxSquare(x, y, k, 0);
+export const sq = (x: number, y: number, k: number) => boxSquare(x, y, k, 0);
 
 /** A shape sliding through `spots`, leaving faint copies behind. `draw` renders it at a grid spot. */
 const Slide: React.FC<{ spots: Pt[]; draw: (p: Pt, ghost: boolean) => React.ReactNode; start: number; end: number; opacity?: number }> = ({ spots, draw, start, end, opacity = 1 }) => {
@@ -86,7 +87,7 @@ const Intro: SceneComponent = ({ scene }) => {
   );
 };
 
-const CHOICES = ['20', '24', '26', '30', '40'];
+export const CHOICES = ['20', '24', '26', '30', '40'];
 
 const Question: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
@@ -505,10 +506,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <BigBox k={3} unit={115} ox={1240} oy={270} ghosts={[0, 1, 2]} boxProgress={1} />
         </g>
       </Stage>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep counting!</div>
-      </div>
+      <SignOff start={at(scene, 3, 0.1)} text="Keep counting!" />
       <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={3} />
     </>
   );

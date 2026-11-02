@@ -3,5 +3,10 @@
  "description": "Pia climbs a staircase one or two steps at a time, flipping a coin before each move. What is the chance she stands on step 5? Vantee lists every way to get there, shows a faster ladder that builds each step's chance from the two before it, explains why each wrong answer is tempting, and gives you step 6 to try yourself.\n\n0:00 Intro\n0:16 The question\n0:40 What are we asked?\n1:00 Try it yourself\n1:15 Solution 1: make a list\n2:28 Solution 2: climb the ladder\n3:38 Common traps\n4:33 Your turn: step six\n4:58 Step six: the answer\n5:38 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_counting_template:c1-819",
- "posts": []
+ "posts": [],
+ "short": {
+  "title": "Coin-Flip Staircase: Will She Land on Step 5? #Shorts",
+  "description": "Heads is one step, tails is two. Building each step's chance from the two below gives the answer fast.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": []
+ }
 }

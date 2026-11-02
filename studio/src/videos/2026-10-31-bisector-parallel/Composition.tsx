@@ -6,11 +6,12 @@ import { Stage } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-bisector-parallel';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 type Pt = [number, number];
 
@@ -31,7 +32,7 @@ const solve = (B: Pt, Cc: Pt, A: Pt): Pt => {
 const MB: Pt = [0, 0];
 const MC: Pt = [12, 0];
 const MA: Pt = [6, 8];
-const MAIN: Geo = { B: MB, C: MC, A: MA, F: solve(MB, MC, MA), topL: 2, topR: 18 };
+export const MAIN: Geo = { B: MB, C: MC, A: MA, F: solve(MB, MC, MA), topL: 2, topR: 18 };
 
 const VB: Pt = [0, 0];
 const VC: Pt = [10, 0];
@@ -43,19 +44,19 @@ const G10: Pt = [10, 0];
 const FOOT: Pt = [6, 0];
 const MIDAB: Pt = [3, 4];
 
-const plane = (ox: number, oy: number, u: number) => (p: Pt): Pt => [ox + p[0] * u, oy - p[1] * u];
+export const plane = (ox: number, oy: number, u: number) => (p: Pt): Pt => [ox + p[0] * u, oy - p[1] * u];
 type PF = (p: Pt) => Pt;
 
-const deg = (a: Pt, b: Pt) => (Math.atan2(b[1] - a[1], b[0] - a[0]) * 180) / Math.PI; // maths angle a→b
+export const deg = (a: Pt, b: Pt) => (Math.atan2(b[1] - a[1], b[0] - a[0]) * 180) / Math.PI; // maths angle a→b
 
 const sub = (p: number, i: number, n: number) => Math.max(0, Math.min(1, p * n - i));
-const pulse = (f: number, start: number, dur = 36) => Math.sin(Math.max(0, Math.min(1, (f - start) / dur)) * Math.PI);
+export const pulse = (f: number, start: number, dur = 36) => Math.sin(Math.max(0, Math.min(1, (f - start) / dur)) * Math.PI);
 const mid = (a: Pt, b: Pt): Pt => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
 const lerp = (a: Pt, b: Pt, t: number): Pt => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
 
 // ---------- SVG primitives (take screen points) ----------
 
-const Seg: React.FC<{ a: Pt; b: Pt; color?: string; w?: number; p?: number; op?: number; dash?: boolean }> = ({ a, b, color = C.ink, w = 7, p = 1, op = 1, dash = false }) =>
+export const Seg: React.FC<{ a: Pt; b: Pt; color?: string; w?: number; p?: number; op?: number; dash?: boolean }> = ({ a, b, color = C.ink, w = 7, p = 1, op = 1, dash = false }) =>
   p <= 0 || op <= 0 ? null : (
     <line x1={a[0]} y1={a[1]} x2={a[0] + (b[0] - a[0]) * p} y2={a[1] + (b[1] - a[1]) * p} stroke={color} strokeWidth={w} strokeLinecap={dash ? 'butt' : 'round'} strokeDasharray={dash ? '16 12' : undefined} opacity={op} />
   );
@@ -63,7 +64,7 @@ const Seg: React.FC<{ a: Pt; b: Pt; color?: string; w?: number; p?: number; op?:
 const Dot: React.FC<{ p: Pt; r?: number; color?: string; op?: number }> = ({ p, r = 13, color = C.ink, op = 1 }) =>
   op <= 0 ? null : <circle cx={p[0]} cy={p[1]} r={r * Math.min(1, op * 1.2)} fill={color} opacity={op} stroke={C.bg} strokeWidth={3} />;
 
-const Lbl: React.FC<{ p: Pt; t: string; color?: string; size?: number; op?: number; s?: number }> = ({ p, t, color = C.ink, size = 54, op = 1, s = 1 }) =>
+export const Lbl: React.FC<{ p: Pt; t: string; color?: string; size?: number; op?: number; s?: number }> = ({ p, t, color = C.ink, size = 54, op = 1, s = 1 }) =>
   op <= 0 ? null : (
     <text x={p[0]} y={p[1]} fill={color} opacity={op} fontFamily={NUNITO} fontWeight={900} fontSize={size} textAnchor="middle" dominantBaseline="central" paintOrder="stroke" stroke={C.bg} strokeWidth={9} strokeLinejoin="round" transform={s === 1 ? undefined : `translate(${p[0]} ${p[1]}) scale(${s}) translate(${-p[0]} ${-p[1]})`}>
       {t}
@@ -118,7 +119,7 @@ const Chev: React.FC<{ a: Pt; b: Pt; t?: number; color?: string; op?: number }> 
 };
 
 /** Angle arc at screen vertex v from maths angle a0 up to a1 (degrees, a1 > a0), optional wedge fill and label. */
-const Arc: React.FC<{ v: Pt; a0: number; a1: number; r: number; color?: string; op?: number; w?: number; fill?: string; fillOp?: number; label?: string; lr?: number; lcolor?: string; p?: number; s?: number }> = ({
+export const Arc: React.FC<{ v: Pt; a0: number; a1: number; r: number; color?: string; op?: number; w?: number; fill?: string; fillOp?: number; label?: string; lr?: number; lcolor?: string; p?: number; s?: number }> = ({
   v, a0, a1, r, color = C.violet, op = 1, w = 8, fill, fillOp = 0.25, label, lr, lcolor, p = 1, s = 1,
 }) => {
   if (op <= 0 || p <= 0) return null;
@@ -143,7 +144,7 @@ type FigP = {
   pts?: { A?: number; B?: number; C?: number; F?: number }; bisColor?: string; dim?: number;
 };
 
-const Fig: React.FC<FigP> = ({ P, g, tri = 1, top = 1, bis = 1, lens = [0, 0, 0], txt = ['10', '10', '12'], pts = {}, bisColor = C.violet }) => {
+export const Fig: React.FC<FigP> = ({ P, g, tri = 1, top = 1, bis = 1, lens = [0, 0, 0], txt = ['10', '10', '12'], pts = {}, bisColor = C.violet }) => {
   const { A, B, C: Cc, F } = g;
   const pA = P(A);
   const pB = P(B);
@@ -173,7 +174,7 @@ const Fig: React.FC<FigP> = ({ P, g, tri = 1, top = 1, bis = 1, lens = [0, 0, 0]
 };
 
 /** Equal-x arcs: at B (both halves) and at F, each with its own opacity/progress. */
-const XArcs: React.FC<{ P: PF; g: Geo; r: number; b?: number; f?: number; bp?: number; fp?: number; fcolor?: string; s?: number; nl?: boolean }> = ({ P, g, r, b = 1, f = 1, bp = 1, fp = 1, fcolor = C.violet, s = 1, nl = false }) => {
+export const XArcs: React.FC<{ P: PF; g: Geo; r: number; b?: number; f?: number; bp?: number; fp?: number; fcolor?: string; s?: number; nl?: boolean }> = ({ P, g, r, b = 1, f = 1, bp = 1, fp = 1, fcolor = C.violet, s = 1, nl = false }) => {
   const pB = P(g.B);
   const pF = P(g.F);
   const aBF = deg(g.B, g.F);
@@ -188,13 +189,13 @@ const XArcs: React.FC<{ P: PF; g: Geo; r: number; b?: number; f?: number; bp?: n
   );
 };
 
-const ZPath: React.FC<{ P: PF; g: Geo; p: number; op?: number }> = ({ P, g, p, op = 1 }) => {
+export const ZPath: React.FC<{ P: PF; g: Geo; p: number; op?: number }> = ({ P, g, p, op = 1 }) => {
   if (p <= 0 || op <= 0) return null;
   const pts = [P([g.A[0] - 0.3, g.A[1]]), P(g.F), P(g.B), P([g.C[0] + 0.3, 0])];
   return <path d={`M ${pts.map((q) => q.join(' ')).join(' L ')}`} fill="none" stroke={C.amber} strokeWidth={26} strokeLinecap="round" strokeLinejoin="round" opacity={0.42 * op} pathLength={1} strokeDasharray={1} strokeDashoffset={1 - p} />;
 };
 
-const Glow: React.FC<{ a: Pt; b: Pt; op: number; color?: string }> = ({ a, b, op, color = C.amber }) => <Seg a={a} b={b} color={color} w={24} op={0.42 * op} />;
+export const Glow: React.FC<{ a: Pt; b: Pt; op: number; color?: string }> = ({ a, b, op, color = C.amber }) => <Seg a={a} b={b} color={color} w={24} op={0.42 * op} />;
 
 // ---------- html helpers ----------
 
@@ -225,7 +226,7 @@ const QBox: React.FC<{ x: number; y: number; w: number; children: React.ReactNod
   <div style={{ position: 'absolute', left: x, top: y, width: w, background: C.card, borderRadius: 30, padding: '26px 40px', fontSize: 44, fontWeight: 600, lineHeight: 1.5, boxShadow: '0 8px 30px rgba(30,40,80,0.07)', ...style }}>{children}</div>
 );
 
-const CHOICES = ['5', '6', '8', '10', '12'];
+export const CHOICES = ['5', '6', '8', '10', '12'];
 
 // ---------- scenes ----------
 
@@ -673,11 +674,8 @@ const Recap: SceneComponent = ({ scene }) => {
           Two equal angles → two equal sides
         </Card>
       </div>
-      <div style={{ position: 'absolute', left: 1070, width: 800, top: 300, textAlign: 'center', ...fadeUp(f, at(scene, 3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 140, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 58, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
-      <Confetti x={1470} y={400} start={at(scene, 3, 0.2)} seed={7} />
+      <SignOff start={at(scene, 3, 0.1)} />
+      <Confetti x={960} y={380} start={at(scene, 3, 0.2)} seed={7} />
     </>
   );
 };

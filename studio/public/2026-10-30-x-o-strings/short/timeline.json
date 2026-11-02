@@ -1,0 +1,144 @@
+{
+ "fps": 30,
+ "durationInFrames": 1660,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 248,
+   "lines": [
+    {
+     "text": "Four X tiles, four O tiles: seventy strings.",
+     "caption": "Four X tiles, four O tiles: seventy strings.",
+     "file": "2026-10-30-x-o-strings/short/audio/ec9da359c4785d09.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "Is half of them good? NOT even close!",
+     "caption": "Is half of them good? NOT even close!",
+     "file": "2026-10-30-x-o-strings/short/audio/a94d6a42c8f46cd4.wav",
+     "from": 117,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 248,
+   "frames": 245,
+   "lines": [
+    {
+     "text": "Read left to right. At every point, X must have at least as many as O.",
+     "caption": "Read left to right. At every point, X must have at least as many as O.",
+     "file": "2026-10-30-x-o-strings/short/audio/9f9bd8b8fc8233b4.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "How many strings are good?",
+     "caption": "How many strings are good?",
+     "file": "2026-10-30-x-o-strings/short/audio/a344cee672aec97d.wav",
+     "from": 163,
+     "frames": 50
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 493,
+   "frames": 177,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-30-x-o-strings/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "kind": "scene",
+   "chapter": null,
+   "from": 670,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Turn each string into a walk. Each X steps right, and each O steps down.",
+     "caption": "Turn each string into a walk. Each X steps right, and each O steps down.",
+     "file": "2026-10-30-x-o-strings/short/audio/3aaa7673d6a61b97.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "O can never pass X, so the walk never crosses this wall.",
+     "caption": "O can never pass X, so the walk never crosses this wall.",
+     "file": "2026-10-30-x-o-strings/short/audio/cb16b531a2abec9c.wav",
+     "from": 162,
+     "frames": 124
+    },
+    {
+     "text": "Now fill in the grid. Each spot is the left number, plus the number above.",
+     "caption": "Now fill in the grid. Each spot is the left number, plus the number above.",
+     "file": "2026-10-30-x-o-strings/short/audio/c40417c32957cc3c.wav",
+     "from": 297,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1130,
+   "frames": 248,
+   "lines": [
+    {
+     "text": "Keep adding, all the way to the corner. The answer is fourteen!",
+     "caption": "Keep adding, all the way to the corner. The answer is fourteen!",
+     "file": "2026-10-30-x-o-strings/short/audio/1ce6ca0a683d322d.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "That's just one string out of five!",
+     "caption": "That's just one string out of five!",
+     "file": "2026-10-30-x-o-strings/short/audio/1fa7f28b18dc7b1f.wav",
+     "from": 136,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1378,
+   "frames": 282,
+   "lines": [
+    {
+     "text": "Why does adding work? The full lesson has a list, a table, and every trap.",
+     "caption": "Why does adding work? The full lesson has a list, a table, and every trap.",
+     "file": "2026-10-30-x-o-strings/short/audio/231ca9d2be1d7b41.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-30-x-o-strings/short/audio/82b8b7e1a12a7449.wav",
+     "from": 177,
+     "frames": 58
+    }
+   ]
+  }
+ ]
+}

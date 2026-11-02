@@ -6,14 +6,15 @@ import { Stage, XMark } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
+import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-coin-staircase';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
-const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const HC = C.primary; // heads
-const TC = C.violet; // tails
+export const HC = C.primary; // heads
+export const TC = C.violet; // tails
 const GOLD = C.amber;
 const GOLD_D = '#b36b00';
 
@@ -253,7 +254,7 @@ const ChipRow: React.FC<{ x: number; y: number; items: ChipKind[]; start: number
   );
 };
 
-const CHOICES = ['\\dfrac{1}{2}', '\\dfrac{8}{13}', '\\dfrac{5}{8}', '\\dfrac{21}{32}', '\\dfrac{11}{16}'];
+export const CHOICES = ['\\dfrac{1}{2}', '\\dfrac{8}{13}', '\\dfrac{5}{8}', '\\dfrac{21}{32}', '\\dfrac{11}{16}'];
 type Tone = 'n' | 'red' | 'green';
 const ChoiceRow: React.FC<{ x: number; y: number; start: (i: number) => number; tone?: (i: number) => Tone; focus?: (i: number) => number; dim?: number }> = ({ x, y, start, tone = () => 'n', focus = () => 0, dim = 1 }) => {
   const f = useCurrentFrame();
@@ -730,10 +731,7 @@ const Recap: SceneComponent = ({ scene }) => {
           <span>Build up one step at a time, then read off the step you need</span>
         </Card>
       </Fade>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', ...fadeUp(f, t(3, 0.1)) }}>
-        <div style={{ fontFamily: PACIFICO, fontSize: 130, color: C.violet }}>Vantee</div>
-        <div style={{ fontSize: 54, fontWeight: 900, marginTop: 10 }}>Keep exploring!</div>
-      </div>
+      <SignOff start={t(3, 0.1)} />
       <Confetti x={960} y={380} start={t(3, 0.2)} seed={3} />
     </>
   );

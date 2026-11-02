@@ -1,0 +1,54 @@
+{
+ "title": "Geometric Triangles (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "How many triangles have sides growing by the same multiplier?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The triangle has three different whole sides, each the last one times a fixed multiplier.",
+    "The longest is two thousand twenty-five. How many triangles?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "rule",
+   "lines": [
+    "The sides always look like k squared, forty-five k, and two thousand twenty-five.",
+    "Here k runs from one to forty-four. Which ones close into a triangle?",
+    "The short sides must add up to more than the longest. At twenty-seven, they fall short.",
+    "At twenty-eight, they just make it. And so does every bigger one!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Twenty-eight up to forty-four. That's seventeen triangles!",
+    "Forty-four is the trap!"
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why those sides? The full lesson shows two ways, plus every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 1.0
+  }
+ ]
+}

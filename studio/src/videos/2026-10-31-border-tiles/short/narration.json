@@ -1,0 +1,54 @@
+{
+ "title": "40 Blue Edge Tiles, 80 White (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "Forty blue tiles on the edge. Eighty white tiles inside.",
+    "What shape is the floor?"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Square one foot tiles: forty blue on the edge, eighty white inside.",
+    "How many feet longer than wide?"
+   ],
+   "hold": 0.3
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "lines": [
+    "Pause and try it!"
+   ],
+   "hold": 3
+  },
+  {
+   "id": "edge",
+   "lines": [
+    "The edge is two lengths, plus two widths, minus four corners counted twice.",
+    "So two lengths plus two widths is forty-four. Length plus width: twenty-two!",
+    "All one hundred twenty tiles make length times width."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Two numbers add to twenty-two, and multiply to one hundred twenty? Twelve and ten! Two feet longer!",
+    "Check: forty blue, eighty white."
+   ],
+   "hold": 0.5
+  },
+  {
+   "id": "cta",
+   "lines": [
+    "Why twelve and ten? The full lesson shows a list, a faster way, and every trap.",
+    "Tap the link below to watch it!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

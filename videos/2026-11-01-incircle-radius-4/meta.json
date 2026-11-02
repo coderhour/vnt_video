@@ -1,0 +1,12 @@
+{
+ "title": "A Circle of Radius 4: How Big Can the Triangle Get? | AMC 10-Style Level 4",
+ "description": "A circle of radius 4 sits inside a triangle with whole-number sides, touching two sides 6 away from corner A. How big can the perimeter get? Vantee names every side with equal tangent pieces, finds the area two ways (radius times half-perimeter, and Heron's formula), then hunts for whole-number answers with a table and a factoring trick. You'll see why 81 is exactly half the right answer, and get a radius-3 version to try yourself.\n\n0:00 Intro\n0:18 The question\n0:53 Try it yourself\n1:07 Name the sides\n1:50 Area two ways\n2:57 Solution 1: make a table\n4:07 Solution 2: factor it\n4:57 Common traps\n5:19 Your turn: radius 3\n5:43 Radius 3: the answer\n6:45 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-01",
+ "question_id": "amc_practice_amc10_geometry_template:c1-301",
+ "posts": [],
+ "short": {
+  "title": "Biggest perimeter? Most kids stop at HALF #Shorts",
+  "description": "A circle of radius 4 sits inside a whole-number triangle. Equal tangent pieces unlock the biggest perimeter, and 81 is only half of it.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": []
+ }
+}

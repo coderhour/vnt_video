@@ -55,15 +55,18 @@ async function setStatus(v, status) {
   Object.assign(v, { status, fixes });
   render();
 }
-async function uploadYouTube(v, btn) {
-  if (!confirm(`Upload "${v.title}" to YouTube?`)) return;
+// kind: video | short | both. The short goes up after the video, so its description can link to it.
+async function uploadYouTube(v, btn, kind) {
+  const what = { video: `"${v.title}"`, short: `the short "${v.short?.title}"`, both: `"${v.title}" and its short` }[kind];
+  if (!confirm(`Upload ${what} to YouTube?`)) return;
+  const label = btn.textContent;
   btn.disabled = true; btn.textContent = 'Uploading…';
-  const r = await fetch('/api/youtube', { method: 'POST', body: JSON.stringify({ slug: v.slug }) });
+  const r = await fetch('/api/youtube', { method: 'POST', body: JSON.stringify({ slug: v.slug, kind }) });
   const d = await r.json().catch(() => ({ error: 'bad response' }));
-  if (!r.ok) { btn.disabled = false; btn.textContent = 'Publish to YouTube'; return alert('YouTube upload failed: ' + d.error); }
-  v.youtube_id = d.id;
-  v.posts = [...(v.posts || []), { platform: 'YouTube', url: 'https://www.youtube.com/watch?v=' + d.id }];
+  videos = await fetch('/api/videos').then(r => r.json());  // meta.json may have changed even on failure ("both")
   render();
+  if (!r.ok) { btn.disabled = false; btn.textContent = label; alert('YouTube upload failed: ' + d.error); }
+  else if (d.warning) alert(d.warning);
 }
 const badge = v => { const [c, t] = status(v); return el('span', { className: 'badge ' + c }, t); };
 
@@ -73,7 +76,7 @@ function publishFields(v) {
   const hook = (v.description || '').split('\n')[0];
   const xpost = `${v.title}\n\n${hook}`;
   return [
-    ['Title', v.title || ''], ['Description', v.description || ''], ['Tags', tags.join(', ')],
+    ['Title', v.title || ''], ['Description', v.publish_description || v.description || ''], ['Tags', tags.join(', ')],
     ['Hashtags', tags.slice(0, 3).map(t => '#' + t.replace(/\W/g, '')).join(' ')],
     ['X post', xpost.length > 280 ? xpost.slice(0, 279) + '…' : xpost],
     ['Category', 'Education'], ['Language', 'English'],
@@ -121,15 +124,21 @@ function render() {
   detail.replaceChildren(
     v.video ? el('video', { src: v.video, controls: true, ...(v.poster && { poster: v.poster }) })
             : el('p', {}, 'video.mp4 not found'),
+    ...(v.short_video ? [el('h2', {}, 'Short' + (v.short?.title ? `: ${v.short.title}` : '')),
+      el('video', { src: v.short_video, controls: true, style: 'width: auto; height: 70vh' })] : []),
     el('h1', {}, v.title || v.slug),
     el('p', { className: 'meta' }, `Created ${v.created || '—'} · ${v.slug}${v.question_id ? ` · Question ${v.question_id}` : ''}`),
     el('p', {}, badge(v), ...(v.posts?.length ? [] : Object.entries({
         ready: 'Mark ready to publish', fix: 'Needs fix', draft: 'Back to draft' })
       .filter(([k]) => k !== status(v)[0])
       .map(([k, label]) => el('button', { onclick: () => setStatus(v, k), style: 'margin-left: 8px' }, label))),
-      ...(v.youtube_id || !v.video ? [] : [el('button', { onclick: e => uploadYouTube(v, e.target), style: 'margin-left: 8px' }, 'Publish to YouTube')])),
+      ...[['video', 'Publish to YouTube', !v.youtube_id && v.video],
+          ['both', 'Publish video + short', !v.youtube_id && v.video && v.short_video && v.short],
+          ['short', 'Publish short', v.youtube_id && v.short_video && v.short && !v.short.youtube_id]]
+        .filter(([, , show]) => show)
+        .map(([kind, label]) => el('button', { onclick: e => uploadYouTube(v, e.target, kind), style: 'margin-left: 8px' }, label))),
     ...(v.fixes?.length ? [el('ul', {}, ...v.fixes.map(f => el('li', {}, f)))] : []),
-    ...(v.posts?.length ? [el('h2', {}, 'Published'), el('ul', {}, ...v.posts.map(p =>
+    ...(v.posts?.length ? [el('h2', {}, 'Published'), el('ul', {}, ...[...v.posts, ...(v.short?.posts || [])].map(p =>
       el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.platform || p.url))))] : []),
     el('h2', {}, 'Publish metadata'),
     el('table', { className: 'pub' }, ...publishFields(v).map(([k, val]) => el('tr', {},

@@ -1,0 +1,158 @@
+{
+ "fps": 30,
+ "durationInFrames": 1681,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 195,
+   "lines": [
+    {
+     "text": "Twenty dots. How many squares?",
+     "caption": "Twenty dots. How many squares?",
+     "file": "2026-10-29-dot-grid-squares/short/audio/92773e8b1754f8c1.wav",
+     "from": 0,
+     "frames": 63
+    },
+    {
+     "text": "Most kids say twenty. But there are MORE hiding!",
+     "caption": "Most kids say twenty. But there are MORE hiding!",
+     "file": "2026-10-29-dot-grid-squares/short/audio/e7d2a519c40c634d.wav",
+     "from": 73,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 195,
+   "frames": 388,
+   "lines": [
+    {
+     "text": "Twenty dots, in four rows of five.",
+     "caption": "Twenty dots, in four rows of five.",
+     "file": "2026-10-29-dot-grid-squares/short/audio/59cd490767e67fb5.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "Count every square with dot corners. Tilted ones too!",
+     "caption": "Count every square with dot corners. Tilted ones too!",
+     "file": "2026-10-29-dot-grid-squares/short/audio/8eca5974a6d9be1e.wav",
+     "from": 103,
+     "frames": 104
+    },
+    {
+     "text": "Is it twenty, twenty-four, twenty-six, thirty, or forty?",
+     "caption": "Is it twenty, twenty-four, twenty-six, thirty, or forty?",
+     "file": "2026-10-29-dot-grid-squares/short/audio/1e62320ce7c3b92e.wav",
+     "from": 217,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "pause",
+   "chapter": null,
+   "from": 583,
+   "frames": 168,
+   "lines": [
+    {
+     "text": "Pause and try it!",
+     "caption": "Pause and try it!",
+     "file": "2026-10-29-dot-grid-squares/short/audio/1763ee175ca623bd.wav",
+     "from": 0,
+     "frames": 54
+    }
+   ]
+  },
+  {
+   "id": "tilt",
+   "kind": "scene",
+   "chapter": null,
+   "from": 751,
+   "frames": 456,
+   "lines": [
+    {
+     "text": "First, the upright squares. There are twenty.",
+     "caption": "First, the upright squares. There are twenty.",
+     "file": "2026-10-29-dot-grid-squares/short/audio/70ea5769dac62068.wav",
+     "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "But look at this one, standing on its corner!",
+     "caption": "But look at this one, standing on its corner!",
+     "file": "2026-10-29-dot-grid-squares/short/audio/4cb237c4ce90fa07.wav",
+     "from": 91,
+     "frames": 83
+    },
+    {
+     "text": "Every two by two box hides one. That's six more.",
+     "caption": "Every two by two box hides one. That's six more.",
+     "file": "2026-10-29-dot-grid-squares/short/audio/987e326105df876f.wav",
+     "from": 184,
+     "frames": 96
+    },
+    {
+     "text": "And four big tilted ones. Twenty, plus six, plus four.",
+     "caption": "And four big tilted ones. Twenty, plus six, plus four.",
+     "file": "2026-10-29-dot-grid-squares/short/audio/22a3b624e0d6556b.wav",
+     "from": 291,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1207,
+   "frames": 188,
+   "lines": [
+    {
+     "text": "Thirty squares!",
+     "caption": "Thirty squares!",
+     "file": "2026-10-29-dot-grid-squares/short/audio/517c8a82cb308cef.wav",
+     "from": 0,
+     "frames": 48
+    },
+    {
+     "text": "A third of them are tilted. Easy to miss!",
+     "caption": "A third of them are tilted. Easy to miss!",
+     "file": "2026-10-29-dot-grid-squares/short/audio/667c8cfb3cfd1063.wav",
+     "from": 59,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1395,
+   "frames": 286,
+   "lines": [
+    {
+     "text": "Want the exact working? The full lesson shows two neat ways, plus every trap.",
+     "caption": "Want the exact working? The full lesson shows two neat ways, plus every trap.",
+     "file": "2026-10-29-dot-grid-squares/short/audio/a4e699143037749c.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "Tap the link below to watch it!",
+     "caption": "Tap the link below to watch it!",
+     "file": "2026-10-29-dot-grid-squares/short/audio/82b8b7e1a12a7449.wav",
+     "from": 161,
+     "frames": 56
+    }
+   ]
+  }
+ ]
+}
