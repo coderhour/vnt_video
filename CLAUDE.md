@@ -25,3 +25,7 @@ Publishing: YouTube via the site buttons (`tools/youtube.py`): video, video + sh
 (its description links the video via `{full_video_url}`). Full videos also go into the channel's AMC 8 / AMC 10
 playlist (ids in `videos/playlists.json`, `meta.json` gets `playlist_id`; backfill: `python3 tools/youtube.py playlists`).
 Other platforms are manual. No stats automation.
+Vantee app delivery (quiz review player, vnt change `quiz-video-explainer`): `python3 tools/export_vnt.py /home/brad/code/vnt [--slug S] [--dry-run]`
+writes each ready/published English video's offline Remotion Player bundle (`studio/export/`) to `vnt/priv/static/video_explainers/<slug>/`,
+its `explainer.json` to `vnt/priv/video_explainers/<slug>/`, and mp3 audio to `vnt/tmp/video_explainers/` (then `mix vnt.video_explainers.upload`
+in vnt with the public-bucket key). Test: `cd tools && python3 test_export_vnt.py`. vnt never depends on this repo at runtime.
