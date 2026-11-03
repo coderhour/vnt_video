@@ -22,7 +22,8 @@ This is the video generation project for Vantee. The Vantee code repo is located
   Test: `cd tools && python3 test_serve.py`.
 
 Publishing: YouTube via the site buttons (`tools/youtube.py`): video, video + short, or the short once the video is up
-(its description links the video via `{full_video_url}`). Full videos also go into the channel's AMC 8 / AMC 10
+(its description links the video via `{full_video_url}`). "Republish short" uploads the current `short.mp4` as a NEW short (YouTube can't swap a file) and sets the old one
+private (kept under `short.replaced`); its confirm dialog lists the impact. Full videos also go into the channel's AMC 8 / AMC 10
 playlist (ids in `videos/playlists.json`, `meta.json` gets `playlist_id`; backfill: `python3 tools/youtube.py playlists`).
 TikTok: post `short.mp4` by hand (copy the "TikTok caption" row, tick "Your brand"), then "Mark short on TikTok" saves the link to `short.posts`. The API path (`tools/tiktok.py`, setup in its docstring) only posts to private accounts until TikTok audits the app. Other platforms are manual. No stats automation.
 Vantee app delivery (quiz review player, vnt change `quiz-video-explainer`): `python3 tools/export_vnt.py /home/brad/code/vnt [--slug S] [--dry-run]`

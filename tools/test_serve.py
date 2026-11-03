@@ -54,3 +54,29 @@ assert not serve.valid_slug("../videos") and not serve.valid_slug(None)
 assert "utm_campaign=x-y" in youtube.footer("x-y", "video") and "{" not in youtube.footer("x-y", "short")
 assert youtube.contest({"question_id": "amc_practice_amc8_x:c1"}) == "AMC 8"
 print("ok youtube")
+
+with tempfile.TemporaryDirectory() as tmp:  # republish: new short saved, old one private and kept under short.replaced
+    real = youtube.ROOT, youtube.put, youtube.set_private
+    youtube.ROOT = Path(tmp)
+    d = Path(tmp) / "videos/s"; d.mkdir(parents=True); (d / "short.mp4").write_bytes(b"x")
+    m = d / "meta.json"
+    m.write_text('{"youtube_id": "v", "short": {"title": "t", "posts": [{"platform": "TikTok", "url": "tt"}]}}')
+    youtube.put = lambda *a, **k: "new1"
+    try:
+        youtube.upload_short("s", replace=True); raise AssertionError("replaced a short that was never up")
+    except RuntimeError as e:
+        assert "Publish short" in str(e)
+    m.write_text('{"youtube_id": "v", "short": {"title": "t", "youtube_id": "old", "posts": [{"platform": "YouTube Shorts", "url": "u"}, {"platform": "TikTok", "url": "tt"}]}}')
+    hidden = []
+    youtube.set_private = hidden.append
+    assert youtube.upload_short("s", replace=True) == "new1" and hidden == ["old"]
+    sh = json.loads(m.read_text())["short"]
+    assert sh["youtube_id"] == "new1" and sh["replaced"] == [{"youtube_id": "old", "url": "https://www.youtube.com/shorts/old", "status": "private"}]
+    assert sh["posts"] == [{"platform": "TikTok", "url": "tt"}, {"platform": "YouTube Shorts", "url": "https://www.youtube.com/shorts/new1"}]
+    def fail(vid): raise RuntimeError("403 insufficient scope")
+    youtube.set_private, youtube.put = fail, (lambda *a, **k: "new2")
+    assert youtube.upload_short("s", replace=True) == "new2"  # the upload is kept even if hiding the old one fails
+    sh = json.loads(m.read_text())["short"]
+    assert sh["youtube_id"] == "new2" and sh["replaced"][-1]["youtube_id"] == "new1" and sh["replaced"][-1]["status"].startswith("still public")
+    youtube.ROOT, youtube.put, youtube.set_private = real
+print("ok republish")

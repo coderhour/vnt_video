@@ -27,7 +27,7 @@
 </style>
 </head>
 <body>
-<nav><input id="q" type="search" placeholder="Search videos…" oninput="render()" aria-label="Search videos"><select id="filter" onchange="render()" aria-label="Filter by status"></select><div id="list"></div></nav>
+<nav><input id="q" type="search" placeholder="Search videos…" oninput="render()" aria-label="Search videos"><select id="filter" onchange="render()" aria-label="Filter by status"></select><select id="sort" onchange="render()" aria-label="Group videos"><option value="bank">By quiz bank</option><option value="challenge">By challenge #</option></select><div id="list"></div></nav>
 <main id="detail"></main>
 <script>
 function el(tag, props, ...kids) {
@@ -55,11 +55,21 @@ async function setStatus(v, status) {
   Object.assign(v, { status, fixes });
   render();
 }
-// kind: video | short | both. The short goes up after the video, so its description can link to it.
+// What "Republish short" does, shown before it runs (YouTube can't swap the file of an uploaded video).
+const REPUBLISH = v => `Republish the short "${v.short?.title}" to YouTube?
+
+What happens:
+• The current short.mp4 is uploaded as a NEW short, with its current title, description and challenge number.
+• The old short (${v.short?.youtube_id}) is set to PRIVATE: hidden from viewers, kept on the channel (not deleted), so you can undo it in YouTube Studio.
+• Views, likes and comments of the old short do NOT carry over: the new one starts from zero.
+• The old link stops working for viewers; meta.json gets the new link (the old one is kept under short.replaced).
+• Afterwards, set the new short's Related video to the full lesson in YouTube Studio again (the API can't).`;
+// kind: video | short | both | republish. The short goes up after the video, so its description can link to it.
 async function uploadYouTube(v, btn, kind, site = 'youtube') {
   const what = { video: `"${v.title}"`, short: `the short "${v.short?.title}"`, both: `"${v.title}" and its short` }[kind];
   const name = { youtube: 'YouTube', tiktok: 'TikTok' }[site];
-  if (!confirm(`Upload ${what} to ${name}?`)) return;
+  const ask = kind === 'republish' ? REPUBLISH(v) : `Upload ${what} to ${name}?`;
+  if (!confirm(ask)) return;
   const label = btn.textContent;
   btn.disabled = true; btn.textContent = 'Uploading…';
   const r = await fetch('/api/' + site, { method: 'POST', body: JSON.stringify({ slug: v.slug, kind }) });
@@ -118,14 +128,18 @@ function render() {
     const text = [v.title, v.slug, v.question_id, v.description].join(' ').toLowerCase();
     return words.every(w => text.includes(w));
   });
-  // One folder per quiz bank (question_id = "<bank>:<id>"), videos inside.
-  const banks = Map.groupBy(shown, v => v.question_id?.split(':')[0] || 'Other');
-  list.replaceChildren(...[...banks].sort(([a], [b]) => a.localeCompare(b)).map(([bank, vs]) =>
+  // One folder per quiz bank (question_id = "<bank>:<id>"), or per short series in challenge order (the publish order).
+  const bySeries = sort.value === 'challenge';
+  // ponytail: a "-zh" slug is the Chinese series; store a series field in meta.json if more languages come
+  const series = v => !v.short?.challenge ? 'No short' : `${v.slug.endsWith('-zh') ? 'Chinese' : v.short.tags?.[0] || 'Other'} challenges`;
+  const banks = Map.groupBy(bySeries ? [...shown].sort((a, b) => (a.short?.challenge ?? 1e9) - (b.short?.challenge ?? 1e9)) : shown,
+    v => bySeries ? series(v) : v.question_id?.split(':')[0] || 'Other');
+  list.replaceChildren(...[...banks].sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true })).map(([bank, vs]) =>
     el('details', { open: words.length > 0 || !closed.has(bank), ontoggle: e => closed[e.target.open ? 'delete' : 'add'](bank) },
       el('summary', { title: bank }, `${bank.replace(/^amc_practice_|_template$/g, '')} (${vs.length})`),
       ...vs.map(v => el('a',
         { href: '#' + encodeURIComponent(v.slug), className: v.slug === slug ? 'active' : '' },
-        v.title || v.slug, el('br'), badge(v),
+        bySeries && v.short?.challenge ? `#${v.short.challenge} ` : '', v.title || v.slug, el('br'), badge(v),
         el('small', {}, [v.question_id?.split(':')[1], v.created].filter(Boolean).join(' · ')))))));
 
   if (!shown.length) list.replaceChildren(el('p', { style: 'padding: 0 16px' }, 'No matching videos.'));
@@ -145,6 +159,7 @@ function render() {
       ...[['video', 'Publish to YouTube', !v.youtube_id && v.video],
           ['both', 'Publish video + short', !v.youtube_id && v.video && v.short_video && v.short],
           ['short', 'Publish short', v.youtube_id && v.short_video && v.short && !v.short.youtube_id],
+          ['republish', 'Republish short', v.short_video && v.short?.youtube_id],
           ]
         .filter(([, , show]) => show)
         .map(([kind, label, , site]) => el('button', { onclick: e => uploadYouTube(v, e.target, kind, site), style: 'margin-left: 8px' }, label)),

@@ -128,7 +128,7 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             d = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
             slug, kind = d["slug"], d.get("kind", "video")  # video | short | both
-            if not valid_slug(slug) or kind not in ("video", "short", "both"):
+            if not valid_slug(slug) or kind not in ("video", "short", "both", "republish"):
                 raise RuntimeError("bad slug or kind")
             body = {}
             if self.path == "/api/tiktok":  # ponytail: shorts only; the 16:9 videos don't suit TikTok
@@ -137,6 +137,11 @@ class Handler(SimpleHTTPRequestHandler):
                 body["id"] = youtube.upload(slug)
             if self.path == "/api/youtube" and kind in ("short", "both"):  # after the video, so the short can link to it
                 body["short_id"] = youtube.upload_short(slug)
+            if self.path == "/api/youtube" and kind == "republish":  # new short; the old one goes private
+                body["short_id"] = youtube.upload_short(slug, replace=True)
+                gone = json.loads((VIDEOS / slug / "meta.json").read_text())["short"]["replaced"][-1]
+                if gone["status"] != "private":
+                    body["warning"] = f"New short is up, but the old one ({gone['url']}) is {gone['status']}"
             if self.path == "/api/youtube" and kind in ("video", "both"):
                 try:
                     youtube.add_to_playlist(slug)

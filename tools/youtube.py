@@ -6,6 +6,8 @@ Over SSH: connect with `ssh -L 8765:localhost:8765 <server>`, run auth there, op
 Upload from the shell: python3 tools/youtube.py upload <slug>   (the preview site's button calls upload() too)
                        python3 tools/youtube.py upload-short <slug>   (needs the full video uploaded first; its URL
                        fills {full_video_url} in meta.json short.description)
+                       python3 tools/youtube.py republish-short <slug>   (upload the current short.mp4 as a NEW short,
+                       set the old one private; YouTube can't replace a video's file)
                        python3 tools/youtube.py playlists   (add every published video to its AMC 8 / AMC 10 playlist;
                        uploads do this too. Needs the "youtube" scope: re-run auth if the token predates it)
 Optional env: YOUTUBE_PRIVACY (public | unlisted | private, default public), YOUTUBE_MADE_FOR_KIDS=1."""
@@ -186,8 +188,14 @@ def short_description(meta):
 FULL = "{full_video_url}"
 
 
-def upload_short(slug):
-    """Upload short.mp4 after the full video is on YouTube; saves short.youtube_id and short.posts. Returns the id."""
+def shorts_url(vid):
+    return f"https://www.youtube.com/shorts/{vid}"
+
+
+def upload_short(slug, replace=False):
+    """Upload short.mp4 after the full video is on YouTube; saves short.youtube_id and short.posts. Returns the id.
+    replace=True re-uploads a short that is already up (YouTube can't swap a video's file): the new one gets the
+    current short.mp4/title/description, the old one is set to private (kept, not deleted) and moves to short.replaced."""
     d = ROOT / "videos" / slug
     meta = json.loads((d / "meta.json").read_text())
     if not meta.get("youtube_id"):
@@ -195,15 +203,38 @@ def upload_short(slug):
     short = meta.get("short")
     if not short or not (d / "short.mp4").exists():
         raise RuntimeError("no short.mp4 / meta.json short")
-    if short.get("youtube_id"):
-        raise RuntimeError(f"short already on YouTube: {short['youtube_id']}")
+    old = short.get("youtube_id")
+    if old and not replace:
+        raise RuntimeError(f"short already on YouTube: {old}")
+    if replace and not old:
+        raise RuntimeError("no short on YouTube to replace: use Publish short")
     title = short["title"] if "#shorts" in short["title"].lower() else f"{short['title']} #Shorts"
     vid = put(d / "short.mp4", title, short_description(meta) + footer(slug, "short"), tags(meta))
     meta = json.loads((d / "meta.json").read_text())
-    meta["short"]["youtube_id"] = vid
-    meta["short"].setdefault("posts", []).append({"platform": "YouTube Shorts", "url": f"https://www.youtube.com/shorts/{vid}"})
+    s = meta["short"]
+    s["youtube_id"] = vid
+    s["posts"] = [p for p in s.get("posts", []) if p.get("platform") != "YouTube Shorts"] + [{"platform": "YouTube Shorts", "url": shorts_url(vid)}]
+    if old:  # the new short is saved first, so a failure below never loses it
+        try:
+            set_private(old)
+            hidden = "private"
+        except RuntimeError as e:
+            hidden = f"still public, set it private in YouTube Studio ({e})"
+        s.setdefault("replaced", []).append({"youtube_id": old, "url": shorts_url(old), "status": hidden})
     save(d, meta)
     return vid
+
+
+def set_private(vid):
+    """Make a video private, keeping its other status settings (videos.update replaces the whole status part)."""
+    auth_h = {"Authorization": f"Bearer {access_token()}"}
+    items = call(f"https://www.googleapis.com/youtube/v3/videos?part=status&id={vid}", headers=auth_h)[1].get("items")
+    if not items:
+        raise RuntimeError(f"video {vid} not found")
+    keep = ("embeddable", "license", "publicStatsViewable", "selfDeclaredMadeForKids")
+    status = {k: v for k, v in items[0]["status"].items() if k in keep} | {"privacyStatus": "private"}
+    call("https://www.googleapis.com/youtube/v3/videos?part=status", json.dumps({"id": vid, "status": status}).encode(),
+         {**auth_h, "Content-Type": "application/json"}, "PUT")
 
 
 if __name__ == "__main__":
@@ -213,6 +244,8 @@ if __name__ == "__main__":
         print(upload(sys.argv[2]))
     elif sys.argv[1:2] == ["upload-short"] and len(sys.argv) == 3:
         print(upload_short(sys.argv[2]))
+    elif sys.argv[1:2] == ["republish-short"] and len(sys.argv) == 3:
+        print(upload_short(sys.argv[2], replace=True))
     elif sys.argv[1:2] == ["playlists"]:  # backfill: every published video into its contest playlist
         for m in sorted((ROOT / "videos").glob("*/meta.json")):
             if add_to_playlist(m.parent.name):
