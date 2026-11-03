@@ -1,73 +1,68 @@
-import { Audio, Sequence, staticFile, useCurrentFrame } from 'remotion';
+import { Audio, Sequence, useCurrentFrame } from 'remotion';
 import { ease, fadeTo, fadeUp, pop, range } from '../../../lib/anim';
 import { at, type SceneComponent, type Timeline } from '../../../lib/Explainer';
-import { Countdown } from '../../../lib/PauseCard';
 import { Stage } from '../../../lib/grid';
-import { FullLessonCard, ShortFrame } from '../../../lib/Short';
+import { CommentBubble, CtaPill, MUSIC, PushIn, SFX, Sfx, ShortFrame, choicePulse } from '../../../lib/Short';
 import { Tex } from '../../../lib/Tex';
 import { Confetti, Text } from '../../../lib/ui';
 import { C } from '../../../lib/theme';
-import { Arc, CHIME, CHOICES, HIT, Half, MISS, NEXT6, Ngon, Outside, Ring, SLUG, Shape, TICK, gapsOf, rot } from '../Composition';
+import { Arc, CHIME, CHOICES, HIT, Half, MISS, NEXT6, Ngon, Outside, Ring, SLUG, Shape, gapsOf, rot } from '../Composition';
 
 export { SLUG };
 
+// New recipe (~38 s): trap-first AMC 10 hook (260 = the misses), question, comment bait, the misses scene big
+// (hit → miss, the half, zoom on "first + next six" while the 20 ways cycle, the first corner goes round all 13,
+// 13 × 20 = 260), reveal 715 − 260 = 455 + CTA pill. First and last frames show the same green hit shape.
+
 type G = Parameters<typeof Ngon>[0]['g'];
-const MAIN: G = { cx: 540, cy: 860, R: 290, n: 13 };
-
-const Title: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <Text x={540} y={300} w={980} size={76} weight={900} align="center">
-    {children}
-  </Text>
-);
-
-const Mid: React.FC<{ y: number; start: number; tex: string; size?: number; color?: string }> = ({ y, start, tex, size = 64, color = C.ink }) => {
-  const f = useCurrentFrame();
-  return (
-    <div style={{ position: 'absolute', left: 0, width: 1080, top: y, textAlign: 'center', whiteSpace: 'nowrap', ...fadeUp(f, start) }}>
-      <Tex tex={tex} size={size} color={color} />
-    </div>
-  );
-};
+const MAIN: G = { cx: 540, cy: 880, R: 300, n: 13 };
+const before = () => -100;
 
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const swap = at(scene, 1, 0.5);
-  const hitOn = f < swap;
+  const nope = at(scene, 0, 0.84);
   return (
     <>
-      <Title>
-        Does it hold the <span style={{ color: C.primary }}>center</span>?
-      </Title>
-      <Stage>
-        <Ngon g={MAIN} centre={hitOn ? C.green : C.red} />
-        <Shape g={MAIN} set={HIT} color={C.green} opacity={fadeTo(f, swap, 0, 8)} />
-        <Shape g={MAIN} set={MISS} color={C.red} progress={ease(f, swap + 4, 18)} />
-      </Stage>
-      <Text x={540} y={1215} w={900} size={64} weight={900} color={hitOn ? C.green : C.red} align="center">
-        {hitOn ? '✓ hit' : '✗ miss'}
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10 · Challenge #5</div>
+      </div>
+      <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
+        Think it's <span style={{ color: C.red }}>260</span>?
       </Text>
+      <PushIn frames={scene.frames} origin="540px 880px">
+        <Stage>
+          <Ngon g={MAIN} centre={C.green} />
+          <Shape g={MAIN} set={HIT} color={C.green} />
+        </Stage>
+      </PushIn>
+      <Sfx at={nope} src={SFX.buzz} volume={0.35} />
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 780, display: 'flex', justifyContent: 'center', opacity: ease(f, nope, 4) }}>
+        <div style={{ transform: `rotate(-8deg) scale(${pop(f, nope)})`, border: `14px solid ${C.red}`, color: C.red, background: 'rgba(255,255,255,0.92)', borderRadius: 28, padding: '6px 54px', fontSize: 150, fontWeight: 900, letterSpacing: 6 }}>
+          NOPE
+        </div>
+      </div>
     </>
   );
 };
 
-const QG: G = { cx: 540, cy: 800, R: 190, n: 13 };
+const QG: G = { cx: 540, cy: 810, R: 200, n: 13 };
 
-const QuestionBody: React.FC<{ start: (i: number) => number; mark: number }> = ({ start, mark }) => {
+const QuestionBody: React.FC<{ start: (i: number) => number; pulse?: (i: number) => number }> = ({ start, pulse = () => 1 }) => {
   const f = useCurrentFrame();
   return (
     <>
-      <div style={{ position: 'absolute', left: 60, top: 300, width: 860, background: C.card, borderRadius: 32, padding: '30px 40px', fontSize: 50, fontWeight: 700, lineHeight: 1.4, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
-        Pick <b style={{ color: C.primary }}>4 of the 13 corners</b>. How many choices <b style={{ color: C.violet }}>contain the center</b>?
+      <div style={{ position: 'absolute', left: 50, top: 290, width: 980, boxSizing: 'border-box', background: C.card, borderRadius: 32, padding: '26px 40px', fontSize: 54, fontWeight: 800, lineHeight: 1.35, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
+        Join <b style={{ color: C.primary }}>4 corners</b> of a regular <b style={{ color: C.primary, whiteSpace: 'nowrap' }}>13-sided</b> shape. How many choices <b style={{ color: C.violet }}>hold the center</b>?
       </div>
       <Stage>
-        <Ngon g={QG} centre={mark > 0.5 ? C.green : C.ink} />
-        <Shape g={QG} set={HIT} color={C.primary} opacity={mark} />
+        <Ngon g={QG} centre={C.green} />
+        <Shape g={QG} set={HIT} color={C.primary} />
       </Stage>
-      <div style={{ position: 'absolute', left: 60, top: 1050, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 20 }}>
+      <div style={{ position: 'absolute', left: 60, top: 1060, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 22 }}>
         {CHOICES.map((c, i) => (
-          <div key={c} style={{ ...fadeUp(f, start(i), 10), background: C.card, borderRadius: 18, padding: '10px 24px', boxShadow: '0 4px 14px rgba(30,40,80,0.07)', display: 'flex', alignItems: 'center', gap: 12 }}>
-            <span style={{ color: C.muted, fontSize: 34, fontWeight: 800 }}>{'ABCDE'[i]}</span>
-            <Tex tex={c} size={52} />
+          <div key={c} style={{ ...fadeUp(f, start(i), 8), background: C.card, borderRadius: 22, padding: '12px 30px', boxShadow: '0 4px 14px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', gap: 14, scale: String(pulse(i)) }}>
+            <span style={{ color: C.muted, fontSize: 44, fontWeight: 900 }}>{'ABCDE'[i]}</span>
+            <Tex tex={c} size={68} />
           </div>
         ))}
       </div>
@@ -75,114 +70,136 @@ const QuestionBody: React.FC<{ start: (i: number) => number; mark: number }> = (
   );
 };
 
-const Question: SceneComponent = ({ scene }) => {
-  const f = useCurrentFrame();
-  return <QuestionBody start={(i) => at(scene, 1, 0.1 + i * 0.12)} mark={ease(f, at(scene, 0, 0.5), 14)} />;
-};
-
-const Think: SceneComponent = ({ scene }) => (
+const Question: SceneComponent = ({ scene }) => (
   <>
-    <div style={{ opacity: 0.35 }}>
-      <QuestionBody start={() => -100} mark={1} />
-    </div>
-    <div style={{ position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, background: 'rgba(246,247,251,0.6)' }} />
-    <Countdown scene={scene} seconds={3} x={540} y={900} tick={TICK} />
+    <QuestionBody start={(i) => at(scene, 1, 0.2 + i * 0.1)} />
+    <Sfx at={0} src={SFX.whoosh} volume={0.3} />
   </>
 );
 
+const Think: SceneComponent = () => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      <QuestionBody start={before} pulse={(i) => choicePulse(f, i)} />
+      <CommentBubble />
+    </>
+  );
+};
+
+// ---------- count the misses ----------
+
 const Misses: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const half = at(scene, 1, 0.3);
+  const toMiss = at(scene, 0, 0.55);
+  const half = at(scene, 1, 0.45);
   const six = at(scene, 2, 0.3);
   const l3 = at(scene, 3);
   const end = l3 + scene.lines[3].frames;
-  // line 3: step through the 20 ways to pick three of the next six, then slide the first corner round all 13 places
-  const c0 = l3 + 3;
-  const ci = Math.max(0, Math.min(19, Math.floor((f - c0) / 4)));
-  const r0 = c0 + 84;
-  const rStep = Math.max(2, Math.floor((end - 20 - r0) / 13));
+  // line 2: the 20 ways to pick three of the next six, 3 frames each
+  const c0 = at(scene, 2, 0.5);
+  const ci = Math.max(0, Math.min(19, Math.floor((f - c0) / 3)));
+  const cycling = f >= c0 && f < l3;
+  // line 3: slide the first corner round all 13 places
+  const r0 = l3 + 4;
+  const rStep = Math.max(2, Math.floor((end - 30 - r0) / 12));
   const r = f < r0 ? 0 : Math.min(12, Math.floor((f - r0) / rStep));
-  const cycling = f >= c0 && f < r0;
   const pick = f < c0 ? [2, 3, 5] : NEXT6[ci];
-  const set = f < l3 ? MISS : rot([0, ...pick], r, 13);
+  const set = f < toMiss ? HIT : f < l3 ? MISS : rot([0, ...pick], r, 13);
   const first = f < l3 ? 0 : r;
+  const missOn = f >= toMiss;
   const g = gapsOf(set, 13);
   const bigIdx = g.findIndex((x) => x > 6);
   const bigFrom = [...set].sort((a, b) => a - b)[bigIdx];
-  const sixOn = ease(f, six, 8) * fadeTo(f, l3 + 4, 0.0, 8);
+  const sixOn = ease(f, six, 8) * fadeTo(f, l3 + 2, 0, 8);
+  const zIn = at(scene, 2, 0.25);
+  const zOut = l3 - 6;
+  const zoom = 1 + 0.22 * ease(f, zIn, 12) - 0.22 * ease(f, zOut, 10);
+  const total = end - 26;
   return (
     <>
-      <Stage>
-        <Half g={MAIN} a={first} opacity={ease(f, half, 14)} />
-        <Ngon g={MAIN} centre={C.red} />
-        <Arc g={MAIN} a={bigFrom} steps={g[bigIdx]} color={C.red} opacity={ease(f, at(scene, 0, 0.5), 12)} />
-        {range(6).map((i) => (
-          <Ring key={i} g={MAIN} k={first + i + 1} color={C.violet} opacity={f < l3 ? ease(f, six + i * 4, 8) : 1} />
-        ))}
-        <Shape g={MAIN} set={set} color={C.red} />
-        <Outside g={MAIN} k={first} text="first" color={C.violet} opacity={ease(f, six - 6, 8)} d={56} />
-        {range(6).map((i) => (
-          <Outside key={`n${i}`} g={MAIN} k={first + i + 1} text={`${i + 1}`} color={C.violet} opacity={sixOn} d={56} size={44} />
-        ))}
-      </Stage>
-      <Text x={540} y={420} w={980} size={66} weight={900} align="center" style={fadeUp(f, at(scene, 0, 0.2))}>
-        {f < half - 4 ? (
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={toMiss} src={SFX.buzz} volume={0.18} />
+      <Sfx at={half} src={SFX.click} volume={0.25} />
+      <Sfx at={zIn} src={SFX.whoosh} volume={0.25} />
+      <Sfx at={zOut} src={SFX.whoosh} volume={0.22} />
+      {range(7).map((i) => <Sfx key={i} at={c0 + i * 9} src={SFX.click} volume={0.24} />)}
+      {range(7).map((i) => <Sfx key={`r${i}`} at={r0 + 2 * i * rStep} src={SFX.click} volume={0.26} />)}
+      <div style={{ position: 'absolute', inset: 0, transform: `scale(${zoom})`, transformOrigin: `${MAIN.cx + MAIN.R}px ${MAIN.cy - 40}px` }}>
+        <Stage>
+          <Half g={MAIN} a={first} opacity={ease(f, half, 14)} />
+          <Ngon g={MAIN} centre={missOn ? C.red : C.green} />
+          {missOn && bigIdx >= 0 && <Arc g={MAIN} a={bigFrom} steps={g[bigIdx]} color={C.red} opacity={ease(f, toMiss + 6, 10)} />}
+          {range(6).map((i) => (
+            <Ring key={i} g={MAIN} k={first + i + 1} color={C.violet} opacity={f < l3 ? ease(f, six + i * 4, 8) : 1} />
+          ))}
+          <Shape g={MAIN} set={set} color={missOn ? C.red : C.green} />
+          <Outside g={MAIN} k={first} text="first" color={C.violet} opacity={ease(f, six - 6, 8)} d={60} size={52} />
+          {range(6).map((i) => (
+            <Outside key={`n${i}`} g={MAIN} k={first + i + 1} text={`${i + 1}`} color={C.violet} opacity={sixOn} d={58} size={48} />
+          ))}
+        </Stage>
+      </div>
+      {/* main readout */}
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 290, textAlign: 'center', fontSize: 80, fontWeight: 900, whiteSpace: 'nowrap' }}>
+        {f < toMiss ? (
+          <span style={fadeUp(f, 4, 8)}>
+            <span style={{ color: C.primary }}>715</span> choices
+          </span>
+        ) : f < at(scene, 1) ? (
           <>
-            Count the <span style={{ color: C.red }}>misses</span>
+            count the <span style={{ color: C.red }}>misses</span>
           </>
-        ) : f < l3 ? (
-          <span style={{ color: C.violet }}>Miss = all 4 in one half</span>
-        ) : cycling ? (
-          <>
-            way <span style={{ color: C.violet }}>{ci + 1}</span> of 20
-          </>
-        ) : r < 12 || f < end - 24 ? (
-          <>
-            first corner <span style={{ color: C.violet }}>{r + 1}</span> of 13
-          </>
-        ) : null}
-      </Text>
-      {f >= end - 24 && <Mid y={420} start={end - 24} tex="13 \times 20 = 260 \text{ misses}" size={64} color={C.red} />}
+        ) : f < at(scene, 2) ? (
+          <span style={{ color: C.red, fontSize: 72 }}>miss = all 4 in one half</span>
+        ) : f < c0 ? (
+          <span style={{ color: C.violet, fontSize: 72 }}>first + 3 of the next 6</span>
+        ) : f < total ? (
+          <span style={{ background: C.violet, color: '#fff', borderRadius: 24, padding: '4px 40px' }}>
+            {f < l3 ? `way ${cycling ? ci + 1 : 1} of 20` : `first corner ${r + 1} of 13`}
+          </span>
+        ) : (
+          <span style={{ color: C.red, ...fadeUp(f, total, 8) }}>13 × 20 = 260 misses</span>
+        )}
+      </div>
     </>
   );
 };
 
-const RG: G = { cx: 540, cy: 830, R: 250, n: 13 };
+// ---------- reveal ----------
 
 const Reveal: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const hit = at(scene, 0, 0.7);
-  const chime = at(scene, 0, 1);
+  const hit = at(scene, 0, 0.66);
+  const chime = at(scene, 0, 0.97);
   return (
     <>
-      <div style={{ position: 'absolute', left: 0, width: 1080, top: 290, display: 'flex', justifyContent: 'center' }}>
-        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '18px 40px', display: 'flex', alignItems: 'center', gap: 20, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
-          <Tex tex="715 - 260 = 455" size={72} color="#fff" />
-        </div>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 290, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 24, whiteSpace: 'nowrap' }}>
+        <span style={{ fontSize: 90, fontWeight: 900, ...fadeUp(f, 0, 8) }}>
+          <span style={{ color: C.primary }}>715</span> − <span style={{ color: C.red }}>260</span> =
+        </span>
+        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '6px 40px', fontSize: 110, fontWeight: 900, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>455</div>
       </div>
+      <Text x={540} y={445} w={1000} size={58} weight={900} color={C.red} align="center" style={fadeUp(f, at(scene, 1, 0.05))}>
+        260 is just the misses
+      </Text>
       <Stage>
-        <Ngon g={RG} centre={C.green} />
-        <Shape g={RG} set={HIT} color={C.green} />
+        <Ngon g={MAIN} centre={C.green} />
+        <Shape g={MAIN} set={HIT} color={C.green} />
       </Stage>
-      <Text x={540} y={1110} w={900} size={64} weight={900} color={C.green} align="center" style={fadeUp(f, hit)}>
-        Choice C
-      </Text>
-      <Text x={540} y={1210} w={900} size={52} weight={800} color={C.muted} align="center" style={fadeUp(f, at(scene, 1, 0.1))}>
-        Hits hard to count? Count the misses.
-      </Text>
+      <CtaPill start={at(scene, 2)} y={1215} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={hit - 31} src={SFX.riser} volume={0.3} />
+      <Sfx at={at(scene, 1)} src={SFX.buzz} volume={0.2} />
       <Sequence from={chime} durationInFrames={60} layout="none">
         <Audio src={CHIME} volume={0.3} />
       </Sequence>
-      <Confetti x={540} y={380} start={chime} seed={5} />
+      <Confetti x={540} y={360} start={chime} seed={5} />
     </>
   );
 };
 
-const Cta: SceneComponent = ({ scene }) => (
-  <FullLessonCard scene={scene} poster={staticFile(`${SLUG}/short/full.jpg`)} length="6:48" bullets={['Two ways to count the misses', 'Every wrong choice explained', 'An 11-sided one to try']} />
-);
-
-const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, misses: Misses, reveal: Reveal, cta: Cta };
+const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, misses: Misses, reveal: Reveal };
 
 export const Short: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
-  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" /> : null;
+  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" captions="words" music={MUSIC} /> : null;

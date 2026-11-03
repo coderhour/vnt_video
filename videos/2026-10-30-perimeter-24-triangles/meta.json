@@ -6,7 +6,14 @@
  "posts": [],
  "short": {
   "title": "How many triangles have perimeter 24? #Shorts",
-  "description": "Whole-number sides, perimeter 24. How many different triangles? Most kids miss one or two.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "description": "Whole-number sides, perimeter 24. How many different triangles? Missing just one is the classic slip.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": [],
+  "challenge": 14,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

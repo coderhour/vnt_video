@@ -1,54 +1,50 @@
 {
  "title": "Dominoes and L-Tiles (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Cover a two by six board with dominoes. Thirteen ways.",
-    "Now add L tiles. How many ways?"
+    "AMC ten challenge! Think it's thirteen? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
     "Cover a two by six board with dominoes and L-shaped tiles.",
-    "How many ways? Pick one of the five choices."
-   ],
-   "hold": 0.3
+    "Pieces may be turned. How many ways?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "zigzag",
    "lines": [
-    "Here's the trick. An L in the top-left corner starts a zigzag.",
-    "An L, then lying dominoes, then another L. It's three to six long.",
-    "Each zigzag has a mirror twin, so we count them twice."
+    "Check the top-left square. A domino, or an L that starts a zigzag.",
+    "An L, lying dominoes, another L. Each zigzag has a mirror twin!",
+    "Then fill a table: one, one, two, five, eleven, twenty-four."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Fill a table from short boards, and it grows to fifty-three.",
-    "That's Choice C. Without L tiles, it was only thirteen!"
-   ],
-   "hold": 0.3
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why exactly that? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
+    "Length six gives fifty-three ways. That's Choice C!",
+    "Thirteen was the trap. It leaves out the L tiles.",
+    "Did you get fifty-three? Tell me below!"
    ],
    "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "Cover a two by six board with dominoes and L-shaped tiles.": "Cover a 2×6 board with dominoes and L-shaped tiles.",
+  "Then fill a table: one, one, two, five, eleven, twenty-four.": "Then fill a table: 1, 1, 2, 5, 11, 24."
+ }
 }

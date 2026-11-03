@@ -7,6 +7,13 @@
  "short": {
   "title": "Spin the Hour Hand 1, 2, 3... 20 Hours #Shorts",
   "description": "Move a clock's hour hand 1 hour, then 2, then 3, up to 20. Full turns change nothing, so only the leftover matters.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 9,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

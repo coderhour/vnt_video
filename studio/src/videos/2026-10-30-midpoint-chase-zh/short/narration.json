@@ -3,30 +3,46 @@
  "fps": 30,
  "lang": "zh",
  "voice": "Achird",
- "style": "warm and encouraging, speaking Mandarin Chinese at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking Mandarin Chinese at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
  "scenes": [
-  {"id": "hook", "lines": [
-   "数轴上有两个点，每个新点，都是最新两点的中点。",
-   "第10个点，会停在哪里？很多人会算错！"
-  ]},
-  {"id": "question", "lines": [
-   "点P1在0，点P2在64。",
-   "之后的每一个点，都是它前面两个点的中点。",
-   "那么，第10个点在哪里？"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["暂停，试一试！"], "hold": 3},
-  {"id": "jumps", "lines": [
-   "从0向右跳64，再向左跳32，再向右跳16。",
-   "发现规律了吗？每一跳都是上一跳的一半，而且方向相反！",
-   "接着距离越来越短，点都往同一个位置靠拢。"
-  ]},
-  {"id": "reveal", "lines": [
-   "把这九次跳加起来，第10个点就是42又3/4，答案是C！",
-   "每一个选项，都是追逐中真实出现过的点！"
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "为什么？完整课程有两种方法，还有每个陷阱。",
-   "点击下面的链接观看！"
-  ], "hold": 1.5}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC 8挑战！你觉得是42.5？错！"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "点P1在0，点P2在64。",
+    "之后每个点，都是前两个点的中点。P10在哪里？"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "评论你的选项，然后接着看！"
+   ]
+  },
+  {
+   "id": "jumps",
+   "lines": [
+    "看看怎么跳：向右64，向左32，向右16。",
+    "每一跳都是上一跳的一半，而且方向相反！",
+    "接着向左8，向右4，向左2，再向右1。",
+    "下一跳，向左1/2。P9是42.5。"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "最后向右1/4，P10就是42.75！",
+    "42.5是陷阱！",
+    "你答对42.75了吗？在评论里告诉我！"
+   ],
+   "hold": 0.8
+  }
  ]
 }

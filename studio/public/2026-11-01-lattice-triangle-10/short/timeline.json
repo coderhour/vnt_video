@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1776,
+ "durationInFrames": 1144,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 200,
+   "frames": 108,
    "lines": [
     {
-     "text": "Exactly ten dots sit inside this right triangle.",
-     "caption": "Exactly ten dots sit inside this right triangle.",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/7bc78100164d44fd.wav",
+     "text": "AMC ten challenge! Think it's twelve? Nope!",
+     "caption": "AMC 10 challenge! Think it's 12? Nope!",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/075c103e69dbbb39.wav",
      "from": 0,
-     "frames": 98
-    },
-    {
-     "text": "How many different triangles can it be?",
-     "caption": "How many different triangles can it be?",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/1caf8468eb7fd6b6.wav",
-     "from": 108,
-     "frames": 69
+     "frames": 96
     }
    ]
   },
@@ -29,75 +22,68 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 200,
-   "frames": 368,
+   "from": 108,
+   "frames": 307,
    "lines": [
     {
      "text": "A right triangle has corners at zero zero, p zero, and zero q.",
-     "caption": "A right triangle has corners at zero zero, p zero, and zero q.",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/02af2f9b9d7c78bc.wav",
+     "caption": "A right triangle has corners at (0, 0), (p, 0), and (0, q).",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/548ca2a20c50b2c4.wav",
      "from": 0,
-     "frames": 152
+     "frames": 146
     },
     {
-     "text": "Exactly ten dots are strictly inside. How many ordered pairs, p and q, work?",
-     "caption": "Exactly ten dots are strictly inside. How many ordered pairs, p and q, work?",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/6936441174a8e3e0.wav",
-     "from": 162,
-     "frames": 173
+     "text": "Exactly ten dots lie strictly inside. How many ordered pairs, p and q?",
+     "caption": "Exactly 10 dots lie strictly inside. How many ordered pairs, p and q?",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/6f371469e01e2206.wav",
+     "from": 150,
+     "frames": 146
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 568,
-   "frames": 160,
+   "from": 415,
+   "frames": 77,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 47
+     "frames": 65
     }
    ]
   },
   {
-   "id": "rect",
+   "id": "square",
    "kind": "scene",
    "chapter": null,
-   "from": 728,
-   "frames": 528,
+   "from": 492,
+   "frames": 347,
    "lines": [
     {
-     "text": "Add a twin triangle to make a rectangle.",
-     "caption": "Add a twin triangle to make a rectangle.",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/a568d27fce75641c.wav",
+     "text": "A twin triangle makes a square, with twenty-five dots inside.",
+     "caption": "A twin triangle makes a square, with 25 dots inside.",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/ac002182f1862716.wav",
      "from": 0,
-     "frames": 80
+     "frames": 105
     },
     {
-     "text": "This six by four has fifteen dots inside. One sits ON the slanted line.",
-     "caption": "This six by four has fifteen dots inside. One sits ON the slanted line.",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/a74e80a0846ab10d.wav",
-     "from": 90,
-     "frames": 161
+     "text": "Five sit on the slanted side. The other twenty split evenly: ten each!",
+     "caption": "Five sit on the slanted side. The other 20 split evenly: 10 each!",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/bd2793a0fb79a460.wav",
+     "from": 109,
+     "frames": 129
     },
     {
-     "text": "Split the other fourteen evenly: seven each.",
-     "caption": "Split the other fourteen evenly: seven each.",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/cee45d34988a2019.wav",
-     "from": 261,
-     "frames": 82
-    },
-    {
-     "text": "So for ten inside, the rectangle has twenty dots, not counting the diagonal.",
-     "caption": "So for ten inside, the rectangle has twenty dots, not counting the diagonal.",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/896d0642bd262faf.wav",
-     "from": 354,
-     "frames": 150
+     "text": "Check every short leg this way: six pairs work.",
+     "caption": "Check every short leg this way: 6 pairs work.",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/c3413fa70b035a18.wav",
+     "from": 242,
+     "frames": 94
     }
    ]
   },
@@ -105,38 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1256,
-   "frames": 330,
+   "from": 839,
+   "frames": 305,
    "lines": [
     {
-     "text": "Checking every short leg gives <short pause> eleven pairs. Choice D!",
-     "caption": "Checking every short leg gives eleven pairs. Choice D!",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/81d814ad173328bb.wav",
+     "text": "Flipping adds five more pairs. That's eleven!",
+     "caption": "Flipping adds 5 more pairs. That's 11!",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/06b4157a819c98b1.wav",
      "from": 0,
-     "frames": 148
+     "frames": 88
     },
     {
-     "text": "Careful! Six and six flips into itself, so it only counts once.",
-     "caption": "Careful! Six and six flips into itself, so it only counts once.",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/9a20dff85a6deeb4.wav",
-     "from": 158,
-     "frames": 134
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1586,
-   "frames": 190,
-   "lines": [
+     "text": "Twelve was the trap. Six and six flips into itself!",
+     "caption": "12 was the trap. 6 and 6 flips into itself!",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/39c5b4752db1ecb7.wav",
+     "from": 92,
+     "frames": 110
+    },
     {
-     "text": "The full lesson shows every trap. Tap the link below to watch it!",
-     "caption": "The full lesson shows every trap. Tap the link below to watch it!",
-     "file": "2026-11-01-lattice-triangle-10/short/audio/090dc1015b1e291c.wav",
-     "from": 0,
-     "frames": 122
+     "text": "Did you get eleven? Tell me below!",
+     "caption": "Did you get 11? Tell me below!",
+     "file": "2026-11-01-lattice-triangle-10/short/audio/34cf542d15c51f69.wav",
+     "from": 206,
+     "frames": 64
     }
    ]
   }

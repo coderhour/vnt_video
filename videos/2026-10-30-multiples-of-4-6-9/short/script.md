@@ -1,27 +1,21 @@
 # Multiples of 4, 6 or 9 (short)
 
-How many numbers from one to one thousand are multiples of four, six or nine?
+AMC eight challenge! Think it's five hundred twenty-seven? Nope!
 
-Just adding them all up is a trap!
+How many whole numbers from one to one thousand are multiples of four, six or nine?
 
-How many whole numbers from one to one thousand
+Comment your letter, then watch!
 
-are multiples of at least one of four, six and nine?
+Count each: two hundred fifty, one hundred sixty-six, and one hundred eleven.
 
-Pause and try it!
+But twelve is in two circles. Adding counts it twice!
 
-*(Pause and try it: 3 s countdown)*
+So take away the multiples of twelve, eighteen and thirty-six: one hundred sixty-five.
 
-Look at twelve. It's a multiple of four AND six.
+Now thirty-six, in all three, isn't counted at all. Add back those twenty-seven!
 
-So it gets counted twice! Twenty-four and thirty-six sneak in twice too.
+Altogether, that's three hundred eighty-nine numbers!
 
-Fix it. Take away the overlaps, then add back the numbers in all three.
+The trap was five hundred twenty-seven.
 
-Five hundred twenty-seven, minus one hundred sixty-five, plus twenty-seven.
-
-That's three hundred eighty-nine, choice C! Most kids stop at five hundred twenty-seven.
-
-Why twelve, and not twenty-four? The full lesson shows two methods, plus every trap.
-
-Tap the link below to watch it!
+Did you get three hundred eighty-nine? Tell me below!

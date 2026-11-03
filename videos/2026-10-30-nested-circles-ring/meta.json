@@ -7,6 +7,13 @@
  "short": {
   "title": "Circle, square, circle: find the ring! #Shorts",
   "description": "A circle, a square, another circle, and a shaded ring. One fold gives the area, no square roots needed.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 46,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

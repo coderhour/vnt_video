@@ -1,29 +1,23 @@
 # Does It Hold the Center? (short)
 
-Pick four corners of a thirteen-sided shape.
+AMC ten challenge! Think it's two hundred sixty? Nope!
 
-Does it hold the center dot? Sometimes yes, sometimes no!
+Join four corners of a regular thirteen-sided shape.
 
-Choose any four of the thirteen corners.
+How many choices hold the center?
 
-For how many choices does the shape contain the center?
+Comment your letter, then watch!
 
-Pause and try it!
+That's seven hundred fifteen choices. Count the misses!
 
-*(Pause and try it: 3 s countdown)*
+It misses when all four corners fit in one half.
 
-Here's the trick. Count the misses instead!
+Take the first corner. The other three come from the next six: twenty ways.
 
-If all four corners fit in one half, the shape misses the center.
+Thirteen first corners times twenty: two hundred sixty misses.
 
-Pick the first corner. The other three must be among the next six.
+Seven hundred fifteen minus two hundred sixty is four hundred fifty-five!
 
-That's twenty ways. Thirteen first corners make two hundred sixty misses.
+Two hundred sixty was the trap: just the misses!
 
-Seven hundred fifteen minus two hundred sixty misses is four hundred fifty-five!
-
-Count the misses, then subtract.
-
-Why six? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get four hundred fifty-five? Tell me below!

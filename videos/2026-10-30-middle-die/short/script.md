@@ -1,27 +1,23 @@
 # Middle Die (short)
 
-Roll three dice and sort them. How often is the middle one a two?
+AMC eight challenge! Think it's one in six? Nope!
 
-Most kids say one in six. That's NOT right!
+Roll three fair dice, and put the numbers in order.
 
-Three fair dice are rolled and put in order.
+What's the probability that the middle one is a two?
 
-What is the probability that the middle one is two?
+Comment your letter, then watch!
 
-Pause and try it!
+Sort all two hundred sixteen rolls by how many dice show a two.
 
-*(Pause and try it: 3 s countdown)*
+A single two: a one below, three to six above. Six orders, times four. Twenty-four!
 
-Here's the trick. Sort the rolls by how many dice show a two.
+A pair of twos: three spots for the odd die, times five. That's fifteen.
 
-Exactly one two: the others are a one and a bigger number. That's twenty-four rolls.
+Three twos: just one roll.
 
-Exactly two dice show a two: fifteen rolls. All three: just one.
+Forty out of two hundred sixteen. That's five over twenty-seven!
 
-Twenty-four plus fifteen plus one is forty, out of two hundred sixteen.
+One in six was the trap. It's one die showing a two.
 
-That's five over twenty-seven. Choice C!
-
-Want to see why? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get five over twenty-seven? Tell me below!

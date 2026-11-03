@@ -8,3 +8,4 @@ render.done
 render.failed
 .youtube-token.json
 short.render.*
+.tiktok-token.json

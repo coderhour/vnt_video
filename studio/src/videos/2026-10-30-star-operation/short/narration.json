@@ -1,54 +1,56 @@
 {
  "title": "The Star Puzzle (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "A made-up star rule, a chain of four fractions, and one sneaky trap!"
+    "AMC eight challenge! Think it's five over seven? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "Star means a plus b, over one plus a times b.",
-    "What's the value of the whole chain?"
-   ],
-   "hold": 0.3
+    "A star b means a plus b, over one plus a times b.",
+    "Find the value of this whole chain."
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
-   "id": "score",
+   "id": "chain",
    "lines": [
-    "The trick: score each number as one plus it, over one minus it.",
-    "Our four numbers score three, two, five over three, and three over two.",
-    "The magic: star two numbers, and their scores multiply!",
-    "Multiply the four scores, and you get fifteen."
+    "Step one: one over two, star one over three. That makes five over seven!",
+    "But that's only step one! Star one over four, and you get nine over eleven.",
+    "Still not done! One last star, with one over five."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Turn fifteen back, and the answer is seven over eight!",
-    "Five over seven is only step one."
+    "Fifty-six over sixty-four. That's seven over eight!",
+    "Five over seven was the trap. It stops too early.",
+    "Did you get seven over eight? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why do scores multiply? The full lesson shows both ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's five over seven? Nope!": "AMC 8 challenge! Think it's 5/7? Nope!",
+  "A star b means a plus b, over one plus a times b.": "a star b means a plus b, over 1 plus a times b.",
+  "Step one: one over two, star one over three. That makes five over seven!": "Step one: 1/2, star 1/3. That makes 5/7!",
+  "But that's only step one! Star one over four, and you get nine over eleven.": "But that's only step one! Star 1/4, and you get 9/11.",
+  "Still not done! One last star, with one over five.": "Still not done! One last star, with 1/5.",
+  "Fifty-six over sixty-four. That's seven over eight!": "56/64. That's 7/8!",
+  "Five over seven was the trap. It stops too early.": "5/7 was the trap. It stops too early.",
+  "Did you get seven over eight? Tell me below!": "Did you get 7/8? Tell me below!"
+ }
 }

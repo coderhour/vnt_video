@@ -1,31 +1,21 @@
 # Can You Find All the Squares? (short)
 
-Twenty dots. How many squares?
+AMC eight challenge! Think it's twenty? Nope!
 
-Most kids say twenty. But there are MORE hiding!
+Twenty dots, in four rows of five. How many squares have all four corners on dots?
 
-Twenty dots, in four rows of five.
+Count every size, and tilted ones too!
 
-Count every square with dot corners. Tilted ones too!
+Comment your letter, then watch!
 
-Is it twenty, twenty-four, twenty-six, thirty, or forty?
+First, the twenty upright squares. Now hunt for tilted ones!
 
-Pause and try it!
+Every two by two box hides one tilted square. Six boxes, so six more!
 
-*(Pause and try it: 3 s countdown)*
+Two three by three boxes hold two big tilted ones each. That's four more!
 
-First, the upright squares. There are twenty.
+Twenty, plus six, plus four. That's thirty squares!
 
-But look at this one, standing on its corner!
+Twenty was the trap.
 
-Every two by two box hides one. That's six more.
-
-And four big tilted ones. Twenty, plus six, plus four.
-
-Thirty squares!
-
-A third of them are tilted. Easy to miss!
-
-Want the exact working? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get thirty? Tell me below!

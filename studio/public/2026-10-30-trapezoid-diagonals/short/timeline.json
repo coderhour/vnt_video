@@ -1,20 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1736,
+ "durationInFrames": 1105,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 175,
+   "frames": 108,
    "lines": [
     {
-     "text": "Two diagonals cut a trapezoid into four triangles. We know just ONE area!",
-     "caption": "Two diagonals cut a trapezoid into four triangles. We know just ONE area!",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/714ee0a6316f5371.wav",
+     "text": "AMC eight challenge! Think it's fifty-four? Nope!",
+     "caption": "AMC 8 challenge! Think it's 54? Nope!",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/fd79334c33891d0e.wav",
      "from": 0,
-     "frames": 152
+     "frames": 96
     }
    ]
   },
@@ -22,38 +22,31 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 175,
-   "frames": 238,
+   "from": 108,
+   "frames": 145,
    "lines": [
     {
-     "text": "Top six, bottom ten, shaded triangle nine. What's the whole area?",
-     "caption": "Top six, bottom ten, shaded triangle nine. What's the whole area?",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/9bf543d213c31504.wav",
+     "text": "Top six, bottom ten, and the top triangle is nine. What's the whole area?",
+     "caption": "Top 6, bottom 10, and the top triangle is 9. What's the whole area?",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/fc03895581a09484.wav",
      "from": 0,
-     "frames": 155
-    },
-    {
-     "text": "Here are the choices.",
-     "caption": "Here are the choices.",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/4c700db2f68259a7.wav",
-     "from": 165,
-     "frames": 40
+     "frames": 134
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 413,
-   "frames": 165,
+   "from": 253,
+   "frames": 73,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 51
+     "frames": 62
     }
    ]
   },
@@ -61,36 +54,29 @@
    "id": "similar",
    "kind": "scene",
    "chapter": null,
-   "from": 578,
-   "frames": 698,
+   "from": 326,
+   "frames": 452,
    "lines": [
     {
-     "text": "Top and bottom are copies, sides six and ten: a three to five ratio.",
-     "caption": "Top and bottom are copies, sides six and ten: a three to five ratio.",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/bdf9c25bbd424cf4.wav",
+     "text": "The bottom triangle is a copy of the top one. Six to ten is three to five.",
+     "caption": "The bottom triangle is a copy of the top one. 6 to 10 is 3 to 5.",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/5bcbfc7a35061dec.wav",
      "from": 0,
-     "frames": 165
+     "frames": 125
     },
     {
-     "text": "Areas grow by the ratio twice. Nine times five over three, times five over three, is twenty-five.",
-     "caption": "Areas grow by the ratio twice. Nine times five over three, times five over three, is twenty-five.",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/adc1ebf8e4439ad2.wav",
-     "from": 174,
-     "frames": 173
+     "text": "The base grows by five over three, and so does the height. So nine becomes twenty-five!",
+     "caption": "The base grows by 5/3, and so does the height. So 9 becomes 25!",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/64de4bf981744c5b.wav",
+     "from": 130,
+     "frames": 152
     },
     {
      "text": "The side triangles share the top one's height. Nine times five over three: fifteen each.",
-     "caption": "The side triangles share the top one's height. Nine times five over three: fifteen each.",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/c30b9f212976a58e.wav",
-     "from": 358,
-     "frames": 164
-    },
-    {
-     "text": "Now add: nine, twenty-five, fifteen, fifteen.",
-     "caption": "Now add: nine, twenty-five, fifteen, fifteen.",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/dfa4d5a45aef9927.wav",
-     "from": 531,
-     "frames": 143
+     "caption": "The side triangles share the top one's height. 9 \u00d7 5/3: 15 each.",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/4db429a4af2fc166.wav",
+     "from": 285,
+     "frames": 155
     }
    ]
   },
@@ -98,45 +84,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1276,
-   "frames": 177,
+   "from": 778,
+   "frames": 327,
    "lines": [
     {
-     "text": "The trapezoid has area sixty-four!",
-     "caption": "The trapezoid has area sixty-four!",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/fc6c97e62787b866.wav",
+     "text": "Nine plus twenty-five plus fifteen plus fifteen is sixty-four!",
+     "caption": "9 plus 25 plus 15 plus 15 is 64!",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/4cb0007de433bab9.wav",
      "from": 0,
-     "frames": 86
+     "frames": 106
     },
     {
-     "text": "That's choice D.",
-     "caption": "That's choice D.",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/50af523bee49254e.wav",
-     "from": 96,
-     "frames": 42
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1453,
-   "frames": 283,
-   "lines": [
-    {
-     "text": "Why are they copies? The full lesson shows two ways, plus every trap.",
-     "caption": "Why are they copies? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/5e317336f9fa5279.wav",
-     "from": 0,
-     "frames": 150
+     "text": "Fifty-four was the trap. It grows the area only once.",
+     "caption": "54 was the trap. It grows the area only once.",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/dc0aeea08d2e4730.wav",
+     "from": 110,
+     "frames": 110
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-trapezoid-diagonals/short/audio/82b8b7e1a12a7449.wav",
-     "from": 160,
-     "frames": 54
+     "text": "Did you get sixty-four? Tell me below!",
+     "caption": "Did you get 64? Tell me below!",
+     "file": "2026-10-30-trapezoid-diagonals/short/audio/c37c0b8e8e5ed20c.wav",
+     "from": 224,
+     "frames": 68
     }
    ]
   }

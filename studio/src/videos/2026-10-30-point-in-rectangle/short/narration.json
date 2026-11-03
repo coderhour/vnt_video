@@ -1,29 +1,47 @@
 {
  "title": "Point in a Rectangle (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
-  {"id": "hook", "lines": [
-   "A point inside a rectangle, joined to all four corners.",
-   "Three triangle areas are known. Can you find the fourth, without knowing where the point is?"
-  ]},
-  {"id": "question", "lines": [
-   "The bottom, right and top triangles have areas fifteen, twenty-two and twenty-five.",
-   "What is the area of the left triangle?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "pairs", "lines": [
-   "Look at the bottom and top triangles together. Their heights stack up to the full height.",
-   "So together, they make exactly HALF the rectangle!",
-   "Fifteen plus twenty-five is forty. So the left and right pair must make forty too."
-  ]},
-  {"id": "reveal", "lines": [
-   "Forty, take away twenty-two, is eighteen. The left triangle is eighteen, choice C!",
-   "And the point can be anywhere. Opposite triangles always make half!"
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Why is it always half? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's twenty-two? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A point in a rectangle is joined to all four corners.",
+    "Bottom, right and top triangles are fifteen, twenty-two and twenty-five. Find the left one!"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "pairs",
+   "lines": [
+    "Bottom and top share the width. Their heights stack to the full height.",
+    "So together, they are HALF the rectangle.",
+    "Fifteen plus twenty-five is forty. Slide the point, and it stays forty!",
+    "Left and right make the other half: forty again."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Forty, take away twenty-two, is eighteen!",
+    "Twenty-two was the trap. Sitting across doesn't make it equal.",
+    "Did you get eighteen? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

@@ -7,6 +7,13 @@
  "short": {
   "title": "Can 3^n ever end in 01? #Shorts",
   "description": "Powers of three grow fast. Can one ever end in 01? Watch the last two digits step down!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 41,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

@@ -2,6 +2,9 @@
 """Narration -> per-line Gemini TTS WAVs + timeline.json + script.md + YouTube chapters.
 
 Usage: tts.py <slug> [--check]   (--check transcribes every line back so misreads show up)
+Optional narration.json keys: "line_gap" / "scene_tail" (seconds, default 0.35 / 0.8) for tighter shorts;
+"caption_digits": true writes English numbers in captions as digits (the voice still reads the words);
+"captions": {"<line text>": "<caption>"} overrides single captions (times "1:59", dice, coordinates, fractions).
 Reads   studio/src/videos/<slug>/narration.json
 Writes  studio/public/<slug>/audio/<hash>.wav   (cached: unchanged lines are not re-synthesized)
         studio/public/<slug>/timeline.json      (read by the Remotion composition)
@@ -210,13 +213,48 @@ def line_style(text, style):
     return ". ".join([style, *hints]) if hints else style
 
 
-def caption(text):
-    """Line text without inline TTS tags like <short pause>."""
+_UNITS = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+_TENS = "twenty thirty forty fifty sixty seventy eighty ninety".split()
+_NUM = r"(?:" + "|".join(_UNITS[::-1] + _TENS + ["hundred", "thousand"]) + r")"
+
+
+def digits(text):
+    """English number words -> digits for captions ("two thousand twenty-five" -> 2025, "k squared" -> k²).
+    Adjacent numbers stay separate ("zero one" -> "0 1", "twenty twenty-five" -> "20 25"). A lone "one"/"zero"
+    stays a word ("each one") unless it sits in a list of numbers ("3, 9, 7, one" -> "3, 9, 7, 1")."""
+    def num(m):
+        words = re.split(r"[\s-]+", m.group().lower())
+        if len(words) == 1 and words[0] in ("one", "zero"):
+            return m.group()
+        groups, total, cur, last = [], 0, 0, None
+        for w in words:
+            if w == "hundred":
+                cur, kind = (cur or 1) * 100, "hundred"
+            elif w == "thousand":
+                total, cur, kind = total + (cur or 1) * 1000, 0, "thousand"
+            else:
+                v = _UNITS.index(w) if w in _UNITS else 20 + 10 * _TENS.index(w)
+                kind = "tens" if w in _TENS else "unit" if v < 10 else "teen"
+                if last in ("unit", "teen") or (last == "tens" and kind != "unit"):
+                    groups.append(total + cur)
+                    total = cur = 0
+                cur += v
+            last = kind
+        return " ".join(map(str, groups + [total + cur]))
+    t = re.sub(rf"\b{_NUM}(?:[\s-]+{_NUM})*\b(?!-[a-z])", num, text, flags=re.I)  # not "thirty-seconds"
+    t = re.sub(r"(?<=\d, )\b(?:one|zero)\b|\b(?:one|zero)\b(?=,? \d)", lambda m: "1" if m.group().lower() == "one" else "0", t, flags=re.I)
+    t = re.sub(r"\b(\d+) ([a-z])\b(?! [a-z])", r"\1\2", t)  # "45 k" -> "45k"
+    return re.sub(r"\b(\w+) squared\b", r"\1²", t)
+
+
+def caption(text, use_digits=False):
+    """Line text without inline TTS tags like <short pause>; `use_digits` writes English numbers as digits."""
     t = re.sub(r"\s*<[^>]+>\s*", " ", text).strip()
+    t = digits(t) if use_digits else t
     return re.sub(r"(?<=[\u3000-\u9fff\uff00-\uffef]) | (?=[\u3000-\u9fff\uff00-\uffef])", "", t)  # no gap where a tag sat in Chinese
 
 
-def build_timeline(scenes, audio, fps):
+def build_timeline(scenes, audio, fps, gap=LINE_GAP, tail=SCENE_TAIL, use_digits=False, captions=None):
     """audio: line text -> (staticFile path, seconds). Line `from` is relative to its scene."""
     t, out = 0.0, []
     for s in scenes:
@@ -224,10 +262,10 @@ def build_timeline(scenes, audio, fps):
         sf = round(start * fps)
         for text in s.get("lines", []):
             file, secs = audio[text]
-            lines.append({"text": text, "caption": caption(text), "file": file, "from": round(t * fps) - sf, "frames": math.ceil(secs * fps)})
-            t += secs + LINE_GAP
+            lines.append({"text": text, "caption": (captions or {}).get(text) or caption(text, use_digits), "file": file, "from": round(t * fps) - sf, "frames": math.ceil(secs * fps)})
+            t += secs + gap
         if lines:
-            t += SCENE_TAIL - LINE_GAP
+            t += tail - gap
         t += s.get("hold", 0)
         out.append({"id": s["id"], "kind": s.get("kind", "scene"), "chapter": s.get("chapter"),
                     "from": sf, "frames": round(t * fps) - sf, "lines": lines})
@@ -281,7 +319,7 @@ def main():
                 f.write_bytes(synth(text, voice, st))
             audio[text] = (f"{slug}/audio/{name}", wav_seconds(f))
 
-    tl = build_timeline(n["scenes"], audio, fps)
+    tl = build_timeline(n["scenes"], audio, fps, n.get("line_gap", LINE_GAP), n.get("scene_tail", SCENE_TAIL), n.get("caption_digits", False), n.get("captions"))
     (pub / "timeline.json").write_text(json.dumps(tl, indent=1))
     out = ROOT / "videos" / slug
     out.mkdir(parents=True, exist_ok=True)

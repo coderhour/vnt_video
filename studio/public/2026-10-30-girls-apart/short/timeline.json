@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1657,
+ "durationInFrames": 1157,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 218,
+   "frames": 142,
    "lines": [
     {
-     "text": "Five boys and three girls line up at random.",
-     "caption": "Five boys and three girls line up at random.",
-     "file": "2026-10-30-girls-apart/short/audio/b817895ac901d96a.wav",
+     "text": "AMC eight challenge! Think it's five over twenty-eight? Nope!",
+     "caption": "AMC 8 challenge! Think it's 5/28? Nope!",
+     "file": "2026-10-30-girls-apart/short/audio/51581b12e75806f2.wav",
      "from": 0,
-     "frames": 93
-    },
-    {
-     "text": "What's the chance that no two girls stand together?",
-     "caption": "What's the chance that no two girls stand together?",
-     "file": "2026-10-30-girls-apart/short/audio/84a51d49b18d7ea4.wav",
-     "from": 103,
-     "frames": 92
+     "frames": 130
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 218,
-   "frames": 258,
+   "from": 142,
+   "frames": 208,
    "lines": [
     {
      "text": "Five boys and three girls stand in a random order.",
-     "caption": "Five boys and three girls stand in a random order.",
-     "file": "2026-10-30-girls-apart/short/audio/24a153c9e9551a11.wav",
+     "caption": "5 boys and 3 girls stand in a random order.",
+     "file": "2026-10-30-girls-apart/short/audio/40be2ae983dcc956.wav",
      "from": 0,
-     "frames": 101
+     "frames": 83
     },
     {
      "text": "What is the probability that no two girls stand next to each other?",
-     "caption": "What is the probability that no two girls stand next to each other?",
-     "file": "2026-10-30-girls-apart/short/audio/47d117c31770fc90.wav",
-     "from": 111,
-     "frames": 114
+     "caption": "What is the probability that no 2 girls stand next to each other?",
+     "file": "2026-10-30-girls-apart/short/audio/631d4aa97a24eaa9.wav",
+     "from": 87,
+     "frames": 110
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 476,
-   "frames": 164,
+   "from": 350,
+   "frames": 72,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-girls-apart/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-girls-apart/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 50
+     "frames": 60
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "gaps",
    "kind": "scene",
    "chapter": null,
-   "from": 640,
-   "frames": 517,
+   "from": 422,
+   "frames": 415,
    "lines": [
     {
      "text": "Line up the five boys first. That makes six gaps, counting both ends.",
-     "caption": "Line up the five boys first. That makes six gaps, counting both ends.",
-     "file": "2026-10-30-girls-apart/short/audio/ec49b962146997bf.wav",
+     "caption": "Line up the 5 boys first. That makes 6 gaps, counting both ends.",
+     "file": "2026-10-30-girls-apart/short/audio/b79f35bd68b70585.wav",
      "from": 0,
-     "frames": 138
+     "frames": 120
     },
     {
-     "text": "Two girls in one gap would touch. So each gap holds at most one girl.",
-     "caption": "Two girls in one gap would touch. So each gap holds at most one girl.",
-     "file": "2026-10-30-girls-apart/short/audio/2400bac1f387fb64.wav",
-     "from": 148,
-     "frames": 154
+     "text": "Two girls in one gap would touch. So each gap gets at most one girl.",
+     "caption": "Two girls in one gap would touch. So each gap gets at most one girl.",
+     "file": "2026-10-30-girls-apart/short/audio/11850e1fcf6e6b00.wav",
+     "from": 125,
+     "frames": 120
     },
     {
      "text": "Pick three of the six gaps. That's twenty ways, out of fifty-six equally likely sets of spots.",
-     "caption": "Pick three of the six gaps. That's twenty ways, out of fifty-six equally likely sets of spots.",
-     "file": "2026-10-30-girls-apart/short/audio/be9a22bce8402cf8.wav",
-     "from": 312,
-     "frames": 182
+     "caption": "Pick 3 of the 6 gaps. That's 20 ways, out of 56 equally likely sets of spots.",
+     "file": "2026-10-30-girls-apart/short/audio/4c5fc733dc71e5cc.wav",
+     "from": 249,
+     "frames": 154
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1157,
-   "frames": 229,
+   "from": 837,
+   "frames": 320,
    "lines": [
     {
      "text": "Twenty over fifty-six is five over fourteen!",
-     "caption": "Twenty over fifty-six is five over fourteen!",
-     "file": "2026-10-30-girls-apart/short/audio/74bf57a0e156a662.wav",
+     "caption": "20/56 is 5/14!",
+     "file": "2026-10-30-girls-apart/short/audio/d503c91267ddb4ea.wav",
      "from": 0,
-     "frames": 94
+     "frames": 84
     },
     {
-     "text": "Miss the end gaps, and you fall into the trap!",
-     "caption": "Miss the end gaps, and you fall into the trap!",
-     "file": "2026-10-30-girls-apart/short/audio/c6c775572c7e3abe.wav",
-     "from": 105,
-     "frames": 86
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1386,
-   "frames": 271,
-   "lines": [
-    {
-     "text": "Why fifty-six? The full lesson shows two ways to count, plus every trap.",
-     "caption": "Why fifty-six? The full lesson shows two ways to count, plus every trap.",
-     "file": "2026-10-30-girls-apart/short/audio/8a23cc6a400f6025.wav",
-     "from": 0,
-     "frames": 150
+     "text": "Five over twenty-eight was the trap. It forgets an end gap.",
+     "caption": "5/28 was the trap. It forgets an end gap.",
+     "file": "2026-10-30-girls-apart/short/audio/1bde26c001803aff.wav",
+     "from": 88,
+     "frames": 107
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-girls-apart/short/audio/82b8b7e1a12a7449.wav",
-     "from": 160,
-     "frames": 57
+     "text": "Did you get five over fourteen? Tell me below!",
+     "caption": "Did you get 5/14? Tell me below!",
+     "file": "2026-10-30-girls-apart/short/audio/e7b030aa4e98ae42.wav",
+     "from": 200,
+     "frames": 84
     }
    ]
   }

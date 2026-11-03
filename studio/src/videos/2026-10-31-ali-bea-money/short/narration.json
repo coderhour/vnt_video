@@ -1,55 +1,58 @@
 {
  "title": "Two Swaps, One Total (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Nobody says how much money Ali and Bea have!",
-    "Can two swaps still find the total?"
+    "AMC eight challenge! Think it's one hundred fifty? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "If Ali gives Bea twenty percent, they're equal.",
-    "If Bea gives Ali ten dollars instead, Ali has twice as much.",
-    "How many dollars together?"
-   ],
-   "hold": 0.3
+    "If Ali gives twenty percent to Bea, they're equal.",
+    "If Bea gives Ali ten dollars instead, Ali has double. How much in all?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "bars",
    "lines": [
-    "Twenty percent is one fifth. So split Ali's money into five parts.",
-    "He gives one part, and they're equal. So Bea started with three parts.",
-    "Ali has five parts, Bea has three. Eight in all!"
+    "Twenty percent is one fifth: five parts for Ali.",
+    "He gives one. Both have four, so Bea started with three.",
+    "Then Bea gives ten. Twice her money is six parts, minus twenty.",
+    "Ali has five parts plus ten. So one part is thirty!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "The ten dollar swap makes one part thirty dollars. So, two hundred forty dollars together!",
-    "Ali has one hundred fifty, and Bea has ninety."
-   ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why thirty? The full lesson shows it step by step, plus every trap.",
-    "Tap the link below to watch it!"
+    "Eight parts of thirty: two hundred forty dollars!",
+    "One hundred fifty was the trap. That's just Ali.",
+    "Did you get two hundred forty? Tell me below!"
    ],
    "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "Twenty percent is one fifth: five parts for Ali.": "20% is 1/5: 5 parts for Ali.",
+  "Eight parts of thirty: two hundred forty dollars!": "8 parts of $30: $240!",
+  "If Bea gives Ali ten dollars instead, Ali has double. How much in all?": "If Bea gives Ali $10 instead, Ali has double. How much in all?",
+  "If Ali gives twenty percent to Bea, they're equal.": "If Ali gives 20% to Bea, they're equal.",
+  "AMC eight challenge! Think it's one hundred fifty? Nope!": "AMC 8 challenge! Think it's $150? Nope!",
+  "Then Bea gives ten. Twice her money is six parts, minus twenty.": "Then Bea gives $10. Twice her money is 6 parts, minus 20.",
+  "Ali has five parts plus ten. So one part is thirty!": "Ali has 5 parts plus 10. So one part is $30!",
+  "One hundred fifty was the trap. That's just Ali.": "$150 was the trap. That's just Ali.",
+  "Did you get two hundred forty? Tell me below!": "Did you get $240? Tell me below!"
+ }
 }

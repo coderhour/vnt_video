@@ -22,8 +22,17 @@ with tempfile.TemporaryDirectory() as d:
     assert not serve.set_status("v1", "published")
     assert not serve.set_status("../v1", "ready")
     assert not serve.set_status("nope", "ready")
+    assert not serve.mark_tiktok("v1", "https://www.tiktok.com/@x/video/1")  # no short in meta
+    (Path(d) / "v1" / "meta.json").write_text('{"title": "T", "short": {"title": "S", "posts": [{"platform": "YouTube Shorts", "url": "y"}]}}')
+    assert not serve.mark_tiktok("v1", "https://evil.com/x") and not serve.mark_tiktok("../v1", "https://vm.tiktok.com/a")
+    assert serve.mark_tiktok("v1", "https://vm.tiktok.com/a") and serve.mark_tiktok("v1", "https://www.tiktok.com/@x/video/1")
+    assert json.loads((Path(d) / "v1" / "meta.json").read_text())["short"]["posts"] == [
+        {"platform": "YouTube Shorts", "url": "y"}, {"platform": "TikTok", "url": "https://www.tiktok.com/@x/video/1"}]
 print("ok")
 import youtube
+import tiktok
+assert tiktok.caption({"short": {"title": "Hi", "tags": ["AMC 10", "MathTok"]}}).endswith("\n#Amc10 #Mathtok")
+assert tiktok.caption({"short": {"title": "Hi #Shorts"}, "tags": ["AMC 8", "math for kids"]}) == "Hi\nPractice more at vantee.ai\n#Amc8 #MathForKids"
 assert youtube.tags({"question_id": "amc_practice_amc10_algebra_template:c4-067"})[0] == "AMC 10"
 assert youtube.tags({"tags": ["x"]}) == ["x"]
 assert youtube.short_description({"youtube_id": "abc", "short": {"description": "Full: {full_video_url}"}}) == "Full: https://www.youtube.com/watch?v=abc"

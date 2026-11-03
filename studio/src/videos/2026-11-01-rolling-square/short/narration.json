@@ -1,54 +1,56 @@
 {
  "title": "The Rolling Corner (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "AMC ten challenge! Think it's four pi? Nope!": "AMC 10 challenge! Think it's 4π? Nope!",
+  "A square of side one rolls clockwise around a fixed square of side two.": "A square of side 1 rolls clockwise around a fixed square of side 2.",
+  "Along a side: a quarter turn, with radius one.": "Along a side: a quarter turn, with radius 1.",
+  "At a corner: a HALF turn, with radius root two!": "At a corner: a HALF turn, with radius √2!",
+  "Another quarter turn. Then P IS the pivot: zero!": "Another quarter turn. Then P IS the pivot: 0!",
+  "Add it all up: two plus two root two, all times pi!": "Add it all up: 2 + 2√2, all times π!",
+  "Four pi was the trap: the wrong radius!": "4π was the trap: the wrong radius!"
+ },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "A little square rolls around a bigger one.",
-    "How far does the marked corner travel? Watch for a sneaky corner move!"
+    "AMC ten challenge! Think it's four pi? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "A small square of side one rolls clockwise around a fixed square of side two.",
-    "How far does the marked corner travel before it first gets back home?"
-   ],
-   "hold": 0.3
+    "A square of side one rolls clockwise around a fixed square of side two.",
+    "How long is the path of corner P, until it's first back home?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "roll",
    "lines": [
-    "Follow one move at a time. Each move tips over a pivot corner.",
-    "A quarter turn along a side makes a quarter circle of radius one.",
-    "At the top right corner, it needs a half turn, with radius root two!",
-    "At the bottom right, the marked corner IS the pivot, so it adds nothing."
+    "Along a side: a quarter turn, with radius one.",
+    "At a corner: a HALF turn, with radius root two!",
+    "Another quarter turn. Then P IS the pivot: zero!",
+    "The other half repeats the same four moves."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Add it all up. The answer is <short pause> Choice C!",
-    "Two plus two root two, all times pi. Sneaky corners make it longer!"
+    "Add it all up: two plus two root two, all times pi!",
+    "Four pi was the trap: the wrong radius!",
+    "Did you get Choice C? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "The full lesson shows every trap. Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
  ]
 }

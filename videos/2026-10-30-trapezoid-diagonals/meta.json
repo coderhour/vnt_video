@@ -7,6 +7,13 @@
  "short": {
   "title": "4 triangles, 1 known area: find the rest! #Shorts",
   "description": "Two diagonals cut a trapezoid into four triangles and we know only ONE area. Similar triangles do the rest!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 45,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

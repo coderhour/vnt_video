@@ -1,29 +1,52 @@
 {
  "title": "Page Digits (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
-  {"id": "hook", "lines": [
-   "Number a book's pages, and count every digit.",
-   "Ninety-nine pages use one hundred eighty-nine digits. That's NOT twice ninety-nine!"
-  ]},
-  {"id": "question", "lines": [
-   "A book's pages are numbered from one. The digits printed are exactly twice the number of pages.",
-   "How many pages does the book have?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "balance", "lines": [
-   "Here's the trick. Pretend every page must print two digits.",
-   "A one-digit page pays only one. So each of those nine pages is one digit short.",
-   "A two-digit page pays exactly two. But a three-digit page pays one extra! We need nine of those."
-  ]},
-  {"id": "reveal", "lines": [
-   "That's pages one hundred to one hundred eight.",
-   "So the book has one hundred eight pages, choice C!"
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Why only one answer? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
- ]
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's ninety-nine? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A book's pages are numbered from one. The digits printed are exactly twice the number of pages.",
+    "How many pages does the book have?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "balance",
+   "lines": [
+    "Pretend every page owes exactly two digits. Pages one to nine pay only one.",
+    "So we start nine digits short. Two-digit pages pay exactly two, so the gap stays.",
+    "Each three-digit page pays one extra. Nine of them close the gap!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "That's pages one hundred to one hundred eight. So the book has one hundred eight pages!",
+    "Ninety-nine was the trap.",
+    "Did you get one hundred eight? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "Pretend every page owes exactly two digits. Pages one to nine pay only one.": "Pretend every page owes exactly 2 digits. Pages 1 to 9 pay only 1.",
+  "Each three-digit page pays one extra. Nine of them close the gap!": "Each 3-digit page pays 1 extra. 9 of them close the gap!",
+  "So we start nine digits short. Two-digit pages pay exactly two, so the gap stays.": "So we start 9 digits short. 2-digit pages pay exactly 2, so the gap stays.",
+  "A book's pages are numbered from one. The digits printed are exactly twice the number of pages.": "A book's pages are numbered from 1. The digits printed are exactly twice the number of pages."
+ }
 }

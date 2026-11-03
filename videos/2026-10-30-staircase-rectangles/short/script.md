@@ -1,29 +1,21 @@
 # Rectangles in a Staircase (short)
 
-Fifteen little squares make a staircase. Lots of kids say fifteen rectangles.
+AMC eight challenge! Think it's fifteen? Nope!
 
-But the real answer is way BIGGER!
+Fifteen squares, in rows of five, four, three, two, and one.
 
-How many rectangles of any size are in the stairs? Squares count too.
+How many rectangles of any size are in it? Squares count too.
 
-Here are the choices.
+Comment your letter, then watch!
 
-Pause and try it!
+Each rectangle is set by its top-right and bottom-left squares.
 
-*(Pause and try it: 3 s countdown)*
+Top-right in column three, row two? The bottom-left has three times two spots. Six rectangles!
 
-Every rectangle is set by two squares: its top-right, and its bottom-left.
+Write column times row in every square, then add up each column.
 
-Take the top-right square in column three, row two.
+Fifteen, twenty, eighteen, twelve, five. That's seventy rectangles!
 
-The bottom-left can be anywhere in this block: three times two, so six rectangles!
+Fifteen was the trap: just the little squares.
 
-So write column times row in every square, and add each column.
-
-Seventy rectangles!
-
-That's way more than fifteen!
-
-Why does the trick work? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get seventy? Tell me below!

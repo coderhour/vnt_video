@@ -1,54 +1,52 @@
 {
  "title": "The Best Fence in a Corner (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "Two walls meet at a right angle. A two-piece fence, total length twelve, joins them.": "Two walls meet at a right angle. A two-piece fence, total length 12, joins them.",
+  "Our region is a quarter of it: eighteen plus eighteen root two!": "Our region is a quarter of it: 18 + 18√2!",
+  "Did you get eighteen plus eighteen root two? Tell me below!": "Did you get 18 + 18√2? Tell me below!"
+ },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Twelve units of fence, bent once, tucked into a corner.",
-    "Most kids make a square. But a square is NOT the best!"
+    "AMC ten challenge! Think it's thirty-six? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
     "Two walls meet at a right angle. A two-piece fence, total length twelve, joins them.",
-    "What's the largest area it can enclose?"
-   ],
-   "hold": 0.3
+    "What's the largest area they can enclose?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "mirror",
    "lines": [
-    "Here's the trick. Treat each wall like a mirror.",
-    "Reflect the region across both walls, and the corner disappears.",
-    "Now the fence is a closed octagon, four times our area.",
-    "The best octagon is the regular one. And our fence makes it!"
+    "Treat each wall like a mirror.",
+    "Reflect twice: an octagon, with perimeter forty-eight!",
+    "The regular one holds the most. Each side is forty-eight over eight, six.",
+    "Our fence is exactly two of those sides!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Our region is a quarter of it. The answer is <short pause> Choice B!",
-    "About forty-three and a half. The square only gets thirty-six!"
+    "Our region is a quarter of it: eighteen plus eighteen root two!",
+    "The square's thirty-six was the trap.",
+    "Did you get eighteen plus eighteen root two? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "The full lesson shows every trap. Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
  ]
 }

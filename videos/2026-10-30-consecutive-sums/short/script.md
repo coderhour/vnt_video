@@ -1,27 +1,23 @@
 # Which Numbers Are Sums of Consecutive Numbers? (short)
 
-Nine is four plus five. Ten is one plus two plus three plus four.
+AMC eight challenge! Think it's forty-five? Nope!
 
-But a few numbers can never be built this way. Which ones?
+How many numbers from one to fifty are a sum of two or more consecutive whole numbers?
 
-How many numbers from one to fifty are a sum of two or more consecutive numbers?
+Nine is four plus five, for example.
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Runs of two make every odd number from three up.
 
-Let's light up every sum, one run length at a time.
+Runs of three, four and five light up most of the even numbers.
 
-Runs of two make every odd number. Longer runs fill in the rest.
+Runs of seven and eight add two more.
 
-Only six cells stay dark: one, two, four, eight, sixteen, thirty-two.
+Six cells stay dark: one, two, four, eight, sixteen and thirty-two. All powers of two!
 
-They're all powers of two, and no run can ever build one!
+Fifty minus six. That's forty-four!
 
-Fifty minus six is forty-four!
+Forty-five was the trap. One fails too!
 
-Only the powers of two fail.
-
-The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get forty-four? Tell me below!

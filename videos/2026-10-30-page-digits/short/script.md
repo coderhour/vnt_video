@@ -1,27 +1,21 @@
 # Page Digits (short)
 
-Number a book's pages, and count every digit.
-
-Ninety-nine pages use one hundred eighty-nine digits. That's NOT twice ninety-nine!
+AMC eight challenge! Think it's ninety-nine? Nope!
 
 A book's pages are numbered from one. The digits printed are exactly twice the number of pages.
 
 How many pages does the book have?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Pretend every page owes exactly two digits. Pages one to nine pay only one.
 
-Here's the trick. Pretend every page must print two digits.
+So we start nine digits short. Two-digit pages pay exactly two, so the gap stays.
 
-A one-digit page pays only one. So each of those nine pages is one digit short.
+Each three-digit page pays one extra. Nine of them close the gap!
 
-A two-digit page pays exactly two. But a three-digit page pays one extra! We need nine of those.
+That's pages one hundred to one hundred eight. So the book has one hundred eight pages!
 
-That's pages one hundred to one hundred eight.
+Ninety-nine was the trap.
 
-So the book has one hundred eight pages, choice C!
-
-Why only one answer? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get one hundred eight? Tell me below!

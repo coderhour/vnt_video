@@ -34,7 +34,7 @@ const glowOf = (f: number, presses: Press[], key: string) => {
   return g;
 };
 
-const Calc: React.FC<{ x: number; y: number; value: string; presses?: Press[]; scale?: number; op?: number; hot?: boolean }> = ({ x, y, value, presses = [], scale = 1, op = 1, hot = false }) => {
+export const Calc: React.FC<{ x: number; y: number; value: string; presses?: Press[]; scale?: number; op?: number; hot?: boolean }> = ({ x, y, value, presses = [], scale = 1, op = 1, hot = false }) => {
   const f = useCurrentFrame();
   const key = (k: '+1' | '×2', color: string, soft: string, dark: string) => {
     const g = glowOf(f, presses, k);

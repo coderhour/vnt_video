@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1570,
+ "durationInFrames": 1163,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 218,
+   "frames": 100,
    "lines": [
     {
-     "text": "Four brackets, all multiplied. Don't multiply them out!",
-     "caption": "Four brackets, all multiplied. Don't multiply them out!",
-     "file": "2026-10-30-telescoping-product/short/audio/fb973a57109c4182.wav",
+     "text": "AMC eight challenge! Think it's just under one? Nope!",
+     "caption": "AMC 8 challenge! Think it's just under 1? Nope!",
+     "file": "2026-10-30-telescoping-product/short/audio/15a392263e043adf.wav",
      "from": 0,
-     "frames": 117
-    },
-    {
-     "text": "There's a trick that makes it collapse.",
-     "caption": "There's a trick that makes it collapse.",
-     "file": "2026-10-30-telescoping-product/short/audio/b3d1a76e4c993a78.wav",
-     "from": 127,
-     "frames": 68
+     "frames": 88
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 218,
-   "frames": 179,
+   "from": 100,
+   "frames": 171,
    "lines": [
     {
-     "text": "What is the value of the whole product?",
-     "caption": "What is the value of the whole product?",
-     "file": "2026-10-30-telescoping-product/short/audio/2e13a12582a2bdfd.wav",
+     "text": "Multiply these four brackets. What do you get?",
+     "caption": "Multiply these 4 brackets. What do you get?",
+     "file": "2026-10-30-telescoping-product/short/audio/9d47f30095d17c8f.wav",
      "from": 0,
-     "frames": 88
+     "frames": 71
     },
     {
-     "text": "Here are the choices.",
-     "caption": "Here are the choices.",
-     "file": "2026-10-30-telescoping-product/short/audio/4c700db2f68259a7.wav",
-     "from": 98,
-     "frames": 48
+     "text": "Each bottom number is the one before it, squared.",
+     "caption": "Each bottom number is the one before it, squared.",
+     "file": "2026-10-30-telescoping-product/short/audio/10d6eaa868dd5279.wav",
+     "from": 75,
+     "frames": 84
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 397,
-   "frames": 157,
+   "from": 271,
+   "frames": 69,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-telescoping-product/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-telescoping-product/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 44
+     "frames": 58
     }
    ]
   },
@@ -68,36 +61,36 @@
    "id": "helper",
    "kind": "scene",
    "chapter": null,
-   "from": 554,
-   "frames": 556,
+   "from": 340,
+   "frames": 529,
    "lines": [
     {
      "text": "Bring in a helper: one minus one over two.",
-     "caption": "Bring in a helper: one minus one over two.",
-     "file": "2026-10-30-telescoping-product/short/audio/5159e718fce7f883.wav",
+     "caption": "Bring in a helper: 1 \u2212 1/2.",
+     "file": "2026-10-30-telescoping-product/short/audio/423a4057eb668cf8.wav",
      "from": 0,
+     "frames": 81
+    },
+    {
+     "text": "Multiply by the first bracket: one minus one over four.",
+     "caption": "Multiply by the first bracket: 1 \u2212 1/4.",
+     "file": "2026-10-30-telescoping-product/short/audio/8e25f560c44659dc.wav",
+     "from": 85,
      "frames": 104
     },
     {
-     "text": "Helper times the first bracket is one minus one over four. Each step knocks over the next one!",
-     "caption": "Helper times the first bracket is one minus one over four. Each step knocks over the next one!",
-     "file": "2026-10-30-telescoping-product/short/audio/46234f651bb60d42.wav",
-     "from": 114,
-     "frames": 173
+     "text": "Then one minus one over sixteen. Then one minus one over two hundred fifty-six.",
+     "caption": "Then 1 \u2212 1/16. Then 1 \u2212 1/256.",
+     "file": "2026-10-30-telescoping-product/short/audio/b1fbedaa4eed819e.wav",
+     "from": 193,
+     "frames": 156
     },
     {
-     "text": "The chain collapses to one minus one over two hundred fifty-six squared.",
-     "caption": "The chain collapses to one minus one over two hundred fifty-six squared.",
-     "file": "2026-10-30-telescoping-product/short/audio/a40d583d0233ea40.wav",
-     "from": 297,
-     "frames": 131
-    },
-    {
-     "text": "We used one half, so double the result!",
-     "caption": "We used one half, so double the result!",
-     "file": "2026-10-30-telescoping-product/short/audio/b0230dfb5117a43c.wav",
-     "from": 439,
-     "frames": 94
+     "text": "Finally, one minus one over two hundred fifty-six squared. The chain collapses!",
+     "caption": "Finally, 1 \u2212 1/256\u00b2. The chain collapses!",
+     "file": "2026-10-30-telescoping-product/short/audio/560657cacd86b1ac.wav",
+     "from": 354,
+     "frames": 164
     }
    ]
   },
@@ -105,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1110,
-   "frames": 191,
+   "from": 869,
+   "frames": 294,
    "lines": [
     {
-     "text": "Two, minus two over two hundred fifty-six squared!",
-     "caption": "Two, minus two over two hundred fifty-six squared!",
-     "file": "2026-10-30-telescoping-product/short/audio/88dd7c6b19a221b1.wav",
+     "text": "Undo the helper: double it. That's choice C!",
+     "caption": "Undo the helper: double it. That's choice C!",
+     "file": "2026-10-30-telescoping-product/short/audio/8f9aa03428140517.wav",
      "from": 0,
-     "frames": 106
+     "frames": 90
     },
     {
-     "text": "That's choice C.",
-     "caption": "That's choice C.",
-     "file": "2026-10-30-telescoping-product/short/audio/2e33e7bb9e02210b.wav",
-     "from": 116,
-     "frames": 36
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1301,
-   "frames": 269,
-   "lines": [
-    {
-     "text": "Why does the helper work? The full lesson shows two ways, plus every trap.",
-     "caption": "Why does the helper work? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-telescoping-product/short/audio/9a6d67a9ed6e212c.wav",
-     "from": 0,
-     "frames": 138
+     "text": "Just under one was the trap. It forgets to undo the helper.",
+     "caption": "Just under 1 was the trap. It forgets to undo the helper.",
+     "file": "2026-10-30-telescoping-product/short/audio/93a46bd0829c4806.wav",
+     "from": 94,
+     "frames": 101
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-telescoping-product/short/audio/82b8b7e1a12a7449.wav",
-     "from": 149,
-     "frames": 52
+     "text": "Did you get C? Tell me below!",
+     "caption": "Did you get C? Tell me below!",
+     "file": "2026-10-30-telescoping-product/short/audio/5d6eb3daa36a10d0.wav",
+     "from": 200,
+     "frames": 59
     }
    ]
   }

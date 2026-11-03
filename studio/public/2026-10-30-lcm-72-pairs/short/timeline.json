@@ -1,26 +1,19 @@
 {
  "fps": 30,
- "durationInFrames": 1646,
+ "durationInFrames": 1198,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 228,
+   "frames": 100,
    "lines": [
     {
-     "text": "Eight and nine have least common multiple seventy-two.",
-     "caption": "Eight and nine have least common multiple seventy-two.",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/f1afd761bc00dc3f.wav",
+     "text": "AMC eight challenge! Think it's eighteen? Nope!",
+     "caption": "AMC 8 challenge! Think it's 18? Nope!",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/f7b9d8162f9c4f3a.wav",
      "from": 0,
-     "frames": 106
-    },
-    {
-     "text": "How many pairs do? More than you expect!",
-     "caption": "How many pairs do? More than you expect!",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/47e8510747aef569.wav",
-     "from": 116,
      "frames": 88
     }
    ]
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 228,
-   "frames": 247,
+   "from": 100,
+   "frames": 233,
    "lines": [
     {
-     "text": "How many ordered pairs of positive whole numbers",
-     "caption": "How many ordered pairs of positive whole numbers",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/d893e30dfb41715e.wav",
+     "text": "How many pairs of positive whole numbers have least common multiple seventy-two?",
+     "caption": "How many pairs of positive whole numbers have least common multiple 72?",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/037877fc455cfafe.wav",
      "from": 0,
-     "frames": 96
+     "frames": 119
     },
     {
-     "text": "have least common multiple seventy-two? Order matters!",
-     "caption": "have least common multiple seventy-two? Order matters!",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/f432991154b384e4.wav",
-     "from": 106,
-     "frames": 108
+     "text": "Order matters: eight, nine and nine, eight both count.",
+     "caption": "Order matters: (8, 9) and (9, 8) both count.",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/27a198874d611821.wav",
+     "from": 123,
+     "frames": 99
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 475,
-   "frames": 163,
+   "from": 333,
+   "frames": 70,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 50
+     "frames": 58
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "grids",
    "kind": "scene",
    "chapter": null,
-   "from": 638,
+   "from": 403,
    "frames": 517,
    "lines": [
     {
-     "text": "The trick: seventy-two is three twos and two threes. Count each prime alone.",
-     "caption": "The trick: seventy-two is three twos and two threes. Count each prime alone.",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/dcb72c0c19fdacff.wav",
+     "text": "Seventy-two is three twos times two threes. Split them up!",
+     "caption": "72 is 3 twos times 2 threes. Split them up!",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/00fa5b0a21658449.wav",
      "from": 0,
-     "frames": 160
+     "frames": 116
     },
     {
-     "text": "For the twos, each number has zero to three. One needs all three: seven squares.",
-     "caption": "For the twos, each number has zero to three. One needs all three: seven squares.",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/7a20cfc9b0be2640.wav",
-     "from": 170,
-     "frames": 177
+     "text": "Each number has zero to three twos, and one needs all three.",
+     "caption": "Each number has 0 to 3 twos, and one needs all 3.",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/dc88c0c058f77af0.wav",
+     "from": 120,
+     "frames": 123
     },
     {
-     "text": "For the threes, zero to two. One needs both: five squares.",
-     "caption": "For the threes, zero to two. One needs both: five squares.",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/2da858533bd2f7d3.wav",
-     "from": 357,
-     "frames": 136
+     "text": "Last column and bottom row: four plus four, minus the corner. Seven!",
+     "caption": "Last column and bottom row: 4 plus 4, minus the corner. 7!",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/3ba428a1c2832b65.wav",
+     "from": 247,
+     "frames": 130
+    },
+    {
+     "text": "For the threes, one needs both. Three plus three, minus one. Five!",
+     "caption": "For the threes, one needs both. 3 plus 3, minus 1. 5!",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/b6ffff103d980591.wav",
+     "from": 381,
+     "frames": 125
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1155,
-   "frames": 223,
+   "from": 920,
+   "frames": 278,
    "lines": [
     {
-     "text": "Now multiply the choices: seven times five is thirty-five!",
-     "caption": "Now multiply the choices: seven times five is thirty-five!",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/ac2691242f15ae4b.wav",
+     "text": "Seven times five. That's thirty-five pairs!",
+     "caption": "7 times 5. That's 35 pairs!",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/5c4fbd4ec2f50deb.wav",
      "from": 0,
-     "frames": 124
+     "frames": 88
     },
     {
-     "text": "That's Choice D.",
-     "caption": "That's Choice D.",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/288c8c0137133946.wav",
-     "from": 134,
-     "frames": 57
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1378,
-   "frames": 268,
-   "lines": [
-    {
-     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/5a466bf8b2983070.wav",
-     "from": 0,
-     "frames": 147
+     "text": "Eighteen was the trap. It forgets order.",
+     "caption": "18 was the trap. It forgets order.",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/fe4222bd2bb5ffc0.wav",
+     "from": 92,
+     "frames": 77
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-lcm-72-pairs/short/audio/82b8b7e1a12a7449.wav",
-     "from": 157,
-     "frames": 57
+     "text": "Did you get thirty-five? Tell me below!",
+     "caption": "Did you get 35? Tell me below!",
+     "file": "2026-10-30-lcm-72-pairs/short/audio/89afe9d5e067e6c7.wav",
+     "from": 174,
+     "frames": 69
     }
    ]
   }

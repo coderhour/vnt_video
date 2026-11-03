@@ -7,6 +7,13 @@
  "short": {
   "title": "Color the grid: how many ways? #Shorts",
   "description": "A 3x3 grid, three colors, red center, neighbors must differ. Edges first, then corners.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 27,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

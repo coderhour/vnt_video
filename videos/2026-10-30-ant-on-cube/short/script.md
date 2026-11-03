@@ -1,29 +1,23 @@
 # An Ant's Random Walk on a Cube (short)
 
-An ant takes three random steps on a cube.
+AMC eight challenge! Think it's one over twenty-seven? Nope!
 
-Can it reach the far corner?
+An ant walks along a cube's edges. Each minute, it picks one of three edges at random.
 
-An ant starts at corner A, and walks a random edge each minute.
+What's the chance it's at the farthest corner after three minutes?
 
-What's the chance it's at the far corner G after three minutes?
+Comment your letter, then watch!
 
-Pause and try it!
+G is three edges away. So every step must go farther!
 
-*(Pause and try it: 3 s countdown)*
+Step one: all three edges go farther. Three over three.
 
-G is three edges away. So every step must go farther.
+Step two: one edge goes back. Two over three.
 
-Step one: all three edges go farther. That's three out of three.
+Step three: only one edge reaches G. One over three.
 
-Step two: only two out of three go farther.
+Multiply them all. That's two over nine!
 
-Step three: only one out of three reaches G.
+One over twenty-seven was the trap.
 
-One, times two thirds, times one third. That's two ninths!
-
-Much less than one third!
-
-Want the exact working? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get two over nine? Tell me below!

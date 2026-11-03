@@ -6,7 +6,14 @@
  "posts": [],
  "short": {
   "title": "The star puzzle: don't stop too early! #Shorts",
-  "description": "A made-up star rule, a chain of four fractions and one sneaky trap. The score trick makes the chain collapse!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "description": "A made-up star rule, a chain of four fractions and one sneaky trap. Go all the way to the last step!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": [],
+  "challenge": 56,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

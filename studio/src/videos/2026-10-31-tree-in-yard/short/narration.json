@@ -1,29 +1,52 @@
 {
  "title": "Tree in the Yard (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "Call that distance x. So E C is x too, and E B is sixteen minus x.": "Call that distance x. So EC is x too, and EB is 16 minus x.",
+  "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.": "The right triangle says: (16 minus x)², plus 8², equals x².",
+  "Six was the trap. That's E B, the distance to B.": "6 was the trap. That's EB, the distance to B.",
+  "The x squareds cancel: three hundred twenty equals thirty-two x.": "The x²s cancel: 320 equals 32x."
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "A tree stands on the edge of a yard, as far from corner A as from corner C.",
-   "Where is it? Let's find it without measuring!"
-  ]},
-  {"id": "question", "lines": [
-   "The yard is sixteen meters long and eight meters wide.",
-   "How far is the tree from corner A?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "name", "lines": [
-   "Call that distance x. Then E C is also x, and E B is sixteen minus x.",
-   "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.",
-   "The x squared parts cancel, leaving three hundred twenty equals thirty-two x."
-  ]},
-  {"id": "reveal", "lines": [
-   "So x is ten meters!",
-   "Check: E B is six, and six, eight, ten is a right triangle."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Want to see why? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 0.8}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's six? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The yard is sixteen by eight meters. Tree E is as far from A as from C.",
+    "How far is the tree from A?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "name",
+   "lines": [
+    "Call that distance x. So E C is x too, and E B is sixteen minus x.",
+    "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.",
+    "The x squareds cancel: three hundred twenty equals thirty-two x."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Divide by thirty-two. The tree is ten meters away!",
+    "Six was the trap. That's E B, the distance to B.",
+    "Did you get ten? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

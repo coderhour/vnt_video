@@ -1,27 +1,21 @@
-# How Many Are Multiples of 3? (short)
+# Multiples of 3 in 1, 3, 6, 10... (short)
+
+AMC eight challenge! Think it's thirty-three? Nope!
 
 One, three, six, ten, fifteen: each step adds one more.
 
-Go on for a hundred! How many are multiples of three?
+How many of the first one hundred numbers are multiples of three?
 
-How many of the first hundred are multiples of three? Here are the choices.
-
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
+Comment your letter, then watch!
 
 Track the remainder after dividing by three: one, zero, zero, and repeat.
 
-So every group of three spots holds exactly two multiples of three.
+So every group of three spots holds two multiples!
 
-One hundred spots is thirty-three groups, plus one extra spot.
+One hundred spots is thirty-three groups, plus one extra spot, which leaves one.
 
-Thirty-three groups, two each. The extra spot leaves one, so it adds none.
+Thirty-three groups, times two each. That's sixty-six!
 
-Sixty-six multiples of three!
+Thirty-three was the trap. Spots two, five and eight count too!
 
-Not thirty-three. Each group has TWO.
-
-Why does it repeat? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get sixty-six? Tell me below!

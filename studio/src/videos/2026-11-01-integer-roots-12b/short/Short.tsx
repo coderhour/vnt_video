@@ -1,81 +1,111 @@
-import { Audio, Sequence, staticFile, useCurrentFrame } from 'remotion';
-import { ease, fadeUp, pop, range } from '../../../lib/anim';
+import { Audio, Sequence, useCurrentFrame } from 'remotion';
+import { ease, fadeTo, fadeUp, pop } from '../../../lib/anim';
 import { at, type SceneComponent, type Timeline } from '../../../lib/Explainer';
-import { Countdown } from '../../../lib/PauseCard';
 import { Stage } from '../../../lib/grid';
-import { FullLessonCard, ShortFrame } from '../../../lib/Short';
+import { CommentBubble, CtaPill, MUSIC, PushIn, SFX, Sfx, ShortFrame, choicePulse } from '../../../lib/Short';
 import { Tex } from '../../../lib/Tex';
 import { Confetti, Text } from '../../../lib/ui';
 import { C } from '../../../lib/theme';
-import { CH, CHIME, POS, SLUG, TICK } from '../Composition';
+import { CH, CHIME, POS, SLUG } from '../Composition';
 
 export { SLUG };
 
-const AM = '\\color{#f59f0a}';
+// New recipe: trap-first AMC 10 hook (8 = only the positive pairs), question, comment bait, the aha (the
+// (r + 12)(s + 12) grid: three parts, add 144, it factors, zoom on the 144 cell) and the factor-pair list,
+// reveal 16 under the same grid as frame 0.
 
-const Title: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <Text x={540} y={300} w={980} size={72} weight={900} align="center">
-    {children}
-  </Text>
-);
+const before = () => -100;
 
-/** A centred line of maths that fades up at frame `start` (start <= 0: on screen from the first frame). */
-const Eq: React.FC<{ y: number; tex: string; start: number; size?: number; color?: string; x?: number }> = ({ y, tex, start, size = 64, color = C.ink, x = 540 }) => {
-  const f = useCurrentFrame();
-  return (
-    <div style={{ position: 'absolute', left: x - 500, width: 1000, top: y, display: 'flex', justifyContent: 'center', whiteSpace: 'nowrap', ...(start > 0 ? fadeUp(f, start) : {}) }}>
-      <Tex tex={tex} size={size} color={color} />
+// The grid (a sketch, not to scale): columns r | 12, rows s | 12.
+const GX = 170;
+const GY = 620;
+const CW = [450, 300];
+const RH = [300, 220];
+const CELLS = [
+  { c: 0, r: 0, t: 'rs', col: C.violet },
+  { c: 1, r: 0, t: '12s', col: C.primary },
+  { c: 0, r: 1, t: '12r', col: C.primary },
+  { c: 1, r: 1, t: '144', col: C.amber },
+];
+const cx = (c: number) => GX + (c ? CW[0] : 0);
+const cy = (r: number) => GY + (r ? RH[0] : 0);
+const W = CW[0] + CW[1];
+const H = RH[0] + RH[1];
+
+/** The grid; `text[i]` = opacity of cell i's label, `hot` = the 144 cell lit, `ring` = green outline, `labels` = side labels. */
+const Grid: React.FC<{ text?: number[]; hot?: number; ring?: number; labels?: number; whole?: number; opacity?: number }> = ({ text = [0, 0, 0, 0], hot = 0, ring = 0, labels = 1, whole = 0, opacity = 1 }) =>
+  opacity <= 0 ? null : (
+    <div style={{ position: 'absolute', inset: 0, opacity }}>
+      <Stage>
+        {CELLS.map((c, i) => (
+          <rect key={i} x={cx(c.c)} y={cy(c.r)} width={CW[c.c]} height={RH[c.r]} fill={c.col} fillOpacity={0.1 + (i === 3 ? 0.35 * hot : 0) + 0.12 * text[i]} stroke={C.ink} strokeWidth={6} />
+        ))}
+        <rect x={GX - 8} y={GY - 8} width={W + 16} height={H + 16} fill="none" stroke={C.green} strokeWidth={12} rx={10} opacity={ring} />
+      </Stage>
+      {CELLS.map((c, i) => (
+        <div key={i} style={{ position: 'absolute', left: cx(c.c), top: cy(c.r), width: CW[c.c], height: RH[c.r], display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: text[i], transform: `scale(${0.6 + 0.4 * text[i]})` }}>
+          <Tex tex={c.t} size={i === 3 ? 92 : 84} color={c.col === C.amber ? '#b87400' : c.col} />
+        </div>
+      ))}
+      {/* side labels: r | 12 on top, s | 12 on the left; then the whole sides r + 12, s + 12 */}
+      <div style={{ opacity: labels * (1 - whole) }}>
+        <Text x={GX + CW[0] / 2} y={GY - 82} w={200} size={64} weight={900} align="center" color={C.violet}>r</Text>
+        <Text x={GX + CW[0] + CW[1] / 2} y={GY - 82} w={200} size={64} weight={900} align="center">12</Text>
+        <Text x={95} y={GY + RH[0] / 2 - 42} w={120} size={64} weight={900} align="center" color={C.violet}>s</Text>
+        <Text x={95} y={GY + RH[0] + RH[1] / 2 - 42} w={120} size={64} weight={900} align="center">12</Text>
+      </div>
+      {whole > 0 && (
+        <>
+          <div style={{ position: 'absolute', left: GX, width: W, top: GY - 92, display: 'flex', justifyContent: 'center', opacity: whole }}>
+            <Tex tex="r+12" size={66} color={C.green} />
+          </div>
+          <div style={{ position: 'absolute', left: 90 - 150, width: 300, top: GY + H / 2 - 40, display: 'flex', justifyContent: 'center', transform: 'rotate(-90deg)', opacity: whole }}>
+            <Tex tex="s+12" size={66} color={C.green} />
+          </div>
+        </>
+      )}
     </div>
   );
-};
 
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const nl = (v: number) => 540 + v * 70;
-  const dots = at(scene, 0, 0.7);
+  const nope = at(scene, 0, 0.84);
   return (
     <>
-      <Title>
-        Both roots <span style={{ color: C.primary }}>whole numbers</span>?
-      </Title>
-      <Eq y={430} tex="x^2+bx+12b=0" start={0} size={104} />
-      <div style={{ position: 'absolute', left: 0, width: 1080, top: 590, display: 'flex', justifyContent: 'center', ...fadeUp(f, at(scene, 0, 0.12)) }}>
-        <div style={{ background: C.amber, color: '#fff', borderRadius: 999, padding: '6px 34px', fontSize: 54, fontWeight: 900 }}>b = −1</div>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10 · Challenge #8</div>
       </div>
-      <Eq y={690} tex="x^2-x-12=(x-4)(x+3)" start={at(scene, 0, 0.35)} size={64} />
-      <Stage>
-        <line x1={nl(-5.6)} y1={930} x2={nl(5.6)} y2={930} stroke={C.ink} strokeWidth={6} strokeLinecap="round" />
-        {range(11).map((i) => (
-          <line key={i} x1={nl(i - 5)} y1={918} x2={nl(i - 5)} y2={942} stroke={C.ink} strokeWidth={4} opacity={0.5} />
-        ))}
-        {[-3, 4].map((v, i) => (
-          <circle key={v} cx={nl(v)} cy={930} r={22 * ease(f, dots + i * 12, 12)} fill={v === 4 ? C.primary : C.violet} />
-        ))}
-      </Stage>
-      {[-3, 4].map((v) => (
-        <Text key={v} x={nl(v) - 60} y={962} w={120} size={52} weight={900} align="center" color={v === 4 ? C.primary : C.violet} style={fadeUp(f, dots)}>
-          {v < 0 ? `−${-v}` : v}
-        </Text>
-      ))}
-      <Text x={540} y={1090} w={980} size={68} weight={900} color={C.amber} align="center" style={fadeUp(f, at(scene, 1, 0.1))}>
-        How many values of b?
+      <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
+        Think it's <span style={{ color: C.red }}>8</span>?
       </Text>
+      <PushIn frames={scene.frames} origin="545px 880px">
+        <Grid />
+      </PushIn>
+      <Sfx at={nope} src={SFX.buzz} volume={0.35} />
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 780, display: 'flex', justifyContent: 'center', opacity: ease(f, nope, 4) }}>
+        <div style={{ transform: `rotate(-8deg) scale(${pop(f, nope)})`, border: `14px solid ${C.red}`, color: C.red, background: 'rgba(255,255,255,0.92)', borderRadius: 28, padding: '6px 54px', fontSize: 150, fontWeight: 900, letterSpacing: 6 }}>
+          NOPE
+        </div>
+      </div>
     </>
   );
 };
 
-const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => {
+const QuestionBody: React.FC<{ start: (i: number) => number; pulse?: (i: number) => number }> = ({ start, pulse = () => 1 }) => {
   const f = useCurrentFrame();
   return (
     <>
-      <div style={{ position: 'absolute', left: 60, top: 330, width: 860, background: C.card, borderRadius: 32, padding: '30px 40px', fontSize: 52, fontWeight: 700, lineHeight: 1.6, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
-        For how many <b style={{ color: C.amber }}>integers b</b> are both roots of <Tex tex="x^2+bx+12b=0" size={56} /> <b style={{ color: C.primary }}>integers</b>?
+      <div style={{ position: 'absolute', left: 50, top: 290, width: 980, boxSizing: 'border-box', background: C.card, borderRadius: 32, padding: '24px 40px', fontSize: 58, fontWeight: 800, lineHeight: 1.32, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
+        For how many <b style={{ color: C.amber }}>integers b</b> are <b style={{ color: C.primary }}>both roots integers</b>?
       </div>
-      <div style={{ position: 'absolute', left: 60, top: 780, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 22 }}>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 610, display: 'flex', justifyContent: 'center' }}>
+        <Tex tex="x^2+bx+12b=0" size={104} />
+      </div>
+      <div style={{ position: 'absolute', left: 30, top: 870, width: 1020, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 16 }}>
         {CH.map((c, i) => (
-          <div key={c} style={{ ...fadeUp(f, start(i), 10), background: C.card, borderRadius: 18, padding: '10px 30px', boxShadow: '0 4px 14px rgba(30,40,80,0.07)', display: 'flex', alignItems: 'center', gap: 12, fontSize: 56, fontWeight: 800 }}>
-            <span style={{ color: C.muted, fontSize: 38 }}>{'ABCDE'[i]}</span>
-            {c}
+          <div key={c} style={{ ...fadeUp(f, start(i), 8), background: C.card, borderRadius: 22, padding: '10px 22px', boxShadow: '0 4px 14px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', gap: 14, scale: String(pulse(i)) }}>
+            <span style={{ color: C.muted, fontSize: 44, fontWeight: 900 }}>{'ABCDE'[i]}</span>
+            <Tex tex={String(c)} size={68} />
           </div>
         ))}
       </div>
@@ -83,108 +113,135 @@ const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => 
   );
 };
 
-const Question: SceneComponent = ({ scene }) => <QuestionBody start={(i) => at(scene, 1, 0.1 + i * 0.12)} />;
-
-const Think: SceneComponent = ({ scene }) => (
+const Question: SceneComponent = ({ scene }) => (
   <>
-    <div style={{ opacity: 0.35 }}>
-      <QuestionBody start={() => -100} />
-    </div>
-    <div style={{ position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, background: 'rgba(246,247,251,0.6)' }} />
-    <Countdown scene={scene} seconds={3} x={540} y={900} tick={TICK} />
+    <QuestionBody start={(i) => at(scene, 0, 0.78 + i * 0.04)} />
+    <Sfx at={0} src={SFX.whoosh} volume={0.3} />
   </>
 );
 
-const Trick: SceneComponent = ({ scene }) => {
+const Think: SceneComponent = () => {
   const f = useCurrentFrame();
-  const a = (i: number, t = 0) => at(scene, i, t);
-  const GX = 280;
-  const GY = 570;
-  const S = 190;
-  const l1 = a(1);
-  const l2 = a(2);
-  const cells = [
-    { c: 0, r: 0, t: 'rs', col: C.violet },
-    { c: 1, r: 0, t: '12s', col: C.primary },
-    { c: 0, r: 1, t: '12r', col: C.primary },
-    { c: 1, r: 1, t: '144', col: C.amber },
-  ];
   return (
     <>
-      <Title>{f < l1 ? <>Sum and product</> : <>Add <span style={{ color: C.amber }}>144</span></>}</Title>
-      <Eq y={400} tex="rs+12r+12s=0" start={a(0, 0.55)} size={76} />
-      <Text x={GX + S / 2} y={GY - 62} w={200} size={46} weight={900} align="center" color={C.primary} style={fadeUp(f, l1 + 6)}>r</Text>
-      <Text x={GX + S * 1.5} y={GY - 62} w={200} size={46} weight={900} align="center" style={fadeUp(f, l1 + 8)}>12</Text>
-      <Text x={GX - 40} y={GY + S / 2 - 30} w={70} size={46} weight={900} align="center" color={C.violet} style={fadeUp(f, l1 + 10)}>s</Text>
-      <Text x={GX - 40} y={GY + S * 1.5 - 30} w={70} size={46} weight={900} align="center" style={fadeUp(f, l1 + 12)}>12</Text>
-      <Stage>
-        {cells.map((c, i) => (
-          <rect key={i} x={GX + c.c * S} y={GY + c.r * S} width={S} height={S} fill={c.col} fillOpacity={0.12 + (i === 3 ? 0.3 * ease(f, l1 + 30, 10) : 0)} stroke={C.ink} strokeWidth={5} opacity={ease(f, l1 + 4 + i * 4, 12)} />
-        ))}
-        <rect x={GX - 6} y={GY - 6} width={2 * S + 12} height={2 * S + 12} fill="none" stroke={C.green} strokeWidth={10} rx={8} opacity={ease(f, l2 + 40, 12)} />
-      </Stage>
-      {cells.map((c, i) => (
-        <Text key={i} x={GX + c.c * S + S / 2} y={GY + c.r * S + S / 2 - 34} w={S} size={52} weight={900} align="center" color={c.col === C.amber ? '#b87400' : c.col} style={{ opacity: ease(f, l1 + 8 + i * 6, 10) }}>
-          {c.t}
-        </Text>
-      ))}
-      <div style={{ position: 'absolute', left: GX + 2 * S + 24, top: GY + S - 34, ...fadeUp(f, l1 + 16) }}>
-        <Tex tex="s+12" size={48} />
-      </div>
-      <div style={{ position: 'absolute', left: GX, top: GY + 2 * S + 8, width: 2 * S, textAlign: 'center', ...fadeUp(f, l1 + 14) }}>
-        <Tex tex="r+12" size={48} />
-      </div>
-      <Eq y={1030} tex={`rs+12r+12s+${AM}144${'\\color{#333333}'}=0+${AM}144`} start={a(1, 0.5)} size={52} />
-      <Eq y={1130} tex="(r+12)(s+12)=144" start={a(2, 0.35)} size={76} color={C.green} />
+      <QuestionBody start={before} pulse={(i) => choicePulse(f, i)} />
+      <CommentBubble y={1080} />
     </>
   );
 };
 
-const Reveal: SceneComponent = ({ scene }) => {
+/** One maths row centred at the top. */
+const TopEq: React.FC<{ tex: string; o: number; size?: number; color?: string; y?: number }> = ({ tex, o, size = 72, color = C.ink, y = 290 }) =>
+  o <= 0 ? null : (
+    <div style={{ position: 'absolute', left: 0, width: 1080, top: y, display: 'flex', justifyContent: 'center', whiteSpace: 'nowrap', opacity: o }}>
+      <Tex tex={tex} size={size} color={color} />
+    </div>
+  );
+
+const ROW_Y = (i: number) => 556 + i * 68;
+const POS_X = 110;
+const NEG_X = 560;
+
+/** The factor pairs of 144: positive column (counted 1..8), then the negative column all at once. */
+const Pairs: React.FC<{ pos: (i: number) => number; neg: number; count: number; negFlash?: number; opacity?: number }> = ({ pos, neg, count, negFlash = 0, opacity = 1 }) => {
   const f = useCurrentFrame();
-  const hit = at(scene, 1, 0.4);
-  const chime = at(scene, 1, 1);
-  const rowT = (i: number) => at(scene, 0, 0.1 + i * 0.05);
-  const negT = (i: number) => at(scene, 0, 0.55 + i * 0.05);
+  if (opacity <= 0) return null;
   return (
-    <>
-      <Text x={280} y={300} w={440} size={46} weight={900} color={C.primary} align="center" style={fadeUp(f, rowT(0))}>
-        8 positive
-      </Text>
-      <Text x={720} y={300} w={440} size={46} weight={900} color={C.red} align="center" style={fadeUp(f, negT(0))}>
-        8 negative
-      </Text>
+    <div style={{ position: 'absolute', inset: 0, opacity }}>
+      {count > 0 && (
+        <div style={{ position: 'absolute', left: POS_X - 20, top: 460, background: C.primary, color: '#fff', borderRadius: 20, padding: '6px 28px', fontSize: 56, fontWeight: 900 }}>
+          + pairs: {count}
+        </div>
+      )}
+      <div style={{ position: 'absolute', left: NEG_X - 20, top: 460, background: negFlash > 0 ? C.red : C.violet, color: '#fff', borderRadius: 20, padding: '6px 28px', fontSize: 56, fontWeight: 900, opacity: ease(f, neg, 6), transform: `scale(${pop(f, neg)})`, transformOrigin: 'left center' }}>
+        − pairs: 8
+      </div>
       {POS.map(([u, v], i) => (
         <div key={i}>
-          <div style={{ position: 'absolute', left: 60, width: 440, top: 380 + i * 66, display: 'flex', justifyContent: 'center', ...fadeUp(f, rowT(i), 10) }}>
-            <Tex tex={`${u}\\times${v}`} size={50} />
+          <div style={{ position: 'absolute', left: POS_X, top: ROW_Y(i), whiteSpace: 'nowrap', ...fadeUp(f, pos(i), 6) }}>
+            <Tex tex={`${u}\\times${v}`} size={60} />
           </div>
-          <div style={{ position: 'absolute', left: 500, width: 440, top: 380 + i * 66, display: 'flex', justifyContent: 'center', ...fadeUp(f, negT(i), 10) }}>
-            <Tex tex={`(-${u})(-${v})`} size={50} color={C.red} />
+          <div style={{ position: 'absolute', left: NEG_X, top: ROW_Y(i), whiteSpace: 'nowrap', ...fadeUp(f, neg + i, 6) }}>
+            <Tex tex={`(-${u})\\times(-${v})`} size={60} color={negFlash > 0 ? C.red : C.violet} />
           </div>
         </div>
       ))}
-      <div style={{ position: 'absolute', left: 0, width: 1080, top: 960, display: 'flex', justifyContent: 'center', gap: 24, alignItems: 'center' }}>
-        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '12px 48px', fontSize: 80, fontWeight: 900, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
-          16 values of b
+    </div>
+  );
+};
+
+const Trick: SceneComponent = ({ scene }) => {
+  const f = useCurrentFrame();
+  const t = (i: number, p = 0) => at(scene, i, p);
+  const text = [ease(f, t(0, 0.6), 8), ease(f, t(0, 0.76), 8), ease(f, t(0, 0.88), 8), ease(f, t(1, 0.08), 8)];
+  const zIn = t(1, 0.05);
+  const zOut = t(1, 0.78);
+  const z = 1 + 0.3 * ease(f, zIn, 14) - 0.3 * ease(f, zOut, 14);
+  const gridOut = t(2, 0.92);
+  const posAt = (i: number) => t(3, 0.02) + i * 6;
+  const count = POS.reduce((n, _, i) => (f >= posAt(i) ? i + 1 : n), 0);
+  const neg = t(3, 0.68);
+  return (
+    <>
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      {[0.6, 0.76, 0.88].map((p) => <Sfx key={p} at={t(0, p)} src={SFX.click} volume={0.26} />)}
+      <Sfx at={zIn} src={SFX.whoosh} volume={0.28} />
+      <Sfx at={t(1, 0.08)} src={SFX.click} volume={0.3} />
+      <Sfx at={zOut} src={SFX.whoosh} volume={0.25} />
+      <Sfx at={t(2, 0.25)} src={SFX.click} volume={0.26} />
+      {[0, 2, 4, 6].map((i) => <Sfx key={i} at={posAt(i)} src={SFX.click} volume={0.25} />)}
+      <Sfx at={neg} src={SFX.whoosh} volume={0.3} />
+      <TopEq tex="rs+12r+12s=0" o={ease(f, t(0, 0.4), 10) * fadeTo(f, t(1, 0.15), 0, 6)} />
+      <TopEq tex="rs+12r+12s{\color{#b87400}+144}=0{\color{#b87400}+144}" size={60} o={ease(f, t(1, 0.15), 8) * fadeTo(f, t(2, 0.1), 0, 6)} />
+      <TopEq tex="(r+12)(s+12)=144" size={80} color={C.green} o={ease(f, t(2, 0.15), 10)} />
+      <div style={{ position: 'absolute', inset: 0, transform: `scale(${z})`, transformOrigin: `${cx(1) + CW[1] / 2}px ${cy(1) + RH[1] / 2}px` }}>
+        <Grid text={text} hot={ease(f, t(1, 0.08), 10)} ring={ease(f, t(1, 0.62), 10) * fadeTo(f, t(2, 0.6), 0, 10)} whole={ease(f, t(2, 0.25), 10)} opacity={fadeTo(f, gridOut, 0, 8)} />
+      </div>
+      <Text x={540} y={1150} w={800} size={36} weight={700} color={C.muted} align="center" style={{ opacity: ease(f, 6, 10) * fadeTo(f, gridOut, 0, 8) }}>
+        a sketch, not to scale
+      </Text>
+      <Pairs pos={posAt} neg={neg} count={count} />
+    </>
+  );
+};
+
+/** 16, the trap, then the list gives way to the same grid as frame 0 (filled in) under the CTA pill. */
+const Reveal: SceneComponent = ({ scene }) => {
+  const f = useCurrentFrame();
+  const t = (i: number, p = 0) => at(scene, i, p);
+  const hit = t(0, 0.71);
+  const chime = t(0, 0.97);
+  const trap = t(1, 0.05);
+  const swap = t(2, 0.0);
+  return (
+    <>
+      <TopEq tex="(r+12)(s+12)=144" size={80} color={C.green} o={fadeTo(f, hit - 6, 0, 6)} />
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
+        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '12px 44px', display: 'flex', alignItems: 'center', gap: 24, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
+          <span style={{ fontSize: 66, fontWeight: 900 }}>C</span>
+          <Tex tex="16" size={110} color="#fff" />
+          <span style={{ fontSize: 60, fontWeight: 900 }}>values of b</span>
         </div>
       </div>
-      <Text x={540} y={1100} w={900} size={64} weight={900} color={C.violet} align="center" style={fadeUp(f, at(scene, 1, 0.7))}>
-        Choice C!
+      <Pairs pos={before} neg={-100} count={8} negFlash={f >= trap && f < swap ? 1 : 0} opacity={fadeTo(f, swap, 0, 10)} />
+      <Grid text={[1, 1, 1, 1]} hot={1} opacity={ease(f, swap + 4, 12)} />
+      <Text x={490} y={1115} w={860} size={60} weight={900} color={C.red} align="center" style={{ ...fadeUp(f, trap), opacity: ease(f, trap, 10) * fadeTo(f, swap, 0, 8) }}>
+        8 forgets the negatives ✗
       </Text>
+      <CtaPill start={t(2)} y={1180} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.25} />
+      <Sfx at={hit - 31} src={SFX.riser} volume={0.3} />
+      <Sfx at={trap} src={SFX.buzz} volume={0.2} />
+      <Sfx at={swap} src={SFX.whoosh} volume={0.22} />
       <Sequence from={chime} durationInFrames={60} layout="none">
         <Audio src={CHIME} volume={0.3} />
       </Sequence>
-      <Confetti x={540} y={1010} start={chime} seed={7} />
+      <Confetti x={540} y={360} start={chime} seed={7} />
     </>
   );
 };
 
-const Cta: SceneComponent = ({ scene }) => (
-  <FullLessonCard scene={scene} poster={staticFile(`${SLUG}/short/full.jpg`)} length="7:15" bullets={['Two ways to solve it', 'Every trap explained', 'A new equation to try']} />
-);
-
-const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, trick: Trick, reveal: Reveal, cta: Cta };
+const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, trick: Trick, reveal: Reveal };
 
 export const Short: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
-  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" /> : null;
+  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" captions="words" music={MUSIC} /> : null;

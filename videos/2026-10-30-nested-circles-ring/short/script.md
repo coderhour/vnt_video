@@ -1,27 +1,21 @@
 # Circle, Square, Circle: the Ring (short)
 
-A square, a circle, a smaller square, a smaller circle.
+AMC eight challenge! Think it's twelve pi? Nope!
 
-Find the shaded ring! And no square roots needed!
+A circle in a square of side eight. A smaller square has its corners on that circle.
 
-A circle fits in a square of side eight. A smaller square has its corners on that circle, with a smaller circle inside it.
+A smaller circle fits inside. What's the area of the shaded ring?
 
-What is the area of the shaded ring?
+Comment your letter, then watch!
 
-Pause and try it!
+The small square has its corners mid-side. Fold the four corner triangles in!
 
-*(Pause and try it: 3 s countdown)*
+They cover the small square exactly! Each is eight, so four make thirty-two.
 
-Look! The small square's corners sit at the middle of each side.
+That's half of sixty-four. Same shape, so the small circle is half too!
 
-Fold the four corner triangles in. They cover the small square exactly!
+The big circle is sixteen pi. The ring is the other half: eight pi!
 
-So the small square is half the big one, and its circle is half too!
+Twelve pi was the trap.
 
-The big circle is sixteen pi. The small circle is half of that, eight pi.
-
-So the ring is the other half. Eight pi, choice B!
-
-Why half? The full lesson shows the fold and the turn, plus every trap.
-
-Tap the link below to watch it!
+Did you get eight pi? Tell me below!

@@ -7,6 +7,13 @@
  "short": {
   "title": "A book with twice as many digits as pages #Shorts",
   "description": "The digits printed on a book's pages are exactly twice the number of pages. How many pages?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 25,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

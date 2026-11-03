@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1665,
+ "durationInFrames": 1187,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 198,
+   "frames": 110,
    "lines": [
     {
-     "text": "Nobody says how much money Ali and Bea have!",
-     "caption": "Nobody says how much money Ali and Bea have!",
-     "file": "2026-10-31-ali-bea-money/short/audio/a831a15cb0220663.wav",
+     "text": "AMC eight challenge! Think it's one hundred fifty? Nope!",
+     "caption": "AMC 8 challenge! Think it's $150? Nope!",
+     "file": "2026-10-31-ali-bea-money/short/audio/1746c773ad2312d7.wav",
      "from": 0,
-     "frames": 94
-    },
-    {
-     "text": "Can two swaps still find the total?",
-     "caption": "Can two swaps still find the total?",
-     "file": "2026-10-31-ali-bea-money/short/audio/66068223e28cc644.wav",
-     "from": 104,
-     "frames": 70
+     "frames": 99
     }
    ]
   },
@@ -29,45 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 198,
-   "frames": 319,
+   "from": 110,
+   "frames": 244,
    "lines": [
     {
-     "text": "If Ali gives Bea twenty percent, they're equal.",
-     "caption": "If Ali gives Bea twenty percent, they're equal.",
-     "file": "2026-10-31-ali-bea-money/short/audio/31ee147327099ee7.wav",
+     "text": "If Ali gives twenty percent to Bea, they're equal.",
+     "caption": "If Ali gives 20% to Bea, they're equal.",
+     "file": "2026-10-31-ali-bea-money/short/audio/a2ebde67d9c90b99.wav",
      "from": 0,
-     "frames": 87
+     "frames": 89
     },
     {
-     "text": "If Bea gives Ali ten dollars instead, Ali has twice as much.",
-     "caption": "If Bea gives Ali ten dollars instead, Ali has twice as much.",
-     "file": "2026-10-31-ali-bea-money/short/audio/1c59be01137a3747.wav",
-     "from": 97,
-     "frames": 128
-    },
-    {
-     "text": "How many dollars together?",
-     "caption": "How many dollars together?",
-     "file": "2026-10-31-ali-bea-money/short/audio/97fd832f526f7c86.wav",
-     "from": 234,
-     "frames": 52
+     "text": "If Bea gives Ali ten dollars instead, Ali has double. How much in all?",
+     "caption": "If Bea gives Ali $10 instead, Ali has double. How much in all?",
+     "file": "2026-10-31-ali-bea-money/short/audio/7e66bd2d2f5aedfa.wav",
+     "from": 94,
+     "frames": 138
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 517,
-   "frames": 164,
+   "from": 354,
+   "frames": 69,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-ali-bea-money/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-ali-bea-money/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 51
+     "frames": 58
     }
    ]
   },
@@ -75,29 +61,36 @@
    "id": "bars",
    "kind": "scene",
    "chapter": null,
-   "from": 681,
-   "frames": 425,
+   "from": 423,
+   "frames": 455,
    "lines": [
     {
-     "text": "Twenty percent is one fifth. So split Ali's money into five parts.",
-     "caption": "Twenty percent is one fifth. So split Ali's money into five parts.",
-     "file": "2026-10-31-ali-bea-money/short/audio/c9009da09ab4e381.wav",
+     "text": "Twenty percent is one fifth: five parts for Ali.",
+     "caption": "20% is 1/5: 5 parts for Ali.",
+     "file": "2026-10-31-ali-bea-money/short/audio/7bdcfcca3a9360e4.wav",
      "from": 0,
-     "frames": 137
+     "frames": 96
     },
     {
-     "text": "He gives one part, and they're equal. So Bea started with three parts.",
-     "caption": "He gives one part, and they're equal. So Bea started with three parts.",
-     "file": "2026-10-31-ali-bea-money/short/audio/89a1924a22ac2aed.wav",
-     "from": 148,
-     "frames": 131
+     "text": "He gives one. Both have four, so Bea started with three.",
+     "caption": "He gives one. Both have 4, so Bea started with 3.",
+     "file": "2026-10-31-ali-bea-money/short/audio/94127c26795def48.wav",
+     "from": 101,
+     "frames": 96
     },
     {
-     "text": "Ali has five parts, Bea has three. Eight in all!",
-     "caption": "Ali has five parts, Bea has three. Eight in all!",
-     "file": "2026-10-31-ali-bea-money/short/audio/420819beffb7080c.wav",
-     "from": 289,
-     "frames": 112
+     "text": "Then Bea gives ten. Twice her money is six parts, minus twenty.",
+     "caption": "Then Bea gives $10. Twice her money is 6 parts, minus 20.",
+     "file": "2026-10-31-ali-bea-money/short/audio/4a2c0c1b3f072142.wav",
+     "from": 201,
+     "frames": 122
+    },
+    {
+     "text": "Ali has five parts plus ten. So one part is thirty!",
+     "caption": "Ali has 5 parts plus 10. So one part is $30!",
+     "file": "2026-10-31-ali-bea-money/short/audio/62a7ad11d20578a3.wav",
+     "from": 327,
+     "frames": 117
     }
    ]
   },
@@ -105,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1106,
-   "frames": 302,
+   "from": 878,
+   "frames": 309,
    "lines": [
     {
-     "text": "The ten dollar swap makes one part thirty dollars. So, two hundred forty dollars together!",
-     "caption": "The ten dollar swap makes one part thirty dollars. So, two hundred forty dollars together!",
-     "file": "2026-10-31-ali-bea-money/short/audio/7b12db9426bcce29.wav",
+     "text": "Eight parts of thirty: two hundred forty dollars!",
+     "caption": "8 parts of $30: $240!",
+     "file": "2026-10-31-ali-bea-money/short/audio/63880c2c173298c0.wav",
      "from": 0,
-     "frames": 152
+     "frames": 90
     },
     {
-     "text": "Ali has one hundred fifty, and Bea has ninety.",
-     "caption": "Ali has one hundred fifty, and Bea has ninety.",
-     "file": "2026-10-31-ali-bea-money/short/audio/12ebaf9d316f4efb.wav",
-     "from": 161,
-     "frames": 102
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1408,
-   "frames": 257,
-   "lines": [
-    {
-     "text": "Why thirty? The full lesson shows it step by step, plus every trap.",
-     "caption": "Why thirty? The full lesson shows it step by step, plus every trap.",
-     "file": "2026-10-31-ali-bea-money/short/audio/d6b8629c64809a93.wav",
-     "from": 0,
-     "frames": 142
+     "text": "One hundred fifty was the trap. That's just Ali.",
+     "caption": "$150 was the trap. That's just Ali.",
+     "file": "2026-10-31-ali-bea-money/short/audio/850c56214452eab1.wav",
+     "from": 95,
+     "frames": 98
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-ali-bea-money/short/audio/82b8b7e1a12a7449.wav",
-     "from": 152,
-     "frames": 57
+     "text": "Did you get two hundred forty? Tell me below!",
+     "caption": "Did you get $240? Tell me below!",
+     "file": "2026-10-31-ali-bea-money/short/audio/1b17797ffc434987.wav",
+     "from": 197,
+     "frames": 77
     }
    ]
   }

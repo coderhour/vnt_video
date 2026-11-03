@@ -1,54 +1,56 @@
 {
  "title": "Will She Land on Step 5? (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Pia flips a coin before each move. Heads, one step. Tails, two.",
-    "Will she land on step five?"
+    "AMC eight challenge! Think it's one half? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "Heads, she goes up one step. Tails, up two.",
+    "Before each move, Pia flips a fair coin. Heads, up one step. Tails, up two.",
     "What's the chance she stands on step five?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "ladder",
    "lines": [
-    "Work up the stairs! She comes from one step below with heads, or two below with tails.",
-    "Each move is a coin flip, so average those two chances.",
-    "The ground is one. Then one half, three fourths, five eighths, eleven sixteenths."
+    "Climb the ladder! She comes from one below with heads, or two below with tails.",
+    "Each way is one over two, so a step's chance is their average.",
+    "The ground is one. Then one over two, three over four, five over eight, eleven over sixteen."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Average eleven sixteenths and five eighths. That's twenty-one thirty-seconds!",
-    "She lands on it more than half the time!"
-   ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why is it not one half? The full lesson lists every way, plus every trap.",
-    "Tap the link below to watch it!"
+    "Average eleven over sixteen and five over eight. That's twenty-one over thirty-two!",
+    "The trap was one half.",
+    "Did you get twenty-one over thirty-two? Tell me below!"
    ],
    "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's one half? Nope!": "AMC 8 challenge! Think it's 1/2? Nope!",
+  "Climb the ladder! She comes from one below with heads, or two below with tails.": "Climb the ladder! She comes from 1 below with heads, or 2 below with tails.",
+  "The ground is one. Then one over two, three over four, five over eight, eleven over sixteen.": "The ground is 1. Then 1/2, 3/4, 5/8, 11/16.",
+  "Average eleven over sixteen and five over eight. That's twenty-one over thirty-two!": "Average 11/16 and 5/8. That's 21/32!",
+  "Did you get twenty-one over thirty-two? Tell me below!": "Did you get 21/32? Tell me below!",
+  "Each way is one over two, so a step's chance is their average.": "Each way is 1/2, so a step's chance is their average.",
+  "The trap was one half.": "The trap was 1/2.",
+  "Before each move, Pia flips a fair coin. Heads, up one step. Tails, up two.": "Before each move, Pia flips a fair coin. Heads, up 1 step. Tails, up 2."
+ }
 }

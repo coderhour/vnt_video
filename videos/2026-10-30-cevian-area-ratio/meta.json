@@ -7,6 +7,13 @@
  "short": {
   "title": "Where do the lines cross? #Shorts",
   "description": "Two lines cross inside a triangle of area 60. How big is the shaded piece?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 50,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1607,
+ "durationInFrames": 1120,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 210,
+   "frames": 115,
    "lines": [
     {
-     "text": "Bob flips seven coins. Ann flips five.",
-     "caption": "Bob flips seven coins. Ann flips five.",
-     "file": "2026-11-01-coin-flip-race/short/audio/5c23dfad8ed0bd16.wav",
+     "text": "AMC ten challenge! Think it's one half? Nope!",
+     "caption": "AMC 10 challenge! Think it's 1/2? Nope!",
+     "file": "2026-11-01-coin-flip-race/short/audio/b56c6a0e1f1aeb13.wav",
      "from": 0,
-     "frames": 92
-    },
-    {
-     "text": "Who gets more heads? There's a one-step trick!",
-     "caption": "Who gets more heads? There's a one-step trick!",
-     "file": "2026-11-01-coin-flip-race/short/audio/161ed4b7d2c7f20d.wav",
-     "from": 102,
-     "frames": 84
+     "frames": 104
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 210,
-   "frames": 245,
+   "from": 115,
+   "frames": 204,
    "lines": [
     {
      "text": "Ann flips five fair coins, and Bob flips seven.",
-     "caption": "Ann flips five fair coins, and Bob flips seven.",
-     "file": "2026-11-01-coin-flip-race/short/audio/7e9e618b9b3ffc5c.wav",
+     "caption": "Ann flips 5 fair coins, and Bob flips 7.",
+     "file": "2026-11-01-coin-flip-race/short/audio/b294e6ac573811b5.wav",
      "from": 0,
-     "frames": 110
+     "frames": 98
     },
     {
-     "text": "What's the chance that Bob gets MORE heads than Ann?",
-     "caption": "What's the chance that Bob gets MORE heads than Ann?",
-     "file": "2026-11-01-coin-flip-race/short/audio/067f5520ac641842.wav",
-     "from": 119,
-     "frames": 93
+     "text": "What's the chance Bob gets MORE heads than Ann?",
+     "caption": "What's the chance Bob gets MORE heads than Ann?",
+     "file": "2026-11-01-coin-flip-race/short/audio/8812419973c00fbb.wav",
+     "from": 102,
+     "frames": 90
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 455,
-   "frames": 159,
+   "from": 319,
+   "frames": 74,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-11-01-coin-flip-race/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-01-coin-flip-race/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 46
+     "frames": 63
     }
    ]
   },
@@ -68,35 +61,28 @@
    "id": "flip",
    "kind": "scene",
    "chapter": null,
-   "from": 614,
-   "frames": 512,
+   "from": 393,
+   "frames": 399,
    "lines": [
     {
-     "text": "Here's the trick. Flip all of Ann's coins over.",
-     "caption": "Here's the trick. Flip all of Ann's coins over.",
-     "file": "2026-11-01-coin-flip-race/short/audio/b7c108d35e45d514.wav",
+     "text": "Flip all of Ann's coins over. Her tails turn into heads, and fair coins stay fair.",
+     "caption": "Flip all of Ann's coins over. Her tails turn into heads, and fair coins stay fair.",
+     "file": "2026-11-01-coin-flip-race/short/audio/393f2350ff3d4f74.wav",
      "from": 0,
-     "frames": 104
-    },
-    {
-     "text": "Tails turn into heads, and fair coins stay fair.",
-     "caption": "Tails turn into heads, and fair coins stay fair.",
-     "file": "2026-11-01-coin-flip-race/short/audio/db12f6770a749178.wav",
-     "from": 114,
-     "frames": 108
+     "frames": 140
     },
     {
      "text": "Now Bob wins when twelve coins show at least six heads.",
-     "caption": "Now Bob wins when twelve coins show at least six heads.",
-     "file": "2026-11-01-coin-flip-race/short/audio/8895196d9af5df25.wav",
-     "from": 233,
-     "frames": 112
+     "caption": "Now Bob wins when 12 coins show at least 6 heads.",
+     "file": "2026-11-01-coin-flip-race/short/audio/2c9218b9c3c3c03d.wav",
+     "from": 144,
+     "frames": 106
     },
     {
-     "text": "Exactly six is the middle. The two sides split the rest evenly.",
-     "caption": "Exactly six is the middle. The two sides split the rest evenly.",
-     "file": "2026-11-01-coin-flip-race/short/audio/95ff8dbb394a3473.wav",
-     "from": 355,
+     "text": "The middle pile is exactly six heads. The two sides are mirror images!",
+     "caption": "The middle pile is exactly 6 heads. The two sides are mirror images!",
+     "file": "2026-11-01-coin-flip-race/short/audio/2752a2ca430b1d16.wav",
+     "from": 254,
      "frames": 134
     }
    ]
@@ -105,38 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1126,
-   "frames": 286,
+   "from": 792,
+   "frames": 328,
    "lines": [
     {
-     "text": "So the answer is <short pause> Choice D!",
-     "caption": "So the answer is Choice D!",
-     "file": "2026-11-01-coin-flip-race/short/audio/74ce2a0d62e96a75.wav",
+     "text": "Middle plus one side: Choice D, one thousand two hundred fifty-five over two thousand forty-eight!",
+     "caption": "Middle plus one side: Choice D, 1255/2048!",
+     "file": "2026-11-01-coin-flip-race/short/audio/0a7ceda9a1bdefc4.wav",
      "from": 0,
-     "frames": 107
+     "frames": 183
     },
     {
-     "text": "That's about sixty-one percent. Two extra coins really do pay off!",
-     "caption": "That's about sixty-one percent. Two extra coins really do pay off!",
-     "file": "2026-11-01-coin-flip-race/short/audio/19e1acd614c1b23c.wav",
-     "from": 117,
-     "frames": 130
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1412,
-   "frames": 195,
-   "lines": [
+     "text": "One half was the trap.",
+     "caption": "1/2 was the trap.",
+     "file": "2026-11-01-coin-flip-race/short/audio/58668db03e40de6f.wav",
+     "from": 187,
+     "frames": 46
+    },
     {
-     "text": "The full lesson shows every trap. Tap the link below to watch it!",
-     "caption": "The full lesson shows every trap. Tap the link below to watch it!",
-     "file": "2026-11-01-coin-flip-race/short/audio/090dc1015b1e291c.wav",
-     "from": 0,
-     "frames": 126
+     "text": "Did you get D? Tell me below!",
+     "caption": "Did you get D? Tell me below!",
+     "file": "2026-11-01-coin-flip-race/short/audio/dfd32df79aaaa90d.wav",
+     "from": 237,
+     "frames": 56
     }
    ]
   }

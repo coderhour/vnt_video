@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1660,
+ "durationInFrames": 1139,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 248,
+   "frames": 103,
    "lines": [
     {
-     "text": "Four X tiles, four O tiles: seventy strings.",
-     "caption": "Four X tiles, four O tiles: seventy strings.",
-     "file": "2026-10-30-x-o-strings/short/audio/ec9da359c4785d09.wav",
+     "text": "AMC eight challenge! Think it's thirty-five? Nope!",
+     "caption": "AMC 8 challenge! Think it's 35? Nope!",
+     "file": "2026-10-30-x-o-strings/short/audio/be847647f551d965.wav",
      "from": 0,
-     "frames": 107
-    },
-    {
-     "text": "Is half of them good? NOT even close!",
-     "caption": "Is half of them good? NOT even close!",
-     "file": "2026-10-30-x-o-strings/short/audio/a94d6a42c8f46cd4.wav",
-     "from": 117,
-     "frames": 107
+     "frames": 92
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 248,
-   "frames": 245,
+   "from": 103,
+   "frames": 222,
    "lines": [
     {
-     "text": "Read left to right. At every point, X must have at least as many as O.",
-     "caption": "Read left to right. At every point, X must have at least as many as O.",
-     "file": "2026-10-30-x-o-strings/short/audio/9f9bd8b8fc8233b4.wav",
+     "text": "Line up four X tiles and four O tiles.",
+     "caption": "Line up 4 X tiles and 4 O tiles.",
+     "file": "2026-10-30-x-o-strings/short/audio/ccc7ed8bb5901d76.wav",
      "from": 0,
-     "frames": 153
+     "frames": 92
     },
     {
-     "text": "How many strings are good?",
-     "caption": "How many strings are good?",
-     "file": "2026-10-30-x-o-strings/short/audio/a344cee672aec97d.wav",
-     "from": 163,
-     "frames": 50
+     "text": "Left to right, X must never fall behind O. How many strings?",
+     "caption": "Left to right, X must never fall behind O. How many strings?",
+     "file": "2026-10-30-x-o-strings/short/audio/1f705b98d8392154.wav",
+     "from": 96,
+     "frames": 114
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 493,
-   "frames": 177,
+   "from": 325,
+   "frames": 75,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-x-o-strings/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-x-o-strings/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 63
+     "frames": 64
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "walk",
    "kind": "scene",
    "chapter": null,
-   "from": 670,
-   "frames": 460,
+   "from": 400,
+   "frames": 465,
    "lines": [
     {
-     "text": "Turn each string into a walk. Each X steps right, and each O steps down.",
-     "caption": "Turn each string into a walk. Each X steps right, and each O steps down.",
-     "file": "2026-10-30-x-o-strings/short/audio/3aaa7673d6a61b97.wav",
+     "text": "Turn each string into a walk. X steps right, O steps down.",
+     "caption": "Turn each string into a walk. X steps right, O steps down.",
+     "file": "2026-10-30-x-o-strings/short/audio/45892384c413bb49.wav",
      "from": 0,
-     "frames": 153
+     "frames": 122
     },
     {
-     "text": "O can never pass X, so the walk never crosses this wall.",
-     "caption": "O can never pass X, so the walk never crosses this wall.",
-     "file": "2026-10-30-x-o-strings/short/audio/cb16b531a2abec9c.wav",
-     "from": 162,
-     "frames": 124
+     "text": "X never falls behind, so the walk never crosses this wall.",
+     "caption": "X never falls behind, so the walk never crosses this wall.",
+     "file": "2026-10-30-x-o-strings/short/audio/bc135851017da0d4.wav",
+     "from": 126,
+     "frames": 104
     },
     {
-     "text": "Now fill in the grid. Each spot is the left number, plus the number above.",
-     "caption": "Now fill in the grid. Each spot is the left number, plus the number above.",
-     "file": "2026-10-30-x-o-strings/short/audio/c40417c32957cc3c.wav",
-     "from": 297,
-     "frames": 140
+     "text": "Each spot is the number on its left, plus the number above.",
+     "caption": "Each spot is the number on its left, plus the number above.",
+     "file": "2026-10-30-x-o-strings/short/audio/5238e512bc50d7d3.wav",
+     "from": 234,
+     "frames": 94
+    },
+    {
+     "text": "On the wall, the left is blocked, so copy the one above!",
+     "caption": "On the wall, the left is blocked, so copy the 1 above!",
+     "file": "2026-10-30-x-o-strings/short/audio/6302fead1751545d.wav",
+     "from": 332,
+     "frames": 106
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1130,
-   "frames": 248,
+   "from": 865,
+   "frames": 274,
    "lines": [
     {
-     "text": "Keep adding, all the way to the corner. The answer is fourteen!",
-     "caption": "Keep adding, all the way to the corner. The answer is fourteen!",
-     "file": "2026-10-30-x-o-strings/short/audio/1ce6ca0a683d322d.wav",
+     "text": "Keep adding to the corner. That's fourteen strings!",
+     "caption": "Keep adding to the corner. That's 14 strings!",
+     "file": "2026-10-30-x-o-strings/short/audio/fcbe8fc05f222056.wav",
      "from": 0,
-     "frames": 126
+     "frames": 89
     },
     {
-     "text": "That's just one string out of five!",
-     "caption": "That's just one string out of five!",
-     "file": "2026-10-30-x-o-strings/short/audio/1fa7f28b18dc7b1f.wav",
-     "from": 136,
-     "frames": 74
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1378,
-   "frames": 282,
-   "lines": [
-    {
-     "text": "Why does adding work? The full lesson has a list, a table, and every trap.",
-     "caption": "Why does adding work? The full lesson has a list, a table, and every trap.",
-     "file": "2026-10-30-x-o-strings/short/audio/231ca9d2be1d7b41.wav",
-     "from": 0,
-     "frames": 166
+     "text": "Thirty-five was the trap. That's just half of seventy.",
+     "caption": "35 was the trap. That's just half of 70.",
+     "file": "2026-10-30-x-o-strings/short/audio/30c872357231adf6.wav",
+     "from": 93,
+     "frames": 75
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-x-o-strings/short/audio/82b8b7e1a12a7449.wav",
-     "from": 177,
-     "frames": 58
+     "text": "Did you get fourteen? Tell me below!",
+     "caption": "Did you get 14? Tell me below!",
+     "file": "2026-10-30-x-o-strings/short/audio/c4c3325ff7bb0bb2.wav",
+     "from": 172,
+     "frames": 66
     }
    ]
   }

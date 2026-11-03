@@ -7,6 +7,13 @@
  "short": {
   "title": "Which start reaches 2024? #Shorts",
   "description": "Each term is the sum of the two before it, and term 10 is 2024. How big can the first two terms add up to?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 6,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

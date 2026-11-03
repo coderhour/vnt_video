@@ -7,6 +7,13 @@
  "short": {
   "title": "Smallest n so 1+2+...+n hits a multiple of 2024 #Shorts",
   "description": "Which n first makes 1+2+...+n a multiple of 2024? Neighbors share no factors, so each factor goes whole into one of them.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 9,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

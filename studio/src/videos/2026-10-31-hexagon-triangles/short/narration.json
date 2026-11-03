@@ -1,13 +1,13 @@
 {
  "title": "Triangles in a Hexagon (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15, "scene_tail": 0.4, "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "This hexagon is cut into twenty-four little triangles.",
-    "But bigger ones hide inside! How many in all?"
+    "AMC eight challenge! Think it's thirty-six? Nope!"
    ]
   },
   {
@@ -15,40 +15,30 @@
    "lines": [
     "A regular hexagon is cut into twenty-four small triangles.",
     "How many triangles of any size are in the figure?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
    "lines": [
-    "Pause and try it!"
-   ],
-   "kind": "pause",
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "flip",
    "lines": [
-    "Here's a shortcut. Count only the triangles pointing up.",
-    "Twelve little ones, six medium ones, and one big one. That's nineteen pointing up.",
-    "Now flip the hexagon upside down. It looks the same, so there are nineteen pointing down too!"
+    "Here's a shortcut. Count only the triangles pointing up. Twelve little ones.",
+    "Six with side two, and one big one. That's nineteen pointing up.",
+    "Now turn the hexagon upside down. It looks the same, so nineteen triangles point down too!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
     "Two times nineteen is thirty-eight!",
-    "Counting by size is slow. Flipping is fast."
+    "Thirty-six was the trap. It misses the two big ones.",
+    "Did you get thirty-eight? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why only one big one? The full lesson counts every size, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
  ]
 }

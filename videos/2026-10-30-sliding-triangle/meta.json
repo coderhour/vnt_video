@@ -7,6 +7,13 @@
  "short": {
   "title": "Slide a Triangle: Find the Shaded Part #Shorts",
   "description": "Copy a triangle, slide it 4 to the right: how much sticks out? Spot the smaller copy.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 40,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

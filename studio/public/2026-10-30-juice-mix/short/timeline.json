@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1637,
+ "durationInFrames": 1196,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 206,
+   "frames": 120,
    "lines": [
     {
-     "text": "Ella adds juice AND water to her drink.",
-     "caption": "Ella adds juice AND water to her drink.",
-     "file": "2026-10-30-juice-mix/short/audio/ff13ced2e6784b09.wav",
+     "text": "AMC eight challenge! Think it's four liters? Nope!",
+     "caption": "AMC 8 challenge! Think it's 4 liters? Nope!",
+     "file": "2026-10-30-juice-mix/short/audio/1855d6af498963e0.wav",
      "from": 0,
-     "frames": 90
-    },
-    {
-     "text": "And it gets STRONGER! How much water?",
-     "caption": "And it gets STRONGER! How much water?",
-     "file": "2026-10-30-juice-mix/short/audio/4418bc52c09b9b52.wav",
-     "from": 100,
-     "frames": 82
+     "frames": 108
     }
    ]
   },
@@ -29,36 +22,36 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 206,
-   "frames": 303,
+   "from": 120,
+   "frames": 258,
    "lines": [
     {
-     "text": "A twenty-liter drink is thirty percent juice. She adds juice and water.",
-     "caption": "A twenty-liter drink is thirty percent juice. She adds juice and water.",
-     "file": "2026-10-30-juice-mix/short/audio/44fc976ac18b8846.wav",
+     "text": "Twenty liters, thirty percent juice. Ella adds juice and water.",
+     "caption": "20 liters, 30% juice. Ella adds juice and water.",
+     "file": "2026-10-30-juice-mix/short/audio/f8660cec50403320.wav",
      "from": 0,
-     "frames": 132
+     "frames": 116
     },
     {
-     "text": "Now twenty-five liters, forty percent juice. How much water did she add?",
-     "caption": "Now twenty-five liters, forty percent juice. How much water did she add?",
-     "file": "2026-10-30-juice-mix/short/audio/967b6c90d5bb845e.wav",
-     "from": 143,
-     "frames": 128
+     "text": "Now it's twenty-five liters, forty percent juice. How much water did she add?",
+     "caption": "Now it's 25 liters, 40% juice. How much water did she add?",
+     "file": "2026-10-30-juice-mix/short/audio/169ab73e9c23edfc.wav",
+     "from": 120,
+     "frames": 126
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 509,
-   "frames": 171,
+   "from": 378,
+   "frames": 69,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-juice-mix/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-juice-mix/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
      "frames": 58
     }
@@ -68,29 +61,36 @@
    "id": "split",
    "kind": "scene",
    "chapter": null,
-   "from": 680,
-   "frames": 446,
+   "from": 447,
+   "frames": 464,
    "lines": [
     {
-     "text": "Here's the trick. Split each drink into juice and water.",
-     "caption": "Here's the trick. Split each drink into juice and water.",
-     "file": "2026-10-30-juice-mix/short/audio/04756640682b4c03.wav",
+     "text": "The trick: split each drink into juice and water.",
+     "caption": "The trick: split each drink into juice and water.",
+     "file": "2026-10-30-juice-mix/short/audio/d33a90d45ecab9b5.wav",
      "from": 0,
-     "frames": 118
+     "frames": 86
     },
     {
-     "text": "First drink: six juice, fourteen water. Last drink: ten juice, fifteen water.",
-     "caption": "First drink: six juice, fourteen water. Last drink: ten juice, fifteen water.",
-     "file": "2026-10-30-juice-mix/short/audio/cc8a2a687bdfb8cb.wav",
-     "from": 128,
-     "frames": 166
+     "text": "Thirty percent of twenty is six. So six juice, fourteen water.",
+     "caption": "30% of 20 is 6. So 6 juice, 14 water.",
+     "file": "2026-10-30-juice-mix/short/audio/44df3b22724ac295.wav",
+     "from": 90,
+     "frames": 116
     },
     {
-     "text": "Now watch the water: fourteen, then fifteen.",
-     "caption": "Now watch the water: fourteen, then fifteen.",
-     "file": "2026-10-30-juice-mix/short/audio/f15c9878e7bd12e7.wav",
-     "from": 305,
-     "frames": 118
+     "text": "Forty percent of twenty-five is ten. So ten juice, fifteen water.",
+     "caption": "40% of 25 is 10. So 10 juice, 15 water.",
+     "file": "2026-10-30-juice-mix/short/audio/a5193461372b5117.wav",
+     "from": 210,
+     "frames": 124
+    },
+    {
+     "text": "Now watch only the water. Fourteen, then fifteen!",
+     "caption": "Now watch only the water. 14, then 15!",
+     "file": "2026-10-30-juice-mix/short/audio/7397bb9002119dab.wav",
+     "from": 338,
+     "frames": 114
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1126,
-   "frames": 242,
+   "from": 911,
+   "frames": 285,
    "lines": [
     {
-     "text": "She added just ONE liter of water! That's Choice B.",
-     "caption": "She added just ONE liter of water! That's Choice B.",
-     "file": "2026-10-30-juice-mix/short/audio/ddb1fb721d6da3a3.wav",
+     "text": "So she adds just ONE liter of water!",
+     "caption": "So she adds just ONE liter of water!",
+     "file": "2026-10-30-juice-mix/short/audio/40811f031c0e3199.wav",
      "from": 0,
-     "frames": 110
+     "frames": 76
     },
     {
-     "text": "Most kids say four. But that's the juice!",
-     "caption": "Most kids say four. But that's the juice!",
-     "file": "2026-10-30-juice-mix/short/audio/1861723256e486b4.wav",
-     "from": 120,
-     "frames": 89
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1368,
-   "frames": 269,
-   "lines": [
-    {
-     "text": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "caption": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-juice-mix/short/audio/66554cbc453363b8.wav",
-     "from": 0,
-     "frames": 147
+     "text": "Four liters was the trap. That's the juice!",
+     "caption": "4 liters was the trap. That's the juice!",
+     "file": "2026-10-30-juice-mix/short/audio/7bd0d418a9923b0f.wav",
+     "from": 80,
+     "frames": 96
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-juice-mix/short/audio/82b8b7e1a12a7449.wav",
-     "from": 157,
-     "frames": 59
+     "text": "Did you get one liter? Tell me below!",
+     "caption": "Did you get 1 liter? Tell me below!",
+     "file": "2026-10-30-juice-mix/short/audio/5bda966f997e0052.wav",
+     "from": 180,
+     "frames": 69
     }
    ]
   }

@@ -1,29 +1,23 @@
 # The 2026th Digit (short)
 
-Write every number in a row, with no spaces.
+AMC eight challenge! Think it's six? Nope!
 
-Which digit lands in spot two thousand twenty-six?
-
-One long row of digits.
+Write all the whole numbers in a row, with no spaces.
 
 What is the two thousand twenty-sixth digit?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Count in blocks! One to ninety-nine uses one hundred eighty-nine digits.
 
-Count in blocks! One to ninety-nine uses one hundred eighty-nine spots.
-
-That leaves one thousand eight hundred thirty-seven.
+That leaves one thousand eight hundred thirty-seven digits.
 
 Three digits each: six hundred twelve numbers, remainder one.
 
-The last one is seven hundred eleven. The leftover one lands on the next number!
+Starting at one hundred, they run up to seven hundred eleven.
 
-It's the FIRST digit of seven hundred twelve: a seven!
+The remainder one is the first digit of seven hundred twelve. A seven!
 
-The remainder picks a digit of the NEXT number.
+Six was the trap. The numbers start at one hundred.
 
-Why that exactly? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get seven? Tell me below!

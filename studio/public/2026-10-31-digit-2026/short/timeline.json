@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1666,
+ "durationInFrames": 1136,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 242,
+   "frames": 102,
    "lines": [
     {
-     "text": "Write every number in a row, with no spaces.",
-     "caption": "Write every number in a row, with no spaces.",
-     "file": "2026-10-31-digit-2026/short/audio/19a6845d2c6a7233.wav",
+     "text": "AMC eight challenge! Think it's six? Nope!",
+     "caption": "AMC 8 challenge! Think it's 6? Nope!",
+     "file": "2026-10-31-digit-2026/short/audio/d966e0c2cea9ce2f.wav",
      "from": 0,
-     "frames": 98
-    },
-    {
-     "text": "Which digit lands in spot two thousand twenty-six?",
-     "caption": "Which digit lands in spot two thousand twenty-six?",
-     "file": "2026-10-31-digit-2026/short/audio/d510cd3cad8d2b58.wav",
-     "from": 108,
-     "frames": 111
+     "frames": 90
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 242,
-   "frames": 206,
+   "from": 102,
+   "frames": 193,
    "lines": [
     {
-     "text": "One long row of digits.",
-     "caption": "One long row of digits.",
-     "file": "2026-10-31-digit-2026/short/audio/72571054458bb07f.wav",
+     "text": "Write all the whole numbers in a row, with no spaces.",
+     "caption": "Write all the whole numbers in a row, with no spaces.",
+     "file": "2026-10-31-digit-2026/short/audio/736a2ad5f6295f34.wav",
      "from": 0,
-     "frames": 68
+     "frames": 92
     },
     {
      "text": "What is the two thousand twenty-sixth digit?",
-     "caption": "What is the two thousand twenty-sixth digit?",
-     "file": "2026-10-31-digit-2026/short/audio/9aea213afd0772f5.wav",
-     "from": 78,
-     "frames": 95
+     "caption": "What is the 2026th digit?",
+     "file": "2026-10-31-digit-2026/short/audio/ee5c437571c402ac.wav",
+     "from": 96,
+     "frames": 86
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 448,
-   "frames": 153,
+   "from": 295,
+   "frames": 73,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-digit-2026/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-digit-2026/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 40
+     "frames": 62
     }
    ]
   },
@@ -68,36 +61,36 @@
    "id": "blocks",
    "kind": "scene",
    "chapter": null,
-   "from": 601,
-   "frames": 551,
+   "from": 368,
+   "frames": 446,
    "lines": [
     {
-     "text": "Count in blocks! One to ninety-nine uses one hundred eighty-nine spots.",
-     "caption": "Count in blocks! One to ninety-nine uses one hundred eighty-nine spots.",
-     "file": "2026-10-31-digit-2026/short/audio/1a6ec7755e8b961a.wav",
+     "text": "Count in blocks! One to ninety-nine uses one hundred eighty-nine digits.",
+     "caption": "Count in blocks! 1 to 99 uses 189 digits.",
+     "file": "2026-10-31-digit-2026/short/audio/f68a931443cb94fa.wav",
      "from": 0,
-     "frames": 136
+     "frames": 118
     },
     {
-     "text": "That leaves one thousand eight hundred thirty-seven.",
-     "caption": "That leaves one thousand eight hundred thirty-seven.",
-     "file": "2026-10-31-digit-2026/short/audio/ec28d82714f32cb4.wav",
-     "from": 146,
-     "frames": 89
+     "text": "That leaves one thousand eight hundred thirty-seven digits.",
+     "caption": "That leaves 1837 digits.",
+     "file": "2026-10-31-digit-2026/short/audio/0838eb7f335b444f.wav",
+     "from": 122,
+     "frames": 94
     },
     {
      "text": "Three digits each: six hundred twelve numbers, remainder one.",
-     "caption": "Three digits each: six hundred twelve numbers, remainder one.",
-     "file": "2026-10-31-digit-2026/short/audio/f43ea33c2ed3c4e0.wav",
-     "from": 246,
-     "frames": 116
+     "caption": "3 digits each: 612 numbers, remainder 1.",
+     "file": "2026-10-31-digit-2026/short/audio/10eb5f23d9e8cec7.wav",
+     "from": 220,
+     "frames": 113
     },
     {
-     "text": "The last one is seven hundred eleven. The leftover one lands on the next number!",
-     "caption": "The last one is seven hundred eleven. The leftover one lands on the next number!",
-     "file": "2026-10-31-digit-2026/short/audio/216ef80aa73f3267.wav",
-     "from": 371,
-     "frames": 156
+     "text": "Starting at one hundred, they run up to seven hundred eleven.",
+     "caption": "Starting at 100, they run up to 711.",
+     "file": "2026-10-31-digit-2026/short/audio/73a926e67c64ee1b.wav",
+     "from": 338,
+     "frames": 96
     }
    ]
   },
@@ -105,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1152,
-   "frames": 243,
+   "from": 814,
+   "frames": 322,
    "lines": [
     {
-     "text": "It's the FIRST digit of seven hundred twelve: a seven!",
-     "caption": "It's the FIRST digit of seven hundred twelve: a seven!",
-     "file": "2026-10-31-digit-2026/short/audio/d567dcf59389d4f8.wav",
+     "text": "The remainder one is the first digit of seven hundred twelve. A seven!",
+     "caption": "The remainder 1 is the first digit of 712. A 7!",
+     "file": "2026-10-31-digit-2026/short/audio/6047d3c4c7ac1d39.wav",
      "from": 0,
-     "frames": 108
+     "frames": 118
     },
     {
-     "text": "The remainder picks a digit of the NEXT number.",
-     "caption": "The remainder picks a digit of the NEXT number.",
-     "file": "2026-10-31-digit-2026/short/audio/7bcad996b5ead57c.wav",
-     "from": 119,
-     "frames": 86
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1395,
-   "frames": 271,
-   "lines": [
-    {
-     "text": "Why that exactly? The full lesson shows two ways, plus every trap.",
-     "caption": "Why that exactly? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-31-digit-2026/short/audio/699b95c071002c50.wav",
-     "from": 0,
-     "frames": 137
+     "text": "Six was the trap. The numbers start at one hundred.",
+     "caption": "6 was the trap. The numbers start at 100.",
+     "file": "2026-10-31-digit-2026/short/audio/376161a4a2a939d4.wav",
+     "from": 122,
+     "frames": 96
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-digit-2026/short/audio/82b8b7e1a12a7449.wav",
-     "from": 147,
-     "frames": 56
+     "text": "Did you get seven? Tell me below!",
+     "caption": "Did you get 7? Tell me below!",
+     "file": "2026-10-31-digit-2026/short/audio/a5b1c9991118545a.wav",
+     "from": 222,
+     "frames": 64
     }
    ]
   }

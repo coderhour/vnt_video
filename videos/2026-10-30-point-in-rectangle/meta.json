@@ -7,6 +7,13 @@
  "short": {
   "title": "One point, four triangles: find the missing area #Shorts",
   "description": "A point inside a rectangle is joined to all four corners. Find the fourth triangle without knowing where the point is.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 28,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1824,
+ "durationInFrames": 1192,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 228,
+   "frames": 92,
    "lines": [
     {
-     "text": "Color a three by three grid. The center is red.",
-     "caption": "Color a three by three grid. The center is red.",
-     "file": "2026-10-30-grid-coloring/short/audio/e106b1293f122428.wav",
+     "text": "AMC eight challenge! Think it's sixteen? Nope!",
+     "caption": "AMC 8 challenge! Think it's 16? Nope!",
+     "file": "2026-10-30-grid-coloring/short/audio/d48747ae7dec6870.wav",
      "from": 0,
-     "frames": 93
-    },
-    {
-     "text": "Touching squares must differ. How many colorings?",
-     "caption": "Touching squares must differ. How many colorings?",
-     "file": "2026-10-30-grid-coloring/short/audio/395ad8c8169a9167.wav",
-     "from": 103,
-     "frames": 101
+     "frames": 81
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 228,
-   "frames": 229,
+   "from": 92,
+   "frames": 227,
    "lines": [
     {
-     "text": "Each square is red, blue or green. Touching squares must differ.",
-     "caption": "Each square is red, blue or green. Touching squares must differ.",
-     "file": "2026-10-30-grid-coloring/short/audio/75eee81cb3a4ec6b.wav",
+     "text": "Each square is red, blue or green. The center is red. Touching squares must differ.",
+     "caption": "Each square is red, blue or green. The center is red. Touching squares must differ.",
+     "file": "2026-10-30-grid-coloring/short/audio/be74a1e4bb40c197.wav",
      "from": 0,
-     "frames": 131
+     "frames": 149
     },
     {
      "text": "How many colorings are there?",
      "caption": "How many colorings are there?",
-     "file": "2026-10-30-grid-coloring/short/audio/70551a5a4497b82e.wav",
-     "from": 141,
-     "frames": 56
+     "file": "2026-10-30-grid-coloring/short/audio/5b8a05b31229f64b.wav",
+     "from": 154,
+     "frames": 62
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 457,
-   "frames": 167,
+   "from": 319,
+   "frames": 72,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-grid-coloring/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-grid-coloring/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 53
+     "frames": 60
     }
    ]
   },
@@ -68,43 +61,36 @@
    "id": "edges",
    "kind": "scene",
    "chapter": null,
-   "from": 624,
-   "frames": 725,
+   "from": 391,
+   "frames": 504,
    "lines": [
     {
-     "text": "Color the four squares touching the center first. Each is blue or green.",
-     "caption": "Color the four squares touching the center first. Each is blue or green.",
-     "file": "2026-10-30-grid-coloring/short/audio/f2d392128c6c1704.wav",
+     "text": "The four edge squares touch red, so each is blue or green. That's sixteen patterns.",
+     "caption": "The 4 edge squares touch red, so each is blue or green. That's 16 patterns.",
+     "file": "2026-10-30-grid-coloring/short/audio/3981beb10358c5ae.wav",
      "from": 0,
-     "frames": 141
+     "frames": 128
     },
     {
-     "text": "A corner touches two of them. If they match, it has two options. If not, only red works.",
-     "caption": "A corner touches two of them. If they match, it has two options. If not, only red works.",
-     "file": "2026-10-30-grid-coloring/short/audio/b6171c524fff63c1.wav",
-     "from": 151,
-     "frames": 164
+     "text": "A corner gets two options if its neighbors match. If not, only red works.",
+     "caption": "A corner gets 2 options if its neighbors match. If not, only red works.",
+     "file": "2026-10-30-grid-coloring/short/audio/359db9e28c6a2bd9.wav",
+     "from": 132,
+     "frames": 128
     },
     {
-     "text": "All four match: two patterns, sixteen each. That's thirty-two.",
-     "caption": "All four match: two patterns, sixteen each. That's thirty-two.",
-     "file": "2026-10-30-grid-coloring/short/audio/0f532809c25252ab.wav",
-     "from": 325,
-     "frames": 138
-    },
-    {
-     "text": "Taking turns: two patterns, one each. That's two.",
-     "caption": "Taking turns: two patterns, one each. That's two.",
-     "file": "2026-10-30-grid-coloring/short/audio/75511a19133c8556.wav",
-     "from": 473,
-     "frames": 117
+     "text": "All four edges match: two times sixteen is thirty-two. Taking turns: just two.",
+     "caption": "All 4 edges match: 2 times 16 is 32. Taking turns: just 2.",
+     "file": "2026-10-30-grid-coloring/short/audio/5dc276f7d5597879.wav",
+     "from": 263,
+     "frames": 142
     },
     {
      "text": "The other twelve give four each. That's forty-eight.",
-     "caption": "The other twelve give four each. That's forty-eight.",
-     "file": "2026-10-30-grid-coloring/short/audio/7a5077fc661fee71.wav",
-     "from": 600,
-     "frames": 101
+     "caption": "The other 12 give 4 each. That's 48.",
+     "file": "2026-10-30-grid-coloring/short/audio/453e75d5c111e131.wav",
+     "from": 409,
+     "frames": 83
     }
    ]
   },
@@ -112,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1349,
-   "frames": 253,
+   "from": 895,
+   "frames": 297,
    "lines": [
     {
-     "text": "Thirty-two plus forty-eight plus two is eighty-two!",
-     "caption": "Thirty-two plus forty-eight plus two is eighty-two!",
-     "file": "2026-10-30-grid-coloring/short/audio/c5b92bddca70e7c4.wav",
+     "text": "Thirty-two plus forty-eight plus two. That's eighty-two!",
+     "caption": "32 plus 48 plus 2. That's 82!",
+     "file": "2026-10-30-grid-coloring/short/audio/f6aab76aa6791734.wav",
      "from": 0,
-     "frames": 117
+     "frames": 95
     },
     {
-     "text": "Not eighty-one. That's a tempting guess!",
-     "caption": "Not eighty-one. That's a tempting guess!",
-     "file": "2026-10-30-grid-coloring/short/audio/b10e90d79ce13aa1.wav",
-     "from": 127,
-     "frames": 88
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1602,
-   "frames": 222,
-   "lines": [
-    {
-     "text": "The full lesson shows two ways to count, plus every trap.",
-     "caption": "The full lesson shows two ways to count, plus every trap.",
-     "file": "2026-10-30-grid-coloring/short/audio/f6f85ef3e189ffe4.wav",
-     "from": 0,
-     "frames": 117
+     "text": "Sixteen was the trap. It forgets the corners!",
+     "caption": "16 was the trap. It forgets the corners!",
+     "file": "2026-10-30-grid-coloring/short/audio/efa7a5287ab6d4aa.wav",
+     "from": 100,
+     "frames": 92
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-grid-coloring/short/audio/82b8b7e1a12a7449.wav",
-     "from": 127,
-     "frames": 53
+     "text": "Did you get eighty-two? Tell me below!",
+     "caption": "Did you get 82? Tell me below!",
+     "file": "2026-10-30-grid-coloring/short/audio/21cad6a680ef60ca.wav",
+     "from": 195,
+     "frames": 66
     }
    ]
   }

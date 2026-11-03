@@ -7,6 +7,13 @@
  "short": {
   "title": "How many pairs have LCM 72? More than you think #Shorts",
   "description": "How many ordered pairs of numbers have least common multiple 72? Split into twos and threes and count with two small grids.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 35,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

@@ -1,27 +1,21 @@
 # When Are Both Roots Integers (short)
 
-Put b equals negative one. The roots are four and negative three.
+AMC ten challenge! Think it's eight? Nope!
 
-Both whole numbers! How many values of b do that?
+For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?
 
-For how many integers b are both roots of this equation integers?
+Comment your letter, then watch!
 
-Pick one of the five choices.
+Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.
 
-Pause and try it!
+Add one hundred forty-four to both sides. That fills the grid!
 
-*(Pause and try it: 3 s countdown)*
+So r plus twelve, times s plus twelve, equals one hundred forty-four.
 
-Call the roots r and s. Sum and product give this neat equation.
+Its factor pairs: eight positive, and eight negative!
 
-Here's the trick. Add one hundred forty-four to both sides.
+Every pair gives a different value of b. That's sixteen!
 
-Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four.
+Eight was the trap: it forgets the negatives.
 
-Factor pairs of one hundred forty-four: eight positive, and eight negative.
-
-Eight plus eight is sixteen. That's Choice C!
-
-Why exactly that? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get sixteen? Tell me below!

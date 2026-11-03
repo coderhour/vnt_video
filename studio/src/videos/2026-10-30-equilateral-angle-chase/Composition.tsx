@@ -119,17 +119,17 @@ export const Fig: React.FC<{ g: G; draw?: number; dots?: number; ticks?: number;
 
 // ---------- named angles (positions tuned for the bank figure; reused for the variant) ----------
 const a = (g: G, v: keyof G, p: keyof G, q: keyof G, o: Partial<Ang> & { color: string; op: number }): Ang => ({ v: g[v], p: g[p], q: g[q], r: 120, ...o });
-export const angBAD = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'A', 'B', 'D', { r: 170, lr: 240, ...o });
-export const angDAE = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'A', 'D', 'E', { r: 190, lr: g === G2 ? 330 : 270, ...o });
-export const angA60 = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'A', 'B', 'C', { r: 110, at: [25, 150], ...o });
-export const angB60 = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'B', 'A', 'C', { r: 100, lr: 150, ...o });
-const angC60 = (g: G, o: { color: string; op: number; label?: string; side?: boolean }): Ang => a(g, 'C', 'A', 'B', { r: 60, at: [120, -5], ...o });
-export const angADE = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'D', 'A', 'E', { r: g === G2 ? 100 : 130, lr: g === G2 ? 130 : 175, ...o });
-const angAED = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'E', 'A', 'D', g === G2 ? { r: 75, at: [75, -95], leader: true, ...o } : { r: 70, lr: 125, ...o });
-export const angADC = (g: G, o: { color: string; op: number; label?: string; r?: number }): Ang => a(g, 'D', 'A', 'C', g === G2 ? { r: 160, at: [225, -215], leader: true, ...o } : { r: 245, at: [163, -233], ...o });
-const angADB = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'D', 'A', 'B', { r: 100, at: [-78, -100], ...o });
-const angDEC = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'E', 'D', 'C', { r: 35, at: [-60, 100], leader: true, ...o });
-export const angX = (g: G, o: { color: string; op: number; label?: string }): Ang => a(g, 'D', 'E', 'C', { r: 160, at: [215, 60], leader: true, ...o });
+export const angBAD = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number; r?: number }): Ang => a(g, 'A', 'B', 'D', { r: 170, lr: 240, ...o });
+export const angDAE = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number; r?: number }): Ang => a(g, 'A', 'D', 'E', { r: 190, lr: g === G2 ? 330 : 270, ...o });
+export const angA60 = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number }): Ang => a(g, 'A', 'B', 'C', { r: 110, at: [25, 150], ...o });
+export const angB60 = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number }): Ang => a(g, 'B', 'A', 'C', { r: 100, lr: 150, ...o });
+const angC60 = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number; side?: boolean }): Ang => a(g, 'C', 'A', 'B', { r: 60, at: [120, -5], ...o });
+export const angADE = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number; r?: number }): Ang => a(g, 'D', 'A', 'E', { r: g === G2 ? 100 : 130, lr: g === G2 ? 130 : 175, ...o });
+export const angAED = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number }): Ang => a(g, 'E', 'A', 'D', g === G2 ? { r: 75, at: [75, -95], leader: true, ...o } : { r: 70, lr: 125, ...o });
+export const angADC = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number; r?: number }): Ang => a(g, 'D', 'A', 'C', g === G2 ? { r: 160, at: [225, -215], leader: true, ...o } : { r: 245, at: [163, -233], ...o });
+const angADB = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number }): Ang => a(g, 'D', 'A', 'B', { r: 100, at: [-78, -100], ...o });
+const angDEC = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number }): Ang => a(g, 'E', 'D', 'C', { r: 35, at: [-60, 100], leader: true, ...o });
+export const angX = (g: G, o: { color: string; op: number; label?: string; width?: number; size?: number }): Ang => a(g, 'D', 'E', 'C', { r: 160, at: [215, 60], leader: true, ...o });
 
 export const tri = (...p: Pt[]) => p;
 

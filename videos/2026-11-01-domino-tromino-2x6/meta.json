@@ -7,6 +7,13 @@
  "short": {
   "title": "Dominoes plus L tiles: how many ways? #Shorts",
   "description": "Dominoes alone cover a 2x6 board 13 ways. Add L-shaped tiles and the zigzag trick makes the count doable.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 4,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

@@ -1,54 +1,47 @@
 {
  "title": "Meet Twice (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Two friends walk toward each other, pass, turn around, and meet again.",
-    "One number unlocks it: THREE!"
+    "AMC eight challenge! Think it's twenty-two? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "Two walkers first meet twelve kilometers from town A, then turn around at the far end.",
-    "They meet again ten kilometers from town A. How far apart are the towns?"
-   ],
-   "hold": 0.3
+    "Ann and Bo meet twelve kilometers from A, then turn back at the far towns.",
+    "They meet again ten kilometers from A. How far apart are the towns?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "three",
    "lines": [
-    "Here's the trick. At the first meeting, they've walked one road together. Ann's part is twelve.",
-    "At the second meeting, that's THREE roads together. So Ann walked thirty-six.",
-    "She walked the whole road, then back to ten kilometers from town A."
+    "By the first meeting they cover one road, and Ann's part is twelve.",
+    "Then each walks the whole road, and both pieces back. THREE roads!",
+    "Same speed, so she walks three times twelve. Thirty-six!",
+    "That's the whole road, then the road minus ten."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "So road plus road minus ten is thirty-six. The road is twenty-three kilometers!",
-    "That's Choice D."
+    "Two roads are forty-six, so one road is twenty-three!",
+    "Twenty-two was the trap. It just adds twelve and ten.",
+    "Did you get twenty-three? Tell me below!"
    ],
-   "hold": 0.3
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Want to see why? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1
+   "hold": 0.8
   }
  ]
 }

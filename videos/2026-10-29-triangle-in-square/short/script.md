@@ -1,27 +1,19 @@
 # Biggest Triangle in a Square (short)
 
-Most kids fit a triangle in a square like THIS.
+AMC ten challenge! Think it's root three over four? Nope!
 
-But that's NOT the biggest one!
+A square has side one. What's the area of the largest triangle with three equal sides that fits inside?
 
-The square has side one, and all three triangle sides are equal.
+Comment your letter, then watch!
 
-What's the largest area it can have?
+Flat, its side is one. Now pin a corner, and turn it!
 
-Pause and try it!
+Keep your eye on the side. It grows, and grows, then shrinks again.
 
-*(Pause and try it: 3 s countdown)*
+The biggest one sits at fifteen degrees, balanced across the diagonal.
 
-Here's the trick. Pin one corner, and turn the triangle.
+Its area is two root three, minus three. About forty-six percent of the square!
 
-Watch the side. It grows, then shrinks again.
+The flat one, root three over four, was the trap.
 
-The biggest one sits at fifteen degrees, balanced on the diagonal.
-
-Its area is two root three, minus three.
-
-That's about forty-six percent of the square. Flat only gets forty-three!
-
-Why exactly that? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get two root three minus three? Tell me below!

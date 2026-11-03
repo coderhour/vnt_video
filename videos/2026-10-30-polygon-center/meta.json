@@ -7,6 +7,13 @@
  "short": {
   "title": "Does It Hold the Center? Count the Misses! #Shorts",
   "description": "Pick 4 corners of a 13-sided shape: does the quadrilateral hold the center? One counting trick makes it easy.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 5,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

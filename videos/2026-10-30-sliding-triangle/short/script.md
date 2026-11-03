@@ -1,27 +1,23 @@
 # Slide a Triangle, Find the Shaded Part (short)
 
-Copy a triangle, and slide the copy to the right.
+AMC eight challenge! Think it's twenty-four? Nope!
 
-How much of the copy sticks out? Lots of kids say twenty-four. That's wrong!
+A right triangle has legs twelve and nine. Its copy slides four to the right.
 
-The legs are twelve and nine, and the copy slides four to the right.
+What is the area of the shaded part?
 
-What is the area of the shaded part of the copy?
+Comment your letter, then watch!
 
-Pause and try it!
+Here's the trick. The whole triangle has area fifty-four.
 
-*(Pause and try it: 3 s countdown)*
+The overlap is a smaller copy of the same shape!
 
-Here's the trick. The whole copy has area fifty-four.
+Its bottom is eight out of twelve, so its height is six.
 
-The overlap is a smaller copy of the same shape.
+The overlap's area is one over two, times eight, times six. That's twenty-four.
 
-Its bottom is eight out of twelve, so its height is six. Its area is twenty-four.
+Fifty-four minus twenty-four. That's thirty!
 
-Fifty-four minus twenty-four is thirty!
+Twenty-four was the trap. It's just the overlap.
 
-Twenty-four was just the overlap.
-
-Why is it a smaller copy? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get thirty? Tell me below!

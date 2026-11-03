@@ -1,54 +1,49 @@
 {
- "title": "Two Buttons, One Target (short)",
+ "title": "+1 and x2 Only: 3 to 90 (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "A calculator with two keys: plus one, and double.",
-    "Three to ninety in the FEWEST presses!"
+    "AMC eight challenge! Think it's nine? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "The screen shows three. One key adds one, the other doubles.",
+    "A calculator shows three. One key adds one. The other key doubles.",
     "What's the fewest presses to make ninety?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "back",
    "lines": [
-    "Work backwards! Doubling becomes halving, and plus one becomes minus one.",
-    "Halve when you can. If it's odd, take one away first.",
-    "Forty-five, forty-four, twenty-two, eleven, ten, five, four, three!"
+    "Work backwards from ninety! Even? Cut it in half. Odd? Take one away.",
+    "Ninety, forty-five, forty-four, twenty-two, eleven, ten, five, four.",
+    "Half of four is two, too small. So take one away: three!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Count the arrows, not the numbers. Eight presses!",
-    "Count the numbers instead, and you'd say nine."
-   ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Can anything beat eight? The full lesson proves it, and shows every trap.",
-    "Tap the link below to watch it!"
+    "Count the arrows, not the numbers. That's eight presses!",
+    "Nine was the trap. It counts the numbers in the chain.",
+    "Did you get eight? Tell me below!"
    ],
    "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "A calculator shows three. One key adds one. The other key doubles.": "A calculator shows 3. One key adds 1. The other key doubles."
+ }
 }

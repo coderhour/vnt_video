@@ -19,6 +19,15 @@ lines, warnings = chapters(tl)
 assert lines == ["0:00 Intro", "0:06 Try it", "0:16 Solution"], lines
 assert warnings == ["chapter 'Intro' is shorter than 10 s", "chapter 'Solution' is shorter than 10 s"], warnings
 assert caption("So <short pause> it is <laugh> THIRTY!") == "So it is THIRTY!"
+from tts import digits
+assert digits("The longest is two thousand twenty-five. At twenty-seven, they fall short.") == "The longest is 2025. At 27, they fall short."
+assert digits("The sides are k squared, forty-five k, and two thousand twenty-five, with k up to forty-four.") == "The sides are k², 45k, and 2025, with k up to 44."
+assert digits("Each one is the last. AMC ten. Did you get seventeen? Three hundred") == "Each one is the last. AMC 10. Did you get 17? 300"
+assert digits("ends in zero one. A hundred. twenty twenty-five. one hundred eighty. Two three by three boxes") == "ends in 0 1. A 100. 20 25. 180. 2 3 by 3 boxes"
+assert digits("three, nine, seven, one. one, two, four. only one out of three. zero and sixty-four") == "3, 9, 7, 1. 1, 2, 4. only one out of 3. zero and 64"
+assert digits("twenty-one thirty-seconds") == "21 thirty-seconds"
+tl2 = build_timeline([{"id": "a", "lines": ["one fifty-nine"]}], {"one fifty-nine": ("x.wav", 1.0)}, 30, captions={"one fifty-nine": "1:59"})
+assert tl2["scenes"][0]["lines"][0]["caption"] == "1:59"
 print("ok")
 
 assert line_style("Hi, I'm Vantee!", "warm") == 'warm. Pronounce the name "Vantee" as /ˈvæn.ti/ (VAN-tee, rhymes with "can tea").'

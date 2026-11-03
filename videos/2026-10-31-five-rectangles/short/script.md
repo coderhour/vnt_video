@@ -1,27 +1,21 @@
 # Five Rectangles (short)
 
-Five rectangles, perimeter sixty-six, no side lengths!
+AMC eight challenge! Think it's thirty-six? Nope!
 
-Find the area of one?
+Five identical rectangles make one big rectangle, with a perimeter of sixty-six.
 
-Five identical rectangles make one big rectangle.
+What's the area of one small rectangle?
 
-Its perimeter is sixty-six. What's the area of one small rectangle?
+Comment your letter, then watch!
 
-Pause and try it!
+Two long sides on top match three short sides below.
 
-*(Pause and try it: 3 s countdown)*
+So say short is two blocks, and long is three. The big one is six by five!
 
-Look! Two long sides on top match three short sides below.
-
-Say short is two blocks, long is three. Both rows are six blocks wide!
-
-Around is twenty-two blocks. Sixty-six over twenty-two: one block is three!
+Walk around: twenty-two blocks make sixty-six. One block is three!
 
 Short is six, long is nine. The area is fifty-four!
 
-No side lengths needed!
+Thirty-six was the trap. It squares the short side.
 
-The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get fifty-four? Tell me below!

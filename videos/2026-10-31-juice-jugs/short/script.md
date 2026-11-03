@@ -1,27 +1,21 @@
 # Juice Jugs (short)
 
-Pour juice into water, stir, then pour some back.
+AMC eight challenge! Think it's sixty percent? Nope!
 
-Most kids get the final mix wrong!
-
-Jug A holds ten liters of water. Jug B holds ten liters of sixty percent juice.
+Jug A has ten liters of water, jug B ten liters of sixty percent juice.
 
 Pour five liters from B to A, stir, then pour five back. What percent of B is juice?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Count liters, not percents. Jug B starts with six liters of juice.
 
-The trick: count liters of juice, not percents.
+Half of B pours over, taking three liters of juice.
 
-Jug B starts with six liters of juice. Half of B moves, so three liters of juice go over.
+Now pour back one third of jug A. That's one liter of juice.
 
-Pour back one third of jug A. One liter of juice goes back to B.
+Three plus one is four liters out of ten. Forty percent!
 
-Jug B ends with three plus one, four liters of juice, out of ten.
+Sixty was the trap.
 
-Forty percent! Not sixty.
-
-Want to see why? The full lesson has two neat ways and every trap.
-
-Tap the link below to watch it!
+Did you get forty percent? Tell me below!

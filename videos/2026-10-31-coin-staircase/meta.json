@@ -7,6 +7,13 @@
  "short": {
   "title": "Coin-Flip Staircase: Will She Land on Step 5? #Shorts",
   "description": "Heads is one step, tails is two. Building each step's chance from the two below gives the answer fast.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 54,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

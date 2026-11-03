@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1569,
+ "durationInFrames": 1127,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 273,
+   "frames": 101,
    "lines": [
     {
-     "text": "Twenty-four kids, three favorite foods. How few could like all three?",
-     "caption": "Twenty-four kids, three favorite foods. How few could like all three?",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/8ffbc63b3cf94aaa.wav",
+     "text": "AMC eight challenge! Think it's sixteen? Nope!",
+     "caption": "AMC 8 challenge! Think it's 16? Nope!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/d48747ae7dec6870.wav",
      "from": 0,
-     "frames": 134
-    },
-    {
-     "text": "Skip the big Venn diagram. Count the no's instead!",
-     "caption": "Skip the big Venn diagram. Count the no's instead!",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/ef0c36daa51bae55.wav",
-     "from": 144,
-     "frames": 106
+     "frames": 89
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 273,
-   "frames": 273,
+   "from": 101,
+   "frames": 237,
    "lines": [
     {
-     "text": "Twenty kids like pizza, eighteen like pasta, and sixteen like soup.",
-     "caption": "Twenty kids like pizza, eighteen like pasta, and sixteen like soup.",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/871f2315e69dad86.wav",
+     "text": "Twenty-four kids. Twenty like pizza, eighteen like pasta, and sixteen like soup.",
+     "caption": "24 kids. 20 like pizza, 18 like pasta, and 16 like soup.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/249b8ebaf3bd0cfa.wav",
      "from": 0,
-     "frames": 143
+     "frames": 138
     },
     {
-     "text": "What's the smallest number who like all three?",
-     "caption": "What's the smallest number who like all three?",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/964a9ae32d3a0640.wav",
-     "from": 154,
-     "frames": 87
+     "text": "What's the smallest possible number who like all three?",
+     "caption": "What's the smallest possible number who like all three?",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/27ae3fe5118459ee.wav",
+     "from": 142,
+     "frames": 83
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 546,
-   "frames": 158,
+   "from": 338,
+   "frames": 70,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 45
+     "frames": 58
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "noes",
    "kind": "scene",
    "chapter": null,
-   "from": 704,
-   "frames": 425,
+   "from": 408,
+   "frames": 421,
    "lines": [
     {
-     "text": "Four kids say no to pizza, six say no to pasta, and eight say no to soup.",
-     "caption": "Four kids say no to pizza, six say no to pasta, and eight say no to soup.",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/6dca71a3732af69d.wav",
+     "text": "Count the kids who say no!",
+     "caption": "Count the kids who say no!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/1719e1a7b897b5e2.wav",
      "from": 0,
-     "frames": 152
+     "frames": 59
     },
     {
-     "text": "Give those no's to different kids. That's eighteen kids who say no.",
-     "caption": "Give those no's to different kids. That's eighteen kids who say no.",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/b84878262ada6e42.wav",
-     "from": 162,
-     "frames": 105
+     "text": "Four kids say no to pizza, six say no to pasta, and eight say no to soup.",
+     "caption": "4 kids say no to pizza, 6 say no to pasta, and 8 say no to soup.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/e7e4aa0c3777216b.wav",
+     "from": 63,
+     "frames": 143
     },
     {
-     "text": "Everyone else says yes to all three! Twenty-four minus eighteen.",
-     "caption": "Everyone else says yes to all three! Twenty-four minus eighteen.",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/17044659c37ad89f.wav",
-     "from": 277,
-     "frames": 124
+     "text": "Give them to different kids, so no kid says no twice. That's eighteen kids.",
+     "caption": "Give them to different kids, so no kid says no twice. That's 18 kids.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/554377dc9d499b73.wav",
+     "from": 210,
+     "frames": 128
+    },
+    {
+     "text": "Everyone else says yes to all three!",
+     "caption": "Everyone else says yes to all three!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/fdb70debf3f0c289.wav",
+     "from": 342,
+     "frames": 68
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1129,
-   "frames": 199,
+   "from": 829,
+   "frames": 298,
    "lines": [
     {
-     "text": "The answer is six!",
-     "caption": "The answer is six!",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/01f9845ae767e794.wav",
+     "text": "Twenty-four minus eighteen. That's six kids!",
+     "caption": "24 minus 18. That's 6 kids!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/521694881f50cd47.wav",
      "from": 0,
-     "frames": 41
+     "frames": 92
     },
     {
-     "text": "You can't do better. There are only eighteen no's to hand out.",
-     "caption": "You can't do better. There are only eighteen no's to hand out.",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/c81699c2af5447c2.wav",
-     "from": 51,
-     "frames": 110
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1328,
-   "frames": 241,
-   "lines": [
-    {
-     "text": "Want to see why? The full lesson has two neat ways and every trap.",
-     "caption": "Want to see why? The full lesson has two neat ways and every trap.",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/189edcd4e99ec8dd.wav",
-     "from": 0,
-     "frames": 129
+     "text": "Sixteen was the trap. That's the most, not the fewest.",
+     "caption": "16 was the trap. That's the most, not the fewest.",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/118510262a734f87.wav",
+     "from": 96,
+     "frames": 98
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-pizza-pasta-soup/short/audio/82b8b7e1a12a7449.wav",
-     "from": 139,
-     "frames": 54
+     "text": "Did you get six? Tell me below!",
+     "caption": "Did you get 6? Tell me below!",
+     "file": "2026-10-31-pizza-pasta-soup/short/audio/5d1b75a0aabe2489.wav",
+     "from": 198,
+     "frames": 65
     }
    ]
   }

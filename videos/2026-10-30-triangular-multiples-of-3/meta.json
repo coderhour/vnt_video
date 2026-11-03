@@ -7,6 +7,13 @@
  "short": {
   "title": "How many multiples of 3 in 1, 3, 6, 10...? #Shorts",
   "description": "The list 1, 3, 6, 10, 15 goes on for 100 numbers. How many are multiples of 3? Spot the remainder pattern!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 42,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

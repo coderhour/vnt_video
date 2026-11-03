@@ -1,29 +1,52 @@
 {
  "title": "The Tiny Angle Inside a Triangle (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "The big triangle is equilateral. A D equals A E.": "The big triangle is equilateral. AD equals AE.",
+  "Angle B A D is twenty degrees. What is x, the angle E D C?": "Angle BAD is 20 degrees. What is x, the angle EDC?",
+  "Chase the angles! Angle A D C is outside the left triangle. So it's sixty plus twenty, that's eighty.": "Chase the angles! Angle ADC is outside the left triangle. So it's 60 plus 20, that's 80.",
+  "Triangle A D E has two equal sides, and its top angle is forty. So each base angle is seventy.": "Triangle ADE has two equal sides, and its top angle is 40. So each base angle is 70."
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "Only ONE angle is given. Can you find this tiny one?",
-   "It looks impossible. But there's a trick!"
-  ]},
-  {"id": "question", "lines": [
-   "The big triangle is equilateral. A D equals A E.",
-   "Angle B A D is twenty degrees. What is x, the angle E D C?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "chase", "lines": [
-   "Chase the angles! Angle A D C is outside the left triangle. So it's sixty plus twenty, that's eighty.",
-   "Inside, triangle A D E has a forty degree top and two equal sides. So each base angle is seventy.",
-   "Eighty, minus seventy, is what's left for x."
-  ]},
-  {"id": "reveal", "lines": [
-   "So x is ten degrees!",
-   "Look! Ten is exactly half of twenty."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Is that luck? The full lesson shows two ways to solve it, the half pattern, and every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's forty? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The big triangle is equilateral. A D equals A E.",
+    "Angle B A D is twenty degrees. What is x, the angle E D C?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "chase",
+   "lines": [
+    "Chase the angles! Angle A D C is outside the left triangle. So it's sixty plus twenty, that's eighty.",
+    "Triangle A D E has two equal sides, and its top angle is forty. So each base angle is seventy.",
+    "Eighty, minus seventy, is what's left for x."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "So x is just ten degrees!",
+    "Forty was the trap. That's the top angle, not the angle at D.",
+    "Did you get ten? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

@@ -1,29 +1,45 @@
 {
  "title": "Sock Pairs (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15, "scene_tail": 0.4, "caption_digits": true,
+ "captions": {"Each color has two socks to pick from. Two times two times two times two is sixteen.": "Each color has 2 socks to pick from. 2×2×2×2 is 16."},
  "scenes": [
-  {"id": "hook", "lines": [
-   "Four socks from a drawer of five pairs. How many sets have a matching pair?",
-   "Don't count the matches. Count the misses!"
-  ]},
-  {"id": "question", "lines": [
-   "Five pairs of socks, each a different color. You pull out four.",
-   "How many sets of four contain at least one matching pair?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "nopair", "lines": [
-   "No pair means four different colors. Leave out one color: five ways.",
-   "Each color has two socks to pick from. Two times two times two times two is sixteen.",
-   "So five times sixteen is eighty sets with no pair."
-  ]},
-  {"id": "reveal", "lines": [
-   "There are two hundred ten sets in all. Take away eighty: one hundred thirty!",
-   "Counting the opposite is easier!"
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Want to see why? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 0.8}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's one hundred forty? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Five pairs of socks, each a different color. Pull out four.",
+    "How many sets of four contain at least one matching pair?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "nopair",
+   "lines": [
+    "No pair means four different colors. Leave one color out: five ways.",
+    "Each color has two socks to pick from. Two times two times two times two is sixteen.",
+    "So five times sixteen is eighty sets with no pair."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "There are two hundred ten sets in all. Take away eighty: one hundred thirty!",
+    "One hundred forty was the trap. It counts two-pair sets twice.",
+    "Did you get one hundred thirty? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

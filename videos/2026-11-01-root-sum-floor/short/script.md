@@ -1,27 +1,23 @@
 # Square Roots, No Calculator (short)
 
-One hundred fractions with square roots, all added up.
+AMC ten challenge! Think it's nineteen? Nope!
 
-Can you find the whole part with NO calculator?
-
-Add one over root k, for k from one to one hundred.
+Add one over root k, for every k from one to one hundred.
 
 What's the greatest whole number at most this sum?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Grow a square from area k to k plus one, by one thin gap.
 
-Grow a square from area k to area k plus one.
+Each term, one over root k, beats two gaps!
 
-Each fraction beats two of the side's little steps.
+The gaps grow the side from one to root one hundred one. The total beats eighteen!
 
-Stack them: the side grows from one to root one hundred one, so the sum beats eighteen!
+The same trick from inside says: under nineteen.
 
-A matching ceiling says: under nineteen.
+Round it down, and it's eighteen!
 
-So, rounded down, the answer is eighteen! Choice C.
+Nineteen was the trap. It stays UNDER nineteen!
 
-No calculator needed, just a floor and a ceiling!
-
-The full lesson shows every trap. Tap the link below to watch it!
+Did you get eighteen? Tell me below!

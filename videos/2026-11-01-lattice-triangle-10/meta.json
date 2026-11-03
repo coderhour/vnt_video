@@ -7,6 +7,13 @@
  "short": {
   "title": "Exactly 10 Dots Inside a Triangle #Shorts",
   "description": "A right triangle on a dot grid with exactly ten dots inside: how many are possible?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 3,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

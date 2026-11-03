@@ -7,6 +7,13 @@
  "short": {
   "title": "A 31-Digit Sum: Remainder in Your Head? #Shorts",
   "description": "1 + 2 + 4 + 8 + ... one hundred numbers. A tiny cycle of remainders solves it.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 47,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

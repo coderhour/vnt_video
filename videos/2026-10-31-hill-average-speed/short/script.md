@@ -1,27 +1,23 @@
 # Hill Average Speed (short)
 
-Jo bikes up a hill slowly, then zooms back down.
-
-Is her average just the average of the two speeds?
+AMC eight challenge! Think it's twenty-four? Nope!
 
 Jo bikes up a three kilometer hill at twelve kilometers per hour, then back down at ten meters per second.
 
-What's her average speed in kilometers per hour?
+Her average speed, in kilometers per hour?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Ten meters per second is thirty-six kilometers per hour.
 
-First fix the units. Ten meters per second is thirty-six kilometers per hour.
+Going up takes fifteen minutes. Going down takes just five.
 
-Up takes fifteen minutes. Down takes just five.
+Six kilometers in twenty minutes, a third of an hour.
 
-Six kilometers in twenty minutes. That's three times as far in one hour!
+So in one hour, she goes three times as far!
 
 Six times three is eighteen kilometers per hour!
 
-Averaging speeds is a trap. She's slow for longer!
+Twenty-four was the trap.
 
-Why is the average so low? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get eighteen? Tell me below!

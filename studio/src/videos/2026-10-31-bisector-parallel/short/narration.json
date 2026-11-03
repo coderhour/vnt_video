@@ -1,55 +1,52 @@
 {
  "title": "The Hidden Isosceles Triangle (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Three side lengths are given, but you only need ONE!",
-    "Can you spot the hidden triangle?"
+    "AMC eight challenge! Think it's twelve? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
     "A B and A C are ten. B C is twelve.",
-    "A line through A is parallel to B C. The bisector of angle B meets it at F.",
-    "How long is A F?"
-   ],
-   "hold": 0.3
+    "The top line is parallel to B C. Angle B's bisector meets it at F. Find A F!"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "chase",
    "lines": [
-    "The bisector splits angle B into two equal parts. Call each part x.",
-    "Now find the Z. The parallel lines make the angle at F equal x too.",
-    "So triangle A B F has two equal angles, and A F equals A B!"
+    "The bisector cuts angle B in half. Call each half x.",
+    "Find the Z! Across the parallel lines, the angle at F is x too.",
+    "So triangle A B F has two equal angles. A F equals A B!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
     "A B is ten, so A F is ten!",
-    "The other two sides were just decoys."
-   ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why equal sides? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
+    "Twelve was the trap. Parallel, but not equal!",
+    "Did you get ten? Tell me below!"
    ],
    "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "A B and A C are ten. B C is twelve.": "AB and AC are 10. BC is 12.",
+  "A B is ten, so A F is ten!": "AB is 10, so AF is 10!",
+  "The top line is parallel to B C. Angle B's bisector meets it at F. Find A F!": "The top line is parallel to BC. Angle B's bisector meets it at F. Find AF!",
+  "So triangle A B F has two equal angles. A F equals A B!": "So triangle ABF has two equal angles. AF equals AB!"
+ }
 }

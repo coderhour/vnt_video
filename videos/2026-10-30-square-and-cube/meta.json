@@ -7,6 +7,13 @@
  "short": {
   "title": "One number: a square AND a cube? #Shorts",
   "description": "Twenty times n is a perfect square and fifty times n is a perfect cube. Can ONE number do both? Count the prime copies!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 18,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

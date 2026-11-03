@@ -1,29 +1,57 @@
 {
  "title": "Where Do the Three Medians Meet? (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "The medians of triangle A B C meet at G. Side B C is twenty-four.": "The medians of triangle ABC meet at G. Side BC is 24.",
+  "E F runs through G, parallel to B C. How long is E F?": "EF runs through G, parallel to BC. How long is EF?",
+  "G is two thirds of the way down each median, from A.": "G is 2/3 of the way down each median, from A.",
+  "Now shrink the triangle toward A, until B C lands on E F.": "Now shrink the triangle toward A, until BC lands on EF.",
+  "The middle of B C slides up the median, and lands right on G.": "The middle of BC slides up the median, and lands right on G.",
+  "So every length shrinks to two thirds.": "So every length shrinks to 2/3.",
+  "Two thirds of twenty-four is sixteen!": "2/3 of 24 is 16!",
+  "Twelve was the trap. That's halfway down, not two thirds.": "12 was the trap. That's halfway down, not 2/3."
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "The three medians of a triangle meet at one point, G.",
-   "Draw a line through G, parallel to the base. How long is it?"
-  ]},
-  {"id": "question", "lines": [
-   "The base B C is twenty-four. E F goes through G, parallel to B C.",
-   "How long is E F?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "shrink", "lines": [
-   "Here's the secret. G is two thirds of the way down each median.",
-   "So shrink the whole triangle toward A, to two thirds size.",
-   "Side B C lands right on E F. Every length becomes two thirds."
-  ]},
-  {"id": "reveal", "lines": [
-   "Two thirds of twenty-four is sixteen!",
-   "Not twelve. G is two thirds down, not halfway."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Want the exact working? The full lesson shows two neat ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's twelve? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The medians of triangle A B C meet at G. Side B C is twenty-four.",
+    "E F runs through G, parallel to B C. How long is E F?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "shrink",
+   "lines": [
+    "G is two thirds of the way down each median, from A.",
+    "Now shrink the triangle toward A, until B C lands on E F.",
+    "The middle of B C slides up the median, and lands right on G.",
+    "So every length shrinks to two thirds."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Two thirds of twenty-four is sixteen!",
+    "Twelve was the trap. That's halfway down, not two thirds.",
+    "Did you get sixteen? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

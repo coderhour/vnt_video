@@ -1,29 +1,52 @@
 {
  "title": "Perimeter 24 Triangles (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "Three sevens make only twenty-one. So it's at least eight.": "Three 7s make only 21. So it's at least 8.",
+  "And eight gives just one: eight, eight, eight!": "And 8 gives just 1: 8, 8, 8!",
+  "Five plus four plus two plus one is twelve triangles!": "5 plus 4 plus 2 plus 1 is 12 triangles!"
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "Three whole-number sides that add up to twenty-four.",
-   "How many different triangles? Most kids miss one or two!"
-  ]},
-  {"id": "question", "lines": [
-   "How many different triangles have whole-number sides and a perimeter of twenty-four?",
-   "The same three sides count only once."
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "list", "lines": [
-   "Here's the trick. The longest side must be under twelve. That's half the perimeter.",
-   "And at least eight, or the sides can't add up to twenty-four.",
-   "So list the triangles by their longest side. Eleven, ten, nine, and eight."
-  ]},
-  {"id": "reveal", "lines": [
-   "Five, plus four, plus two, plus one. That's twelve triangles, choice C!",
-   "Missing one or two is the classic slip. Listing by the longest side keeps you safe!"
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Why under half? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's eleven? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "How many triangles have whole-number sides and a perimeter of twenty-four?",
+    "Same three sides count only once."
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "list",
+   "lines": [
+    "The longest side must be under twelve. That's half of twenty-four.",
+    "Three sevens make only twenty-one. So it's at least eight.",
+    "Longest side eleven gives five. Ten gives four. Nine gives two.",
+    "And eight gives just one: eight, eight, eight!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Five plus four plus two plus one is twelve triangles!",
+    "Eleven was the trap. It leaves out the equilateral one.",
+    "Did you get twelve? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

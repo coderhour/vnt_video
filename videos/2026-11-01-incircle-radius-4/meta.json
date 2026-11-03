@@ -5,8 +5,15 @@
  "question_id": "amc_practice_amc10_geometry_template:c1-301",
  "posts": [],
  "short": {
-  "title": "Biggest perimeter? Most kids stop at HALF #Shorts",
-  "description": "A circle of radius 4 sits inside a whole-number triangle. Equal tangent pieces unlock the biggest perimeter, and 81 is only half of it.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "title": "Biggest perimeter? Don't stop at HALF #Shorts",
+  "description": "A circle of radius 4 sits inside a whole-number triangle. Equal tangent pieces unlock the biggest perimeter.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": [],
+  "challenge": 7,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

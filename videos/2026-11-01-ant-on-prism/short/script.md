@@ -1,29 +1,23 @@
 # Ant on a Prism (short)
 
-An ant crawls this prism, one random edge every second.
+AMC ten challenge! Think it's one third? Nope!
 
-Which corner does it hit first, E or A?
-
-The ant starts at C. All three edges there are equally likely.
+An ant starts at corner C. Each second, it crawls a random edge.
 
 What's the chance it reaches E before A?
 
-Pause and try it!
+Comment your answer, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Look at the front face. A and E are opposite corners.
 
-Look at the front face, A B E D. A and E are opposite corners.
+Spin the prism half a turn. A and E swap, and so do C and F!
 
-Spin the prism a half turn.
+Same prism! F racing to E is like C racing to A.
 
-A and E swap, and so do C and F. Same prism!
+That means f equals one minus c.
 
-So F's chance is one minus C's chance.
+Use the corner rule, and eleven c equals four. That's four over eleven!
 
-Use that in the corner rules, and eleven c equals four.
+One third was the trap.
 
-So the chance from C is four over eleven!
-
-The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get four over eleven? Tell me below!

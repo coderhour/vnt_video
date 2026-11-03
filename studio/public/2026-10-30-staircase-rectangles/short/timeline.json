@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1674,
+ "durationInFrames": 1147,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 261,
+   "frames": 100,
    "lines": [
     {
-     "text": "Fifteen little squares make a staircase. Lots of kids say fifteen rectangles.",
-     "caption": "Fifteen little squares make a staircase. Lots of kids say fifteen rectangles.",
-     "file": "2026-10-30-staircase-rectangles/short/audio/d4ec6c42c1381021.wav",
+     "text": "AMC eight challenge! Think it's fifteen? Nope!",
+     "caption": "AMC 8 challenge! Think it's 15? Nope!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/ce30700659b8f94b.wav",
      "from": 0,
-     "frames": 154
-    },
-    {
-     "text": "But the real answer is way BIGGER!",
-     "caption": "But the real answer is way BIGGER!",
-     "file": "2026-10-30-staircase-rectangles/short/audio/9e579a83c1453015.wav",
-     "from": 164,
-     "frames": 74
+     "frames": 88
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 261,
-   "frames": 205,
+   "from": 100,
+   "frames": 226,
    "lines": [
     {
-     "text": "How many rectangles of any size are in the stairs? Squares count too.",
-     "caption": "How many rectangles of any size are in the stairs? Squares count too.",
-     "file": "2026-10-30-staircase-rectangles/short/audio/38fa84c10963d17f.wav",
+     "text": "Fifteen squares, in rows of five, four, three, two, and one.",
+     "caption": "15 squares, in rows of 5, 4, 3, 2, and 1.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/837fdba43ff18d6b.wav",
      "from": 0,
-     "frames": 118
+     "frames": 112
     },
     {
-     "text": "Here are the choices.",
-     "caption": "Here are the choices.",
-     "file": "2026-10-30-staircase-rectangles/short/audio/4c700db2f68259a7.wav",
-     "from": 128,
-     "frames": 44
+     "text": "How many rectangles of any size are in it? Squares count too.",
+     "caption": "How many rectangles of any size are in it? Squares count too.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/b1280b7b16b92b42.wav",
+     "from": 116,
+     "frames": 99
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 466,
-   "frames": 153,
+   "from": 326,
+   "frames": 78,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-staircase-rectangles/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 40
+     "frames": 66
     }
    ]
   },
@@ -68,36 +61,29 @@
    "id": "corner",
    "kind": "scene",
    "chapter": null,
-   "from": 619,
-   "frames": 602,
+   "from": 404,
+   "frames": 404,
    "lines": [
     {
-     "text": "Every rectangle is set by two squares: its top-right, and its bottom-left.",
-     "caption": "Every rectangle is set by two squares: its top-right, and its bottom-left.",
-     "file": "2026-10-30-staircase-rectangles/short/audio/53f9469ef6b93279.wav",
+     "text": "Each rectangle is set by its top-right and bottom-left squares.",
+     "caption": "Each rectangle is set by its top-right and bottom-left squares.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/7f34d370ab709181.wav",
      "from": 0,
-     "frames": 142
+     "frames": 108
     },
     {
-     "text": "Take the top-right square in column three, row two.",
-     "caption": "Take the top-right square in column three, row two.",
-     "file": "2026-10-30-staircase-rectangles/short/audio/da61dcd3ae89300e.wav",
-     "from": 152,
-     "frames": 100
+     "text": "Top-right in column three, row two? The bottom-left has three times two spots. Six rectangles!",
+     "caption": "Top-right in column 3, row 2? The bottom-left has 3 times 2 spots. 6 rectangles!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/d1f70940d983c660.wav",
+     "from": 113,
+     "frames": 164
     },
     {
-     "text": "The bottom-left can be anywhere in this block: three times two, so six rectangles!",
-     "caption": "The bottom-left can be anywhere in this block: three times two, so six rectangles!",
-     "file": "2026-10-30-staircase-rectangles/short/audio/77e1ebaa0f0c6b9a.wav",
-     "from": 262,
-     "frames": 174
-    },
-    {
-     "text": "So write column times row in every square, and add each column.",
-     "caption": "So write column times row in every square, and add each column.",
-     "file": "2026-10-30-staircase-rectangles/short/audio/bfffdf97616617a4.wav",
-     "from": 447,
-     "frames": 131
+     "text": "Write column times row in every square, then add up each column.",
+     "caption": "Write column times row in every square, then add up each column.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/4fb33aa98b3e7ae7.wav",
+     "from": 280,
+     "frames": 112
     }
    ]
   },
@@ -105,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1221,
-   "frames": 176,
+   "from": 808,
+   "frames": 339,
    "lines": [
     {
-     "text": "Seventy rectangles!",
-     "caption": "Seventy rectangles!",
-     "file": "2026-10-30-staircase-rectangles/short/audio/c5a29b9468779e72.wav",
+     "text": "Fifteen, twenty, eighteen, twelve, five. That's seventy rectangles!",
+     "caption": "15, 20, 18, 12, 5. That's 70 rectangles!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/b4ecbab67d227e28.wav",
      "from": 0,
-     "frames": 62
+     "frames": 143
     },
     {
-     "text": "That's way more than fifteen!",
-     "caption": "That's way more than fifteen!",
-     "file": "2026-10-30-staircase-rectangles/short/audio/7c1b1f34c1779099.wav",
-     "from": 71,
-     "frames": 66
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1397,
-   "frames": 277,
-   "lines": [
-    {
-     "text": "Why does the trick work? The full lesson shows two ways, plus every trap.",
-     "caption": "Why does the trick work? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-staircase-rectangles/short/audio/865e0caba2f30583.wav",
-     "from": 0,
-     "frames": 144
+     "text": "Fifteen was the trap: just the little squares.",
+     "caption": "15 was the trap: just the little squares.",
+     "file": "2026-10-30-staircase-rectangles/short/audio/c9f15ea2fc81f22f.wav",
+     "from": 147,
+     "frames": 87
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-staircase-rectangles/short/audio/82b8b7e1a12a7449.wav",
-     "from": 155,
-     "frames": 53
+     "text": "Did you get seventy? Tell me below!",
+     "caption": "Did you get 70? Tell me below!",
+     "file": "2026-10-30-staircase-rectangles/short/audio/5b86f9ef858f9614.wav",
+     "from": 238,
+     "frames": 65
     }
    ]
   }

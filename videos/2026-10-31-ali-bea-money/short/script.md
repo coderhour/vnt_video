@@ -1,29 +1,23 @@
 # Two Swaps, One Total (short)
 
-Nobody says how much money Ali and Bea have!
+AMC eight challenge! Think it's one hundred fifty? Nope!
 
-Can two swaps still find the total?
+If Ali gives twenty percent to Bea, they're equal.
 
-If Ali gives Bea twenty percent, they're equal.
+If Bea gives Ali ten dollars instead, Ali has double. How much in all?
 
-If Bea gives Ali ten dollars instead, Ali has twice as much.
+Comment your letter, then watch!
 
-How many dollars together?
+Twenty percent is one fifth: five parts for Ali.
 
-Pause and try it!
+He gives one. Both have four, so Bea started with three.
 
-*(Pause and try it: 3 s countdown)*
+Then Bea gives ten. Twice her money is six parts, minus twenty.
 
-Twenty percent is one fifth. So split Ali's money into five parts.
+Ali has five parts plus ten. So one part is thirty!
 
-He gives one part, and they're equal. So Bea started with three parts.
+Eight parts of thirty: two hundred forty dollars!
 
-Ali has five parts, Bea has three. Eight in all!
+One hundred fifty was the trap. That's just Ali.
 
-The ten dollar swap makes one part thirty dollars. So, two hundred forty dollars together!
-
-Ali has one hundred fifty, and Bea has ninety.
-
-Why thirty? The full lesson shows it step by step, plus every trap.
-
-Tap the link below to watch it!
+Did you get two hundred forty? Tell me below!

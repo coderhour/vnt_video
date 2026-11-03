@@ -1,27 +1,23 @@
 # The Best Fence in a Corner (short)
 
-Twelve units of fence, bent once, tucked into a corner.
-
-Most kids make a square. But a square is NOT the best!
+AMC ten challenge! Think it's thirty-six? Nope!
 
 Two walls meet at a right angle. A two-piece fence, total length twelve, joins them.
 
-What's the largest area it can enclose?
+What's the largest area they can enclose?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Treat each wall like a mirror.
 
-Here's the trick. Treat each wall like a mirror.
+Reflect twice: an octagon, with perimeter forty-eight!
 
-Reflect the region across both walls, and the corner disappears.
+The regular one holds the most. Each side is forty-eight over eight, six.
 
-Now the fence is a closed octagon, four times our area.
+Our fence is exactly two of those sides!
 
-The best octagon is the regular one. And our fence makes it!
+Our region is a quarter of it: eighteen plus eighteen root two!
 
-Our region is a quarter of it. The answer is Choice B!
+The square's thirty-six was the trap.
 
-About forty-three and a half. The square only gets thirty-six!
-
-The full lesson shows every trap. Tap the link below to watch it!
+Did you get eighteen plus eighteen root two? Tell me below!

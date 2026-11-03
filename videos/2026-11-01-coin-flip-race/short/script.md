@@ -1,27 +1,21 @@
 # Who Gets More Heads? (short)
 
-Bob flips seven coins. Ann flips five.
-
-Who gets more heads? There's a one-step trick!
+AMC ten challenge! Think it's one half? Nope!
 
 Ann flips five fair coins, and Bob flips seven.
 
-What's the chance that Bob gets MORE heads than Ann?
+What's the chance Bob gets MORE heads than Ann?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
-
-Here's the trick. Flip all of Ann's coins over.
-
-Tails turn into heads, and fair coins stay fair.
+Flip all of Ann's coins over. Her tails turn into heads, and fair coins stay fair.
 
 Now Bob wins when twelve coins show at least six heads.
 
-Exactly six is the middle. The two sides split the rest evenly.
+The middle pile is exactly six heads. The two sides are mirror images!
 
-So the answer is Choice D!
+Middle plus one side: Choice D, one thousand two hundred fifty-five over two thousand forty-eight!
 
-That's about sixty-one percent. Two extra coins really do pay off!
+One half was the trap.
 
-The full lesson shows every trap. Tap the link below to watch it!
+Did you get D? Tell me below!

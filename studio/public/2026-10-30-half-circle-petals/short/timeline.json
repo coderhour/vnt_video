@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1670,
+ "durationInFrames": 1148,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 278,
+   "frames": 151,
    "lines": [
     {
-     "text": "Four half circles make a flower inside a square.",
-     "caption": "Four half circles make a flower inside a square.",
-     "file": "2026-10-30-half-circle-petals/short/audio/e3c970ad5a78a9c5.wav",
+     "text": "AMC eight challenge! Think it's eight pi minus sixteen? Nope!",
+     "caption": "AMC 8 challenge! Think it's 8\u03c0 minus 16? Nope!",
+     "file": "2026-10-30-half-circle-petals/short/audio/f143a2886aaabcd8.wav",
      "from": 0,
-     "frames": 113
-    },
-    {
-     "text": "Most kids find the white petals. But we want the SHADED part!",
-     "caption": "Most kids find the white petals. But we want the SHADED part!",
-     "file": "2026-10-30-half-circle-petals/short/audio/fb7e31a4820473c7.wav",
-     "from": 123,
-     "frames": 131
+     "frames": 140
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 278,
-   "frames": 227,
+   "from": 151,
+   "frames": 170,
    "lines": [
     {
-     "text": "The square has side four, and each side holds a half circle.",
-     "caption": "The square has side four, and each side holds a half circle.",
-     "file": "2026-10-30-half-circle-petals/short/audio/c1b6753b9e456010.wav",
+     "text": "A side four square, with a half circle inside on each side.",
+     "caption": "A side 4 square, with a half circle inside on each side.",
+     "file": "2026-10-30-half-circle-petals/short/audio/c078aebabaad07c6.wav",
      "from": 0,
-     "frames": 120
+     "frames": 105
     },
     {
-     "text": "What is the total shaded area?",
-     "caption": "What is the total shaded area?",
-     "file": "2026-10-30-half-circle-petals/short/audio/0080c438b7bb2c04.wav",
-     "from": 131,
-     "frames": 64
+     "text": "What is the shaded area?",
+     "caption": "What is the shaded area?",
+     "file": "2026-10-30-half-circle-petals/short/audio/0b2ee21433aefd2c.wav",
+     "from": 109,
+     "frames": 50
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 505,
-   "frames": 165,
+   "from": 321,
+   "frames": 67,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-half-circle-petals/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-half-circle-petals/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 51
+     "frames": 56
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "count",
    "kind": "scene",
    "chapter": null,
-   "from": 670,
-   "frames": 449,
+   "from": 388,
+   "frames": 366,
    "lines": [
     {
-     "text": "Trick: each half circle has area two pi, so all four make eight pi.",
-     "caption": "Trick: each half circle has area two pi, so all four make eight pi.",
-     "file": "2026-10-30-half-circle-petals/short/audio/1b486ba5272d4f9e.wav",
+     "text": "Each half circle is two pi, so all four make eight pi.",
+     "caption": "Each half circle is 2\u03c0, so all 4 make 8\u03c0.",
+     "file": "2026-10-30-half-circle-petals/short/audio/b1d0f148e91c643d.wav",
      "from": 0,
-     "frames": 147
+     "frames": 104
     },
     {
-     "text": "But the square is only sixteen! Every petal got counted twice.",
-     "caption": "But the square is only sixteen! Every petal got counted twice.",
-     "file": "2026-10-30-half-circle-petals/short/audio/e098c00763a14be3.wav",
-     "from": 156,
-     "frames": 134
+     "text": "But the square is only sixteen! Each petal sits in two half circles.",
+     "caption": "But the square is only 16! Each petal sits in 2 half circles.",
+     "file": "2026-10-30-half-circle-petals/short/audio/ce68207afa9e36b2.wav",
+     "from": 108,
+     "frames": 132
     },
     {
      "text": "So eight pi is the square, plus the petals one extra time.",
-     "caption": "So eight pi is the square, plus the petals one extra time.",
-     "file": "2026-10-30-half-circle-petals/short/audio/4cd8e2f104ba8ab0.wav",
-     "from": 300,
-     "frames": 125
+     "caption": "So 8\u03c0 is the square, plus the petals one extra time.",
+     "file": "2026-10-30-half-circle-petals/short/audio/80bb2df43d203735.wav",
+     "from": 245,
+     "frames": 110
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1119,
-   "frames": 281,
+   "from": 754,
+   "frames": 394,
    "lines": [
     {
-     "text": "Petals are eight pi minus sixteen. Take them away from the square.",
-     "caption": "Petals are eight pi minus sixteen. Take them away from the square.",
-     "file": "2026-10-30-half-circle-petals/short/audio/13ab5bbbc323bc6e.wav",
+     "text": "Petals are eight pi minus sixteen, so shaded is thirty-two minus eight pi!",
+     "caption": "Petals are 8\u03c0 minus 16, so shaded is 32 minus 8\u03c0!",
+     "file": "2026-10-30-half-circle-petals/short/audio/e12260b12616ccfd.wav",
      "from": 0,
-     "frames": 123
+     "frames": 136
     },
     {
-     "text": "Shaded is thirty-two minus eight pi! That's Choice B.",
-     "caption": "Shaded is thirty-two minus eight pi! That's Choice B.",
-     "file": "2026-10-30-half-circle-petals/short/audio/cbf08de69ca8f97c.wav",
-     "from": 133,
-     "frames": 116
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1400,
-   "frames": 270,
-   "lines": [
-    {
-     "text": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "caption": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-half-circle-petals/short/audio/66554cbc453363b8.wav",
-     "from": 0,
-     "frames": 152
+     "text": "Eight pi minus sixteen was the trap. That's just the petals.",
+     "caption": "8\u03c0 minus 16 was the trap. That's just the petals.",
+     "file": "2026-10-30-half-circle-petals/short/audio/cae198df52bd2fe5.wav",
+     "from": 140,
+     "frames": 113
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-half-circle-petals/short/audio/82b8b7e1a12a7449.wav",
-     "from": 162,
-     "frames": 54
+     "text": "Did you get thirty-two minus eight pi? Tell me below!",
+     "caption": "Did you get 32 minus 8\u03c0? Tell me below!",
+     "file": "2026-10-30-half-circle-petals/short/audio/1b70be08650c79ca.wav",
+     "from": 257,
+     "frames": 101
     }
    ]
   }

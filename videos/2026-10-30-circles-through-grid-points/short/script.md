@@ -1,29 +1,23 @@
 # How Many Circles Through Nine Dots? (short)
 
-Nine dots. How many circles pass through at least three of them?
+AMC ten challenge! Think it's seventy-six? Nope!
 
-Lots of kids say seventy-six. But it's much smaller!
+Nine dots in a square grid. How many different circles pass through at least three of them?
 
-Nine dots in a grid. How many different circles pass through at least three?
+A circle through four dots still counts once!
 
-Each circle counts only once!
+Comment your letter, then watch!
 
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
-
-Groups of three give seventy-six. But look at this square.
+We get seventy-six groups of three, not on one line. But look at this square.
 
 Leave out any corner. The other three make the SAME circle!
 
-So that circle was counted four times. There are fourteen like it.
+So that circle got counted four times. Fourteen circles are like that.
 
-Take away three extra copies of each. Fourteen times three is forty-two.
+Fourteen times three is forty-two extra copies.
 
 Seventy-six minus forty-two is thirty-four!
 
-Thirty-four circles, not seventy-six.
+Seventy-six was the trap.
 
-The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get thirty-four? Tell me below!

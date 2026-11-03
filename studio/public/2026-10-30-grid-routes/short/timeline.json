@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1652,
+ "durationInFrames": 1082,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 243,
+   "frames": 112,
    "lines": [
     {
-     "text": "There are fifty-six ways to cross a street grid.",
-     "caption": "There are fifty-six ways to cross a street grid.",
-     "file": "2026-10-30-grid-routes/short/audio/5baf83538b187fe9.wav",
+     "text": "AMC eight challenge! Think it's fifty-six? Nope!",
+     "caption": "AMC 8 challenge! Think it's 56? Nope!",
+     "file": "2026-10-30-grid-routes/short/audio/8387100a0ae06451.wav",
      "from": 0,
-     "frames": 96
-    },
-    {
-     "text": "But block ONE corner, and more than half of them vanish!",
-     "caption": "But block ONE corner, and more than half of them vanish!",
-     "file": "2026-10-30-grid-routes/short/audio/aba0ce7e6eccf873.wav",
-     "from": 107,
-     "frames": 113
+     "frames": 100
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 243,
-   "frames": 259,
+   "from": 112,
+   "frames": 226,
    "lines": [
     {
-     "text": "Mia walks from A to B, going only right or up.",
-     "caption": "Mia walks from A to B, going only right or up.",
-     "file": "2026-10-30-grid-routes/short/audio/c1065a0c4e230f6b.wav",
+     "text": "Mia walks from A to B, going only right or up. She can't pass through corner X.",
+     "caption": "Mia walks from A to B, going only right or up. She can't pass through corner X.",
+     "file": "2026-10-30-grid-routes/short/audio/f074dfc522b60b5c.wav",
      "from": 0,
-     "frames": 113
+     "frames": 146
     },
     {
-     "text": "She can't step on the corner X. How many routes can she take?",
-     "caption": "She can't step on the corner X. How many routes can she take?",
-     "file": "2026-10-30-grid-routes/short/audio/53a0521f9341c6e5.wav",
-     "from": 124,
-     "frames": 102
+     "text": "How many different paths can she take?",
+     "caption": "How many different paths can she take?",
+     "file": "2026-10-30-grid-routes/short/audio/80b38369a7d915ab.wav",
+     "from": 149,
+     "frames": 65
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 502,
-   "frames": 157,
+   "from": 338,
+   "frames": 72,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-grid-routes/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-grid-routes/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 44
+     "frames": 60
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "fill",
    "kind": "scene",
    "chapter": null,
-   "from": 659,
-   "frames": 426,
+   "from": 410,
+   "frames": 375,
    "lines": [
     {
-     "text": "Here's the trick. Write on every corner how many ways Mia can get there.",
-     "caption": "Here's the trick. Write on every corner how many ways Mia can get there.",
-     "file": "2026-10-30-grid-routes/short/audio/37c25b98e9e2e6af.wav",
+     "text": "Write on each corner how many ways Mia can reach it. The edge streets get ones.",
+     "caption": "Write on each corner how many ways Mia can reach it. The edge streets get ones.",
+     "file": "2026-10-30-grid-routes/short/audio/ddb10218d43314a4.wav",
      "from": 0,
      "frames": 131
     },
     {
-     "text": "Each number is the one on its left, plus the one below.",
-     "caption": "Each number is the one on its left, plus the one below.",
-     "file": "2026-10-30-grid-routes/short/audio/f193da40f1f110b1.wav",
-     "from": 141,
-     "frames": 105
+     "text": "Each corner adds the number on its left and the one below. X gets a zero.",
+     "caption": "Each corner adds the number on its left and the one below. X gets a zero.",
+     "file": "2026-10-30-grid-routes/short/audio/1b48c0790fe99446.wav",
+     "from": 135,
+     "frames": 122
     },
     {
-     "text": "X gets a zero. Now watch the numbers fill the grid!",
-     "caption": "X gets a zero. Now watch the numbers fill the grid!",
-     "file": "2026-10-30-grid-routes/short/audio/b5c3fedf3b6eed49.wav",
-     "from": 256,
-     "frames": 117
+     "text": "Now watch the numbers fill the grid!",
+     "caption": "Now watch the numbers fill the grid!",
+     "file": "2026-10-30-grid-routes/short/audio/3c1c4160eee1a8e9.wav",
+     "from": 261,
+     "frames": 66
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1085,
-   "frames": 293,
+   "from": 785,
+   "frames": 297,
    "lines": [
     {
-     "text": "Now B. Seventeen plus nine makes twenty-six!",
-     "caption": "Now B. Seventeen plus nine makes twenty-six!",
-     "file": "2026-10-30-grid-routes/short/audio/99c88700695d9556.wav",
+     "text": "B gets seventeen plus nine. That's twenty-six!",
+     "caption": "B gets 17 plus 9. That's 26!",
+     "file": "2026-10-30-grid-routes/short/audio/d34f1f618fc42710.wav",
      "from": 0,
-     "frames": 104
+     "frames": 93
     },
     {
-     "text": "That's Choice B. Counting every route would say fifty-six, which is wrong.",
-     "caption": "That's Choice B. Counting every route would say fifty-six, which is wrong.",
-     "file": "2026-10-30-grid-routes/short/audio/30c46d329dc192cb.wav",
-     "from": 114,
-     "frames": 141
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1378,
-   "frames": 274,
-   "lines": [
-    {
-     "text": "Why does adding work? The full lesson shows two ways, plus every trap.",
-     "caption": "Why does adding work? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-grid-routes/short/audio/6e4ac7722e777eff.wav",
-     "from": 0,
-     "frames": 138
+     "text": "Fifty-six was the trap. It forgets about X!",
+     "caption": "56 was the trap. It forgets about X!",
+     "file": "2026-10-30-grid-routes/short/audio/513cb0025744f9fb.wav",
+     "from": 97,
+     "frames": 86
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-grid-routes/short/audio/82b8b7e1a12a7449.wav",
-     "from": 149,
-     "frames": 57
+     "text": "Did you get twenty-six? Tell me below!",
+     "caption": "Did you get 26? Tell me below!",
+     "file": "2026-10-30-grid-routes/short/audio/ca2d710b1a95753a.wav",
+     "from": 187,
+     "frames": 75
     }
    ]
   }

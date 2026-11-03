@@ -110,7 +110,7 @@ export const Figure: React.FC<FigProps> = ({ m, w, h, p, progress = 1, fills = {
 };
 
 /** Dimension line from a to b (pixels) with arrow heads at both ends and a maths label. */
-const Dim: React.FC<{ a: Pt; b: Pt; color: string; opacity: number; label: string; lx?: number; ly?: number; size?: number }> = ({ a, b, color, opacity, label, lx = 0, ly = 0, size = 52 }) => {
+export const Dim: React.FC<{ a: Pt; b: Pt; color: string; opacity: number; label: string; lx?: number; ly?: number; size?: number }> = ({ a, b, color, opacity, label, lx = 0, ly = 0, size = 52 }) => {
   if (opacity <= 0) return null;
   const ang = Math.atan2(b[1] - a[1], b[0] - a[0]);
   const head = (q: Pt, d: number) => {
@@ -300,7 +300,7 @@ const Sol1Pair: SceneComponent = ({ scene }) => {
 // stopped, so no in-between value (like 18 or 22, which would spoil the answer) is ever on screen.
 const STOPS = [3, 6, 2, 3];
 const MOVE = 14;
-const slide = (f: number, a: number, b: number) => {
+export const slide = (f: number, a: number, b: number) => {
   const starts = [0.04, 0.36, 0.72].map((t) => a + (b - a) * t);
   let y = STOPS[0];
   let vis = 1;

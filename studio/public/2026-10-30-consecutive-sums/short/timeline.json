@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1731,
+ "durationInFrames": 1196,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 290,
+   "frames": 114,
    "lines": [
     {
-     "text": "Nine is four plus five. Ten is one plus two plus three plus four.",
-     "caption": "Nine is four plus five. Ten is one plus two plus three plus four.",
-     "file": "2026-10-30-consecutive-sums/short/audio/a4c49e7341e517a3.wav",
+     "text": "AMC eight challenge! Think it's forty-five? Nope!",
+     "caption": "AMC 8 challenge! Think it's 45? Nope!",
+     "file": "2026-10-30-consecutive-sums/short/audio/3e986faf74f0892a.wav",
      "from": 0,
-     "frames": 150
-    },
-    {
-     "text": "But a few numbers can never be built this way. Which ones?",
-     "caption": "But a few numbers can never be built this way. Which ones?",
-     "file": "2026-10-30-consecutive-sums/short/audio/e6aecf7ab9382280.wav",
-     "from": 160,
-     "frames": 106
+     "frames": 102
     }
    ]
   },
@@ -29,31 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 290,
-   "frames": 221,
+   "from": 114,
+   "frames": 231,
    "lines": [
     {
-     "text": "How many numbers from one to fifty are a sum of two or more consecutive numbers?",
-     "caption": "How many numbers from one to fifty are a sum of two or more consecutive numbers?",
-     "file": "2026-10-30-consecutive-sums/short/audio/919aacafa346e8c2.wav",
+     "text": "How many numbers from one to fifty are a sum of two or more consecutive whole numbers?",
+     "caption": "How many numbers from 1 to 50 are a sum of 2 or more consecutive whole numbers?",
+     "file": "2026-10-30-consecutive-sums/short/audio/a4b7bde50e11cc49.wav",
      "from": 0,
-     "frames": 153
+     "frames": 135
+    },
+    {
+     "text": "Nine is four plus five, for example.",
+     "caption": "9 is 4 plus 5, for example.",
+     "file": "2026-10-30-consecutive-sums/short/audio/b61ee60b28bd1c07.wav",
+     "from": 139,
+     "frames": 81
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 511,
-   "frames": 153,
+   "from": 345,
+   "frames": 81,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-consecutive-sums/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-consecutive-sums/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 39
+     "frames": 69
     }
    ]
   },
@@ -61,36 +61,36 @@
    "id": "board",
    "kind": "scene",
    "chapter": null,
-   "from": 664,
-   "frames": 621,
+   "from": 426,
+   "frames": 481,
    "lines": [
     {
-     "text": "Let's light up every sum, one run length at a time.",
-     "caption": "Let's light up every sum, one run length at a time.",
-     "file": "2026-10-30-consecutive-sums/short/audio/6d1c69542be3fc03.wav",
+     "text": "Runs of two make every odd number from three up.",
+     "caption": "Runs of 2 make every odd number from 3 up.",
+     "file": "2026-10-30-consecutive-sums/short/audio/1dacefbeb9abab1b.wav",
      "from": 0,
-     "frames": 110
+     "frames": 93
     },
     {
-     "text": "Runs of two make every odd number. Longer runs fill in the rest.",
-     "caption": "Runs of two make every odd number. Longer runs fill in the rest.",
-     "file": "2026-10-30-consecutive-sums/short/audio/7125f60839dd1884.wav",
-     "from": 120,
-     "frames": 138
+     "text": "Runs of three, four and five light up most of the even numbers.",
+     "caption": "Runs of 3, 4 and 5 light up most of the even numbers.",
+     "file": "2026-10-30-consecutive-sums/short/audio/eb8f9fc7a02ae3a0.wav",
+     "from": 97,
+     "frames": 107
     },
     {
-     "text": "Only six cells stay dark: one, two, four, eight, sixteen, thirty-two.",
-     "caption": "Only six cells stay dark: one, two, four, eight, sixteen, thirty-two.",
-     "file": "2026-10-30-consecutive-sums/short/audio/cf9310339b9c534f.wav",
-     "from": 268,
-     "frames": 200
+     "text": "Runs of seven and eight add two more.",
+     "caption": "Runs of 7 and 8 add 2 more.",
+     "file": "2026-10-30-consecutive-sums/short/audio/6d4ad2dd40a97e88.wav",
+     "from": 208,
+     "frames": 75
     },
     {
-     "text": "They're all powers of two, and no run can ever build one!",
-     "caption": "They're all powers of two, and no run can ever build one!",
-     "file": "2026-10-30-consecutive-sums/short/audio/c787e140d331bced.wav",
-     "from": 478,
-     "frames": 119
+     "text": "Six cells stay dark: one, two, four, eight, sixteen and thirty-two. All powers of two!",
+     "caption": "6 cells stay dark: 1, 2, 4, 8, 16 and 32. All powers of 2!",
+     "file": "2026-10-30-consecutive-sums/short/audio/f61d933a5654fee6.wav",
+     "from": 287,
+     "frames": 183
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1285,
-   "frames": 203,
+   "from": 907,
+   "frames": 289,
    "lines": [
     {
-     "text": "Fifty minus six is forty-four!",
-     "caption": "Fifty minus six is forty-four!",
-     "file": "2026-10-30-consecutive-sums/short/audio/270d92cd19463326.wav",
+     "text": "Fifty minus six. That's forty-four!",
+     "caption": "50 minus 6. That's 44!",
+     "file": "2026-10-30-consecutive-sums/short/audio/db33a3a762cee9af.wav",
      "from": 0,
-     "frames": 82
+     "frames": 81
     },
     {
-     "text": "Only the powers of two fail.",
-     "caption": "Only the powers of two fail.",
-     "file": "2026-10-30-consecutive-sums/short/audio/86714b4d0446e714.wav",
-     "from": 92,
-     "frames": 72
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1488,
-   "frames": 243,
-   "lines": [
-    {
-     "text": "The full lesson shows two neat ways, plus every trap.",
-     "caption": "The full lesson shows two neat ways, plus every trap.",
-     "file": "2026-10-30-consecutive-sums/short/audio/4f1651b8df20a6ab.wav",
-     "from": 0,
-     "frames": 117
+     "text": "Forty-five was the trap. One fails too!",
+     "caption": "45 was the trap. One fails too!",
+     "file": "2026-10-30-consecutive-sums/short/audio/84063f8567a80a71.wav",
+     "from": 85,
+     "frames": 95
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-consecutive-sums/short/audio/82b8b7e1a12a7449.wav",
-     "from": 127,
-     "frames": 63
+     "text": "Did you get forty-four? Tell me below!",
+     "caption": "Did you get 44? Tell me below!",
+     "file": "2026-10-30-consecutive-sums/short/audio/82b16b93404f12b1.wav",
+     "from": 184,
+     "frames": 69
     }
    ]
   }

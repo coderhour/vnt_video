@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1682,
+ "durationInFrames": 1135,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 208,
+   "frames": 104,
    "lines": [
     {
-     "text": "Three side lengths are given, but you only need ONE!",
-     "caption": "Three side lengths are given, but you only need ONE!",
-     "file": "2026-10-31-bisector-parallel/short/audio/159ee13bec00f82b.wav",
+     "text": "AMC eight challenge! Think it's twelve? Nope!",
+     "caption": "AMC 8 challenge! Think it's 12? Nope!",
+     "file": "2026-10-31-bisector-parallel/short/audio/d6a47844ae603008.wav",
      "from": 0,
-     "frames": 105
-    },
-    {
-     "text": "Can you spot the hidden triangle?",
-     "caption": "Can you spot the hidden triangle?",
-     "file": "2026-10-31-bisector-parallel/short/audio/4fddb91d90030483.wav",
-     "from": 115,
-     "frames": 70
+     "frames": 93
     }
    ]
   },
@@ -29,45 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 208,
-   "frames": 358,
+   "from": 104,
+   "frames": 278,
    "lines": [
     {
      "text": "A B and A C are ten. B C is twelve.",
-     "caption": "A B and A C are ten. B C is twelve.",
-     "file": "2026-10-31-bisector-parallel/short/audio/e015f86712d38606.wav",
+     "caption": "AB and AC are 10. BC is 12.",
+     "file": "2026-10-31-bisector-parallel/short/audio/70aa2f0970f5a402.wav",
      "from": 0,
-     "frames": 102
+     "frames": 90
     },
     {
-     "text": "A line through A is parallel to B C. The bisector of angle B meets it at F.",
-     "caption": "A line through A is parallel to B C. The bisector of angle B meets it at F.",
-     "file": "2026-10-31-bisector-parallel/short/audio/3b638456b06cc1fd.wav",
-     "from": 113,
-     "frames": 159
-    },
-    {
-     "text": "How long is A F?",
-     "caption": "How long is A F?",
-     "file": "2026-10-31-bisector-parallel/short/audio/08648e8c5a900b07.wav",
-     "from": 282,
-     "frames": 44
+     "text": "The top line is parallel to B C. Angle B's bisector meets it at F. Find A F!",
+     "caption": "The top line is parallel to BC. Angle B's bisector meets it at F. Find AF!",
+     "file": "2026-10-31-bisector-parallel/short/audio/e99720920638d23d.wav",
+     "from": 95,
+     "frames": 172
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 566,
-   "frames": 174,
+   "from": 382,
+   "frames": 70,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-bisector-parallel/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-bisector-parallel/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 60
+     "frames": 58
     }
    ]
   },
@@ -75,29 +61,29 @@
    "id": "chase",
    "kind": "scene",
    "chapter": null,
-   "from": 740,
-   "frames": 481,
+   "from": 452,
+   "frames": 389,
    "lines": [
     {
-     "text": "The bisector splits angle B into two equal parts. Call each part x.",
-     "caption": "The bisector splits angle B into two equal parts. Call each part x.",
-     "file": "2026-10-31-bisector-parallel/short/audio/564be3604c715db6.wav",
+     "text": "The bisector cuts angle B in half. Call each half x.",
+     "caption": "The bisector cuts angle B in half. Call each half x.",
+     "file": "2026-10-31-bisector-parallel/short/audio/765fd894af3895d0.wav",
      "from": 0,
-     "frames": 130
+     "frames": 120
     },
     {
-     "text": "Now find the Z. The parallel lines make the angle at F equal x too.",
-     "caption": "Now find the Z. The parallel lines make the angle at F equal x too.",
-     "file": "2026-10-31-bisector-parallel/short/audio/09fd78ca65b34969.wav",
-     "from": 140,
-     "frames": 155
+     "text": "Find the Z! Across the parallel lines, the angle at F is x too.",
+     "caption": "Find the Z! Across the parallel lines, the angle at F is x too.",
+     "file": "2026-10-31-bisector-parallel/short/audio/149447b5037a9af8.wav",
+     "from": 125,
+     "frames": 124
     },
     {
-     "text": "So triangle A B F has two equal angles, and A F equals A B!",
-     "caption": "So triangle A B F has two equal angles, and A F equals A B!",
-     "file": "2026-10-31-bisector-parallel/short/audio/194e71f391bc2dcf.wav",
-     "from": 305,
-     "frames": 152
+     "text": "So triangle A B F has two equal angles. A F equals A B!",
+     "caption": "So triangle ABF has two equal angles. AF equals AB!",
+     "file": "2026-10-31-bisector-parallel/short/audio/74de599041a30ff7.wav",
+     "from": 253,
+     "frames": 125
     }
    ]
   },
@@ -105,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1221,
-   "frames": 198,
+   "from": 841,
+   "frames": 294,
    "lines": [
     {
      "text": "A B is ten, so A F is ten!",
-     "caption": "A B is ten, so A F is ten!",
-     "file": "2026-10-31-bisector-parallel/short/audio/3073c19d6682cae2.wav",
+     "caption": "AB is 10, so AF is 10!",
+     "file": "2026-10-31-bisector-parallel/short/audio/5d14590743ceaa3b.wav",
      "from": 0,
-     "frames": 78
+     "frames": 86
     },
     {
-     "text": "The other two sides were just decoys.",
-     "caption": "The other two sides were just decoys.",
-     "file": "2026-10-31-bisector-parallel/short/audio/30012e83c693d7a1.wav",
-     "from": 88,
-     "frames": 71
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1419,
-   "frames": 263,
-   "lines": [
-    {
-     "text": "Why equal sides? The full lesson shows two ways, plus every trap.",
-     "caption": "Why equal sides? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-31-bisector-parallel/short/audio/09e7e5e7383f2154.wav",
-     "from": 0,
-     "frames": 146
+     "text": "Twelve was the trap. Parallel, but not equal!",
+     "caption": "12 was the trap. Parallel, but not equal!",
+     "file": "2026-10-31-bisector-parallel/short/audio/ed42cd4dda727031.wav",
+     "from": 90,
+     "frames": 98
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-bisector-parallel/short/audio/82b8b7e1a12a7449.wav",
-     "from": 156,
-     "frames": 59
+     "text": "Did you get ten? Tell me below!",
+     "caption": "Did you get 10? Tell me below!",
+     "file": "2026-10-31-bisector-parallel/short/audio/912118c80ef82b0f.wav",
+     "from": 192,
+     "frames": 66
     }
    ]
   }

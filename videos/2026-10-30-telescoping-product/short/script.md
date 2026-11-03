@@ -1,29 +1,23 @@
 # The Product That Collapses (short)
 
-Four brackets, all multiplied. Don't multiply them out!
+AMC eight challenge! Think it's just under one? Nope!
 
-There's a trick that makes it collapse.
+Multiply these four brackets. What do you get?
 
-What is the value of the whole product?
+Each bottom number is the one before it, squared.
 
-Here are the choices.
-
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
+Comment your letter, then watch!
 
 Bring in a helper: one minus one over two.
 
-Helper times the first bracket is one minus one over four. Each step knocks over the next one!
+Multiply by the first bracket: one minus one over four.
 
-The chain collapses to one minus one over two hundred fifty-six squared.
+Then one minus one over sixteen. Then one minus one over two hundred fifty-six.
 
-We used one half, so double the result!
+Finally, one minus one over two hundred fifty-six squared. The chain collapses!
 
-Two, minus two over two hundred fifty-six squared!
+Undo the helper: double it. That's choice C!
 
-That's choice C.
+Just under one was the trap. It forgets to undo the helper.
 
-Why does the helper work? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get C? Tell me below!

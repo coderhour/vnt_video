@@ -1,27 +1,21 @@
 # Grid Routes (short)
 
-There are fifty-six ways to cross a street grid.
+AMC eight challenge! Think it's fifty-six? Nope!
 
-But block ONE corner, and more than half of them vanish!
+Mia walks from A to B, going only right or up. She can't pass through corner X.
 
-Mia walks from A to B, going only right or up.
+How many different paths can she take?
 
-She can't step on the corner X. How many routes can she take?
+Comment your letter, then watch!
 
-Pause and try it!
+Write on each corner how many ways Mia can reach it. The edge streets get ones.
 
-*(Pause and try it: 3 s countdown)*
+Each corner adds the number on its left and the one below. X gets a zero.
 
-Here's the trick. Write on every corner how many ways Mia can get there.
+Now watch the numbers fill the grid!
 
-Each number is the one on its left, plus the one below.
+B gets seventeen plus nine. That's twenty-six!
 
-X gets a zero. Now watch the numbers fill the grid!
+Fifty-six was the trap. It forgets about X!
 
-Now B. Seventeen plus nine makes twenty-six!
-
-That's Choice B. Counting every route would say fifty-six, which is wrong.
-
-Why does adding work? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get twenty-six? Tell me below!

@@ -39,7 +39,7 @@ const Card: React.FC<{ x: number; y: number; w: number; h: number; style?: React
 );
 
 /** One prime as a coloured ball. */
-const Ball: React.FC<{ x: number; y: number; p: number; r?: number; s?: number }> = ({ x, y, p, r = 32, s = 1 }) =>
+export const Ball: React.FC<{ x: number; y: number; p: number; r?: number; s?: number }> = ({ x, y, p, r = 32, s = 1 }) =>
   s <= 0 ? null : (
     <g transform={`translate(${x} ${y}) scale(${s})`}>
       <circle r={r} fill={PRIME[p]} />

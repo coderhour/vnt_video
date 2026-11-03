@@ -10,7 +10,7 @@ import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-five-rectangles';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
 export const SHORT = '#7b61ff'; // short sides: always purple
@@ -128,7 +128,7 @@ const plen = (p: Piece) => Math.abs(p.b[0] - p.a[0]) + Math.abs(p.b[1] - p.a[1])
 const STARTS = PIECES.map((_, i) => PIECES.slice(0, i).reduce((s, p) => s + plen(p), 0));
 const TOTAL = 22;
 
-const Walk: React.FC<{ ox: number; oy: number; px: number; dist: number; ink?: boolean; emph?: number[]; showDot?: boolean; ghost?: number }> = ({ ox, oy, px, dist, ink, emph = [], showDot = true, ghost = 0 }) => {
+export const Walk: React.FC<{ ox: number; oy: number; px: number; dist: number; ink?: boolean; emph?: number[]; showDot?: boolean; ghost?: number }> = ({ ox, oy, px, dist, ink, emph = [], showDot = true, ghost = 0 }) => {
   const P = (pt: [number, number]) => [ox + pt[0] * px, oy + pt[1] * px] as const;
   let dot: readonly [number, number] = P(PIECES[0].a);
   PIECES.forEach((p, i) => {

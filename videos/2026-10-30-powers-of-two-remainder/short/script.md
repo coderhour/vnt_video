@@ -1,29 +1,23 @@
 # The Remainder of a Giant Sum (short)
 
-Add one, two, four, eight, and keep doubling. One hundred numbers!
+AMC eight challenge! Think it's zero? Nope!
 
-The total is thirty-one digits long! Yet we can find its remainder.
+Add one, two, four, eight, and keep doubling, up to two to the ninety-ninth.
 
-The last number is two to the ninety-ninth.
+What's the remainder when you divide the sum by seven?
 
-What's the remainder when the sum is divided by seven?
+Comment your letter, then watch!
 
-Pause and try it!
+Divide by seven: one, two, four, then eight leaves one again. A cycle!
 
-*(Pause and try it: 3 s countdown)*
+One plus two plus four is seven, so each group of three leaves nothing.
 
-Here's the trick. Look at each number's remainder.
+One hundred terms make thirty-three groups, plus one extra.
 
-One, two, four, then eight leaves one again. It's a cycle!
-
-One plus two plus four is seven. Each group leaves nothing.
-
-Ninety-nine terms make thirty-three groups. The last term leaves one.
+That extra term, two to the ninety-ninth, leaves one.
 
 So the remainder is one!
 
-A giant sum, tamed by a tiny pattern.
+Zero was the trap. It forgets the last term.
 
-Why a cycle? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get one? Tell me below!

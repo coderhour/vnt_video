@@ -1,54 +1,52 @@
 {
  "title": "LCM 72 Pairs (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "Order matters: eight, nine and nine, eight both count.": "Order matters: (8, 9) and (9, 8) both count.",
+  "Each number has zero to three twos, and one needs all three.": "Each number has 0 to 3 twos, and one needs all 3.",
+  "For the threes, one needs both. Three plus three, minus one. Five!": "For the threes, one needs both. 3 plus 3, minus 1. 5!"
+ },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Eight and nine have least common multiple seventy-two.",
-    "How many pairs do? More than you expect!"
+    "AMC eight challenge! Think it's eighteen? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "How many ordered pairs of positive whole numbers",
-    "have least common multiple seventy-two? Order matters!"
-   ],
-   "hold": 0.3
+    "How many pairs of positive whole numbers have least common multiple seventy-two?",
+    "Order matters: eight, nine and nine, eight both count."
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "grids",
    "lines": [
-    "The trick: seventy-two is three twos and two threes. Count each prime alone.",
-    "For the twos, each number has zero to three. One needs all three: seven squares.",
-    "For the threes, zero to two. One needs both: five squares."
+    "Seventy-two is three twos times two threes. Split them up!",
+    "Each number has zero to three twos, and one needs all three.",
+    "Last column and bottom row: four plus four, minus the corner. Seven!",
+    "For the threes, one needs both. Three plus three, minus one. Five!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Now multiply the choices: seven times five is thirty-five!",
-    "That's Choice D."
+    "Seven times five. That's thirty-five pairs!",
+    "Eighteen was the trap. It forgets order.",
+    "Did you get thirty-five? Tell me below!"
    ],
-   "hold": 0.3
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Want to see why? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1
+   "hold": 0.8
   }
  ]
 }

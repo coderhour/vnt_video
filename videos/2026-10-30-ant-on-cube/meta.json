@@ -7,6 +7,13 @@
  "short": {
   "title": "An ant, a cube, 3 random steps #Shorts",
   "description": "An ant takes three random steps along a cube. What's the chance it ends at the far corner?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 53,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

@@ -1,27 +1,23 @@
 # Point in a Rectangle (short)
 
-A point inside a rectangle, joined to all four corners.
+AMC eight challenge! Think it's twenty-two? Nope!
 
-Three triangle areas are known. Can you find the fourth, without knowing where the point is?
+A point in a rectangle is joined to all four corners.
 
-The bottom, right and top triangles have areas fifteen, twenty-two and twenty-five.
+Bottom, right and top triangles are fifteen, twenty-two and twenty-five. Find the left one!
 
-What is the area of the left triangle?
+Comment your letter, then watch!
 
-Pause and try it!
+Bottom and top share the width. Their heights stack to the full height.
 
-*(Pause and try it: 3 s countdown)*
+So together, they are HALF the rectangle.
 
-Look at the bottom and top triangles together. Their heights stack up to the full height.
+Fifteen plus twenty-five is forty. Slide the point, and it stays forty!
 
-So together, they make exactly HALF the rectangle!
+Left and right make the other half: forty again.
 
-Fifteen plus twenty-five is forty. So the left and right pair must make forty too.
+Forty, take away twenty-two, is eighteen!
 
-Forty, take away twenty-two, is eighteen. The left triangle is eighteen, choice C!
+Twenty-two was the trap. Sitting across doesn't make it equal.
 
-And the point can be anywhere. Opposite triangles always make half!
-
-Why is it always half? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get eighteen? Tell me below!

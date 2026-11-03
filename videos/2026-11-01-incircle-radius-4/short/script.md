@@ -1,27 +1,23 @@
 # A Circle of Radius 4 (short)
 
-A circle of radius four sits in a whole-number triangle.
+AMC ten challenge! Think it's eighty-one? Nope!
 
-Biggest perimeter? Most kids stop at half!
+Whole-number sides. A circle of radius four inside touches six from A.
 
-The circle touches A B and A C, six from A.
+What's the biggest perimeter?
 
-What's the largest possible perimeter?
+Comment your letter, then watch!
 
-Pause and try it!
+Equal tangent pieces: six, y, and z.
 
-*(Pause and try it: 3 s countdown)*
+Area two ways gives z equals eight y plus forty-eight, over three y minus eight.
 
-Here's the trick. Tangent pieces from one corner are equal.
+For a positive bottom, y must be at least three.
 
-So each side is two pieces: six plus y, six plus z, and y plus z.
+At y equals three, z is seventy-two!
 
-Area two ways links y and z. If y is three, z is seventy-two!
+Nine, seventy-five, seventy-eight: that's one hundred sixty-two!
 
-The sides: nine, seventy-five, seventy-eight. That's one hundred sixty-two!
+Eighty-one was the trap: only half!
 
-Choice E. Eighty-one is only half of it!
-
-The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get one hundred sixty-two? Tell me below!

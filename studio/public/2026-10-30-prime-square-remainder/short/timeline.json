@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1885,
+ "durationInFrames": 1152,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 265,
+   "frames": 101,
    "lines": [
     {
-     "text": "Pick any prime bigger than three. Square it, add seventeen.",
-     "caption": "Pick any prime bigger than three. Square it, add seventeen.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/338cfb93155f7793.wav",
+     "text": "AMC eight challenge! Think it's one? Nope!",
+     "caption": "AMC 8 challenge! Think it's 1? Nope!",
+     "file": "2026-10-30-prime-square-remainder/short/audio/9652f18122a517db.wav",
      "from": 0,
-     "frames": 124
-    },
-    {
-     "text": "Divide by twelve, and the remainder is ALWAYS the same!",
-     "caption": "Divide by twelve, and the remainder is ALWAYS the same!",
-     "file": "2026-10-30-prime-square-remainder/short/audio/d1fb9919aa08a975.wav",
-     "from": 134,
-     "frames": 107
+     "frames": 89
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 265,
-   "frames": 244,
+   "from": 101,
+   "frames": 200,
    "lines": [
     {
-     "text": "Let p be a prime bigger than three. Divide p squared plus seventeen by twelve.",
-     "caption": "Let p be a prime bigger than three. Divide p squared plus seventeen by twelve.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/bd04aa02b3a24f02.wav",
+     "text": "p is a prime bigger than three. Divide p squared plus seventeen by twelve.",
+     "caption": "p is a prime bigger than 3. Divide p\u00b2 plus 17 by 12.",
+     "file": "2026-10-30-prime-square-remainder/short/audio/dd8e944ea577a9ac.wav",
      "from": 0,
-     "frames": 165
+     "frames": 143
     },
     {
      "text": "What's the remainder?",
      "caption": "What's the remainder?",
-     "file": "2026-10-30-prime-square-remainder/short/audio/9190e55c72f053d9.wav",
-     "from": 175,
-     "frames": 36
+     "file": "2026-10-30-prime-square-remainder/short/audio/a56c081a9a9be751.wav",
+     "from": 147,
+     "frames": 41
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 509,
-   "frames": 165,
+   "from": 301,
+   "frames": 73,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-prime-square-remainder/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-prime-square-remainder/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 52
+     "frames": 62
     }
    ]
   },
@@ -68,43 +61,43 @@
    "id": "dots",
    "kind": "scene",
    "chapter": null,
-   "from": 674,
-   "frames": 644,
+   "from": 374,
+   "frames": 499,
    "lines": [
     {
      "text": "Take seven. Seven squared is forty-nine dots.",
-     "caption": "Take seven. Seven squared is forty-nine dots.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/9fbf13c19ef849d2.wav",
+     "caption": "Take 7. 7\u00b2 is 49 dots.",
+     "file": "2026-10-30-prime-square-remainder/short/audio/fc56b7d27414fe23.wav",
      "from": 0,
-     "frames": 117
+     "frames": 94
     },
     {
      "text": "Remove a corner dot, and slide the bottom row to the side.",
      "caption": "Remove a corner dot, and slide the bottom row to the side.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/a818f3e61166171f.wav",
-     "from": 127,
-     "frames": 108
+     "file": "2026-10-30-prime-square-remainder/short/audio/447d75e6b2870faf.wav",
+     "from": 98,
+     "frames": 101
     },
     {
-     "text": "Now it's a rectangle: six by eight. The neighbors of seven!",
-     "caption": "Now it's a rectangle: six by eight. The neighbors of seven!",
-     "file": "2026-10-30-prime-square-remainder/short/audio/72e6c86fe1975925.wav",
-     "from": 246,
-     "frames": 132
+     "text": "Now it's six by eight. The neighbors of seven!",
+     "caption": "Now it's 6 by 8. The neighbors of 7!",
+     "file": "2026-10-30-prime-square-remainder/short/audio/2251374571d06664.wav",
+     "from": 204,
+     "frames": 82
     },
     {
      "text": "One neighbor is a multiple of six, and the other is even.",
-     "caption": "One neighbor is a multiple of six, and the other is even.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/19442eddf62b4f73.wav",
-     "from": 388,
-     "frames": 116
+     "caption": "One neighbor is a multiple of 6, and the other is even.",
+     "file": "2026-10-30-prime-square-remainder/short/audio/da13ade910fa9447.wav",
+     "from": 290,
+     "frames": 98
     },
     {
      "text": "So p squared is a multiple of twelve, plus one.",
-     "caption": "So p squared is a multiple of twelve, plus one.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/4a4906be0c780ac2.wav",
-     "from": 514,
-     "frames": 106
+     "caption": "So p\u00b2 is a multiple of 12, plus 1.",
+     "file": "2026-10-30-prime-square-remainder/short/audio/7452a78883a7c58a.wav",
+     "from": 391,
+     "frames": 96
     }
    ]
   },
@@ -112,45 +105,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1318,
-   "frames": 263,
+   "from": 873,
+   "frames": 279,
    "lines": [
     {
-     "text": "One plus seventeen is eighteen. The remainder is six!",
-     "caption": "One plus seventeen is eighteen. The remainder is six!",
-     "file": "2026-10-30-prime-square-remainder/short/audio/946dac2626e53f16.wav",
+     "text": "One plus seventeen is eighteen. That leaves six!",
+     "caption": "1 plus 17 is 18. That leaves 6!",
+     "file": "2026-10-30-prime-square-remainder/short/audio/433ada1338e8fbb3.wav",
      "from": 0,
-     "frames": 128
+     "frames": 94
     },
     {
-     "text": "Always six, for every prime bigger than three.",
-     "caption": "Always six, for every prime bigger than three.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/88eac175c53144dc.wav",
-     "from": 137,
-     "frames": 87
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1581,
-   "frames": 304,
-   "lines": [
-    {
-     "text": "Why a multiple of six? The full lesson shows two neat ways, plus every trap.",
-     "caption": "Why a multiple of six? The full lesson shows two neat ways, plus every trap.",
-     "file": "2026-10-30-prime-square-remainder/short/audio/c9b68add4ba9a778.wav",
-     "from": 0,
-     "frames": 168
+     "text": "One is the trap. It forgets the seventeen.",
+     "caption": "1 is the trap. It forgets the 17.",
+     "file": "2026-10-30-prime-square-remainder/short/audio/62df11fa33777189.wav",
+     "from": 98,
+     "frames": 82
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-prime-square-remainder/short/audio/82b8b7e1a12a7449.wav",
-     "from": 178,
-     "frames": 57
+     "text": "Did you get six? Tell me below!",
+     "caption": "Did you get 6? Tell me below!",
+     "file": "2026-10-30-prime-square-remainder/short/audio/5d1b75a0aabe2489.wav",
+     "from": 185,
+     "frames": 59
     }
    ]
   }

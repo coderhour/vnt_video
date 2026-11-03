@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1795,
+ "durationInFrames": 1115,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 252,
+   "frames": 102,
    "lines": [
     {
-     "text": "A little square rolls around a bigger one.",
-     "caption": "A little square rolls around a bigger one.",
-     "file": "2026-11-01-rolling-square/short/audio/743c74fdc162112e.wav",
+     "text": "AMC ten challenge! Think it's four pi? Nope!",
+     "caption": "AMC 10 challenge! Think it's 4\u03c0? Nope!",
+     "file": "2026-11-01-rolling-square/short/audio/d15197a523cddb3a.wav",
      "from": 0,
-     "frames": 81
-    },
-    {
-     "text": "How far does the marked corner travel? Watch for a sneaky corner move!",
-     "caption": "How far does the marked corner travel? Watch for a sneaky corner move!",
-     "file": "2026-11-01-rolling-square/short/audio/e17bb5830beea88d.wav",
-     "from": 91,
-     "frames": 137
+     "frames": 90
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 252,
-   "frames": 312,
+   "from": 102,
+   "frames": 229,
    "lines": [
     {
-     "text": "A small square of side one rolls clockwise around a fixed square of side two.",
-     "caption": "A small square of side one rolls clockwise around a fixed square of side two.",
-     "file": "2026-11-01-rolling-square/short/audio/cfc810dc47b55d5b.wav",
+     "text": "A square of side one rolls clockwise around a fixed square of side two.",
+     "caption": "A square of side 1 rolls clockwise around a fixed square of side 2.",
+     "file": "2026-11-01-rolling-square/short/audio/13d2c4b127a18c9e.wav",
      "from": 0,
-     "frames": 156
+     "frames": 119
     },
     {
-     "text": "How far does the marked corner travel before it first gets back home?",
-     "caption": "How far does the marked corner travel before it first gets back home?",
-     "file": "2026-11-01-rolling-square/short/audio/840c80d90a21fc6f.wav",
-     "from": 166,
-     "frames": 113
+     "text": "How long is the path of corner P, until it's first back home?",
+     "caption": "How long is the path of corner P, until it's first back home?",
+     "file": "2026-11-01-rolling-square/short/audio/c0a81c2d05425ba9.wav",
+     "from": 123,
+     "frames": 94
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 564,
-   "frames": 162,
+   "from": 331,
+   "frames": 79,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-11-01-rolling-square/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-01-rolling-square/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 48
+     "frames": 68
     }
    ]
   },
@@ -68,36 +61,36 @@
    "id": "roll",
    "kind": "scene",
    "chapter": null,
-   "from": 726,
-   "frames": 566,
+   "from": 410,
+   "frames": 401,
    "lines": [
     {
-     "text": "Follow one move at a time. Each move tips over a pivot corner.",
-     "caption": "Follow one move at a time. Each move tips over a pivot corner.",
-     "file": "2026-11-01-rolling-square/short/audio/0e680ae88de358a2.wav",
+     "text": "Along a side: a quarter turn, with radius one.",
+     "caption": "Along a side: a quarter turn, with radius 1.",
+     "file": "2026-11-01-rolling-square/short/audio/a78b704ec194878a.wav",
      "from": 0,
-     "frames": 131
+     "frames": 89
     },
     {
-     "text": "A quarter turn along a side makes a quarter circle of radius one.",
-     "caption": "A quarter turn along a side makes a quarter circle of radius one.",
-     "file": "2026-11-01-rolling-square/short/audio/d99198644034fbb7.wav",
-     "from": 141,
-     "frames": 132
+     "text": "At a corner: a HALF turn, with radius root two!",
+     "caption": "At a corner: a HALF turn, with radius \u221a2!",
+     "file": "2026-11-01-rolling-square/short/audio/080bf93aba400251.wav",
+     "from": 93,
+     "frames": 100
     },
     {
-     "text": "At the top right corner, it needs a half turn, with radius root two!",
-     "caption": "At the top right corner, it needs a half turn, with radius root two!",
-     "file": "2026-11-01-rolling-square/short/audio/8c951f423e46323d.wav",
-     "from": 284,
-     "frames": 124
+     "text": "Another quarter turn. Then P IS the pivot: zero!",
+     "caption": "Another quarter turn. Then P IS the pivot: 0!",
+     "file": "2026-11-01-rolling-square/short/audio/75a075b248e0066a.wav",
+     "from": 198,
+     "frames": 110
     },
     {
-     "text": "At the bottom right, the marked corner IS the pivot, so it adds nothing.",
-     "caption": "At the bottom right, the marked corner IS the pivot, so it adds nothing.",
-     "file": "2026-11-01-rolling-square/short/audio/b3ea6bcbf1875fd2.wav",
-     "from": 418,
-     "frames": 124
+     "text": "The other half repeats the same four moves.",
+     "caption": "The other half repeats the same 4 moves.",
+     "file": "2026-11-01-rolling-square/short/audio/9189af08367bcf3f.wav",
+     "from": 311,
+     "frames": 78
     }
    ]
   },
@@ -105,38 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1292,
-   "frames": 314,
+   "from": 811,
+   "frames": 304,
    "lines": [
     {
-     "text": "Add it all up. The answer is <short pause> Choice C!",
-     "caption": "Add it all up. The answer is Choice C!",
-     "file": "2026-11-01-rolling-square/short/audio/62d8d8298b6fb786.wav",
+     "text": "Add it all up: two plus two root two, all times pi!",
+     "caption": "Add it all up: 2 + 2\u221a2, all times \u03c0!",
+     "file": "2026-11-01-rolling-square/short/audio/e3740bfd5ed890a1.wav",
      "from": 0,
-     "frames": 119
+     "frames": 114
     },
     {
-     "text": "Two plus two root two, all times pi. Sneaky corners make it longer!",
-     "caption": "Two plus two root two, all times pi. Sneaky corners make it longer!",
-     "file": "2026-11-01-rolling-square/short/audio/3d48de88c248d8e2.wav",
-     "from": 129,
-     "frames": 147
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1606,
-   "frames": 189,
-   "lines": [
+     "text": "Four pi was the trap: the wrong radius!",
+     "caption": "4\u03c0 was the trap: the wrong radius!",
+     "file": "2026-11-01-rolling-square/short/audio/e28e0ea3d3fe866c.wav",
+     "from": 119,
+     "frames": 82
+    },
     {
-     "text": "The full lesson shows every trap. Tap the link below to watch it!",
-     "caption": "The full lesson shows every trap. Tap the link below to watch it!",
-     "file": "2026-11-01-rolling-square/short/audio/090dc1015b1e291c.wav",
-     "from": 0,
-     "frames": 120
+     "text": "Did you get Choice C? Tell me below!",
+     "caption": "Did you get Choice C? Tell me below!",
+     "file": "2026-11-01-rolling-square/short/audio/73c2b73848073a77.wav",
+     "from": 205,
+     "frames": 64
     }
    ]
   }

@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1669,
+ "durationInFrames": 1198,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 266,
+   "frames": 121,
    "lines": [
     {
-     "text": "Two points on a number line: zero and sixty-four.",
-     "caption": "Two points on a number line: zero and sixty-four.",
-     "file": "2026-10-30-midpoint-chase/short/audio/5e70c2e5023fd45d.wav",
+     "text": "AMC eight challenge! Think it's forty-two and a half? Nope!",
+     "caption": "AMC 8 challenge! Think it's 42\u00bd? Nope!",
+     "file": "2026-10-30-midpoint-chase/short/audio/10371108e84473b6.wav",
      "from": 0,
-     "frames": 99
-    },
-    {
-     "text": "Each new point is halfway between the last two. Where does the tenth land?",
-     "caption": "Each new point is halfway between the last two. Where does the tenth land?",
-     "file": "2026-10-30-midpoint-chase/short/audio/fafaaa0ff40bd33b.wav",
-     "from": 109,
-     "frames": 134
+     "frames": 110
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 266,
-   "frames": 278,
+   "from": 121,
+   "frames": 230,
    "lines": [
     {
-     "text": "The first point is zero, the second is sixty-four.",
-     "caption": "The first point is zero, the second is sixty-four.",
-     "file": "2026-10-30-midpoint-chase/short/audio/94c9ae17cf2867d9.wav",
+     "text": "P one is at zero. P two is at sixty-four.",
+     "caption": "P1 is at 0. P2 is at 64.",
+     "file": "2026-10-30-midpoint-chase/short/audio/7c7d99ad19d8aa0e.wav",
      "from": 0,
-     "frames": 104
+     "frames": 94
     },
     {
-     "text": "Each later point is the midpoint of the last two. Where is the tenth?",
-     "caption": "Each later point is the midpoint of the last two. Where is the tenth?",
-     "file": "2026-10-30-midpoint-chase/short/audio/a8ad4d29bd55a74a.wav",
-     "from": 114,
-     "frames": 131
+     "text": "Each new point is the midpoint of the two before it. Where is P ten?",
+     "caption": "Each new point is the midpoint of the two before it. Where is P10?",
+     "file": "2026-10-30-midpoint-chase/short/audio/f4093eb2c799130a.wav",
+     "from": 98,
+     "frames": 120
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 544,
-   "frames": 152,
+   "from": 351,
+   "frames": 72,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-midpoint-chase/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-midpoint-chase/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 39
+     "frames": 60
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "jumps",
    "kind": "scene",
    "chapter": null,
-   "from": 696,
-   "frames": 482,
+   "from": 423,
+   "frames": 447,
    "lines": [
     {
-     "text": "Here's the trick. Watch the jumps: sixty-four right, thirty-two left, sixteen right.",
-     "caption": "Here's the trick. Watch the jumps: sixty-four right, thirty-two left, sixteen right.",
-     "file": "2026-10-30-midpoint-chase/short/audio/1199a1141fd11981.wav",
+     "text": "Watch the jumps: sixty-four right, thirty-two left, sixteen right.",
+     "caption": "Watch the jumps: 64 right, 32 left, 16 right.",
+     "file": "2026-10-30-midpoint-chase/short/audio/ca292398c68e31fe.wav",
      "from": 0,
-     "frames": 146
+     "frames": 108
     },
     {
      "text": "Each jump is half the last one, and it flips direction!",
      "caption": "Each jump is half the last one, and it flips direction!",
-     "file": "2026-10-30-midpoint-chase/short/audio/159cf45982dc4598.wav",
-     "from": 156,
-     "frames": 106
+     "file": "2026-10-30-midpoint-chase/short/audio/ce1d749e48314c7d.wav",
+     "from": 113,
+     "frames": 100
     },
     {
-     "text": "Then eight left, four right, two left, one right, a half left, a quarter right.",
-     "caption": "Then eight left, four right, two left, one right, a half left, a quarter right.",
-     "file": "2026-10-30-midpoint-chase/short/audio/465ce8715f58fecb.wav",
-     "from": 272,
-     "frames": 186
+     "text": "Then eight left, four right, two left, one right.",
+     "caption": "Then 8 left, 4 right, 2 left, 1 right.",
+     "file": "2026-10-30-midpoint-chase/short/audio/f63f6fb00f774c2c.wav",
+     "from": 217,
+     "frames": 101
+    },
+    {
+     "text": "Half of that, back left, puts P nine at forty-two and a half.",
+     "caption": "Half of that, back left, puts P9 at 42\u00bd.",
+     "file": "2026-10-30-midpoint-chase/short/audio/d976ffcb584e85b5.wav",
+     "from": 322,
+     "frames": 113
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1178,
-   "frames": 238,
+   "from": 870,
+   "frames": 328,
    "lines": [
     {
-     "text": "Closer and closer, the tenth point lands at forty-two and three quarters!",
-     "caption": "Closer and closer, the tenth point lands at forty-two and three quarters!",
-     "file": "2026-10-30-midpoint-chase/short/audio/4d19fa845c5defc1.wav",
+     "text": "Last, one quarter to the right. P ten is forty-two and three quarters!",
+     "caption": "Last, \u00bc to the right. P10 is 42\u00be!",
+     "file": "2026-10-30-midpoint-chase/short/audio/e67a7473b26116cd.wav",
      "from": 0,
-     "frames": 146
+     "frames": 131
     },
     {
-     "text": "That's Choice C.",
-     "caption": "That's Choice C.",
-     "file": "2026-10-30-midpoint-chase/short/audio/1421a23b18fdc9f6.wav",
-     "from": 155,
-     "frames": 50
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1416,
-   "frames": 253,
-   "lines": [
-    {
-     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-midpoint-chase/short/audio/5a466bf8b2983070.wav",
-     "from": 0,
-     "frames": 148
+     "text": "Forty-two and a half was the trap.",
+     "caption": "42\u00bd was the trap.",
+     "file": "2026-10-30-midpoint-chase/short/audio/3be11022a0543e5e.wav",
+     "from": 135,
+     "frames": 66
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-midpoint-chase/short/audio/82b8b7e1a12a7449.wav",
-     "from": 158,
-     "frames": 57
+     "text": "Did you get forty-two and three quarters? Tell me below!",
+     "caption": "Did you get 42\u00be? Tell me below!",
+     "file": "2026-10-30-midpoint-chase/short/audio/5d1e5e897d38ec23.wav",
+     "from": 206,
+     "frames": 87
     }
    ]
   }

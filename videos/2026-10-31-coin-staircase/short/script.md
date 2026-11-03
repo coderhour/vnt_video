@@ -1,27 +1,21 @@
 # Will She Land on Step 5? (short)
 
-Pia flips a coin before each move. Heads, one step. Tails, two.
+AMC eight challenge! Think it's one half? Nope!
 
-Will she land on step five?
-
-Heads, she goes up one step. Tails, up two.
+Before each move, Pia flips a fair coin. Heads, up one step. Tails, up two.
 
 What's the chance she stands on step five?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Climb the ladder! She comes from one below with heads, or two below with tails.
 
-Work up the stairs! She comes from one step below with heads, or two below with tails.
+Each way is one over two, so a step's chance is their average.
 
-Each move is a coin flip, so average those two chances.
+The ground is one. Then one over two, three over four, five over eight, eleven over sixteen.
 
-The ground is one. Then one half, three fourths, five eighths, eleven sixteenths.
+Average eleven over sixteen and five over eight. That's twenty-one over thirty-two!
 
-Average eleven sixteenths and five eighths. That's twenty-one thirty-seconds!
+The trap was one half.
 
-She lands on it more than half the time!
-
-Why is it not one half? The full lesson lists every way, plus every trap.
-
-Tap the link below to watch it!
+Did you get twenty-one over thirty-two? Tell me below!

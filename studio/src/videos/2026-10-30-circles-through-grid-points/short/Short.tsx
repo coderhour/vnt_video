@@ -1,66 +1,78 @@
-import { Audio, Sequence, staticFile, useCurrentFrame } from 'remotion';
-import { ease, fadeUp, pop } from '../../../lib/anim';
+import { Audio, Sequence, useCurrentFrame } from 'remotion';
+import { ease, fadeTo, fadeUp, pop } from '../../../lib/anim';
 import { at, type SceneComponent, type Timeline } from '../../../lib/Explainer';
-import { Countdown } from '../../../lib/PauseCard';
 import { Poly, Stage, type Pt } from '../../../lib/grid';
-import { FullLessonCard, ShortFrame } from '../../../lib/Short';
+import { CommentBubble, CtaPill, MUSIC, PushIn, SFX, Sfx, ShortFrame, choicePulse } from '../../../lib/Short';
+import { Tex } from '../../../lib/Tex';
 import { Confetti, Text } from '../../../lib/ui';
 import { C } from '../../../lib/theme';
-import { CHIME, CHOICES, Circ, Dots, FOUR, Rings, SHAPE_COLOR, SLUG, SMALL, TICK, grid } from '../Composition';
+import { NUNITO } from '../../../lib/fonts';
+import { CHIME, CHOICES, Circ, Dots, FOUR, Rings, SHAPE_COLOR, SLUG, SMALL, grid } from '../Composition';
 
 export { SLUG };
 
-const G = grid(540, 740, 150);
+// New recipe: trap-first hook (76 = every group of three as its own circle), question, comment bait, the
+// "same circle, counted four times" aha with a zoom, the 14 four-point circles, then the answer over the same
+// grid the hook opens on (clean loop).
 
-const Title: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <Text x={540} y={300} w={980} size={72} weight={900} align="center">
-    {children}
-  </Text>
+/** The big grid: hook, aha and reveal use it at the same place. */
+const G = grid(490, 815, 250);
+const FLOWER = [0, 1, 2, 3, 5]; // the four small squares' circles + the tilted square's circle
+const before = () => -100;
+
+const Flower: React.FC<{ opacity?: number }> = ({ opacity = 1 }) => (
+  <>
+    {FLOWER.map((k) => (
+      <Circ key={k} g={G} pts={FOUR[k]} color={k === 5 ? C.blue : C.primary} width={8} opacity={opacity} />
+    ))}
+  </>
 );
 
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const show = [0, 6, 10, 11, 12, 13];
-  const nope = at(scene, 1, 0.55);
+  const nope = at(scene, 0, 0.84);
   return (
     <>
-      <Title>
-        How many <span style={{ color: C.violet }}>circles</span>?
-      </Title>
-      <Stage>
-        {show.map((k, i) => (
-          <Circ key={i} g={G} pts={FOUR[k]} color={SHAPE_COLOR(k)} width={7} progress={ease(f, 24 + i * 14, 20)} />
-        ))}
-        <Dots g={G} r={14} />
-      </Stage>
-      <Text x={540} y={1110} w={900} size={120} weight={900} color={C.muted} align="center" style={{ ...fadeUp(f, at(scene, 1, 0.3)), textDecoration: f > nope ? 'line-through' : 'none' }}>
-        76?
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10 · Challenge #2</div>
+      </div>
+      <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
+        Think it's <span style={{ color: C.red }}>76</span>?
       </Text>
-      <Text x={540} y={1250} w={900} size={60} weight={900} color={C.violet} align="center" style={fadeUp(f, nope)}>
-        Much smaller!
-      </Text>
+      <PushIn frames={scene.frames} origin="490px 815px">
+        <Stage>
+          <Flower />
+          <Dots g={G} r={18} />
+        </Stage>
+      </PushIn>
+      <Sfx at={nope} src={SFX.buzz} volume={0.35} />
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 740, display: 'flex', justifyContent: 'center', opacity: ease(f, nope, 4) }}>
+        <div style={{ transform: `rotate(-8deg) scale(${pop(f, nope)})`, border: `14px solid ${C.red}`, color: C.red, background: 'rgba(255,255,255,0.92)', borderRadius: 28, padding: '6px 54px', fontSize: 150, fontWeight: 900, letterSpacing: 6 }}>
+          NOPE
+        </div>
+      </div>
     </>
   );
 };
 
-const QG = grid(540, 800, 120);
+const QG = grid(490, 870, 160);
 
-const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => {
+const QuestionBody: React.FC<{ start: (i: number) => number; pulse?: (i: number) => number }> = ({ start, pulse = () => 1 }) => {
   const f = useCurrentFrame();
   return (
     <>
-      <div style={{ position: 'absolute', left: 60, top: 300, width: 860, background: C.card, borderRadius: 32, padding: '28px 40px', fontSize: 50, fontWeight: 700, lineHeight: 1.4, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
-        <b style={{ color: C.primary }}>9 dots</b>. How many <b style={{ color: C.violet }}>different circles</b> pass through at least <b>3</b> of them?
+      <div style={{ position: 'absolute', left: 50, top: 290, width: 980, boxSizing: 'border-box', background: C.card, borderRadius: 32, padding: '26px 40px', fontSize: 54, fontWeight: 800, lineHeight: 1.35, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
+        <b style={{ color: C.primary }}>9 dots</b>. How many <b style={{ color: C.violet }}>different circles</b> pass through at least <b>3</b> of them? A circle through 4 dots counts once.
       </div>
       <Stage>
-        <Dots g={QG} r={13} />
-        <Circ g={QG} pts={FOUR[12]} color={C.violet} progress={ease(f, 40, 24)} />
+        <Circ g={QG} pts={FOUR[5]} color={C.violet} width={7} />
+        <Dots g={QG} r={15} />
       </Stage>
-      <div style={{ position: 'absolute', left: 60, top: 1130, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 16 }}>
+      <div style={{ position: 'absolute', left: 60, top: 1090, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
         {CHOICES.map((c, i) => (
-          <div key={c} style={{ ...fadeUp(f, start(i), 10), background: C.card, borderRadius: 18, padding: '6px 22px', boxShadow: '0 4px 14px rgba(30,40,80,0.07)', display: 'flex', alignItems: 'center', gap: 10, fontSize: 50, fontWeight: 800 }}>
-            <span style={{ color: C.muted, fontSize: 32 }}>{'ABCDE'[i]}</span>
-            {c}
+          <div key={c} style={{ ...fadeUp(f, start(i), 8), background: C.card, borderRadius: 22, padding: '10px 14px', boxShadow: '0 4px 14px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', gap: 8, scale: String(pulse(i)) }}>
+            <span style={{ color: C.muted, fontSize: 44, fontWeight: 900 }}>{'ABCDE'[i]}</span>
+            <Tex tex={c} size={68} />
           </div>
         ))}
       </div>
@@ -68,96 +80,175 @@ const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => 
   );
 };
 
-const Question: SceneComponent = ({ scene }) => <QuestionBody start={(i) => at(scene, 1, 0.05 + i * 0.12)} />;
-
-const Think: SceneComponent = ({ scene }) => (
+const Question: SceneComponent = ({ scene }) => (
   <>
-    <div style={{ opacity: 0.35 }}>
-      <QuestionBody start={() => -100} />
-    </div>
-    <div style={{ position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, background: 'rgba(246,247,251,0.6)' }} />
-    <Countdown scene={scene} seconds={3} x={540} y={900} tick={TICK} />
+    <QuestionBody start={(i) => at(scene, 0, 0.75 + i * 0.05)} />
+    <Sfx at={0} src={SFX.whoosh} volume={0.3} />
   </>
 );
 
-const SQ = SMALL[3]; // corners (1,1) (2,1) (2,2) (1,2)
-const MG = (i: number) => grid(540 + ((i % 7) - 3) * 112, i < 7 ? 1020 : 1130, 32);
+const Think: SceneComponent = () => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      <QuestionBody start={before} pulse={(i) => choicePulse(f, i)} />
+      <CommentBubble y={700} />
+    </>
+  );
+};
+
+const Chip: React.FC<{ color: string; opacity: number; scale?: number; y?: number; children: React.ReactNode }> = ({ color, opacity, scale = 1, y = 1160, children }) =>
+  opacity <= 0 ? null : (
+    <div style={{ position: 'absolute', left: 60, width: 860, top: y, display: 'flex', justifyContent: 'center', opacity }}>
+      <div style={{ transform: `scale(${scale})`, background: color, color: '#fff', borderRadius: 24, padding: '8px 40px', fontSize: 64, fontWeight: 900, whiteSpace: 'nowrap' }}>{children}</div>
+    </div>
+  );
+
+/** A few groups of three (none on one line) flashed while the count runs up to 76. */
+const FLASH: Pt[][] = [
+  [[0, 0], [1, 2], [2, 1]],
+  [[0, 2], [1, 0], [2, 2]],
+  [[0, 1], [2, 0], [1, 2]],
+  [[0, 0], [2, 1], [0, 2]],
+  [[1, 1], [2, 0], [2, 2]],
+  [[0, 0], [1, 1], [2, 0]],
+];
+
+/** Mini grids for the 14 four-point circles (FOUR order: 4 small, big, tilted, 4 rectangles, 4 trapezoids),
+ * placed so the wide trapezoid circles never sit side by side. [column, row] */
+const SLOT: [number, number][] = [[0, 0], [1, 0], [2, 0], [3, 0], [0, 1], [1, 1], [2, 1], [3, 1], [0, 2], [2, 2], [1, 2], [3, 2], [0, 3], [3, 3]];
+const TILE = (i: number) => grid(167.5 + 215 * SLOT[i][0], 530 + 212 * SLOT[i][1], 60);
+
+const SQ = SMALL[3]; // corners (1,1) (2,1) (2,2) (1,2): the top-right small square
 
 const Repeat: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const cyc = [at(scene, 1, 0.12), at(scene, 1, 0.9)] as const;
-  const per = (cyc[1] - cyc[0]) / 4;
-  const k = Math.min(3, Math.max(0, Math.floor((f - cyc[0]) / per)));
-  const trip: Pt[] = SQ.filter((_, j) => j !== k);
-  const cycling = f >= cyc[0] && f < at(scene, 2);
-  const count = f < cyc[0] ? 0 : Math.min(4, k + 1);
-  const tiles = at(scene, 2, 0.4);
-  const title = f < at(scene, 1) ? <>76 groups of 3</> : f < at(scene, 2) ? <>Same circle!</> : f < at(scene, 3) ? <>14 circles, <span style={{ color: C.red }}>×4</span> each</> : <>Remove <span style={{ color: C.red }}>3</span> copies each</>;
-  const small = f >= at(scene, 2, 0.35);
+  const c0 = 8;
+  const c1 = at(scene, 0, 0.42);
+  const said76 = at(scene, 0, 0.14);
+  const flashI = Math.min(FLASH.length - 1, Math.floor((f - c0) / ((c1 - c0) / FLASH.length)));
+  const flashing = f >= c0 && f < c1 + 6;
+  const sq = at(scene, 0, 0.66);
+  // leave out each corner in turn
+  const cyc0 = at(scene, 1, 0.12);
+  const cyc1 = at(scene, 1, 0.92);
+  const per = (cyc1 - cyc0) / 4;
+  const k = Math.min(3, Math.max(0, Math.floor((f - cyc0) / per)));
+  const cycling = f >= cyc0 && f < at(scene, 2, 0.1);
+  const count = f < cyc0 ? 0 : Math.min(4, k + 1);
+  const trip = SQ.filter((_, j) => j !== k);
+  const zIn = at(scene, 1, 0.0);
+  const zOut = at(scene, 2, 0.05);
+  const zoom = 1 + 0.38 * (ease(f, zIn, 12) - ease(f, zOut, 12));
+  const sqC = G.at([1.5, 1.5]);
+  // the 14 four-point circles
+  const t0 = at(scene, 2, 0.42);
+  const tileAt = (i: number) => t0 + i * 4;
+  const big = fadeTo(f, t0 - 6, 0, 10);
+  const nTiles = Array.from({ length: 14 }, (_, i) => i).filter((i) => f >= tileAt(i)).length;
+  const m0 = at(scene, 3, 0.15);
+  const minusAt = (i: number) => m0 + i * 3;
   return (
     <>
-      <Title>{title}</Title>
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      {FLASH.map((_, i) => (i % 2 === 0 ? <Sfx key={i} at={c0 + (i * (c1 - c0)) / FLASH.length} src={SFX.click} volume={0.22} /> : null))}
+      <Sfx at={sq} src={SFX.click} volume={0.28} />
+      <Sfx at={zIn} src={SFX.whoosh} volume={0.25} />
+      {[0, 1, 2, 3].map((i) => <Sfx key={`c${i}`} at={cyc0 + i * per} src={SFX.click} volume={0.3} />)}
+      <Sfx at={zOut} src={SFX.whoosh} volume={0.22} />
+      {Array.from({ length: 14 }, (_, i) => (i % 2 === 0 ? <Sfx key={`t${i}`} at={tileAt(i)} src={SFX.click} volume={0.22} /> : null))}
+      {Array.from({ length: 14 }, (_, i) => (i % 3 === 0 ? <Sfx key={`m${i}`} at={minusAt(i)} src={SFX.click} volume={0.25} /> : null))}
+      <div style={{ position: 'absolute', inset: 0, transform: `scale(${zoom})`, transformOrigin: `${sqC[0]}px ${sqC[1]}px`, opacity: big }}>
+        <Stage>
+          {flashing && <Poly pts={FLASH[Math.max(0, flashI)].map(G.at)} color={C.amber} width={7} fill={C.amber} fillOpacity={0.12} />}
+          <Poly pts={SQ.map(G.at)} color={C.primary} width={7} fill={C.primary} fillOpacity={0.1} progress={ease(f, sq, 12)} />
+          <Circ g={G} pts={SQ} color={C.violet} width={9} progress={ease(f, sq + 6, 22)} />
+          {cycling && <Poly pts={trip.map(G.at)} color={C.amber} width={7} dashed />}
+          {cycling && <Rings g={G} pts={trip} color={C.amber} opacity={1} r={30} />}
+          {cycling && (() => {
+            const [x, y] = G.at(SQ[k]);
+            return <circle cx={x} cy={y} r={30} fill="none" stroke={C.muted} strokeWidth={6} strokeDasharray="8 8" />;
+          })()}
+          <Dots g={G} r={18} />
+        </Stage>
+      </div>
       <Stage>
-        <g opacity={small ? 0.5 : 1}>
-          <Poly pts={SQ.map(G.at)} color={C.primary} width={6} fill={C.primary} fillOpacity={0.1} progress={ease(f, at(scene, 0, 0.5), 14)} />
-          <Circ g={G} pts={SQ} color={C.violet} progress={ease(f, at(scene, 0, 0.6), 22)} width={8} />
-          {cycling && <Poly pts={trip.map(G.at)} color={C.amber} width={6} dashed />}
-          {cycling && <Rings g={G} pts={trip} color={C.amber} opacity={1} r={22} />}
-          <Dots g={G} r={14} />
-        </g>
-        {FOUR.map((s, i) => {
-          const p = ease(f, tiles + i * 4, 10);
+        {Array.from({ length: 14 }, (_, i) => {
+          const p = ease(f, tileAt(i), 6);
+          if (p <= 0) return null;
+          const tg = TILE(i);
+          const [cx, cy] = tg.at([1, 1]);
           return (
-            <g key={i} opacity={p}>
-              <Circ g={MG(i)} pts={s} color={SHAPE_COLOR(i)} width={4} />
-              <Dots g={MG(i)} r={4.5} />
+            <g key={i} opacity={p} transform={`translate(${cx} ${cy}) scale(${0.6 + 0.4 * pop(f, tileAt(i))}) translate(${-cx} ${-cy})`}>
+              <g opacity={1 - 0.6 * ease(f, minusAt(i), 5)}>
+                <Circ g={tg} pts={FOUR[i]} color={SHAPE_COLOR(i)} width={6} />
+                <Dots g={tg} r={8} />
+              </g>
+              {f >= minusAt(i) && (
+                <text x={cx} y={cy + 4} fill={C.red} fontFamily={NUNITO} fontWeight={900} fontSize={64 * pop(f, minusAt(i))} textAnchor="middle" dominantBaseline="middle" paintOrder="stroke" stroke={C.bg} strokeWidth={10}>
+                  −3
+                </text>
+              )}
             </g>
           );
         })}
       </Stage>
-      {count > 0 && f < at(scene, 2, 0.35) && (
-        <div style={{ position: 'absolute', left: 740, top: 560, fontSize: 80, fontWeight: 900, color: C.red }}>×{count}</div>
-      )}
-      <Text x={540} y={1230} w={900} size={64} weight={900} color={C.ink} align="center" style={fadeUp(f, at(scene, 3, 0.35))}>
+      <div style={{ position: 'absolute', left: 0, top: 280, width: 1080, height: 140, background: C.bg, opacity: Math.min(1, (zoom - 1) / 0.1) }} />
+      <Text x={540} y={300} w={1000} size={84} weight={900} align="center" style={{ opacity: fadeTo(f, at(scene, 1) - 4, 0, 6) }}>
+        Groups of <span style={{ color: C.amber }}>3</span>
+      </Text>
+      <Text x={540} y={300} w={1000} size={84} weight={900} align="center" style={{ opacity: ease(f, at(scene, 1), 8) * fadeTo(f, t0 - 6, 0, 6) }}>
+        The <span style={{ color: C.violet }}>SAME</span> circle!
+      </Text>
+      <Text x={540} y={300} w={1000} size={84} weight={900} align="center" style={{ opacity: ease(f, t0 - 4, 6) * fadeTo(f, at(scene, 3) - 4, 0, 6) }}>
+        4-point circles: <span style={{ color: C.violet }}>{Math.max(1, nTiles)}</span>
+      </Text>
+      <Text x={540} y={300} w={1000} size={84} weight={900} align="center" style={{ opacity: ease(f, at(scene, 3), 8) }}>
         14 × 3 = <span style={{ color: C.red }}>42</span> extra
       </Text>
+      <Chip color={C.amber} opacity={ease(f, said76, 6) * fadeTo(f, at(scene, 1) - 4, 0, 6)} scale={pop(f, said76)}>
+        76 groups
+      </Chip>
+      <Chip color={count === 4 ? C.red : C.violet} opacity={ease(f, cyc0, 6) * fadeTo(f, at(scene, 2, 0.3), 0, 6)} scale={pop(f, cyc0 + k * per)}>
+        same circle ×{Math.max(1, count)}
+      </Chip>
     </>
   );
 };
 
+/** The answer, the trap, then the CTA pill, over the same grid the hook opens on. */
 const Reveal: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const hit = at(scene, 0, 0.8);
+  const hit = at(scene, 0, 0.82);
   const chime = at(scene, 0, 1);
+  const trap = at(scene, 1);
   return (
     <>
       <div style={{ position: 'absolute', left: 0, width: 1080, top: 290, display: 'flex', justifyContent: 'center' }}>
-        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '14px 44px', fontSize: 80, fontWeight: 900, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
-          76 − 42 = 34
+        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '14px 48px', display: 'flex', alignItems: 'center', gap: 24, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
+          <Tex tex={'76 - 42 = 34'} size={96} color="#fff" />
         </div>
       </div>
       <Stage>
-        {FOUR.map((s, i) => (
-          <Circ key={i} g={G} pts={s} color={SHAPE_COLOR(i)} width={4} opacity={0.45 * ease(f, hit + i * 2, 10)} />
-        ))}
-        <Dots g={G} r={14} />
+        <Flower />
+        <Dots g={G} r={18} />
       </Stage>
-      <Text x={540} y={1130} w={900} size={72} weight={900} color={C.green} align="center" style={fadeUp(f, at(scene, 1, 0.1))}>
-        34 circles
+      <Text x={540} y={1128} w={900} size={60} weight={900} color={C.red} align="center" style={fadeUp(f, trap)}>
+        76 counts repeats ✗
       </Text>
+      <CtaPill start={at(scene, 2)} y={1220} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={hit - 31} src={SFX.riser} volume={0.3} />
+      <Sfx at={trap} src={SFX.buzz} volume={0.2} />
       <Sequence from={chime} durationInFrames={60} layout="none">
         <Audio src={CHIME} volume={0.3} />
       </Sequence>
-      <Confetti x={540} y={400} start={chime} seed={5} />
+      <Confetti x={540} y={380} start={chime} seed={5} />
     </>
   );
 };
 
-const Cta: SceneComponent = ({ scene }) => (
-  <FullLessonCard scene={scene} poster={staticFile(`${SLUG}/short/full.jpg`)} length="6:58" bullets={['Two ways to count the circles', 'Every trap explained', 'An eight-point puzzle to try']} />
-);
-
-const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, repeat: Repeat, reveal: Reveal, cta: Cta };
+const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, repeat: Repeat, reveal: Reveal };
 
 export const Short: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
-  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" /> : null;
+  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" captions="words" music={MUSIC} /> : null;

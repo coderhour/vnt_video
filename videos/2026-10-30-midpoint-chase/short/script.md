@@ -1,27 +1,23 @@
 # Midpoint Chase (short)
 
-Two points on a number line: zero and sixty-four.
+AMC eight challenge! Think it's forty-two and a half? Nope!
 
-Each new point is halfway between the last two. Where does the tenth land?
+P one is at zero. P two is at sixty-four.
 
-The first point is zero, the second is sixty-four.
+Each new point is the midpoint of the two before it. Where is P ten?
 
-Each later point is the midpoint of the last two. Where is the tenth?
+Comment your letter, then watch!
 
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
-
-Here's the trick. Watch the jumps: sixty-four right, thirty-two left, sixteen right.
+Watch the jumps: sixty-four right, thirty-two left, sixteen right.
 
 Each jump is half the last one, and it flips direction!
 
-Then eight left, four right, two left, one right, a half left, a quarter right.
+Then eight left, four right, two left, one right.
 
-Closer and closer, the tenth point lands at forty-two and three quarters!
+Half of that, back left, puts P nine at forty-two and a half.
 
-That's Choice C.
+Last, one quarter to the right. P ten is forty-two and three quarters!
 
-Want to see why? The full lesson shows two ways, plus every trap.
+Forty-two and a half was the trap.
 
-Tap the link below to watch it!
+Did you get forty-two and three quarters? Tell me below!

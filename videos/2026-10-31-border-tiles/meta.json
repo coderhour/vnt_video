@@ -7,6 +7,13 @@
  "short": {
   "title": "40 Blue Tiles, 80 White: How Long Is the Floor? #Shorts",
   "description": "Forty blue edge tiles and eighty white inside. The edge count gives length plus width, and the total gives length times width.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 15,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

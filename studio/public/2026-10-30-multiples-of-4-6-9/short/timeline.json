@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1739,
+ "durationInFrames": 1189,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 260,
+   "frames": 130,
    "lines": [
     {
-     "text": "How many numbers from one to one thousand are multiples of four, six or nine?",
-     "caption": "How many numbers from one to one thousand are multiples of four, six or nine?",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/41320aad472d8322.wav",
+     "text": "AMC eight challenge! Think it's five hundred twenty-seven? Nope!",
+     "caption": "AMC 8 challenge! Think it's 527? Nope!",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/12e57a01725ec3f6.wav",
      "from": 0,
-     "frames": 153
-    },
-    {
-     "text": "Just adding them all up is a trap!",
-     "caption": "Just adding them all up is a trap!",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/3874915cbc5488d3.wav",
-     "from": 163,
-     "frames": 74
+     "frames": 118
     }
    ]
   },
@@ -29,68 +22,68 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 260,
-   "frames": 262,
+   "from": 130,
+   "frames": 136,
    "lines": [
     {
-     "text": "How many whole numbers from one to one thousand",
-     "caption": "How many whole numbers from one to one thousand",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/af9139e1a827ec48.wav",
+     "text": "How many whole numbers from one to one thousand are multiples of four, six or nine?",
+     "caption": "How many whole numbers from 1 to 1000 are multiples of 4, 6 or 9?",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/fefa603946aca9ec.wav",
      "from": 0,
-     "frames": 108
-    },
-    {
-     "text": "are multiples of at least one of four, six and nine?",
-     "caption": "are multiples of at least one of four, six and nine?",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/d08c99b54fd986ea.wav",
-     "from": 119,
-     "frames": 111
+     "frames": 125
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 522,
-   "frames": 152,
+   "from": 266,
+   "frames": 76,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 39
+     "frames": 64
     }
    ]
   },
   {
-   "id": "aha",
+   "id": "overlap",
    "kind": "scene",
    "chapter": null,
-   "from": 674,
-   "frames": 414,
+   "from": 342,
+   "frames": 554,
    "lines": [
     {
-     "text": "Look at twelve. It's a multiple of four AND six.",
-     "caption": "Look at twelve. It's a multiple of four AND six.",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/4affa39c8371468c.wav",
+     "text": "Count each: two hundred fifty, one hundred sixty-six, and one hundred eleven.",
+     "caption": "Count each: 250, 166, and 111.",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/6578b25403e49892.wav",
      "from": 0,
-     "frames": 110
+     "frames": 126
     },
     {
-     "text": "So it gets counted twice! Twenty-four and thirty-six sneak in twice too.",
-     "caption": "So it gets counted twice! Twenty-four and thirty-six sneak in twice too.",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/6725246165ae7ca6.wav",
-     "from": 120,
-     "frames": 129
+     "text": "But twelve is in two circles. Adding counts it twice!",
+     "caption": "But 12 is in two circles. Adding counts it twice!",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/bf98a2905c9e5619.wav",
+     "from": 130,
+     "frames": 104
     },
     {
-     "text": "Fix it. Take away the overlaps, then add back the numbers in all three.",
-     "caption": "Fix it. Take away the overlaps, then add back the numbers in all three.",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/ffea04e9f9897ea8.wav",
-     "from": 259,
-     "frames": 131
+     "text": "So take away the multiples of twelve, eighteen and thirty-six: one hundred sixty-five.",
+     "caption": "So take away the multiples of 12, 18 and 36: 165.",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/395ae88fe3584ab9.wav",
+     "from": 238,
+     "frames": 152
+    },
+    {
+     "text": "Now thirty-six, in all three, isn't counted at all. Add back those twenty-seven!",
+     "caption": "Now 36, in all three, isn't counted at all. Add back those 27!",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/ed68c463016c5bf3.wav",
+     "from": 394,
+     "frames": 148
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1088,
-   "frames": 348,
+   "from": 896,
+   "frames": 293,
    "lines": [
     {
-     "text": "Five hundred twenty-seven, minus one hundred sixty-five, plus twenty-seven.",
-     "caption": "Five hundred twenty-seven, minus one hundred sixty-five, plus twenty-seven.",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/6488dbe12caeb004.wav",
+     "text": "Altogether, that's three hundred eighty-nine numbers!",
+     "caption": "Altogether, that's 389 numbers!",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/2aa828464c5039f8.wav",
      "from": 0,
-     "frames": 152
+     "frames": 98
     },
     {
-     "text": "That's three hundred eighty-nine, choice C! Most kids stop at five hundred twenty-seven.",
-     "caption": "That's three hundred eighty-nine, choice C! Most kids stop at five hundred twenty-seven.",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/e5c82b30bf92a0b0.wav",
-     "from": 162,
-     "frames": 148
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1436,
-   "frames": 303,
-   "lines": [
-    {
-     "text": "Why twelve, and not twenty-four? The full lesson shows two methods, plus every trap.",
-     "caption": "Why twelve, and not twenty-four? The full lesson shows two methods, plus every trap.",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/d0661c2a15efd93e.wav",
-     "from": 0,
-     "frames": 172
+     "text": "The trap was five hundred twenty-seven.",
+     "caption": "The trap was 527.",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/2816366cbd6b9471.wav",
+     "from": 101,
+     "frames": 70
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-multiples-of-4-6-9/short/audio/82b8b7e1a12a7449.wav",
-     "from": 182,
-     "frames": 52
+     "text": "Did you get three hundred eighty-nine? Tell me below!",
+     "caption": "Did you get 389? Tell me below!",
+     "file": "2026-10-30-multiples-of-4-6-9/short/audio/f74771f2ae3a16c6.wav",
+     "from": 175,
+     "frames": 82
     }
    ]
   }

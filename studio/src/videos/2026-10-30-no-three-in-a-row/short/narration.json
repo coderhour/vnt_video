@@ -1,29 +1,52 @@
 {
  "title": "No Three in a Row (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
-  {"id": "hook", "lines": [
-   "Flip a coin eight times. Will the same side come up three times in a row?",
-   "It happens almost three times out of four!"
-  ]},
-  {"id": "question", "lines": [
-   "A fair coin is flipped eight times.",
-   "What is the chance the same side never comes up three times in a row?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "table", "lines": [
-   "Count the good strings, one flip at a time. One flip has two. Two flips have four.",
-   "Here's the pattern. Each count is the sum of the two before it!",
-   "Six, ten, sixteen, twenty-six, forty-two, sixty-eight!"
-  ]},
-  {"id": "reveal", "lines": [
-   "Sixty-eight good strings, out of two hundred fifty-six. That's seventeen over sixty-four, choice D!",
-   "Only about twenty-seven percent. So three in a row is really common!"
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Why does it work? The full lesson shows two methods, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
- ]
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's seventeen over one hundred twenty-eight? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A fair coin is flipped eight times.",
+    "What's the chance the same side never comes up three times in a row?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "table",
+   "lines": [
+    "Count the good strings, flip by flip. One flip has two. Two flips have four.",
+    "A good string ends in a single or a double. So four plus two is six!",
+    "Keep adding: ten, sixteen, twenty-six, forty-two, sixty-eight!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Sixty-eight out of two hundred fifty-six. That's seventeen over sixty-four!",
+    "Seventeen over one hundred twenty-eight was the trap.",
+    "Did you get seventeen over sixty-four? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's seventeen over one hundred twenty-eight? Nope!": "AMC 8 challenge! Think it's 17/128? Nope!",
+  "Sixty-eight out of two hundred fifty-six. That's seventeen over sixty-four!": "68 out of 256. That's 17/64!",
+  "Seventeen over one hundred twenty-eight was the trap.": "17/128 was the trap.",
+  "Did you get seventeen over sixty-four? Tell me below!": "Did you get 17/64? Tell me below!"
+ }
 }

@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1706,
+ "durationInFrames": 1152,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 205,
+   "frames": 118,
    "lines": [
     {
-     "text": "Pour juice into water, stir, then pour some back.",
-     "caption": "Pour juice into water, stir, then pour some back.",
-     "file": "2026-10-31-juice-jugs/short/audio/3a96e86631f95eee.wav",
+     "text": "AMC eight challenge! Think it's sixty percent? Nope!",
+     "caption": "AMC 8 challenge! Think it's 60%? Nope!",
+     "file": "2026-10-31-juice-jugs/short/audio/25b5ff3c7ce35b3d.wav",
      "from": 0,
-     "frames": 101
-    },
-    {
-     "text": "Most kids get the final mix wrong!",
-     "caption": "Most kids get the final mix wrong!",
-     "file": "2026-10-31-juice-jugs/short/audio/575b93dd62566dae.wav",
-     "from": 111,
-     "frames": 70
+     "frames": 106
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 205,
-   "frames": 379,
+   "from": 118,
+   "frames": 338,
    "lines": [
     {
-     "text": "Jug A holds ten liters of water. Jug B holds ten liters of sixty percent juice.",
-     "caption": "Jug A holds ten liters of water. Jug B holds ten liters of sixty percent juice.",
-     "file": "2026-10-31-juice-jugs/short/audio/e5ba9c6dcafed1a6.wav",
+     "text": "Jug A has ten liters of water, jug B ten liters of sixty percent juice.",
+     "caption": "Jug A has 10 liters of water, jug B 10 liters of 60% juice.",
+     "file": "2026-10-31-juice-jugs/short/audio/332ba08f0de0b07a.wav",
      "from": 0,
-     "frames": 164
+     "frames": 148
     },
     {
      "text": "Pour five liters from B to A, stir, then pour five back. What percent of B is juice?",
-     "caption": "Pour five liters from B to A, stir, then pour five back. What percent of B is juice?",
-     "file": "2026-10-31-juice-jugs/short/audio/133d7a4ae157bfdc.wav",
-     "from": 174,
-     "frames": 173
+     "caption": "Pour 5 liters from B to A, stir, then pour 5 back. What percent of B is juice?",
+     "file": "2026-10-31-juice-jugs/short/audio/36e716c9a6ff00bd.wav",
+     "from": 152,
+     "frames": 174
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 584,
-   "frames": 168,
+   "from": 456,
+   "frames": 70,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-juice-jugs/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-juice-jugs/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 54
+     "frames": 59
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "pour",
    "kind": "scene",
    "chapter": null,
-   "from": 752,
-   "frames": 462,
+   "from": 526,
+   "frames": 349,
    "lines": [
     {
-     "text": "The trick: count liters of juice, not percents.",
-     "caption": "The trick: count liters of juice, not percents.",
-     "file": "2026-10-31-juice-jugs/short/audio/f8d66febe5d0216f.wav",
+     "text": "Count liters, not percents. Jug B starts with six liters of juice.",
+     "caption": "Count liters, not percents. Jug B starts with 6 liters of juice.",
+     "file": "2026-10-31-juice-jugs/short/audio/b3e7e4a05f608d5a.wav",
      "from": 0,
-     "frames": 105
+     "frames": 124
     },
     {
-     "text": "Jug B starts with six liters of juice. Half of B moves, so three liters of juice go over.",
-     "caption": "Jug B starts with six liters of juice. Half of B moves, so three liters of juice go over.",
-     "file": "2026-10-31-juice-jugs/short/audio/06b52bb51aa7ab8c.wav",
-     "from": 115,
-     "frames": 178
+     "text": "Half of B pours over, taking three liters of juice.",
+     "caption": "Half of B pours over, taking 3 liters of juice.",
+     "file": "2026-10-31-juice-jugs/short/audio/dd73b8ad0561a9bb.wav",
+     "from": 129,
+     "frames": 94
     },
     {
-     "text": "Pour back one third of jug A. One liter of juice goes back to B.",
-     "caption": "Pour back one third of jug A. One liter of juice goes back to B.",
-     "file": "2026-10-31-juice-jugs/short/audio/06cba84707e6daac.wav",
-     "from": 303,
-     "frames": 135
+     "text": "Now pour back one third of jug A. That's one liter of juice.",
+     "caption": "Now pour back 1/3 of jug A. That's 1 liter of juice.",
+     "file": "2026-10-31-juice-jugs/short/audio/bd0d17b6a30888db.wav",
+     "from": 227,
+     "frames": 111
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1214,
-   "frames": 244,
+   "from": 875,
+   "frames": 277,
    "lines": [
     {
-     "text": "Jug B ends with three plus one, four liters of juice, out of ten.",
-     "caption": "Jug B ends with three plus one, four liters of juice, out of ten.",
-     "file": "2026-10-31-juice-jugs/short/audio/ee0172e064e00d74.wav",
+     "text": "Three plus one is four liters out of ten. Forty percent!",
+     "caption": "3 plus 1 is 4 liters out of 10. 40%!",
+     "file": "2026-10-31-juice-jugs/short/audio/f2fc21d827dcabcd.wav",
      "from": 0,
-     "frames": 125
+     "frames": 120
     },
     {
-     "text": "Forty percent! Not sixty.",
-     "caption": "Forty percent! Not sixty.",
-     "file": "2026-10-31-juice-jugs/short/audio/ed3c4045a7683aae.wav",
-     "from": 135,
-     "frames": 70
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1458,
-   "frames": 248,
-   "lines": [
-    {
-     "text": "Want to see why? The full lesson has two neat ways and every trap.",
-     "caption": "Want to see why? The full lesson has two neat ways and every trap.",
-     "file": "2026-10-31-juice-jugs/short/audio/189edcd4e99ec8dd.wav",
-     "from": 0,
-     "frames": 135
+     "text": "Sixty was the trap.",
+     "caption": "60 was the trap.",
+     "file": "2026-10-31-juice-jugs/short/audio/bba9f19ba798fe18.wav",
+     "from": 125,
+     "frames": 46
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-juice-jugs/short/audio/82b8b7e1a12a7449.wav",
-     "from": 145,
-     "frames": 56
+     "text": "Did you get forty percent? Tell me below!",
+     "caption": "Did you get 40%? Tell me below!",
+     "file": "2026-10-31-juice-jugs/short/audio/e382f0c12a6d097c.wav",
+     "from": 175,
+     "frames": 66
     }
    ]
   }

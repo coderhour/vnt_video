@@ -1,27 +1,23 @@
 # The Rolling Corner (short)
 
-A little square rolls around a bigger one.
+AMC ten challenge! Think it's four pi? Nope!
 
-How far does the marked corner travel? Watch for a sneaky corner move!
+A square of side one rolls clockwise around a fixed square of side two.
 
-A small square of side one rolls clockwise around a fixed square of side two.
+How long is the path of corner P, until it's first back home?
 
-How far does the marked corner travel before it first gets back home?
+Comment your letter, then watch!
 
-Pause and try it!
+Along a side: a quarter turn, with radius one.
 
-*(Pause and try it: 3 s countdown)*
+At a corner: a HALF turn, with radius root two!
 
-Follow one move at a time. Each move tips over a pivot corner.
+Another quarter turn. Then P IS the pivot: zero!
 
-A quarter turn along a side makes a quarter circle of radius one.
+The other half repeats the same four moves.
 
-At the top right corner, it needs a half turn, with radius root two!
+Add it all up: two plus two root two, all times pi!
 
-At the bottom right, the marked corner IS the pivot, so it adds nothing.
+Four pi was the trap: the wrong radius!
 
-Add it all up. The answer is Choice C!
-
-Two plus two root two, all times pi. Sneaky corners make it longer!
-
-The full lesson shows every trap. Tap the link below to watch it!
+Did you get Choice C? Tell me below!

@@ -1,53 +1,50 @@
 {
  "title": "Goldfish Pond (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15, "scene_tail": 0.4, "caption_digits": true,
+ "captions": {
+  "A pond has two hundred fish, and ninety percent are goldfish.": "A pond has 200 fish, and 90% are goldfish.",
+  "How many goldfish must go, so that eighty percent of the fish left are goldfish?": "How many goldfish must go, so that 80% of the fish left are goldfish?",
+  "Those twenty never leave. At the end, they're twenty percent: one fifth of the pond.": "Those 20 never leave. At the end, they're 20%: 1/5 of the pond.",
+  "So the pond ends with five times twenty, one hundred fish.": "So the pond ends with 5 × 20, 100 fish."
+ },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "A pond has two hundred fish, ninety percent goldfish.",
-    "Remove goldfish until eighty percent remain. Most kids say ten!"
+    "AMC eight challenge! Think it's ten? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
+    "A pond has two hundred fish, and ninety percent are goldfish.",
     "How many goldfish must go, so that eighty percent of the fish left are goldfish?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
    "lines": [
-    "Pause and try it!"
-   ],
-   "kind": "pause",
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "stay",
    "lines": [
-    "Watch the fish that stay! One hundred eighty goldfish, so twenty other fish.",
-    "Those twenty never leave. At the end they're twenty percent, one fifth of the pond.",
-    "So the whole pond is five times twenty, one hundred fish."
+    "Watch the fish that stay! One hundred eighty goldfish means twenty other fish.",
+    "Those twenty never leave. At the end, they're twenty percent: one fifth of the pond.",
+    "So the pond ends with five times twenty, one hundred fish."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Two hundred fish down to one hundred. So one hundred goldfish must go!",
-    "Not ninety minus eighty. The total changes!"
+    "Two hundred down to one hundred. So one hundred goldfish must go!",
+    "Ten was the trap.",
+    "Did you get one hundred goldfish? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why not ten? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
  ]
 }

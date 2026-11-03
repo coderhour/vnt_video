@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1675,
+ "durationInFrames": 1190,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 236,
+   "frames": 108,
    "lines": [
     {
-     "text": "Two friends walk toward each other, pass, turn around, and meet again.",
-     "caption": "Two friends walk toward each other, pass, turn around, and meet again.",
-     "file": "2026-10-30-meet-twice/short/audio/99ad977cceb7d7ab.wav",
+     "text": "AMC eight challenge! Think it's twenty-two? Nope!",
+     "caption": "AMC 8 challenge! Think it's 22? Nope!",
+     "file": "2026-10-30-meet-twice/short/audio/47ac5d46793f4ce9.wav",
      "from": 0,
-     "frames": 128
-    },
-    {
-     "text": "One number unlocks it: THREE!",
-     "caption": "One number unlocks it: THREE!",
-     "file": "2026-10-30-meet-twice/short/audio/2bdc213311deb0a5.wav",
-     "from": 138,
-     "frames": 75
+     "frames": 96
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 236,
-   "frames": 332,
+   "from": 108,
+   "frames": 256,
    "lines": [
     {
-     "text": "Two walkers first meet twelve kilometers from town A, then turn around at the far end.",
-     "caption": "Two walkers first meet twelve kilometers from town A, then turn around at the far end.",
-     "file": "2026-10-30-meet-twice/short/audio/f4100cf7b4883ea4.wav",
+     "text": "Ann and Bo meet twelve kilometers from A, then turn back at the far towns.",
+     "caption": "Ann and Bo meet 12 kilometers from A, then turn back at the far towns.",
+     "file": "2026-10-30-meet-twice/short/audio/f07c383f8f23b735.wav",
      "from": 0,
-     "frames": 159
+     "frames": 126
     },
     {
-     "text": "They meet again ten kilometers from town A. How far apart are the towns?",
-     "caption": "They meet again ten kilometers from town A. How far apart are the towns?",
-     "file": "2026-10-30-meet-twice/short/audio/fadee7622ae239bd.wav",
-     "from": 169,
-     "frames": 130
+     "text": "They meet again ten kilometers from A. How far apart are the towns?",
+     "caption": "They meet again 10 kilometers from A. How far apart are the towns?",
+     "file": "2026-10-30-meet-twice/short/audio/0321834aa351992b.wav",
+     "from": 131,
+     "frames": 114
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 568,
-   "frames": 151,
+   "from": 364,
+   "frames": 74,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-meet-twice/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-meet-twice/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 38
+     "frames": 62
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "three",
    "kind": "scene",
    "chapter": null,
-   "from": 719,
-   "frames": 464,
+   "from": 438,
+   "frames": 461,
    "lines": [
     {
-     "text": "Here's the trick. At the first meeting, they've walked one road together. Ann's part is twelve.",
-     "caption": "Here's the trick. At the first meeting, they've walked one road together. Ann's part is twelve.",
-     "file": "2026-10-30-meet-twice/short/audio/71e62f7844927ce3.wav",
+     "text": "By the first meeting they cover one road, and Ann's part is twelve.",
+     "caption": "By the first meeting they cover one road, and Ann's part is 12.",
+     "file": "2026-10-30-meet-twice/short/audio/94c33caaac7b1dba.wav",
      "from": 0,
-     "frames": 160
+     "frames": 118
     },
     {
-     "text": "At the second meeting, that's THREE roads together. So Ann walked thirty-six.",
-     "caption": "At the second meeting, that's THREE roads together. So Ann walked thirty-six.",
-     "file": "2026-10-30-meet-twice/short/audio/1cc33891fc903583.wav",
-     "from": 170,
-     "frames": 132
+     "text": "Then each walks the whole road, and both pieces back. THREE roads!",
+     "caption": "Then each walks the whole road, and both pieces back. 3 roads!",
+     "file": "2026-10-30-meet-twice/short/audio/db22cf14971be10f.wav",
+     "from": 122,
+     "frames": 122
     },
     {
-     "text": "She walked the whole road, then back to ten kilometers from town A.",
-     "caption": "She walked the whole road, then back to ten kilometers from town A.",
-     "file": "2026-10-30-meet-twice/short/audio/bf08fa6194c9716b.wav",
-     "from": 312,
-     "frames": 128
+     "text": "Same speed, so she walks three times twelve. Thirty-six!",
+     "caption": "Same speed, so she walks 3 times 12. 36!",
+     "file": "2026-10-30-meet-twice/short/audio/790c6e92abbce72c.wav",
+     "from": 248,
+     "frames": 107
+    },
+    {
+     "text": "That's the whole road, then the road minus ten.",
+     "caption": "That's the whole road, then the road minus 10.",
+     "file": "2026-10-30-meet-twice/short/audio/51b9a21e0221a968.wav",
+     "from": 359,
+     "frames": 90
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1183,
-   "frames": 242,
+   "from": 899,
+   "frames": 291,
    "lines": [
     {
-     "text": "So road plus road minus ten is thirty-six. The road is twenty-three kilometers!",
-     "caption": "So road plus road minus ten is thirty-six. The road is twenty-three kilometers!",
-     "file": "2026-10-30-meet-twice/short/audio/2a1831074c281181.wav",
+     "text": "Two roads are forty-six, so one road is twenty-three!",
+     "caption": "2 roads are 46, so one road is 23!",
+     "file": "2026-10-30-meet-twice/short/audio/44c0d845207ce687.wav",
      "from": 0,
-     "frames": 156
+     "frames": 88
     },
     {
-     "text": "That's Choice D.",
-     "caption": "That's Choice D.",
-     "file": "2026-10-30-meet-twice/short/audio/288c8c0137133946.wav",
-     "from": 166,
-     "frames": 44
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1425,
-   "frames": 250,
-   "lines": [
-    {
-     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-meet-twice/short/audio/5a466bf8b2983070.wav",
-     "from": 0,
-     "frames": 126
+     "text": "Twenty-two was the trap. It just adds twelve and ten.",
+     "caption": "22 was the trap. It just adds 12 and 10.",
+     "file": "2026-10-30-meet-twice/short/audio/e64d62d145498ac7.wav",
+     "from": 92,
+     "frames": 84
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-meet-twice/short/audio/82b8b7e1a12a7449.wav",
-     "from": 137,
-     "frames": 59
+     "text": "Did you get twenty-three? Tell me below!",
+     "caption": "Did you get 23? Tell me below!",
+     "file": "2026-10-30-meet-twice/short/audio/2e9b08be807006f3.wav",
+     "from": 180,
+     "frames": 75
     }
    ]
   }

@@ -7,6 +7,13 @@
  "short": {
   "title": "Circles through 9 dots: not 76! #Shorts",
   "description": "How many circles pass through at least three of nine dots? Lots of kids say 76. It's much smaller!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 2,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

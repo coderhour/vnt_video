@@ -1,27 +1,21 @@
 # Half Circle Petals (short)
 
-Four half circles make a flower inside a square.
+AMC eight challenge! Think it's eight pi minus sixteen? Nope!
 
-Most kids find the white petals. But we want the SHADED part!
+A side four square, with a half circle inside on each side.
 
-The square has side four, and each side holds a half circle.
+What is the shaded area?
 
-What is the total shaded area?
+Comment your letter, then watch!
 
-Pause and try it!
+Each half circle is two pi, so all four make eight pi.
 
-*(Pause and try it: 3 s countdown)*
-
-Trick: each half circle has area two pi, so all four make eight pi.
-
-But the square is only sixteen! Every petal got counted twice.
+But the square is only sixteen! Each petal sits in two half circles.
 
 So eight pi is the square, plus the petals one extra time.
 
-Petals are eight pi minus sixteen. Take them away from the square.
+Petals are eight pi minus sixteen, so shaded is thirty-two minus eight pi!
 
-Shaded is thirty-two minus eight pi! That's Choice B.
+Eight pi minus sixteen was the trap. That's just the petals.
 
-Why exactly that? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get thirty-two minus eight pi? Tell me below!

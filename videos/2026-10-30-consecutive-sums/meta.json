@@ -7,6 +7,13 @@
  "short": {
   "title": "Which numbers can't be built? #Shorts",
   "description": "Nine is 4+5, ten is 1+2+3+4. But a few numbers can never be a sum of neighbours. Which ones?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 5,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

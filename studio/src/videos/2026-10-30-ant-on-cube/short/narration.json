@@ -1,55 +1,56 @@
 {
  "title": "An Ant's Random Walk on a Cube (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "An ant takes three random steps on a cube.",
-    "Can it reach the far corner?"
+    "AMC eight challenge! Think it's one over twenty-seven? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "An ant starts at corner A, and walks a random edge each minute.",
-    "What's the chance it's at the far corner G after three minutes?"
-   ],
-   "hold": 0.3
+    "An ant walks along a cube's edges. Each minute, it picks one of three edges at random.",
+    "What's the chance it's at the farthest corner after three minutes?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "steps",
    "lines": [
-    "G is three edges away. So every step must go farther.",
-    "Step one: all three edges go farther. That's three out of three.",
-    "Step two: only two out of three go farther.",
-    "Step three: only one out of three reaches G."
+    "G is three edges away. So every step must go farther!",
+    "Step one: all three edges go farther. Three over three.",
+    "Step two: one edge goes back. Two over three.",
+    "Step three: only one edge reaches G. One over three."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "One, times two thirds, times one third. That's two ninths!",
-    "Much less than one third!"
+    "Multiply them all. That's two over nine!",
+    "One over twenty-seven was the trap.",
+    "Did you get two over nine? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Want the exact working? The full lesson shows two neat ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's one over twenty-seven? Nope!": "AMC 8 challenge! Think it's 1/27? Nope!",
+  "Step one: all three edges go farther. Three over three.": "Step 1: all 3 edges go farther. 3/3.",
+  "Step two: one edge goes back. Two over three.": "Step 2: 1 edge goes back. 2/3.",
+  "Step three: only one edge reaches G. One over three.": "Step 3: only 1 edge reaches G. 1/3.",
+  "Multiply them all. That's two over nine!": "Multiply them all. That's 2/9!",
+  "One over twenty-seven was the trap.": "1/27 was the trap.",
+  "Did you get two over nine? Tell me below!": "Did you get 2/9? Tell me below!"
+ }
 }

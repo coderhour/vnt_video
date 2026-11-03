@@ -1,27 +1,21 @@
 # Dots Inside a Triangle (short)
 
-Exactly ten dots sit inside this right triangle.
-
-How many different triangles can it be?
+AMC ten challenge! Think it's twelve? Nope!
 
 A right triangle has corners at zero zero, p zero, and zero q.
 
-Exactly ten dots are strictly inside. How many ordered pairs, p and q, work?
+Exactly ten dots lie strictly inside. How many ordered pairs, p and q?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+A twin triangle makes a square, with twenty-five dots inside.
 
-Add a twin triangle to make a rectangle.
+Five sit on the slanted side. The other twenty split evenly: ten each!
 
-This six by four has fifteen dots inside. One sits ON the slanted line.
+Check every short leg this way: six pairs work.
 
-Split the other fourteen evenly: seven each.
+Flipping adds five more pairs. That's eleven!
 
-So for ten inside, the rectangle has twenty dots, not counting the diagonal.
+Twelve was the trap. Six and six flips into itself!
 
-Checking every short leg gives eleven pairs. Choice D!
-
-Careful! Six and six flips into itself, so it only counts once.
-
-The full lesson shows every trap. Tap the link below to watch it!
+Did you get eleven? Tell me below!

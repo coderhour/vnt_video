@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1654,
+ "durationInFrames": 1136,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 228,
+   "frames": 116,
    "lines": [
     {
-     "text": "Cover a two by six board with dominoes. Thirteen ways.",
-     "caption": "Cover a two by six board with dominoes. Thirteen ways.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/eb2d143172eff639.wav",
+     "text": "AMC ten challenge! Think it's thirteen? Nope!",
+     "caption": "AMC 10 challenge! Think it's 13? Nope!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/a0dfa53f970b043f.wav",
      "from": 0,
-     "frames": 110
-    },
-    {
-     "text": "Now add L tiles. How many ways?",
-     "caption": "Now add L tiles. How many ways?",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/3f6ac57bc8fd7b60.wav",
-     "from": 120,
-     "frames": 84
+     "frames": 105
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 228,
-   "frames": 244,
+   "from": 116,
+   "frames": 188,
    "lines": [
     {
      "text": "Cover a two by six board with dominoes and L-shaped tiles.",
-     "caption": "Cover a two by six board with dominoes and L-shaped tiles.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/aa56be7340ec66ee.wav",
+     "caption": "Cover a 2\u00d76 board with dominoes and L-shaped tiles.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/eb02fcc6face409f.wav",
      "from": 0,
-     "frames": 123
+     "frames": 100
     },
     {
-     "text": "How many ways? Pick one of the five choices.",
-     "caption": "How many ways? Pick one of the five choices.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/181746d35c7e95f3.wav",
-     "from": 133,
-     "frames": 78
+     "text": "Pieces may be turned. How many ways?",
+     "caption": "Pieces may be turned. How many ways?",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/bd3674b584646e9a.wav",
+     "from": 104,
+     "frames": 72
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 472,
-   "frames": 170,
+   "from": 304,
+   "frames": 77,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 57
+     "frames": 65
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "zigzag",
    "kind": "scene",
    "chapter": null,
-   "from": 642,
-   "frames": 448,
+   "from": 381,
+   "frames": 453,
    "lines": [
     {
-     "text": "Here's the trick. An L in the top-left corner starts a zigzag.",
-     "caption": "Here's the trick. An L in the top-left corner starts a zigzag.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/9f9a8fbf80b0038f.wav",
+     "text": "Check the top-left square. A domino, or an L that starts a zigzag.",
+     "caption": "Check the top-left square. A domino, or an L that starts a zigzag.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/891351cf5c153e7f.wav",
      "from": 0,
-     "frames": 134
+     "frames": 128
     },
     {
-     "text": "An L, then lying dominoes, then another L. It's three to six long.",
-     "caption": "An L, then lying dominoes, then another L. It's three to six long.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/818459ecc7748f21.wav",
-     "from": 144,
-     "frames": 155
+     "text": "An L, lying dominoes, another L. Each zigzag has a mirror twin!",
+     "caption": "An L, lying dominoes, another L. Each zigzag has a mirror twin!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/ecaee62b1d9a018e.wav",
+     "from": 132,
+     "frames": 160
     },
     {
-     "text": "Each zigzag has a mirror twin, so we count them twice.",
-     "caption": "Each zigzag has a mirror twin, so we count them twice.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/d8868bcab00b7771.wav",
-     "from": 309,
-     "frames": 116
+     "text": "Then fill a table: one, one, two, five, eleven, twenty-four.",
+     "caption": "Then fill a table: 1, 1, 2, 5, 11, 24.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/646eeeaa59e17086.wav",
+     "from": 296,
+     "frames": 146
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1090,
-   "frames": 280,
+   "from": 834,
+   "frames": 302,
    "lines": [
     {
-     "text": "Fill a table from short boards, and it grows to fifty-three.",
-     "caption": "Fill a table from short boards, and it grows to fifty-three.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/bd1f5b5e962b7e0c.wav",
+     "text": "Length six gives fifty-three ways. That's Choice C!",
+     "caption": "Length 6 gives 53 ways. That's Choice C!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/6a541ac0cfd6ce8b.wav",
      "from": 0,
-     "frames": 110
+     "frames": 105
     },
     {
-     "text": "That's Choice C. Without L tiles, it was only thirteen!",
-     "caption": "That's Choice C. Without L tiles, it was only thirteen!",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/e6579276547072c6.wav",
-     "from": 120,
-     "frames": 128
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1370,
-   "frames": 284,
-   "lines": [
-    {
-     "text": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "caption": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/66554cbc453363b8.wav",
-     "from": 0,
-     "frames": 166
+     "text": "Thirteen was the trap. It leaves out the L tiles.",
+     "caption": "13 was the trap. It leaves out the L tiles.",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/61e4ffe3f7badf53.wav",
+     "from": 109,
+     "frames": 86
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-11-01-domino-tromino-2x6/short/audio/82b8b7e1a12a7449.wav",
-     "from": 176,
-     "frames": 60
+     "text": "Did you get fifty-three? Tell me below!",
+     "caption": "Did you get 53? Tell me below!",
+     "file": "2026-11-01-domino-tromino-2x6/short/audio/a3a9dc037cfab79c.wav",
+     "from": 199,
+     "frames": 68
     }
    ]
   }

@@ -1,54 +1,46 @@
 {
  "title": "Geometric Triangles (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "How many triangles have sides growing by the same multiplier?"
+    "AMC ten challenge! Think it's forty-four? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "The triangle has three different whole sides, each the last one times a fixed multiplier.",
+    "Three different whole-number sides. Each one is the last, times the same multiplier.",
     "The longest is two thousand twenty-five. How many triangles?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "rule",
    "lines": [
-    "The sides always look like k squared, forty-five k, and two thousand twenty-five.",
-    "Here k runs from one to forty-four. Which ones close into a triangle?",
+    "The sides are k squared, forty-five k, and two thousand twenty-five, with k up to forty-four.",
     "The short sides must add up to more than the longest. At twenty-seven, they fall short.",
-    "At twenty-eight, they just make it. And so does every bigger one!"
+    "At twenty-eight, they make it. So does every k after!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Twenty-eight up to forty-four. That's seventeen triangles!",
-    "Forty-four is the trap!"
+    "Twenty-eight to forty-four. That's seventeen triangles!",
+    "Forty-four was the trap.",
+    "Did you get seventeen? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why those sides? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.0
+   "hold": 0.8
   }
  ]
 }

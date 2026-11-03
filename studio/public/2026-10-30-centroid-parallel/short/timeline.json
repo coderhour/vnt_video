@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1672,
+ "durationInFrames": 1173,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 274,
+   "frames": 100,
    "lines": [
     {
-     "text": "The three medians of a triangle meet at one point, G.",
-     "caption": "The three medians of a triangle meet at one point, G.",
-     "file": "2026-10-30-centroid-parallel/short/audio/313d4fb5851b69e0.wav",
+     "text": "AMC eight challenge! Think it's twelve? Nope!",
+     "caption": "AMC 8 challenge! Think it's 12? Nope!",
+     "file": "2026-10-30-centroid-parallel/short/audio/d6a47844ae603008.wav",
      "from": 0,
-     "frames": 123
-    },
-    {
-     "text": "Draw a line through G, parallel to the base. How long is it?",
-     "caption": "Draw a line through G, parallel to the base. How long is it?",
-     "file": "2026-10-30-centroid-parallel/short/audio/d0d171e20b463ef5.wav",
-     "from": 133,
-     "frames": 118
+     "frames": 88
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 274,
+   "from": 100,
    "frames": 270,
    "lines": [
     {
-     "text": "The base B C is twenty-four. E F goes through G, parallel to B C.",
-     "caption": "The base B C is twenty-four. E F goes through G, parallel to B C.",
-     "file": "2026-10-30-centroid-parallel/short/audio/093cd171ea4729fa.wav",
+     "text": "The medians of triangle A B C meet at G. Side B C is twenty-four.",
+     "caption": "The medians of triangle ABC meet at G. Side BC is 24.",
+     "file": "2026-10-30-centroid-parallel/short/audio/fc83be66cfcd39c1.wav",
      "from": 0,
-     "frames": 167
+     "frames": 141
     },
     {
-     "text": "How long is E F?",
-     "caption": "How long is E F?",
-     "file": "2026-10-30-centroid-parallel/short/audio/72b03f5ac057125d.wav",
-     "from": 178,
-     "frames": 59
+     "text": "E F runs through G, parallel to B C. How long is E F?",
+     "caption": "EF runs through G, parallel to BC. How long is EF?",
+     "file": "2026-10-30-centroid-parallel/short/audio/d0c30eca4ff288fd.wav",
+     "from": 144,
+     "frames": 114
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 544,
-   "frames": 163,
+   "from": 370,
+   "frames": 71,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-centroid-parallel/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-centroid-parallel/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 50
+     "frames": 59
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "shrink",
    "kind": "scene",
    "chapter": null,
-   "from": 707,
-   "frames": 414,
+   "from": 441,
+   "frames": 443,
    "lines": [
     {
-     "text": "Here's the secret. G is two thirds of the way down each median.",
-     "caption": "Here's the secret. G is two thirds of the way down each median.",
-     "file": "2026-10-30-centroid-parallel/short/audio/e61946ec96b91054.wav",
+     "text": "G is two thirds of the way down each median, from A.",
+     "caption": "G is 2/3 of the way down each median, from A.",
+     "file": "2026-10-30-centroid-parallel/short/audio/9d362911f17bda28.wav",
      "from": 0,
-     "frames": 130
+     "frames": 100
     },
     {
-     "text": "So shrink the whole triangle toward A, to two thirds size.",
-     "caption": "So shrink the whole triangle toward A, to two thirds size.",
-     "file": "2026-10-30-centroid-parallel/short/audio/f9828e392a59d58d.wav",
-     "from": 140,
-     "frames": 106
+     "text": "Now shrink the triangle toward A, until B C lands on E F.",
+     "caption": "Now shrink the triangle toward A, until BC lands on EF.",
+     "file": "2026-10-30-centroid-parallel/short/audio/39643e66876670b8.wav",
+     "from": 104,
+     "frames": 120
     },
     {
-     "text": "Side B C lands right on E F. Every length becomes two thirds.",
-     "caption": "Side B C lands right on E F. Every length becomes two thirds.",
-     "file": "2026-10-30-centroid-parallel/short/audio/41ea4ae36d123909.wav",
-     "from": 256,
-     "frames": 135
+     "text": "The middle of B C slides up the median, and lands right on G.",
+     "caption": "The middle of BC slides up the median, and lands right on G.",
+     "file": "2026-10-30-centroid-parallel/short/audio/26db753aaf65b251.wav",
+     "from": 229,
+     "frames": 119
+    },
+    {
+     "text": "So every length shrinks to two thirds.",
+     "caption": "So every length shrinks to 2/3.",
+     "file": "2026-10-30-centroid-parallel/short/audio/3fc82e509b1a8ae4.wav",
+     "from": 352,
+     "frames": 80
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1121,
-   "frames": 249,
+   "from": 884,
+   "frames": 289,
    "lines": [
     {
      "text": "Two thirds of twenty-four is sixteen!",
-     "caption": "Two thirds of twenty-four is sixteen!",
-     "file": "2026-10-30-centroid-parallel/short/audio/753340489e555332.wav",
+     "caption": "2/3 of 24 is 16!",
+     "file": "2026-10-30-centroid-parallel/short/audio/99c3edbd7fb561db.wav",
      "from": 0,
      "frames": 74
     },
     {
-     "text": "Not twelve. G is two thirds down, not halfway.",
-     "caption": "Not twelve. G is two thirds down, not halfway.",
-     "file": "2026-10-30-centroid-parallel/short/audio/5cfa44410a99aedd.wav",
-     "from": 84,
-     "frames": 126
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1370,
-   "frames": 302,
-   "lines": [
-    {
-     "text": "Want the exact working? The full lesson shows two neat ways, plus every trap.",
-     "caption": "Want the exact working? The full lesson shows two neat ways, plus every trap.",
-     "file": "2026-10-30-centroid-parallel/short/audio/a4e699143037749c.wav",
-     "from": 0,
-     "frames": 166
+     "text": "Twelve was the trap. That's halfway down, not two thirds.",
+     "caption": "12 was the trap. That's halfway down, not 2/3.",
+     "file": "2026-10-30-centroid-parallel/short/audio/f97a8e9d9c29442a.wav",
+     "from": 78,
+     "frames": 102
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-centroid-parallel/short/audio/82b8b7e1a12a7449.wav",
-     "from": 176,
-     "frames": 57
+     "text": "Did you get sixteen? Tell me below!",
+     "caption": "Did you get 16? Tell me below!",
+     "file": "2026-10-30-centroid-parallel/short/audio/0909e43504db37a1.wav",
+     "from": 185,
+     "frames": 69
     }
    ]
   }

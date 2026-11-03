@@ -1,75 +1,92 @@
-import { Audio, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
+import { Audio, Sequence, interpolate, useCurrentFrame } from 'remotion';
 import { clamp, ease, fadeUp, pop } from '../../../lib/anim';
 import { at, type SceneComponent, type Timeline } from '../../../lib/Explainer';
-import { Countdown } from '../../../lib/PauseCard';
-import { FullLessonCard, ShortFrame } from '../../../lib/Short';
+import { CommentBubble, CtaPill, MUSIC, PushIn, SFX, Sfx, ShortFrame, choicePulse } from '../../../lib/Short';
 import { Tex } from '../../../lib/Tex';
 import { Confetti, Text } from '../../../lib/ui';
 import { C } from '../../../lib/theme';
-import { CHIME, CHOICES, SLUG, TICK } from '../Composition';
+import { CHIME, CHOICES, SLUG } from '../Composition';
 
 export { SLUG };
 
-const COL: Record<string, string> = { '16': C.primary, '11': C.violet, '23': C.amber, '3': '#9aa3b5' };
+// New short recipe: trap-first hook (253), question, comment bait, the neighbor boxes (n(n+1) needs 16, 11, 23;
+// neighbors share no factors so each tile drops whole into one box; walk 176, 352 with a zoom), then 528 / 529 = 23².
+// The two boxes sit at the same place in the hook (tiles above, unsorted) and at the end of the reveal (tiles inside).
 
-const Title: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <Text x={540} y={300} w={980} size={72} weight={900} align="center">
-    {children}
-  </Text>
+const COL: Record<string, string> = { '16': C.primary, '11': C.violet, '23': C.amber };
+const TV = ['16', '11', '23'];
+const before = () => -100;
+
+// ---- the main figure: two neighbor boxes ----
+const BOX_Y = 540;
+const BOX_H = 340;
+const BOX_X = [40, 560];
+const BOX_W = 480;
+const TW = 150;
+const TH = 110;
+const ROW: [number, number][] = [[225, 930], [465, 930], [705, 930]]; // tiles waiting below the boxes
+const DEST: [number, number][] = [[100, 640], [310, 640], [725, 640]]; // 16, 11 in n; 23 in n+1
+
+const Boxes: React.FC<{ vals?: [React.ReactNode, React.ReactNode] }> = ({ vals }) => (
+  <>
+    {BOX_X.map((x, i) => (
+      <div key={i} style={{ position: 'absolute', left: x, top: BOX_Y, width: BOX_W, height: BOX_H, borderRadius: 32, border: `7px solid ${C.ink}`, background: C.card, boxSizing: 'border-box' }}>
+        <div style={{ position: 'absolute', left: 0, width: '100%', top: 6, textAlign: 'center' }}>
+          <Tex tex={i === 0 ? 'n' : 'n+1'} size={60} />
+        </div>
+        <div style={{ position: 'absolute', left: 0, width: '100%', top: 258, display: 'flex', justifyContent: 'center', whiteSpace: 'nowrap' }}>{vals?.[i]}</div>
+      </div>
+    ))}
+  </>
 );
 
-/** A centred line of maths. start <= 0: on screen from the first frame. */
-const Mid: React.FC<{ y: number; tex: string; start: number; size?: number; color?: string }> = ({ y, tex, start, size = 56, color = C.ink }) => {
-  const f = useCurrentFrame();
-  return (
-    <div style={{ position: 'absolute', left: 0, width: 1080, top: y, display: 'flex', justifyContent: 'center', whiteSpace: 'nowrap', ...(start > 0 ? fadeUp(f, start) : {}) }}>
-      <Tex tex={tex} size={size} color={color} />
-    </div>
-  );
-};
-
-const Tile: React.FC<{ v: string; x: number; y: number; o?: number }> = ({ v, x, y, o = 1 }) => (
-  <div style={{ position: 'absolute', left: x, top: y, width: 130, height: 90, borderRadius: 22, background: COL[v], color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 58, fontWeight: 900, opacity: o, boxShadow: '0 6px 18px rgba(30,40,80,0.18)' }}>
+const Tile: React.FC<{ v: string; x: number; y: number; o?: number; s?: number }> = ({ v, x, y, o = 1, s = 1 }) => (
+  <div style={{ position: 'absolute', left: x, top: y, width: TW, height: TH, borderRadius: 24, background: COL[v], color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 72, fontWeight: 900, opacity: o, transform: `scale(${s})`, boxShadow: '0 6px 18px rgba(30,40,80,0.18)' }}>
     {v}
   </div>
 );
 
-const Box: React.FC<{ x: number; y: number; w: number; h: number; o: number; label: string; size?: number }> = ({ x, y, w, h, o, label, size = 54 }) => (
-  <div style={{ position: 'absolute', left: x, top: y, width: w, height: h, borderRadius: 32, border: `6px solid ${C.ink}`, background: C.card, opacity: o, boxSizing: 'border-box' }}>
-    <div style={{ position: 'absolute', left: 0, width: '100%', top: 14, textAlign: 'center', fontSize: size, fontWeight: 900 }}>{label}</div>
-  </div>
+const Chip: React.FC<{ y: number; children: React.ReactNode }> = ({ y, children }) => (
+  <div style={{ position: 'absolute', left: 0, width: 1080, top: y, display: 'flex', justifyContent: 'center' }}>{children}</div>
 );
 
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const rows = ['1', '1+2', '1+2+3', '1+2+3+4', '1+2+3+4+5'];
-  const sums = [1, 3, 6, 10, 15];
+  const nope = at(scene, 0, 0.86);
   return (
     <>
-      <Title>
-        Smallest <span style={{ color: C.violet }}>n</span>?
-      </Title>
-      <Mid y={400} tex="1+2+3+\cdots+n" start={0} size={92} />
-      {rows.map((r, i) => (
-        <Mid key={i} y={540 + i * 86} tex={`${r}=${sums[i]}\\ \\ \\textcolor{#ef4343}{\\times}`} start={at(scene, 0, 0.1 + i * 0.16)} size={54} />
-      ))}
-      <Mid y={1010} tex="\text{a multiple of } 2024\ ?" start={at(scene, 1, 0.25)} size={68} color={C.violet} />
+      <Chip y={280}>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10 · Challenge #9</div>
+      </Chip>
+      <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
+        Think it's <span style={{ color: C.red }}>253</span>?
+      </Text>
+      <PushIn frames={scene.frames} origin="540px 760px">
+        <Boxes />
+        {TV.map((v, i) => <Tile key={v} v={v} x={ROW[i][0]} y={ROW[i][1]} />)}
+      </PushIn>
+      <Sfx at={nope} src={SFX.buzz} volume={0.35} />
+      <Chip y={600}>
+        <div style={{ opacity: ease(f, nope, 4), transform: `rotate(-8deg) scale(${pop(f, nope)})`, border: `14px solid ${C.red}`, color: C.red, background: 'rgba(255,255,255,0.92)', borderRadius: 28, padding: '6px 54px', fontSize: 150, fontWeight: 900, letterSpacing: 6 }}>
+          NOPE
+        </div>
+      </Chip>
     </>
   );
 };
 
-const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => {
+const QuestionBody: React.FC<{ start: (i: number) => number; pulse?: (i: number) => number }> = ({ start, pulse = () => 1 }) => {
   const f = useCurrentFrame();
   return (
     <>
-      <div style={{ position: 'absolute', left: 60, top: 360, width: 860, background: C.card, borderRadius: 32, padding: '28px 40px', fontSize: 54, fontWeight: 700, lineHeight: 1.55, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
-        <b style={{ color: C.violet }}>Smallest n</b> so that <Tex tex="1+2+\cdots+n" size={58} /> is a <b>multiple of 2024</b>?
+      <div style={{ position: 'absolute', left: 50, top: 290, width: 980, boxSizing: 'border-box', background: C.card, borderRadius: 32, padding: '26px 40px', fontSize: 54, fontWeight: 800, lineHeight: 1.45, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
+        <b style={{ color: C.violet }}>Smallest n</b> so that <Tex tex="1+2+\cdots+n" size={60} /> is a <b>multiple of 2024</b>?
       </div>
-      <div style={{ position: 'absolute', left: 60, top: 760, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 22 }}>
+      <div style={{ position: 'absolute', left: 60, top: 640, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 22 }}>
         {CHOICES.map((c, i) => (
-          <div key={c} style={{ ...fadeUp(f, start(i), 10), background: C.card, borderRadius: 18, padding: '10px 30px', boxShadow: '0 4px 14px rgba(30,40,80,0.07)', display: 'flex', alignItems: 'center', gap: 12, fontSize: 60, fontWeight: 800 }}>
-            <span style={{ color: C.muted, fontSize: 40 }}>{'ABCDE'[i]}</span>
-            {c}
+          <div key={c} style={{ ...fadeUp(f, start(i), 8), background: C.card, borderRadius: 22, padding: '12px 30px', boxShadow: '0 4px 14px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', gap: 14, scale: String(pulse(i)) }}>
+            <span style={{ color: C.muted, fontSize: 44, fontWeight: 900 }}>{'ABCDE'[i]}</span>
+            <Tex tex={c} size={68} />
           </div>
         ))}
       </div>
@@ -77,48 +94,95 @@ const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => 
   );
 };
 
-const Question: SceneComponent = ({ scene }) => <QuestionBody start={(i) => at(scene, 0, 0.62 + i * 0.07)} />;
-
-const Think: SceneComponent = ({ scene }) => (
+const Question: SceneComponent = ({ scene }) => (
   <>
-    <div style={{ opacity: 0.35 }}>
-      <QuestionBody start={() => -100} />
-    </div>
-    <div style={{ position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, background: 'rgba(246,247,251,0.6)' }} />
-    <Countdown scene={scene} seconds={3} x={540} y={900} tick={TICK} />
+    <QuestionBody start={(i) => at(scene, 0, 0.55 + i * 0.07)} />
+    <Sfx at={0} src={SFX.whoosh} volume={0.3} />
   </>
 );
 
-const ROW_Y = 620;
-const TX = [260, 460, 660];
-const TV = ['16', '11', '23'];
-// where each tile ends up: 16 and 11 share the n box, 23 sits in the n+1 box
-const DEST: [number, number][] = [[105, 905], [255, 905], [635, 905]];
+const Think: SceneComponent = () => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      <QuestionBody start={before} pulse={(i) => choicePulse(f, i)} />
+      <CommentBubble y={1000} />
+    </>
+  );
+};
+
+/** Shows the last step whose start has passed, popping on each change. */
+const Readout: React.FC<{ y: number; steps: [number, string, string][]; size?: number }> = ({ y, steps, size = 60 }) => {
+  const f = useCurrentFrame();
+  let k = -1;
+  steps.forEach(([s], i) => { if (f >= s) k = i; });
+  if (k < 0) return null;
+  const [s, tex, col] = steps[k];
+  return (
+    <Chip y={y}>
+      <div style={{ transform: `scale(${pop(f, s)})`, whiteSpace: 'nowrap' }}>
+        <Tex tex={tex} size={size} color={col} />
+      </div>
+    </Chip>
+  );
+};
+
+const X = '\\textcolor{#ef4343}{\\times}';
 
 const Share: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const t = (i: number, x = 0) => at(scene, i, x);
-  const boxO = ease(f, t(2, 0.1), 12);
-  const land = [t(2, 0.5), t(2, 0.65), t(2, 0.8)];
+  const t = (i: number, p = 0) => at(scene, i, p);
+  const tileIn = [t(0, 0.62), t(0, 0.76), t(0, 0.9)];
+  const land = [t(1, 0.45), t(1, 0.58), t(1, 0.71)];
+  const zoomIn = t(2, 0.02);
+  const zoomOut = t(2, 0.86);
+  const zoom = 1 + 0.2 * ease(f, zoomIn, 14) - 0.2 * ease(f, zoomOut, 14);
+  const m176 = t(2, 0.18);
+  const m352 = t(2, 0.38);
+  const fail = t(2, 0.6);
+  const nVal = f >= m352 ? '352' : f >= m176 ? '176' : null;
+  const sideVal = f >= m352 ? `353\\ ${f >= fail ? X : ''}` : f >= m176 ? `177\\ ${X}` : null;
   return (
     <>
-      <Title>Share the factors</Title>
-      <Mid y={400} tex={'1+2+\\cdots+n=\\dfrac{n(n+1)}{2}'} start={t(0, 0.1)} size={60} />
-      <Mid y={540} tex={'n(n+1)\\ \\text{needs}'} start={t(1, 0.1)} size={52} />
-      <Box x={90} y={790} w={360} h={250} o={boxO} label="n" size={60} />
-      <Box x={500} y={790} w={360} h={250} o={boxO} label="n+1" size={60} />
-      {TV.map((v, i) => {
-        const st = t(1, 0.45 + i * 0.18);
-        const mv = f < land[i] ? 0 : ease(f, land[i], 22);
-        const x = interpolate(mv, [0, 1], [TX[i], DEST[i][0]], clamp);
-        const y = interpolate(mv, [0, 1], [ROW_Y, DEST[i][1]], clamp);
-        return <Tile key={v} v={v} x={x} y={y} o={ease(f, st, 10)} />;
-      })}
-      <div style={{ position: 'absolute', left: 90, width: 360, top: 1062, display: 'flex', justifyContent: 'center', ...fadeUp(f, t(3, 0.15)) }}>
-        <Tex tex={'\\text{multiples of }176'} size={44} />
-      </div>
-      <div style={{ position: 'absolute', left: 500, width: 360, top: 1062, display: 'flex', justifyContent: 'center', ...fadeUp(f, t(3, 0.15)) }}>
-        <Tex tex={'\\text{multiples of }23'} size={44} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      {tileIn.map((s, i) => <Sfx key={i} at={s} src={SFX.click} volume={0.28} />)}
+      <Sfx at={land[0] - 4} src={SFX.whoosh} volume={0.25} />
+      {land.map((s, i) => <Sfx key={`l${i}`} at={s + 18} src={SFX.click} volume={0.22} />)}
+      <Sfx at={zoomIn} src={SFX.whoosh} volume={0.25} />
+      <Sfx at={m176} src={SFX.click} volume={0.3} />
+      <Sfx at={m352} src={SFX.click} volume={0.3} />
+      <Sfx at={fail} src={SFX.buzz} volume={0.15} />
+      <Sfx at={zoomOut} src={SFX.whoosh} volume={0.25} />
+      <Readout
+        y={278}
+        steps={[
+          [t(0, 0.02), '1+2+\\cdots+n=\\dfrac{n(n+1)}{2}', C.ink],
+          [t(1, 0.02), '\\text{neighbors share no factor}', C.violet],
+          [t(2, 0.05), '16\\times11=176', C.ink],
+        ]}
+      />
+      <Readout
+        y={448}
+        size={56}
+        steps={[
+          [t(0, 0.32), 'n(n+1)\\div 4048', C.ink],
+          [t(0, 0.55), '4048=16\\times11\\times23', C.ink],
+          [t(2, 0.05), '\\text{a }23\\text{ next door?}', C.amber],
+        ]}
+      />
+      <div style={{ position: 'absolute', inset: 0, transform: `scale(${zoom})`, transformOrigin: '540px 760px' }}>
+        <Boxes
+          vals={[
+            nVal && <div key="n" style={{ transform: `scale(${pop(f, nVal === '352' ? m352 : m176)})` }}><Tex tex={nVal} size={64} color={C.ink} /></div>,
+            sideVal && <div key="s" style={{ transform: `scale(${pop(f, nVal === '352' ? m352 : m176)})` }}><Tex tex={sideVal} size={56} color={C.muted} /></div>,
+          ]}
+        />
+        {TV.map((v, i) => {
+          const mv = ease(f, land[i], 20);
+          const x = interpolate(mv, [0, 1], [ROW[i][0], DEST[i][0]], clamp);
+          const y = interpolate(mv, [0, 1], [ROW[i][1], DEST[i][1]], clamp) - Math.sin(mv * Math.PI) * 60;
+          return <Tile key={v} v={v} x={x} y={y} o={ease(f, tileIn[i], 6)} s={0.6 + 0.4 * pop(f, tileIn[i])} />;
+        })}
       </div>
     </>
   );
@@ -126,47 +190,47 @@ const Share: SceneComponent = ({ scene }) => {
 
 const Reveal: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const t = (i: number, x = 0) => at(scene, i, x);
-  const hit = t(1, 0.3);
-  const chime = t(1, 1) - 4;
-  const chip = (v: string, x: number, y: number, st: number) => (
-    <div key={`${v}-${x}`} style={{ position: 'absolute', left: x, top: y, width: 100, height: 76, borderRadius: 20, background: COL[v], color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 46, fontWeight: 900, ...fadeUp(f, st, 10) }}>
-      {v}
-    </div>
-  );
+  const hit = at(scene, 0, 0.8);
+  const chime = at(scene, 0, 0.98);
+  const trap = at(scene, 1);
   return (
     <>
-      <Title>Neighbors that fit</Title>
-      <Box x={90} y={430} w={360} h={260} o={ease(f, t(0, 0.05), 10)} label="" />
-      <Box x={500} y={430} w={360} h={260} o={ease(f, t(0, 0.05), 10)} label="" />
-      <Text x={270} y={450} w={360} size={84} weight={900} align="center" style={fadeUp(f, t(0, 0.1))}>528</Text>
-      <Text x={680} y={450} w={360} size={84} weight={900} align="center" style={fadeUp(f, t(0, 0.5))}>529</Text>
-      {chip('16', 110, 580, t(0, 0.6))}
-      {chip('11', 225, 580, t(0, 0.7))}
-      {chip('3', 340, 580, t(0, 0.8))}
-      {chip('23', 520, 580, t(0, 0.8))}
-      {chip('23', 640, 580, t(0, 0.9))}
-      {pop(f, hit) > 0 && (
-        <div style={{ position: 'absolute', left: 0, width: 1080, top: 780, display: 'flex', justifyContent: 'center' }}>
-          <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '10px 56px', fontSize: 96, fontWeight: 900, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>n = 528</div>
+      <Chip y={290}>
+        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '10px 48px', display: 'flex', alignItems: 'center', gap: 24, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
+          <span style={{ fontSize: 60, fontWeight: 900 }}>C</span>
+          <Tex tex="528" size={104} color="#fff" />
         </div>
-      )}
-      <Text x={540} y={960} w={900} size={64} weight={900} color={C.violet} align="center" style={fadeUp(f, t(1, 0.78))}>
-        Choice C
-      </Text>
+      </Chip>
+      <Boxes
+        vals={[
+          <div key="n" style={{ opacity: ease(f, hit, 6), transform: `scale(${pop(f, hit)})` }}><Tex tex="528" size={64} color={C.green} /></div>,
+          <div key="s" style={fadeUp(f, at(scene, 0, 0.05))}><Tex tex="529=23\times23" size={56} color={C.green} /></div>,
+        ]}
+      />
+      {TV.map((v, i) => <Tile key={v} v={v} x={DEST[i][0]} y={DEST[i][1]} />)}
+      <Chip y={935}>
+        <div style={fadeUp(f, trap)}>
+          <Tex tex={'2024=\\textcolor{#ef4343}{\\boxed{8}}\\times11\\times23'} size={60} />
+        </div>
+      </Chip>
+      <Chip y={1040}>
+        <div style={fadeUp(f, at(scene, 1, 0.4))}>
+          <Tex tex={'253=11\\times23\\ \\ \\textcolor{#ef4343}{\\text{no }8}'} size={56} color={C.red} />
+        </div>
+      </Chip>
+      <CtaPill start={at(scene, 2)} y={1170} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={hit - 31} src={SFX.riser} volume={0.3} />
+      <Sfx at={trap} src={SFX.buzz} volume={0.2} />
       <Sequence from={chime} durationInFrames={60} layout="none">
         <Audio src={CHIME} volume={0.3} />
       </Sequence>
-      <Confetti x={540} y={850} start={chime} seed={9} />
+      <Confetti x={540} y={370} start={chime} seed={5} />
     </>
   );
 };
 
-const Cta: SceneComponent = ({ scene }) => (
-  <FullLessonCard scene={scene} poster={staticFile(`${SLUG}/short/full.jpg`)} length="6:58" bullets={['Two ways to solve it', 'Why 736 is a trap', 'A 2025 puzzle to try']} />
-);
-
-const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, share: Share, reveal: Reveal, cta: Cta };
+const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, share: Share, reveal: Reveal };
 
 export const Short: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
-  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" /> : null;
+  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 10-style" captions="words" music={MUSIC} /> : null;

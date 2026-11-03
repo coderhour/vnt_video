@@ -1,27 +1,21 @@
 # No Three in a Row (short)
 
-Flip a coin eight times. Will the same side come up three times in a row?
-
-It happens almost three times out of four!
+AMC eight challenge! Think it's seventeen over one hundred twenty-eight? Nope!
 
 A fair coin is flipped eight times.
 
-What is the chance the same side never comes up three times in a row?
+What's the chance the same side never comes up three times in a row?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Count the good strings, flip by flip. One flip has two. Two flips have four.
 
-Count the good strings, one flip at a time. One flip has two. Two flips have four.
+A good string ends in a single or a double. So four plus two is six!
 
-Here's the pattern. Each count is the sum of the two before it!
+Keep adding: ten, sixteen, twenty-six, forty-two, sixty-eight!
 
-Six, ten, sixteen, twenty-six, forty-two, sixty-eight!
+Sixty-eight out of two hundred fifty-six. That's seventeen over sixty-four!
 
-Sixty-eight good strings, out of two hundred fifty-six. That's seventeen over sixty-four, choice D!
+Seventeen over one hundred twenty-eight was the trap.
 
-Only about twenty-seven percent. So three in a row is really common!
-
-Why does it work? The full lesson shows two methods, plus every trap.
-
-Tap the link below to watch it!
+Did you get seventeen over sixty-four? Tell me below!

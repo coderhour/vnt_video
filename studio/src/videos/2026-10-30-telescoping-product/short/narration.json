@@ -1,30 +1,55 @@
 {
  "title": "The Product That Collapses (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
-  {"id": "hook", "lines": [
-   "Four brackets, all multiplied. Don't multiply them out!",
-   "There's a trick that makes it collapse."
-  ]},
-  {"id": "question", "lines": [
-   "What is the value of the whole product?",
-   "Here are the choices."
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "helper", "lines": [
-   "Bring in a helper: one minus one over two.",
-   "Helper times the first bracket is one minus one over four. Each step knocks over the next one!",
-   "The chain collapses to one minus one over two hundred fifty-six squared.",
-   "We used one half, so double the result!"
-  ]},
-  {"id": "reveal", "lines": [
-   "Two, minus two over two hundred fifty-six squared!",
-   "That's choice C."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Why does the helper work? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
- ]
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's just under one? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Multiply these four brackets. What do you get?",
+    "Each bottom number is the one before it, squared."
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "helper",
+   "lines": [
+    "Bring in a helper: one minus one over two.",
+    "Multiply by the first bracket: one minus one over four.",
+    "Then one minus one over sixteen. Then one minus one over two hundred fifty-six.",
+    "Finally, one minus one over two hundred fifty-six squared. The chain collapses!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Undo the helper: double it. That's choice C!",
+    "Just under one was the trap. It forgets to undo the helper.",
+    "Did you get C? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's just under one? Nope!": "AMC 8 challenge! Think it's just under 1? Nope!",
+  "Bring in a helper: one minus one over two.": "Bring in a helper: 1 − 1/2.",
+  "Multiply by the first bracket: one minus one over four.": "Multiply by the first bracket: 1 − 1/4.",
+  "Then one minus one over sixteen. Then one minus one over two hundred fifty-six.": "Then 1 − 1/16. Then 1 − 1/256.",
+  "Finally, one minus one over two hundred fifty-six squared. The chain collapses!": "Finally, 1 − 1/256². The chain collapses!",
+  "Just under one was the trap. It forgets to undo the helper.": "Just under 1 was the trap. It forgets to undo the helper."
+ }
 }

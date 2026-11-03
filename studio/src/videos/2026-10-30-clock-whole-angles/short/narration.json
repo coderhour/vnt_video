@@ -1,30 +1,51 @@
 {
  "title": "When Is the Clock Angle a Whole Number? (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "Look at every minute from one o'clock to one fifty-nine.": "Look at every minute from 1:00 to 1:59.",
+  "Twenty-nine was the trap. It forgets one o'clock.": "29 was the trap. It forgets 1:00."
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "At one o'clock, the hands make thirty degrees. A nice whole number.",
-   "One minute later? Twenty-four and a half! Not whole."
-  ]},
-  {"id": "question", "lines": [
-   "Look at every minute from one o'clock to one fifty-nine.",
-   "At how many of those times is the smaller angle a whole number of degrees?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "hands", "lines": [
-   "The minute hand moves six degrees a minute. Always whole.",
-   "The hour hand moves half a degree a minute.",
-   "Even minutes: whole. Odd minutes: a half.",
-   "Whole minus a half is never whole. So every other minute works!"
-  ]},
-  {"id": "reveal", "lines": [
-   "Half of the sixty times. That's thirty!",
-   "And one o'clock counts too."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "The full lesson shows two neat ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's twenty-nine? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Look at every minute from one o'clock to one fifty-nine.",
+    "At how many of those times is the smaller angle between the hands a whole number of degrees?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "hands",
+   "lines": [
+    "The minute hand moves six degrees a minute. That's always a whole number.",
+    "The hour hand starts at thirty, and moves half a degree a minute.",
+    "On odd minutes, it's on a half, like thirty and a half. On even minutes, it's whole.",
+    "Whole minus a half is never whole. So the angle is whole every other minute!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Half of the sixty times. That's thirty!",
+    "Twenty-nine was the trap. It forgets one o'clock.",
+    "Did you get thirty? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1576,
+ "durationInFrames": 1182,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 230,
+   "frames": 121,
    "lines": [
     {
-     "text": "Add one plus two plus three, up to n.",
-     "caption": "Add one plus two plus three, up to n.",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/2951da0e4e49404e.wav",
+     "text": "AMC ten challenge! Think it's two hundred fifty-three? Nope!",
+     "caption": "AMC 10 challenge! Think it's 253? Nope!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/9885776d8d1e0971.wav",
      "from": 0,
-     "frames": 88
-    },
-    {
-     "text": "When is the total a multiple of two thousand twenty-four?",
-     "caption": "When is the total a multiple of two thousand twenty-four?",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/c025a074c9f7aa9d.wav",
-     "from": 98,
-     "frames": 108
+     "frames": 110
     }
    ]
   },
@@ -29,31 +22,31 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 230,
-   "frames": 182,
+   "from": 121,
+   "frames": 156,
    "lines": [
     {
-     "text": "What's the smallest n that makes the sum a multiple of two thousand twenty-four?",
-     "caption": "What's the smallest n that makes the sum a multiple of two thousand twenty-four?",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/5c650d749396ea8b.wav",
+     "text": "Find the smallest n so that one plus two, up to n, is a multiple of two thousand twenty-four.",
+     "caption": "Find the smallest n so that 1 + 2, up to n, is a multiple of 2024.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/0eb0d34887507a22.wav",
      "from": 0,
-     "frames": 129
+     "frames": 144
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 412,
-   "frames": 156,
+   "from": 277,
+   "frames": 66,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 42
+     "frames": 54
     }
    ]
   },
@@ -61,36 +54,29 @@
    "id": "share",
    "kind": "scene",
    "chapter": null,
-   "from": 568,
-   "frames": 525,
+   "from": 343,
+   "frames": 480,
    "lines": [
     {
-     "text": "The sum is half of n times n plus one.",
-     "caption": "The sum is half of n times n plus one.",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/e140abf9bdf7ef7e.wav",
+     "text": "Double the sum: n times n plus one needs sixteen, eleven and twenty-three.",
+     "caption": "Double the sum: n \u00d7 (n + 1) needs 16, 11 and 23.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/fd7a6e0589a1e5ac.wav",
      "from": 0,
-     "frames": 95
+     "frames": 148
     },
     {
-     "text": "So n times n plus one needs sixteen, eleven and twenty-three.",
-     "caption": "So n times n plus one needs sixteen, eleven and twenty-three.",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/f1ffda1a09d6dcf6.wav",
-     "from": 106,
-     "frames": 135
+     "text": "Neighbors share no factors, so each piece goes whole into one of them.",
+     "caption": "Neighbors share no factors, so each piece goes whole into one of them.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/81866585dafa66c5.wav",
+     "from": 152,
+     "frames": 123
     },
     {
-     "text": "Here's the trick. Neighbors share no factors, so each goes whole into one of them.",
-     "caption": "Here's the trick. Neighbors share no factors, so each goes whole into one of them.",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/8ae0cbf5f18b2baf.wav",
-     "from": 251,
-     "frames": 146
-    },
-    {
-     "text": "Sort them into two boxes, and check the multiples.",
-     "caption": "Sort them into two boxes, and check the multiples.",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/1f5eb9993b86ba86.wav",
-     "from": 406,
-     "frames": 95
+     "text": "Sixteen and eleven: one hundred seventy-six, three hundred fifty-two. Neither has a twenty-three next door!",
+     "caption": "16 and 11: 176, 352. Neither has a 23 next door!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/95035b21b370014f.wav",
+     "from": 279,
+     "frames": 189
     }
    ]
   },
@@ -98,45 +84,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1093,
-   "frames": 264,
+   "from": 823,
+   "frames": 359,
    "lines": [
     {
-     "text": "Five hundred twenty-eight and five hundred twenty-nine fit perfectly.",
-     "caption": "Five hundred twenty-eight and five hundred twenty-nine fit perfectly.",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/ad1d62176e9fa72b.wav",
+     "text": "Five hundred twenty-nine is twenty-three squared! So n is five hundred twenty-eight.",
+     "caption": "529 is 23\u00b2! So n is 528.",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/f5764169e7b05efe.wav",
      "from": 0,
-     "frames": 114
+     "frames": 129
     },
     {
-     "text": "So n is five hundred twenty-eight: Choice C!",
-     "caption": "So n is five hundred twenty-eight: Choice C!",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/46e1025d5fe6f654.wav",
-     "from": 125,
-     "frames": 104
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1357,
-   "frames": 219,
-   "lines": [
-    {
-     "text": "The full lesson shows two ways, plus every trap.",
-     "caption": "The full lesson shows two ways, plus every trap.",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/e45b2dc36cb38db5.wav",
-     "from": 0,
-     "frames": 110
+     "text": "Two hundred fifty-three was the trap. It forgets the eight!",
+     "caption": "253 was the trap. It forgets the 8!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/eeb149cfc1ae31f5.wav",
+     "from": 132,
+     "frames": 95
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-11-01-triangle-sum-2024/short/audio/82b8b7e1a12a7449.wav",
-     "from": 120,
-     "frames": 52
+     "text": "Did you get five hundred twenty-eight? Tell me below!",
+     "caption": "Did you get 528? Tell me below!",
+     "file": "2026-11-01-triangle-sum-2024/short/audio/45167a0e9956c7a4.wav",
+     "from": 232,
+     "frames": 92
     }
    ]
   }

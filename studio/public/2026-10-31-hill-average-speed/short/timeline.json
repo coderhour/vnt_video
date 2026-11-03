@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1697,
+ "durationInFrames": 1141,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 241,
+   "frames": 107,
    "lines": [
     {
-     "text": "Jo bikes up a hill slowly, then zooms back down.",
-     "caption": "Jo bikes up a hill slowly, then zooms back down.",
-     "file": "2026-10-31-hill-average-speed/short/audio/916c2c424a38ed2a.wav",
+     "text": "AMC eight challenge! Think it's twenty-four? Nope!",
+     "caption": "AMC 8 challenge! Think it's 24? Nope!",
+     "file": "2026-10-31-hill-average-speed/short/audio/73009ca50d3d3847.wav",
      "from": 0,
-     "frames": 111
-    },
-    {
-     "text": "Is her average just the average of the two speeds?",
-     "caption": "Is her average just the average of the two speeds?",
-     "file": "2026-10-31-hill-average-speed/short/audio/9c30e037aaf67296.wav",
-     "from": 121,
-     "frames": 96
+     "frames": 95
     }
    ]
   },
@@ -29,68 +22,75 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 241,
-   "frames": 315,
+   "from": 107,
+   "frames": 268,
    "lines": [
     {
      "text": "Jo bikes up a three kilometer hill at twelve kilometers per hour, then back down at ten meters per second.",
-     "caption": "Jo bikes up a three kilometer hill at twelve kilometers per hour, then back down at ten meters per second.",
-     "file": "2026-10-31-hill-average-speed/short/audio/297850843ac0880a.wav",
+     "caption": "Jo bikes up a 3 kilometer hill at 12 kilometers per hour, then back down at 10 meters per second.",
+     "file": "2026-10-31-hill-average-speed/short/audio/3de6e9a0da2b4b9c.wav",
      "from": 0,
-     "frames": 184
+     "frames": 177
     },
     {
-     "text": "What's her average speed in kilometers per hour?",
-     "caption": "What's her average speed in kilometers per hour?",
-     "file": "2026-10-31-hill-average-speed/short/audio/645193ca91f0a900.wav",
-     "from": 194,
-     "frames": 88
+     "text": "Her average speed, in kilometers per hour?",
+     "caption": "Her average speed, in kilometers per hour?",
+     "file": "2026-10-31-hill-average-speed/short/audio/e5f3b5a0da5241c5.wav",
+     "from": 181,
+     "frames": 76
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 556,
-   "frames": 157,
+   "from": 375,
+   "frames": 76,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-hill-average-speed/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-hill-average-speed/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 44
+     "frames": 64
     }
    ]
   },
   {
-   "id": "times",
+   "id": "clock",
    "kind": "scene",
    "chapter": null,
-   "from": 713,
-   "frames": 437,
+   "from": 451,
+   "frames": 414,
    "lines": [
     {
-     "text": "First fix the units. Ten meters per second is thirty-six kilometers per hour.",
-     "caption": "First fix the units. Ten meters per second is thirty-six kilometers per hour.",
-     "file": "2026-10-31-hill-average-speed/short/audio/51a37efe3cbf7b44.wav",
+     "text": "Ten meters per second is thirty-six kilometers per hour.",
+     "caption": "10 meters per second is 36 kilometers per hour.",
+     "file": "2026-10-31-hill-average-speed/short/audio/be68b292317a7fde.wav",
      "from": 0,
-     "frames": 148
+     "frames": 102
     },
     {
-     "text": "Up takes fifteen minutes. Down takes just five.",
-     "caption": "Up takes fifteen minutes. Down takes just five.",
-     "file": "2026-10-31-hill-average-speed/short/audio/eb1fb9428beaaf56.wav",
-     "from": 158,
-     "frames": 114
+     "text": "Going up takes fifteen minutes. Going down takes just five.",
+     "caption": "Going up takes 15 minutes. Going down takes just 5.",
+     "file": "2026-10-31-hill-average-speed/short/audio/d44ad12e5d527aeb.wav",
+     "from": 106,
+     "frames": 108
     },
     {
-     "text": "Six kilometers in twenty minutes. That's three times as far in one hour!",
-     "caption": "Six kilometers in twenty minutes. That's three times as far in one hour!",
-     "file": "2026-10-31-hill-average-speed/short/audio/b947448948bd0440.wav",
-     "from": 282,
-     "frames": 131
+     "text": "Six kilometers in twenty minutes, a third of an hour.",
+     "caption": "6 kilometers in 20 minutes, a third of an hour.",
+     "file": "2026-10-31-hill-average-speed/short/audio/b67312365e4451c7.wav",
+     "from": 219,
+     "frames": 87
+    },
+    {
+     "text": "So in one hour, she goes three times as far!",
+     "caption": "So in one hour, she goes 3 times as far!",
+     "file": "2026-10-31-hill-average-speed/short/audio/ac3b3fce7e820e04.wav",
+     "from": 310,
+     "frames": 93
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1150,
-   "frames": 251,
+   "from": 865,
+   "frames": 276,
    "lines": [
     {
      "text": "Six times three is eighteen kilometers per hour!",
-     "caption": "Six times three is eighteen kilometers per hour!",
-     "file": "2026-10-31-hill-average-speed/short/audio/5217e8b5945e758b.wav",
+     "caption": "6 times 3 is 18 kilometers per hour!",
+     "file": "2026-10-31-hill-average-speed/short/audio/0a93f760b7f8adf9.wav",
      "from": 0,
-     "frames": 99
+     "frames": 102
     },
     {
-     "text": "Averaging speeds is a trap. She's slow for longer!",
-     "caption": "Averaging speeds is a trap. She's slow for longer!",
-     "file": "2026-10-31-hill-average-speed/short/audio/b2fa5341725837e9.wav",
-     "from": 109,
-     "frames": 104
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1401,
-   "frames": 296,
-   "lines": [
-    {
-     "text": "Why is the average so low? The full lesson shows two ways, plus every trap.",
-     "caption": "Why is the average so low? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-31-hill-average-speed/short/audio/30166b95c34c67de.wav",
-     "from": 0,
-     "frames": 165
+     "text": "Twenty-four was the trap.",
+     "caption": "24 was the trap.",
+     "file": "2026-10-31-hill-average-speed/short/audio/a4bf089f62ccf3cc.wav",
+     "from": 107,
+     "frames": 57
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-hill-average-speed/short/audio/82b8b7e1a12a7449.wav",
-     "from": 175,
-     "frames": 52
+     "text": "Did you get eighteen? Tell me below!",
+     "caption": "Did you get 18? Tell me below!",
+     "file": "2026-10-31-hill-average-speed/short/audio/efb181ef85baf827.wav",
+     "from": 168,
+     "frames": 72
     }
    ]
   }

@@ -1,54 +1,54 @@
 {
  "title": "Isosceles Angle Chase (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "A B equals A C, and B D equals B C. Angle A B D is twenty-four degrees.": "AB equals AC, and BD equals BC. Angle ABD is 24°.",
+  "B D equals B C, so angle C is a plus twenty-four too.": "BD equals BC, so angle C is a plus 24 too.",
+  "And angle A B C matches angle C.": "And angle ABC matches angle C.",
+  "The big triangle: three a plus forty-eight is one hundred eighty.": "The big triangle: 3a plus 48 is 180.",
+  "Three a is one hundred thirty-two, so a is forty-four!": "3a is 132, so a is 44!"
+ },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Two isosceles triangles, one angle given.",
-    "Find the angle at the top!"
+    "AMC eight challenge! Think it's twenty-four? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
     "A B equals A C, and B D equals B C. Angle A B D is twenty-four degrees.",
-    "What is angle A at the top?"
-   ],
-   "hold": 0.3
+    "What is angle A, at the top?"
+   ]
   },
   {
    "id": "think",
    "lines": [
-    "Pause and try it!"
-   ],
-   "kind": "pause",
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "chase",
    "lines": [
-    "Call the top angle a. The outside angle B D C equals a plus twenty-four.",
-    "Angle C matches it, and so does angle A B C.",
-    "All three angles of the big triangle: three a plus forty-eight equals one hundred eighty."
+    "Call the top angle a. The outside angle at D is a plus twenty-four.",
+    "B D equals B C, so angle C is a plus twenty-four too.",
+    "And angle A B C matches angle C.",
+    "The big triangle: three a plus forty-eight is one hundred eighty."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Three a is one hundred thirty-two. So a is forty-four degrees!",
-    "The twenty-four is the trap!"
+    "Three a is one hundred thirty-two, so a is forty-four!",
+    "Twenty-four was the trap.",
+    "Did you get forty-four? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Is there another way? The full lesson shows two, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
  ]
 }

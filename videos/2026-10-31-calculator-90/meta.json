@@ -7,6 +7,13 @@
  "short": {
   "title": "+1 and x2 Only: 3 to 90 in Fewest Presses #Shorts",
   "description": "A calculator with only +1 and x2. Working backwards from 90 finds the shortest path to the answer.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 13,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

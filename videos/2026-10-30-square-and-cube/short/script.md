@@ -1,27 +1,23 @@
 # Square AND Cube? (short)
 
-Twenty times n is a perfect square. Fifty times n is a perfect cube!
+AMC eight challenge! Think it's fifty? Nope!
 
-Can ONE number do both?
+Twenty times n is a perfect square. Fifty times n is a perfect cube.
 
-What is the smallest n that works?
+Find the smallest one!
 
-Here are the choices.
-
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
+Comment your letter, then watch!
 
 Twenty is two times two times five. Fifty is two times five times five.
 
-A square needs even counts. A cube needs multiples of three.
+Squares need even counts. Cubes need multiples of three.
 
-The twos need two copies. The fives need one. So n is two times two times five.
+Add twos. One fails both, but two work for both!
 
-That's twenty!
+For the fives, just one fixes both!
 
-Twenty times twenty is four hundred, a square. Fifty times twenty is one thousand, a cube.
+So n is two times two times five. That's twenty!
 
-Why does that work? The full lesson shows two ways, plus every trap.
+Fifty was the trap. It makes a cube, but not a square.
 
-Tap the link below to watch it!
+Did you get twenty? Tell me below!

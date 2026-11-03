@@ -1,27 +1,23 @@
 # Dots Exactly 5 Apart (short)
 
-Twenty-five dots in a grid.
+AMC eight challenge! Think it's sixteen? Nope!
 
-How many pairs are exactly five units apart?
+Twenty-five dots, one unit apart in rows and columns.
 
-The dots are one unit apart, in rows and columns.
+How many pairs of dots are exactly five units apart?
 
-Count the pairs of dots that are exactly five units apart.
+Comment your letter, then watch!
 
-Pause and try it!
+A row of five dots is only four units long. So the pair must be on a slant!
 
-*(Pause and try it: 3 s countdown)*
+Three across and four down makes a three, four, five triangle.
 
-A row of five dots is only four units long. So five has to be a slant!
+It fits in two spots, side by side.
 
-Three across and four down is a three, four, five triangle.
+Point it right or left, and swap the three and four. That's four slants!
 
-It fits in two spots, and there are four different slants.
+Four slants, two spots each. That's eight pairs!
 
-Four slants, two spots each. That makes eight pairs!
+Sixteen was the trap. It counts every pair twice.
 
-Sixteen is the trap. It counts every pair twice.
-
-Why does each slant fit twice? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get eight? Tell me below!

@@ -1,27 +1,23 @@
 # Meet Twice (short)
 
-Two friends walk toward each other, pass, turn around, and meet again.
+AMC eight challenge! Think it's twenty-two? Nope!
 
-One number unlocks it: THREE!
+Ann and Bo meet twelve kilometers from A, then turn back at the far towns.
 
-Two walkers first meet twelve kilometers from town A, then turn around at the far end.
+They meet again ten kilometers from A. How far apart are the towns?
 
-They meet again ten kilometers from town A. How far apart are the towns?
+Comment your letter, then watch!
 
-Pause and try it!
+By the first meeting they cover one road, and Ann's part is twelve.
 
-*(Pause and try it: 3 s countdown)*
+Then each walks the whole road, and both pieces back. THREE roads!
 
-Here's the trick. At the first meeting, they've walked one road together. Ann's part is twelve.
+Same speed, so she walks three times twelve. Thirty-six!
 
-At the second meeting, that's THREE roads together. So Ann walked thirty-six.
+That's the whole road, then the road minus ten.
 
-She walked the whole road, then back to ten kilometers from town A.
+Two roads are forty-six, so one road is twenty-three!
 
-So road plus road minus ten is thirty-six. The road is twenty-three kilometers!
+Twenty-two was the trap. It just adds twelve and ten.
 
-That's Choice D.
-
-Want to see why? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get twenty-three? Tell me below!

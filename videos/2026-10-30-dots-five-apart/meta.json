@@ -7,6 +7,13 @@
  "short": {
   "title": "Which dots are exactly 5 apart? #Shorts",
   "description": "25 dots in a grid: how many pairs are exactly 5 units apart? A 3-4-5 triangle hides the answer.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 16,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

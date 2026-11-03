@@ -5,8 +5,15 @@
  "question_id": "amc_practice_amc8_geometry_template:c1-578",
  "posts": [],
  "short": {
-  "title": "A 36-Unit String: How Many Triangles? #Shorts",
+  "title": "Perimeter 36, All Sides Different: How Many Triangles? #Shorts",
   "description": "List the triangles by their longest side and never miss one.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 36,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

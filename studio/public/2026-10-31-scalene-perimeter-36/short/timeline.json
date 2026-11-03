@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1690,
+ "durationInFrames": 1155,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 300,
+   "frames": 107,
    "lines": [
     {
-     "text": "A string thirty-six units long. How many different triangles can you bend it into?",
-     "caption": "A string thirty-six units long. How many different triangles can you bend it into?",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/a71d3c9742d300c5.wav",
+     "text": "AMC eight challenge! Think it's twenty-seven? Nope!",
+     "caption": "AMC 8 challenge! Think it's 27? Nope!",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/6234a9a2ee6926e3.wav",
      "from": 0,
-     "frames": 146
-    },
-    {
-     "text": "Whole-number sides, all three different. Most kids lose count!",
-     "caption": "Whole-number sides, all three different. Most kids lose count!",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/3b128c0e322bf784.wav",
-     "from": 156,
-     "frames": 120
+     "frames": 95
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 300,
-   "frames": 239,
+   "from": 107,
+   "frames": 185,
    "lines": [
     {
      "text": "Whole-number sides, all three different, and a perimeter of thirty-six.",
-     "caption": "Whole-number sides, all three different, and a perimeter of thirty-six.",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/b2bbf025284fbca2.wav",
+     "caption": "Whole-number sides, all 3 different, and a perimeter of 36.",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/a20f4915ff6ef16f.wav",
      "from": 0,
-     "frames": 134
+     "frames": 116
     },
     {
      "text": "How many triangles are there?",
      "caption": "How many triangles are there?",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/560668767cbe03ee.wav",
-     "from": 143,
-     "frames": 63
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/eab589788f3fcd51.wav",
+     "from": 119,
+     "frames": 54
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 539,
-   "frames": 156,
+   "from": 292,
+   "frames": 72,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 42
+     "frames": 60
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "list",
    "kind": "scene",
    "chapter": null,
-   "from": 695,
-   "frames": 483,
+   "from": 364,
+   "frames": 463,
    "lines": [
     {
-     "text": "The trick: fix the longest side. It has to be from twelve to seventeen.",
-     "caption": "The trick: fix the longest side. It has to be from twelve to seventeen.",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/451e2f5cc7f1fe8f.wav",
+     "text": "The trick? Fix the longest side first. It runs from twelve to seventeen.",
+     "caption": "The trick? Fix the longest side first. It runs from 12 to 17.",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/41e20d59d5524a78.wav",
      "from": 0,
-     "frames": 143
+     "frames": 132
     },
     {
-     "text": "A longest side of seventeen gives seven triangles. Sixteen gives five. Fifteen, four.",
-     "caption": "A longest side of seventeen gives seven triangles. Sixteen gives five. Fifteen, four.",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/5c032ca9fce3518f.wav",
-     "from": 153,
-     "frames": 186
+     "text": "Longest seventeen: three and sixteen, up to nine and ten. That's seven.",
+     "caption": "Longest 17: 3 and 16, up to 9 and 10. That's 7.",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/a996bdbd7ae24a4b.wav",
+     "from": 137,
+     "frames": 130
     },
     {
-     "text": "Fourteen gives two, thirteen gives one, and twelve gives none.",
-     "caption": "Fourteen gives two, thirteen gives one, and twelve gives none.",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/0e32d97d5fc772cb.wav",
-     "from": 350,
-     "frames": 110
+     "text": "Sixteen gives five, fifteen gives four, fourteen gives two, thirteen gives one, twelve none.",
+     "caption": "16 gives 5, 15 gives 4, 14 gives 2, 13 gives 1, 12 none.",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/dcd0fb0f865a4405.wav",
+     "from": 271,
+     "frames": 180
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1178,
-   "frames": 266,
+   "from": 827,
+   "frames": 328,
    "lines": [
     {
-     "text": "Seven plus five plus four plus two plus one: nineteen!",
-     "caption": "Seven plus five plus four plus two plus one: nineteen!",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/408c8d55cf13f6e8.wav",
+     "text": "Seven plus five plus four plus two plus one. That's nineteen!",
+     "caption": "7 plus 5 plus 4 plus 2 plus 1. That's 19!",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/84b84e315285008e.wav",
      "from": 0,
-     "frames": 131
+     "frames": 126
     },
     {
-     "text": "An organized list never loses a triangle.",
-     "caption": "An organized list never loses a triangle.",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/6fc337a6997293c0.wav",
-     "from": 141,
-     "frames": 87
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1444,
-   "frames": 246,
-   "lines": [
-    {
-     "text": "Want to see why? The full lesson has two neat ways and every trap.",
-     "caption": "Want to see why? The full lesson has two neat ways and every trap.",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/189edcd4e99ec8dd.wav",
-     "from": 0,
-     "frames": 131
+     "text": "Twenty-seven was the trap. It counts the repeats too.",
+     "caption": "27 was the trap. It counts the repeats too.",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/ffa160ec2d2f7000.wav",
+     "from": 131,
+     "frames": 90
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-scalene-perimeter-36/short/audio/82b8b7e1a12a7449.wav",
-     "from": 142,
-     "frames": 57
+     "text": "Did you get nineteen? Tell me below!",
+     "caption": "Did you get 19? Tell me below!",
+     "file": "2026-10-31-scalene-perimeter-36/short/audio/dc469b4ed291dc7a.wav",
+     "from": 225,
+     "frames": 68
     }
    ]
   }

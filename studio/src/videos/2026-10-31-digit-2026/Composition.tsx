@@ -11,22 +11,22 @@ import { C } from '../../lib/theme';
 import { interpolate } from 'remotion';
 
 export const SLUG = '2026-10-31-digit-2026';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`);
 
-const G1 = C.primary; // 1-digit numbers
-const G2 = C.violet; // 2-digit numbers
-const G3 = '#e08600'; // 3-digit numbers (amber, darker for text)
+export const G1 = C.primary; // 1-digit numbers
+export const G2 = C.violet; // 2-digit numbers
+export const G3 = '#e08600'; // 3-digit numbers (amber, darker for text)
 const TINT = ['rgba(12, 194, 129, 0.20)', 'rgba(123, 97, 255, 0.16)'];
 
-const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
+export const col = (c: string, t: string) => `{\\color{${c}}${t}}`;
 
 // ---------- the digit ribbon ----------
 
-type Item = { ch: string; num: number; k: number; last: boolean; spot: number; n: number };
+export type Item = { ch: string; num: number; k: number; last: boolean; spot: number; n: number };
 
 /** Digits of the whole numbers from..to written in a row; spot0 = spot of the first digit. */
-const digitsOf = (from: number, to: number, spot0 = 1): Item[] => {
+export const digitsOf = (from: number, to: number, spot0 = 1): Item[] => {
   const out: Item[] = [];
   let spot = spot0;
   for (let n = from; n <= to; n++) {
@@ -51,7 +51,7 @@ type RibbonP = {
   tintOf?: (it: Item) => number;
 };
 
-const Ribbon: React.FC<RibbonP> = ({ x, y, items, cw = 80, size = 64, gap = 8, deco, spotOp, spotLabel, spotSize = 48, tintOf }) => {
+export const Ribbon: React.FC<RibbonP> = ({ x, y, items, cw = 80, size = 64, gap = 8, deco, spotOp, spotLabel, spotSize = 48, tintOf }) => {
   const h = Math.round(size * 1.3);
   return (
     <>
@@ -101,7 +101,7 @@ const Ribbon: React.FC<RibbonP> = ({ x, y, items, cw = 80, size = 64, gap = 8, d
   );
 };
 
-const Dots: React.FC<{ x: number; y: number; size?: number; op?: number }> = ({ x, y, size = 64, op = 1 }) => (
+export const Dots: React.FC<{ x: number; y: number; size?: number; op?: number }> = ({ x, y, size = 64, op = 1 }) => (
   <div style={{ position: 'absolute', left: x, top: y, height: Math.round(size * 1.3), display: 'flex', alignItems: 'center', fontSize: size, fontWeight: 800, color: C.muted, opacity: op }}>…</div>
 );
 
@@ -132,7 +132,7 @@ const QCard: React.FC<{ x: number; y: number; w: number; size?: number; children
 const Fade: React.FC<{ op: number; children: React.ReactNode }> = ({ op, children }) => (op <= 0 ? null : <div style={{ opacity: op, position: 'absolute', inset: 0 }}>{children}</div>);
 
 /** Horizontal bar made of coloured segments (not to scale). */
-const Seg: React.FC<{ x: number; y: number; w: number; h?: number; color: string; label: string; op?: number; txt?: string; size?: number; r?: string }> = ({ x, y, w, h = 90, color, label, op = 1, txt = '#fff', size = 54, r = '10px' }) => (
+export const Seg: React.FC<{ x: number; y: number; w: number; h?: number; color: string; label: string; op?: number; txt?: string; size?: number; r?: string }> = ({ x, y, w, h = 90, color, label, op = 1, txt = '#fff', size = 54, r = '10px' }) => (
   <div style={{ position: 'absolute', left: x, top: y, width: w, height: h, background: color, borderRadius: r, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: size, fontWeight: 900, color: txt, opacity: op, whiteSpace: 'nowrap' }}>{label}</div>
 );
 

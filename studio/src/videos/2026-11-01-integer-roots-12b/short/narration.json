@@ -1,29 +1,51 @@
 {
  "title": "When Are Both Roots Integers (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?": "For how many integers b are both roots of x² + bx + 12b = 0 integers?",
+  "Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.": "Call the roots r and s. Sum and product give rs + 12r + 12s = 0.",
+  "So r plus twelve, times s plus twelve, equals one hundred forty-four.": "So (r+12)(s+12) = 144."
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "Put b equals negative one. The roots are four and negative three.",
-   "Both whole numbers! How many values of b do that?"
-  ]},
-  {"id": "question", "lines": [
-   "For how many integers b are both roots of this equation integers?",
-   "Pick one of the five choices."
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "trick", "lines": [
-   "Call the roots r and s. Sum and product give this neat equation.",
-   "Here's the trick. Add one hundred forty-four to both sides.",
-   "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four."
-  ]},
-  {"id": "reveal", "lines": [
-   "Factor pairs of one hundred forty-four: eight positive, and eight negative.",
-   "Eight plus eight is sixteen. That's Choice C!"
-  ], "hold": 0.4},
-  {"id": "cta", "lines": [
-   "Why exactly that? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 0.8}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's eight? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "trick",
+   "lines": [
+    "Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.",
+    "Add one hundred forty-four to both sides. That fills the grid!",
+    "So r plus twelve, times s plus twelve, equals one hundred forty-four.",
+    "Its factor pairs: eight positive, and eight negative!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Every pair gives a different value of b. That's sixteen!",
+    "Eight was the trap: it forgets the negatives.",
+    "Did you get sixteen? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

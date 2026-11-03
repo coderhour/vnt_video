@@ -7,6 +7,13 @@
  "short": {
   "title": "Multiples of 4, 6 or 9: the sneaky double count #Shorts",
   "description": "Count the multiples of 4, 6 or 9 up to 1000 without counting twice. Can you spot the trap?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 32,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

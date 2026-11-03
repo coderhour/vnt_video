@@ -6,7 +6,14 @@
  "posts": [],
  "short": {
   "title": "The Best Fence in a Corner #Shorts",
-  "description": "Most kids bend 12 units of fence into a square. A mirror trick shows a bigger area.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "description": "Bend 12 units of fence into a square? A mirror trick shows a bigger area.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "posts": [],
+  "challenge": 15,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

@@ -1,27 +1,21 @@
 # Geometric Sequences Ending at 144 (short)
 
-Three whole numbers, same ratio each step.
+AMC ten challenge! Think it's twelve? Nope!
 
-How many can finish at one hundred forty-four?
+How many increasing geometric sequences of three whole numbers end at one hundred forty-four?
 
-How many increasing geometric sequences a, b, c of whole numbers have c equal to one hundred forty-four?
+Comment your letter, then watch!
 
-Pause and try it!
+One hundred forty-four is twelve squared, so a is b over twelve, squared.
 
-*(Pause and try it: 3 s countdown)*
+So b is twelve k, with k a whole number.
 
-Here's the trick. One hundred forty-four is twelve squared.
+k equals two gives four, twenty-four, one hundred forty-four!
 
-So b over twelve must be a whole number. Call it k.
+At k equals twelve, all three are one hundred forty-four. Not increasing!
 
-Then b is twelve k, and a is k squared. Try k equals one, then two, and so on!
+So k stops at eleven. That's eleven sequences!
 
-At k equals twelve all three match, so we stop.
+Twelve was the trap.
 
-Counting k from one to eleven gives eleven sequences!
-
-Some ratios are fractions, like three halves.
-
-Why does that work? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get eleven? Tell me below!

@@ -1,29 +1,52 @@
 {
  "title": "Circle, Square, Circle: the Ring (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
-  {"id": "hook", "lines": [
-   "A square, a circle, a smaller square, a smaller circle.",
-   "Find the shaded ring! And no square roots needed!"
-  ]},
-  {"id": "question", "lines": [
-   "A circle fits in a square of side eight. A smaller square has its corners on that circle, with a smaller circle inside it.",
-   "What is the area of the shaded ring?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "fold", "lines": [
-   "Look! The small square's corners sit at the middle of each side.",
-   "Fold the four corner triangles in. They cover the small square exactly!",
-   "So the small square is half the big one, and its circle is half too!"
-  ]},
-  {"id": "reveal", "lines": [
-   "The big circle is sixteen pi. The small circle is half of that, eight pi.",
-   "So the ring is the other half. Eight pi, choice B!"
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Why half? The full lesson shows the fold and the turn, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
- ]
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's twelve pi? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A circle in a square of side eight. A smaller square has its corners on that circle.",
+    "A smaller circle fits inside. What's the area of the shaded ring?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "fold",
+   "lines": [
+    "The small square has its corners mid-side. Fold the four corner triangles in!",
+    "They cover the small square exactly! Each is eight, so four make thirty-two.",
+    "That's half of sixty-four. Same shape, so the small circle is half too!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "The big circle is sixteen pi. The ring is the other half: eight pi!",
+    "Twelve pi was the trap.",
+    "Did you get eight pi? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's twelve pi? Nope!": "AMC 8 challenge! Think it's 12π? Nope!",
+  "The big circle is sixteen pi. The ring is the other half: eight pi!": "The big circle is 16π. The ring is the other half: 8π!",
+  "Twelve pi was the trap.": "12π was the trap.",
+  "Did you get eight pi? Tell me below!": "Did you get 8π? Tell me below!"
+ }
 }

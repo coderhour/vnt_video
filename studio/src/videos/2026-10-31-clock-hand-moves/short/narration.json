@@ -1,54 +1,49 @@
 {
  "title": "Spin the Hour Hand (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Move the hour hand one hour, then two, then three, up to twenty!",
-    "Where does it stop?"
+    "AMC eight challenge! Think it's six? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "The hand starts at three. Tom moves it one hour, then two, then three, up to twenty.",
+    "The hour hand points to three. It moves one hour, then two, then three, up to twenty.",
     "Where does it point at the end?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "turns",
    "lines": [
-    "First, add all the moves. One plus two, all the way to twenty, is two hundred ten hours.",
-    "Twelve hours is a full turn. Two hundred ten is seventeen turns, plus six.",
-    "So only the six leftover hours matter!"
+    "Add up the moves in pairs: ten pairs of twenty-one. That's two hundred ten hours.",
+    "Twelve hours is a full turn. Two hundred ten is seventeen full turns, plus six.",
+    "Full turns land right back on three. Only the six leftover hours matter!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Count six hours from three. The hand points to nine!",
-    "Not six! That's only the leftover."
-   ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Want to skip the big sum? The full lesson has a second way, and every trap.",
-    "Tap the link below to watch it!"
+    "Six more hours from three. The hand lands on nine!",
+    "Six was the trap: it counts from twelve, not from three.",
+    "Did you get nine? Tell me below!"
    ],
    "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "The hour hand points to three. It moves one hour, then two, then three, up to twenty.": "The hour hand points to 3. It moves 1 hour, then 2, then 3, up to 20."
+ }
 }

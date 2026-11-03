@@ -1,27 +1,19 @@
 # Smallest n for 1+2+...+n (short)
 
-Add one plus two plus three, up to n.
+AMC ten challenge! Think it's two hundred fifty-three? Nope!
 
-When is the total a multiple of two thousand twenty-four?
+Find the smallest n so that one plus two, up to n, is a multiple of two thousand twenty-four.
 
-What's the smallest n that makes the sum a multiple of two thousand twenty-four?
+Comment your letter, then watch!
 
-Pause and try it!
+Double the sum: n times n plus one needs sixteen, eleven and twenty-three.
 
-*(Pause and try it: 3 s countdown)*
+Neighbors share no factors, so each piece goes whole into one of them.
 
-The sum is half of n times n plus one.
+Sixteen and eleven: one hundred seventy-six, three hundred fifty-two. Neither has a twenty-three next door!
 
-So n times n plus one needs sixteen, eleven and twenty-three.
+Five hundred twenty-nine is twenty-three squared! So n is five hundred twenty-eight.
 
-Here's the trick. Neighbors share no factors, so each goes whole into one of them.
+Two hundred fifty-three was the trap. It forgets the eight!
 
-Sort them into two boxes, and check the multiples.
-
-Five hundred twenty-eight and five hundred twenty-nine fit perfectly.
-
-So n is five hundred twenty-eight: Choice C!
-
-The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get five hundred twenty-eight? Tell me below!

@@ -1,29 +1,50 @@
 {
  "title": "Which Numbers Are Sums of Consecutive Numbers? (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "How many numbers from one to fifty are a sum of two or more consecutive whole numbers?": "How many numbers from 1 to 50 are a sum of 2 or more consecutive whole numbers?"
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "Nine is four plus five. Ten is one plus two plus three plus four.",
-   "But a few numbers can never be built this way. Which ones?"
-  ]},
-  {"id": "question", "lines": [
-   "How many numbers from one to fifty are a sum of two or more consecutive numbers?"
-  ], "hold": 1.5},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "board", "lines": [
-   "Let's light up every sum, one run length at a time.",
-   "Runs of two make every odd number. Longer runs fill in the rest.",
-   "Only six cells stay dark: one, two, four, eight, sixteen, thirty-two.",
-   "They're all powers of two, and no run can ever build one!"
-  ]},
-  {"id": "reveal", "lines": [
-   "Fifty minus six is forty-four!",
-   "Only the powers of two fail."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "The full lesson shows two neat ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's forty-five? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "How many numbers from one to fifty are a sum of two or more consecutive whole numbers?",
+    "Nine is four plus five, for example."
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "board",
+   "lines": [
+    "Runs of two make every odd number from three up.",
+    "Runs of three, four and five light up most of the even numbers.",
+    "Runs of seven and eight add two more.",
+    "Six cells stay dark: one, two, four, eight, sixteen and thirty-two. All powers of two!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Fifty minus six. That's forty-four!",
+    "Forty-five was the trap. One fails too!",
+    "Did you get forty-four? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

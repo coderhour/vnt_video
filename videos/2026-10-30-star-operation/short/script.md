@@ -1,27 +1,21 @@
 # The Star Puzzle (short)
 
-A made-up star rule, a chain of four fractions, and one sneaky trap!
+AMC eight challenge! Think it's five over seven? Nope!
 
-Star means a plus b, over one plus a times b.
+A star b means a plus b, over one plus a times b.
 
-What's the value of the whole chain?
+Find the value of this whole chain.
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Step one: one over two, star one over three. That makes five over seven!
 
-The trick: score each number as one plus it, over one minus it.
+But that's only step one! Star one over four, and you get nine over eleven.
 
-Our four numbers score three, two, five over three, and three over two.
+Still not done! One last star, with one over five.
 
-The magic: star two numbers, and their scores multiply!
+Fifty-six over sixty-four. That's seven over eight!
 
-Multiply the four scores, and you get fifteen.
+Five over seven was the trap. It stops too early.
 
-Turn fifteen back, and the answer is seven over eight!
-
-Five over seven is only step one.
-
-Why do scores multiply? The full lesson shows both ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get seven over eight? Tell me below!

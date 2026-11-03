@@ -1,55 +1,57 @@
 {
  "title": "Where Do the Lines Cross? (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "The area is sixty. D is the midpoint of B C, and A E to E C is two to one.": "The area is 60. D is the midpoint of BC, and AE to EC is 2 to 1.",
+  "What's the area of triangle A B P?": "What's the area of triangle ABP?",
+  "A B D is half of sixty. That's thirty.": "ABD is half of 60. That's 30.",
+  "Draw D F, parallel to B E. F is the midpoint of E C.": "Draw DF, parallel to BE. F is the midpoint of EC.",
+  "Along A C, A E is four steps, and E F is one.": "Along AC, AE is 4 steps, and EF is 1.",
+  "So A P to P D is four to one.": "So AP to PD is 4 to 1.",
+  "Four fifths of thirty is twenty-four!": "4/5 of 30 is 24!",
+  "Twenty was the trap. Two to one is for A C.": "20 was the trap. 2 to 1 is for AC."
+ },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Two lines cross in a triangle of area sixty.",
-    "How big is the shaded piece? Half is tempting!"
+    "AMC eight challenge! Think it's twenty? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "D is the midpoint of B C. E splits A C, two to one.",
-    "A D and B E cross at P. What's the area of A B P?"
-   ],
-   "hold": 0.3
+    "The area is sixty. D is the midpoint of B C, and A E to E C is two to one.",
+    "What's the area of triangle A B P?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "ratio",
    "lines": [
-    "Triangle A B D is half of sixty. That's thirty.",
+    "A B D is half of sixty. That's thirty.",
     "Draw D F, parallel to B E. F is the midpoint of E C.",
-    "Four steps, one, one. So A P to P D is four to one.",
-    "That makes A B P four fifths of A B D."
+    "Along A C, A E is four steps, and E F is one.",
+    "So A P to P D is four to one."
    ]
   },
   {
    "id": "reveal",
    "lines": [
     "Four fifths of thirty is twenty-four!",
-    "Every line gets its own ratio."
+    "Twenty was the trap. Two to one is for A C.",
+    "Did you get twenty-four? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "The full lesson shows two neat ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1
+   "hold": 0.8
   }
  ]
 }

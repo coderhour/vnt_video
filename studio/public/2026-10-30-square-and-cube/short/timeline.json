@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1637,
+ "durationInFrames": 1156,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 262,
+   "frames": 114,
    "lines": [
     {
-     "text": "Twenty times n is a perfect square. Fifty times n is a perfect cube!",
-     "caption": "Twenty times n is a perfect square. Fifty times n is a perfect cube!",
-     "file": "2026-10-30-square-and-cube/short/audio/6118189b89a07fbe.wav",
+     "text": "AMC eight challenge! Think it's fifty? Nope!",
+     "caption": "AMC 8 challenge! Think it's 50? Nope!",
+     "file": "2026-10-30-square-and-cube/short/audio/9c191f26730a9aef.wav",
      "from": 0,
-     "frames": 160
-    },
-    {
-     "text": "Can ONE number do both?",
-     "caption": "Can ONE number do both?",
-     "file": "2026-10-30-square-and-cube/short/audio/6daa2591de6535b1.wav",
-     "from": 170,
-     "frames": 69
+     "frames": 102
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 262,
-   "frames": 177,
+   "from": 114,
+   "frames": 194,
    "lines": [
     {
-     "text": "What is the smallest n that works?",
-     "caption": "What is the smallest n that works?",
-     "file": "2026-10-30-square-and-cube/short/audio/32a2383ebb715562.wav",
+     "text": "Twenty times n is a perfect square. Fifty times n is a perfect cube.",
+     "caption": "20 times n is a perfect square. 50 times n is a perfect cube.",
+     "file": "2026-10-30-square-and-cube/short/audio/89812186d5f0a38d.wav",
      "from": 0,
-     "frames": 88
+     "frames": 135
     },
     {
-     "text": "Here are the choices.",
-     "caption": "Here are the choices.",
-     "file": "2026-10-30-square-and-cube/short/audio/4c700db2f68259a7.wav",
-     "from": 99,
-     "frames": 46
+     "text": "Find the smallest one!",
+     "caption": "Find the smallest one!",
+     "file": "2026-10-30-square-and-cube/short/audio/314ee0fb8895dfa1.wav",
+     "from": 139,
+     "frames": 44
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 439,
-   "frames": 163,
+   "from": 308,
+   "frames": 79,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-square-and-cube/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-square-and-cube/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 50
+     "frames": 68
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "primes",
    "kind": "scene",
    "chapter": null,
-   "from": 602,
-   "frames": 513,
+   "from": 387,
+   "frames": 461,
    "lines": [
     {
      "text": "Twenty is two times two times five. Fifty is two times five times five.",
-     "caption": "Twenty is two times two times five. Fifty is two times five times five.",
-     "file": "2026-10-30-square-and-cube/short/audio/a7b68057d415b4b3.wav",
+     "caption": "20 is 2 \u00d7 2 \u00d7 5. 50 is 2 \u00d7 5 \u00d7 5.",
+     "file": "2026-10-30-square-and-cube/short/audio/53f14ee75d7116ab.wav",
      "from": 0,
-     "frames": 168
+     "frames": 153
     },
     {
-     "text": "A square needs even counts. A cube needs multiples of three.",
-     "caption": "A square needs even counts. A cube needs multiples of three.",
-     "file": "2026-10-30-square-and-cube/short/audio/7ad04ecf14a1f6ad.wav",
-     "from": 179,
-     "frames": 135
+     "text": "Squares need even counts. Cubes need multiples of three.",
+     "caption": "Squares need even counts. Cubes need multiples of 3.",
+     "file": "2026-10-30-square-and-cube/short/audio/e455f9b90a50d95f.wav",
+     "from": 157,
+     "frames": 101
     },
     {
-     "text": "The twos need two copies. The fives need one. So n is two times two times five.",
-     "caption": "The twos need two copies. The fives need one. So n is two times two times five.",
-     "file": "2026-10-30-square-and-cube/short/audio/b46809b30993e0a6.wav",
-     "from": 324,
-     "frames": 166
+     "text": "Add twos. One fails both, but two work for both!",
+     "caption": "Add twos. One fails both, but two work for both!",
+     "file": "2026-10-30-square-and-cube/short/audio/f57f8256f4f83f24.wav",
+     "from": 263,
+     "frames": 106
+    },
+    {
+     "text": "For the fives, just one fixes both!",
+     "caption": "For the fives, just one fixes both!",
+     "file": "2026-10-30-square-and-cube/short/audio/c8ee7f219a6931d8.wav",
+     "from": 373,
+     "frames": 77
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1115,
-   "frames": 257,
+   "from": 848,
+   "frames": 308,
    "lines": [
     {
-     "text": "That's twenty!",
-     "caption": "That's twenty!",
-     "file": "2026-10-30-square-and-cube/short/audio/68e289a8ae547a43.wav",
+     "text": "So n is two times two times five. That's twenty!",
+     "caption": "So n is 2 \u00d7 2 \u00d7 5. That's 20!",
+     "file": "2026-10-30-square-and-cube/short/audio/e4f2bdecef68a75d.wav",
      "from": 0,
-     "frames": 42
+     "frames": 99
     },
     {
-     "text": "Twenty times twenty is four hundred, a square. Fifty times twenty is one thousand, a cube.",
-     "caption": "Twenty times twenty is four hundred, a square. Fifty times twenty is one thousand, a cube.",
-     "file": "2026-10-30-square-and-cube/short/audio/149d1c7bd9a8aa91.wav",
-     "from": 53,
-     "frames": 166
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1372,
-   "frames": 265,
-   "lines": [
-    {
-     "text": "Why does that work? The full lesson shows two ways, plus every trap.",
-     "caption": "Why does that work? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-square-and-cube/short/audio/4942d4cfc1b3f724.wav",
-     "from": 0,
-     "frames": 131
+     "text": "Fifty was the trap. It makes a cube, but not a square.",
+     "caption": "50 was the trap. It makes a cube, but not a square.",
+     "file": "2026-10-30-square-and-cube/short/audio/a91a2caeab80f228.wav",
+     "from": 103,
+     "frames": 113
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-square-and-cube/short/audio/82b8b7e1a12a7449.wav",
-     "from": 142,
-     "frames": 54
+     "text": "Did you get twenty? Tell me below!",
+     "caption": "Did you get 20? Tell me below!",
+     "file": "2026-10-30-square-and-cube/short/audio/325b78503d177d0f.wav",
+     "from": 221,
+     "frames": 52
     }
    ]
   }

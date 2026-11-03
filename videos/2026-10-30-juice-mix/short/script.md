@@ -1,27 +1,23 @@
 # Juice Mix (short)
 
-Ella adds juice AND water to her drink.
+AMC eight challenge! Think it's four liters? Nope!
 
-And it gets STRONGER! How much water?
+Twenty liters, thirty percent juice. Ella adds juice and water.
 
-A twenty-liter drink is thirty percent juice. She adds juice and water.
+Now it's twenty-five liters, forty percent juice. How much water did she add?
 
-Now twenty-five liters, forty percent juice. How much water did she add?
+Comment your letter, then watch!
 
-Pause and try it!
+The trick: split each drink into juice and water.
 
-*(Pause and try it: 3 s countdown)*
+Thirty percent of twenty is six. So six juice, fourteen water.
 
-Here's the trick. Split each drink into juice and water.
+Forty percent of twenty-five is ten. So ten juice, fifteen water.
 
-First drink: six juice, fourteen water. Last drink: ten juice, fifteen water.
+Now watch only the water. Fourteen, then fifteen!
 
-Now watch the water: fourteen, then fifteen.
+So she adds just ONE liter of water!
 
-She added just ONE liter of water! That's Choice B.
+Four liters was the trap. That's the juice!
 
-Most kids say four. But that's the juice!
-
-Why exactly that? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get one liter? Tell me below!

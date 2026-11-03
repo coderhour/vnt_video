@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1830,
+ "durationInFrames": 1162,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 277,
+   "frames": 116,
    "lines": [
     {
-     "text": "A point inside a rectangle, joined to all four corners.",
-     "caption": "A point inside a rectangle, joined to all four corners.",
-     "file": "2026-10-30-point-in-rectangle/short/audio/08dc435d802bfe88.wav",
+     "text": "AMC eight challenge! Think it's twenty-two? Nope!",
+     "caption": "AMC 8 challenge! Think it's 22? Nope!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/47ac5d46793f4ce9.wav",
      "from": 0,
-     "frames": 104
-    },
-    {
-     "text": "Three triangle areas are known. Can you find the fourth, without knowing where the point is?",
-     "caption": "Three triangle areas are known. Can you find the fourth, without knowing where the point is?",
-     "file": "2026-10-30-point-in-rectangle/short/audio/89dbfec7f2746d62.wav",
-     "from": 114,
-     "frames": 140
+     "frames": 105
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 277,
-   "frames": 282,
+   "from": 116,
+   "frames": 258,
    "lines": [
     {
-     "text": "The bottom, right and top triangles have areas fifteen, twenty-two and twenty-five.",
-     "caption": "The bottom, right and top triangles have areas fifteen, twenty-two and twenty-five.",
-     "file": "2026-10-30-point-in-rectangle/short/audio/fa3ffcf2c1daea09.wav",
+     "text": "A point in a rectangle is joined to all four corners.",
+     "caption": "A point in a rectangle is joined to all 4 corners.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/9566adfeba5a991e.wav",
      "from": 0,
-     "frames": 165
+     "frames": 93
     },
     {
-     "text": "What is the area of the left triangle?",
-     "caption": "What is the area of the left triangle?",
-     "file": "2026-10-30-point-in-rectangle/short/audio/084bfbc02c496e6a.wav",
-     "from": 175,
-     "frames": 75
+     "text": "Bottom, right and top triangles are fifteen, twenty-two and twenty-five. Find the left one!",
+     "caption": "Bottom, right and top triangles are 15, 22 and 25. Find the left one!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/e53504fe5fd2884d.wav",
+     "from": 97,
+     "frames": 149
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 559,
-   "frames": 159,
+   "from": 374,
+   "frames": 73,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-point-in-rectangle/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 45
+     "frames": 62
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "pairs",
    "kind": "scene",
    "chapter": null,
-   "from": 718,
-   "frames": 465,
+   "from": 447,
+   "frames": 421,
    "lines": [
     {
-     "text": "Look at the bottom and top triangles together. Their heights stack up to the full height.",
-     "caption": "Look at the bottom and top triangles together. Their heights stack up to the full height.",
-     "file": "2026-10-30-point-in-rectangle/short/audio/508d9b7e70d6b15a.wav",
+     "text": "Bottom and top share the width. Their heights stack to the full height.",
+     "caption": "Bottom and top share the width. Their heights stack to the full height.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/d781f406326d5d57.wav",
      "from": 0,
-     "frames": 148
+     "frames": 104
     },
     {
-     "text": "So together, they make exactly HALF the rectangle!",
-     "caption": "So together, they make exactly HALF the rectangle!",
-     "file": "2026-10-30-point-in-rectangle/short/audio/148c42b7bfe7a5bb.wav",
-     "from": 158,
-     "frames": 114
+     "text": "So together, they are HALF the rectangle.",
+     "caption": "So together, they are HALF the rectangle.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/e65f976590487eaa.wav",
+     "from": 108,
+     "frames": 84
     },
     {
-     "text": "Fifteen plus twenty-five is forty. So the left and right pair must make forty too.",
-     "caption": "Fifteen plus twenty-five is forty. So the left and right pair must make forty too.",
-     "file": "2026-10-30-point-in-rectangle/short/audio/5e76d809c1bad7d1.wav",
-     "from": 282,
-     "frames": 159
+     "text": "Fifteen plus twenty-five is forty. Slide the point, and it stays forty!",
+     "caption": "15 plus 25 is 40. Slide the point, and it stays 40!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/e18e87aba5be0fe4.wav",
+     "from": 197,
+     "frames": 119
+    },
+    {
+     "text": "Left and right make the other half: forty again.",
+     "caption": "Left and right make the other half: 40 again.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/804eadb1a9fd4d5a.wav",
+     "from": 320,
+     "frames": 89
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1183,
-   "frames": 354,
+   "from": 868,
+   "frames": 294,
    "lines": [
     {
-     "text": "Forty, take away twenty-two, is eighteen. The left triangle is eighteen, choice C!",
-     "caption": "Forty, take away twenty-two, is eighteen. The left triangle is eighteen, choice C!",
-     "file": "2026-10-30-point-in-rectangle/short/audio/2748eed6e56471df.wav",
+     "text": "Forty, take away twenty-two, is eighteen!",
+     "caption": "40, take away 22, is 18!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/f5ab47cd9b079f75.wav",
      "from": 0,
-     "frames": 155
+     "frames": 88
     },
     {
-     "text": "And the point can be anywhere. Opposite triangles always make half!",
-     "caption": "And the point can be anywhere. Opposite triangles always make half!",
-     "file": "2026-10-30-point-in-rectangle/short/audio/a3d3b75dc1b07d45.wav",
-     "from": 165,
-     "frames": 150
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1537,
-   "frames": 293,
-   "lines": [
-    {
-     "text": "Why is it always half? The full lesson shows two ways, plus every trap.",
-     "caption": "Why is it always half? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-point-in-rectangle/short/audio/642b885e67b4be95.wav",
-     "from": 0,
-     "frames": 158
+     "text": "Twenty-two was the trap. Sitting across doesn't make it equal.",
+     "caption": "22 was the trap. Sitting across doesn't make it equal.",
+     "file": "2026-10-30-point-in-rectangle/short/audio/2e7b0b6786868401.wav",
+     "from": 92,
+     "frames": 101
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-point-in-rectangle/short/audio/82b8b7e1a12a7449.wav",
-     "from": 168,
-     "frames": 57
+     "text": "Did you get eighteen? Tell me below!",
+     "caption": "Did you get 18? Tell me below!",
+     "file": "2026-10-30-point-in-rectangle/short/audio/efb181ef85baf827.wav",
+     "from": 197,
+     "frames": 62
     }
    ]
   }

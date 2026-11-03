@@ -7,7 +7,14 @@
  "short": {
   "title": "How Many Sequences End at 144? #Shorts",
   "description": "How many increasing geometric sequences of three whole numbers end at 144? The ratio can be a fraction. Use the trick that 144 = 12 squared!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 11,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  },
  "status": "ready"
 }

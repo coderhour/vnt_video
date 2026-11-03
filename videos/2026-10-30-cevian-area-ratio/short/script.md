@@ -1,29 +1,23 @@
 # Where Do the Lines Cross? (short)
 
-Two lines cross in a triangle of area sixty.
+AMC eight challenge! Think it's twenty? Nope!
 
-How big is the shaded piece? Half is tempting!
+The area is sixty. D is the midpoint of B C, and A E to E C is two to one.
 
-D is the midpoint of B C. E splits A C, two to one.
+What's the area of triangle A B P?
 
-A D and B E cross at P. What's the area of A B P?
+Comment your letter, then watch!
 
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
-
-Triangle A B D is half of sixty. That's thirty.
+A B D is half of sixty. That's thirty.
 
 Draw D F, parallel to B E. F is the midpoint of E C.
 
-Four steps, one, one. So A P to P D is four to one.
+Along A C, A E is four steps, and E F is one.
 
-That makes A B P four fifths of A B D.
+So A P to P D is four to one.
 
 Four fifths of thirty is twenty-four!
 
-Every line gets its own ratio.
+Twenty was the trap. Two to one is for A C.
 
-The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get twenty-four? Tell me below!

@@ -1,27 +1,21 @@
 # Geometric Triangles (short)
 
-How many triangles have sides growing by the same multiplier?
+AMC ten challenge! Think it's forty-four? Nope!
 
-The triangle has three different whole sides, each the last one times a fixed multiplier.
+Three different whole-number sides. Each one is the last, times the same multiplier.
 
 The longest is two thousand twenty-five. How many triangles?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
-
-The sides always look like k squared, forty-five k, and two thousand twenty-five.
-
-Here k runs from one to forty-four. Which ones close into a triangle?
+The sides are k squared, forty-five k, and two thousand twenty-five, with k up to forty-four.
 
 The short sides must add up to more than the longest. At twenty-seven, they fall short.
 
-At twenty-eight, they just make it. And so does every bigger one!
+At twenty-eight, they make it. So does every k after!
 
-Twenty-eight up to forty-four. That's seventeen triangles!
+Twenty-eight to forty-four. That's seventeen triangles!
 
-Forty-four is the trap!
+Forty-four was the trap.
 
-Why those sides? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get seventeen? Tell me below!

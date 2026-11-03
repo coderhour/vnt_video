@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1753,
+ "durationInFrames": 1161,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 290,
+   "frames": 114,
    "lines": [
     {
-     "text": "Number a book's pages, and count every digit.",
-     "caption": "Number a book's pages, and count every digit.",
-     "file": "2026-10-30-page-digits/short/audio/136648a4704f0aef.wav",
+     "text": "AMC eight challenge! Think it's ninety-nine? Nope!",
+     "caption": "AMC 8 challenge! Think it's 99? Nope!",
+     "file": "2026-10-30-page-digits/short/audio/78cd6fc1538324ab.wav",
      "from": 0,
-     "frames": 94
-    },
-    {
-     "text": "Ninety-nine pages use one hundred eighty-nine digits. That's NOT twice ninety-nine!",
-     "caption": "Ninety-nine pages use one hundred eighty-nine digits. That's NOT twice ninety-nine!",
-     "file": "2026-10-30-page-digits/short/audio/a3d2e8fb527aa835.wav",
-     "from": 104,
-     "frames": 162
+     "frames": 102
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 290,
-   "frames": 278,
+   "from": 114,
+   "frames": 223,
    "lines": [
     {
      "text": "A book's pages are numbered from one. The digits printed are exactly twice the number of pages.",
-     "caption": "A book's pages are numbered from one. The digits printed are exactly twice the number of pages.",
-     "file": "2026-10-30-page-digits/short/audio/56f2238fb84e0e66.wav",
+     "caption": "A book's pages are numbered from 1. The digits printed are exactly twice the number of pages.",
+     "file": "2026-10-30-page-digits/short/audio/73acac8002237bbb.wav",
      "from": 0,
-     "frames": 168
+     "frames": 150
     },
     {
      "text": "How many pages does the book have?",
      "caption": "How many pages does the book have?",
-     "file": "2026-10-30-page-digits/short/audio/1a3fd8785112b32c.wav",
-     "from": 179,
-     "frames": 66
+     "file": "2026-10-30-page-digits/short/audio/276b3a88a170f9a2.wav",
+     "from": 154,
+     "frames": 57
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 568,
-   "frames": 156,
+   "from": 337,
+   "frames": 75,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-page-digits/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-page-digits/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 42
+     "frames": 64
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "balance",
    "kind": "scene",
    "chapter": null,
-   "from": 724,
-   "frames": 519,
+   "from": 412,
+   "frames": 455,
    "lines": [
     {
-     "text": "Here's the trick. Pretend every page must print two digits.",
-     "caption": "Here's the trick. Pretend every page must print two digits.",
-     "file": "2026-10-30-page-digits/short/audio/324f2afe304e4bd0.wav",
+     "text": "Pretend every page owes exactly two digits. Pages one to nine pay only one.",
+     "caption": "Pretend every page owes exactly 2 digits. Pages 1 to 9 pay only 1.",
+     "file": "2026-10-30-page-digits/short/audio/bfd616808c4d4ff0.wav",
      "from": 0,
-     "frames": 111
+     "frames": 149
     },
     {
-     "text": "A one-digit page pays only one. So each of those nine pages is one digit short.",
-     "caption": "A one-digit page pays only one. So each of those nine pages is one digit short.",
-     "file": "2026-10-30-page-digits/short/audio/91d534eb64435193.wav",
-     "from": 120,
-     "frames": 168
+     "text": "So we start nine digits short. Two-digit pages pay exactly two, so the gap stays.",
+     "caption": "So we start 9 digits short. 2-digit pages pay exactly 2, so the gap stays.",
+     "file": "2026-10-30-page-digits/short/audio/aca43d4feb3a70ce.wav",
+     "from": 154,
+     "frames": 160
     },
     {
-     "text": "A two-digit page pays exactly two. But a three-digit page pays one extra! We need nine of those.",
-     "caption": "A two-digit page pays exactly two. But a three-digit page pays one extra! We need nine of those.",
-     "file": "2026-10-30-page-digits/short/audio/f0e6d3494a31cad2.wav",
-     "from": 299,
-     "frames": 196
+     "text": "Each three-digit page pays one extra. Nine of them close the gap!",
+     "caption": "Each 3-digit page pays 1 extra. 9 of them close the gap!",
+     "file": "2026-10-30-page-digits/short/audio/809ed417f01d83bd.wav",
+     "from": 318,
+     "frames": 125
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1243,
-   "frames": 222,
+   "from": 867,
+   "frames": 294,
    "lines": [
     {
-     "text": "That's pages one hundred to one hundred eight.",
-     "caption": "That's pages one hundred to one hundred eight.",
-     "file": "2026-10-30-page-digits/short/audio/b0cc85b90c9546c7.wav",
+     "text": "That's pages one hundred to one hundred eight. So the book has one hundred eight pages!",
+     "caption": "That's pages 100 to 108. So the book has 108 pages!",
+     "file": "2026-10-30-page-digits/short/audio/0387c7954ed2d591.wav",
      "from": 0,
-     "frames": 76
+     "frames": 130
     },
     {
-     "text": "So the book has one hundred eight pages, choice C!",
-     "caption": "So the book has one hundred eight pages, choice C!",
-     "file": "2026-10-30-page-digits/short/audio/1052123d162ee5be.wav",
-     "from": 86,
-     "frames": 98
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1465,
-   "frames": 288,
-   "lines": [
-    {
-     "text": "Why only one answer? The full lesson shows two ways, plus every trap.",
-     "caption": "Why only one answer? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-page-digits/short/audio/9e9cb82f32610ac7.wav",
-     "from": 0,
-     "frames": 152
+     "text": "Ninety-nine was the trap.",
+     "caption": "99 was the trap.",
+     "file": "2026-10-30-page-digits/short/audio/7edd806cd3ed9a49.wav",
+     "from": 134,
+     "frames": 52
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-page-digits/short/audio/82b8b7e1a12a7449.wav",
-     "from": 162,
-     "frames": 58
+     "text": "Did you get one hundred eight? Tell me below!",
+     "caption": "Did you get 108? Tell me below!",
+     "file": "2026-10-30-page-digits/short/audio/0cd68938818ae3fc.wav",
+     "from": 190,
+     "frames": 69
     }
    ]
   }

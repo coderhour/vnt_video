@@ -7,6 +7,13 @@
  "short": {
   "title": "Coin flips: same side 3 times in a row? #Shorts",
   "description": "Flip a coin 8 times. How likely is it that the same side never comes up 3 times in a row?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 55,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

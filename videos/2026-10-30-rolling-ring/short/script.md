@@ -1,29 +1,23 @@
 # How Many Turns Does the Ring Make? (short)
 
-A ring rolls all the way around inside a big hoop.
+AMC eight challenge! Think it's five? Nope!
 
-Lots of people guess five turns. But it's NOT five!
+A ring of radius two rolls inside a hoop of radius ten.
 
-The ring has radius two, and the hoop has radius ten.
+How many full turns does it make in one lap?
 
-How many full turns does the ring make on one trip around?
-
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
+Comment your letter, then watch!
 
 Here's the trick. Follow the center of the ring!
 
 It stays two from the hoop, so it travels a circle of radius eight.
 
-Each full turn moves the center one rim length, four pi.
+With every full turn, the center moves one rim length, four pi.
 
-That circle is sixteen pi long. Sixteen pi over four pi gives the turns.
+That circle is sixteen pi long. So divide by four pi!
 
-Four full turns!
+Sixteen pi over four pi. That's four full turns!
 
-The dot touches the hoop five times, but the loop takes one turn back.
+Five was the trap. The dot touches the hoop five times.
 
-Why one back? The full lesson shows two neat ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get four? Tell me below!

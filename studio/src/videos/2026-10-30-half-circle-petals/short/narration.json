@@ -1,29 +1,54 @@
 {
  "title": "Half Circle Petals (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "AMC eight challenge! Think it's eight pi minus sixteen? Nope!": "AMC 8 challenge! Think it's 8π minus 16? Nope!",
+  "Each half circle is two pi, so all four make eight pi.": "Each half circle is 2π, so all 4 make 8π.",
+  "So eight pi is the square, plus the petals one extra time.": "So 8π is the square, plus the petals one extra time.",
+  "Petals are eight pi minus sixteen, so shaded is thirty-two minus eight pi!": "Petals are 8π minus 16, so shaded is 32 minus 8π!",
+  "Eight pi minus sixteen was the trap. That's just the petals.": "8π minus 16 was the trap. That's just the petals.",
+  "Did you get thirty-two minus eight pi? Tell me below!": "Did you get 32 minus 8π? Tell me below!"
+ },
  "scenes": [
-  {"id": "hook", "lines": [
-   "Four half circles make a flower inside a square.",
-   "Most kids find the white petals. But we want the SHADED part!"
-  ]},
-  {"id": "question", "lines": [
-   "The square has side four, and each side holds a half circle.",
-   "What is the total shaded area?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "count", "lines": [
-   "Trick: each half circle has area two pi, so all four make eight pi.",
-   "But the square is only sixteen! Every petal got counted twice.",
-   "So eight pi is the square, plus the petals one extra time."
-  ]},
-  {"id": "reveal", "lines": [
-   "Petals are eight pi minus sixteen. Take them away from the square.",
-   "Shaded is thirty-two minus eight pi! That's Choice B."
-  ], "hold": 0.3},
-  {"id": "cta", "lines": [
-   "Why exactly that? The full lesson shows two ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1}
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's eight pi minus sixteen? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A side four square, with a half circle inside on each side.",
+    "What is the shaded area?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "count",
+   "lines": [
+    "Each half circle is two pi, so all four make eight pi.",
+    "But the square is only sixteen! Each petal sits in two half circles.",
+    "So eight pi is the square, plus the petals one extra time."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Petals are eight pi minus sixteen, so shaded is thirty-two minus eight pi!",
+    "Eight pi minus sixteen was the trap. That's just the petals.",
+    "Did you get thirty-two minus eight pi? Tell me below!"
+   ],
+   "hold": 0.8
+  }
  ]
 }

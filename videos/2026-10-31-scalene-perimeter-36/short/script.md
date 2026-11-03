@@ -1,27 +1,21 @@
 # Perimeter 36 Triangles (short)
 
-A string thirty-six units long. How many different triangles can you bend it into?
-
-Whole-number sides, all three different. Most kids lose count!
+AMC eight challenge! Think it's twenty-seven? Nope!
 
 Whole-number sides, all three different, and a perimeter of thirty-six.
 
 How many triangles are there?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+The trick? Fix the longest side first. It runs from twelve to seventeen.
 
-The trick: fix the longest side. It has to be from twelve to seventeen.
+Longest seventeen: three and sixteen, up to nine and ten. That's seven.
 
-A longest side of seventeen gives seven triangles. Sixteen gives five. Fifteen, four.
+Sixteen gives five, fifteen gives four, fourteen gives two, thirteen gives one, twelve none.
 
-Fourteen gives two, thirteen gives one, and twelve gives none.
+Seven plus five plus four plus two plus one. That's nineteen!
 
-Seven plus five plus four plus two plus one: nineteen!
+Twenty-seven was the trap. It counts the repeats too.
 
-An organized list never loses a triangle.
-
-Want to see why? The full lesson has two neat ways and every trap.
-
-Tap the link below to watch it!
+Did you get nineteen? Tell me below!

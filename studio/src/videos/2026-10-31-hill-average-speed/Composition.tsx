@@ -66,7 +66,7 @@ const Bike: React.FC<{ p: number; dir: 1 | -1; streak?: number }> = ({ p, dir, s
 };
 
 /** The hill. `p` = bike position along the slope (null hides the bike). `tx, ty, sc` place and scale the whole drawing. */
-const Hill: React.FC<{ p: number | null; dir?: 1 | -1; streak?: number; sc?: number; tx?: number; ty?: number; op?: number; dashed?: boolean }> = ({
+export const Hill: React.FC<{ p: number | null; dir?: 1 | -1; streak?: number; sc?: number; tx?: number; ty?: number; op?: number; dashed?: boolean }> = ({
   p, dir = 1, streak = 0, sc = 1, tx = 0, ty = 0, op = 1, dashed = false,
 }) => (
   <Stage>
@@ -79,7 +79,7 @@ const Hill: React.FC<{ p: number | null; dir?: 1 | -1; streak?: number; sc?: num
 );
 
 /** Bike position over time: slow up, pause, fast down. Returns [p, dir, streak]. */
-const ride = (f: number, upStart: number, upDur: number, downStart: number, downDur: number): [number, 1 | -1, number] => {
+export const ride = (f: number, upStart: number, upDur: number, downStart: number, downDur: number): [number, 1 | -1, number] => {
   if (f < downStart) return [ease(f, upStart, upDur), 1, 0];
   const d = Math.min(1, Math.max(0, (f - downStart) / downDur));
   return [1 - d * d, -1, d > 0 && d < 1 ? 0.9 : 0];

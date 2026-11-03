@@ -1,54 +1,57 @@
 {
  "title": "Midpoint Chase (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Two points on a number line: zero and sixty-four.",
-    "Each new point is halfway between the last two. Where does the tenth land?"
+    "AMC eight challenge! Think it's forty-two and a half? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "The first point is zero, the second is sixty-four.",
-    "Each later point is the midpoint of the last two. Where is the tenth?"
-   ],
-   "hold": 0.3
+    "P one is at zero. P two is at sixty-four.",
+    "Each new point is the midpoint of the two before it. Where is P ten?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "jumps",
    "lines": [
-    "Here's the trick. Watch the jumps: sixty-four right, thirty-two left, sixteen right.",
+    "Watch the jumps: sixty-four right, thirty-two left, sixteen right.",
     "Each jump is half the last one, and it flips direction!",
-    "Then eight left, four right, two left, one right, a half left, a quarter right."
+    "Then eight left, four right, two left, one right.",
+    "Half of that, back left, puts P nine at forty-two and a half."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Closer and closer, the tenth point lands at forty-two and three quarters!",
-    "That's Choice C."
+    "Last, one quarter to the right. P ten is forty-two and three quarters!",
+    "Forty-two and a half was the trap.",
+    "Did you get forty-two and three quarters? Tell me below!"
    ],
-   "hold": 0.3
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Want to see why? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 0.5
+   "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's forty-two and a half? Nope!": "AMC 8 challenge! Think it's 42½? Nope!",
+  "P one is at zero. P two is at sixty-four.": "P1 is at 0. P2 is at 64.",
+  "Each new point is the midpoint of the two before it. Where is P ten?": "Each new point is the midpoint of the two before it. Where is P10?",
+  "Last, one quarter to the right. P ten is forty-two and three quarters!": "Last, ¼ to the right. P10 is 42¾!",
+  "Forty-two and a half was the trap.": "42½ was the trap.",
+  "Did you get forty-two and three quarters? Tell me below!": "Did you get 42¾? Tell me below!",
+  "Half of that, back left, puts P nine at forty-two and a half.": "Half of that, back left, puts P9 at 42½.",
+  "Then eight left, four right, two left, one right.": "Then 8 left, 4 right, 2 left, 1 right."
+ }
 }

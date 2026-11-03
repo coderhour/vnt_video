@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1700,
+ "durationInFrames": 1159,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 274,
+   "frames": 107,
    "lines": [
     {
-     "text": "A tree stands on the edge of a yard, as far from corner A as from corner C.",
-     "caption": "A tree stands on the edge of a yard, as far from corner A as from corner C.",
-     "file": "2026-10-31-tree-in-yard/short/audio/f24c306e6b54d2a2.wav",
+     "text": "AMC eight challenge! Think it's six? Nope!",
+     "caption": "AMC 8 challenge! Think it's 6? Nope!",
+     "file": "2026-10-31-tree-in-yard/short/audio/d966e0c2cea9ce2f.wav",
      "from": 0,
-     "frames": 148
-    },
-    {
-     "text": "Where is it? Let's find it without measuring!",
-     "caption": "Where is it? Let's find it without measuring!",
-     "file": "2026-10-31-tree-in-yard/short/audio/3650ec850db42a66.wav",
-     "from": 158,
-     "frames": 93
+     "frames": 95
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 274,
-   "frames": 213,
+   "from": 107,
+   "frames": 231,
    "lines": [
     {
-     "text": "The yard is sixteen meters long and eight meters wide.",
-     "caption": "The yard is sixteen meters long and eight meters wide.",
-     "file": "2026-10-31-tree-in-yard/short/audio/72bdb9c1e9868bee.wav",
+     "text": "The yard is sixteen by eight meters. Tree E is as far from A as from C.",
+     "caption": "The yard is 16 by 8 meters. Tree E is as far from A as from C.",
+     "file": "2026-10-31-tree-in-yard/short/audio/a9bdea4788e8664c.wav",
      "from": 0,
-     "frames": 100
+     "frames": 152
     },
     {
-     "text": "How far is the tree from corner A?",
-     "caption": "How far is the tree from corner A?",
-     "file": "2026-10-31-tree-in-yard/short/audio/36619c73c69f79a3.wav",
-     "from": 111,
-     "frames": 70
+     "text": "How far is the tree from A?",
+     "caption": "How far is the tree from A?",
+     "file": "2026-10-31-tree-in-yard/short/audio/8863af9debcf8f17.wav",
+     "from": 155,
+     "frames": 64
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 487,
-   "frames": 166,
+   "from": 338,
+   "frames": 71,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-tree-in-yard/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-tree-in-yard/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 52
+     "frames": 59
     }
    ]
   },
@@ -68,29 +61,29 @@
    "id": "name",
    "kind": "scene",
    "chapter": null,
-   "from": 653,
-   "frames": 534,
+   "from": 409,
+   "frames": 447,
    "lines": [
     {
-     "text": "Call that distance x. Then E C is also x, and E B is sixteen minus x.",
-     "caption": "Call that distance x. Then E C is also x, and E B is sixteen minus x.",
-     "file": "2026-10-31-tree-in-yard/short/audio/ee0c360262c8c3d2.wav",
+     "text": "Call that distance x. So E C is x too, and E B is sixteen minus x.",
+     "caption": "Call that distance x. So EC is x too, and EB is 16 minus x.",
+     "file": "2026-10-31-tree-in-yard/short/audio/262f0fee3f0a4300.wav",
      "from": 0,
-     "frames": 180
+     "frames": 158
     },
     {
      "text": "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.",
-     "caption": "The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.",
-     "file": "2026-10-31-tree-in-yard/short/audio/d6b42e7d40625704.wav",
-     "from": 190,
-     "frames": 167
+     "caption": "The right triangle says: (16 minus x)\u00b2, plus 8\u00b2, equals x\u00b2.",
+     "file": "2026-10-31-tree-in-yard/short/audio/625fece9aa6511f3.wav",
+     "from": 162,
+     "frames": 144
     },
     {
-     "text": "The x squared parts cancel, leaving three hundred twenty equals thirty-two x.",
-     "caption": "The x squared parts cancel, leaving three hundred twenty equals thirty-two x.",
-     "file": "2026-10-31-tree-in-yard/short/audio/3e7f11c73116e0ef.wav",
-     "from": 368,
-     "frames": 143
+     "text": "The x squareds cancel: three hundred twenty equals thirty-two x.",
+     "caption": "The x\u00b2s cancel: 320 equals 32x.",
+     "file": "2026-10-31-tree-in-yard/short/audio/d6343c9d3cf3b021.wav",
+     "from": 310,
+     "frames": 125
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1187,
-   "frames": 262,
+   "from": 856,
+   "frames": 303,
    "lines": [
     {
-     "text": "So x is ten meters!",
-     "caption": "So x is ten meters!",
-     "file": "2026-10-31-tree-in-yard/short/audio/57f9303cc86ffc3a.wav",
+     "text": "Divide by thirty-two. The tree is ten meters away!",
+     "caption": "Divide by 32. The tree is 10 meters away!",
+     "file": "2026-10-31-tree-in-yard/short/audio/aae15891319a6998.wav",
      "from": 0,
-     "frames": 64
+     "frames": 98
     },
     {
-     "text": "Check: E B is six, and six, eight, ten is a right triangle.",
-     "caption": "Check: E B is six, and six, eight, ten is a right triangle.",
-     "file": "2026-10-31-tree-in-yard/short/audio/32c7aa0a68ef0927.wav",
-     "from": 75,
-     "frames": 149
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1449,
-   "frames": 251,
-   "lines": [
-    {
-     "text": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "caption": "Want to see why? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-31-tree-in-yard/short/audio/5a466bf8b2983070.wav",
-     "from": 0,
-     "frames": 136
+     "text": "Six was the trap. That's E B, the distance to B.",
+     "caption": "6 was the trap. That's EB, the distance to B.",
+     "file": "2026-10-31-tree-in-yard/short/audio/8be1c1ddda0d15f4.wav",
+     "from": 102,
+     "frames": 104
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-tree-in-yard/short/audio/82b8b7e1a12a7449.wav",
-     "from": 146,
-     "frames": 57
+     "text": "Did you get ten? Tell me below!",
+     "caption": "Did you get 10? Tell me below!",
+     "file": "2026-10-31-tree-in-yard/short/audio/912118c80ef82b0f.wav",
+     "from": 209,
+     "frames": 58
     }
    ]
   }

@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1645,
+ "durationInFrames": 1160,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 262,
+   "frames": 102,
    "lines": [
     {
-     "text": "Put b equals negative one. The roots are four and negative three.",
-     "caption": "Put b equals negative one. The roots are four and negative three.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/f239b37dea84bf99.wav",
+     "text": "AMC ten challenge! Think it's eight? Nope!",
+     "caption": "AMC 10 challenge! Think it's 8? Nope!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/51186c76442f9dba.wav",
      "from": 0,
-     "frames": 122
-    },
-    {
-     "text": "Both whole numbers! How many values of b do that?",
-     "caption": "Both whole numbers! How many values of b do that?",
-     "file": "2026-11-01-integer-roots-12b/short/audio/688e5894ff07e6b8.wav",
-     "from": 132,
-     "frames": 107
+     "frames": 90
     }
    ]
   },
@@ -29,38 +22,31 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 262,
-   "frames": 237,
+   "from": 102,
+   "frames": 184,
    "lines": [
     {
-     "text": "For how many integers b are both roots of this equation integers?",
-     "caption": "For how many integers b are both roots of this equation integers?",
-     "file": "2026-11-01-integer-roots-12b/short/audio/f1e74eab6c364070.wav",
+     "text": "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?",
+     "caption": "For how many integers b are both roots of x\u00b2 + bx + 12b = 0 integers?",
+     "file": "2026-11-01-integer-roots-12b/short/audio/54d7e5ec1b728990.wav",
      "from": 0,
-     "frames": 130
-    },
-    {
-     "text": "Pick one of the five choices.",
-     "caption": "Pick one of the five choices.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/565779d0d27ca641.wav",
-     "from": 141,
-     "frames": 64
+     "frames": 172
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 499,
-   "frames": 160,
+   "from": 286,
+   "frames": 72,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-11-01-integer-roots-12b/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 46
+     "frames": 60
     }
    ]
   },
@@ -68,29 +54,36 @@
    "id": "trick",
    "kind": "scene",
    "chapter": null,
-   "from": 659,
-   "frames": 435,
+   "from": 358,
+   "frames": 503,
    "lines": [
     {
-     "text": "Call the roots r and s. Sum and product give this neat equation.",
-     "caption": "Call the roots r and s. Sum and product give this neat equation.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/6fc4cae4eea63559.wav",
+     "text": "Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.",
+     "caption": "Call the roots r and s. Sum and product give rs + 12r + 12s = 0.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/11e7841b74a89c6f.wav",
      "from": 0,
-     "frames": 123
+     "frames": 152
     },
     {
-     "text": "Here's the trick. Add one hundred forty-four to both sides.",
-     "caption": "Here's the trick. Add one hundred forty-four to both sides.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/d7dff20ec1a1d5ce.wav",
-     "from": 133,
-     "frames": 110
+     "text": "Add one hundred forty-four to both sides. That fills the grid!",
+     "caption": "Add 144 to both sides. That fills the grid!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/39df29f8e99149d5.wav",
+     "from": 155,
+     "frames": 100
     },
     {
-     "text": "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four.",
-     "caption": "Now it factors! r plus twelve, times s plus twelve, equals one hundred forty-four.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/1d2770996c34d80c.wav",
-     "from": 252,
-     "frames": 159
+     "text": "So r plus twelve, times s plus twelve, equals one hundred forty-four.",
+     "caption": "So (r+12)(s+12) = 144.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/e7ef8ecbb8bdc9ad.wav",
+     "from": 259,
+     "frames": 134
+    },
+    {
+     "text": "Its factor pairs: eight positive, and eight negative!",
+     "caption": "Its factor pairs: 8 positive, and 8 negative!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/a2fab45f6b83b720.wav",
+     "from": 397,
+     "frames": 94
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1094,
-   "frames": 268,
+   "from": 861,
+   "frames": 299,
    "lines": [
     {
-     "text": "Factor pairs of one hundred forty-four: eight positive, and eight negative.",
-     "caption": "Factor pairs of one hundred forty-four: eight positive, and eight negative.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/3da1513dfca0279b.wav",
+     "text": "Every pair gives a different value of b. That's sixteen!",
+     "caption": "Every pair gives a different value of b. That's 16!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/5f79661890b6d65b.wav",
      "from": 0,
-     "frames": 137
+     "frames": 104
     },
     {
-     "text": "Eight plus eight is sixteen. That's Choice C!",
-     "caption": "Eight plus eight is sixteen. That's Choice C!",
-     "file": "2026-11-01-integer-roots-12b/short/audio/74251eff5caae9ba.wav",
-     "from": 147,
-     "frames": 86
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1362,
-   "frames": 283,
-   "lines": [
-    {
-     "text": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "caption": "Why exactly that? The full lesson shows two ways, plus every trap.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/66554cbc453363b8.wav",
-     "from": 0,
-     "frames": 160
+     "text": "Eight was the trap: it forgets the negatives.",
+     "caption": "8 was the trap: it forgets the negatives.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/af0be8f54e73e7a6.wav",
+     "from": 107,
+     "frames": 81
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-11-01-integer-roots-12b/short/audio/82b8b7e1a12a7449.wav",
-     "from": 170,
-     "frames": 65
+     "text": "Did you get sixteen? Tell me below!",
+     "caption": "Did you get 16? Tell me below!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/0909e43504db37a1.wav",
+     "from": 192,
+     "frames": 71
     }
    ]
   }

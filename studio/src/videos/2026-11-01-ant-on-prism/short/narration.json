@@ -1,55 +1,54 @@
 {
  "title": "Ant on a Prism (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "An ant crawls this prism, one random edge every second.",
-    "Which corner does it hit first, E or A?"
+    "AMC ten challenge! Think it's one third? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "The ant starts at C. All three edges there are equally likely.",
+    "An ant starts at corner C. Each second, it crawls a random edge.",
     "What's the chance it reaches E before A?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your answer, then watch!"
+   ]
   },
   {
    "id": "spin",
    "lines": [
-    "Look at the front face, A B E D. A and E are opposite corners.",
-    "Spin the prism a half turn.",
-    "A and E swap, and so do C and F. Same prism!",
-    "So F's chance is one minus C's chance."
+    "Look at the front face. A and E are opposite corners.",
+    "Spin the prism half a turn. A and E swap, and so do C and F!",
+    "Same prism! F racing to E is like C racing to A.",
+    "That means f equals one minus c."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Use that in the corner rules, and eleven c equals four.",
-    "So the chance from C is four over eleven!"
-   ],
-   "hold": 0.4
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
+    "Use the corner rule, and eleven c equals four. That's four over eleven!",
+    "One third was the trap.",
+    "Did you get four over eleven? Tell me below!"
    ],
    "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "AMC ten challenge! Think it's one third? Nope!": "AMC 10 challenge! Think it's 1/3? Nope!",
+  "That means f equals one minus c.": "That means f equals 1 minus c.",
+  "Use the corner rule, and eleven c equals four. That's four over eleven!": "Use the corner rule, and 11c equals 4. That's 4/11!",
+  "One third was the trap.": "1/3 was the trap.",
+  "Did you get four over eleven? Tell me below!": "Did you get 4/11? Tell me below!"
+ }
 }

@@ -1,59 +1,59 @@
-import { Audio, Sequence, staticFile, useCurrentFrame } from 'remotion';
+import { Audio, Sequence, useCurrentFrame } from 'remotion';
 import { ease, fadeTo, fadeUp, pop } from '../../../lib/anim';
 import { at, type SceneComponent, type Timeline } from '../../../lib/Explainer';
-import { Countdown } from '../../../lib/PauseCard';
-import { FullLessonCard, ShortFrame } from '../../../lib/Short';
+import { CommentBubble, CtaPill, MUSIC, PushIn, SFX, Sfx, ShortFrame, choicePulse } from '../../../lib/Short';
 import { Tex } from '../../../lib/Tex';
 import { Confetti, Text } from '../../../lib/ui';
 import { C } from '../../../lib/theme';
-import { Arc, BH, BODY_TOP, CH, CHIME, COL_A, COL_B, JX, JugGlow, Jugs, MAIN, ORT, SLUG, Swirl, TICK, T_END, T_START, type Phases } from '../Composition';
+import { CH, CHIME, COL_A, COL_B, JugGlow, Jugs, Legend, MAIN, ORT, SLUG, Swirl, T_END, T_START, type Phases } from '../Composition';
 
 export { SLUG };
+const before = -100;
 
-const OX = 70;
-const S = 0.9;
-const CAx = OX + 220 * S;
-const CBx = OX + (JX.B + 220) * S;
-const jugBottom = (oy: number, s = S) => oy + (BODY_TOP + BH) * s;
+// Jugs as placed in the hook and at the end of the reveal (same spot, so the loop cuts cleanly).
+const HJ = { ox: 149, oy: 540, s: 0.85 };
 
-const Title: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <Text x={540} y={300} w={980} size={72} weight={900} align="center">
-    {children}
-  </Text>
+const Center: React.FC<{ y: number; style?: React.CSSProperties; children: React.ReactNode }> = ({ y, style, children }) => (
+  <div style={{ position: 'absolute', left: 0, width: 1080, top: y, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 24, ...style }}>{children}</div>
 );
 
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const oy = 560;
+  const nope = at(scene, 0, 0.84);
   return (
     <>
-      <Title>
-        Pour. Stir. <span style={{ color: C.violet }}>Pour back.</span>
-      </Title>
-      <Jugs ox={OX} oy={oy} s={S} blocks={MAIN} T={T_START}>
-        <Arc from={JX.B + 220} to={JX.A + 220} y0={-6} peak={-170} start={at(scene, 0, 0.15)} />
-        <Arc from={JX.A + 220} to={JX.B + 220} y0={BODY_TOP + BH + 30} peak={BODY_TOP + BH + 170} start={at(scene, 0, 0.6)} />
-      </Jugs>
-      <Text x={540} y={1080} w={900} size={64} weight={900} color={C.red} align="center" style={fadeUp(f, at(scene, 1, 0.1))}>
-        Most kids get it wrong!
+      <Center y={280}>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 8 · Challenge #37</div>
+      </Center>
+      <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
+        Think it's <span style={{ color: C.red }}>60%</span>?
       </Text>
+      <PushIn frames={scene.frames} origin="540px 760px">
+        <Jugs {...HJ} blocks={MAIN} T={T_START} />
+      </PushIn>
+      <Sfx at={nope} src={SFX.buzz} volume={0.35} />
+      <Center y={640} style={{ opacity: ease(f, nope, 4) }}>
+        <div style={{ transform: `rotate(-8deg) scale(${pop(f, nope)})`, border: `14px solid ${C.red}`, color: C.red, background: 'rgba(255,255,255,0.92)', borderRadius: 28, padding: '6px 54px', fontSize: 150, fontWeight: 900, letterSpacing: 6 }}>
+          NOPE
+        </div>
+      </Center>
     </>
   );
 };
 
-const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => {
+const QuestionBody: React.FC<{ start: (i: number) => number; pulse?: (i: number) => number }> = ({ start, pulse = () => 1 }) => {
   const f = useCurrentFrame();
   return (
     <>
-      <div style={{ position: 'absolute', left: 60, top: 290, width: 860, background: C.card, borderRadius: 32, padding: '26px 38px', fontSize: 44, fontWeight: 700, lineHeight: 1.4, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
-        <b style={{ color: COL_A }}>Jug A:</b> 10 L water. <b style={{ color: COL_B }}>Jug B:</b> 10 L, 60% juice. Pour 5 L B → A, stir, pour 5 L back. <b>What % of B is juice?</b>
+      <div style={{ position: 'absolute', left: 50, top: 290, width: 980, boxSizing: 'border-box', background: C.card, borderRadius: 32, padding: '24px 40px', fontSize: 54, fontWeight: 800, lineHeight: 1.32, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
+        <b style={{ color: COL_A }}>Jug A:</b> 10 L water. <b style={{ color: COL_B }}>Jug B:</b> 10 L, <b style={{ color: ORT }}>60% juice</b>. Pour 5 L B → A, stir, pour 5 L back. <b>What % of B is juice?</b>
       </div>
-      <Jugs ox={OX} oy={610} s={S} blocks={MAIN} T={T_START} />
-      <div style={{ position: 'absolute', left: 60, top: 1070, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 16 }}>
+      <Jugs ox={218} oy={680} s={0.7} blocks={MAIN} T={T_START} />
+      <div style={{ position: 'absolute', left: 60, top: 1030, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 22 }}>
         {CH.map((c, i) => (
-          <div key={c} style={{ ...fadeUp(f, start(i), 10), background: C.card, borderRadius: 18, padding: '8px 22px', boxShadow: '0 4px 14px rgba(30,40,80,0.07)', display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span style={{ color: C.muted, fontSize: 32, fontWeight: 800 }}>{'ABCDE'[i]}</span>
-            <Tex tex={`${c}\\%`} size={48} />
+          <div key={c} style={{ ...fadeUp(f, start(i), 8), background: C.card, borderRadius: 22, padding: '12px 30px', boxShadow: '0 4px 14px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', gap: 14, scale: String(pulse(i)) }}>
+            <span style={{ color: C.muted, fontSize: 44, fontWeight: 900 }}>{'ABCDE'[i]}</span>
+            <Tex tex={`${c}\\%`} size={68} />
           </div>
         ))}
       </div>
@@ -61,101 +61,121 @@ const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => 
   );
 };
 
-const Question: SceneComponent = ({ scene }) => <QuestionBody start={(i) => at(scene, 1, 0.55 + i * 0.07)} />;
-
-const Think: SceneComponent = ({ scene }) => (
+const Question: SceneComponent = ({ scene }) => (
   <>
-    <div style={{ opacity: 0.35 }}>
-      <QuestionBody start={() => -100} />
-    </div>
-    <div style={{ position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, background: 'rgba(246,247,251,0.6)' }} />
-    <Countdown scene={scene} seconds={3} x={540} y={900} tick={TICK} />
+    <QuestionBody start={(i) => at(scene, 1, 0.75 + i * 0.05)} />
+    <Sfx at={0} src={SFX.whoosh} volume={0.3} />
   </>
 );
 
-const Val: React.FC<{ x: number; y: number; vals: [number, string][]; color: string; label: string }> = ({ x, y, vals, color, label }) => {
+const Think: SceneComponent = () => {
   const f = useCurrentFrame();
-  let cur = vals[0][1];
-  let t0 = vals[0][0];
-  for (const [t, v] of vals) if (f >= t) { cur = v; t0 = t; }
-  const k = pop(f, t0);
   return (
-    <div style={{ position: 'absolute', left: x - 200, top: y, width: 400, textAlign: 'center', fontSize: 54, fontWeight: 900, color, whiteSpace: 'nowrap' }}>
-      <span style={{ fontSize: 40, color: C.muted, fontWeight: 800 }}>{label} </span>
-      <span style={{ display: 'inline-block', transform: `scale(${0.8 + 0.2 * Math.min(1, k)})` }}>{cur}</span>
+    <>
+      <QuestionBody start={() => before} pulse={(i) => choicePulse(f, i)} />
+      <CommentBubble />
+    </>
+  );
+};
+
+/** Juice readout under a jug: shows the latest value whose frame has passed, popping on each change. */
+const Juice: React.FC<{ x: number; y: number; vals: [number, string][]; op?: number }> = ({ x, y, vals, op = 1 }) => {
+  const f = useCurrentFrame();
+  const cur = [...vals].reverse().find(([t]) => f >= t);
+  if (!cur) return null;
+  const k = pop(f, cur[0]);
+  return (
+    <div style={{ position: 'absolute', left: x - 170, top: y, width: 340, textAlign: 'center', whiteSpace: 'nowrap', opacity: op * ease(f, vals[0][0], 8) }}>
+      <span style={{ display: 'inline-block', background: C.card, borderRadius: 22, padding: '6px 26px', fontSize: 64, fontWeight: 900, color: ORT, boxShadow: '0 6px 20px rgba(30,40,80,0.08)', transform: `scale(${0.85 + 0.15 * Math.min(1, k)})` }}>{cur[1]}</span>
     </div>
   );
 };
+
+// ---------- the aha: follow the liters of juice, pour by pour ----------
+const AJ = { ox: 80, oy: 420, s: 1 };
+const AX = AJ.ox + 220; // jug A centre
+const BX = AJ.ox + 700; // jug B centre
 
 const Pour: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const oy = 450;
-  const a1 = at(scene, 1, 0.5);
-  const a2 = at(scene, 2, 0.35);
-  const T: Phases = { p1: [a1, a1 + 36], s1: [a1 + 44, a1 + 68], p2: [a2, a2 + 36], s2: [a2 + 44, a2 + 68] };
-  const by = jugBottom(oy) + 24;
-  const eq = (tex: string, start: number, end: number, color: string) => (
-    <div style={{ position: 'absolute', left: 0, width: 1080, top: 1060, display: 'flex', justifyContent: 'center', ...fadeUp(f, start), opacity: ease(f, start, 10) * fadeTo(f, end, 0, 10) }}>
-      <Tex tex={tex} size={68} color={color} />
-    </div>
+  const glow = at(scene, 0, 0.5);
+  const six = at(scene, 0, 0.78);
+  const p1 = at(scene, 1, 0.05);
+  const p2 = at(scene, 2, 0.3);
+  const T: Phases = { p1: [p1, p1 + 36], s1: [p1 + 44, p1 + 68], p2: [p2, p2 + 36], s2: [p2 + 44, p2 + 68] };
+  const zoomIn = at(scene, 2, 0.05);
+  const zoomOut = at(scene, 2, 0.92);
+  const zoom = 1 + 0.25 * ease(f, zoomIn, 12) - 0.25 * ease(f, zoomOut, 12);
+  const eq = (tex: string, start: number, end: number) => (
+    <Center y={1040} style={{ ...fadeUp(f, start), opacity: ease(f, start, 10) * fadeTo(f, end, 0, 8) }}>
+      <Tex tex={tex} size={72} />
+    </Center>
   );
   return (
     <>
-      <Title>
-        Count <span style={{ color: ORT }}>juice</span>, not percents
-      </Title>
-      <Jugs ox={OX} oy={oy} s={S} blocks={MAIN} T={T}>
-        <Swirl j="A" start={T.s1[0]} end={T.s1[1] + 6} />
-        <Swirl j="B" start={T.s2[0]} end={T.s2[1] + 6} />
-        <JugGlow j="B" start={at(scene, 1, 0.1)} end={a1} color={COL_B} />
-      </Jugs>
-      <Val x={CAx} y={by} color={COL_A} label="juice" vals={[[0, '0 L'], [a1 + 20, '3 L'], [a2 + 20, '2 L']]} />
-      <Val x={CBx} y={by} color={COL_B} label="juice" vals={[[at(scene, 1, 0.05), '6 L'], [a1 + 20, '3 L'], [a2 + 20, '4 L']]} />
-      {eq('\\dfrac{1}{2}\\text{ of }6 = 3\\text{ L}', a1 - 10, a2 - 20, C.ink)}
-      {eq('\\dfrac{1}{3}\\text{ of }3 = 1\\text{ L}', a2 - 5, 1e6, C.ink)}
-      <div style={{ position: 'absolute', left: 120, top: 1220, display: 'flex', gap: 14, fontSize: 40, fontWeight: 800, alignItems: 'center', color: C.muted, ...fadeUp(f, 6) }}>
-        <div style={{ width: 36, height: 36, borderRadius: 9, background: '#ff8a1f', border: '4px solid #e06d00', boxSizing: 'border-box' }} /> juice
-        <div style={{ width: 36, height: 36, borderRadius: 9, background: '#9fd4ff', border: '4px solid #5fb0ee', boxSizing: 'border-box', marginLeft: 20 }} /> water
-        <span style={{ marginLeft: 20 }}>1 block = 1 L</span>
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={six} src={SFX.click} volume={0.28} />
+      {[0, 12, 24].map((d) => <Sfx key={d} at={p1 + d} src={SFX.click} volume={0.25} />)}
+      <Sfx at={zoomIn} src={SFX.whoosh} volume={0.25} />
+      {[0, 12, 24].map((d) => <Sfx key={`b${d}`} at={p2 + d} src={SFX.click} volume={0.25} />)}
+      <Sfx at={zoomOut} src={SFX.whoosh} volume={0.25} />
+
+      <div style={{ position: 'absolute', inset: 0, transform: `scale(${zoom})`, transformOrigin: `${BX + 20}px 690px` }}>
+        <Jugs {...AJ} blocks={MAIN} T={T}>
+          <JugGlow j="B" start={glow} end={p1} color={ORT} />
+          <Swirl j="A" start={T.s1[0]} end={T.s1[1] + 6} />
+          <Swirl j="B" start={T.s2[0]} end={T.s2[1] + 6} />
+        </Jugs>
+      </div>
+      <Text x={540} y={290} w={1040} size={76} weight={900} align="center" style={{ opacity: ease(f, 2, 10) * fadeTo(f, zoomIn, 0, 8) + ease(f, zoomOut + 4, 10) }}>
+        Count <span style={{ color: ORT }}>liters</span>, not percents
+      </Text>
+      <Juice x={AX} y={950} vals={[[at(scene, 0, 0.3), '0 L'], [p1 + 22, '3 L']]} op={fadeTo(f, p2 - 6, 0, 8)} />
+      <Juice x={BX - 40} y={950} vals={[[six, '6 L'], [p1 + 22, '3 L'], [p2 + 26, '3 L + 1 L']]} />
+      {eq('\\dfrac{1}{2}\\text{ of } 6\\text{ L} = 3\\text{ L}', at(scene, 1, 0.45), at(scene, 2, 0.4))}
+      {eq('\\dfrac{1}{3}\\text{ of } 3\\text{ L} = 1\\text{ L}', at(scene, 2, 0.5), 1e6)}
+      <div style={{ opacity: fadeTo(f, at(scene, 1, 0.4), 0, 8) }}>
+        <Legend x={150} y={1060} start={at(scene, 0, 0.3)} />
       </div>
     </>
   );
 };
 
+/** The answer, the trap, then the CTA pill over the same jugs as frame 0 (no separate end card). */
 const Reveal: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const oy = 630;
-  const hit = at(scene, 1, 0.05);
-  const chime = at(scene, 1, 1);
+  const hit = at(scene, 0, 0.76);
+  const chime = at(scene, 0, 0.98);
+  const trap = at(scene, 1, 0.05);
   return (
     <>
-      <Text x={540} y={310} w={980} size={64} weight={900} color={COL_B} align="center" style={{ ...fadeUp(f, at(scene, 0, 0.4)), opacity: ease(f, at(scene, 0, 0.4), 10) * fadeTo(f, hit, 0, 8) }}>
-        3 L + 1 L = 4 L of juice
-      </Text>
-      <div style={{ position: 'absolute', left: 0, width: 1080, top: 285, display: 'flex', justifyContent: 'center' }}>
-        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '14px 44px', display: 'flex', alignItems: 'center', gap: 20, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
+      <Center y={300} style={{ opacity: ease(f, at(scene, 0, 0.05), 8) * fadeTo(f, hit - 4, 0, 4) }}>
+        <Tex tex={`3\\text{ L} + 1\\text{ L} = 4\\text{ L}\\text{ of }10\\text{ L}`} size={76} color={ORT} />
+      </Center>
+      <Center y={285}>
+        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '10px 48px', display: 'flex', alignItems: 'center', boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
           <Tex tex={'\\dfrac{4}{10} = 40\\%'} size={92} color="#fff" />
         </div>
-      </div>
-      <Jugs ox={OX} oy={oy} s={S} blocks={MAIN} T={T_END}>
-        <JugGlow j="B" start={at(scene, 0, 0.5)} color={C.green} />
+      </Center>
+      <Jugs {...HJ} blocks={MAIN} T={T_END}>
+        <JugGlow j="B" start={hit} end={at(scene, 2)} color={C.green} />
       </Jugs>
-      <Text x={CBx} y={jugBottom(oy) + 24} w={420} size={48} weight={900} color={COL_B} align="center" style={fadeUp(f, at(scene, 0, 0.5))}>
-        4 L juice of 10 L
+      <Text x={490} y={955} w={860} size={58} weight={900} color={C.red} align="center" style={fadeUp(f, trap)}>
+        60% is where jug B started
       </Text>
+      <CtaPill start={at(scene, 2)} y={1150} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={hit - 31} src={SFX.riser} volume={0.3} />
+      <Sfx at={trap} src={SFX.buzz} volume={0.2} />
       <Sequence from={chime} durationInFrames={60} layout="none">
         <Audio src={CHIME} volume={0.3} />
       </Sequence>
-      <Confetti x={540} y={380} start={hit} seed={5} />
+      <Confetti x={540} y={360} start={chime} seed={5} />
     </>
   );
 };
 
-const Cta: SceneComponent = ({ scene }) => (
-  <FullLessonCard scene={scene} poster={staticFile(`${SLUG}/short/full.jpg`)} length="5:30" bullets={['Two ways to solve it', 'Every wrong answer explained', 'A new mix to try']} />
-);
-
-const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, pour: Pour, reveal: Reveal, cta: Cta };
+const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, pour: Pour, reveal: Reveal };
 
 export const Short: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
-  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 8-style" /> : null;
+  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 8-style" captions="words" music={MUSIC} /> : null;

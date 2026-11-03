@@ -1,30 +1,58 @@
 {
  "title": "The Remainder of a Giant Sum (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
-  {"id": "hook", "lines": [
-   "Add one, two, four, eight, and keep doubling. One hundred numbers!",
-   "The total is thirty-one digits long! Yet we can find its remainder."
-  ]},
-  {"id": "question", "lines": [
-   "The last number is two to the ninety-ninth.",
-   "What's the remainder when the sum is divided by seven?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "cycle", "lines": [
-   "Here's the trick. Look at each number's remainder.",
-   "One, two, four, then eight leaves one again. It's a cycle!",
-   "One plus two plus four is seven. Each group leaves nothing.",
-   "Ninety-nine terms make thirty-three groups. The last term leaves one."
-  ]},
-  {"id": "reveal", "lines": [
-   "So the remainder is one!",
-   "A giant sum, tamed by a tiny pattern."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Why a cycle? The full lesson shows two neat ways, plus every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 1.5}
- ]
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's zero? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Add one, two, four, eight, and keep doubling, up to two to the ninety-ninth.",
+    "What's the remainder when you divide the sum by seven?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "cycle",
+   "lines": [
+    "Divide by seven: one, two, four, then eight leaves one again. A cycle!",
+    "One plus two plus four is seven, so each group of three leaves nothing.",
+    "One hundred terms make thirty-three groups, plus one extra.",
+    "That extra term, two to the ninety-ninth, leaves one."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "So the remainder is one!",
+    "Zero was the trap. It forgets the last term.",
+    "Did you get one? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "AMC eight challenge! Think it's zero? Nope!": "AMC 8 challenge! Think it's 0? Nope!",
+  "Add one, two, four, eight, and keep doubling, up to two to the ninety-ninth.": "Add 1, 2, 4, 8, and keep doubling, up to 2⁹⁹.",
+  "Divide by seven: one, two, four, then eight leaves one again. A cycle!": "Divide by 7: 1, 2, 4, then 8 leaves 1 again. A cycle!",
+  "One plus two plus four is seven, so each group of three leaves nothing.": "1 plus 2 plus 4 is 7, so each group of 3 leaves nothing.",
+  "One hundred terms make thirty-three groups, plus one extra.": "100 terms make 33 groups, plus 1 extra.",
+  "That extra term, two to the ninety-ninth, leaves one.": "That extra term, 2⁹⁹, leaves 1.",
+  "So the remainder is one!": "So the remainder is 1!",
+  "Zero was the trap. It forgets the last term.": "0 was the trap. It forgets the last term.",
+  "Did you get one? Tell me below!": "Did you get 1? Tell me below!"
+ }
 }

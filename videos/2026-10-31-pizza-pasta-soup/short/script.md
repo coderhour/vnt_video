@@ -1,27 +1,23 @@
 # Pizza, Pasta, Soup (short)
 
-Twenty-four kids, three favorite foods. How few could like all three?
+AMC eight challenge! Think it's sixteen? Nope!
 
-Skip the big Venn diagram. Count the no's instead!
+Twenty-four kids. Twenty like pizza, eighteen like pasta, and sixteen like soup.
 
-Twenty kids like pizza, eighteen like pasta, and sixteen like soup.
+What's the smallest possible number who like all three?
 
-What's the smallest number who like all three?
+Comment your letter, then watch!
 
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
+Count the kids who say no!
 
 Four kids say no to pizza, six say no to pasta, and eight say no to soup.
 
-Give those no's to different kids. That's eighteen kids who say no.
+Give them to different kids, so no kid says no twice. That's eighteen kids.
 
-Everyone else says yes to all three! Twenty-four minus eighteen.
+Everyone else says yes to all three!
 
-The answer is six!
+Twenty-four minus eighteen. That's six kids!
 
-You can't do better. There are only eighteen no's to hand out.
+Sixteen was the trap. That's the most, not the fewest.
 
-Want to see why? The full lesson has two neat ways and every trap.
-
-Tap the link below to watch it!
+Did you get six? Tell me below!

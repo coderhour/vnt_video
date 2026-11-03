@@ -1,54 +1,53 @@
 {
  "title": "When Does 3^n End in 01? (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Three, nine, twenty-seven, eighty-one. Powers of three grow fast!",
-    "Can one end in zero one?"
+    "AMC eight challenge! Think it's four? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "What is the smallest n, so three to the n ends in zero one?",
-    "Here are the choices."
-   ],
-   "hold": 0.3
+    "Powers of three grow fast!",
+    "What is the smallest n, so three to the n ends in zero one?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "jump",
    "lines": [
     "The last digit loops: three, nine, seven, one. So only every fourth power ends in one.",
-    "Three to the fourth is eighty-one. Four powers later, the tens digit drops by two.",
-    "Sixty-one, forty-one, twenty-one, and then zero one!"
+    "Three to the fourth is eighty-one. To jump four more powers, multiply by eighty-one.",
+    "The tens digit drops by two. Sixty-one, forty-one, twenty-one, and then zero one!"
    ]
   },
   {
    "id": "reveal",
    "lines": [
     "Five jumps of four powers. So n is twenty!",
-    "Check: three to the twentieth ends in zero one."
+    "Four was the trap. Eighty-one ends in one, but not zero one.",
+    "Did you get twenty? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why does it drop? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "What is the smallest n, so three to the n ends in zero one?": "What is the smallest n, so 3ⁿ ends in 01?",
+  "The last digit loops: three, nine, seven, one. So only every fourth power ends in one.": "The last digit loops: 3, 9, 7, 1. So only every 4th power ends in 1.",
+  "Three to the fourth is eighty-one. To jump four more powers, multiply by eighty-one.": "3⁴ is 81. To jump 4 more powers, multiply by 81.",
+  "The tens digit drops by two. Sixty-one, forty-one, twenty-one, and then zero one!": "The tens digit drops by 2. 61, 41, 21, and then 01!",
+  "Four was the trap. Eighty-one ends in one, but not zero one.": "4 was the trap. 81 ends in 1, but not 01."
+ }
 }

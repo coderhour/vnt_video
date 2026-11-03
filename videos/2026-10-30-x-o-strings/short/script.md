@@ -1,27 +1,23 @@
 # Can X Stay Ahead? (short)
 
-Four X tiles, four O tiles: seventy strings.
+AMC eight challenge! Think it's thirty-five? Nope!
 
-Is half of them good? NOT even close!
+Line up four X tiles and four O tiles.
 
-Read left to right. At every point, X must have at least as many as O.
+Left to right, X must never fall behind O. How many strings?
 
-How many strings are good?
+Comment your letter, then watch!
 
-Pause and try it!
+Turn each string into a walk. X steps right, O steps down.
 
-*(Pause and try it: 3 s countdown)*
+X never falls behind, so the walk never crosses this wall.
 
-Turn each string into a walk. Each X steps right, and each O steps down.
+Each spot is the number on its left, plus the number above.
 
-O can never pass X, so the walk never crosses this wall.
+On the wall, the left is blocked, so copy the one above!
 
-Now fill in the grid. Each spot is the left number, plus the number above.
+Keep adding to the corner. That's fourteen strings!
 
-Keep adding, all the way to the corner. The answer is fourteen!
+Thirty-five was the trap. That's just half of seventy.
 
-That's just one string out of five!
-
-Why does adding work? The full lesson has a list, a table, and every trap.
-
-Tap the link below to watch it!
+Did you get fourteen? Tell me below!

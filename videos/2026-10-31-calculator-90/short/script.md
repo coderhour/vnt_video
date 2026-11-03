@@ -1,27 +1,21 @@
-# Two Buttons, One Target (short)
+# +1 and x2 Only: 3 to 90 (short)
 
-A calculator with two keys: plus one, and double.
+AMC eight challenge! Think it's nine? Nope!
 
-Three to ninety in the FEWEST presses!
-
-The screen shows three. One key adds one, the other doubles.
+A calculator shows three. One key adds one. The other key doubles.
 
 What's the fewest presses to make ninety?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Work backwards from ninety! Even? Cut it in half. Odd? Take one away.
 
-Work backwards! Doubling becomes halving, and plus one becomes minus one.
+Ninety, forty-five, forty-four, twenty-two, eleven, ten, five, four.
 
-Halve when you can. If it's odd, take one away first.
+Half of four is two, too small. So take one away: three!
 
-Forty-five, forty-four, twenty-two, eleven, ten, five, four, three!
+Count the arrows, not the numbers. That's eight presses!
 
-Count the arrows, not the numbers. Eight presses!
+Nine was the trap. It counts the numbers in the chain.
 
-Count the numbers instead, and you'd say nine.
-
-Can anything beat eight? The full lesson proves it, and shows every trap.
-
-Tap the link below to watch it!
+Did you get eight? Tell me below!

@@ -20,14 +20,14 @@ const GOLD_D = '#b36b00';
 
 // ---------- staircase geometry ----------
 
-type Geo = { ox: number; y0: number; w: number; h: number };
+export type Geo = { ox: number; y0: number; w: number; h: number };
 const BIG: Geo = { ox: 960, y0: 740, w: 110, h: 62 };
 const LAD: Geo = { ox: 50, y0: 690, w: 120, h: 56 };
 const SMALL: Geo = { ox: 790, y0: 730, w: 76, h: 48 };
 const INTRO_G: Geo = { ox: 440, y0: 750, w: 130, h: 72 };
-const cx = (g: Geo, n: number) => g.ox + n * g.w + g.w / 2;
-const ty = (g: Geo, n: number) => g.y0 - n * g.h;
-const rad = (g: Geo) => Math.round(g.w * 0.27);
+export const cx = (g: Geo, n: number) => g.ox + n * g.w + g.w / 2;
+export const ty = (g: Geo, n: number) => g.y0 - n * g.h;
+export const rad = (g: Geo) => Math.round(g.w * 0.27);
 const cl = (v: number, a = 0, b = 1) => Math.max(a, Math.min(b, v));
 
 const Stairs: React.FC<{ g: Geo; gold?: number; goldP?: number; op?: number }> = ({ g, gold = 5, goldP = 0, op = 1 }) => (
@@ -72,7 +72,7 @@ const piaAt = (g: Geo, hops: Hop[], f: number) => {
   return { x, y };
 };
 
-const Token: React.FC<{ x: number; y: number; r: number; label?: number }> = ({ x, y, r, label = 0 }) => (
+export const Token: React.FC<{ x: number; y: number; r: number; label?: number }> = ({ x, y, r, label = 0 }) => (
   <>
     <Stage>
       <g opacity={1}>
@@ -128,7 +128,7 @@ const Coin: React.FC<{ x: number; y: number; f: number; ev: CoinEv[]; r?: number
 };
 
 /** Curved hop arrow from step a to step b. */
-const Arc: React.FC<{ g: Geo; a: number; b: number; color: string; p: number; label?: string; lift?: number; op?: number; dash?: boolean; lw?: number; ldx?: number }> = ({ g, a, b, color, p, label, lift, op = 1, dash, lw = 7, ldx = 0 }) => {
+export const Arc: React.FC<{ g: Geo; a: number; b: number; color: string; p: number; label?: string; lift?: number; op?: number; dash?: boolean; lw?: number; ldx?: number }> = ({ g, a, b, color, p, label, lift, op = 1, dash, lw = 7, ldx = 0 }) => {
   if (p <= 0 || op <= 0) return null;
   const R = rad(g);
   const x1 = cx(g, a);

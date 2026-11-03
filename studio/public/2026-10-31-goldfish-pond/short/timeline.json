@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1648,
+ "durationInFrames": 1141,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 279,
+   "frames": 116,
    "lines": [
     {
-     "text": "A pond has two hundred fish, ninety percent goldfish.",
-     "caption": "A pond has two hundred fish, ninety percent goldfish.",
-     "file": "2026-10-31-goldfish-pond/short/audio/6097efc5915c1362.wav",
+     "text": "AMC eight challenge! Think it's ten? Nope!",
+     "caption": "AMC 8 challenge! Think it's 10? Nope!",
+     "file": "2026-10-31-goldfish-pond/short/audio/357bdd7f619d2028.wav",
      "from": 0,
-     "frames": 112
-    },
-    {
-     "text": "Remove goldfish until eighty percent remain. Most kids say ten!",
-     "caption": "Remove goldfish until eighty percent remain. Most kids say ten!",
-     "file": "2026-10-31-goldfish-pond/short/audio/f181ed1c6b402c68.wav",
-     "from": 122,
-     "frames": 134
+     "frames": 105
     }
    ]
   },
@@ -29,31 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 279,
-   "frames": 189,
+   "from": 116,
+   "frames": 266,
    "lines": [
     {
-     "text": "How many goldfish must go, so that eighty percent of the fish left are goldfish?",
-     "caption": "How many goldfish must go, so that eighty percent of the fish left are goldfish?",
-     "file": "2026-10-31-goldfish-pond/short/audio/3fe39b635b2d4c4a.wav",
+     "text": "A pond has two hundred fish, and ninety percent are goldfish.",
+     "caption": "A pond has 200 fish, and 90% are goldfish.",
+     "file": "2026-10-31-goldfish-pond/short/audio/f0697dbd6cb620aa.wav",
      "from": 0,
-     "frames": 156
+     "frames": 116
+    },
+    {
+     "text": "How many goldfish must go, so that eighty percent of the fish left are goldfish?",
+     "caption": "How many goldfish must go, so that 80% of the fish left are goldfish?",
+     "file": "2026-10-31-goldfish-pond/short/audio/2de7dfc45f7e9364.wav",
+     "from": 120,
+     "frames": 135
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 468,
-   "frames": 160,
+   "from": 382,
+   "frames": 70,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-31-goldfish-pond/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-31-goldfish-pond/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 46
+     "frames": 58
     }
    ]
   },
@@ -61,29 +61,29 @@
    "id": "stay",
    "kind": "scene",
    "chapter": null,
-   "from": 628,
-   "frames": 470,
+   "from": 452,
+   "frames": 383,
    "lines": [
     {
-     "text": "Watch the fish that stay! One hundred eighty goldfish, so twenty other fish.",
-     "caption": "Watch the fish that stay! One hundred eighty goldfish, so twenty other fish.",
-     "file": "2026-10-31-goldfish-pond/short/audio/e6a7347a5aff0bc0.wav",
+     "text": "Watch the fish that stay! One hundred eighty goldfish means twenty other fish.",
+     "caption": "Watch the fish that stay! 180 goldfish means 20 other fish.",
+     "file": "2026-10-31-goldfish-pond/short/audio/94a8561af0659609.wav",
      "from": 0,
-     "frames": 148
+     "frames": 134
     },
     {
-     "text": "Those twenty never leave. At the end they're twenty percent, one fifth of the pond.",
-     "caption": "Those twenty never leave. At the end they're twenty percent, one fifth of the pond.",
-     "file": "2026-10-31-goldfish-pond/short/audio/957a3fb941acf5b2.wav",
-     "from": 158,
-     "frames": 153
-    },
-    {
-     "text": "So the whole pond is five times twenty, one hundred fish.",
-     "caption": "So the whole pond is five times twenty, one hundred fish.",
-     "file": "2026-10-31-goldfish-pond/short/audio/aa1308d41de6c2de.wav",
-     "from": 321,
+     "text": "Those twenty never leave. At the end, they're twenty percent: one fifth of the pond.",
+     "caption": "Those 20 never leave. At the end, they're 20%: 1/5 of the pond.",
+     "file": "2026-10-31-goldfish-pond/short/audio/ba676633771e8702.wav",
+     "from": 138,
      "frames": 125
+    },
+    {
+     "text": "So the pond ends with five times twenty, one hundred fish.",
+     "caption": "So the pond ends with 5 \u00d7 20, 100 fish.",
+     "file": "2026-10-31-goldfish-pond/short/audio/497effbf8b93849c.wav",
+     "from": 267,
+     "frames": 105
     }
    ]
   },
@@ -91,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1098,
-   "frames": 278,
+   "from": 835,
+   "frames": 306,
    "lines": [
     {
-     "text": "Two hundred fish down to one hundred. So one hundred goldfish must go!",
-     "caption": "Two hundred fish down to one hundred. So one hundred goldfish must go!",
-     "file": "2026-10-31-goldfish-pond/short/audio/24828602b96dc527.wav",
+     "text": "Two hundred down to one hundred. So one hundred goldfish must go!",
+     "caption": "200 down to 100. So 100 goldfish must go!",
+     "file": "2026-10-31-goldfish-pond/short/audio/4f6913c20a60e1df.wav",
      "from": 0,
-     "frames": 141
+     "frames": 125
     },
     {
-     "text": "Not ninety minus eighty. The total changes!",
-     "caption": "Not ninety minus eighty. The total changes!",
-     "file": "2026-10-31-goldfish-pond/short/audio/67709753e2f9b45e.wav",
-     "from": 151,
-     "frames": 89
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1376,
-   "frames": 272,
-   "lines": [
-    {
-     "text": "Why not ten? The full lesson shows two ways, plus every trap.",
-     "caption": "Why not ten? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-31-goldfish-pond/short/audio/da45a5af7a526014.wav",
-     "from": 0,
-     "frames": 142
+     "text": "Ten was the trap.",
+     "caption": "10 was the trap.",
+     "file": "2026-10-31-goldfish-pond/short/audio/fdfd48229bf7dd2d.wav",
+     "from": 130,
+     "frames": 54
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-31-goldfish-pond/short/audio/82b8b7e1a12a7449.wav",
-     "from": 153,
-     "frames": 51
+     "text": "Did you get one hundred goldfish? Tell me below!",
+     "caption": "Did you get 100 goldfish? Tell me below!",
+     "file": "2026-10-31-goldfish-pond/short/audio/fc22230fb35b1e3d.wav",
+     "from": 188,
+     "frames": 82
     }
    ]
   }

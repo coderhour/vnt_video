@@ -1,27 +1,21 @@
 # Dominoes and L-Tiles (short)
 
-Cover a two by six board with dominoes. Thirteen ways.
-
-Now add L tiles. How many ways?
+AMC ten challenge! Think it's thirteen? Nope!
 
 Cover a two by six board with dominoes and L-shaped tiles.
 
-How many ways? Pick one of the five choices.
+Pieces may be turned. How many ways?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Check the top-left square. A domino, or an L that starts a zigzag.
 
-Here's the trick. An L in the top-left corner starts a zigzag.
+An L, lying dominoes, another L. Each zigzag has a mirror twin!
 
-An L, then lying dominoes, then another L. It's three to six long.
+Then fill a table: one, one, two, five, eleven, twenty-four.
 
-Each zigzag has a mirror twin, so we count them twice.
+Length six gives fifty-three ways. That's Choice C!
 
-Fill a table from short boards, and it grows to fifty-three.
+Thirteen was the trap. It leaves out the L tiles.
 
-That's Choice C. Without L tiles, it was only thirteen!
-
-Why exactly that? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get fifty-three? Tell me below!

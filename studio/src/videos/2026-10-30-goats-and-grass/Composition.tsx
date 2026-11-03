@@ -25,7 +25,7 @@ const cue = (scene: Scene, i: number, t = 0, off = 0) => at(scene, i, t) + off;
 // ---------- drawings ----------
 
 /** A simple goat facing right, centred at (x, y). `fill` tints the body (team colour). */
-const Goat: React.FC<{ x: number; y: number; s?: number; fill?: string; opacity?: number; flip?: boolean }> = ({ x, y, s = 1, fill = '#ffffff', opacity = 1, flip }) =>
+export const Goat: React.FC<{ x: number; y: number; s?: number; fill?: string; opacity?: number; flip?: boolean }> = ({ x, y, s = 1, fill = '#ffffff', opacity = 1, flip }) =>
   s <= 0 || opacity <= 0 ? null : (
     <g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s})`} opacity={opacity} stroke={C.ink} strokeWidth={4} strokeLinecap="round" strokeLinejoin="round">
       {[-26, -12, 14, 26].map((lx) => (

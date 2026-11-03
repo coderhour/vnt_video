@@ -8,6 +8,7 @@ import urllib.parse
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
+import tiktok
 import youtube
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -31,6 +32,7 @@ def list_videos():
             short_video=f"/videos/{d.name}/short.mp4" if (d / "short.mp4").exists() else None,
             publish_tags=youtube.tags(v),
             publish_description=v.get("description", "") + youtube.footer(d.name, "video"),
+            tiktok_caption=tiktok.caption(v) if v.get("short") else None,
         )
         out.append(v)
     return sorted(out, key=lambda v: str(v.get("created", "")), reverse=True)
@@ -55,6 +57,20 @@ def set_status(slug, status, fixes=None):
     else:
         v.pop("fixes", None)
     meta.write_text(json.dumps(v, indent=1, ensure_ascii=False) + "\n")
+    return True
+
+
+def mark_tiktok(slug, url):
+    """Record a hand-made TikTok post of the short (the API can't post publicly until the app is audited)."""
+    if not valid_slug(slug) or not re.fullmatch(r"https://(www\.|vm\.)?tiktok\.com/\S+", url or ""):
+        return False
+    d = VIDEOS / slug
+    meta = json.loads((d / "meta.json").read_text())
+    if "short" not in meta:
+        return False
+    posts = meta["short"].setdefault("posts", [])
+    posts[:] = [p for p in posts if p.get("platform") != "TikTok"] + [{"platform": "TikTok", "url": url}]
+    youtube.save(d, meta)
     return True
 
 
@@ -94,13 +110,14 @@ class Handler(SimpleHTTPRequestHandler):
         super().do_GET()
 
     def do_POST(self):
-        if self.path == "/api/youtube":
+        if self.path in ("/api/youtube", "/api/tiktok"):
             return self.post_youtube()
-        if self.path != "/api/status":
+        if self.path not in ("/api/status", "/api/tiktok-posted"):
             return self.send_error(404)
         try:
             d = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
-            ok = set_status(d.get("slug"), d.get("status"), d.get("fixes"))
+            ok = (mark_tiktok(d.get("slug"), d.get("url")) if self.path == "/api/tiktok-posted"
+                  else set_status(d.get("slug"), d.get("status"), d.get("fixes")))
         except (ValueError, AttributeError):
             ok = False
         self.send_response(204 if ok else 400)
@@ -114,11 +131,13 @@ class Handler(SimpleHTTPRequestHandler):
             if not valid_slug(slug) or kind not in ("video", "short", "both"):
                 raise RuntimeError("bad slug or kind")
             body = {}
-            if kind in ("video", "both"):
+            if self.path == "/api/tiktok":  # ponytail: shorts only; the 16:9 videos don't suit TikTok
+                body["short_id"] = tiktok.upload_short(slug)
+            elif kind in ("video", "both"):
                 body["id"] = youtube.upload(slug)
-            if kind in ("short", "both"):  # after the video, so the short can link to it
+            if self.path == "/api/youtube" and kind in ("short", "both"):  # after the video, so the short can link to it
                 body["short_id"] = youtube.upload_short(slug)
-            if kind in ("video", "both"):
+            if self.path == "/api/youtube" and kind in ("video", "both"):
                 try:
                     youtube.add_to_playlist(slug)
                 except Exception as e:  # the upload worked; just report the playlist step

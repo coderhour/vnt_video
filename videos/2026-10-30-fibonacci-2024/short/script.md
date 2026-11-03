@@ -1,29 +1,21 @@
 # Which Start Reaches 2024? (short)
 
-Each term is the sum of the two before it.
+AMC ten challenge! Think it's seventy-one? Nope!
 
-Term ten is two thousand twenty-four. Find the start!
+Positive whole numbers, each one the sum of the two before.
 
-Each term is the sum of the two before it. Term ten is two thousand twenty-four.
+Term ten is two thousand twenty-four. How big can the first plus second term be?
 
-What's the largest first term plus second term?
+Comment your letter, then watch!
 
-Pause and try it!
+Call the first two x and y, and their total T. Term ten is twenty-one T, plus thirteen y.
 
-*(Pause and try it: 3 s countdown)*
+Count T down from ninety-five. The leftover has to be thirteen times y.
 
-Call the first two terms x and y, and their sum T.
+Ninety-five leaves twenty-nine. Keep going, and eighty-four leaves two hundred sixty!
 
-Term ten works out to twenty-one T, plus thirteen y.
+Thirteen times twenty! So the biggest sum is eighty-four!
 
-Count T down from ninety-five. The leftover must be a multiple of thirteen.
+Seventy-one was the trap. It works, but it's smaller.
 
-Ninety-five leaves twenty-nine, not a multiple. Keep going, and eighty-four leaves two hundred sixty!
-
-That's thirteen times twenty. So y is twenty, and x is sixty-four.
-
-Their sum is eighty-four!
-
-Why twenty-one and thirteen? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get eighty-four? Tell me below!

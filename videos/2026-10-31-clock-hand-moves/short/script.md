@@ -1,27 +1,21 @@
 # Spin the Hour Hand (short)
 
-Move the hour hand one hour, then two, then three, up to twenty!
+AMC eight challenge! Think it's six? Nope!
 
-Where does it stop?
-
-The hand starts at three. Tom moves it one hour, then two, then three, up to twenty.
+The hour hand points to three. It moves one hour, then two, then three, up to twenty.
 
 Where does it point at the end?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Add up the moves in pairs: ten pairs of twenty-one. That's two hundred ten hours.
 
-First, add all the moves. One plus two, all the way to twenty, is two hundred ten hours.
+Twelve hours is a full turn. Two hundred ten is seventeen full turns, plus six.
 
-Twelve hours is a full turn. Two hundred ten is seventeen turns, plus six.
+Full turns land right back on three. Only the six leftover hours matter!
 
-So only the six leftover hours matter!
+Six more hours from three. The hand lands on nine!
 
-Count six hours from three. The hand points to nine!
+Six was the trap: it counts from twelve, not from three.
 
-Not six! That's only the leftover.
-
-Want to skip the big sum? The full lesson has a second way, and every trap.
-
-Tap the link below to watch it!
+Did you get nine? Tell me below!

@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1712,
+ "durationInFrames": 1166,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 271,
+   "frames": 113,
    "lines": [
     {
-     "text": "Nine dots. How many circles pass through at least three of them?",
-     "caption": "Nine dots. How many circles pass through at least three of them?",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/6969be5eb3c590b5.wav",
+     "text": "AMC ten challenge! Think it's seventy-six? Nope!",
+     "caption": "AMC 10 challenge! Think it's 76? Nope!",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/dcd3947011a88477.wav",
      "from": 0,
-     "frames": 118
-    },
-    {
-     "text": "Lots of kids say seventy-six. But it's much smaller!",
-     "caption": "Lots of kids say seventy-six. But it's much smaller!",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/43e639a4b78a20ce.wav",
-     "from": 128,
-     "frames": 119
+     "frames": 101
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 271,
-   "frames": 258,
+   "from": 113,
+   "frames": 243,
    "lines": [
     {
-     "text": "Nine dots in a grid. How many different circles pass through at least three?",
-     "caption": "Nine dots in a grid. How many different circles pass through at least three?",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/083d0758cd378c41.wav",
+     "text": "Nine dots in a square grid. How many different circles pass through at least three of them?",
+     "caption": "9 dots in a square grid. How many different circles pass through at least 3 of them?",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/91ae9c286f56822a.wav",
      "from": 0,
      "frames": 146
     },
     {
-     "text": "Each circle counts only once!",
-     "caption": "Each circle counts only once!",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/0ada419a311309b3.wav",
-     "from": 156,
-     "frames": 70
+     "text": "A circle through four dots still counts once!",
+     "caption": "A circle through 4 dots still counts once!",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/f1d2e51a6f93f4c3.wav",
+     "from": 149,
+     "frames": 82
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 529,
-   "frames": 165,
+   "from": 356,
+   "frames": 72,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 51
+     "frames": 60
     }
    ]
   },
@@ -68,36 +61,36 @@
    "id": "repeat",
    "kind": "scene",
    "chapter": null,
-   "from": 694,
-   "frames": 543,
+   "from": 428,
+   "frames": 488,
    "lines": [
     {
-     "text": "Groups of three give seventy-six. But look at this square.",
-     "caption": "Groups of three give seventy-six. But look at this square.",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/d2eb065748efb50d.wav",
+     "text": "We get seventy-six groups of three, not on one line. But look at this square.",
+     "caption": "We get 76 groups of 3, not on one line. But look at this square.",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/fa93f55df216b960.wav",
      "from": 0,
-     "frames": 119
+     "frames": 149
     },
     {
      "text": "Leave out any corner. The other three make the SAME circle!",
-     "caption": "Leave out any corner. The other three make the SAME circle!",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/cd1b145a6042b465.wav",
-     "from": 129,
-     "frames": 112
+     "caption": "Leave out any corner. The other 3 make the SAME circle!",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/ee2090635c3c4522.wav",
+     "from": 153,
+     "frames": 107
     },
     {
-     "text": "So that circle was counted four times. There are fourteen like it.",
-     "caption": "So that circle was counted four times. There are fourteen like it.",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/a49157ff8ca69012.wav",
-     "from": 251,
-     "frames": 122
+     "text": "So that circle got counted four times. Fourteen circles are like that.",
+     "caption": "So that circle got counted 4 times. 14 circles are like that.",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/9453842a2fbaa789.wav",
+     "from": 265,
+     "frames": 120
     },
     {
-     "text": "Take away three extra copies of each. Fourteen times three is forty-two.",
-     "caption": "Take away three extra copies of each. Fourteen times three is forty-two.",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/8c3626a60d6a14a1.wav",
-     "from": 383,
-     "frames": 137
+     "text": "Fourteen times three is forty-two extra copies.",
+     "caption": "14 times 3 is 42 extra copies.",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/757150ce5dd0d2a1.wav",
+     "from": 389,
+     "frames": 87
     }
    ]
   },
@@ -105,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1237,
-   "frames": 232,
+   "from": 916,
+   "frames": 250,
    "lines": [
     {
      "text": "Seventy-six minus forty-two is thirty-four!",
-     "caption": "Seventy-six minus forty-two is thirty-four!",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/47fe70d98c6bf708.wav",
+     "caption": "76 minus 42 is 34!",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/384e6836f93a51b9.wav",
      "from": 0,
-     "frames": 95
+     "frames": 83
     },
     {
-     "text": "Thirty-four circles, not seventy-six.",
-     "caption": "Thirty-four circles, not seventy-six.",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/41fe79be0952fb93.wav",
-     "from": 106,
-     "frames": 88
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1469,
-   "frames": 243,
-   "lines": [
-    {
-     "text": "The full lesson shows two neat ways, plus every trap.",
-     "caption": "The full lesson shows two neat ways, plus every trap.",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/4f1651b8df20a6ab.wav",
-     "from": 0,
-     "frames": 119
+     "text": "Seventy-six was the trap.",
+     "caption": "76 was the trap.",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/ff172c07e422df0d.wav",
+     "from": 87,
+     "frames": 54
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-circles-through-grid-points/short/audio/82b8b7e1a12a7449.wav",
-     "from": 130,
-     "frames": 59
+     "text": "Did you get thirty-four? Tell me below!",
+     "caption": "Did you get 34? Tell me below!",
+     "file": "2026-10-30-circles-through-grid-points/short/audio/fc128ea85f640ea6.wav",
+     "from": 145,
+     "frames": 69
     }
    ]
   }

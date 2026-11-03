@@ -1,31 +1,23 @@
 # Color the Grid (short)
 
-Color a three by three grid. The center is red.
+AMC eight challenge! Think it's sixteen? Nope!
 
-Touching squares must differ. How many colorings?
-
-Each square is red, blue or green. Touching squares must differ.
+Each square is red, blue or green. The center is red. Touching squares must differ.
 
 How many colorings are there?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+The four edge squares touch red, so each is blue or green. That's sixteen patterns.
 
-Color the four squares touching the center first. Each is blue or green.
+A corner gets two options if its neighbors match. If not, only red works.
 
-A corner touches two of them. If they match, it has two options. If not, only red works.
-
-All four match: two patterns, sixteen each. That's thirty-two.
-
-Taking turns: two patterns, one each. That's two.
+All four edges match: two times sixteen is thirty-two. Taking turns: just two.
 
 The other twelve give four each. That's forty-eight.
 
-Thirty-two plus forty-eight plus two is eighty-two!
+Thirty-two plus forty-eight plus two. That's eighty-two!
 
-Not eighty-one. That's a tempting guess!
+Sixteen was the trap. It forgets the corners!
 
-The full lesson shows two ways to count, plus every trap.
-
-Tap the link below to watch it!
+Did you get eighty-two? Tell me below!

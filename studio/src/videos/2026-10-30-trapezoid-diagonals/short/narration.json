@@ -1,54 +1,49 @@
 {
  "title": "Four Triangles in a Trapezoid (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Two diagonals cut a trapezoid into four triangles. We know just ONE area!"
+    "AMC eight challenge! Think it's fifty-four? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "Top six, bottom ten, shaded triangle nine. What's the whole area?",
-    "Here are the choices."
-   ],
-   "hold": 0.3
+    "Top six, bottom ten, and the top triangle is nine. What's the whole area?"
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "similar",
    "lines": [
-    "Top and bottom are copies, sides six and ten: a three to five ratio.",
-    "Areas grow by the ratio twice. Nine times five over three, times five over three, is twenty-five.",
-    "The side triangles share the top one's height. Nine times five over three: fifteen each.",
-    "Now add: nine, twenty-five, fifteen, fifteen."
+    "The bottom triangle is a copy of the top one. Six to ten is three to five.",
+    "The base grows by five over three, and so does the height. So nine becomes twenty-five!",
+    "The side triangles share the top one's height. Nine times five over three: fifteen each."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "The trapezoid has area sixty-four!",
-    "That's choice D."
+    "Nine plus twenty-five plus fifteen plus fifteen is sixty-four!",
+    "Fifty-four was the trap. It grows the area only once.",
+    "Did you get sixty-four? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why are they copies? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "The base grows by five over three, and so does the height. So nine becomes twenty-five!": "The base grows by 5/3, and so does the height. So 9 becomes 25!",
+  "The side triangles share the top one's height. Nine times five over three: fifteen each.": "The side triangles share the top one's height. 9 × 5/3: 15 each."
+ }
 }

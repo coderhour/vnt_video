@@ -1,27 +1,21 @@
 # Tree in the Yard (short)
 
-A tree stands on the edge of a yard, as far from corner A as from corner C.
+AMC eight challenge! Think it's six? Nope!
 
-Where is it? Let's find it without measuring!
+The yard is sixteen by eight meters. Tree E is as far from A as from C.
 
-The yard is sixteen meters long and eight meters wide.
+How far is the tree from A?
 
-How far is the tree from corner A?
+Comment your letter, then watch!
 
-Pause and try it!
-
-*(Pause and try it: 3 s countdown)*
-
-Call that distance x. Then E C is also x, and E B is sixteen minus x.
+Call that distance x. So E C is x too, and E B is sixteen minus x.
 
 The right triangle says: sixteen minus x, squared, plus eight squared, equals x squared.
 
-The x squared parts cancel, leaving three hundred twenty equals thirty-two x.
+The x squareds cancel: three hundred twenty equals thirty-two x.
 
-So x is ten meters!
+Divide by thirty-two. The tree is ten meters away!
 
-Check: E B is six, and six, eight, ten is a right triangle.
+Six was the trap. That's E B, the distance to B.
 
-Want to see why? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get ten? Tell me below!

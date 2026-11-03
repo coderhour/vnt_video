@@ -1,18 +1,14 @@
 # Sock Pairs (short)
 
-Four socks from a drawer of five pairs. How many sets have a matching pair?
+AMC eight challenge! Think it's one hundred forty? Nope!
 
-Don't count the matches. Count the misses!
-
-Five pairs of socks, each a different color. You pull out four.
+Five pairs of socks, each a different color. Pull out four.
 
 How many sets of four contain at least one matching pair?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
-
-No pair means four different colors. Leave out one color: five ways.
+No pair means four different colors. Leave one color out: five ways.
 
 Each color has two socks to pick from. Two times two times two times two is sixteen.
 
@@ -20,8 +16,6 @@ So five times sixteen is eighty sets with no pair.
 
 There are two hundred ten sets in all. Take away eighty: one hundred thirty!
 
-Counting the opposite is easier!
+One hundred forty was the trap. It counts two-pair sets twice.
 
-Want to see why? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get one hundred thirty? Tell me below!

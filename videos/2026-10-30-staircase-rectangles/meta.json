@@ -6,7 +6,14 @@
  "posts": [],
  "short": {
   "title": "How many rectangles in this staircase? #Shorts",
-  "description": "Fifteen little squares make a staircase. Most kids say 15 rectangles, but the real answer is way bigger. Try the corner trick!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "description": "Fifteen little squares make a staircase. How many rectangles hide inside? Try the corner trick!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
+  "posts": [],
+  "challenge": 6,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

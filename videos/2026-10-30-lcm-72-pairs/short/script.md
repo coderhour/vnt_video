@@ -1,27 +1,23 @@
 # LCM 72 Pairs (short)
 
-Eight and nine have least common multiple seventy-two.
+AMC eight challenge! Think it's eighteen? Nope!
 
-How many pairs do? More than you expect!
+How many pairs of positive whole numbers have least common multiple seventy-two?
 
-How many ordered pairs of positive whole numbers
+Order matters: eight, nine and nine, eight both count.
 
-have least common multiple seventy-two? Order matters!
+Comment your letter, then watch!
 
-Pause and try it!
+Seventy-two is three twos times two threes. Split them up!
 
-*(Pause and try it: 3 s countdown)*
+Each number has zero to three twos, and one needs all three.
 
-The trick: seventy-two is three twos and two threes. Count each prime alone.
+Last column and bottom row: four plus four, minus the corner. Seven!
 
-For the twos, each number has zero to three. One needs all three: seven squares.
+For the threes, one needs both. Three plus three, minus one. Five!
 
-For the threes, zero to two. One needs both: five squares.
+Seven times five. That's thirty-five pairs!
 
-Now multiply the choices: seven times five is thirty-five!
+Eighteen was the trap. It forgets order.
 
-That's Choice D.
-
-Want to see why? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get thirty-five? Tell me below!

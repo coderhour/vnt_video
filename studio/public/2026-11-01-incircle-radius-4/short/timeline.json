@@ -1,26 +1,19 @@
 {
  "fps": 30,
- "durationInFrames": 1614,
+ "durationInFrames": 1166,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 233,
+   "frames": 107,
    "lines": [
     {
-     "text": "A circle of radius four sits in a whole-number triangle.",
-     "caption": "A circle of radius four sits in a whole-number triangle.",
-     "file": "2026-11-01-incircle-radius-4/short/audio/e661fa36f7d989ab.wav",
+     "text": "AMC ten challenge! Think it's eighty-one? Nope!",
+     "caption": "AMC 10 challenge! Think it's 81? Nope!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/199d002a229369df.wav",
      "from": 0,
-     "frames": 104
-    },
-    {
-     "text": "Biggest perimeter? Most kids stop at half!",
-     "caption": "Biggest perimeter? Most kids stop at half!",
-     "file": "2026-11-01-incircle-radius-4/short/audio/ea50d7d1988051df.wav",
-     "from": 114,
      "frames": 95
     }
    ]
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 233,
-   "frames": 233,
+   "from": 107,
+   "frames": 206,
    "lines": [
     {
-     "text": "The circle touches A B and A C, six from A.",
-     "caption": "The circle touches A B and A C, six from A.",
-     "file": "2026-11-01-incircle-radius-4/short/audio/b5a49d38abbae550.wav",
+     "text": "Whole-number sides. A circle of radius four inside touches six from A.",
+     "caption": "Whole-number sides. A circle of radius 4 inside touches 6 from A.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/10af8ad0c731fdce.wav",
      "from": 0,
-     "frames": 117
+     "frames": 134
     },
     {
-     "text": "What's the largest possible perimeter?",
-     "caption": "What's the largest possible perimeter?",
-     "file": "2026-11-01-incircle-radius-4/short/audio/23b1fa8d540e9ae9.wav",
-     "from": 126,
-     "frames": 74
+     "text": "What's the biggest perimeter?",
+     "caption": "What's the biggest perimeter?",
+     "file": "2026-11-01-incircle-radius-4/short/audio/cfe0497aed6f0a11.wav",
+     "from": 137,
+     "frames": 57
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 466,
-   "frames": 162,
+   "from": 313,
+   "frames": 71,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-11-01-incircle-radius-4/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 48
+     "frames": 59
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "pieces",
    "kind": "scene",
    "chapter": null,
-   "from": 628,
-   "frames": 495,
+   "from": 384,
+   "frames": 470,
    "lines": [
     {
-     "text": "Here's the trick. Tangent pieces from one corner are equal.",
-     "caption": "Here's the trick. Tangent pieces from one corner are equal.",
-     "file": "2026-11-01-incircle-radius-4/short/audio/0d12e616852dce4f.wav",
+     "text": "Equal tangent pieces: six, y, and z.",
+     "caption": "Equal tangent pieces: 6, y, and z.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/1c542781d769064f.wav",
      "from": 0,
-     "frames": 129
+     "frames": 101
     },
     {
-     "text": "So each side is two pieces: six plus y, six plus z, and y plus z.",
-     "caption": "So each side is two pieces: six plus y, six plus z, and y plus z.",
-     "file": "2026-11-01-incircle-radius-4/short/audio/1b3edc25336d3052.wav",
-     "from": 138,
-     "frames": 158
-    },
-    {
-     "text": "Area two ways links y and z. If y is three, z is seventy-two!",
-     "caption": "Area two ways links y and z. If y is three, z is seventy-two!",
-     "file": "2026-11-01-incircle-radius-4/short/audio/f974b1562168b231.wav",
-     "from": 306,
+     "text": "Area two ways gives z equals eight y plus forty-eight, over three y minus eight.",
+     "caption": "Area two ways gives z = (8y+48) / (3y\u22128).",
+     "file": "2026-11-01-incircle-radius-4/short/audio/9ffb0a284e78d2e2.wav",
+     "from": 105,
      "frames": 165
+    },
+    {
+     "text": "For a positive bottom, y must be at least three.",
+     "caption": "For a positive bottom, y must be at least 3.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/1612dc8ae2349a69.wav",
+     "from": 274,
+     "frames": 95
+    },
+    {
+     "text": "At y equals three, z is seventy-two!",
+     "caption": "At y = 3, z is 72!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/406b8397c42904c0.wav",
+     "from": 373,
+     "frames": 86
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1123,
-   "frames": 281,
+   "from": 854,
+   "frames": 312,
    "lines": [
     {
-     "text": "The sides: nine, seventy-five, seventy-eight. That's one hundred sixty-two!",
-     "caption": "The sides: nine, seventy-five, seventy-eight. That's one hundred sixty-two!",
-     "file": "2026-11-01-incircle-radius-4/short/audio/3911b1f2b7c23f84.wav",
+     "text": "Nine, seventy-five, seventy-eight: that's one hundred sixty-two!",
+     "caption": "9, 75, 78: that's 162!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/9fb256fc4ec2ef3f.wav",
      "from": 0,
-     "frames": 137
+     "frames": 114
     },
     {
-     "text": "Choice E. Eighty-one is only half of it!",
-     "caption": "Choice E. Eighty-one is only half of it!",
-     "file": "2026-11-01-incircle-radius-4/short/audio/7c0674e69b48eb44.wav",
-     "from": 147,
-     "frames": 99
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1404,
-   "frames": 210,
-   "lines": [
-    {
-     "text": "The full lesson shows two ways, plus every trap.",
-     "caption": "The full lesson shows two ways, plus every trap.",
-     "file": "2026-11-01-incircle-radius-4/short/audio/e45b2dc36cb38db5.wav",
-     "from": 0,
-     "frames": 94
+     "text": "Eighty-one was the trap: only half!",
+     "caption": "81 was the trap: only half!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/860c171559390411.wav",
+     "from": 119,
+     "frames": 77
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-11-01-incircle-radius-4/short/audio/82b8b7e1a12a7449.wav",
-     "from": 104,
-     "frames": 58
+     "text": "Did you get one hundred sixty-two? Tell me below!",
+     "caption": "Did you get 162? Tell me below!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/9b509bcca02df074.wav",
+     "from": 200,
+     "frames": 76
     }
    ]
   }

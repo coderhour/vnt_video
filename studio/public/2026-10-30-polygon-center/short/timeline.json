@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1693,
+ "durationInFrames": 1151,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 231,
+   "frames": 114,
    "lines": [
     {
-     "text": "Pick four corners of a thirteen-sided shape.",
-     "caption": "Pick four corners of a thirteen-sided shape.",
-     "file": "2026-10-30-polygon-center/short/audio/f64649c6eb18a66c.wav",
+     "text": "AMC ten challenge! Think it's two hundred sixty? Nope!",
+     "caption": "AMC 10 challenge! Think it's 260? Nope!",
+     "file": "2026-10-30-polygon-center/short/audio/5ec18a2e6abd44fc.wav",
      "from": 0,
-     "frames": 89
-    },
-    {
-     "text": "Does it hold the center dot? Sometimes yes, sometimes no!",
-     "caption": "Does it hold the center dot? Sometimes yes, sometimes no!",
-     "file": "2026-10-30-polygon-center/short/audio/df2f40cda95d6100.wav",
-     "from": 99,
-     "frames": 108
+     "frames": 102
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 231,
-   "frames": 206,
+   "from": 114,
+   "frames": 174,
    "lines": [
     {
-     "text": "Choose any four of the thirteen corners.",
-     "caption": "Choose any four of the thirteen corners.",
-     "file": "2026-10-30-polygon-center/short/audio/072e2b4dd00b75cd.wav",
+     "text": "Join four corners of a regular thirteen-sided shape.",
+     "caption": "Join 4 corners of a regular 13-sided shape.",
+     "file": "2026-10-30-polygon-center/short/audio/cc7ee56d99b72362.wav",
      "from": 0,
-     "frames": 75
+     "frames": 102
     },
     {
-     "text": "For how many choices does the shape contain the center?",
-     "caption": "For how many choices does the shape contain the center?",
-     "file": "2026-10-30-polygon-center/short/audio/6773979a5c7e3a7a.wav",
-     "from": 85,
-     "frames": 88
+     "text": "How many choices hold the center?",
+     "caption": "How many choices hold the center?",
+     "file": "2026-10-30-polygon-center/short/audio/fc30e93b6f2ef2de.wav",
+     "from": 106,
+     "frames": 56
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 437,
-   "frames": 159,
+   "from": 288,
+   "frames": 70,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-polygon-center/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-polygon-center/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 46
+     "frames": 59
     }
    ]
   },
@@ -68,36 +61,36 @@
    "id": "misses",
    "kind": "scene",
    "chapter": null,
-   "from": 596,
-   "frames": 543,
+   "from": 358,
+   "frames": 451,
    "lines": [
     {
-     "text": "Here's the trick. Count the misses instead!",
-     "caption": "Here's the trick. Count the misses instead!",
-     "file": "2026-10-30-polygon-center/short/audio/2127de3a4663e477.wav",
+     "text": "That's seven hundred fifteen choices. Count the misses!",
+     "caption": "That's 715 choices. Count the misses!",
+     "file": "2026-10-30-polygon-center/short/audio/cea3cb189e5c66b9.wav",
      "from": 0,
-     "frames": 92
+     "frames": 102
     },
     {
-     "text": "If all four corners fit in one half, the shape misses the center.",
-     "caption": "If all four corners fit in one half, the shape misses the center.",
-     "file": "2026-10-30-polygon-center/short/audio/4ff0239dc070c3cb.wav",
-     "from": 102,
-     "frames": 111
+     "text": "It misses when all four corners fit in one half.",
+     "caption": "It misses when all 4 corners fit in one half.",
+     "file": "2026-10-30-polygon-center/short/audio/9a2ec1683b3098b5.wav",
+     "from": 107,
+     "frames": 86
     },
     {
-     "text": "Pick the first corner. The other three must be among the next six.",
-     "caption": "Pick the first corner. The other three must be among the next six.",
-     "file": "2026-10-30-polygon-center/short/audio/3bdabe07183a6c1e.wav",
-     "from": 223,
-     "frames": 129
+     "text": "Take the first corner. The other three come from the next six: twenty ways.",
+     "caption": "Take the first corner. The other 3 come from the next 6: 20 ways.",
+     "file": "2026-10-30-polygon-center/short/audio/6361938524171c01.wav",
+     "from": 197,
+     "frames": 126
     },
     {
-     "text": "That's twenty ways. Thirteen first corners make two hundred sixty misses.",
-     "caption": "That's twenty ways. Thirteen first corners make two hundred sixty misses.",
-     "file": "2026-10-30-polygon-center/short/audio/a58a9264e6368f3d.wav",
-     "from": 362,
-     "frames": 158
+     "text": "Thirteen first corners times twenty: two hundred sixty misses.",
+     "caption": "13 first corners times 20: 260 misses.",
+     "file": "2026-10-30-polygon-center/short/audio/c232f4002dc1f2b8.wav",
+     "from": 327,
+     "frames": 112
     }
    ]
   },
@@ -105,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1139,
-   "frames": 280,
+   "from": 809,
+   "frames": 342,
    "lines": [
     {
-     "text": "Seven hundred fifteen minus two hundred sixty misses is four hundred fifty-five!",
-     "caption": "Seven hundred fifteen minus two hundred sixty misses is four hundred fifty-five!",
-     "file": "2026-10-30-polygon-center/short/audio/713c464cd2458a8e.wav",
+     "text": "Seven hundred fifteen minus two hundred sixty is four hundred fifty-five!",
+     "caption": "715 minus 260 is 455!",
+     "file": "2026-10-30-polygon-center/short/audio/91c6823c209596cb.wav",
      "from": 0,
-     "frames": 164
+     "frames": 116
     },
     {
-     "text": "Count the misses, then subtract.",
-     "caption": "Count the misses, then subtract.",
-     "file": "2026-10-30-polygon-center/short/audio/57f220358d4189c8.wav",
-     "from": 174,
-     "frames": 68
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1419,
-   "frames": 274,
-   "lines": [
-    {
-     "text": "Why six? The full lesson shows two neat ways, plus every trap.",
-     "caption": "Why six? The full lesson shows two neat ways, plus every trap.",
-     "file": "2026-10-30-polygon-center/short/audio/9664ddec498a1eb8.wav",
-     "from": 0,
-     "frames": 142
+     "text": "Two hundred sixty was the trap: just the misses!",
+     "caption": "260 was the trap: just the misses!",
+     "file": "2026-10-30-polygon-center/short/audio/03a3c6415554cd41.wav",
+     "from": 119,
+     "frames": 98
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-polygon-center/short/audio/82b8b7e1a12a7449.wav",
-     "from": 152,
-     "frames": 53
+     "text": "Did you get four hundred fifty-five? Tell me below!",
+     "caption": "Did you get 455? Tell me below!",
+     "file": "2026-10-30-polygon-center/short/audio/c48107ad7aab70ec.wav",
+     "from": 221,
+     "frames": 86
     }
    ]
   }

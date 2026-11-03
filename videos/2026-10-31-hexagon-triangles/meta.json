@@ -7,6 +7,13 @@
  "short": {
   "title": "How Many Triangles Hide in This Hexagon? #Shorts",
   "description": "A hexagon cut into 24 little triangles hides bigger ones too. Count only the ones pointing up, then flip!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 4,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

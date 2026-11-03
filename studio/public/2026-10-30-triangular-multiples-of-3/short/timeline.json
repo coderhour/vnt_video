@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1771,
+ "durationInFrames": 1135,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 309,
+   "frames": 106,
    "lines": [
     {
-     "text": "One, three, six, ten, fifteen: each step adds one more.",
-     "caption": "One, three, six, ten, fifteen: each step adds one more.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/2ff3f6b28d4cb8e5.wav",
+     "text": "AMC eight challenge! Think it's thirty-three? Nope!",
+     "caption": "AMC 8 challenge! Think it's 33? Nope!",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/f2e26bf424db8ccf.wav",
      "from": 0,
-     "frames": 165
-    },
-    {
-     "text": "Go on for a hundred! How many are multiples of three?",
-     "caption": "Go on for a hundred! How many are multiples of three?",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/e5901cfb6797e31d.wav",
-     "from": 175,
-     "frames": 111
+     "frames": 94
     }
    ]
   },
@@ -29,31 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 309,
-   "frames": 159,
+   "from": 106,
+   "frames": 244,
    "lines": [
     {
-     "text": "How many of the first hundred are multiples of three? Here are the choices.",
-     "caption": "How many of the first hundred are multiples of three? Here are the choices.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/2f57eb07fb593133.wav",
+     "text": "One, three, six, ten, fifteen: each step adds one more.",
+     "caption": "1, 3, 6, 10, 15: each step adds one more.",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/fc6e5f96d14a5811.wav",
      "from": 0,
-     "frames": 126
+     "frames": 135
+    },
+    {
+     "text": "How many of the first one hundred numbers are multiples of three?",
+     "caption": "How many of the first 100 numbers are multiples of 3?",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/56879ea88bfcefac.wav",
+     "from": 138,
+     "frames": 94
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 468,
-   "frames": 157,
+   "from": 350,
+   "frames": 74,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 44
+     "frames": 63
     }
    ]
   },
@@ -61,36 +61,29 @@
    "id": "cycle",
    "kind": "scene",
    "chapter": null,
-   "from": 625,
-   "frames": 643,
+   "from": 424,
+   "frames": 386,
    "lines": [
     {
      "text": "Track the remainder after dividing by three: one, zero, zero, and repeat.",
-     "caption": "Track the remainder after dividing by three: one, zero, zero, and repeat.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/41854804051436d3.wav",
+     "caption": "Track the remainder after dividing by 3: 1, 0, 0, and repeat.",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/0d124a8e6daa1440.wav",
      "from": 0,
-     "frames": 167
+     "frames": 128
     },
     {
-     "text": "So every group of three spots holds exactly two multiples of three.",
-     "caption": "So every group of three spots holds exactly two multiples of three.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/baf60f71ddefcb64.wav",
-     "from": 178,
-     "frames": 137
+     "text": "So every group of three spots holds two multiples!",
+     "caption": "So every group of 3 spots holds 2 multiples!",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/c84f3b1f0d3a660d.wav",
+     "from": 132,
+     "frames": 88
     },
     {
-     "text": "One hundred spots is thirty-three groups, plus one extra spot.",
-     "caption": "One hundred spots is thirty-three groups, plus one extra spot.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/30a2bbf0752371e1.wav",
-     "from": 325,
-     "frames": 138
-    },
-    {
-     "text": "Thirty-three groups, two each. The extra spot leaves one, so it adds none.",
-     "caption": "Thirty-three groups, two each. The extra spot leaves one, so it adds none.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/843c780cef6f3912.wav",
-     "from": 474,
-     "frames": 146
+     "text": "One hundred spots is thirty-three groups, plus one extra spot, which leaves one.",
+     "caption": "100 spots is 33 groups, plus 1 extra spot, which leaves 1.",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/7e1640c75b6b870e.wav",
+     "from": 224,
+     "frames": 150
     }
    ]
   },
@@ -98,45 +91,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1268,
-   "frames": 209,
+   "from": 810,
+   "frames": 325,
    "lines": [
     {
-     "text": "Sixty-six multiples of three!",
-     "caption": "Sixty-six multiples of three!",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/6fe27eaa9ad7bc35.wav",
+     "text": "Thirty-three groups, times two each. That's sixty-six!",
+     "caption": "33 groups, times 2 each. That's 66!",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/c4e913ff7a162732.wav",
      "from": 0,
-     "frames": 74
+     "frames": 100
     },
     {
-     "text": "Not thirty-three. Each group has TWO.",
-     "caption": "Not thirty-three. Each group has TWO.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/6140ee8d4ad1142d.wav",
-     "from": 84,
-     "frames": 87
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1477,
-   "frames": 294,
-   "lines": [
-    {
-     "text": "Why does it repeat? The full lesson shows two ways, plus every trap.",
-     "caption": "Why does it repeat? The full lesson shows two ways, plus every trap.",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/29e7cd8ff81041c6.wav",
-     "from": 0,
-     "frames": 152
+     "text": "Thirty-three was the trap. Spots two, five and eight count too!",
+     "caption": "33 was the trap. Spots 2, 5 and 8 count too!",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/6e3c2f8620bab8b5.wav",
+     "from": 104,
+     "frames": 105
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-triangular-multiples-of-3/short/audio/82b8b7e1a12a7449.wav",
-     "from": 162,
-     "frames": 64
+     "text": "Did you get sixty-six? Tell me below!",
+     "caption": "Did you get 66? Tell me below!",
+     "file": "2026-10-30-triangular-multiples-of-3/short/audio/24aa7e11677f75d7.wav",
+     "from": 213,
+     "frames": 76
     }
    ]
   }

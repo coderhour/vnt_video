@@ -7,6 +7,13 @@
  "short": {
   "title": "Can You Find the 2026th Digit? #Shorts",
   "description": "Write every whole number in a row with no spaces. Which digit lands in spot 2026? Count in blocks, and watch the remainder!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 31,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

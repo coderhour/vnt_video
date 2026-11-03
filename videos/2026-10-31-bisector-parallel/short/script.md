@@ -1,29 +1,21 @@
 # The Hidden Isosceles Triangle (short)
 
-Three side lengths are given, but you only need ONE!
-
-Can you spot the hidden triangle?
+AMC eight challenge! Think it's twelve? Nope!
 
 A B and A C are ten. B C is twelve.
 
-A line through A is parallel to B C. The bisector of angle B meets it at F.
+The top line is parallel to B C. Angle B's bisector meets it at F. Find A F!
 
-How long is A F?
+Comment your letter, then watch!
 
-Pause and try it!
+The bisector cuts angle B in half. Call each half x.
 
-*(Pause and try it: 3 s countdown)*
+Find the Z! Across the parallel lines, the angle at F is x too.
 
-The bisector splits angle B into two equal parts. Call each part x.
-
-Now find the Z. The parallel lines make the angle at F equal x too.
-
-So triangle A B F has two equal angles, and A F equals A B!
+So triangle A B F has two equal angles. A F equals A B!
 
 A B is ten, so A F is ten!
 
-The other two sides were just decoys.
+Twelve was the trap. Parallel, but not equal!
 
-Why equal sides? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get ten? Tell me below!

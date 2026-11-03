@@ -5,8 +5,15 @@
  "question_id": "amc_practice_amc8_mixed_template:c1-717",
  "posts": [],
  "short": {
-  "title": "Most Kids Say 48. It's Not! #Shorts",
+  "title": "A 12 by 8 Rectangle. Think It's 48? #Shorts",
   "description": "A 12 by 8 rectangle, a midpoint and two crossing lines: find the shaded area with a big triangle minus a small one.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 19,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

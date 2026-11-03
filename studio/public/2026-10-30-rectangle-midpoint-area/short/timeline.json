@@ -1,27 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1603,
+ "durationInFrames": 1107,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 216,
+   "frames": 98,
    "lines": [
     {
-     "text": "Find the area of this shaded shape.",
-     "caption": "Find the area of this shaded shape.",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/dd74d7f61809e3f7.wav",
+     "text": "AMC eight challenge! Think it's forty-eight? Nope!",
+     "caption": "AMC 8 challenge! Think it's 48? Nope!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/7d65508b2769bbef.wav",
      "from": 0,
-     "frames": 75
-    },
-    {
-     "text": "Lots of kids answer forty-eight. But that's NOT quite right!",
-     "caption": "Lots of kids answer forty-eight. But that's NOT quite right!",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/f305219524a8e466.wav",
-     "from": 85,
-     "frames": 107
+     "frames": 87
     }
    ]
   },
@@ -29,38 +22,38 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 216,
-   "frames": 275,
+   "from": 98,
+   "frames": 228,
    "lines": [
     {
      "text": "The rectangle is twelve by eight, and M is the midpoint of the top.",
-     "caption": "The rectangle is twelve by eight, and M is the midpoint of the top.",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/d09252acf8ce3125.wav",
+     "caption": "The rectangle is 12 by 8, and M is the midpoint of the top.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/2a0134afb3f4623f.wav",
      "from": 0,
-     "frames": 120
+     "frames": 113
     },
     {
-     "text": "What is the area of the shaded shape A P M D?",
-     "caption": "What is the area of the shaded shape A P M D?",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/3037747b6ec4706f.wav",
-     "from": 130,
-     "frames": 112
+     "text": "What's the area of the shaded shape, A P M D?",
+     "caption": "What's the area of the shaded shape, APMD?",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/504bb160994c6c9b.wav",
+     "from": 118,
+     "frames": 99
     }
    ]
   },
   {
    "id": "think",
-   "kind": "pause",
+   "kind": "scene",
    "chapter": null,
-   "from": 491,
-   "frames": 180,
+   "from": 326,
+   "frames": 76,
    "lines": [
     {
-     "text": "Pause and try it!",
-     "caption": "Pause and try it!",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/1763ee175ca623bd.wav",
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/8bbbcfa4b74bd1e4.wav",
      "from": 0,
-     "frames": 66
+     "frames": 64
     }
    ]
   },
@@ -68,29 +61,36 @@
    "id": "minus",
    "kind": "scene",
    "chapter": null,
-   "from": 671,
-   "frames": 450,
+   "from": 402,
+   "frames": 452,
    "lines": [
     {
-     "text": "Here's the trick. Start with a bigger triangle, A C D. It's half the rectangle.",
-     "caption": "Here's the trick. Start with a bigger triangle, A C D. It's half the rectangle.",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/0b6ad03392a6f14f.wav",
+     "text": "Start with the big triangle A C D. It's half the rectangle: forty-eight.",
+     "caption": "Start with the big triangle ACD. It's half the rectangle: 48.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/4745aea1728d7040.wav",
      "from": 0,
-     "frames": 142
-    },
-    {
-     "text": "But our shape misses a small corner, triangle P C M.",
-     "caption": "But our shape misses a small corner, triangle P C M.",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/2bda01f2ed2457fb.wav",
-     "from": 152,
      "frames": 120
     },
     {
-     "text": "Similar triangles tell us its height is eight over three. So its area is eight.",
-     "caption": "Similar triangles tell us its height is eight over three. So its area is eight.",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/a2e806dea60e7686.wav",
-     "from": 282,
-     "frames": 144
+     "text": "But it misses one corner, triangle P C M.",
+     "caption": "But it misses one corner, triangle PCM.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/87b559fe708d5193.wav",
+     "from": 124,
+     "frames": 82
+    },
+    {
+     "text": "It's half as wide as the triangle below it, so half as tall: eight over three.",
+     "caption": "It's half as wide as the triangle below it, so half as tall: 8/3.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/f8f0c9935e52426b.wav",
+     "from": 210,
+     "frames": 120
+    },
+    {
+     "text": "Six times eight over three is sixteen. Half of that is eight.",
+     "caption": "6 times 8/3 is 16. Half of that is 8.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/ad5372ec9370b46b.wav",
+     "from": 335,
+     "frames": 106
     }
    ]
   },
@@ -98,45 +98,29 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 1121,
-   "frames": 195,
+   "from": 854,
+   "frames": 253,
    "lines": [
     {
      "text": "Forty-eight minus eight is forty!",
-     "caption": "Forty-eight minus eight is forty!",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/755488fb1d279c7c.wav",
+     "caption": "48 minus 8 is 40!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/b8b7f4e6784cc3ff.wav",
      "from": 0,
-     "frames": 72
-    },
-    {
-     "text": "Forty-eight forgets the little corner.",
-     "caption": "Forty-eight forgets the little corner.",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/4703d296babf5164.wav",
-     "from": 83,
      "frames": 74
-    }
-   ]
-  },
-  {
-   "id": "cta",
-   "kind": "scene",
-   "chapter": null,
-   "from": 1316,
-   "frames": 287,
-   "lines": [
-    {
-     "text": "Why eight over three? The full lesson shows two neat ways, plus every trap.",
-     "caption": "Why eight over three? The full lesson shows two neat ways, plus every trap.",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/dc580c7f5ad8e9a9.wav",
-     "from": 0,
-     "frames": 154
     },
     {
-     "text": "Tap the link below to watch it!",
-     "caption": "Tap the link below to watch it!",
-     "file": "2026-10-30-rectangle-midpoint-area/short/audio/82b8b7e1a12a7449.wav",
-     "from": 164,
-     "frames": 54
+     "text": "Forty-eight was the trap. It keeps the corner.",
+     "caption": "48 was the trap. It keeps the corner.",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/0e4c99298dea198e.wav",
+     "from": 78,
+     "frames": 77
+    },
+    {
+     "text": "Did you get forty? Tell me below!",
+     "caption": "Did you get 40? Tell me below!",
+     "file": "2026-10-30-rectangle-midpoint-area/short/audio/b242f2c720d46099.wav",
+     "from": 159,
+     "frames": 58
     }
    ]
   }

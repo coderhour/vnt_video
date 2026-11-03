@@ -1,27 +1,21 @@
 # Ladder Over a Box (short)
 
-A ladder leans over a big box to a wall.
+AMC eight challenge! Think it's fifteen feet? Nope!
 
-How long is it? Most kids stop halfway!
+A box, twelve tall and twelve deep, is against a wall. The ladder's foot is nine feet away.
 
-The foot is nine feet from a box twelve tall, twelve deep.
+It touches the box's top corner and reaches the wall. How long is it?
 
-The ladder touches the box's top corner and reaches the wall. How long is it?
+Comment your letter, then watch!
 
-Pause and try it!
+Nine across, twelve up. That's four up for every three across.
 
-*(Pause and try it: 3 s countdown)*
+The wall is twenty-one feet away. That's seven groups of three.
 
-The trick: nine across, twelve up is just three across, four up, repeated.
+So the ladder rises seven groups of four. Twenty-eight feet up the wall!
 
-The wall is twenty-one feet away. That's seven of those steps.
+That's a three, four, five triangle, times seven. So the ladder is thirty-five feet!
 
-So the ladder climbs seven fours, twenty-eight feet up the wall.
+Fifteen was the trap. It stops at the box.
 
-Twenty-one by twenty-eight is a three, four, five triangle, seven times bigger!
-
-So the ladder is seven times five. Thirty-five feet, Choice D!
-
-Why exactly that? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get thirty-five feet? Tell me below!

@@ -1,55 +1,47 @@
 {
  "title": "Goats and Growing Grass (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Ten goats eat a field in twenty days. Fifteen need only ten!",
-    "How long for twenty-five goats?"
+    "AMC eight challenge! Think it's four days? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "New grass grows steadily. Ten goats take twenty days, fifteen take ten.",
+    "The grass grows steadily. Ten goats eat it all in twenty days, fifteen goats in ten.",
     "How many days for twenty-five goats?"
-   ],
-   "hold": 0.3
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "growth",
    "lines": [
-    "In goat-days, ten times twenty is two hundred. Fifteen times ten is one hundred fifty.",
-    "Fifty less: ten fewer days of growth. So grass grows five goat-days a day.",
-    "Twenty days of growth is one hundred. That leaves a starting pile of one hundred.",
-    "Twenty-five goats: five keep up with the growth. Twenty eat the pile."
+    "Ten goats for twenty days eat two hundred goat-days. Fifteen for ten eat one hundred fifty.",
+    "The extra fifty grew in ten extra days. That's five goat-days a day!",
+    "Twenty days grow one hundred more. So the starting pile is one hundred.",
+    "Five goats eat the new grass. Twenty eat the pile."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "One hundred over twenty is five days!",
-    "Not four. That forgets the growing grass!"
+    "One hundred over twenty. That's five days!",
+    "Four was the trap. It forgets the new grass!",
+    "Did you get five days? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why does that work? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 0.6
+   "hold": 0.8
   }
  ]
 }

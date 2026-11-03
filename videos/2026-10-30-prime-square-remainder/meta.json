@@ -5,8 +5,15 @@
  "question_id": "amc_practice_amc8_number_theory_template:c1-960",
  "posts": [],
  "short": {
-  "title": "Why Prime Squares + 17 Always Leave 6 #Shorts",
+  "title": "Prime Squared + 17, Divided by 12. Think It's 1? #Shorts",
   "description": "Square any prime bigger than 3, add 17, divide by 12: always the same remainder. A dot picture shows why.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 39,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }

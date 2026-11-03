@@ -1,29 +1,23 @@
 # Goats and Growing Grass (short)
 
-Ten goats eat a field in twenty days. Fifteen need only ten!
+AMC eight challenge! Think it's four days? Nope!
 
-How long for twenty-five goats?
-
-New grass grows steadily. Ten goats take twenty days, fifteen take ten.
+The grass grows steadily. Ten goats eat it all in twenty days, fifteen goats in ten.
 
 How many days for twenty-five goats?
 
-Pause and try it!
+Comment your letter, then watch!
 
-*(Pause and try it: 3 s countdown)*
+Ten goats for twenty days eat two hundred goat-days. Fifteen for ten eat one hundred fifty.
 
-In goat-days, ten times twenty is two hundred. Fifteen times ten is one hundred fifty.
+The extra fifty grew in ten extra days. That's five goat-days a day!
 
-Fifty less: ten fewer days of growth. So grass grows five goat-days a day.
+Twenty days grow one hundred more. So the starting pile is one hundred.
 
-Twenty days of growth is one hundred. That leaves a starting pile of one hundred.
+Five goats eat the new grass. Twenty eat the pile.
 
-Twenty-five goats: five keep up with the growth. Twenty eat the pile.
+One hundred over twenty. That's five days!
 
-One hundred over twenty is five days!
+Four was the trap. It forgets the new grass!
 
-Not four. That forgets the growing grass!
-
-Why does that work? The full lesson shows two ways, plus every trap.
-
-Tap the link below to watch it!
+Did you get five days? Tell me below!

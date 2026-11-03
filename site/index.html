@@ -56,17 +56,26 @@ async function setStatus(v, status) {
   render();
 }
 // kind: video | short | both. The short goes up after the video, so its description can link to it.
-async function uploadYouTube(v, btn, kind) {
+async function uploadYouTube(v, btn, kind, site = 'youtube') {
   const what = { video: `"${v.title}"`, short: `the short "${v.short?.title}"`, both: `"${v.title}" and its short` }[kind];
-  if (!confirm(`Upload ${what} to YouTube?`)) return;
+  const name = { youtube: 'YouTube', tiktok: 'TikTok' }[site];
+  if (!confirm(`Upload ${what} to ${name}?`)) return;
   const label = btn.textContent;
   btn.disabled = true; btn.textContent = 'Uploading…';
-  const r = await fetch('/api/youtube', { method: 'POST', body: JSON.stringify({ slug: v.slug, kind }) });
+  const r = await fetch('/api/' + site, { method: 'POST', body: JSON.stringify({ slug: v.slug, kind }) });
   const d = await r.json().catch(() => ({ error: 'bad response' }));
   videos = await fetch('/api/videos').then(r => r.json());  // meta.json may have changed even on failure ("both")
   render();
-  if (!r.ok) { btn.disabled = false; btn.textContent = label; alert('YouTube upload failed: ' + d.error); }
+  if (!r.ok) { btn.disabled = false; btn.textContent = label; alert(name + ' upload failed: ' + d.error); }
   else if (d.warning) alert(d.warning);
+}
+async function markTikTok(v) {
+  const url = prompt(`TikTok link of the short "${v.short.title}" (Share → Copy link):`);
+  if (!url) return;
+  const r = await fetch('/api/tiktok-posted', { method: 'POST', body: JSON.stringify({ slug: v.slug, url: url.trim() }) });
+  if (!r.ok) return alert('Could not save: the link must start with https://www.tiktok.com/ or https://vm.tiktok.com/');
+  videos = await fetch('/api/videos').then(r => r.json());
+  render();
 }
 const badge = v => { const [c, t] = status(v); return el('span', { className: 'badge ' + c }, t); };
 
@@ -81,6 +90,7 @@ function publishFields(v) {
     ['X post', xpost.length > 280 ? xpost.slice(0, 279) + '…' : xpost],
     ['Category', 'Education'], ['Language', 'English'],
     ['Thumbnail', v.poster ? location.origin + v.poster : '(no poster.jpg)'],
+    ...(v.tiktok_caption ? [['TikTok caption', v.tiktok_caption]] : []),
   ];
 }
 
@@ -134,9 +144,13 @@ function render() {
       .map(([k, label]) => el('button', { onclick: () => setStatus(v, k), style: 'margin-left: 8px' }, label))),
       ...[['video', 'Publish to YouTube', !v.youtube_id && v.video],
           ['both', 'Publish video + short', !v.youtube_id && v.video && v.short_video && v.short],
-          ['short', 'Publish short', v.youtube_id && v.short_video && v.short && !v.short.youtube_id]]
+          ['short', 'Publish short', v.youtube_id && v.short_video && v.short && !v.short.youtube_id],
+          ]
         .filter(([, , show]) => show)
-        .map(([kind, label]) => el('button', { onclick: e => uploadYouTube(v, e.target, kind), style: 'margin-left: 8px' }, label))),
+        .map(([kind, label, , site]) => el('button', { onclick: e => uploadYouTube(v, e.target, kind, site), style: 'margin-left: 8px' }, label)),
+      // ponytail: TikTok's API only posts privately until the app is audited, so shorts go up by hand and get marked here
+      ...(v.short_video && v.short && !v.short.posts?.some(p => p.platform === 'TikTok')
+        ? [el('button', { onclick: () => markTikTok(v), style: 'margin-left: 8px' }, 'Mark short on TikTok')] : [])),
     ...(v.fixes?.length ? [el('ul', {}, ...v.fixes.map(f => el('li', {}, f)))] : []),
     ...(v.posts?.length ? [el('h2', {}, 'Published'), el('ul', {}, ...[...v.posts, ...(v.short?.posts || [])].map(p =>
       el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.platform || p.url))))] : []),

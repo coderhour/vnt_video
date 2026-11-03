@@ -1,125 +1,260 @@
-import { staticFile, useCurrentFrame } from 'remotion';
-import { ease, fadeUp, pop } from '../../../lib/anim';
+import { Audio, Sequence, useCurrentFrame } from 'remotion';
+import { ease, fadeTo, fadeUp, pop } from '../../../lib/anim';
 import { at, type SceneComponent, type Timeline } from '../../../lib/Explainer';
-import { FullLessonCard, ShortFrame } from '../../../lib/Short';
+import { CommentBubble, CtaPill, MUSIC, PushIn, SFX, Sfx, ShortFrame, choicePulse } from '../../../lib/Short';
 import { Tex } from '../../../lib/Tex';
+import { Confetti, Text } from '../../../lib/ui';
 import { C } from '../../../lib/theme';
-import { Text } from '../../../lib/ui';
-import { CHIME, CHOICES, SLUG, TICK } from '../Composition';
-import { AnswerBadge, ChoiceRow, QCard, Title, makeThink } from '../../2026-10-30-square-and-cube/short/kit';
+import { CHIME, CHOICES, SLUG } from '../Composition';
 
 export { SLUG };
 
-const Center: React.FC<{ top: number; style?: React.CSSProperties; children: React.ReactNode }> = ({ top, style, children }) => (
-  <div style={{ position: 'absolute', left: 0, width: 1080, top, display: 'flex', justifyContent: 'center', alignItems: 'center', whiteSpace: 'nowrap', ...style }}>{children}</div>
-);
+// Trap-first AMC 8 short: "Think it's 4?", the last-digit loop, then the ×81 ladder whose last two digits step
+// 81, 61, 41, 21, 01 (zoom on the last steps). Frame 0 and the last frame show the same ladder at the same place.
 
-const Hook: SceneComponent = ({ scene }) => {
+const before = () => -100;
+const never = 99999;
+
+const ROW_Y = (i: number) => 540 + i * 124;
+const ROW_H = 104;
+const EXPS = ['4', '8', '12', '16', '?'];
+const LAST = ['81', '61', '41', '21', '01'];
+
+/** One rung: 3^n … last two digits. `last` null = "??". */
+const Rung: React.FC<{ i: number; exp: string; last: string | null; start: number; ring?: string; done?: boolean; tens?: boolean }> = ({ i, exp, last, start, ring, done, tens }) => {
   const f = useCurrentFrame();
-  const POW = [['3^1', '3'], ['3^2', '9'], ['3^3', '27'], ['3^4', '81']];
+  const s = start < 0 ? 1 : pop(f, start);
+  if (s <= 0) return null;
+  const digits = last ? last.split('') : ['?', '?'];
   return (
-    <>
-      <Title>
-        Powers of <span style={{ color: C.violet }}>three</span>
-      </Title>
-      {POW.map(([p, v], i) => (
-        <div key={p} style={{ position: 'absolute', left: 120 + (i % 2) * 400, top: 430 + Math.floor(i / 2) * 190, width: 340, height: 150, background: C.card, borderRadius: 28, boxShadow: '0 8px 26px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 20, ...fadeUp(f, i === 0 ? 0 : at(scene, 0, 0.18 + i * 0.16)), opacity: i === 0 ? 1 : (fadeUp(f, at(scene, 0, 0.18 + i * 0.16)).opacity as number) }}>
-          <Tex tex={`${p}=`} size={58} color={C.muted} />
-          <span style={{ fontSize: 84, fontWeight: 900, color: C.violet }}>{v}</span>
-        </div>
-      ))}
-      <Center top={870} style={{ opacity: ease(f, at(scene, 1), 8), transform: `scale(${pop(f, at(scene, 1, 0.3))})` }}>
-        <span style={{ fontSize: 66, fontWeight: 900 }}>Ever end in </span>
-        <span style={{ fontSize: 96, fontWeight: 900, color: C.red, marginLeft: 20 }}>01</span>
-        <span style={{ fontSize: 66, fontWeight: 900 }}>?</span>
-      </Center>
-    </>
-  );
-};
-
-const QBody: React.FC = () => (
-  <QCard top={300} size={60}>
-    Smallest positive <b style={{ color: C.violet }}>n</b> so that <b style={{ color: C.primary }}>3<sup>n</sup></b> ends in <b style={{ color: C.red }}>01</b>?
-  </QCard>
-);
-const Question: SceneComponent = ({ scene }) => (
-  <>
-    <QBody />
-    <ChoiceRow items={CHOICES} top={640} start={(i) => at(scene, 1, 0.1 + i * 0.15)} size={56} />
-  </>
-);
-const Think = makeThink(QBody, TICK);
-
-const Pillar: React.FC<{ top: number; start: number; n: string; last: string; color: string; fin?: boolean }> = ({ top, start, n, last, color, fin }) => {
-  const f = useCurrentFrame();
-  return (
-    <div style={{ position: 'absolute', left: 150, top, width: 560, height: 105, background: C.card, borderRadius: 26, boxShadow: '0 6px 22px rgba(30,40,80,0.1)', border: fin ? `6px solid ${C.green}` : 'none', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 44px', boxSizing: 'border-box', ...fadeUp(f, start) }}>
-      <Tex tex={`3^{${n}}`} size={64} />
-      <span style={{ fontSize: 40, color: C.muted, fontWeight: 900 }}>ends</span>
-      <span style={{ fontSize: 68, fontWeight: 900, color }}>…{last}</span>
+    <div
+      style={{
+        position: 'absolute', left: 60, top: ROW_Y(i), width: 680, height: ROW_H, boxSizing: 'border-box', padding: '0 30px 0 44px',
+        background: C.card, borderRadius: 26, display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+        boxShadow: ring ? `0 0 0 8px ${ring}` : '0 6px 22px rgba(30,40,80,0.09)', transform: `scale(${s})`,
+      }}
+    >
+      <div style={{ width: 170 }}>
+        <Tex tex={`3^{${exp}}`} size={72} />
+      </div>
+      <span style={{ fontSize: 46, fontWeight: 900, color: C.muted }}>ends in</span>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+        <span style={{ fontSize: 60, fontWeight: 900, color: C.muted }}>…</span>
+        {digits.map((d, j) => (
+          <div
+            key={j}
+            style={{
+              width: 80, height: 88, borderRadius: 18, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 66, fontWeight: 900,
+              background: done ? C.green : last ? (j === 0 && tens ? C.amber : C.violetSoft) : C.line,
+              color: done || (j === 0 && tens && last) ? '#fff' : last ? C.ink : C.muted,
+            }}
+          >
+            {d}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
 
+/** "×81" tag between rung i and rung i + 1. */
+const Times81: React.FC<{ i: number; start: number }> = ({ i, start }) => {
+  const f = useCurrentFrame();
+  return (
+    <div style={{ position: 'absolute', left: 760, top: ROW_Y(i) + ROW_H - 26, ...(start < 0 ? {} : fadeUp(f, start, 8)) }}>
+      <Tex tex="\times 81" size={58} color={C.violet} />
+    </div>
+  );
+};
+
+/** The whole ladder as the hook / reveal show it (all at once). */
+const Ladder: React.FC<{ filled: (i: number) => boolean; exp4: string; ring0?: string; doneAt?: number }> = ({ filled, exp4, ring0, doneAt = never }) => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      {EXPS.map((e, i) => (
+        <Rung key={i} i={i} exp={i === 4 ? exp4 : e} last={filled(i) ? LAST[i] : null} start={-1} ring={i === 0 ? ring0 : undefined} done={i === 4 && f >= doneAt} />
+      ))}
+      {[0, 1, 2, 3].map((i) => <Times81 key={i} i={i} start={-1} />)}
+    </>
+  );
+};
+
+const Hook: SceneComponent = ({ scene }) => {
+  const f = useCurrentFrame();
+  const nope = at(scene, 0, 0.85);
+  return (
+    <>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 8 · Challenge #41</div>
+      </div>
+      <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
+        Think it's <span style={{ color: C.red }}>4</span>?
+      </Text>
+      <PushIn frames={scene.frames} origin="400px 840px">
+        <Ladder filled={(i) => i === 0} exp4="?" ring0={f >= nope ? C.red : C.amber} />
+      </PushIn>
+      <Sfx at={nope} src={SFX.buzz} volume={0.35} />
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 700, display: 'flex', justifyContent: 'center', opacity: ease(f, nope, 4) }}>
+        <div style={{ transform: `rotate(-8deg) scale(${pop(f, nope)})`, border: `14px solid ${C.red}`, color: C.red, background: 'rgba(255,255,255,0.92)', borderRadius: 28, padding: '6px 54px', fontSize: 150, fontWeight: 900, letterSpacing: 6 }}>
+          NOPE
+        </div>
+      </div>
+    </>
+  );
+};
+
+const POWERS: [string, string][] = [['3^1', '3'], ['3^2', '9'], ['3^3', '27'], ['3^4', '81']];
+
+const QuestionBody: React.FC<{ start: (i: number) => number; pow: (i: number) => number; pulse?: (i: number) => number }> = ({ start, pow, pulse = () => 1 }) => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      <div style={{ position: 'absolute', left: 50, top: 290, width: 980, boxSizing: 'border-box', background: C.card, borderRadius: 32, padding: '26px 40px', fontSize: 54, fontWeight: 800, lineHeight: 1.35, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
+        What's the <b style={{ color: C.violet }}>smallest</b> whole number <b style={{ color: C.violet }}>n</b> so that <b style={{ color: C.primary }}>3<sup>n</sup></b> ends in <b style={{ color: C.red }}>01</b>?
+      </div>
+      {POWERS.map(([p, v], i) => (
+        <div key={p} style={{ position: 'absolute', left: 40 + i * 255, top: 560, width: 235, height: 190, background: C.card, borderRadius: 28, boxShadow: '0 8px 26px rgba(30,40,80,0.08)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 4, ...fadeUp(f, pow(i), 8) }}>
+          <Tex tex={p} size={56} color={C.muted} />
+          <span style={{ fontSize: 88, fontWeight: 900, color: C.violet, lineHeight: 1 }}>{v}</span>
+        </div>
+      ))}
+      <div style={{ position: 'absolute', left: 60, top: 830, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 22 }}>
+        {CHOICES.map((c, i) => (
+          <div key={c} style={{ ...fadeUp(f, start(i), 8), background: C.card, borderRadius: 22, padding: '12px 34px', boxShadow: '0 4px 14px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', gap: 14, scale: String(pulse(i)) }}>
+            <span style={{ color: C.muted, fontSize: 44, fontWeight: 900 }}>{'ABCDE'[i]}</span>
+            <Tex tex={c} size={68} />
+          </div>
+        ))}
+      </div>
+    </>
+  );
+};
+
+const Question: SceneComponent = ({ scene }) => (
+  <>
+    <QuestionBody pow={(i) => 6 + i * 6} start={(i) => at(scene, 1, 0.45 + i * 0.08)} />
+    {[0, 1, 2, 3].map((i) => <Sfx key={i} at={6 + i * 6} src={SFX.click} volume={0.22} />)}
+    <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+  </>
+);
+
+const Think: SceneComponent = () => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      <QuestionBody pow={before} start={before} pulse={(i) => choicePulse(f, i)} />
+      <CommentBubble />
+    </>
+  );
+};
+
+const LOOP = ['3', '9', '7', '1'];
+
+/** The aha: the last digit loops 3, 9, 7, 1, then the ×81 ladder steps the last two digits 81 → 61 → 41 → 21 → 01. */
 const Jump: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
   const l1 = at(scene, 1);
-  const l2 = at(scene, 2);
-  const loop = ['3', '9', '7', '1'];
-  const rows: [string, string, number][] = [['4', '81', at(scene, 1, 0.2)], ['8', '61', at(scene, 2, 0.02)], ['12', '41', at(scene, 2, 0.24)], ['16', '21', at(scene, 2, 0.46)]];
+  const node = (i: number) => at(scene, 0, 0.25 + i * 0.08);
+  const loopBack = at(scene, 0, 0.55);
+  const loopOut = fadeTo(f, l1 - 4, 0, 10);
+  // rung frames: 3^4 on "three to the fourth", the rest on "sixty-one, forty-one, twenty-one, zero one"
+  const rs = [at(scene, 1, 0.03), at(scene, 2, 0.36), at(scene, 2, 0.49), at(scene, 2, 0.63), at(scene, 2, 0.87)];
+  const tags = [at(scene, 1, 0.72), rs[2] - 5, rs[3] - 5, rs[4] - 5];
+  const zIn = at(scene, 2, 0.5);
+  const zOut = at(scene, 2, 0.97);
+  const zoom = 1 + 0.38 * ease(f, zIn, 12) - 0.38 * ease(f, zOut, 10);
+  const cur = rs.reduce((k, r, i) => (f >= r ? i : k), 0);
+  const readout = ease(f, rs[0] + 6, 8);
   return (
     <>
-      <Title size={70}>The last-digit loop</Title>
-      <Center top={410} style={{ gap: 14 }}>
-        {loop.map((d, i) => (
-          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 14, ...fadeUp(f, at(scene, 0, 0.1 + i * 0.14)) }}>
-            <div style={{ width: 100, height: 100, borderRadius: 50, background: d === '1' ? C.green : C.violet, color: '#fff', fontSize: 64, fontWeight: 900, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{d}</div>
-            <span style={{ fontSize: 46, color: C.muted, fontWeight: 900 }}>{i < 3 ? '→' : '↻'}</span>
-          </div>
-        ))}
-      </Center>
-      <Text x={540} y={535} w={900} size={46} weight={800} align="center" color={C.green} style={fadeUp(f, at(scene, 0, 0.7))}>
-        ends in 1 only for n = 4, 8, 12, …
-      </Text>
-      {rows.map(([n, last, st], i) => (
-        <Pillar key={n} top={640 + i * 125} start={st} n={n} last={last} color={i === 0 ? C.violet : C.ink} />
-      ))}
-      <Pillar top={640 + 4 * 125} start={at(scene, 2, 0.72)} n="?" last="01" color={C.green} fin />
-      {[0, 1, 2, 3].map((i) => (
-        <div key={i} style={{ position: 'absolute', left: 740, top: 640 + i * 125 + 85, fontSize: 48, fontWeight: 900, color: C.amber, whiteSpace: 'nowrap', ...fadeUp(f, i === 0 ? at(scene, 1, 0.65) : rows[i][2] + 10) }}>
-          ↓ tens −2
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      {LOOP.map((_, i) => <Sfx key={i} at={node(i)} src={SFX.click} volume={0.25} />)}
+      {rs.map((r, i) => <Sfx key={`r${i}`} at={r} src={SFX.click} volume={0.28} />)}
+      <Sfx at={zIn} src={SFX.whoosh} volume={0.25} />
+      <Sfx at={zOut} src={SFX.whoosh} volume={0.25} />
+      {/* titles */}
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 300, textAlign: 'center', fontSize: 84, fontWeight: 900, opacity: fadeTo(f, zIn, 0, 8) + ease(f, zOut, 8) }}>
+        <div style={{ position: 'absolute', width: 1080, opacity: loopOut }}>
+          the <span style={{ color: C.violet }}>last digit</span> loops
         </div>
-      ))}
-      <div style={{ display: 'none' }}>{l1 + l2}</div>
+        <div style={{ position: 'absolute', width: 1080, opacity: ease(f, l1, 8) }}>
+          jump <span style={{ color: C.violet }}>×81</span><span style={{ opacity: ease(f, at(scene, 2), 8) }}>, tens <span style={{ color: C.amber }}>−2</span></span>
+        </div>
+      </div>
+      {/* line 0: the loop */}
+      <div style={{ opacity: loopOut }}>
+        {LOOP.map((d, i) => {
+          const s = pop(f, node(i));
+          const cx = 165 + i * 250;
+          return (
+            <div key={i}>
+              <div style={{ position: 'absolute', left: cx - 100, top: 450, width: 200, textAlign: 'center', opacity: ease(f, node(i), 6) }}>
+                <Tex tex={`3^{${i + 1}}`} size={60} color={C.muted} />
+              </div>
+              <div style={{ position: 'absolute', left: cx - 95, top: 540, width: 190, height: 190, borderRadius: '50%', background: d === '1' ? C.green : C.violet, color: '#fff', fontSize: 110, fontWeight: 900, display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${s})`, boxShadow: '0 10px 28px rgba(30,40,80,0.15)' }}>
+                {d}
+              </div>
+            </div>
+          );
+        })}
+        <svg viewBox="0 0 1080 1920" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
+          <path d="M 885 745 C 885 880, 165 880, 165 745" stroke={C.violet} strokeWidth={10} fill="none" strokeLinecap="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - ease(f, loopBack, 14)} />
+          {f >= loopBack + 12 && <path d="M 165 742 L 145 778 L 185 778 Z" fill={C.violet} />}
+        </svg>
+        <Text x={540} y={900} w={860} size={64} weight={900} color={C.green} align="center" style={fadeUp(f, at(scene, 0, 0.7))}>
+          ends in 1: n = 4, 8, 12, …
+        </Text>
+      </div>
+      {/* lines 1–2: the ladder, zoomed onto the last steps */}
+      <div style={{ position: 'absolute', inset: 0, transform: `scale(${zoom})`, transformOrigin: '250px 1140px' }}>
+        {EXPS.map((e, i) => (
+          <Rung key={i} i={i} exp={e} last={LAST[i]} start={rs[i]} done={i === 4} tens={i > 0 && i < 4} />
+        ))}
+        {tags.map((t, i) => <Times81 key={i} i={i} start={t} />)}
+      </div>
+      <div style={{ position: 'absolute', left: 60, width: 860, top: 1180, display: 'flex', justifyContent: 'center', opacity: readout * fadeTo(f, zIn, 0, 6) }}>
+        <div style={{ background: C.ink, color: '#fff', borderRadius: 24, padding: '8px 40px', fontSize: 64, fontWeight: 900, transform: `scale(${cur > 0 ? 0.9 + 0.1 * pop(f, rs[cur]) : 1})` }}>
+          ends in …<span style={{ color: C.amber }}>{LAST[cur][0]}</span>{LAST[cur][1]}
+        </div>
+      </div>
     </>
   );
 };
 
+/** The answer, the trap, then the CTA pill over the same ladder the hook showed. */
 const Reveal: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const l1 = at(scene, 1);
+  const hit = at(scene, 0, 0.82);
+  const chime = at(scene, 0, 0.97);
+  const trap = at(scene, 1);
   return (
     <>
-      <AnswerBadge label="n =" tex="20" hit={at(scene, 0, 0.85)} chime={at(scene, 0, 1)} sfx={CHIME} />
-      <Center top={520} style={fadeUp(f, at(scene, 0, 0.8))}>
-        <Tex tex="5\text{ jumps}\times4=20" size={72} />
-      </Center>
-      <Center top={720} style={fadeUp(f, l1)}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 30, background: C.card, border: `6px solid ${C.green}`, borderRadius: 28, padding: '20px 44px', boxShadow: '0 8px 24px rgba(33,196,93,0.25)' }}>
-          <Tex tex="3^{20}" size={84} />
-          <span style={{ fontSize: 40, color: C.muted, fontWeight: 900 }}>ends</span>
-          <span style={{ fontSize: 84, fontWeight: 900, color: C.green }}>…01</span>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 262, display: 'flex', justifyContent: 'center' }}>
+        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '10px 50px', display: 'flex', alignItems: 'center', gap: 22, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
+          <Tex tex="n = 20" size={104} color="#fff" />
         </div>
-      </Center>
+      </div>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 425, display: 'flex', justifyContent: 'center', ...fadeUp(f, at(scene, 0, 0.1)) }}>
+        <Tex tex={`5 \\text{ jumps} \\times 4${f >= hit ? ' = 20' : ''}`} size={66} color={C.violet} />
+      </div>
+      <Ladder filled={() => true} exp4={f >= hit ? '20' : '?'} ring0={f >= trap ? C.red : undefined} doneAt={-1} />
+      <div style={{ position: 'absolute', left: 60, width: 860, top: 1170, display: 'flex', justifyContent: 'center', ...fadeUp(f, trap + 3), opacity: ease(f, trap + 3, 8) * fadeTo(f, at(scene, 2) - 6, 0, 6) }}>
+        <Tex tex={'3^4 = 81 \\text{: not } 01 \\text{ yet}'} size={62} color={C.red} />
+      </div>
+      <CtaPill start={at(scene, 2)} y={1170} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={hit - 31} src={SFX.riser} volume={0.3} />
+      <Sfx at={trap} src={SFX.buzz} volume={0.2} />
+      <Sequence from={chime} durationInFrames={60} layout="none">
+        <Audio src={CHIME} volume={0.3} />
+      </Sequence>
+      <Confetti x={540} y={330} start={chime} seed={5} />
     </>
   );
 };
 
-const Cta: SceneComponent = ({ scene }) => (
-  <FullLessonCard scene={scene} poster={staticFile(`${SLUG}/short/full.jpg`)} length="6:33" bullets={['Two ways to solve it', 'Every trap explained', 'Powers of nine to try']} />
-);
-
-const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, jump: Jump, reveal: Reveal, cta: Cta };
+const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, jump: Jump, reveal: Reveal };
 
 export const Short: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
-  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 8-style" /> : null;
+  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 8-style" captions="words" music={MUSIC} /> : null;

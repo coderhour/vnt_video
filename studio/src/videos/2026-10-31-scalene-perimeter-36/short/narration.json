@@ -1,29 +1,49 @@
 {
  "title": "Perimeter 36 Triangles (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
-  {"id": "hook", "lines": [
-   "A string thirty-six units long. How many different triangles can you bend it into?",
-   "Whole-number sides, all three different. Most kids lose count!"
-  ]},
-  {"id": "question", "lines": [
-   "Whole-number sides, all three different, and a perimeter of thirty-six.",
-   "How many triangles are there?"
-  ], "hold": 0.3},
-  {"id": "think", "kind": "pause", "lines": ["Pause and try it!"], "hold": 3},
-  {"id": "list", "lines": [
-   "The trick: fix the longest side. It has to be from twelve to seventeen.",
-   "A longest side of seventeen gives seven triangles. Sixteen gives five. Fifteen, four.",
-   "Fourteen gives two, thirteen gives one, and twelve gives none."
-  ]},
-  {"id": "reveal", "lines": [
-   "Seven plus five plus four plus two plus one: nineteen!",
-   "An organized list never loses a triangle."
-  ], "hold": 0.5},
-  {"id": "cta", "lines": [
-   "Want to see why? The full lesson has two neat ways and every trap.",
-   "Tap the link below to watch it!"
-  ], "hold": 0.8}
- ]
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight challenge! Think it's twenty-seven? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Whole-number sides, all three different, and a perimeter of thirty-six.",
+    "How many triangles are there?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "list",
+   "lines": [
+    "The trick? Fix the longest side first. It runs from twelve to seventeen.",
+    "Longest seventeen: three and sixteen, up to nine and ten. That's seven.",
+    "Sixteen gives five, fifteen gives four, fourteen gives two, thirteen gives one, twelve none."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Seven plus five plus four plus two plus one. That's nineteen!",
+    "Twenty-seven was the trap. It counts the repeats too.",
+    "Did you get nineteen? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "Seven plus five plus four plus two plus one. That's nineteen!": "7 plus 5 plus 4 plus 2 plus 1. That's 19!"
+ }
 }

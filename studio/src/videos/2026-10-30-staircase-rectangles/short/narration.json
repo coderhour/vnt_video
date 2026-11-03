@@ -1,55 +1,49 @@
 {
  "title": "Rectangles in a Staircase (short)",
  "fps": 30,
- "style": "warm and upbeat, speaking at a lively pace, no laughing",
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "Fifteen little squares make a staircase. Lots of kids say fifteen rectangles.",
-    "But the real answer is way BIGGER!"
+    "AMC eight challenge! Think it's fifteen? Nope!"
    ]
   },
   {
    "id": "question",
    "lines": [
-    "How many rectangles of any size are in the stairs? Squares count too.",
-    "Here are the choices."
-   ],
-   "hold": 0.3
+    "Fifteen squares, in rows of five, four, three, two, and one.",
+    "How many rectangles of any size are in it? Squares count too."
+   ]
   },
   {
    "id": "think",
-   "kind": "pause",
    "lines": [
-    "Pause and try it!"
-   ],
-   "hold": 3
+    "Comment your letter, then watch!"
+   ]
   },
   {
    "id": "corner",
    "lines": [
-    "Every rectangle is set by two squares: its top-right, and its bottom-left.",
-    "Take the top-right square in column three, row two.",
-    "The bottom-left can be anywhere in this block: three times two, so six rectangles!",
-    "So write column times row in every square, and add each column."
+    "Each rectangle is set by its top-right and bottom-left squares.",
+    "Top-right in column three, row two? The bottom-left has three times two spots. Six rectangles!",
+    "Write column times row in every square, then add up each column."
    ]
   },
   {
    "id": "reveal",
    "lines": [
-    "Seventy rectangles!",
-    "That's way more than fifteen!"
+    "Fifteen, twenty, eighteen, twelve, five. That's seventy rectangles!",
+    "Fifteen was the trap: just the little squares.",
+    "Did you get seventy? Tell me below!"
    ],
-   "hold": 0.5
-  },
-  {
-   "id": "cta",
-   "lines": [
-    "Why does the trick work? The full lesson shows two ways, plus every trap.",
-    "Tap the link below to watch it!"
-   ],
-   "hold": 1.5
+   "hold": 0.8
   }
- ]
+ ],
+ "captions": {
+  "Fifteen squares, in rows of five, four, three, two, and one.": "15 squares, in rows of 5, 4, 3, 2, and 1."
+ }
 }

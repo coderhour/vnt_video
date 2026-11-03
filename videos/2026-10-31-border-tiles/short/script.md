@@ -1,27 +1,23 @@
 # 40 Blue Edge Tiles, 80 White (short)
 
-Forty blue tiles on the edge. Eighty white tiles inside.
+AMC eight challenge! Think it's four? Nope!
 
-What shape is the floor?
+One-foot square tiles: forty blue on the edge, eighty white inside.
 
-Square one foot tiles: forty blue on the edge, eighty white inside.
+How many feet longer is it than it is wide?
 
-How many feet longer than wide?
+Comment your letter, then watch!
 
-Pause and try it!
+That's one hundred twenty tiles. Now count each floor's edge.
 
-*(Pause and try it: 3 s countdown)*
+Sixty by two: one hundred twenty edge tiles. Forty by three: eighty-two.
 
-The edge is two lengths, plus two widths, minus four corners counted twice.
+Then less and less: sixty-four, fifty-four, forty-eight, forty-two.
 
-So two lengths plus two widths is forty-four. Length plus width: twenty-two!
+Twelve by ten gives exactly forty, with ten by eight inside!
 
-All one hundred twenty tiles make length times width.
+Twelve minus ten: two feet longer!
 
-Two numbers add to twenty-two, and multiply to one hundred twenty? Twelve and ten! Two feet longer!
+Four was the trap: nine by thirteen falls three tiles short.
 
-Check: forty blue, eighty white.
-
-Why twelve and ten? The full lesson shows a list, a faster way, and every trap.
-
-Tap the link below to watch it!
+Did you get two? Tell me below!

@@ -1,46 +1,76 @@
-import { Audio, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
-import { clamp, ease, fadeTo, fadeUp, pop } from '../../../lib/anim';
+import { Audio, Sequence, useCurrentFrame } from 'remotion';
+import { ease, fadeTo, fadeUp, pop } from '../../../lib/anim';
 import { at, type SceneComponent, type Timeline } from '../../../lib/Explainer';
-import { Countdown } from '../../../lib/PauseCard';
-import { FullLessonCard, ShortFrame } from '../../../lib/Short';
+import { CommentBubble, CtaPill, MUSIC, PushIn, SFX, Sfx, ShortFrame, choicePulse } from '../../../lib/Short';
 import { Tex } from '../../../lib/Tex';
 import { Confetti, Text } from '../../../lib/ui';
 import { C } from '../../../lib/theme';
-import { AMBD, CH, CHIME, Clock, SLUG, TICK, stepH } from '../Composition';
+import { AMBD, CH, CHIME, Clock, SLUG, stepH } from '../Composition';
 
 export { SLUG };
 
-const CX = 490;
+// New recipe: trap-first hook (6), question, comment bait, the turns scene (pairs → 210 hours, one full turn, then a
+// fast 17-turn spin with an hours readout counting in 12s, a zoom on the hand back at 3), the reveal (six hour steps
+// from 3 to 9) on the same big clock the hook opens on (loop match).
 
+const CX = 540;
+const CY = 830;
+const R = 330;
+/** Tip of the hour hand at 3 o'clock (Clock: L = nr − 0.62·fs − 14). */
+const TIP_X = CX + (R - 62 - 58 * 0.62 - 14);
+
+const Row: React.FC<{ y: number; op: number; tex: string; size?: number }> = ({ y, op, tex, size = 76 }) =>
+  op <= 0 ? null : (
+    <div style={{ position: 'absolute', left: 0, width: 1080, top: y, display: 'flex', justifyContent: 'center', whiteSpace: 'nowrap', opacity: op }}>
+      <Tex tex={tex} size={size} />
+    </div>
+  );
+
+const Chip: React.FC<{ y: number; op: number; color: string; scale?: number; children: React.ReactNode }> = ({ y, op, color, scale = 1, children }) =>
+  op <= 0 ? null : (
+    <div style={{ position: 'absolute', left: 0, width: 1080, top: y, display: 'flex', justifyContent: 'center', opacity: op }}>
+      <div style={{ background: color, color: '#fff', borderRadius: 24, padding: '2px 36px', fontSize: 62, fontWeight: 900, whiteSpace: 'nowrap', transform: `scale(${scale})` }}>{children}</div>
+    </div>
+  );
+
+/** Opens on the clock (the same place the video ends on, so the loop cuts cleanly), then stamps the trap answer. */
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const starts = [0.3, 0.45, 0.6, 0.75, 0.9].map((t) => at(scene, 0, t));
-  // moves of 1, 2, 3, 4, 5 hours: the hand jumps ahead by a bigger step each time
-  const h = starts.reduce((acc, s, i) => acc + (i + 1) * ease(f, s, 14), 3);
-  const q = ease(f, at(scene, 1, 0.2), 10);
+  const nope = at(scene, 0, 0.79);
   return (
     <>
-      <Text x={540} y={300} w={980} size={72} weight={900} align="center">
-        Move it 1, 2, 3 … 20 hours
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 8 · Challenge #9</div>
+      </div>
+      <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
+        Think it's <span style={{ color: C.red }}>6</span>?
       </Text>
-      <Clock cx={CX} cy={850} R={340} h={h} trail={f > starts[0] && f < starts[4] + 20 ? 1 : 0} q={q} qx={CX} qy={CX < 0 ? 0 : 990} />
+      <PushIn frames={scene.frames} origin={`${CX}px ${CY}px`}>
+        <Clock cx={CX} cy={CY} R={R} h={3} />
+      </PushIn>
+      <Sfx at={nope} src={SFX.buzz} volume={0.35} />
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 720, display: 'flex', justifyContent: 'center', opacity: ease(f, nope, 4) }}>
+        <div style={{ transform: `rotate(-8deg) scale(${pop(f, nope)})`, border: `14px solid ${C.red}`, color: C.red, background: 'rgba(255,255,255,0.92)', borderRadius: 28, padding: '6px 54px', fontSize: 150, fontWeight: 900, letterSpacing: 6 }}>
+          NOPE
+        </div>
+      </div>
     </>
   );
 };
 
-const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => {
+const QuestionBody: React.FC<{ start: (i: number) => number; pulse?: (i: number) => number }> = ({ start, pulse = () => 1 }) => {
   const f = useCurrentFrame();
   return (
     <>
-      <div style={{ position: 'absolute', left: 60, top: 300, width: 860, background: C.card, borderRadius: 32, padding: '28px 40px', fontSize: 50, fontWeight: 700, lineHeight: 1.4, boxShadow: '0 8px 30px rgba(30,40,80,0.07)', boxSizing: 'border-box' }}>
-        The hour hand points to <b>3</b>. Move it <b style={{ color: C.violet }}>1 hour</b>, then <b style={{ color: C.violet }}>2</b>, then <b style={{ color: C.violet }}>3</b>, … up to <b style={{ color: C.violet }}>20</b>. <b>Where does it point?</b>
+      <div style={{ position: 'absolute', left: 50, top: 290, width: 980, boxSizing: 'border-box', background: C.card, borderRadius: 32, padding: '26px 40px', fontSize: 54, fontWeight: 800, lineHeight: 1.35, boxShadow: '0 8px 30px rgba(30,40,80,0.07)' }}>
+        The hour hand points to <b style={{ color: C.violet }}>3</b>. It moves <b>1 hour</b>, then <b>2</b>, then <b>3</b>, … up to <b style={{ color: AMBD }}>20 hours</b>. Where does it point at the end?
       </div>
-      <Clock cx={CX} cy={920} R={240} h={3} />
-      <div style={{ position: 'absolute', left: 60, top: 1215, width: 860, display: 'flex', justifyContent: 'center', gap: 18 }}>
+      <Clock cx={CX} cy={845} R={200} h={3} />
+      <div style={{ position: 'absolute', left: 60, top: 1075, width: 860, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 22 }}>
         {CH.map((c, i) => (
-          <div key={c} style={{ ...fadeUp(f, start(i), 10), background: C.card, borderRadius: 18, padding: '8px 20px', boxShadow: '0 4px 14px rgba(30,40,80,0.07)', display: 'flex', alignItems: 'center', gap: 10, fontSize: 50, fontWeight: 800 }}>
-            <span style={{ color: C.muted, fontSize: 32 }}>{'ABCDE'[i]}</span>
-            {c}
+          <div key={c} style={{ ...fadeUp(f, start(i), 8), background: C.card, borderRadius: 22, padding: '12px 30px', boxShadow: '0 4px 14px rgba(30,40,80,0.08)', display: 'flex', alignItems: 'center', gap: 14, scale: String(pulse(i)) }}>
+            <span style={{ color: C.muted, fontSize: 44, fontWeight: 900 }}>{'ABCDE'[i]}</span>
+            <Tex tex={c} size={68} />
           </div>
         ))}
       </div>
@@ -48,83 +78,105 @@ const QuestionBody: React.FC<{ start: (i: number) => number }> = ({ start }) => 
   );
 };
 
-const Question: SceneComponent = ({ scene }) => <QuestionBody start={(i) => at(scene, 1, 0.1 + i * 0.12)} />;
-
-const Think: SceneComponent = ({ scene }) => (
+const Question: SceneComponent = ({ scene }) => (
   <>
-    <div style={{ opacity: 0.35 }}>
-      <QuestionBody start={() => -100} />
-    </div>
-    <div style={{ position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, background: 'rgba(246,247,251,0.6)' }} />
-    <Countdown scene={scene} seconds={3} x={540} y={900} tick={TICK} />
+    <QuestionBody start={(i) => at(scene, 1, 0.2 + i * 0.1)} />
+    <Sfx at={0} src={SFX.whoosh} volume={0.3} />
   </>
 );
 
+/** Comment bait instead of a countdown: the question stays, a bubble pops, the choices pulse one by one. */
+const Think: SceneComponent = () => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      <QuestionBody start={() => -100} pulse={(i) => choicePulse(f, i)} />
+      <CommentBubble />
+    </>
+  );
+};
+
 const Turns: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const a = at(scene, 1, 0.3);
-  const b = at(scene, 1, 0.95);
-  const p = interpolate(f, [a, b], [0, 1], { ...clamp, easing: (t) => 1 - (1 - t) ** 2 });
-  const h = 3 + 204 * p;
-  const turns = Math.floor((h - 3) / 12 + 1e-6);
-  const spinning = f > a && f < b;
-  const six = ease(f, at(scene, 2, 0.1), 10);
-  const row = (i: number, t: number, tex: string, y: number, size = 64) => (
-    <div style={{ position: 'absolute', left: 0, width: 1080, top: y, display: 'flex', justifyContent: 'center', whiteSpace: 'nowrap', ...fadeUp(f, at(scene, i, t)) }}>
-      <Tex tex={tex} size={size} />
-    </div>
-  );
+  const t = (i: number, x: number) => at(scene, i, x);
+  // line 0: the sum by pairs
+  const pairs = t(0, 0.36);
+  const total = t(0, 0.72);
+  // line 1: one full turn, then the other 16 turns fast
+  const turn1 = t(1, 0.06);
+  const turn1End = turn1 + 30;
+  const spin = t(1, 0.4);
+  const spinEnd = t(1, 0.8);
+  const turns = ease(f, turn1, 30) + (f <= spin ? 0 : f >= spinEnd ? 16 : (16 * (f - spin)) / (spinEnd - spin));
+  const h = 3 + 12 * turns;
+  const spinning = f > spin && f < spinEnd ? 1 : 0;
+  const full = Math.floor(turns + 1e-6);
+  const plus6 = t(1, 0.82);
+  // line 2: zoom onto the hand back at 3, then out to the leftover
+  const zoomIn = t(2, 0.04);
+  const zoomOut = t(2, 0.4);
+  const zoom = 1 + 0.4 * ease(f, zoomIn, 12) - 0.4 * ease(f, zoomOut, 12);
+  const top = fadeTo(f, zoomIn - 4, 0, 8) + ease(f, zoomOut + 6, 10);
+  const left6 = t(2, 0.48);
   return (
     <>
-      {row(0, 0.25, '1 + 2 + 3 + \\cdots + 20 = 210', 300)}
-      {row(1, 0.1, '210 = {\\color{#8a91a0}17 \\times 12} + {\\color{#f59f0a}6}', 410, 72)}
-      <Clock cx={CX} cy={900} R={330} h={h} trail={spinning ? 1 : 0} glow={six} />
-      <Text x={CX} y={1235} w={800} size={56} weight={900} color={C.muted} align="center" style={{ opacity: ease(f, a, 8) * (1 - six) }}>
-        full turns: {turns}
-      </Text>
-      <div style={{ position: 'absolute', left: 0, width: 1080, top: 1225, display: 'flex', justifyContent: 'center', opacity: six }}>
-        <div style={{ background: AMBD, color: '#fff', borderRadius: 999, padding: '8px 40px', fontSize: 56, fontWeight: 900, transform: `scale(${pop(f, at(scene, 2, 0.1))})` }}>only 6 hours matter</div>
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      <Sfx at={pairs} src={SFX.click} volume={0.25} />
+      <Sfx at={total} src={SFX.click} volume={0.3} />
+      <Sfx at={turn1} src={SFX.whoosh} volume={0.22} />
+      {Array.from({ length: 6 }, (_, k) => <Sfx key={k} at={spin + ((spinEnd - spin) * (k * 3 + 1)) / 16} src={SFX.click} volume={0.24} />)}
+      <Sfx at={plus6} src={SFX.click} volume={0.3} />
+      <Sfx at={zoomIn} src={SFX.whoosh} volume={0.25} />
+      <Sfx at={zoomOut} src={SFX.whoosh} volume={0.25} />
+      <Sfx at={left6} src={SFX.click} volume={0.3} />
+      <div style={{ opacity: Math.min(1, top) }}>
+        <Row y={285} op={ease(f, 2, 10) * fadeTo(f, pairs - 3, 0, 6)} tex="1 + 2 + 3 + \cdots + 20" />
+        <Row y={285} op={ease(f, pairs, 8) * fadeTo(f, t(1, 0.38), 0, 6)} tex={`10 \\times 21 ${f >= total ? '= 210' : ''}`} />
+        <Row y={285} op={ease(f, t(1, 0.4), 8)} tex={`210 = 17 \\times 12 ${f >= plus6 ? '\\color{#c77f00}{+\\,6}' : ''}`} />
+        <Chip y={395} op={ease(f, total, 8) * fadeTo(f, turn1, 0, 6)} color={C.violet} scale={0.8 + 0.2 * pop(f, total)}>210 hours</Chip>
+        <Chip y={395} op={ease(f, turn1, 8) * fadeTo(f, t(2, 0.0), 0, 6)} color={C.ink}>{f < turn1End ? '12 h = 1 full turn' : `${Math.max(1, full) * 12} h used`}</Chip>
+        <Chip y={395} op={ease(f, left6, 8)} color={AMBD} scale={0.8 + 0.2 * pop(f, left6)}>6 hours left</Chip>
+      </div>
+      <div style={{ position: 'absolute', inset: 0, transform: `scale(${zoom})`, transformOrigin: `${TIP_X}px ${CY}px` }}>
+        <Clock cx={CX} cy={CY} R={R} h={h} trail={spinning} glow={ease(f, zoomIn + 6, 8) * fadeTo(f, zoomOut, 0, 8)} />
       </div>
     </>
   );
 };
 
+/** Six hour steps from 3 land on 9 with the spoken answer, then the trap (a ghost hand at 6), then the CTA pill. */
 const Reveal: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const t = (x: number) => at(scene, 0, x);
-  const starts = [0.04, 0.17, 0.3, 0.43, 0.56, 0.69].map(t);
-  const h = stepH(f, 3, starts, 9);
-  const k = starts.filter((s) => f >= s).length;
-  const hit = t(0.88);
-  const end = at(scene, 0, 1);
+  const hit = at(scene, 0, 0.8);
+  const chime = at(scene, 0, 0.97);
+  const steps = Array.from({ length: 6 }, (_, k) => at(scene, 0, 0.12) + k * ((hit - 8 - at(scene, 0, 0.12)) / 5));
+  const h = stepH(f, 3, steps, 7);
+  const trap = at(scene, 1, 0.05);
   return (
     <>
-      <div style={{ position: 'absolute', left: 0, width: 1080, top: 300, display: 'flex', justifyContent: 'center', opacity: fadeTo(f, hit - 4) }}>
-        <Tex tex="3 + 6" size={84} />
-      </div>
       <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
-        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '16px 48px', fontSize: 80, fontWeight: 900, boxShadow: '0 16px 40px rgba(33,196,93,0.35)', whiteSpace: 'nowrap' }}>Points to 9</div>
+        <div style={{ transform: `scale(${pop(f, hit)})`, background: C.green, color: '#fff', borderRadius: 28, padding: '4px 44px', display: 'flex', alignItems: 'center', gap: 24, boxShadow: '0 16px 40px rgba(33,196,93,0.35)' }}>
+          <Tex tex="3 + 6 = 9" size={86} color="#fff" />
+        </div>
       </div>
-      <Clock cx={CX} cy={900} R={330} h={h} glow={ease(f, hit, 10)} />
-      <Text x={CX} y={1235} w={800} size={60} weight={900} color={AMBD} align="center" style={{ opacity: k > 0 ? 1 - ease(f, hit, 8) : 0 }}>
-        +{k} hour{k === 1 ? '' : 's'}
+      <Text x={540} y={403} w={1000} size={50} weight={900} color={C.red} align="center" style={fadeUp(f, at(scene, 1, 0.4))}>
+        6 counts from 12, not 3 ✗
       </Text>
-      <Text x={CX} y={1235} w={860} size={60} weight={900} color={C.red} align="center" style={fadeUp(f, at(scene, 1, 0.1))}>
-        Not 6! Start from 3.
-      </Text>
-      <Sequence from={end} durationInFrames={60} layout="none">
+      <Clock cx={CX} cy={CY} R={R} h={h} ghostH={6} ghostOp={ease(f, trap, 8)} glow={ease(f, hit, 10)} />
+      <CtaPill start={at(scene, 2)} y={1185} />
+      <Sfx at={0} src={SFX.whoosh} volume={0.3} />
+      {steps.map((s, k) => <Sfx key={k} at={s} src={SFX.click} volume={0.22} />)}
+      <Sfx at={hit - 31} src={SFX.riser} volume={0.3} />
+      <Sfx at={at(scene, 1)} src={SFX.buzz} volume={0.2} />
+      <Sequence from={chime} durationInFrames={60} layout="none">
         <Audio src={CHIME} volume={0.3} />
       </Sequence>
-      <Confetti x={540} y={350} start={end} seed={23} />
+      <Confetti x={540} y={360} start={chime} seed={11} />
     </>
   );
 };
 
-const Cta: SceneComponent = ({ scene }) => (
-  <FullLessonCard scene={scene} poster={staticFile(`${SLUG}/short/full.jpg`)} length="4:59" bullets={['Add it up, step by step', 'A way to skip the big sum', 'Every trap, plus a new start']} />
-);
-
-const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, turns: Turns, reveal: Reveal, cta: Cta };
+const SCENES: Record<string, SceneComponent> = { hook: Hook, question: Question, think: Think, turns: Turns, reveal: Reveal };
 
 export const Short: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
-  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 8-style" /> : null;
+  timeline ? <ShortFrame timeline={timeline} scenes={SCENES} badge="AMC 8-style" captions="words" music={MUSIC} /> : null;

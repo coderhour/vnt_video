@@ -7,6 +7,13 @@
  "short": {
   "title": "5 Rectangles, No Side Lengths: Area? #Shorts",
   "description": "Five identical rectangles, a perimeter of 66, and no sides given. Measure in equal blocks and the area pops out!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": []
+  "posts": [],
+  "challenge": 23,
+  "tags": [
+   "AMC 8",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ]
  }
 }
