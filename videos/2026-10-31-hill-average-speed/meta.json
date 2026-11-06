@@ -6,7 +6,8 @@
  "posts": [
   {
    "platform": "YouTube",
-   "url": "https://www.youtube.com/watch?v=Hm1wvQX6xQQ"
+   "url": "https://www.youtube.com/watch?v=Hm1wvQX6xQQ",
+   "published_at": "2026-11-01T00:27:59-07:00"
   }
  ],
  "status": "ready",

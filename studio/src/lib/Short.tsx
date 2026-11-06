@@ -2,7 +2,7 @@ import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame
 import { clamp, ease, fadeUp, pop } from './anim';
 import type { Scene, SceneComponent, Timeline } from './Explainer';
 import { NUNITO } from './fonts';
-import { BrandMark } from './Brand';
+import { BrandMark, CN } from './Brand';
 import { StageSize } from './grid';
 import { C } from './theme';
 
@@ -108,15 +108,15 @@ export const PushIn: React.FC<{ frames: number; origin?: string; children: React
   return <div style={{ position: 'absolute', inset: 0, transform: `scale(${1 + 0.05 * Math.min(1, f / frames)})`, transformOrigin: origin }}>{children}</div>;
 };
 
-/** Green "Practice more at vantee.ai" pill that pops in at `start` (opt-in CTA over the last scene, instead of an end card). */
+/** Green "Practice more at vantee.ai" pill (CN: just the logo chip, no call to action) that pops in at `start` (opt-in CTA over the last scene, instead of an end card). */
 export const CtaPill: React.FC<{ start: number; y?: number; text?: string }> = ({ start, y = 1150, text = 'Practice more at vantee.ai' }) => {
   const f = useCurrentFrame();
   const o = ease(f, start, 10);
   return (
     <div style={{ position: 'absolute', left: 60, width: 860, top: y, display: 'flex', justifyContent: 'center', opacity: o, transform: `scale(${pop(f, start) * (1 + 0.04 * Math.sin((f / 30) * Math.PI * 2) * o)})` }}>
-      <div style={{ background: C.primary, color: '#fff', borderRadius: 999, padding: '20px 26px 20px 44px', fontSize: 52, fontWeight: 900, whiteSpace: 'nowrap', boxShadow: '0 16px 40px rgba(12,194,129,0.35)', display: 'flex', alignItems: 'center', gap: 16 }}>
-        {text.replace(/\s*vantee\.ai\s*$/, '')}
-        {/vantee\.ai\s*$/.test(text) && <span style={{ background: '#fff', borderRadius: 999, padding: '10px 30px 16px 22px', display: 'flex' }}><BrandMark size={46} /></span>}
+      <div style={{ background: C.primary, color: '#fff', borderRadius: 999, padding: CN ? '20px 26px' : '20px 26px 20px 44px', fontSize: 52, fontWeight: 900, whiteSpace: 'nowrap', boxShadow: '0 16px 40px rgba(12,194,129,0.35)', display: 'flex', alignItems: 'center', gap: 16 }}>
+        {!CN && text.replace(/\s*vantee\.ai\s*$/, '')}
+        {(CN || /vantee\.ai\s*$/.test(text)) && <span style={{ background: '#fff', borderRadius: 999, padding: '10px 30px 16px 22px', display: 'flex' }}><BrandMark size={46} /></span>}
       </div>
     </div>
   );

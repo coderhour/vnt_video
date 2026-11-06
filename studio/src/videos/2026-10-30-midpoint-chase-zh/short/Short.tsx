@@ -76,7 +76,7 @@ const Hook: SceneComponent = ({ scene }) => {
   return (
     <>
       <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
-        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 8 · 挑战 #1</div>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 8 · 挑战 #48</div>
       </div>
       <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
         你觉得是 <span style={{ color: C.red }}>42.5</span>？

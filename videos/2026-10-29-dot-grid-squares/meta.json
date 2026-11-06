@@ -6,7 +6,8 @@
  "posts": [
   {
    "platform": "YouTube",
-   "url": "https://www.youtube.com/watch?v=Mda0bfo8IWc"
+   "url": "https://www.youtube.com/watch?v=Mda0bfo8IWc",
+   "published_at": "2026-11-01T00:28:22-07:00"
   }
  ],
  "status": "ready",
@@ -15,13 +16,22 @@
  "short": {
   "title": "20 dots, how many squares? #Shorts",
   "description": "20 dots, and most kids find 20 squares. But there are MORE hiding in there!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": [],
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/TZTNx_qDfR8",
+    "published_at": "2026-11-05T18:30:00-08:00",
+    "scheduled_at": "2026-11-05T11:28:10-08:00"
+   }
+  ],
   "challenge": 1,
   "tags": [
    "AMC 8",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
+  ],
+  "youtube_id": "TZTNx_qDfR8",
+  "playlist_id": "PLMmhAusDs0A4"
  }
 }

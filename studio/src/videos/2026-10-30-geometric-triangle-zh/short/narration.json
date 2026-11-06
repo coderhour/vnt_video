@@ -1,0 +1,51 @@
+{
+ "title": "等比三角形 (短片)",
+ "fps": 30,
+ "lang": "zh",
+ "captions": {
+  "最长边的长度是两千零二十五。一共几个三角形？": "最长边是2025。一共几个三角形？",
+  "三条边是k的平方、45k，还有两千零二十五，k最大是44。": "三条边是k的平方、45k和2025，k最大是44。"
+ },
+ "voice": "Zephyr",
+ "style": "warm and upbeat, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC 10挑战！你觉得是44？错！"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "三条不同的整数边，每条都是前一条乘同一个倍数。",
+    "最长边的长度是两千零二十五。一共几个三角形？"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "评论你的选项，然后接着看！"
+   ]
+  },
+  {
+   "id": "rule",
+   "lines": [
+    "三条边是k的平方、45k，还有两千零二十五，k最大是44。",
+    "两条短边加起来要大于最长边。k等于27时，只差一点点。",
+    "k等于28的时候，够了！之后的每个k也都可以！"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "从28到44，一共17个三角形！",
+    "选44是陷阱！",
+    "答案是17，你答对了吗？在评论里告诉我！"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

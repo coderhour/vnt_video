@@ -9,3 +9,5 @@ render.failed
 .youtube-token.json
 short.render.*
 .tiktok-token.json
+video-cn.render.*
+short-cn.render.*

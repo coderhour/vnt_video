@@ -6,7 +6,12 @@
  "posts": [
   {
    "platform": "YouTube",
-   "url": "https://www.youtube.com/watch?v=se3GzWejAZo"
+   "url": "https://www.youtube.com/watch?v=se3GzWejAZo",
+   "published_at": "2026-11-01T00:20:40-07:00"
+  },
+  {
+   "platform": "YouTube quiz post",
+   "url": "https://www.youtube.com/post/UgkxuaOFUXoMajNL_WEFxD0CTMYIfLOd5lZd"
   }
  ],
  "status": "ready",
@@ -18,16 +23,40 @@
   "posts": [
    {
     "platform": "YouTube Shorts",
-    "url": "https://www.youtube.com/shorts/g-OTMmAdZgs"
+    "url": "https://www.youtube.com/shorts/DZcMrV5QeNM",
+    "published_at": "2026-11-03T10:58:00-08:00"
+   },
+   {
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/@vanteeai/video/7704115184226323742?is_from_webapp=1&sender_device=pc&web_id=7703725928308672031"
    }
   ],
-  "youtube_id": "g-OTMmAdZgs",
+  "youtube_id": "DZcMrV5QeNM",
   "tags": [
    "AMC 10",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
   ],
-  "challenge": 1
+  "challenge": 1,
+  "replaced": [
+   {
+    "youtube_id": "g-OTMmAdZgs",
+    "url": "https://www.youtube.com/shorts/g-OTMmAdZgs",
+    "status": "private"
+   }
+  ],
+  "playlist_id": "PLR-HuI9ErJA0"
+ },
+ "cn": {
+  "video": {
+   "title": "三边成等比数列的三角形有几个？英文数学思维讲解",
+   "description": "三角形三条边都是不同的整数，成等比数列，最长边是 2025，这样的三角形一共有几个？\n用公比写成 p/q，三角形不等式筛掉不能闭合的情况，再看一个更快的“中间边”方法，最后附一道练习题。\n全英文讲解，适合练习数学英语。\n\n#数学思维 #趣味数学 #英文数学 #数学题"
+  },
+  "short": {
+   "title": "最长边 2025，几个三角形能闭合？",
+   "description": "三边是整数、成等比数列、最长边 2025，一共几个三角形？你选哪个？\n\n#数学思维 #趣味数学 #英文数学 #数学题"
+  },
+  "posts": []
  }
 }

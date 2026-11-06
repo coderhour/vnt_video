@@ -68,22 +68,58 @@ What happens:
 async function uploadYouTube(v, btn, kind, site = 'youtube') {
   const what = { video: `"${v.title}"`, short: `the short "${v.short?.title}"`, both: `"${v.title}" and its short` }[kind];
   const name = { youtube: 'YouTube', tiktok: 'TikTok' }[site];
-  const ask = kind === 'republish' ? REPUBLISH(v) : `Upload ${what} to ${name}?`;
-  if (!confirm(ask)) return;
+  let at = null;  // null = publish now; a Date = YouTube publishes the private upload then
+  if (kind === 'republish' || site !== 'youtube') {
+    if (!confirm(kind === 'republish' ? REPUBLISH(v) : `Upload ${what} to ${name}?`)) return;
+  } else {
+    at = await askWhen(`Publish ${what} to YouTube`);
+    if (at === undefined) return;
+  }
   const label = btn.textContent;
   btn.disabled = true; btn.textContent = 'Uploading…';
-  const r = await fetch('/api/' + site, { method: 'POST', body: JSON.stringify({ slug: v.slug, kind }) });
+  const r = await fetch('/api/' + site, { method: 'POST', body: JSON.stringify({ slug: v.slug, kind, ...(at && { publish_at: at.toISOString() }) }) });
   const d = await r.json().catch(() => ({ error: 'bad response' }));
   videos = await fetch('/api/videos').then(r => r.json());  // meta.json may have changed even on failure ("both")
   render();
   if (!r.ok) { btn.disabled = false; btn.textContent = label; alert(name + ' upload failed: ' + d.error); }
+  else if (at && !d.scheduled) alert('The server ignored the schedule and published NOW (restart ./start.sh to load the new code). Set it private in YouTube Studio if needed.');
   else if (d.warning) alert(d.warning);
 }
-async function markTikTok(v) {
-  const url = prompt(`TikTok link of the short "${v.short.title}" (Share → Copy link):`);
+// Publish dialog: now, or at a local date/time (sent as UTC; YouTube holds the upload private until then).
+// Resolves null (now), a Date (scheduled) or undefined (cancelled).
+const TZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+const fmt = d => d.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+function askWhen(title) {
+  const pad = n => String(n).padStart(2, '0');
+  const t = new Date(); t.setHours(18, 30, 0, 0);  // default: the next 6:30 PM local time
+  if (t <= new Date()) t.setDate(t.getDate() + 1);
+  const input = el('input', { type: 'datetime-local', value: `${t.getFullYear()}-${pad(t.getMonth() + 1)}-${pad(t.getDate())}T18:30` });
+  const note = el('p', { className: 'meta' });
+  const show = () => { const d = new Date(input.value); note.textContent = input.value ? `Goes public ${fmt(d)}` + (d <= new Date() ? ' (in the past!)' : '') : ''; };
+  input.oninput = show; show();
+  const dlg = el('dialog', {},
+    el('h2', {}, title),
+    el('p', {}, el('button', { onclick: () => done(null) }, 'Publish now')),
+    el('p', {}, `Or schedule it (your local time, ${TZ}):`),
+    el('p', {}, input, ' ', el('button', { onclick: () => {
+      const d = new Date(input.value);
+      if (!input.value || d <= new Date()) return alert('Pick a time in the future.');
+      done(d);
+    } }, 'Schedule')),
+    note,
+    el('p', { className: 'meta' }, 'Scheduled: uploads now as private, and YouTube makes it public at that time.'),
+    el('p', {}, el('button', { onclick: () => done(undefined) }, 'Cancel')));
+  let done;
+  const p = new Promise(r => { done = x => { dlg.close(); dlg.remove(); r(x); }; });
+  dlg.oncancel = () => done(undefined);  // Esc
+  document.body.append(dlg); dlg.showModal();
+  return p;
+}
+async function markPosted(v, api, ask, err) {
+  const url = prompt(ask);
   if (!url) return;
-  const r = await fetch('/api/tiktok-posted', { method: 'POST', body: JSON.stringify({ slug: v.slug, url: url.trim() }) });
-  if (!r.ok) return alert('Could not save: the link must start with https://www.tiktok.com/ or https://vm.tiktok.com/');
+  const r = await fetch('/api/' + api, { method: 'POST', body: JSON.stringify({ slug: v.slug, url: url.trim() }) });
+  if (!r.ok) return alert('Could not save: ' + err);
   videos = await fetch('/api/videos').then(r => r.json());
   render();
 }
@@ -101,7 +137,22 @@ function publishFields(v) {
     ['Category', 'Education'], ['Language', 'English'],
     ['Thumbnail', v.poster ? location.origin + v.poster : '(no poster.jpg)'],
     ...(v.tiktok_caption ? [['TikTok caption', v.tiktok_caption]] : []),
+    ...(v.youtube_quiz ? [['YouTube quiz post', v.youtube_quiz]] : []),
   ];
+}
+
+// China cut (Xiaohongshu / WeChat Channels): *-cn.mp4 (no domain on screen) + meta.json "cn" text (no links). Posted by hand.
+function cnSection(v) {
+  const c = v.cn || {};
+  const rows = [['Video title', c.video?.title], ['Video description', c.video?.description],
+    ['Short title', c.short?.title], ['Short description', c.short?.description]].filter(([, t]) => t);
+  return [el('h2', {}, 'China cut (Xiaohongshu / WeChat Channels)'),
+    el('p', {}, 'Post by hand and tick the "AI-generated content" declaration (内容由AI生成).'),
+    ...(v.video_cn ? [el('video', { src: v.video_cn, controls: true })] : [el('p', {}, 'video-cn.mp4 not rendered')]),
+    ...(v.short_video_cn ? [el('video', { src: v.short_video_cn, controls: true, style: 'width: auto; height: 70vh' })] : []),
+    el('table', { className: 'pub' }, ...rows.map(([k, val]) => el('tr', {},
+      el('td', {}, k), el('td', { style: 'white-space: pre-line' }, val),
+      el('td', {}, el('button', { onclick: e => copy(val, e.target) }, 'Copy')))))];
 }
 
 // navigator.clipboard needs https or localhost; over plain-http LAN fall back to execCommand.
@@ -131,7 +182,7 @@ function render() {
   // One folder per quiz bank (question_id = "<bank>:<id>"), or per short series in challenge order (the publish order).
   const bySeries = sort.value === 'challenge';
   // ponytail: a "-zh" slug is the Chinese series; store a series field in meta.json if more languages come
-  const series = v => !v.short?.challenge ? 'No short' : `${v.slug.endsWith('-zh') ? 'Chinese' : v.short.tags?.[0] || 'Other'} challenges`;
+  const series = v => !v.short?.challenge ? 'No short' : `${v.short.tags?.[0] || 'Other'}${v.slug.endsWith('-zh') ? ' Chinese' : ''} challenges`;
   const banks = Map.groupBy(bySeries ? [...shown].sort((a, b) => (a.short?.challenge ?? 1e9) - (b.short?.challenge ?? 1e9)) : shown,
     v => bySeries ? series(v) : v.question_id?.split(':')[0] || 'Other');
   list.replaceChildren(...[...banks].sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true })).map(([bank, vs]) =>
@@ -165,14 +216,22 @@ function render() {
         .map(([kind, label, , site]) => el('button', { onclick: e => uploadYouTube(v, e.target, kind, site), style: 'margin-left: 8px' }, label)),
       // ponytail: TikTok's API only posts privately until the app is audited, so shorts go up by hand and get marked here
       ...(v.short_video && v.short && !v.short.posts?.some(p => p.platform === 'TikTok')
-        ? [el('button', { onclick: () => markTikTok(v), style: 'margin-left: 8px' }, 'Mark short on TikTok')] : [])),
+        ? [el('button', { onclick: () => markPosted(v, 'tiktok-posted', `TikTok link of the short "${v.short.title}" (Share → Copy link):`,
+            'the link must start with https://www.tiktok.com/ or https://vm.tiktok.com/'), style: 'margin-left: 8px' }, 'Mark short on TikTok')] : []),
+      // ponytail: the YouTube API can't create Posts, so the quiz post (copy row below) goes up by hand and gets marked here
+      ...(v.youtube_id && v.youtube_quiz && !v.posts?.some(p => p.platform === 'YouTube quiz post')
+        ? [el('button', { onclick: () => markPosted(v, 'quiz-posted', 'Link of the YouTube quiz post (⋮ → Copy link):',
+            'the link must start with https://www.youtube.com/'), style: 'margin-left: 8px' }, 'Mark quiz posted')] : [])),
     ...(v.fixes?.length ? [el('ul', {}, ...v.fixes.map(f => el('li', {}, f)))] : []),
     ...(v.posts?.length ? [el('h2', {}, 'Published'), el('ul', {}, ...[...v.posts, ...(v.short?.posts || [])].map(p =>
-      el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.platform || p.url))))] : []),
+      el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.platform || p.url),
+        p.published_at ? (p.scheduled_at && new Date(p.published_at) > new Date() ? ' · goes public ' : ' · ') + fmt(new Date(p.published_at)) : '',
+        p.scheduled_at ? ` (scheduled ${fmt(new Date(p.scheduled_at))})` : '')))] : []),
     el('h2', {}, 'Publish metadata'),
     el('table', { className: 'pub' }, ...publishFields(v).map(([k, val]) => el('tr', {},
       el('td', {}, k), el('td', { style: 'white-space: pre-line' }, val),
       el('td', {}, el('button', { onclick: e => copy(val, e.target) }, 'Copy'))))),
+    ...(v.video_cn || v.short_video_cn || v.cn ? cnSection(v) : []),
     el('h2', {}, 'Script'),
     el('pre', {}, v.script || '(no script.md)'));
 }

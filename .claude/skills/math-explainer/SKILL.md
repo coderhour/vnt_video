@@ -163,6 +163,10 @@ transcript and puts the delivery in the `speech_metadata` `style` field. Default
 ("Friendly"), style "warm and encouraging, speaking at a relaxed pace, no laughing" ("playful" made it laugh;
 the user doesn't want laughs). Override
 `voice` / `style` in `narration.json`, but keep the style a few words long: long styles drift.
+Chinese (`"lang": "zh"`): voice `Zephyr` and the Mainland accent in the style, or it drifts Taiwanese (user's pick, 2026-11-05):
+"warm and encouraging, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent,
+like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a relaxed pace, no laughing"
+(shorts: "warm and upbeat, … at a brisk, energetic pace, no laughing"). See `2026-10-30-geometric-triangle-zh`.
 - Never put stage directions in the line text, because they get spoken.
 - For a moment in the line, use an inline angle-bracket tag: `<short pause>` before a reveal,
   `<long pause>`. Use them sparingly. No `<laugh>`.

@@ -18,6 +18,7 @@ import json
 import math
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -34,7 +35,9 @@ LINE_GAP = 0.35    # seconds of silence between lines
 SCENE_TAIL = 0.8   # seconds after a scene's last line
 # Pronunciation hints, added to the style annotation of every line that uses the word (never spoken).
 # Google's TTS has no IPA/SSML field; a style hint got /ˈvæn.ti/ in 4/4 takes vs 2/4 for spelling it "Van-tee".
-PRONOUNCE = {"Vantee": '/ˈvæn.ti/ (VAN-tee, rhymes with "can tea")',
+PRONOUNCE = {"144": "the cardinal number one hundred forty-four (Mandarin: yì bǎi sì shí sì), read as one whole number, never digit by digit",
+             "2,025": "the cardinal number two thousand twenty-five (Mandarin: liǎng qiān líng èr shí wǔ), read as one whole number, never digit by digit like a year",
+             "Vantee": '/ˈvæn.ti/ (VAN-tee, rhymes with "can tea")',
              "Ali": '/ˈɑː.li/ (AH-lee, as in the boxer Muhammad Ali: first syllable "ah" like "father", never "al" or "oll")', "Bea": '/ˈbiː.ə/ (BEE-uh, as in the name Beatrice without "trice": two syllables, never just the letter B)'}
 
 
@@ -143,6 +146,7 @@ def words(text):
     for pat, rep in MATH_WORDS:
         t = re.sub(pat, rep, t)
     t = re.sub(r"(?<=\d),(?=\d{3}\b)", "", t)  # 2,025 -> 2025
+    t = re.sub(r"(?<=\d)\.(\d+)", lambda m: " point " + " ".join(m.group(1)), t)  # 1.5 -> 1 point 5, 0.25 -> point 2 5
     t = re.sub(r"(\d+)(?:st|nd|rd|th)\b", lambda m: " " + ordinal(int(m.group(1))) + " ", t)
     t = re.sub(r"(\d+)'?s\b", lambda m: " " + plural(num_words(int(m.group(1)))) + " ", t)  # 3s -> threes, 80s -> eighties
     t = re.sub(r"\b0(?=\d)", " zero ", t)  # "01" is said "zero one"
@@ -317,6 +321,12 @@ def main():
             if not f.exists():
                 print("tts:", text[:70], file=sys.stderr)
                 f.write_bytes(synth(text, voice, st))
+            tempo = n.get("tempo", 1)  # >1 = faster speech (ffmpeg atempo, pitch kept), e.g. 1.2 to fit a short in 40 s
+            if tempo != 1:
+                fast = f.with_name(f"{f.stem}-x{tempo}.wav")
+                if not fast.exists():
+                    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(f), "-filter:a", f"atempo={tempo}", str(fast)], check=True)
+                f, name = fast, fast.name
             audio[text] = (f"{slug}/audio/{name}", wav_seconds(f))
 
     tl = build_timeline(n["scenes"], audio, fps, n.get("line_gap", LINE_GAP), n.get("scene_tail", SCENE_TAIL), n.get("caption_digits", False), n.get("captions"))

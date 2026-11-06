@@ -85,7 +85,7 @@ short breaks every other builder's stills and renders. Keep it safe:
              "description": "<1–2 lines>\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
              "challenge": N, "tags": ["AMC 8", "Math Challenge", "MathTok", "Math Puzzle"], "posts": []}
    ```
-   `challenge` = the short's number in its own series: AMC 8 and AMC 10 are separate series (the zh shorts a third),
+   `challenge` = the short's number in its own series: AMC 8 and AMC 10 are separate series; a zh short reuses the number of its English twin (`<slug>-zh` ↔ `<slug>`),
    numbered in planned posting order, so a new short gets its level's highest number + 1. `tags` are the TikTok hashtags.
    Keep the `{full_video_url}` token: publishing fills it with the full video's YouTube link. The API can't set a
    Short's **Related video**, so set it in YouTube Studio after publishing.

@@ -1,6 +1,6 @@
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
 import { clamp, ease } from './anim';
-import { GRAD } from './Brand';
+import { CN, GRAD } from './Brand';
 import { NUNITO } from './fonts';
 import { C } from './theme';
 
@@ -56,7 +56,7 @@ const Watermark: React.FC = () => (
     <Img src={staticFile('brand/logo.svg')} style={{ height: 180, marginBottom: -14 }} />
     <div style={{ fontSize: 34, fontWeight: 900, lineHeight: 1, letterSpacing: -0.5 }}>
       <span style={{ background: GRAD, WebkitBackgroundClip: 'text', color: 'transparent' }}>Vantee</span>
-      <span style={{ color: C.primary }}>.ai</span>
+      {!CN && <span style={{ color: C.primary }}>.ai</span>}
     </div>
   </div>
 );

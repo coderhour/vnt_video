@@ -6,7 +6,8 @@
  "posts": [
   {
    "platform": "YouTube",
-   "url": "https://www.youtube.com/watch?v=LPN7yr-CKHA"
+   "url": "https://www.youtube.com/watch?v=LPN7yr-CKHA",
+   "published_at": "2026-11-01T00:28:02-07:00"
   }
  ],
  "status": "ready",

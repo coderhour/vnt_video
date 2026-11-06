@@ -104,3 +104,4 @@ assert "VAN-tee" in line_style("我是Vantee，你好", "warm")
 assert diff("we take one over two, times twelve", "We take 1 over 2 times 12") == []
 assert caption("所以P十是 <short pause> 四十二。") == "所以P十是四十二。" and caption("So <short pause> forty.") == "So forty."
 assert diff("P10在42又3/4。", "P十在四十二又四分之三", "zh") == []
+assert diff("eleven blanks earn sixteen point five", "Eleven blanks earn 16.5") == []

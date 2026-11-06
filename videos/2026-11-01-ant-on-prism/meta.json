@@ -6,7 +6,8 @@
  "posts": [
   {
    "platform": "YouTube",
-   "url": "https://www.youtube.com/watch?v=OMvPjNtzo9o"
+   "url": "https://www.youtube.com/watch?v=OMvPjNtzo9o",
+   "published_at": "2026-11-01T11:05:42-08:00"
   }
  ],
  "youtube_id": "OMvPjNtzo9o",
@@ -17,7 +18,8 @@
   "posts": [
    {
     "platform": "YouTube Shorts",
-    "url": "https://www.youtube.com/shorts/tkFksLiLjjY"
+    "url": "https://www.youtube.com/shorts/tkFksLiLjjY",
+    "published_at": "2026-11-02T06:59:39-08:00"
    }
   ],
   "youtube_id": "tkFksLiLjjY",
@@ -27,6 +29,7 @@
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
+  ],
+  "playlist_id": "PLR-HuI9ErJA0"
  }
 }

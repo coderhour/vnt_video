@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1476,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 162,
+   "lines": [
+    {
+     "text": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f44\uff1f\u9519\uff01",
+     "caption": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f44\uff1f\u9519\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/ff33efdf710340c0.wav",
+     "from": 0,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 162,
+   "frames": 301,
+   "lines": [
+    {
+     "text": "\u4e09\u6761\u4e0d\u540c\u7684\u6574\u6570\u8fb9\uff0c\u6bcf\u6761\u90fd\u662f\u524d\u4e00\u6761\u4e58\u540c\u4e00\u4e2a\u500d\u6570\u3002",
+     "caption": "\u4e09\u6761\u4e0d\u540c\u7684\u6574\u6570\u8fb9\uff0c\u6bcf\u6761\u90fd\u662f\u524d\u4e00\u6761\u4e58\u540c\u4e00\u4e2a\u500d\u6570\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/7247f983cc624889.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u7684\u957f\u5ea6\u662f\u4e24\u5343\u96f6\u4e8c\u5341\u4e94\u3002\u4e00\u5171\u51e0\u4e2a\u4e09\u89d2\u5f62\uff1f",
+     "caption": "\u6700\u957f\u8fb9\u662f2025\u3002\u4e00\u5171\u51e0\u4e2a\u4e09\u89d2\u5f62\uff1f",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/e6e2f2558bb49bcf.wav",
+     "from": 147,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 463,
+   "frames": 81,
+   "lines": [
+    {
+     "text": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "caption": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/e41e564c6dcc28fb.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": null,
+   "from": 544,
+   "frames": 576,
+   "lines": [
+    {
+     "text": "\u4e09\u6761\u8fb9\u662fk\u7684\u5e73\u65b9\u300145k\uff0c\u8fd8\u6709\u4e24\u5343\u96f6\u4e8c\u5341\u4e94\uff0ck\u6700\u5927\u662f44\u3002",
+     "caption": "\u4e09\u6761\u8fb9\u662fk\u7684\u5e73\u65b9\u300145k\u548c2025\uff0ck\u6700\u5927\u662f44\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/1c2d6e3f241494a8.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "\u4e24\u6761\u77ed\u8fb9\u52a0\u8d77\u6765\u8981\u5927\u4e8e\u6700\u957f\u8fb9\u3002k\u7b49\u4e8e27\u65f6\uff0c\u53ea\u5dee\u4e00\u70b9\u70b9\u3002",
+     "caption": "\u4e24\u6761\u77ed\u8fb9\u52a0\u8d77\u6765\u8981\u5927\u4e8e\u6700\u957f\u8fb9\u3002k\u7b49\u4e8e27\u65f6\uff0c\u53ea\u5dee\u4e00\u70b9\u70b9\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/0526f6f41e24af21.wav",
+     "from": 215,
+     "frames": 198
+    },
+    {
+     "text": "k\u7b49\u4e8e28\u7684\u65f6\u5019\uff0c\u591f\u4e86\uff01\u4e4b\u540e\u7684\u6bcf\u4e2ak\u4e5f\u90fd\u53ef\u4ee5\uff01",
+     "caption": "k\u7b49\u4e8e28\u7684\u65f6\u5019\uff0c\u591f\u4e86\uff01\u4e4b\u540e\u7684\u6bcf\u4e2ak\u4e5f\u90fd\u53ef\u4ee5\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/0ff1f34adc216e8c.wav",
+     "from": 417,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1120,
+   "frames": 356,
+   "lines": [
+    {
+     "text": "\u4ece28\u523044\uff0c\u4e00\u517117\u4e2a\u4e09\u89d2\u5f62\uff01",
+     "caption": "\u4ece28\u523044\uff0c\u4e00\u517117\u4e2a\u4e09\u89d2\u5f62\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/17e67b8f22ea2de7.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "\u900944\u662f\u9677\u9631\uff01",
+     "caption": "\u900944\u662f\u9677\u9631\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/0a5507116e6ffc06.wav",
+     "from": 129,
+     "frames": 76
+    },
+    {
+     "text": "\u7b54\u6848\u662f17\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "caption": "\u7b54\u6848\u662f17\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/short/audio/fa9f5d02d3425c4a.wav",
+     "from": 209,
+     "frames": 111
+    }
+   ]
+  }
+ ]
+}

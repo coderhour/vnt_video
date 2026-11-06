@@ -30,9 +30,13 @@ def list_videos():
             video=f"/videos/{d.name}/video.mp4" if (d / "video.mp4").exists() else None,
             poster=f"/videos/{d.name}/poster.jpg" if (d / "poster.jpg").exists() else None,
             short_video=f"/videos/{d.name}/short.mp4" if (d / "short.mp4").exists() else None,
+            # *-zh videos are rendered without the domain, so they are their own China cut
+            video_cn=next((f"/videos/{d.name}/{f}" for f in ["video-cn.mp4", *(["video.mp4"] if d.name.endswith("-zh") else [])] if (d / f).exists()), None),
+            short_video_cn=next((f"/videos/{d.name}/{f}" for f in ["short-cn.mp4", *(["short.mp4"] if d.name.endswith("-zh") else [])] if (d / f).exists()), None),
             publish_tags=youtube.tags(v),
             publish_description=v.get("description", "") + youtube.footer(d.name, "video"),
             tiktok_caption=tiktok.caption(v) if v.get("short") else None,
+            youtube_quiz=youtube.quiz_post(v),
         )
         out.append(v)
     return sorted(out, key=lambda v: str(v.get("created", "")), reverse=True)
@@ -69,7 +73,21 @@ def mark_tiktok(slug, url):
     if "short" not in meta:
         return False
     posts = meta["short"].setdefault("posts", [])
-    posts[:] = [p for p in posts if p.get("platform") != "TikTok"] + [{"platform": "TikTok", "url": url}]
+    posts[:] = [p for p in posts if p.get("platform") != "TikTok"] + [{"platform": "TikTok", "url": url, "published_at": youtube.now()}]  # ponytail: time of marking, ~ the hand post
+    youtube.save(d, meta)
+    return True
+
+
+def mark_quiz(slug, url):
+    """Record a hand-made YouTube quiz Post (the Data API can't create Posts). Needs the video on YouTube first."""
+    if not valid_slug(slug) or not re.fullmatch(r"https://(www\.)?youtube\.com/\S+", url or ""):
+        return False
+    d = VIDEOS / slug
+    meta = json.loads((d / "meta.json").read_text())
+    if not meta.get("youtube_id"):
+        return False
+    posts = meta.setdefault("posts", [])
+    posts[:] = [p for p in posts if p.get("platform") != "YouTube quiz post"] + [{"platform": "YouTube quiz post", "url": url}]
     youtube.save(d, meta)
     return True
 
@@ -90,6 +108,11 @@ def parse_range(header, size):
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
+
+    def end_headers(self):
+        if self.path.startswith("/site/"):  # the page changes often: always revalidate (304 when unchanged)
+            self.send_header("Cache-Control", "no-cache")
+        super().end_headers()
 
     def do_GET(self):
         path = posixpath.normpath(urllib.parse.unquote(self.path.split("?")[0]))
@@ -112,12 +135,12 @@ class Handler(SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path in ("/api/youtube", "/api/tiktok"):
             return self.post_youtube()
-        if self.path not in ("/api/status", "/api/tiktok-posted"):
+        if self.path not in ("/api/status", "/api/tiktok-posted", "/api/quiz-posted"):
             return self.send_error(404)
         try:
             d = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
-            ok = (mark_tiktok(d.get("slug"), d.get("url")) if self.path == "/api/tiktok-posted"
-                  else set_status(d.get("slug"), d.get("status"), d.get("fixes")))
+            mark = {"/api/tiktok-posted": mark_tiktok, "/api/quiz-posted": mark_quiz}.get(self.path)
+            ok = mark(d.get("slug"), d.get("url")) if mark else set_status(d.get("slug"), d.get("status"), d.get("fixes"))
         except (ValueError, AttributeError):
             ok = False
         self.send_response(204 if ok else 400)
@@ -130,23 +153,25 @@ class Handler(SimpleHTTPRequestHandler):
             slug, kind = d["slug"], d.get("kind", "video")  # video | short | both
             if not valid_slug(slug) or kind not in ("video", "short", "both", "republish"):
                 raise RuntimeError("bad slug or kind")
-            body = {}
+            at = youtube.schedule(d.get("publish_at")) if self.path == "/api/youtube" else None  # None = publish now
+            body = {"scheduled": at} if at else {}  # the page checks this: a stale server would publish right away
             if self.path == "/api/tiktok":  # ponytail: shorts only; the 16:9 videos don't suit TikTok
                 body["short_id"] = tiktok.upload_short(slug)
             elif kind in ("video", "both"):
-                body["id"] = youtube.upload(slug)
+                body["id"] = youtube.upload(slug, at)
             if self.path == "/api/youtube" and kind in ("short", "both"):  # after the video, so the short can link to it
-                body["short_id"] = youtube.upload_short(slug)
+                body["short_id"] = youtube.upload_short(slug, publish_at=at)
             if self.path == "/api/youtube" and kind == "republish":  # new short; the old one goes private
-                body["short_id"] = youtube.upload_short(slug, replace=True)
+                body["short_id"] = youtube.upload_short(slug, replace=True, publish_at=at)
                 gone = json.loads((VIDEOS / slug / "meta.json").read_text())["short"]["replaced"][-1]
                 if gone["status"] != "private":
                     body["warning"] = f"New short is up, but the old one ({gone['url']}) is {gone['status']}"
-            if self.path == "/api/youtube" and kind in ("video", "both"):
-                try:
-                    youtube.add_to_playlist(slug)
-                except Exception as e:  # the upload worked; just report the playlist step
-                    body["warning"] = f"uploaded, but not added to the playlist: {e}"
+            if self.path == "/api/youtube":
+                for short in (False, True):
+                    try:
+                        youtube.add_to_playlist(slug, short)  # no-op unless that one is up and not yet listed
+                    except Exception as e:  # the upload worked; just report the playlist step
+                        body["warning"] = f"uploaded, but not added to the playlist: {e}"
             code = 200
         except Exception as e:  # report every failure (auth, quota, network) to the page
             body, code = {"error": str(e)}, 500

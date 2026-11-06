@@ -1,0 +1,603 @@
+{
+ "fps": 30,
+ "durationInFrames": 13608,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 478,
+   "lines": [
+    {
+     "text": "\u8fd9\u4e09\u6761\u8fb9\uff0c\u6bcf\u6b21\u90fd\u4e58\u4e0a\u540c\u4e00\u4e2a\u500d\u6570\u3002",
+     "caption": "\u8fd9\u4e09\u6761\u8fb9\uff0c\u6bcf\u6b21\u90fd\u4e58\u4e0a\u540c\u4e00\u4e2a\u500d\u6570\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/6540baa57ed0c08a.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "\u4f46\u8981\u5c0f\u5fc3\uff01\u8fd9\u6837\u7684\u6570\u5217\uff0c\u5927\u591a\u6570\u8fde\u4e09\u89d2\u5f62\u90fd\u56f4\u4e0d\u6210\uff01",
+     "caption": "\u4f46\u8981\u5c0f\u5fc3\uff01\u8fd9\u6837\u7684\u6570\u5217\uff0c\u5927\u591a\u6570\u8fde\u4e09\u89d2\u5f62\u90fd\u56f4\u4e0d\u6210\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/1c7cd3e506eb7468.wav",
+     "from": 124,
+     "frames": 159
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u5b83\u4eec\u5168\u90e8\u627e\u51fa\u6765\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u5b83\u4eec\u5168\u90e8\u627e\u51fa\u6765\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/46a2accb6632a360.wav",
+     "from": 293,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 478,
+   "frames": 773,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 42
+    },
+    {
+     "text": "\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c\u4e09\u6761\u8fb9\u957f\u662f\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u3002",
+     "caption": "\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c\u4e09\u6761\u8fb9\u957f\u662f\u4e92\u4e0d\u76f8\u540c\u7684\u6574\u6570\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/9d0473b43d91f127.wav",
+     "from": 52,
+     "frames": 147
+    },
+    {
+     "text": "\u4e09\u6761\u8fb9\u6210\u7b49\u6bd4\u6570\u5217\u3002",
+     "caption": "\u4e09\u6761\u8fb9\u6210\u7b49\u6bd4\u6570\u5217\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/25c527ac3a205cf6.wav",
+     "from": 209,
+     "frames": 84
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u7684\u957f\u5ea6\u662f2,025\u3002\u6709\u4e2a\u5c0f\u77e5\u8bc6\uff1a\u5b83\u6b63\u597d\u662f45\u7684\u5e73\u65b9\uff01",
+     "caption": "\u6700\u957f\u8fb9\u662f2025\u3002\u6709\u4e2a\u5c0f\u77e5\u8bc6\uff1a\u5b83\u6b63\u597d\u662f45\u7684\u5e73\u65b9\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/431dc5bfebeb9225.wav",
+     "from": 303,
+     "frames": 233
+    },
+    {
+     "text": "\u8fd9\u6837\u7684\u4e09\u89d2\u5f62\u4e00\u5171\u6709\u51e0\u4e2a\uff1f",
+     "caption": "\u8fd9\u6837\u7684\u4e09\u89d2\u5f62\u4e00\u5171\u6709\u51e0\u4e2a\uff1f",
+     "file": "2026-10-30-geometric-triangle-zh/audio/047ce6136fabc0d2.wav",
+     "from": 547,
+     "frames": 99
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/cff06e3fe814d7a5.wav",
+     "from": 656,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1251,
+   "frames": 704,
+   "lines": [
+    {
+     "text": "\u7b49\u6bd4\uff0c\u5c31\u662f\u6bcf\u4e00\u6b65\u90fd\u4e58\u540c\u4e00\u4e2a\u6570\u3002\u6bd4\u59824\u30016\u30019\uff0c\u6bcf\u6b21\u4e582\u5206\u4e4b3\u3002",
+     "caption": "\u7b49\u6bd4\uff0c\u5c31\u662f\u6bcf\u4e00\u6b65\u90fd\u4e58\u540c\u4e00\u4e2a\u6570\u3002\u6bd4\u59824\u30016\u30019\uff0c\u6bcf\u6b21\u4e582\u5206\u4e4b3\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/15eb9a91b3755ead.wav",
+     "from": 0,
+     "frames": 293
+    },
+    {
+     "text": "\u6211\u4eec\u9700\u8981\u4e09\u4e2a\u4e0d\u540c\u7684\u6574\u6570\uff0c\u800c\u4e14\u6700\u957f\u7684\u90a3\u4e2a\u662f\u56fa\u5b9a\u7684\u3002",
+     "caption": "\u6211\u4eec\u9700\u8981\u4e09\u4e2a\u4e0d\u540c\u7684\u6574\u6570\uff0c\u800c\u4e14\u6700\u957f\u7684\u90a3\u4e2a\u662f\u56fa\u5b9a\u7684\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/722cb9e27cfd4d51.wav",
+     "from": 303,
+     "frames": 174
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62\u89c4\u5219\uff1a\u4e24\u6761\u77ed\u8fb9\u52a0\u8d77\u6765\uff0c\u5fc5\u987b\u5927\u4e8e\u6700\u957f\u8fb9\u3002",
+     "caption": "\u4e09\u89d2\u5f62\u89c4\u5219\uff1a\u4e24\u6761\u77ed\u8fb9\u52a0\u8d77\u6765\uff0c\u5fc5\u987b\u5927\u4e8e\u6700\u957f\u8fb9\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/c0a274bacedfd0e3.wav",
+     "from": 487,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 1955,
+   "frames": 486,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u7528\u516c\u6bd4",
+   "from": 2441,
+   "frames": 940,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7528\u7b49\u6bd4\u6570\u5217\u7684\u516c\u6bd4\u6765\u505a\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7528\u7b49\u6bd4\u6570\u5217\u7684\u516c\u6bd4\u6765\u505a\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/908f31de9e81974f.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "\u6bcf\u4e00\u6b65\u90fd\u4e58\u540c\u4e00\u4e2a\u5206\u6570\uff0cq\u5206\u4e4bp\uff0c\u5df2\u7ecf\u7ea6\u5230\u6700\u7b80\uff0c\u800c\u4e14\u5c0f\u4e8e1\u3002",
+     "caption": "\u6bcf\u4e00\u6b65\u90fd\u4e58\u540c\u4e00\u4e2a\u5206\u6570\uff0cq\u5206\u4e4bp\uff0c\u5df2\u7ecf\u7ea6\u5230\u6700\u7b80\uff0c\u800c\u4e14\u5c0f\u4e8e1\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/6c82cdc05ddbe46b.wav",
+     "from": 135,
+     "frames": 236
+    },
+    {
+     "text": "\u4e58\u4e00\u6b21\u5f97\u5230\u4e2d\u95f4\u8fb9\uff0c\u4e58\u4e24\u6b21\u5f97\u5230\u6700\u77ed\u8fb9\u3002",
+     "caption": "\u4e58\u4e00\u6b21\u5f97\u5230\u4e2d\u95f4\u8fb9\uff0c\u4e58\u4e24\u6b21\u5f97\u5230\u6700\u77ed\u8fb9\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/bc0cb8080a2b0acb.wav",
+     "from": 381,
+     "frames": 180
+    },
+    {
+     "text": "\u770b\u6700\u77ed\u8fb9\uff1a\u5206\u6bcd\u88ab\u5e73\u65b9\u4e86\uff01",
+     "caption": "\u770b\u6700\u77ed\u8fb9\uff1a\u5206\u6bcd\u88ab\u5e73\u65b9\u4e86\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/54446656cef79fbe.wav",
+     "from": 572,
+     "frames": 113
+    },
+    {
+     "text": "\u56e0\u4e3ap\u548cq\u6ca1\u6709\u516c\u56e0\u6570\uff0c\u6240\u4ee5q\u7684\u5e73\u65b9\u4e00\u5b9a\u80fd\u6574\u9664\u6700\u957f\u8fb9\u3002",
+     "caption": "\u56e0\u4e3ap\u548cq\u6ca1\u6709\u516c\u56e0\u6570\uff0c\u6240\u4ee5q\u7684\u5e73\u65b9\u4e00\u5b9a\u80fd\u6574\u9664\u6700\u957f\u8fb9\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/6c7104d3a31ca297.wav",
+     "from": 695,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "bottoms",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3381,
+   "frames": 1446,
+   "lines": [
+    {
+     "text": "\u90a3\u4e48\uff0c\u54ea\u4e9b\u5e73\u65b9\u6570\u80fd\u6574\u966445\u7684\u5e73\u65b9\uff1f",
+     "caption": "\u90a3\u4e48\uff0c\u54ea\u4e9b\u5e73\u65b9\u6570\u80fd\u6574\u966445\u7684\u5e73\u65b9\uff1f",
+     "file": "2026-10-30-geometric-triangle-zh/audio/0ded01589492101e.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "\u5206\u89e3\u8d28\u56e0\u6570\uff1a\u6709\u56db\u4e2a3\u548c\u4e24\u4e2a5\u3002",
+     "caption": "\u5206\u89e3\u8d28\u56e0\u6570\uff1a\u6709\u56db\u4e2a3\u548c\u4e24\u4e2a5\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/529c168cf825d692.wav",
+     "from": 154,
+     "frames": 142
+    },
+    {
+     "text": "\u5e73\u65b9\u6570\u91cc\u7684\u8d28\u56e0\u6570\u662f\u6210\u5bf9\u51fa\u73b0\u7684\u3002\u6240\u4ee5q\u6700\u591a\u6709\u4e24\u4e2a3\u548c\u4e00\u4e2a5\u3002",
+     "caption": "\u5e73\u65b9\u6570\u91cc\u7684\u8d28\u56e0\u6570\u662f\u6210\u5bf9\u51fa\u73b0\u7684\u3002\u6240\u4ee5q\u6700\u591a\u6709\u4e24\u4e2a3\u548c\u4e00\u4e2a5\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/c593d001eee490a0.wav",
+     "from": 306,
+     "frames": 237
+    },
+    {
+     "text": "q\u53ea\u80fd\u662f1\u30013\u30015\u30019\u300115\u621645\u3002\u6bcf\u4e00\u4e2a\u90fd\u80fd\u6574\u966445\uff01",
+     "caption": "q\u53ea\u80fd\u662f1\u30013\u30015\u30019\u300115\u621645\u3002\u6bcf\u4e00\u4e2a\u90fd\u80fd\u6574\u966445\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/6f2e51c6f873673c.wav",
+     "from": 553,
+     "frames": 303
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u5c31\u7b97\u4e0d\u662f\u6700\u7b80\u5206\u6570\uff0c\u6211\u4eec\u4e5f\u603b\u80fd\u628a\u5206\u6bcd\u6539\u5199\u621045\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u5c31\u7b97\u4e0d\u662f\u6700\u7b80\u5206\u6570\uff0c\u6211\u4eec\u4e5f\u603b\u80fd\u628a\u5206\u6bcd\u6539\u5199\u621045\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/0a257199838358d2.wav",
+     "from": 865,
+     "frames": 198
+    },
+    {
+     "text": "\u6bd4\u5982\uff0c3\u5206\u4e4b2\u5c31\u7b49\u4e8e45\u5206\u4e4b30\u3002",
+     "caption": "\u6bd4\u5982\uff0c3\u5206\u4e4b2\u5c31\u7b49\u4e8e45\u5206\u4e4b30\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/8f8ebf0c9cc793dc.wav",
+     "from": 1074,
+     "frames": 153
+    },
+    {
+     "text": "\u628a\u65b0\u7684\u5206\u5b50\u53eb\u505am\uff0c\u90a3\u4e48\u516c\u6bd4\u5c31\u662f45\u5206\u4e4bm\u3002",
+     "caption": "\u628a\u65b0\u7684\u5206\u5b50\u53eb\u505am\uff0c\u90a3\u4e48\u516c\u6bd4\u5c31\u662f45\u5206\u4e4bm\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/f1d82d8f4f3ed56d.wav",
+     "from": 1237,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "sides",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4827,
+   "frames": 839,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\uff0c\u4e09\u6761\u8fb9\u53d8\u5f97\u975e\u5e38\u7b80\u5355\u3002",
+     "caption": "\u73b0\u5728\uff0c\u4e09\u6761\u8fb9\u53d8\u5f97\u975e\u5e38\u7b80\u5355\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/675b7e4436d8a349.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "\u4e2d\u95f4\u90a3\u6761\u8fb9\u662f45\u7684\u5e73\u65b9\uff0c\u4e5845\u5206\u4e4bm\uff0c\u4e5f\u5c31\u662f45\u4e58m\u3002",
+     "caption": "\u4e2d\u95f4\u90a3\u6761\u8fb9\u662f45\u7684\u5e73\u65b9\uff0c\u4e5845\u5206\u4e4bm\uff0c\u4e5f\u5c31\u662f45\u4e58m\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/fe0bb764a78a076e.wav",
+     "from": 128,
+     "frames": 258
+    },
+    {
+     "text": "\u518d\u4e58\u4e00\u6b21\uff0c\u5f97\u5230\u6700\u77ed\u8fb9\uff0c\u5c31\u662fm\u7684\u5e73\u65b9\u3002",
+     "caption": "\u518d\u4e58\u4e00\u6b21\uff0c\u5f97\u5230\u6700\u77ed\u8fb9\uff0c\u5c31\u662fm\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/888d5226ff136c52.wav",
+     "from": 397,
+     "frames": 148
+    },
+    {
+     "text": "\u516c\u6bd4\u5c0f\u4e8e1\uff0c\u6240\u4ee5m\u4ece1\u523044\u3002\u4e00\u5171\u8981\u68c0\u67e544\u4e2a\u6570\u5217\u3002",
+     "caption": "\u516c\u6bd4\u5c0f\u4e8e1\uff0c\u6240\u4ee5m\u4ece1\u523044\u3002\u4e00\u5171\u8981\u68c0\u67e544\u4e2a\u6570\u5217\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/46a5cbd1fb50aa20.wav",
+     "from": 555,
+     "frames": 245
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5666,
+   "frames": 1309,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6211\u4eec\u4e00\u4e2a\u4e00\u4e2a\u642d\u8d77\u6765\uff0c\u770b\u80fd\u4e0d\u80fd\u56f4\u6210\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u73b0\u5728\u6211\u4eec\u4e00\u4e2a\u4e00\u4e2a\u642d\u8d77\u6765\uff0c\u770b\u80fd\u4e0d\u80fd\u56f4\u6210\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/2156277f6fa14243.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "m\u7b49\u4e8e1\u7684\u65f6\u5019\uff0c\u4e24\u6761\u77ed\u8fb9\u662f1\u548c45\u3002\u6839\u672c\u591f\u4e0d\u7740\uff01",
+     "caption": "m\u7b49\u4e8e1\u7684\u65f6\u5019\uff0c\u4e24\u6761\u77ed\u8fb9\u662f1\u548c45\u3002\u6839\u672c\u591f\u4e0d\u7740\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/16ce878b02e27855.wav",
+     "from": 169,
+     "frames": 213
+    },
+    {
+     "text": "\u5f53m\u53d8\u5927\u65f6\uff0c\u4e24\u6761\u77ed\u8fb9\u4e5f\u4e00\u8d77\u53d8\u957f\u3002",
+     "caption": "\u5f53m\u53d8\u5927\u65f6\uff0c\u4e24\u6761\u77ed\u8fb9\u4e5f\u4e00\u8d77\u53d8\u957f\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/881b06b3c128bf16.wav",
+     "from": 392,
+     "frames": 148
+    },
+    {
+     "text": "\u5f53m\u7b49\u4e8e27\u7684\u65f6\u5019\uff0c\u4e24\u6761\u77ed\u8fb9\u52a0\u8d77\u6765\uff0c\u6bd4\u6700\u957f\u8fb9\u5c11\u4e00\u70b9\u70b9\u3002\u53ea\u5dee\u4e00\u70b9\u70b9\uff01",
+     "caption": "\u5f53m\u7b49\u4e8e27\u7684\u65f6\u5019\uff0c\u4e24\u6761\u77ed\u8fb9\u52a0\u8d77\u6765\uff0c\u6bd4\u6700\u957f\u8fb9\u5c11\u4e00\u70b9\u70b9\u3002\u53ea\u5dee\u4e00\u70b9\u70b9\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/e742a7aeb2eab68a.wav",
+     "from": 550,
+     "frames": 280
+    },
+    {
+     "text": "m\u7b49\u4e8e28\u65f6\uff0c\u52a0\u8d77\u6765\u6bd4\u6700\u957f\u8fb9\u591a\u4e00\u70b9\u3002\u56f4\u6210\u4e86\uff01",
+     "caption": "m\u7b49\u4e8e28\u65f6\uff0c\u52a0\u8d77\u6765\u6bd4\u6700\u957f\u8fb9\u591a\u4e00\u70b9\u3002\u56f4\u6210\u4e86\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/8dbd8470d015523a.wav",
+     "from": 840,
+     "frames": 196
+    },
+    {
+     "text": "m\u518d\u5927\uff0c\u4e24\u6761\u77ed\u8fb9\u53ea\u4f1a\u66f4\u957f\u3002\u6240\u4ee5\u4e4b\u540e\u7684\u6bcf\u4e2am\u90fd\u53ef\u4ee5\u3002",
+     "caption": "m\u518d\u5927\uff0c\u4e24\u6761\u77ed\u8fb9\u53ea\u4f1a\u66f4\u957f\u3002\u6240\u4ee5\u4e4b\u540e\u7684\u6bcf\u4e2am\u90fd\u53ef\u4ee5\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/537a2df68fe85069.wav",
+     "from": 1046,
+     "frames": 219
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6975,
+   "frames": 505,
+   "lines": [
+    {
+     "text": "\u6240\u4ee5\uff0c\u53ef\u4ee5\u7684m\u662f\u4ece28\u4e00\u76f4\u523044\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u53ef\u4ee5\u7684m\u662f\u4ece28\u4e00\u76f4\u523044\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/c086dcbc7333d6f1.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "\u6570\u4e00\u6570\uff1a44\u51cf28\uff0c\u518d\u52a0\u4e0a\u5f00\u5934\u7684\u90a3\u4e00\u4e2a\u3002",
+     "caption": "\u6570\u4e00\u6570\uff1a44\u51cf28\uff0c\u518d\u52a0\u4e0a\u5f00\u5934\u7684\u90a3\u4e00\u4e2a\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/f8540a18e93d21f3.wav",
+     "from": 161,
+     "frames": 166
+    },
+    {
+     "text": "\u4e00\u517117\u4e2a\u4e09\u89d2\u5f62\uff0c\u7b54\u6848\u662fB\u3002",
+     "caption": "\u4e00\u517117\u4e2a\u4e09\u89d2\u5f62\uff0c\u7b54\u6848\u662fB\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/c2ec1922d8df317a.wav",
+     "from": 337,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "middle",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u4e2d\u95f4\u8fb9\u5999\u62db",
+   "from": 7480,
+   "frames": 2018,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u5728\u7b49\u6bd4\u6570\u5217\u91cc\uff0c\u4e2d\u95f4\u9879\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e\u4e24\u8fb9\u4e24\u9879\u7684\u4e58\u79ef\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u5728\u7b49\u6bd4\u6570\u5217\u91cc\uff0c\u4e2d\u95f4\u9879\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e\u4e24\u8fb9\u4e24\u9879\u7684\u4e58\u79ef\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/5f12da4e891800dc.wav",
+     "from": 0,
+     "frames": 248
+    },
+    {
+     "text": "\u9a8c\u8bc1\u4e00\u4e0b\uff1a6\u7684\u5e73\u65b9\u662f36\uff0c4\u4e589\u4e5f\u662f36\uff01",
+     "caption": "\u9a8c\u8bc1\u4e00\u4e0b\uff1a6\u7684\u5e73\u65b9\u662f36\uff0c4\u4e589\u4e5f\u662f36\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/ccd5b9cdb1bed3ad.wav",
+     "from": 258,
+     "frames": 218
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u4e2d\u95f4\u8fb9\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e\u6700\u77ed\u8fb9\u4e5845\u4e5845\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u4e2d\u95f4\u8fb9\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e\u6700\u77ed\u8fb9\u4e5845\u4e5845\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/830b8eb1b5cd219a.wav",
+     "from": 486,
+     "frames": 220
+    },
+    {
+     "text": "\u4e24\u8fb9\u540c\u65f6\u9664\u4ee545\u4e5845\uff1a\u6700\u77ed\u8fb9\u7b49\u4e8e\uff0c\u4e2d\u95f4\u8fb9\u9664\u4ee545\uff0c\u518d\u5e73\u65b9\u3002",
+     "caption": "\u4e24\u8fb9\u540c\u65f6\u9664\u4ee545\u4e5845\uff1a\u6700\u77ed\u8fb9\u7b49\u4e8e\uff0c\u4e2d\u95f4\u8fb9\u9664\u4ee545\uff0c\u518d\u5e73\u65b9\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/8d8ae5a57d3e6d47.wav",
+     "from": 716,
+     "frames": 278
+    },
+    {
+     "text": "2\u5206\u4e4b3\u7684\u5e73\u65b9\u662f4\u5206\u4e4b9\u3002\u6700\u7b80\u5206\u6570\u7684\u5e73\u65b9\uff0c\u4ecd\u7136\u662f\u5206\u6570\u3002",
+     "caption": "2\u5206\u4e4b3\u7684\u5e73\u65b9\u662f4\u5206\u4e4b9\u3002\u6700\u7b80\u5206\u6570\u7684\u5e73\u65b9\uff0c\u4ecd\u7136\u662f\u5206\u6570\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/3b1027439cab4b01.wav",
+     "from": 1004,
+     "frames": 208
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u4e2d\u95f4\u8fb9\u9664\u4ee545\uff0c\u5fc5\u987b\u662f\u6574\u6570\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u4e2d\u95f4\u8fb9\u9664\u4ee545\uff0c\u5fc5\u987b\u662f\u6574\u6570\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/7af65780d4835a04.wav",
+     "from": 1222,
+     "frames": 155
+    },
+    {
+     "text": "\u6240\u4ee5\u4e2d\u95f4\u8fb9\u662f45\u4e58m\uff0c\u6700\u77ed\u8fb9\u662fm\u7684\u5e73\u65b9\uff01",
+     "caption": "\u6240\u4ee5\u4e2d\u95f4\u8fb9\u662f45\u4e58m\uff0c\u6700\u77ed\u8fb9\u662fm\u7684\u5e73\u65b9\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/8335e0284c0c1b5a.wav",
+     "from": 1387,
+     "frames": 215
+    },
+    {
+     "text": "\u548c\u521a\u624d\u4e00\u6837\u7684\u4e09\u6761\u8fb9\uff01\u518d\u7528\u4e09\u89d2\u5f62\u89c4\u5219\u5c31\u505a\u5b8c\u4e86\u3002",
+     "caption": "\u548c\u521a\u624d\u4e00\u6837\u7684\u4e09\u6761\u8fb9\uff01\u518d\u7528\u4e09\u89d2\u5f62\u89c4\u5219\u5c31\u505a\u5b8c\u4e86\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/71a3e9d6aa0948d0.wav",
+     "from": 1612,
+     "frames": 173
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u770b\u5230\u4e2d\u95f4\u9879\u7684\u65f6\u5019\uff0c\u5b83\u80fd\u5e2e\u4f60\u7701\u51e0\u6b65\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u770b\u5230\u4e2d\u95f4\u9879\u7684\u65f6\u5019\uff0c\u5b83\u80fd\u5e2e\u4f60\u7701\u51e0\u6b65\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/fe4669c2a7230fc3.wav",
+     "from": 1796,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9498,
+   "frames": 1310,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/794ac67d61572a99.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "\u9009\u9879E\uff0c44\uff0c\u628a\u6bcf\u4e2am\u90fd\u7b97\u4e0a\u4e86\u3002\u5fd8\u4e86\u4e09\u89d2\u5f62\u89c4\u5219\uff01",
+     "caption": "\u9009\u9879E\uff0c44\uff0c\u628a\u6bcf\u4e2am\u90fd\u7b97\u4e0a\u4e86\u3002\u5fd8\u4e86\u4e09\u89d2\u5f62\u89c4\u5219\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/27ff229289c978b6.wav",
+     "from": 85,
+     "frames": 202
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879D\uff0c27\uff0c\u6570\u7684\u662f\u4e0d\u80fd\u56f4\u6210\u7684\u90a3\u4e9b\uff0c\u4e5f\u5c31\u662fm\u7b49\u4e8e1\u523027\u3002\u6b63\u597d\u53cd\u4e86\u3002",
+     "caption": "\u518d\u770b\u9009\u9879D\uff0c27\uff0c\u6570\u7684\u662f\u4e0d\u80fd\u56f4\u6210\u7684\u90a3\u4e9b\uff0c\u4e5f\u5c31\u662fm\u7b49\u4e8e1\u523027\u3002\u6b63\u597d\u53cd\u4e86\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/54c9520603163921.wav",
+     "from": 297,
+     "frames": 302
+    },
+    {
+     "text": "\u9009\u9879A\uff0c16\uff0c\u752844\u51cf28\uff0c\u5374\u5fd8\u4e86\u52a01\u3002",
+     "caption": "\u9009\u9879A\uff0c16\uff0c\u752844\u51cf28\uff0c\u5374\u5fd8\u4e86\u52a01\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/d6bdf0e14bdf6134.wav",
+     "from": 609,
+     "frames": 172
+    },
+    {
+     "text": "\u9009\u9879C\uff0c18\uff0c\u628am\u7b49\u4e8e45\u4e5f\u7b97\u8fdb\u53bb\u4e86\u3002\u53ef\u90a3\u6837\u4e09\u6761\u8fb9\u5168\u90fd\u76f8\u7b49\uff01",
+     "caption": "\u9009\u9879C\uff0c18\uff0c\u628am\u7b49\u4e8e45\u4e5f\u7b97\u8fdb\u53bb\u4e86\u3002\u53ef\u90a3\u6837\u4e09\u6761\u8fb9\u5168\u90fd\u76f8\u7b49\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/ab065419b2a4f63a.wav",
+     "from": 791,
+     "frames": 269
+    },
+    {
+     "text": "\u4e24\u4e2a\u597d\u4e60\u60ef\uff1a\u68c0\u67e5\u4e09\u89d2\u5f62\u89c4\u5219\uff0c\u6570\u6570\u65f6\u4e24\u5934\u90fd\u8981\u7b97\u3002",
+     "caption": "\u4e24\u4e2a\u597d\u4e60\u60ef\uff1a\u68c0\u67e5\u4e09\u89d2\u5f62\u89c4\u5219\uff0c\u6570\u6570\u65f6\u4e24\u5934\u90fd\u8981\u7b97\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/5cd92d2390d3414b.wav",
+     "from": 1070,
+     "frames": 201
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u5c0f\u4e00\u70b9\u7684\u4e09\u89d2\u5f62",
+   "from": 10808,
+   "frames": 438,
+   "lines": [
+    {
+     "text": "\u8f6e\u5230\u4f60\u4e86\uff01\u73b0\u5728\u6700\u957f\u8fb9\u7684\u957f\u5ea6\u662f144\u3002",
+     "caption": "\u8f6e\u5230\u4f60\u4e86\uff01\u73b0\u5728\u6700\u957f\u8fb9\u7684\u957f\u5ea6\u662f144\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/1a397635bcd5c927.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "\u73b0\u5728\u6709\u51e0\u4e2a\u4e09\u89d2\u5f62\uff1f",
+     "caption": "\u73b0\u5728\u6709\u51e0\u4e2a\u4e09\u89d2\u5f62\uff1f",
+     "file": "2026-10-30-geometric-triangle-zh/audio/e9bba53c8fad3e61.wav",
+     "from": 170,
+     "frames": 88
+    },
+    {
+     "text": "\u63d0\u793a\u4e00\u4e0b\uff1a144\u662f12\u7684\u5e73\u65b9\u3002",
+     "caption": "\u63d0\u793a\u4e00\u4e0b\uff1a144\u662f12\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/aef8ccd4095073be.wav",
+     "from": 268,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11246,
+   "frames": 393,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u7b54\u6848",
+   "from": 11639,
+   "frames": 1384,
+   "lines": [
+    {
+     "text": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002144\u6709\u56db\u4e2a2\u548c\u4e24\u4e2a3\u3002",
+     "caption": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002144\u6709\u56db\u4e2a2\u548c\u4e24\u4e2a3\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/a3f87147bab8ef20.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "\u6240\u4ee5q\u662f1\u30012\u30013\u30014\u30016\u621612\u3002\u6bcf\u4e00\u4e2a\u90fd\u80fd\u6574\u966412\uff01",
+     "caption": "\u6240\u4ee5q\u662f1\u30012\u30013\u30014\u30016\u621612\u3002\u6bcf\u4e00\u4e2a\u90fd\u80fd\u6574\u966412\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/98a8453a782653d1.wav",
+     "from": 169,
+     "frames": 276
+    },
+    {
+     "text": "\u6240\u4ee5\u516c\u6bd4\u662f12\u5206\u4e4bm\u3002\u5b83\u5c0f\u4e8e1\uff0c\u6240\u4ee5m\u6700\u5927\u662f11\u3002",
+     "caption": "\u6240\u4ee5\u516c\u6bd4\u662f12\u5206\u4e4bm\u3002\u5b83\u5c0f\u4e8e1\uff0c\u6240\u4ee5m\u6700\u5927\u662f11\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/7956b4a0157129b1.wav",
+     "from": 456,
+     "frames": 230
+    },
+    {
+     "text": "\u5f53m\u7b49\u4e8e7\u7684\u65f6\u5019\uff1a49\u52a084\u662f133\u3002\u592a\u5c0f\u4e86\uff01",
+     "caption": "\u5f53m\u7b49\u4e8e7\u7684\u65f6\u5019\uff1a49\u52a084\u662f133\u3002\u592a\u5c0f\u4e86\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/df35d21e2f7d9a3a.wav",
+     "from": 695,
+     "frames": 248
+    },
+    {
+     "text": "\u5f53m\u7b49\u4e8e8\u7684\u65f6\u5019\uff1a64\u52a096\u662f160\u3002\u56f4\u6210\u4e86\uff01",
+     "caption": "\u5f53m\u7b49\u4e8e8\u7684\u65f6\u5019\uff1a64\u52a096\u662f160\u3002\u56f4\u6210\u4e86\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/70d98e82171285e7.wav",
+     "from": 953,
+     "frames": 202
+    },
+    {
+     "text": "\u6240\u4ee5\u53ef\u4ee5\u7684m\u662f8\u523011\uff0c\u4e00\u51714\u4e2a\u4e09\u89d2\u5f62\uff01",
+     "caption": "\u6240\u4ee5\u53ef\u4ee5\u7684m\u662f8\u523011\uff0c\u4e00\u51714\u4e2a\u4e09\u89d2\u5f62\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/4bc7f4ab472bb9aa.wav",
+     "from": 1165,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13023,
+   "frames": 585,
+   "lines": [
+    {
+     "text": "\u5728\u7b49\u6bd4\u6570\u5217\u91cc\uff0c\u4e2d\u95f4\u9879\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e\u4e24\u8fb9\u4e24\u9879\u7684\u4e58\u79ef\u3002",
+     "caption": "\u5728\u7b49\u6bd4\u6570\u5217\u91cc\uff0c\u4e2d\u95f4\u9879\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e\u4e24\u8fb9\u4e24\u9879\u7684\u4e58\u79ef\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/657a6357c75a1ec3.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "\u8fd9\u4e2a\u89c4\u5f8b\u544a\u8bc9\u4f60\u54ea\u4e9b\u8fb9\u80fd\u662f\u6574\u6570\u3002\u518d\u7528\u4e09\u89d2\u5f62\u89c4\u5219\u7b5b\u4e00\u904d\u5c31\u597d\u3002",
+     "caption": "\u8fd9\u4e2a\u89c4\u5f8b\u544a\u8bc9\u4f60\u54ea\u4e9b\u8fb9\u80fd\u662f\u6574\u6570\u3002\u518d\u7528\u4e09\u89d2\u5f62\u89c4\u5219\u7b5b\u4e00\u904d\u5c31\u597d\u3002",
+     "file": "2026-10-30-geometric-triangle-zh/audio/76f01449d21b3dc6.wav",
+     "from": 199,
+     "frames": 195
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-geometric-triangle-zh/audio/f8351124be57142c.wav",
+     "from": 404,
+     "frames": 112
+    }
+   ]
+  }
+ ]
+}
