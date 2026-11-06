@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1189,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 132,
+   "lines": [
+    {
+     "text": "AMC eight tip! Think you should leave hard questions blank? Nope!",
+     "caption": "AMC 8 tip! Think you should leave hard questions blank? Nope!",
+     "file": "2026-11-05-amc8-guide/short/audio/0b88b227b727689e.wav",
+     "from": 0,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 132,
+   "frames": 289,
+   "lines": [
+    {
+     "text": "The AMC eight has twenty-five questions. Each right answer earns one point.",
+     "caption": "The AMC 8 has 25 questions. Each right answer earns one point.",
+     "file": "2026-11-05-amc8-guide/short/audio/6d7f9973e28a10e2.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "What does a wrong answer cost you? A: one point. B: a quarter point. C: nothing.",
+     "caption": "What does a wrong answer cost you? A: one point. B: a quarter point. C: nothing.",
+     "file": "2026-11-05-amc8-guide/short/audio/8f2d87b2fc484351.wav",
+     "from": 126,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 421,
+   "frames": 73,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-05-amc8-guide/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 62
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "kind": "scene",
+   "chapter": null,
+   "from": 494,
+   "frames": 372,
+   "lines": [
+    {
+     "text": "A right answer earns one point. A wrong answer earns zero.",
+     "caption": "A right answer earns one point. A wrong answer earns zero.",
+     "file": "2026-11-05-amc8-guide/short/audio/68f9731c20246a51.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "And a blank? Also zero. So a guess can only help.",
+     "caption": "And a blank? Also zero. So a guess can only help.",
+     "file": "2026-11-05-amc8-guide/short/audio/b7c54f32eff6ede5.wav",
+     "from": 114,
+     "frames": 104
+    },
+    {
+     "text": "A wild guess has a one in five chance. Cross out two choices, and it's one in three.",
+     "caption": "A wild guess has a one in 5 chance. Cross out 2 choices, and it's one in 3.",
+     "file": "2026-11-05-amc8-guide/short/audio/159c8c88857b770d.wav",
+     "from": 222,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 866,
+   "frames": 323,
+   "lines": [
+    {
+     "text": "The answer is C. A wrong answer costs you nothing!",
+     "caption": "The answer is C. A wrong answer costs you nothing!",
+     "file": "2026-11-05-amc8-guide/short/audio/394329a31ec2a796.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "Leaving it blank was the trap. Answer every question.",
+     "caption": "Leaving it blank was the trap. Answer every question.",
+     "file": "2026-11-05-amc8-guide/short/audio/dc84ffa757d56b0a.wav",
+     "from": 120,
+     "frames": 99
+    },
+    {
+     "text": "Did you pick C? Tell me below!",
+     "caption": "Did you pick C? Tell me below!",
+     "file": "2026-11-05-amc8-guide/short/audio/1b44b4deade91e09.wav",
+     "from": 223,
+     "frames": 64
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "title": "AMC 8 Guide (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC eight tip! Think you should leave hard questions blank? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "The AMC eight has twenty-five questions. Each right answer earns one point.",
+    "What does a wrong answer cost you? A: one point. B: a quarter point. C: nothing."
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "score",
+   "lines": [
+    "A right answer earns one point. A wrong answer earns zero.",
+    "And a blank? Also zero. So a guess can only help.",
+    "A wild guess has a one in five chance. Cross out two choices, and it's one in three."
+   ]
+  },
+  {
+   "id": "reveal",
+   "hold": 0.8,
+   "lines": [
+    "The answer is C. A wrong answer costs you nothing!",
+    "Leaving it blank was the trap. Answer every question.",
+    "Did you pick C? Tell me below!"
+   ]
+  }
+ ]
+}

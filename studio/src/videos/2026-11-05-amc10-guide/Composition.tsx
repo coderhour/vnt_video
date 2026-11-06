@@ -7,7 +7,7 @@ import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-11-05-amc10-guide';
-const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
+export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
 
 // ---------------------------------------------------------------- helpers
 const win = (f: number, t0: number, t1?: number, d = 10) => ease(f, t0, d) * (t1 === undefined ? 1 : 1 - ease(f, t1, d));

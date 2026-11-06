@@ -1,0 +1,52 @@
+{
+ "title": "AMC 10 Guide (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten tip! More right answers, more points? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Right earns six points, wrong earns zero, and a blank earns one point five.",
+    "Sheet A: sixteen right, nine wrong. Sheet B: fourteen right, eleven blank. Which wins?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "score",
+   "lines": [
+    "Sheet A: sixteen times six is ninety-six.",
+    "Sheet B: fourteen times six is eighty-four. Eleven blanks add sixteen point five.",
+    "Eighty-four plus sixteen point five is one hundred point five."
+   ]
+  },
+  {
+   "id": "reveal",
+   "hold": 0.8,
+   "lines": [
+    "Sheet B wins, with one hundred point five. That clears this season's AIME cutoff!",
+    "Answering everything was the trap.",
+    "Did you pick B? Tell me below!"
+   ]
+  }
+ ],
+ "captions": {
+  "Right earns six points, wrong earns zero, and a blank earns one point five.": "Right earns 6 points, wrong earns 0, and a blank earns 1.5.",
+  "Sheet B: fourteen times six is eighty-four. Eleven blanks add sixteen point five.": "Sheet B: 14 times 6 is 84. 11 blanks add 16.5.",
+  "Eighty-four plus sixteen point five is one hundred point five.": "84 plus 16.5 is 100.5.",
+  "Sheet B wins, with one hundred point five. That clears this season's AIME cutoff!": "Sheet B wins, with 100.5. That clears this season's AIME cutoff!"
+ }
+}

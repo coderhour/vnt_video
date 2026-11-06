@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1227,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 125,
+   "lines": [
+    {
+     "text": "AMC ten tip! More right answers, more points? Nope!",
+     "caption": "AMC 10 tip! More right answers, more points? Nope!",
+     "file": "2026-11-05-amc10-guide/short/audio/ac9fd1a9e3932d21.wav",
+     "from": 0,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 125,
+   "frames": 313,
+   "lines": [
+    {
+     "text": "Right earns six points, wrong earns zero, and a blank earns one point five.",
+     "caption": "Right earns 6 points, wrong earns 0, and a blank earns 1.5.",
+     "file": "2026-11-05-amc10-guide/short/audio/a887f33d5b0a3380.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "Sheet A: sixteen right, nine wrong. Sheet B: fourteen right, eleven blank. Which wins?",
+     "caption": "Sheet A: 16 right, 9 wrong. Sheet B: 14 right, 11 blank. Which wins?",
+     "file": "2026-11-05-amc10-guide/short/audio/e92787a3a6b6662c.wav",
+     "from": 131,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 438,
+   "frames": 78,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-05-amc10-guide/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "kind": "scene",
+   "chapter": null,
+   "from": 516,
+   "frames": 375,
+   "lines": [
+    {
+     "text": "Sheet A: sixteen times six is ninety-six.",
+     "caption": "Sheet A: 16 times 6 is 96.",
+     "file": "2026-11-05-amc10-guide/short/audio/af73387a675b4219.wav",
+     "from": 0,
+     "frames": 95
+    },
+    {
+     "text": "Sheet B: fourteen times six is eighty-four. Eleven blanks add sixteen point five.",
+     "caption": "Sheet B: 14 times 6 is 84. 11 blanks add 16.5.",
+     "file": "2026-11-05-amc10-guide/short/audio/314e34a5059f0b1a.wav",
+     "from": 99,
+     "frames": 161
+    },
+    {
+     "text": "Eighty-four plus sixteen point five is one hundred point five.",
+     "caption": "84 plus 16.5 is 100.5.",
+     "file": "2026-11-05-amc10-guide/short/audio/29d435444e2bd4f8.wav",
+     "from": 264,
+     "frames": 99
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 891,
+   "frames": 336,
+   "lines": [
+    {
+     "text": "Sheet B wins, with one hundred point five. That clears this season's AIME cutoff!",
+     "caption": "Sheet B wins, with 100.5. That clears this season's AIME cutoff!",
+     "file": "2026-11-05-amc10-guide/short/audio/a33b7e614b228e3d.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "Answering everything was the trap.",
+     "caption": "Answering everything was the trap.",
+     "file": "2026-11-05-amc10-guide/short/audio/cb9ab33a1b3892c8.wav",
+     "from": 163,
+     "frames": 72
+    },
+    {
+     "text": "Did you pick B? Tell me below!",
+     "caption": "Did you pick B? Tell me below!",
+     "file": "2026-11-05-amc10-guide/short/audio/7b7fc7331bafc12f.wav",
+     "from": 239,
+     "frames": 62
+    }
+   ]
+  }
+ ]
+}
