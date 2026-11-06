@@ -1,0 +1,438 @@
+{
+ "fps": 30,
+ "durationInFrames": 7955,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 548,
+   "lines": [
+    {
+     "text": "Every January, thousands of middle schoolers sit down for the same math contest.",
+     "caption": "Every January, thousands of middle schoolers sit down for the same math contest.",
+     "file": "2026-11-05-amc8-guide/audio/291e252866a78feb.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "Twenty-five questions. Forty minutes. And one rule that most kids miss.",
+     "caption": "Twenty-five questions. Forty minutes. And one rule that most kids miss.",
+     "file": "2026-11-05-amc8-guide/audio/3a1180df44441fea.wav",
+     "from": 178,
+     "frames": 195
+    },
+    {
+     "text": "Hi, I'm Vantee. Let's get you ready for the AMC 8!",
+     "caption": "Hi, I'm Vantee. Let's get you ready for the AMC 8!",
+     "file": "2026-11-05-amc8-guide/audio/5a908d8dddbb31ef.wav",
+     "from": 383,
+     "frames": 126
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "kind": "scene",
+   "chapter": "What is the AMC 8?",
+   "from": 548,
+   "frames": 762,
+   "lines": [
+    {
+     "text": "AMC stands for American Mathematics Competitions.",
+     "caption": "AMC stands for American Mathematics Competitions.",
+     "file": "2026-11-05-amc8-guide/audio/09fcda7663ca1a6a.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "The AMC 8 is for students in grade eight or below.",
+     "caption": "The AMC 8 is for students in grade eight or below.",
+     "file": "2026-11-05-amc8-guide/audio/a0c74e8d684cb618.wav",
+     "from": 150,
+     "frames": 114
+    },
+    {
+     "text": "It's held every January, at your school or another host site.",
+     "caption": "It's held every January, at your school or another host site.",
+     "file": "2026-11-05-amc8-guide/audio/2919310fde1a7aaf.wav",
+     "from": 275,
+     "frames": 148
+    },
+    {
+     "text": "No calculators allowed. Just you, a pencil, and scratch paper.",
+     "caption": "No calculators allowed. Just you, a pencil, and scratch paper.",
+     "file": "2026-11-05-amc8-guide/audio/b694b00a516bedbd.wav",
+     "from": 433,
+     "frames": 152
+    },
+    {
+     "text": "The questions start friendly, and get harder as you go.",
+     "caption": "The questions start friendly, and get harder as you go.",
+     "file": "2026-11-05-amc8-guide/audio/1a688bf0e7df0d12.wav",
+     "from": 594,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "format",
+   "kind": "scene",
+   "chapter": "Format and scoring",
+   "from": 1310,
+   "frames": 543,
+   "lines": [
+    {
+     "text": "There are twenty-five multiple choice questions, each with five choices, A to E.",
+     "caption": "There are twenty-five multiple choice questions, each with five choices, A to E.",
+     "file": "2026-11-05-amc8-guide/audio/51cf8ab6948bc273.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "You get forty minutes. That's about ninety-six seconds per question.",
+     "caption": "You get forty minutes. That's about ninety-six seconds per question.",
+     "file": "2026-11-05-amc8-guide/audio/265e9a385264f961.wav",
+     "from": 198,
+     "frames": 138
+    },
+    {
+     "text": "Each right answer earns one point. The top score is twenty-five.",
+     "caption": "Each right answer earns one point. The top score is twenty-five.",
+     "file": "2026-11-05-amc8-guide/audio/de7df3f43aa0957a.wav",
+     "from": 347,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1853,
+   "frames": 590,
+   "lines": [
+    {
+     "text": "Here's the rule most kids miss: a wrong answer costs you NOTHING.",
+     "caption": "Here's the rule most kids miss: a wrong answer costs you NOTHING.",
+     "file": "2026-11-05-amc8-guide/audio/c207089b8ff1d5d3.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "A blank also scores zero. So a blank can never beat a guess.",
+     "caption": "A blank also scores zero. So a blank can never beat a guess.",
+     "file": "2026-11-05-amc8-guide/audio/f0c1c3acf4306a27.wav",
+     "from": 152,
+     "frames": 152
+    },
+    {
+     "text": "A wild guess has a one in five chance. Cross out two choices, and it's one in three.",
+     "caption": "A wild guess has a one in five chance. Cross out two choices, and it's one in three.",
+     "file": "2026-11-05-amc8-guide/audio/41fa753961271e09.wav",
+     "from": 314,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "awards",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2443,
+   "frames": 280,
+   "lines": [
+    {
+     "text": "The top five percent of scorers make the Honor Roll.",
+     "caption": "The top five percent of scorers make the Honor Roll.",
+     "file": "2026-11-05-amc8-guide/audio/5ebd6d8072cd3099.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "The top one percent make the Distinguished Honor Roll.",
+     "caption": "The top one percent make the Distinguished Honor Roll.",
+     "file": "2026-11-05-amc8-guide/audio/7db4b1c2e918f47f.wav",
+     "from": 117,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "pace",
+   "kind": "scene",
+   "chapter": "Test-day strategy",
+   "from": 2723,
+   "frames": 674,
+   "lines": [
+    {
+     "text": "Strategy one: pace yourself.",
+     "caption": "Strategy one: pace yourself.",
+     "file": "2026-11-05-amc8-guide/audio/443a5003eebafc7e.wav",
+     "from": 0,
+     "frames": 88
+    },
+    {
+     "text": "The first ten questions are usually quicker. Aim to finish them in about ten minutes.",
+     "caption": "The first ten questions are usually quicker. Aim to finish them in about ten minutes.",
+     "file": "2026-11-05-amc8-guide/audio/152cb4f2fda1f234.wav",
+     "from": 98,
+     "frames": 171
+    },
+    {
+     "text": "That leaves thirty minutes for the last fifteen, where the hard ones live.",
+     "caption": "That leaves thirty minutes for the last fifteen, where the hard ones live.",
+     "file": "2026-11-05-amc8-guide/audio/632a0f1aec80901d.wav",
+     "from": 279,
+     "frames": 150
+    },
+    {
+     "text": "Stuck for more than two minutes? Circle it in your booklet, move on, and come back later.",
+     "caption": "Stuck for more than two minutes? Circle it in your booklet, move on, and come back later.",
+     "file": "2026-11-05-amc8-guide/audio/0cfb78494668648d.wav",
+     "from": 440,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3397,
+   "frames": 515,
+   "lines": [
+    {
+     "text": "Strategy two: read the question twice.",
+     "caption": "Strategy two: read the question twice.",
+     "file": "2026-11-05-amc8-guide/audio/ee700a3467155084.wav",
+     "from": 0,
+     "frames": 114
+    },
+    {
+     "text": "Circle what it asks for. Is it the area, or the perimeter? Feet, or inches?",
+     "caption": "Circle what it asks for. Is it the area, or the perimeter? Feet, or inches?",
+     "file": "2026-11-05-amc8-guide/audio/2dfa85d9953188ff.wav",
+     "from": 124,
+     "frames": 192
+    },
+    {
+     "text": "Many wrong choices are the right answer to a different question.",
+     "caption": "Many wrong choices are the right answer to a different question.",
+     "file": "2026-11-05-amc8-guide/audio/fb5ff0cc56d34d8e.wav",
+     "from": 327,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "choices",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3912,
+   "frames": 443,
+   "lines": [
+    {
+     "text": "Strategy three: use the answer choices.",
+     "caption": "Strategy three: use the answer choices.",
+     "file": "2026-11-05-amc8-guide/audio/f6c0fdc42cbfc077.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "Estimate first. Choices far from your estimate can go.",
+     "caption": "Estimate first. Choices far from your estimate can go.",
+     "file": "2026-11-05-amc8-guide/audio/ebc94cd49060921e.wav",
+     "from": 115,
+     "frames": 137
+    },
+    {
+     "text": "You can also plug a choice back into the question, and check it.",
+     "caption": "You can also plug a choice back into the question, and check it.",
+     "file": "2026-11-05-amc8-guide/audio/37657653c8d6b52e.wav",
+     "from": 262,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "fill",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4355,
+   "frames": 304,
+   "lines": [
+    {
+     "text": "Strategy four: never leave a question blank.",
+     "caption": "Strategy four: never leave a question blank.",
+     "file": "2026-11-05-amc8-guide/audio/8aee1864f883a6e6.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "With two minutes left, fill in every blank with your best guess.",
+     "caption": "With two minutes left, fill in every blank with your best guess.",
+     "file": "2026-11-05-amc8-guide/audio/42db59d559353e6d.wav",
+     "from": 112,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "try",
+   "kind": "scene",
+   "chapter": "Try one",
+   "from": 4659,
+   "frames": 738,
+   "lines": [
+    {
+     "text": "Let's try one, AMC 8-style. What is one hundred ninety-eight times two hundred two?",
+     "caption": "Let's try one, AMC 8-style. What is one hundred ninety-eight times two hundred two?",
+     "file": "2026-11-05-amc8-guide/audio/0fec3563940ccdc7.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "Choice A: thirty-nine thousand nine hundred ninety-six. B: forty thousand four.",
+     "caption": "Choice A: thirty-nine thousand nine hundred ninety-six. B: forty thousand four.",
+     "file": "2026-11-05-amc8-guide/audio/cbf0aff804064107.wav",
+     "from": 200,
+     "frames": 202
+    },
+    {
+     "text": "Choice C: thirty-nine thousand two hundred four.",
+     "caption": "Choice C: thirty-nine thousand two hundred four.",
+     "file": "2026-11-05-amc8-guide/audio/bcee5968af96ff7c.wav",
+     "from": 412,
+     "frames": 128
+    },
+    {
+     "text": "Choices D and E: forty thousand, and four thousand.",
+     "caption": "Choices D and E: forty thousand, and four thousand.",
+     "file": "2026-11-05-amc8-guide/audio/d9572ada83edf5d7.wav",
+     "from": 550,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "try-solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5397,
+   "frames": 1061,
+   "lines": [
+    {
+     "text": "No need to multiply it all out. Estimate first: two hundred times two hundred is forty thousand.",
+     "caption": "No need to multiply it all out. Estimate first: two hundred times two hundred is forty thousand.",
+     "file": "2026-11-05-amc8-guide/audio/6acd765f34e781c5.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "So four thousand is way off. Cross it out.",
+     "caption": "So four thousand is way off. Cross it out.",
+     "file": "2026-11-05-amc8-guide/audio/df518b3c1951ca9d.wav",
+     "from": 231,
+     "frames": 128
+    },
+    {
+     "text": "Now the last digit. Eight times two is sixteen, so the answer ends in six.",
+     "caption": "Now the last digit. Eight times two is sixteen, so the answer ends in six.",
+     "file": "2026-11-05-amc8-guide/audio/967e5310a40e38cd.wav",
+     "from": 369,
+     "frames": 191
+    },
+    {
+     "text": "Only one choice ends in six: thirty-nine thousand nine hundred ninety-six.",
+     "caption": "Only one choice ends in six: thirty-nine thousand nine hundred ninety-six.",
+     "file": "2026-11-05-amc8-guide/audio/8cd35e8cf442541b.wav",
+     "from": 570,
+     "frames": 176
+    },
+    {
+     "text": "Check: two hundred minus two, times two hundred plus two, is forty thousand minus four. It works!",
+     "caption": "Check: two hundred minus two, times two hundred plus two, is forty thousand minus four. It works!",
+     "file": "2026-11-05-amc8-guide/audio/f532343fad75abe0.wav",
+     "from": 756,
+     "frames": 237
+    }
+   ]
+  },
+  {
+   "id": "prepare",
+   "kind": "scene",
+   "chapter": "How to prepare",
+   "from": 6458,
+   "frames": 946,
+   "lines": [
+    {
+     "text": "How do you get ready? Practice with real past AMC 8 problems.",
+     "caption": "How do you get ready? Practice with real past AMC 8 problems.",
+     "file": "2026-11-05-amc8-guide/audio/1e508e09d6b4525a.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "Every few weeks, do a full set of twenty-five, with a forty-minute timer.",
+     "caption": "Every few weeks, do a full set of twenty-five, with a forty-minute timer.",
+     "file": "2026-11-05-amc8-guide/audio/96cee9f72fb9e4b5.wav",
+     "from": 168,
+     "frames": 162
+    },
+    {
+     "text": "Then review every miss. Find the idea, not just the answer.",
+     "caption": "Then review every miss. Find the idea, not just the answer.",
+     "file": "2026-11-05-amc8-guide/audio/b73bb0d0f33526d3.wav",
+     "from": 341,
+     "frames": 150
+    },
+    {
+     "text": "Learn the big topics: counting, number puzzles, geometry, and early algebra.",
+     "caption": "Learn the big topics: counting, number puzzles, geometry, and early algebra.",
+     "file": "2026-11-05-amc8-guide/audio/d00f8c28248a43f9.wav",
+     "from": 501,
+     "frames": 198
+    },
+    {
+     "text": "And try Vantee's AMC 8-style videos, with every solution and trap explained.",
+     "caption": "And try Vantee's AMC 8-style videos, with every solution and trap explained.",
+     "file": "2026-11-05-amc8-guide/audio/4896ffa9eb5e090b.wav",
+     "from": 710,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 7404,
+   "frames": 551,
+   "lines": [
+    {
+     "text": "So: twenty-five questions, forty minutes, and no penalty for guessing.",
+     "caption": "So: twenty-five questions, forty minutes, and no penalty for guessing.",
+     "file": "2026-11-05-amc8-guide/audio/7f6e4a4851968f90.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "Pace yourself, read twice, use the choices, and answer every question.",
+     "caption": "Pace yourself, read twice, use the choices, and answer every question.",
+     "file": "2026-11-05-amc8-guide/audio/cce99baaf59868b8.wav",
+     "from": 166,
+     "frames": 186
+    },
+    {
+     "text": "Good luck on test day. You've got this!",
+     "caption": "Good luck on test day. You've got this!",
+     "file": "2026-11-05-amc8-guide/audio/94c1e7011a4d939f.wav",
+     "from": 363,
+     "frames": 89
+    }
+   ]
+  }
+ ]
+}

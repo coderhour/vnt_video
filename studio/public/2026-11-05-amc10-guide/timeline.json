@@ -1,0 +1,457 @@
+{
+ "fps": 30,
+ "durationInFrames": 9079,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 499,
+   "lines": [
+    {
+     "text": "On the AMC 10, sixteen right answers can score LESS than fourteen.",
+     "caption": "On the AMC 10, sixteen right answers can score LESS than fourteen.",
+     "file": "2026-11-05-amc10-guide/audio/146d1528423f1d7f.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "Sounds wrong? It's all in the scoring.",
+     "caption": "Sounds wrong? It's all in the scoring.",
+     "file": "2026-11-05-amc10-guide/audio/53be4c04636d4a64.wav",
+     "from": 181,
+     "frames": 105
+    },
+    {
+     "text": "Hi, I'm Vantee. Let's crack the AMC 10 scoring, and plan your test day.",
+     "caption": "Hi, I'm Vantee. Let's crack the AMC 10 scoring, and plan your test day.",
+     "file": "2026-11-05-amc10-guide/audio/59294db93976c7e1.wav",
+     "from": 296,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "kind": "scene",
+   "chapter": "What is the AMC 10?",
+   "from": 499,
+   "frames": 673,
+   "lines": [
+    {
+     "text": "The AMC 10 is for students in grade ten or below.",
+     "caption": "The AMC 10 is for students in grade ten or below.",
+     "file": "2026-11-05-amc10-guide/audio/1ba1d5ced489aa87.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "It's held every November, in two versions, the A and the B, on different days.",
+     "caption": "It's held every November, in two versions, the A and the B, on different days.",
+     "file": "2026-11-05-amc10-guide/audio/a6124c209a15a6de.wav",
+     "from": 137,
+     "frames": 174
+    },
+    {
+     "text": "You may take one A test and one B test. That's two chances.",
+     "caption": "You may take one A test and one B test. That's two chances.",
+     "file": "2026-11-05-amc10-guide/audio/0df53fb2c6f78cca.wav",
+     "from": 321,
+     "frames": 137
+    },
+    {
+     "text": "No calculators. The questions start gentle, and get harder as you go.",
+     "caption": "No calculators. The questions start gentle, and get harder as you go.",
+     "file": "2026-11-05-amc10-guide/audio/7595b6677efa3213.wav",
+     "from": 469,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "format",
+   "kind": "scene",
+   "chapter": "Format and scoring",
+   "from": 1172,
+   "frames": 734,
+   "lines": [
+    {
+     "text": "Twenty-five questions, five choices each, in seventy-five minutes.",
+     "caption": "Twenty-five questions, five choices each, in seventy-five minutes.",
+     "file": "2026-11-05-amc10-guide/audio/c646c44c9b0a4608.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "That's three minutes per question, on average.",
+     "caption": "That's three minutes per question, on average.",
+     "file": "2026-11-05-amc10-guide/audio/f76827b785c20e40.wav",
+     "from": 180,
+     "frames": 96
+    },
+    {
+     "text": "A right answer earns six points. The top score is one hundred fifty.",
+     "caption": "A right answer earns six points. The top score is one hundred fifty.",
+     "file": "2026-11-05-amc10-guide/audio/c6a121e764c64300.wav",
+     "from": 287,
+     "frames": 155
+    },
+    {
+     "text": "A wrong answer earns zero.",
+     "caption": "A wrong answer earns zero.",
+     "file": "2026-11-05-amc10-guide/audio/f2b0cb850aa1e1d0.wav",
+     "from": 452,
+     "frames": 70
+    },
+    {
+     "text": "But a blank earns one point five. Leaving it empty pays!",
+     "caption": "But a blank earns one point five. Leaving it empty pays!",
+     "file": "2026-11-05-amc10-guide/audio/84c42351e9d42542.wav",
+     "from": 532,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1906,
+   "frames": 644,
+   "lines": [
+    {
+     "text": "Now the puzzle makes sense. Sixteen right is ninety-six points. Nine wrong add nothing.",
+     "caption": "Now the puzzle makes sense. Sixteen right is ninety-six points. Nine wrong add nothing.",
+     "file": "2026-11-05-amc10-guide/audio/bf60dd1c78e5a3ab.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "Fourteen right is eighty-four. Eleven blanks earn sixteen point five.",
+     "caption": "Fourteen right is eighty-four. Eleven blanks earn sixteen point five.",
+     "file": "2026-11-05-amc10-guide/audio/d781a042386a82e8.wav",
+     "from": 210,
+     "frames": 190
+    },
+    {
+     "text": "That's one hundred point five. Fewer right answers, higher score!",
+     "caption": "That's one hundred point five. Fewer right answers, higher score!",
+     "file": "2026-11-05-amc10-guide/audio/225a10884078f0e4.wav",
+     "from": 410,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "aime",
+   "kind": "scene",
+   "chapter": "Why 100 matters",
+   "from": 2550,
+   "frames": 900,
+   "lines": [
+    {
+     "text": "Why does one hundred matter?",
+     "caption": "Why does one hundred matter?",
+     "file": "2026-11-05-amc10-guide/audio/735c6e8579870e2d.wav",
+     "from": 0,
+     "frames": 87
+    },
+    {
+     "text": "Right now, a score of one hundred or more on the AMC 10 qualifies you for the AIME.",
+     "caption": "Right now, a score of one hundred or more on the AMC 10 qualifies you for the AIME.",
+     "file": "2026-11-05-amc10-guide/audio/7d11b256dc2e67c6.wav",
+     "from": 97,
+     "frames": 216
+    },
+    {
+     "text": "The AIME is the next round. Fifteen questions in three hours.",
+     "caption": "The AIME is the next round. Fifteen questions in three hours.",
+     "file": "2026-11-05-amc10-guide/audio/386dd9adb7efa92f.wav",
+     "from": 324,
+     "frames": 165
+    },
+    {
+     "text": "Every answer is a whole number, from zero to nine hundred ninety-nine.",
+     "caption": "Every answer is a whole number, from zero to nine hundred ninety-nine.",
+     "file": "2026-11-05-amc10-guide/audio/3c25f708bc12e482.wav",
+     "from": 499,
+     "frames": 162
+    },
+    {
+     "text": "Fourteen right with no mistakes gets you there. You don't need to finish the test!",
+     "caption": "Fourteen right with no mistakes gets you there. You don't need to finish the test!",
+     "file": "2026-11-05-amc10-guide/audio/1c7c81bba41b837c.wav",
+     "from": 671,
+     "frames": 176
+    }
+   ]
+  },
+  {
+   "id": "guess",
+   "kind": "scene",
+   "chapter": "To guess or not to guess",
+   "from": 3450,
+   "frames": 710,
+   "lines": [
+    {
+     "text": "So when should you guess? Let's do the math.",
+     "caption": "So when should you guess? Let's do the math.",
+     "file": "2026-11-05-amc10-guide/audio/a1a169f6d7643142.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "Leaving a question blank is a sure one point five.",
+     "caption": "Leaving a question blank is a sure one point five.",
+     "file": "2026-11-05-amc10-guide/audio/55414a344ebbfb90.wav",
+     "from": 118,
+     "frames": 113
+    },
+    {
+     "text": "A wild guess is right one time in five. Six points times one fifth is one point two, on average.",
+     "caption": "A wild guess is right one time in five. Six points times one fifth is one point two, on average.",
+     "file": "2026-11-05-amc10-guide/audio/233432d82d0be9a7.wav",
+     "from": 241,
+     "frames": 239
+    },
+    {
+     "text": "One point two is less than one point five. So a wild guess loses.",
+     "caption": "One point two is less than one point five. So a wild guess loses.",
+     "file": "2026-11-05-amc10-guide/audio/79e62f2a20166a20.wav",
+     "from": 490,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "guess2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4160,
+   "frames": 808,
+   "lines": [
+    {
+     "text": "Cross out one choice. Now you're right one time in four.",
+     "caption": "Cross out one choice. Now you're right one time in four.",
+     "file": "2026-11-05-amc10-guide/audio/e3165ad608ba5128.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Six over four is one point five. That's a tie.",
+     "caption": "Six over four is one point five. That's a tie.",
+     "file": "2026-11-05-amc10-guide/audio/a21d23b2724df11e.wav",
+     "from": 147,
+     "frames": 124
+    },
+    {
+     "text": "Cross out two choices. Now it's one time in three. Six over three is two points. Guessing wins!",
+     "caption": "Cross out two choices. Now it's one time in three. Six over three is two points. Guessing wins!",
+     "file": "2026-11-05-amc10-guide/audio/0da268d61b46a6a9.wav",
+     "from": 281,
+     "frames": 249
+    },
+    {
+     "text": "The rule: if you can rule out two choices, guess. If not, leave it blank.",
+     "caption": "The rule: if you can rule out two choices, guess. If not, leave it blank.",
+     "file": "2026-11-05-amc10-guide/audio/19566612a43d00fd.wav",
+     "from": 540,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "kind": "scene",
+   "chapter": "Test-day plan",
+   "from": 4968,
+   "frames": 922,
+   "lines": [
+    {
+     "text": "Plan your time. Aim to finish the first ten questions in about twenty minutes.",
+     "caption": "Plan your time. Aim to finish the first ten questions in about twenty minutes.",
+     "file": "2026-11-05-amc10-guide/audio/ab4c31b1d016e38e.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "Accuracy beats speed. A careless slip on an easy question throws away six points.",
+     "caption": "Accuracy beats speed. A careless slip on an easy question throws away six points.",
+     "file": "2026-11-05-amc10-guide/audio/ac55c5c1bae3785e.wav",
+     "from": 185,
+     "frames": 198
+    },
+    {
+     "text": "Check your easy answers before you chase the hardest ones.",
+     "caption": "Check your easy answers before you chase the hardest ones.",
+     "file": "2026-11-05-amc10-guide/audio/71a865912f931285.wav",
+     "from": 393,
+     "frames": 118
+    },
+    {
+     "text": "Read the last few questions too. One of them might be in your strong topic.",
+     "caption": "Read the last few questions too. One of them might be in your strong topic.",
+     "file": "2026-11-05-amc10-guide/audio/051b460fb79f0989.wav",
+     "from": 521,
+     "frames": 152
+    },
+    {
+     "text": "Use the answer choices: estimate, check the size, or plug a choice back in.",
+     "caption": "Use the answer choices: estimate, check the size, or plug a choice back in.",
+     "file": "2026-11-05-amc10-guide/audio/9273a40e9312aada.wav",
+     "from": 683,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "try",
+   "kind": "scene",
+   "chapter": "Try one",
+   "from": 5890,
+   "frames": 659,
+   "lines": [
+    {
+     "text": "Let's try one, AMC 10-style. Add up four copies of two to the tenth.",
+     "caption": "Let's try one, AMC 10-style. Add up four copies of two to the tenth.",
+     "file": "2026-11-05-amc10-guide/audio/d775ac2d3cd8b778.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "Choice A is two to the twelfth. B is two to the fortieth. C is eight to the tenth.",
+     "caption": "Choice A is two to the twelfth. B is two to the fortieth. C is eight to the tenth.",
+     "file": "2026-11-05-amc10-guide/audio/e1aaa72af9fe2b2a.wav",
+     "from": 190,
+     "frames": 243
+    },
+    {
+     "text": "D is four to the fortieth. E is two to the fourteenth.",
+     "caption": "D is four to the fortieth. E is two to the fourteenth.",
+     "file": "2026-11-05-amc10-guide/audio/f8729dfa242d0933.wav",
+     "from": 443,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "try-solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6549,
+   "frames": 1117,
+   "lines": [
+    {
+     "text": "Check the size first. Two to the tenth is about one thousand, so the sum is about four thousand.",
+     "caption": "Check the size first. Two to the tenth is about one thousand, so the sum is about four thousand.",
+     "file": "2026-11-05-amc10-guide/audio/2c1723ad874126ca.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "Two to the fortieth and four to the fortieth are giant. Cross them out.",
+     "caption": "Two to the fortieth and four to the fortieth are giant. Cross them out.",
+     "file": "2026-11-05-amc10-guide/audio/0c8d7e6258981859.wav",
+     "from": 240,
+     "frames": 173
+    },
+    {
+     "text": "Eight to the tenth is two to the thirtieth. Also giant. Cross it out.",
+     "caption": "Eight to the tenth is two to the thirtieth. Also giant. Cross it out.",
+     "file": "2026-11-05-amc10-guide/audio/0d4200792a4f6d88.wav",
+     "from": 423,
+     "frames": 170
+    },
+    {
+     "text": "Two to the fourteenth is over sixteen thousand. Too big.",
+     "caption": "Two to the fourteenth is over sixteen thousand. Too big.",
+     "file": "2026-11-05-amc10-guide/audio/9360b0ee2113c3fe.wav",
+     "from": 603,
+     "frames": 122
+    },
+    {
+     "text": "That leaves two to the twelfth. Let's check it.",
+     "caption": "That leaves two to the twelfth. Let's check it.",
+     "file": "2026-11-05-amc10-guide/audio/610201e2b5518665.wav",
+     "from": 735,
+     "frames": 98
+    },
+    {
+     "text": "Four is two squared. Two squared times two to the tenth is two to the twelfth!",
+     "caption": "Four is two squared. Two squared times two to the tenth is two to the twelfth!",
+     "file": "2026-11-05-amc10-guide/audio/ad1ec72fd73d0575.wav",
+     "from": 842,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "prepare",
+   "kind": "scene",
+   "chapter": "How to prepare",
+   "from": 7666,
+   "frames": 830,
+   "lines": [
+    {
+     "text": "To prepare, work through real past AMC 10 problems, with a seventy-five-minute timer.",
+     "caption": "To prepare, work through real past AMC 10 problems, with a seventy-five-minute timer.",
+     "file": "2026-11-05-amc10-guide/audio/098c08ff650b1a3b.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "Track your score. Where do your points come from? Where do you lose them?",
+     "caption": "Track your score. Where do your points come from? Where do you lose them?",
+     "file": "2026-11-05-amc10-guide/audio/e0091ea8b65465d8.wav",
+     "from": 197,
+     "frames": 141
+    },
+    {
+     "text": "Review every miss, and learn the big topics: algebra, geometry, counting, and number theory.",
+     "caption": "Review every miss, and learn the big topics: algebra, geometry, counting, and number theory.",
+     "file": "2026-11-05-amc10-guide/audio/572cda98bdb89b22.wav",
+     "from": 348,
+     "frames": 233
+    },
+    {
+     "text": "Vantee has AMC 10-style videos that walk through every solution and every trap.",
+     "caption": "Vantee has AMC 10-style videos that walk through every solution and every trap.",
+     "file": "2026-11-05-amc10-guide/audio/42f45e0b31dbb65c.wav",
+     "from": 591,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 8496,
+   "frames": 583,
+   "lines": [
+    {
+     "text": "Remember: six for right, one point five for blank, zero for wrong.",
+     "caption": "Remember: six for right, one point five for blank, zero for wrong.",
+     "file": "2026-11-05-amc10-guide/audio/327ea935ec5d37d7.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "One hundred gets you to the AIME. Accuracy first, and guess only after you rule out two.",
+     "caption": "One hundred gets you to the AIME. Accuracy first, and guess only after you rule out two.",
+     "file": "2026-11-05-amc10-guide/audio/1cbb272e8934d5c8.wav",
+     "from": 181,
+     "frames": 197
+    },
+    {
+     "text": "Good luck on test day. You've got this!",
+     "caption": "Good luck on test day. You've got this!",
+     "file": "2026-11-05-amc10-guide/audio/94c1e7011a4d939f.wav",
+     "from": 388,
+     "frames": 96
+    }
+   ]
+  }
+ ]
+}
