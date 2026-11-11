@@ -1,0 +1,51 @@
+{
+ "title": "9个点的圆 (短片)",
+ "fps": 30,
+ "lang": "zh",
+ "captions": {
+  "AMC十挑战！你觉得是76？错！": "AMC 10挑战！你觉得是76？错！"
+ },
+ "voice": "Zephyr",
+ "style": "warm and upbeat, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC十挑战！你觉得是76？错！"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "9个点排成正方形网格。有多少个不同的圆，至少经过其中3个点？",
+    "一个圆经过4个点，也只算一次！"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "评论你的选项，然后接着看！"
+   ]
+  },
+  {
+   "id": "repeat",
+   "lines": [
+    "一共76组不共线的三点。但是，看看这个正方形。",
+    "任意去掉一个顶点，剩下三个点得到的都是同一个圆！",
+    "所以这个圆被数了4次。像这样的圆一共有14个。",
+    "14乘3，一共多出42个。"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "76减42等于34！",
+    "选76就是陷阱！",
+    "答案是34，你答对了吗？在评论里告诉我！"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

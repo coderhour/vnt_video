@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-polygon-center';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -586,3 +587,14 @@ const SCENES: Record<string, SceneComponent> = {
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
 
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the 13-gon with one chosen quadrilateral, no answer.
+const TG: Geo = { cx: 340, cy: 320, R: 285, n: 13 };
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>260?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Ngon g={TG} />
+      <Shape g={TG} set={HIT} color={C.primary} />
+    </svg>
+  </ThumbFrame>
+);

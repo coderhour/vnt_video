@@ -1,6 +1,6 @@
 {
- "title": "How Many Are Multiples of 3? | AMC 8-Style Level 4",
- "description": "The list 1, 3, 6, 10, 15 keeps going for 100 numbers. How many are multiples of 3? Vantee tracks the remainders to find a repeating 1, 0, 0 pattern, shows a second way with the triangular-number formula, explains why each wrong answer is tempting, and gives you the first 80 numbers to try yourself.\n\n0:00 Intro\n0:20 The question\n0:44 What are we asked?\n1:07 Try it yourself\n1:22 Solution 1: track the remainders\n3:26 Solution 2: use the formula\n4:53 Common traps\n5:34 Your turn: the first eighty\n6:00 First eighty: the answer\n6:38 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Triangular Numbers & Multiples of 3 — Spot the Pattern",
+ "description": "AMC 8 practice problem on triangular numbers and divisibility by 3, solved by tracking remainders to find a repeating pattern. (Level 4 of 5)\nThe list 1, 3, 6, 10, 15 keeps going for 100 numbers. How many are multiples of 3? Vantee tracks the remainders to find a repeating 1, 0, 0 pattern, shows a second way with the triangular-number formula, explains why each wrong answer is tempting, and gives you the first 80 numbers to try yourself.\n\n0:00 Intro\n0:20 The question\n0:44 What are we asked?\n1:07 Try it yourself\n1:22 Solution 1: track the remainders\n3:26 Solution 2: use the formula\n4:53 Common traps\n5:34 Your turn: the first eighty\n6:00 First eighty: the answer\n6:38 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mock_test_template:c1-025",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "In the list 1, 3, 6, 10, 15, ... (100 numbers), how many are multiples of 3? Comment your answer before you watch the solution!"
 }

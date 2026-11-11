@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-tree-in-yard';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -499,3 +500,13 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the yard with the tree and its two strings, tree at the trap spot, no answer.
+// Yard is laid out for the 1920×1080 video frame, so it is drawn there and scaled down to the 1280×720 thumbnail.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>6 m?</span>]}>
+    <div style={{ position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, transform: 'scale(0.6667)', transformOrigin: '0 0' }}>
+      <Yard L={16} W={8} u={52} ox={964} oy={718} ex={6} dot={0} eLab={0} tree={1} ea={1} ec={1} ecDash={false} />
+    </div>
+  </ThumbFrame>
+);

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-coin-flip-race';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -740,3 +741,15 @@ void clamp;
 void (null as unknown as Scene);
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-11-01-coin-flip-race-thumb`, render.sh → poster.jpg): Ann's 5 and Bob's 7 unflipped coins, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>1/2?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <text x={340} y={130} fontFamily={NUNITO} fontWeight={900} fontSize={64} textAnchor="middle" fill={ANN}>Ann: 5 coins</text>
+      {range(5).map((i) => <FC key={`a${i}`} f={0} x={340 + (i - 2) * 124} y={235} r={52} rim={ANN} from="N" />)}
+      <text x={340} y={400} fontFamily={NUNITO} fontWeight={900} fontSize={64} textAnchor="middle" fill={BOB}>Bob: 7 coins</text>
+      {range(7).map((i) => <FC key={`b${i}`} f={0} x={340 + (i - 3) * 94} y={505} r={40} rim={BOB} from="N" />)}
+    </svg>
+  </ThumbFrame>
+);

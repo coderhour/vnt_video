@@ -1,0 +1,487 @@
+{
+ "fps": 30,
+ "durationInFrames": 13783,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 496,
+   "lines": [
+    {
+     "text": "\u4e00\u53ea\u8682\u8681\u5728\u4e09\u68f1\u67f1\u4e0a\u4e71\u722c\uff0c\u6bcf\u79d2\u968f\u673a\u8d70\u4e00\u6761\u68f1\u3002\u7ec8\u70b9\u548c\u9677\u9631\uff0c\u5b83\u4f1a\u5148\u5230\u54ea\u4e00\u4e2a\uff1f",
+     "caption": "\u4e00\u53ea\u8682\u8681\u5728\u4e09\u68f1\u67f1\u4e0a\u4e71\u722c\uff0c\u6bcf\u79d2\u968f\u673a\u8d70\u4e00\u6761\u68f1\u3002\u7ec8\u70b9\u548c\u9677\u9631\uff0c\u5b83\u4f1a\u5148\u5230\u54ea\u4e00\u4e2a\uff1f",
+     "file": "2026-11-01-ant-on-prism-zh/audio/3af480c5e906714e.wav",
+     "from": 0,
+     "frames": 292
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u966a\u8fd9\u53ea\u8682\u8681\u51b2\u5411\u7ec8\u70b9\u5427\uff01",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u966a\u8fd9\u53ea\u8682\u8681\u51b2\u5411\u7ec8\u70b9\u5427\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/e6feb39fec134524.wav",
+     "from": 302,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 496,
+   "frames": 1257,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u4e09\u68f1\u67f1\uff0c\u5e95\u9762\u662f\u4e09\u89d2\u5f62ABC\uff0c\u9876\u9762\u662f\u4e09\u89d2\u5f62DEF\u3002",
+     "caption": "\u4e00\u4e2a\u4e09\u68f1\u67f1\uff0c\u5e95\u9762\u662f\u4e09\u89d2\u5f62ABC\uff0c\u9876\u9762\u662f\u4e09\u89d2\u5f62DEF\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/48b28232f81701bd.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "\u68f1AD\u3001\u68f1BE\u548c\u68f1CF\uff0c\u628a\u5e95\u9762\u7684\u6bcf\u4e00\u4e2a\u9876\u70b9\u548c\u5b83\u6b63\u4e0a\u65b9\u7684\u9876\u70b9\u8fde\u8d77\u6765\u3002",
+     "caption": "\u68f1AD\u3001\u68f1BE\u548c\u68f1CF\uff0c\u628a\u5e95\u9762\u7684\u6bcf\u4e00\u4e2a\u9876\u70b9\u548c\u5b83\u6b63\u4e0a\u65b9\u7684\u9876\u70b9\u8fde\u8d77\u6765\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/0afcde8a1e55a778.wav",
+     "from": 237,
+     "frames": 316
+    },
+    {
+     "text": "\u8682\u8681\u4ece\u9876\u70b9C\u51fa\u53d1\u3002\u6bcf\u8fc7\u4e00\u79d2\uff0c\u5b83\u5c31\u6cbf\u7740\u6240\u5728\u9876\u70b9\u76843\u6761\u68f1\u4e2d\u7684\u4e00\u6761\u722c\u8fc7\u53bb\u3002",
+     "caption": "\u8682\u8681\u4ece\u9876\u70b9C\u51fa\u53d1\u3002\u6bcf\u8fc7\u4e00\u79d2\uff0c\u5b83\u5c31\u6cbf\u7740\u6240\u5728\u9876\u70b9\u76843\u6761\u68f1\u4e2d\u7684\u4e00\u6761\u722c\u8fc7\u53bb\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/3961c55c5ae30e2f.wav",
+     "from": 563,
+     "frames": 269
+    },
+    {
+     "text": "\u8fd93\u6761\u68f1\u88ab\u9009\u4e2d\u7684\u673a\u4f1a\u76f8\u7b49\u3002\u5b83\u5728\u5230\u8fbeA\u4e4b\u524d\uff0c\u5148\u5230\u8fbeE\u7684\u6982\u7387\u662f\u591a\u5c11\uff1f",
+     "caption": "\u8fd93\u6761\u68f1\u88ab\u9009\u4e2d\u7684\u673a\u4f1a\u76f8\u7b49\u3002\u5b83\u5728\u5230\u8fbeA\u4e4b\u524d\uff0c\u5148\u5230\u8fbeE\u7684\u6982\u7387\u662f\u591a\u5c11\uff1f",
+     "file": "2026-11-01-ant-on-prism-zh/audio/bfa8781df219c47e.wav",
+     "from": 843,
+     "frames": 232
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 1085,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1753,
+   "frames": 604,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u5148\u628a\u6761\u4ef6\u7406\u4e00\u7406\u3002E\u662f\u7ec8\u70b9\uff0cA\u662f\u9677\u9631\u3002",
+     "caption": "\u6211\u4eec\u5148\u628a\u6761\u4ef6\u7406\u4e00\u7406\u3002E\u662f\u7ec8\u70b9\uff0cA\u662f\u9677\u9631\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/2e18878dc1ddb6b7.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "\u8682\u8681\u5148\u78b0\u5230\u54ea\u4e00\u4e2a\uff0c\u5c31\u505c\u5728\u54ea\u91cc\u3002\u5b83\u8fdf\u65e9\u4e00\u5b9a\u4f1a\u78b0\u5230\u5176\u4e2d\u4e00\u4e2a\u3002",
+     "caption": "\u8682\u8681\u5148\u78b0\u5230\u54ea\u4e00\u4e2a\uff0c\u5c31\u505c\u5728\u54ea\u91cc\u3002\u5b83\u8fdf\u65e9\u4e00\u5b9a\u4f1a\u78b0\u5230\u5176\u4e2d\u4e00\u4e2a\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/de2a3d8825c79187.wav",
+     "from": 180,
+     "frames": 194
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u6211\u4eec\u8981\u7b97\u7684\u662f\uff1a\u4eceC\u51fa\u53d1\uff0c\u5148\u5230E\u7684\u6982\u7387\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u6211\u4eec\u8981\u7b97\u7684\u662f\uff1a\u4eceC\u51fa\u53d1\uff0c\u5148\u5230E\u7684\u6982\u7387\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/ac90f9b5e29439f0.wav",
+     "from": 383,
+     "frames": 167
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2357,
+   "frames": 498,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u7ed9\u6bcf\u4e2a\u9876\u70b9\u4e00\u4e2a\u6982\u7387",
+   "from": 2855,
+   "frames": 2270,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u7ed9\u6bcf\u4e2a\u9876\u70b9\u90fd\u914d\u4e0a\u4e00\u4e2a\u83b7\u80dc\u7684\u6982\u7387\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u7ed9\u6bcf\u4e2a\u9876\u70b9\u90fd\u914d\u4e0a\u4e00\u4e2a\u83b7\u80dc\u7684\u6982\u7387\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/b395fe377c8538cf.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "\u4eceC\u51fa\u53d1\u7684\u6982\u7387\u8bb0\u4f5cc\uff0cB\u3001D\u3001F\u4e5f\u7167\u6837\u8bb0\u3002\u5230\u4e86E\u5c31\u7b971\uff0c\u5230\u4e86A\u5c31\u7b970\u3002",
+     "caption": "\u4eceC\u51fa\u53d1\u7684\u6982\u7387\u8bb0\u4f5cc\uff0cB\u3001D\u3001F\u4e5f\u7167\u6837\u8bb0\u3002\u5230\u4e86E\u5c31\u7b971\uff0c\u5230\u4e86A\u5c31\u7b970\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/fcc219fc656d6273.wav",
+     "from": 210,
+     "frames": 333
+    },
+    {
+     "text": "\u6bcf\u4e2a\u76f8\u90bb\u7684\u9876\u70b9\uff0c\u88ab\u9009\u4e2d\u7684\u6982\u7387\u90fd\u662f3\u5206\u4e4b1\u3002\u6240\u4ee5\u4e00\u4e2a\u9876\u70b9\u7684\u6982\u7387\uff0c\u5c31\u662f\u5b833\u4e2a\u90bb\u5c45\u6982\u7387\u7684\u5e73\u5747\u6570\u3002",
+     "caption": "\u6bcf\u4e2a\u76f8\u90bb\u7684\u9876\u70b9\uff0c\u88ab\u9009\u4e2d\u7684\u6982\u7387\u90fd\u662f3\u5206\u4e4b1\u3002\u6240\u4ee5\u4e00\u4e2a\u9876\u70b9\u7684\u6982\u7387\uff0c\u5c31\u662f\u5b833\u4e2a\u90bb\u5c45\u6982\u7387\u7684\u5e73\u5747\u6570\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/0e242c07718669eb.wav",
+     "from": 553,
+     "frames": 304
+    },
+    {
+     "text": "B\u7684\u4e09\u4e2a\u90bb\u5c45\u662fA\u3001C\u3001E\u3002\u6240\u4ee5b\u5c31\u662fA\u76840\u3001E\u76841\uff0c\u8fd8\u6709c\uff0c\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "caption": "B\u7684\u4e09\u4e2a\u90bb\u5c45\u662fA\u3001C\u3001E\u3002\u6240\u4ee5b\u5c31\u662fA\u76840\u3001E\u76841\uff0c\u8fd8\u6709c\uff0c\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/b04639f1452aec12.wav",
+     "from": 867,
+     "frames": 370
+    },
+    {
+     "text": "D\u548cA\u3001E\u3001F\u76f8\u90bb\u3002\u6240\u4ee5d\u5c31\u662fA\u76840\u3001E\u76841\uff0c\u8fd8\u6709f\uff0c\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "caption": "D\u548cA\u3001E\u3001F\u76f8\u90bb\u3002\u6240\u4ee5d\u5c31\u662fA\u76840\u3001E\u76841\uff0c\u8fd8\u6709f\uff0c\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/f0f190274941fb5b.wav",
+     "from": 1247,
+     "frames": 346
+    },
+    {
+     "text": "C\u548cA\u3001B\u3001F\u76f8\u90bb\u3002\u6240\u4ee5c\u5c31\u662fA\u76840\u3001b\u548cf\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "caption": "C\u548cA\u3001B\u3001F\u76f8\u90bb\u3002\u6240\u4ee5c\u5c31\u662fA\u76840\u3001b\u548cf\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/72351536aee08cf8.wav",
+     "from": 1603,
+     "frames": 300
+    },
+    {
+     "text": "F\u7684\u4e09\u4e2a\u90bb\u5c45\u662fC\u3001D\u548c\u7ec8\u70b9\u3002\u6240\u4ee5f\u7b49\u4e8ec\u52a0d\u52a01\uff0c\u518d\u9664\u4ee53\u3002",
+     "caption": "F\u7684\u4e09\u4e2a\u90bb\u5c45\u662fC\u3001D\u548c\u7ec8\u70b9\u3002\u6240\u4ee5f\u7b49\u4e8ec\u52a0d\u52a01\uff0c\u518d\u9664\u4ee53\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/13fd49c3846a3287.wav",
+     "from": 1913,
+     "frames": 303
+    }
+   ]
+  },
+  {
+   "id": "solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5125,
+   "frames": 2002,
+   "lines": [
+    {
+     "text": "\u5148\u770bC\u7684\u5f0f\u5b50\u3002\u4e24\u8fb9\u540c\u65f6\u4e583\uff1a3c\u7b49\u4e8eb\u52a0f\u3002",
+     "caption": "\u5148\u770bC\u7684\u5f0f\u5b50\u3002\u4e24\u8fb9\u540c\u65f6\u4e583\uff1a3c\u7b49\u4e8eb\u52a0f\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/0797e0f55590ae38.wav",
+     "from": 0,
+     "frames": 206
+    },
+    {
+     "text": "\u628ab\u6362\u8fdb\u53bb\uff0c\u4e24\u8fb9\u518d\u4e583\u30029c\u7b49\u4e8e1\u52a0c\u52a03f\u3002",
+     "caption": "\u628ab\u6362\u8fdb\u53bb\uff0c\u4e24\u8fb9\u518d\u4e583\u30029c\u7b49\u4e8e1\u52a0c\u52a03f\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/d9223a4664a49781.wav",
+     "from": 216,
+     "frames": 222
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c8c\u7b49\u4e8e3f\u52a01\u3002",
+     "caption": "\u6240\u4ee5\uff0c8c\u7b49\u4e8e3f\u52a01\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/de60526d096ff9ca.wav",
+     "from": 448,
+     "frames": 119
+    },
+    {
+     "text": "\u7528\u540c\u6837\u7684\u6b65\u9aa4\u5904\u7406F\uff0c\u628ad\u6362\u8fdb\u53bb\uff0c\u5f97\u52308f\u7b49\u4e8e4\u52a03c\u3002",
+     "caption": "\u7528\u540c\u6837\u7684\u6b65\u9aa4\u5904\u7406F\uff0c\u628ad\u6362\u8fdb\u53bb\uff0c\u5f97\u52308f\u7b49\u4e8e4\u52a03c\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/a7bce1065a0e982e.wav",
+     "from": 577,
+     "frames": 244
+    },
+    {
+     "text": "\u63a5\u4e0b\u6765\u6709\u4e2a\u5999\u62db\uff1a\u628a\u4e24\u4e2a\u5f0f\u5b50\u52a0\u8d77\u6765\u30028c\u52a08f\u7b49\u4e8e5\u52a03c\u52a03f\u3002",
+     "caption": "\u63a5\u4e0b\u6765\u6709\u4e2a\u5999\u62db\uff1a\u628a\u4e24\u4e2a\u5f0f\u5b50\u52a0\u8d77\u6765\u30028c\u52a08f\u7b49\u4e8e5\u52a03c\u52a03f\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/2519c4147dec3b60.wav",
+     "from": 831,
+     "frames": 275
+    },
+    {
+     "text": "\u4e24\u8fb9\u90fd\u51cf\u53bb3c\u548c3f\uff1a5c\u52a05f\u7b49\u4e8e5\u3002\u6240\u4ee5c\u52a0f\u7b49\u4e8e1\uff01",
+     "caption": "\u4e24\u8fb9\u90fd\u51cf\u53bb3c\u548c3f\uff1a5c\u52a05f\u7b49\u4e8e5\u3002\u6240\u4ee5c\u52a0f\u7b49\u4e8e1\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/63f90a4ac66a603d.wav",
+     "from": 1117,
+     "frames": 292
+    },
+    {
+     "text": "\u90a3\u4e48f\u5c31\u7b49\u4e8e1\u51cfc\u3002\u6240\u4ee58c\u7b49\u4e8e1\u52a03\u51cf3c\uff0c11c\u7b49\u4e8e4\u3002",
+     "caption": "\u90a3\u4e48f\u5c31\u7b49\u4e8e1\u51cfc\u3002\u6240\u4ee58c\u7b49\u4e8e1\u52a03\u51cf3c\uff0c11c\u7b49\u4e8e4\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/2d5f55e9d2707f7d.wav",
+     "from": 1419,
+     "frames": 359
+    },
+    {
+     "text": "\u6240\u4ee5c\u7b49\u4e8e11\u5206\u4e4b4\u3002\u8fd9\u5c31\u662f\u6211\u4eec\u7684\u7b54\u6848\uff01",
+     "caption": "\u6240\u4ee5c\u7b49\u4e8e11\u5206\u4e4b4\u3002\u8fd9\u5c31\u662f\u6211\u4eec\u7684\u7b54\u6848\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/d21a22f9e0df8be8.wav",
+     "from": 1788,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "spin",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u8f6c\u52a8\u4e09\u68f1\u67f1",
+   "from": 7127,
+   "frames": 1513,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002c\u52a0f\u7b49\u4e8e1\uff0c\u53ef\u4e0d\u662f\u5de7\u5408\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002c\u52a0f\u7b49\u4e8e1\uff0c\u53ef\u4e0d\u662f\u5de7\u5408\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/d59dc8dcdc43a0e6.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "\u770b\u6b63\u9762\u8fd9\u4e2a\u9762\uff0cABED\u3002A\u548cE\u662f\u5b83\u4e0a\u9762\u76f8\u5bf9\u7684\u4e24\u4e2a\u89d2\u3002",
+     "caption": "\u770b\u6b63\u9762\u8fd9\u4e2a\u9762\uff0cABED\u3002A\u548cE\u662f\u5b83\u4e0a\u9762\u76f8\u5bf9\u7684\u4e24\u4e2a\u89d2\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/d6f29bdf40c9db5d.wav",
+     "from": 155,
+     "frames": 243
+    },
+    {
+     "text": "\u7528\u4e00\u6839\u7af9\u7b7e\u7a7f\u8fc7\u8fd9\u4e2a\u9762\u7684\u6b63\u4e2d\u95f4\uff0c\u628a\u4e09\u68f1\u67f1\u8f6c\u534a\u5708\u3002",
+     "caption": "\u7528\u4e00\u6839\u7af9\u7b7e\u7a7f\u8fc7\u8fd9\u4e2a\u9762\u7684\u6b63\u4e2d\u95f4\uff0c\u628a\u4e09\u68f1\u67f1\u8f6c\u534a\u5708\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/7b0e67619e7a0a44.wav",
+     "from": 408,
+     "frames": 176
+    },
+    {
+     "text": "A\u548cE\u4e92\u6362\u4e86\u4f4d\u7f6e\u3002B\u548cD\u4e5f\u4e92\u6362\uff0cC\u548cF\u4e5f\u4e00\u6837\u3002\u8fd8\u662f\u539f\u6765\u90a3\u4e2a\u4e09\u68f1\u67f1\uff01",
+     "caption": "A\u548cE\u4e92\u6362\u4e86\u4f4d\u7f6e\u3002B\u548cD\u4e5f\u4e92\u6362\uff0cC\u548cF\u4e5f\u4e00\u6837\u3002\u8fd8\u662f\u539f\u6765\u90a3\u4e2a\u4e09\u68f1\u67f1\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/34ffb1581ef7ecb0.wav",
+     "from": 594,
+     "frames": 292
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u8682\u8681\u4eceF\u51fa\u53d1\u5148\u5230E\u7684\u6982\u7387\uff0c\u548c\u4eceC\u51fa\u53d1\u5148\u5230A\u7684\u6982\u7387\u4e00\u6837\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u8682\u8681\u4eceF\u51fa\u53d1\u5148\u5230E\u7684\u6982\u7387\uff0c\u548c\u4eceC\u51fa\u53d1\u5148\u5230A\u7684\u6982\u7387\u4e00\u6837\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/209c79e979899e1e.wav",
+     "from": 896,
+     "frames": 239
+    },
+    {
+     "text": "\u4eceC\u51fa\u53d1\uff0cA\u5148\u5230\u7684\u6982\u7387\u662f1\u51cfc\u3002\u6240\u4ee5f\u7b49\u4e8e1\u51cfc\uff0cd\u7b49\u4e8e1\u51cfb\u3002",
+     "caption": "\u4eceC\u51fa\u53d1\uff0cA\u5148\u5230\u7684\u6982\u7387\u662f1\u51cfc\u3002\u6240\u4ee5f\u7b49\u4e8e1\u51cfc\uff0cd\u7b49\u4e8e1\u51cfb\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/a2a16cde9cb1d465.wav",
+     "from": 1145,
+     "frames": 314
+    }
+   ]
+  },
+  {
+   "id": "spin-solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 8640,
+   "frames": 783,
+   "lines": [
+    {
+     "text": "\u56de\u5230\u524d\u9762\u7684\u5f0f\u5b50\uff1a8c\u7b49\u4e8e1\u52a03f\u3002\u628af\u7b49\u4e8e1\u51cfc\u6362\u8fdb\u53bb\u3002",
+     "caption": "\u56de\u5230\u524d\u9762\u7684\u5f0f\u5b50\uff1a8c\u7b49\u4e8e1\u52a03f\u3002\u628af\u7b49\u4e8e1\u51cfc\u6362\u8fdb\u53bb\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/543fb0b587fbc4e6.wav",
+     "from": 0,
+     "frames": 246
+    },
+    {
+     "text": "\u5f97\u52308c\u7b49\u4e8e4\u51cf3c\u300211c\u7b49\u4e8e4\u3002\u7b54\u6848\u8fd8\u662f11\u5206\u4e4b4\uff01",
+     "caption": "\u5f97\u52308c\u7b49\u4e8e4\u51cf3c\u300211c\u7b49\u4e8e4\u3002\u7b54\u6848\u8fd8\u662f11\u5206\u4e4b4\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/b1d5a723dbd87e81.wav",
+     "from": 256,
+     "frames": 266
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\u5462\uff1f\u53ea\u8981\u6709\u4e00\u79cd\u8f6c\u6cd5\u80fd\u628a\u8f93\u8d62\u5bf9\u8c03\uff0c\u5c31\u5148\u627e\u5b83\uff01",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\u5462\uff1f\u53ea\u8981\u6709\u4e00\u79cd\u8f6c\u6cd5\u80fd\u628a\u8f93\u8d62\u5bf9\u8c03\uff0c\u5c31\u5148\u627e\u5b83\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/aa6baf12f5e803b6.wav",
+     "from": 532,
+     "frames": 197
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9423,
+   "frames": 1113,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/21af14b233cbef13.wav",
+     "from": 0,
+     "frames": 82
+    },
+    {
+     "text": "3\u5206\u4e4b1\uff0c\u662f\u731cb\u548cf\u90fd\u7b49\u4e8e2\u5206\u4e4b1\u5f97\u5230\u7684\u3002\u5176\u5b9e\u4e0d\u662f\u8fd9\u6837\u3002",
+     "caption": "3\u5206\u4e4b1\uff0c\u662f\u731cb\u548cf\u90fd\u7b49\u4e8e2\u5206\u4e4b1\u5f97\u5230\u7684\u3002\u5176\u5b9e\u4e0d\u662f\u8fd9\u6837\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/cae9166d6af5afaf.wav",
+     "from": 92,
+     "frames": 242
+    },
+    {
+     "text": "11\u5206\u4e4b5\u662fb\uff0c\u4e5f\u5c31\u662f\u4eceB\u51fa\u53d1\u7684\u6982\u7387\u3002\u7b97\u5f97\u6ca1\u9519\uff0c\u4f46\u8d77\u70b9\u9519\u4e86\u3002",
+     "caption": "11\u5206\u4e4b5\u662fb\uff0c\u4e5f\u5c31\u662f\u4eceB\u51fa\u53d1\u7684\u6982\u7387\u3002\u7b97\u5f97\u6ca1\u9519\uff0c\u4f46\u8d77\u70b9\u9519\u4e86\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/481fd3312734df60.wav",
+     "from": 343,
+     "frames": 237
+    },
+    {
+     "text": "11\u5206\u4e4b6\u662f\u4eceD\u51fa\u53d1\u7684\u6982\u7387\uff0c\u4e5f\u5c31\u662fd\u3002\u540c\u6837\u662f\u8d77\u70b9\u9009\u9519\u4e86\u3002",
+     "caption": "11\u5206\u4e4b6\u662f\u4eceD\u51fa\u53d1\u7684\u6982\u7387\uff0c\u4e5f\u5c31\u662fd\u3002\u540c\u6837\u662f\u8d77\u70b9\u9009\u9519\u4e86\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/864cdece1660af5b.wav",
+     "from": 590,
+     "frames": 213
+    },
+    {
+     "text": "11\u5206\u4e4b7\u662f1\u51cfc\uff0c\u4e5f\u5c31\u662fA\u5148\u5230\u7684\u6982\u7387\u3002\u8fd9\u6837\u5c31\u628a\u6bd4\u8d5b\u770b\u53cd\u4e86\u3002",
+     "caption": "11\u5206\u4e4b7\u662f1\u51cfc\uff0c\u4e5f\u5c31\u662fA\u5148\u5230\u7684\u6982\u7387\u3002\u8fd9\u6837\u5c31\u628a\u6bd4\u8d5b\u770b\u53cd\u4e86\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/f9fc4d86d4124614.wav",
+     "from": 813,
+     "frames": 240
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u6362\u4e2a\u7ec8\u70b9",
+   "from": 10536,
+   "frames": 459,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u540c\u4e00\u4e2a\u4e09\u68f1\u67f1\uff0c\u8682\u8681\u8fd8\u662f\u4eceC\u51fa\u53d1\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u540c\u4e00\u4e2a\u4e09\u68f1\u67f1\uff0c\u8682\u8681\u8fd8\u662f\u4eceC\u51fa\u53d1\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/bbf07e1e6e3dc6e6.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "\u8fd9\u6b21F\u662f\u7ec8\u70b9\uff0cA\u8fd8\u662f\u9677\u9631\u3002F\u5148\u5230\u7684\u6982\u7387\u662f\u591a\u5c11\uff1f",
+     "caption": "\u8fd9\u6b21F\u662f\u7ec8\u70b9\uff0cA\u8fd8\u662f\u9677\u9631\u3002F\u5148\u5230\u7684\u6982\u7387\u662f\u591a\u5c11\uff1f",
+     "file": "2026-11-01-ant-on-prism-zh/audio/c355a2adc0996c60.wav",
+     "from": 204,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10995,
+   "frames": 398,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/32cbee10a890d39b.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u6362\u4e2a\u7ec8\u70b9\uff1a\u7b54\u6848",
+   "from": 11393,
+   "frames": 1729,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u5bf9\u4e00\u4e0b\u7b54\u6848\u3002A\u548cF\u662f\u9762ACFD\u4e0a\u76f8\u5bf9\u7684\u4e24\u4e2a\u89d2\u3002\u7528\u7af9\u7b7e\u7a7f\u8fc7\u5b83\uff0c\u8f6c\u534a\u5708\u3002",
+     "caption": "\u6211\u4eec\u6765\u5bf9\u4e00\u4e0b\u7b54\u6848\u3002A\u548cF\u662f\u9762ACFD\u4e0a\u76f8\u5bf9\u7684\u4e24\u4e2a\u89d2\u3002\u7528\u7af9\u7b7e\u7a7f\u8fc7\u5b83\uff0c\u8f6c\u534a\u5708\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/0eeda86c0ca546d2.wav",
+     "from": 0,
+     "frames": 298
+    },
+    {
+     "text": "A\u548cF\u4e92\u6362\uff0cC\u548cD\u4e92\u6362\uff0cB\u548cE\u4e5f\u4e92\u6362\u3002\u6240\u4ee5e\u7b49\u4e8e1\u51cfb\u3002",
+     "caption": "A\u548cF\u4e92\u6362\uff0cC\u548cD\u4e92\u6362\uff0cB\u548cE\u4e5f\u4e92\u6362\u3002\u6240\u4ee5e\u7b49\u4e8e1\u51cfb\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/185e3c1a7af25b98.wav",
+     "from": 308,
+     "frames": 293
+    },
+    {
+     "text": "\u5728C\u70b9\uff1ac\u662f0\u3001b\u548c1\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "caption": "\u5728C\u70b9\uff1ac\u662f0\u3001b\u548c1\u8fd9\u4e09\u4e2a\u6570\u7684\u5e73\u5747\u6570\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/efa067807644495a.wav",
+     "from": 612,
+     "frames": 206
+    },
+    {
+     "text": "\u5728B\u70b9\uff1a3b\u7b49\u4e8ec\u52a01\u51cfb\uff0c\u6240\u4ee54b\u7b49\u4e8ec\u52a01\u3002",
+     "caption": "\u5728B\u70b9\uff1a3b\u7b49\u4e8ec\u52a01\u51cfb\uff0c\u6240\u4ee54b\u7b49\u4e8ec\u52a01\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/8bfbb40bc7eda1cc.wav",
+     "from": 827,
+     "frames": 266
+    },
+    {
+     "text": "\u7531C\u70b9\u7684\u5f0f\u5b50\uff0cb\u7b49\u4e8e3c\u51cf1\u3002\u6362\u8fdb\u53bb\uff1a12c\u51cf4\u7b49\u4e8ec\u52a01\u3002",
+     "caption": "\u7531C\u70b9\u7684\u5f0f\u5b50\uff0cb\u7b49\u4e8e3c\u51cf1\u3002\u6362\u8fdb\u53bb\uff1a12c\u51cf4\u7b49\u4e8ec\u52a01\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/77784a18fd83ae67.wav",
+     "from": 1103,
+     "frames": 302
+    },
+    {
+     "text": "\u6240\u4ee511c\u7b49\u4e8e5\uff0cc\u5c31\u662f11\u5206\u4e4b5\u3002\u5982\u679c\u4f60\u505a\u5bf9\u4e86\uff0c\u771f\u4e86\u4e0d\u8d77\uff01",
+     "caption": "\u6240\u4ee511c\u7b49\u4e8e5\uff0cc\u5c31\u662f11\u5206\u4e4b5\u3002\u5982\u679c\u4f60\u505a\u5bf9\u4e86\uff0c\u771f\u4e86\u4e0d\u8d77\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/ec666676f96458b0.wav",
+     "from": 1415,
+     "frames": 261
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13122,
+   "frames": 661,
+   "lines": [
+    {
+     "text": "\u7ed9\u6bcf\u4e2a\u9876\u70b9\u4e00\u4e2a\u6982\u7387\u3002\u6bcf\u4e2a\u6982\u7387\uff0c\u90fd\u662f\u5b83\u90bb\u5c45\u4eec\u6982\u7387\u7684\u5e73\u5747\u6570\u3002",
+     "caption": "\u7ed9\u6bcf\u4e2a\u9876\u70b9\u4e00\u4e2a\u6982\u7387\u3002\u6bcf\u4e2a\u6982\u7387\uff0c\u90fd\u662f\u5b83\u90bb\u5c45\u4eec\u6982\u7387\u7684\u5e73\u5747\u6570\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/20cc8291387d7659.wav",
+     "from": 0,
+     "frames": 207
+    },
+    {
+     "text": "\u518d\u627e\u4e00\u79cd\u8f6c\u6cd5\uff0c\u628a\u8f93\u8d62\u5bf9\u8c03\u3002\u914d\u6210\u5bf9\u7684\u4e24\u4e2a\u6982\u7387\uff0c\u52a0\u8d77\u6765\u7b49\u4e8e1\u3002",
+     "caption": "\u518d\u627e\u4e00\u79cd\u8f6c\u6cd5\uff0c\u628a\u8f93\u8d62\u5bf9\u8c03\u3002\u914d\u6210\u5bf9\u7684\u4e24\u4e2a\u6982\u7387\uff0c\u52a0\u8d77\u6765\u7b49\u4e8e1\u3002",
+     "file": "2026-11-01-ant-on-prism-zh/audio/b016d7a00861dd51.wav",
+     "from": 217,
+     "frames": 238
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-11-01-ant-on-prism-zh/audio/f8351124be57142c.wav",
+     "from": 465,
+     "frames": 112
+    }
+   ]
+  }
+ ]
+}

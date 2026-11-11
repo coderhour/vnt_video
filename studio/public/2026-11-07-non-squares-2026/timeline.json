@@ -1,0 +1,534 @@
+{
+ "fps": 30,
+ "durationInFrames": 12506,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 577,
+   "lines": [
+    {
+     "text": "What's the two thousand twenty-sixth whole number that is NOT a perfect square?",
+     "caption": "What's the two thousand twenty-sixth whole number that is NOT a perfect square?",
+     "file": "2026-11-07-non-squares-2026/audio/85466e753f1be561.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "Counting them one by one would take all day. But there's a pattern hiding in the gaps.",
+     "caption": "Counting them one by one would take all day. But there's a pattern hiding in the gaps.",
+     "file": "2026-11-07-non-squares-2026/audio/0c485660b6d4bc36.wav",
+     "from": 186,
+     "frames": 200
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's knock out the squares and count what's left.",
+     "caption": "Hi, I'm Vantee! Let's knock out the squares and count what's left.",
+     "file": "2026-11-07-non-squares-2026/audio/9b96cffb42bacd5e.wav",
+     "from": 395,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 577,
+   "frames": 733,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-11-07-non-squares-2026/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "List the positive whole numbers that are not perfect squares, in order.",
+     "caption": "List the positive whole numbers that are not perfect squares, in order.",
+     "file": "2026-11-07-non-squares-2026/audio/d9306cd8761d9778.wav",
+     "from": 61,
+     "frames": 143
+    },
+    {
+     "text": "The list goes two, three, five, six, seven, eight, ten, and so on.",
+     "caption": "The list goes two, three, five, six, seven, eight, ten, and so on.",
+     "file": "2026-11-07-non-squares-2026/audio/db26fa27d1d829fb.wav",
+     "from": 214,
+     "frames": 237
+    },
+    {
+     "text": "What is the two thousand twenty-sixth number in the list?",
+     "caption": "What is the two thousand twenty-sixth number in the list?",
+     "file": "2026-11-07-non-squares-2026/audio/286e0758b06c9f31.wav",
+     "from": 461,
+     "frames": 120
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-07-non-squares-2026/audio/b97a89671840f7ca.wav",
+     "from": 591,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1310,
+   "frames": 894,
+   "lines": [
+    {
+     "text": "So what's going on? Start with the counting numbers, and knock out every perfect square.",
+     "caption": "So what's going on? Start with the counting numbers, and knock out every perfect square.",
+     "file": "2026-11-07-non-squares-2026/audio/8445152c9cd1ffb9.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "One, four, nine and sixteen are gone. Every number left gets a spot in line.",
+     "caption": "One, four, nine and sixteen are gone. Every number left gets a spot in line.",
+     "file": "2026-11-07-non-squares-2026/audio/cb6de03442f3ec6a.wav",
+     "from": 202,
+     "frames": 200
+    },
+    {
+     "text": "Two is in spot one, three is in spot two, and five is in spot three.",
+     "caption": "Two is in spot one, three is in spot two, and five is in spot three.",
+     "file": "2026-11-07-non-squares-2026/audio/e7e8dea02b319dd9.wav",
+     "from": 412,
+     "frames": 225
+    },
+    {
+     "text": "We want the number in spot two thousand twenty-six. The spot and the number are NOT the same!",
+     "caption": "We want the number in spot two thousand twenty-six. The spot and the number are NOT the same!",
+     "file": "2026-11-07-non-squares-2026/audio/75b1aa9b469eddb1.wav",
+     "from": 647,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2204,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-non-squares-2026/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "gaps",
+   "kind": "scene",
+   "chapter": "Solution 1: count the gaps",
+   "from": 2674,
+   "frames": 2694,
+   "lines": [
+    {
+     "text": "Welcome back! Strategy one: count the gaps between the squares.",
+     "caption": "Welcome back! Strategy one: count the gaps between the squares.",
+     "file": "2026-11-07-non-squares-2026/audio/f6a0e8169754e22a.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "Between one and four, two numbers survive. Between four and nine, four survive.",
+     "caption": "Between one and four, two numbers survive. Between four and nine, four survive.",
+     "file": "2026-11-07-non-squares-2026/audio/7e8f882d0c171a12.wav",
+     "from": 172,
+     "frames": 207
+    },
+    {
+     "text": "Between nine and sixteen, six survive. The gaps go two, four, six, eight, growing by two.",
+     "caption": "Between nine and sixteen, six survive. The gaps go two, four, six, eight, growing by two.",
+     "file": "2026-11-07-non-squares-2026/audio/6b93cb4d9449b13c.wav",
+     "from": 389,
+     "frames": 280
+    },
+    {
+     "text": "After k squared, the gap holds two k numbers. The next square is k squared plus two k plus one.",
+     "caption": "After k squared, the gap holds two k numbers. The next square is k squared plus two k plus one.",
+     "file": "2026-11-07-non-squares-2026/audio/2e6c9b9ec0fe617a.wav",
+     "from": 679,
+     "frames": 246
+    },
+    {
+     "text": "Now add up the gaps. Two, then six, then twelve, then twenty.",
+     "caption": "Now add up the gaps. Two, then six, then twelve, then twenty.",
+     "file": "2026-11-07-non-squares-2026/audio/cdbedfa0997e96c0.wav",
+     "from": 935,
+     "frames": 208
+    },
+    {
+     "text": "That's one times two, two times three, three times four, four times five. See the pattern?",
+     "caption": "That's one times two, two times three, three times four, four times five. See the pattern?",
+     "file": "2026-11-07-non-squares-2026/audio/dbf90047a31b338b.wav",
+     "from": 1153,
+     "frames": 226
+    },
+    {
+     "text": "Try forty-four gaps: forty-four times forty-five is one thousand nine hundred eighty. Just under!",
+     "caption": "Try forty-four gaps: forty-four times forty-five is one thousand nine hundred eighty. Just under!",
+     "file": "2026-11-07-non-squares-2026/audio/9728437eb0802bfa.wav",
+     "from": 1389,
+     "frames": 242
+    },
+    {
+     "text": "So k gaps hold k times k plus one numbers.",
+     "caption": "So k gaps hold k times k plus one numbers.",
+     "file": "2026-11-07-non-squares-2026/audio/781bded661dc4fd1.wav",
+     "from": 1641,
+     "frames": 159
+    },
+    {
+     "text": "Forty-five gaps would be forty-five times forty-six, two thousand seventy. Too many!",
+     "caption": "Forty-five gaps would be forty-five times forty-six, two thousand seventy. Too many!",
+     "file": "2026-11-07-non-squares-2026/audio/46785ddd8c66fc21.wav",
+     "from": 1810,
+     "frames": 222
+    },
+    {
+     "text": "Those are all the survivors below forty-five squared, which is two thousand twenty-five.",
+     "caption": "Those are all the survivors below forty-five squared, which is two thousand twenty-five.",
+     "file": "2026-11-07-non-squares-2026/audio/651ed4a46d611b54.wav",
+     "from": 2043,
+     "frames": 189
+    },
+    {
+     "text": "Hop over it. Then two thousand twenty-six takes spot one thousand nine hundred eighty-one.",
+     "caption": "Hop over it. Then two thousand twenty-six takes spot one thousand nine hundred eighty-one.",
+     "file": "2026-11-07-non-squares-2026/audio/409be2fbabad02f1.wav",
+     "from": 2241,
+     "frames": 192
+    },
+    {
+     "text": "We want spot two thousand twenty-six. That's forty-six more than spot one thousand nine hundred eighty.",
+     "caption": "We want spot two thousand twenty-six. That's forty-six more than spot one thousand nine hundred eighty.",
+     "file": "2026-11-07-non-squares-2026/audio/69b554ecfbfb7823.wav",
+     "from": 2444,
+     "frames": 214
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5368,
+   "frames": 634,
+   "lines": [
+    {
+     "text": "So count forty-six numbers past two thousand twenty-five.",
+     "caption": "So count forty-six numbers past two thousand twenty-five.",
+     "file": "2026-11-07-non-squares-2026/audio/be7493fe7ecbdfd4.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Two thousand twenty-five plus forty-six is <short pause> two thousand seventy-one! Choice C.",
+     "caption": "Two thousand twenty-five plus forty-six is two thousand seventy-one! Choice C.",
+     "file": "2026-11-07-non-squares-2026/audio/ec7e78717ab82117.wav",
+     "from": 136,
+     "frames": 243
+    },
+    {
+     "text": "The gap after forty-five squared holds ninety numbers, so we never hit another square.",
+     "caption": "The gap after forty-five squared holds ninety numbers, so we never hit another square.",
+     "file": "2026-11-07-non-squares-2026/audio/8c12d0b96c815f7a.wav",
+     "from": 389,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "skip",
+   "kind": "scene",
+   "chapter": "Solution 2: add back the squares",
+   "from": 6002,
+   "frames": 2121,
+   "lines": [
+    {
+     "text": "Here's a second way. Think about what the knocked-out squares do.",
+     "caption": "Here's a second way. Think about what the knocked-out squares do.",
+     "file": "2026-11-07-non-squares-2026/audio/796961c823046044.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "Each square below the answer pushes it one spot along. So add HOW MANY squares there are.",
+     "caption": "Each square below the answer pushes it one spot along. So add HOW MANY squares there are.",
+     "file": "2026-11-07-non-squares-2026/audio/56db4787d253f984.wav",
+     "from": 139,
+     "frames": 191
+    },
+    {
+     "text": "First guess: two thousand twenty-six, plus the squares up to it.",
+     "caption": "First guess: two thousand twenty-six, plus the squares up to it.",
+     "file": "2026-11-07-non-squares-2026/audio/07d2aa38be3f0f3e.wav",
+     "from": 340,
+     "frames": 171
+    },
+    {
+     "text": "Forty-five squared is two thousand twenty-five. So we skip forty-five perfect squares.",
+     "caption": "Forty-five squared is two thousand twenty-five. So we skip forty-five perfect squares.",
+     "file": "2026-11-07-non-squares-2026/audio/3796ab8fffa6531b.wav",
+     "from": 521,
+     "frames": 201
+    },
+    {
+     "text": "Two thousand twenty-six plus forty-five is two thousand seventy-one.",
+     "caption": "Two thousand twenty-six plus forty-five is two thousand seventy-one.",
+     "file": "2026-11-07-non-squares-2026/audio/b9ebf3e7db9e4a39.wav",
+     "from": 732,
+     "frames": 152
+    },
+    {
+     "text": "Now check! Did we jump over a new square on the way?",
+     "caption": "Now check! Did we jump over a new square on the way?",
+     "file": "2026-11-07-non-squares-2026/audio/c9e94ad855951c3c.wav",
+     "from": 894,
+     "frames": 128
+    },
+    {
+     "text": "The next square is forty-six squared, two thousand one hundred sixteen. We're safe!",
+     "caption": "The next square is forty-six squared, two thousand one hundred sixteen. We're safe!",
+     "file": "2026-11-07-non-squares-2026/audio/cdaf89261d4ab1b4.wav",
+     "from": 1031,
+     "frames": 173
+    },
+    {
+     "text": "Here's a shortcut for test day. Find the perfect square nearest to the spot number, and add its root.",
+     "caption": "Here's a shortcut for test day. Find the perfect square nearest to the spot number, and add its root.",
+     "file": "2026-11-07-non-squares-2026/audio/e4aadcac86ee709d.wav",
+     "from": 1214,
+     "frames": 222
+    },
+    {
+     "text": "The nearest square to two thousand twenty-six is forty-five squared. Add forty-five. Same answer!",
+     "caption": "The nearest square to two thousand twenty-six is forty-five squared. Add forty-five. Same answer!",
+     "file": "2026-11-07-non-squares-2026/audio/6fd31eb5d95da19e.wav",
+     "from": 1447,
+     "frames": 214
+    },
+    {
+     "text": "Numbers between k squared and the next square have spots near k squared. And k squares came before.",
+     "caption": "Numbers between k squared and the next square have spots near k squared. And k squares came before.",
+     "file": "2026-11-07-non-squares-2026/audio/ad8a631543b5b903.wav",
+     "from": 1671,
+     "frames": 242
+    },
+    {
+     "text": "When would you pick this one? When the clock is ticking. Just remember to check.",
+     "caption": "When would you pick this one? When the clock is ticking. Just remember to check.",
+     "file": "2026-11-07-non-squares-2026/audio/e1da56daeccd5bde.wav",
+     "from": 1923,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8123,
+   "frames": 1769,
+   "lines": [
+    {
+     "text": "Now the traps. Here's a handy test: the spot is the number, minus how many squares come before it.",
+     "caption": "Now the traps. Here's a handy test: the spot is the number, minus how many squares come before it.",
+     "file": "2026-11-07-non-squares-2026/audio/d3a5dc6dae08c9ba.wav",
+     "from": 0,
+     "frames": 244
+    },
+    {
+     "text": "Choice A, two thousand sixty-nine, minus forty-five, lands in spot two thousand twenty-four. Too early.",
+     "caption": "Choice A, two thousand sixty-nine, minus forty-five, lands in spot two thousand twenty-four. Too early.",
+     "file": "2026-11-07-non-squares-2026/audio/916cd8facc1c158e.wav",
+     "from": 254,
+     "frames": 256
+    },
+    {
+     "text": "B, two thousand seventy, is what you'd get if you forgot that one is a perfect square too.",
+     "caption": "B, two thousand seventy, is what you'd get if you forgot that one is a perfect square too.",
+     "file": "2026-11-07-non-squares-2026/audio/2506b5e1fb072c58.wav",
+     "from": 520,
+     "frames": 173
+    },
+    {
+     "text": "Test it: take away forty-five, and you land in spot two thousand twenty-five. Too early.",
+     "caption": "Test it: take away forty-five, and you land in spot two thousand twenty-five. Too early.",
+     "file": "2026-11-07-non-squares-2026/audio/074adbf00953eb6c.wav",
+     "from": 703,
+     "frames": 209
+    },
+    {
+     "text": "D, two thousand seventy-two, is what you'd get by adding forty-six instead of forty-five.",
+     "caption": "D, two thousand seventy-two, is what you'd get by adding forty-six instead of forty-five.",
+     "file": "2026-11-07-non-squares-2026/audio/dacc01d09a7bbe1f.wav",
+     "from": 923,
+     "frames": 196
+    },
+    {
+     "text": "Test it: take away forty-five, and you land in spot two thousand twenty-seven. Too late.",
+     "caption": "Test it: take away forty-five, and you land in spot two thousand twenty-seven. Too late.",
+     "file": "2026-11-07-non-squares-2026/audio/867ebe6caad219f0.wav",
+     "from": 1129,
+     "frames": 180
+    },
+    {
+     "text": "E, two thousand one hundred sixteen, is forty-six squared. It isn't even in the list!",
+     "caption": "E, two thousand one hundred sixteen, is forty-six squared. It isn't even in the list!",
+     "file": "2026-11-07-non-squares-2026/audio/e115985691748688.wav",
+     "from": 1319,
+     "frames": 204
+    },
+    {
+     "text": "So here's a great habit. After you add the squares, check that you didn't jump over a new one.",
+     "caption": "So here's a great habit. After you add the squares, check that you didn't jump over a new one.",
+     "file": "2026-11-07-non-squares-2026/audio/844c2f175adef9f3.wav",
+     "from": 1534,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: spot one thousand",
+   "from": 9892,
+   "frames": 372,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same list, a new spot.",
+     "caption": "Ready for a challenge? Same list, a new spot.",
+     "file": "2026-11-07-non-squares-2026/audio/7a61242d53fe244d.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "What is the one thousandth number in the list?",
+     "caption": "What is the one thousandth number in the list?",
+     "file": "2026-11-07-non-squares-2026/audio/c59dc136ee9c66b7.wav",
+     "from": 128,
+     "frames": 106
+    },
+    {
+     "text": "You can use either way. And don't forget to check!",
+     "caption": "You can use either way. And don't forget to check!",
+     "file": "2026-11-07-non-squares-2026/audio/b90dbd0a5d78d1d8.wav",
+     "from": 244,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10264,
+   "frames": 384,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-non-squares-2026/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Spot one thousand: the answer",
+   "from": 10648,
+   "frames": 1226,
+   "lines": [
+    {
+     "text": "Thirty-one squared is nine hundred sixty-one. That's thirty-one perfect squares below one thousand.",
+     "caption": "Thirty-one squared is nine hundred sixty-one. That's thirty-one perfect squares below one thousand.",
+     "file": "2026-11-07-non-squares-2026/audio/d4878961498af8ff.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "First guess: one thousand plus thirty-one, which is one thousand thirty-one.",
+     "caption": "First guess: one thousand plus thirty-one, which is one thousand thirty-one.",
+     "file": "2026-11-07-non-squares-2026/audio/67ccbef213e520a3.wav",
+     "from": 235,
+     "frames": 170
+    },
+    {
+     "text": "Now check. Thirty-two squared is one thousand twenty-four. We jumped right over it!",
+     "caption": "Now check. Thirty-two squared is one thousand twenty-four. We jumped right over it!",
+     "file": "2026-11-07-non-squares-2026/audio/dfd9ad266f1be463.wav",
+     "from": 415,
+     "frames": 191
+    },
+    {
+     "text": "So push one more spot. The answer is <short pause> one thousand thirty-two!",
+     "caption": "So push one more spot. The answer is one thousand thirty-two!",
+     "file": "2026-11-07-non-squares-2026/audio/07df773f871800f7.wav",
+     "from": 616,
+     "frames": 170
+    },
+    {
+     "text": "Check again: thirty-three squared is one thousand eighty-nine, safely past it.",
+     "caption": "Check again: thirty-three squared is one thousand eighty-nine, safely past it.",
+     "file": "2026-11-07-non-squares-2026/audio/7a831f46f93d8ce5.wav",
+     "from": 796,
+     "frames": 171
+    },
+    {
+     "text": "The shortcut agrees: the nearest square to one thousand is thirty-two squared. Add thirty-two.",
+     "caption": "The shortcut agrees: the nearest square to one thousand is thirty-two squared. Add thirty-two.",
+     "file": "2026-11-07-non-squares-2026/audio/4ce249851e07094b.wav",
+     "from": 976,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11874,
+   "frames": 632,
+   "lines": [
+    {
+     "text": "Big idea: the answer is its spot, plus HOW MANY squares sit below it. Then check for one more!",
+     "caption": "Big idea: the answer is its spot, plus HOW MANY squares sit below it. Then check for one more!",
+     "file": "2026-11-07-non-squares-2026/audio/8f5daf97cfac55a6.wav",
+     "from": 0,
+     "frames": 256
+    },
+    {
+     "text": "Or use the shortcut: add the root of the perfect square nearest to the spot number.",
+     "caption": "Or use the shortcut: add the root of the perfect square nearest to the spot number.",
+     "file": "2026-11-07-non-squares-2026/audio/f6a63fda78be44d3.wav",
+     "from": 266,
+     "frames": 173
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-non-squares-2026/audio/31a6054d0b03b932.wav",
+     "from": 449,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

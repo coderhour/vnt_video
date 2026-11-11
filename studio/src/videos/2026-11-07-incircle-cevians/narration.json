@@ -1,0 +1,177 @@
+{
+ "title": "Where Do These Two Lines Cross? | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "Intro",
+   "hold": 0.5,
+   "lines": [
+    "Two lines cross inside a triangle, right inside its circle. Exactly where do they cross?",
+    "A very tempting answer here is two to one. It's a trap, and you'll see why.",
+    "Hi, I'm Vantee! Let's balance this triangle like a seesaw."
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "The question",
+   "hold": 0.5,
+   "lines": [
+    "Triangle A B C has sides A B thirteen, B C fourteen, and C A fifteen.",
+    "The circle inside it touches B C at D, and C A at E. Segments A D and B E meet at P.",
+    "What is the ratio A P to P D? Here are the five choices."
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "What are we asked?",
+   "hold": 0.5,
+   "lines": [
+    "So what are we really asked? How P splits A D into two parts, A P and P D.",
+    "We know all three sides. First, we need to know exactly where D and E sit."
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "Try it yourself",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Now it's your turn. Pause the video and give it a go. I'll wait!"
+   ]
+  },
+  {
+   "id": "tangents",
+   "chapter": "Step 1: equal tangents",
+   "hold": 1.2,
+   "lines": [
+    "Welcome back!",
+    "From each corner, the two pieces out to the touch points have the same length.",
+    "Here's the reason. Fold along the line from the corner to the circle's center. One piece lands on the other.",
+    "Call the pieces x from A, y from B, and z from C.",
+    "So x plus y is thirteen, y plus z is fourteen, z plus x is fifteen.",
+    "Add all three sides: forty-two. Each letter shows up twice, so x plus y plus z is twenty-one.",
+    "Take away B C, which is y plus z. That leaves x, twenty-one minus fourteen, which is seven.",
+    "In the same way, y is six, and z is eight.",
+    "So B D is six and D C is eight. C E is eight and E A is seven."
+   ]
+  },
+  {
+   "id": "mass",
+   "chapter": "Solution 1: mass points",
+   "hold": 0.5,
+   "lines": [
+    "Now for the fun part, mass points. Put a weight on each corner.",
+    "A seesaw balances when weight times distance is the same on both sides.",
+    "For B C to balance at D, B's weight times six must equal C's weight times eight.",
+    "For C A to balance at E, C's weight times eight must equal A's weight times seven.",
+    "So all three products match. Six, seven and eight all go into one hundred sixty-eight.",
+    "That makes B twenty-eight, C twenty-one, and A twenty-four.",
+    "Now merge B and C into one weight at D. Twenty-eight plus twenty-one is forty-nine.",
+    "A and C merge at E, so it balances on B E too. Both lines meet at P: twenty-four at A, forty-nine at D."
+   ]
+  },
+  {
+   "id": "reveal",
+   "hold": 1.5,
+   "lines": [
+    "Twenty-four times A P equals forty-nine times P D. So A P to P D is forty-nine to twenty-four.",
+    "The answer is <short pause> forty-nine to twenty-four! Choice D."
+   ]
+  },
+  {
+   "id": "parallel",
+   "chapter": "Solution 2: a parallel line",
+   "hold": 0.5,
+   "lines": [
+    "Here's a second way, with a parallel line.",
+    "Through D, draw a line parallel to B E. It hits side C A at a new point, G.",
+    "In triangle C B E, D G is parallel to B E. So G splits C E just like D splits C B: eight to six.",
+    "That makes G E eight times six over fourteen, which is twenty-four over seven.",
+    "Now look at triangle A D G. P E is parallel to D G, so A P to P D equals A E to E G.",
+    "That's seven divided by twenty-four over seven, which is forty-nine over twenty-four. Same answer!",
+    "Pick this one when you'd rather not use weights."
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "Common traps",
+   "hold": 0.5,
+   "lines": [
+    "Now, the traps.",
+    "A, twenty-four to forty-nine, is P D to A P. It's our answer, flipped.",
+    "B, seven to four, is what you'd get if G cut C E in half, making G E four.",
+    "Choice C, two to one, is what you'd get using the tangent lengths as weights: fourteen at D, seven at A.",
+    "But B C wouldn't balance. Six times six is thirty-six, but eight times eight is sixty-four.",
+    "E, fifteen to seven, is what you'd get from C A to A E. That's a ratio on a side, not on A D.",
+    "So here's a great habit. Check that every seesaw balances before you merge weights."
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "Your turn: a 3-4-5 triangle",
+   "hold": 1.5,
+   "lines": [
+    "Your turn! Same idea, new triangle. Now A B is three, B C is four, and C A is five.",
+    "Same circle, same two lines. What is A P to P D?"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "lines": [
+    "Pause the video, and go for it!"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "3-4-5: the answer",
+   "hold": 1.5,
+   "lines": [
+    "Tangent pieces first. Half the perimeter is six. So x is six minus four, which is two.",
+    "In the same way, y is one, and z is three.",
+    "So B D is one, D C is three, C E is three, and E A is two.",
+    "The products must match: B times one, C times three, A times two. Make them all six.",
+    "So B is six, C is two, and A is three. D gets six plus two, which is eight.",
+    "So A P to P D is eight to three!"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "Recap",
+   "hold": 2,
+   "lines": [
+    "The big idea: equal tangents tell you exactly where the circle touches each side.",
+    "Then weights that balance each side turn those pieces into the ratio along A D.",
+    "I'm Vantee. Keep exploring, and I'll see you next time!"
+   ]
+  }
+ ],
+ "captions": {
+  "Triangle A B C has sides A B thirteen, B C fourteen, and C A fifteen.": "Triangle ABC has sides AB thirteen, BC fourteen, and CA fifteen.",
+  "The circle inside it touches B C at D, and C A at E. Segments A D and B E meet at P.": "The circle inside it touches BC at D, and CA at E. Segments AD and BE meet at P.",
+  "What is the ratio A P to P D? Here are the five choices.": "What is the ratio AP to PD? Here are the five choices.",
+  "So what are we really asked? How P splits A D into two parts, A P and P D.": "So what are we really asked? How P splits AD into two parts, AP and PD.",
+  "Take away B C, which is y plus z. That leaves x, twenty-one minus fourteen, which is seven.": "Take away BC, which is y plus z. That leaves x, twenty-one minus fourteen, which is seven.",
+  "So B D is six and D C is eight. C E is eight and E A is seven.": "So BD is six and DC is eight. CE is eight and EA is seven.",
+  "For B C to balance at D, B's weight times six must equal C's weight times eight.": "For BC to balance at D, B's weight times six must equal C's weight times eight.",
+  "For C A to balance at E, C's weight times eight must equal A's weight times seven.": "For CA to balance at E, C's weight times eight must equal A's weight times seven.",
+  "A and C merge at E, so it balances on B E too. Both lines meet at P: twenty-four at A, forty-nine at D.": "A and C merge at E, so it balances on BE too. Both lines meet at P: twenty-four at A, forty-nine at D.",
+  "Twenty-four times A P equals forty-nine times P D. So A P to P D is forty-nine to twenty-four.": "Twenty-four times AP equals forty-nine times PD. So AP to PD is forty-nine to twenty-four.",
+  "The answer is <short pause> forty-nine to twenty-four! Choice D.": "The answer is forty-nine to twenty-four! Choice D.",
+  "Through D, draw a line parallel to B E. It hits side C A at a new point, G.": "Through D, draw a line parallel to BE. It hits side CA at a new point, G.",
+  "In triangle C B E, D G is parallel to B E. So G splits C E just like D splits C B: eight to six.": "In triangle CBE, DG is parallel to BE. So G splits CE just like D splits CB: eight to six.",
+  "That makes G E eight times six over fourteen, which is twenty-four over seven.": "That makes GE eight times six over fourteen, which is twenty-four over seven.",
+  "Now look at triangle A D G. P E is parallel to D G, so A P to P D equals A E to E G.": "Now look at triangle ADG. PE is parallel to DG, so AP to PD equals AE to EG.",
+  "A, twenty-four to forty-nine, is P D to A P. It's our answer, flipped.": "A, twenty-four to forty-nine, is PD to AP. It's our answer, flipped.",
+  "B, seven to four, is what you'd get if G cut C E in half, making G E four.": "B, seven to four, is what you'd get if G cut CE in half, making GE four.",
+  "But B C wouldn't balance. Six times six is thirty-six, but eight times eight is sixty-four.": "But BC wouldn't balance. Six times six is thirty-six, but eight times eight is sixty-four.",
+  "E, fifteen to seven, is what you'd get from C A to A E. That's a ratio on a side, not on A D.": "E, fifteen to seven, is what you'd get from CA to AE. That's a ratio on a side, not on AD.",
+  "Your turn! Same idea, new triangle. Now A B is three, B C is four, and C A is five.": "Your turn! Same idea, new triangle. Now AB is three, BC is four, and CA is five.",
+  "Same circle, same two lines. What is A P to P D?": "Same circle, same two lines. What is AP to PD?",
+  "So B D is one, D C is three, C E is three, and E A is two.": "So BD is one, DC is three, CE is three, and EA is two.",
+  "So A P to P D is eight to three!": "So AP to PD is eight to three!",
+  "Then weights that balance each side turn those pieces into the ratio along A D.": "Then weights that balance each side turn those pieces into the ratio along AD."
+ }
+}

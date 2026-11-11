@@ -1,0 +1,533 @@
+{
+ "fps": 30,
+ "durationInFrames": 12697,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 510,
+   "lines": [
+    {
+     "text": "This number has one hundred five divisors. How many of them end in the digit one?",
+     "caption": "This number has one hundred five divisors. How many of them end in the digit one?",
+     "file": "2026-11-07-divisors-ending-1/audio/cc45864d6dd39a5d.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "You don't need to list them. Just watch the LAST digit.",
+     "caption": "You don't need to list them. Just watch the LAST digit.",
+     "file": "2026-11-07-divisors-ending-1/audio/7708c00569306ff6.wav",
+     "from": 201,
+     "frames": 119
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack this with last-digit patterns.",
+     "caption": "Hi, I'm Vantee! Let's crack this with last-digit patterns.",
+     "file": "2026-11-07-divisors-ending-1/audio/408f55cef8402ad7.wav",
+     "from": 331,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 510,
+   "frames": 529,
+   "lines": [
+    {
+     "text": "Here's the question. Take three to the sixth, times seven to the fourth, times thirteen squared.",
+     "caption": "Here's the question. Take three to the sixth, times seven to the fourth, times thirteen squared.",
+     "file": "2026-11-07-divisors-ending-1/audio/c03c25332df75cc5.wav",
+     "from": 0,
+     "frames": 242
+    },
+    {
+     "text": "How many of its positive divisors end in the digit one?",
+     "caption": "How many of its positive divisors end in the digit one?",
+     "file": "2026-11-07-divisors-ending-1/audio/5a4939f78262d457.wav",
+     "from": 252,
+     "frames": 122
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-07-divisors-ending-1/audio/b97a89671840f7ca.wav",
+     "from": 383,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1039,
+   "frames": 869,
+   "lines": [
+    {
+     "text": "Every divisor looks like three to the a, times seven to the b, times thirteen to the c.",
+     "caption": "Every divisor looks like three to the a, times seven to the b, times thirteen to the c.",
+     "file": "2026-11-07-divisors-ending-1/audio/53a1912357577273.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "Here, a goes from zero to six, b from zero to four, and c from zero to two.",
+     "caption": "Here, a goes from zero to six, b from zero to four, and c from zero to two.",
+     "file": "2026-11-07-divisors-ending-1/audio/5960fd2747a94077.wav",
+     "from": 222,
+     "frames": 212
+    },
+    {
+     "text": "That's seven times five times three. One hundred five divisors, way too many to list!",
+     "caption": "That's seven times five times three. One hundred five divisors, way too many to list!",
+     "file": "2026-11-07-divisors-ending-1/audio/6ffc64e0009688c5.wav",
+     "from": 444,
+     "frames": 214
+    },
+    {
+     "text": "Good news: to find a product's last digit, you only multiply the last digits.",
+     "caption": "Good news: to find a product's last digit, you only multiply the last digits.",
+     "file": "2026-11-07-divisors-ending-1/audio/330bc4cdbdb21010.wav",
+     "from": 668,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1908,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-divisors-ending-1/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "cycles",
+   "kind": "scene",
+   "chapter": "Solution 1: a last-digit grid",
+   "from": 2378,
+   "frames": 1008,
+   "lines": [
+    {
+     "text": "Welcome back! Let's look for a pattern. Here are the powers of three.",
+     "caption": "Welcome back! Let's look for a pattern. Here are the powers of three.",
+     "file": "2026-11-07-divisors-ending-1/audio/147f8d40105e5530.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "One, three, nine, twenty-seven, eighty-one. Their last digits go one, three, nine, seven, repeat.",
+     "caption": "One, three, nine, twenty-seven, eighty-one. Their last digits go one, three, nine, seven, repeat.",
+     "file": "2026-11-07-divisors-ending-1/audio/3f3ae6276f6d313a.wav",
+     "from": 179,
+     "frames": 380
+    },
+    {
+     "text": "Powers of seven end in one, seven, nine, three, and then one again.",
+     "caption": "Powers of seven end in one, seven, nine, three, and then one again.",
+     "file": "2026-11-07-divisors-ending-1/audio/c777917f97a4538c.wav",
+     "from": 568,
+     "frames": 198
+    },
+    {
+     "text": "Powers of thirteen end in one, three, nine. Thirteen acts just like three!",
+     "caption": "Powers of thirteen end in one, three, nine. Thirteen acts just like three!",
+     "file": "2026-11-07-divisors-ending-1/audio/5430b3742d4d6e31.wav",
+     "from": 777,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "grid",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3386,
+   "frames": 809,
+   "lines": [
+    {
+     "text": "Now let's build a grid. Across, a goes from zero to six. Down, c goes from zero to two.",
+     "caption": "Now let's build a grid. Across, a goes from zero to six. Down, c goes from zero to two.",
+     "file": "2026-11-07-divisors-ending-1/audio/63bd93c91016a326.wav",
+     "from": 0,
+     "frames": 286
+    },
+    {
+     "text": "Each of the twenty-one boxes holds the last digit of three to the a, times thirteen to the c.",
+     "caption": "Each of the twenty-one boxes holds the last digit of three to the a, times thirteen to the c.",
+     "file": "2026-11-07-divisors-ending-1/audio/1c649e56ce34f3e1.wav",
+     "from": 296,
+     "frames": 226
+    },
+    {
+     "text": "Let's find the ones. Two in the top row, one in the middle, and two at the bottom. Five in all!",
+     "caption": "Let's find the ones. Two in the top row, one in the middle, and two at the bottom. Five in all!",
+     "file": "2026-11-07-divisors-ending-1/audio/dcb2808ccaa0c3a0.wav",
+     "from": 532,
+     "frames": 244
+    }
+   ]
+  },
+  {
+   "id": "match",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4195,
+   "frames": 959,
+   "lines": [
+    {
+     "text": "Now bring in the sevens. Each box needs a partner from the powers of seven.",
+     "caption": "Now bring in the sevens. Each box needs a partner from the powers of seven.",
+     "file": "2026-11-07-divisors-ending-1/audio/21d6507c1fb04ff2.wav",
+     "from": 0,
+     "frames": 154
+    },
+    {
+     "text": "A box ending in one needs a partner ending in one. That's b equals zero, or four. Two ways!",
+     "caption": "A box ending in one needs a partner ending in one. That's b equals zero, or four. Two ways!",
+     "file": "2026-11-07-divisors-ending-1/audio/1efe407ff8468f38.wav",
+     "from": 164,
+     "frames": 221
+    },
+    {
+     "text": "A box ending in three needs a seven, because three times seven is twenty-one.",
+     "caption": "A box ending in three needs a seven, because three times seven is twenty-one.",
+     "file": "2026-11-07-divisors-ending-1/audio/df0a6992e0167079.wav",
+     "from": 395,
+     "frames": 189
+    },
+    {
+     "text": "Nine needs a nine, for eighty-one. And seven needs a three, for twenty-one again.",
+     "caption": "Nine needs a nine, for eighty-one. And seven needs a three, for twenty-one again.",
+     "file": "2026-11-07-divisors-ending-1/audio/916744b2d854a38c.wav",
+     "from": 594,
+     "frames": 197
+    },
+    {
+     "text": "So each of those boxes gets exactly one partner.",
+     "caption": "So each of those boxes gets exactly one partner.",
+     "file": "2026-11-07-divisors-ending-1/audio/547cc2816c71a1c8.wav",
+     "from": 801,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5154,
+   "frames": 488,
+   "lines": [
+    {
+     "text": "Five boxes end in one, with two ways each. That's ten. The other sixteen boxes add sixteen.",
+     "caption": "Five boxes end in one, with two ways each. That's ten. The other sixteen boxes add sixteen.",
+     "file": "2026-11-07-divisors-ending-1/audio/60f0f6ca65321381.wav",
+     "from": 0,
+     "frames": 239
+    },
+    {
+     "text": "Ten plus sixteen. So the answer is <short pause> twenty-six! Choice C.",
+     "caption": "Ten plus sixteen. So the answer is twenty-six! Choice C.",
+     "file": "2026-11-07-divisors-ending-1/audio/0f6039ec880b5d37.wav",
+     "from": 249,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "power3",
+   "kind": "scene",
+   "chapter": "Solution 2: everything is a power of three",
+   "from": 5642,
+   "frames": 1095,
+   "lines": [
+    {
+     "text": "Here's a slicker way. Three cubed is twenty-seven, and it ends in seven.",
+     "caption": "Here's a slicker way. Three cubed is twenty-seven, and it ends in seven.",
+     "file": "2026-11-07-divisors-ending-1/audio/3f3965cb51959e62.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "Seven acts like three cubed, so seven to the b acts like three to the three b.",
+     "caption": "Seven acts like three cubed, so seven to the b acts like three to the three b.",
+     "file": "2026-11-07-divisors-ending-1/audio/2b5ba42ca06e910b.wav",
+     "from": 186,
+     "frames": 216
+    },
+    {
+     "text": "Thirteen acts like three. So every divisor acts like three to the a plus three b plus c.",
+     "caption": "Thirteen acts like three. So every divisor acts like three to the a plus three b plus c.",
+     "file": "2026-11-07-divisors-ending-1/audio/4e0437526e7a269d.wav",
+     "from": 412,
+     "frames": 272
+    },
+    {
+     "text": "A power of three ends in one when its exponent is a multiple of four.",
+     "caption": "A power of three ends in one when its exponent is a multiple of four.",
+     "file": "2026-11-07-divisors-ending-1/audio/cdf1956bc9f361e0.wav",
+     "from": 694,
+     "frames": 182
+    },
+    {
+     "text": "So we need a plus three b plus c to be a multiple of four.",
+     "caption": "So we need a plus three b plus c to be a multiple of four.",
+     "file": "2026-11-07-divisors-ending-1/audio/ada354dda2e121b1.wav",
+     "from": 886,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6737,
+   "frames": 2162,
+   "lines": [
+    {
+     "text": "Let's go one b at a time. Here's our grid again, now filled with a plus c.",
+     "caption": "Let's go one b at a time. Here's our grid again, now filled with a plus c.",
+     "file": "2026-11-07-divisors-ending-1/audio/ec1519092baab7b1.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "When b is zero, a plus c must be zero, four, or eight. One, plus three, plus one. Five boxes.",
+     "caption": "When b is zero, a plus c must be zero, four, or eight. One, plus three, plus one. Five boxes.",
+     "file": "2026-11-07-divisors-ending-1/audio/5f9cbc13d8365328.wav",
+     "from": 205,
+     "frames": 318
+    },
+    {
+     "text": "When b is one, three b is three. So a plus c plus three must be four or eight.",
+     "caption": "When b is one, three b is three. So a plus c plus three must be four or eight.",
+     "file": "2026-11-07-divisors-ending-1/audio/3de4be2d1b15c41f.wav",
+     "from": 533,
+     "frames": 225
+    },
+    {
+     "text": "That makes a plus c equal to one or five. Two plus three, five boxes.",
+     "caption": "That makes a plus c equal to one or five. Two plus three, five boxes.",
+     "file": "2026-11-07-divisors-ending-1/audio/2074f27599e4b14a.wav",
+     "from": 768,
+     "frames": 201
+    },
+    {
+     "text": "When b is two, three b is six. So a plus c is two or six. Three plus three, six boxes.",
+     "caption": "When b is two, three b is six. So a plus c is two or six. Three plus three, six boxes.",
+     "file": "2026-11-07-divisors-ending-1/audio/25ae0be986db4ec5.wav",
+     "from": 979,
+     "frames": 276
+    },
+    {
+     "text": "When b is three, three b is nine. So a plus c is three or seven. Three plus two, five boxes.",
+     "caption": "When b is three, three b is nine. So a plus c is three or seven. Three plus two, five boxes.",
+     "file": "2026-11-07-divisors-ending-1/audio/784e76c8b18bf1b4.wav",
+     "from": 1266,
+     "frames": 287
+    },
+    {
+     "text": "b equals four works just like b equals zero. Five boxes.",
+     "caption": "b equals four works just like b equals zero. Five boxes.",
+     "file": "2026-11-07-divisors-ending-1/audio/229eacd2d298580b.wav",
+     "from": 1563,
+     "frames": 155
+    },
+    {
+     "text": "Five plus five plus six plus five plus five. Twenty-six again!",
+     "caption": "Five plus five plus six plus five plus five. Twenty-six again!",
+     "file": "2026-11-07-divisors-ending-1/audio/423d97fc4492fc2a.wav",
+     "from": 1728,
+     "frames": 203
+    },
+    {
+     "text": "When would you pick this one? When every prime acts like a power of the same number.",
+     "caption": "When would you pick this one? When every prime acts like a power of the same number.",
+     "file": "2026-11-07-divisors-ending-1/audio/61f69f68fac64dbf.wav",
+     "from": 1942,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8899,
+   "frames": 1223,
+   "lines": [
+    {
+     "text": "Choice A, twenty-four, is what you'd get forgetting one and the number itself. Both end in one!",
+     "caption": "Choice A, twenty-four, is what you'd get forgetting one and the number itself. Both end in one!",
+     "file": "2026-11-07-divisors-ending-1/audio/897b888c0db51efb.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "B, twenty-five, is what you'd get if sevens always ended in one. Five boxes times five choices.",
+     "caption": "B, twenty-five, is what you'd get if sevens always ended in one. Five boxes times five choices.",
+     "file": "2026-11-07-divisors-ending-1/audio/09e82a8db22cf880.wav",
+     "from": 219,
+     "frames": 240
+    },
+    {
+     "text": "D, twenty-seven, is what you'd get if thirteens ended in one: nine pairs for a and b, three for c.",
+     "caption": "D, twenty-seven, is what you'd get if thirteens ended in one: nine pairs for a and b, three for c.",
+     "file": "2026-11-07-divisors-ending-1/audio/28e8dd36ac1f3061.wav",
+     "from": 470,
+     "frames": 274
+    },
+    {
+     "text": "Choice E, twenty-eight, is just too many. We checked every box, and only twenty-six work.",
+     "caption": "Choice E, twenty-eight, is just too many. We checked every box, and only twenty-six work.",
+     "file": "2026-11-07-divisors-ending-1/audio/898108e37cea4d41.wav",
+     "from": 754,
+     "frames": 210
+    },
+    {
+     "text": "So here's a great habit. Check each prime's last-digit cycle. Never assume it ends in one.",
+     "caption": "So here's a great habit. Check each prime's last-digit cycle. Never assume it ends in one.",
+     "file": "2026-11-07-divisors-ending-1/audio/822b407a900b0d20.wav",
+     "from": 974,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a new number",
+   "from": 10122,
+   "frames": 479,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same idea, new number.",
+     "caption": "Ready for a challenge? Same idea, new number.",
+     "file": "2026-11-07-divisors-ending-1/audio/a4f311d0c95a6ae8.wav",
+     "from": 0,
+     "frames": 110
+    },
+    {
+     "text": "Take three to the fifth, times seven to the fourth, times thirteen cubed.",
+     "caption": "Take three to the fifth, times seven to the fourth, times thirteen cubed.",
+     "file": "2026-11-07-divisors-ending-1/audio/bae8fcf2c8bec036.wav",
+     "from": 120,
+     "frames": 195
+    },
+    {
+     "text": "How many of its positive divisors end in the digit one?",
+     "caption": "How many of its positive divisors end in the digit one?",
+     "file": "2026-11-07-divisors-ending-1/audio/5a4939f78262d457.wav",
+     "from": 325,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10601,
+   "frames": 399,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-divisors-ending-1/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "New number: the answer",
+   "from": 11000,
+   "frames": 1138,
+   "lines": [
+    {
+     "text": "Same grid! Now a goes from zero to five, and c from zero to three. That's twenty-four boxes.",
+     "caption": "Same grid! Now a goes from zero to five, and c from zero to three. That's twenty-four boxes.",
+     "file": "2026-11-07-divisors-ending-1/audio/80f135ebf1332d87.wav",
+     "from": 0,
+     "frames": 244
+    },
+    {
+     "text": "A box gives last digit one when a plus c is zero, four, or eight. One, plus four, plus one. Six boxes.",
+     "caption": "A box gives last digit one when a plus c is zero, four, or eight. One, plus four, plus one. Six boxes.",
+     "file": "2026-11-07-divisors-ending-1/audio/0dae36f9a79cc3ba.wav",
+     "from": 254,
+     "frames": 296
+    },
+    {
+     "text": "Each of those gets two partners, b equals zero or four. That's twelve.",
+     "caption": "Each of those gets two partners, b equals zero or four. That's twelve.",
+     "file": "2026-11-07-divisors-ending-1/audio/ae92974cd1ad099f.wav",
+     "from": 559,
+     "frames": 188
+    },
+    {
+     "text": "Twenty-four minus six leaves eighteen boxes, one partner each. That's eighteen more.",
+     "caption": "Twenty-four minus six leaves eighteen boxes, one partner each. That's eighteen more.",
+     "file": "2026-11-07-divisors-ending-1/audio/5a0dba52a7f5ff1a.wav",
+     "from": 757,
+     "frames": 220
+    },
+    {
+     "text": "Twelve plus eighteen. The answer is thirty!",
+     "caption": "Twelve plus eighteen. The answer is thirty!",
+     "file": "2026-11-07-divisors-ending-1/audio/2e5f527de3f8e293.wav",
+     "from": 987,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12138,
+   "frames": 559,
+   "lines": [
+    {
+     "text": "The big idea: only last digits matter, and last digits repeat in cycles.",
+     "caption": "The big idea: only last digits matter, and last digits repeat in cycles.",
+     "file": "2026-11-07-divisors-ending-1/audio/7eddd7060b1b5211.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "Make each prime a power of three, for last digits. Then the exponent must be a multiple of four.",
+     "caption": "Make each prime a power of three, for last digits. Then the exponent must be a multiple of four.",
+     "file": "2026-11-07-divisors-ending-1/audio/2f58b152f89be8f7.wav",
+     "from": 196,
+     "frames": 204
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-divisors-ending-1/audio/31a6054d0b03b932.wav",
+     "from": 410,
+     "frames": 117
+    }
+   ]
+  }
+ ]
+}

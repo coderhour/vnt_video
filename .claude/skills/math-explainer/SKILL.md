@@ -13,9 +13,14 @@ same kind of question alone. The tutor is **Vantee**: warm, patient, a little pl
 - **Correctness is non-negotiable.** Bank questions were auto-reviewed by an LLM, not a human.
   Never script a solution you haven't verified (step 2). If your answer disagrees with
   `correct_index`, stop and report the bank bug to the user. Don't make the video.
-- **Naming:** say "AMC 8-style" / "AMC 10-style". These are Vantee's own questions, so never present
+- **Naming:** on screen and in narration say "AMC 8-style" / "AMC 10-style"; in YouTube titles and thumbnails the
+  marker is "AMC 8 Practice" / "AMC 10 Practice" (§7; "AMC 10A/10B Practice" only in a title timed to that sitting). These are Vantee's own questions, so never present
   one as a real AMC problem (no year or problem number, no MAA logo). The tutor is "Vantee". Never
   use "Mila" (a retired name). "Vantee AI" is only a byline.
+- **Audience:** students (10–14) and their parents. Uploads are NOT marked made-for-kids (user's call, 2026-11-09);
+  thumbnail A/B tests (Test & Compare) need that, and the comment prompts assume comments are on.
+- **Never invent a statistic** ("most kids get 26", "90% miss this"). We have no such data, and this niche checks.
+  Name the trap itself instead: "The tempting answer is 26. It's wrong." Same for "everyone says…"
 - **English, 1920×1080, 30 fps, about 4–7 minutes.**
 - Paths: Vantee repo `/home/brad/code/vnt` (bank: `priv/quiz_banks/amc_practice_amc{8,10}_*.json`),
   scripts in `.claude/skills/math-explainer/scripts/` (run from the project root), video-shotcraft at `~/.claude/skills/video-shotcraft`.
@@ -104,17 +109,31 @@ user choose. Read the full question with `--show <bank>:<id>`.
 - Keep the verification code in `studio/src/videos/<slug>/verify.py` so the reviewer can re-run it.
 
 ### 3. Lesson script → `studio/src/videos/<slug>/narration.json`
-Structure (each bullet is a scene, and **bold** = starts a YouTube chapter):
-1. **Intro**: hook in under 10 s (a surprising fact, or "most kids get 26 here…"), then "I'm Vantee".
-2. **The question**: show it in full with the figure. Read it aloud, plainly.
-3. **What are we asked?**: highlight the key facts and the goal on screen. Restate them in kid words.
-4. **Try it yourself**: pause card (`kind: "pause"`, `hold: 10`, countdown). "Pause the video
-   and give it a go. I'll wait!"
+Structure (each bullet is a scene, and **bold** = starts a YouTube chapter; every chapter must last ≥ 10 s, or YouTube
+drops the whole chapter list):
+1. **The question**, part 1 = intro scene (≤ 2 lines, ≤ 8 s; it carries the chapter "The question" at 0:00): the hook, with the figure on screen from frame 0. No self-introduction here.
+   Viewers from a short arrive expecting the short's problem, so deliver it at once (YouTube: "no slow logo or intro").
+   Pick a hook pattern that differs from the 3 newest videos by `created` (check their `narration.json`):
+   - **trap-first**: "The tempting answer is 26. It's wrong, and here's the trap." (the bank's most tempting wrong choice);
+   - **surprise**: a true, checkable fact that sounds wrong ("A radius-4 circle fits inside a triangle with perimeter 42.");
+   - **which is bigger / guess first**: "More squares, or more rectangles? Guess now.";
+   - **real-world setup**: one line of story, then the question.
+2. The question, part 2 (same chapter): show it in full with the figure by about 8 s. Read it aloud, plainly. Vantee may say
+   "I'm Vantee" in one short clause here or later ("I'm Vantee, let's crack it."), never as its own opening line.
+3. What are we asked? (same chapter): highlight the key facts and the goal on screen. Restate them in kid words. Keep it to
+   2–3 lines: the question was just read.
+4. Try it yourself (same chapter, so the short pause card never forms a sub-10 s chapter): pause card
+   (`kind: "pause"`, `hold: 5`, `<Countdown seconds={5}>`: the countdown's `seconds` always equals the scene's `hold`). "Comment your answer, then pause the
+   video and give it a go!" The comment prompt aims for comments (likes and surveys are YouTube's named satisfaction signals; comments
+   counting too is our inference) and matches the pinned comment (§7).
 5. **Solution 1**: the intuitive way, step by step, one idea per step.
 6. **Solution 2** (and 3): the clever way. End with "when would you pick this one?"
 7. **Common traps**: from the bank's `choice_notes`. Show why each wrong choice is tempting.
-8. **Your turn: a variant**: state it, pause card, then a short worked answer.
-9. **Recap**: the `key_idea` as one memorable sentence, plus a cheerful sign-off from Vantee.
+8. **Your turn: a variant**: state it, pause card (`hold: 5`, same rule), then a short worked answer.
+9. **Recap**: the `key_idea` as one memorable sentence, plus a cheerful sign-off from Vantee. Vary the sign-off
+   line (and `SignOff`'s `text`) across videos: "Keep exploring!", "See you at the next one!", "Now go try the variant
+   again without me!"… A channel of 80 videos with identical openers and closers reads as template content
+   (YouTube's July 2025 "inauthentic content" policy).
    On screen the sign-off line is `<SignOff start={at(scene, <last line>, 0.1)} text="Keep exploring!" />` (`lib/Brand.tsx`):
    a full-screen Vantee.ai card, so don't lay out your own "Vantee" wordmark there.
 
@@ -137,8 +156,8 @@ Tutor voice:
 ```json
 {"title": "...", "fps": 30,
  "scenes": [
-  {"id": "intro", "chapter": "Intro", "lines": ["Here's a puzzle that tricks most kids.", "I'm Vantee..."]},
-  {"id": "try1", "chapter": "Try it yourself", "kind": "pause", "lines": ["Pause the video and give it a go!"], "hold": 10},
+  {"id": "intro", "chapter": "The question", "lines": ["The tempting answer is 26. It's wrong.", "Here's why..."]},
+  {"id": "try1", "kind": "pause", "lines": ["Comment your answer, then pause the video and give it a go!"], "hold": 5},
   {"id": "sol1-step2", "lines": ["..."], "hold": 1.5}
  ]}
 ```
@@ -266,15 +285,32 @@ In `studio/src/videos/<slug>/Composition.tsx`:
   `timeout 590 bash -c 'until [ -e videos/<slug>/render.done ] || [ -e videos/<slug>/render.failed ]; do sleep 15; done'`
 - What the script does, for reference: normalise the loudness to YouTube's -14 LUFS (the raw render comes out around -19). One loudnorm pass overshoots the -1.5 dB true peak, so the limiter (0.8 ≈ -1.9 dB, headroom for AAC) caps it. Video is copied, not re-encoded:
   `ffmpeg -i video.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.8:level=false -ar 48000 -c:a aac -b:a 192k out.mp4`
-- `poster.jpg`: a still of the question scene (`ffmpeg -ss <sec> -i video.mp4 -frames:v 1 poster.jpg`).
+- **Thumbnail = `poster.jpg`** (uploaded as the YouTube thumbnail; it decides whether anyone clicks). Export a `Thumb`
+  from `Composition.tsx` built on `lib/Thumb.tsx` `ThumbFrame` (example: `2026-11-01-incircle-radius-4`):
+  chip "AMC 8 Practice" / "AMC 10 Practice", a 2–5 word hook at 96 px (the trap in red: "Think it's 81?", or the
+  question in a few words: "How many squares?"), and the video's own figure, big, drawn with its helpers. Never the answer,
+  no captions, no paragraph text, no choice row. `render.sh` renders it (`<slug>-thumb`, 1280×720) into `poster.jpg`;
+  without a `Thumb` it falls back to a frame grab at `<poster_seconds>`. Look at it at phone size (scale 0.25): is the
+  hook readable and the figure clear? For a published video, re-render with
+  `npx remotion still src/index.ts <slug>-thumb ../videos/<slug>/poster.jpg --image-format=jpeg` (from `studio/`) and
+  run `python3 tools/youtube.py thumb <slug>`. Uploads save `"thumbnail": "set" | "failed: …"` in meta.json; the site
+  warns when it isn't set.
 - `videos/<slug>/meta.json`:
   ```json
-  {"title": "Can You Find All 30 Squares? | AMC 8-Style Level 5",
-   "description": "<2–3 kid-friendly lines>\n\n<chapter lines from tts.py>",
+  {"title": "AMC 8 Practice: Squares on a Dot Grid — Can You Find Them All?",
+   "description": "<one line in search words: contest, topic, method>\n<2–3 kid-friendly lines>\n\n<chapter lines from tts.py>",
+   "pinned_comment": "<the pause-card question + \"Comment your answer before you watch the solution!\">",
    "created": "YYYY-MM-DD",
    "question_id": "amc_practice_amc8_geometry_template:c1-010",
    "posts": []}
   ```
+  **Title** (≤ 70 chars, search first): `<Contest> Practice: <topic in search words> — <curiosity hook>`. The topic is what a
+  student or parent types: "Counting Squares on a Grid", "Triangle Inradius", "Integer Roots of a Quadratic",
+  "Probability with Dice". Never put the answer in the title, and no "Level N": end the description's first line with
+  "(Level N of 5)" instead.
+  **Description** line 1: contest + topic + method in plain words ("AMC 10 practice problem on the inradius of a triangle,
+  solved with tangent lengths and Heron's formula."). Search reads the title and description; the six tags barely count.
+  **`pinned_comment`** is required: post and pin it by hand after publishing (copy row on the site).
   `question_id` = `<bank file name without .json>:<question id>`, the same key `pick_question.py`
   prints. It is **required**: it links the video to its quiz-bank question (ids repeat across banks,
   so the bank name is part of it), and `pick_question.py` uses it to skip used questions.
@@ -287,8 +323,12 @@ Send a fresh-context subagent (`model: "opus"`) the video, key frames, `narratio
 3. **Kid test**: no unexplained jump, jargon or "obviously". The pacing leaves time to think.
 4. **Visual and audio**: shotcraft's `final-review.md` and `aesthetic-rules.md` checklist, plus
    overlaps, clipped text, sync drift and loudness.
+5. **Packaging**: the full question is on screen by about 8 s; the hook names a real trap or fact (no invented
+   statistic) and isn't the same pattern as the last 3 videos; the thumbnail reads at phone size and doesn't show
+   the answer; the title leads with contest + topic search words and doesn't give the answer away.
 
 Fix the findings, then tell the user to preview at `./start.sh` → http://localhost:8000.
 Leave `meta.json` without `status` (= draft). The user reviews it and clicks "Mark ready to publish" or "Needs fix" on the site.
 When asked to fix a video, read its `fixes` list, fix it, then set `status` back to `draft`.
-Publishing is manual. The user adds post links to `meta.json` → `posts`.
+Publishing is from the site (CLAUDE.md). When asked to plan the order: follow the contest calendar (AMC 10 videos
+before the AMC 10 dates in November, then AMC 8 until the AMC 8 in late January), at a pace the backlog can keep.

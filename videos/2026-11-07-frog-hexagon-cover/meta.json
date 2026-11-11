@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Random Walk on a Hexagon — Visit Every Corner?",
+ "description": "AMC 10 practice problem on the expected number of random hops for a frog to visit every corner of a hexagon, solved one stage at a time. (Level 5 of 5)\nA frog hops at random around a hexagon. How many jumps does it take, on average, to land on every corner? Vantee solves it one stage at a time, then shows a slick hill trick: the average wait is the steps to one exit times the steps to the other. You will see why 10, 12, 18 and 21 are tempting traps, and get an octagon challenge to try yourself.\n\n0:00 Intro\n0:14 The question\n0:34 What are we asked?\n0:47 Try it yourself\n1:03 Solution 1: one stage at a time\n3:58 Solution 2: the hill trick\n5:24 Common traps\n5:56 Your turn: an octagon\n6:23 Octagon: the answer\n6:45 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_counting_template:c2-015",
+ "posts": [],
+ "short": {
+  "title": "A Random Frog Hexagon: Is It 12 Jumps? #Shorts",
+  "description": "A frog hops at random around a hexagon. How many jumps, on average, until it visits every corner? Hint: the stages aren't equal.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 25,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "A frog hops randomly around a hexagon. On average, how many jumps to visit every corner? Comment your answer before you watch!"
+}

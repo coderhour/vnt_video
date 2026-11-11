@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-circles-through-grid-points';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -907,3 +908,18 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-circles-through-grid-points-thumb`, render.sh → poster.jpg): the 3×3 dots with a few circles through them, no count.
+export const Thumb: React.FC = () => {
+  const g = grid(340, 320, 150);
+  return (
+    <ThumbFrame chip="AMC 10 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>76?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <Circ g={g} pts={BIG} color={C.blue} width={9} />
+        <Circ g={g} pts={TILTED} color={C.violet} width={9} />
+        <Circ g={g} pts={[[0, 0], [1, 1], [2, 0]]} color={C.primary} width={9} />
+        <Dots g={g} r={17} />
+      </svg>
+    </ThumbFrame>
+  );
+};

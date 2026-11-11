@@ -7,6 +7,7 @@ import { Tex } from '../../lib/Tex';
 import { Confetti, Mark } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-triangle-sum-2024';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -677,3 +678,16 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-11-01-triangle-sum-2024-thumb`, render.sh → poster.jpg): the sum and "multiple of 2024", no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>253?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 28, width: '100%' }}>
+      <div style={{ whiteSpace: 'nowrap' }}><Tex tex={'1+2+3+\\cdots+n'} size={62} /></div>
+      <div style={{ fontSize: 56, fontWeight: 800, color: DARKGREY }}>is a multiple of</div>
+      <div style={{ padding: '6px 56px', borderRadius: 60, background: C.card, boxShadow: '0 8px 30px rgba(30,40,80,0.12)' }}>
+        <Tex tex={'2024'} size={150} color={C.violet} />
+      </div>
+    </div>
+  </ThumbFrame>
+);

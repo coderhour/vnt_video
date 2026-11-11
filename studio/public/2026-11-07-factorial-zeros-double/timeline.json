@@ -1,0 +1,510 @@
+{
+ "fps": 30,
+ "durationInFrames": 12380,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 593,
+   "lines": [
+    {
+     "text": "Ten factorial ends in two zeros. Twenty factorial ends in four. Twice as many!",
+     "caption": "Ten factorial ends in two zeros. Twenty factorial ends in four. Twice as many!",
+     "file": "2026-11-07-factorial-zeros-double/audio/8dc60ed3a982fa32.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "But eight factorial ends in one zero, and sixteen factorial ends in THREE.",
+     "caption": "But eight factorial ends in one zero, and sixteen factorial ends in THREE.",
+     "file": "2026-11-07-factorial-zeros-double/audio/2ab5ec0a021299bf.wav",
+     "from": 206,
+     "frames": 188
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find out exactly when doubling works.",
+     "caption": "Hi, I'm Vantee! Let's find out exactly when doubling works.",
+     "file": "2026-11-07-factorial-zeros-double/audio/ebd00f38911687da.wav",
+     "from": 404,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 593,
+   "frames": 802,
+   "lines": [
+    {
+     "text": "Here's the question. n factorial means one times two times three, all the way up to n.",
+     "caption": "Here's the question. n factorial means one times two times three, all the way up to n.",
+     "file": "2026-11-07-factorial-zeros-double/audio/b793c517016de22e.wav",
+     "from": 0,
+     "frames": 240
+    },
+    {
+     "text": "For how many whole numbers n, from one to one hundred, does this happen?",
+     "caption": "For how many whole numbers n, from one to one hundred, does this happen?",
+     "file": "2026-11-07-factorial-zeros-double/audio/b662fbca496ee152.wav",
+     "from": 250,
+     "frames": 165
+    },
+    {
+     "text": "The factorial of two n ends in exactly twice as many zeros as n factorial.",
+     "caption": "The factorial of two n ends in exactly twice as many zeros as n factorial.",
+     "file": "2026-11-07-factorial-zeros-double/audio/3c5ac192bccb3214.wav",
+     "from": 425,
+     "frames": 194
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-07-factorial-zeros-double/audio/b97a89671840f7ca.wav",
+     "from": 629,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1395,
+   "frames": 675,
+   "lines": [
+    {
+     "text": "So we sort every n into two groups. Doubling works, or it doesn't.",
+     "caption": "So we sort every n into two groups. Doubling works, or it doesn't.",
+     "file": "2026-11-07-factorial-zeros-double/audio/709ddfd28362940c.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "Ten works. Eight doesn't, because three is more than twice one. We need a rule.",
+     "caption": "Ten works. Eight doesn't, because three is more than twice one. We need a rule.",
+     "file": "2026-11-07-factorial-zeros-double/audio/24917aed64a568d3.wav",
+     "from": 193,
+     "frames": 220
+    },
+    {
+     "text": "Our job: count how many numbers, from one to one hundred, land in the works group.",
+     "caption": "Our job: count how many numbers, from one to one hundred, land in the works group.",
+     "file": "2026-11-07-factorial-zeros-double/audio/548cf8fa8b202b64.wav",
+     "from": 423,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2070,
+   "frames": 466,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-factorial-zeros-double/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "fives",
+   "kind": "scene",
+   "chapter": "Solution 1: count the fives",
+   "from": 2536,
+   "frames": 1028,
+   "lines": [
+    {
+     "text": "Welcome back! Each zero at the end is a factor of ten, and ten is two times five.",
+     "caption": "Welcome back! Each zero at the end is a factor of ten, and ten is two times five.",
+     "file": "2026-11-07-factorial-zeros-double/audio/347851f8be675584.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "A factorial has way more twos than fives. So we just count the fives.",
+     "caption": "A factorial has way more twos than fives. So we just count the fives.",
+     "file": "2026-11-07-factorial-zeros-double/audio/54785420ef64a0de.wav",
+     "from": 207,
+     "frames": 167
+    },
+    {
+     "text": "Every multiple of five gives one five. That's n over five, rounded down.",
+     "caption": "Every multiple of five gives one five. That's n over five, rounded down.",
+     "file": "2026-11-07-factorial-zeros-double/audio/e3315b1354fec25a.wav",
+     "from": 384,
+     "frames": 189
+    },
+    {
+     "text": "Every multiple of twenty-five gives one extra five. That's n over twenty-five, rounded down.",
+     "caption": "Every multiple of twenty-five gives one extra five. That's n over twenty-five, rounded down.",
+     "file": "2026-11-07-factorial-zeros-double/audio/ce3227975c5c0515.wav",
+     "from": 583,
+     "frames": 194
+    },
+    {
+     "text": "The factorial of two n goes up to two hundred. So it also gets a one hundred twenty-five term.",
+     "caption": "The factorial of two n goes up to two hundred. So it also gets a one hundred twenty-five term.",
+     "file": "2026-11-07-factorial-zeros-double/audio/f4e9080824c04219.wav",
+     "from": 787,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "double",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3564,
+   "frames": 2008,
+   "lines": [
+    {
+     "text": "Now the key question. Does doubling n double each rounded-down term?",
+     "caption": "Now the key question. Does doubling n double each rounded-down term?",
+     "file": "2026-11-07-factorial-zeros-double/audio/d08c3f1358082027.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "Eight over five is one, remainder three. Double it: sixteen over five is three. Not two, but THREE!",
+     "caption": "Eight over five is one, remainder three. Double it: sixteen over five is three. Not two, but THREE!",
+     "file": "2026-11-07-factorial-zeros-double/audio/e07533c36df41f6e.wav",
+     "from": 188,
+     "frames": 267
+    },
+    {
+     "text": "The remainder three doubled to six. Six is at least five, so it spills one extra five.",
+     "caption": "The remainder three doubled to six. Six is at least five, so it spills one extra five.",
+     "file": "2026-11-07-factorial-zeros-double/audio/d9a82b4e29a1171f.wav",
+     "from": 465,
+     "frames": 236
+    },
+    {
+     "text": "Now try seven. The remainder two doubles to four. No spill, so one becomes exactly two.",
+     "caption": "Now try seven. The remainder two doubles to four. No spill, so one becomes exactly two.",
+     "file": "2026-11-07-factorial-zeros-double/audio/6c06c30605ac7300.wav",
+     "from": 711,
+     "frames": 243
+    },
+    {
+     "text": "So the fives term doubles exactly when the remainder is zero, one or two.",
+     "caption": "So the fives term doubles exactly when the remainder is zero, one or two.",
+     "file": "2026-11-07-factorial-zeros-double/audio/d4b974d5b789fa14.wav",
+     "from": 964,
+     "frames": 201
+    },
+    {
+     "text": "Same for twenty-five. That term doubles exactly when the remainder is twelve or less.",
+     "caption": "Same for twenty-five. That term doubles exactly when the remainder is twelve or less.",
+     "file": "2026-11-07-factorial-zeros-double/audio/fa270249d511bfe6.wav",
+     "from": 1175,
+     "frames": 201
+    },
+    {
+     "text": "A term never comes out short. So for exactly twice the zeros, no term may spill.",
+     "caption": "A term never comes out short. So for exactly twice the zeros, no term may spill.",
+     "file": "2026-11-07-factorial-zeros-double/audio/275bb33809a5fdd1.wav",
+     "from": 1386,
+     "frames": 201
+    },
+    {
+     "text": "n factorial has no one hundred twenty-five term, so two n factorial can't have one either: two n is under one hundred twenty-five, so n is at most sixty-two.",
+     "caption": "n factorial has no one hundred twenty-five term, so two n factorial can't have one either: two n is under one hundred twenty-five, so n is at most sixty-two.",
+     "file": "2026-11-07-factorial-zeros-double/audio/9de5739fd44819dc.wav",
+     "from": 1597,
+     "frames": 364
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5572,
+   "frames": 1393,
+   "lines": [
+    {
+     "text": "Let's lay out the numbers in rows of twenty-five, and keep only the ones that pass.",
+     "caption": "Let's lay out the numbers in rows of twenty-five, and keep only the ones that pass.",
+     "file": "2026-11-07-factorial-zeros-double/audio/28eef378ab43df52.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "Rule one: the remainder by five is zero, one or two. Keep three columns out of every five.",
+     "caption": "Rule one: the remainder by five is zero, one or two. Keep three columns out of every five.",
+     "file": "2026-11-07-factorial-zeros-double/audio/06c5af9aa1430a4d.wav",
+     "from": 188,
+     "frames": 262
+    },
+    {
+     "text": "Rule two: the remainder by twenty-five is twelve or less. Keep the left part of each row.",
+     "caption": "Rule two: the remainder by twenty-five is twelve or less. Keep the left part of each row.",
+     "file": "2026-11-07-factorial-zeros-double/audio/ecf2eca24778bd35.wav",
+     "from": 460,
+     "frames": 212
+    },
+    {
+     "text": "Rule three: n is at most sixty-two. Cross out everything after that.",
+     "caption": "Rule three: n is at most sixty-two. Cross out everything after that.",
+     "file": "2026-11-07-factorial-zeros-double/audio/0059b441072f7ba0.wav",
+     "from": 682,
+     "frames": 168
+    },
+    {
+     "text": "One and two count too. Two factorial and four factorial have no zeros, and twice zero is zero.",
+     "caption": "One and two count too. Two factorial and four factorial have no zeros, and twice zero is zero.",
+     "file": "2026-11-07-factorial-zeros-double/audio/b57bd512c8c3bdc7.wav",
+     "from": 861,
+     "frames": 256
+    },
+    {
+     "text": "The first row keeps eight, since n starts at one. The next two rows keep nine each.",
+     "caption": "The first row keeps eight, since n starts at one. The next two rows keep nine each.",
+     "file": "2026-11-07-factorial-zeros-double/audio/eb725c8bf2663227.wav",
+     "from": 1127,
+     "frames": 219
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6965,
+   "frames": 220,
+   "lines": [
+    {
+     "text": "Eight plus nine plus nine is <short pause> twenty-six! Choice C.",
+     "caption": "Eight plus nine plus nine is twenty-six! Choice C.",
+     "file": "2026-11-07-factorial-zeros-double/audio/66294a149329c824.wav",
+     "from": 0,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "base5",
+   "kind": "scene",
+   "chapter": "Solution 2: base five",
+   "from": 7185,
+   "frames": 1726,
+   "lines": [
+    {
+     "text": "Here's a faster way. Write n in base five, with ones, fives and twenty-fives.",
+     "caption": "Here's a faster way. Write n in base five, with ones, fives and twenty-fives.",
+     "file": "2026-11-07-factorial-zeros-double/audio/dc9dfcbe78fac498.wav",
+     "from": 0,
+     "frames": 207
+    },
+    {
+     "text": "Thirty-seven is twenty-five, plus two fives, plus two ones. In base five, that's one, two, two.",
+     "caption": "Thirty-seven is twenty-five, plus two fives, plus two ones. In base five, that's one, two, two.",
+     "file": "2026-11-07-factorial-zeros-double/audio/5a55fdfde17b2664.wav",
+     "from": 217,
+     "frames": 261
+    },
+    {
+     "text": "Rule one says the ones digit is at most two.",
+     "caption": "Rule one says the ones digit is at most two.",
+     "file": "2026-11-07-factorial-zeros-double/audio/11711a6809773468.wav",
+     "from": 488,
+     "frames": 125
+    },
+    {
+     "text": "Rule two then says the fives digit is at most two. Three fives would already pass twelve.",
+     "caption": "Rule two then says the fives digit is at most two. Three fives would already pass twelve.",
+     "file": "2026-11-07-factorial-zeros-double/audio/dc2530ee61d5aeb0.wav",
+     "from": 623,
+     "frames": 197
+    },
+    {
+     "text": "And sixty-two in base five is two, two, two. So every digit is zero, one or two.",
+     "caption": "And sixty-two in base five is two, two, two. So every digit is zero, one or two.",
+     "file": "2026-11-07-factorial-zeros-double/audio/eb08a6792b949374.wav",
+     "from": 831,
+     "frames": 245
+    },
+    {
+     "text": "Three choices for each of three digits. Three times three times three is twenty-seven.",
+     "caption": "Three choices for each of three digits. Three times three times three is twenty-seven.",
+     "file": "2026-11-07-factorial-zeros-double/audio/2244a498fb465cf9.wav",
+     "from": 1086,
+     "frames": 201
+    },
+    {
+     "text": "Drop zero, zero, zero, since n starts at one. Twenty-six again!",
+     "caption": "Drop zero, zero, zero, since n starts at one. Twenty-six again!",
+     "file": "2026-11-07-factorial-zeros-double/audio/d6f039f393882079.wav",
+     "from": 1297,
+     "frames": 168
+    },
+    {
+     "text": "When would you pick this one? When doubling meets fives, think base five, with no carries.",
+     "caption": "When would you pick this one? When doubling meets fives, think base five, with no carries.",
+     "file": "2026-11-07-factorial-zeros-double/audio/1883f7b48f7ef133.wav",
+     "from": 1475,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8911,
+   "frames": 1086,
+   "lines": [
+    {
+     "text": "Each wrong answer is a trap. Choice A, twenty, is what you'd get from the multiples of five.",
+     "caption": "Each wrong answer is a trap. Choice A, twenty, is what you'd get from the multiples of five.",
+     "file": "2026-11-07-factorial-zeros-double/audio/de5c48dacae957a9.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "B, twenty-four, is what you'd get if you skipped one and two. But they count!",
+     "caption": "B, twenty-four, is what you'd get if you skipped one and two. But they count!",
+     "file": "2026-11-07-factorial-zeros-double/audio/0e626139025695c8.wav",
+     "from": 231,
+     "frames": 167
+    },
+    {
+     "text": "D, thirty, is what you'd get if you used the last digit in base ten, ending in zero, one or two.",
+     "caption": "D, thirty, is what you'd get if you used the last digit in base ten, ending in zero, one or two.",
+     "file": "2026-11-07-factorial-zeros-double/audio/e3f55e01e3ceb43f.wav",
+     "from": 409,
+     "frames": 219
+    },
+    {
+     "text": "Choice E, fifty, is what you'd get if you thought doubling works half the time. The rules are stricter.",
+     "caption": "Choice E, fifty, is what you'd get if you thought doubling works half the time. The rules are stricter.",
+     "file": "2026-11-07-factorial-zeros-double/audio/47606fd088a74925.wav",
+     "from": 638,
+     "frames": 207
+    },
+    {
+     "text": "So here's a great habit. When you double a rounded-down number, check the remainder.",
+     "caption": "So here's a great habit. When you double a rounded-down number, check the remainder.",
+     "file": "2026-11-07-factorial-zeros-double/audio/73ee694c7a2be4a0.wav",
+     "from": 855,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: triple it",
+   "from": 9997,
+   "frames": 369,
+   "lines": [
+    {
+     "text": "Your turn! For how many n from one to one hundred does three n factorial end in exactly three times as many zeros as n factorial?",
+     "caption": "Your turn! For how many n from one to one hundred does three n factorial end in exactly three times as many zeros as n factorial?",
+     "file": "2026-11-07-factorial-zeros-double/audio/4fdd2276371900a1.wav",
+     "from": 0,
+     "frames": 330
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10366,
+   "frames": 401,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-factorial-zeros-double/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 77
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Triple it: the answer",
+   "from": 10767,
+   "frames": 1013,
+   "lines": [
+    {
+     "text": "Three times the remainder must stay under five. So the remainder by five is zero or one.",
+     "caption": "Three times the remainder must stay under five. So the remainder by five is zero or one.",
+     "file": "2026-11-07-factorial-zeros-double/audio/c3b329a7c34d1162.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "By twenty-five, the remainder must be eight or less. Three times nine is too big.",
+     "caption": "By twenty-five, the remainder must be eight or less. Three times nine is too big.",
+     "file": "2026-11-07-factorial-zeros-double/audio/bdffd35728502672.wav",
+     "from": 211,
+     "frames": 196
+    },
+    {
+     "text": "And three n must stay under one hundred twenty-five. So n is at most forty-one.",
+     "caption": "And three n must stay under one hundred twenty-five. So n is at most forty-one.",
+     "file": "2026-11-07-factorial-zeros-double/audio/eef1f0292d79548b.wav",
+     "from": 417,
+     "frames": 202
+    },
+    {
+     "text": "Just like before, every base-five digit is zero or one. Two times two times two is eight.",
+     "caption": "Just like before, every base-five digit is zero or one. Two times two times two is eight.",
+     "file": "2026-11-07-factorial-zeros-double/audio/84c58908e08aea87.wav",
+     "from": 629,
+     "frames": 245
+    },
+    {
+     "text": "Drop the zero, and that's seven!",
+     "caption": "Drop the zero, and that's seven!",
+     "file": "2026-11-07-factorial-zeros-double/audio/64887b81b3ad0ce8.wav",
+     "from": 884,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11780,
+   "frames": 600,
+   "lines": [
+    {
+     "text": "The big idea: count the fives, as a sum of rounded-down terms.",
+     "caption": "The big idea: count the fives, as a sum of rounded-down terms.",
+     "file": "2026-11-07-factorial-zeros-double/audio/e093c10170c68900.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "Doubling keeps a term exactly double when its remainder is less than half the divisor. No spills!",
+     "caption": "Doubling keeps a term exactly double when its remainder is less than half the divisor. No spills!",
+     "file": "2026-11-07-factorial-zeros-double/audio/4a2022885e2616d7.wav",
+     "from": 188,
+     "frames": 216
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-factorial-zeros-double/audio/31a6054d0b03b932.wav",
+     "from": 414,
+     "frames": 117
+    }
+   ]
+  }
+ ]
+}

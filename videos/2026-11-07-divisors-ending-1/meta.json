@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Number of Divisors Ending in 1 — A Neat Trick",
+ "description": "AMC 10 practice problem on counting divisors with last digit 1 of a number with prime factors 3, 7 and 13, solved with a last-digit grid and a mod 10 trick. (Level 4 of 5)\nHow many positive divisors of 3^6 · 7^4 · 13^2 end in the digit 1? Vantee solves it two ways: a last-digit grid, then a neat trick that turns every prime into a power of three. You will see why 24, 25 and 27 are tempting traps, and get a new number to try yourself.\n\n0:00 Intro\n0:17 The question\n0:35 What are we asked?\n1:04 Try it yourself\n1:19 Solution 1: a last-digit grid\n3:08 Solution 2: everything is a power of three\n4:57 Common traps\n5:37 Your turn: a new number\n6:07 New number: the answer\n6:45 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_number_theory_template:c2-020",
+ "posts": [],
+ "short": {
+  "title": "Think it's 25? Divisors that end in 1 #Shorts",
+  "description": "How many divisors of 3^6 · 7^4 · 13^2 end in the digit 1? One last-digit grid cracks it.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 24,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "How many positive divisors of 3^6 · 7^4 · 13^2 end in the digit 1? Comment your answer before you watch the solution!"
+}

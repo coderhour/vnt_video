@@ -1,0 +1,52 @@
+{
+ "title": "No Doubles, No Triples (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's fifty? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Pick from one to one hundred, but none may be double or triple another.",
+    "What's the most you can pick?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "dominoes",
+   "lines": [
+    "Divide out all twos and threes. Numbers left with one fill this grid.",
+    "Right is double, up is triple. So clashes are neighbors!",
+    "Pair neighbors into dominoes. Each keeps at most one number.",
+    "Smaller grids hold the rest. In total, thirty-nine dominoes!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "So keep at most one hundred minus thirty-nine. That's sixty-one!",
+    "Fifty was the trap. It's not the most!",
+    "Did you get sixty-one? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "Pick from one to one hundred, but none may be double or triple another.": "Pick from 1 to 100, but none may be double or triple another.",
+  "Divide out all twos and threes. Numbers left with one fill this grid.": "Divide out all 2s and 3s. Numbers left with 1 fill this grid.",
+  "So keep at most one hundred minus thirty-nine. That's sixty-one!": "So keep at most 100 minus 39. That's... 61!"
+ }
+}

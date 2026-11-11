@@ -1,0 +1,51 @@
+{
+ "title": "The 2026th Non-Square (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's two thousand seventy? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Cross out the perfect squares: two, three, five, six, seven, eight, ten.",
+    "What's the two thousand twenty-sixth number in the list?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "push",
+   "lines": [
+    "Here's the trick. Every perfect square you cross out pushes the rest one spot along.",
+    "Ten sits in spot seven: seven, plus three squares!",
+    "Forty-five squared is two thousand twenty-five. That makes forty-five squares!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Two thousand twenty-six plus forty-five is two thousand seventy-one!",
+    "Two thousand seventy forgot that one is a square.",
+    "Did you get two thousand seventy-one? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "What's the two thousand twenty-sixth number in the list?": "What's the 2026th number in the list?",
+  "Two thousand seventy forgot that one is a square.": "2070 forgot that 1 is a square.",
+  "Two thousand twenty-six plus forty-five is two thousand seventy-one!": "2026 plus 45 is... 2071!"
+ }
+}

@@ -7,6 +7,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-ali-bea-money';
 export const CHIME = `${SLUG}/sfx/fs-541985.mp3`; // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -551,3 +552,22 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-31-ali-bea-money-thumb`, render.sh → poster.jpg): Ali and Bea's wallets with the two swaps, no total.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>$150?</span>]}>
+    <div style={{ position: 'relative', width: 640, height: 600 }}>
+      <Wallet x={0} y={40} w={230} h={190} name="Ali" start={-100} size={58} />
+      <Wallet x={410} y={40} w={230} h={190} name="Bea" start={-100} size={58} />
+      <svg viewBox="0 0 640 600" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
+        <line x1={250} y1={100} x2={385} y2={100} stroke={ALI} strokeWidth={12} strokeLinecap="round" />
+        <path d="M 360 76 L 390 100 L 360 124" stroke={ALI} strokeWidth={12} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <line x1={390} y1={176} x2={255} y2={176} stroke={BEA} strokeWidth={12} strokeLinecap="round" />
+        <path d="M 280 152 L 250 176 L 280 200" stroke={BEA} strokeWidth={12} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <text x={320} y={58} textAnchor="middle" fontFamily="Nunito, sans-serif" fontWeight={900} fontSize={46} fill={ALI_D}>20%</text>
+        <text x={320} y={246} textAnchor="middle" fontFamily="Nunito, sans-serif" fontWeight={900} fontSize={46} fill={BEA_D}>$10</text>
+      </svg>
+      <div style={{ position: 'absolute', left: 0, right: 0, top: 370, textAlign: 'center', fontSize: 96, fontWeight: 900, color: C.primary }}>Ali + Bea = ?</div>
+    </div>
+  </ThumbFrame>
+);

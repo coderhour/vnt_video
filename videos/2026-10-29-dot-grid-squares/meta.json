@@ -1,6 +1,6 @@
 {
- "title": "Can You Find All the Squares? | AMC 8-Style Level 5",
- "description": "20 dots, and most kids find 20 squares. But there are more hiding in there! Vantee shows two ways to find every one, including the sneaky tilted squares, then gives you a bigger grid to try yourself.\n\n0:00 Intro\n0:15 The question\n0:44 What are we asked?\n1:10 Try it yourself\n1:25 Solution 1: sort by size\n3:18 Solution 2: the box trick\n4:39 Common traps\n5:10 Your turn: a bigger grid\n5:43 Bigger grid: the answer\n6:29 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Counting Squares on a Grid — Can You Find Them All?",
+ "description": "AMC 8 practice problem on counting all the squares on a 4 by 5 dot grid, including tilted ones, solved two ways. (Level 5 of 5)\n20 dots, and most kids find 20 squares. But there are more hiding in there! Vantee shows two ways to find every one, including the sneaky tilted squares, then gives you a bigger grid to try yourself.\n\n0:00 Intro\n0:15 The question\n0:44 What are we asked?\n1:10 Try it yourself\n1:25 Solution 1: sort by size\n3:18 Solution 2: the box trick\n4:39 Common traps\n5:10 Your turn: a bigger grid\n5:43 Bigger grid: the answer\n6:29 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-29",
  "question_id": "amc_practice_amc8_geometry_template:c1-010",
  "posts": [
@@ -33,5 +33,7 @@
   ],
   "youtube_id": "TZTNx_qDfR8",
   "playlist_id": "PLMmhAusDs0A4"
- }
+ },
+ "pinned_comment": "How many squares hide in a 5 by 4 dot grid, tilted ones too? Comment your answer before you watch the solution!",
+ "thumbnail": "set"
 }

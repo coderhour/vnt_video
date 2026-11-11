@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-root-sum-floor';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -396,7 +397,8 @@ const FloorScene: SceneComponent = ({ scene }) => {
       <Eq x={px} y={340} start={at(scene, 1, 0.25)} size={56} tex="\text{all gaps}=\sqrt{101}-1" />
       <Eq x={px} y={450} start={at(scene, 2, 0.5)} size={56} tex="\text{sum}>2\left(\sqrt{101}-1\right)" />
       <Parts x={px} y={560} size={56} parts={[[at(scene, 3, 0.1), '10^2=100<101'], [at(scene, 3, 0.55), '\\text{so }\\sqrt{101}>10']]} />
-      <Eq x={px} y={655} start={at(scene, 4, 0.1)} size={58} color={FLOOR} tex="\text{sum}>2(10-1)=18" />
+      <Eq x={px} y={655} start={at(scene, 4, 0.1)} size={58} color={FLOOR} tex="\text{sum}>2(10-1)\phantom{=18}" />
+      <Eq x={px} y={655} start={at(scene, 4, 0.6)} size={58} color={FLOOR} tex="\phantom{\text{sum}>2(10-1)}=18" />
       <Boxed x={px - 20} y={640} w={740} h={100} start={at(scene, 4, 0.5)} />
       <Wall y0={1000} y1={800} start={at(scene, 4, 0.55)} color={FLOOR} x1={820} x2={1820} dur={28} labelTex="18" labelAbove labelX={1700} />
     </>
@@ -610,7 +612,8 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
     <>
       <Eq x={120} y={160} start={at(scene, 0, 0.15)} size={54} tex="\text{sum}>2\left(\sqrt{10001}-1\right)" />
       <Eq x={120} y={280} start={at(scene, 0, 0.65)} size={54} tex="\sqrt{10001}>100" />
-      <Eq x={120} y={400} start={at(scene, 1, 0.25)} size={58} color={FLOOR} tex="\text{sum}>2(100-1)=2\cdot 99=198" />
+      <Eq x={120} y={400} start={at(scene, 1, 0.25)} size={58} color={FLOOR} tex="\text{sum}>2(100-1)=2\cdot 99\phantom{=198}" />
+      <Eq x={120} y={400} start={at(scene, 1, 0.68)} size={58} color={FLOOR} tex="\phantom{\text{sum}>2(100-1)=2\cdot 99}=198" />
       <Eq x={120} y={540} start={at(scene, 2, 0.45)} size={54} tex="\text{sum}<1+2\left(\sqrt{10000}-1\right)" />
       <Eq x={120} y={670} start={at(scene, 3, 0.2)} size={58} color={CEIL} tex="=1+2\cdot 99=1+198=199" />
       <Answer x={1600} y={470} value="198" chime={CHIME} start={done} />
@@ -672,3 +675,14 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-11-01-root-sum-floor-thumb`, render.sh -> poster.jpg): the trap + the sum of 100 root fractions, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 10 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>19?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
+      <Tex tex={'\\dfrac{1}{\\sqrt{1}}+\\dfrac{1}{\\sqrt{2}}'} size={68} />
+      <Tex tex={'+\\dfrac{1}{\\sqrt{3}}+\\cdots'} size={68} />
+      <Tex tex={'+\\dfrac{1}{\\sqrt{100}}'} size={68} color={C.primary} />
+    </div>
+  </ThumbFrame>
+);

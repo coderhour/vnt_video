@@ -84,11 +84,16 @@ ASK = {
 
 
 def transcribe(path, lang="en"):
-    resp = post(f"models/{CHECK_MODEL}:generateContent", {"contents": [{"parts": [
-        {"inlineData": {"mimeType": "audio/wav", "data": base64.b64encode(path.read_bytes()).decode()}},
-        {"text": ASK[lang]},
-    ]}]})
-    return resp["candidates"][0]["content"]["parts"][0]["text"].strip()
+    # Gemini sometimes blocks a clip (no "candidates", promptFeedback.blockReason); retry, then report it as a
+    # mismatch instead of crashing the whole --check run.
+    for _ in range(3):
+        resp = post(f"models/{CHECK_MODEL}:generateContent", {"contents": [{"parts": [
+            {"inlineData": {"mimeType": "audio/wav", "data": base64.b64encode(path.read_bytes()).decode()}},
+            {"text": ASK[lang]},
+        ]}]})
+        if resp.get("candidates"):
+            return resp["candidates"][0]["content"]["parts"][0]["text"].strip()
+    return "BLOCKED"
 
 
 ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
@@ -172,8 +177,11 @@ def zh_num(n):
         return ZH_DIGITS[n]
     if n < 20:
         return "十" + (ZH_DIGITS[n % 10] if n % 10 else "")
-    if n >= 10000:
-        return "".join(ZH_DIGITS[int(c)] for c in str(n))  # ponytail: no 万 grouping, add when a video needs it
+    if n >= 10 ** 8:
+        return "".join(ZH_DIGITS[int(c)] for c in str(n))  # ponytail: no 亿 grouping, add when a video needs it
+    if n >= 10000:  # 39996 -> 三万九千九百九十六, 40004 -> 四万零四
+        hi, lo = divmod(n, 10000)
+        return zh_num(hi) + "万" + ("零" if 0 < lo < 1000 else "") + (zh_num(lo) if lo else "")
     out, zero = "", False
     for unit, v in (("千", 1000), ("百", 100), ("十", 10), ("", 1)):
         d = n // v % 10
@@ -185,12 +193,17 @@ def zh_num(n):
     return out
 
 
+# Homophones the transcriber can't tell apart by ear (the voice said them right; builders kept rewording around them).
+ZH_SAME = str.maketrans({"份": "分", "她": "他", "它": "他", "地": "的", "得": "的", "您": "你", "做": "作", "部": "步", "队": "对", "涨": "长", "π": "派"})
+
+
 def words_zh(text):
-    """Chinese line -> one token per character (Latin words stay whole); digits -> Chinese numerals, 两 = 二."""
+    """Chinese line -> one token per character (Latin words stay whole); digits -> Chinese numerals, 两 = 二, ZH_SAME homophones merged."""
     t = re.sub(r"<[^>]+>", " ", text.lower())
+    t = re.sub(r"(\d+(?:\.\d+)?)\s*[%％]", r"百分之\1", t)  # 5% = 百分之五
     t = re.sub(r"(\d+)\s*/\s*(\d+)", lambda m: zh_num(int(m.group(2))) + "分之" + zh_num(int(m.group(1))), t)  # 3/4 = 四分之三
     t = re.sub(r"(\d+)\.(\d+)", lambda m: zh_num(int(m.group(1))) + "点" + "".join(ZH_DIGITS[int(c)] for c in m.group(2)), t)
-    t = re.sub(r"\d+", lambda m: zh_num(int(m.group())), t).replace("两", "二")
+    t = re.sub(r"\d+", lambda m: zh_num(int(m.group())), t).replace("两", "二").translate(ZH_SAME)
     return ["LAUGH" if w == "[laugh]" else w for w in re.findall(r"\[laugh\]|[a-z]+|[\u4e00-\u9fff]", t)]
 
 

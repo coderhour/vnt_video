@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1197,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 122,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's two thousand seventy? Nope!",
+     "caption": "AMC 10 challenge! Think it's 2070? Nope!",
+     "file": "2026-11-07-non-squares-2026/short/audio/a4fab23560b42774.wav",
+     "from": 0,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 122,
+   "frames": 244,
+   "lines": [
+    {
+     "text": "Cross out the perfect squares: two, three, five, six, seven, eight, ten.",
+     "caption": "Cross out the perfect squares: 2, 3, 5, 6, 7, 8, 10.",
+     "file": "2026-11-07-non-squares-2026/short/audio/7864b956a334eaa1.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "What's the two thousand twenty-sixth number in the list?",
+     "caption": "What's the 2026th number in the list?",
+     "file": "2026-11-07-non-squares-2026/short/audio/ece9bd20c427e6f1.wav",
+     "from": 151,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 366,
+   "frames": 78,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-non-squares-2026/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "push",
+   "kind": "scene",
+   "chapter": null,
+   "from": 444,
+   "frames": 406,
+   "lines": [
+    {
+     "text": "Here's the trick. Every perfect square you cross out pushes the rest one spot along.",
+     "caption": "Here's the trick. Every perfect square you cross out pushes the rest one spot along.",
+     "file": "2026-11-07-non-squares-2026/short/audio/a61e43be1e2def7b.wav",
+     "from": 0,
+     "frames": 142
+    },
+    {
+     "text": "Ten sits in spot seven: seven, plus three squares!",
+     "caption": "10 sits in spot 7: 7, plus 3 squares!",
+     "file": "2026-11-07-non-squares-2026/short/audio/72fb602b2b69be69.wav",
+     "from": 146,
+     "frames": 106
+    },
+    {
+     "text": "Forty-five squared is two thousand twenty-five. That makes forty-five squares!",
+     "caption": "45\u00b2 is 2025. That makes 45 squares!",
+     "file": "2026-11-07-non-squares-2026/short/audio/85b7cf49fc6a01c3.wav",
+     "from": 256,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 850,
+   "frames": 347,
+   "lines": [
+    {
+     "text": "Two thousand twenty-six plus forty-five is two thousand seventy-one!",
+     "caption": "2026 plus 45 is... 2071!",
+     "file": "2026-11-07-non-squares-2026/short/audio/b6c69fbc9b9f2c01.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "Two thousand seventy forgot that one is a square.",
+     "caption": "2070 forgot that 1 is a square.",
+     "file": "2026-11-07-non-squares-2026/short/audio/58a278366b9fb9d5.wav",
+     "from": 122,
+     "frames": 99
+    },
+    {
+     "text": "Did you get two thousand seventy-one? Tell me below!",
+     "caption": "Did you get 2071? Tell me below!",
+     "file": "2026-11-07-non-squares-2026/short/audio/7d5dcbf38b2456e1.wav",
+     "from": 225,
+     "frames": 87
+    }
+   ]
+  }
+ ]
+}

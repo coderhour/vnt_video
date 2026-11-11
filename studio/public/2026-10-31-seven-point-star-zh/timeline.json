@@ -1,0 +1,550 @@
+{
+ "fps": 30,
+ "durationInFrames": 13430,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 607,
+   "lines": [
+    {
+     "text": "\u4e00\u9897\u661f\u661f\u67097\u4e2a\u5c16\u89d2\u3002\u8fd97\u4e2a\u5c16\u89d2\u7684\u89d2\u5ea6\u52a0\u8d77\u6765\u662f\u591a\u5c11\uff1f",
+     "caption": "\u4e00\u9897\u661f\u661f\u67097\u4e2a\u5c16\u89d2\u3002\u8fd97\u4e2a\u5c16\u89d2\u7684\u89d2\u5ea6\u52a0\u8d77\u6765\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-31-seven-point-star-zh/audio/ce0e600321eec275.wav",
+     "from": 0,
+     "frames": 191
+    },
+    {
+     "text": "\u4e00\u4e2a\u89d2\u90fd\u4e0d\u7528\u91cf\u3002\u8ba9\u94c5\u7b14\u8d70\u4e00\u8d70\uff0c\u5c31\u80fd\u544a\u8bc9\u6211\u4eec\u7b54\u6848\uff01",
+     "caption": "\u4e00\u4e2a\u89d2\u90fd\u4e0d\u7528\u91cf\u3002\u8ba9\u94c5\u7b14\u8d70\u4e00\u8d70\uff0c\u5c31\u80fd\u544a\u8bc9\u6211\u4eec\u7b54\u6848\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/25ae98082378a2b7.wav",
+     "from": 201,
+     "frames": 159
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7b97\u4e00\u7b97\uff0c\u8fd97\u4e2a\u5c16\u89d2\u4e00\u5171\u662f\u591a\u5c11\u5ea6\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7b97\u4e00\u7b97\uff0c\u8fd97\u4e2a\u5c16\u89d2\u4e00\u5171\u662f\u591a\u5c11\u5ea6\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/d3c9976f09e5325b.wav",
+     "from": 370,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 607,
+   "frames": 727,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/3cf9eec8c2273b9c.wav",
+     "from": 0,
+     "frames": 40
+    },
+    {
+     "text": "\u5706\u4e0a\u67097\u4e2a\u70b9\uff0c\u95f4\u9694\u76f8\u7b49\u3002",
+     "caption": "\u5706\u4e0a\u67097\u4e2a\u70b9\uff0c\u95f4\u9694\u76f8\u7b49\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/e0b103f9d3c0b580.wav",
+     "from": 50,
+     "frames": 117
+    },
+    {
+     "text": "\u987a\u7740\u5706\u5468\uff0c\u628a\u6bcf\u4e2a\u70b9\u548c\u540e\u9762\u7684\u7b2c2\u4e2a\u70b9\u8fde\u8d77\u6765\uff0c\u5c31\u753b\u51fa\u4e00\u9897\u661f\u661f\u3002",
+     "caption": "\u987a\u7740\u5706\u5468\uff0c\u628a\u6bcf\u4e2a\u70b9\u548c\u540e\u9762\u7684\u7b2c2\u4e2a\u70b9\u8fde\u8d77\u6765\uff0c\u5c31\u753b\u51fa\u4e00\u9897\u661f\u661f\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/61c89f8de101223d.wav",
+     "from": 177,
+     "frames": 216
+    },
+    {
+     "text": "\u8fd9\u9897\u661f\u661f\u76847\u4e2a\u5c16\u89d2\uff0c\u52a0\u8d77\u6765\u4e00\u5171\u662f\u591a\u5c11\u5ea6\uff1f",
+     "caption": "\u8fd9\u9897\u661f\u661f\u76847\u4e2a\u5c16\u89d2\uff0c\u52a0\u8d77\u6765\u4e00\u5171\u662f\u591a\u5c11\u5ea6\uff1f",
+     "file": "2026-10-31-seven-point-star-zh/audio/58d5003ce039d6e9.wav",
+     "from": 404,
+     "frames": 138
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/912770d7f5a19c13.wav",
+     "from": 552,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1334,
+   "frames": 735,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u6bcf\u6761\u7ebf\u90fd\u8df3\u8fc7\u4e00\u4e2a\u70b9\u3002A\u8fde\u5230C\uff0cC\u518d\u9694\u4e00\u4e2a\u70b9\u5f80\u4e0b\u8fde\uff0c\u5c31\u8fd9\u6837\u4e00\u76f4\u8fde\u4e0b\u53bb\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u6bcf\u6761\u7ebf\u90fd\u8df3\u8fc7\u4e00\u4e2a\u70b9\u3002A\u8fde\u5230C\uff0cC\u518d\u9694\u4e00\u4e2a\u70b9\u5f80\u4e0b\u8fde\uff0c\u5c31\u8fd9\u6837\u4e00\u76f4\u8fde\u4e0b\u53bb\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/edb924f2418004e5.wav",
+     "from": 0,
+     "frames": 376
+    },
+    {
+     "text": "\u8fd9\u9897\u661f\u661f\u975e\u5e38\u5300\u79f0\uff0c\u6240\u4ee57\u4e2a\u5c16\u89d2\u90fd\u4e00\u6837\u5927\u3002",
+     "caption": "\u8fd9\u9897\u661f\u661f\u975e\u5e38\u5300\u79f0\uff0c\u6240\u4ee57\u4e2a\u5c16\u89d2\u90fd\u4e00\u6837\u5927\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/cbb11ac8b8849905.wav",
+     "from": 386,
+     "frames": 164
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\u662f7\u4e2a\u5c16\u89d2\u7684\u89d2\u5ea6\u603b\u548c\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\u662f7\u4e2a\u5c16\u89d2\u7684\u89d2\u5ea6\u603b\u548c\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/47081584a522473d.wav",
+     "from": 560,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2069,
+   "frames": 494,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/1446b850c97c423a.wav",
+     "from": 0,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "slices",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u4ece\u5706\u5fc3\u5207\u5f00",
+   "from": 2563,
+   "frames": 1267,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u4ece\u5706\u5fc3\u51fa\u53d1\uff0c\u628a\u5706\u5207\u6210\u4e00\u5757\u4e00\u5757\u7684\u6247\u5f62\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u4ece\u5706\u5fc3\u51fa\u53d1\uff0c\u628a\u5706\u5207\u6210\u4e00\u5757\u4e00\u5757\u7684\u6247\u5f62\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/fb7663e80d12a837.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "7\u5757\u4e00\u6837\u5927\u7684\u6247\u5f62\uff0c\u6b63\u597d\u62fc\u6210\u4e00\u6574\u5708\u3002\u628a\u6bcf\u5757\u6247\u5f62\u7684\u5706\u5fc3\u89d2\u53eb\u505as\u3002",
+     "caption": "7\u5757\u4e00\u6837\u5927\u7684\u6247\u5f62\uff0c\u6b63\u597d\u62fc\u6210\u4e00\u6574\u5708\u3002\u628a\u6bcf\u5757\u6247\u5f62\u7684\u5706\u5fc3\u89d2\u53eb\u505as\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/062fa8fcd47684ce.wav",
+     "from": 240,
+     "frames": 264
+    },
+    {
+     "text": "7\u4e2as\u52a0\u8d77\u6765\u5c31\u662f360\u5ea6\u3002",
+     "caption": "7\u4e2as\u52a0\u8d77\u6765\u5c31\u662f360\u5ea6\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/947aa7a1b09193bf.wav",
+     "from": 514,
+     "frames": 113
+    },
+    {
+     "text": "\u73b0\u5728\u653e\u5927\u770bA\u70b9\u7684\u5c16\u89d2\u3002\u4eceA\u70b9\u51fa\u53d1\u7684\u4e24\u6761\u7ebf\uff0c\u5206\u522b\u8fde\u5230C\u70b9\u548cF\u70b9\u3002",
+     "caption": "\u73b0\u5728\u653e\u5927\u770bA\u70b9\u7684\u5c16\u89d2\u3002\u4eceA\u70b9\u51fa\u53d1\u7684\u4e24\u6761\u7ebf\uff0c\u5206\u522b\u8fde\u5230C\u70b9\u548cF\u70b9\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/9bd1a3347ea57d04.wav",
+     "from": 638,
+     "frames": 266
+    },
+    {
+     "text": "\u4ece\u5706\u5fc3\u8fde\u5230A\u70b9\u548cC\u70b9\u3002\u8fd9\u4e2a\u5706\u5fc3\u89d2\u5360\u4e86\u4e24\u5757\u6247\u5f62\uff0c\u6240\u4ee5\u662f2s\u3002",
+     "caption": "\u4ece\u5706\u5fc3\u8fde\u5230A\u70b9\u548cC\u70b9\u3002\u8fd9\u4e2a\u5706\u5fc3\u89d2\u5360\u4e862\u5757\u6247\u5f62\uff0c\u6240\u4ee5\u662f2s\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/87fdc4bdf8944e07.wav",
+     "from": 913,
+     "frames": 300
+    }
+   ]
+  },
+  {
+   "id": "triangle",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3830,
+   "frames": 2536,
+   "lines": [
+    {
+     "text": "OA\u548cOC\u90fd\u662f\u534a\u5f84\uff0c\u6240\u4ee5\u957f\u5ea6\u76f8\u7b49\u3002\u4e09\u89d2\u5f62OAC\u662f\u7b49\u8170\u4e09\u89d2\u5f62\u3002",
+     "caption": "OA\u548cOC\u90fd\u662f\u534a\u5f84\uff0c\u6240\u4ee5\u957f\u5ea6\u76f8\u7b49\u3002\u4e09\u89d2\u5f62OAC\u662f\u7b49\u8170\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/72ba9320f80d8711.wav",
+     "from": 0,
+     "frames": 260
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62\u7684\u5185\u89d2\u548c\u662f180\u5ea6\u3002\u5148\u51cf\u53bb2s\uff0c\u518d\u628a\u5269\u4e0b\u7684\u5e73\u5206\u6210\u4e24\u4efd\u3002",
+     "caption": "\u4e09\u89d2\u5f62\u7684\u5185\u89d2\u548c\u662f180\u5ea6\u3002\u5148\u51cf\u53bb2s\uff0c\u518d\u628a\u5269\u4e0b\u7684\u5e73\u5206\u6210\u4e24\u4efd\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/c5036b5df2b49adc.wav",
+     "from": 270,
+     "frames": 274
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u6bcf\u4e2a\u5e95\u89d2\u90fd\u7b49\u4e8e90\u51cfs\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u6bcf\u4e2a\u5e95\u89d2\u90fd\u7b49\u4e8e90\u51cfs\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/95e6bc76f8954f0e.wav",
+     "from": 554,
+     "frames": 136
+    },
+    {
+     "text": "\u53e6\u4e00\u8fb9\u4e5f\u4e00\u6837\u3002\u4e09\u89d2\u5f62OAF\u5728\u5706\u5fc3\u5904\u7684\u89d2\u4e5f\u662f2s\u3002",
+     "caption": "\u53e6\u4e00\u8fb9\u4e5f\u4e00\u6837\u3002\u4e09\u89d2\u5f62OAF\u5728\u5706\u5fc3\u5904\u7684\u89d2\u4e5f\u662f2s\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/8097ba5db69cbb25.wav",
+     "from": 700,
+     "frames": 208
+    },
+    {
+     "text": "\u6240\u4ee5\u4e09\u89d2\u5f62OAF\u5728A\u70b9\u7684\u89d2\uff0c\u4e5f\u662f90\u51cfs\u3002",
+     "caption": "\u6240\u4ee5\u4e09\u89d2\u5f62OAF\u5728A\u70b9\u7684\u89d2\uff0c\u4e5f\u662f90\u51cfs\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/07fab12fafd3502f.wav",
+     "from": 918,
+     "frames": 200
+    },
+    {
+     "text": "\u6240\u4ee5A\u70b9\u7684\u5c16\u89d2\uff0c\u662f\u4e24\u4e2a90\u51cfs\uff0c\u4e5f\u5c31\u662f180\u51cf2s\u3002",
+     "caption": "\u6240\u4ee5A\u70b9\u7684\u5c16\u89d2\uff0c\u662f2\u4e2a90\u51cfs\uff0c\u4e5f\u5c31\u662f180\u51cf2s\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/8fc0e1ad03e8940c.wav",
+     "from": 1128,
+     "frames": 236
+    },
+    {
+     "text": "7\u4e2a\u5c16\u89d2\uff0c\u5c31\u662f7\u4e58180\uff0c\u518d\u51cf\u53bb14\u4e58s\u3002",
+     "caption": "7\u4e2a\u5c16\u89d2\uff0c\u5c31\u662f7\u4e58180\uff0c\u518d\u51cf\u53bb14\u4e58s\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/606877933d3c8e99.wav",
+     "from": 1374,
+     "frames": 226
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f\u4e00\u5343\u4e8c\u767e\u516d\u5341\uff0c\u51cf\u53bb14s\u3002",
+     "caption": "\u4e5f\u5c31\u662f1260\uff0c\u51cf\u53bb14s\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/09425bf12926ef8a.wav",
+     "from": 1610,
+     "frames": 153
+    },
+    {
+     "text": "14\u4e58s\uff0c\u5c31\u662f2\u4e587\u4e58s\u3002",
+     "caption": "14\u4e58s\uff0c\u5c31\u662f2\u4e587\u4e58s\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/46b9f66648b7f36b.wav",
+     "from": 1773,
+     "frames": 158
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f2\u4e58\u4e09\u767e\u516d\u5341\uff0c\u7b49\u4e8e\u4e03\u767e\u4e8c\u5341\u3002",
+     "caption": "\u4e5f\u5c31\u662f2\u4e58360\uff0c\u7b49\u4e8e720\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/7ce859e32bd65687.wav",
+     "from": 1941,
+     "frames": 154
+    },
+    {
+     "text": "\u4e00\u5343\u4e8c\u767e\u516d\u5341\u51cf\u4e03\u767e\u4e8c\u5341\uff0c\u7b49\u4e8e\u4e94\u767e\u56db\u5341\u3002",
+     "caption": "1260\u51cf720\uff0c\u7b49\u4e8e540\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/f9061217de30496a.wav",
+     "from": 2105,
+     "frames": 200
+    },
+    {
+     "text": "\u5c16\u89d2\u52a0\u8d77\u6765\u662f540\u5ea6\u3002\u7b54\u6848\u662fC\uff01",
+     "caption": "\u5c16\u89d2\u52a0\u8d77\u6765\u662f540\u5ea6\u3002\u7b54\u6848\u662fC\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/a758f6f8fd392fb7.wav",
+     "from": 2314,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "pencil",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u8ba9\u94c5\u7b14\u8d70\u4e00\u5708",
+   "from": 6366,
+   "frames": 1448,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u5f88\u5de7\u5999\u7684\u65b9\u6cd5\u3002\u628a\u4e00\u652f\u94c5\u7b14\u653e\u5728A\u70b9\uff0c\u7b14\u5c16\u6307\u5411C\u70b9\uff0c\u8ba9\u94c5\u7b14\u6cbf\u7740\u661f\u661f\u8d70\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u5f88\u5de7\u5999\u7684\u65b9\u6cd5\u3002\u628a\u4e00\u652f\u94c5\u7b14\u653e\u5728A\u70b9\uff0c\u7b14\u5c16\u6307\u5411C\u70b9\uff0c\u8ba9\u94c5\u7b14\u6cbf\u7740\u661f\u661f\u8d70\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/3a328b57720bca2e.wav",
+     "from": 0,
+     "frames": 287
+    },
+    {
+     "text": "\u6bcf\u5230\u4e00\u4e2a\u5c16\u89d2\uff0c\u94c5\u7b14\u90fd\u8981\u8f6c\u4e2a\u5f2f\uff0c\u6cbf\u7740\u4e0b\u4e00\u6761\u7ebf\u8d70\u3002",
+     "caption": "\u6bcf\u5230\u4e00\u4e2a\u5c16\u89d2\uff0c\u94c5\u7b14\u90fd\u8981\u8f6c\u4e2a\u5f2f\uff0c\u6cbf\u7740\u4e0b\u4e00\u6761\u7ebf\u8d70\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/adcb62be579c41d0.wav",
+     "from": 297,
+     "frames": 166
+    },
+    {
+     "text": "\u8f6c\u8fc7\u7684\u89d2\u548c\u5c16\u89d2\u62fc\u5728\u4e00\u6761\u76f4\u7ebf\u4e0a\uff0c\u6240\u4ee5\u52a0\u8d77\u6765\u662f180\u5ea6\u3002",
+     "caption": "\u8f6c\u8fc7\u7684\u89d2\u548c\u5c16\u89d2\u62fc\u5728\u4e00\u6761\u76f4\u7ebf\u4e0a\uff0c\u6240\u4ee5\u52a0\u8d77\u6765\u662f180\u5ea6\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/806f43a36a7b76b2.wav",
+     "from": 473,
+     "frames": 210
+    },
+    {
+     "text": "\u6bcf\u6761\u7ebf\u8de8\u8fc7\u4e24\u5757\u6247\u5f62\u30027\u6761\u7ebf\u4e00\u5171\u8de8\u8fc714\u5757\uff0c\u4e5f\u5c31\u662f\u6574\u6574\u4e24\u5708\u3002",
+     "caption": "\u6bcf\u6761\u7ebf\u8de8\u8fc72\u5757\u6247\u5f62\u30027\u6761\u7ebf\u4e00\u5171\u8de8\u8fc714\u5757\uff0c\u4e5f\u5c31\u662f\u6574\u65742\u5708\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/d57d1379ae00a9d6.wav",
+     "from": 694,
+     "frames": 237
+    },
+    {
+     "text": "\u770b\u94c5\u7b14\u8d70\u5b8c\u4e00\u6574\u8d9f\u3002\u56de\u5230\u8d77\u70b9\u4e4b\u524d\uff0c\u94c5\u7b14\u7ed5\u7740\u5706\u5fc3\u8f6c\u4e86\u4e24\u5708\uff01",
+     "caption": "\u770b\u94c5\u7b14\u8d70\u5b8c\u4e00\u6574\u8d9f\u3002\u56de\u5230\u8d77\u70b9\u4e4b\u524d\uff0c\u94c5\u7b14\u7ed5\u7740\u5706\u5fc3\u8f6c\u4e862\u5708\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/217ee4e70e28deb7.wav",
+     "from": 940,
+     "frames": 227
+    },
+    {
+     "text": "\u8f6c\u4e24\u6574\u5708\uff0c\u5c31\u662f2\u4e58\u4e09\u767e\u516d\u5341\u5ea6\uff0c\u4e00\u5171\u8f6c\u4e86\u4e03\u767e\u4e8c\u5341\u5ea6\u3002",
+     "caption": "\u8f6c2\u6574\u5708\uff0c\u5c31\u662f2\u4e58360\u5ea6\uff0c\u4e00\u5171\u8f6c\u4e86720\u5ea6\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/55e6848979de7a90.wav",
+     "from": 1178,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "pencil2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7814,
+   "frames": 1116,
+   "lines": [
+    {
+     "text": "\u57287\u4e2a\u5c16\u89d2\u7684\u6bcf\u4e00\u5904\uff0c\u5c16\u89d2\u52a0\u8f6c\u89d2\u90fd\u662f180\u5ea6\u3002",
+     "caption": "\u57287\u4e2a\u5c16\u89d2\u7684\u6bcf\u4e00\u5904\uff0c\u5c16\u89d2\u52a0\u8f6c\u89d2\u90fd\u662f180\u5ea6\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/5508f1164a1e3173.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "7\u4e58\u4e00\u767e\u516b\u5341\uff0c\u7b49\u4e8e\u4e00\u5343\u4e8c\u767e\u516d\u5341\u3002",
+     "caption": "7\u4e58180\uff0c\u7b49\u4e8e1260\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/8f5fc8d334057950.wav",
+     "from": 211,
+     "frames": 154
+    },
+    {
+     "text": "\u94c5\u7b14\u8f6c\u8fc7\u7684\u89d2\u4e00\u5171\u662f720\u5ea6\uff0c\u5269\u4e0b\u7684\u5c31\u662f\u5c16\u89d2\u7684\u3002",
+     "caption": "\u94c5\u7b14\u8f6c\u8fc7\u7684\u89d2\u4e00\u5171\u662f720\u5ea6\uff0c\u5269\u4e0b\u7684\u5c31\u662f\u5c16\u89d2\u7684\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/c96d268de985ab6a.wav",
+     "from": 375,
+     "frames": 195
+    },
+    {
+     "text": "\u4e00\u5343\u4e8c\u767e\u516d\u5341\u51cf\u4e03\u767e\u4e8c\u5341\uff0c\u53c8\u662f\u4e94\u767e\u56db\u5341\uff01",
+     "caption": "1260\u51cf720\uff0c\u53c8\u662f540\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/c5b46dcba13bb3a4.wav",
+     "from": 580,
+     "frames": 186
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u4e0d\u7ba1\u662f\u4ec0\u4e48\u6837\u7684\u661f\u5f62\uff0c\u53ea\u8981\u6570\u4e00\u6570\u94c5\u7b14\u7ed5\u7740\u5706\u5fc3\u8f6c\u4e86\u51e0\u5708\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u4e0d\u7ba1\u662f\u4ec0\u4e48\u6837\u7684\u661f\u5f62\uff0c\u53ea\u8981\u6570\u4e00\u6570\u94c5\u7b14\u7ed5\u7740\u5706\u5fc3\u8f6c\u4e86\u51e0\u5708\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/cec9b0a076b83300.wav",
+     "from": 776,
+     "frames": 272
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 8930,
+   "frames": 1508,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/45fbdf2937401ad4.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "\u9009\u9879A\uff0c180\u5ea6\uff0c\u662f\u4e94\u89d2\u661f\u7684\u8457\u540d\u7b54\u6848\u3002\u53ef\u662f\u4e03\u4e2a\u89d2\u7684\u661f\u661f\u4e0d\u4e00\u6837\uff01",
+     "caption": "\u9009\u9879A\uff0c180\u5ea6\uff0c\u662f\u4e94\u89d2\u661f\u7684\u8457\u540d\u7b54\u6848\u3002\u53ef\u662f\u4e03\u4e2a\u89d2\u7684\u661f\u661f\u4e0d\u4e00\u6837\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/160a81edc0e20138.wav",
+     "from": 149,
+     "frames": 240
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c900\uff0c\u662f\u666e\u901a\u4e03\u8fb9\u5f62\u7684\u5185\u89d2\u548c\u3002",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c900\uff0c\u662f\u666e\u901a\u4e03\u8fb9\u5f62\u7684\u5185\u89d2\u548c\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/92fbe1e86c727580.wav",
+     "from": 399,
+     "frames": 150
+    },
+    {
+     "text": "\u6cbf\u7740\u4e03\u8fb9\u5f62\u8d70\uff0c\u94c5\u7b14\u53ea\u7ed5\u4e00\u5708\u3002",
+     "caption": "\u6cbf\u7740\u4e03\u8fb9\u5f62\u8d70\uff0c\u94c5\u7b14\u53ea\u7ed5\u4e00\u5708\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/aeffc80d3945bcdb.wav",
+     "from": 560,
+     "frames": 124
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879D\uff0c720\u5ea6\uff0c\u662f\u94c5\u7b14\u8f6c\u8fc7\u7684\u603b\u89d2\u5ea6\uff0c\u4e0d\u662f\u5c16\u89d2\u7684\u548c\u3002",
+     "caption": "\u518d\u770b\u9009\u9879D\uff0c720\u5ea6\uff0c\u662f\u94c5\u7b14\u8f6c\u8fc7\u7684\u603b\u89d2\u5ea6\uff0c\u4e0d\u662f\u5c16\u89d2\u7684\u548c\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/0a3f582f919b0426.wav",
+     "from": 694,
+     "frames": 202
+    },
+    {
+     "text": "\u8fd8\u6709\u9009\u9879B\uff0c360\u5ea6\uff0c\u6b63\u597d\u662f\u8f6c\u4e00\u6574\u5708\u3002",
+     "caption": "\u8fd8\u6709\u9009\u9879B\uff0c360\u5ea6\uff0c\u6b63\u597d\u662f\u8f6c\u4e00\u6574\u5708\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/4af9a89e209ea215.wav",
+     "from": 906,
+     "frames": 148
+    },
+    {
+     "text": "\u8fd9\u662f\u666e\u901a\u591a\u8fb9\u5f62\u7684\u8f6c\u89d2\u603b\u548c\uff0c\u4e0d\u662f\u5c16\u89d2\u7684\u548c\u3002",
+     "caption": "\u8fd9\u662f\u666e\u901a\u591a\u8fb9\u5f62\u7684\u8f6c\u89d2\u603b\u548c\uff0c\u4e0d\u662f\u5c16\u89d2\u7684\u548c\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/25cd9784f16981af.wav",
+     "from": 1064,
+     "frames": 152
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u522b\u628a\u522b\u7684\u56fe\u5f62\u7684\u89c4\u5f8b\u76f4\u63a5\u62ff\u6765\u7528\uff0c\u5148\u68c0\u67e5\u4e00\u4e0b\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u522b\u628a\u522b\u7684\u56fe\u5f62\u7684\u89c4\u5f8b\u76f4\u63a5\u62ff\u6765\u7528\uff0c\u5148\u68c0\u67e5\u4e00\u4e0b\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/25de7575af303970.wav",
+     "from": 1226,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u66f4\u5c16\u7684\u661f\u661f",
+   "from": 10438,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd97\u4e2a\u70b9\uff0c\u8fd9\u6b21\u628a\u6bcf\u4e2a\u70b9\u548c\u540e\u9762\u7684\u7b2c3\u4e2a\u70b9\u8fde\u8d77\u6765\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd97\u4e2a\u70b9\uff0c\u8fd9\u6b21\u628a\u6bcf\u4e2a\u70b9\u548c\u540e\u9762\u7684\u7b2c3\u4e2a\u70b9\u8fde\u8d77\u6765\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/35ad7e1093ed3973.wav",
+     "from": 0,
+     "frames": 236
+    },
+    {
+     "text": "\u661f\u661f\u53d8\u5f97\u66f4\u5c16\u4e86\u3002\u8fd97\u4e2a\u5c16\u89d2\u52a0\u8d77\u6765\u662f\u591a\u5c11\uff1f",
+     "caption": "\u661f\u661f\u53d8\u5f97\u66f4\u5c16\u4e86\u3002\u8fd97\u4e2a\u5c16\u89d2\u52a0\u8d77\u6765\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-31-seven-point-star-zh/audio/df8ae9bdb4be72bc.wav",
+     "from": 246,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10892,
+   "frames": 392,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/de87bbf070151cf3.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u66f4\u5c16\u7684\u661f\u661f\uff1a\u7b54\u6848",
+   "from": 11284,
+   "frames": 1402,
+   "lines": [
+    {
+     "text": "\u8ba9\u94c5\u7b14\u8d70\u4e00\u8d70\u3002\u73b0\u5728\u6bcf\u6761\u7ebf\u8de8\u8fc73\u5757\u6247\u5f62\uff0c7\u6761\u7ebf\u4e00\u5171\u8de8\u8fc721\u5757\u3002",
+     "caption": "\u8ba9\u94c5\u7b14\u8d70\u4e00\u8d70\u3002\u73b0\u5728\u6bcf\u6761\u7ebf\u8de8\u8fc73\u5757\u6247\u5f62\uff0c7\u6761\u7ebf\u4e00\u5171\u8de8\u8fc721\u5757\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/1ca6edeafa77b52d.wav",
+     "from": 0,
+     "frames": 244
+    },
+    {
+     "text": "21\u5757\u6247\u5f62\uff0c\u5c31\u662f\u6574\u65743\u5708\u3002",
+     "caption": "21\u5757\u6247\u5f62\uff0c\u5c31\u662f\u6574\u65743\u5708\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/ce41a003eb3dc249.wav",
+     "from": 254,
+     "frames": 135
+    },
+    {
+     "text": "\u6240\u4ee5\u94c5\u7b14\u8f6c\u4e863\u4e58\u4e09\u767e\u516d\u5341\uff0c\u4e5f\u5c31\u662f\u4e00\u5343\u96f6\u516b\u5341\u5ea6\u3002",
+     "caption": "\u6240\u4ee5\u94c5\u7b14\u8f6c\u4e863\u4e58360\uff0c\u4e5f\u5c31\u662f1080\u5ea6\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/f6357dd688803ff9.wav",
+     "from": 399,
+     "frames": 224
+    },
+    {
+     "text": "\u5c16\u89d2\u52a0\u8f6c\u89d2\uff0c\u8fd8\u662f7\u4e58\u4e00\u767e\u516b\u5341\uff0c\u7b49\u4e8e\u4e00\u5343\u4e8c\u767e\u516d\u5341\u3002",
+     "caption": "\u5c16\u89d2\u52a0\u8f6c\u89d2\uff0c\u8fd8\u662f7\u4e58180\uff0c\u7b49\u4e8e1260\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/55dc7dc187a00dd0.wav",
+     "from": 633,
+     "frames": 195
+    },
+    {
+     "text": "\u4e00\u5343\u4e8c\u767e\u516d\u5341\u51cf\u4e00\u5343\u96f6\u516b\u5341\uff0c\u7b49\u4e8e\u4e00\u767e\u516b\u5341\u5ea6\uff01",
+     "caption": "1260\u51cf1080\uff0c\u7b49\u4e8e180\u5ea6\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/f87a17f6cdcafb2b.wav",
+     "from": 838,
+     "frames": 192
+    },
+    {
+     "text": "\u5999\u5c31\u5999\u5728\u8fd9\u91cc\uff1a\u5c16\u89d2\u66f4\u5c16\uff0c\u603b\u548c\u53cd\u800c\u66f4\u5c0f\u3002\u5982\u679c\u4f60\u7b97\u51fa\u6765\u662f180\u5ea6\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5999\u5c31\u5999\u5728\u8fd9\u91cc\uff1a\u5c16\u89d2\u66f4\u5c16\uff0c\u603b\u548c\u53cd\u800c\u66f4\u5c0f\u3002\u5982\u679c\u4f60\u7b97\u51fa\u6765\u662f180\u5ea6\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/e3d8ff5318a7aac3.wav",
+     "from": 1040,
+     "frames": 293
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12686,
+   "frames": 744,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/ed7b822c4c111d37.wav",
+     "from": 0,
+     "frames": 70
+    },
+    {
+     "text": "\u5728\u6bcf\u4e2a\u89d2\u4e0a\uff0c\u5c16\u89d2\u548c\u94c5\u7b14\u7684\u8f6c\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\u3002",
+     "caption": "\u5728\u6bcf\u4e2a\u89d2\u4e0a\uff0c\u5c16\u89d2\u548c\u94c5\u7b14\u7684\u8f6c\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/ca00b6cb41dca050.wav",
+     "from": 80,
+     "frames": 179
+    },
+    {
+     "text": "\u6570\u4e00\u6570\u94c5\u7b14\u7ed5\u5706\u5fc3\u8f6c\u4e86\u51e0\u5708\uff0c\u4e58360\u5ea6\u5c31\u662f\u603b\u8f6c\u89d2\uff0c\u5269\u4e0b\u7684\u90fd\u662f\u5c16\u89d2\u7684\u3002",
+     "caption": "\u6570\u4e00\u6570\u94c5\u7b14\u7ed5\u5706\u5fc3\u8f6c\u4e86\u51e0\u5708\uff0c\u4e58360\u5ea6\u5c31\u662f\u603b\u8f6c\u89d2\uff0c\u5269\u4e0b\u7684\u90fd\u662f\u5c16\u89d2\u7684\u3002",
+     "file": "2026-10-31-seven-point-star-zh/audio/2550f371fe02a5df.wav",
+     "from": 269,
+     "frames": 279
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-seven-point-star-zh/audio/286df2e25876b771.wav",
+     "from": 558,
+     "frames": 102
+    }
+   ]
+  }
+ ]
+}

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-rolling-square';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -904,3 +905,22 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the board with the small square, its first roll ghosted, no answer.
+export const Thumb: React.FC = () => {
+  const u = 150;
+  const m: M = (p) => [130 + u * p[0], 590 - u * p[1]];
+  const [bx, by] = m([0, 2]);
+  return (
+    <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>4π?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <rect x={bx} y={by} width={2 * u} height={2 * u} fill="#e4e7ef" stroke={C.ink} strokeWidth={9} strokeLinejoin="round" />
+        <Sq m={m} T={2} ghost opacity={0.7} />
+        <Sq m={m} T={1} ghost opacity={0.7} />
+        <Trail m={m} to={2} opacity={0.9} width={14} />
+        <Sq m={m} T={0} />
+        <PMark m={m} T={0} scale={1.4} />
+      </svg>
+    </ThumbFrame>
+  );
+};

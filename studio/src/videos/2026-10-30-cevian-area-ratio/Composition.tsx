@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-cevian-area-ratio';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -713,3 +714,14 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-cevian-area-ratio-thumb`, render.sh → poster.jpg): the triangle with both lines and the shaded ABP, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>20?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <g transform="translate(62 105) scale(0.8)">
+        <Fig g={main(0, 0)} />
+      </g>
+    </svg>
+  </ThumbFrame>
+);

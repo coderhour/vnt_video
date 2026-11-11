@@ -1,20 +1,40 @@
 {
- "title": "Does It Hold the Center? | AMC 10-Style Level 4",
- "description": "Pick four of the 13 corners of a regular 13-sided polygon. How often does the quadrilateral hold the center? Vantee shows a neat trick: count the misses and subtract.\nA miss fits in half the circle, so count each one by its first vertex. Then check it a second way with the big gap, spot the common traps, and try an 11-sided version yourself.\n\n0:00 Intro\n0:20 The question\n0:42 What are we asked?\n1:32 Try it yourself\n1:47 Solution 1: count the misses\n3:36 Solution 2: the big gap\n4:35 Common traps\n5:22 Your turn: eleven vertices\n5:48 Eleven vertices: the answer\n6:28 Recap",
+ "title": "AMC 10 Practice: Quadrilateral Holding the Center — Count the Misses",
+ "description": "AMC 10 practice problem on choosing four vertices of a regular 13-gon and counting the quadrilaterals that contain the center, solved by counting the misses. (Level 4 of 5)\nPick four of the 13 corners of a regular 13-sided polygon. How often does the quadrilateral hold the center? Vantee shows a neat trick: count the misses and subtract.\nA miss fits in half the circle, so count each one by its first vertex. Then check it a second way with the big gap, spot the common traps, and try an 11-sided version yourself.\n\n0:00 Intro\n0:20 The question\n0:42 What are we asked?\n1:32 Try it yourself\n1:47 Solution 1: count the misses\n3:36 Solution 2: the big gap\n4:35 Common traps\n5:22 Your turn: eleven vertices\n5:48 Eleven vertices: the answer\n6:28 Recap",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc10_mock_test_template:c2-007",
- "posts": [],
+ "posts": [
+  {
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=VJmU0YAd7k0",
+   "published_at": "2026-11-07T11:30:00-08:00",
+   "scheduled_at": "2026-11-06T23:04:18-08:00"
+  }
+ ],
  "short": {
   "title": "Does It Hold the Center? Count the Misses! #Shorts",
   "description": "Pick 4 corners of a 13-sided shape: does the quadrilateral hold the center? One counting trick makes it easy.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": [],
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/stQmYUl_m7g",
+    "published_at": "2026-11-07T11:30:00-08:00",
+    "scheduled_at": "2026-11-06T23:04:21-08:00"
+   }
+  ],
   "challenge": 5,
   "tags": [
    "AMC 10",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
+  ],
+  "youtube_id": "stQmYUl_m7g",
+  "playlist_id": "PLR-HuI9ErJA0"
  },
- "status": "ready"
+ "status": "ready",
+ "youtube_id": "VJmU0YAd7k0",
+ "playlist_id": "PLbrpe4TxLJvg",
+ "pinned_comment": "Pick 4 corners of a regular 13-gon: how many quadrilaterals hold the center? Comment your answer before you watch the solution!",
+ "thumbnail": "set"
 }

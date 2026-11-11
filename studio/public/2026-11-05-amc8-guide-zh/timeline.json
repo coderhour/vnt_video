@@ -1,0 +1,438 @@
+{
+ "fps": 30,
+ "durationInFrames": 8360,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 596,
+   "lines": [
+    {
+     "text": "\u6bcf\u5e741\u6708\uff0c\u6210\u5343\u4e0a\u4e07\u7684\u521d\u4e2d\u751f\u4f1a\u53c2\u52a0\u540c\u4e00\u573a\u6570\u5b66\u7ade\u8d5b\u3002",
+     "caption": "\u6bcf\u5e741\u6708\uff0c\u6210\u5343\u4e0a\u4e07\u7684\u521d\u4e2d\u751f\u4f1a\u53c2\u52a0\u540c\u4e00\u573a\u6570\u5b66\u7ade\u8d5b\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/5f56d659b31aca2f.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "25\u9053\u9898\uff0c40\u5206\u949f\u3002\u8fd8\u6709\u4e00\u6761\u5f88\u591a\u540c\u5b66\u90fd\u4f1a\u5ffd\u7565\u7684\u89c4\u5219\u3002",
+     "caption": "25\u9053\u9898\uff0c40\u5206\u949f\u3002\u8fd8\u6709\u4e00\u6761\u5f88\u591a\u540c\u5b66\u90fd\u4f1a\u5ffd\u7565\u7684\u89c4\u5219\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/8efb3abe1cf344a0.wav",
+     "from": 195,
+     "frames": 202
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u5907\u6218AMC 8\uff01",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u5907\u6218AMC 8\uff01",
+     "file": "2026-11-05-amc8-guide-zh/audio/8dad00a767935df8.wav",
+     "from": 407,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "kind": "scene",
+   "chapter": "AMC 8 \u662f\u4ec0\u4e48\uff1f",
+   "from": 596,
+   "frames": 814,
+   "lines": [
+    {
+     "text": "AMC\u662f\u7f8e\u56fd\u6570\u5b66\u7ade\u8d5b\u7684\u82f1\u6587\u7f29\u5199\u3002",
+     "caption": "AMC\u662f\u7f8e\u56fd\u6570\u5b66\u7ade\u8d5b\u7684\u82f1\u6587\u7f29\u5199\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/a19620c2cac8a681.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "AMC 8\u9762\u5411\u516b\u5e74\u7ea7\u53ca\u4ee5\u4e0b\u7684\u5b66\u751f\u3002",
+     "caption": "AMC 8\u9762\u5411\u516b\u5e74\u7ea7\u53ca\u4ee5\u4e0b\u7684\u5b66\u751f\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/b155f4804fba6c04.wav",
+     "from": 132,
+     "frames": 131
+    },
+    {
+     "text": "\u6bd4\u8d5b\u6bcf\u5e741\u6708\u4e3e\u884c\uff0c\u5728\u4f60\u7684\u5b66\u6821\u6216\u5176\u4ed6\u8003\u70b9\u53c2\u52a0\u3002",
+     "caption": "\u6bd4\u8d5b\u6bcf\u5e741\u6708\u4e3e\u884c\uff0c\u5728\u4f60\u7684\u5b66\u6821\u6216\u5176\u4ed6\u8003\u70b9\u53c2\u52a0\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/3531c17e286c18e5.wav",
+     "from": 273,
+     "frames": 171
+    },
+    {
+     "text": "\u4e0d\u80fd\u7528\u8ba1\u7b97\u5668\u3002\u53ea\u9700\u8981\u4e00\u652f\u94c5\u7b14\u548c\u8349\u7a3f\u7eb8\u3002",
+     "caption": "\u4e0d\u80fd\u7528\u8ba1\u7b97\u5668\u3002\u53ea\u9700\u8981\u4e00\u652f\u94c5\u7b14\u548c\u8349\u7a3f\u7eb8\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/52f137c94ecc3c71.wav",
+     "from": 454,
+     "frames": 149
+    },
+    {
+     "text": "\u9898\u76ee\u5f00\u5934\u6bd4\u8f83\u53cb\u597d\uff0c\u8d8a\u5f80\u540e\u8d8a\u96be\u3002",
+     "caption": "\u9898\u76ee\u5f00\u5934\u6bd4\u8f83\u53cb\u597d\uff0c\u8d8a\u5f80\u540e\u8d8a\u96be\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/3f65ad1eb4c76511.wav",
+     "from": 614,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "format",
+   "kind": "scene",
+   "chapter": "\u9898\u578b\u4e0e\u8ba1\u5206",
+   "from": 1410,
+   "frames": 530,
+   "lines": [
+    {
+     "text": "\u4e00\u517125\u9053\u9009\u62e9\u9898\uff0c\u6bcf\u9898\u6709A\u5230E\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "\u4e00\u517125\u9053\u9009\u62e9\u9898\uff0c\u6bcf\u9898\u6709A\u5230E\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/7371c0bcbd68ef67.wav",
+     "from": 0,
+     "frames": 177
+    },
+    {
+     "text": "\u8003\u8bd5\u65f6\u95f440\u5206\u949f\uff0c\u5e73\u5747\u6bcf\u989896\u79d2\u3002",
+     "caption": "\u8003\u8bd5\u65f6\u95f440\u5206\u949f\uff0c\u5e73\u5747\u6bcf\u989896\u79d2\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/e93c98f022947498.wav",
+     "from": 187,
+     "frames": 152
+    },
+    {
+     "text": "\u6bcf\u7b54\u5bf9\u4e00\u9898\u5f971\u5206\uff0c\u6ee1\u520625\u5206\u3002",
+     "caption": "\u6bcf\u7b54\u5bf9\u4e00\u9898\u5f971\u5206\uff0c\u6ee1\u520625\u5206\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/12e201ba96483e52.wav",
+     "from": 349,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1940,
+   "frames": 653,
+   "lines": [
+    {
+     "text": "\u5f88\u591a\u540c\u5b66\u5ffd\u7565\u7684\u89c4\u5219\u662f\uff1a\u7b54\u9519\u4e0d\u6263\u5206\uff01",
+     "caption": "\u5f88\u591a\u540c\u5b66\u5ffd\u7565\u7684\u89c4\u5219\u662f\uff1a\u7b54\u9519\u4e0d\u6263\u5206\uff01",
+     "file": "2026-11-05-amc8-guide-zh/audio/d4c6e7250ea05f5f.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "\u7a7a\u7740\u4e0d\u7b54\u4e5f\u662f0\u5206\u3002\u6240\u4ee5\u7a7a\u7740\u6c38\u8fdc\u6bd4\u4e0d\u4e0a\u731c\u4e00\u4e2a\u3002",
+     "caption": "\u7a7a\u7740\u4e0d\u7b54\u4e5f\u662f0\u5206\u3002\u6240\u4ee5\u7a7a\u7740\u6c38\u8fdc\u6bd4\u4e0d\u4e0a\u731c\u4e00\u4e2a\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/4d7597d7f0f28ddb.wav",
+     "from": 154,
+     "frames": 188
+    },
+    {
+     "text": "\u968f\u4fbf\u731c\uff0c\u731c\u5bf9\u7684\u673a\u4f1a\u662f5\u5206\u4e4b1\u3002\u6392\u9664\u4e24\u4e2a\u9009\u9879\uff0c\u5c31\u53d8\u62103\u5206\u4e4b1\u3002",
+     "caption": "\u968f\u4fbf\u731c\uff0c\u731c\u5bf9\u7684\u673a\u4f1a\u662f5\u5206\u4e4b1\u3002\u6392\u9664\u4e24\u4e2a\u9009\u9879\uff0c\u5c31\u53d8\u62103\u5206\u4e4b1\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/92c63d825cfd144d.wav",
+     "from": 352,
+     "frames": 232
+    }
+   ]
+  },
+  {
+   "id": "awards",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2593,
+   "frames": 353,
+   "lines": [
+    {
+     "text": "\u5f97\u5206\u524d5%\u7684\u540c\u5b66\uff0c\u53ef\u4ee5\u8fdb\u5165\u8363\u8a89\u699c\u3002",
+     "caption": "\u5f97\u5206\u524d5%\u7684\u540c\u5b66\uff0c\u53ef\u4ee5\u8fdb\u5165\u8363\u8a89\u699c\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/00a9a68f0da42aae.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "\u524d1%\u7684\u540c\u5b66\uff0c\u53ef\u4ee5\u8fdb\u5165\u6770\u51fa\u8363\u8a89\u699c\u3002",
+     "caption": "\u524d1%\u7684\u540c\u5b66\uff0c\u53ef\u4ee5\u8fdb\u5165\u6770\u51fa\u8363\u8a89\u699c\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/b7389cce414f4dbe.wav",
+     "from": 151,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "pace",
+   "kind": "scene",
+   "chapter": "\u8003\u573a\u7b56\u7565",
+   "from": 2946,
+   "frames": 644,
+   "lines": [
+    {
+     "text": "\u7b56\u7565\u4e00\uff1a\u63a7\u5236\u8282\u594f\u3002",
+     "caption": "\u7b56\u7565\u4e00\uff1a\u63a7\u5236\u8282\u594f\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/6b5ae8fe40cc4310.wav",
+     "from": 0,
+     "frames": 86
+    },
+    {
+     "text": "\u524d10\u9898\u901a\u5e38\u6bd4\u8f83\u5feb\u3002\u4e89\u53d6\u572810\u5206\u949f\u5de6\u53f3\u505a\u5b8c\u3002",
+     "caption": "\u524d10\u9898\u901a\u5e38\u6bd4\u8f83\u5feb\u3002\u4e89\u53d6\u572810\u5206\u949f\u5de6\u53f3\u505a\u5b8c\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/d7886d5254fce462.wav",
+     "from": 96,
+     "frames": 144
+    },
+    {
+     "text": "\u8fd9\u6837\u540e15\u9898\u8fd8\u670930\u5206\u949f\uff0c\u96be\u9898\u90fd\u5728\u8fd9\u91cc\u3002",
+     "caption": "\u8fd9\u6837\u540e15\u9898\u8fd8\u670930\u5206\u949f\uff0c\u96be\u9898\u90fd\u5728\u8fd9\u91cc\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/92ea9fbfb78f807b.wav",
+     "from": 251,
+     "frames": 144
+    },
+    {
+     "text": "\u4e00\u9053\u9898\u5361\u4f4f\u8d85\u8fc72\u5206\u949f\uff1f\u5728\u8bd5\u5377\u4e0a\u5708\u51fa\u6765\uff0c\u5148\u8df3\u8fc7\uff0c\u56de\u5934\u518d\u505a\u3002",
+     "caption": "\u4e00\u9053\u9898\u5361\u4f4f\u8d85\u8fc72\u5206\u949f\uff1f\u5728\u8bd5\u5377\u4e0a\u5708\u51fa\u6765\uff0c\u5148\u8df3\u8fc7\uff0c\u56de\u5934\u518d\u505a\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/977c8d5b28825b13.wav",
+     "from": 405,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3590,
+   "frames": 555,
+   "lines": [
+    {
+     "text": "\u7b56\u7565\u4e8c\uff1a\u9898\u76ee\u8bfb\u4e24\u904d\u3002",
+     "caption": "\u7b56\u7565\u4e8c\uff1a\u9898\u76ee\u8bfb\u4e24\u904d\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/d88a76afe587c4c5.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "\u5708\u51fa\u9898\u76ee\u8981\u4f60\u6c42\u4ec0\u4e48\u3002\u662f\u9762\u79ef\uff0c\u8fd8\u662f\u5468\u957f\uff1f\u5355\u4f4d\u662f\u82f1\u5c3a\uff0c\u8fd8\u662f\u82f1\u5bf8\uff1f",
+     "caption": "\u5708\u51fa\u9898\u76ee\u8981\u4f60\u6c42\u4ec0\u4e48\u3002\u662f\u9762\u79ef\uff0c\u8fd8\u662f\u5468\u957f\uff1f\u5355\u4f4d\u662f\u82f1\u5c3a\uff0c\u8fd8\u662f\u82f1\u5bf8\uff1f",
+     "file": "2026-11-05-amc8-guide-zh/audio/c26c78ce42e87a8a.wav",
+     "from": 110,
+     "frames": 231
+    },
+    {
+     "text": "\u5f88\u591a\u9519\u8bef\u9009\u9879\uff0c\u5176\u5b9e\u662f\u53e6\u4e00\u4e2a\u95ee\u9898\u7684\u6b63\u786e\u7b54\u6848\u3002",
+     "caption": "\u5f88\u591a\u9519\u8bef\u9009\u9879\uff0c\u5176\u5b9e\u662f\u53e6\u4e00\u4e2a\u95ee\u9898\u7684\u6b63\u786e\u7b54\u6848\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/98644ca80df373d3.wav",
+     "from": 351,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "choices",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4145,
+   "frames": 448,
+   "lines": [
+    {
+     "text": "\u7b56\u7565\u4e09\uff1a\u5229\u7528\u7b54\u6848\u9009\u9879\u3002",
+     "caption": "\u7b56\u7565\u4e09\uff1a\u5229\u7528\u7b54\u6848\u9009\u9879\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/4a54e07b33c8253c.wav",
+     "from": 0,
+     "frames": 96
+    },
+    {
+     "text": "\u5148\u4f30\u7b97\u3002\u79bb\u4f30\u7b97\u7ed3\u679c\u592a\u8fdc\u7684\u9009\u9879\uff0c\u53ef\u4ee5\u76f4\u63a5\u6392\u9664\u3002",
+     "caption": "\u5148\u4f30\u7b97\u3002\u79bb\u4f30\u7b97\u7ed3\u679c\u592a\u8fdc\u7684\u9009\u9879\uff0c\u53ef\u4ee5\u76f4\u63a5\u6392\u9664\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/614dbd7d2733de7f.wav",
+     "from": 106,
+     "frames": 160
+    },
+    {
+     "text": "\u4f60\u4e5f\u53ef\u4ee5\u628a\u9009\u9879\u653e\u56de\u9898\u76ee\u91cc\uff0c\u68c0\u9a8c\u4e00\u4e0b\u3002",
+     "caption": "\u4f60\u4e5f\u53ef\u4ee5\u628a\u9009\u9879\u653e\u56de\u9898\u76ee\u91cc\uff0c\u68c0\u9a8c\u4e00\u4e0b\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/cfd079c6e596a7fc.wav",
+     "from": 276,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "fill",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4593,
+   "frames": 354,
+   "lines": [
+    {
+     "text": "\u7b56\u7565\u56db\uff1a\u6bcf\u9053\u9898\u90fd\u8981\u4f5c\u7b54\uff0c\u4e0d\u7559\u7a7a\u3002",
+     "caption": "\u7b56\u7565\u56db\uff1a\u6bcf\u9053\u9898\u90fd\u8981\u4f5c\u7b54\uff0c\u4e0d\u7559\u7a7a\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/fd5c7c54682d6c1e.wav",
+     "from": 0,
+     "frames": 128
+    },
+    {
+     "text": "\u6700\u540e2\u5206\u949f\uff0c\u628a\u6240\u6709\u7a7a\u7740\u7684\u9898\uff0c\u90fd\u586b\u4e0a\u4f60\u6700\u597d\u7684\u731c\u6d4b\u3002",
+     "caption": "\u6700\u540e2\u5206\u949f\uff0c\u628a\u6240\u6709\u7a7a\u7740\u7684\u9898\uff0c\u90fd\u586b\u4e0a\u4f60\u6700\u597d\u7684\u731c\u6d4b\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/aa5ea6f1028d12d5.wav",
+     "from": 138,
+     "frames": 162
+    }
+   ]
+  },
+  {
+   "id": "try",
+   "kind": "scene",
+   "chapter": "\u8bd5\u4e00\u8bd5",
+   "from": 4947,
+   "frames": 779,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u8bd5\u4e00\u9053AMC 8\u98ce\u683c\u7684\u9898\u3002198\u4e58\u4ee5202\u7b49\u4e8e\u591a\u5c11\uff1f",
+     "caption": "\u6211\u4eec\u6765\u8bd5\u4e00\u9053AMC 8\u98ce\u683c\u7684\u9898\u3002198\u4e58\u4ee5202\u7b49\u4e8e\u591a\u5c11\uff1f",
+     "file": "2026-11-05-amc8-guide-zh/audio/8868f950f07b14a6.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "\u9009\u9879A\u662f39996\uff0cB\u662f40004\u3002",
+     "caption": "\u9009\u9879A\u662f39996\uff0cB\u662f40004\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/495212d9d89f0fd7.wav",
+     "from": 235,
+     "frames": 212
+    },
+    {
+     "text": "\u9009\u9879C\u662f\u4e09\u4e07\u4e5d\u5343\u4e8c\u767e\u96f6\u56db\u3002",
+     "caption": "\u9009\u9879C\u662f39204\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/ba27e91a36aaf863.wav",
+     "from": 456,
+     "frames": 129
+    },
+    {
+     "text": "\u9009\u9879D\u662f\u56db\u4e07\uff0cE\u662f\u56db\u5343\u3002",
+     "caption": "\u9009\u9879D\u662f40000\uff0cE\u662f4000\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/5070e7e26d428162.wav",
+     "from": 595,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "try-solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5726,
+   "frames": 1038,
+   "lines": [
+    {
+     "text": "\u4e0d\u7528\u5168\u90e8\u4e58\u51fa\u6765\u3002\u5148\u4f30\u7b97\uff1a200\u4e58\u4ee5200\u7b49\u4e8e40000\u3002",
+     "caption": "\u4e0d\u7528\u5168\u90e8\u4e58\u51fa\u6765\u3002\u5148\u4f30\u7b97\uff1a200\u4e58\u4ee5200\u7b49\u4e8e40000\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/e327739bdd702477.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "\u6240\u4ee54000\u5dee\u5f97\u592a\u8fdc\u4e86\uff0c\u6392\u9664\u3002",
+     "caption": "\u6240\u4ee54000\u5dee\u5f97\u592a\u8fdc\u4e86\uff0c\u6392\u9664\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/79f1797751a9c94d.wav",
+     "from": 202,
+     "frames": 118
+    },
+    {
+     "text": "\u518d\u770b\u4e2a\u4f4d\u6570\u30028\u4e58\u4ee52\u7b49\u4e8e16\uff0c\u6240\u4ee5\u7b54\u6848\u7684\u4e2a\u4f4d\u662f6\u3002",
+     "caption": "\u518d\u770b\u4e2a\u4f4d\u6570\u30028\u4e58\u4ee52\u7b49\u4e8e16\uff0c\u6240\u4ee5\u7b54\u6848\u7684\u4e2a\u4f4d\u662f6\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/652d251cc4d055d8.wav",
+     "from": 330,
+     "frames": 213
+    },
+    {
+     "text": "\u53ea\u6709\u4e00\u4e2a\u9009\u9879\u7684\u4e2a\u4f4d\u662f6\uff1a\u4e09\u4e07\u4e5d\u5343\u4e5d\u767e\u4e5d\u5341\u516d\u3002",
+     "caption": "\u53ea\u6709\u4e00\u4e2a\u9009\u9879\u7684\u4e2a\u4f4d\u662f6\uff1a39996\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/b3eb6cd29a5e3d61.wav",
+     "from": 553,
+     "frames": 161
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1a200\u51cf2\uff0c\u4e58\u4ee5200\u52a02\uff0c\u7b49\u4e8e40000\u51cf4\u3002\u6ca1\u9519\uff01",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1a200\u51cf2\uff0c\u4e58\u4ee5200\u52a02\uff0c\u7b49\u4e8e40000\u51cf4\u3002\u6ca1\u9519\uff01",
+     "file": "2026-11-05-amc8-guide-zh/audio/e330653732a6e361.wav",
+     "from": 725,
+     "frames": 245
+    }
+   ]
+  },
+  {
+   "id": "prepare",
+   "kind": "scene",
+   "chapter": "\u5982\u4f55\u5907\u8003",
+   "from": 6764,
+   "frames": 1040,
+   "lines": [
+    {
+     "text": "\u600e\u4e48\u51c6\u5907\u5462\uff1f\u591a\u7ec3\u4e60\u5386\u5e74\u7684AMC 8\u771f\u9898\u3002",
+     "caption": "\u600e\u4e48\u51c6\u5907\u5462\uff1f\u591a\u7ec3\u4e60\u5386\u5e74\u7684AMC 8\u771f\u9898\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/6ebb8e549127175e.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "\u6bcf\u9694\u51e0\u5468\uff0c\u505a\u4e00\u6574\u595725\u9053\u9898\uff0c\u8ba1\u65f640\u5206\u949f\u3002",
+     "caption": "\u6bcf\u9694\u51e0\u5468\uff0c\u505a\u4e00\u6574\u595725\u9053\u9898\uff0c\u8ba1\u65f640\u5206\u949f\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/c2c22510cea18283.wav",
+     "from": 145,
+     "frames": 167
+    },
+    {
+     "text": "\u7136\u540e\u590d\u76d8\u6bcf\u4e00\u9053\u9519\u9898\u3002\u8981\u627e\u5230\u80cc\u540e\u7684\u601d\u8def\uff0c\u800c\u4e0d\u53ea\u662f\u7b54\u6848\u3002",
+     "caption": "\u7136\u540e\u590d\u76d8\u6bcf\u4e00\u9053\u9519\u9898\u3002\u8981\u627e\u5230\u80cc\u540e\u7684\u601d\u8def\uff0c\u800c\u4e0d\u53ea\u662f\u7b54\u6848\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/10f58c0022b7042e.wav",
+     "from": 323,
+     "frames": 192
+    },
+    {
+     "text": "\u638c\u63e1\u51e0\u5927\u4e3b\u9898\uff1a\u8ba1\u6570\u3001\u6570\u5b57\u8c1c\u9898\u3001\u51e0\u4f55\uff0c\u8fd8\u6709\u521d\u6b65\u7684\u4ee3\u6570\u3002",
+     "caption": "\u638c\u63e1\u51e0\u5927\u4e3b\u9898\uff1a\u8ba1\u6570\u3001\u6570\u5b57\u8c1c\u9898\u3001\u51e0\u4f55\uff0c\u8fd8\u6709\u521d\u6b65\u7684\u4ee3\u6570\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/d2fa87e6535c4085.wav",
+     "from": 525,
+     "frames": 213
+    },
+    {
+     "text": "\u4e5f\u53ef\u4ee5\u770b\u770bVantee\u7684AMC 8\u98ce\u683c\u8bb2\u89e3\u89c6\u9891\uff0c\u6bcf\u79cd\u89e3\u6cd5\u548c\u6bcf\u4e2a\u9677\u9631\u90fd\u8bb2\u6e05\u695a\u3002",
+     "caption": "\u4e5f\u53ef\u4ee5\u770b\u770bVantee\u7684AMC 8\u98ce\u683c\u8bb2\u89e3\u89c6\u9891\uff0c\u6bcf\u79cd\u89e3\u6cd5\u548c\u6bcf\u4e2a\u9677\u9631\u90fd\u8bb2\u6e05\u695a\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/3ad660df54b19f06.wav",
+     "from": 748,
+     "frames": 238
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 7804,
+   "frames": 556,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\uff1a25\u9053\u9898\uff0c40\u5206\u949f\uff0c\u7b54\u9519\u4e0d\u6263\u5206\u3002",
+     "caption": "\u8bb0\u4f4f\uff1a25\u9053\u9898\uff0c40\u5206\u949f\uff0c\u7b54\u9519\u4e0d\u6263\u5206\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/120249bf36e7a049.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "\u63a7\u5236\u8282\u594f\uff0c\u9898\u76ee\u8bfb\u4e24\u904d\uff0c\u5229\u7528\u9009\u9879\uff0c\u6bcf\u9898\u90fd\u4f5c\u7b54\u3002",
+     "caption": "\u63a7\u5236\u8282\u594f\uff0c\u9898\u76ee\u8bfb\u4e24\u904d\uff0c\u5229\u7528\u9009\u9879\uff0c\u6bcf\u9898\u90fd\u4f5c\u7b54\u3002",
+     "file": "2026-11-05-amc8-guide-zh/audio/4f383d76a884c13b.wav",
+     "from": 182,
+     "frames": 179
+    },
+    {
+     "text": "\u8003\u8bd5\u52a0\u6cb9\uff0c\u4f60\u4e00\u5b9a\u884c\uff01",
+     "caption": "\u8003\u8bd5\u52a0\u6cb9\uff0c\u4f60\u4e00\u5b9a\u884c\uff01",
+     "file": "2026-11-05-amc8-guide-zh/audio/b7c011e157c0a016.wav",
+     "from": 371,
+     "frames": 87
+    }
+   ]
+  }
+ ]
+}

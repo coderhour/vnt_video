@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Broken Stick Probability — What Are the Odds?",
+ "description": "AMC 10 practice problem on geometric probability with a stick broken in two places, solved by mapping the cuts to a point in a triangle. (Level 4 of 5)\nSnap a stick in two random places. What are the odds that the longest piece is less than twice the shortest? Turn the two cuts into one dot on a map, find the winning area two ways (a box trick and a walking shortcut), see why each wrong answer is tempting, then try a harder variant yourself.\n\n0:00 Intro\n0:17 The question\n0:39 What are we asked?\n1:03 Try it yourself\n1:18 Solution 1: map the cuts\n3:59 Solution 2: the walking shortcut\n4:59 Common traps\n5:30 Your turn: three times\n5:54 Three times: the answer\n6:39 Recap",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_counting_template:c1-981",
+ "posts": [],
+ "short": {
+  "title": "Think it's 1/4? Break a stick twice! #Shorts",
+  "description": "Snap a stick at two random spots. What's the chance the longest piece is less than twice the shortest? Two cuts become one dot in a square, and the winners make a hexagon.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 21,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "A stick is cut at 2 random spots. Chance the longest piece is under twice the shortest? Comment your answer before you watch the solution!"
+}

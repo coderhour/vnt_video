@@ -1,0 +1,549 @@
+{
+ "fps": 30,
+ "durationInFrames": 14201,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 662,
+   "lines": [
+    {
+     "text": "10\u53ea\u5c71\u7f8a\uff0c20\u5929\u80fd\u5403\u5149\u4e00\u6574\u7247\u8349\u5730\u3002",
+     "caption": "10\u53ea\u5c71\u7f8a\uff0c20\u5929\u80fd\u5403\u5149\u4e00\u6574\u7247\u8349\u5730\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/d5b9fab3ea410e27.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "\u53ea\u591a\u52a05\u53ea\u5c71\u7f8a\uff0c10\u5929\u5c31\u5403\u5149\u4e86\u3002\u65f6\u95f4\u5c11\u4e86\u4e00\u534a\uff01",
+     "caption": "\u53ea\u591a\u52a05\u53ea\u5c71\u7f8a\uff0c10\u5929\u5c31\u5403\u5149\u4e86\u3002\u65f6\u95f4\u5c11\u4e86\u4e00\u534a\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/ac4a4d7129e2381a.wav",
+     "from": 166,
+     "frames": 173
+    },
+    {
+     "text": "\u53ea\u591a\u4e865\u53ea\u5c71\u7f8a\uff0c\u600e\u4e48\u5c31\u80fd\u5c11\u82b1\u6574\u657410\u5929\u5462\uff1f\u5927\u5bb6\u597d\uff0c\u6211\u662fVantee\u3002\u6211\u4eec\u4e00\u8d77\u6765\u627e\u7b54\u6848\u3002",
+     "caption": "\u53ea\u591a\u4e865\u53ea\u5c71\u7f8a\uff0c\u600e\u4e48\u5c31\u80fd\u5c11\u82b1\u6574\u657410\u5929\u5462\uff1f\u5927\u5bb6\u597d\uff0c\u6211\u662fVantee\u3002\u6211\u4eec\u4e00\u8d77\u6765\u627e\u7b54\u6848\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/04c637326ea6ecdc.wav",
+     "from": 350,
+     "frames": 274
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 662,
+   "frames": 923,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002\u4e00\u7247\u8349\u5730\u4e0a\u539f\u6765\u6709\u4e00\u4e9b\u8349\uff0c\u800c\u4e14\u65b0\u8349\u6bcf\u5929\u90fd\u5728\u5300\u901f\u751f\u957f\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002\u4e00\u7247\u8349\u5730\u4e0a\u539f\u6765\u6709\u4e00\u4e9b\u8349\uff0c\u800c\u4e14\u65b0\u8349\u6bcf\u5929\u90fd\u5728\u5300\u901f\u751f\u957f\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/a8a8b96bac0f393e.wav",
+     "from": 0,
+     "frames": 258
+    },
+    {
+     "text": "10\u53ea\u5c71\u7f8a\uff0c20\u5929\u80fd\u628a\u8349\u5168\u90e8\u5403\u5149\u300215\u53ea\u5c71\u7f8a\uff0c10\u5929\u5c31\u80fd\u5168\u90e8\u5403\u5149\u3002",
+     "caption": "10\u53ea\u5c71\u7f8a\uff0c20\u5929\u80fd\u628a\u8349\u5168\u90e8\u5403\u5149\u300215\u53ea\u5c71\u7f8a\uff0c10\u5929\u5c31\u80fd\u5168\u90e8\u5403\u5149\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/f70cb3215ab64c8c.wav",
+     "from": 269,
+     "frames": 278
+    },
+    {
+     "text": "\u6bcf\u53ea\u5c71\u7f8a\u5403\u8349\u7684\u901f\u5ea6\u90fd\u4e00\u6837\u3002\u90a3\u4e4825\u53ea\u5c71\u7f8a\uff0c\u9700\u8981\u591a\u5c11\u5929\uff1f",
+     "caption": "\u6bcf\u53ea\u5c71\u7f8a\u5403\u8349\u7684\u901f\u5ea6\u90fd\u4e00\u6837\u3002\u90a3\u4e4825\u53ea\u5c71\u7f8a\uff0c\u9700\u8981\u591a\u5c11\u5929\uff1f",
+     "file": "2026-10-30-goats-and-grass-zh/audio/545c148cfa965b42.wav",
+     "from": 557,
+     "frames": 215
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 782,
+     "frames": 102
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1585,
+   "frames": 1083,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u62c6\u89e3\u4e00\u4e0b\u3002\u5c71\u7f8a\u5728\u5403\u8349\u7684\u65f6\u5019\uff0c\u8349\u4e5f\u4e00\u76f4\u5728\u751f\u957f\u3002",
+     "caption": "\u6211\u4eec\u6765\u62c6\u89e3\u4e00\u4e0b\u3002\u5c71\u7f8a\u5728\u5403\u8349\u7684\u65f6\u5019\uff0c\u8349\u4e5f\u4e00\u76f4\u5728\u751f\u957f\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/68e46cee359607c8.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u5c71\u7f8a\u5403\u6389\u7684\uff0c\u662f\u539f\u6765\u7684\u8349\uff0c\u518d\u52a0\u4e0a\u65b0\u957f\u51fa\u6765\u7684\u6240\u6709\u8349\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u5c71\u7f8a\u5403\u6389\u7684\uff0c\u662f\u539f\u6765\u7684\u8349\uff0c\u518d\u52a0\u4e0a\u65b0\u957f\u51fa\u6765\u7684\u6240\u6709\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/7e42a34bdeba01a2.wav",
+     "from": 183,
+     "frames": 237
+    },
+    {
+     "text": "\u539f\u6765\u6709\u591a\u5c11\u8349\uff1f\u65b0\u8349\u957f\u5f97\u591a\u5feb\uff1f\u6211\u4eec\u90fd\u4e0d\u77e5\u9053\u3002\u8fd9\u662f\u4e24\u4e2a\u672a\u77e5\u6570\uff01",
+     "caption": "\u539f\u6765\u6709\u591a\u5c11\u8349\uff1f\u65b0\u8349\u957f\u5f97\u591a\u5feb\uff1f\u6211\u4eec\u90fd\u4e0d\u77e5\u9053\u3002\u8fd9\u662f\u4e24\u4e2a\u672a\u77e5\u6570\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/e5268a95ed8ef52b.wav",
+     "from": 430,
+     "frames": 233
+    },
+    {
+     "text": "\u6559\u4f60\u4e00\u4e2a\u597d\u7528\u7684\u5355\u4f4d\uff1a1\u53ea\u5c71\u7f8a1\u5929\u5403\u7684\u8349\uff0c\u7b97\u4f5c1\u7b50\u3002",
+     "caption": "\u6559\u4f60\u4e00\u4e2a\u597d\u7528\u7684\u5355\u4f4d\uff1a1\u53ea\u5c71\u7f8a1\u5929\u5403\u7684\u8349\uff0c\u7b97\u4f5c1\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/0106003a5b1f2743.wav",
+     "from": 673,
+     "frames": 197
+    },
+    {
+     "text": "\u6211\u4eec\u7684\u76ee\u6807\uff1a\u6c42\u51fa25\u53ea\u5c71\u7f8a\u9700\u8981\u51e0\u5929\u3002",
+     "caption": "\u6211\u4eec\u7684\u76ee\u6807\uff1a\u6c42\u51fa25\u53ea\u5c71\u7f8a\u9700\u8981\u51e0\u5929\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/16df6e7653a88eb0.wav",
+     "from": 881,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2668,
+   "frames": 482,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "eaten",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u6309\u7b50\u6765\u7b97",
+   "from": 3150,
+   "frames": 671,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u628a\u6240\u6709\u7684\u8349\uff0c\u90fd\u6362\u7b97\u6210\u7b50\u6765\u6570\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u628a\u6240\u6709\u7684\u8349\uff0c\u90fd\u6362\u7b97\u6210\u7b50\u6765\u6570\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/33f7c34f971e79d1.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "10\u53ea\u5c71\u7f8a\u540320\u5929\uff0c\u5c31\u662f10\u4e5820\uff0c\u7b49\u4e8e200\u7b50\u3002",
+     "caption": "10\u53ea\u5c71\u7f8a\u540320\u5929\uff0c\u5c31\u662f10\u4e5820\uff0c\u7b49\u4e8e200\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/8cdc1b51fc1a8041.wav",
+     "from": 182,
+     "frames": 213
+    },
+    {
+     "text": "15\u53ea\u5c71\u7f8a\u540310\u5929\uff0c\u5c31\u662f15\u4e5810\uff0c\u7b49\u4e8e150\u7b50\u3002",
+     "caption": "15\u53ea\u5c71\u7f8a\u540310\u5929\uff0c\u5c31\u662f15\u4e5810\uff0c\u7b49\u4e8e150\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/d236ad02ef68b385.wav",
+     "from": 405,
+     "frames": 227
+    }
+   ]
+  },
+  {
+   "id": "growth",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3821,
+   "frames": 941,
+   "lines": [
+    {
+     "text": "\u4e24\u79cd\u60c5\u51b5\uff0c\u539f\u6765\u7684\u8349\u662f\u4e00\u6837\u591a\u7684\u3002\u90a3\u4e3a\u4ec0\u4e48\u7b2c\u4e00\u7ec4\u5c71\u7f8a\u5403\u5f97\u66f4\u591a\u5462\uff1f",
+     "caption": "\u4e24\u79cd\u60c5\u51b5\uff0c\u539f\u6765\u7684\u8349\u662f\u4e00\u6837\u591a\u7684\u3002\u90a3\u4e3a\u4ec0\u4e48\u7b2c\u4e00\u7ec4\u5c71\u7f8a\u5403\u5f97\u66f4\u591a\u5462\uff1f",
+     "file": "2026-10-30-goats-and-grass-zh/audio/04723c8a0d08f317.wav",
+     "from": 0,
+     "frames": 244
+    },
+    {
+     "text": "\u56e0\u4e3a\u7b2c\u4e00\u7ec4\u7684\u8349\u5730\uff0c\u591a\u957f\u4e8610\u5929\uff01",
+     "caption": "\u56e0\u4e3a\u7b2c\u4e00\u7ec4\u7684\u8349\u5730\uff0c\u591a\u957f\u4e8610\u5929\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/172a048be7cdf75f.wav",
+     "from": 254,
+     "frames": 123
+    },
+    {
+     "text": "\u591a\u51fa\u6765\u7684\u8fd910\u5929\uff0c\u957f\u4e86200\u51cf150\uff0c\u4e5f\u5c31\u662f50\u7b50\u8349\u3002",
+     "caption": "\u591a\u51fa\u6765\u7684\u8fd910\u5929\uff0c\u957f\u4e86200\u51cf150\uff0c\u4e5f\u5c31\u662f50\u7b50\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/f87172b9651eac26.wav",
+     "from": 387,
+     "frames": 236
+    },
+    {
+     "text": "10\u5929\u957f\u51fa50\u7b50\u8349\uff0c\u5e73\u5747\u6bcf\u5929\u957f\u51fa5\u7b50\u8349\u3002\u6b63\u597d\u591f5\u53ea\u5c71\u7f8a\u5403\uff01",
+     "caption": "10\u5929\u957f\u51fa50\u7b50\u8349\uff0c\u5e73\u5747\u6bcf\u5929\u957f\u51fa5\u7b50\u8349\u3002\u6b63\u597d\u591f5\u53ea\u5c71\u7f8a\u5403\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/e3dabe42f63e5ec2.wav",
+     "from": 632,
+     "frames": 270
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4762,
+   "frames": 719,
+   "lines": [
+    {
+     "text": "20\u5929\u91cc\uff0c\u8349\u5730\u4e00\u5171\u957f\u4e8620\u4e585\uff0c\u7b49\u4e8e100\u7b50\u3002",
+     "caption": "20\u5929\u91cc\uff0c\u8349\u5730\u4e00\u5171\u957f\u4e8620\u4e585\uff0c\u7b49\u4e8e100\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/7f06293b6956703b.wav",
+     "from": 0,
+     "frames": 204
+    },
+    {
+     "text": "\u6240\u4ee5\u539f\u6765\u7684\u8349\uff0c\u662f200\u51cf100\uff0c\u7b49\u4e8e100\u7b50\u3002",
+     "caption": "\u6240\u4ee5\u539f\u6765\u7684\u8349\uff0c\u662f200\u51cf100\uff0c\u7b49\u4e8e100\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/e2aa2b0d2a68cb9b.wav",
+     "from": 215,
+     "frames": 183
+    },
+    {
+     "text": "\u752815\u53ea\u5c71\u7f8a\u9a8c\u7b97\u4e00\u4e0b\uff1a100\uff0c\u52a0\u4e0a10\u5929\u4e585\uff0c\u7b49\u4e8e150\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "caption": "\u752815\u53ea\u5c71\u7f8a\u9a8c\u7b97\u4e00\u4e0b\uff1a100\uff0c\u52a0\u4e0a10\u5929\u4e585\uff0c\u7b49\u4e8e150\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/6c0727011e819c47.wav",
+     "from": 408,
+     "frames": 273
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5481,
+   "frames": 1225,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6362\u621025\u53ea\u5c71\u7f8a\u3002\u8fd9\u4e9b\u5c71\u7f8a\u6bcf\u5929\u5403\u638925\u7b50\u8349\u3002",
+     "caption": "\u73b0\u5728\u6362\u621025\u53ea\u5c71\u7f8a\u3002\u8fd9\u4e9b\u5c71\u7f8a\u6bcf\u5929\u5403\u638925\u7b50\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/d235c01d99ab2391.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "\u4f46\u6bcf\u5929\u53c8\u4f1a\u957f\u51fa5\u7b50\u3002\u6240\u4ee5\u8fd9\u5806\u8349\u6bcf\u5929\u51cf\u5c1125\u51cf5\uff0c\u4e5f\u5c31\u662f20\u7b50\u3002",
+     "caption": "\u4f46\u6bcf\u5929\u53c8\u4f1a\u957f\u51fa5\u7b50\u3002\u6240\u4ee5\u8fd9\u5806\u8349\u6bcf\u5929\u51cf\u5c1125\u51cf5\uff0c\u4e5f\u5c31\u662f20\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/a74d827a6c8993a8.wav",
+     "from": 235,
+     "frames": 267
+    },
+    {
+     "text": "100\u7b50\u8349\uff0c\u6bcf\u5929\u5c1120\u7b50\uff0c\u80fd\u5403100\u9664\u4ee520\uff0c\u4e5f\u5c31\u662f5\u5929\u3002",
+     "caption": "100\u7b50\u8349\uff0c\u6bcf\u5929\u5c1120\u7b50\uff0c\u80fd\u5403100\u9664\u4ee520\uff0c\u4e5f\u5c31\u662f5\u5929\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/a53dac396bbc1244.wav",
+     "from": 512,
+     "frames": 225
+    },
+    {
+     "text": "\u9a8c\u7b97\u4e00\u4e0b\uff1a25\u4e585\u7b49\u4e8e125\u3002\u6b63\u597d\u662f\u539f\u6765\u90a3100\u7b50\u8349\uff0c\u518d\u52a0\u4e0a\u65b0\u957f\u51fa\u768425\u7b50\u8349\u3002",
+     "caption": "\u9a8c\u7b97\u4e00\u4e0b\uff1a25\u4e585\u7b49\u4e8e125\u3002\u6b63\u597d\u662f\u539f\u6765\u90a3100\u7b50\u8349\uff0c\u518d\u52a0\u4e0a\u65b0\u957f\u51fa\u768425\u7b50\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/13099441658a6d6e.wav",
+     "from": 747,
+     "frames": 317
+    },
+    {
+     "text": "\u7b54\u6848\u662f5\u5929\uff0c\u9009B\uff01",
+     "caption": "\u7b54\u6848\u662f5\u5929\uff0c\u9009B\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/698169edf2b2bbd5.wav",
+     "from": 1074,
+     "frames": 82
+    }
+   ]
+  },
+  {
+   "id": "teams",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u5e2e\u624b\u5c71\u7f8a",
+   "from": 6706,
+   "frames": 465,
+   "lines": [
+    {
+     "text": "\u518d\u6765\u770b\u4e00\u4e2a\u5de7\u5999\u7684\u60f3\u6cd5\u3002\u6211\u4eec\u628a\u5c71\u7f8a\u5206\u6210\u4e24\u961f\u3002",
+     "caption": "\u518d\u6765\u770b\u4e00\u4e2a\u5de7\u5999\u7684\u60f3\u6cd5\u3002\u6211\u4eec\u628a\u5c71\u7f8a\u5206\u6210\u4e24\u961f\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/bac10dbf16f2a5ba.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "\u5e2e\u624b\u961f\u53ea\u5403\u65b0\u957f\u7684\u8349\uff0c\u8349\u957f\u591a\u5feb\uff0c\u5c31\u5403\u591a\u5feb\u3002\u5176\u4f59\u7684\u5c71\u7f8a\uff0c\u5403\u539f\u6765\u90a3\u5806\u8349\u3002",
+     "caption": "\u5e2e\u624b\u961f\u53ea\u5403\u65b0\u957f\u7684\u8349\uff0c\u8349\u957f\u591a\u5feb\uff0c\u5c31\u5403\u591a\u5feb\u3002\u5176\u4f59\u7684\u5c71\u7f8a\uff0c\u5403\u539f\u6765\u90a3\u5806\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/234829b2684f5b26.wav",
+     "from": 168,
+     "frames": 258
+    }
+   ]
+  },
+  {
+   "id": "guess",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7171,
+   "frames": 1172,
+   "lines": [
+    {
+     "text": "\u8981\u51e0\u53ea\u5e2e\u624b\u5462\uff1f\u6211\u4eec\u6765\u8bd5\u4e00\u8bd5\u3002\u4e24\u79cd\u60c5\u51b5\u7b97\u51fa\u7684\u90a3\u5806\u8349\uff0c\u5fc5\u987b\u4e00\u6837\u591a\u3002",
+     "caption": "\u8981\u51e0\u53ea\u5e2e\u624b\u5462\uff1f\u6211\u4eec\u6765\u8bd5\u4e00\u8bd5\u3002\u4e24\u79cd\u60c5\u51b5\u7b97\u51fa\u7684\u90a3\u5806\u8349\uff0c\u5fc5\u987b\u4e00\u6837\u591a\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/024e33bee646d3e0.wav",
+     "from": 0,
+     "frames": 246
+    },
+    {
+     "text": "\u6ca1\u6709\u5e2e\u624b\u65f6\uff1a10\u4e5820\u662f200\uff0c\u4f4615\u4e5810\u662f150\u3002",
+     "caption": "\u6ca1\u6709\u5e2e\u624b\u65f6\uff1a10\u4e5820\u662f200\uff0c\u4f4615\u4e5810\u662f150\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/116a5d1baa4e1901.wav",
+     "from": 257,
+     "frames": 246
+    },
+    {
+     "text": "\u6bcf\u591a1\u53ea\u5e2e\u624b\uff0c\u7b2c\u4e00\u79cd\u60c5\u51b5\u5c1120\u7b50\u8349\uff0c\u7b2c\u4e8c\u79cd\u53ea\u5c1110\u7b50\u8349\u3002\u6240\u4ee5\u4e24\u8fb9\u7684\u5dee\u8ddd\u7f29\u5c0f10\u7b50\u8349\u3002",
+     "caption": "\u6bcf\u591a1\u53ea\u5e2e\u624b\uff0c\u7b2c\u4e00\u79cd\u60c5\u51b5\u5c1120\u7b50\u8349\uff0c\u7b2c\u4e8c\u79cd\u53ea\u5c1110\u7b50\u8349\u3002\u6240\u4ee5\u4e24\u8fb9\u7684\u5dee\u8ddd\u7f29\u5c0f10\u7b50\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/d38bc02615406c71.wav",
+     "from": 513,
+     "frames": 330
+    },
+    {
+     "text": "\u5dee\u8ddd\u539f\u6765\u662f50\u7b50\uff0c\u6240\u4ee55\u53ea\u5e2e\u624b\u6b63\u597d\u8865\u5e73\u3002\u4e24\u5806\u8349\u90fd\u662f100\u7b50\uff01",
+     "caption": "\u5dee\u8ddd\u539f\u6765\u662f50\u7b50\uff0c\u6240\u4ee55\u53ea\u5e2e\u624b\u6b63\u597d\u8865\u5e73\u3002\u4e24\u5806\u8349\u90fd\u662f100\u7b50\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/0d7ea818b17c4f50.wav",
+     "from": 854,
+     "frames": 264
+    }
+   ]
+  },
+  {
+   "id": "use",
+   "kind": "scene",
+   "chapter": null,
+   "from": 8343,
+   "frames": 867,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u662f25\u53ea\u5c71\u7f8a\u30025\u53ea\u5f53\u5e2e\u624b\uff0c\u5269\u4e0b20\u53ea\u5403\u90a3\u5806\u8349\u3002",
+     "caption": "\u73b0\u5728\u662f25\u53ea\u5c71\u7f8a\u30025\u53ea\u5f53\u5e2e\u624b\uff0c\u5269\u4e0b20\u53ea\u5403\u90a3\u5806\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/f96d273cee5fcb8d.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "20\u53ea\u5c71\u7f8a\u5403100\u7b50\u8349\uff0c\u8981100\u9664\u4ee520\uff0c\u4e5f\u5c31\u662f5\u5929\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "20\u53ea\u5c71\u7f8a\u5403100\u7b50\u8349\uff0c\u8981100\u9664\u4ee520\uff0c\u4e5f\u5c31\u662f5\u5929\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/39b14ca0a7ef91a4.wav",
+     "from": 247,
+     "frames": 262
+    },
+    {
+     "text": "\u559c\u6b22\u753b\u56fe\u7684\u540c\u5b66\uff0c\u53ef\u4ee5\u7528\u8fd9\u4e2a\u65b9\u6cd5\u3002\u6709\u4e86\u5e2e\u624b\uff0c\u4e00\u7247\u4f1a\u957f\u7684\u8349\u5730\uff0c\u5c31\u53d8\u6210\u4e86\u4e00\u5806\u4e0d\u4f1a\u53d8\u7684\u8349\u3002",
+     "caption": "\u559c\u6b22\u753b\u56fe\u7684\u540c\u5b66\uff0c\u53ef\u4ee5\u7528\u8fd9\u4e2a\u65b9\u6cd5\u3002\u6709\u4e86\u5e2e\u624b\uff0c\u4e00\u7247\u4f1a\u957f\u7684\u8349\u5730\uff0c\u5c31\u53d8\u6210\u4e86\u4e00\u5806\u4e0d\u4f1a\u53d8\u7684\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/78026b5516232a8a.wav",
+     "from": 519,
+     "frames": 294
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9210,
+   "frames": 1510,
+   "lines": [
+    {
+     "text": "\u4e0b\u9762\u6211\u4eec\u6765\u770b\u770b\u9677\u9631\u3002\u5927\u591a\u6570\u9677\u9631\uff0c\u90fd\u5fd8\u4e86\u8349\u4e00\u76f4\u5728\u751f\u957f\u3002",
+     "caption": "\u4e0b\u9762\u6211\u4eec\u6765\u770b\u770b\u9677\u9631\u3002\u5927\u591a\u6570\u9677\u9631\uff0c\u90fd\u5fd8\u4e86\u8349\u4e00\u76f4\u5728\u751f\u957f\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/910690adfe27b09e.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "4\u662f100\u9664\u4ee525\u3002\u8fd9\u6837\u7b97\uff0c\u5c31\u5fd8\u4e86\u5c71\u7f8a\u5403\u8349\u7684\u65f6\u5019\uff0c\u65b0\u8349\u8fd8\u5728\u751f\u957f\u3002",
+     "caption": "4\u662f100\u9664\u4ee525\u3002\u8fd9\u6837\u7b97\uff0c\u5c31\u5fd8\u4e86\u5c71\u7f8a\u5403\u8349\u7684\u65f6\u5019\uff0c\u65b0\u8349\u8fd8\u5728\u751f\u957f\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/dfd8810984d737be.wav",
+     "from": 235,
+     "frames": 255
+    },
+    {
+     "text": "6\u662f150\u9664\u4ee525\uff0c8\u662f200\u9664\u4ee525\u3002",
+     "caption": "6\u662f150\u9664\u4ee525\uff0c8\u662f200\u9664\u4ee525\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/e899e8afa2259b85.wav",
+     "from": 500,
+     "frames": 221
+    },
+    {
+     "text": "\u8fd9\u4e24\u4e2a\u603b\u6570\u91cc\uff0c\u90fd\u542b\u670910\u5929\u621620\u5929\u957f\u51fa\u7684\u8349\uff0c\u53ef\u662f25\u53ea\u5c71\u7f8a\u53ea\u54035\u5929\u3002",
+     "caption": "\u8fd9\u4e24\u4e2a\u603b\u6570\u91cc\uff0c\u90fd\u542b\u670910\u5929\u621620\u5929\u957f\u51fa\u7684\u8349\uff0c\u53ef\u662f25\u53ea\u5c71\u7f8a\u53ea\u54035\u5929\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/ec4b749704e805b1.wav",
+     "from": 731,
+     "frames": 264
+    },
+    {
+     "text": "10\u662f200\u9664\u4ee520\u3002\u8fd9\u662f\u628a\u7b2c\u4e00\u7ec4\u5403\u6389\u7684\u603b\u6570\uff0c\u5f53\u6210\u4e86\u539f\u6765\u7684\u8349\u3002",
+     "caption": "10\u662f200\u9664\u4ee520\u3002\u8fd9\u662f\u628a\u7b2c\u4e00\u7ec4\u5403\u6389\u7684\u603b\u6570\uff0c\u5f53\u6210\u4e86\u539f\u6765\u7684\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/91ecf596edb121b5.wav",
+     "from": 1006,
+     "frames": 234
+    },
+    {
+     "text": "\u8bb0\u4f4f\uff1a\u5c71\u7f8a\u5403\u6389\u7684\uff0c\u662f\u539f\u6765\u7684\u8349\uff0c\u52a0\u4e0a\u6240\u6709\u65b0\u957f\u51fa\u6765\u7684\u8349\u3002",
+     "caption": "\u8bb0\u4f4f\uff1a\u5c71\u7f8a\u5403\u6389\u7684\uff0c\u662f\u539f\u6765\u7684\u8349\uff0c\u52a0\u4e0a\u6240\u6709\u65b0\u957f\u51fa\u6765\u7684\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/33b21a8909076aed.wav",
+     "from": 1250,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u9965\u997f\u7684\u7ef5\u7f8a",
+   "from": 10720,
+   "frames": 489,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u30028\u53ea\u7ef5\u7f8a30\u5929\u80fd\u628a\u8349\u5403\u5149\uff0c12\u53ea\u7ef5\u7f8a\u898115\u5929\u3002",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u30028\u53ea\u7ef5\u7f8a30\u5929\u80fd\u628a\u8349\u5403\u5149\uff0c12\u53ea\u7ef5\u7f8a\u898115\u5929\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/d304e9e8d37e5cbc.wav",
+     "from": 0,
+     "frames": 232
+    },
+    {
+     "text": "\u8349\u6bcf\u5929\u5300\u901f\u751f\u957f\u3002\u90a3\u4e4824\u53ea\u7ef5\u7f8a\uff0c\u9700\u8981\u591a\u5c11\u5929\uff1f",
+     "caption": "\u8349\u6bcf\u5929\u5300\u901f\u751f\u957f\u3002\u90a3\u4e4824\u53ea\u7ef5\u7f8a\uff0c\u9700\u8981\u591a\u5c11\u5929\uff1f",
+     "file": "2026-10-30-goats-and-grass-zh/audio/a5b937312e5c48e7.wav",
+     "from": 243,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11209,
+   "frames": 609,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u60f3\u4e00\u60f3\uff1a1\u53ea\u7ef5\u7f8a1\u5929\u54031\u7b50\u8349\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u60f3\u4e00\u60f3\uff1a1\u53ea\u7ef5\u7f8a1\u5929\u54031\u7b50\u8349\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/5a8593d05c7e7db6.wav",
+     "from": 0,
+     "frames": 225
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u7ef5\u7f8a\uff1a\u7b54\u6848",
+   "from": 11818,
+   "frames": 1568,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff018\u53ea\u7ef5\u7f8a\u540330\u5929\uff0c\u4e00\u5171\u5403\u6389240\u7b50\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff018\u53ea\u7ef5\u7f8a\u540330\u5929\uff0c\u4e00\u5171\u5403\u6389240\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/3f91c4f04262740b.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "12\u53ea\u7ef5\u7f8a\u540315\u5929\uff0c\u4e00\u5171\u5403\u6389180\u7b50\u3002",
+     "caption": "12\u53ea\u7ef5\u7f8a\u540315\u5929\uff0c\u4e00\u5171\u5403\u6389180\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/ccbf49d9c9d5cf43.wav",
+     "from": 203,
+     "frames": 172
+    },
+    {
+     "text": "\u591a\u51fa\u768415\u5929\uff0c\u957f\u4e8660\u7b50\u8349\u3002\u4e5f\u5c31\u662f\u6bcf\u5929\u957f4\u7b50\u3002",
+     "caption": "\u591a\u51fa\u768415\u5929\uff0c\u957f\u4e8660\u7b50\u8349\u3002\u4e5f\u5c31\u662f\u6bcf\u5929\u957f4\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/81af3749cfb1021a.wav",
+     "from": 385,
+     "frames": 234
+    },
+    {
+     "text": "30\u5929\u4e00\u5171\u957f\u51fa30\u4e584\uff0c\u7b49\u4e8e120\u7b50\u8349\u3002",
+     "caption": "30\u5929\u4e00\u5171\u957f\u51fa30\u4e584\uff0c\u7b49\u4e8e120\u7b50\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/1c23d6f22168402e.wav",
+     "from": 630,
+     "frames": 201
+    },
+    {
+     "text": "240\u51cf\u53bb120\uff0c\u539f\u6765\u7684\u8349\u5c31\u662f120\u7b50\u3002",
+     "caption": "240\u51cf\u53bb120\uff0c\u539f\u6765\u7684\u8349\u5c31\u662f120\u7b50\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/c270a712f14c6d69.wav",
+     "from": 841,
+     "frames": 216
+    },
+    {
+     "text": "24\u53ea\u7ef5\u7f8a\uff1a4\u53ea\u5f53\u5e2e\u624b\uff0c\u5269\u4e0b20\u53ea\u5403\u90a3\u5806\u8349\u3002",
+     "caption": "24\u53ea\u7ef5\u7f8a\uff1a4\u53ea\u5f53\u5e2e\u624b\uff0c\u5269\u4e0b20\u53ea\u5403\u90a3\u5806\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/7c54b67574a59266.wav",
+     "from": 1067,
+     "frames": 215
+    },
+    {
+     "text": "120\u9664\u4ee520\u7b49\u4e8e6\u3002\u7ef5\u7f8a\u9700\u89816\u5929\uff01",
+     "caption": "120\u9664\u4ee520\u7b49\u4e8e6\u3002\u7ef5\u7f8a\u9700\u89816\u5929\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/7018e231f3dc4128.wav",
+     "from": 1293,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13386,
+   "frames": 815,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u603b\u7ed3\u4e00\u4e0b\u3002\u9047\u5230\u8349\u4e00\u76f4\u5728\u751f\u957f\u7684\u9898\u76ee\uff0c\u5c31\u6309\u7b50\u6765\u7b97\u3002",
+     "caption": "\u6211\u4eec\u6765\u603b\u7ed3\u4e00\u4e0b\u3002\u9047\u5230\u8349\u4e00\u76f4\u5728\u751f\u957f\u7684\u9898\u76ee\uff0c\u5c31\u6309\u7b50\u6765\u7b97\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/c7d57f8af70d5acf.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "\u4e24\u79cd\u60c5\u51b5\u4e00\u6bd4\uff0c\u5148\u6c42\u51fa\u6bcf\u5929\u957f\u591a\u5c11\uff0c\u518d\u6c42\u51fa\u539f\u6765\u6709\u591a\u5c11\u3002",
+     "caption": "\u4e24\u79cd\u60c5\u51b5\u4e00\u6bd4\uff0c\u5148\u6c42\u51fa\u6bcf\u5929\u957f\u591a\u5c11\uff0c\u518d\u6c42\u51fa\u539f\u6765\u6709\u591a\u5c11\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/596c6c16880bbdea.wav",
+     "from": 211,
+     "frames": 216
+    },
+    {
+     "text": "\u5e2e\u624b\u8d1f\u8d23\u5403\u65b0\u957f\u7684\u8349\uff0c\u5176\u4f59\u7684\u7f8a\u5403\u539f\u6765\u90a3\u5806\u8349\u3002",
+     "caption": "\u5e2e\u624b\u8d1f\u8d23\u5403\u65b0\u957f\u7684\u8349\uff0c\u5176\u4f59\u7684\u7f8a\u5403\u539f\u6765\u90a3\u5806\u8349\u3002",
+     "file": "2026-10-30-goats-and-grass-zh/audio/2328fad0bcee116d.wav",
+     "from": 437,
+     "frames": 178
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-goats-and-grass-zh/audio/f8351124be57142c.wav",
+     "from": 625,
+     "frames": 106
+    }
+   ]
+  }
+ ]
+}

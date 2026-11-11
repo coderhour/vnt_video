@@ -1,0 +1,489 @@
+{
+ "fps": 30,
+ "durationInFrames": 12575,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 404,
+   "lines": [
+    {
+     "text": "Two players race to write zero. The twist: for some numbers, the SECOND player can always win!",
+     "caption": "Two players race to write zero. The twist: for some numbers, the SECOND player can always win!",
+     "file": "2026-11-07-halving-game/audio/74f6b1cfa1344017.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's crack this game by working up from zero.",
+     "caption": "Hi, I'm Vantee! Let's crack this game by working up from zero.",
+     "file": "2026-11-07-halving-game/audio/b74a2ba331b3d965.wav",
+     "from": 218,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 404,
+   "frames": 632,
+   "lines": [
+    {
+     "text": "A number n is on the board. On each turn, you take away one, or halve it, rounding down.",
+     "caption": "A number n is on the board. On each turn, you take away one, or halve it, rounding down.",
+     "file": "2026-11-07-halving-game/audio/9fc6d3fe10098420.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "Two players take turns. The player who writes zero wins.",
+     "caption": "Two players take turns. The player who writes zero wins.",
+     "file": "2026-11-07-halving-game/audio/3af335062c598f50.wav",
+     "from": 219,
+     "frames": 143
+    },
+    {
+     "text": "For how many n from one to one hundred can the second player always win? Here are the choices.",
+     "caption": "For how many n from one to one hundred can the second player always win? Here are the choices.",
+     "file": "2026-11-07-halving-game/audio/26459cd5b3f55d1f.wav",
+     "from": 372,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1036,
+   "frames": 366,
+   "lines": [
+    {
+     "text": "We want the numbers where the player to move is stuck. Let's call them losing numbers.",
+     "caption": "We want the numbers where the player to move is stuck. Let's call them losing numbers.",
+     "file": "2026-11-07-halving-game/audio/a0e674016f47b651.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "Our job: count the losing numbers from one to one hundred.",
+     "caption": "Our job: count the losing numbers from one to one hundred.",
+     "file": "2026-11-07-halving-game/audio/6ee21b8df5a3b09c.wav",
+     "from": 180,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1402,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-halving-game/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "kind": "scene",
+   "chapter": "Solution 1: build a table",
+   "from": 1856,
+   "frames": 1710,
+   "lines": [
+    {
+     "text": "Welcome back! Let's start small and make a table.",
+     "caption": "Welcome back! Let's start small and make a table.",
+     "file": "2026-11-07-halving-game/audio/99f6bb2dccbb4f2c.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Red means the player to move loses. Green means the player to move wins.",
+     "caption": "Red means the player to move loses. Green means the player to move wins.",
+     "file": "2026-11-07-halving-game/audio/574d4602846d982d.wav",
+     "from": 135,
+     "frames": 182
+    },
+    {
+     "text": "Zero is red. If zero is on the board at your turn, your opponent already won.",
+     "caption": "Zero is red. If zero is on the board at your turn, your opponent already won.",
+     "file": "2026-11-07-halving-game/audio/71f1c4c309a8ce2f.wav",
+     "from": 326,
+     "frames": 177
+    },
+    {
+     "text": "From one, you write zero and win. So one is green.",
+     "caption": "From one, you write zero and win. So one is green.",
+     "file": "2026-11-07-halving-game/audio/b5ffb26cf013a894.wav",
+     "from": 513,
+     "frames": 165
+    },
+    {
+     "text": "From two, both moves give one, a green for your opponent. So two is red!",
+     "caption": "From two, both moves give one, a green for your opponent. So two is red!",
+     "file": "2026-11-07-halving-game/audio/8bdf634ea8c1b9f6.wav",
+     "from": 688,
+     "frames": 220
+    },
+    {
+     "text": "The rule: green if SOME move reaches a red. Red if EVERY move reaches a green.",
+     "caption": "The rule: green if SOME move reaches a red. Red if EVERY move reaches a green.",
+     "file": "2026-11-07-halving-game/audio/b4f02fd7df3bb865.wav",
+     "from": 918,
+     "frames": 236
+    },
+    {
+     "text": "Three, four and five can each reach two. All green! Six only reaches five or three. Red!",
+     "caption": "Three, four and five can each reach two. All green! Six only reaches five or three. Red!",
+     "file": "2026-11-07-halving-game/audio/760f710499f7620a.wav",
+     "from": 1164,
+     "frames": 262
+    },
+    {
+     "text": "Keep going up to sixteen. The red numbers are two, six, eight, ten and fourteen.",
+     "caption": "Keep going up to sixteen. The red numbers are two, six, eight, ten and fourteen.",
+     "file": "2026-11-07-halving-game/audio/73bb0ad691a2204e.wav",
+     "from": 1436,
+     "frames": 236
+    }
+   ]
+  },
+  {
+   "id": "pattern",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3566,
+   "frames": 1032,
+   "lines": [
+    {
+     "text": "So far, every red number is even. But four, twelve and sixteen are even AND green. Why?",
+     "caption": "So far, every red number is even. But four, twelve and sixteen are even AND green. Why?",
+     "file": "2026-11-07-halving-game/audio/3aecf0c3807c6565.wav",
+     "from": 0,
+     "frames": 251
+    },
+    {
+     "text": "Let's count the twos in each number. Six is two times three. That's one two.",
+     "caption": "Let's count the twos in each number. Six is two times three. That's one two.",
+     "file": "2026-11-07-halving-game/audio/097cd31b23b7985e.wav",
+     "from": 261,
+     "frames": 227
+    },
+    {
+     "text": "Eight has three twos. But four and twelve have two twos, and sixteen has four.",
+     "caption": "Eight has three twos. But four and twelve have two twos, and sixteen has four.",
+     "file": "2026-11-07-halving-game/audio/8e5514ed3c2e7343.wav",
+     "from": 499,
+     "frames": 244
+    },
+    {
+     "text": "There's the pattern! Red numbers have an ODD number of twos: one, three, five, and so on.",
+     "caption": "There's the pattern! Red numbers have an ODD number of twos: one, three, five, and so on.",
+     "file": "2026-11-07-halving-game/audio/e03e03acfde4045f.wav",
+     "from": 753,
+     "frames": 232
+    }
+   ]
+  },
+  {
+   "id": "prove",
+   "kind": "scene",
+   "chapter": "Solution 1: why it works",
+   "from": 4598,
+   "frames": 1590,
+   "lines": [
+    {
+     "text": "A pattern isn't proof yet. Let's check that it always holds.",
+     "caption": "A pattern isn't proof yet. Let's check that it always holds.",
+     "file": "2026-11-07-halving-game/audio/2cbb70783d1ecdd7.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "Take a red number, like eight. Take away one, and you get an odd number, with zero twos.",
+     "caption": "Take a red number, like eight. Take away one, and you get an odd number, with zero twos.",
+     "file": "2026-11-07-halving-game/audio/0a29b3e259a6fca5.wav",
+     "from": 148,
+     "frames": 244
+    },
+    {
+     "text": "Zero is even, so that's green. Or halve it, and you lose exactly one two. Odd turns even: green!",
+     "caption": "Zero is even, so that's green. Or halve it, and you lose exactly one two. Odd turns even: green!",
+     "file": "2026-11-07-halving-game/audio/ebdb2bc1f32d9c20.wav",
+     "from": 402,
+     "frames": 288
+    },
+    {
+     "text": "So from a red number, every move hands your opponent a green.",
+     "caption": "So from a red number, every move hands your opponent a green.",
+     "file": "2026-11-07-halving-game/audio/feaed0792d1e683b.wav",
+     "from": 700,
+     "frames": 140
+    },
+    {
+     "text": "From a green even number, like twelve, halving drops one two. Even turns odd, so six is red!",
+     "caption": "From a green even number, like twelve, halving drops one two. Even turns odd, so six is red!",
+     "file": "2026-11-07-halving-game/audio/1a84edcd43f3947e.wav",
+     "from": 850,
+     "frames": 261
+    },
+    {
+     "text": "From an odd number, like thirteen, you can reach twelve, or half of twelve, which is six.",
+     "caption": "From an odd number, like thirteen, you can reach twelve, or half of twelve, which is six.",
+     "file": "2026-11-07-halving-game/audio/581a5e101082ad07.wav",
+     "from": 1121,
+     "frames": 191
+    },
+    {
+     "text": "Those two differ by one two, so one count is odd. Hand over that red! From one, just write zero.",
+     "caption": "Those two differ by one two, so one count is odd. Hand over that red! From one, just write zero.",
+     "file": "2026-11-07-halving-game/audio/509266be53c1dd90.wav",
+     "from": 1322,
+     "frames": 230
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": "Solution 1: count them",
+   "from": 6188,
+   "frames": 1111,
+   "lines": [
+    {
+     "text": "Count the reds by their twos. One two: fifty evens, minus twenty-five multiples of four. Twenty-five!",
+     "caption": "Count the reds by their twos. One two: fifty evens, minus twenty-five multiples of four. Twenty-five!",
+     "file": "2026-11-07-halving-game/audio/59d60b161a5b3541.wav",
+     "from": 0,
+     "frames": 302
+    },
+    {
+     "text": "Three twos: eight, twenty-four, forty, fifty-six, seventy-two, eighty-eight. Six!",
+     "caption": "Three twos: eight, twenty-four, forty, fifty-six, seventy-two, eighty-eight. Six!",
+     "file": "2026-11-07-halving-game/audio/96d2c6236d1b638f.wav",
+     "from": 312,
+     "frames": 285
+    },
+    {
+     "text": "Five twos: thirty-two and ninety-six. Seven twos starts at one hundred twenty-eight, too big.",
+     "caption": "Five twos: thirty-two and ninety-six. Seven twos starts at one hundred twenty-eight, too big.",
+     "file": "2026-11-07-halving-game/audio/a58a44b0e4c3d83d.wav",
+     "from": 607,
+     "frames": 213
+    },
+    {
+     "text": "Twenty-five plus six plus two. The answer is <short pause> thirty-three! Choice C.",
+     "caption": "Twenty-five plus six plus two. The answer is thirty-three! Choice C.",
+     "file": "2026-11-07-halving-game/audio/007815ce91ee143a.wav",
+     "from": 830,
+     "frames": 227
+    }
+   ]
+  },
+  {
+   "id": "double",
+   "kind": "scene",
+   "chapter": "Solution 2: the doubling trick",
+   "from": 7299,
+   "frames": 1678,
+   "lines": [
+    {
+     "text": "Here's a slicker way to count. What happens when you double a number?",
+     "caption": "Here's a slicker way to count. What happens when you double a number?",
+     "file": "2026-11-07-halving-game/audio/eb7ca6a5802638bd.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "Doubling adds exactly one two. So it flips the count from odd to even, or even to odd.",
+     "caption": "Doubling adds exactly one two. So it flips the count from odd to even, or even to odd.",
+     "file": "2026-11-07-halving-game/audio/d424f9aeaeefd3fe.wav",
+     "from": 179,
+     "frames": 218
+    },
+    {
+     "text": "So the reds up to one hundred are exactly the doubles of the greens up to fifty.",
+     "caption": "So the reds up to one hundred are exactly the doubles of the greens up to fifty.",
+     "file": "2026-11-07-halving-game/audio/d2088e21a50fcaeb.wav",
+     "from": 407,
+     "frames": 184
+    },
+    {
+     "text": "And the greens up to fifty are fifty, minus the reds up to fifty.",
+     "caption": "And the greens up to fifty are fifty, minus the reds up to fifty.",
+     "file": "2026-11-07-halving-game/audio/005a693cb98c6efb.wav",
+     "from": 601,
+     "frames": 144
+    },
+    {
+     "text": "Use the same trick again and again, halving and rounding down: fifty, twenty-five, twelve, six, three, one. The signs take turns.",
+     "caption": "Use the same trick again and again, halving and rounding down: fifty, twenty-five, twelve, six, three, one. The signs take turns.",
+     "file": "2026-11-07-halving-game/audio/35c503417f816984.wav",
+     "from": 756,
+     "frames": 388
+    },
+    {
+     "text": "Fifty minus twenty-five, plus twelve, minus six, plus three, minus one. Thirty-three again!",
+     "caption": "Fifty minus twenty-five, plus twelve, minus six, plus three, minus one. Thirty-three again!",
+     "file": "2026-11-07-halving-game/audio/ab1228b9758cc10a.wav",
+     "from": 1154,
+     "frames": 324
+    },
+    {
+     "text": "It's handy when the range is huge, like one to a million.",
+     "caption": "It's handy when the range is huge, like one to a million.",
+     "file": "2026-11-07-halving-game/audio/9f9a438272d24722.wav",
+     "from": 1488,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8977,
+   "frames": 1283,
+   "lines": [
+    {
+     "text": "Choice A, twenty-five, is what you'd get if you only counted numbers with exactly one two.",
+     "caption": "Choice A, twenty-five, is what you'd get if you only counted numbers with exactly one two.",
+     "file": "2026-11-07-halving-game/audio/33534e3fdc5f7df0.wav",
+     "from": 0,
+     "frames": 207
+    },
+    {
+     "text": "Choice B, thirty-one, is what you'd get if you missed thirty-two and ninety-six. Five twos is odd too!",
+     "caption": "Choice B, thirty-one, is what you'd get if you missed thirty-two and ninety-six. Five twos is odd too!",
+     "file": "2026-11-07-halving-game/audio/1172ecaae562695e.wav",
+     "from": 217,
+     "frames": 234
+    },
+    {
+     "text": "Choice D, thirty-four, is what you'd get if you counted one as red. But from one, you write zero and win.",
+     "caption": "Choice D, thirty-four, is what you'd get if you counted one as red. But from one, you write zero and win.",
+     "file": "2026-11-07-halving-game/audio/e81690bd1f428180.wav",
+     "from": 461,
+     "frames": 258
+    },
+    {
+     "text": "Choice E, fifty, is what you'd get if every even number were red. But four goes to two, so four is green.",
+     "caption": "Choice E, fifty, is what you'd get if every even number were red. But four goes to two, so four is green.",
+     "file": "2026-11-07-halving-game/audio/9914370090f646ff.wav",
+     "from": 730,
+     "frames": 269
+    },
+    {
+     "text": "So here's a great habit. Always build a table first, then trust the pattern only after you prove it.",
+     "caption": "So here's a great habit. Always build a table first, then trust the pattern only after you prove it.",
+     "file": "2026-11-07-halving-game/audio/6fd93a45aaa0197d.wav",
+     "from": 1009,
+     "frames": 226
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: one to two hundred",
+   "from": 10260,
+   "frames": 251,
+   "lines": [
+    {
+     "text": "Your turn: same game, from one to two hundred. How many can the second player always win?",
+     "caption": "Your turn: same game, from one to two hundred. How many can the second player always win?",
+     "file": "2026-11-07-halving-game/audio/9aa9f306bf86add1.wav",
+     "from": 0,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10511,
+   "frames": 412,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-halving-game/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 88
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Two hundred: the answer",
+   "from": 10923,
+   "frames": 1030,
+   "lines": [
+    {
+     "text": "Halve two hundred again and again: one hundred, fifty, twenty-five, twelve, six, three, one.",
+     "caption": "Halve two hundred again and again: one hundred, fifty, twenty-five, twelve, six, three, one.",
+     "file": "2026-11-07-halving-game/audio/52d0eb1e37e596f2.wav",
+     "from": 0,
+     "frames": 314
+    },
+    {
+     "text": "One hundred minus fifty, plus twenty-five, minus twelve, plus six, minus three, plus one. That's <short pause> sixty-seven!",
+     "caption": "One hundred minus fifty, plus twenty-five, minus twelve, plus six, minus three, plus one. That's sixty-seven!",
+     "file": "2026-11-07-halving-game/audio/25b8ee6195702532.wav",
+     "from": 323,
+     "frames": 342
+    },
+    {
+     "text": "Check by groups: fifty, plus thirteen, plus three, plus one more for the number one hundred twenty-eight. Sixty-seven!",
+     "caption": "Check by groups: fifty, plus thirteen, plus three, plus one more for the number one hundred twenty-eight. Sixty-seven!",
+     "file": "2026-11-07-halving-game/audio/168ecce9228b232a.wav",
+     "from": 676,
+     "frames": 300
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11953,
+   "frames": 622,
+   "lines": [
+    {
+     "text": "The big idea: in a take-turns game, find the losing spots for small numbers. Spot a pattern.",
+     "caption": "The big idea: in a take-turns game, find the losing spots for small numbers. Spot a pattern.",
+     "file": "2026-11-07-halving-game/audio/e81d1f52fb8039cc.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "Then prove it: every move from red goes to green, and some move from green goes to red.",
+     "caption": "Then prove it: every move from red goes to green, and some move from green goes to red.",
+     "file": "2026-11-07-halving-game/audio/fc5b4c444bb7db9e.wav",
+     "from": 230,
+     "frames": 201
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-halving-game/audio/31a6054d0b03b932.wav",
+     "from": 441,
+     "frames": 122
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "fps": 30,
+ "durationInFrames": 12775,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 428,
+   "lines": [
+    {
+     "text": "A frog hops around a hexagon at random. How long until it has visited every corner?",
+     "caption": "A frog hops around a hexagon at random. How long until it has visited every corner?",
+     "file": "2026-11-07-frog-hexagon-cover/audio/27692c2f546e759a.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "Hi, I'm Vantee! A beautiful pattern is hiding here. Let's find it together.",
+     "caption": "Hi, I'm Vantee! A beautiful pattern is hiding here. Let's find it together.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/2b2704f7e79e4087.wav",
+     "from": 195,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 428,
+   "frames": 592,
+   "lines": [
+    {
+     "text": "A frog sits on one vertex, or corner, of a regular hexagon.",
+     "caption": "A frog sits on one vertex, or corner, of a regular hexagon.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/2652dfe9d0819136.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "Each second, it jumps to one of the two neighboring corners, each with chance one half.",
+     "caption": "Each second, it jumps to one of the two neighboring corners, each with chance one half.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/7b53ffe2e30e4518.wav",
+     "from": 158,
+     "frames": 213
+    },
+    {
+     "text": "What is the expected number of jumps until the frog has been on all six corners?",
+     "caption": "What is the expected number of jumps until the frog has been on all six corners?",
+     "file": "2026-11-07-frog-hexagon-cover/audio/c1c3b988cdf00593.wav",
+     "from": 380,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1020,
+   "frames": 406,
+   "lines": [
+    {
+     "text": "Expected number means the average, as if the frog did this a million times.",
+     "caption": "Expected number means the average, as if the frog did this a million times.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/6bd7d484981a881d.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "The starting corner already counts as visited. So we need five new corners.",
+     "caption": "The starting corner already counts as visited. So we need five new corners.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/f5f639383e2448fa.wav",
+     "from": 177,
+     "frames": 176
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1426,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "block",
+   "kind": "scene",
+   "chapter": "Solution 1: one stage at a time",
+   "from": 1894,
+   "frames": 984,
+   "lines": [
+    {
+     "text": "Welcome back! Let's color every corner the frog has visited green.",
+     "caption": "Welcome back! Let's color every corner the frog has visited green.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/be90954333457a87.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "The frog only jumps to neighbors. So the green corners always form one unbroken block.",
+     "caption": "The frog only jumps to neighbors. So the green corners always form one unbroken block.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/c2fa0b1d3ae312a9.wav",
+     "from": 163,
+     "frames": 190
+    },
+    {
+     "text": "And when the block grows, the frog is standing on the new corner, at an end of the block.",
+     "caption": "And when the block grows, the frog is standing on the new corner, at an end of the block.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/0e17a56357395258.wav",
+     "from": 363,
+     "frames": 183
+    },
+    {
+     "text": "To reach a new corner, it must step just outside the block, on either side.",
+     "caption": "To reach a new corner, it must step just outside the block, on either side.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/decaf72b6ec075b6.wav",
+     "from": 556,
+     "frames": 176
+    },
+    {
+     "text": "So the trip splits into five stages. In stage two, two corners are green, and so on.",
+     "caption": "So the trip splits into five stages. In stage two, two corners are green, and so on.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/b4a77d30198ab3ca.wav",
+     "from": 742,
+     "frames": 195
+    }
+   ]
+  },
+  {
+   "id": "stage12",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2878,
+   "frames": 1508,
+   "lines": [
+    {
+     "text": "Stage one is quick. Both neighbors are new, so it takes exactly one jump.",
+     "caption": "Stage one is quick. Both neighbors are new, so it takes exactly one jump.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/64320f7c8df67727.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "Stage two. Let's straighten the hexagon into a line: an exit, the green block, and an exit.",
+     "caption": "Stage two. Let's straighten the hexagon into a line: an exit, the green block, and an exit.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/9f8b3e29abded593.wav",
+     "from": 186,
+     "frames": 227
+    },
+    {
+     "text": "Call W the frog's average waiting time at an end. Every jump costs one. Then add the average waiting time of the two spots it could land on.",
+     "caption": "Call W the frog's average waiting time at an end. Every jump costs one. Then add the average waiting time of the two spots it could land on.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/e8c0b88ebe951956.wav",
+     "from": 423,
+     "frames": 326
+    },
+    {
+     "text": "Half the time, it steps off the block. Done! The other half, it lands on the other end.",
+     "caption": "Half the time, it steps off the block. Done! The other half, it lands on the other end.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/1ce2a946088412a6.wav",
+     "from": 759,
+     "frames": 191
+    },
+    {
+     "text": "That end is a mirror image, so its waiting time is also W. So W is one, plus W over two.",
+     "caption": "That end is a mirror image, so its waiting time is also W. So W is one, plus W over two.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/5df2b186b9e16d1d.wav",
+     "from": 960,
+     "frames": 256
+    },
+    {
+     "text": "Take W over two from both sides. W over two is one, so W is two jumps.",
+     "caption": "Take W over two from both sides. W over two is one, so W is two jumps.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/a16d0e1b86bc6550.wav",
+     "from": 1226,
+     "frames": 234
+    }
+   ]
+  },
+  {
+   "id": "stage3",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4386,
+   "frames": 1093,
+   "lines": [
+    {
+     "text": "Stage three. The block has an end, a middle, and another end. Call the middle's waiting time M.",
+     "caption": "Stage three. The block has an end, a middle, and another end. Call the middle's waiting time M.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/36512ee03af1b758.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "From the middle, every jump lands on an end. So M is one plus W.",
+     "caption": "From the middle, every jump lands on an end. So M is one plus W.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/c9f7709d0a72d625.wav",
+     "from": 247,
+     "frames": 197
+    },
+    {
+     "text": "From the end, half the time it's done, and half the time it goes to the middle.",
+     "caption": "From the end, half the time it's done, and half the time it goes to the middle.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/87e16f3afa6684c7.wav",
+     "from": 454,
+     "frames": 160
+    },
+    {
+     "text": "So W is one, plus half of M. Swap in one plus W for M.",
+     "caption": "So W is one, plus half of M. Swap in one plus W for M.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/66409f43ca0acfdb.wav",
+     "from": 625,
+     "frames": 212
+    },
+    {
+     "text": "W is three over two, plus W over two. So W is three jumps!",
+     "caption": "W is three over two, plus W over two. So W is three jumps!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/2912f3a4980d4f4d.wav",
+     "from": 846,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "stage45",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5479,
+   "frames": 1289,
+   "lines": [
+    {
+     "text": "Stage four has two twin spots in the middle. Call each one's waiting time P.",
+     "caption": "Stage four has two twin spots in the middle. Call each one's waiting time P.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/cd3a228e07b82733.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "From P, it goes to the end or its twin. So P is one, plus W over two, plus P over two.",
+     "caption": "From P, it goes to the end or its twin. So P is one, plus W over two, plus P over two.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/bac45e347f5b08b4.wav",
+     "from": 177,
+     "frames": 248
+    },
+    {
+     "text": "So P is two more than W. And W is one plus P over two. Solve it: W is four jumps!",
+     "caption": "So P is two more than W. And W is one plus P over two. Solve it: W is four jumps!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/d5308c9c86a020d4.wav",
+     "from": 434,
+     "frames": 298
+    },
+    {
+     "text": "Stage five: only one corner is missing. It touches both ends, so both exits land on it.",
+     "caption": "Stage five: only one corner is missing. It touches both ends, so both exits land on it.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/cb84c2f36e9748e5.wav",
+     "from": 742,
+     "frames": 215
+    },
+    {
+     "text": "Same trick, with one more letter. It works out to waiting times of five at the ends, eight next to them, and nine in the middle.",
+     "caption": "Same trick, with one more letter. It works out to waiting times of five at the ends, eight next to them, and nine in the middle.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/1cc6f13bf58e8908.wav",
+     "from": 968,
+     "frames": 268
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6768,
+   "frames": 377,
+   "lines": [
+    {
+     "text": "Add the five stages: one plus two plus three plus four plus five.",
+     "caption": "Add the five stages: one plus two plus three plus four plus five.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/7b960fff424edd12.wav",
+     "from": 0,
+     "frames": 215
+    },
+    {
+     "text": "The answer is <short pause> fifteen! Choice C.",
+     "caption": "The answer is fifteen! Choice C.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/6c3fdb826a8d5a1c.wav",
+     "from": 226,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "hill",
+   "kind": "scene",
+   "chapter": "Solution 2: the hill trick",
+   "from": 7145,
+   "frames": 2583,
+   "lines": [
+    {
+     "text": "Why does it go one, two, three, four, five? Let's draw stage five's waiting times as bars.",
+     "caption": "Why does it go one, two, three, four, five? Let's draw stage five's waiting times as bars.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/ec8cfa9d5aefc580.wav",
+     "from": 0,
+     "frames": 231
+    },
+    {
+     "text": "The exits wait zero. Each other spot waits one more than the average of its neighbors.",
+     "caption": "The exits wait zero. Each other spot waits one more than the average of its neighbors.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/a09334dcd4b1eb79.wav",
+     "from": 241,
+     "frames": 209
+    },
+    {
+     "text": "The waiting times are zero, five, eight, nine, eight, five, zero. Check one: eight is one plus seven.",
+     "caption": "The waiting times are zero, five, eight, nine, eight, five, zero. Check one: eight is one plus seven.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/ce0ecc5960fadaea.wav",
+     "from": 460,
+     "frames": 347
+    },
+    {
+     "text": "Now look at the climbs: up five, up three, up one, down one, down three, down five.",
+     "caption": "Now look at the climbs: up five, up three, up one, down one, down three, down five.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/7bbf4527228c17fa.wav",
+     "from": 817,
+     "frames": 270
+    },
+    {
+     "text": "Halfway between five and nine is seven. Eight is one above, so climbing in beats climbing out by two.",
+     "caption": "Halfway between five and nine is seven. Eight is one above, so climbing in beats climbing out by two.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/7308b7043f0c6695.wav",
+     "from": 1098,
+     "frames": 250
+    },
+    {
+     "text": "And look again. Five is one times five, eight is two times four, nine is three times three.",
+     "caption": "And look again. Five is one times five, eight is two times four, nine is three times three.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/b9f9dd5d2cc0d66b.wav",
+     "from": 1358,
+     "frames": 268
+    },
+    {
+     "text": "Each waiting time is the steps to one exit, times the steps to the other exit!",
+     "caption": "Each waiting time is the steps to one exit, times the steps to the other exit!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/c0242c3b2f9b1142.wav",
+     "from": 1636,
+     "frames": 173
+    },
+    {
+     "text": "Stage k has k plus one climbs, shrinking by two. Both exits are zero, so the climbs cancel: they run from up k to down k.",
+     "caption": "Stage k has k plus one climbs, shrinking by two. Both exits are zero, so the climbs cancel: they run from up k to down k.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/04a1c375409b7f49.wav",
+     "from": 1819,
+     "frames": 318
+    },
+    {
+     "text": "So the frog at an end, one step from one exit and k from the other, waits k jumps.",
+     "caption": "So the frog at an end, one step from one exit and k from the other, waits k jumps.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/e8dce17c52097236.wav",
+     "from": 2148,
+     "frames": 220
+    },
+    {
+     "text": "When would you pick this one? When the shape gets big, and solving equations gets long.",
+     "caption": "When would you pick this one? When the shape gets big, and solving equations gets long.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/59337cda4c97b392.wav",
+     "from": 2378,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 9728,
+   "frames": 960,
+   "lines": [
+    {
+     "text": "A, ten, is what you'd get if you stopped after stage four. The last stage still needs five.",
+     "caption": "A, ten, is what you'd get if you stopped after stage four. The last stage still needs five.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/de54bf53adbd726b.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "B, twelve, and D, eighteen, give every corner the same cost, two or three. But the stages aren't equal.",
+     "caption": "B, twelve, and D, eighteen, give every corner the same cost, two or three. But the stages aren't equal.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/439e9a055e169b6a.wav",
+     "from": 197,
+     "frames": 294
+    },
+    {
+     "text": "They grow, because a step back lands INSIDE the block, farther from new corners.",
+     "caption": "They grow, because a step back lands INSIDE the block, farther from new corners.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/def6e28cf832f0bd.wav",
+     "from": 501,
+     "frames": 190
+    },
+    {
+     "text": "E, twenty-one, counts a sixth stage. Once all six corners are green, the frog is done!",
+     "caption": "E, twenty-one, counts a sixth stage. Once all six corners are green, the frog is done!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/067243297f5dbc8e.wav",
+     "from": 701,
+     "frames": 218
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: an octagon",
+   "from": 10688,
+   "frames": 428,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same frog, same rules, but on a regular octagon with eight corners.",
+     "caption": "Ready for a challenge? Same frog, same rules, but on a regular octagon with eight corners.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/c1e439b4de226390.wav",
+     "from": 0,
+     "frames": 213
+    },
+    {
+     "text": "What is the expected number of jumps until it has been on all eight corners?",
+     "caption": "What is the expected number of jumps until it has been on all eight corners?",
+     "file": "2026-11-07-frog-hexagon-cover/audio/05d4701ff3163eb5.wav",
+     "from": 223,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11116,
+   "frames": 390,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Octagon: the answer",
+   "from": 11506,
+   "frames": 656,
+   "lines": [
+    {
+     "text": "The green corners still form one block, and each stage starts at an end.",
+     "caption": "The green corners still form one block, and each stage starts at an end.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/d74a73db9883822f.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "With k corners green, the waiting time is one times k. That's k jumps.",
+     "caption": "With k corners green, the waiting time is one times k. That's k jumps.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/4a8df03241caa785.wav",
+     "from": 171,
+     "frames": 198
+    },
+    {
+     "text": "Seven new corners, seven stages: one plus two, up to seven. That's twenty-eight jumps!",
+     "caption": "Seven new corners, seven stages: one plus two, up to seven. That's twenty-eight jumps!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/f30d482f81991d73.wav",
+     "from": 380,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 12162,
+   "frames": 613,
+   "lines": [
+    {
+     "text": "The big idea: picture a walker on a line, with equal chances each step, and an exit at each end.",
+     "caption": "The big idea: picture a walker on a line, with equal chances each step, and an exit at each end.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/166e00e4c45042b4.wav",
+     "from": 0,
+     "frames": 230
+    },
+    {
+     "text": "Its average wait to step off is the steps to one exit, times the steps to the other.",
+     "caption": "Its average wait to step off is the steps to one exit, times the steps to the other.",
+     "file": "2026-11-07-frog-hexagon-cover/audio/e5770e911b004df4.wav",
+     "from": 239,
+     "frames": 183
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-frog-hexagon-cover/audio/31a6054d0b03b932.wav",
+     "from": 432,
+     "frames": 112
+    }
+   ]
+  }
+ ]
+}

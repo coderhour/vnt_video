@@ -1,0 +1,128 @@
+{
+ "fps": 30,
+ "durationInFrames": 1195,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 127,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's one over four? Nope!",
+     "caption": "AMC 10 challenge! Think it's 1/4? Nope!",
+     "file": "2026-11-07-broken-stick/short/audio/5057067224e9dac8.wav",
+     "from": 0,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 127,
+   "frames": 219,
+   "lines": [
+    {
+     "text": "Snap a stick at two random spots: three pieces.",
+     "caption": "Snap a stick at 2 random spots: 3 pieces.",
+     "file": "2026-11-07-broken-stick/short/audio/358d3fca248fd4c4.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "What's the chance the longest piece is less than twice the shortest?",
+     "caption": "What's the chance the longest piece is less than twice the shortest?",
+     "file": "2026-11-07-broken-stick/short/audio/adeb22bbea198db1.wav",
+     "from": 97,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 346,
+   "frames": 73,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-broken-stick/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 60
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "kind": "scene",
+   "chapter": null,
+   "from": 419,
+   "frames": 461,
+   "lines": [
+    {
+     "text": "Make the stick sixty long. Two cuts make one dot in the square.",
+     "caption": "Make the stick 60 long. 2 cuts make 1 dot in the square.",
+     "file": "2026-11-07-broken-stick/short/audio/23e1aeb89e04a93f.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "Keep the top half, a mirror of the bottom. Its area is one thousand eight hundred.",
+     "caption": "Keep the top half, a mirror of the bottom. Its area is 1800.",
+     "file": "2026-11-07-broken-stick/short/audio/eef5bd2d8d84d081.wav",
+     "from": 120,
+     "frames": 135
+    },
+    {
+     "text": "Now light up every winning dot.",
+     "caption": "Now light up every winning dot.",
+     "file": "2026-11-07-broken-stick/short/audio/8f5653bc30fbcf59.wav",
+     "from": 259,
+     "frames": 66
+    },
+    {
+     "text": "They make a hexagon: six triangles of thirty, so one hundred eighty!",
+     "caption": "They make a hexagon: 6 triangles of 30, so 180!",
+     "file": "2026-11-07-broken-stick/short/audio/7749d1b52484932a.wav",
+     "from": 330,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 880,
+   "frames": 315,
+   "lines": [
+    {
+     "text": "One hundred eighty out of one thousand eight hundred. One over ten!",
+     "caption": "180 out of 1800. 1/10!",
+     "file": "2026-11-07-broken-stick/short/audio/8a849148b2ca4528.wav",
+     "from": 0,
+     "frames": 107
+    },
+    {
+     "text": "One over four, the triangle chance, was the trap.",
+     "caption": "1/4, the triangle chance, was the trap.",
+     "file": "2026-11-07-broken-stick/short/audio/8170e9ceecbe5c1c.wav",
+     "from": 111,
+     "frames": 89
+    },
+    {
+     "text": "Did you get one over ten? Tell me below!",
+     "caption": "Did you get 1/10? Tell me below!",
+     "file": "2026-11-07-broken-stick/short/audio/f8f4b25e81fd091a.wav",
+     "from": 204,
+     "frames": 75
+    }
+   ]
+  }
+ ]
+}

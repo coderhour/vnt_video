@@ -1,0 +1,53 @@
+{
+ "title": "Which Divisors End in 1? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's twenty-five? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Take three to the sixth, times seven to the fourth, times thirteen squared.",
+    "How many of its positive divisors end in the digit one?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "grid",
+   "lines": [
+    "Only last digits matter. Here's three to the a, times thirteen to the c.",
+    "Five boxes end in one. Powers of seven end in one, seven, nine, three, one.",
+    "A box ending in one works with two of them. Every other box works with exactly one!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Five times two, plus sixteen. That's twenty-six!",
+    "Twenty-five was the trap. Seven doesn't end in one!",
+    "Did you get twenty-six? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "Take three to the sixth, times seven to the fourth, times thirteen squared.": "Take 3 to the 6th, times 7 to the 4th, times 13 squared.",
+  "How many of its positive divisors end in the digit one?": "How many of its positive divisors end in the digit 1?",
+  "Five boxes end in one. Powers of seven end in one, seven, nine, three, one.": "5 boxes end in 1. Powers of 7 end in 1, 7, 9, 3, 1.",
+  "A box ending in one works with two of them. Every other box works with exactly one!": "A box ending in 1 works with 2 of them. Every other box works with exactly 1!",
+  "Twenty-five was the trap. Seven doesn't end in one!": "25 was the trap. 7 doesn't end in 1!"
+ }
+}

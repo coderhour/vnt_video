@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1222,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 107,
+   "lines": [
+    {
+     "text": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f12\uff1f\u9519\uff01",
+     "caption": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f12\uff1f\u9519\uff01",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/a023318167c26e07-x1.15.wav",
+     "from": 0,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 107,
+   "frames": 262,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u9876\u70b9\u662f\u96f6\u96f6\u3001p\u96f6\u548c\u96f6q\u3002",
+     "caption": "\u4e00\u4e2a\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u9876\u70b9\u662f(0,0)\u3001(p,0)\u548c(0,q)\u3002",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/d09ef194786d51ae-x1.15.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "\u5185\u90e8\u6b63\u597d10\u4e2a\u70b9\u3002\u6709\u5e8f\u6570\u5bf9p\u3001q\u6709\u51e0\u4e2a\uff1f",
+     "caption": "\u5185\u90e8\u6b63\u597d10\u4e2a\u70b9\u3002\u6709\u5e8f\u6570\u5bf9p\u3001q\u6709\u51e0\u4e2a\uff1f",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/32a912b99f6c6fde-x1.15.wav",
+     "from": 137,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 369,
+   "frames": 81,
+   "lines": [
+    {
+     "text": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "caption": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/e41e564c6dcc28fb-x1.15.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "square",
+   "kind": "scene",
+   "chapter": null,
+   "from": 450,
+   "frames": 404,
+   "lines": [
+    {
+     "text": "\u62fc\u4e0a\u4e00\u4e2a\u4e00\u6837\u7684\u4e09\u89d2\u5f62\uff0c\u53d8\u6210\u6b63\u65b9\u5f62\uff0c\u91cc\u976225\u4e2a\u70b9\u3002",
+     "caption": "\u62fc\u4e0a\u4e00\u4e2a\u4e00\u6837\u7684\u4e09\u89d2\u5f62\uff0c\u53d8\u6210\u6b63\u65b9\u5f62\uff0c\u91cc\u976225\u4e2a\u70b9\u3002",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/e497f92647bf9130-x1.15.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "\u67095\u4e2a\u70b9\u5728\u659c\u8fb9\u4e0a\u3002\u5269\u4e0b20\u4e2a\u5e73\u5206\uff1a\u6bcf\u8fb910\u4e2a\uff01",
+     "caption": "\u67095\u4e2a\u70b9\u5728\u659c\u8fb9\u4e0a\u3002\u5269\u4e0b20\u4e2a\u5e73\u5206\uff1a\u6bcf\u8fb910\u4e2a\uff01",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/5f0c9d0e90dd71f4-x1.15.wav",
+     "from": 153,
+     "frames": 142
+    },
+    {
+     "text": "\u6bcf\u6761\u77ed\u8fb9\u90fd\u8fd9\u6837\u67e5\uff1a\u67096\u4e2a\u6570\u5bf9\u6210\u7acb\u3002",
+     "caption": "\u6bcf\u6761\u77ed\u8fb9\u90fd\u8fd9\u6837\u67e5\uff1a\u67096\u4e2a\u6570\u5bf9\u6210\u7acb\u3002",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/9575d0285daa1502-x1.15.wav",
+     "from": 299,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 854,
+   "frames": 368,
+   "lines": [
+    {
+     "text": "\u7ffb\u8fc7\u6765\uff0c\u53c8\u591a\u51fa5\u5bf9\u3002\u4e00\u517111\u4e2a\uff01",
+     "caption": "\u7ffb\u8fc7\u6765\uff0c\u53c8\u591a\u51fa5\u5bf9\u3002\u4e00\u517111\u4e2a\uff01",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/4bbb54b715a57742-x1.15.wav",
+     "from": 0,
+     "frames": 105
+    },
+    {
+     "text": "12\u662f\u9677\u9631\uff016\u548c6\u7ffb\u8fc7\u6765\u8fd8\u662f\u81ea\u5df1\uff01",
+     "caption": "12\u662f\u9677\u9631\uff016\u548c6\u7ffb\u8fc7\u6765\u8fd8\u662f\u81ea\u5df1\uff01",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/30efde4162857073-x1.15.wav",
+     "from": 109,
+     "frames": 116
+    },
+    {
+     "text": "\u7b54\u6848\u662f11\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "caption": "\u7b54\u6848\u662f11\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "file": "2026-11-01-lattice-triangle-10-zh/short/audio/711b9296ab8718db-x1.15.wav",
+     "from": 229,
+     "frames": 103
+    }
+   ]
+  }
+ ]
+}

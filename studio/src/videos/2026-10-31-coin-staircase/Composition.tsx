@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-coin-staircase';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -755,3 +756,35 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the staircase with Pia on step 0, step 5 in gold and a coin, no answer.
+export const Thumb: React.FC = () => {
+  const w = 90, h = 58, ox = 25, y0 = 545;
+  const r = 24;
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>1/2?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        {range(7).map((n) => {
+          const x = ox + n * w, y = y0 - n * h, g = n === 5;
+          return (
+            <g key={n}>
+              <rect x={x} y={y} width={w} height={y0 + 14 - y} fill={g ? GOLD : n === 0 ? '#d9efe3' : '#e8ebf4'} fillOpacity={g ? 0.55 : 1} stroke={g ? GOLD : '#c3cadb'} strokeWidth={g ? 6 : 3} />
+              <rect x={x} y={y} width={w} height={10} fill={n === 0 ? '#8fd3ae' : g ? GOLD : '#b4bcd3'} />
+              <text x={x + w / 2} y={y0 + 14 + 52} fontFamily={NUNITO} fontWeight={900} fontSize={50} textAnchor="middle" fill={g ? GOLD_D : C.ink}>{n}</text>
+            </g>
+          );
+        })}
+        <g transform={`translate(${ox + w / 2} ${y0 - r - 6})`}>
+          <circle r={r} fill={C.violet} stroke="#fff" strokeWidth={4} />
+          <circle cx={-8} cy={-4} r={5} fill="#fff" /><circle cx={8} cy={-4} r={5} fill="#fff" />
+          <circle cx={-7} cy={-3} r={2.3} fill={C.ink} /><circle cx={9} cy={-3} r={2.3} fill={C.ink} />
+        </g>
+        <g transform="translate(135 150)">
+          <circle r={84} fill={GOLD} stroke="#fff" strokeWidth={8} />
+          <circle r={64} fill="none" stroke={GOLD_D} strokeWidth={5} strokeDasharray="3 9" strokeLinecap="round" />
+          <text y={4} fontFamily={NUNITO} fontWeight={900} fontSize={62} fill="#fff" textAnchor="middle" dominantBaseline="central">H/T</text>
+        </g>
+      </svg>
+    </ThumbFrame>
+  );
+};

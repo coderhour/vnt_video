@@ -1,0 +1,211 @@
+{
+ "title": "1+2+…+n 最小加到几，才是2024的倍数？| AMC 10 风格 第4级",
+ "fps": 30,
+ "lang": "zh",
+ "voice": "Zephyr",
+ "style": "warm and encouraging, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a relaxed pace, no laughing",
+ "captions": {
+  "1加2加3，一直加下去。总和什么时候，会是两千零二十四的倍数？": "1加2加3，一直加下去。总和什么时候，会是2024的倍数？",
+  "使得1加2加3，一直加到n，能被两千零二十四整除。": "使得1加2加3，一直加到n，能被2024整除。",
+  "总和要正好分成几组，每组两千零二十四，不多不少。而且我们要找最小的n。": "总和要正好分成几组，每组2024，不多不少。而且我们要找最小的n。",
+  "所以，n乘n加1的一半，要能被两千零二十四整除。": "所以，n乘n加1的一半，要能被2024整除。",
+  "把一半去掉：n乘n加1，要能被两倍的数整除，也就是四千零四十八。": "把一半去掉：n乘n加1，要能被2倍的数整除，也就是4048。",
+  "四千零四十八等于16乘11乘23。16是4个2相乘，11和23都是质数。": "4048等于16乘11乘23。16是4个2相乘，11和23都是质数。",
+  "两百五十三和五百零六：旁边的相邻数，都不是16的倍数。": "253和506：旁边的相邻数，都不是16的倍数。",
+  "第4组：三个因数全放在一起，就是四千零四十八。太大了。": "第4组：3个因数全放在一起，就是4048。太大了。",
+  "1加2，一直加到n，要能被两千零二十五整除。最小的n是多少？": "1加2，一直加到n，要能被2025整除。最小的n是多少？",
+  "我们来看看。先把一半去掉：n乘n加1，要能被四千零五十整除。": "我们来看看。先把一半去掉：n乘n加1，要能被4050整除。",
+  "四千零五十等于2乘81乘25。因数2不用管，因为一对相邻数里，总有一个是偶数。": "4050等于2乘81乘25。因数2不用管，因为一对相邻数里，总有一个是偶数。",
+  "所以把81的倍数挨个看一遍：八十一、一百六十二、两百四十三。": "所以把81的倍数挨个看一遍：81、162、243。",
+  "第1组：16和11放在一起，是一百七十六的倍数。两边的相邻数都要检查。": "第1组：16和11放在一起，是176的倍数。两边的相邻数都要检查。",
+  "第2组：十六和二十三放在一起，就是三百六十八。两边的相邻数都没有因数11。": "第2组：16和23放在一起，就是368。两边的相邻数都没有因数11。",
+  "我们需要八、十一和二十三。如果是两百五十三，总和是奇数！": "我们需要8、11和23。如果是253，总和是奇数！",
+  "528的话，就是两百六十四乘529。": "528的话，就是264乘529。",
+  "先看选项A，两百五十三：这是只用了11和23得到的。": "先看选项A，253：这是只用了11和23得到的。",
+  "再看最后一个选项，一千零一十二，是两千零二十四的一半。算出的总和，只有一个因数2。": "再看最后一个选项，1012，是2024的一半。算出的总和，只有1个因数2。",
+  "三百二十四：旁边的三百二十五，正好是25乘13！": "324：旁边的325，正好是25乘13！",
+  "接着看选项B：四百八十三含有23，旁边的四百八十四含有11。可就是没有8！": "接着看选项B：483含有23，旁边的484含有11。可就是没有8！"
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "开场",
+   "hold": 0.5,
+   "visual": "Running sum 1+2+3+… with a counter. Line 1: counter ticks fast. Line 2: '2024?' badge with a question mark. Line 3: Vantee title card.",
+   "lines": [
+    "1加2加3，一直加下去。总和什么时候，会是两千零二十四的倍数？",
+    "一个一个加，要加到天荒地老。不过，用相邻数的一个小妙招，很快就能找到。",
+    "你好，我是Vantee！今天我们一起来寻找一个数字！"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "题目",
+   "hold": 1.5,
+   "visual": "Question text with LaTeX 1+2+\\cdots+n, read across lines 2–3. Line 4: choice chips 253, 483, 528, 736, 1012.",
+   "lines": [
+    "求最小的正整数n，",
+    "使得1加2加3，一直加到n，能被两千零二十四整除。",
+    "下面是五个选项，仔细看一看。"
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "题目问的是什么？",
+   "hold": 1.5,
+   "visual": "Line 1: 1+2+⋯+n with 'n' highlighted. Line 2: 'sum ÷ 2024 = whole number', then 'SMALLEST n' marked.",
+   "lines": [
+    "我们知道什么？从1到n，每个整数都要加起来。",
+    "总和要正好分成几组，每组两千零二十四，不多不少。而且我们要找最小的n。"
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "自己试一试",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; question and choices visible.",
+   "lines": [
+    "现在轮到你了。暂停视频，自己试一试。我等你！"
+   ]
+  },
+  {
+   "id": "sum",
+   "chapter": "解法一：分配因数",
+   "hold": 1,
+   "visual": "Line 1: two rows: 1, 2, …, n and n, …, 2, 1 under it. Line 2: column pairs glow, each 'n+1', 'n columns'. Line 3: 'sum = n(n+1)/2' (\\dfrac).",
+   "lines": [
+    "欢迎回来！先学一个求和的捷径。把这些数正着写一遍，再倒着写在下面。",
+    "每一列加起来都是n加1，一共有n列。",
+    "这样每个数都算了两次，所以总和是n乘n加1的一半。"
+   ]
+  },
+  {
+   "id": "double",
+   "hold": 1,
+   "visual": "Rows: '\\dfrac{n(n+1)}{2} divisible by 2024' → 'n(n+1) divisible by 4048' → '4048 = 16 × 11 × 23' with factor tiles 16 (green), 11 (purple), 23 (orange); small note '16 = 2 × 2 × 2 × 2'.",
+   "lines": [
+    "所以，n乘n加1的一半，要能被两千零二十四整除。",
+    "把一半去掉：n乘n加1，要能被两倍的数整除，也就是四千零四十八。",
+    "四千零四十八等于16乘11乘23。16是4个2相乘，11和23都是质数。"
+   ]
+  },
+  {
+   "id": "neighbors",
+   "hold": 1.0,
+   "visual": "Two boxes 'n' and 'n+1' side by side. Line 1: one box tagged 'odd: no 2s'. Line 2: the 16 tile slides whole into the even box. Line 3: an 11 tile tries to sit in both; 'difference = 1' ✗. Line 4: 11 and 23 tiles each drop whole into a box. Line 5: four piles listed: {16,11}|{23}, {16,23}|{11}, {16}|{11,23}, {16,11,23}|{}.",
+   "lines": [
+    "关键来了。n和n加1是一对相邻数，其中一个是奇数。奇数里没有因数2。",
+    "所以4个因数2，也就是整个16，必须都在偶数那一边。",
+    "11能同时整除这对相邻数吗？那样的话，11也能整除这对数的差，可差只有1。",
+    "所以11只能整个放进其中一个数里，23也一样。",
+    "我们只要选哪些因数放在一起。这样一共有4组要检查。"
+   ]
+  },
+  {
+   "id": "walkA",
+   "hold": 1.0,
+   "visual": "Pile A: box 16 × 11 = 176. Line 1: both neighbor slots shown (so it doesn't matter which is n). Line 2: 176 with neighbors 175, 177 ✗. Line 3: 352 with 351, 353 ✗. Side strip of multiples of 23 for reference: 161, 184 | 345, 368 | 506, 529. Line 4: 528 with 527 ✗, 529 ✓ and '529 = 23 × 23'. Line 5: 'n = 528, n+1 = 529' pinned as 'best so far' — not yet the final answer badge.",
+   "lines": [
+    "第1组：16和11放在一起，是一百七十六的倍数。两边的相邻数都要检查。",
+    "先看176：两边的相邻数，都不是23的倍数。",
+    "再看352。还是不行。",
+    "528：旁边的529，正好是23乘23！",
+    "所以528可以！先记下来，再检查其他几组。"
+   ]
+  },
+  {
+   "id": "walkB",
+   "hold": 1,
+   "visual": "Pile B: 16 × 23 = 368. Line 1: 368 with 367, 369 ✗ (reference: 11 × 33 = 363, 11 × 34 = 374). Line 2: 736 with 737 = 11 × 67 ✓. Line 3: tag '736 > 528'.",
+   "lines": [
+    "第2组：十六和二十三放在一起，就是三百六十八。两边的相邻数都没有因数11。",
+    "接下来是736。旁边的737，等于11乘67。",
+    "736也可以，但是比528大。"
+   ]
+  },
+  {
+   "id": "walkC",
+   "hold": 1.5,
+   "visual": "Pile C: 11 × 23 = 253. Line 2: 253 (252, 254 ✗), 506 (505, 507 ✗); reference multiples of 16: 240, 256 | 496, 512. Line 3: 759 greyed 'past 528, stop'. Line 4: pile D: 4048 greyed. Line 5: answer badge 528, choice C highlighted, chime at END of line.",
+   "lines": [
+    "第3组：11和23放在一起，是253的倍数。",
+    "两百五十三和五百零六：旁边的相邻数，都不是16的倍数。",
+    "下一个是759，已经超过528了。可以停了。",
+    "第4组：三个因数全放在一起，就是四千零四十八。太大了。",
+    "所以最小的n是528。答案是C！"
+   ]
+  },
+  {
+   "id": "choices",
+   "chapter": "解法二：试选项",
+   "hold": 1.0,
+   "visual": "Rows per line (\\dfrac for the halving): L1 'n(n+1)/2 → halve the even one'. L2 goal tiles '2×2×2, 11, 23'; '253 × 254 / 2 = 253 × 127' odd ✗. L3 '483 × 484 / 2 = 483 × 242', '242 = 2 × 121' (one two) ✗. L4 '528 × 529 / 2 = 264 × 529'. L5 '= (8 × 33) × (23 × 23)', '33 = 3 × 11' ✓. L6 small note 'smallest choice, not yet a proof'.",
+   "lines": [
+    "考试时有个更快的方法：从最小的选项开始试，先把偶数那个除以2。",
+    "我们需要八、十一和二十三。如果是两百五十三，总和是奇数！",
+    "483乘242，只有1个因数2。不够！",
+    "528的话，就是两百六十四乘529。",
+    "也就是8乘3乘11，再乘23乘23。需要的全都有了！",
+    "所以528是能成立的选项里最小的。解法一还证明了，没有比它更小的n。",
+    "什么时候用这个方法？限时考试的时候，选项就摆在眼前。"
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "常见陷阱",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red with a one-line note. L2: '253 = 11 × 23', '2024 = 8 × 11 × 23' with the 8 circled red ('forgot the 8'); sum 253 × 127 is odd. L3: '1012 = 2024 ÷ 2', sum = 506 × 1013, '506 = 2 × 253'. L4: '483 = 21 × 23', '484 = 4 × 121', sum = 483 × 242 → one two. L5: 736 chip amber/green-outlined 'works, but 736 > 528'.",
+   "lines": [
+    "先看选项A，两百五十三：这是只用了11和23得到的。",
+    "再看最后一个选项，一千零一十二，是两千零二十四的一半。算出的总和，只有一个因数2。",
+    "接着看选项B：四百八十三含有23，旁边的四百八十四含有11。可就是没有8！",
+    "再看选项D，736确实可以！不过736是第2组的答案，不是最小的。"
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "轮到你：2025",
+   "hold": 0.5,
+   "visual": "Card: 'Smallest n with 1+2+⋯+n divisible by 2025?'",
+   "lines": [
+    "1加2，一直加到n，要能被两千零二十五整除。最小的n是多少？"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown, variant question visible.",
+   "lines": [
+    "暂停视频，挑战一下吧！"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "2025：答案",
+   "hold": 1.5,
+   "visual": "L1: 'n(n+1) divisible by 4050'. L2: '4050 = 2 × 81 × 25', '2: free (one neighbor is even)'. L3: tiles 81 and 25; 'both in one: 2025 → n = 2024 or 2025; look for smaller'. L4: walk 81 (80, 82 ✗), 162 (161, 163 ✗), 243 (242, 244 ✗). L5: neighbors marked ✗ (ref: 75, 100 | 150, 175 | 225, 250). L6: 324 (323 ✗, 325 = 25 × 13 ✓). L7: answer badge 324, chime at end of the first sentence; small check row '324 × 325 / 2 = 162 × 325 = 2025 × 26'.",
+   "lines": [
+    "我们来看看。先把一半去掉：n乘n加1，要能被四千零五十整除。",
+    "四千零五十等于2乘81乘25。因数2不用管，因为一对相邻数里，总有一个是偶数。",
+    "81和25，各自整个放进一边。全放进同一边，就太大了。",
+    "所以把81的倍数挨个看一遍：八十一、一百六十二、两百四十三。",
+    "这些数旁边的相邻数，都不是25的倍数。",
+    "三百二十四：旁边的三百二十五，正好是25乘13！",
+    "所以n等于324。如果你做对了，太棒了！"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "总结",
+   "hold": 2,
+   "visual": "Summary card: 'sum = n(n+1)/2 → neighbors share nothing → each prime power goes whole to one neighbor → walk the big multiples'.",
+   "lines": [
+    "一对相邻数，除了1没有别的公因数。所以每个质数的幂，都会整个落在其中一个数里。",
+    "把因数分组，从小到大数倍数，再检查旁边的相邻数。",
+    "我是Vantee。继续探索，我们下次见！"
+   ]
+  }
+ ]
+}

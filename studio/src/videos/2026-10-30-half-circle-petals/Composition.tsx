@@ -7,6 +7,7 @@ import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-half-circle-petals';
@@ -645,3 +646,12 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-half-circle-petals-thumb`, render.sh → poster.jpg): the question + the flower figure, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Shaded", <span style={{ color: C.primary }}>area?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Figure m={plane(60, 600, 140)} />
+    </svg>
+  </ThumbFrame>
+);

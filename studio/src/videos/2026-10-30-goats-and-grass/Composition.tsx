@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-goats-and-grass';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -688,3 +689,19 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-goats-and-grass-thumb`, render.sh -> poster.jpg): the trap + the two goat herds on the field, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>4 days?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <rect x={10} y={70} width={660} height={500} rx={40} fill={FIELD} />
+      <Goat x={100} y={170} s={1.3} />
+      <Label x={190} y={150} text="10 goats" size={64} anchor="start" />
+      <Label x={190} y={215} text="20 days" size={64} anchor="start" color={C.primary} />
+      <Goat x={100} y={400} s={1.3} fill={C.amber} />
+      <Label x={190} y={380} text="15 goats" size={64} anchor="start" />
+      <Label x={190} y={445} text="10 days" size={64} anchor="start" color={C.red} />
+      <Label x={340} y={520} text="the grass keeps growing!" size={44} color={C.blue} />
+    </svg>
+  </ThumbFrame>
+);

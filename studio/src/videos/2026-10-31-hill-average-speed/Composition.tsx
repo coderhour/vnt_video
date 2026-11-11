@@ -2,12 +2,13 @@ import { Audio, Sequence, staticFile, useCurrentFrame } from 'remotion';
 import { ease, fadeTo, fadeUp, pop } from '../../lib/anim';
 import { Explainer, at, type SceneComponent, type Timeline } from '../../lib/Explainer';
 import { Countdown } from '../../lib/PauseCard';
-import { Stage } from '../../lib/grid';
+import { Stage, StageSize } from '../../lib/grid';
 import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-hill-average-speed';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -459,3 +460,17 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the hill with the two speeds (km/h up, m/s down), no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>24?</span>]}>
+    <div style={{ position: 'relative', width: 680, height: 640 }}>
+      <StageSize.Provider value={[680, 640]}>
+        <Hill p={0.5} sc={0.7} tx={-30} ty={-95} />
+      </StageSize.Provider>
+      <HillLabel x={250} y={355} text="3 km" start={-100} />
+      <Tag x={20} y={460} label="up" value="12" unit="km/h" color={KM} start={-100} />
+      <Tag x={20} y={545} label="down" value="10" unit="m/s" color={MS} start={-100} />
+    </div>
+  </ThumbFrame>
+);

@@ -7,6 +7,7 @@ import { Stage, XMark, type Pt } from '../../lib/grid';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-hexagon-triangles';
@@ -511,7 +512,7 @@ const Flip: SceneComponent = ({ scene }) => {
   );
 };
 
-const Thumb: React.FC<{ T: Map; kind: 'a' | 'b' | 'c' | 'd' | 'e'; op: number }> = ({ T, kind, op }) => (
+const MiniThumb: React.FC<{ T: Map; kind: 'a' | 'b' | 'c' | 'd' | 'e'; op: number }> = ({ T, kind, op }) => (
   <g opacity={op}>
     <Base T={T} />
     {kind === 'a' && SMALL_HEX.map((t, k) => <Pg key={k} pts={ptsOf(t, T)} fill={C.primary} fo={0.3} />)}
@@ -556,7 +557,7 @@ const Traps: SceneComponent = ({ scene }) => {
       <Stage>
         {TRAPS.map((r, i) => {
           const st = at(scene, i);
-          return <Thumb key={r.l} T={mk(1010, RY + i * RH + 57, 29)} kind={r.kind} op={ease(f, st + 14, 12)} />;
+          return <MiniThumb key={r.l} T={mk(1010, RY + i * RH + 57, 29)} kind={r.kind} op={ease(f, st + 14, 12)} />;
         })}
       </Stage>
       {TRAPS.map((r, i) => {
@@ -711,3 +712,12 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-31-hexagon-triangles-thumb`, render.sh → poster.jpg): the trap + the hexagon cut into 24 small triangles, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>36?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Base T={mk(340, 320, 150)} />
+    </svg>
+  </ThumbFrame>
+);

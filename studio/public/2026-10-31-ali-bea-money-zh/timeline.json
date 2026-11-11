@@ -1,0 +1,550 @@
+{
+ "fps": 30,
+ "durationInFrames": 12503,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 520,
+   "lines": [
+    {
+     "text": "\u4e24\u4e2a\u597d\u670b\u53cb\uff0c\u4e24\u79cd\u4e0d\u540c\u7684\u7ed9\u94b1\u65b9\u5f0f\uff0c\u5e26\u6765\u4e24\u6761\u7ebf\u7d22\u3002",
+     "caption": "\u4e24\u4e2a\u597d\u670b\u53cb\uff0c\u4e24\u79cd\u4e0d\u540c\u7684\u7ed9\u94b1\u65b9\u5f0f\uff0c\u5e26\u6765\u4e24\u6761\u7ebf\u7d22\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/24a6c8d6ef8ed3ef.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "\u80fd\u7b97\u51fa\u4ed6\u4eec\u4e00\u5171\u6709\u591a\u5c11\u94b1\u5417\uff1f\u6211\u4eec\u753b\u4e2a\u56fe\u6765\u770b\u770b\uff01",
+     "caption": "\u80fd\u7b97\u51fa\u4ed6\u4eec\u4e00\u5171\u6709\u591a\u5c11\u94b1\u5417\uff1f\u6211\u4eec\u753b\u4e2a\u56fe\u6765\u770b\u770b\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/e0a522a172fbfdc3.wav",
+     "from": 178,
+     "frames": 150
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u8fd9\u9053\u9898\uff0c\u6211\u4eec\u7528\u7ebf\u6bb5\u56fe\u6765\u89e3\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u8fd9\u9053\u9898\uff0c\u6211\u4eec\u7528\u7ebf\u6bb5\u56fe\u6765\u89e3\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/9a5cca84b4bb53b9.wav",
+     "from": 339,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 520,
+   "frames": 730,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 40
+    },
+    {
+     "text": "\u5982\u679c\u5c0f\u660e\u628a\u81ea\u5df1\u94b1\u6570\u768420%\u7ed9\u5c0f\u7ea2\uff0c\u4e24\u4eba\u7684\u94b1\u5c31\u4e00\u6837\u591a\u3002",
+     "caption": "\u5982\u679c\u5c0f\u660e\u628a\u81ea\u5df1\u94b1\u6570\u768420%\u7ed9\u5c0f\u7ea2\uff0c\u4e24\u4eba\u7684\u94b1\u5c31\u4e00\u6837\u591a\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/bcbcf00b4e890482.wav",
+     "from": 50,
+     "frames": 210
+    },
+    {
+     "text": "\u5982\u679c\u6539\u6210\u5c0f\u7ea2\u7ed9\u5c0f\u660e10\u5143\uff0c\u5c0f\u660e\u7684\u94b1\u5c31\u662f\u5c0f\u7ea2\u7684\u4e24\u500d\u3002",
+     "caption": "\u5982\u679c\u6539\u6210\u5c0f\u7ea2\u7ed9\u5c0f\u660e10\u5143\uff0c\u5c0f\u660e\u7684\u94b1\u5c31\u662f\u5c0f\u7ea2\u76842\u500d\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/d2bc72db17de71d5.wav",
+     "from": 270,
+     "frames": 182
+    },
+    {
+     "text": "\u5c0f\u660e\u548c\u5c0f\u7ea2\u4e00\u5171\u6709\u591a\u5c11\u5143\uff1f",
+     "caption": "\u5c0f\u660e\u548c\u5c0f\u7ea2\u4e00\u5171\u6709\u591a\u5c11\u5143\uff1f",
+     "file": "2026-10-31-ali-bea-money-zh/audio/686fd8a71bfddb9c.wav",
+     "from": 462,
+     "frames": 108
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/cff06e3fe814d7a5.wav",
+     "from": 580,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1250,
+   "frames": 512,
+   "lines": [
+    {
+     "text": "\u8fd9\u91cc\u6709\u4e24\u6761\u7ebf\u7d22\u3002\u201c\u6539\u6210\u201d\u7684\u610f\u601d\u662f\uff0c\u6bcf\u6761\u7ebf\u7d22\u90fd\u4ece\u4e24\u4eba\u539f\u6765\u7684\u94b1\u51fa\u53d1\uff0c\u91cd\u65b0\u5f00\u59cb\u3002",
+     "caption": "\u8fd9\u91cc\u6709\u4e24\u6761\u7ebf\u7d22\u3002\u201c\u6539\u6210\u201d\u7684\u610f\u601d\u662f\uff0c\u6bcf\u6761\u7ebf\u7d22\u90fd\u4ece\u4e24\u4eba\u539f\u6765\u7684\u94b1\u51fa\u53d1\uff0c\u91cd\u65b0\u5f00\u59cb\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/4cf5289b01619e26.wav",
+     "from": 0,
+     "frames": 285
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u603b\u6570\uff1a\u5c0f\u660e\u7684\u94b1\u52a0\u4e0a\u5c0f\u7ea2\u7684\u94b1\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u603b\u6570\uff1a\u5c0f\u660e\u7684\u94b1\u52a0\u4e0a\u5c0f\u7ea2\u7684\u94b1\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/52e8417fe0db63f3.wav",
+     "from": 295,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 1762,
+   "frames": 433,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/4c7cca7ba3a6ae33.wav",
+     "from": 0,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "bars",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u753b\u7ebf\u6bb5\u56fe",
+   "from": 2195,
+   "frames": 997,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u753b\u7ebf\u6bb5\u56fe\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u753b\u7ebf\u6bb5\u56fe\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/e2efebbb0d192bd0.wav",
+     "from": 0,
+     "frames": 92
+    },
+    {
+     "text": "20%\u5c31\u662f5\u5206\u4e4b1\u3002\u6211\u4eec\u628a\u5c0f\u660e\u7684\u94b1\u5206\u62105\u7b49\u4efd\u3002",
+     "caption": "20%\u5c31\u662f5\u5206\u4e4b1\u3002\u6211\u4eec\u628a\u5c0f\u660e\u7684\u94b1\u5206\u62105\u7b49\u4efd\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/ca499c17ec2a0ee8.wav",
+     "from": 102,
+     "frames": 213
+    },
+    {
+     "text": "\u7b2c\u4e00\u6761\u7ebf\u7d22\uff1a\u5c0f\u660e\u7ed9\u5c0f\u7ea21\u4efd\u3002\u73b0\u5728\u5c0f\u660e\u8fd8\u52694\u4efd\u3002",
+     "caption": "\u7b2c\u4e00\u6761\u7ebf\u7d22\uff1a\u5c0f\u660e\u7ed9\u5c0f\u7ea21\u4efd\u3002\u73b0\u5728\u5c0f\u660e\u8fd8\u52694\u4efd\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/32f1ca55354ff60a.wav",
+     "from": 325,
+     "frames": 228
+    },
+    {
+     "text": "\u4e24\u4eba\u7684\u94b1\u4e00\u6837\u591a\uff0c\u6240\u4ee5\u73b0\u5728\u5c0f\u7ea2\u4e5f\u67094\u4efd\u3002",
+     "caption": "\u4e24\u4eba\u7684\u94b1\u4e00\u6837\u591a\uff0c\u6240\u4ee5\u73b0\u5728\u5c0f\u7ea2\u4e5f\u67094\u4efd\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/2fee7655b06fd9e8.wav",
+     "from": 563,
+     "frames": 165
+    },
+    {
+     "text": "\u8fd94\u4efd\u91cc\uff0c\u67091\u4efd\u662f\u5c0f\u660e\u7ed9\u7684\u3002\u6240\u4ee5\u5c0f\u7ea2\u539f\u6765\u67093\u4efd\u3002",
+     "caption": "\u8fd94\u4efd\u91cc\uff0c\u67091\u4efd\u662f\u5c0f\u660e\u7ed9\u7684\u3002\u6240\u4ee5\u5c0f\u7ea2\u539f\u6765\u67093\u4efd\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/2091931928c187d4.wav",
+     "from": 738,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "part",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3192,
+   "frames": 1601,
+   "lines": [
+    {
+     "text": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff0c\u91cd\u65b0\u5f00\u59cb\uff1a\u5c0f\u7ea2\u7ed9\u5c0f\u660e10\u5143\u3002",
+     "caption": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff0c\u91cd\u65b0\u5f00\u59cb\uff1a\u5c0f\u7ea2\u7ed9\u5c0f\u660e10\u5143\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/d6a5dfb3842c3522.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "\u7ed9\u5b8c\u4ee5\u540e\uff0c\u5c0f\u660e\u67095\u4efd\u52a010\u5143\uff0c\u5c0f\u7ea2\u67093\u4efd\u51cf10\u5143\u3002",
+     "caption": "\u7ed9\u5b8c\u4ee5\u540e\uff0c\u5c0f\u660e\u67095\u4efd\u52a010\u5143\uff0c\u5c0f\u7ea2\u67093\u4efd\u51cf10\u5143\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/0048f0edd616461f.wav",
+     "from": 181,
+     "frames": 208
+    },
+    {
+     "text": "\u5c0f\u7ea2\u94b1\u6570\u7684\u4e24\u500d\uff0c\u5c31\u662f6\u4efd\u51cf20\u5143\u3002",
+     "caption": "\u5c0f\u7ea2\u94b1\u6570\u76842\u500d\uff0c\u5c31\u662f6\u4efd\u51cf20\u5143\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/93869182a6de8a74.wav",
+     "from": 399,
+     "frames": 154
+    },
+    {
+     "text": "\u5c0f\u660e\u7684\u94b1\u662f\u5c0f\u7ea2\u7684\u4e24\u500d\uff0c\u6240\u4ee55\u4efd\u52a010\u7b49\u4e8e6\u4efd\u51cf20\u3002",
+     "caption": "\u5c0f\u660e\u7684\u94b1\u662f\u5c0f\u7ea2\u76842\u500d\uff0c\u6240\u4ee55\u4efd\u52a010\u7b49\u4e8e6\u4efd\u51cf20\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/64d34d9828ba12de.wav",
+     "from": 563,
+     "frames": 239
+    },
+    {
+     "text": "\u4e24\u8fb9\u540c\u65f6\u53bb\u63895\u4efd\u30021\u4efd\u51cf20\u7b49\u4e8e10\u3002",
+     "caption": "\u4e24\u8fb9\u540c\u65f6\u53bb\u63895\u4efd\u30021\u4efd\u51cf20\u7b49\u4e8e10\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/01c1c93ff5f29a6f.wav",
+     "from": 813,
+     "frames": 174
+    },
+    {
+     "text": "\u6240\u4ee51\u4efd\u662f30\u5143\u3002",
+     "caption": "\u6240\u4ee51\u4efd\u662f30\u5143\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/c63e5dfe3473ef23.wav",
+     "from": 997,
+     "frames": 96
+    },
+    {
+     "text": "\u6240\u4ee5\u5c0f\u660e\u67095\u4efd\uff0c\u5c31\u662f150\u5143\uff1b\u5c0f\u7ea2\u67093\u4efd\uff0c\u5c31\u662f90\u5143\u3002",
+     "caption": "\u6240\u4ee5\u5c0f\u660e\u67095\u4efd\uff0c\u5c31\u662f150\u5143\uff1b\u5c0f\u7ea2\u67093\u4efd\uff0c\u5c31\u662f90\u5143\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/24fe924cd7dceffc.wav",
+     "from": 1104,
+     "frames": 263
+    },
+    {
+     "text": "\u52a0\u8d77\u6765\u4e00\u5171\u662f240\u5143\u3002\u7b54\u6848\u662fD\uff01",
+     "caption": "\u52a0\u8d77\u6765\u4e00\u5171\u662f240\u5143\u3002\u7b54\u6848\u662fD\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/944133a7c07a8709.wav",
+     "from": 1377,
+     "frames": 155
+    }
+   ]
+  },
+  {
+   "id": "check",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4793,
+   "frames": 840,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u9a8c\u7b97\u7b2c\u4e00\u6761\u7ebf\u7d22\u3002150\u768420%\u662f30\u3002",
+     "caption": "\u6211\u4eec\u6765\u9a8c\u7b97\u7b2c\u4e00\u6761\u7ebf\u7d22\u3002150\u768420%\u662f30\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/ffd39bc20eb88d76.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "\u5c0f\u660e\u8fd8\u5269120\u5143\uff0c\u5c0f\u7ea2\u53d8\u6210\u4e86120\u5143\u3002",
+     "caption": "\u5c0f\u660e\u8fd8\u5269120\u5143\uff0c\u5c0f\u7ea2\u53d8\u6210\u4e86120\u5143\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/f6182a14c2e43d74.wav",
+     "from": 197,
+     "frames": 184
+    },
+    {
+     "text": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff1a\u5c0f\u660e\u53d8\u6210160\u5143\uff0c\u5c0f\u7ea2\u53ea\u526980\u5143\u3002",
+     "caption": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff1a\u5c0f\u660e\u53d8\u6210160\u5143\uff0c\u5c0f\u7ea2\u53ea\u526980\u5143\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/071bf709e9bafa08.wav",
+     "from": 392,
+     "frames": 198
+    },
+    {
+     "text": "160\u6b63\u597d\u662f80\u7684\u4e24\u500d\u3002\u4e24\u6761\u7ebf\u7d22\u90fd\u5bf9\u4e0a\u4e86\uff01",
+     "caption": "160\u6b63\u597d\u662f80\u76842\u500d\u3002\u4e24\u6761\u7ebf\u7d22\u90fd\u5bf9\u4e0a\u4e86\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/5dbc9d18d27fbd11.wav",
+     "from": 600,
+     "frames": 186
+    }
+   ]
+  },
+  {
+   "id": "letters",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u7528\u5b57\u6bcd",
+   "from": 5633,
+   "frames": 1687,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u53e6\u4e00\u79cd\u65b9\u6cd5\uff1a\u7528\u5b57\u6bcd\u3002\u7528a\u8868\u793a\u5c0f\u660e\u7684\u94b1\uff0cb\u8868\u793a\u5c0f\u7ea2\u7684\u94b1\u3002",
+     "caption": "\u8fd8\u6709\u53e6\u4e00\u79cd\u65b9\u6cd5\uff1a\u7528\u5b57\u6bcd\u3002\u7528a\u8868\u793a\u5c0f\u660e\u7684\u94b1\uff0cb\u8868\u793a\u5c0f\u7ea2\u7684\u94b1\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/bbf1c81ae11db186.wav",
+     "from": 0,
+     "frames": 254
+    },
+    {
+     "text": "\u7b2c\u4e00\u6761\u7ebf\u7d22\uff1aa\u51cf\u53bba\u76845\u5206\u4e4b1\uff0c\u7b49\u4e8eb\u52a0\u4e0aa\u76845\u5206\u4e4b1\u3002",
+     "caption": "\u7b2c\u4e00\u6761\u7ebf\u7d22\uff1aa\u51cf\u53bba\u76845\u5206\u4e4b1\uff0c\u7b49\u4e8eb\u52a0\u4e0aa\u76845\u5206\u4e4b1\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/064b480a25606306.wav",
+     "from": 264,
+     "frames": 243
+    },
+    {
+     "text": "\u6240\u4ee5b\u7b49\u4e8ea\u51cf\u53bba\u76845\u5206\u4e4b2\uff0c\u4e5f\u5c31\u662fa\u76845\u5206\u4e4b3\u3002",
+     "caption": "\u6240\u4ee5b\u7b49\u4e8ea\u51cf\u53bba\u76845\u5206\u4e4b2\uff0c\u4e5f\u5c31\u662fa\u76845\u5206\u4e4b3\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/98d2614219c49e9c.wav",
+     "from": 517,
+     "frames": 214
+    },
+    {
+     "text": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff1aa\u52a010\uff0c\u7b49\u4e8eb\u51cf10\uff0c\u518d\u4e582\u3002",
+     "caption": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff1aa\u52a010\uff0c\u7b49\u4e8eb\u51cf10\uff0c\u518d\u4e582\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/37bcd386977c977f.wav",
+     "from": 741,
+     "frames": 200
+    },
+    {
+     "text": "\u4e5f\u5c31\u662fa\u76845\u5206\u4e4b6\uff0c\u518d\u51cf20\u3002",
+     "caption": "\u4e5f\u5c31\u662fa\u76845\u5206\u4e4b6\uff0c\u518d\u51cf20\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/13ea549efa468ab5.wav",
+     "from": 951,
+     "frames": 143
+    },
+    {
+     "text": "\u6240\u4ee5a\u76845\u5206\u4e4b1\u662f30\u3002\u90a3\u4e48a\u662f150\uff0cb\u662f90\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "\u6240\u4ee5a\u76845\u5206\u4e4b1\u662f30\u3002\u90a3\u4e48a\u662f150\uff0cb\u662f90\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/6ee5364f29237816.wav",
+     "from": 1104,
+     "frames": 297
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u7ebf\u6bb5\u56fe\u753b\u8d77\u6765\u9ebb\u70e6\u7684\u65f6\u5019\uff0c\u5b57\u6bcd\u7167\u6837\u80fd\u89e3\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u7ebf\u6bb5\u56fe\u753b\u8d77\u6765\u9ebb\u70e6\u7684\u65f6\u5019\uff0c\u5b57\u6bcd\u7167\u6837\u80fd\u89e3\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/2c3a8332b0b0e5f1.wav",
+     "from": 1411,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7320,
+   "frames": 1499,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u9009\u9879A\u548cB\uff0c\u4e5d\u5341\u548c\u4e00\u767e\u4e94\u5341\uff0c\u5206\u522b\u53ea\u662f\u4e00\u4e2a\u4eba\u7684\u94b1\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u9009\u9879A\u548cB\uff0c90\u548c150\uff0c\u5206\u522b\u53ea\u662f\u4e00\u4e2a\u4eba\u7684\u94b1\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/9c3b6368a0ab2c9b.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f300\uff0c\u5b83\u628a\u5c0f\u660e\u7684\u94b1\u4e58\u4e862\uff0c\u800c\u4e0d\u662f\u52a0\u4e0a\u5c0f\u7ea2\u7684\u94b1\u3002",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f300\uff0c\u5b83\u628a\u5c0f\u660e\u7684\u94b1\u4e58\u4e862\uff0c\u800c\u4e0d\u662f\u52a0\u4e0a\u5c0f\u7ea2\u7684\u94b1\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/6f26ee01dd03d7cd.wav",
+     "from": 232,
+     "frames": 219
+    },
+    {
+     "text": "\u9009\u9879C\u662f200\uff0c\u770b\u8d77\u6765\u633a\u597d\u7b97\u7684\u3002\u6211\u4eec\u6765\u8bd5\u4e00\u8bd5\u3002",
+     "caption": "\u9009\u9879C\u662f200\uff0c\u770b\u8d77\u6765\u633a\u597d\u7b97\u7684\u3002\u6211\u4eec\u6765\u8bd5\u4e00\u8bd5\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/60c5ea6f113d37b6.wav",
+     "from": 461,
+     "frames": 162
+    },
+    {
+     "text": "\u603b\u6570\u662f8\u4efd\uff0c\u6240\u4ee51\u4efd\u662f25\u3002",
+     "caption": "\u603b\u6570\u662f8\u4efd\uff0c\u6240\u4ee51\u4efd\u662f25\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/552d3ab33f883253.wav",
+     "from": 633,
+     "frames": 131
+    },
+    {
+     "text": "\u90a3\u4e48\u5c0f\u660e\u6709125\uff0c\u5c0f\u7ea2\u670975\u3002",
+     "caption": "\u90a3\u4e48\u5c0f\u660e\u6709125\uff0c\u5c0f\u7ea2\u670975\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/8dd236d4e6f64e39.wav",
+     "from": 774,
+     "frames": 178
+    },
+    {
+     "text": "\u5c0f\u7ea2\u7ed9\u51fa10\u5143\u4ee5\u540e\uff0c\u53d8\u6210\u4e00\u767e\u4e09\u5341\u4e94\u548c\u516d\u5341\u4e94\u3002",
+     "caption": "\u5c0f\u7ea2\u7ed9\u51fa10\u5143\u4ee5\u540e\uff0c\u53d8\u6210135\u548c65\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/4b58750b315e13c2.wav",
+     "from": 962,
+     "frames": 186
+    },
+    {
+     "text": "65\u7684\u4e24\u500d\u53ea\u6709130\u3002\u5bf9\u4e0d\u4e0a\uff01",
+     "caption": "65\u76842\u500d\u53ea\u6709130\u3002\u5bf9\u4e0d\u4e0a\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/54e3730c9780754a.wav",
+     "from": 1159,
+     "frames": 128
+    },
+    {
+     "text": "\u53ea\u6709240\u80fd\u540c\u65f6\u6ee1\u8db3\u4e24\u6761\u7ebf\u7d22\u3002",
+     "caption": "\u53ea\u6709240\u80fd\u540c\u65f6\u6ee1\u8db3\u4e24\u6761\u7ebf\u7d22\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/706cfdc8f0dbd899.wav",
+     "from": 1297,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u65b0\u7ebf\u7d22",
+   "from": 8819,
+   "frames": 605,
+   "lines": [
+    {
+     "text": "\u6765\u6311\u6218\u4e00\u4e0b\u5427\uff01\u5982\u679c\u5c0f\u660e\u628a\u81ea\u5df1\u94b1\u6570\u768425%\u7ed9\u5c0f\u7ea2\uff0c\u4e24\u4eba\u7684\u94b1\u5c31\u4e00\u6837\u591a\u3002",
+     "caption": "\u6765\u6311\u6218\u4e00\u4e0b\u5427\uff01\u5982\u679c\u5c0f\u660e\u628a\u81ea\u5df1\u94b1\u6570\u768425%\u7ed9\u5c0f\u7ea2\uff0c\u4e24\u4eba\u7684\u94b1\u5c31\u4e00\u6837\u591a\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/1bd47b4d8c871c79.wav",
+     "from": 0,
+     "frames": 267
+    },
+    {
+     "text": "\u5982\u679c\u6539\u6210\u5c0f\u7ea2\u7ed9\u5c0f\u660e6\u5143\uff0c\u5c0f\u660e\u7684\u94b1\u5c31\u662f\u5c0f\u7ea2\u76843\u500d\u3002",
+     "caption": "\u5982\u679c\u6539\u6210\u5c0f\u7ea2\u7ed9\u5c0f\u660e6\u5143\uff0c\u5c0f\u660e\u7684\u94b1\u5c31\u662f\u5c0f\u7ea2\u76843\u500d\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/e1c10213a874f499.wav",
+     "from": 277,
+     "frames": 188
+    },
+    {
+     "text": "\u4ed6\u4eec\u4e00\u5171\u6709\u591a\u5c11\u94b1\uff1f",
+     "caption": "\u4ed6\u4eec\u4e00\u5171\u6709\u591a\u5c11\u94b1\uff1f",
+     "file": "2026-10-31-ali-bea-money-zh/audio/787eaaaba96c50bb.wav",
+     "from": 475,
+     "frames": 92
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9424,
+   "frames": 469,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/32cbee10a890d39b.wav",
+     "from": 0,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u7ebf\u7d22\uff1a\u7b54\u6848",
+   "from": 9893,
+   "frames": 1977,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u770b\u770b\u300225%\u5c31\u662f4\u5206\u4e4b1\uff0c\u6240\u4ee5\u5c0f\u660e\u67094\u4efd\u3002",
+     "caption": "\u6211\u4eec\u6765\u770b\u770b\u300225%\u5c31\u662f4\u5206\u4e4b1\uff0c\u6240\u4ee5\u5c0f\u660e\u67094\u4efd\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/d045ef506e1deb5e.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "\u5c0f\u660e\u7ed9\u51fa1\u4efd\uff0c\u81ea\u5df1\u8fd8\u52693\u4efd\u3002",
+     "caption": "\u5c0f\u660e\u7ed9\u51fa1\u4efd\uff0c\u81ea\u5df1\u8fd8\u52693\u4efd\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/6025bb4f1ce76809.wav",
+     "from": 222,
+     "frames": 128
+    },
+    {
+     "text": "\u5c0f\u7ea2\u6700\u540e\u67093\u4efd\uff0c\u6240\u4ee5\u5979\u539f\u6765\u6709\u4e24\u4efd\u3002",
+     "caption": "\u5c0f\u7ea2\u6700\u540e\u67093\u4efd\uff0c\u6240\u4ee5\u5979\u539f\u6765\u67092\u4efd\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/86f20b8d1e7f70fc.wav",
+     "from": 360,
+     "frames": 152
+    },
+    {
+     "text": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff1a4\u4efd\u52a06\uff0c\u7b49\u4e8e\u4e24\u4efd\u51cf6\uff0c\u518d\u4e583\u3002",
+     "caption": "\u7b2c\u4e8c\u6761\u7ebf\u7d22\uff1a4\u4efd\u52a06\uff0c\u7b49\u4e8e2\u4efd\u51cf6\uff0c\u518d\u4e583\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/34050f7f56a49be9.wav",
+     "from": 521,
+     "frames": 195
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f6\u4efd\u51cf18\u3002\u6240\u4ee5\u4e24\u4efd\u662f24\uff0c1\u4efd\u5c31\u662f12\u3002",
+     "caption": "\u4e5f\u5c31\u662f6\u4efd\u51cf18\u3002\u6240\u4ee52\u4efd\u662f24\uff0c1\u4efd\u5c31\u662f12\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/f3eb3f47c688e362.wav",
+     "from": 726,
+     "frames": 257
+    },
+    {
+     "text": "\u5c0f\u660e\u670948\uff0c\u5c0f\u7ea2\u670924\u3002",
+     "caption": "\u5c0f\u660e\u670948\uff0c\u5c0f\u7ea2\u670924\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/e898afd78b55cd11.wav",
+     "from": 994,
+     "frames": 134
+    },
+    {
+     "text": "\u4ed6\u4eec\u4e00\u5171\u670972\u5143\uff01",
+     "caption": "\u4ed6\u4eec\u4e00\u5171\u670972\u5143\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/3c23189d678dd05a.wav",
+     "from": 1137,
+     "frames": 88
+    },
+    {
+     "text": "\u9a8c\u7b97\uff1a\u5c0f\u7ea2\u7ed9\u51fa6\u5143\u4ee5\u540e\uff0c\u662f\u4e94\u5341\u56db\u548c\u5341\u516b\u300254\u6b63\u597d\u662f18\u76843\u500d\uff01",
+     "caption": "\u9a8c\u7b97\uff1a\u5c0f\u7ea2\u7ed9\u51fa6\u5143\u4ee5\u540e\uff0c\u662f54\u548c18\u300254\u6b63\u597d\u662f18\u76843\u500d\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/ebbe90ad1a21f116.wav",
+     "from": 1235,
+     "frames": 279
+    },
+    {
+     "text": "\u518d\u770b\u7b2c\u4e00\u6761\u7ebf\u7d22\uff1a48\u51cf12\u662f36\uff0c24\u52a012\u4e5f\u662f36\u3002",
+     "caption": "\u518d\u770b\u7b2c\u4e00\u6761\u7ebf\u7d22\uff1a48\u51cf12\u662f36\uff0c24\u52a012\u4e5f\u662f36\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/c4516128d728a3b8.wav",
+     "from": 1524,
+     "frames": 276
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8672\uff0c\u771f\u68d2\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8672\uff0c\u771f\u68d2\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/57b482246cf2b533.wav",
+     "from": 1811,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 11870,
+   "frames": 633,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u5173\u952e\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u5173\u952e\u601d\u8def\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/5dfd81dc701b881c.wav",
+     "from": 0,
+     "frames": 70
+    },
+    {
+     "text": "\u628a\u767e\u5206\u6570\u53d8\u6210\u540c\u6837\u5927\u7684\u51e0\u4efd\uff0c\u628a\u6bcf\u6761\u7ebf\u7d22\u53d8\u6210\u4e00\u4e2a\u7b49\u5f0f\u3002",
+     "caption": "\u628a\u767e\u5206\u6570\u53d8\u6210\u540c\u6837\u5927\u7684\u51e0\u4efd\uff0c\u628a\u6bcf\u6761\u7ebf\u7d22\u53d8\u6210\u4e00\u4e2a\u7b49\u5f0f\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/4498ba6171a41b92.wav",
+     "from": 80,
+     "frames": 194
+    },
+    {
+     "text": "\u6c42\u51fa1\u4efd\u662f\u591a\u5c11\uff0c\u5176\u4ed6\u7684\u5c31\u90fd\u8fce\u5203\u800c\u89e3\u4e86\u3002",
+     "caption": "\u6c42\u51fa1\u4efd\u662f\u591a\u5c11\uff0c\u5176\u4ed6\u7684\u5c31\u90fd\u8fce\u5203\u800c\u89e3\u4e86\u3002",
+     "file": "2026-10-31-ali-bea-money-zh/audio/e9094cef99ac437e.wav",
+     "from": 284,
+     "frames": 144
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u52a8\u8111\u7b4b\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u52a8\u8111\u7b4b\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-ali-bea-money-zh/audio/7818566911a948df.wav",
+     "from": 438,
+     "frames": 111
+    }
+   ]
+  }
+ ]
+}

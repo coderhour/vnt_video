@@ -1,6 +1,6 @@
 {
- "title": "Five Rectangles, Perimeter 66: Find the Area | AMC 8-Style Level 4",
- "description": "Five identical rectangles, a perimeter of 66, and no side lengths given. Can you still find the area of one?\nVantee shows two kid-friendly ways: build with equal blocks, or walk the edge and count the pieces.\nThen try a seven-rectangle challenge on your own!\n\n0:00 Intro\n0:16 The question\n0:38 What are we asked?\n0:56 Try it yourself\n1:10 Solution 1: build with blocks\n2:44 Solution 2: walk the edge\n3:30 Common traps\n4:26 Your turn: seven rectangles\n4:58 Seven rectangles: the answer\n5:42 Recap",
+ "title": "AMC 8 Practice: Perimeter and Area of Five Rectangles",
+ "description": "AMC 8 practice problem on perimeter and area: five identical rectangles form a big rectangle with perimeter 66, find one small area. (Level 4 of 5)\nFive identical rectangles, a perimeter of 66, and no side lengths given. Can you still find the area of one?\nVantee shows two kid-friendly ways: build with equal blocks, or walk the edge and count the pieces.\nThen try a seven-rectangle challenge on your own!\n\n0:00 Intro\n0:16 The question\n0:38 What are we asked?\n0:56 Try it yourself\n1:10 Solution 1: build with blocks\n2:44 Solution 2: walk the edge\n3:30 Common traps\n4:26 Your turn: seven rectangles\n4:58 Seven rectangles: the answer\n5:42 Recap",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_mock_test_template:c2-833",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Five identical rectangles make a big one with perimeter 66. Area of one? Comment your answer before you watch the solution!"
 }

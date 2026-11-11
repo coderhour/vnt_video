@@ -7,6 +7,7 @@ import { Dots, Stage, XMark, makeGrid, type Pt } from '../../lib/grid';
 import { Tex } from '../../lib/Tex';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
 
 export const SLUG = '2026-10-30-dots-five-apart';
@@ -638,3 +639,18 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the 5×5 dot grid with one example pair, no answer.
+export const Thumb: React.FC = () => {
+  const g = makeGrid(90, 70, 125);
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>16?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <Dots cols={5} rows={5} at={g} r={17} />
+        <Seg a={g([0, 4])} b={g([3, 0])} color={C.amber} width={12} />
+        <Ring at={g([0, 4])} color={C.amber} r={32} />
+        <Ring at={g([3, 0])} color={C.amber} r={32} />
+      </svg>
+    </ThumbFrame>
+  );
+};

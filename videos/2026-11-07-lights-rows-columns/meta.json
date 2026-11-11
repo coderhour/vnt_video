@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Counting On-Off Grid Patterns — How Many?",
+ "description": "AMC 10 practice problem on counting light patterns with a full row or column, solved by counting the losers and by inclusion and exclusion. (Level 4 of 5)\nNine lights, each on or off. How many patterns have a full row or a full column? Count the losers, then check it with inclusion and exclusion, learn to spot the overlap traps, and try a variant on your own.\n\n0:00 Intro\n0:15 The question\n0:33 What are we asked?\n0:48 Try it yourself\n1:03 Solution 1: count the losers\n2:45 Solution 2: inclusion and exclusion\n4:54 Common traps\n5:31 Your turn: two rows of three\n5:57 Two rows of three: the answer\n6:37 Recap",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_counting_template:c1-452",
+ "posts": [],
+ "short": {
+  "title": "Think it's 384? Nine lights, full rows #Shorts",
+  "description": "Nine lights in a 3 × 3 grid, each on or off. How many patterns have a full row or column? Count the losers instead.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 18,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "9 lights in a 3×3 grid, each on or off. How many patterns have a full row or column on? Comment your answer before you watch the solution!"
+}

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-juice-mix';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -463,3 +464,16 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the question's two beakers (20 L → 25 L), no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>4 L?</span>]}>
+    <div style={{ position: 'relative', width: 680, height: 640, overflow: 'hidden' }}>
+      <div style={{ position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, transformOrigin: '0 0', transform: 'scale(0.86) translate(-85px, -105px)' }}>
+        <Beaker x={B1} total={20} dashed tint={1} tintJ={0.3} head={['20 L', '30% juice']} />
+        <Beaker x={B2} total={25} dashed tint={1} tintJ={0.4} head={['25 L', '40% juice']} />
+        <PlusArrow x1={B1 + BW + 24} x2={B2 - 24} y={600} op={1} />
+      </div>
+    </div>
+  </ThumbFrame>
+);

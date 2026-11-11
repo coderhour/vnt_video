@@ -1,0 +1,485 @@
+{
+ "fps": 30,
+ "durationInFrames": 11563,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 584,
+   "lines": [
+    {
+     "text": "\u4e00\u5757\u5730\u677f\uff0c\u6cbf\u7740\u8fb9\u94fa\u4e86\u4e00\u5708\u84dd\u8272\u74f7\u7816\uff0c\u91cc\u9762\u94fa\u7684\u662f\u767d\u8272\u74f7\u7816\u3002",
+     "caption": "\u4e00\u5757\u5730\u677f\uff0c\u6cbf\u7740\u8fb9\u94fa\u4e86\u4e00\u5708\u84dd\u8272\u74f7\u7816\uff0c\u91cc\u9762\u94fa\u7684\u662f\u767d\u8272\u74f7\u7816\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/4dc5fadb34c7e949.wav",
+     "from": 0,
+     "frames": 213
+    },
+    {
+     "text": "\u53ea\u77e5\u9053\u4e24\u79cd\u74f7\u7816\u7684\u5757\u6570\uff0c\u80fd\u7b97\u51fa\u5730\u677f\u7684\u5f62\u72b6\u5417\uff1f\u6211\u4eec\u6765\u770b\u770b\uff01",
+     "caption": "\u53ea\u77e5\u9053\u4e24\u79cd\u74f7\u7816\u7684\u5757\u6570\uff0c\u80fd\u7b97\u51fa\u5730\u677f\u7684\u5f62\u72b6\u5417\uff1f\u6211\u4eec\u6765\u770b\u770b\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/3c19a5d84070eb3c.wav",
+     "from": 223,
+     "frames": 182
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u94fa\u8fd9\u5757\u5730\u677f\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u94fa\u8fd9\u5757\u5730\u677f\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/bfd75bcd2f886374.wav",
+     "from": 415,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 584,
+   "frames": 764,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 41
+    },
+    {
+     "text": "\u4e00\u5757\u957f\u65b9\u5f62\u5730\u677f\uff0c\u94fa\u6ee1\u4e86\u8fb9\u957f1\u82f1\u5c3a\u7684\u6b63\u65b9\u5f62\u74f7\u7816\u3002",
+     "caption": "\u4e00\u5757\u957f\u65b9\u5f62\u5730\u677f\uff0c\u94fa\u6ee1\u4e86\u8fb9\u957f1\u82f1\u5c3a\u7684\u6b63\u65b9\u5f62\u74f7\u7816\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/eeb11ed223958eca.wav",
+     "from": 52,
+     "frames": 192
+    },
+    {
+     "text": "\u6cbf\u7740\u8fb9\u768440\u5757\u74f7\u7816\u662f\u84dd\u8272\u7684\u3002",
+     "caption": "\u6cbf\u7740\u8fb9\u768440\u5757\u74f7\u7816\u662f\u84dd\u8272\u7684\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/a98e6d7ef53676c7.wav",
+     "from": 254,
+     "frames": 117
+    },
+    {
+     "text": "\u5269\u4e0b\u768480\u5757\u74f7\u7816\u662f\u767d\u8272\u7684\u3002",
+     "caption": "\u5269\u4e0b\u768480\u5757\u74f7\u7816\u662f\u767d\u8272\u7684\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/676f3b7733fb7ed4.wav",
+     "from": 381,
+     "frames": 105
+    },
+    {
+     "text": "\u8fd9\u5757\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a\u591a\u5c11\u82f1\u5c3a\uff1f",
+     "caption": "\u8fd9\u5757\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a\u591a\u5c11\u82f1\u5c3a\uff1f",
+     "file": "2026-10-31-border-tiles-zh/audio/a69caec67b893498.wav",
+     "from": 496,
+     "frames": 120
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/cff06e3fe814d7a5.wav",
+     "from": 626,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1348,
+   "frames": 683,
+   "lines": [
+    {
+     "text": "40\u5757\u84dd\u8272\u52a080\u5757\u767d\u8272\uff0c\u4e00\u5171120\u5757\u74f7\u7816\u3002",
+     "caption": "40\u5757\u84dd\u8272\u52a080\u5757\u767d\u8272\uff0c\u4e00\u5171120\u5757\u74f7\u7816\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/ca7010d509237685.wav",
+     "from": 0,
+     "frames": 198
+    },
+    {
+     "text": "\u6bcf\u5757\u74f7\u7816\u7684\u8fb9\u957f\u662f1\u82f1\u5c3a\uff0c\u6240\u4ee5\u5730\u677f\u7684\u957f\u4e58\u5bbd\u7b49\u4e8e120\u3002",
+     "caption": "\u6bcf\u5757\u74f7\u7816\u7684\u8fb9\u957f\u662f1\u82f1\u5c3a\uff0c\u6240\u4ee5\u5730\u677f\u7684\u957f\u4e58\u5bbd\u7b49\u4e8e120\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/e475f9bd748bf374.wav",
+     "from": 208,
+     "frames": 257
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u957f\u548c\u5bbd\u7684\u5dee\uff1a\u957f\u51cf\u5bbd\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u957f\u548c\u5bbd\u7684\u5dee\uff1a\u957f\u51cf\u5bbd\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/7246b675673fc8cd.wav",
+     "from": 476,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2031,
+   "frames": 437,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/4c7cca7ba3a6ae33.wav",
+     "from": 0,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "edge-rule",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u5217\u4e2a\u8868",
+   "from": 2468,
+   "frames": 1205,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u628a\u4e00\u5171\u6709120\u5757\u74f7\u7816\u7684\u5730\u677f\u90fd\u5217\u51fa\u6765\uff0c\u518d\u6570\u4e00\u6570\u6bcf\u79cd\u5730\u677f\u8fb9\u4e0a\u6709\u591a\u5c11\u5757\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u628a\u4e00\u5171\u6709120\u5757\u74f7\u7816\u7684\u5730\u677f\u90fd\u5217\u51fa\u6765\uff0c\u518d\u6570\u4e00\u6570\u6bcf\u79cd\u5730\u677f\u8fb9\u4e0a\u6709\u591a\u5c11\u5757\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/59b021dbd337be87.wav",
+     "from": 0,
+     "frames": 312
+    },
+    {
+     "text": "\u9996\u5148\uff0c\u8fb9\u4e0a\u7684\u74f7\u7816\u600e\u4e48\u6570\uff1f\u5148\u6570\u6574\u4e2a\u6700\u4e0a\u9762\u4e00\u884c\uff0c\u518d\u6570\u6574\u4e2a\u6700\u4e0b\u9762\u4e00\u884c\u3002",
+     "caption": "\u9996\u5148\uff0c\u8fb9\u4e0a\u7684\u74f7\u7816\u600e\u4e48\u6570\uff1f\u5148\u6570\u6574\u4e2a\u6700\u4e0a\u9762\u4e00\u884c\uff0c\u518d\u6570\u6574\u4e2a\u6700\u4e0b\u9762\u4e00\u884c\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/5a6a18ef29b5cf90.wav",
+     "from": 323,
+     "frames": 293
+    },
+    {
+     "text": "\u7136\u540e\u52a0\u4e0a\u5de6\u53f3\u4e24\u5217\uff0c\u4f46\u662f\u4e0d\u7b97\u89d2\u4e0a\u7684\u74f7\u7816\u30025\u51cf2\uff0c\u6bcf\u5217\u5269\u4e0b3\u5757\u3002",
+     "caption": "\u7136\u540e\u52a0\u4e0a\u5de6\u53f3\u4e24\u5217\uff0c\u4f46\u662f\u4e0d\u7b97\u89d2\u4e0a\u7684\u74f7\u7816\u30025\u51cf2\uff0c\u6bcf\u5217\u5269\u4e0b3\u5757\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/1d1b866c786243e7.wav",
+     "from": 626,
+     "frames": 268
+    },
+    {
+     "text": "\u5728\u8fd9\u4e2a\u5c0f\u4f8b\u5b50\u91cc\uff0c\u5c31\u662f7\u52a07\u52a03\u52a03\uff0c\u8fb9\u4e0a\u4e00\u517120\u5757\u3002",
+     "caption": "\u5728\u8fd9\u4e2a\u5c0f\u4f8b\u5b50\u91cc\uff0c\u5c31\u662f7\u52a07\u52a03\u52a03\uff0c\u8fb9\u4e0a\u4e00\u517120\u5757\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/f5b0c1f23c5c041b.wav",
+     "from": 904,
+     "frames": 248
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3673,
+   "frames": 1507,
+   "lines": [
+    {
+     "text": "\u53c8\u7ec6\u53c8\u957f\u7684\u5730\u677f\uff0c\u51e0\u4e4e\u5168\u662f\u8fb9\u3002",
+     "caption": "\u53c8\u7ec6\u53c8\u957f\u7684\u5730\u677f\uff0c\u51e0\u4e4e\u5168\u662f\u8fb9\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/1fea72897e98caf0.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "60\u4e582\uff0c\u8fb9\u4e0a\u6709120\u5757\u300240\u4e583\uff0c\u8fb9\u4e0a\u670982\u5757\u3002",
+     "caption": "60\u4e582\uff0c\u8fb9\u4e0a\u6709120\u5757\u300240\u4e583\uff0c\u8fb9\u4e0a\u670982\u5757\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/139f47e6671483d2.wav",
+     "from": 162,
+     "frames": 250
+    },
+    {
+     "text": "\u5730\u677f\u8d8a\u63a5\u8fd1\u6b63\u65b9\u5f62\uff0c\u8fb9\u4e0a\u7684\u74f7\u7816\u5c31\u8d8a\u5c11\uff1a\u516d\u5341\u56db\u5757\u3001\u4e94\u5341\u56db\u5757\u3001\u56db\u5341\u516b\u5757\u3002",
+     "caption": "\u5730\u677f\u8d8a\u63a5\u8fd1\u6b63\u65b9\u5f62\uff0c\u8fb9\u4e0a\u7684\u74f7\u7816\u5c31\u8d8a\u5c11\uff1a64\u5757\u300154\u5757\u300148\u5757\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/52f6c7e244c18cb5.wav",
+     "from": 422,
+     "frames": 261
+    },
+    {
+     "text": "15\u4e588\uff0c\u8fb9\u4e0a\u670942\u5757\u3002\u5c31\u5dee\u4e00\u70b9\u70b9\uff01",
+     "caption": "15\u4e588\uff0c\u8fb9\u4e0a\u670942\u5757\u3002\u5c31\u5dee\u4e00\u70b9\u70b9\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/bf5cc51529dca611.wav",
+     "from": 693,
+     "frames": 162
+    },
+    {
+     "text": "12\u4e5810\uff0c\u8fb9\u4e0a\u6b63\u597d\u662f40\u5757\uff01\u91cc\u9762\u662f10\u4e588\uff0c80\u5757\u767d\u8272\u74f7\u7816\u3002\u5b8c\u7f8e\uff01",
+     "caption": "12\u4e5810\uff0c\u8fb9\u4e0a\u6b63\u597d\u662f40\u5757\uff01\u91cc\u9762\u662f10\u4e588\uff0c80\u5757\u767d\u8272\u74f7\u7816\u3002\u5b8c\u7f8e\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/5be0e79223c1ba28.wav",
+     "from": 865,
+     "frames": 298
+    },
+    {
+     "text": "12\u51cf10\u7b49\u4e8e2\u3002\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a\u4e24\u82f1\u5c3a\u3002\u7b54\u6848\u662fB\uff01",
+     "caption": "12\u51cf10\u7b49\u4e8e2\u3002\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a2\u82f1\u5c3a\u3002\u7b54\u6848\u662fB\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/ba21b7a9b6157bae.wav",
+     "from": 1173,
+     "frames": 264
+    }
+   ]
+  },
+  {
+   "id": "sum",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u4ece\u8fb9\u7b97\u51fa\u548c",
+   "from": 5180,
+   "frames": 2018,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/d5d55b7a6730cb71.wav",
+     "from": 0,
+     "frames": 84
+    },
+    {
+     "text": "\u8fb9\u4e0a\u7684\u74f7\u7816\uff0c\u662f\u4e24\u6761\u957f\u52a0\u4e24\u6761\u5bbd\uff0c\u518d\u51cf\u53bb\u6570\u4e86\u4e24\u6b21\u76844\u4e2a\u89d2\u3002",
+     "caption": "\u8fb9\u4e0a\u7684\u74f7\u7816\uff0c\u662f\u4e24\u6761\u957f\u52a0\u4e24\u6761\u5bbd\uff0c\u518d\u51cf\u53bb\u6570\u4e86\u4e24\u6b21\u76844\u4e2a\u89d2\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/448334f26486a665.wav",
+     "from": 94,
+     "frames": 231
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u4e24\u6761\u957f\u52a0\u4e24\u6761\u5bbd\uff0c\u518d\u51cf4\uff0c\u7b49\u4e8e40\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u4e24\u6761\u957f\u52a0\u4e24\u6761\u5bbd\uff0c\u518d\u51cf4\uff0c\u7b49\u4e8e40\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/8267d505cfcce91d.wav",
+     "from": 335,
+     "frames": 228
+    },
+    {
+     "text": "\u7b49\u5f0f\u4e24\u8fb9\u90fd\u52a04\uff1a\u4e24\u6761\u957f\u52a0\u4e24\u6761\u5bbd\u7b49\u4e8e44\u3002\u6240\u4ee5\u957f\u52a0\u5bbd\u7b49\u4e8e22\u3002",
+     "caption": "\u7b49\u5f0f\u4e24\u8fb9\u90fd\u52a04\uff1a\u4e24\u6761\u957f\u52a0\u4e24\u6761\u5bbd\u7b49\u4e8e44\u3002\u6240\u4ee5\u957f\u52a0\u5bbd\u7b49\u4e8e22\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/e6c7b468aec4e21c.wav",
+     "from": 573,
+     "frames": 280
+    },
+    {
+     "text": "\u73b0\u5728\uff0c\u627e\u4e24\u4e2a\u6570\uff0c\u52a0\u8d77\u6765\u662f22\uff0c\u4e58\u8d77\u6765\u662f120\u3002",
+     "caption": "\u73b0\u5728\uff0c\u627e\u4e24\u4e2a\u6570\uff0c\u52a0\u8d77\u6765\u662f22\uff0c\u4e58\u8d77\u6765\u662f120\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/64414aa93b6e85b1.wav",
+     "from": 864,
+     "frames": 220
+    },
+    {
+     "text": "11\u4e5811\u662f121\uff0c\u53ea\u591a\u4e861\u3002",
+     "caption": "11\u4e5811\u662f121\uff0c\u53ea\u591a\u4e861\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/cba2bec5dd0361a5.wav",
+     "from": 1094,
+     "frames": 148
+    },
+    {
+     "text": "\u8ba9\u4e00\u4e2a\u6570\u52a01\uff0c\u53e6\u4e00\u4e2a\u6570\u51cf1\uff1a\u5f97\u523012\u548c10\u3002",
+     "caption": "\u8ba9\u4e00\u4e2a\u6570\u52a01\uff0c\u53e6\u4e00\u4e2a\u6570\u51cf1\uff1a\u5f97\u523012\u548c10\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/4de0e30a5aa32f03.wav",
+     "from": 1252,
+     "frames": 203
+    },
+    {
+     "text": "12\u4e5810\u7b49\u4e8e120\u3002\u957f\u548c\u5bbd\u7684\u5dee\uff0c\u8fd8\u662f2\uff01",
+     "caption": "12\u4e5810\u7b49\u4e8e120\u3002\u957f\u548c\u5bbd\u7684\u5dee\uff0c\u8fd8\u662f2\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/bce11201ec404642.wav",
+     "from": 1465,
+     "frames": 198
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u77e5\u9053\u4e24\u4e2a\u6570\u7684\u548c\u4e0e\u79ef\u7684\u65f6\u5019\u3002\u8fd9\u6837\u5c31\u80fd\u786e\u5b9a\u8fd9\u4e24\u4e2a\u6570\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u77e5\u9053\u4e24\u4e2a\u6570\u7684\u548c\u4e0e\u79ef\u7684\u65f6\u5019\u3002\u8fd9\u6837\u5c31\u80fd\u786e\u5b9a\u8fd9\u4e24\u4e2a\u6570\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/7579864ce123676b.wav",
+     "from": 1674,
+     "frames": 276
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7198,
+   "frames": 1393,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6211\u4eec\u6765\u68c0\u9a8c\u6bcf\u4e2a\u9009\u9879\u3002\u6211\u4eec\u5df2\u7ecf\u77e5\u9053\uff0c\u957f\u52a0\u5bbd\u7b49\u4e8e22\u3002",
+     "caption": "\u73b0\u5728\u6211\u4eec\u6765\u68c0\u9a8c\u6bcf\u4e2a\u9009\u9879\u3002\u6211\u4eec\u5df2\u7ecf\u77e5\u9053\uff0c\u957f\u52a0\u5bbd\u7b49\u4e8e22\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/6eb163559e11a1b7.wav",
+     "from": 0,
+     "frames": 218
+    },
+    {
+     "text": "\u5dee\u662f1\u6216\u80053\uff0c\u90fd\u4e0d\u884c\u3002",
+     "caption": "\u5dee\u662f1\u6216\u80053\uff0c\u90fd\u4e0d\u884c\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/356fb0f6b6cbaad5.wav",
+     "from": 228,
+     "frames": 113
+    },
+    {
+     "text": "22\u51cf\u53bb\u4e00\u4e2a\u5947\u6570\uff0c\u5f97\u5230\u7684\u662f\u5947\u6570\uff0c\u800c\u5947\u6570\u7684\u4e00\u534a\u4e0d\u662f\u6574\u6570\u3002",
+     "caption": "22\u51cf\u53bb\u4e00\u4e2a\u5947\u6570\uff0c\u5f97\u5230\u7684\u662f\u5947\u6570\uff0c\u800c\u5947\u6570\u7684\u4e00\u534a\u4e0d\u662f\u6574\u6570\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/d4a7fe8babeebb50.wav",
+     "from": 351,
+     "frames": 207
+    },
+    {
+     "text": "\u5dee\u662f4\uff0c\u5bbd\u548c\u957f\u5c31\u662f9\u548c13\u3002\u90a3\u662f117\u5757\u74f7\u7816\uff0c\u5c11\u4e863\u5757\u3002",
+     "caption": "\u5dee\u662f4\uff0c\u5bbd\u548c\u957f\u5c31\u662f9\u548c13\u3002\u90a3\u662f117\u5757\u74f7\u7816\uff0c\u5c11\u4e863\u5757\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/753f62c468e10b8a.wav",
+     "from": 568,
+     "frames": 281
+    },
+    {
+     "text": "\u5dee\u662f6\uff0c\u5bbd\u548c\u957f\u5c31\u662f8\u548c14\u3002\u53ea\u6709112\u5757\u74f7\u7816\u3002",
+     "caption": "\u5dee\u662f6\uff0c\u5bbd\u548c\u957f\u5c31\u662f8\u548c14\u3002\u53ea\u6709112\u5757\u74f7\u7816\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/ffe40b23a05a0dce.wav",
+     "from": 860,
+     "frames": 215
+    },
+    {
+     "text": "\u53ea\u6709\u5dee\u662f2\u7684\u65f6\u5019\uff0c\u5bbd\u548c\u957f\u662f10\u548c12\uff0c\u6b63\u597d120\u5757\u74f7\u7816\u3002",
+     "caption": "\u53ea\u6709\u5dee\u662f2\u7684\u65f6\u5019\uff0c\u5bbd\u548c\u957f\u662f10\u548c12\uff0c\u6b63\u597d120\u5757\u74f7\u7816\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/154239214df106d8.wav",
+     "from": 1085,
+     "frames": 249
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u4e00\u5757\u65b0\u5730\u677f",
+   "from": 8591,
+   "frames": 525,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f",
+     "file": "2026-10-31-border-tiles-zh/audio/d3f86d7e72a273c4.wav",
+     "from": 0,
+     "frames": 54
+    },
+    {
+     "text": "\u4e00\u5757\u65b0\u5730\u677f\uff0c\u8fb9\u4e0a\u670936\u5757\u84dd\u8272\u74f7\u7816\uff0c\u91cc\u9762\u670960\u5757\u767d\u8272\u74f7\u7816\u3002",
+     "caption": "\u4e00\u5757\u65b0\u5730\u677f\uff0c\u8fb9\u4e0a\u670936\u5757\u84dd\u8272\u74f7\u7816\uff0c\u91cc\u9762\u670960\u5757\u767d\u8272\u74f7\u7816\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/8215cc9c05c8c382.wav",
+     "from": 65,
+     "frames": 286
+    },
+    {
+     "text": "\u65b0\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a\u591a\u5c11\u82f1\u5c3a\uff1f",
+     "caption": "\u65b0\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a\u591a\u5c11\u82f1\u5c3a\uff1f",
+     "file": "2026-10-31-border-tiles-zh/audio/2aa1c1d39a523885.wav",
+     "from": 361,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9116,
+   "frames": 390,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u5730\u677f\uff1a\u7b54\u6848",
+   "from": 9506,
+   "frames": 1273,
+   "lines": [
+    {
+     "text": "\u6765\u6838\u5bf9\u4e00\u4e0b\u300236\u52a060\uff0c\u4e00\u517196\u5757\u74f7\u7816\u3002",
+     "caption": "\u6765\u6838\u5bf9\u4e00\u4e0b\u300236\u52a060\uff0c\u4e00\u517196\u5757\u74f7\u7816\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/9d0353e85bece668.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "36\u52a0\u4e0a4\u4e2a\u89d2\uff0c\u5f97\u523040\u3002\u518d\u9664\u4ee52\uff0c\u957f\u52a0\u5bbd\u7b49\u4e8e20\u3002",
+     "caption": "36\u52a0\u4e0a4\u4e2a\u89d2\uff0c\u5f97\u523040\u3002\u518d\u9664\u4ee52\uff0c\u957f\u52a0\u5bbd\u7b49\u4e8e20\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/2d2f6b6d84932aab.wav",
+     "from": 196,
+     "frames": 260
+    },
+    {
+     "text": "10\u4e5810\u662f100\uff0c\u592a\u591a\u4e86\u300212\u4e588\u662f96\u3002\u5c31\u662f\u5b83\uff01",
+     "caption": "10\u4e5810\u662f100\uff0c\u592a\u591a\u4e86\u300212\u4e588\u662f96\u3002\u5c31\u662f\u5b83\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/22842eb38db7514b.wav",
+     "from": 466,
+     "frames": 226
+    },
+    {
+     "text": "\u91cc\u9762\u662f10\u4e586\uff0c60\u5757\u767d\u8272\u74f7\u7816\u3002\u5b8c\u5168\u6b63\u786e\u3002",
+     "caption": "\u91cc\u9762\u662f10\u4e586\uff0c60\u5757\u767d\u8272\u74f7\u7816\u3002\u5b8c\u5168\u6b63\u786e\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/69a32ca121e96e56.wav",
+     "from": 702,
+     "frames": 191
+    },
+    {
+     "text": "12\u51cf8\u7b49\u4e8e4\u3002\u8fd9\u5757\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a4\u82f1\u5c3a\uff01",
+     "caption": "12\u51cf8\u7b49\u4e8e4\u3002\u8fd9\u5757\u5730\u677f\u7684\u957f\u6bd4\u5bbd\u591a4\u82f1\u5c3a\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/ca2e65c113002973.wav",
+     "from": 903,
+     "frames": 185
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e864\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e864\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/bb066c29cb30b5bf.wav",
+     "from": 1099,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 10779,
+   "frames": 784,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u5927\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u5927\u601d\u8def\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/5f7dbddc4e2be72a.wav",
+     "from": 0,
+     "frames": 69
+    },
+    {
+     "text": "\u8fb9\u4e0a\u7684\u74f7\u7816\u6570\u52a04\uff0c\u518d\u9664\u4ee52\uff0c\u5c31\u662f\u957f\u52a0\u5bbd\u3002",
+     "caption": "\u8fb9\u4e0a\u7684\u74f7\u7816\u6570\u52a04\uff0c\u518d\u9664\u4ee52\uff0c\u5c31\u662f\u957f\u52a0\u5bbd\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/388464581a13b457.wav",
+     "from": 79,
+     "frames": 171
+    },
+    {
+     "text": "\u6570\u51fa\u5730\u677f\u4e0a\u6240\u6709\u7684\u74f7\u7816\uff0c\u5c31\u662f\u957f\u4e58\u5bbd\u3002",
+     "caption": "\u6570\u51fa\u5730\u677f\u4e0a\u6240\u6709\u7684\u74f7\u7816\uff0c\u5c31\u662f\u957f\u4e58\u5bbd\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/84654307983ece2d.wav",
+     "from": 260,
+     "frames": 159
+    },
+    {
+     "text": "\u6700\u540e\u627e\u51fa\u540c\u65f6\u6ee1\u8db3\u8fd9\u4e24\u4e2a\u6761\u4ef6\u7684\u4e00\u5bf9\u6570\u3002",
+     "caption": "\u6700\u540e\u627e\u51fa\u540c\u65f6\u6ee1\u8db3\u8fd9\u4e24\u4e2a\u6761\u4ef6\u7684\u4e00\u5bf9\u6570\u3002",
+     "file": "2026-10-31-border-tiles-zh/audio/0321b9d8212e13f0.wav",
+     "from": 429,
+     "frames": 146
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-border-tiles-zh/audio/f8351124be57142c.wav",
+     "from": 585,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

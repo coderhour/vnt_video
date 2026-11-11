@@ -7,6 +7,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Pill, Text } from '../../lib/ui';
 import { Choices } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-31-border-tiles';
@@ -274,7 +275,8 @@ const ListScene: SceneComponent = ({ scene }) => {
           <Tag x={GX} y={GY + 10 * GC + 22} start={gridStart + 34} color={BLUE} size={40}>40 blue edge</Tag>
         </>
       )}
-      <Eq x={GX} y={GY + 10 * GC + 100} start={at(scene, 5, 0.05)} tex={`12 - 10 = ${col(C.green, '2')}`} size={60} />
+      <Eq x={GX} y={GY + 10 * GC + 100} start={at(scene, 5, 0.05)} tex={`12 - 10 \\phantom{= 2}`} size={60} />
+      <Eq x={GX} y={GY + 10 * GC + 100} start={at(scene, 5, 0.22)} tex={`\\phantom{12 - 10} = ${col(C.green, '2')}`} size={60} />
       <Tag x={90} y={775} start={at(scene, 4, 0.7)} color={C.muted} size={36}>120 × 1: no inside</Tag>
       <Tag x={470} y={775} start={at(scene, 4, 0.85)} color={C.muted} size={36}>next pair repeats</Tag>
       <Answer x={1680} y={440} value="2" start={done} chime={CHIME} />
@@ -315,7 +317,8 @@ const SumScene: SceneComponent = ({ scene }) => {
       <Eq x={X} y={585} start={at(scene, 4, 0.5)} tex={'L + W = 22,\\quad L \\times W = 120'} size={54} />
       <Tag x={X} y={660} start={at(scene, 5, 0.55)} color={C.amber} size={42}>11 × 11 = 121: one too many</Tag>
       <Eq x={X} y={735} start={at(scene, 7, 0.3)} tex={`${col(C.green, '12 + 10 = 22,\\quad 12 \\times 10 = 120')}`} size={54} />
-      <Eq x={150} y={720} start={at(scene, 7, 0.8)} tex={`12 - 10 = ${col(C.green, '2')}`} size={64} />
+      <Eq x={150} y={720} start={at(scene, 7, 0.75)} tex={`12 - 10 \\phantom{= 2}`} size={64} />
+      <Eq x={150} y={720} start={at(scene, 7, 0.92)} tex={`\\phantom{12 - 10} = ${col(C.green, '2')}`} size={64} />
       <Tag x={90} y={600} start={at(scene, 8, 0.5)} color={C.violet} size={40} w={600}>sum + product → the two numbers</Tag>
     </>
   );
@@ -417,7 +420,8 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
       <Eq x={X} y={355} start={at(scene, 1, 0.75)} tex={'L + W = 20'} size={54} />
       <Eq x={X} y={440} start={at(scene, 2, 0.25)} tex={`10 \\times 10 = 100\\ ${col(C.red, '\\text{too many}')}`} size={54} />
       <Eq x={X} y={515} start={at(scene, 2, 0.7)} tex={`${col(C.green, '12 \\times 8 = 96 \\ \\checkmark')}`} size={56} />
-      <Eq x={X} y={610} start={at(scene, 4, 0.1)} tex={`12 - 8 = ${col(C.green, '4')}`} size={62} />
+      <Eq x={X} y={610} start={at(scene, 4, 0.1)} tex={`12 - 8 \\phantom{= 4}`} size={62} />
+      <Eq x={X} y={610} start={at(scene, 4, 0.3)} tex={`\\phantom{12 - 8} = ${col(C.green, '4')}`} size={62} />
       <Answer x={1700} y={640} value="4" start={done} chime={CHIME} />
       <Confetti x={1700} y={640} start={done} seed={9} />
     </>
@@ -475,3 +479,18 @@ export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
 
 void clamp;
+
+// YouTube thumbnail (`2026-10-31-border-tiles-thumb`, render.sh → poster.jpg): the trap + an example floor with a blue edge ring (40 blue, 80 white), no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>4?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 36 }}>
+      <div style={{ position: 'relative', width: 630, height: 450 }}>
+        <Floor cols={EC} rows={ER} x={0} y={0} cell={90} />
+      </div>
+      <div style={{ display: 'flex', gap: 36, fontSize: 64, fontWeight: 900 }}>
+        <span style={{ color: BLUE }}>40 blue</span>
+        <span style={{ color: C.muted }}>80 white</span>
+      </div>
+    </div>
+  </ThumbFrame>
+);

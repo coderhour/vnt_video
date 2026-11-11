@@ -66,7 +66,7 @@ What happens:
 • Afterwards, set the new short's Related video to the full lesson in YouTube Studio again (the API can't).`;
 // kind: video | short | both | republish. The short goes up after the video, so its description can link to it.
 async function uploadYouTube(v, btn, kind, site = 'youtube') {
-  const what = { video: `"${v.title}"`, short: `the short "${v.short?.title}"`, both: `"${v.title}" and its short` }[kind];
+  const what = { video: `"${v.title}"`, short: `the short "${v.short?.title}"`, both: `"${v.title}" and its short (the short goes public 24 h after the video)` }[kind];
   const name = { youtube: 'YouTube', tiktok: 'TikTok' }[site];
   let at = null;  // null = publish now; a Date = YouTube publishes the private upload then
   if (kind === 'republish' || site !== 'youtube') {
@@ -82,8 +82,16 @@ async function uploadYouTube(v, btn, kind, site = 'youtube') {
   videos = await fetch('/api/videos').then(r => r.json());  // meta.json may have changed even on failure ("both")
   render();
   if (!r.ok) { btn.disabled = false; btn.textContent = label; alert(name + ' upload failed: ' + d.error); }
-  else if (at && !d.scheduled) alert('The server ignored the schedule and published NOW (restart ./start.sh to load the new code). Set it private in YouTube Studio if needed.');
-  else if (d.warning) alert(d.warning);
+  else if ((at && !d.scheduled) || (kind === 'both' && !d.short_scheduled)) alert('The server ignored the schedule and published NOW (restart ./start.sh to load the new code). Set it private in YouTube Studio if needed.');
+  else { const m = [d.warning, d.short_scheduled && 'Short scheduled for ' + fmt(new Date(d.short_scheduled)) + ', a day after the video.'].filter(Boolean).join('\n\n'); if (m) alert(m); }
+}
+// The API can't set a short's Related video, so it's done by hand in YouTube Studio and ticked off here.
+async function markRelated(v) {
+  if (!confirm(`In YouTube Studio, set the Related video of the short "${v.short.title}" to "${v.title}". Done?`)) return;
+  const r = await fetch('/api/related-set', { method: 'POST', body: JSON.stringify({ slug: v.slug }) });
+  if (!r.ok) return alert('Could not save');
+  videos = await fetch('/api/videos').then(r => r.json());
+  render();
 }
 // Publish dialog: now, or at a local date/time (sent as UTC; YouTube holds the upload private until then).
 // Resolves null (now), a Date (scheduled) or undefined (cancelled).
@@ -138,6 +146,7 @@ function publishFields(v) {
     ['Thumbnail', v.poster ? location.origin + v.poster : '(no poster.jpg)'],
     ...(v.tiktok_caption ? [['TikTok caption', v.tiktok_caption]] : []),
     ...(v.youtube_quiz ? [['YouTube quiz post', v.youtube_quiz]] : []),
+    ...(v.pinned_comment ? [['Pinned comment', v.pinned_comment]] : []),
   ];
 }
 
@@ -146,13 +155,27 @@ function cnSection(v) {
   const c = v.cn || {};
   const rows = [['Video title', c.video?.title], ['Video description', c.video?.description],
     ['Short title', c.short?.title], ['Short description', c.short?.description]].filter(([, t]) => t);
+  const wx = kind => c.posts?.find(p => p.platform === 'WeChat Channels' && p.kind === kind);
+  const mark = async kind => {
+    if (!confirm(`Mark the ${kind} as posted to WeChat Channels?`)) return;
+    const r = await fetch('/api/wechat-posted', { method: 'POST', body: JSON.stringify({ slug: v.slug, kind }) });
+    if (!r.ok) return alert('Could not save');
+    videos = await fetch('/api/videos').then(r => r.json());
+    render();
+  };
   return [el('h2', {}, 'China cut (Xiaohongshu / WeChat Channels)'),
     el('p', {}, 'Post by hand and tick the "AI-generated content" declaration (内容由AI生成).'),
+    el('p', {}, ...[['video', v.video_cn], ['short', v.short_video_cn]].filter(([, f]) => f).map(([kind]) => wx(kind)
+      ? el('span', { className: 'badge published', style: 'margin-right: 8px' }, `${kind} on WeChat · ${fmt(new Date(wx(kind).published_at))}`)
+      : el('button', { onclick: () => mark(kind), style: 'margin-right: 8px' }, `Mark ${kind} on WeChat`))),
     ...(v.video_cn ? [el('video', { src: v.video_cn, controls: true })] : [el('p', {}, 'video-cn.mp4 not rendered')]),
     ...(v.short_video_cn ? [el('video', { src: v.short_video_cn, controls: true, style: 'width: auto; height: 70vh' })] : []),
     el('table', { className: 'pub' }, ...rows.map(([k, val]) => el('tr', {},
       el('td', {}, k), el('td', { style: 'white-space: pre-line' }, val),
-      el('td', {}, el('button', { onclick: e => copy(val, e.target) }, 'Copy')))))];
+      el('td', {}, el('button', { onclick: e => copy(val, e.target) }, 'Copy'))))),
+    ...(v.covers.length ? [el('h3', {}, 'WeChat Channels covers'), el('div', { style: 'display: flex; gap: 16px; align-items: flex-end; flex-wrap: wrap' },
+      ...v.covers.map(src => el('a', { href: src, download: `${v.slug}-${src.split('/').pop()}`, title: 'Download' },
+        el('img', { src, style: 'height: 240px; display: block' }), el('small', {}, `⬇ ${src.split('/').pop()}`))))] : [])];
 }
 
 // navigator.clipboard needs https or localhost; over plain-http LAN fall back to execCommand.
@@ -182,15 +205,19 @@ function render() {
   // One folder per quiz bank (question_id = "<bank>:<id>"), or per short series in challenge order (the publish order).
   const bySeries = sort.value === 'challenge';
   // ponytail: a "-zh" slug is the Chinese series; store a series field in meta.json if more languages come
-  const series = v => !v.short?.challenge ? 'No short' : `${v.short.tags?.[0] || 'Other'}${v.slug.endsWith('-zh') ? ' Chinese' : ''} challenges`;
-  const banks = Map.groupBy(bySeries ? [...shown].sort((a, b) => (a.short?.challenge ?? 1e9) - (b.short?.challenge ?? 1e9)) : shown,
+  // A Chinese video without a short yet still goes in its contest's Chinese folder (after the numbered ones).
+  const contest = v => v.short?.tags?.[0] || v.contest || (v.question_id?.includes('_amc10_') ? 'AMC 10' : 'AMC 8');
+  const series = v => !v.short?.challenge && !v.slug.endsWith('-zh') ? 'No short' : `${contest(v)}${v.slug.endsWith('-zh') ? ' Chinese' : ''} challenges`;
+  // A Chinese video shows its English twin's challenge # (a zh short reuses that number anyway).
+  const chal = v => v.short?.challenge ?? (v.slug.endsWith('-zh') ? videos.find(e => e.slug === v.slug.slice(0, -3))?.short?.challenge : undefined);
+  const banks = Map.groupBy(bySeries ? [...shown].sort((a, b) => (chal(a) ?? 1e9) - (chal(b) ?? 1e9)) : shown,
     v => bySeries ? series(v) : v.question_id?.split(':')[0] || 'Other');
   list.replaceChildren(...[...banks].sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true })).map(([bank, vs]) =>
     el('details', { open: words.length > 0 || !closed.has(bank), ontoggle: e => closed[e.target.open ? 'delete' : 'add'](bank) },
       el('summary', { title: bank }, `${bank.replace(/^amc_practice_|_template$/g, '')} (${vs.length})`),
       ...vs.map(v => el('a',
         { href: '#' + encodeURIComponent(v.slug), className: v.slug === slug ? 'active' : '' },
-        bySeries && v.short?.challenge ? `#${v.short.challenge} ` : '', v.title || v.slug, el('br'), badge(v),
+        bySeries && chal(v) ? `#${chal(v)} ` : '', v.title || v.slug, el('br'), badge(v),
         el('small', {}, [v.question_id?.split(':')[1], v.created].filter(Boolean).join(' · ')))))));
 
   if (!shown.length) list.replaceChildren(el('p', { style: 'padding: 0 16px' }, 'No matching videos.'));
@@ -218,10 +245,13 @@ function render() {
       ...(v.short_video && v.short && !v.short.posts?.some(p => p.platform === 'TikTok')
         ? [el('button', { onclick: () => markPosted(v, 'tiktok-posted', `TikTok link of the short "${v.short.title}" (Share → Copy link):`,
             'the link must start with https://www.tiktok.com/ or https://vm.tiktok.com/'), style: 'margin-left: 8px' }, 'Mark short on TikTok')] : []),
+      ...(v.short?.youtube_id && !v.short.related_set
+        ? [el('button', { onclick: () => markRelated(v), style: 'margin-left: 8px' }, 'Mark Related video set')] : []),
       // ponytail: the YouTube API can't create Posts, so the quiz post (copy row below) goes up by hand and gets marked here
       ...(v.youtube_id && v.youtube_quiz && !v.posts?.some(p => p.platform === 'YouTube quiz post')
         ? [el('button', { onclick: () => markPosted(v, 'quiz-posted', 'Link of the YouTube quiz post (⋮ → Copy link):',
             'the link must start with https://www.youtube.com/'), style: 'margin-left: 8px' }, 'Mark quiz posted')] : [])),
+    ...(v.youtube_id && v.thumbnail !== 'set' ? [el('p', { className: 'meta' }, `⚠ YouTube thumbnail ${v.thumbnail || 'unknown (uploaded before tracking)'}: python3 tools/youtube.py thumb ${v.slug}`)] : []),
     ...(v.fixes?.length ? [el('ul', {}, ...v.fixes.map(f => el('li', {}, f)))] : []),
     ...(v.posts?.length ? [el('h2', {}, 'Published'), el('ul', {}, ...[...v.posts, ...(v.short?.posts || [])].map(p =>
       el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.platform || p.url),
@@ -231,7 +261,7 @@ function render() {
     el('table', { className: 'pub' }, ...publishFields(v).map(([k, val]) => el('tr', {},
       el('td', {}, k), el('td', { style: 'white-space: pre-line' }, val),
       el('td', {}, el('button', { onclick: e => copy(val, e.target) }, 'Copy'))))),
-    ...(v.video_cn || v.short_video_cn || v.cn ? cnSection(v) : []),
+    ...(v.video_cn || v.short_video_cn || v.cn || v.covers.length ? cnSection(v) : []),
     el('h2', {}, 'Script'),
     el('pre', {}, v.script || '(no script.md)'));
 }

@@ -8,6 +8,8 @@ Upload from the shell: python3 tools/youtube.py upload <slug>   (the preview sit
                        fills {full_video_url} in meta.json short.description)
                        python3 tools/youtube.py republish-short <slug>   (upload the current short.mp4 as a NEW short,
                        set the old one private; YouTube can't replace a video's file)
+                       python3 tools/youtube.py meta <slug>   (push meta.json title + description to a published video)
+                       python3 tools/youtube.py thumb <slug>   (re-upload poster.jpg as a published video's thumbnail)
                        python3 tools/youtube.py playlists   (add every published video / short to its AMC 8 / AMC 10 (Shorts) playlist;
                        uploads do this too. Needs the "youtube" scope: re-run auth if the token predates it)
 Schedule: append an ISO time with offset, e.g. upload <slug> 2026-11-08T16:00-08:00 (also upload-short; the site has a
@@ -15,7 +17,7 @@ date box). YouTube holds the video private and makes it public at that time (sta
 Optional env: YOUTUBE_PRIVACY (public | unlisted | private, default public), YOUTUBE_MADE_FOR_KIDS=1."""
 import http.server
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import os
 import re
 import sys
@@ -171,9 +173,8 @@ def footer(slug, medium):
     return FOOTER.format(slug=slug, medium=medium)
 
 
-def put(file, title, description, tags, thumb=None, publish_at=None):
-    """Upload one mp4 (+ optional thumbnail jpg). publish_at (from schedule()): upload private, YouTube publishes it then.
-    Returns the new video id."""
+def put(file, title, description, tags, publish_at=None):
+    """Upload one mp4. publish_at (from schedule()): upload private, YouTube publishes it then. Returns the new video id."""
     video = file.read_bytes()  # ponytail: whole file in memory, fine for ~30 MB explainers
     auth_h = {"Authorization": f"Bearer {access_token()}"}
     body = {
@@ -188,14 +189,58 @@ def put(file, title, description, tags, thumb=None, publish_at=None):
     h, _ = call("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
                 json.dumps(body).encode(), {**auth_h, "Content-Type": "application/json; charset=UTF-8",
                                             "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(len(video))})
-    vid = call(h["Location"], video, {**auth_h, "Content-Type": "video/mp4"}, "PUT")[1]["id"]
-    if thumb and thumb.exists():
-        try:  # custom thumbnails need a phone-verified channel
-            call(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}",
-                 thumb.read_bytes(), {**auth_h, "Content-Type": "image/jpeg"})
-        except RuntimeError as e:
-            print(f"thumbnail not set: {e}", file=sys.stderr)
-    return vid
+    return call(h["Location"], video, {**auth_h, "Content-Type": "video/mp4"}, "PUT")[1]["id"]
+
+
+def set_thumbnail(vid, jpg):
+    """Upload jpg as the video's custom thumbnail -> "set", "missing poster.jpg" or "failed: <why>" (saved in meta.json
+    "thumbnail" so a silent failure shows on the site). Custom thumbnails need a phone-verified channel."""
+    if not jpg.exists():
+        return "missing poster.jpg"
+    try:
+        call(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}", jpg.read_bytes(),
+             {"Authorization": f"Bearer {access_token()}", "Content-Type": "image/jpeg"})
+        return "set"
+    except RuntimeError as e:
+        return f"failed: {e}"[:300]
+
+
+def thumb(slug):
+    """Re-upload poster.jpg as the published full video's thumbnail (e.g. after a new designed thumbnail)."""
+    d = ROOT / "videos" / slug
+    meta = json.loads((d / "meta.json").read_text())
+    if not meta.get("youtube_id"):
+        raise RuntimeError("not on YouTube yet")
+    meta["thumbnail"] = set_thumbnail(meta["youtube_id"], d / "poster.jpg")
+    save(d, meta)
+    return meta["thumbnail"]
+
+
+def sync_meta(slug):
+    """Push meta.json title + description (+ footer) to the published full video. videos.update replaces the whole
+    snippet, so the current one is fetched and only title/description change (tags, category, language kept)."""
+    d = ROOT / "videos" / slug
+    meta = json.loads((d / "meta.json").read_text())
+    vid = meta.get("youtube_id")
+    if not vid:
+        raise RuntimeError("not on YouTube yet")
+    auth_h = {"Authorization": f"Bearer {access_token()}"}
+    items = call(f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id={vid}", headers=auth_h)[1].get("items")
+    if not items:
+        raise RuntimeError(f"video {vid} not found")
+    keep = ("title", "description", "tags", "categoryId", "defaultLanguage", "defaultAudioLanguage")
+    snippet = {k: v for k, v in items[0]["snippet"].items() if k in keep} | {
+        "title": meta["title"][:100], "description": (meta.get("description", "") + footer(slug, "video")).replace("<", "‹").replace(">", "›")}
+    call("https://www.googleapis.com/youtube/v3/videos?part=snippet", json.dumps({"id": vid, "snippet": snippet}).encode(),
+         {**auth_h, "Content-Type": "application/json"}, "PUT")
+    return snippet["title"]
+
+
+def later(at, hours=24):
+    """The short's publish time when it goes up with its video: a day after the video (at, or now), so the full lesson
+    is already live and gathering data when the short sends viewers to it."""
+    t = datetime.fromisoformat(at) if at else datetime.now().astimezone()
+    return (t + timedelta(hours=hours)).isoformat(timespec="seconds")
 
 
 def watch_url(vid):
@@ -275,9 +320,10 @@ def upload(slug, publish_at=None):
     meta = json.loads((d / "meta.json").read_text())
     if meta.get("youtube_id"):
         raise RuntimeError(f"already on YouTube: {meta['youtube_id']}")
-    vid = put(d / "video.mp4", meta["title"], meta.get("description", "") + footer(slug, "video"), tags(meta), d / "poster.jpg", publish_at)
+    vid = put(d / "video.mp4", meta["title"], meta.get("description", "") + footer(slug, "video"), tags(meta), publish_at)
+    shot = set_thumbnail(vid, d / "poster.jpg")
     meta = json.loads((d / "meta.json").read_text())  # re-read: the upload took a while
-    meta["youtube_id"] = vid
+    meta["youtube_id"], meta["thumbnail"] = vid, shot
     meta.setdefault("posts", []).append(post("YouTube", watch_url(vid), publish_at))
     save(d, meta)
     return vid
@@ -354,6 +400,10 @@ if __name__ == "__main__":
         print(upload_short(sys.argv[2], publish_at=schedule(sys.argv[3] if len(sys.argv) == 4 else None)))
     elif sys.argv[1:2] == ["republish-short"] and len(sys.argv) == 3:
         print(upload_short(sys.argv[2], replace=True))
+    elif sys.argv[1:2] == ["meta"] and len(sys.argv) == 3:
+        print(sync_meta(sys.argv[2]))
+    elif sys.argv[1:2] == ["thumb"] and len(sys.argv) == 3:
+        print(thumb(sys.argv[2]))
     elif sys.argv[1:2] == ["playlists"]:  # backfill: every published video into its contest playlist
         for m in sorted((ROOT / "videos").glob("*/meta.json")):
             for short in (False, True):

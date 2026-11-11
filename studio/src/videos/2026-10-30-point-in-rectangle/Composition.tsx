@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-point-in-rectangle';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -670,3 +671,19 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-point-in-rectangle-thumb`, render.sh → poster.jpg): the rectangle with P, three areas and the "?" triangle, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Find the', <span style={{ color: C.primary }}>missing</span>, 'area?']}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Figure
+        m={plane(62, 550, 56)}
+        {...MAIN}
+        labels={ABOUT}
+        labelColors={{ left: C.amber }}
+        fills={{ bottom: 0.25, right: 0.25, top: 0.25, left: 0.25 }}
+        colors={{ bottom: C.violet, right: C.blue, top: C.violet, left: C.amber }}
+      />
+    </svg>
+  </ThumbFrame>
+);

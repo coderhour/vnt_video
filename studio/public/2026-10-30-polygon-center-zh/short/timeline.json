@@ -1,0 +1,128 @@
+{
+ "fps": 30,
+ "durationInFrames": 1329,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 142,
+   "lines": [
+    {
+     "text": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f\u4e24\u767e\u516d\u5341\uff1f\u9519\uff01",
+     "caption": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f260\uff1f\u9519\uff01",
+     "file": "2026-10-30-polygon-center-zh/short/audio/10b02eba113c8ace.wav",
+     "from": 0,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 142,
+   "frames": 192,
+   "lines": [
+    {
+     "text": "\u6b6313\u8fb9\u5f62\uff0c\u90094\u4e2a\u89d2\u8fde\u8d77\u6765\u3002",
+     "caption": "\u6b6313\u8fb9\u5f62\uff0c\u90094\u4e2a\u89d2\u8fde\u8d77\u6765\u3002",
+     "file": "2026-10-30-polygon-center-zh/short/audio/5a55592bc27b6782.wav",
+     "from": 0,
+     "frames": 101
+    },
+    {
+     "text": "\u51e0\u79cd\u9009\u6cd5\u80fd\u5305\u4f4f\u4e2d\u5fc3\uff1f",
+     "caption": "\u51e0\u79cd\u9009\u6cd5\u80fd\u5305\u4f4f\u4e2d\u5fc3\uff1f",
+     "file": "2026-10-30-polygon-center-zh/short/audio/dd149b8536770b48.wav",
+     "from": 105,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 334,
+   "frames": 83,
+   "lines": [
+    {
+     "text": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u518d\u63a5\u7740\u770b\uff01",
+     "caption": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u518d\u63a5\u7740\u770b\uff01",
+     "file": "2026-10-30-polygon-center-zh/short/audio/f8e9000d644a83d8.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "misses",
+   "kind": "scene",
+   "chapter": null,
+   "from": 417,
+   "frames": 512,
+   "lines": [
+    {
+     "text": "\u5171715\u79cd\u9009\u6cd5\u3002\u6765\u6570\u4e00\u6570\u6f0f\u6389\u7684\uff01",
+     "caption": "\u5171715\u79cd\u9009\u6cd5\u3002\u6765\u6570\u4e00\u6570\u6f0f\u6389\u7684\uff01",
+     "file": "2026-10-30-polygon-center-zh/short/audio/5262bd1c15d4c976.wav",
+     "from": 0,
+     "frames": 119
+    },
+    {
+     "text": "4\u4e2a\u89d2\u6324\u5728\u534a\u5706\u91cc\uff0c\u5c31\u6f0f\u6389\u4e86\u3002",
+     "caption": "4\u4e2a\u89d2\u6324\u5728\u534a\u5706\u91cc\uff0c\u5c31\u6f0f\u6389\u4e86\u3002",
+     "file": "2026-10-30-polygon-center-zh/short/audio/97d0e81fe0475d1c.wav",
+     "from": 124,
+     "frames": 106
+    },
+    {
+     "text": "\u7b2c\u4e00\u4e2a\u89d2\u5b9a\u4e0b\uff0c\u53e6\u59163\u4e2a\u4ece\u540e\u97626\u4e2a\u91cc\u9009\uff1a20\u79cd\u3002",
+     "caption": "\u7b2c\u4e00\u4e2a\u89d2\u5b9a\u4e0b\uff0c\u53e6\u59163\u4e2a\u4ece\u540e\u97626\u4e2a\u91cc\u9009\uff1a20\u79cd\u3002",
+     "file": "2026-10-30-polygon-center-zh/short/audio/65ed668056fc8932.wav",
+     "from": 234,
+     "frames": 141
+    },
+    {
+     "text": "13\u4e2a\u4f4d\u7f6e\u4e5820\uff1a260\u79cd\u6f0f\u6389\u7684\u3002",
+     "caption": "13\u4e2a\u4f4d\u7f6e\u4e5820\uff1a260\u79cd\u6f0f\u6389\u7684\u3002",
+     "file": "2026-10-30-polygon-center-zh/short/audio/d33f852231681b69.wav",
+     "from": 379,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 929,
+   "frames": 400,
+   "lines": [
+    {
+     "text": "715\u51cf260\uff0c\u7b49\u4e8e455\uff01",
+     "caption": "715\u51cf260\uff0c\u7b49\u4e8e455\uff01",
+     "file": "2026-10-30-polygon-center-zh/short/audio/547ce590bb854774.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "260\u662f\u9677\u9631\uff0c\u53ea\u662f\u6f0f\u6389\u7684\uff01",
+     "caption": "260\u662f\u9677\u9631\uff0c\u53ea\u662f\u6f0f\u6389\u7684\uff01",
+     "file": "2026-10-30-polygon-center-zh/short/audio/9134988337682b37.wav",
+     "from": 133,
+     "frames": 101
+    },
+    {
+     "text": "\u7b54\u6848\u662f455\uff0c\u7b54\u5bf9\u4e86\u5417\uff1f\u8bc4\u8bba\u544a\u8bc9\u6211\uff01",
+     "caption": "\u7b54\u6848\u662f455\uff0c\u7b54\u5bf9\u4e86\u5417\uff1f\u8bc4\u8bba\u544a\u8bc9\u6211\uff01",
+     "file": "2026-10-30-polygon-center-zh/short/audio/f31ccb9c58587071.wav",
+     "from": 238,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-grid-routes';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -656,3 +657,12 @@ const SCENES: Record<string, SceneComponent> = {
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
 
+
+// YouTube thumbnail (`2026-10-30-grid-routes-thumb`, render.sh → poster.jpg): the street grid A to B with the blocked corner X, no routes counted.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>56?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Streets m={plane(55, 480, 112)} labels={46} lo={0.7} stroke={9} dot={18} />
+    </svg>
+  </ThumbFrame>
+);

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Confetti, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-ant-on-prism';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -873,3 +874,34 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-11-01-ant-on-prism-thumb`, render.sh -> poster.jpg): the trap + the prism with A, E and the ant at C, no answer.
+export const Thumb: React.FC = () => {
+  const s = 0.92;
+  const O: Pt = [90, 570];
+  const pt = (k: string): Pt => [O[0] + OFF[k][0] * s, O[1] + OFF[k][1] * s];
+  const col: Record<string, string> = { A: RED, E: GRN };
+  return (
+    <ThumbFrame chip="AMC 10 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>1/3?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        {EDGES.map((e) => {
+          const a = pt(e[0]);
+          const b = pt(e[1]);
+          const h = HIDDEN.has(e);
+          return <line key={e} x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={C.ink} strokeWidth={9} strokeLinecap="round" opacity={0.85} strokeDasharray={h ? '2 16' : undefined} />;
+        })}
+        {KEYS.map((k) => {
+          const p = pt(k);
+          const lp = LAB[k];
+          return (
+            <g key={k}>
+              <circle cx={p[0]} cy={p[1]} r={k in col ? 22 : 14} fill={col[k] ?? C.ink} />
+              <text x={p[0] + lp[0] * (k === 'C' ? 1.6 : 1)} y={p[1] + lp[1] * (k === 'C' ? 1.2 : 1) + 14} textAnchor="middle" fontFamily={NUNITO} fontWeight={900} fontSize={54} fill={col[k] ?? C.ink}>{k}</text>
+            </g>
+          );
+        })}
+        <text x={pt('C')[0]} y={pt('C')[1] + 14} textAnchor="middle" fontSize={44}>🐜</text>
+      </svg>
+    </ThumbFrame>
+  );
+};

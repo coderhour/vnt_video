@@ -7,6 +7,7 @@ import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-consecutive-sums';
@@ -606,3 +607,14 @@ const SCENES: Record<string, SceneComponent> = {
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
 
+
+// YouTube thumbnail (`2026-10-30-consecutive-sums-thumb`, render.sh → poster.jpg): the trap + the question's own examples (9 = 4 + 5, 10 = 1+2+3+4), no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>45?</span>]}>
+    <div style={{ width: '100%', height: '100%', background: C.card, borderRadius: 36, boxShadow: '0 8px 28px rgba(30,40,80,0.07)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 36 }}>
+      <Tex tex="9 = 4 + 5" size={96} color={C.primary} />
+      <div style={{ whiteSpace: 'nowrap' }}><Tex tex="6 = 1+2+3" size={80} color={C.violet} /></div>
+      <Tex tex={'8 = \\;?'} size={96} color={C.red} />
+    </div>
+  </ThumbFrame>
+);

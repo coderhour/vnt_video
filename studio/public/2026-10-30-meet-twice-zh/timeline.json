@@ -1,0 +1,540 @@
+{
+ "fps": 30,
+ "durationInFrames": 13728,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 642,
+   "lines": [
+    {
+     "text": "\u4e24\u4e2a\u597d\u670b\u53cb\u76f8\u5411\u800c\u884c\uff0c\u64e6\u80a9\u800c\u8fc7\uff0c\u6389\u5934\u56de\u6765\uff0c\u53c8\u78b0\u9762\u4e86\u3002",
+     "caption": "\u4e24\u4e2a\u597d\u670b\u53cb\u76f8\u5411\u800c\u884c\uff0c\u64e6\u80a9\u800c\u8fc7\uff0c\u6389\u5934\u56de\u6765\uff0c\u53c8\u78b0\u9762\u4e86\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/fbf8fefcd35f5d95.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u6709\u4e00\u4e2a\u6570\u5b57\uff0c\u80fd\u89e3\u5f00\u6574\u9053\u9898\u3002\u8fd9\u4e2a\u6570\u5b57\u5c31\u662f3\uff01",
+     "caption": "\u6709\u4e00\u4e2a\u6570\u5b57\uff0c\u80fd\u89e3\u5f00\u6574\u9053\u9898\u3002\u8fd9\u4e2a\u6570\u5b57\u5c31\u662f3\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/eb6d2bf4326b98a3.wav",
+     "from": 205,
+     "frames": 182
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\uff0c\u8fd9\u4e2a3\u662f\u4ece\u54ea\u91cc\u6765\u7684\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\uff0c\u8fd9\u4e2a3\u662f\u4ece\u54ea\u91cc\u6765\u7684\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/4432675c6271d144.wav",
+     "from": 397,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 642,
+   "frames": 1240,
+   "lines": [
+    {
+     "text": "\u5c0f\u5b89\u4eceA\u5730\u51fa\u53d1\uff0c\u5c0f\u660e\u4eceB\u5730\u51fa\u53d1\uff0c\u4e24\u4eba\u540c\u65f6\u52a8\u8eab\u3002",
+     "caption": "\u5c0f\u5b89\u4eceA\u5730\u51fa\u53d1\uff0c\u5c0f\u660e\u4eceB\u5730\u51fa\u53d1\uff0c\u4e24\u4eba\u540c\u65f6\u52a8\u8eab\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/c797c82148a7fe2b.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "\u4e24\u4eba\u5728\u540c\u4e00\u6761\u8def\u4e0a\u76f8\u5411\u800c\u884c\uff0c\u901f\u5ea6\u90fd\u4fdd\u6301\u4e0d\u53d8\u3002",
+     "caption": "\u4e24\u4eba\u5728\u540c\u4e00\u6761\u8def\u4e0a\u76f8\u5411\u800c\u884c\uff0c\u901f\u5ea6\u90fd\u4fdd\u6301\u4e0d\u53d8\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/a7fdad758a55b0be.wav",
+     "from": 237,
+     "frames": 194
+    },
+    {
+     "text": "\u4e24\u4eba\u7b2c\u4e00\u6b21\u5728\u79bbA\u573012\u5343\u7c73\u7684\u5730\u65b9\u76f8\u9047\u3002",
+     "caption": "\u4e24\u4eba\u7b2c\u4e00\u6b21\u5728\u79bbA\u573012\u5343\u7c73\u7684\u5730\u65b9\u76f8\u9047\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/2975e2ccb9cd933e.wav",
+     "from": 441,
+     "frames": 148
+    },
+    {
+     "text": "\u4e24\u4eba\u7ee7\u7eed\u5f80\u524d\u8d70\uff0c\u5404\u81ea\u8d70\u5230\u5bf9\u65b9\u7684\u51fa\u53d1\u5730\u540e\uff0c\u9a6c\u4e0a\u6389\u5934\u5f80\u56de\u8d70\u3002",
+     "caption": "\u4e24\u4eba\u7ee7\u7eed\u5f80\u524d\u8d70\uff0c\u5404\u81ea\u8d70\u5230\u5bf9\u65b9\u7684\u51fa\u53d1\u5730\u540e\uff0c\u9a6c\u4e0a\u6389\u5934\u5f80\u56de\u8d70\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/55ec2622f0a50ba1.wav",
+     "from": 599,
+     "frames": 221
+    },
+    {
+     "text": "\u4e24\u4eba\u7b2c\u4e8c\u6b21\u5728\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\u76f8\u9047\u3002A\u3001B\u4e24\u5730\u76f8\u8ddd\u591a\u5c11\u5343\u7c73\uff1f",
+     "caption": "\u4e24\u4eba\u7b2c\u4e8c\u6b21\u5728\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\u76f8\u9047\u3002A\u3001B\u4e24\u5730\u76f8\u8ddd\u591a\u5c11\u5343\u7c73\uff1f",
+     "file": "2026-10-30-meet-twice-zh/audio/aa2306acd3b28d87.wav",
+     "from": 830,
+     "frames": 252
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 1093,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1882,
+   "frames": 889,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u62c6\u89e3\u4e00\u4e0b\u3002\u5c0f\u5b89\u548c\u5c0f\u660e\u7684\u901f\u5ea6\uff0c\u4ece\u5934\u5230\u5c3e\u90fd\u4e0d\u53d8\u3002",
+     "caption": "\u6211\u4eec\u6765\u62c6\u89e3\u4e00\u4e0b\u3002\u5c0f\u5b89\u548c\u5c0f\u660e\u7684\u901f\u5ea6\uff0c\u4ece\u5934\u5230\u5c3e\u90fd\u4e0d\u53d8\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/501103978d8baead.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "\u7b2c\u4e00\u6b21\u76f8\u9047\uff0c\u5728\u79bbA\u573012\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "caption": "\u7b2c\u4e00\u6b21\u76f8\u9047\uff0c\u5728\u79bbA\u573012\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/cff088e5af5539cd.wav",
+     "from": 196,
+     "frames": 129
+    },
+    {
+     "text": "\u4e24\u4eba\u5404\u81ea\u8d70\u5230\u53e6\u4e00\u5934\uff0c\u6389\u5934\u5f80\u56de\u8d70\u3002\u7136\u540e\u624d\u7b2c\u4e8c\u6b21\u76f8\u9047\uff0c\u5728\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "caption": "\u4e24\u4eba\u5404\u81ea\u8d70\u5230\u53e6\u4e00\u5934\uff0c\u6389\u5934\u5f80\u56de\u8d70\u3002\u7136\u540e\u624d\u7b2c\u4e8c\u6b21\u76f8\u9047\uff0c\u5728\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/11b0efab538bf931.wav",
+     "from": 335,
+     "frames": 299
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u8fd9\u6761\u8def\u6709\u591a\u957f\u3002\u628a\u8def\u7684\u957f\u5ea6\u53eb\u505ad\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u8fd9\u6761\u8def\u6709\u591a\u957f\u3002\u628a\u8def\u7684\u957f\u5ea6\u53eb\u505ad\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/ab87b35edd272224.wav",
+     "from": 645,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2771,
+   "frames": 480,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "walk1",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u6570\u5168\u7a0b",
+   "from": 3251,
+   "frames": 694,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u6570\u4e00\u6570\uff0c\u4e24\u4eba\u5408\u8d77\u6765\u4e00\u5171\u8d70\u4e86\u51e0\u4e2a\u5168\u7a0b\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u6570\u4e00\u6570\uff0c\u4e24\u4eba\u5408\u8d77\u6765\u4e00\u5171\u8d70\u4e86\u51e0\u4e2a\u5168\u7a0b\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/27109208664795e7.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "\u7b2c\u4e00\u6b21\u76f8\u9047\u65f6\uff0c\u5c0f\u5b89\u8d70\u7684\u8def\u548c\u5c0f\u660e\u8d70\u7684\u8def\uff0c\u52a0\u8d77\u6765\u6b63\u597d\u662f\u4e00\u4e2a\u5168\u7a0b\u3002",
+     "caption": "\u7b2c\u4e00\u6b21\u76f8\u9047\u65f6\uff0c\u5c0f\u5b89\u8d70\u7684\u8def\u548c\u5c0f\u660e\u8d70\u7684\u8def\uff0c\u52a0\u8d77\u6765\u6b63\u597d\u662f\u4e00\u4e2a\u5168\u7a0b\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/23b561e44ddf206d.wav",
+     "from": 204,
+     "frames": 228
+    },
+    {
+     "text": "\u6240\u4ee5\u4e24\u4eba\u5408\u8d70\u4e86\u4e00\u4e2a\u5168\u7a0b\uff0c\u5176\u4e2d\u5c0f\u5b89\u8d70\u4e8612\u5343\u7c73\u3002",
+     "caption": "\u6240\u4ee5\u4e24\u4eba\u5408\u8d70\u4e86\u4e00\u4e2a\u5168\u7a0b\uff0c\u5176\u4e2d\u5c0f\u5b89\u8d70\u4e8612\u5343\u7c73\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/b50511c91054ca44.wav",
+     "from": 443,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "walk2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3945,
+   "frames": 1103,
+   "lines": [
+    {
+     "text": "\u4e24\u4eba\u63a5\u7740\u8d70\uff0c\u4e00\u76f4\u8d70\u5230\u7b2c\u4e8c\u6b21\u76f8\u9047\u3002\u73b0\u5728\uff0c\u628a\u4e24\u4eba\u8d70\u8fc7\u7684\u6bcf\u4e00\u6bb5\u90fd\u6392\u51fa\u6765\u3002",
+     "caption": "\u4e24\u4eba\u63a5\u7740\u8d70\uff0c\u4e00\u76f4\u8d70\u5230\u7b2c\u4e8c\u6b21\u76f8\u9047\u3002\u73b0\u5728\uff0c\u628a\u4e24\u4eba\u8d70\u8fc7\u7684\u6bcf\u4e00\u6bb5\u90fd\u6392\u51fa\u6765\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/265cfd370b93db53.wav",
+     "from": 0,
+     "frames": 244
+    },
+    {
+     "text": "\u5c0f\u5b89\u7684\u7b2c\u4e00\u6bb5\uff0c\u4e00\u76f4\u8d70\u5230B\u5730\u3002\u8fd9\u662f\u4e00\u4e2a\u5168\u7a0b\u3002",
+     "caption": "\u5c0f\u5b89\u7684\u7b2c\u4e00\u6bb5\uff0c\u4e00\u76f4\u8d70\u5230B\u5730\u3002\u8fd9\u662f\u4e00\u4e2a\u5168\u7a0b\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/a4182d4c90673ceb.wav",
+     "from": 254,
+     "frames": 156
+    },
+    {
+     "text": "\u5c0f\u660e\u8d70\u5b8c\u4e86\u6574\u6761\u8def\uff0c\u5230\u4e86A\u5730\u3002\u8fd9\u6837\u5c31\u6709\u4e86\u7b2c\u4e8c\u4e2a\u5168\u7a0b\u3002",
+     "caption": "\u5c0f\u660e\u8d70\u5b8c\u4e86\u6574\u6761\u8def\uff0c\u5230\u4e86A\u5730\u3002\u8fd9\u6837\u5c31\u6709\u4e86\u7b2c\u4e8c\u4e2a\u5168\u7a0b\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/7432218e836c9b8e.wav",
+     "from": 421,
+     "frames": 203
+    },
+    {
+     "text": "\u7136\u540e\u5c0f\u660e\u4eceA\u5730\u5f80\u56de\u8d70\u5230\u76f8\u9047\u70b9\uff0c\u5c0f\u5b89\u4e5f\u4eceB\u5730\u5f80\u56de\u8d70\u5230\u8fd9\u91cc\u3002",
+     "caption": "\u7136\u540e\u5c0f\u660e\u4eceA\u5730\u5f80\u56de\u8d70\u5230\u76f8\u9047\u70b9\uff0c\u5c0f\u5b89\u4e5f\u4eceB\u5730\u5f80\u56de\u8d70\u5230\u8fd9\u91cc\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/947923e80657afc9.wav",
+     "from": 634,
+     "frames": 219
+    },
+    {
+     "text": "\u8fd9\u4e24\u6bb5\u5408\u8d77\u6765\uff0c\u53c8\u6b63\u597d\u662f\u4e00\u4e2a\u5168\u7a0b\u3002\u4e00\u5171\u662f3\u4e2a\u5168\u7a0b\uff01",
+     "caption": "\u8fd9\u4e24\u6bb5\u5408\u8d77\u6765\uff0c\u53c8\u6b63\u597d\u662f\u4e00\u4e2a\u5168\u7a0b\u3002\u4e00\u5171\u662f3\u4e2a\u5168\u7a0b\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/6abf00e75b66ead8.wav",
+     "from": 863,
+     "frames": 186
+    }
+   ]
+  },
+  {
+   "id": "triple",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5048,
+   "frames": 700,
+   "lines": [
+    {
+     "text": "\u5173\u952e\u6765\u4e86\u3002\u4e24\u4eba\u7684\u901f\u5ea6\u4e00\u76f4\u4e0d\u53d8\uff0c\u6240\u4ee5\u6bcf\u5408\u8d70\u4e00\u4e2a\u5168\u7a0b\uff0c\u7528\u7684\u65f6\u95f4\u90fd\u4e00\u6837\u3002",
+     "caption": "\u5173\u952e\u6765\u4e86\u3002\u4e24\u4eba\u7684\u901f\u5ea6\u4e00\u76f4\u4e0d\u53d8\uff0c\u6240\u4ee5\u6bcf\u5408\u8d70\u4e00\u4e2a\u5168\u7a0b\uff0c\u7528\u7684\u65f6\u95f4\u90fd\u4e00\u6837\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/a240f195ab37b8fa.wav",
+     "from": 0,
+     "frames": 246
+    },
+    {
+     "text": "\u5728\u6bcf\u4e00\u4e2a\u5168\u7a0b\u91cc\uff0c\u5c0f\u5b89\u90fd\u8d7012\u5343\u7c73\uff0c\u548c\u7b2c\u4e00\u6b21\u4e00\u6837\u3002",
+     "caption": "\u5728\u6bcf\u4e00\u4e2a\u5168\u7a0b\u91cc\uff0c\u5c0f\u5b89\u90fd\u8d7012\u5343\u7c73\uff0c\u548c\u7b2c\u4e00\u6b21\u4e00\u6837\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/6125fcedadb6baaf.wav",
+     "from": 256,
+     "frames": 171
+    },
+    {
+     "text": "3\u4e2a\u5168\u7a0b\uff0c\u5c0f\u5b89\u5c31\u8d70\u4e863\u4e5812\uff0c\u4e5f\u5c31\u662f36\u5343\u7c73\u3002",
+     "caption": "3\u4e2a\u5168\u7a0b\uff0c\u5c0f\u5b89\u5c31\u8d70\u4e863\u4e5812\uff0c\u4e5f\u5c31\u662f36\u5343\u7c73\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/942928f146e9b942.wav",
+     "from": 437,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "solve1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5748,
+   "frames": 1073,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u628a\u5c0f\u5b89\u8d70\u7684\u8fd936\u5343\u7c73\uff0c\u5206\u6210\u4e24\u6bb5\u3002",
+     "caption": "\u73b0\u5728\u628a\u5c0f\u5b89\u8d70\u7684\u8fd936\u5343\u7c73\uff0c\u5206\u6210\u4e24\u6bb5\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/43a41189c7de7e8c.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "\u7b2c\u4e00\u6bb5\uff0c\u5c0f\u5b89\u8d70\u5b8c\u6574\u6761\u8def\uff0c\u5230B\u5730\u3002\u8fd9\u6bb5\u662fd\u3002",
+     "caption": "\u7b2c\u4e00\u6bb5\uff0c\u5c0f\u5b89\u8d70\u5b8c\u6574\u6761\u8def\uff0c\u5230B\u5730\u3002\u8fd9\u6bb5\u662fd\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/b10ed96aa7d56d68.wav",
+     "from": 157,
+     "frames": 180
+    },
+    {
+     "text": "\u7b2c\u4e8c\u6bb5\uff0c\u5c0f\u5b89\u4eceB\u5730\u5f80\u56de\u8d70\uff0c\u8d70\u5230\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\u3002\u8fd9\u4e00\u6bb5\u662fd\u51cf\u53bb10\u3002",
+     "caption": "\u7b2c\u4e8c\u6bb5\uff0c\u5c0f\u5b89\u4eceB\u5730\u5f80\u56de\u8d70\uff0c\u8d70\u5230\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\u3002\u8fd9\u4e00\u6bb5\u662fd\u51cf\u53bb10\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/157fcec6950a6230.wav",
+     "from": 347,
+     "frames": 284
+    },
+    {
+     "text": "\u6240\u4ee5d\u52a0\u4e0ad\u51cf10\uff0c\u7b49\u4e8e36\u3002",
+     "caption": "\u6240\u4ee5d\u52a0\u4e0ad\u51cf10\uff0c\u7b49\u4e8e36\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/4010626aebbabc17.wav",
+     "from": 641,
+     "frames": 166
+    },
+    {
+     "text": "2d\u7b49\u4e8e46\uff0c\u6240\u4ee5d\u7b49\u4e8e23\u3002\u7b54\u6848\u662fD\uff01",
+     "caption": "2d\u7b49\u4e8e46\uff0c\u6240\u4ee5d\u7b49\u4e8e23\u3002\u7b54\u6848\u662fD\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/e197c2de9d5dfd0d.wav",
+     "from": 817,
+     "frames": 202
+    }
+   ]
+  },
+  {
+   "id": "check1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6821,
+   "frames": 383,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u8d70\u4e00\u904d\u9a8c\u8bc1\u4e00\u4e0b\u3002\u5c0f\u5b89\u8d7023\u5343\u7c73\u5230B\u5730\uff0c\u518d\u5f80\u56de\u8d7013\u5343\u7c73\uff0c\u6b63\u597d\u505c\u5728\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\uff01",
+     "caption": "\u6211\u4eec\u8d70\u4e00\u904d\u9a8c\u8bc1\u4e00\u4e0b\u3002\u5c0f\u5b89\u8d7023\u5343\u7c73\u5230B\u5730\uff0c\u518d\u5f80\u56de\u8d7013\u5343\u7c73\uff0c\u6b63\u597d\u505c\u5728\u79bbA\u573010\u5343\u7c73\u7684\u5730\u65b9\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/d500fa7ba4896268.wav",
+     "from": 0,
+     "frames": 329
+    }
+   ]
+  },
+  {
+   "id": "bo",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u8ddf\u7740\u5c0f\u660e\u8d70",
+   "from": 7204,
+   "frames": 1591,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\u3002\u8fd9\u6b21\u6211\u4eec\u8ddf\u7740\u5c0f\u660e\u8d70\u3002",
+     "caption": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\u3002\u8fd9\u6b21\u6211\u4eec\u8ddf\u7740\u5c0f\u660e\u8d70\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/3f04731eb60cd6b8.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "\u7b2c\u4e00\u6b21\u76f8\u9047\u65f6\uff0c\u5c0f\u660e\u8d70\u7684\u662f\u5269\u4e0b\u7684\u90a3\u6bb5\u8def\uff0c\u4e5f\u5c31\u662fd\u51cf12\u3002",
+     "caption": "\u7b2c\u4e00\u6b21\u76f8\u9047\u65f6\uff0c\u5c0f\u660e\u8d70\u7684\u662f\u5269\u4e0b\u7684\u90a3\u6bb5\u8def\uff0c\u4e5f\u5c31\u662fd\u51cf12\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/7ce6cc110d569430.wav",
+     "from": 141,
+     "frames": 227
+    },
+    {
+     "text": "\u5230\u7b2c\u4e8c\u6b21\u76f8\u9047\uff0c\u5c0f\u660e\u8d70\u7684\u8def\u7a0b\u4e5f\u53d8\u62103\u500d\uff0c\u9053\u7406\u548c\u5c0f\u5b89\u4e00\u6837\uff1a\u662fd\u51cf12\u76843\u500d\u3002",
+     "caption": "\u5230\u7b2c\u4e8c\u6b21\u76f8\u9047\uff0c\u5c0f\u660e\u8d70\u7684\u8def\u7a0b\u4e5f\u53d8\u62103\u500d\uff0c\u9053\u7406\u548c\u5c0f\u5b89\u4e00\u6837\uff1a\u662fd\u51cf12\u76843\u500d\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/c1eb72bd6ee67fa9.wav",
+     "from": 378,
+     "frames": 306
+    },
+    {
+     "text": "\u5c0f\u660e\u8d70\u5b8c\u6574\u6761\u8def\u5230A\u5730\uff0c\u518d\u5f80\u56de\u8d7010\u5343\u7c73\u3002\u8fd9\u662fd\u52a010\u3002",
+     "caption": "\u5c0f\u660e\u8d70\u5b8c\u6574\u6761\u8def\u5230A\u5730\uff0c\u518d\u5f80\u56de\u8d7010\u5343\u7c73\u3002\u8fd9\u662fd\u52a010\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/0430dccb0a6e3936.wav",
+     "from": 695,
+     "frames": 237
+    },
+    {
+     "text": "\u6240\u4ee53d\u51cf36\u7b49\u4e8ed\u52a010\u3002",
+     "caption": "\u6240\u4ee53d\u51cf36\u7b49\u4e8ed\u52a010\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/733da968d6ba5665.wav",
+     "from": 942,
+     "frames": 154
+    },
+    {
+     "text": "2d\u8fd8\u662f\u7b49\u4e8e46\uff0c\u6240\u4ee5d\u7b49\u4e8e23\u3002\u7ed3\u679c\u4e00\u6837\uff01",
+     "caption": "2d\u8fd8\u662f\u7b49\u4e8e46\uff0c\u6240\u4ee5d\u7b49\u4e8e23\u3002\u7ed3\u679c\u4e00\u6837\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/5cb8babac7f5179c.wav",
+     "from": 1106,
+     "frames": 188
+    },
+    {
+     "text": "\u9009\u54ea\u79cd\u65b9\u6cd5\u597d\u5462\uff1f\u8ddf\u7740\u7b2c\u4e00\u6bb5\u8def\u7a0b\u5df2\u77e5\u7684\u4eba\u8d70\u3002\u8fd9\u9053\u9898\u91cc\uff0c\u5c31\u662f\u5c0f\u5b89\u3002",
+     "caption": "\u9009\u54ea\u79cd\u65b9\u6cd5\u597d\u5462\uff1f\u8ddf\u7740\u7b2c\u4e00\u6bb5\u8def\u7a0b\u5df2\u77e5\u7684\u4eba\u8d70\u3002\u8fd9\u9053\u9898\u91cc\uff0c\u5c31\u662f\u5c0f\u5b89\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/bf002010ba61ac67.wav",
+     "from": 1303,
+     "frames": 234
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 8795,
+   "frames": 1750,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u628a\u6bcf\u4e2a\u9009\u9879\u90fd\u8bd5\u4e00\u8bd5\u3002\u5c0f\u5b89\u603b\u662f\u8d7036\u5343\u7c73\u3002\u5c0f\u5b89\u6700\u540e\u505c\u5728\u54ea\u91cc\uff1f",
+     "caption": "\u6211\u4eec\u628a\u6bcf\u4e2a\u9009\u9879\u90fd\u8bd5\u4e00\u8bd5\u3002\u5c0f\u5b89\u603b\u662f\u8d7036\u5343\u7c73\u3002\u5c0f\u5b89\u6700\u540e\u505c\u5728\u54ea\u91cc\uff1f",
+     "file": "2026-10-30-meet-twice-zh/audio/26f83161069f89d6.wav",
+     "from": 0,
+     "frames": 251
+    },
+    {
+     "text": "\u9009\u9879A\u662f18\uff0c\u662f36\u7684\u4e00\u534a\u3002\u8fd9\u6837\u5c0f\u5b89\u4f1a\u56de\u5230A\u5730\uff0c\u800c\u4e0d\u662f\u79bbA\u573010\u5343\u7c73\u3002",
+     "caption": "\u9009\u9879A\u662f18\uff0c\u662f36\u7684\u4e00\u534a\u3002\u8fd9\u6837\u5c0f\u5b89\u4f1a\u56de\u5230A\u5730\uff0c\u800c\u4e0d\u662f\u79bbA\u573010\u5343\u7c73\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/53ace8de2809a546.wav",
+     "from": 262,
+     "frames": 269
+    },
+    {
+     "text": "\u9009\u9879B\u662f21\uff0c\u6ca1\u6709\u54ea\u4e00\u6b65\u80fd\u7b97\u51fa21\u3002\u5c0f\u5b89\u4f1a\u505c\u5728\u79bbA\u57306\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "caption": "\u9009\u9879B\u662f21\uff0c\u6ca1\u6709\u54ea\u4e00\u6b65\u80fd\u7b97\u51fa21\u3002\u5c0f\u5b89\u4f1a\u505c\u5728\u79bbA\u57306\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/ffd7977e0e7d00bf.wav",
+     "from": 541,
+     "frames": 250
+    },
+    {
+     "text": "\u9009\u9879C\u662f22\uff0c\u53ea\u662f\u628a12\u548c10\u52a0\u8d77\u6765\u3002\u5c0f\u5b89\u4f1a\u505c\u5728\u79bbA\u57308\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "caption": "\u9009\u9879C\u662f22\uff0c\u53ea\u662f\u628a12\u548c10\u52a0\u8d77\u6765\u3002\u5c0f\u5b89\u4f1a\u505c\u5728\u79bbA\u57308\u5343\u7c73\u7684\u5730\u65b9\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/cc109c3b3b92bda8.wav",
+     "from": 801,
+     "frames": 257
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f26\uff0c\u4ee5\u4e3a\u5c0f\u5b89\u5f80\u56de\u53ea\u8d70\u4e8610\u5343\u7c73\u3002\u53ef\u5c0f\u5b89\u662f\u4eceB\u5730\u5f80\u56de\u8d70\uff0c\u4e0d\u662f\u4eceA\u5730\uff01",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f26\uff0c\u4ee5\u4e3a\u5c0f\u5b89\u5f80\u56de\u53ea\u8d70\u4e8610\u5343\u7c73\u3002\u53ef\u5c0f\u5b89\u662f\u4eceB\u5730\u5f80\u56de\u8d70\uff0c\u4e0d\u662f\u4eceA\u5730\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/db97555c735218ce.wav",
+     "from": 1068,
+     "frames": 309
+    },
+    {
+     "text": "\u5982\u679c\u662f26\uff0c\u5c0f\u5b89\u4f1a\u505c\u5728\u79bbA\u573016\u5343\u7c73\u7684\u5730\u65b9\u3002\u53ea\u670923\uff0c\u624d\u6b63\u597d\u505c\u572810\u5343\u7c73\uff01",
+     "caption": "\u5982\u679c\u662f26\uff0c\u5c0f\u5b89\u4f1a\u505c\u5728\u79bbA\u573016\u5343\u7c73\u7684\u5730\u65b9\u3002\u53ea\u670923\uff0c\u624d\u6b63\u597d\u505c\u572810\u5343\u7c73\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/bdc870e2d9a4a27f.wav",
+     "from": 1387,
+     "frames": 309
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u53d8\u5f0f\u9898",
+   "from": 10545,
+   "frames": 618,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u540c\u6837\u7684\u6545\u4e8b\uff0c\u6362\u51e0\u4e2a\u65b0\u6570\u5b57\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u540c\u6837\u7684\u6545\u4e8b\uff0c\u6362\u51e0\u4e2a\u65b0\u6570\u5b57\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/7e67c11bc2f3dc4a.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "\u7b2c\u4e00\u6b21\u76f8\u9047\u79bbA\u57307\u5343\u7c73\uff0c\u7b2c\u4e8c\u6b21\u76f8\u9047\u79bbB\u57305\u5343\u7c73\u3002",
+     "caption": "\u7b2c\u4e00\u6b21\u76f8\u9047\u79bbA\u57307\u5343\u7c73\uff0c\u7b2c\u4e8c\u6b21\u76f8\u9047\u79bbB\u57305\u5343\u7c73\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/8a314ebc891018b5.wav",
+     "from": 157,
+     "frames": 202
+    },
+    {
+     "text": "\u6ce8\u610f\uff0c\u8fd9\u6b21\u662f\u79bbB\u5730\uff01A\u3001B\u4e24\u5730\u76f8\u8ddd\u591a\u5c11\u5343\u7c73\uff1f",
+     "caption": "\u6ce8\u610f\uff0c\u8fd9\u6b21\u662f\u79bbB\u5730\uff01A\u3001B\u4e24\u5730\u76f8\u8ddd\u591a\u5c11\u5343\u7c73\uff1f",
+     "file": "2026-10-30-meet-twice-zh/audio/cb93bacf226995bb.wav",
+     "from": 369,
+     "frames": 210
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11163,
+   "frames": 391,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u53d8\u5f0f\u9898\uff1a\u7b54\u6848",
+   "from": 11554,
+   "frames": 1494,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u9a8c\u8bc1\u3002\u4e24\u4eba\u8fd8\u662f\u5408\u8d70\u4e863\u4e2a\u5168\u7a0b\uff0c\u6240\u4ee5\u5c0f\u5b89\u8d70\u4e863\u4e587\uff0c\u7b49\u4e8e21\u5343\u7c73\u3002",
+     "caption": "\u6211\u4eec\u6765\u9a8c\u8bc1\u3002\u4e24\u4eba\u8fd8\u662f\u5408\u8d70\u4e863\u4e2a\u5168\u7a0b\uff0c\u6240\u4ee5\u5c0f\u5b89\u8d70\u4e863\u4e587\uff0c\u7b49\u4e8e21\u5343\u7c73\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/c8fa3400821ec37e.wav",
+     "from": 0,
+     "frames": 288
+    },
+    {
+     "text": "\u5c0f\u5b89\u8d70\u5b8c\u6574\u6761\u8def\u5230B\u5730\uff0c\u518d\u5f80\u56de\u8d705\u5343\u7c73\u3002\u8fd9\u662fd\u52a05\u3002",
+     "caption": "\u5c0f\u5b89\u8d70\u5b8c\u6574\u6761\u8def\u5230B\u5730\uff0c\u518d\u5f80\u56de\u8d705\u5343\u7c73\u3002\u8fd9\u662fd\u52a05\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/e1cfc51b3ed83e70.wav",
+     "from": 298,
+     "frames": 240
+    },
+    {
+     "text": "\u6240\u4ee5d\u52a05\u7b49\u4e8e21\uff0cd\u7b49\u4e8e16\u5343\u7c73\uff01",
+     "caption": "\u6240\u4ee5d\u52a05\u7b49\u4e8e21\uff0cd\u7b49\u4e8e16\u5343\u7c73\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/ea8a858db0ab6363.wav",
+     "from": 549,
+     "frames": 203
+    },
+    {
+     "text": "\u518d\u7528\u5c0f\u660e\u9a8c\u8bc1\u3002\u5c0f\u660e\u7b2c\u4e00\u6bb5\u8d70\u4e869\u5343\u7c73\uff0c\u6240\u4ee5\u4e00\u5171\u8d70\u4e8627\u5343\u7c73\u3002",
+     "caption": "\u518d\u7528\u5c0f\u660e\u9a8c\u8bc1\u3002\u5c0f\u660e\u7b2c\u4e00\u6bb5\u8d70\u4e869\u5343\u7c73\uff0c\u6240\u4ee5\u4e00\u5171\u8d70\u4e8627\u5343\u7c73\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/d8cd3585c9ed06f3.wav",
+     "from": 762,
+     "frames": 251
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f\u5148\u8d7016\u5343\u7c73\u5230A\u5730\uff0c\u518d\u5f80\u56de\u8d7011\u5343\u7c73\uff0c\u505c\u5728\u79bbB\u57305\u5343\u7c73\u7684\u5730\u65b9\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "caption": "\u4e5f\u5c31\u662f\u5148\u8d7016\u5343\u7c73\u5230A\u5730\uff0c\u518d\u5f80\u56de\u8d7011\u5343\u7c73\uff0c\u505c\u5728\u79bbB\u57305\u5343\u7c73\u7684\u5730\u65b9\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/3d8c313997bd6320.wav",
+     "from": 1023,
+     "frames": 284
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8616\u5343\u7c73\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8616\u5343\u7c73\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/f5314a9fc5327b2a.wav",
+     "from": 1317,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13048,
+   "frames": 680,
+   "lines": [
+    {
+     "text": "\u6838\u5fc3\u601d\u8def\u662f\uff1a\u7b2c\u4e00\u6b21\u76f8\u9047\u65f6\uff0c\u4e24\u4eba\u5408\u8d70\u4e86\u4e00\u4e2a\u5168\u7a0b\u3002",
+     "caption": "\u6838\u5fc3\u601d\u8def\u662f\uff1a\u7b2c\u4e00\u6b21\u76f8\u9047\u65f6\uff0c\u4e24\u4eba\u5408\u8d70\u4e86\u4e00\u4e2a\u5168\u7a0b\u3002",
+     "file": "2026-10-30-meet-twice-zh/audio/ecb1d5f48283fc46.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "\u5230\u7b2c\u4e8c\u6b21\u76f8\u9047\uff0c\u4e24\u4eba\u5408\u8d70\u4e863\u4e2a\u5168\u7a0b\u3002\u6240\u4ee5\u6bcf\u4e2a\u4eba\u8d70\u7684\u8def\u7a0b\uff0c\u90fd\u662f\u7b2c\u4e00\u6b21\u76843\u500d\uff01",
+     "caption": "\u5230\u7b2c\u4e8c\u6b21\u76f8\u9047\uff0c\u4e24\u4eba\u5408\u8d70\u4e863\u4e2a\u5168\u7a0b\u3002\u6240\u4ee5\u6bcf\u4e2a\u4eba\u8d70\u7684\u8def\u7a0b\uff0c\u90fd\u662f\u7b2c\u4e00\u6b21\u76843\u500d\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/4cc804c225140938.wav",
+     "from": 202,
+     "frames": 288
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-meet-twice-zh/audio/f8351124be57142c.wav",
+     "from": 501,
+     "frames": 111
+    }
+   ]
+  }
+ ]
+}

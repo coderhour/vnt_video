@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1177,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 126,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's six hundred sixty-eight? Nope!",
+     "caption": "AMC 10 challenge! Think it's 668? Nope!",
+     "file": "2026-11-07-floor-sum-values/short/audio/0c3b873c2d02f640.wav",
+     "from": 0,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 126,
+   "frames": 200,
+   "lines": [
+    {
+     "text": "Round down x, two x and three x, and add. How many totals from one to one thousand?",
+     "caption": "Round down x, 2x and 3x, and add. How many totals from 1 to 1000?",
+     "file": "2026-11-07-floor-sum-values/short/audio/ad33ce49291c485d.wav",
+     "from": 0,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 326,
+   "frames": 70,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-floor-sum-values/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 58
+    }
+   ]
+  },
+  {
+   "id": "jump",
+   "kind": "scene",
+   "chapter": null,
+   "from": 396,
+   "frames": 450,
+   "lines": [
+    {
+     "text": "From zero to one, the total goes zero, one, two, three.",
+     "caption": "From 0 to 1, the total goes 0, 1, 2, 3.",
+     "file": "2026-11-07-floor-sum-values/short/audio/bfe259d7ba511531.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "At one, all three floors jump at once. Three leaps to six!",
+     "caption": "At 1, all 3 floors jump at once. 3 leaps to 6!",
+     "file": "2026-11-07-floor-sum-values/short/audio/279f52fe0ff2a32a.wav",
+     "from": 129,
+     "frames": 111
+    },
+    {
+     "text": "Four and five get skipped, in every block of six.",
+     "caption": "4 and 5 get skipped, in every block of 6.",
+     "file": "2026-11-07-floor-sum-values/short/audio/85280348e6083911.wav",
+     "from": 244,
+     "frames": 89
+    },
+    {
+     "text": "One thousand leaves remainder four. So it's out, too!",
+     "caption": "1000 leaves remainder 4. So it's out, too!",
+     "file": "2026-11-07-floor-sum-values/short/audio/e027c9acd703ba8f.wav",
+     "from": 337,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 846,
+   "frames": 331,
+   "lines": [
+    {
+     "text": "So three hundred thirty-three are skipped. Six hundred sixty-seven are left!",
+     "caption": "So 333 are skipped. 667 are left!",
+     "file": "2026-11-07-floor-sum-values/short/audio/e555ba9672e4fc8c.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "Six hundred sixty-eight was the trap.",
+     "caption": "668 was the trap.",
+     "file": "2026-11-07-floor-sum-values/short/audio/7653fdfb9d096fa6.wav",
+     "from": 127,
+     "frames": 72
+    },
+    {
+     "text": "Did you get six hundred sixty-seven? Tell me below!",
+     "caption": "Did you get 667? Tell me below!",
+     "file": "2026-11-07-floor-sum-values/short/audio/93f17d7171a36530.wav",
+     "from": 204,
+     "frames": 92
+    }
+   ]
+  }
+ ]
+}

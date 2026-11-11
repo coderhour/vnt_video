@@ -1,6 +1,6 @@
 {
- "title": "How Many Pages Does the Book Have? | AMC 8-Style Level 4",
- "description": "A book's pages are numbered from 1, and the digits printed are exactly twice the number of pages. How many pages?\nVantee counts the digits in groups, then shows a quick balance trick, the common traps, and a three-times challenge.\n\n0:00 Intro\n0:18 The question\n0:38 What are we asked?\n1:11 Try it yourself\n1:26 Solution 1: count in groups\n2:50 Solution 2: the balance trick\n3:52 Common traps\n4:33 Your turn: three times\n4:58 Three times: the answer\n5:47 Recap",
+ "title": "AMC 8 Practice: Counting Digits in Page Numbers — How Many Pages?",
+ "description": "AMC 8 practice problem on counting digits in page numbers, solved by grouping pages by how many digits they have. (Level 4 of 5)\nA book's pages are numbered from 1, and the digits printed are exactly twice the number of pages. How many pages?\nVantee counts the digits in groups, then shows a quick balance trick, the common traps, and a three-times challenge.\n\n0:00 Intro\n0:18 The question\n0:38 What are we asked?\n1:11 Try it yourself\n1:26 Solution 1: count in groups\n2:50 Solution 2: the balance trick\n3:52 Common traps\n4:33 Your turn: three times\n4:58 Three times: the answer\n5:47 Recap",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_counting_template:c1-164",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "A book's page numbers use exactly twice as many digits as pages. How many pages? Comment your answer before you watch the solution!"
 }

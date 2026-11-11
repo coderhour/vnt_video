@@ -1,0 +1,547 @@
+{
+ "fps": 30,
+ "durationInFrames": 13655,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 589,
+   "lines": [
+    {
+     "text": "\u8fd9\u662f\u4e00\u4e2a\u6570\u5217\uff0c\u4ece\u7b2c3\u9879\u8d77\uff0c\u6bcf\u4e00\u9879\u90fd\u7b49\u4e8e\u524d\u4e24\u9879\u7684\u548c\u3002",
+     "caption": "\u8fd9\u662f\u4e00\u4e2a\u6570\u5217\uff0c\u4ece\u7b2c3\u9879\u8d77\uff0c\u6bcf\u4e00\u9879\u90fd\u7b49\u4e8e\u524d\u4e24\u9879\u7684\u548c\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/f7c741153be6d848.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "\u7b2c\u5341\u9879\u662f\u4e24\u5343\u96f6\u4e8c\u5341\u56db\u3002<short pause> \u524d\u4e24\u9879\u52a0\u8d77\u6765\uff0c\u6700\u5927\u80fd\u662f\u591a\u5c11\uff1f",
+     "caption": "\u7b2c10\u9879\u662f2024\u3002\u524d\u4e24\u9879\u52a0\u8d77\u6765\uff0c\u6700\u5927\u80fd\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/f44c37da7bec44c1.wav",
+     "from": 211,
+     "frames": 210
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u8fd9\u9053\u9898\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u8fd9\u9053\u9898\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/394f766631ba02f4.wav",
+     "from": 431,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 589,
+   "frames": 701,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u6570\u5217\u7684\u6bcf\u4e00\u9879\u90fd\u662f\u6b63\u6574\u6570\uff0c\u4ece\u7b2c3\u9879\u8d77\uff0c\u6bcf\u4e00\u9879\u90fd\u7b49\u4e8e\u524d\u4e24\u9879\u7684\u548c\u3002",
+     "caption": "\u4e00\u4e2a\u6570\u5217\u7684\u6bcf\u4e00\u9879\u90fd\u662f\u6b63\u6574\u6570\uff0c\u4ece\u7b2c3\u9879\u8d77\uff0c\u6bcf\u4e00\u9879\u90fd\u7b49\u4e8e\u524d\u4e24\u9879\u7684\u548c\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/f86de3930f0cc45a.wav",
+     "from": 0,
+     "frames": 286
+    },
+    {
+     "text": "\u7b2c\u5341\u9879\u662f\u4e24\u5343\u96f6\u4e8c\u5341\u56db\u3002",
+     "caption": "\u7b2c10\u9879\u662f2024\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/271fe24a9eec6359.wav",
+     "from": 296,
+     "frames": 111
+    },
+    {
+     "text": "\u7b2c1\u9879\u52a0\u7b2c2\u9879\uff0c\u6700\u5927\u53ef\u80fd\u662f\u591a\u5c11\uff1f",
+     "caption": "\u7b2c1\u9879\u52a0\u7b2c2\u9879\uff0c\u6700\u5927\u53ef\u80fd\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/9a6de352a2a7489d.wav",
+     "from": 417,
+     "frames": 132
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 560,
+     "frames": 102
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1290,
+   "frames": 920,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u62c6\u89e3\u4e00\u4e0b\u3002\u53ea\u8981\u9009\u5b9a\u524d\u4e24\u9879\uff0c\u540e\u9762\u7684\u6bcf\u4e00\u9879\u5c31\u90fd\u786e\u5b9a\u4e86\u3002",
+     "caption": "\u6211\u4eec\u6765\u62c6\u89e3\u4e00\u4e0b\u3002\u53ea\u8981\u9009\u5b9a\u524d\u4e24\u9879\uff0c\u540e\u9762\u7684\u6bcf\u4e00\u9879\u5c31\u90fd\u786e\u5b9a\u4e86\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/e1b0e7a5af8a78eb.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u6bd4\u5982\u4ece1\u548c2\u5f00\u59cb\uff0c\u63a5\u4e0b\u6765\u5c31\u662f3\u30015\u30018\uff0c\u4e00\u76f4\u5f80\u4e0b\u3002",
+     "caption": "\u6bd4\u5982\u4ece1\u548c2\u5f00\u59cb\uff0c\u63a5\u4e0b\u6765\u5c31\u662f3\u30015\u30018\uff0c\u4e00\u76f4\u5f80\u4e0b\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/30214d3b113e6bc8.wav",
+     "from": 205,
+     "frames": 257
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u9009\u4e00\u4e2a\u5f00\u5934\uff0c\u8ba9\u7b2c\u5341\u9879\u6b63\u597d\u7b49\u4e8e\u4e24\u5343\u96f6\u4e8c\u5341\u56db\u3002",
+     "caption": "\u6211\u4eec\u8981\u9009\u4e00\u4e2a\u5f00\u5934\uff0c\u8ba9\u7b2c10\u9879\u6b63\u597d\u7b49\u4e8e2024\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/e31564a1e90be6d6.wav",
+     "from": 472,
+     "frames": 185
+    },
+    {
+     "text": "\u5728\u6240\u6709\u8fd9\u6837\u7684\u5f00\u5934\u91cc\uff0c\u6211\u4eec\u8981\u627e\u524d\u4e24\u9879\u4e4b\u548c\u6700\u5927\u7684\u90a3\u4e00\u4e2a\u3002",
+     "caption": "\u5728\u6240\u6709\u8fd9\u6837\u7684\u5f00\u5934\u91cc\uff0c\u6211\u4eec\u8981\u627e\u524d\u4e24\u9879\u4e4b\u548c\u6700\u5927\u7684\u90a3\u4e00\u4e2a\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/be7e87676966a736.wav",
+     "from": 667,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2210,
+   "frames": 497,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 173
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u7528x\u548cy\u8868\u793a\u6bcf\u4e00\u9879",
+   "from": 2707,
+   "frames": 1206,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u628a\u7b2c1\u9879\u53eb\u505ax\uff0c\u7b2c2\u9879\u53eb\u505ay\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u628a\u7b2c1\u9879\u53eb\u505ax\uff0c\u7b2c2\u9879\u53eb\u505ay\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/eca96c3312ce9fae.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "\u7b2c3\u9879\u662fx\u52a0y\uff0c\u7b2c4\u9879\u662fx\u52a02y\u3002",
+     "caption": "\u7b2c3\u9879\u662fx\u52a0y\uff0c\u7b2c4\u9879\u662fx\u52a02y\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/98286e172cb28e20.wav",
+     "from": 197,
+     "frames": 197
+    },
+    {
+     "text": "\u6bcf\u6b21\u90fd\u628a\u6700\u540e\u4e24\u9879\u52a0\u8d77\u6765\uff0c\u770b\uff0cx\u548cy\u524d\u9762\u7684\u6570\u8d8a\u53d8\u8d8a\u5927\u3002",
+     "caption": "\u6bcf\u6b21\u90fd\u628a\u6700\u540e\u4e24\u9879\u52a0\u8d77\u6765\uff0c\u770b\uff0cx\u548cy\u524d\u9762\u7684\u6570\u8d8a\u53d8\u8d8a\u5927\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/6c4eb3418e25a4e1.wav",
+     "from": 404,
+     "frames": 207
+    },
+    {
+     "text": "\u7b2c10\u9879\u662f21x\u52a034y\u3002",
+     "caption": "\u7b2c10\u9879\u662f21x\u52a034y\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/c4d785e56a025354.wav",
+     "from": 621,
+     "frames": 136
+    },
+    {
+     "text": "\u770b\u770b\u524d\u9762\u7684\u8fd9\u4e9b\u6570\uff0c\u5b83\u4eec\u6b63\u597d\u662f\u6590\u6ce2\u90a3\u5951\u6570\uff01",
+     "caption": "\u770b\u770b\u524d\u9762\u7684\u8fd9\u4e9b\u6570\uff0c\u5b83\u4eec\u6b63\u597d\u662f\u6590\u6ce2\u90a3\u5951\u6570\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/2ba48ea85b1c514c.wav",
+     "from": 767,
+     "frames": 159
+    },
+    {
+     "text": "\u6240\u4ee5\u6211\u4eec\u7684\u65b9\u7a0b\u662f\uff1a\u4e8c\u5341\u4e00x\u52a0\u4e09\u5341\u56dby\u7b49\u4e8e\u4e24\u5343\u96f6\u4e8c\u5341\u56db\u3002",
+     "caption": "\u6240\u4ee5\u6211\u4eec\u7684\u65b9\u7a0b\u662f\uff1a21x\u52a034y\u7b49\u4e8e2024\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/43ba046d208f7c95.wav",
+     "from": 936,
+     "frames": 232
+    }
+   ]
+  },
+  {
+   "id": "split",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3913,
+   "frames": 1443,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u8981\u7684\u662fx\u52a0y\u3002\u6240\u4ee5\u628a34y\u62c6\u621021y\u52a013y\u3002",
+     "caption": "\u6211\u4eec\u8981\u7684\u662fx\u52a0y\u3002\u6240\u4ee5\u628a34y\u62c6\u621021y\u52a013y\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/abc039f3909e1871.wav",
+     "from": 0,
+     "frames": 245
+    },
+    {
+     "text": "\u8fd9\u6837\uff0c21x\u52a021y\uff0c\u5c31\u662f21\u4e58\u4ee5x\u4e0ey\u7684\u548c\u3002",
+     "caption": "\u8fd9\u6837\uff0c21x\u52a021y\uff0c\u5c31\u662f21\u4e58\u4ee5x\u4e0ey\u7684\u548c\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/2e88dbc5a8f586ea.wav",
+     "from": 256,
+     "frames": 239
+    },
+    {
+     "text": "\u6211\u4eec\u628a\u8fd9\u4e2a\u548c\u8bb0\u4f5cT\u3002\u4e8e\u662f\uff0c\u4e8c\u5341\u4e00T\u52a0\u5341\u4e09y\u7b49\u4e8e\u4e24\u5343\u96f6\u4e8c\u5341\u56db\u3002",
+     "caption": "\u6211\u4eec\u628a\u8fd9\u4e2a\u548c\u8bb0\u4f5cT\u3002\u4e8e\u662f\uff0c21T\u52a013y\u7b49\u4e8e2024\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/9f315fb8b5567a4b.wav",
+     "from": 505,
+     "frames": 262
+    },
+    {
+     "text": "\u60f3\u8ba9T\u5927\uff0c13y\u5c31\u8981\u5c3d\u91cf\u5c0f\uff0c\u6240\u4ee5y\u8981\u5c0f\u3002",
+     "caption": "\u60f3\u8ba9T\u5927\uff0c13y\u5c31\u8981\u5c3d\u91cf\u5c0f\uff0c\u6240\u4ee5y\u8981\u5c0f\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/9c3b1b1a25ac4f06.wav",
+     "from": 777,
+     "frames": 196
+    },
+    {
+     "text": "\u56e0\u4e3ay\u81f3\u5c11\u662f\u4e00\uff0c\u6240\u4ee5\u4e8c\u5341\u4e00\u4e58\u4ee5T\uff0c\u6700\u591a\u662f\u4e24\u5343\u96f6\u4e00\u5341\u4e00\u3002",
+     "caption": "\u56e0\u4e3ay\u81f3\u5c11\u662f1\uff0c\u6240\u4ee521\u4e58\u4ee5T\uff0c\u6700\u591a\u662f2011\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/53e758430579fc79.wav",
+     "from": 983,
+     "frames": 234
+    },
+    {
+     "text": "21\u4e5896\u5df2\u7ecf\u592a\u5927\u4e86\uff0c\u6240\u4ee5T\u6700\u591a\u662f95\u3002",
+     "caption": "21\u4e5896\u5df2\u7ecf\u592a\u5927\u4e86\uff0c\u6240\u4ee5T\u6700\u591a\u662f95\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/60420d80c9a3a58e.wav",
+     "from": 1228,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "countdown",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5356,
+   "frames": 1408,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u4ece95\u5f00\u59cb\u5f80\u4e0b\u6570\u3002\u5269\u4e0b\u7684\u90e8\u5206\u5fc5\u987b\u7b49\u4e8e13\u4e58\u4ee5y\u3002",
+     "caption": "\u73b0\u5728\u4ece95\u5f00\u59cb\u5f80\u4e0b\u6570\u3002\u5269\u4e0b\u7684\u90e8\u5206\u5fc5\u987b\u7b49\u4e8e13\u4e58\u4ee5y\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/25e2725b68b5d641.wav",
+     "from": 0,
+     "frames": 232
+    },
+    {
+     "text": "T\u7b49\u4e8e\u4e5d\u5341\u4e94\uff0c\u5269\u4e0b\u4e8c\u5341\u4e5d\u3002\u4e8c\u5341\u4e5d\u4e0d\u662f\u5341\u4e09\u7684\u500d\u6570\u3002",
+     "caption": "T\u7b49\u4e8e95\uff0c\u5269\u4e0b29\u300229\u4e0d\u662f13\u7684\u500d\u6570\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/b2f5037e8295148e.wav",
+     "from": 242,
+     "frames": 224
+    },
+    {
+     "text": "T\u6bcf\u51cf\u5c111\uff0c\u5269\u4e0b\u7684\u5c31\u591a21\uff0c\u6240\u4ee5\u63a5\u4e0b\u6765\u662f50\u300171\u300192\uff0c\u4ee5\u6b64\u7c7b\u63a8\u3002",
+     "caption": "T\u6bcf\u51cf\u5c111\uff0c\u5269\u4e0b\u7684\u5c31\u591a21\uff0c\u6240\u4ee5\u63a5\u4e0b\u6765\u662f50\u300171\u300192\uff0c\u4ee5\u6b64\u7c7b\u63a8\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/4fe2904aa0bf953e.wav",
+     "from": 476,
+     "frames": 308
+    },
+    {
+     "text": "\u8fd9\u4e9b\u90fd\u4e0d\u884c\uff0c\u76f4\u5230T\u7b49\u4e8e84\u3002\u5269\u4e0b\u7684\u662f260\u3002",
+     "caption": "\u8fd9\u4e9b\u90fd\u4e0d\u884c\uff0c\u76f4\u5230T\u7b49\u4e8e84\u3002\u5269\u4e0b\u7684\u662f260\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/317f58457ea85003.wav",
+     "from": 794,
+     "frames": 213
+    },
+    {
+     "text": "260\u662f13\u4e5820\u3002\u6240\u4ee5y\u7b49\u4e8e20\uff01",
+     "caption": "260\u662f13\u4e5820\u3002\u6240\u4ee5y\u7b49\u4e8e20\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/39481369ac2af349.wav",
+     "from": 1017,
+     "frames": 178
+    },
+    {
+     "text": "\u90a3\u4e48x\u5c31\u662f84\u51cf20\uff0c\u7b49\u4e8e64\u3002",
+     "caption": "\u90a3\u4e48x\u5c31\u662f84\u51cf20\uff0c\u7b49\u4e8e64\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/274bdbddab402098.wav",
+     "from": 1205,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "check",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6764,
+   "frames": 666,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u9a8c\u7b97\u4e00\u4e0b\u3002\u4ece64\u548c20\u5f00\u59cb\uff0c\u4e00\u76f4\u5f80\u4e0b\u52a0\u3002",
+     "caption": "\u6211\u4eec\u6765\u9a8c\u7b97\u4e00\u4e0b\u3002\u4ece64\u548c20\u5f00\u59cb\uff0c\u4e00\u76f4\u5f80\u4e0b\u52a0\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/fa8c40aef48639e4.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u516b\u5341\u56db\u3001\u4e00\u767e\u96f6\u56db\u3001\u4e00\u767e\u516b\u5341\u516b\uff0c\u4e00\u76f4\u52a0\u5230\u7b2c\u5341\u9879\u3002",
+     "caption": "84\u3001104\u3001188\uff0c\u4e00\u76f4\u52a0\u5230\u7b2c10\u9879\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/d76dafc1e5d86fca.wav",
+     "from": 205,
+     "frames": 206
+    },
+    {
+     "text": "\u7b2c\u5341\u9879\u662f\u4e24\u5343\u96f6\u4e8c\u5341\u56db\uff01\u6240\u4ee5\u7b54\u6848\u662f\u516b\u5341\u56db\uff0c\u9009C\u3002",
+     "caption": "\u7b2c10\u9879\u662f2024\uff01\u6240\u4ee5\u7b54\u6848\u662f84\uff0c\u9009C\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/1f8dd61cbd002a41.wav",
+     "from": 421,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u4ece\u9009\u9879\u8bd5\u8d77",
+   "from": 7430,
+   "frames": 760,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u79cd\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u6ce8\u610f\uff0cx\u52a0y\u6b63\u597d\u5c31\u662f\u7b2c3\u9879\uff0c\u4e5f\u5c31\u662fT\uff01",
+     "caption": "\u8fd8\u6709\u4e00\u79cd\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u6ce8\u610f\uff0cx\u52a0y\u6b63\u597d\u5c31\u662f\u7b2c3\u9879\uff0c\u4e5f\u5c31\u662fT\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/3a6466b2f201371a.wav",
+     "from": 0,
+     "frames": 249
+    },
+    {
+     "text": "\u6240\u4ee5\u6211\u4eec\u4ece\u7b2c2\u9879\u548c\u7b2c3\u9879\u5f00\u59cb\u5199\uff0c\u4e5f\u5c31\u662fy\u548cT\u3002",
+     "caption": "\u6240\u4ee5\u6211\u4eec\u4ece\u7b2c2\u9879\u548c\u7b2c3\u9879\u5f00\u59cb\u5199\uff0c\u4e5f\u5c31\u662fy\u548cT\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/901c73c9289d3584.wav",
+     "from": 259,
+     "frames": 200
+    },
+    {
+     "text": "\u7528\u540c\u6837\u7684\u65b9\u6cd5\u5f80\u4e0b\u63a8\u3002\u7b2c10\u9879\u662f13y\u52a021T\u3002\u65b9\u7a0b\u4e00\u6a21\u4e00\u6837\uff01",
+     "caption": "\u7528\u540c\u6837\u7684\u65b9\u6cd5\u5f80\u4e0b\u63a8\u3002\u7b2c10\u9879\u662f13y\u52a021T\u3002\u65b9\u7a0b\u4e00\u6a21\u4e00\u6837\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/3d664151492a6c38.wav",
+     "from": 469,
+     "frames": 252
+    }
+   ]
+  },
+  {
+   "id": "test",
+   "kind": "scene",
+   "chapter": null,
+   "from": 8190,
+   "frames": 1181,
+   "lines": [
+    {
+     "text": "\u5148\u8bd5\u6700\u5927\u7684\u9009\u9879\uff1a\u4e8c\u5341\u4e00\u4e58\u4e00\u767e\u96f6\u4e94\u7b49\u4e8e\u4e24\u5343\u4e8c\u767e\u96f6\u4e94\uff0c\u592a\u5927\u4e86\uff01",
+     "caption": "\u5148\u8bd5\u6700\u5927\u7684\u9009\u9879\uff1a21\u4e58105\u7b49\u4e8e2205\uff0c\u592a\u5927\u4e86\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/f5d0ef3a0e48cd23.wav",
+     "from": 0,
+     "frames": 260
+    },
+    {
+     "text": "T\u7b49\u4e8e94\uff0c\u5269\u4e0b50\u300250\u4e0d\u662f13\u7684\u500d\u6570\u3002",
+     "caption": "T\u7b49\u4e8e94\uff0c\u5269\u4e0b50\u300250\u4e0d\u662f13\u7684\u500d\u6570\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/928ba79676ea3097.wav",
+     "from": 269,
+     "frames": 180
+    },
+    {
+     "text": "T\u7b49\u4e8e84\uff0c\u5269\u4e0b260\uff0c\u6b63\u597d\u662f13\u4e5820\u3002",
+     "caption": "T\u7b49\u4e8e84\uff0c\u5269\u4e0b260\uff0c\u6b63\u597d\u662f13\u4e5820\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/14d50c48fdf6fc94.wav",
+     "from": 460,
+     "frames": 227
+    },
+    {
+     "text": "\u6240\u4ee5y\u7b49\u4e8e\u4e8c\u5341\u3002x\u7b49\u4e8e\u516d\u5341\u56db\uff0c\u662f\u6b63\u6570\uff0c\u6210\u7acb\uff01",
+     "caption": "\u6240\u4ee5y\u7b49\u4e8e20\u3002x\u7b49\u4e8e64\uff0c\u662f\u6b63\u6570\uff0c\u6210\u7acb\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/499b77e851d5488b.wav",
+     "from": 697,
+     "frames": 214
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u9898\u76ee\u95ee\u6700\u5927\u503c\u7684\u65f6\u5019\uff0c\u5c31\u4ece\u6700\u5927\u7684\u9009\u9879\u8bd5\u8d77\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u9898\u76ee\u95ee\u6700\u5927\u503c\u7684\u65f6\u5019\uff0c\u5c31\u4ece\u6700\u5927\u7684\u9009\u9879\u8bd5\u8d77\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/fef37e73e85e207b.wav",
+     "from": 921,
+     "frames": 221
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9371,
+   "frames": 1610,
+   "lines": [
+    {
+     "text": "\u9009\u9879B\u662f71\u3002\u7ee7\u7eed\u5f80\u4e0b\u6570\uff0cT\u7b49\u4e8e71\u4e5f\u6210\u7acb\u3002",
+     "caption": "\u9009\u9879B\u662f71\u3002\u7ee7\u7eed\u5f80\u4e0b\u6570\uff0cT\u7b49\u4e8e71\u4e5f\u6210\u7acb\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/e5188ce02dc2a05b.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "\u8fd9\u65f6x\u662f30\uff0cy\u662f41\u3002\u5982\u679c\u4f60\u4ece\u5c0f\u7684x\u5f00\u59cb\u8bd5\uff0c\u53ef\u80fd\u627e\u5230\u8fd9\u4e00\u7ec4\u5c31\u505c\u4e0b\u4e86\uff01",
+     "caption": "\u8fd9\u65f6x\u662f30\uff0cy\u662f41\u3002\u5982\u679c\u4f60\u4ece\u5c0f\u7684x\u5f00\u59cb\u8bd5\uff0c\u53ef\u80fd\u627e\u5230\u8fd9\u4e00\u7ec4\u5c31\u505c\u4e0b\u4e86\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/ef12a93f5e866d70.wav",
+     "from": 222,
+     "frames": 309
+    },
+    {
+     "text": "\u53ef\u662f71\u6bd484\u5c0f\u3002\u518d\u4e0b\u4e00\u4e2a\u662f58\uff0c\u5b83\u4f1a\u8ba9x\u53d8\u6210\u8d1f\u6570\u3002",
+     "caption": "\u53ef\u662f71\u6bd484\u5c0f\u3002\u518d\u4e0b\u4e00\u4e2a\u662f58\uff0c\u5b83\u4f1a\u8ba9x\u53d8\u6210\u8d1f\u6570\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/2a6798818eb3f3ad.wav",
+     "from": 541,
+     "frames": 227
+    },
+    {
+     "text": "\u628a\u4e24\u7ec4\u5f00\u5934\u7684\u6570\u6df7\u7740\u52a0\uff0c\u5c31\u80fd\u51d1\u51fa\u5176\u4ed6\u9009\u9879\u300264\u52a041\u7b49\u4e8e105\u3002",
+     "caption": "\u628a\u4e24\u7ec4\u5f00\u5934\u7684\u6570\u6df7\u7740\u52a0\uff0c\u5c31\u80fd\u51d1\u51fa\u5176\u4ed6\u9009\u9879\u300264\u52a041\u7b49\u4e8e105\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/6ffc81e044c338d6.wav",
+     "from": 778,
+     "frames": 261
+    },
+    {
+     "text": "64\u52a030\u7b49\u4e8e94\uff0c30\u52a020\u7b49\u4e8e50\u3002\u4f46\u8fd9\u4e9b\u6df7\u642d\u7684\u7ec4\u5408\u90fd\u4e0d\u6210\u7acb\u3002",
+     "caption": "64\u52a030\u7b49\u4e8e94\uff0c30\u52a020\u7b49\u4e8e50\u3002\u4f46\u8fd9\u4e9b\u6df7\u642d\u7684\u7ec4\u5408\u90fd\u4e0d\u6210\u7acb\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/386f6a21d67f27d9.wav",
+     "from": 1049,
+     "frames": 314
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5148\u627e\u51fa\u6240\u6709\u6210\u7acb\u7684\u5f00\u5934\uff0c\u518d\u6765\u6bd4\u8f83\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5148\u627e\u51fa\u6240\u6709\u6210\u7acb\u7684\u5f00\u5934\uff0c\u518d\u6765\u6bd4\u8f83\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/eef6ca408571f6dc.wav",
+     "from": 1373,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u6362\u4e2a\u5e74\u4efd",
+   "from": 10981,
+   "frames": 403,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u89c4\u5219\u4e0d\u53d8\uff0c\u4f46\u73b0\u5728\u7b2c\u5341\u9879\u662f\u4e24\u5343\u96f6\u4e8c\u5341\u4e94\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u89c4\u5219\u4e0d\u53d8\uff0c\u4f46\u73b0\u5728\u7b2c10\u9879\u662f2025\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/7ed14aed76e08ee2.wav",
+     "from": 0,
+     "frames": 222
+    },
+    {
+     "text": "\u7b2c1\u9879\u52a0\u7b2c2\u9879\uff0c\u6700\u5927\u53ef\u80fd\u662f\u591a\u5c11\uff1f",
+     "caption": "\u7b2c1\u9879\u52a0\u7b2c2\u9879\uff0c\u6700\u5927\u53ef\u80fd\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/9a6de352a2a7489d.wav",
+     "from": 232,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11384,
+   "frames": 410,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/32cbee10a890d39b.wav",
+     "from": 0,
+     "frames": 87
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u6362\u4e2a\u5e74\u4efd\uff1a\u7b54\u6848",
+   "from": 11794,
+   "frames": 1330,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u770b\u770b\u3002\u73b0\u5728\u662f\u4e8c\u5341\u4e00T\u52a0\u5341\u4e09y\u7b49\u4e8e\u4e24\u5343\u96f6\u4e8c\u5341\u4e94\u3002",
+     "caption": "\u6211\u4eec\u6765\u770b\u770b\u3002\u73b0\u5728\u662f21T\u52a013y\u7b49\u4e8e2025\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/d7c4aa087dcec380.wav",
+     "from": 0,
+     "frames": 267
+    },
+    {
+     "text": "T\u6700\u591a\u8fd8\u662f95\u3002\u5269\u4e0b\u7684\u6570\u4f9d\u6b21\u662f30\u300151\u300172\uff0c\u4ee5\u6b64\u7c7b\u63a8\u3002",
+     "caption": "T\u6700\u591a\u8fd8\u662f95\u3002\u5269\u4e0b\u7684\u6570\u4f9d\u6b21\u662f30\u300151\u300172\uff0c\u4ee5\u6b64\u7c7b\u63a8\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/305bfaa47bb51cf8.wav",
+     "from": 277,
+     "frames": 312
+    },
+    {
+     "text": "T\u7b49\u4e8e89\u65f6\uff0c\u5269\u4e0b156\u3002\u5b83\u6b63\u597d\u662f13\u4e5812\u3002",
+     "caption": "T\u7b49\u4e8e89\u65f6\uff0c\u5269\u4e0b156\u3002\u5b83\u6b63\u597d\u662f13\u4e5812\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/e58bb3f6bd0146fd.wav",
+     "from": 600,
+     "frames": 255
+    },
+    {
+     "text": "\u6240\u4ee5y\u7b49\u4e8e\u5341\u4e8c\uff0cx\u7b49\u4e8e\u4e03\u5341\u4e03\u3002\u6b63\u597d\u5f97\u5230\u4e24\u5343\u96f6\u4e8c\u5341\u4e94\uff01",
+     "caption": "\u6240\u4ee5y\u7b49\u4e8e12\uff0cx\u7b49\u4e8e77\u3002\u6b63\u597d\u5f97\u52302025\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/014b6d7c58c09134.wav",
+     "from": 865,
+     "frames": 252
+    },
+    {
+     "text": "\u6700\u5927\u7684\u548c\u662f89\u3002\u5982\u679c\u4f60\u505a\u51fa\u6765\u4e86\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u6700\u5927\u7684\u548c\u662f89\u3002\u5982\u679c\u4f60\u505a\u51fa\u6765\u4e86\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/1179963bce9c8e8a.wav",
+     "from": 1127,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13124,
+   "frames": 531,
+   "lines": [
+    {
+     "text": "\u5728\u8fd9\u6837\u7684\u6570\u5217\u91cc\uff0c\u6bcf\u4e00\u9879\u90fd\u662f\u524d\u4e24\u9879\u7684\u56fa\u5b9a\u7ec4\u5408\u3002",
+     "caption": "\u5728\u8fd9\u6837\u7684\u6570\u5217\u91cc\uff0c\u6bcf\u4e00\u9879\u90fd\u662f\u524d\u4e24\u9879\u7684\u56fa\u5b9a\u7ec4\u5408\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/40d871ea319ba654.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "\u7528\u524d\u4e24\u9879\u8868\u793a\u51fa\u7b2c10\u9879\uff0c\u5c31\u5f97\u5230\u4e00\u4e2a\u6574\u6570\u65b9\u7a0b\u3002",
+     "caption": "\u7528\u524d\u4e24\u9879\u8868\u793a\u51fa\u7b2c10\u9879\uff0c\u5c31\u5f97\u5230\u4e00\u4e2a\u6574\u6570\u65b9\u7a0b\u3002",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/ce5ed9f46354eb2c.wav",
+     "from": 179,
+     "frames": 156
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-fibonacci-2024-zh/audio/f8351124be57142c.wav",
+     "from": 346,
+     "frames": 117
+    }
+   ]
+  }
+ ]
+}

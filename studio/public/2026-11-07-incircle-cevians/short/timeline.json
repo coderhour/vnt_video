@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1186,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 112,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's two to one? Nope!",
+     "caption": "AMC 10 challenge! Think it's 2 to 1? Nope!",
+     "file": "2026-11-07-incircle-cevians/short/audio/f219e93be80dcb54.wav",
+     "from": 0,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 112,
+   "frames": 321,
+   "lines": [
+    {
+     "text": "Sides thirteen, fourteen, fifteen. The circle inside touches B C at D, C A at E.",
+     "caption": "Sides 13, 14, 15. The circle inside touches BC at D, CA at E.",
+     "file": "2026-11-07-incircle-cevians/short/audio/66498b2e5b95ced2.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "A D and B E cross at P. What is A P to P D?",
+     "caption": "AD and BE cross at P. What is AP to PD?",
+     "file": "2026-11-07-incircle-cevians/short/audio/f346292a87dc2e79.wav",
+     "from": 188,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 433,
+   "frames": 74,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-incircle-cevians/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 63
+    }
+   ]
+  },
+  {
+   "id": "weights",
+   "kind": "scene",
+   "chapter": null,
+   "from": 507,
+   "frames": 393,
+   "lines": [
+    {
+     "text": "Each corner's two pieces out to the circle are equal. That gives six, eight, eight, seven.",
+     "caption": "Each corner's two pieces out to the circle are equal. That gives 6, 8, 8, 7.",
+     "file": "2026-11-07-incircle-cevians/short/audio/aa19db453a8c2e4c.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "Weigh the corners so each side balances: B twenty-eight, C twenty-one, A twenty-four.",
+     "caption": "Weigh the corners so each side balances: B 28, C 21, A 24.",
+     "file": "2026-11-07-incircle-cevians/short/audio/5ab5acd6bf0415f6.wav",
+     "from": 152,
+     "frames": 150
+    },
+    {
+     "text": "Merge B and C: forty-nine at D.",
+     "caption": "Merge B and C: 49 at D.",
+     "file": "2026-11-07-incircle-cevians/short/audio/1ce6be0a5cfb873e.wav",
+     "from": 307,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 900,
+   "frames": 286,
+   "lines": [
+    {
+     "text": "So A P to P D is forty-nine to twenty-four!",
+     "caption": "So AP to PD is 49 to 24!",
+     "file": "2026-11-07-incircle-cevians/short/audio/6a93a93c3fcef196.wav",
+     "from": 0,
+     "frames": 98
+    },
+    {
+     "text": "Two to one was the trap.",
+     "caption": "2 to 1 was the trap.",
+     "file": "2026-11-07-incircle-cevians/short/audio/5e9f3276d3263846.wav",
+     "from": 102,
+     "frames": 58
+    },
+    {
+     "text": "Did you get forty-nine to twenty-four? Tell me below!",
+     "caption": "Did you get 49 to 24? Tell me below!",
+     "file": "2026-11-07-incircle-cevians/short/audio/0ebef5eff4197977.wav",
+     "from": 164,
+     "frames": 87
+    }
+   ]
+  }
+ ]
+}

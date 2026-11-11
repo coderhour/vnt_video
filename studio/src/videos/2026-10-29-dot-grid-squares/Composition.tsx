@@ -7,6 +7,7 @@ import { PACIFICO } from '../../lib/fonts';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Row, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-29-dot-grid-squares';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -529,3 +530,15 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the 5×4 dot grid with a flat and a tilted square, no count.
+const TGRID = makeGrid(40, 95, 150);
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>20?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Poly pts={sq(0, 1, 2).map(TGRID)} color={C.primary} fill={C.primary} progress={1} />
+      <Poly pts={boxSquare(2, 0, 2, 1).map(TGRID)} color={C.violet} fill={C.violet} progress={1} />
+      <Dots cols={COLS} rows={ROWS} at={TGRID} r={14} />
+    </svg>
+  </ThumbFrame>
+);

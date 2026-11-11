@@ -1,0 +1,174 @@
+{
+ "title": "她会站上第5级台阶吗？抛硬币爬楼梯 | AMC 8 风格 第4级",
+ "fps": 30,
+ "lang": "zh",
+ "captions": {
+  "如果是反面，她就往上走两级。": "如果是反面，她就往上走2级。",
+  "硬币是均匀的：抛到正面上1级台阶，抛到反面上两级台阶。": "硬币是均匀的：抛到正面上1级台阶，抛到反面上2级台阶。",
+  "要站上一级台阶，只有两种来路：从下面1级台阶抛出正面，或者从下面两级台阶抛出反面。": "要站上一级台阶，只有两种来路：从下面1级台阶抛出正面，或者从下面2级台阶抛出反面。"
+ },
+ "voice": "Zephyr",
+ "style": "warm and encouraging, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a relaxed pace, no laughing",
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "开场",
+   "hold": 0.5,
+   "visual": "A staircase drawn side-on, steps numbered 0 (ground) to 7; a small round token 'Pia' hops up 1 or 2 steps, a coin flipping above showing H or T. Step 5 highlighted gold. Line 2: token jumps from 4 to 6, skipping 5, a little 'whoosh' arc. Line 3: Vantee title card.",
+   "lines": [
+    "小红在爬楼梯，每次移动之前，都要先抛一次硬币。她会不会正好站上第5级台阶？",
+    "有时候会站上。有时候，她会一下子跳过去！",
+    "你好，我是Vantee！我们一起来算算这个概率。"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "题目",
+   "hold": 1.5,
+   "visual": "Question text left; staircase right (steps 0 to 7, Pia on step 0 = ground). Line 3: coin H → +1 arrow. Line 4: coin T → +2 arrow. Line 5: step 5 glows. Line 6: chips 1/2, 8/13, 5/8, 21/32, 11/16 (KaTeX \\dfrac, ≥48px).",
+   "lines": [
+    "来看题目。",
+    "小红在爬一段很长的楼梯。每次移动之前，她都会抛一枚均匀的硬币。",
+    "如果是正面，她就往上走1级。",
+    "如果是反面，她就往上走两级。",
+    "她站上第5级台阶的概率是多少？",
+    "下面是五个选项，仔细看一看。"
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "题目问的是什么？",
+   "hold": 1,
+   "visual": "Line 1: Pia on the ground labeled 'step 0'. Line 2: 'heads: 1/2, tails: 1/2'. Line 3: two example climbs: one landing on 5 (green), one jumping 4→6 (red).",
+   "lines": [
+    "我们知道什么呢？小红从地面出发，也就是第1级台阶的下面。",
+    "硬币是均匀的：抛到正面上1级台阶，抛到反面上两级台阶。",
+    "我们要算的是，她在某个时候真正站上第5级的概率，而不是一下子跳过第5级。"
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "自己试一试",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; staircase visible.",
+   "lines": [
+    "现在轮到你了。暂停视频，自己试一试。我等你！"
+   ]
+  },
+  {
+   "id": "list",
+   "chapter": "解法一：列出所有走法",
+   "hold": 1,
+   "visual": "A list panel grows one group at a time; each climb shown as a row of chips '1' and '2' (e.g. 1 1 1 1 1). Line 2: row '1 1 1 1 1' with prob '(1/2)^5 = 1/32'. Line 3: four rows with one '2' (2 1 1 1, 1 2 1 1, 1 1 2 1, 1 1 1 2), each '1/16'. Line 4: three rows with two '2's (2 2 1, 2 1 2, 1 2 2), each '1/8'.",
+   "lines": [
+    "欢迎回来！我们的策略是：把到达第5级的所有走法，全部列出来。",
+    "每次都只上1级台阶：1、1、1、1、1。",
+    "这要抛5次硬币，所以概率是5个2分之1相乘，也就是32分之1。",
+    "一个2和三个1。2可以放在四个位置，每种走法都要抛4次。",
+    "每一种的概率都是16分之1。",
+    "两个2和一个1。1可以放在三个位置，每一种都抛3次。每一种的概率都是8分之1。"
+   ]
+  },
+  {
+   "id": "list2",
+   "hold": 1.5,
+   "visual": "Line 1: '1/32 + 4 × 1/16 + 3 × 1/8'. Line 2: converted '1/32 + 8/32 + 12/32'. Line 3: '= 21/32'. Line 4: answer badge '21/32' with chime at end of line, choice D highlighted. All fractions \\dfrac.",
+   "lines": [
+    "现在把它们加起来：32分之1，加上4乘16分之1，再加上3乘8分之1。",
+    "都化成32分之几：32分之1，加32分之8，再加32分之12。",
+    "1加8再加12，等于21。所以概率是32分之21。",
+    "所以答案是选项D，32分之21！"
+   ]
+  },
+  {
+   "id": "ladder",
+   "chapter": "解法二：一级一级往上算",
+   "hold": 1,
+   "visual": "Staircase with a probability label on each step, filled in one per line. Line 2: arrows into step n from step n−1 (H) and n−2 (T). Line 3: step 0 = 1, step 1 = 1/2. Line 4: step 2 = (1/2 + 1)/2 = 3/4. Line 5: step 3 = (3/4 + 1/2)/2 = 5/8, step 4 = (5/8 + 3/4)/2 = 11/16. Equation rows on a right panel.",
+   "lines": [
+    "还有一个更快的方法：顺着楼梯，一级一级往上算。",
+    "要站上一级台阶，只有两种来路：从下面1级台阶抛出正面，或者从下面两级台阶抛出反面。",
+    "不管哪一种走法，概率都是2分之1。",
+    "所以这一级的概率，就是前两级的概率各取一半，再加起来。也就是它们的平均数。",
+    "她一开始一定在地面上，概率是1。第1级必须第一次就抛到正面：2分之1。",
+    "第2级台阶，是2分之1和1的平均数，等于4分之3。",
+    "第3级台阶，是4分之3和2分之1的平均数，等于8分之5。",
+    "第4级台阶，是8分之5和4分之3的平均数，等于16分之11。"
+   ]
+  },
+  {
+   "id": "ladder2",
+   "hold": 1.5,
+   "visual": "Line 1: step 5 = (11/16 + 5/8)/2 = (11/16 + 10/16)/2 = 21/32, label lands on step 5. Line 2: small card 'Ladder: each step = average of the two below'.",
+   "lines": [
+    "现在算第5级台阶。8分之5，可以化成16分之10。",
+    "16分之11和16分之10的平均数，是32分之21。",
+    "什么时候用这个方法？走法多到列不完的时候，这个方法也不会变难。"
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "常见陷阱",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red. Line 2: chip 1/2. Lines 3-4: the 8 listed climbs plus 5 jump-over climbs (rows ending '…, 2' from step 4 to 6), '8 out of 13' crossed out with note 'not equally likely'. Line 5: ladder with 5/8 on step 3 and 11/16 on step 4 pointing to those chips.",
+   "lines": [
+    "现在来看看错误答案。每一个都是陷阱。",
+    "选项A，2分之1，感觉是要么站上，要么跳过，一半对一半。",
+    "但只有站在第4级、硬币又是反面，才会跳过第5级。所以站上的可能性更大。",
+    "选项B，13分之8，很有迷惑性。",
+    "有8种走法站上第5级，还有5种走法从第4级直接跳到第6级。",
+    "一共13种走法。但它们的可能性并不一样！走法越短，抛的次数越少，可能性就越大。",
+    "选项C和最后一个选项，8分之5和16分之11，是第3级和第4级的概率。",
+    "两个都停得太早了！",
+    "所以记住一个好习惯：每次走的级数是随机的时候，就从前面的位置，一个一个推出后面位置的概率。"
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "轮到你：第6级",
+   "hold": 0.5,
+   "visual": "Same staircase, step 6 highlighted gold.",
+   "lines": [
+    "准备好挑战了吗？同样的楼梯，同样的硬币。",
+    "她正好站在第6级上的概率是多少？"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown, staircase visible.",
+   "lines": [
+    "暂停视频，加油！"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "第6级：答案",
+   "hold": 1.5,
+   "visual": "Ladder labels 1/2, 3/4, 5/8, 11/16, 21/32 already on steps 1–5. Line 2: step 6 = (21/32 + 11/16)/2 = (21/32 + 22/32)/2 = 43/64 lands on step 6; answer badge with chime at line end. Line 3: check '1 − 21/32 × 1/2 = 1 − 21/64 = 43/64'.",
+   "lines": [
+    "我们在楼梯上再往上算一级。第4级和第5级的概率，我们已经知道了。",
+    "16分之11等于32分之22。",
+    "32分之22和32分之21的平均数，是64分之43！",
+    "再用一个妙招验证一下。只有站在第5级、又抛到反面，她才会错过第6级。",
+    "这个概率是64分之21。",
+    "1减64分之21，等于64分之43。对上了！",
+    "如果你算出了64分之43，太棒了！"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "总结",
+   "hold": 2,
+   "visual": "Summary card: staircase with the ladder labels and the rule text.",
+   "lines": [
+    "我们来记住这个核心思路。",
+    "每次走多远是随机的时候，到达一个位置的概率，来自能走到这里的那些位置。",
+    "一级一级往上算概率，一直算到你要找的台阶为止。",
+    "我是Vantee。继续探索，我们下次见！"
+   ]
+  }
+ ]
+}

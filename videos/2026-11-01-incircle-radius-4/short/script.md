@@ -1,6 +1,6 @@
 # A Circle of Radius 4 (short)
 
-AMC ten challenge! Think it's eighty-one? Nope!
+Think it's eighty-one? Nope!
 
 Whole-number sides. A circle of radius four inside touches six from A.
 
@@ -10,9 +10,7 @@ Comment your letter, then watch!
 
 Equal tangent pieces: six, y, and z.
 
-Area two ways gives z equals eight y plus forty-eight, over three y minus eight.
-
-For a positive bottom, y must be at least three.
+Area two ways gives this formula, so y is at least three.
 
 At y equals three, z is seventy-two!
 

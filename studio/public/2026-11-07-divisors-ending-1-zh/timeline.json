@@ -1,0 +1,533 @@
+{
+ "fps": 30,
+ "durationInFrames": 14019,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 649,
+   "lines": [
+    {
+     "text": "\u8fd9\u4e2a\u6570\u6709105\u4e2a\u56e0\u6570\u3002\u5176\u4e2d\u6709\u591a\u5c11\u4e2a\u56e0\u6570\uff0c\u4e2a\u4f4d\u6570\u5b57\u662f1\uff1f",
+     "caption": "\u8fd9\u4e2a\u6570\u6709105\u4e2a\u56e0\u6570\u3002\u5176\u4e2d\u6709\u591a\u5c11\u4e2a\u56e0\u6570\uff0c\u4e2a\u4f4d\u6570\u5b57\u662f1\uff1f",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/f6ae274246bc3585.wav",
+     "from": 0,
+     "frames": 266
+    },
+    {
+     "text": "\u4e0d\u7528\u628a\u56e0\u6570\u5168\u5217\u51fa\u6765\u3002\u53ea\u8981\u76ef\u4f4f\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u5c31\u884c\uff01",
+     "caption": "\u4e0d\u7528\u628a\u56e0\u6570\u5168\u5217\u51fa\u6765\u3002\u53ea\u8981\u76ef\u4f4f\u6700\u540e\u4e00\u4f4d\u6570\u5b57\u5c31\u884c\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/b14b09e745627969.wav",
+     "from": 276,
+     "frames": 161
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u7528\u4e2a\u4f4d\u6570\u5b57\u7684\u89c4\u5f8b\uff0c\u6765\u7834\u89e3\u8fd9\u9053\u9898\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u7528\u4e2a\u4f4d\u6570\u5b57\u7684\u89c4\u5f8b\uff0c\u6765\u7834\u89e3\u8fd9\u9053\u9898\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/98431850b96b2eb5.wav",
+     "from": 447,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 649,
+   "frames": 534,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u30023\u76846\u6b21\u65b9\uff0c\u4e587\u76844\u6b21\u65b9\uff0c\u518d\u4e5813\u7684\u5e73\u65b9\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u30023\u76846\u6b21\u65b9\uff0c\u4e587\u76844\u6b21\u65b9\uff0c\u518d\u4e5813\u7684\u5e73\u65b9\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/432722af8e4540d5.wav",
+     "from": 0,
+     "frames": 224
+    },
+    {
+     "text": "\u8fd9\u4e2a\u6570\u7684\u6b63\u56e0\u6570\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u7684\u4e2a\u4f4d\u6570\u5b57\u662f1\uff1f",
+     "caption": "\u8fd9\u4e2a\u6570\u7684\u6b63\u56e0\u6570\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u7684\u4e2a\u4f4d\u6570\u5b57\u662f1\uff1f",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/01b0b6b824cd7d78.wav",
+     "from": 234,
+     "frames": 158
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/94a4f9a565c19273.wav",
+     "from": 402,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1183,
+   "frames": 1076,
+   "lines": [
+    {
+     "text": "\u6bcf\u4e2a\u56e0\u6570\u90fd\u957f\u8fd9\u6837\uff1a3\u7684a\u6b21\u65b9\uff0c\u4e587\u7684b\u6b21\u65b9\uff0c\u4e5813\u7684c\u6b21\u65b9\u3002",
+     "caption": "\u6bcf\u4e2a\u56e0\u6570\u90fd\u957f\u8fd9\u6837\uff1a3\u7684a\u6b21\u65b9\uff0c\u4e587\u7684b\u6b21\u65b9\uff0c\u4e5813\u7684c\u6b21\u65b9\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/49819fa83aa91177.wav",
+     "from": 0,
+     "frames": 287
+    },
+    {
+     "text": "\u5176\u4e2d\uff0ca\u4ece0\u52306\uff0cb\u4ece0\u52304\uff0cc\u4ece0\u52302\u3002",
+     "caption": "\u5176\u4e2d\uff0ca\u4ece0\u52306\uff0cb\u4ece0\u52304\uff0cc\u4ece0\u52302\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/3087239f502e11f8.wav",
+     "from": 297,
+     "frames": 237
+    },
+    {
+     "text": "\u6240\u4ee5\u4e00\u5171\u662f7\u4e585\u4e583\uff0c\u7b49\u4e8e105\u4e2a\u56e0\u6570\u3002\u592a\u591a\u4e86\uff0c\u6839\u672c\u5217\u4e0d\u5b8c\uff01",
+     "caption": "\u6240\u4ee5\u4e00\u5171\u662f7\u4e585\u4e583\uff0c\u7b49\u4e8e105\u4e2a\u56e0\u6570\u3002\u592a\u591a\u4e86\uff0c\u6839\u672c\u5217\u4e0d\u5b8c\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/03a907d036dc0d13.wav",
+     "from": 544,
+     "frames": 300
+    },
+    {
+     "text": "\u597d\u6d88\u606f\u662f\uff1a\u8981\u77e5\u9053\u4e58\u79ef\u7684\u4e2a\u4f4d\uff0c\u53ea\u8981\u628a\u4e2a\u4f4d\u6570\u5b57\u76f8\u4e58\u5c31\u884c\u3002",
+     "caption": "\u597d\u6d88\u606f\u662f\uff1a\u8981\u77e5\u9053\u4e58\u79ef\u7684\u4e2a\u4f4d\uff0c\u53ea\u8981\u628a\u4e2a\u4f4d\u6570\u5b57\u76f8\u4e58\u5c31\u884c\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/0b86ee99b5feb9f8.wav",
+     "from": 855,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2259,
+   "frames": 481,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/d4de35b5d7df1d92.wav",
+     "from": 0,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "cycles",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u4e2a\u4f4d\u8868\u683c",
+   "from": 2740,
+   "frames": 1133,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u627e\u89c4\u5f8b\u3002\u5148\u770b3\u7684\u6b21\u65b9\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u627e\u89c4\u5f8b\u3002\u5148\u770b3\u7684\u6b21\u65b9\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/1dcb28b07a637cc2.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "\u4e00\u3001\u4e09\u3001\u4e5d\u3001\u4e8c\u5341\u4e03\u3001\u516b\u5341\u4e00\u3002\u4e2a\u4f4d\u4f9d\u6b21\u662f1\u30013\u30019\u30017\uff0c\u7136\u540e\u4e0d\u65ad\u91cd\u590d\u3002",
+     "caption": "1\u30013\u30019\u300127\u300181\u3002\u4e2a\u4f4d\u4f9d\u6b21\u662f1\u30013\u30019\u30017\uff0c\u7136\u540e\u4e0d\u65ad\u91cd\u590d\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/30b42acf69a94322.wav",
+     "from": 145,
+     "frames": 374
+    },
+    {
+     "text": "7\u7684\u6b21\u65b9\uff0c\u4e2a\u4f4d\u4f9d\u6b21\u662f1\u30017\u30019\u30013\uff0c\u7136\u540e\u53c8\u56de\u52301\u3002",
+     "caption": "7\u7684\u6b21\u65b9\uff0c\u4e2a\u4f4d\u4f9d\u6b21\u662f1\u30017\u30019\u30013\uff0c\u7136\u540e\u53c8\u56de\u52301\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/251309b575ca273b.wav",
+     "from": 529,
+     "frames": 256
+    },
+    {
+     "text": "13\u76840\u6b21\u65b9\u52302\u6b21\u65b9\uff0c\u4e2a\u4f4d\u662f1\u30013\u30019\u300213\u7684\u8868\u73b0\uff0c\u548c3\u4e00\u6a21\u4e00\u6837\uff01",
+     "caption": "13\u76840\u6b21\u65b9\u52302\u6b21\u65b9\uff0c\u4e2a\u4f4d\u662f1\u30013\u30019\u300213\u7684\u8868\u73b0\uff0c\u548c3\u4e00\u6a21\u4e00\u6837\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/5a5093ac8ef464db.wav",
+     "from": 795,
+     "frames": 305
+    }
+   ]
+  },
+  {
+   "id": "grid",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3873,
+   "frames": 851,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u753b\u4e00\u5f20\u8868\u3002\u6a2a\u7740\u770b\uff0ca\u4ece0\u52306\uff1b\u7ad6\u7740\u770b\uff0cc\u4ece0\u52302\u3002",
+     "caption": "\u73b0\u5728\u6765\u753b\u4e00\u5f20\u8868\u3002\u6a2a\u7740\u770b\uff0ca\u4ece0\u52306\uff1b\u7ad6\u7740\u770b\uff0cc\u4ece0\u52302\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/d939b36b8251daa0.wav",
+     "from": 0,
+     "frames": 276
+    },
+    {
+     "text": "\u8fd921\u4e2a\u65b9\u5757\u91cc\uff0c\u5199\u7684\u662f3\u7684a\u6b21\u65b9\u4e5813\u7684c\u6b21\u65b9\u7684\u4e2a\u4f4d\u6570\u5b57\u3002",
+     "caption": "\u8fd921\u4e2a\u65b9\u5757\u91cc\uff0c\u5199\u7684\u662f3\u7684a\u6b21\u65b9\u4e5813\u7684c\u6b21\u65b9\u7684\u4e2a\u4f4d\u6570\u5b57\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/e520c85e876737d4.wav",
+     "from": 287,
+     "frames": 219
+    },
+    {
+     "text": "\u6211\u4eec\u6765\u627e1\u3002\u7b2c\u4e00\u884c\u6709\u4e24\u4e2a\uff0c\u4e2d\u95f4\u4e00\u884c\u6709\u4e00\u4e2a\uff0c\u6700\u540e\u4e00\u884c\u6709\u4e24\u4e2a\u3002\u4e00\u51715\u4e2a\uff01",
+     "caption": "\u6211\u4eec\u6765\u627e1\u3002\u7b2c\u4e00\u884c\u6709\u4e24\u4e2a\uff0c\u4e2d\u95f4\u4e00\u884c\u6709\u4e00\u4e2a\uff0c\u6700\u540e\u4e00\u884c\u6709\u4e24\u4e2a\u3002\u4e00\u51715\u4e2a\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/a710e27b1a26f60b.wav",
+     "from": 515,
+     "frames": 303
+    }
+   ]
+  },
+  {
+   "id": "match",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4724,
+   "frames": 1091,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u628a7\u7684\u6b21\u65b9\u8bf7\u8fdb\u6765\u3002\u6bcf\u4e2a\u65b9\u5757\uff0c\u90fd\u8981\u4ece7\u7684\u6b21\u65b9\u91cc\u627e\u4e00\u4e2a\u642d\u6863\u3002",
+     "caption": "\u73b0\u5728\u628a7\u7684\u6b21\u65b9\u8bf7\u8fdb\u6765\u3002\u6bcf\u4e2a\u65b9\u5757\uff0c\u90fd\u8981\u4ece7\u7684\u6b21\u65b9\u91cc\u627e\u4e00\u4e2a\u642d\u6863\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/0c994afa86291263.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "\u4e2a\u4f4d\u662f1\u7684\u65b9\u5757\uff0c\u642d\u6863\u7684\u4e2a\u4f4d\u4e5f\u5f97\u662f1\u3002\u4e5f\u5c31\u662fb\u7b49\u4e8e0\u6216\u80054\u3002\u4e24\u79cd\uff01",
+     "caption": "\u4e2a\u4f4d\u662f1\u7684\u65b9\u5757\uff0c\u642d\u6863\u7684\u4e2a\u4f4d\u4e5f\u5f97\u662f1\u3002\u4e5f\u5c31\u662fb\u7b49\u4e8e0\u6216\u80054\u3002\u4e24\u79cd\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/5ad45cc0677ddf39.wav",
+     "from": 210,
+     "frames": 262
+    },
+    {
+     "text": "\u4e2a\u4f4d\u662f3\u7684\u65b9\u5757\uff0c\u8981\u914d\u4e00\u4e2a7\uff0c\u56e0\u4e3a3\u4e587\u7b49\u4e8e21\u3002",
+     "caption": "\u4e2a\u4f4d\u662f3\u7684\u65b9\u5757\uff0c\u8981\u914d\u4e00\u4e2a7\uff0c\u56e0\u4e3a3\u4e587\u7b49\u4e8e21\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/a62b1e28d217520c.wav",
+     "from": 482,
+     "frames": 209
+    },
+    {
+     "text": "9\u8981\u914d9\uff0c\u5f97\u523081\u30027\u8981\u914d3\uff0c\u53c8\u662f21\u3002",
+     "caption": "9\u8981\u914d9\uff0c\u5f97\u523081\u30027\u8981\u914d3\uff0c\u53c8\u662f21\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/aa0086a6cea4aea2.wav",
+     "from": 701,
+     "frames": 197
+    },
+    {
+     "text": "\u6240\u4ee5\u8fd9\u4e9b\u65b9\u5757\uff0c\u6bcf\u4e2a\u90fd\u6b63\u597d\u53ea\u6709\u4e00\u4e2a\u642d\u6863\u3002",
+     "caption": "\u6240\u4ee5\u8fd9\u4e9b\u65b9\u5757\uff0c\u6bcf\u4e2a\u90fd\u6b63\u597d\u53ea\u6709\u4e00\u4e2a\u642d\u6863\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/7f838b996e0f3196.wav",
+     "from": 908,
+     "frames": 150
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5815,
+   "frames": 509,
+   "lines": [
+    {
+     "text": "5\u4e2a\u65b9\u5757\u7684\u4e2a\u4f4d\u662f1\uff0c\u6bcf\u4e2a\u6709\u4e24\u79cd\uff0c\u4e00\u517110\u79cd\u3002\u53e6\u591616\u4e2a\u65b9\u5757\uff0c\u518d\u52a016\u79cd\u3002",
+     "caption": "5\u4e2a\u65b9\u5757\u7684\u4e2a\u4f4d\u662f1\uff0c\u6bcf\u4e2a\u6709\u4e24\u79cd\uff0c\u4e00\u517110\u79cd\u3002\u53e6\u591616\u4e2a\u65b9\u5757\uff0c\u518d\u52a016\u79cd\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/82ed0dbb568be649.wav",
+     "from": 0,
+     "frames": 291
+    },
+    {
+     "text": "10\u52a016\u3002\u6240\u4ee5\u7b54\u6848\u662f\uff0c26\uff01\u9009C\u3002",
+     "caption": "10\u52a016\u3002\u6240\u4ee5\u7b54\u6848\u662f\uff0c26\uff01\u9009C\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/e77ff4993d49b4de.wav",
+     "from": 301,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "power3",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u90fd\u53d8\u62103\u7684\u6b21\u65b9",
+   "from": 6324,
+   "frames": 1138,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5de7\u7684\u65b9\u6cd5\u30023\u7684\u7acb\u65b9\u662f27\uff0c\u4e2a\u4f4d\u662f7\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5de7\u7684\u65b9\u6cd5\u30023\u7684\u7acb\u65b9\u662f27\uff0c\u4e2a\u4f4d\u662f7\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/6212786a5fe32cdd.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "7\u5c31\u50cf3\u7684\u7acb\u65b9\uff0c\u6240\u4ee57\u7684b\u6b21\u65b9\uff0c\u5c31\u50cf3\u76843b\u6b21\u65b9\u3002",
+     "caption": "7\u5c31\u50cf3\u7684\u7acb\u65b9\uff0c\u6240\u4ee57\u7684b\u6b21\u65b9\uff0c\u5c31\u50cf3\u76843b\u6b21\u65b9\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/5c33551a19055108.wav",
+     "from": 196,
+     "frames": 226
+    },
+    {
+     "text": "13\u7684\u4e2a\u4f4d\u4e5f\u662f3\uff0c\u6240\u4ee513\u5c31\u50cf3\u3002\u6bcf\u4e2a\u56e0\u6570\uff0c\u90fd\u50cf3\u7684a\u52a03b\u52a0c\u6b21\u65b9\u3002",
+     "caption": "13\u7684\u4e2a\u4f4d\u4e5f\u662f3\uff0c\u6240\u4ee513\u5c31\u50cf3\u3002\u6bcf\u4e2a\u56e0\u6570\uff0c\u90fd\u50cf3\u7684a\u52a03b\u52a0c\u6b21\u65b9\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/c1e77127a2385c8c.wav",
+     "from": 432,
+     "frames": 316
+    },
+    {
+     "text": "3\u7684\u6b21\u65b9\uff0c\u53ea\u6709\u5f53\u6307\u6570\u662f4\u7684\u500d\u6570\u65f6\uff0c\u4e2a\u4f4d\u624d\u662f1\u3002",
+     "caption": "3\u7684\u6b21\u65b9\uff0c\u53ea\u6709\u5f53\u6307\u6570\u662f4\u7684\u500d\u6570\u65f6\uff0c\u4e2a\u4f4d\u624d\u662f1\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/8082c02a9f83a101.wav",
+     "from": 758,
+     "frames": 172
+    },
+    {
+     "text": "\u6240\u4ee5\u6211\u4eec\u9700\u8981a\u52a03b\u52a0c\u662f4\u7684\u500d\u6570\u3002",
+     "caption": "\u6240\u4ee5\u6211\u4eec\u9700\u8981a\u52a03b\u52a0c\u662f4\u7684\u500d\u6570\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/826298d82bb47f3b.wav",
+     "from": 940,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7462,
+   "frames": 2321,
+   "lines": [
+    {
+     "text": "b\u7684\u6bcf\u4e2a\u503c\uff0c\u6211\u4eec\u4e00\u4e2a\u4e00\u4e2a\u770b\u3002\u8fd8\u662f\u8fd9\u5f20\u8868\uff0c\u73b0\u5728\u65b9\u5757\u91cc\u5199\u7684\u662fa\u52a0c\u3002",
+     "caption": "b\u7684\u6bcf\u4e2a\u503c\uff0c\u6211\u4eec\u4e00\u4e2a\u4e00\u4e2a\u770b\u3002\u8fd8\u662f\u8fd9\u5f20\u8868\uff0c\u73b0\u5728\u65b9\u5757\u91cc\u5199\u7684\u662fa\u52a0c\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/d1760ecbdc71a946.wav",
+     "from": 0,
+     "frames": 238
+    },
+    {
+     "text": "b\u7b49\u4e8e0\u65f6\uff0ca\u52a0c\u5fc5\u987b\u662f0\u30014\u62168\u30021\u52a03\u52a01\uff0c5\u4e2a\u65b9\u5757\u3002",
+     "caption": "b\u7b49\u4e8e0\u65f6\uff0ca\u52a0c\u5fc5\u987b\u662f0\u30014\u62168\u30021\u52a03\u52a01\uff0c5\u4e2a\u65b9\u5757\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/b531c5d16753ecf5.wav",
+     "from": 248,
+     "frames": 298
+    },
+    {
+     "text": "b\u7b49\u4e8e1\u65f6\uff0c3b\u7b49\u4e8e3\u3002\u6240\u4ee5a\u52a0c\u52a03\u5fc5\u987b\u662f4\u62168\u3002",
+     "caption": "b\u7b49\u4e8e1\u65f6\uff0c3b\u7b49\u4e8e3\u3002\u6240\u4ee5a\u52a0c\u52a03\u5fc5\u987b\u662f4\u62168\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/ddbcc595e1279180.wav",
+     "from": 556,
+     "frames": 260
+    },
+    {
+     "text": "\u4e5f\u5c31\u662fa\u52a0c\u7b49\u4e8e1\u62165\u30022\u52a03\uff0c5\u4e2a\u65b9\u5757\u3002",
+     "caption": "\u4e5f\u5c31\u662fa\u52a0c\u7b49\u4e8e1\u62165\u30022\u52a03\uff0c5\u4e2a\u65b9\u5757\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/e6e12ec31d5a930b.wav",
+     "from": 826,
+     "frames": 225
+    },
+    {
+     "text": "b\u7b49\u4e8e2\u65f6\uff0c3b\u7b49\u4e8e6\u3002\u6240\u4ee5a\u52a0c\u662f2\u62166\u30023\u52a03\uff0c6\u4e2a\u65b9\u5757\u3002",
+     "caption": "b\u7b49\u4e8e2\u65f6\uff0c3b\u7b49\u4e8e6\u3002\u6240\u4ee5a\u52a0c\u662f2\u62166\u30023\u52a03\uff0c6\u4e2a\u65b9\u5757\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/16b2eaba3b606637.wav",
+     "from": 1061,
+     "frames": 322
+    },
+    {
+     "text": "b\u7b49\u4e8e3\u65f6\uff0c3b\u7b49\u4e8e9\u3002\u6240\u4ee5a\u52a0c\u662f3\u62167\u30023\u52a02\uff0c5\u4e2a\u65b9\u5757\u3002",
+     "caption": "b\u7b49\u4e8e3\u65f6\uff0c3b\u7b49\u4e8e9\u3002\u6240\u4ee5a\u52a0c\u662f3\u62167\u30023\u52a02\uff0c5\u4e2a\u65b9\u5757\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/7c9c1b68f9cab38c.wav",
+     "from": 1393,
+     "frames": 326
+    },
+    {
+     "text": "b\u7b49\u4e8e4\uff0c\u548cb\u7b49\u4e8e0\u4e00\u6837\u30025\u4e2a\u65b9\u5757\u3002",
+     "caption": "b\u7b49\u4e8e4\uff0c\u548cb\u7b49\u4e8e0\u4e00\u6837\u30025\u4e2a\u65b9\u5757\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/176e5f77e27db575.wav",
+     "from": 1728,
+     "frames": 149
+    },
+    {
+     "text": "5\u52a05\u52a06\u52a05\u52a05\uff0c\u7ed3\u679c\u8fd8\u662f26\uff01",
+     "caption": "5\u52a05\u52a06\u52a05\u52a05\uff0c\u7ed3\u679c\u8fd8\u662f26\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/c7f8a810a3957c3f.wav",
+     "from": 1888,
+     "frames": 197
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u6bcf\u4e2a\u8d28\u56e0\u6570\u90fd\u50cf\u540c\u4e00\u4e2a\u6570\u7684\u6b21\u65b9\u65f6\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u6bcf\u4e2a\u8d28\u56e0\u6570\u90fd\u50cf\u540c\u4e00\u4e2a\u6570\u7684\u6b21\u65b9\u65f6\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/571248bcf4f35388.wav",
+     "from": 2095,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9783,
+   "frames": 1434,
+   "lines": [
+    {
+     "text": "\u9009\u9879A\u662f24\uff0c\u5fd8\u4e86\u7b971\u548c\u8fd9\u4e2a\u6570\u672c\u8eab\u3002\u8fd9\u4e24\u4e2a\u6570\u7684\u4e2a\u4f4d\u90fd\u662f1\uff01",
+     "caption": "\u9009\u9879A\u662f24\uff0c\u5fd8\u4e86\u7b971\u548c\u8fd9\u4e2a\u6570\u672c\u8eab\u3002\u8fd9\u4e24\u4e2a\u6570\u7684\u4e2a\u4f4d\u90fd\u662f1\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/0924682aaa0a2dc6.wav",
+     "from": 0,
+     "frames": 245
+    },
+    {
+     "text": "\u9009\u9879B\u662f25\uff0c\u9519\u628a7\u7684\u6b21\u65b9\u7684\u4e2a\u4f4d\u90fd\u5f53\u6210\u4e861\u30025\u4e2a\u65b9\u5757\u4e585\u79cd\u9009\u6cd5\u3002",
+     "caption": "\u9009\u9879B\u662f25\uff0c\u9519\u628a7\u7684\u6b21\u65b9\u7684\u4e2a\u4f4d\u90fd\u5f53\u6210\u4e861\u30025\u4e2a\u65b9\u5757\u4e585\u79cd\u9009\u6cd5\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/f095571ef9fb7cc9.wav",
+     "from": 256,
+     "frames": 270
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879D\uff0c27\uff0c\u9519\u628a13\u7684\u6b21\u65b9\u7684\u4e2a\u4f4d\u90fd\u5f53\u6210\u4e861\uff1aa\u548cb\u67099\u5bf9\uff0cc\u67093\u79cd\u3002",
+     "caption": "\u518d\u770b\u9009\u9879D\uff0c27\uff0c\u9519\u628a13\u7684\u6b21\u65b9\u7684\u4e2a\u4f4d\u90fd\u5f53\u6210\u4e861\uff1aa\u548cb\u67099\u5bf9\uff0cc\u67093\u79cd\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/fc58128512c2c820.wav",
+     "from": 536,
+     "frames": 320
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f28\uff0c\u5b9e\u5728\u592a\u591a\u4e86\u3002\u6211\u4eec\u68c0\u67e5\u4e86\u6bcf\u4e00\u4e2a\u65b9\u5757\uff0c\u53ea\u670926\u4e2a\u7b26\u5408\u3002",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f28\uff0c\u5b9e\u5728\u592a\u591a\u4e86\u3002\u6211\u4eec\u68c0\u67e5\u4e86\u6bcf\u4e00\u4e2a\u65b9\u5757\uff0c\u53ea\u670926\u4e2a\u7b26\u5408\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/72764c711a20069d.wav",
+     "from": 866,
+     "frames": 279
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u68c0\u67e5\u6bcf\u4e2a\u8d28\u6570\u7684\u4e2a\u4f4d\u5faa\u73af\uff0c\u522b\u60f3\u5f53\u7136\u5730\u4ee5\u4e3a\u662f1\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u68c0\u67e5\u6bcf\u4e2a\u8d28\u6570\u7684\u4e2a\u4f4d\u5faa\u73af\uff0c\u522b\u60f3\u5f53\u7136\u5730\u4ee5\u4e3a\u662f1\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/beb1bca53e7983ab.wav",
+     "from": 1155,
+     "frames": 246
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u6362\u4e00\u4e2a\u6570",
+   "from": 11217,
+   "frames": 536,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u540c\u6837\u7684\u601d\u8def\uff0c\u6362\u4e00\u4e2a\u6570\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u540c\u6837\u7684\u601d\u8def\uff0c\u6362\u4e00\u4e2a\u6570\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/0285b76a23e4d69c.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "3\u76845\u6b21\u65b9\uff0c\u4e587\u76844\u6b21\u65b9\uff0c\u518d\u4e5813\u7684\u7acb\u65b9\u3002",
+     "caption": "3\u76845\u6b21\u65b9\uff0c\u4e587\u76844\u6b21\u65b9\uff0c\u518d\u4e5813\u7684\u7acb\u65b9\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/c9e7c6f73c980c70.wav",
+     "from": 143,
+     "frames": 192
+    },
+    {
+     "text": "\u8fd9\u4e2a\u6570\u7684\u6b63\u56e0\u6570\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u7684\u4e2a\u4f4d\u6570\u5b57\u662f1\uff1f",
+     "caption": "\u8fd9\u4e2a\u6570\u7684\u6b63\u56e0\u6570\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u7684\u4e2a\u4f4d\u6570\u5b57\u662f1\uff1f",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/01b0b6b824cd7d78.wav",
+     "from": 346,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11753,
+   "frames": 394,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/ffab55b920c021a1.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u7684\u6570\uff1a\u7b54\u6848",
+   "from": 12147,
+   "frames": 1239,
+   "lines": [
+    {
+     "text": "\u8fd8\u662f\u540c\u6837\u7684\u8868\u683c\uff01\u73b0\u5728a\u4ece0\u52305\uff0cc\u4ece0\u52303\u3002\u4e00\u517124\u4e2a\u65b9\u5757\u3002",
+     "caption": "\u8fd8\u662f\u540c\u6837\u7684\u8868\u683c\uff01\u73b0\u5728a\u4ece0\u52305\uff0cc\u4ece0\u52303\u3002\u4e00\u517124\u4e2a\u65b9\u5757\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/e47813e00337ef20.wav",
+     "from": 0,
+     "frames": 278
+    },
+    {
+     "text": "\u5f53a\u52a0c\u662f0\u30014\u62168\u65f6\uff0c\u4e2a\u4f4d\u662f1\u30021\u52a04\u52a01\uff0c6\u4e2a\u65b9\u5757\u3002",
+     "caption": "\u5f53a\u52a0c\u662f0\u30014\u62168\u65f6\uff0c\u4e2a\u4f4d\u662f1\u30021\u52a04\u52a01\uff0c6\u4e2a\u65b9\u5757\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/bfbb872fc663bd0b.wav",
+     "from": 287,
+     "frames": 280
+    },
+    {
+     "text": "\u8fd9\u4e9b\u65b9\u5757\u6bcf\u4e2a\u90fd\u6709\u4e24\u4e2a\u642d\u6863\uff0cb\u7b49\u4e8e0\u62164\u3002\u4e00\u517112\u79cd\u3002",
+     "caption": "\u8fd9\u4e9b\u65b9\u5757\u6bcf\u4e2a\u90fd\u6709\u4e24\u4e2a\u642d\u6863\uff0cb\u7b49\u4e8e0\u62164\u3002\u4e00\u517112\u79cd\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/b74e35514071e78e.wav",
+     "from": 578,
+     "frames": 249
+    },
+    {
+     "text": "24\u51cf6\uff0c\u5269\u4e0b18\u4e2a\u65b9\u5757\uff0c\u6bcf\u4e2a\u53ea\u6709\u4e00\u4e2a\u642d\u6863\u3002\u53c8\u662f18\u79cd\u3002",
+     "caption": "24\u51cf6\uff0c\u5269\u4e0b18\u4e2a\u65b9\u5757\uff0c\u6bcf\u4e2a\u53ea\u6709\u4e00\u4e2a\u642d\u6863\u3002\u53c8\u662f18\u79cd\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/10c8ea6b1fe995de.wav",
+     "from": 836,
+     "frames": 219
+    },
+    {
+     "text": "12\u52a018\u3002\u7b54\u6848\u662f\uff0c30\uff01",
+     "caption": "12\u52a018\u3002\u7b54\u6848\u662f\uff0c30\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/a86ce7b90e042378.wav",
+     "from": 1065,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13386,
+   "frames": 633,
+   "lines": [
+    {
+     "text": "\u6838\u5fc3\u601d\u8def\uff1a\u53ea\u6709\u4e2a\u4f4d\u6570\u5b57\u6709\u7528\uff0c\u800c\u4e14\u4e2a\u4f4d\u6570\u5b57\u4f1a\u5faa\u73af\u51fa\u73b0\u3002",
+     "caption": "\u6838\u5fc3\u601d\u8def\uff1a\u53ea\u6709\u4e2a\u4f4d\u6570\u5b57\u6709\u7528\uff0c\u800c\u4e14\u4e2a\u4f4d\u6570\u5b57\u4f1a\u5faa\u73af\u51fa\u73b0\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/a5cde6bfab64d90e.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "\u628a\u6bcf\u4e2a\u8d28\u6570\u90fd\u770b\u62103\u7684\u6b21\u65b9\uff0c\u770b\u4e2a\u4f4d\u5c31\u884c\u3002\u8fd9\u65f6\u6307\u6570\u5fc5\u987b\u662f4\u7684\u500d\u6570\u3002",
+     "caption": "\u628a\u6bcf\u4e2a\u8d28\u6570\u90fd\u770b\u62103\u7684\u6b21\u65b9\uff0c\u770b\u4e2a\u4f4d\u5c31\u884c\u3002\u8fd9\u65f6\u6307\u6570\u5fc5\u987b\u662f4\u7684\u500d\u6570\u3002",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/789e03186901079e.wav",
+     "from": 208,
+     "frames": 264
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-11-07-divisors-ending-1-zh/audio/81fae419da856859.wav",
+     "from": 482,
+     "frames": 118
+    }
+   ]
+  }
+ ]
+}

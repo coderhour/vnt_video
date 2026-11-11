@@ -7,6 +7,7 @@ import { Tex } from '../../lib/Tex';
 import { Choices, Confetti, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-juice-jugs';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -626,3 +627,15 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the two jugs at the start (A water, B 60% juice), no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>60%?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 30 }}>
+      <div style={{ position: 'relative', width: 662, height: 374 }}>
+        <Jugs ox={0} oy={0} s={0.72} blocks={MAIN} T={T_START} />
+      </div>
+      <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '8px 44px', fontSize: 64, fontWeight: 900, whiteSpace: 'nowrap' }}>% juice in B?</div>
+    </div>
+  </ThumbFrame>
+);

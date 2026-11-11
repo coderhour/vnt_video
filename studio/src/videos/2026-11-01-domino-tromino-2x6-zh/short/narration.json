@@ -1,0 +1,47 @@
+{
+ "title": "多米诺骨牌和 L 形块 (短片)",
+ "fps": 30,
+ "lang": "zh",
+ "voice": "Zephyr",
+ "style": "warm and upbeat, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC 10挑战！你觉得是13？错！"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "用骨牌和L形状的块，铺满2乘6的板。",
+    "能旋转，几种铺法？"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "评论你的选项，然后接着看！"
+   ]
+  },
+  {
+   "id": "zigzag",
+   "lines": [
+    "左上角：放骨牌，或放L，开始之字链。",
+    "先放L，再横放骨牌，最后放L，都有镜像！",
+    "填表：两个1，然后2、5、11、24。"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "长度6，53种！答案是C！",
+    "别选13：只算了骨牌！",
+    "答案53，你答对了吗？在评论里告诉我！"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

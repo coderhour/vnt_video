@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-star-operation';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -440,7 +441,7 @@ const Why: SceneComponent = ({ scene }) => {
       <Rule start={-100} />
       <Win a={l(0, 0.8)} b={l(1, 0)}>
         <Expr x={60} y={430} size={48} pieces={[{ tex: '(1+a)(1+b)=1+a+b+ab', start: l(0, 0.82), color: C.muted }]} />
-        <Check x={800} y={444} start={l(0, 0.9)}>{''}</Check>
+        <Check x={880} y={444} start={l(0, 0.9)}>{''}</Check>
       </Win>
       <Expr x={60} y={250} size={48} pieces={[
         { tex: `1+(a\\star b)=\\dfrac{${tp('1+ab+a+b')}}{${bt('1+ab')}}`, start: l(0, 0.25) },
@@ -698,3 +699,23 @@ const SCENES: Record<string, SceneComponent> = {
 void NUNITO;
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-star-operation-thumb`, render.sh → poster.jpg): the star rule and the chain of four fractions, no answer.
+export const Thumb: React.FC = () => {
+  const row = (y: number, tex: string, size: number) => (
+    <foreignObject x={0} y={y - size} width={680} height={size * 2} style={{ overflow: 'visible' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: size * 2, whiteSpace: 'nowrap' }}>
+        <Tex tex={tex} size={size} />
+      </div>
+    </foreignObject>
+  );
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>5/7?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <rect x={10} y={80} width={660} height={480} rx={40} fill={C.card} stroke={C.line} strokeWidth={4} />
+        {row(205, RULE, 74)}
+        {row(425, QEXPR, 52)}
+      </svg>
+    </ThumbFrame>
+  );
+};

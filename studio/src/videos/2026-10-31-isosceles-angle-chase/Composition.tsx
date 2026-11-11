@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
 import { Answer, Check, Confetti, Pill, Text } from '../../lib/ui';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-isosceles-angle-chase';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -594,3 +595,13 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the figure with the 24° clue and the unknown top angle, no answer.
+// Fig is laid out for the 1920×1080 video frame, so it is drawn there and scaled down to the 1280×720 thumbnail.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>24°?</span>]}>
+    <div style={{ position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, transform: 'scale(0.6667)', transformOrigin: '0 0' }}>
+      <Fig bx={1017} by={990} H={900} ticks={allTicks(0)} arcs={[arcABD(1)]} labels={[labABD('24°', 1), labA('?', 1)]} />
+    </div>
+  </ThumbFrame>
+);

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-rectangle-midpoint-area';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -638,3 +639,12 @@ export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline: raw }
   return timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
 
 };
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the question's rectangle with the shaded region, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>48?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Figure g={Q} m={plane(80, 470, 44)} letterSize={54} />
+    </svg>
+  </ThumbFrame>
+);

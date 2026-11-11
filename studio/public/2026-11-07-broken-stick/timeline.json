@@ -1,0 +1,535 @@
+{
+ "fps": 30,
+ "durationInFrames": 12550,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 530,
+   "lines": [
+    {
+     "text": "Snap a stick in two random places, and you get three pieces.",
+     "caption": "Snap a stick in 2 random places, and you get 3 pieces.",
+     "file": "2026-11-07-broken-stick/audio/be4ba7ab0e6f0977.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Is the longest piece less than twice the shortest? Here's a hint: it's rarer than you might think.",
+     "caption": "Is the longest piece less than twice the shortest? Here's a hint: it's rarer than you might think.",
+     "file": "2026-11-07-broken-stick/audio/3c79f4e7ea3b741c.wav",
+     "from": 141,
+     "frames": 194
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's turn this stick puzzle into a picture.",
+     "caption": "Hi, I'm Vantee! Let's turn this stick puzzle into a picture.",
+     "file": "2026-11-07-broken-stick/audio/d26f450f43426074.wav",
+     "from": 345,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 530,
+   "frames": 656,
+   "lines": [
+    {
+     "text": "Here's the question: a stick is cut at two points, chosen at random along its length. That makes three pieces.",
+     "caption": "Here's the question: a stick is cut at 2 points, chosen at random along its length. That makes 3 pieces.",
+     "file": "2026-11-07-broken-stick/audio/29c305ff0b7fc22e.wav",
+     "from": 0,
+     "frames": 266
+    },
+    {
+     "text": "What is the probability that the longest piece is less than twice as long as the shortest piece?",
+     "caption": "What is the probability that the longest piece is less than twice as long as the shortest piece?",
+     "file": "2026-11-07-broken-stick/audio/64167e0f94c2201b.wav",
+     "from": 276,
+     "frames": 215
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the 5 choices. Take a good look.",
+     "file": "2026-11-07-broken-stick/audio/b97a89671840f7ca.wav",
+     "from": 501,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1186,
+   "frames": 708,
+   "lines": [
+    {
+     "text": "Let's make the stick sixty units long. Any length gives the same chance.",
+     "caption": "Let's make the stick 60 units long. Any length gives the same chance.",
+     "file": "2026-11-07-broken-stick/audio/f6b5a08f9380f6c3.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "Pieces of sixteen, twenty and twenty-four win. Twenty-four is less than two times sixteen, thirty-two.",
+     "caption": "Pieces of 16, 20 and 24 win. 24 is less than 2 times 16, 32.",
+     "file": "2026-11-07-broken-stick/audio/2c997d69cc0c6200.wav",
+     "from": 163,
+     "frames": 256
+    },
+    {
+     "text": "But ten, twenty and thirty loses. Thirty is NOT less than two times ten, which is twenty.",
+     "caption": "But 10, 20 and 30 loses. 30 is NOT less than 2 times 10, which is 20.",
+     "file": "2026-11-07-broken-stick/audio/d38ac4fe1793cdee.wav",
+     "from": 429,
+     "frames": 231
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1894,
+   "frames": 460,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-broken-stick/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 143
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "kind": "scene",
+   "chapter": "Solution 1: map the cuts",
+   "from": 2354,
+   "frames": 1089,
+   "lines": [
+    {
+     "text": "Welcome back! Call the first cut x and the second y: every pair of cuts is a dot in a sixty by sixty square.",
+     "caption": "Welcome back! Call the first cut x and the second y: every pair of cuts is a dot in a 60 by 60 square.",
+     "file": "2026-11-07-broken-stick/audio/4f05cc59a49adb80.wav",
+     "from": 0,
+     "frames": 270
+    },
+    {
+     "text": "Random cuts give a random dot. So the chance is a share of the square's area, three thousand six hundred.",
+     "caption": "Random cuts give a random dot. So the chance is a share of the square's area, 3600.",
+     "file": "2026-11-07-broken-stick/audio/72f3b88908de35c8.wav",
+     "from": 281,
+     "frames": 258
+    },
+    {
+     "text": "Above the diagonal, the second cut is further right. The pieces are x, y minus x, and sixty minus y.",
+     "caption": "Above the diagonal, the second cut is further right. The pieces are x, y minus x, and 60 minus y.",
+     "file": "2026-11-07-broken-stick/audio/c6a2d913a585ce63.wav",
+     "from": 549,
+     "frames": 255
+    },
+    {
+     "text": "Below the diagonal is a mirror copy. So let's work in the top half. Its area is one thousand eight hundred.",
+     "caption": "Below the diagonal is a mirror copy. So let's work in the top half. Its area is 1800.",
+     "file": "2026-11-07-broken-stick/audio/cb894d0134ea089f.wav",
+     "from": 814,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "orders",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3443,
+   "frames": 1158,
+   "lines": [
+    {
+     "text": "Which piece is shortest? Three lines, where two pieces are equal, cut the top half into six slices.",
+     "caption": "Which piece is shortest? 3 lines, where 2 pieces are equal, cut the top half into 6 slices.",
+     "file": "2026-11-07-broken-stick/audio/6c69062d41ef3941.wav",
+     "from": 0,
+     "frames": 248
+    },
+    {
+     "text": "All three lines meet at one point, where every piece is twenty.",
+     "caption": "All 3 lines meet at one point, where every piece is 20.",
+     "file": "2026-11-07-broken-stick/audio/36afd11dd8d8c7f1.wav",
+     "from": 258,
+     "frames": 150
+    },
+    {
+     "text": "Take the slice where left is shortest and right is longest. Its base is thirty, and its height is twenty.",
+     "caption": "Take the slice where left is shortest and right is longest. Its base is 30, and its height is 20.",
+     "file": "2026-11-07-broken-stick/audio/99e7198beaa7688c.wav",
+     "from": 418,
+     "frames": 244
+    },
+    {
+     "text": "So its area is half of thirty times twenty. That's three hundred.",
+     "caption": "So its area is half of 30 times 20. That's 300.",
+     "file": "2026-11-07-broken-stick/audio/dad82de125364196.wav",
+     "from": 672,
+     "frames": 182
+    },
+    {
+     "text": "No piece is special, so all six slices have the same area. Six times three hundred is one thousand eight hundred!",
+     "caption": "No piece is special, so all 6 slices have the same area. 6 times 300 is 1800!",
+     "file": "2026-11-07-broken-stick/audio/d4a342163889037b.wav",
+     "from": 864,
+     "frames": 246
+    }
+   ]
+  },
+  {
+   "id": "good",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4601,
+   "frames": 1114,
+   "lines": [
+    {
+     "text": "In our slice, we win when the right piece is less than two times the left piece.",
+     "caption": "In our slice, we win when the right piece is less than 2 times the left piece.",
+     "file": "2026-11-07-broken-stick/audio/358d6ff36b5a3eb8.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "Where left equals middle, the border has right equal to two lefts. That's one, one, two parts of sixty: fifteen, fifteen, thirty.",
+     "caption": "Where left equals middle, the border has right equal to 2 lefts. That's 1, 1, 2 parts of 60: 15, 15, 30.",
+     "file": "2026-11-07-broken-stick/audio/75cb53165446b42e.wav",
+     "from": 180,
+     "frames": 394
+    },
+    {
+     "text": "Where middle equals right, right is still two lefts. That's one, two, two parts of sixty: twelve, twenty-four, twenty-four.",
+     "caption": "Where middle equals right, right is still 2 lefts. That's 1, 2, 2 parts of 60: 12, 24, 24.",
+     "file": "2026-11-07-broken-stick/audio/b3f2802bc13cd80b.wav",
+     "from": 584,
+     "frames": 309
+    },
+    {
+     "text": "So the winning part is a small triangle, from the equal point to these two spots.",
+     "caption": "So the winning part is a small triangle, from the equal point to these 2 spots.",
+     "file": "2026-11-07-broken-stick/audio/eb4db5a407b7afa1.wav",
+     "from": 903,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "area",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5715,
+   "frames": 881,
+   "lines": [
+    {
+     "text": "Let's find its area with a box trick. The box is eight wide and ten tall, so its area is eighty.",
+     "caption": "Let's find its area with a box trick. The box is 8 wide and 10 tall, so its area is 80.",
+     "file": "2026-11-07-broken-stick/audio/0b8ee6d9472302d2.wav",
+     "from": 0,
+     "frames": 222
+    },
+    {
+     "text": "Cut off the three right triangles around ours. Half of five times ten is twenty-five.",
+     "caption": "Cut off the 3 right triangles around ours. Half of 5 times 10 is 25.",
+     "file": "2026-11-07-broken-stick/audio/c6d5e7210950ed40.wav",
+     "from": 233,
+     "frames": 183
+    },
+    {
+     "text": "Half of four times eight is sixteen. Half of three times six is nine.",
+     "caption": "Half of 4 times 8 is 16. Half of 3 times 6 is 9.",
+     "file": "2026-11-07-broken-stick/audio/24750122eee8c346.wav",
+     "from": 425,
+     "frames": 204
+    },
+    {
+     "text": "That's fifty in all. So the winning triangle is eighty minus fifty. That's thirty!",
+     "caption": "That's 50 in all. So the winning triangle is 80 minus 50. That's 30!",
+     "file": "2026-11-07-broken-stick/audio/02186800544c8d03.wav",
+     "from": 640,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6596,
+   "frames": 583,
+   "lines": [
+    {
+     "text": "Every slice works the same way. Six winning triangles make a hexagon of one hundred eighty.",
+     "caption": "Every slice works the same way. 6 winning triangles make a hexagon of 180.",
+     "file": "2026-11-07-broken-stick/audio/d6c36ecd2fff7722.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "The bottom half is a mirror copy. So the chance is one hundred eighty out of one thousand eight hundred.",
+     "caption": "The bottom half is a mirror copy. So the chance is 180 out of 1800.",
+     "file": "2026-11-07-broken-stick/audio/c58e60d0a0103e36.wav",
+     "from": 210,
+     "frames": 209
+    },
+    {
+     "text": "That's <short pause> one over ten! Choice C.",
+     "caption": "That's 1/10! Choice C.",
+     "file": "2026-11-07-broken-stick/audio/9bc2b019e92aff31.wav",
+     "from": 429,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "kind": "scene",
+   "chapter": "Solution 2: the walking shortcut",
+   "from": 7179,
+   "frames": 1240,
+   "lines": [
+    {
+     "text": "Here's a faster way, with no box at all. Stay in our slice, and start at the equal point.",
+     "caption": "Here's a faster way, with no box at all. Stay in our slice, and start at the equal point.",
+     "file": "2026-11-07-broken-stick/audio/9280c0c784e64544.wav",
+     "from": 0,
+     "frames": 212
+    },
+    {
+     "text": "Walk along an edge to the far corner. The shortest piece shrinks steadily, from twenty down to zero.",
+     "caption": "Walk along an edge to the far corner. The shortest piece shrinks steadily, from 20 down to 0.",
+     "file": "2026-11-07-broken-stick/audio/977a3dabc763f3db.wav",
+     "from": 221,
+     "frames": 232
+    },
+    {
+     "text": "On edge one, we already found the border: fifteen, fifteen, thirty.",
+     "caption": "On edge one, we already found the border: 15, 15, 30.",
+     "file": "2026-11-07-broken-stick/audio/c40283e742256f9f.wav",
+     "from": 463,
+     "frames": 207
+    },
+    {
+     "text": "The shortest piece shrank five out of twenty. That's one over four of the way.",
+     "caption": "The shortest piece shrank 5 out of 20. That's 1/4 of the way.",
+     "file": "2026-11-07-broken-stick/audio/a352ff6dddf137d7.wav",
+     "from": 680,
+     "frames": 167
+    },
+    {
+     "text": "On edge two, we already found the border: twelve, twenty-four, twenty-four.",
+     "caption": "On edge 2, we already found the border: 12, 24, 24.",
+     "file": "2026-11-07-broken-stick/audio/509645524b4b945e.wav",
+     "from": 858,
+     "frames": 195
+    },
+    {
+     "text": "It shrank eight out of twenty. That's two over five of the way.",
+     "caption": "It shrank 8 out of 20. That's 2/5 of the way.",
+     "file": "2026-11-07-broken-stick/audio/61ac9cdb0f24c907.wav",
+     "from": 1063,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "walk2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 8419,
+   "frames": 551,
+   "lines": [
+    {
+     "text": "Shrink two sides of a triangle toward one corner, and its area shrinks by both fractions, multiplied.",
+     "caption": "Shrink 2 sides of a triangle toward one corner, and its area shrinks by both fractions, multiplied.",
+     "file": "2026-11-07-broken-stick/audio/6e063a6ab3fe8167.wav",
+     "from": 0,
+     "frames": 218
+    },
+    {
+     "text": "One over four, times two over five, is one over ten. Much faster! Pick this when the winning part sits in a corner.",
+     "caption": "1/4, times 2/5, is 1/10. Much faster! Pick this when the winning part sits in a corner.",
+     "file": "2026-11-07-broken-stick/audio/3707cc65b3565240.wav",
+     "from": 228,
+     "frames": 281
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8970,
+   "frames": 944,
+   "lines": [
+    {
+     "text": "Now, the traps.",
+     "caption": "Now, the traps.",
+     "file": "2026-11-07-broken-stick/audio/0b45bff0a42cf8cf.wav",
+     "from": 0,
+     "frames": 51
+    },
+    {
+     "text": "A, one over twenty, is what you'd get if you forgot the mirror copy below the diagonal.",
+     "caption": "A, 1/20, is what you'd get if you forgot the mirror copy below the diagonal.",
+     "file": "2026-11-07-broken-stick/audio/a056de79784d5830.wav",
+     "from": 61,
+     "frames": 200
+    },
+    {
+     "text": "B, one over twelve, is what you'd get if one whole slice counted as a win.",
+     "caption": "B, 1/12, is what you'd get if one whole slice counted as a win.",
+     "file": "2026-11-07-broken-stick/audio/9d34e18cd11a7642.wav",
+     "from": 270,
+     "frames": 165
+    },
+    {
+     "text": "D, one over six, is the chance of just one ordering. It forgets the twice-as-long rule.",
+     "caption": "D, 1/6, is the chance of just one ordering. It forgets the twice-as-long rule.",
+     "file": "2026-11-07-broken-stick/audio/123f3acafaf98fb1.wav",
+     "from": 445,
+     "frames": 208
+    },
+    {
+     "text": "Choice E, one over four, is the famous chance that the three pieces can make a triangle. Our test is stricter!",
+     "caption": "Choice E, 1/4, is the famous chance that the 3 pieces can make a triangle. Our test is stricter!",
+     "file": "2026-11-07-broken-stick/audio/5380a5ffff5269d9.wav",
+     "from": 663,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: three times",
+   "from": 9914,
+   "frames": 333,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same stick, but an easier test.",
+     "caption": "Ready for a challenge? Same stick, but an easier test.",
+     "file": "2026-11-07-broken-stick/audio/d74ecccb913e6078.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "What's the chance that the longest piece is less than THREE times the shortest?",
+     "caption": "What's the chance that the longest piece is less than 3 times the shortest?",
+     "file": "2026-11-07-broken-stick/audio/31d91045d55d7759.wav",
+     "from": 141,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10247,
+   "frames": 391,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-broken-stick/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Three times: the answer",
+   "from": 10638,
+   "frames": 1334,
+   "lines": [
+    {
+     "text": "Let's walk again, with a stick one hundred five long.",
+     "caption": "Let's walk again, with a stick 105 long.",
+     "file": "2026-11-07-broken-stick/audio/ad4d44b64794f5ed.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "The equal point has three pieces of thirty-five. On edge one, ratio one, one, three gives twenty-one, twenty-one, sixty-three.",
+     "caption": "The equal point has 3 pieces of 35. On edge 1, ratio 1, 1, 3 gives 21, 21, 63.",
+     "file": "2026-11-07-broken-stick/audio/cd2ba30ee6707d64.wav",
+     "from": 153,
+     "frames": 316
+    },
+    {
+     "text": "The shortest piece shrank fourteen out of thirty-five. That's two over five of the way.",
+     "caption": "The shortest piece shrank 14 out of 35. That's 2/5 of the way.",
+     "file": "2026-11-07-broken-stick/audio/15cb487683ad16bd.wav",
+     "from": 479,
+     "frames": 197
+    },
+    {
+     "text": "On edge two, ratio one, three, three gives fifteen, forty-five, forty-five.",
+     "caption": "On edge 2, ratio 1, 3, 3 gives 15, 45, 45.",
+     "file": "2026-11-07-broken-stick/audio/6ae0268d52ac949d.wav",
+     "from": 687,
+     "frames": 218
+    },
+    {
+     "text": "It shrank twenty out of thirty-five. That's four over seven of the way.",
+     "caption": "It shrank 20 out of 35. That's 4/7 of the way.",
+     "file": "2026-11-07-broken-stick/audio/0b8f206c4e7ba9b1.wav",
+     "from": 914,
+     "frames": 173
+    },
+    {
+     "text": "Two over five, times four over seven, is <short pause> eight over thirty-five!",
+     "caption": "2/5, times 4/7, is 8/35!",
+     "file": "2026-11-07-broken-stick/audio/10d17574b868e08a.wav",
+     "from": 1098,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11972,
+   "frames": 578,
+   "lines": [
+    {
+     "text": "The big idea: two random cuts make a random dot in a square.",
+     "caption": "The big idea: 2 random cuts make a random dot in a square.",
+     "file": "2026-11-07-broken-stick/audio/b320863eb2974e56.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "Every ordering of the pieces gets an equal slice. So find the winning share of just one slice.",
+     "caption": "Every ordering of the pieces gets an equal slice. So find the winning share of just one slice.",
+     "file": "2026-11-07-broken-stick/audio/ce48f91e05814277.wav",
+     "from": 176,
+     "frames": 206
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-broken-stick/audio/31a6054d0b03b932.wav",
+     "from": 392,
+     "frames": 124
+    }
+   ]
+  }
+ ]
+}

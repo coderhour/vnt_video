@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-grid-coloring';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -820,3 +821,12 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-grid-coloring-thumb`, render.sh → poster.jpg): the 3×3 grid with the red centre, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>16?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Board ox={50} oy={20} s={200} fills={{ C: [[-100, RED]] }} labels={{ C: { text: 'R', color: '#fff', o: 1, size: 130 } }} />
+    </svg>
+  </ThumbFrame>
+);

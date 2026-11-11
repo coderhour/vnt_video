@@ -6,6 +6,7 @@ import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-fibonacci-2024';
@@ -605,3 +606,25 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-fibonacci-2024-thumb`, render.sh → poster.jpg): the trap + the term boxes ending at 2024, no answer.
+export const Thumb: React.FC = () => {
+  const box = (x: number, y: number, w: number, t: string, c: string, fill = C.card, fs = 96) => (
+    <g>
+      <rect x={x} y={y} width={w} height={150} rx={26} fill={fill} stroke={c} strokeWidth={7} />
+      <text x={x + w / 2} y={y + 106} textAnchor="middle" fontSize={fs} fontWeight={900} fill={c}>{t}</text>
+    </g>
+  );
+  return (
+    <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>71?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        {box(30, 50, 300, 'x', YC)}
+        {box(350, 50, 300, 'y', YC)}
+        {box(30, 230, 300, '?', C.muted)}
+        {box(350, 230, 300, '?', C.muted)}
+        {box(30, 410, 620, '2024', C.primary, C.primarySoft, 110)}
+        <text x={340} y={610} textAnchor="middle" fontSize={44} fontWeight={800} fill={C.muted}>each = sum of the two before</text>
+      </svg>
+    </ThumbFrame>
+  );
+};

@@ -1,6 +1,6 @@
 {
- "title": "Who Gets More Heads? 5 Coins vs 7 | AMC 10-Style Level 4",
- "description": "Ann flips 5 coins and Bob flips 7. What is the chance Bob gets more heads? Vantee shows a neat trick: flip Ann's coins over, and the race turns into one count of 12 coins. Then a second way with a fair game and a tiebreak coin, the traps hiding in the answer choices, and a 3-vs-5 challenge for you to try.\n\n0:00 Intro\n0:21 The question\n0:39 What are we asked?\n1:00 Try it yourself\n1:15 Solution 1: flip Ann's coins\n3:19 Solution 2: fair game plus a tiebreak\n4:36 Common traps\n5:34 Your turn: three against five\n6:03 Three against five: the answer\n6:42 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 10 Practice: Coin Flip Probability — 5 Coins vs 7",
+ "description": "AMC 10 practice problem on coin flip probability, comparing heads from 5 coins and 7 coins with a flip-symmetry trick and a tiebreak game. (Level 4 of 5)\nAnn flips 5 coins and Bob flips 7. What is the chance Bob gets more heads? Vantee shows a neat trick: flip Ann's coins over, and the race turns into one count of 12 coins. Then a second way with a fair game and a tiebreak coin, the traps hiding in the answer choices, and a 3-vs-5 challenge for you to try.\n\n0:00 Intro\n0:21 The question\n0:39 What are we asked?\n1:00 Try it yourself\n1:15 Solution 1: flip Ann's coins\n3:19 Solution 2: fair game plus a tiebreak\n4:36 Common traps\n5:34 Your turn: three against five\n6:03 Three against five: the answer\n6:42 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-11-01",
  "question_id": "amc_practice_amc10_mixed_template:c2-047",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Ann flips 5 coins, Bob flips 7. Chance Bob gets more heads? Comment your answer before you watch the solution!"
 }

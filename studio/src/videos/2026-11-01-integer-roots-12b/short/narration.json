@@ -6,15 +6,13 @@
  "scene_tail": 0.4,
  "caption_digits": true,
  "captions": {
-  "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?": "For how many integers b are both roots of x² + bx + 12b = 0 integers?",
-  "Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.": "Call the roots r and s. Sum and product give rs + 12r + 12s = 0.",
-  "So r plus twelve, times s plus twelve, equals one hundred forty-four.": "So (r+12)(s+12) = 144."
+  "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?": "For how many integers b are both roots of x² + bx + 12b = 0 integers?"
  },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "AMC ten challenge! Think it's eight? Nope!"
+    "Think it's eight? Nope!"
    ]
   },
   {
@@ -32,9 +30,9 @@
   {
    "id": "trick",
    "lines": [
-    "Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.",
+    "Call the roots r and s. Sum and product give this.",
     "Add one hundred forty-four to both sides. That fills the grid!",
-    "So r plus twelve, times s plus twelve, equals one hundred forty-four.",
+    "Now the left side factors!",
     "Its factor pairs: eight positive, and eight negative!"
    ]
   },

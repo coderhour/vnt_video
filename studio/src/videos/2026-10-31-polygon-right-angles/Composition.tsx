@@ -7,6 +7,7 @@ import { Stage } from '../../lib/grid';
 import { Tex } from '../../lib/Tex';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import {
   CornerMark, Outline, PartialShape, SQUARE, SvgText, TurnCircle, Walker, corner, flashP, passP, poly11, poly5, walkU,
@@ -493,3 +494,12 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-31-polygon-right-angles-thumb`, render.sh → poster.jpg): the partly drawn polygon with its two right angles, no side count.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>9?</span>]}>
+    <svg viewBox="1095 95 850 800" style={{ width: '100%', height: '100%' }}>
+      <PartialShape poly={PART_Q} />
+    </svg>
+  </ThumbFrame>
+);

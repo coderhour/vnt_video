@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-x-o-strings';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -703,3 +704,17 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-x-o-strings-thumb`, render.sh -> poster.jpg): the trap + a row of X and O tiles, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>35?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 36 }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, width: 640, justifyContent: 'center' }}>
+        {['X', 'X', 'O', 'X', 'O', 'X', 'O', 'O'].map((t, i) => (
+          <div key={i} style={{ width: 140, height: 140, borderRadius: 28, background: t === 'X' ? C.primary : C.violet, color: '#fff', fontSize: 100, fontWeight: 900, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{t}</div>
+        ))}
+      </div>
+      <div style={{ fontSize: 60, fontWeight: 900, color: C.primary }}>X never behind O</div>
+    </div>
+  </ThumbFrame>
+);

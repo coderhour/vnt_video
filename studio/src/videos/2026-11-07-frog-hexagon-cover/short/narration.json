@@ -1,0 +1,50 @@
+{
+ "title": "A Random Frog on a Hexagon (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's twelve? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "A frog hops around a hexagon, to either neighbor, with chance one half.",
+    "On average, how many jumps to visit all six corners?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "stages",
+   "lines": [
+    "Color the visited corners green: always one block, with the frog at an end.",
+    "Straighten it, with an exit on each side. The average wait is steps to one exit, times steps to the other.",
+    "So, one times four: four jumps! The stages go one, two, three, four, five!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Add them up, and you get fifteen jumps!",
+    "Twelve was the trap. The stages aren't equal!",
+    "Did you get fifteen? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "A frog hops around a hexagon, to either neighbor, with chance one half.": "A frog hops around a hexagon, to either neighbor, with chance 1/2.",
+  "So, one times four: four jumps! The stages go one, two, three, four, five!": "So, 1 × 4: 4 jumps! The stages go 1, 2, 3, 4, 5!"
+ }
+}

@@ -1,0 +1,520 @@
+{
+ "fps": 30,
+ "durationInFrames": 11913,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 727,
+   "lines": [
+    {
+     "text": "\u62ff\u4e00\u683936\u4e2a\u5355\u4f4d\u957f\u7684\u7ef3\u5b50\uff0c\u628a\u7ef3\u5b50\u5f2f\u6210\u4e00\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u62ff\u4e00\u683936\u4e2a\u5355\u4f4d\u957f\u7684\u7ef3\u5b50\uff0c\u628a\u7ef3\u5b50\u5f2f\u6210\u4e00\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/d31537fd617efbea.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "\u4f60\u80fd\u5f2f\u51fa\u591a\u5c11\u79cd\u4e0d\u540c\u7684\u5f62\u72b6\u5462\uff1f",
+     "caption": "\u4f60\u80fd\u5f2f\u51fa\u591a\u5c11\u79cd\u4e0d\u540c\u7684\u5f62\u72b6\u5462\uff1f",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/fe8d8da9e1efd82a.wav",
+     "from": 210,
+     "frames": 107
+    },
+    {
+     "text": "\u5c0f\u5fc3\uff1a\u6709\u7684\u4f1a\u88ab\u62c9\u6210\u4e00\u6761\u76f4\u7ebf\uff0c\u6709\u7684\u4f1a\u6709\u4e24\u6761\u4e00\u6837\u957f\u7684\u8fb9\uff01",
+     "caption": "\u5c0f\u5fc3\uff1a\u6709\u7684\u4f1a\u88ab\u62c9\u6210\u4e00\u6761\u76f4\u7ebf\uff0c\u6709\u7684\u4f1a\u6709\u4e24\u6761\u4e00\u6837\u957f\u7684\u8fb9\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/074714ad751b56aa.wav",
+     "from": 327,
+     "frames": 192
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u6570\uff0c\u4e00\u4e2a\u4e5f\u4e0d\u6f0f\u6389\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u6570\uff0c\u4e00\u4e2a\u4e5f\u4e0d\u6f0f\u6389\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/c20963b0af6f7c2c.wav",
+     "from": 530,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 727,
+   "frames": 511,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/7911f96fdb302975.wav",
+     "from": 0,
+     "frames": 40
+    },
+    {
+     "text": "\u6709\u591a\u5c11\u4e2a\u4e09\u89d2\u5f62\uff0c\u4e09\u6761\u8fb9\u957f\u90fd\u662f\u6574\u6570\uff0c\u5468\u957f\u662f36\uff0c",
+     "caption": "\u6709\u591a\u5c11\u4e2a\u4e09\u89d2\u5f62\uff0c\u4e09\u6761\u8fb9\u957f\u90fd\u662f\u6574\u6570\uff0c\u5468\u957f\u662f36\uff0c",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/9c450a4eac8a0b4a.wav",
+     "from": 50,
+     "frames": 191
+    },
+    {
+     "text": "\u800c\u4e14\u4e09\u6761\u8fb9\u957f\u5404\u4e0d\u76f8\u540c\uff1f",
+     "caption": "\u800c\u4e14\u4e09\u6761\u8fb9\u957f\u5404\u4e0d\u76f8\u540c\uff1f",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/6778ec2f391f62c2.wav",
+     "from": 251,
+     "frames": 108
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/7d9c56a5d3c7e51c.wav",
+     "from": 370,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1238,
+   "frames": 692,
+   "lines": [
+    {
+     "text": "\u4e09\u6761\u8fb9\u52a0\u8d77\u6765\u5fc5\u987b\u662f36\u3002\u6bd4\u5982\u5341\u3001\u5341\u4e8c\u548c\u5341\u56db\u3002",
+     "caption": "\u4e09\u6761\u8fb9\u52a0\u8d77\u6765\u5fc5\u987b\u662f36\u3002\u6bd4\u598210\u300112\u548c14\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/5cc9fc6041180986.wav",
+     "from": 0,
+     "frames": 200
+    },
+    {
+     "text": "\u4e09\u6761\u8fb9\u5fc5\u987b\u5404\u4e0d\u76f8\u540c\uff0c\u6240\u4ee5\u5341\u4e8c\u3001\u5341\u4e8c\u3001\u5341\u4e8c\u4e0d\u7b97\u3002",
+     "caption": "\u4e09\u6761\u8fb9\u5fc5\u987b\u5404\u4e0d\u76f8\u540c\uff0c\u6240\u4ee512\u300112\u300112\u4e0d\u7b97\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/cf61c52d39ebb8fa.wav",
+     "from": 210,
+     "frames": 196
+    },
+    {
+     "text": "\u8fd8\u6709\uff0c\u540c\u6837\u7684\u4e09\u6761\u8fb9\u6362\u4e2a\u987a\u5e8f\uff0c\u8fd8\u662f\u540c\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c\u53ea\u6570\u4e00\u6b21\u3002",
+     "caption": "\u8fd8\u6709\uff0c\u540c\u6837\u7684\u4e09\u6761\u8fb9\u6362\u4e2a\u987a\u5e8f\uff0c\u8fd8\u662f\u540c\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c\u53ea\u6570\u4e00\u6b21\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/8998f6260205bde1.wav",
+     "from": 416,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 1930,
+   "frames": 427,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/a75f9cd3d47ea85e.wav",
+     "from": 0,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u6309\u6700\u957f\u8fb9\u5217\u8868",
+   "from": 2357,
+   "frames": 1075,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u5217\u4e00\u5f20\u6709\u6761\u7406\u7684\u8868\u3002\u6bcf\u4e2a\u4e09\u89d2\u5f62\u90fd\u4ece\u6700\u77ed\u8fb9\u5199\u8d77\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6765\u5217\u4e00\u5f20\u6709\u6761\u7406\u7684\u8868\u3002\u6bcf\u4e2a\u4e09\u89d2\u5f62\u90fd\u4ece\u6700\u77ed\u8fb9\u5199\u8d77\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/c597dcd67da7be41.wav",
+     "from": 0,
+     "frames": 207
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62\u6709\u4e2a\u89c4\u5219\uff1a\u4e24\u6761\u8f83\u77ed\u7684\u8fb9\u52a0\u8d77\u6765\uff0c\u5fc5\u987b\u5927\u4e8e\u6700\u957f\u8fb9\u3002",
+     "caption": "\u4e09\u89d2\u5f62\u6709\u4e2a\u89c4\u5219\uff1a\u4e24\u6761\u8f83\u77ed\u7684\u8fb9\u52a0\u8d77\u6765\uff0c\u5fc5\u987b\u5927\u4e8e\u6700\u957f\u8fb9\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/577ebb184e9dbe4e.wav",
+     "from": 217,
+     "frames": 207
+    },
+    {
+     "text": "\u4e24\u6761\u77ed\u8fb9\u7684\u548c\uff0c\u662f36\u51cf\u53bb\u6700\u957f\u8fb9\u3002\u6240\u4ee5\u6700\u957f\u8fb9\u5fc5\u987b\u5c0f\u4e8e18\u3002",
+     "caption": "\u4e24\u6761\u77ed\u8fb9\u7684\u548c\uff0c\u662f36\u51cf\u53bb\u6700\u957f\u8fb9\u3002\u6240\u4ee5\u6700\u957f\u8fb9\u5fc5\u987b\u5c0f\u4e8e18\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/122d069581c63f85.wav",
+     "from": 434,
+     "frames": 233
+    },
+    {
+     "text": "\u800c\u4e14\u6700\u957f\u8fb9\u81f3\u5c11\u662f36\u7684\u4e09\u5206\u4e4b\u4e00\uff0c\u4e5f\u5c31\u662f12\u3002",
+     "caption": "\u800c\u4e14\u6700\u957f\u8fb9\u81f3\u5c11\u662f36\u7684\u4e09\u5206\u4e4b\u4e00\uff0c\u4e5f\u5c31\u662f12\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/2a2d078cb6b89259.wav",
+     "from": 677,
+     "frames": 198
+    },
+    {
+     "text": "\u6240\u4ee5\u6700\u957f\u8fb9\u572812\u523017\u4e4b\u95f4\u3002",
+     "caption": "\u6240\u4ee5\u6700\u957f\u8fb9\u572812\u523017\u4e4b\u95f4\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/b9b37696ddb95cde.wav",
+     "from": 885,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3432,
+   "frames": 1969,
+   "lines": [
+    {
+     "text": "\u6700\u957f\u8fb9\u662f17\uff1a\u53e6\u5916\u4e24\u6761\u8fb9\u52a0\u8d77\u6765\u662f19\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f17\uff1a\u53e6\u5916\u4e24\u6761\u8fb9\u52a0\u8d77\u6765\u662f19\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/cb4be208b060f896.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "\u4ece3\u548c16\uff0c\u4e00\u76f4\u52309\u548c10\u3002\u4e00\u51717\u4e2a\u3002",
+     "caption": "\u4ece3\u548c16\uff0c\u4e00\u76f4\u52309\u548c10\u3002\u4e00\u51717\u4e2a\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/f0ff0c17ffa72d86.wav",
+     "from": 165,
+     "frames": 176
+    },
+    {
+     "text": "\u4e2d\u95f4\u7684\u8fb9\u8981\u5c0f\u4e8e17\uff0c\u6700\u77ed\u8fb9\u8981\u5c0f\u4e8e\u4e2d\u95f4\u7684\u8fb9\u3002",
+     "caption": "\u4e2d\u95f4\u7684\u8fb9\u8981\u5c0f\u4e8e17\uff0c\u6700\u77ed\u8fb9\u8981\u5c0f\u4e8e\u4e2d\u95f4\u7684\u8fb9\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/b0aaa7c7cbc115a9.wav",
+     "from": 351,
+     "frames": 180
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u662f16\uff1a\u53e6\u5916\u4e24\u6761\u8fb9\u52a0\u8d77\u6765\u662f20\u3002\u4ece5\u548c15\uff0c\u4e00\u76f4\u52309\u548c11\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f16\uff1a\u53e6\u5916\u4e24\u6761\u8fb9\u52a0\u8d77\u6765\u662f20\u3002\u4ece5\u548c15\uff0c\u4e00\u76f4\u52309\u548c11\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/c36019aec99cc7dd.wav",
+     "from": 542,
+     "frames": 282
+    },
+    {
+     "text": "\u53c8\u591a\u4e865\u4e2a\u3002",
+     "caption": "\u53c8\u591a\u4e865\u4e2a\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/dae817734c8b58ef.wav",
+     "from": 834,
+     "frames": 53
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u662f15\uff1a\u4ece7\u548c14\uff0c\u523010\u548c11\u3002\u4e00\u51714\u4e2a\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f15\uff1a\u4ece7\u548c14\uff0c\u523010\u548c11\u3002\u4e00\u51714\u4e2a\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/ea724431cbf432a2.wav",
+     "from": 897,
+     "frames": 206
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u662f14\uff0c\u6709\u4e24\u4e2a\u3002\u6700\u957f\u8fb9\u662f13\uff0c\u53ea\u6709\u4e00\u4e2a\uff1a\u5341\u4e00\u3001\u5341\u4e8c\u3001\u5341\u4e09\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f14\uff0c\u67092\u4e2a\u3002\u6700\u957f\u8fb9\u662f13\uff0c\u53ea\u67091\u4e2a\uff1a11\u300112\u300113\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/f914b0848c97948a.wav",
+     "from": 1113,
+     "frames": 284
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u662f12\uff0c\u4e00\u4e2a\u4e5f\u6ca1\u6709\u3002\u5c0f\u4e8e12\u7684\u4e24\u6761\u4e0d\u540c\u7684\u8fb9\uff0c\u52a0\u8d77\u6765\u6700\u591a\u662f21\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f12\uff0c\u4e00\u4e2a\u4e5f\u6ca1\u6709\u3002\u5c0f\u4e8e12\u7684\u4e24\u6761\u4e0d\u540c\u7684\u8fb9\uff0c\u52a0\u8d77\u6765\u6700\u591a\u662f21\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/9dd52fc28648a1ad.wav",
+     "from": 1407,
+     "frames": 244
+    },
+    {
+     "text": "7\u52a05\u52a04\u52a02\u52a01\uff0c\u7b49\u4e8e19\u3002\u9009B\uff01",
+     "caption": "7\u52a05\u52a04\u52a02\u52a01\uff0c\u7b49\u4e8e19\u3002\u9009B\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/d9304ab44dddb10b.wav",
+     "from": 1661,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "subtract",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u5148\u5168\u6570\uff0c\u518d\u51cf\u53bb",
+   "from": 5401,
+   "frames": 1956,
+   "lines": [
+    {
+     "text": "\u518d\u770b\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u5148\u6570\u51fa\u6240\u6709\u7684\u4e09\u89d2\u5f62\uff0c\u518d\u53bb\u6389\u6709\u91cd\u590d\u8fb9\u7684\u3002",
+     "caption": "\u518d\u770b\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u5148\u6570\u51fa\u6240\u6709\u7684\u4e09\u89d2\u5f62\uff0c\u518d\u53bb\u6389\u6709\u91cd\u590d\u8fb9\u7684\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/64c5f4c6b324779f.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "\u5982\u679c\u5141\u8bb8\u8fb9\u91cd\u590d\uff0c\u540c\u6837\u7684\u8868\u5c31\u4f1a\u53d8\u6210\u4e00\u517127\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u5982\u679c\u5141\u8bb8\u8fb9\u91cd\u590d\uff0c\u540c\u6837\u7684\u8868\u5c31\u4f1a\u53d8\u6210\u4e00\u517127\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/c2b0a106fd24c2f7.wav",
+     "from": 226,
+     "frames": 213
+    },
+    {
+     "text": "\u6709\u91cd\u590d\u7684\u4e09\u89d2\u5f62\uff0c\u6709\u4e24\u6761\u8fb9\u76f8\u7b49\u3002\u628a\u6bcf\u6761\u90fd\u53eb\u505ax\u3002",
+     "caption": "\u6709\u91cd\u590d\u7684\u4e09\u89d2\u5f62\uff0c\u6709\u4e24\u6761\u8fb9\u76f8\u7b49\u3002\u628a\u6bcf\u6761\u90fd\u53eb\u505ax\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/53ca2028c77170fc.wav",
+     "from": 449,
+     "frames": 191
+    },
+    {
+     "text": "\u90a3\u4e48\u7b2c\u4e09\u6761\u8fb9\u5c31\u662f36\u51cf2x\u3002",
+     "caption": "\u90a3\u4e48\u7b2c\u4e09\u6761\u8fb9\u5c31\u662f36\u51cf2x\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/f253be7962b042a6.wav",
+     "from": 650,
+     "frames": 140
+    },
+    {
+     "text": "\u7b2c\u4e09\u6761\u8fb9\u5fc5\u987b\u5927\u4e8e0\uff0c\u6240\u4ee5x\u5c0f\u4e8e18\u3002",
+     "caption": "\u7b2c\u4e09\u6761\u8fb9\u5fc5\u987b\u5927\u4e8e0\uff0c\u6240\u4ee5x\u5c0f\u4e8e18\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/f5c67d66a8018feb.wav",
+     "from": 800,
+     "frames": 170
+    },
+    {
+     "text": "\u800c\u4e14x\u52a0x\u5fc5\u987b\u5927\u4e8e\u7b2c\u4e09\u6761\u8fb9\uff0c\u6240\u4ee5x\u5927\u4e8e9\u3002",
+     "caption": "\u800c\u4e14x\u52a0x\u5fc5\u987b\u5927\u4e8e\u7b2c\u4e09\u6761\u8fb9\uff0c\u6240\u4ee5x\u5927\u4e8e9\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/9e8f6002d7595cce.wav",
+     "from": 980,
+     "frames": 208
+    },
+    {
+     "text": "\u6240\u4ee5x\u4ece10\u523017\uff0c\u4e00\u51718\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u6240\u4ee5x\u4ece10\u523017\uff0c\u4e00\u51718\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/ad22efeaa776cc42.wav",
+     "from": 1198,
+     "frames": 159
+    },
+    {
+     "text": "\u5341\u4e8c\u3001\u5341\u4e8c\u3001\u5341\u4e8c\u4e5f\u662f\u5176\u4e2d\u4e4b\u4e00\uff0c\u53ea\u7b97\u4e00\u6b21\u3002",
+     "caption": "12\u300112\u300112\u4e5f\u662f\u5176\u4e2d\u4e4b\u4e00\uff0c\u53ea\u7b97\u4e00\u6b21\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/719f3ec0ba8686c7.wav",
+     "from": 1367,
+     "frames": 160
+    },
+    {
+     "text": "27\u51cf8\u7b49\u4e8e19\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "27\u51cf8\u7b49\u4e8e19\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/811177c0368675ab.wav",
+     "from": 1537,
+     "frames": 134
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u9009\u8fd9\u79cd\u65b9\u6cd5\u5462\uff1f\u5f53\u4e0d\u8981\u7684\u90a3\u4e9b\uff0c\u6bd4\u8981\u7684\u66f4\u597d\u6570\u7684\u65f6\u5019\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u9009\u8fd9\u79cd\u65b9\u6cd5\u5462\uff1f\u5f53\u4e0d\u8981\u7684\u90a3\u4e9b\uff0c\u6bd4\u8981\u7684\u66f4\u597d\u6570\u7684\u65f6\u5019\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/d49b5a3a2a943163.wav",
+     "from": 1681,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7357,
+   "frames": 1462,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u5148\u770b\u9009\u9879D\uff0c27\u3002\u8fd9\u662f\u6240\u6709\u4e09\u89d2\u5f62\u7684\u4e2a\u6570\uff0c\u5fd8\u4e86\u53bb\u6389\u6709\u91cd\u590d\u8fb9\u7684\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u5148\u770b\u9009\u9879D\uff0c27\u3002\u8fd9\u662f\u6240\u6709\u4e09\u89d2\u5f62\u7684\u4e2a\u6570\uff0c\u5fd8\u4e86\u53bb\u6389\u6709\u91cd\u590d\u8fb9\u7684\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/b2dd85ebaba8251b.wav",
+     "from": 0,
+     "frames": 256
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879C\uff0c20\u3002\u53bb\u6389\u4e86\u6709\u91cd\u590d\u8fb9\u7684\uff0c\u5374\u6f0f\u4e86\u4e09\u6761\u8fb9\u90fd\u662f12\u7684\u90a3\u4e00\u4e2a\u3002",
+     "caption": "\u518d\u770b\u9009\u9879C\uff0c20\u3002\u53bb\u6389\u4e86\u6709\u91cd\u590d\u8fb9\u7684\uff0c\u5374\u6f0f\u4e86\u4e09\u6761\u8fb9\u90fd\u662f12\u7684\u90a3\u4e00\u4e2a\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/896ebb876bafb308.wav",
+     "from": 266,
+     "frames": 256
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f27\u51cf7\u3002",
+     "caption": "\u4e5f\u5c31\u662f27\u51cf7\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/1eb07e60a962aa2c.wav",
+     "from": 532,
+     "frames": 92
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c35\uff0c\u592a\u591a\u4e86\u3002\u6240\u6709\u4e09\u89d2\u5f62\u4e00\u5171\u624d27\u4e2a\uff01",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c35\uff0c\u592a\u591a\u4e86\u3002\u6240\u6709\u4e09\u89d2\u5f62\u4e00\u5171\u624d27\u4e2a\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/d3af6280aeba14c0.wav",
+     "from": 634,
+     "frames": 226
+    },
+    {
+     "text": "\u9009\u9879A\uff0c17\uff0c\u662f\u6f0f\u6389\u8868\u91cc\u67d0\u4e00\u884c\u65f6\u5f97\u5230\u7684\u7ed3\u679c\u3002",
+     "caption": "\u9009\u9879A\uff0c17\uff0c\u662f\u6f0f\u6389\u8868\u91cc\u67d0\u4e00\u884c\u65f6\u5f97\u5230\u7684\u7ed3\u679c\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/470e39e721b10ff1.wav",
+     "from": 870,
+     "frames": 178
+    },
+    {
+     "text": "\u6bd4\u5982\uff0c\u6f0f\u6389\u6700\u957f\u8fb9\u662f14\u7684\u90a3\u4e24\u4e2a\u3002",
+     "caption": "\u6bd4\u5982\uff0c\u6f0f\u6389\u6700\u957f\u8fb9\u662f14\u7684\u90a3\u4e24\u4e2a\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/366b797fc30089bc.wav",
+     "from": 1058,
+     "frames": 123
+    },
+    {
+     "text": "\u6309\u6700\u957f\u8fb9\u5217\u4e00\u5f20\u6709\u6761\u7406\u7684\u8868\uff0c\u4e00\u4e2a\u90fd\u4e0d\u4f1a\u6f0f\uff0c\u6240\u4ee5\u7b54\u6848\u662f19\u3002",
+     "caption": "\u6309\u6700\u957f\u8fb9\u5217\u4e00\u5f20\u6709\u6761\u7406\u7684\u8868\uff0c\u4e00\u4e2a\u90fd\u4e0d\u4f1a\u6f0f\uff0c\u6240\u4ee5\u7b54\u6848\u662f19\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/6971ebf4d6d49cd6.wav",
+     "from": 1191,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u5468\u957f24",
+   "from": 8819,
+   "frames": 407,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u73b0\u5728\u5468\u957f\u53d8\u621024\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u73b0\u5728\u5468\u957f\u53d8\u621024\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/2fb520c759b2f36d.wav",
+     "from": 0,
+     "frames": 146
+    },
+    {
+     "text": "\u4e09\u6761\u8fb9\u957f\u90fd\u662f\u6574\u6570\u3001\u800c\u4e14\u5404\u4e0d\u76f8\u540c\u7684\u4e09\u89d2\u5f62\uff0c\u4e00\u5171\u6709\u591a\u5c11\u4e2a\uff1f",
+     "caption": "\u4e09\u6761\u8fb9\u957f\u90fd\u662f\u6574\u6570\u3001\u800c\u4e14\u5404\u4e0d\u76f8\u540c\u7684\u4e09\u89d2\u5f62\uff0c\u4e00\u5171\u6709\u591a\u5c11\u4e2a\uff1f",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/e2de22d3f87e7480.wav",
+     "from": 156,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9226,
+   "frames": 407,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/c0ad926702806928.wav",
+     "from": 0,
+     "frames": 83
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u5468\u957f24\uff1a\u7b54\u6848",
+   "from": 9633,
+   "frames": 1554,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u9a8c\u8bc1\u3002\u6700\u957f\u8fb9\u5fc5\u987b\u5c0f\u4e8e12\uff0c\u800c\u4e14\u81f3\u5c11\u662f8\u3002",
+     "caption": "\u6211\u4eec\u6765\u9a8c\u8bc1\u3002\u6700\u957f\u8fb9\u5fc5\u987b\u5c0f\u4e8e12\uff0c\u800c\u4e14\u81f3\u5c11\u662f8\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/534e65b66a60de1e.wav",
+     "from": 0,
+     "frames": 183
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u662f11\uff1a\u53e6\u5916\u4e24\u6761\u8fb9\u52a0\u8d77\u6765\u662f13\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f11\uff1a\u53e6\u5916\u4e24\u6761\u8fb9\u52a0\u8d77\u6765\u662f13\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/e2f2eb4254e6d40d.wav",
+     "from": 193,
+     "frames": 148
+    },
+    {
+     "text": "3\u548c10\uff0c4\u548c9\uff0c5\u548c8\uff0c6\u548c7\u30024\u4e2a\uff01",
+     "caption": "3\u548c10\uff0c4\u548c9\uff0c5\u548c8\uff0c6\u548c7\u30024\u4e2a\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/bd6330935f5bad7f.wav",
+     "from": 351,
+     "frames": 213
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u662f10\uff0c\u67095\u548c9\uff0c6\u548c8\u3002\u4e00\u5171\u4e24\u4e2a\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f10\uff0c\u67095\u548c9\uff0c6\u548c8\u3002\u4e00\u51712\u4e2a\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/ff04c2a27edb4667.wav",
+     "from": 574,
+     "frames": 220
+    },
+    {
+     "text": "\u6700\u957f\u8fb9\u662f9\uff1a\u53ea\u67097\u548c8\u3002\u6700\u957f\u8fb9\u662f8\uff0c\u4e00\u4e2a\u4e5f\u6ca1\u6709\u3002",
+     "caption": "\u6700\u957f\u8fb9\u662f9\uff1a\u53ea\u67097\u548c8\u3002\u6700\u957f\u8fb9\u662f8\uff0c\u4e00\u4e2a\u4e5f\u6ca1\u6709\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/19513325c6c4f52f.wav",
+     "from": 804,
+     "frames": 185
+    },
+    {
+     "text": "4\u52a02\u52a01\uff0c\u4e00\u51717\u4e2a\u4e09\u89d2\u5f62\uff01",
+     "caption": "4\u52a02\u52a01\uff0c\u4e00\u51717\u4e2a\u4e09\u89d2\u5f62\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/d21aafd534d2d2c6.wav",
+     "from": 999,
+     "frames": 159
+    },
+    {
+     "text": "\u6362\u4e2a\u65b9\u6cd5\u9a8c\u8bc1\uff1a\u4e00\u517112\u4e2a\u4e09\u89d2\u5f62\uff0c\u51cf\u53bb5\u4e2a\u6709\u91cd\u590d\u8fb9\u7684\u30027\u4e2a\uff01",
+     "caption": "\u6362\u4e2a\u65b9\u6cd5\u9a8c\u8bc1\uff1a\u4e00\u517112\u4e2a\u4e09\u89d2\u5f62\uff0c\u51cf\u53bb5\u4e2a\u6709\u91cd\u590d\u8fb9\u7684\u30027\u4e2a\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/94d614b7c3b4944d.wav",
+     "from": 1168,
+     "frames": 221
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e867\uff0c\u771f\u68d2\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e867\uff0c\u771f\u68d2\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/c2ba2948087f6334.wav",
+     "from": 1399,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 11187,
+   "frames": 726,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u5173\u952e\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u5173\u952e\u601d\u8def\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/f548e628da0a4afa.wav",
+     "from": 0,
+     "frames": 63
+    },
+    {
+     "text": "\u5148\u56fa\u5b9a\u6700\u957f\u8fb9\u3002\u6700\u957f\u8fb9\u81f3\u5c11\u662f\u5468\u957f\u7684\u4e09\u5206\u4e4b\u4e00\uff0c\u800c\u4e14\u5c0f\u4e8e\u5468\u957f\u7684\u4e00\u534a\u3002",
+     "caption": "\u5148\u56fa\u5b9a\u6700\u957f\u8fb9\u3002\u6700\u957f\u8fb9\u81f3\u5c11\u662f\u5468\u957f\u7684\u4e09\u5206\u4e4b\u4e00\uff0c\u800c\u4e14\u5c0f\u4e8e\u5468\u957f\u7684\u4e00\u534a\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/6adb9faf308fba07.wav",
+     "from": 73,
+     "frames": 216
+    },
+    {
+     "text": "\u7136\u540e\u4e00\u884c\u4e00\u884c\u5730\u5217\u8868\u3002\u6216\u8005\u5148\u5168\u90e8\u6570\u51fa\u6765\uff0c\u518d\u51cf\u53bb\u6709\u91cd\u590d\u7684\u3002",
+     "caption": "\u7136\u540e\u4e00\u884c\u4e00\u884c\u5730\u5217\u8868\u3002\u6216\u8005\u5148\u5168\u90e8\u6570\u51fa\u6765\uff0c\u518d\u51cf\u53bb\u6709\u91cd\u590d\u7684\u3002",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/60801849374946fa.wav",
+     "from": 299,
+     "frames": 219
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u6570\u4e0b\u53bb\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u6570\u4e0b\u53bb\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-scalene-perimeter-36-zh/audio/16b2e66d97199fcd.wav",
+     "from": 528,
+     "frames": 114
+    }
+   ]
+  }
+ ]
+}

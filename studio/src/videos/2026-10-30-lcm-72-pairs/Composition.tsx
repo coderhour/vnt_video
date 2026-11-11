@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-lcm-72-pairs';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -799,3 +800,16 @@ void fadeTo;
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + lcm(a, b) = 72 with a "? pairs" tag, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>18?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 18 }}>
+      <div style={{ background: C.card, borderRadius: 40, padding: '30px 46px', boxShadow: '0 8px 30px rgba(30,40,80,0.10)', textAlign: 'center' }}>
+        <div><Tex tex={'\\operatorname{lcm}(a,\\,b)'} size={96} /></div>
+        <div><Tex tex={'=\\;72'} size={150} color={C.primary} /></div>
+      </div>
+      <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '8px 48px', fontSize: 84, fontWeight: 900 }}>? pairs</div>
+    </div>
+  </ThumbFrame>
+);

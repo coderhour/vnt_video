@@ -1,0 +1,52 @@
+{
+ "title": "Double n, Double the Zeros? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's twenty-four? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "For how many n up to one hundred does the factorial of two n end in exactly twice as many zeros as n factorial?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "base5",
+   "lines": [
+    "Zeros come from fives. So write n in base five.",
+    "Eight in base five is one, three. Double it: the three makes six, and that carries an extra five!",
+    "So every digit must be zero, one or two. Three times three times three is twenty-seven."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "Drop zero, zero, zero, and that's twenty-six!",
+    "Twenty-four was the trap. One and two count!",
+    "Did you get twenty-six? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "So every digit must be zero, one or two. Three times three times three is twenty-seven.": "So every digit must be 0, 1 or 2. 3 times 3 times 3 is 27.",
+  "Drop zero, zero, zero, and that's twenty-six!": "Drop 0, 0, 0, and that's... 26!",
+  "Twenty-four was the trap. One and two count!": "24 was the trap. 1 and 2 count!",
+  "For how many n up to one hundred does the factorial of two n end in exactly twice as many zeros as n factorial?": "For how many n up to 100 does the factorial of 2n end in exactly twice as many zeros as n factorial?",
+  "Eight in base five is one, three. Double it: the three makes six, and that carries an extra five!": "8 in base 5 is 1, 3. Double it: the 3 makes 6, and that carries an extra 5!"
+ }
+}

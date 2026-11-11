@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-meet-twice';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -599,3 +600,26 @@ const SCENES: Record<string, SceneComponent> = {
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
 
+
+// YouTube thumbnail (`2026-10-30-meet-twice-thumb`, render.sh -> poster.jpg): the trap + the road with Ann, Bo and the unknown distance, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>22?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <line x1={40} y1={330} x2={640} y2={330} stroke={C.line} strokeWidth={26} strokeLinecap="round" />
+      <line x1={40} y1={330} x2={640} y2={330} stroke={C.muted} strokeWidth={4} strokeDasharray="20 16" />
+      {[[40, 'A'], [640, 'B']].map(([x, n]) => (
+        <g key={n as string}>
+          <rect x={(x as number) - 40} y={290} width={80} height={80} rx={16} fill={C.ink} />
+          <text x={x as number} y={332} fill="#fff" fontFamily={NUNITO} fontWeight={900} fontSize={62} textAnchor="middle" dominantBaseline="middle">{n}</text>
+        </g>
+      ))}
+      <Label x={190} y={170} text="Ann" color={ANN} size={72} />
+      <path d="M 100 250 L 270 250 M 240 227 L 272 250 L 240 273" stroke={ANN} strokeWidth={12} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+      <Label x={490} y={490} text="Bo" color={BO} size={72} />
+      <path d="M 580 410 L 410 410 M 440 387 L 408 410 L 440 433" stroke={BO} strokeWidth={12} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M 40 105 L 40 80 L 640 80 L 640 105" stroke={C.primary} strokeWidth={9} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+      <Label x={340} y={38} text="? km" color={C.primary} size={68} />
+      <Label x={340} y={580} text="They meet TWICE" color={C.violet} size={54} />
+    </svg>
+  </ThumbFrame>
+);

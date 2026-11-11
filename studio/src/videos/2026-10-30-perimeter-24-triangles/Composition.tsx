@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-perimeter-24-triangles';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -587,3 +588,18 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-perimeter-24-triangles-thumb`, render.sh -> poster.jpg): the trap + a triangle with sides a, b, c and a+b+c=24, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>11?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+      <svg viewBox="0 0 680 480" style={{ width: '100%', height: 470 }}>
+        <Poly pts={[[60, 390], [620, 390], [420, 50]]} color={C.ink} width={12} />
+        <text x={340} y={462} textAnchor="middle" fontWeight={900} fontSize={80} fill={C.primary}>a</text>
+        <text x={555} y={220} textAnchor="middle" fontWeight={900} fontSize={80} fill={C.violet}>b</text>
+        <text x={205} y={220} textAnchor="middle" fontWeight={900} fontSize={80} fill={C.blue}>c</text>
+      </svg>
+      <Tex tex={'a+b+c=24'} size={84} />
+    </div>
+  </ThumbFrame>
+);

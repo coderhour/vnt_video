@@ -1,0 +1,566 @@
+{
+ "fps": 30,
+ "durationInFrames": 13285,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 529,
+   "lines": [
+    {
+     "text": "\u4e24\u6761\u7ebf\uff0c\u628a\u8fd9\u4e2a\u56fe\u5f62\u5206\u6210\u4e864\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u4e24\u6761\u7ebf\uff0c\u628a\u8fd9\u4e2a\u56fe\u5f62\u5206\u6210\u4e864\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/d8447942fa3ab505.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "\u6211\u4eec\u53ea\u77e5\u9053\u5176\u4e2d\u4e00\u4e2a\u7684\u9762\u79ef\u3002\u80fd\u628a4\u4e2a\u90fd\u6c42\u51fa\u6765\u5417\uff1f",
+     "caption": "\u6211\u4eec\u53ea\u77e5\u9053\u5176\u4e2d\u4e00\u4e2a\u7684\u9762\u79ef\u3002\u80fd\u628a4\u4e2a\u90fd\u6c42\u51fa\u6765\u5417\uff1f",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/fd9d3487f48c88d8.wav",
+     "from": 165,
+     "frames": 191
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u89e3\u5f00\u8fd9\u9053\u9898\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u89e3\u5f00\u8fd9\u9053\u9898\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/5931490037707853.wav",
+     "from": 367,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 529,
+   "frames": 891,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "\u5728\u68af\u5f62ABCD\u4e2d\uff0cAB\u5e73\u884c\u4e8eDC\u3002",
+     "caption": "\u5728\u68af\u5f62ABCD\u4e2d\uff0cAB\u5e73\u884c\u4e8eDC\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/dd5ba76457b95b3a.wav",
+     "from": 57,
+     "frames": 156
+    },
+    {
+     "text": "AB\u7b49\u4e8e6\uff0cDC\u7b49\u4e8e10\u3002",
+     "caption": "AB\u7b49\u4e8e6\uff0cDC\u7b49\u4e8e10\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/e5b2abab6f305d61.wav",
+     "from": 224,
+     "frames": 130
+    },
+    {
+     "text": "\u4e24\u6761\u5bf9\u89d2\u7ebf\u76f8\u4ea4\u4e8e\u70b9E\u3002\u9634\u5f71\u4e09\u89d2\u5f62ABE\u7684\u9762\u79ef\u662f9\u3002",
+     "caption": "\u4e24\u6761\u5bf9\u89d2\u7ebf\u76f8\u4ea4\u4e8e\u70b9E\u3002\u9634\u5f71\u4e09\u89d2\u5f62ABE\u7684\u9762\u79ef\u662f9\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/90ce56343802571d.wav",
+     "from": 364,
+     "frames": 234
+    },
+    {
+     "text": "\u6574\u4e2a\u68af\u5f62\u7684\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "caption": "\u6574\u4e2a\u68af\u5f62\u7684\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/cea2c1a19168f6e4.wav",
+     "from": 609,
+     "frames": 92
+    },
+    {
+     "text": "\u4e0b\u9762\u662f5\u4e2a\u9009\u9879\u3002\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f5\u4e2a\u9009\u9879\u3002\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/ea7570568575b466.wav",
+     "from": 710,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1420,
+   "frames": 608,
+   "lines": [
+    {
+     "text": "\u90a3\u4e48\uff0c\u6211\u4eec\u5230\u5e95\u77e5\u9053\u4e9b\u4ec0\u4e48\uff1f",
+     "caption": "\u90a3\u4e48\uff0c\u6211\u4eec\u5230\u5e95\u77e5\u9053\u4e9b\u4ec0\u4e48\uff1f",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/31e06dd713f5aa68.wav",
+     "from": 0,
+     "frames": 98
+    },
+    {
+     "text": "\u4e24\u6761\u5bf9\u89d2\u7ebf\u628a\u68af\u5f62\u5206\u62104\u4e2a\u4e09\u89d2\u5f62\uff1a\u4e0a\u3001\u4e0b\u3001\u5de6\u3001\u53f3\u3002",
+     "caption": "\u4e24\u6761\u5bf9\u89d2\u7ebf\u628a\u68af\u5f62\u5206\u62104\u4e2a\u4e09\u89d2\u5f62\uff1a\u4e0a\u3001\u4e0b\u3001\u5de6\u3001\u53f3\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/4d65f5ddeca213c4.wav",
+     "from": 108,
+     "frames": 215
+    },
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4e0a\u9762\u90a3\u4e2a\u662f9\u3002\u8981\u6c42\u7684\u662f4\u4e2a\u4e09\u89d2\u5f62\u52a0\u8d77\u6765\u7684\u603b\u9762\u79ef\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4e0a\u9762\u90a3\u4e2a\u662f9\u3002\u8981\u6c42\u7684\u662f4\u4e2a\u4e09\u89d2\u5f62\u52a0\u8d77\u6765\u7684\u603b\u9762\u79ef\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/507ea54ef34d0f09.wav",
+     "from": 333,
+     "frames": 221
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2028,
+   "frames": 476,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "similar",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a4\u4e2a\u4e09\u89d2\u5f62",
+   "from": 2504,
+   "frames": 1547,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u770b\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u548c\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u770b\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u548c\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/e357a2400485f1f2.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "\u4e0a\u4e0b\u4e24\u6761\u5e95\u5e73\u884c\uff0c\u6240\u4ee5\u8fd9\u4e24\u4e2a\u89d2\u76f8\u7b49\uff0c\u6b63\u597d\u7ec4\u6210\u4e00\u4e2aZ\u5b57\u5f62\u3002",
+     "caption": "\u4e0a\u4e0b\u4e24\u6761\u5e95\u5e73\u884c\uff0c\u6240\u4ee5\u8fd9\u4e24\u4e2a\u89d2\u76f8\u7b49\uff0c\u6b63\u597d\u7ec4\u6210\u4e00\u4e2aZ\u5b57\u5f62\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/d63acbf2f0f76933.wav",
+     "from": 163,
+     "frames": 232
+    },
+    {
+     "text": "\u8fd9\u4e24\u4e2a\u89d2\u4e5f\u76f8\u7b49\u3002\u6cbf\u7740\u53e6\u4e00\u6761\u5bf9\u89d2\u7ebf\uff0c\u53c8\u662f\u4e00\u4e2aZ\u5b57\u5f62\u3002",
+     "caption": "\u8fd9\u4e24\u4e2a\u89d2\u4e5f\u76f8\u7b49\u3002\u6cbf\u7740\u53e6\u4e00\u6761\u5bf9\u89d2\u7ebf\uff0c\u53c8\u662f\u4e00\u4e2aZ\u5b57\u5f62\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/7609d65d0d0879e1.wav",
+     "from": 405,
+     "frames": 192
+    },
+    {
+     "text": "\u5728E\u70b9\uff0c\u4e24\u4e2a\u89d2\u662f\u5bf9\u9876\u89d2\uff0c\u6240\u4ee5\u4e5f\u76f8\u7b49\u3002",
+     "caption": "\u5728E\u70b9\uff0c\u4e24\u4e2a\u89d2\u662f\u5bf9\u9876\u89d2\uff0c\u6240\u4ee5\u4e5f\u76f8\u7b49\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/c518b2352db28496.wav",
+     "from": 608,
+     "frames": 165
+    },
+    {
+     "text": "\u89d2\u90fd\u76f8\u540c\uff0c\u5f62\u72b6\u5c31\u76f8\u540c\uff01\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\uff0c\u5c31\u662f\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u653e\u5927\u4ee5\u540e\u7684\u6837\u5b50\u3002",
+     "caption": "\u89d2\u90fd\u76f8\u540c\uff0c\u5f62\u72b6\u5c31\u76f8\u540c\uff01\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\uff0c\u5c31\u662f\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u653e\u5927\u4ee5\u540e\u7684\u6837\u5b50\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/f099863003b8d092.wav",
+     "from": 782,
+     "frames": 284
+    },
+    {
+     "text": "\u653e\u5927\u4e86\u591a\u5c11\u5462\uff1f\u4e0a\u5e95\u662f6\uff0c\u4e0b\u5e95\u662f10\u3002",
+     "caption": "\u653e\u5927\u4e86\u591a\u5c11\u5462\uff1f\u4e0a\u5e95\u662f6\uff0c\u4e0b\u5e95\u662f10\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/15575cf785ef2528.wav",
+     "from": 1076,
+     "frames": 150
+    },
+    {
+     "text": "6\u6bd410\uff0c\u7b49\u4e8e3\u6bd45\u3002\u6240\u4ee5\u6bcf\u6761\u8fb9\u90fd\u653e\u5927\u5230\u539f\u6765\u76843\u5206\u4e4b5\u500d\u3002",
+     "caption": "6\u6bd410\uff0c\u7b49\u4e8e3\u6bd45\u3002\u6240\u4ee5\u6bcf\u6761\u8fb9\u90fd\u653e\u5927\u5230\u539f\u6765\u76843\u5206\u4e4b5\u500d\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/61fabbf6cb293288.wav",
+     "from": 1237,
+     "frames": 257
+    }
+   ]
+  },
+  {
+   "id": "bottom",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4051,
+   "frames": 860,
+   "lines": [
+    {
+     "text": "\u5173\u952e\u7684\u4e00\u6b65\u6765\u4e86\u3002\u9762\u79ef\u4f1a\u600e\u4e48\u53d8\u5462\uff1f",
+     "caption": "\u5173\u952e\u7684\u4e00\u6b65\u6765\u4e86\u3002\u9762\u79ef\u4f1a\u600e\u4e48\u53d8\u5462\uff1f",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/f6f55d9aa9d3e5cf.wav",
+     "from": 0,
+     "frames": 118
+    },
+    {
+     "text": "\u5e95\u653e\u5927\u52303\u5206\u4e4b5\u500d\uff0c\u9ad8\u4e5f\u653e\u5927\u52303\u5206\u4e4b5\u500d\u3002",
+     "caption": "\u5e95\u653e\u5927\u52303\u5206\u4e4b5\u500d\uff0c\u9ad8\u4e5f\u653e\u5927\u52303\u5206\u4e4b5\u500d\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/24884b2bf51495c2.wav",
+     "from": 129,
+     "frames": 191
+    },
+    {
+     "text": "\u6240\u4ee5\u9762\u79ef\u8981\u4e58\u4e24\u6b213\u5206\u4e4b5\uff0c\u4e5f\u5c31\u662f\u4e589\u5206\u4e4b25\u3002",
+     "caption": "\u6240\u4ee5\u9762\u79ef\u8981\u4e58\u4e24\u6b213\u5206\u4e4b5\uff0c\u4e5f\u5c31\u662f\u4e589\u5206\u4e4b25\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/ccc350fb4393deb2.wav",
+     "from": 330,
+     "frames": 184
+    },
+    {
+     "text": "9\u4e589\u5206\u4e4b25\uff0c\u7b49\u4e8e25\u3002\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u9762\u79ef\u662f25\uff01",
+     "caption": "9\u4e589\u5206\u4e4b25\uff0c\u7b49\u4e8e25\u3002\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u9762\u79ef\u662f25\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/fc079b89e9e47143.wav",
+     "from": 524,
+     "frames": 276
+    }
+   ]
+  },
+  {
+   "id": "sides",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4911,
+   "frames": 1350,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u770b\u53f3\u8fb9\u7684\u4e09\u89d2\u5f62BCE\uff0c\u548c\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u6bd4\u4e00\u6bd4\u3002",
+     "caption": "\u73b0\u5728\u770b\u53f3\u8fb9\u7684\u4e09\u89d2\u5f62BCE\uff0c\u548c\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u6bd4\u4e00\u6bd4\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/684133a5c6eddf97.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "\u8fd9\u4e24\u4e2a\u4e09\u89d2\u5f62\u6709\u540c\u4e00\u4e2a\u9876\u70b9B\uff0c\u5e95\u8fb9\u90fd\u5728\u540c\u4e00\u6761\u5bf9\u89d2\u7ebf\u4e0a\u3002",
+     "caption": "\u8fd9\u4e24\u4e2a\u4e09\u89d2\u5f62\u6709\u540c\u4e00\u4e2a\u9876\u70b9B\uff0c\u5e95\u8fb9\u90fd\u5728\u540c\u4e00\u6761\u5bf9\u89d2\u7ebf\u4e0a\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/c797e66f10592a2a.wav",
+     "from": 198,
+     "frames": 198
+    },
+    {
+     "text": "\u6240\u4ee5\u4e24\u4e2a\u4e09\u89d2\u5f62\u7684\u9ad8\u76f8\u540c\uff01\u9762\u79ef\u7684\u6bd4\uff0c\u5c31\u7b49\u4e8e\u5e95\u8fb9\u7684\u6bd4\u3002",
+     "caption": "\u6240\u4ee5\u4e24\u4e2a\u4e09\u89d2\u5f62\u7684\u9ad8\u76f8\u540c\uff01\u9762\u79ef\u7684\u6bd4\uff0c\u5c31\u7b49\u4e8e\u5e95\u8fb9\u7684\u6bd4\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/d6f1fcf1ee2b7e7b.wav",
+     "from": 406,
+     "frames": 192
+    },
+    {
+     "text": "\u5728\u8fd9\u5bf9\u76f8\u4f3c\u4e09\u89d2\u5f62\u91cc\uff0cAE\u5bf9\u5e94CE\u3002\u6240\u4ee5AE\u6bd4EC\u662f3\u6bd45\u3002",
+     "caption": "\u5728\u8fd9\u5bf9\u76f8\u4f3c\u4e09\u89d2\u5f62\u91cc\uff0cAE\u5bf9\u5e94CE\u3002\u6240\u4ee5AE\u6bd4EC\u662f3\u6bd45\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/11baef88ce6a32f3.wav",
+     "from": 609,
+     "frames": 286
+    },
+    {
+     "text": "\u6240\u4ee5\u53f3\u8fb9\u4e09\u89d2\u5f62\u7684\u9762\u79ef\u662f9\u4e583\u5206\u4e4b5\uff0c\u7b49\u4e8e15\u3002",
+     "caption": "\u6240\u4ee5\u53f3\u8fb9\u4e09\u89d2\u5f62\u7684\u9762\u79ef\u662f9\u4e583\u5206\u4e4b5\uff0c\u7b49\u4e8e15\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/9cbb25ff1754c66c.wav",
+     "from": 905,
+     "frames": 203
+    },
+    {
+     "text": "\u5de6\u8fb9\u7684\u4e09\u89d2\u5f62\u4e5f\u4e00\u6837\uff0c\u7528\u53e6\u4e00\u6761\u5bf9\u89d2\u7ebf\u6765\u7b97\uff0c\u4e5f\u662f15\u3002",
+     "caption": "\u5de6\u8fb9\u7684\u4e09\u89d2\u5f62\u4e5f\u4e00\u6837\uff0c\u7528\u53e6\u4e00\u6761\u5bf9\u89d2\u7ebf\u6765\u7b97\uff0c\u4e5f\u662f15\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/4e16b56579d87957.wav",
+     "from": 1118,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "total1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6261,
+   "frames": 412,
+   "lines": [
+    {
+     "text": "\u628a4\u4e2a\u9762\u79ef\u5168\u90e8\u52a0\u8d77\u6765\uff1a9\u52a025\uff0c\u52a015\uff0c\u518d\u52a015\u3002",
+     "caption": "\u628a4\u4e2a\u9762\u79ef\u5168\u90e8\u52a0\u8d77\u6765\uff1a9\u52a025\uff0c\u52a015\uff0c\u518d\u52a015\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/a106b2691047d03a.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "\u7b49\u4e8e64\uff01\u7b54\u6848\u662fD\u3002",
+     "caption": "\u7b49\u4e8e64\uff01\u7b54\u6848\u662fD\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/912a8991fa76a1a8.wav",
+     "from": 230,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "height",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u6c42\u9ad8",
+   "from": 6673,
+   "frames": 1623,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\u3002\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\uff0c\u5e95\u662f6\uff0c\u9762\u79ef\u662f9\u3002",
+     "caption": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\u3002\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\uff0c\u5e95\u662f6\uff0c\u9762\u79ef\u662f9\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/3d1653cd5c00367b.wav",
+     "from": 0,
+     "frames": 202
+    },
+    {
+     "text": "2\u5206\u4e4b1\u4e586\uff0c\u518d\u4e58\u9ad8\uff0c\u7b49\u4e8e9\u3002\u6240\u4ee5\u4e0a\u9762\u7684\u9ad8\u662f3\u3002",
+     "caption": "2\u5206\u4e4b1\u4e586\uff0c\u518d\u4e58\u9ad8\uff0c\u7b49\u4e8e9\u3002\u6240\u4ee5\u4e0a\u9762\u7684\u9ad8\u662f3\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/f67ad3fa0157873b.wav",
+     "from": 212,
+     "frames": 221
+    },
+    {
+     "text": "\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u653e\u5927\u4e863\u5206\u4e4b5\u500d\uff0c\u6240\u4ee5\u4e0b\u9762\u7684\u9ad8\u662f3\u4e583\u5206\u4e4b5\uff0c\u7b49\u4e8e5\u3002",
+     "caption": "\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u653e\u5927\u4e863\u5206\u4e4b5\u500d\uff0c\u6240\u4ee5\u4e0b\u9762\u7684\u9ad8\u662f3\u4e583\u5206\u4e4b5\uff0c\u7b49\u4e8e5\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/ae5897a3e24ce8fc.wav",
+     "from": 443,
+     "frames": 296
+    },
+    {
+     "text": "\u4e0a\u4e0b\u53e0\u5728\u4e00\u8d77\uff0c\u6574\u4e2a\u68af\u5f62\u7684\u9ad8\u5c31\u662f3\u52a05\uff0c\u7b49\u4e8e8\u3002",
+     "caption": "\u4e0a\u4e0b\u53e0\u5728\u4e00\u8d77\uff0c\u6574\u4e2a\u68af\u5f62\u7684\u9ad8\u5c31\u662f3\u52a05\uff0c\u7b49\u4e8e8\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/0d0570d89077164c.wav",
+     "from": 749,
+     "frames": 196
+    },
+    {
+     "text": "\u68af\u5f62\u9762\u79ef\uff1a\u4e0a\u5e95\u52a0\u4e0b\u5e95\uff0c\u9664\u4ee52\uff0c\u518d\u4e58\u9ad8\u3002",
+     "caption": "\u68af\u5f62\u9762\u79ef\uff1a\u4e0a\u5e95\u52a0\u4e0b\u5e95\uff0c\u9664\u4ee52\uff0c\u518d\u4e58\u9ad8\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/8382016eaba5d48d.wav",
+     "from": 955,
+     "frames": 174
+    },
+    {
+     "text": "6\u52a010\u7b49\u4e8e16\uff0c\u9664\u4ee52\u662f8\uff0c8\u4e588\u7b49\u4e8e64\uff01",
+     "caption": "6\u52a010\u7b49\u4e8e16\uff0c\u9664\u4ee52\u662f8\uff0c8\u4e588\u7b49\u4e8e64\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/3615371259a89fe7.wav",
+     "from": 1139,
+     "frames": 239
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\u5462\uff1f\u7b97\u5f97\u5feb\uff0c\u8fd8\u80fd\u7528\u6765\u9a8c\u7b97\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\u5462\uff1f\u7b97\u5f97\u5feb\uff0c\u8fd8\u80fd\u7528\u6765\u9a8c\u7b97\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/e8e144410afee109.wav",
+     "from": 1389,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 8296,
+   "frames": 1554,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\uff0c\u6211\u4eec\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\uff0c\u6211\u4eec\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/704c6793821865e1.wav",
+     "from": 0,
+     "frames": 164
+    },
+    {
+     "text": "34\u53ea\u7b97\u4e86\u4e0a\u4e0b\u4e24\u4e2a\u4e09\u89d2\u5f62\uff0c\u6f0f\u6389\u4e86\u4e24\u8fb9\u7684\u4e24\u4e2a\u3002",
+     "caption": "34\u53ea\u7b97\u4e86\u4e0a\u4e0b\u4e24\u4e2a\u4e09\u89d2\u5f62\uff0c\u6f0f\u6389\u4e86\u4e24\u8fb9\u7684\u4e24\u4e2a\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/b5b5bf09a40e6bdd.wav",
+     "from": 174,
+     "frames": 170
+    },
+    {
+     "text": "49\u53ea\u52a0\u4e86\u4e00\u4e2a\u4fa7\u8fb9\u7684\u4e09\u89d2\u5f62\uff0c\u5c11\u7b97\u4e86\u4e00\u4e2a\u3002",
+     "caption": "49\u53ea\u52a0\u4e86\u4e00\u4e2a\u4fa7\u8fb9\u7684\u4e09\u89d2\u5f62\uff0c\u5c11\u7b97\u4e86\u4e00\u4e2a\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/d347fdb042883e50.wav",
+     "from": 354,
+     "frames": 156
+    },
+    {
+     "text": "54\uff0c\u662f\u628a\u9762\u79ef\u53ea\u4e58\u4e86\u4e00\u6b213\u5206\u4e4b5\u3002",
+     "caption": "54\uff0c\u662f\u628a\u9762\u79ef\u53ea\u4e58\u4e86\u4e00\u6b213\u5206\u4e4b5\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/450e60231129d8b7.wav",
+     "from": 520,
+     "frames": 155
+    },
+    {
+     "text": "68\uff0c\u662f\u628a\u6bcf\u4e2a\u4fa7\u8fb9\u4e09\u89d2\u5f62\uff0c\u5f53\u6210\u4e869\u548c25\u7684\u6b63\u4e2d\u95f4\u3002",
+     "caption": "68\uff0c\u662f\u628a\u6bcf\u4e2a\u4fa7\u8fb9\u4e09\u89d2\u5f62\uff0c\u5f53\u6210\u4e869\u548c25\u7684\u6b63\u4e2d\u95f4\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/73230450b740a3f0.wav",
+     "from": 685,
+     "frames": 203
+    },
+    {
+     "text": "\u6b63\u4e2d\u95f4\u662f17\u3002\u4f46\u4fa7\u8fb9\u4e09\u89d2\u5f62\u771f\u6b63\u7684\u9762\u79ef\u662f9\u4e583\u5206\u4e4b5\uff0c\u4e5f\u5c31\u662f15\u3002",
+     "caption": "\u6b63\u4e2d\u95f4\u662f17\u3002\u4f46\u4fa7\u8fb9\u4e09\u89d2\u5f62\u771f\u6b63\u7684\u9762\u79ef\u662f9\u4e583\u5206\u4e4b5\uff0c\u4e5f\u5c31\u662f15\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/3f3e723bed07d817.wav",
+     "from": 899,
+     "frames": 306
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u597d\u4e60\u60ef\uff1a\u6bcf\u4e00\u5757\u90fd\u8981\u7b97\u4e0a\uff0c\u7b97\u9762\u79ef\u65f6\uff0c\u653e\u5927\u500d\u6570\u8981\u5e73\u65b9\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u597d\u4e60\u60ef\uff1a\u6bcf\u4e00\u5757\u90fd\u8981\u7b97\u4e0a\uff0c\u7b97\u9762\u79ef\u65f6\uff0c\u653e\u5927\u500d\u6570\u8981\u5e73\u65b9\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/05b97a092f87fa51.wav",
+     "from": 1215,
+     "frames": 279
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u65b0\u68af\u5f62",
+   "from": 9850,
+   "frames": 471,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u6b21\u6362\u4e00\u4e2a\u65b0\u7684\u68af\u5f62\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u6b21\u6362\u4e00\u4e2a\u65b0\u7684\u68af\u5f62\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/80f4ba264e7582a8.wav",
+     "from": 0,
+     "frames": 130
+    },
+    {
+     "text": "\u4e0a\u5e95\u662f4\uff0c\u4e0b\u5e95\u662f8\u3002",
+     "caption": "\u4e0a\u5e95\u662f4\uff0c\u4e0b\u5e95\u662f8\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/7f8cb6fe21dc19e5.wav",
+     "from": 140,
+     "frames": 114
+    },
+    {
+     "text": "\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u9762\u79ef\u662f4\u3002\u6574\u4e2a\u68af\u5f62\u7684\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "caption": "\u4e0a\u9762\u7684\u4e09\u89d2\u5f62\u9762\u79ef\u662f4\u3002\u6574\u4e2a\u68af\u5f62\u7684\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/d70dcdc8090f11fd.wav",
+     "from": 264,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10321,
+   "frames": 403,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/32cbee10a890d39b.wav",
+     "from": 0,
+     "frames": 80
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u68af\u5f62\uff1a\u7b54\u6848",
+   "from": 10724,
+   "frames": 1818,
+   "lines": [
+    {
+     "text": "\u6765\u9a8c\u8bc1\u4e00\u4e0b\u30024\u6bd48\u662f1\u6bd42\uff0c\u6240\u4ee5\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u653e\u5927\u4e862\u500d\u3002",
+     "caption": "\u6765\u9a8c\u8bc1\u4e00\u4e0b\u30024\u6bd48\u662f1\u6bd42\uff0c\u6240\u4ee5\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u653e\u5927\u4e862\u500d\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/3868c074d1f16985.wav",
+     "from": 0,
+     "frames": 239
+    },
+    {
+     "text": "\u9762\u79ef\u8981\u4e58\u4e24\u6b212\uff0c\u5c31\u662f\u4e584\u3002\u6240\u4ee5\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u662f4\u4e584\uff0c\u7b49\u4e8e16\u3002",
+     "caption": "\u9762\u79ef\u8981\u4e58\u4e24\u6b212\uff0c\u5c31\u662f\u4e584\u3002\u6240\u4ee5\u4e0b\u9762\u7684\u4e09\u89d2\u5f62\u662f4\u4e584\uff0c\u7b49\u4e8e16\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/ca449ebe43b86616.wav",
+     "from": 250,
+     "frames": 306
+    },
+    {
+     "text": "\u6bcf\u4e2a\u4fa7\u8fb9\u4e09\u89d2\u5f62\u662f4\u4e582\uff0c\u7b49\u4e8e8\u3002",
+     "caption": "\u6bcf\u4e2a\u4fa7\u8fb9\u4e09\u89d2\u5f62\u662f4\u4e582\uff0c\u7b49\u4e8e8\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/3863b11fb9f31ed4.wav",
+     "from": 566,
+     "frames": 154
+    },
+    {
+     "text": "4\u52a016\uff0c\u52a08\uff0c\u518d\u52a08\uff0c\u7b49\u4e8e36\uff01",
+     "caption": "4\u52a016\uff0c\u52a08\uff0c\u518d\u52a08\uff0c\u7b49\u4e8e36\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/2bd5e11f09c01d2e.wav",
+     "from": 730,
+     "frames": 173
+    },
+    {
+     "text": "\u518d\u7528\u9ad8\u6765\u9a8c\u7b97\u30022\u5206\u4e4b1\u4e584\uff0c\u518d\u4e58\u9ad8\uff0c\u7b49\u4e8e4\u3002\u6240\u4ee5\u4e0a\u9762\u7684\u9ad8\u662f2\u3002",
+     "caption": "\u518d\u7528\u9ad8\u6765\u9a8c\u7b97\u30022\u5206\u4e4b1\u4e584\uff0c\u518d\u4e58\u9ad8\uff0c\u7b49\u4e8e4\u3002\u6240\u4ee5\u4e0a\u9762\u7684\u9ad8\u662f2\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/cdcf81dc82f84597.wav",
+     "from": 914,
+     "frames": 267
+    },
+    {
+     "text": "\u4e0b\u9762\u7684\u9ad8\u662f\u4e0a\u9762\u76842\u500d\uff0c\u7b49\u4e8e4\u30022\u52a04\u7b49\u4e8e6\u3002",
+     "caption": "\u4e0b\u9762\u7684\u9ad8\u662f\u4e0a\u9762\u76842\u500d\uff0c\u7b49\u4e8e4\u30022\u52a04\u7b49\u4e8e6\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/17c8f26a3f1e1c4a.wav",
+     "from": 1190,
+     "frames": 184
+    },
+    {
+     "text": "4\u52a08\u7b49\u4e8e12\uff0c\u9664\u4ee52\u662f6\uff0c6\u4e586\u7b49\u4e8e36\u3002\u5b8c\u5168\u4e00\u81f4\uff01",
+     "caption": "4\u52a08\u7b49\u4e8e12\uff0c\u9664\u4ee52\u662f6\uff0c6\u4e586\u7b49\u4e8e36\u3002\u5b8c\u5168\u4e00\u81f4\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/9b5b29669f2c0d36.wav",
+     "from": 1385,
+     "frames": 258
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8636\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8636\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/da86f00a1520371c.wav",
+     "from": 1653,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12542,
+   "frames": 743,
+   "lines": [
+    {
+     "text": "\u6700\u540e\uff0c\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u6700\u540e\uff0c\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/e024e6011d87d28d.wav",
+     "from": 0,
+     "frames": 98
+    },
+    {
+     "text": "\u4e24\u6761\u5bf9\u89d2\u7ebf\u628a\u68af\u5f62\u5206\u62104\u4e2a\u4e09\u89d2\u5f62\u3002\u4e0a\u4e0b\u4e24\u4e2a\u5f62\u72b6\u76f8\u540c\uff0c\u53ea\u662f\u5927\u5c0f\u4e0d\u540c\u3002",
+     "caption": "\u4e24\u6761\u5bf9\u89d2\u7ebf\u628a\u68af\u5f62\u5206\u62104\u4e2a\u4e09\u89d2\u5f62\u3002\u4e0a\u4e0b\u4e24\u4e2a\u5f62\u72b6\u76f8\u540c\uff0c\u53ea\u662f\u5927\u5c0f\u4e0d\u540c\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/0e58f14f69951892.wav",
+     "from": 108,
+     "frames": 251
+    },
+    {
+     "text": "\u957f\u5ea6\u4e58\u653e\u5927\u500d\u6570\uff0c\u9762\u79ef\u8981\u4e58\u4e24\u6b21\u653e\u5927\u500d\u6570\u3002",
+     "caption": "\u957f\u5ea6\u4e58\u653e\u5927\u500d\u6570\uff0c\u9762\u79ef\u8981\u4e58\u4e24\u6b21\u653e\u5927\u500d\u6570\u3002",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/e64a9c27263f537e.wav",
+     "from": 369,
+     "frames": 180
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-trapezoid-diagonals-zh/audio/f8351124be57142c.wav",
+     "from": 560,
+     "frames": 100
+    }
+   ]
+  }
+ ]
+}

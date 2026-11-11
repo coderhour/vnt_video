@@ -1,0 +1,501 @@
+{
+ "fps": 30,
+ "durationInFrames": 13563,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 697,
+   "lines": [
+    {
+     "text": "\u4e09\u89d2\u5f62\u91cc\u6709\u4e24\u6761\u7ebf\uff0c\u6b63\u597d\u5728\u5b83\u7684\u5185\u5207\u5706\u91cc\u9762\u76f8\u4ea4\u3002\u5b83\u4eec\u5230\u5e95\u4ea4\u5728\u54ea\u91cc\uff1f",
+     "caption": "\u4e09\u89d2\u5f62\u91cc\u6709\u4e24\u6761\u7ebf\uff0c\u6b63\u597d\u5728\u5b83\u7684\u5185\u5207\u5706\u91cc\u9762\u76f8\u4ea4\u3002\u5b83\u4eec\u5230\u5e95\u4ea4\u5728\u54ea\u91cc\uff1f",
+     "file": "2026-11-07-incircle-cevians-zh/audio/dbeed5308ca9687b.wav",
+     "from": 0,
+     "frames": 222
+    },
+    {
+     "text": "\u6709\u4e00\u4e2a\u5f88\u8bf1\u4eba\u7684\u7b54\u6848\uff1a2\u6bd41\u3002\u8fd9\u662f\u4e2a\u9677\u9631\uff0c\u5f85\u4f1a\u513f\u4f60\u5c31\u77e5\u9053\u4e3a\u4ec0\u4e48\u3002",
+     "caption": "\u6709\u4e00\u4e2a\u5f88\u8bf1\u4eba\u7684\u7b54\u6848\uff1a2\u6bd41\u3002\u8fd9\u662f\u4e2a\u9677\u9631\uff0c\u5f85\u4f1a\u513f\u4f60\u5c31\u77e5\u9053\u4e3a\u4ec0\u4e48\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/1475778a55caf6c4.wav",
+     "from": 232,
+     "frames": 216
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u50cf\u73a9\u8df7\u8df7\u677f\u4e00\u6837\uff0c\u8ba9\u8fd9\u4e2a\u4e09\u89d2\u5f62\u5e73\u8861\u8d77\u6765\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u50cf\u73a9\u8df7\u8df7\u677f\u4e00\u6837\uff0c\u8ba9\u8fd9\u4e2a\u4e09\u89d2\u5f62\u5e73\u8861\u8d77\u6765\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/ec1c9e19d9079701.wav",
+     "from": 459,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 697,
+   "frames": 799,
+   "lines": [
+    {
+     "text": "\u4e09\u89d2\u5f62ABC\u7684\u4e09\u6761\u8fb9\uff1aAB\u662f13\uff0cBC\u662f14\uff0cCA\u662f15\u3002",
+     "caption": "\u4e09\u89d2\u5f62ABC\u7684\u4e09\u6761\u8fb9\uff1aAB\u662f13\uff0cBC\u662f14\uff0cCA\u662f15\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/7713c4f7a216c8bd.wav",
+     "from": 0,
+     "frames": 275
+    },
+    {
+     "text": "\u5b83\u7684\u5185\u5207\u5706\u548cBC\u76f8\u5207\u4e8e\u70b9D\uff0c\u548cCA\u76f8\u5207\u4e8e\u70b9E\u3002\u7ebf\u6bb5AD\u548cBE\u76f8\u4ea4\u4e8e\u70b9P\u3002",
+     "caption": "\u5b83\u7684\u5185\u5207\u5706\u548cBC\u76f8\u5207\u4e8e\u70b9D\uff0c\u548cCA\u76f8\u5207\u4e8e\u70b9E\u3002\u7ebf\u6bb5AD\u548cBE\u76f8\u4ea4\u4e8e\u70b9P\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/7a0c93d197a9d527.wav",
+     "from": 285,
+     "frames": 320
+    },
+    {
+     "text": "AP\u6bd4PD\u662f\u591a\u5c11\uff1f\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "AP\u6bd4PD\u662f\u591a\u5c11\uff1f\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/57b7d497a3bb6260.wav",
+     "from": 615,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1496,
+   "frames": 543,
+   "lines": [
+    {
+     "text": "\u9898\u76ee\u5230\u5e95\u5728\u95ee\u4ec0\u4e48\uff1f\u70b9P\u628aAD\u5206\u6210\u4e86AP\u548cPD\u4e24\u6bb5\uff0c\u95ee\u8fd9\u4e24\u6bb5\u7684\u6bd4\u3002",
+     "caption": "\u9898\u76ee\u5230\u5e95\u5728\u95ee\u4ec0\u4e48\uff1f\u70b9P\u628aAD\u5206\u6210\u4e86AP\u548cPD\u4e24\u6bb5\uff0c\u95ee\u8fd9\u4e24\u6bb5\u7684\u6bd4\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/e91224633a9d9a05.wav",
+     "from": 0,
+     "frames": 282
+    },
+    {
+     "text": "\u4e09\u6761\u8fb9\u6211\u4eec\u90fd\u77e5\u9053\u3002\u9996\u5148\uff0c\u8981\u5f04\u6e05\u695a\u70b9D\u548c\u70b9E\u5230\u5e95\u5728\u54ea\u91cc\u3002",
+     "caption": "\u4e09\u6761\u8fb9\u6211\u4eec\u90fd\u77e5\u9053\u3002\u9996\u5148\uff0c\u8981\u5f04\u6e05\u695a\u70b9D\u548c\u70b9E\u5230\u5e95\u5728\u54ea\u91cc\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/13a85def27dcb7c5.wav",
+     "from": 293,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2039,
+   "frames": 495,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-11-07-incircle-cevians-zh/audio/d306dee77f00acc0.wav",
+     "from": 0,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "tangents",
+   "kind": "scene",
+   "chapter": "\u7b2c\u4e00\u6b65\uff1a\u5207\u7ebf\u6bb5\u76f8\u7b49",
+   "from": 2534,
+   "frames": 2048,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01",
+     "file": "2026-11-07-incircle-cevians-zh/audio/262a289c1515bb1f.wav",
+     "from": 0,
+     "frames": 54
+    },
+    {
+     "text": "\u4ece\u6bcf\u4e2a\u9876\u70b9\u51fa\u53d1\uff0c\u5230\u4e24\u4e2a\u5207\u70b9\u7684\u4e24\u6bb5\uff0c\u957f\u5ea6\u662f\u4e00\u6837\u7684\u3002",
+     "caption": "\u4ece\u6bcf\u4e2a\u9876\u70b9\u51fa\u53d1\uff0c\u5230\u4e24\u4e2a\u5207\u70b9\u7684\u4e24\u6bb5\uff0c\u957f\u5ea6\u662f\u4e00\u6837\u7684\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/24f08e2dc7edc59c.wav",
+     "from": 64,
+     "frames": 173
+    },
+    {
+     "text": "\u539f\u56e0\u662f\u8fd9\u6837\u7684\uff1a\u6cbf\u7740\u9876\u70b9\u5230\u5706\u5fc3\u7684\u8fde\u7ebf\u5bf9\u6298\uff0c\u4e00\u6bb5\u6b63\u597d\u843d\u5728\u53e6\u4e00\u6bb5\u4e0a\u3002",
+     "caption": "\u539f\u56e0\u662f\u8fd9\u6837\u7684\uff1a\u6cbf\u7740\u9876\u70b9\u5230\u5706\u5fc3\u7684\u8fde\u7ebf\u5bf9\u6298\uff0c\u4e00\u6bb5\u6b63\u597d\u843d\u5728\u53e6\u4e00\u6bb5\u4e0a\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/2b33a318aa9c723f.wav",
+     "from": 247,
+     "frames": 249
+    },
+    {
+     "text": "\u6211\u4eec\u628a\u8fd9\u4e9b\u6bb5\u53eb\u505a\uff1a\u4eceA\u51fa\u53d1\u7684\u662fx\uff0c\u4eceB\u51fa\u53d1\u7684\u662fy\uff0c\u4eceC\u51fa\u53d1\u7684\u662fz\u3002",
+     "caption": "\u6211\u4eec\u628a\u8fd9\u4e9b\u6bb5\u53eb\u505a\uff1a\u4eceA\u51fa\u53d1\u7684\u662fx\uff0c\u4eceB\u51fa\u53d1\u7684\u662fy\uff0c\u4eceC\u51fa\u53d1\u7684\u662fz\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/49d7f1eb4fbcbb7d.wav",
+     "from": 506,
+     "frames": 279
+    },
+    {
+     "text": "\u6240\u4ee5x\u52a0y\u662f13\uff0cy\u52a0z\u662f14\uff0cz\u52a0x\u662f15\u3002",
+     "caption": "\u6240\u4ee5x\u52a0y\u662f13\uff0cy\u52a0z\u662f14\uff0cz\u52a0x\u662f15\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/fca4450e094ac584.wav",
+     "from": 795,
+     "frames": 274
+    },
+    {
+     "text": "\u4e09\u6761\u8fb9\u52a0\u8d77\u6765\u662f42\u3002\u6bcf\u4e2a\u5b57\u6bcd\u90fd\u51fa\u73b0\u4e86\u4e24\u6b21\uff0c\u6240\u4ee5x\u52a0y\u52a0z\u662f21\u3002",
+     "caption": "\u4e09\u6761\u8fb9\u52a0\u8d77\u6765\u662f42\u3002\u6bcf\u4e2a\u5b57\u6bcd\u90fd\u51fa\u73b0\u4e86\u4e24\u6b21\uff0c\u6240\u4ee5x\u52a0y\u52a0z\u662f21\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/2504cd18a0ef0e4c.wav",
+     "from": 1079,
+     "frames": 268
+    },
+    {
+     "text": "\u51cf\u53bbBC\uff0c\u4e5f\u5c31\u662fy\u52a0z\u3002\u5269\u4e0b\u7684x\u5c31\u662f21\u51cf14\uff0c\u7b49\u4e8e7\u3002",
+     "caption": "\u51cf\u53bbBC\uff0c\u4e5f\u5c31\u662fy\u52a0z\u3002\u5269\u4e0b\u7684x\u5c31\u662f21\u51cf14\uff0c\u7b49\u4e8e7\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/42aa6a5c20ab5fe5.wav",
+     "from": 1357,
+     "frames": 257
+    },
+    {
+     "text": "\u540c\u6837\u7684\u65b9\u6cd5\uff0cy\u662f6\uff0cz\u662f8\u3002",
+     "caption": "\u540c\u6837\u7684\u65b9\u6cd5\uff0cy\u662f6\uff0cz\u662f8\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/ae3c1e7e3e25e37d.wav",
+     "from": 1625,
+     "frames": 114
+    },
+    {
+     "text": "\u6240\u4ee5BD\u662f6\uff0cDC\u662f8\uff1bCE\u662f8\uff0cEA\u662f7\u3002",
+     "caption": "\u6240\u4ee5BD\u662f6\uff0cDC\u662f8\uff1bCE\u662f8\uff0cEA\u662f7\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/431cf854e90435f0.wav",
+     "from": 1749,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "mass",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u8d28\u70b9\u6cd5",
+   "from": 4582,
+   "frames": 1984,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u662f\u6700\u597d\u73a9\u7684\u90e8\u5206\uff1a\u8d28\u70b9\u6cd5\u3002\u5728\u6bcf\u4e2a\u9876\u70b9\u653e\u4e00\u4e2a\u781d\u7801\u3002",
+     "caption": "\u73b0\u5728\u662f\u6700\u597d\u73a9\u7684\u90e8\u5206\uff1a\u8d28\u70b9\u6cd5\u3002\u5728\u6bcf\u4e2a\u9876\u70b9\u653e\u4e00\u4e2a\u781d\u7801\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/9d3529c039c583c6.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "\u8df7\u8df7\u677f\u8981\u5e73\u8861\uff0c\u4e24\u8fb9\u7684\u781d\u7801\u91cd\u91cf\u4e58\u8ddd\u79bb\u5fc5\u987b\u76f8\u7b49\u3002",
+     "caption": "\u8df7\u8df7\u677f\u8981\u5e73\u8861\uff0c\u4e24\u8fb9\u7684\u781d\u7801\u91cd\u91cf\u4e58\u8ddd\u79bb\u5fc5\u987b\u76f8\u7b49\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/cff8f8ecd41b1aa4.wav",
+     "from": 200,
+     "frames": 184
+    },
+    {
+     "text": "\u8981\u8ba9BC\u5728\u70b9D\u5e73\u8861\uff0cB\u7684\u91cd\u91cf\u4e586\uff0c\u8981\u7b49\u4e8eC\u7684\u91cd\u91cf\u4e588\u3002",
+     "caption": "\u8981\u8ba9BC\u5728\u70b9D\u5e73\u8861\uff0cB\u7684\u91cd\u91cf\u4e586\uff0c\u8981\u7b49\u4e8eC\u7684\u91cd\u91cf\u4e588\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/75c456f6d239d267.wav",
+     "from": 394,
+     "frames": 250
+    },
+    {
+     "text": "\u8981\u8ba9CA\u5728\u70b9E\u5e73\u8861\uff0cC\u7684\u91cd\u91cf\u4e588\uff0c\u8981\u7b49\u4e8eA\u7684\u91cd\u91cf\u4e587\u3002",
+     "caption": "\u8981\u8ba9CA\u5728\u70b9E\u5e73\u8861\uff0cC\u7684\u91cd\u91cf\u4e588\uff0c\u8981\u7b49\u4e8eA\u7684\u91cd\u91cf\u4e587\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/62987de9ff187700.wav",
+     "from": 654,
+     "frames": 226
+    },
+    {
+     "text": "\u6240\u4ee5\u4e09\u4e2a\u4e58\u79ef\u90fd\u76f8\u7b49\u30026\u30017\u30018\u90fd\u80fd\u6574\u9664\u4e00\u767e\u516d\u5341\u516b\u3002",
+     "caption": "\u6240\u4ee5\u4e09\u4e2a\u4e58\u79ef\u90fd\u76f8\u7b49\u30026\u30017\u30018\u90fd\u80fd\u6574\u9664168\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/0bd29912eacdaa5c.wav",
+     "from": 890,
+     "frames": 214
+    },
+    {
+     "text": "\u8fd9\u6837B\u662f28\uff0cC\u662f21\uff0cA\u662f24\u3002",
+     "caption": "\u8fd9\u6837B\u662f28\uff0cC\u662f21\uff0cA\u662f24\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/66d6f2e454950cfc.wav",
+     "from": 1114,
+     "frames": 198
+    },
+    {
+     "text": "\u73b0\u5728\u628aB\u548cC\u5408\u5e76\u6210\u70b9D\u4e0a\u7684\u4e00\u4e2a\u781d\u7801\u300228\u52a021\u7b49\u4e8e49\u3002",
+     "caption": "\u73b0\u5728\u628aB\u548cC\u5408\u5e76\u6210\u70b9D\u4e0a\u7684\u4e00\u4e2a\u781d\u7801\u300228\u52a021\u7b49\u4e8e49\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/9b4a784ed5a9ded3.wav",
+     "from": 1323,
+     "frames": 266
+    },
+    {
+     "text": "\u518d\u628aA\u548cC\u5408\u5e76\u5230\u70b9E\uff0c\u8fd9\u6837\u5728BE\u4e0a\u4e5f\u80fd\u5e73\u8861\u3002\u4e24\u6761\u7ebf\u4ea4\u4e8e\u70b9P\uff1aA\u5904\u662f24\uff0cD\u5904\u662f49\u3002",
+     "caption": "\u518d\u628aA\u548cC\u5408\u5e76\u5230\u70b9E\uff0c\u8fd9\u6837\u5728BE\u4e0a\u4e5f\u80fd\u5e73\u8861\u3002\u4e24\u6761\u7ebf\u4ea4\u4e8e\u70b9P\uff1aA\u5904\u662f24\uff0cD\u5904\u662f49\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/7578281b124bc664.wav",
+     "from": 1599,
+     "frames": 347
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6566,
+   "frames": 532,
+   "lines": [
+    {
+     "text": "24\u4e58AP\u7b49\u4e8e49\u4e58PD\u3002\u6240\u4ee5AP\u6bd4PD\u662f49\u6bd424\u3002",
+     "caption": "24\u4e58AP\u7b49\u4e8e49\u4e58PD\u3002\u6240\u4ee5AP\u6bd4PD\u662f49\u6bd424\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/f3ddbc1d933a24a6.wav",
+     "from": 0,
+     "frames": 308
+    },
+    {
+     "text": "\u7b54\u6848\u662f49\u6bd424\uff0c\u4e5f\u5c31\u662f\u9009\u9879D\uff01",
+     "caption": "\u7b54\u6848\u662f49\u6bd424\uff0c\u4e5f\u5c31\u662f\u9009\u9879D\uff01",
+     "file": "2026-11-07-incircle-cevians-zh/audio/d1de1c2940eacb63.wav",
+     "from": 318,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "parallel",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u753b\u5e73\u884c\u7ebf",
+   "from": 7098,
+   "frames": 1755,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\uff1a\u753b\u4e00\u6761\u5e73\u884c\u7ebf\u3002",
+     "caption": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\uff1a\u753b\u4e00\u6761\u5e73\u884c\u7ebf\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/8fc9af14bd559060.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "\u8fc7\u70b9D\uff0c\u753b\u4e00\u6761\u548cBE\u5e73\u884c\u7684\u7ebf\u3002\u5b83\u548cCA\u8fb9\u4ea4\u4e8e\u4e00\u4e2a\u65b0\u7684\u70b9G\u3002",
+     "caption": "\u8fc7\u70b9D\uff0c\u753b\u4e00\u6761\u548cBE\u5e73\u884c\u7684\u7ebf\u3002\u5b83\u548cCA\u8fb9\u4ea4\u4e8e\u4e00\u4e2a\u65b0\u7684\u70b9G\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/9725406aa576bd46.wav",
+     "from": 131,
+     "frames": 264
+    },
+    {
+     "text": "\u5728\u4e09\u89d2\u5f62CBE\u91cc\uff0cDG\u5e73\u884c\u4e8eBE\u3002\u6240\u4ee5G\u5206CE\u7684\u65b9\u5f0f\uff0c\u548cD\u5206CB\u7684\u65b9\u5f0f\u4e00\u6837\uff1a8\u6bd46\u3002",
+     "caption": "\u5728\u4e09\u89d2\u5f62CBE\u91cc\uff0cDG\u5e73\u884c\u4e8eBE\u3002\u6240\u4ee5G\u5206CE\u7684\u65b9\u5f0f\uff0c\u548cD\u5206CB\u7684\u65b9\u5f0f\u4e00\u6837\uff1a8\u6bd46\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/9e6ca61cbd017337.wav",
+     "from": 405,
+     "frames": 358
+    },
+    {
+     "text": "\u8fd9\u6837GE\u5c31\u662f8\u4e586\u9664\u4ee514\uff0c\u7b49\u4e8e7\u5206\u4e4b24\u3002",
+     "caption": "\u8fd9\u6837GE\u5c31\u662f8\u4e586\u9664\u4ee514\uff0c\u7b49\u4e8e7\u5206\u4e4b24\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/94a8b27a7334f65c.wav",
+     "from": 773,
+     "frames": 200
+    },
+    {
+     "text": "\u518d\u770b\u4e09\u89d2\u5f62ADG\u3002PE\u5e73\u884c\u4e8eDG\uff0c\u6240\u4ee5AP\u6bd4PD\u7b49\u4e8eAE\u6bd4EG\u3002",
+     "caption": "\u518d\u770b\u4e09\u89d2\u5f62ADG\u3002PE\u5e73\u884c\u4e8eDG\uff0c\u6240\u4ee5AP\u6bd4PD\u7b49\u4e8eAE\u6bd4EG\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/fc0e936b01ac99a1.wav",
+     "from": 983,
+     "frames": 357
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f7\u9664\u4ee57\u5206\u4e4b24\uff0c\u7b49\u4e8e24\u5206\u4e4b49\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "\u4e5f\u5c31\u662f7\u9664\u4ee57\u5206\u4e4b24\uff0c\u7b49\u4e8e24\u5206\u4e4b49\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-11-07-incircle-cevians-zh/audio/84248fb615816e38.wav",
+     "from": 1350,
+     "frames": 236
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u4e0d\u60f3\u7528\u781d\u7801\uff0c\u5c31\u9009\u8fd9\u4e2a\u65b9\u6cd5\u3002",
+     "caption": "\u5982\u679c\u4f60\u4e0d\u60f3\u7528\u781d\u7801\uff0c\u5c31\u9009\u8fd9\u4e2a\u65b9\u6cd5\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/f8be49c9d873e7c7.wav",
+     "from": 1596,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 8853,
+   "frames": 1688,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/f218f3bf2082679b.wav",
+     "from": 0,
+     "frames": 66
+    },
+    {
+     "text": "\u9009\u9879A\uff0c24\u6bd449\uff0c\u662fPD\u6bd4AP\u3002\u5c31\u662f\u6211\u4eec\u7684\u7b54\u6848\u5012\u8fc7\u6765\u4e86\u3002",
+     "caption": "\u9009\u9879A\uff0c24\u6bd449\uff0c\u662fPD\u6bd4AP\u3002\u5c31\u662f\u6211\u4eec\u7684\u7b54\u6848\u5012\u8fc7\u6765\u4e86\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/6cef0fbff4ffa3fe.wav",
+     "from": 76,
+     "frames": 249
+    },
+    {
+     "text": "\u9009\u9879B\uff0c7\u6bd44\uff0c\u662f\u628aG\u5f53\u6210\u4e86CE\u7684\u4e2d\u70b9\uff0c\u8fd9\u6837GE\u5c31\u662f4\u3002",
+     "caption": "\u9009\u9879B\uff0c7\u6bd44\uff0c\u662f\u628aG\u5f53\u6210\u4e86CE\u7684\u4e2d\u70b9\uff0c\u8fd9\u6837GE\u5c31\u662f4\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/61ec46325eb26707.wav",
+     "from": 335,
+     "frames": 238
+    },
+    {
+     "text": "\u9009\u9879C\uff0c2\u6bd41\uff0c\u662f\u628a\u5207\u7ebf\u6bb5\u7684\u957f\u5ea6\u5f53\u6210\u781d\u7801\uff1aD\u5904\u662f14\uff0cA\u5904\u662f7\u3002",
+     "caption": "\u9009\u9879C\uff0c2\u6bd41\uff0c\u662f\u628a\u5207\u7ebf\u6bb5\u7684\u957f\u5ea6\u5f53\u6210\u781d\u7801\uff1aD\u5904\u662f14\uff0cA\u5904\u662f7\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/26c18801982d0b67.wav",
+     "from": 583,
+     "frames": 264
+    },
+    {
+     "text": "\u53ef\u662fBC\u4e0d\u4f1a\u5e73\u8861\u30026\u4e586\u662f36\uff0c\u53ef\u662f8\u4e588\u662f64\u3002",
+     "caption": "\u53ef\u662fBC\u4e0d\u4f1a\u5e73\u8861\u30026\u4e586\u662f36\uff0c\u53ef\u662f8\u4e588\u662f64\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/40c30efad079fe5c.wav",
+     "from": 858,
+     "frames": 252
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c15\u6bd47\uff0c\u662f\u62ffCA\u6765\u6bd4AE\u3002\u8fd9\u662f\u4e00\u6761\u8fb9\u4e0a\u7684\u6bd4\uff0c\u4e0d\u662fAD\u4e0a\u7684\u6bd4\u3002",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c15\u6bd47\uff0c\u662f\u62ffCA\u6765\u6bd4AE\u3002\u8fd9\u662f\u4e00\u6761\u8fb9\u4e0a\u7684\u6bd4\uff0c\u4e0d\u662fAD\u4e0a\u7684\u6bd4\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/139088d07b33da51.wav",
+     "from": 1120,
+     "frames": 291
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5148\u68c0\u67e5\u6bcf\u4e2a\u8df7\u8df7\u677f\u90fd\u5e73\u8861\uff0c\u518d\u5408\u5e76\u781d\u7801\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5148\u68c0\u67e5\u6bcf\u4e2a\u8df7\u8df7\u677f\u90fd\u5e73\u8861\uff0c\u518d\u5408\u5e76\u781d\u7801\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/2964cdd1b2d6323f.wav",
+     "from": 1421,
+     "frames": 228
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a3-4-5\u4e09\u89d2\u5f62",
+   "from": 10541,
+   "frames": 555,
+   "lines": [
+    {
+     "text": "\u8f6e\u5230\u4f60\u4e86\uff01\u540c\u6837\u7684\u601d\u8def\uff0c\u6362\u4e00\u4e2a\u65b0\u4e09\u89d2\u5f62\u3002\u73b0\u5728AB\u662f3\uff0cBC\u662f4\uff0cCA\u662f5\u3002",
+     "caption": "\u8f6e\u5230\u4f60\u4e86\uff01\u540c\u6837\u7684\u601d\u8def\uff0c\u6362\u4e00\u4e2a\u65b0\u4e09\u89d2\u5f62\u3002\u73b0\u5728AB\u662f3\uff0cBC\u662f4\uff0cCA\u662f5\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/f447cb0d6bd258e8.wav",
+     "from": 0,
+     "frames": 303
+    },
+    {
+     "text": "\u8fd8\u662f\u5185\u5207\u5706\uff0c\u8fd8\u662f\u90a3\u4e24\u6761\u7ebf\u3002AP\u6bd4PD\u662f\u591a\u5c11\uff1f",
+     "caption": "\u8fd8\u662f\u5185\u5207\u5706\uff0c\u8fd8\u662f\u90a3\u4e24\u6761\u7ebf\u3002AP\u6bd4PD\u662f\u591a\u5c11\uff1f",
+     "file": "2026-11-07-incircle-cevians-zh/audio/ebffab9a44437c04.wav",
+     "from": 313,
+     "frames": 173
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11096,
+   "frames": 395,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-11-07-incircle-cevians-zh/audio/615a835326c07ce2.wav",
+     "from": 0,
+     "frames": 71
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "3-4-5\uff1a\u7b54\u6848",
+   "from": 11491,
+   "frames": 1407,
+   "lines": [
+    {
+     "text": "\u5148\u6c42\u5207\u7ebf\u6bb5\u3002\u5468\u957f\u7684\u4e00\u534a\u662f6\u3002\u6240\u4ee5x\u7b49\u4e8e6\u51cf4\uff0c\u7b49\u4e8e2\u3002",
+     "caption": "\u5148\u6c42\u5207\u7ebf\u6bb5\u3002\u5468\u957f\u7684\u4e00\u534a\u662f6\u3002\u6240\u4ee5x\u7b49\u4e8e6\u51cf4\uff0c\u7b49\u4e8e2\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/6367c4f1fac23d15.wav",
+     "from": 0,
+     "frames": 266
+    },
+    {
+     "text": "\u540c\u6837\u7684\u65b9\u6cd5\uff0cy\u662f1\uff0cz\u662f3\u3002",
+     "caption": "\u540c\u6837\u7684\u65b9\u6cd5\uff0cy\u662f1\uff0cz\u662f3\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/285e2191d00ffc62.wav",
+     "from": 275,
+     "frames": 132
+    },
+    {
+     "text": "\u6240\u4ee5BD\u662f1\uff0cDC\u662f3\uff0cCE\u662f3\uff0cEA\u662f2\u3002",
+     "caption": "\u6240\u4ee5BD\u662f1\uff0cDC\u662f3\uff0cCE\u662f3\uff0cEA\u662f2\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/a057f4fa7dda8ad2.wav",
+     "from": 418,
+     "frames": 249
+    },
+    {
+     "text": "\u4e58\u79ef\u8981\u76f8\u7b49\uff1aB\u4e581\uff0cC\u4e583\uff0cA\u4e582\u3002\u8ba9\u5b83\u4eec\u90fd\u7b49\u4e8e6\u3002",
+     "caption": "\u4e58\u79ef\u8981\u76f8\u7b49\uff1aB\u4e581\uff0cC\u4e583\uff0cA\u4e582\u3002\u8ba9\u5b83\u4eec\u90fd\u7b49\u4e8e6\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/904bac9d2711498c.wav",
+     "from": 677,
+     "frames": 267
+    },
+    {
+     "text": "\u6240\u4ee5B\u662f6\uff0cC\u662f2\uff0cA\u662f3\u3002D\u5f97\u52306\u52a02\uff0c\u7b49\u4e8e8\u3002",
+     "caption": "\u6240\u4ee5B\u662f6\uff0cC\u662f2\uff0cA\u662f3\u3002D\u5f97\u52306\u52a02\uff0c\u7b49\u4e8e8\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/2f586f07f27cc6a7.wav",
+     "from": 954,
+     "frames": 227
+    },
+    {
+     "text": "\u6240\u4ee5AP\u6bd4PD\u662f8\u6bd43\uff01",
+     "caption": "\u6240\u4ee5AP\u6bd4PD\u662f8\u6bd43\uff01",
+     "file": "2026-11-07-incircle-cevians-zh/audio/b834f66f16e6e238.wav",
+     "from": 1191,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12898,
+   "frames": 665,
+   "lines": [
+    {
+     "text": "\u6838\u5fc3\u601d\u8def\uff1a\u5207\u7ebf\u6bb5\u76f8\u7b49\uff0c\u80fd\u544a\u8bc9\u4f60\u5185\u5207\u5706\u548c\u6bcf\u6761\u8fb9\u5207\u5728\u54ea\u91cc\u3002",
+     "caption": "\u6838\u5fc3\u601d\u8def\uff1a\u5207\u7ebf\u6bb5\u76f8\u7b49\uff0c\u80fd\u544a\u8bc9\u4f60\u5185\u5207\u5706\u548c\u6bcf\u6761\u8fb9\u5207\u5728\u54ea\u91cc\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/e4ca6b800c6dfd29.wav",
+     "from": 0,
+     "frames": 224
+    },
+    {
+     "text": "\u7136\u540e\uff0c\u8ba9\u6bcf\u6761\u8fb9\u4e0a\u7684\u781d\u7801\u90fd\u5e73\u8861\uff0c\u5c31\u80fd\u628a\u8fd9\u4e9b\u7ebf\u6bb5\u53d8\u6210AD\u4e0a\u7684\u6bd4\u3002",
+     "caption": "\u7136\u540e\uff0c\u8ba9\u6bcf\u6761\u8fb9\u4e0a\u7684\u781d\u7801\u90fd\u5e73\u8861\uff0c\u5c31\u80fd\u628a\u8fd9\u4e9b\u7ebf\u6bb5\u53d8\u6210AD\u4e0a\u7684\u6bd4\u3002",
+     "file": "2026-11-07-incircle-cevians-zh/audio/efeee101ed9ba5ad.wav",
+     "from": 234,
+     "frames": 230
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-11-07-incircle-cevians-zh/audio/0304ca5e39537e8b.wav",
+     "from": 474,
+     "frames": 107
+    }
+   ]
+  }
+ ]
+}

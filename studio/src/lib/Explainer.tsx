@@ -24,6 +24,9 @@ const Captions: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
       const start = s.from + l.from;
       if (f >= start && f < start + l.frames + CAPTION_TAIL) {
         const o = interpolate(f, [start, start + 6, start + l.frames + CAPTION_TAIL - 6, start + l.frames + CAPTION_TAIL], [0, 1, 1, 0], clamp);
+        // Chinese: wrap only after punctuation (zero-width space + keep-all), so "那 / 么" never splits; a clause
+        // too long for one line still breaks (overflowWrap anywhere).
+        const zh = /[\u4e00-\u9fff]/.test(l.caption);
         return (
           <div style={{ position: 'absolute', left: 270, right: 120, bottom: 44, display: 'flex', justifyContent: 'center' }}>
             <div
@@ -37,10 +40,11 @@ const Captions: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
                 lineHeight: 1.3,
                 textAlign: 'center',
                 textWrap: 'balance', // no 1-2 word (or hanzi) orphan last line
+                ...(zh && { wordBreak: 'keep-all', overflowWrap: 'anywhere' }),
                 boxShadow: '0 6px 24px rgba(30, 40, 80, 0.08)',
               }}
             >
-              {l.caption}
+              {zh ? l.caption.replace(/([，。！？、：；])/g, '$1\u200b') : l.caption}
             </div>
           </div>
         );

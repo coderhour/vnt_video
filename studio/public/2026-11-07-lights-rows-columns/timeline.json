@@ -1,0 +1,533 @@
+{
+ "fps": 30,
+ "durationInFrames": 12575,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 478,
+   "lines": [
+    {
+     "text": "Nine lights, each on or off.",
+     "caption": "Nine lights, each on or off.",
+     "file": "2026-11-07-lights-rows-columns/audio/e89379aa359c955b.wav",
+     "from": 0,
+     "frames": 96
+    },
+    {
+     "text": "Count each row and column alone, and you get three hundred eighty-four. Too many!",
+     "caption": "Count each row and column alone, and you get three hundred eighty-four. Too many!",
+     "file": "2026-11-07-lights-rows-columns/audio/26db04139351e32f.wav",
+     "from": 107,
+     "frames": 164
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's learn to count overlaps without counting twice.",
+     "caption": "Hi, I'm Vantee! Let's learn to count overlaps without counting twice.",
+     "file": "2026-11-07-lights-rows-columns/audio/0a03fd86c1ad9b8d.wav",
+     "from": 280,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 478,
+   "frames": 514,
+   "lines": [
+    {
+     "text": "Each light in a three by three grid of nine lights is on or off.",
+     "caption": "Each light in a three by three grid of nine lights is on or off.",
+     "file": "2026-11-07-lights-rows-columns/audio/bf2a090a57ed0a46.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "How many on and off patterns have at least one full row, or at least one full column, of lights on?",
+     "caption": "How many on and off patterns have at least one full row, or at least one full column, of lights on?",
+     "file": "2026-11-07-lights-rows-columns/audio/a4d32256540d9d3f.wav",
+     "from": 176,
+     "frames": 219
+    },
+    {
+     "text": "Here are the choices.",
+     "caption": "Here are the choices.",
+     "file": "2026-11-07-lights-rows-columns/audio/ff58d356cdadc4d1.wav",
+     "from": 405,
+     "frames": 56
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 992,
+   "frames": 477,
+   "lines": [
+    {
+     "text": "A pattern wins if some row is all on, or some column is all on. Or both!",
+     "caption": "A pattern wins if some row is all on, or some column is all on. Or both!",
+     "file": "2026-11-07-lights-rows-columns/audio/f1f1f31a430a4ed0.wav",
+     "from": 0,
+     "frames": 210
+    },
+    {
+     "text": "Each light has two choices. So there are two to the ninth, five hundred twelve patterns in all.",
+     "caption": "Each light has two choices. So there are two to the ninth, five hundred twelve patterns in all.",
+     "file": "2026-11-07-lights-rows-columns/audio/263f55068ed1982f.wav",
+     "from": 220,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1469,
+   "frames": 449,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-lights-rows-columns/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "rows",
+   "kind": "scene",
+   "chapter": "Solution 1: count the losers",
+   "from": 1918,
+   "frames": 1057,
+   "lines": [
+    {
+     "text": "Welcome back! Let's count the losers: patterns with no full row and no full column.",
+     "caption": "Welcome back! Let's count the losers: patterns with no full row and no full column.",
+     "file": "2026-11-07-lights-rows-columns/audio/dd44927b45b76a6e.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "Start with rows. One row of three lights has two times two times two, eight patterns.",
+     "caption": "Start with rows. One row of three lights has two times two times two, eight patterns.",
+     "file": "2026-11-07-lights-rows-columns/audio/6b2114f98c5c64f3.wav",
+     "from": 207,
+     "frames": 240
+    },
+    {
+     "text": "Only one of those eight is all on. So each row has seven safe choices.",
+     "caption": "Only one of those eight is all on. So each row has seven safe choices.",
+     "file": "2026-11-07-lights-rows-columns/audio/9feaa63dd3b8025d.wav",
+     "from": 458,
+     "frames": 189
+    },
+    {
+     "text": "Seven times seven times seven. That's three hundred forty-three patterns with no full row.",
+     "caption": "Seven times seven times seven. That's three hundred forty-three patterns with no full row.",
+     "file": "2026-11-07-lights-rows-columns/audio/5f9b25283bb6b251.wav",
+     "from": 657,
+     "frames": 224
+    },
+    {
+     "text": "But some of those still have a full column. Let's find them.",
+     "caption": "But some of those still have a full column. Let's find them.",
+     "file": "2026-11-07-lights-rows-columns/audio/005473ec7cc5d3aa.wav",
+     "from": 890,
+     "frames": 125
+    }
+   ]
+  },
+  {
+   "id": "cols",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2975,
+   "frames": 1191,
+   "lines": [
+    {
+     "text": "Say column one is full. Then every row has its first light on.",
+     "caption": "Say column one is full. Then every row has its first light on.",
+     "file": "2026-11-07-lights-rows-columns/audio/78223977dc28dd56.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "The other two can't both be on, or that row is full. That leaves three choices per row.",
+     "caption": "The other two can't both be on, or that row is full. That leaves three choices per row.",
+     "file": "2026-11-07-lights-rows-columns/audio/53274017f405153a.wav",
+     "from": 162,
+     "frames": 206
+    },
+    {
+     "text": "Three times three times three is twenty-seven. Each column gives twenty-seven, so eighty-one.",
+     "caption": "Three times three times three is twenty-seven. Each column gives twenty-seven, so eighty-one.",
+     "file": "2026-11-07-lights-rows-columns/audio/c7620d1e2c8e2bfe.wav",
+     "from": 377,
+     "frames": 222
+    },
+    {
+     "text": "Careful! Patterns with two full columns, third column off, got counted twice.",
+     "caption": "Careful! Patterns with two full columns, third column off, got counted twice.",
+     "file": "2026-11-07-lights-rows-columns/audio/edac423b0c86e3fd.wav",
+     "from": 610,
+     "frames": 184
+    },
+    {
+     "text": "So subtract each one once. There are three.",
+     "caption": "So subtract each one once. There are three.",
+     "file": "2026-11-07-lights-rows-columns/audio/69b5232252f9cb0e.wav",
+     "from": 804,
+     "frames": 113
+    },
+    {
+     "text": "Three full columns would fill the rows, so they never appear. Eighty-one minus three: seventy-eight.",
+     "caption": "Three full columns would fill the rows, so they never appear. Eighty-one minus three: seventy-eight.",
+     "file": "2026-11-07-lights-rows-columns/audio/a2384c7e91d66859.wav",
+     "from": 927,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4166,
+   "frames": 813,
+   "lines": [
+    {
+     "text": "So the losers are three hundred forty-three minus seventy-eight. That's two hundred sixty-five.",
+     "caption": "So the losers are three hundred forty-three minus seventy-eight. That's two hundred sixty-five.",
+     "file": "2026-11-07-lights-rows-columns/audio/773bc6d67f6cc79f.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "Those are the patterns with NO full row or column. That's not our answer yet!",
+     "caption": "Those are the patterns with NO full row or column. That's not our answer yet!",
+     "file": "2026-11-07-lights-rows-columns/audio/7b0d4fa3a0d13a44.wav",
+     "from": 239,
+     "frames": 164
+    },
+    {
+     "text": "Take them from all five hundred twelve.",
+     "caption": "Take them from all five hundred twelve.",
+     "file": "2026-11-07-lights-rows-columns/audio/3553f80809137cd8.wav",
+     "from": 413,
+     "frames": 102
+    },
+    {
+     "text": "Five hundred twelve minus two hundred sixty-five is <short pause> two hundred forty-seven! Choice B.",
+     "caption": "Five hundred twelve minus two hundred sixty-five is two hundred forty-seven! Choice B.",
+     "file": "2026-11-07-lights-rows-columns/audio/44f3af542316aa8b.wav",
+     "from": 525,
+     "frames": 234
+    }
+   ]
+  },
+  {
+   "id": "ie-pairs",
+   "kind": "scene",
+   "chapter": "Solution 2: inclusion and exclusion",
+   "from": 4979,
+   "frames": 1472,
+   "lines": [
+    {
+     "text": "Now a second way: inclusion and exclusion. Each row or column gets its own group of patterns.",
+     "caption": "Now a second way: inclusion and exclusion. Each row or column gets its own group of patterns.",
+     "file": "2026-11-07-lights-rows-columns/audio/b70750e074349691.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "Fix one row or column all on. The other six lights are free. Two to the sixth power is sixty-four.",
+     "caption": "Fix one row or column all on. The other six lights are free. Two to the sixth power is sixty-four.",
+     "file": "2026-11-07-lights-rows-columns/audio/fb405418b363503f.wav",
+     "from": 236,
+     "frames": 249
+    },
+    {
+     "text": "Six of them, sixty-four each, is three hundred eighty-four. But overlaps got counted more than once!",
+     "caption": "Six of them, sixty-four each, is three hundred eighty-four. But overlaps got counted more than once!",
+     "file": "2026-11-07-lights-rows-columns/audio/99b4517290378f7a.wav",
+     "from": 495,
+     "frames": 222
+    },
+    {
+     "text": "So subtract each pair. Two rows, or two columns, leave three free lights: eight patterns.",
+     "caption": "So subtract each pair. Two rows, or two columns, leave three free lights: eight patterns.",
+     "file": "2026-11-07-lights-rows-columns/audio/29477c2ef13a7c3c.wav",
+     "from": 728,
+     "frames": 238
+    },
+    {
+     "text": "A row and a column make a cross of five lights. Four are free, so sixteen patterns.",
+     "caption": "A row and a column make a cross of five lights. Four are free, so sixteen patterns.",
+     "file": "2026-11-07-lights-rows-columns/audio/0b6a2208538db43f.wav",
+     "from": 976,
+     "frames": 216
+    },
+    {
+     "text": "Six row or column pairs give forty-eight. Three times three crosses give one hundred forty-four.",
+     "caption": "Six row or column pairs give forty-eight. Three times three crosses give one hundred forty-four.",
+     "file": "2026-11-07-lights-rows-columns/audio/55736dd17916b14d.wav",
+     "from": 1202,
+     "frames": 228
+    }
+   ]
+  },
+  {
+   "id": "ie-more",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6451,
+   "frames": 1629,
+   "lines": [
+    {
+     "text": "A pattern in three groups was added three times, then taken away three times.",
+     "caption": "A pattern in three groups was added three times, then taken away three times.",
+     "file": "2026-11-07-lights-rows-columns/audio/e5f8108fb8daf014.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "That's zero! So add the triples back.",
+     "caption": "That's zero! So add the triples back.",
+     "file": "2026-11-07-lights-rows-columns/audio/edd6b3e487cbc146.wav",
+     "from": 188,
+     "frames": 88
+    },
+    {
+     "text": "Two rows and a column light seven lights. Two are free: four patterns. Nine such groups: thirty-six.",
+     "caption": "Two rows and a column light seven lights. Two are free: four patterns. Nine such groups: thirty-six.",
+     "file": "2026-11-07-lights-rows-columns/audio/73db3368f40a0d33.wav",
+     "from": 286,
+     "frames": 294
+    },
+    {
+     "text": "A row and two columns give thirty-six more. Plus all rows, and all columns. That's seventy-four.",
+     "caption": "A row and two columns give thirty-six more. Plus all rows, and all columns. That's seventy-four.",
+     "file": "2026-11-07-lights-rows-columns/audio/ab4d223621796059.wav",
+     "from": 591,
+     "frames": 251
+    },
+    {
+     "text": "Keep flipping signs. Two rows and two columns leave one free light. Nine ways, times two: eighteen.",
+     "caption": "Keep flipping signs. Two rows and two columns leave one free light. Nine ways, times two: eighteen.",
+     "file": "2026-11-07-lights-rows-columns/audio/9ed49ea23bcfa2c0.wav",
+     "from": 852,
+     "frames": 251
+    },
+    {
+     "text": "Three rows and a column, or a row and three columns, light everything. Six more: twenty-four.",
+     "caption": "Three rows and a column, or a row and three columns, light everything. Six more: twenty-four.",
+     "file": "2026-11-07-lights-rows-columns/audio/ea784e3ef99e47a5.wav",
+     "from": 1113,
+     "frames": 258
+    },
+    {
+     "text": "Groups of five, and all six, light every light. That's six, and then one.",
+     "caption": "Groups of five, and all six, light every light. That's six, and then one.",
+     "file": "2026-11-07-lights-rows-columns/audio/74d5be681bf217d7.wav",
+     "from": 1382,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "ie-sum",
+   "kind": "scene",
+   "chapter": null,
+   "from": 8080,
+   "frames": 741,
+   "lines": [
+    {
+     "text": "Put it together. Three hundred eighty-four minus one hundred ninety-two, plus seventy-four, minus twenty-four, plus six, minus one. That's two hundred forty-seven again!",
+     "caption": "Put it together. Three hundred eighty-four minus one hundred ninety-two, plus seventy-four, minus twenty-four, plus six, minus one. That's two hundred forty-seven again!",
+     "file": "2026-11-07-lights-rows-columns/audio/eb53705c43298f9b.wav",
+     "from": 0,
+     "frames": 446
+    },
+    {
+     "text": "When would you pick this one? Here, counting losers is shorter. But this works for ANY overlaps.",
+     "caption": "When would you pick this one? Here, counting losers is shorter. But this works for ANY overlaps.",
+     "file": "2026-11-07-lights-rows-columns/audio/8877cc51fa1bd603.wav",
+     "from": 456,
+     "frames": 232
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 8821,
+   "frames": 1128,
+   "lines": [
+    {
+     "text": "Choice A, one hundred sixty-nine, is just the full rows.",
+     "caption": "Choice A, one hundred sixty-nine, is just the full rows.",
+     "file": "2026-11-07-lights-rows-columns/audio/3ff03b7682f056a8.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Choice C, two hundred sixty-five, is the losers. You forgot to subtract from five hundred twelve.",
+     "caption": "Choice C, two hundred sixty-five, is the losers. You forgot to subtract from five hundred twelve.",
+     "file": "2026-11-07-lights-rows-columns/audio/28f4165ed61fea4e.wav",
+     "from": 142,
+     "frames": 203
+    },
+    {
+     "text": "Choice D, three hundred thirty-eight, is one hundred sixty-nine for rows, plus the same for columns.",
+     "caption": "Choice D, three hundred thirty-eight, is one hundred sixty-nine for rows, plus the same for columns.",
+     "file": "2026-11-07-lights-rows-columns/audio/4c3fbd6410c986d4.wav",
+     "from": 355,
+     "frames": 218
+    },
+    {
+     "text": "Patterns with both get counted twice.",
+     "caption": "Patterns with both get counted twice.",
+     "file": "2026-11-07-lights-rows-columns/audio/6aa6260d3068fbfe.wav",
+     "from": 583,
+     "frames": 94
+    },
+    {
+     "text": "E, three hundred eighty-four, is six times sixty-four, with no overlaps taken away.",
+     "caption": "E, three hundred eighty-four, is six times sixty-four, with no overlaps taken away.",
+     "file": "2026-11-07-lights-rows-columns/audio/0052d488c57666b0.wav",
+     "from": 687,
+     "frames": 197
+    },
+    {
+     "text": "So here's a great habit. When groups overlap, ask: did I count anything twice?",
+     "caption": "So here's a great habit. When groups overlap, ask: did I count anything twice?",
+     "file": "2026-11-07-lights-rows-columns/audio/c47451469b63941a.wav",
+     "from": 894,
+     "frames": 186
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: two rows of three",
+   "from": 9949,
+   "frames": 386,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Now there are six lights, in two rows of three.",
+     "caption": "Ready for a challenge? Now there are six lights, in two rows of three.",
+     "file": "2026-11-07-lights-rows-columns/audio/05c7bf3047192079.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "How many patterns have at least one full row, or at least one full column?",
+     "caption": "How many patterns have at least one full row, or at least one full column?",
+     "file": "2026-11-07-lights-rows-columns/audio/dd0019d884020c9d.wav",
+     "from": 180,
+     "frames": 173
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10335,
+   "frames": 397,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-lights-rows-columns/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Two rows of three: the answer",
+   "from": 10732,
+   "frames": 1190,
+   "lines": [
+    {
+     "text": "Count the losers. Each row has seven safe choices. Seven times seven is forty-nine with no full row.",
+     "caption": "Count the losers. Each row has seven safe choices. Seven times seven is forty-nine with no full row.",
+     "file": "2026-11-07-lights-rows-columns/audio/c2d681dca6e5a2be.wav",
+     "from": 0,
+     "frames": 255
+    },
+    {
+     "text": "If column one is full, each row has three choices left. Three times three is nine.",
+     "caption": "If column one is full, each row has three choices left. Three times three is nine.",
+     "file": "2026-11-07-lights-rows-columns/audio/12ee069c69ab3485.wav",
+     "from": 265,
+     "frames": 225
+    },
+    {
+     "text": "Three columns give twenty-seven. Take away three with two full columns. That's twenty-four.",
+     "caption": "Three columns give twenty-seven. Take away three with two full columns. That's twenty-four.",
+     "file": "2026-11-07-lights-rows-columns/audio/69cd3317bf56b845.wav",
+     "from": 500,
+     "frames": 201
+    },
+    {
+     "text": "So the losers are forty-nine minus twenty-four, which is twenty-five.",
+     "caption": "So the losers are forty-nine minus twenty-four, which is twenty-five.",
+     "file": "2026-11-07-lights-rows-columns/audio/fc6b19f89282bb34.wav",
+     "from": 711,
+     "frames": 173
+    },
+    {
+     "text": "There are two to the sixth, sixty-four patterns in all. Minus twenty-five is <short pause> thirty-nine!",
+     "caption": "There are two to the sixth, sixty-four patterns in all. Minus twenty-five is thirty-nine!",
+     "file": "2026-11-07-lights-rows-columns/audio/125d4580f026960d.wav",
+     "from": 894,
+     "frames": 243
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11922,
+   "frames": 653,
+   "lines": [
+    {
+     "text": "The big idea: add the groups, subtract the pairs, add back the triples, and keep alternating.",
+     "caption": "The big idea: add the groups, subtract the pairs, add back the triples, and keep alternating.",
+     "file": "2026-11-07-lights-rows-columns/audio/b043e4f94cc1eeff.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "Then every pattern is counted exactly once. Or count the losers, and subtract from the total.",
+     "caption": "Then every pattern is counted exactly once. Or count the losers, and subtract from the total.",
+     "file": "2026-11-07-lights-rows-columns/audio/e65eeee3be6fd207.wav",
+     "from": 230,
+     "frames": 219
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-lights-rows-columns/audio/31a6054d0b03b932.wav",
+     "from": 459,
+     "frames": 125
+    }
+   ]
+  }
+ ]
+}

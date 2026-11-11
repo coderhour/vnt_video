@@ -1,6 +1,6 @@
 {
- "title": "Write Every Number in a Row: What Is the 2026th Digit? | AMC 8-Style Level 4",
- "description": "Write the whole numbers in a row with no spaces: which digit lands in spot 2026? Vantee shows two ways to find it without writing them all out.\nWatch out for the off-by-one trap: the remainder picks a digit of the NEXT number!\nThen try the 1000th digit yourself.\n\n0:00 Intro\n0:19 The question\n0:46 What are we asked?\n1:09 Try it yourself\n1:23 Solution 1: count digits in blocks\n3:03 Solution 2: jump by hundreds\n3:58 Common traps\n4:40 Your turn: the 1000th digit\n5:05 1000th digit: the answer\n5:44 Recap",
+ "title": "AMC 8 Practice: Digits of a Long Number — Find the 2026th Digit",
+ "description": "AMC 8 practice problem on finding a digit in the string 123456789101112..., solved by counting digits in blocks and by jumping by hundreds. (Level 4 of 5)\nWrite the whole numbers in a row with no spaces: which digit lands in spot 2026? Vantee shows two ways to find it without writing them all out.\nWatch out for the off-by-one trap: the remainder picks a digit of the NEXT number!\nThen try the 1000th digit yourself.\n\n0:00 Intro\n0:19 The question\n0:46 What are we asked?\n1:09 Try it yourself\n1:23 Solution 1: count digits in blocks\n3:03 Solution 2: jump by hundreds\n3:58 Common traps\n4:40 Your turn: the 1000th digit\n5:05 1000th digit: the answer\n5:44 Recap",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_mock_test_template:c2-140",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Write 1, 2, 3, … in a row with no spaces. What is the 2026th digit? Comment your answer before you watch the solution!"
 }

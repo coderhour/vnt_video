@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1191,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 116,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's twenty-five? Nope!",
+     "caption": "AMC 10 challenge! Think it's 25? Nope!",
+     "file": "2026-11-07-divisors-ending-1/short/audio/c0dfa0737dcd402f.wav",
+     "from": 0,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 116,
+   "frames": 238,
+   "lines": [
+    {
+     "text": "Take three to the sixth, times seven to the fourth, times thirteen squared.",
+     "caption": "Take 3 to the 6th, times 7 to the 4th, times 13 squared.",
+     "file": "2026-11-07-divisors-ending-1/short/audio/542f9a893ae387cc.wav",
+     "from": 0,
+     "frames": 117
+    },
+    {
+     "text": "How many of its positive divisors end in the digit one?",
+     "caption": "How many of its positive divisors end in the digit 1?",
+     "file": "2026-11-07-divisors-ending-1/short/audio/92a9c8a1f6b705eb.wav",
+     "from": 121,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 354,
+   "frames": 78,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-divisors-ending-1/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "grid",
+   "kind": "scene",
+   "chapter": null,
+   "from": 432,
+   "frames": 435,
+   "lines": [
+    {
+     "text": "Only last digits matter. Here's three to the a, times thirteen to the c.",
+     "caption": "Only last digits matter. Here's 3 to the a, times 13 to the c.",
+     "file": "2026-11-07-divisors-ending-1/short/audio/88ed2e44fc550ebb.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "Five boxes end in one. Powers of seven end in one, seven, nine, three, one.",
+     "caption": "5 boxes end in 1. Powers of 7 end in 1, 7, 9, 3, 1.",
+     "file": "2026-11-07-divisors-ending-1/short/audio/93363ff4721340f8.wav",
+     "from": 147,
+     "frames": 141
+    },
+    {
+     "text": "A box ending in one works with two of them. Every other box works with exactly one!",
+     "caption": "A box ending in 1 works with 2 of them. Every other box works with exactly 1!",
+     "file": "2026-11-07-divisors-ending-1/short/audio/645754651d92f38d.wav",
+     "from": 292,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 867,
+   "frames": 324,
+   "lines": [
+    {
+     "text": "Five times two, plus sixteen. That's twenty-six!",
+     "caption": "5 times 2, plus 16. That's 26!",
+     "file": "2026-11-07-divisors-ending-1/short/audio/dd3ad64de878c07e.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "Twenty-five was the trap. Seven doesn't end in one!",
+     "caption": "25 was the trap. 7 doesn't end in 1!",
+     "file": "2026-11-07-divisors-ending-1/short/audio/467df318a74c63e3.wav",
+     "from": 97,
+     "frames": 118
+    },
+    {
+     "text": "Did you get twenty-six? Tell me below!",
+     "caption": "Did you get 26? Tell me below!",
+     "file": "2026-11-07-divisors-ending-1/short/audio/ca2d710b1a95753a.wav",
+     "from": 219,
+     "frames": 70
+    }
+   ]
+  }
+ ]
+}

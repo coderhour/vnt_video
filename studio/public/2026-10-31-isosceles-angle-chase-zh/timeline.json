@@ -1,0 +1,508 @@
+{
+ "fps": 30,
+ "durationInFrames": 11736,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 562,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u53ea\u77e5\u9053\u4e00\u4e2a\u89d2\uff1a24\u5ea6\u3002\u80fd\u6c42\u51fa\u9876\u4e0a\u7684\u8fd9\u4e2a\u89d2\u5417\uff1f",
+     "caption": "\u6211\u4eec\u53ea\u77e5\u9053\u4e00\u4e2a\u89d2\uff1a24\u5ea6\u3002\u80fd\u6c42\u51fa\u9876\u4e0a\u7684\u8fd9\u4e2a\u89d2\u5417\uff1f",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/8f0bd14a4e7bf4ea.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "\u79d8\u5bc6\u5c31\u85cf\u5728\u4e24\u4e2a\u7b49\u8170\u4e09\u89d2\u5f62\u91cc\u3002",
+     "caption": "\u79d8\u5bc6\u5c31\u85cf\u5728\u4e24\u4e2a\u7b49\u8170\u4e09\u89d2\u5f62\u91cc\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/554904c7f185c384.wav",
+     "from": 196,
+     "frames": 120
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff0c\u4f60\u7684\u6570\u5b66\u5c0f\u5bfc\u5e08\uff01\u6211\u4eec\u4e00\u8d77\u6765\u4e00\u573a\u89d2\u5ea6\u5927\u8ffd\u8e2a\u5427\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff0c\u4f60\u7684\u6570\u5b66\u5c0f\u5bfc\u5e08\uff01\u6211\u4eec\u4e00\u8d77\u6765\u4e00\u573a\u89d2\u5ea6\u5927\u8ffd\u8e2a\u5427\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/ea098654f1b5cc87.wav",
+     "from": 327,
+     "frames": 196
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 562,
+   "frames": 908,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/462560b7d8b91a76.wav",
+     "from": 0,
+     "frames": 47
+    },
+    {
+     "text": "\u5728\u4e09\u89d2\u5f62ABC\u4e2d\uff0c\u8fb9AB\u7b49\u4e8e\u8fb9AC\u3002",
+     "caption": "\u5728\u4e09\u89d2\u5f62ABC\u4e2d\uff0c\u8fb9AB\u7b49\u4e8e\u8fb9AC\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/e86d438c7fe76e21.wav",
+     "from": 57,
+     "frames": 179
+    },
+    {
+     "text": "\u70b9D\u5728\u8fb9AC\u4e0a\uff0c\u5e76\u4e14BD\u7b49\u4e8eBC\u3002",
+     "caption": "\u70b9D\u5728\u8fb9AC\u4e0a\uff0c\u5e76\u4e14BD\u7b49\u4e8eBC\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/ea3614bee69d7ad2.wav",
+     "from": 246,
+     "frames": 196
+    },
+    {
+     "text": "\u89d2ABD\u662f24\u5ea6\u3002",
+     "caption": "\u89d2ABD\u662f24\u5ea6\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/8f826e11121a627f.wav",
+     "from": 452,
+     "frames": 120
+    },
+    {
+     "text": "\u89d2BAC\uff0c\u4e5f\u5c31\u662f\u9876\u4e0a\u7684\u89d2\uff0c\u662f\u591a\u5c11\u5ea6\uff1f",
+     "caption": "\u89d2BAC\uff0c\u4e5f\u5c31\u662f\u9876\u4e0a\u7684\u89d2\uff0c\u662f\u591a\u5c11\u5ea6\uff1f",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/5fcf66d0aabd0009.wav",
+     "from": 583,
+     "frames": 152
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/56f8878cf653d111.wav",
+     "from": 744,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1470,
+   "frames": 584,
+   "lines": [
+    {
+     "text": "\u6240\u4ee5\u8fd9\u91cc\u6709\u4e24\u4e2a\u7b49\u8170\u4e09\u89d2\u5f62\u3002\u5927\u4e09\u89d2\u5f62ABC\uff0c\u4eceA\u51fa\u53d1\u7684\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "caption": "\u6240\u4ee5\u8fd9\u91cc\u6709\u4e24\u4e2a\u7b49\u8170\u4e09\u89d2\u5f62\u3002\u5927\u4e09\u89d2\u5f62ABC\uff0c\u4eceA\u51fa\u53d1\u7684\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/818118f4e3eb9017.wav",
+     "from": 0,
+     "frames": 245
+    },
+    {
+     "text": "\u5c0f\u4e09\u89d2\u5f62BDC\uff0c\u4eceB\u51fa\u53d1\u7684\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "caption": "\u5c0f\u4e09\u89d2\u5f62BDC\uff0c\u4eceB\u51fa\u53d1\u7684\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/bca8cf4743f3509c.wav",
+     "from": 256,
+     "frames": 154
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\uff0c\u662fA\u5904\u9876\u4e0a\u7684\u89d2\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\uff0c\u662fA\u5904\u9876\u4e0a\u7684\u89d2\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/14587918a75c75fc.wav",
+     "from": 420,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2054,
+   "frames": 494,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/dd5c35b4df901ef0.wav",
+     "from": 0,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "big",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u7528\u5b57\u6bcd\u8ffd\u89d2",
+   "from": 2548,
+   "frames": 802,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u5148\u7ed9\u4e0d\u77e5\u9053\u7684\u89d2\u8d77\u4e2a\u540d\u5b57\u3002\u628a\u9876\u89d2\u53eb\u505aa\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u5148\u7ed9\u4e0d\u77e5\u9053\u7684\u89d2\u8d77\u4e2a\u540d\u5b57\u3002\u628a\u9876\u89d2\u53eb\u505aa\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/97b401d5e54bf161.wav",
+     "from": 0,
+     "frames": 198
+    },
+    {
+     "text": "\u8fb9AB\u7b49\u4e8e\u8fb9AC\uff0c\u6240\u4ee5B\u5904\u548cC\u5904\u7684\u89d2\u76f8\u7b49\u3002\u8fd9\u4e24\u4e2a\u89d2\u53eb\u505a\u5e95\u89d2\u3002",
+     "caption": "\u8fb9AB\u7b49\u4e8e\u8fb9AC\uff0c\u6240\u4ee5B\u5904\u548cC\u5904\u7684\u89d2\u76f8\u7b49\u3002\u8fd9\u4e24\u4e2a\u89d2\u53eb\u505a\u5e95\u89d2\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/daae544f35761bc4.wav",
+     "from": 209,
+     "frames": 306
+    },
+    {
+     "text": "\u4e09\u4e2a\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\uff0c\u6240\u4ee5\u6bcf\u4e2a\u5e95\u89d2\u90fd\u662f90\u51cf\u53bba\u7684\u4e00\u534a\u3002",
+     "caption": "\u4e09\u4e2a\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\uff0c\u6240\u4ee5\u6bcf\u4e2a\u5e95\u89d2\u90fd\u662f90\u51cf\u53bba\u7684\u4e00\u534a\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/f329d184c21b2c99.wav",
+     "from": 526,
+     "frames": 222
+    }
+   ]
+  },
+  {
+   "id": "small",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3350,
+   "frames": 1034,
+   "lines": [
+    {
+     "text": "\u518d\u770b\u5c0f\u4e09\u89d2\u5f62\u3002BD\u7b49\u4e8eBC\uff0c\u6240\u4ee5D\u5904\u548cC\u5904\u7684\u89d2\u76f8\u7b49\u3002\u89d2BDC\u7b49\u4e8e\u89d2C\u3002",
+     "caption": "\u518d\u770b\u5c0f\u4e09\u89d2\u5f62\u3002BD\u7b49\u4e8eBC\uff0c\u6240\u4ee5D\u5904\u548cC\u5904\u7684\u89d2\u76f8\u7b49\u3002\u89d2BDC\u7b49\u4e8e\u89d2C\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/1ceae42a068e0fb4.wav",
+     "from": 0,
+     "frames": 310
+    },
+    {
+     "text": "\u6240\u4ee5\u89d2DBC\u7b49\u4e8e180\u5ea6\uff0c\u51cf\u53bb\u89d2C\uff0c\u518d\u51cf\u53bb\u89d2C\u3002",
+     "caption": "\u6240\u4ee5\u89d2DBC\u7b49\u4e8e180\u5ea6\uff0c\u51cf\u53bb\u89d2C\uff0c\u518d\u51cf\u53bb\u89d2C\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/41d623082f1053fe.wav",
+     "from": 320,
+     "frames": 227
+    },
+    {
+     "text": "\u4e24\u4e2a\u5e95\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\u51cfa\u3002\u6240\u4ee5\u89d2DBC\u6b63\u597d\u5c31\u662fa\uff01",
+     "caption": "\u4e24\u4e2a\u5e95\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\u51cfa\u3002\u6240\u4ee5\u89d2DBC\u6b63\u597d\u5c31\u662fa\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/636048c75ac25d24.wav",
+     "from": 557,
+     "frames": 250
+    },
+    {
+     "text": "\u4f60\u770b\uff0cB\u5904\u7684\u8fd9\u4e2a\u5c0f\u89d2\uff0c\u548c\u9876\u89d2\u4e00\u6a21\u4e00\u6837\u3002",
+     "caption": "\u4f60\u770b\uff0cB\u5904\u7684\u8fd9\u4e2a\u5c0f\u89d2\uff0c\u548c\u9876\u89d2\u4e00\u6a21\u4e00\u6837\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/f720142f6d5d98cb.wav",
+     "from": 817,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4384,
+   "frames": 1278,
+   "lines": [
+    {
+     "text": "\u89d2ABC\u7531\u4e24\u90e8\u5206\u7ec4\u6210\uff1a24\u5ea6\uff0c\u52a0\u4e0aa\u3002",
+     "caption": "\u89d2ABC\u7531\u4e24\u90e8\u5206\u7ec4\u6210\uff1a24\u5ea6\uff0c\u52a0\u4e0aa\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/23ef38e22e83c31d.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "\u53ef\u89d2ABC\u4e5f\u662f\u4e00\u4e2a\u5e95\u89d2\u3002\u6240\u4ee524\u52a0a\uff0c\u7b49\u4e8e90\u51cf\u53bba\u7684\u4e00\u534a\u3002",
+     "caption": "\u53ef\u89d2ABC\u4e5f\u662f\u4e00\u4e2a\u5e95\u89d2\u3002\u6240\u4ee524\u52a0a\uff0c\u7b49\u4e8e90\u51cf\u53bba\u7684\u4e00\u534a\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/36c5a146c07301d7.wav",
+     "from": 207,
+     "frames": 258
+    },
+    {
+     "text": "\u4e24\u8fb9\u90fd\u52a0\u4e0aa\u7684\u4e00\u534a\uff0c\u518d\u51cf\u53bb24\u3002\u5f97\u5230\u4e00\u53c8\u4e8c\u5206\u4e4b\u4e00\u4e2aa\uff0c\u7b49\u4e8e66\u3002",
+     "caption": "\u4e24\u8fb9\u90fd\u52a0\u4e0aa\u7684\u4e00\u534a\uff0c\u518d\u51cf\u53bb24\u3002\u5f97\u5230\u4e00\u53c8\u4e8c\u5206\u4e4b\u4e00\u4e2aa\uff0c\u7b49\u4e8e66\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/155e59d8cfe00222.wav",
+     "from": 475,
+     "frames": 304
+    },
+    {
+     "text": "\u6240\u4ee5a\u662f44\u5ea6\u3002\u7b54\u6848\u662f\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff01",
+     "caption": "\u6240\u4ee5a\u662f44\u5ea6\u3002\u7b54\u6848\u662f\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/07168655e1149585.wav",
+     "from": 790,
+     "frames": 147
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1a\u6bcf\u4e00\u4e2a\u5e95\u89d2\u662f68\u5ea6\u300268\u51cf44\u7b49\u4e8e24\u3002\u5b8c\u5168\u6b63\u786e\uff01",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1a\u6bcf\u4e00\u4e2a\u5e95\u89d2\u662f68\u5ea6\u300268\u51cf44\u7b49\u4e8e24\u3002\u5b8c\u5168\u6b63\u786e\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/7022396191a18b2b.wav",
+     "from": 946,
+     "frames": 263
+    }
+   ]
+  },
+  {
+   "id": "exterior",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u5916\u89d2",
+   "from": 5662,
+   "frames": 1444,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff0c\u4e0d\u7528\u5206\u6570\u3002\u770b\u5de6\u8fb9\u7684\u4e09\u89d2\u5f62ABD\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff0c\u4e0d\u7528\u5206\u6570\u3002\u770b\u5de6\u8fb9\u7684\u4e09\u89d2\u5f62ABD\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/c974ac5e3f11eadf.wav",
+     "from": 0,
+     "frames": 182
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62\u7684\u4e00\u4e2a\u5916\u89d2\uff0c\u7b49\u4e8e\u548c\u5b83\u4e0d\u76f8\u90bb\u7684\u4e24\u4e2a\u5185\u89d2\u4e4b\u548c\u3002",
+     "caption": "\u4e09\u89d2\u5f62\u7684\u4e00\u4e2a\u5916\u89d2\uff0c\u7b49\u4e8e\u548c\u5b83\u4e0d\u76f8\u90bb\u7684\u4e24\u4e2a\u5185\u89d2\u4e4b\u548c\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/ebe482acf2639bc9.wav",
+     "from": 192,
+     "frames": 155
+    },
+    {
+     "text": "\u6240\u4ee5\u89d2BDC\u7b49\u4e8ea\u52a024\u3002",
+     "caption": "\u6240\u4ee5\u89d2BDC\u7b49\u4e8ea\u52a024\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/420b730722e58704.wav",
+     "from": 357,
+     "frames": 131
+    },
+    {
+     "text": "\u89d2C\u548c\u89d2BDC\u76f8\u7b49\uff0c\u6240\u4ee5\u89d2C\u4e5f\u662fa\u52a024\u3002\u89d2ABC\u4e5f\u4e00\u6837\u3002",
+     "caption": "\u89d2C\u548c\u89d2BDC\u76f8\u7b49\uff0c\u6240\u4ee5\u89d2C\u4e5f\u662fa\u52a024\u3002\u89d2ABC\u4e5f\u4e00\u6837\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/6bf5b962bec10200.wav",
+     "from": 498,
+     "frames": 284
+    },
+    {
+     "text": "\u5927\u4e09\u89d2\u5f62\u7684\u5185\u89d2\u548c\uff1a3a\u52a048\u5ea6\uff0c\u7b49\u4e8e180\u5ea6\u3002",
+     "caption": "\u5927\u4e09\u89d2\u5f62\u7684\u5185\u89d2\u548c\uff1a3a\u52a048\u5ea6\uff0c\u7b49\u4e8e180\u5ea6\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/d8e6cfd086d06f6a.wav",
+     "from": 792,
+     "frames": 206
+    },
+    {
+     "text": "\u6240\u4ee53a\u7b49\u4e8e132\uff0ca\u7b49\u4e8e44\u3002",
+     "caption": "\u6240\u4ee53a\u7b49\u4e8e132\uff0ca\u7b49\u4e8e44\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/adf53e347a6a967f.wav",
+     "from": 1008,
+     "frames": 178
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u770b\u5230\u5916\u89d2\u7684\u65f6\u5019\u3002\u5b83\u80fd\u7701\u6389\u4e00\u6b21\u8ba1\u7b97\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u770b\u5230\u5916\u89d2\u7684\u65f6\u5019\u3002\u5b83\u80fd\u7701\u6389\u4e00\u6b21\u8ba1\u7b97\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/b3c3a17d0183c7ec.wav",
+     "from": 1196,
+     "frames": 179
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7106,
+   "frames": 1977,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u9009\u9879B\u662f24\u5ea6\uff0c\u5b83\u662f\u9898\u76ee\u7ed9\u7684\u89d2\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u9009\u9879B\u662f24\u5ea6\uff0c\u5b83\u662f\u9898\u76ee\u7ed9\u7684\u89d2\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/f4134aeb3f311aba.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "\u53ef\u5b83\u4e0d\u662f\u9898\u76ee\u8981\u6c42\u7684\u89d2\u3002",
+     "caption": "\u53ef\u5b83\u4e0d\u662f\u9898\u76ee\u8981\u6c42\u7684\u89d2\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/3a2f3a7f79985009.wav",
+     "from": 196,
+     "frames": 90
+    },
+    {
+     "text": "\u8fd9\u91cc\u6709\u4e2a\u5feb\u901f\u68c0\u9a8c\u6cd5\uff0c\u6bcf\u4e2a\u9009\u9879\u90fd\u80fd\u7528\u3002",
+     "caption": "\u8fd9\u91cc\u6709\u4e2a\u5feb\u901f\u68c0\u9a8c\u6cd5\uff0c\u6bcf\u4e2a\u9009\u9879\u90fd\u80fd\u7528\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/69ba5c94c2640fa4.wav",
+     "from": 297,
+     "frames": 129
+    },
+    {
+     "text": "\u5148\u6c42\u51fa\u5e95\u89d2\uff0c\u518d\u51cf\u53bb\u9876\u89d2\u3002\u7ed3\u679c\u5e94\u8be5\u662f24\u3002",
+     "caption": "\u5148\u6c42\u51fa\u5e95\u89d2\uff0c\u518d\u51cf\u53bb\u9876\u89d2\u3002\u7ed3\u679c\u5e94\u8be5\u662f24\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/3e810e09c80a3f74.wav",
+     "from": 436,
+     "frames": 168
+    },
+    {
+     "text": "\u8bd5\u8bd5\u628a24\u653e\u5728\u9876\u4e0a\u3002",
+     "caption": "\u8bd5\u8bd5\u628a24\u653e\u5728\u9876\u4e0a\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/8c078bacae0d8297.wav",
+     "from": 614,
+     "frames": 98
+    },
+    {
+     "text": "\u5e95\u89d2\u662f78\u5ea6\uff0c78\u51cf24\u5f9754\uff0c\u6bd424\u5927\u592a\u591a\u4e86\u3002",
+     "caption": "\u5e95\u89d2\u662f78\u5ea6\uff0c78\u51cf24\u5f9754\uff0c\u6bd424\u5927\u592a\u591a\u4e86\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/3f9a830b3b95f2ef.wav",
+     "from": 722,
+     "frames": 260
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879D\uff0c36\u3002\u5b83\u6765\u81ea\u4e00\u4e2a\u6709\u540d\u7684\u4e09\u89d2\u5f62\uff0c",
+     "caption": "\u518d\u770b\u9009\u9879D\uff0c36\u3002\u5b83\u6765\u81ea\u4e00\u4e2a\u6709\u540d\u7684\u4e09\u89d2\u5f62\uff0c",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/40a45502c41f3b04.wav",
+     "from": 992,
+     "frames": 171
+    },
+    {
+     "text": "\u4e09\u4e2a\u89d2\u5206\u522b\u662f\u4e09\u5341\u516d\u3001\u4e03\u5341\u4e8c\u548c\u4e03\u5341\u4e8c\u3002\u53ef\u5728\u8fd9\u91cc\uff0c\u5b83\u5f97\u5230\u7684\u662f36\uff0c\u4e0d\u662f24\u3002",
+     "caption": "\u4e09\u4e2a\u89d2\u5206\u522b\u662f36\u300172\u548c72\u3002\u53ef\u5728\u8fd9\u91cc\uff0c\u5b83\u5f97\u5230\u7684\u662f36\uff0c\u4e0d\u662f24\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/5cea977e483bfb7d.wav",
+     "from": 1172,
+     "frames": 306
+    },
+    {
+     "text": "\u9009\u9879A\u662f22\uff0c\u5f97\u523057\uff1b\u9009\u9879C\u662f34\uff0c\u5f97\u523039\u3002\u90fd\u4e0d\u5bf9\u3002",
+     "caption": "\u9009\u9879A\u662f22\uff0c\u5f97\u523057\uff1b\u9009\u9879C\u662f34\uff0c\u5f97\u523039\u3002\u90fd\u4e0d\u5bf9\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/8a611287fd08697c.wav",
+     "from": 1489,
+     "frames": 270
+    },
+    {
+     "text": "\u53ea\u6709\u9876\u89d2\u662f44\u5ea6\uff0c\u624d\u6b63\u597d\u5f97\u523024\u3002",
+     "caption": "\u53ea\u6709\u9876\u89d2\u662f44\u5ea6\uff0c\u624d\u6b63\u597d\u5f97\u523024\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/960e1553c8bb62ac.wav",
+     "from": 1769,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u65b0\u7684\u89d2\u5ea6",
+   "from": 9083,
+   "frames": 497,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u540c\u6837\u7684\u56fe\uff1aAB\u7b49\u4e8eAC\uff0cBD\u7b49\u4e8eBC\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u540c\u6837\u7684\u56fe\uff1aAB\u7b49\u4e8eAC\uff0cBD\u7b49\u4e8eBC\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/b95ccca34349c3cd.wav",
+     "from": 0,
+     "frames": 255
+    },
+    {
+     "text": "\u8fd9\u4e00\u6b21\uff0c\u89d2ABD\u662f30\u5ea6\u3002\u9876\u89d2\u662f\u591a\u5c11\u5ea6\uff1f",
+     "caption": "\u8fd9\u4e00\u6b21\uff0c\u89d2ABD\u662f30\u5ea6\u3002\u9876\u89d2\u662f\u591a\u5c11\u5ea6\uff1f",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/3a0529cd2c429a26.wav",
+     "from": 265,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9580,
+   "frames": 402,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/b157a91b81fea0ba.wav",
+     "from": 0,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u89d2\u5ea6\uff1a\u7b54\u6848",
+   "from": 9982,
+   "frames": 1120,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u770b\u770b\u3002D\u5904\u7684\u5916\u89d2\u662fa\u52a030\u3002",
+     "caption": "\u6211\u4eec\u6765\u770b\u770b\u3002D\u5904\u7684\u5916\u89d2\u662fa\u52a030\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/b10007f72d101a39.wav",
+     "from": 0,
+     "frames": 156
+    },
+    {
+     "text": "\u6240\u4ee5\u89d2C\u548c\u89d2ABC\u90fd\u662fa\u52a030\u3002",
+     "caption": "\u6240\u4ee5\u89d2C\u548c\u89d2ABC\u90fd\u662fa\u52a030\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/60c9b260f8f9a7d3.wav",
+     "from": 167,
+     "frames": 161
+    },
+    {
+     "text": "\u5185\u89d2\u548c\uff1a3a\u52a060\u7b49\u4e8e180\u3002\u6240\u4ee53a\u7b49\u4e8e120\u3002",
+     "caption": "\u5185\u89d2\u548c\uff1a3a\u52a060\u7b49\u4e8e180\u3002\u6240\u4ee53a\u7b49\u4e8e120\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/75f65126be038e78.wav",
+     "from": 338,
+     "frames": 270
+    },
+    {
+     "text": "\u9876\u89d2\u662f40\u5ea6\uff01",
+     "caption": "\u9876\u89d2\u662f40\u5ea6\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/b21e4588c4b2a7f1.wav",
+     "from": 618,
+     "frames": 70
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1a\u5e95\u89d2\u662f70\u5ea6\u300270\u51cf40\u7b49\u4e8e30\u3002\u6ca1\u9519\uff01",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1a\u5e95\u89d2\u662f70\u5ea6\u300270\u51cf40\u7b49\u4e8e30\u3002\u6ca1\u9519\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/c3a7dc370545daa6.wav",
+     "from": 699,
+     "frames": 219
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8640\u5ea6\uff0c\u4f60\u7684\u8ffd\u89d2\u672c\u9886\u771f\u68d2\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8640\u5ea6\uff0c\u4f60\u7684\u8ffd\u89d2\u672c\u9886\u771f\u68d2\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/003340717d182fab.wav",
+     "from": 927,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 11102,
+   "frames": 634,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u91cd\u8981\u7684\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u91cd\u8981\u7684\u601d\u8def\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/4d00037cc79d4323.wav",
+     "from": 0,
+     "frames": 80
+    },
+    {
+     "text": "\u7b49\u8fb9\u5bf9\u7b49\u89d2\u3002",
+     "caption": "\u7b49\u8fb9\u5bf9\u7b49\u89d2\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/3d75e52d34404646.wav",
+     "from": 90,
+     "frames": 75
+    },
+    {
+     "text": "\u7528\u4e00\u4e2a\u5b57\u6bcd\u8868\u793a\u672a\u77e5\u7684\u89d2\uff0c\u7136\u540e\u4ece\u4e00\u4e2a\u4e09\u89d2\u5f62\u8ffd\u5230\u53e6\u4e00\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u7528\u4e00\u4e2a\u5b57\u6bcd\u8868\u793a\u672a\u77e5\u7684\u89d2\uff0c\u7136\u540e\u4ece\u4e00\u4e2a\u4e09\u89d2\u5f62\u8ffd\u5230\u53e6\u4e00\u4e2a\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/2f788802a0571a45.wav",
+     "from": 175,
+     "frames": 209
+    },
+    {
+     "text": "\u6211\u662fVantee\uff0c\u4eca\u5929\u5c31\u5230\u8fd9\u91cc\u3002\u591a\u591a\u7ec3\u4e60\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\uff0c\u4eca\u5929\u5c31\u5230\u8fd9\u91cc\u3002\u591a\u591a\u7ec3\u4e60\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-isosceles-angle-chase-zh/audio/79ba8bd054559a14.wav",
+     "from": 394,
+     "frames": 156
+    }
+   ]
+  }
+ ]
+}

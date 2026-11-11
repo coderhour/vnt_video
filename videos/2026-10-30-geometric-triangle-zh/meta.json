@@ -4,7 +4,7 @@
  "created": "2026-10-30",
  "question_id": "amc_practice_amc10_algebra_template:c4-092",
  "posts": [],
- "status": "draft",
+ "status": "ready",
  "short": {
   "title": "等比三角形：最长边 2025，有几个？#Shorts",
   "description": "三条边是互不相同的整数，成等比数列，最长边 2025：一共有几个三角形？\n\n完整讲解，含两种解法和每个陷阱：{full_video_url}\n\n#math #amc10 #数学",
@@ -26,6 +26,12 @@
    "title": "最长边 2025，几个三角形能闭合？",
    "description": "三边是整数、成等比数列、最长边 2025，一共几个三角形？你选哪个？\n\n#数学思维 #趣味数学 #数学题"
   },
-  "posts": []
+  "posts": [
+   {
+    "platform": "WeChat Channels",
+    "kind": "video",
+    "published_at": "2026-11-08T16:35:07-08:00"
+   }
+  ]
  }
 }

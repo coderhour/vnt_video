@@ -1,0 +1,578 @@
+{
+ "fps": 30,
+ "durationInFrames": 13851,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 649,
+   "lines": [
+    {
+     "text": "\u8fd9\u91cc\u67094\u5757X\u724c\u548c4\u5757O\u724c\u3002\u628a\u5b83\u4eec\u6392\u6210\u4e00\u6392\uff0c\u4e00\u5171\u670970\u79cd\u6392\u6cd5\u3002",
+     "caption": "\u8fd9\u91cc\u67094\u5757X\u724c\u548c4\u5757O\u724c\u3002\u628a\u5b83\u4eec\u6392\u6210\u4e00\u6392\uff0c\u4e00\u5171\u670970\u79cd\u6392\u6cd5\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/17663ca34a0080a4.wav",
+     "from": 0,
+     "frames": 256
+    },
+    {
+     "text": "\u4f46\u53ea\u6709\u4e00\u90e8\u5206\u6392\u6cd5\u91cc\uff0cX\u4ece\u6765\u4e0d\u4f1a\u843d\u540e\u3002\u5230\u5e95\u6709\u591a\u5c11\u79cd\u5462\uff1f",
+     "caption": "\u4f46\u53ea\u6709\u4e00\u90e8\u5206\u6392\u6cd5\u91cc\uff0cX\u4ece\u6765\u4e0d\u4f1a\u843d\u540e\u3002\u5230\u5e95\u6709\u591a\u5c11\u79cd\u5462\uff1f",
+     "file": "2026-10-30-x-o-strings-zh/audio/20c36340adf6074c.wav",
+     "from": 266,
+     "frames": 209
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u627e\u7b54\u6848\u5427\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u627e\u7b54\u6848\u5427\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/74f0b8a769911f37.wav",
+     "from": 485,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 649,
+   "frames": 953,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/6b78c3cc828f090c.wav",
+     "from": 0,
+     "frames": 48
+    },
+    {
+     "text": "\u8bfa\u62c9\u5199\u4e86\u4e00\u4e32\u5b57\u6bcd\uff0c\u91cc\u9762\u67094\u4e2aX\u548c4\u4e2aO\u3002",
+     "caption": "\u8bfa\u62c9\u5199\u4e86\u4e00\u4e32\u5b57\u6bcd\uff0c\u91cc\u9762\u67094\u4e2aX\u548c4\u4e2aO\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/875326852e0e8a41.wav",
+     "from": 58,
+     "frames": 168
+    },
+    {
+     "text": "\u5979\u4ece\u5de6\u5f80\u53f3\u8bfb\u8fd9\u4e32\u5b57\u6bcd\u3002",
+     "caption": "\u5979\u4ece\u5de6\u5f80\u53f3\u8bfb\u8fd9\u4e32\u5b57\u6bcd\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/b05fbed376c60790.wav",
+     "from": 237,
+     "frames": 93
+    },
+    {
+     "text": "\u8bfb\u5230\u6bcf\u4e00\u4e2a\u4f4d\u7f6e\u65f6\uff0c\u5230\u76ee\u524d\u4e3a\u6b62X\u7684\u4e2a\u6570\uff0c\u90fd\u5fc5\u987b\u4e0d\u5c11\u4e8eO\u7684\u4e2a\u6570\u3002",
+     "caption": "\u8bfb\u5230\u6bcf\u4e00\u4e2a\u4f4d\u7f6e\u65f6\uff0c\u5230\u76ee\u524d\u4e3a\u6b62X\u7684\u4e2a\u6570\uff0c\u90fd\u5fc5\u987b\u4e0d\u5c11\u4e8eO\u7684\u4e2a\u6570\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/d15f13941108e38c.wav",
+     "from": 339,
+     "frames": 246
+    },
+    {
+     "text": "\u8fd9\u6837\u7684\u5b57\u6bcd\u4e32\u4e00\u5171\u6709\u591a\u5c11\u4e2a\uff1f",
+     "caption": "\u8fd9\u6837\u7684\u5b57\u6bcd\u4e32\u4e00\u5171\u6709\u591a\u5c11\u4e2a\uff1f",
+     "file": "2026-10-30-x-o-strings-zh/audio/cd7297c13ba06a14.wav",
+     "from": 596,
+     "frames": 96
+    },
+    {
+     "text": "\u9009\u9879\u662f\u516b\u3001\u5341\u56db\u3001\u5341\u516d\u3001\u4e8c\u5341\uff0c\u8fd8\u6709\u4e09\u5341\u4e94\u3002",
+     "caption": "\u9009\u9879\u662f8\u300114\u300116\u300120\uff0c\u8fd8\u670935\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/bcdb901de979a648.wav",
+     "from": 702,
+     "frames": 197
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1602,
+   "frames": 1192,
+   "lines": [
+    {
+     "text": "\u8fd9\u6761\u89c4\u5219\u5230\u5e95\u662f\u4ec0\u4e48\u610f\u601d\u5462\uff1f",
+     "caption": "\u8fd9\u6761\u89c4\u5219\u5230\u5e95\u662f\u4ec0\u4e48\u610f\u601d\u5462\uff1f",
+     "file": "2026-10-30-x-o-strings-zh/audio/8e8f3bca95496f26.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "\u6211\u4eec\u4e00\u8fb9\u8bfb\uff0c\u4e00\u8fb9\u8bb0\u6bd4\u5206\uff0c\u5c31\u50cfX\u548cO\u5728\u6bd4\u8d5b\u4e00\u6837\u3002",
+     "caption": "\u6211\u4eec\u4e00\u8fb9\u8bfb\uff0c\u4e00\u8fb9\u8bb0\u6bd4\u5206\uff0c\u5c31\u50cfX\u548cO\u5728\u6bd4\u8d5b\u4e00\u6837\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/f760568c3744cbc0.wav",
+     "from": 94,
+     "frames": 183
+    },
+    {
+     "text": "\u770b\u8fd9\u4e00\u4e32\u3002\u6bcf\u8bfb\u4e00\u4e2a\u5b57\u6bcd\uff0cX\u7684\u4e2a\u6570\u90fd\u4e0d\u5c11\u4e8eO\u7684\u4e2a\u6570\u3002",
+     "caption": "\u770b\u8fd9\u4e00\u4e32\u3002\u6bcf\u8bfb\u4e00\u4e2a\u5b57\u6bcd\uff0cX\u7684\u4e2a\u6570\u90fd\u4e0d\u5c11\u4e8eO\u7684\u4e2a\u6570\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/aa4cc5dae1eda16f.wav",
+     "from": 286,
+     "frames": 213
+    },
+    {
+     "text": "\u6253\u5e73\u662f\u53ef\u4ee5\u7684\uff0c\u4f46X\u7edd\u5bf9\u4e0d\u80fd\u843d\u540e\u3002\u6240\u4ee5\u8fd9\u4e00\u4e32\u7b26\u5408\u8981\u6c42\uff01",
+     "caption": "\u6253\u5e73\u662f\u53ef\u4ee5\u7684\uff0c\u4f46X\u7edd\u5bf9\u4e0d\u80fd\u843d\u540e\u3002\u6240\u4ee5\u8fd9\u4e00\u4e32\u7b26\u5408\u8981\u6c42\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/2e300cf3863bccaa.wav",
+     "from": 509,
+     "frames": 214
+    },
+    {
+     "text": "\u518d\u770b\u8fd9\u4e00\u4e32\u3002\u8bfb\u5b8c3\u4e2a\u5b57\u6bcd\uff0cO\u4ee52\u6bd41\u9886\u5148\u3002\u6240\u4ee5\u8fd9\u4e00\u4e32\u4e0d\u884c\uff01",
+     "caption": "\u518d\u770b\u8fd9\u4e00\u4e32\u3002\u8bfb\u5b8c3\u4e2a\u5b57\u6bcd\uff0cO\u4ee52\u6bd41\u9886\u5148\u3002\u6240\u4ee5\u8fd9\u4e00\u4e32\u4e0d\u884c\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/c88fc247c408d490.wav",
+     "from": 734,
+     "frames": 245
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6570\u7684\uff0c\u5c31\u662fO\u4e00\u6b21\u4e5f\u6ca1\u6709\u9886\u5148\u8fc7\u7684\u5b57\u6bcd\u4e32\u3002",
+     "caption": "\u6211\u4eec\u8981\u6570\u7684\uff0c\u5c31\u662fO\u4e00\u6b21\u4e5f\u6ca1\u6709\u9886\u5148\u8fc7\u7684\u5b57\u6bcd\u4e32\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/e1b275b55e1e14fa.wav",
+     "from": 989,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2794,
+   "frames": 501,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/985c73aa082815ac.wav",
+     "from": 0,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u6709\u6761\u7406\u5730\u5217\u4e3e",
+   "from": 3295,
+   "frames": 918,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u7b2c\u4e00\u79cd\u65b9\u6cd5\u662f\uff1a\u6709\u6761\u7406\u5730\u5217\u4e3e\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u7b2c\u4e00\u79cd\u65b9\u6cd5\u662f\uff1a\u6709\u6761\u7406\u5730\u5217\u4e3e\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/95a9f9e0118b5885.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "\u5148\u8bf4\u4e24\u4e2a\u5c0f\u53d1\u73b0\u3002\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u5fc5\u987b\u662fX\u3002",
+     "caption": "\u5148\u8bf4\u4e24\u4e2a\u5c0f\u53d1\u73b0\u3002\u7b2c\u4e00\u4e2a\u5b57\u6bcd\u5fc5\u987b\u662fX\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/54e24a63ee3d8a80.wav",
+     "from": 159,
+     "frames": 153
+    },
+    {
+     "text": "\u5982\u679c\u7b2c\u4e00\u4e2a\u662fO\uff0cO\u5c31\u4ee51\u6bd40\u9886\u5148\u4e86\u3002",
+     "caption": "\u5982\u679c\u7b2c\u4e00\u4e2a\u662fO\uff0cO\u5c31\u4ee51\u6bd40\u9886\u5148\u4e86\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/a68310a78f4d5f16.wav",
+     "from": 322,
+     "frames": 138
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u5b57\u6bcd\u5fc5\u987b\u662fO\u3002",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u5b57\u6bcd\u5fc5\u987b\u662fO\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/13b25635ccecbd35.wav",
+     "from": 471,
+     "frames": 92
+    },
+    {
+     "text": "\u5982\u679c\u6700\u540e\u4e00\u4e2a\u662fX\uff0c\u90a3\u4e48\u8bfb\u5b8c\u524d7\u4e2a\u5b57\u6bcd\u65f6\uff0cO\u67094\u4e2a\uff0cX\u53ea\u67093\u4e2a\u3002O\u5c31\u9886\u5148\u4e86\uff01",
+     "caption": "\u5982\u679c\u6700\u540e\u4e00\u4e2a\u662fX\uff0c\u90a3\u4e48\u8bfb\u5b8c\u524d7\u4e2a\u5b57\u6bcd\u65f6\uff0cO\u67094\u4e2a\uff0cX\u53ea\u67093\u4e2a\u3002O\u5c31\u9886\u5148\u4e86\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/bddf29b259990a97.wav",
+     "from": 573,
+     "frames": 298
+    }
+   ]
+  },
+  {
+   "id": "list",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4213,
+   "frames": 1636,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\uff0c\u6211\u4eec\u6309\u7b2c\u4e00\u4e2aO\u524d\u9762\u6709\u51e0\u4e2aX\u6765\u5206\u7ec4\u3002",
+     "caption": "\u73b0\u5728\uff0c\u6211\u4eec\u6309\u7b2c\u4e00\u4e2aO\u524d\u9762\u6709\u51e0\u4e2aX\u6765\u5206\u7ec4\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/2c558399ecda74ac.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "4\u4e2aX\u5168\u6392\u5728\u6700\u524d\u9762\uff1f\u90a3\u540e\u9762\u5168\u662fO\uff0c\u53ea\u67091\u79cd\u3002",
+     "caption": "4\u4e2aX\u5168\u6392\u5728\u6700\u524d\u9762\uff1f\u90a3\u540e\u9762\u5168\u662fO\uff0c\u53ea\u67091\u79cd\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/d447caa48db1d8c1.wav",
+     "from": 172,
+     "frames": 184
+    },
+    {
+     "text": "\u5f00\u5934\u662f3\u4e2a\u5b57\u6bcdX\uff0c\u63a5\u7740\u662fO\u3002\u5269\u4e0b\u7684\u5b57\u6bcdX\u67093\u4e2a\u4f4d\u7f6e\uff0c\u4e0d\u80fd\u5728\u672b\u5c3e\u3002\u4e00\u51713\u4e32\u3002",
+     "caption": "\u5f00\u5934\u662f3\u4e2a\u5b57\u6bcdX\uff0c\u63a5\u7740\u662fO\u3002\u5269\u4e0b\u7684\u5b57\u6bcdX\u67093\u4e2a\u4f4d\u7f6e\uff0c\u4e0d\u80fd\u5728\u672b\u5c3e\u3002\u4e00\u51713\u4e32\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/9f098d5cc1b0ae35.wav",
+     "from": 366,
+     "frames": 290
+    },
+    {
+     "text": "\u524d\u9762\u4e24\u4e2aX\uff0c\u7136\u540e\u662f\u4e00\u4e2aO\u3002\u6211\u4eec\u4ed4\u7ec6\u5217\u4e00\u5217\uff0c\u627e\u52305\u4e32\u3002",
+     "caption": "\u524d\u97622\u4e2aX\uff0c\u7136\u540e\u662f\u4e00\u4e2aO\u3002\u6211\u4eec\u4ed4\u7ec6\u5217\u4e00\u5217\uff0c\u627e\u52305\u4e32\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/bb79f0284c5ef26f.wav",
+     "from": 665,
+     "frames": 218
+    },
+    {
+     "text": "\u5f00\u5934\u53ea\u67091\u4e2a\u5b57\u6bcdX\uff0c\u63a5\u7740\u662fO\u3002\u8fd9\u6837\u5c31\u6253\u5e73\u4e86\u3002\u518d\u4ed4\u7ec6\u5217\u51fa\u540e\u9762\u7684\uff0c\u53c8\u662f5\u4e32\u3002",
+     "caption": "\u5f00\u5934\u53ea\u67091\u4e2a\u5b57\u6bcdX\uff0c\u63a5\u7740\u662fO\u3002\u8fd9\u6837\u5c31\u6253\u5e73\u4e86\u3002\u518d\u4ed4\u7ec6\u5217\u51fa\u540e\u9762\u7684\uff0c\u53c8\u662f5\u4e32\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/ee66ad3633d1129d.wav",
+     "from": 893,
+     "frames": 288
+    },
+    {
+     "text": "1\u52a03\u52a05\u52a05\uff0c\u7b49\u4e8e14\uff01",
+     "caption": "1\u52a03\u52a05\u52a05\uff0c\u7b49\u4e8e14\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/3f3e7b9c1dbd74d3.wav",
+     "from": 1192,
+     "frames": 154
+    },
+    {
+     "text": "\u5b57\u6bcd\u4e32\u5c11\u7684\u65f6\u5019\uff0c\u5217\u4e3e\u5f88\u597d\u7528\u3002\u4f46\u5b57\u6bcd\u4e32\u4e00\u591a\uff0c\u5217\u8868\u5c31\u957f\u5f97\u98de\u5feb\uff01",
+     "caption": "\u5b57\u6bcd\u4e32\u5c11\u7684\u65f6\u5019\uff0c\u5217\u4e3e\u5f88\u597d\u7528\u3002\u4f46\u5b57\u6bcd\u4e32\u4e00\u591a\uff0c\u5217\u8868\u5c31\u957f\u5f97\u98de\u5feb\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/083cf0c7819ea138.wav",
+     "from": 1356,
+     "frames": 221
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u753b\u8868\u683c",
+   "from": 5849,
+   "frames": 1355,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u79cd\u66f4\u5de7\u7684\u65b9\u6cd5\u3002\u6211\u4eec\u628a\u6bcf\u4e00\u4e32\u5b57\u6bcd\uff0c\u53d8\u6210\u4e00\u6761\u8def\u7ebf\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u79cd\u66f4\u5de7\u7684\u65b9\u6cd5\u3002\u6211\u4eec\u628a\u6bcf\u4e00\u4e32\u5b57\u6bcd\uff0c\u53d8\u6210\u4e00\u6761\u8def\u7ebf\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/3cfdb1c7ff471c3b.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "\u4ece\u5de6\u4e0a\u89d2\u51fa\u53d1\u3002\u6bcf\u4e2aX\u5411\u53f3\u8d70\u4e00\u6b65\uff0c\u6bcf\u4e2aO\u5411\u4e0b\u8d70\u4e00\u6b65\u3002",
+     "caption": "\u4ece\u5de6\u4e0a\u89d2\u51fa\u53d1\u3002\u6bcf\u4e2aX\u5411\u53f3\u8d70\u4e00\u6b65\uff0c\u6bcf\u4e2aO\u5411\u4e0b\u8d70\u4e00\u6b65\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/d11859e0010bb550.wav",
+     "from": 199,
+     "frames": 230
+    },
+    {
+     "text": "\u8fd9\u662f\u521a\u624d\u90a3\u4e2a\u7b26\u5408\u8981\u6c42\u7684\u5b57\u6bcd\u4e32\uff0c\u753b\u6210\u7f51\u683c\u4e0a\u7684\u4e00\u6761\u8def\u7ebf\u3002",
+     "caption": "\u8fd9\u662f\u521a\u624d\u90a3\u4e2a\u7b26\u5408\u8981\u6c42\u7684\u5b57\u6bcd\u4e32\uff0c\u753b\u6210\u7f51\u683c\u4e0a\u7684\u4e00\u6761\u8def\u7ebf\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/fff1ef4cf0b65616.wav",
+     "from": 439,
+     "frames": 172
+    },
+    {
+     "text": "\u89c4\u5219\u8bf4\uff0cO\u7684\u4e2a\u6570\u4e0d\u80fd\u8d85\u8fc7X\u7684\u4e2a\u6570\u3002\u6240\u4ee5\u8def\u7ebf\u6c38\u8fdc\u4e0d\u80fd\u8d70\u5230\u8fd9\u9053\u5899\u7684\u4e0b\u9762\u3002",
+     "caption": "\u89c4\u5219\u8bf4\uff0cO\u7684\u4e2a\u6570\u4e0d\u80fd\u8d85\u8fc7X\u7684\u4e2a\u6570\u3002\u6240\u4ee5\u8def\u7ebf\u6c38\u8fdc\u4e0d\u80fd\u8d70\u5230\u8fd9\u9053\u5899\u7684\u4e0b\u9762\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/c8db4554da724098.wav",
+     "from": 621,
+     "frames": 276
+    },
+    {
+     "text": "\u521a\u624d\u4e0d\u5408\u683c\u7684\u90a3\u4e00\u4e32\uff0c\u5c31\u5728\u8fd9\u91cc\u8d70\u5230\u4e86\u5899\u7684\u4e0b\u9762\u3002",
+     "caption": "\u521a\u624d\u4e0d\u5408\u683c\u7684\u90a3\u4e00\u4e32\uff0c\u5c31\u5728\u8fd9\u91cc\u8d70\u5230\u4e86\u5899\u7684\u4e0b\u9762\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/3f62fddbdf711d6c.wav",
+     "from": 908,
+     "frames": 150
+    },
+    {
+     "text": "\u6bcf\u4e2a\u7b26\u5408\u8981\u6c42\u7684\u5b57\u6bcd\u4e32\uff0c\u90fd\u662f\u4e00\u6761\u8d70\u5230\u8fd9\u4e2a\u89d2\u7684\u8def\u7ebf\u3002\u6240\u4ee5\u6211\u4eec\u6765\u6570\u8def\u7ebf\uff01",
+     "caption": "\u6bcf\u4e2a\u7b26\u5408\u8981\u6c42\u7684\u5b57\u6bcd\u4e32\uff0c\u90fd\u662f\u4e00\u6761\u8d70\u5230\u8fd9\u4e2a\u89d2\u7684\u8def\u7ebf\u3002\u6240\u4ee5\u6211\u4eec\u6765\u6570\u8def\u7ebf\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/0ba2901579c9d50b.wav",
+     "from": 1068,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "fill",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7204,
+   "frames": 2292,
+   "lines": [
+    {
+     "text": "\u5728\u6bcf\u4e2a\u70b9\u4e0a\uff0c\u6211\u4eec\u5199\u4e0b\u6709\u591a\u5c11\u6761\u8def\u7ebf\u80fd\u8d70\u5230\u8fd9\u91cc\u3002",
+     "caption": "\u5728\u6bcf\u4e2a\u70b9\u4e0a\uff0c\u6211\u4eec\u5199\u4e0b\u6709\u591a\u5c11\u6761\u8def\u7ebf\u80fd\u8d70\u5230\u8fd9\u91cc\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/f646e48badef0ecf.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "\u6700\u4e0a\u9762\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u79cd\u8d70\u6cd5\uff1a\u4e00\u76f4\u90fd\u662fX\u3002\u6240\u4ee5\u90fd\u51991\u3002",
+     "caption": "\u6700\u4e0a\u9762\u4e00\u884c\uff0c\u53ea\u6709\u4e00\u79cd\u8d70\u6cd5\uff1a\u4e00\u76f4\u90fd\u662fX\u3002\u6240\u4ee5\u90fd\u51991\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/140912bf05dfccbd.wav",
+     "from": 154,
+     "frames": 201
+    },
+    {
+     "text": "\u5176\u4ed6\u7684\u70b9\uff0c\u8981\u4e48\u4ece\u5de6\u8fb9\u8d70\u4e00\u6b65\u8fc7\u6765\uff0c\u8981\u4e48\u4ece\u4e0a\u9762\u8d70\u4e00\u6b65\u4e0b\u6765\u3002",
+     "caption": "\u5176\u4ed6\u7684\u70b9\uff0c\u8981\u4e48\u4ece\u5de6\u8fb9\u8d70\u4e00\u6b65\u8fc7\u6765\uff0c\u8981\u4e48\u4ece\u4e0a\u9762\u8d70\u4e00\u6b65\u4e0b\u6765\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/e7c23e672560429f.wav",
+     "from": 365,
+     "frames": 197
+    },
+    {
+     "text": "\u6240\u4ee5\u4e00\u4e2a\u70b9\u4e0a\u7684\u6570\uff0c\u7b49\u4e8e\u5de6\u8fb9\u7684\u6570\u52a0\u4e0a\u4e0a\u9762\u7684\u6570\u3002",
+     "caption": "\u6240\u4ee5\u4e00\u4e2a\u70b9\u4e0a\u7684\u6570\uff0c\u7b49\u4e8e\u5de6\u8fb9\u7684\u6570\u52a0\u4e0a\u4e0a\u9762\u7684\u6570\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/de79f897a11d2670.wav",
+     "from": 573,
+     "frames": 160
+    },
+    {
+     "text": "\u5728\u5899\u8fb9\u7684\u70b9\uff0c\u5de6\u8fb9\u7684\u70b9\u5728\u5899\u5916\uff0c\u4e0d\u7b97\u3002\u6211\u4eec\u76f4\u63a5\u7167\u6284\u4e0a\u9762\u7684\u6570\u3002",
+     "caption": "\u5728\u5899\u8fb9\u7684\u70b9\uff0c\u5de6\u8fb9\u7684\u70b9\u5728\u5899\u5916\uff0c\u4e0d\u7b97\u3002\u6211\u4eec\u76f4\u63a5\u7167\u6284\u4e0a\u9762\u7684\u6570\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/c57c95b983d73ea6.wav",
+     "from": 743,
+     "frames": 198
+    },
+    {
+     "text": "\u7136\u540e\uff0c1\u52a01\u7b49\u4e8e2\u30022\u52a01\u7b49\u4e8e3\u30023\u52a01\u7b49\u4e8e4\u3002",
+     "caption": "\u7136\u540e\uff0c1\u52a01\u7b49\u4e8e2\u30022\u52a01\u7b49\u4e8e3\u30023\u52a01\u7b49\u4e8e4\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/327181f13d5fbe46.wav",
+     "from": 951,
+     "frames": 318
+    },
+    {
+     "text": "\u4e0b\u4e00\u884c\u3002\u7167\u62842\u30022\u52a03\u7b49\u4e8e5\u30025\u52a04\u7b49\u4e8e9\u3002",
+     "caption": "\u4e0b\u4e00\u884c\u3002\u7167\u62842\u30022\u52a03\u7b49\u4e8e5\u30025\u52a04\u7b49\u4e8e9\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/df934d1b8dd4abd1.wav",
+     "from": 1280,
+     "frames": 250
+    },
+    {
+     "text": "\u63a5\u7740\u4e0b\u4e00\u884c\uff0c\u7167\u62845\u3002\u7136\u540e5\u52a09\u7b49\u4e8e14\u3002",
+     "caption": "\u63a5\u7740\u4e0b\u4e00\u884c\uff0c\u7167\u62845\u3002\u7136\u540e5\u52a09\u7b49\u4e8e14\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/ef3c1fa11c067ca2.wav",
+     "from": 1540,
+     "frames": 218
+    },
+    {
+     "text": "\u6700\u540e\uff0c\u53f3\u4e0b\u89d2\u7167\u628414\u3002\u4e00\u517114\u6761\u8def\u7ebf\uff0c\u6240\u4ee5\u670914\u4e2a\u5b57\u6bcd\u4e32\uff01",
+     "caption": "\u6700\u540e\uff0c\u53f3\u4e0b\u89d2\u7167\u628414\u3002\u4e00\u517114\u6761\u8def\u7ebf\uff0c\u6240\u4ee5\u670914\u4e2a\u5b57\u6bcd\u4e32\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/da257c3767994867.wav",
+     "from": 1768,
+     "frames": 239
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8868\u683c\uff1f\u5f53\u5217\u4e3e\u4f1a\u5f88\u957f\u7684\u65f6\u5019\u3002\u8868\u683c\u53ea\u8981\u505a\u52a0\u6cd5\uff01",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8868\u683c\uff1f\u5f53\u5217\u4e3e\u4f1a\u5f88\u957f\u7684\u65f6\u5019\u3002\u8868\u683c\u53ea\u8981\u505a\u52a0\u6cd5\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/28fec534352fd74f.wav",
+     "from": 2017,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9496,
+   "frames": 1466,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/4023e4d25c422f76.wav",
+     "from": 0,
+     "frames": 135
+    },
+    {
+     "text": "35\u662f\u5168\u90e870\u79cd\u6392\u6cd5\u7684\u4e00\u534a\u3002\u4f46\u7b26\u5408\u8981\u6c42\u7684\uff0c\u5e76\u4e0d\u662f\u4e00\u534a\u3002",
+     "caption": "35\u662f\u5168\u90e870\u79cd\u6392\u6cd5\u7684\u4e00\u534a\u3002\u4f46\u7b26\u5408\u8981\u6c42\u7684\uff0c\u5e76\u4e0d\u662f\u4e00\u534a\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/5c559e3a86ac889f.wav",
+     "from": 145,
+     "frames": 212
+    },
+    {
+     "text": "\u518d\u770b20\u3002\u8fd9\u662f\u4ee5X\u5f00\u5934\u3001\u4ee5O\u7ed3\u5c3e\u7684\u5b57\u6bcd\u4e32\u7684\u4e2a\u6570\u3002\u4f46\u4e2d\u95f4\u6ca1\u6709\u68c0\u67e5\uff0c\u6bd4\u5982\u8fd9\u4e00\u4e32\u3002",
+     "caption": "\u518d\u770b20\u3002\u8fd9\u662f\u4ee5X\u5f00\u5934\u3001\u4ee5O\u7ed3\u5c3e\u7684\u5b57\u6bcd\u4e32\u7684\u4e2a\u6570\u3002\u4f46\u4e2d\u95f4\u6ca1\u6709\u68c0\u67e5\uff0c\u6bd4\u5982\u8fd9\u4e00\u4e32\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/7df43e7745751c80.wav",
+     "from": 367,
+     "frames": 288
+    },
+    {
+     "text": "16\u662f\u731c\u89c4\u5f8b\u731c\u51fa\u6765\u7684\u3002\u6211\u4eec\u7684\u5206\u7ec4\u662f1\u30013\u30015\uff0c\u63a5\u7740\u53c8\u662f5\uff0c\u4e0d\u662f7\u3002",
+     "caption": "16\u662f\u731c\u89c4\u5f8b\u731c\u51fa\u6765\u7684\u3002\u6211\u4eec\u7684\u5206\u7ec4\u662f1\u30013\u30015\uff0c\u63a5\u7740\u53c8\u662f5\uff0c\u4e0d\u662f7\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/a2c3c10a1780cee8.wav",
+     "from": 665,
+     "frames": 302
+    },
+    {
+     "text": "\u8fd8\u67098\u8fd9\u4e2a\u7b54\u6848\uff0c\u5b9e\u5728\u592a\u5c11\u4e86\u3002\u6211\u4eec\u5217\u51fa\u6765\u7684\u4e0d\u6b628\u4e2a\u3002",
+     "caption": "\u8fd8\u67098\u8fd9\u4e2a\u7b54\u6848\uff0c\u5b9e\u5728\u592a\u5c11\u4e86\u3002\u6211\u4eec\u5217\u51fa\u6765\u7684\u4e0d\u6b628\u4e2a\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/f92cb85defdd04ea.wav",
+     "from": 977,
+     "frames": 188
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u597d\u4e60\u60ef\uff1a\u6309\u6e05\u695a\u7684\u987a\u5e8f\u6765\u6570\uff0c\u6bcf\u4e00\u6b65\u90fd\u8981\u68c0\u67e5\u89c4\u5219\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u597d\u4e60\u60ef\uff1a\u6309\u6e05\u695a\u7684\u987a\u5e8f\u6765\u6570\uff0c\u6bcf\u4e00\u6b65\u90fd\u8981\u68c0\u67e5\u89c4\u5219\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/27c41d68d5d7cd04.wav",
+     "from": 1175,
+     "frames": 232
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u53d8\u5f0f\u9898",
+   "from": 10962,
+   "frames": 600,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u6211\u4eec\u6362\u4e2a\u82b1\u6837\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u6211\u4eec\u6362\u4e2a\u82b1\u6837\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/d8e5b404467af672.wav",
+     "from": 0,
+     "frames": 104
+    },
+    {
+     "text": "\u8fd9\u6b21\u8bfa\u62c9\u75285\u4e2aX\uff0c\u53ea\u75283\u4e2aO\u3002",
+     "caption": "\u8fd9\u6b21\u8bfa\u62c9\u75285\u4e2aX\uff0c\u53ea\u75283\u4e2aO\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/ab65869782f0c6cd.wav",
+     "from": 114,
+     "frames": 130
+    },
+    {
+     "text": "\u5728\u6bcf\u4e00\u4e2a\u4f4d\u7f6e\uff0cX\u7684\u4e2a\u6570\u4ecd\u7136\u5fc5\u987b\u4e0d\u5c11\u4e8eO\u7684\u4e2a\u6570\u3002",
+     "caption": "\u5728\u6bcf\u4e00\u4e2a\u4f4d\u7f6e\uff0cX\u7684\u4e2a\u6570\u4ecd\u7136\u5fc5\u987b\u4e0d\u5c11\u4e8eO\u7684\u4e2a\u6570\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/cf531494609d4bb8.wav",
+     "from": 254,
+     "frames": 176
+    },
+    {
+     "text": "\u73b0\u5728\u6709\u591a\u5c11\u4e2a\u5b57\u6bcd\u4e32\uff1f\u7528\u8868\u683c\u6765\u7b97\uff01",
+     "caption": "\u73b0\u5728\u6709\u591a\u5c11\u4e2a\u5b57\u6bcd\u4e32\uff1f\u7528\u8868\u683c\u6765\u7b97\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/ebd9d4ab2f873815.wav",
+     "from": 440,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11562,
+   "frames": 448,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/cb31f689bce9fed7.wav",
+     "from": 0,
+     "frames": 64
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u53d8\u5f0f\u9898\uff1a\u7b54\u6848",
+   "from": 12010,
+   "frames": 1125,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u73b0\u5728\u8def\u7ebf\u5411\u53f3\u8d705\u6b65\uff0c\u5411\u4e0b\u8d703\u6b65\u3002",
+     "caption": "\u6211\u4eec\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u73b0\u5728\u8def\u7ebf\u5411\u53f3\u8d705\u6b65\uff0c\u5411\u4e0b\u8d703\u6b65\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/25906f52f515e7f6.wav",
+     "from": 0,
+     "frames": 206
+    },
+    {
+     "text": "\u524d5\u5217\u548c\u539f\u6765\u4e00\u6837\uff0c\u53ea\u662f\u5c11\u4e86\u4e00\u884c\u3002",
+     "caption": "\u524d5\u5217\u548c\u539f\u6765\u4e00\u6837\uff0c\u53ea\u662f\u5c11\u4e86\u4e00\u884c\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/1fdd5bc831de2161.wav",
+     "from": 215,
+     "frames": 129
+    },
+    {
+     "text": "\u6211\u4eec\u53ea\u8981\u518d\u52a0\u4e00\u5217\u3002\u6700\u4e0a\u9762\u7684\u70b9\uff0c\u548c\u4ee5\u524d\u4e00\u6837\u662f1\u3002",
+     "caption": "\u6211\u4eec\u53ea\u8981\u518d\u52a0\u4e00\u5217\u3002\u6700\u4e0a\u9762\u7684\u70b9\uff0c\u548c\u4ee5\u524d\u4e00\u6837\u662f1\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/74be98028050a09c.wav",
+     "from": 354,
+     "frames": 178
+    },
+    {
+     "text": "\u7136\u540e4\u52a01\u7b49\u4e8e5\u30029\u52a05\u7b49\u4e8e14\u3002",
+     "caption": "\u7136\u540e4\u52a01\u7b49\u4e8e5\u30029\u52a05\u7b49\u4e8e14\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/48c19212ee605977.wav",
+     "from": 542,
+     "frames": 212
+    },
+    {
+     "text": "\u6700\u540e\uff0c14\u52a014\uff0c\u7b49\u4e8e28\uff01",
+     "caption": "\u6700\u540e\uff0c14\u52a014\uff0c\u7b49\u4e8e28\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/523f5bebb11e3d9a.wav",
+     "from": 764,
+     "frames": 143
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u627e\u5230\u4e86\u5168\u90e828\u4e2a\u5b57\u6bcd\u4e32\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u627e\u5230\u4e86\u5168\u90e828\u4e2a\u5b57\u6bcd\u4e32\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/daa036267fd79eef.wav",
+     "from": 917,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13135,
+   "frames": 716,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/f9d320ca66ec6f65.wav",
+     "from": 0,
+     "frames": 68
+    },
+    {
+     "text": "\u628a\u6bcf\u4e00\u4e2a\u5b57\u6bcd\u4e32\uff0c\u90fd\u53d8\u6210\u4e00\u6761\u8def\u7ebf\uff0c\u800c\u4e14\u6c38\u8fdc\u4e0d\u8d8a\u8fc7\u5899\u3002",
+     "caption": "\u628a\u6bcf\u4e00\u4e2a\u5b57\u6bcd\u4e32\uff0c\u90fd\u53d8\u6210\u4e00\u6761\u8def\u7ebf\uff0c\u800c\u4e14\u6c38\u8fdc\u4e0d\u8d8a\u8fc7\u5899\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/00904976b2576eb6.wav",
+     "from": 78,
+     "frames": 197
+    },
+    {
+     "text": "\u7136\u540e\u586b\u8868\uff1a\u6bcf\u4e2a\u70b9\u4e0a\u7684\u6570\uff0c\u7b49\u4e8e\u4ece\u5de6\u8fb9\u548c\u4ece\u4e0a\u9762\u8d70\u8fc7\u6765\u7684\u8def\u7ebf\u6570\u4e4b\u548c\u3002",
+     "caption": "\u7136\u540e\u586b\u8868\uff1a\u6bcf\u4e2a\u70b9\u4e0a\u7684\u6570\uff0c\u7b49\u4e8e\u4ece\u5de6\u8fb9\u548c\u4ece\u4e0a\u9762\u8d70\u8fc7\u6765\u7684\u8def\u7ebf\u6570\u4e4b\u548c\u3002",
+     "file": "2026-10-30-x-o-strings-zh/audio/4ca0390fbaca76a3.wav",
+     "from": 285,
+     "frames": 234
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-x-o-strings-zh/audio/0ce27de10d3620a6.wav",
+     "from": 530,
+     "frames": 102
+    }
+   ]
+  }
+ ]
+}

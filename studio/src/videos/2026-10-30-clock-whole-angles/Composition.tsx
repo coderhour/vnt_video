@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-clock-whole-angles';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -632,3 +633,15 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-clock-whole-angles-thumb`, render.sh → poster.jpg): a clock at 1:15 with the angle between the hands shaded, no count.
+export const Thumb: React.FC = () => {
+  const hour = hourAt(1, 15), min = minAt(15);
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>29?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <Clock cx={340} cy={320} R={300} hour={hour} min={min} wedge={{ ...smaller(hour, min), color: C.primary }} />
+      </svg>
+    </ThumbFrame>
+  );
+};

@@ -1,0 +1,175 @@
+{
+ "title": "只有加1和乘2：从3到90最少按几次？| AMC 8 风格 第4级",
+ "fps": 30,
+ "lang": "zh",
+ "voice": "Zephyr",
+ "style": "warm and encouraging, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a relaxed pace, no laughing",
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "开场",
+   "hold": 0.5,
+   "visual": "A big friendly calculator screen showing 3, with only two keys: '+1' and '×2'. Line 1: keys flash as random presses happen (3→6→7→14), screen wandering. Line 2: screen shows '90?'. Line 3: Vantee title card.",
+   "lines": [
+    "一个计算器，只有两个按键。怎样按最少的次数，让屏幕变成90？",
+    "很多同学一上来就往前按，结果越按越乱。其实有一个聪明得多的方向。",
+    "你好，我是Vantee！我们一起来破解这个计算器。"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "题目",
+   "hold": 1.5,
+   "visual": "Question text left, calculator on the right (screen 3, keys '+1' and '×2'). Line 3: '+1' key glows. Line 4: '×2' key glows. Line 6: five choice chips 6, 7, 8, 9, 10.",
+   "lines": [
+    "来看题目。",
+    "一个计算器的屏幕上显示3。",
+    "计算器只有两个键。一个键把屏幕上的数加1。",
+    "另一个键把屏幕上的数乘2。",
+    "最少要按几次键，才能让屏幕显示90？",
+    "下面是五个选项，仔细看一看。"
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "题目问的是什么？",
+   "hold": 1,
+   "visual": "Three fact cards appear one per line: 'start: 3', 'keys: +1, ×2', 'goal: 90 in the FEWEST presses'. The word FEWEST highlighted with Mark sweep on line 3.",
+   "lines": [
+    "我们知道什么？从3开始，最后要变成90。",
+    "每按一次，要么加1，要么乘2。",
+    "我们不只是要找到一种按法，还要让按的次数最少。"
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "自己试一试",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; calculator and question visible.",
+   "lines": [
+    "现在轮到你了。暂停视频，自己试一试。我等你！"
+   ]
+  },
+  {
+   "id": "backward",
+   "chapter": "解法一：倒着推",
+   "hold": 1,
+   "visual": "A vertical (or right-to-left) chain starting at 90 on the right. Line 2: undo-keys shown: '×2 undone = ÷2', '+1 undone = −1'. Line 3: rule card 'even → ÷2, odd → −1'. Line 4: 90 → 45 with arrow labeled ÷2.",
+   "lines": [
+    "欢迎回来！方法是：倒着推，从90一路推回到3。",
+    "倒着走的时候，乘2变成除以2，加1变成减1。",
+    "除以2是一大步，所以遇到偶数就除以2。如果是奇数，就先减1。",
+    "90是偶数，所以除以2，得到45。"
+   ]
+  },
+  {
+   "id": "chain",
+   "hold": 1.5,
+   "visual": "Continue the chain one arrow per spoken step: 45 →(−1) 44 →(÷2) 22 →(÷2) 11 →(−1) 10 →(÷2) 5 →(−1) 4 →(−1) 3. Halving arrows purple, minus-one arrows green. Line 5: the full chain read forward 3, 4, 5, 10, 11, 22, 44, 45, 90, with the 8 arrows numbered 1–8 one by one. Line 6: answer badge '8 presses' with chime at end of line, choice C highlighted.",
+   "lines": [
+    "45是奇数，先减1，得到44。除以2，得到22。再除以2，得到11。",
+    "11是奇数，先减1，得到10。除以2，得到5。",
+    "5是奇数，减1，得到4。4是偶数，可是4的一半是2，比3还小！",
+    "所以这一次改成减1。4减1等于3，我们到了！",
+    "现在从3开始正着读：每一个箭头，就是按一次键。",
+    "数一数箭头，别数数字：1、2、3、4、5、6、7、8。",
+    "一共按8次。答案是选项C！"
+   ]
+  },
+  {
+   "id": "doubles",
+   "chapter": "解法二：安排乘2",
+   "hold": 1,
+   "visual": "But can we beat 8? Line 2: row '3 × 2 × 2 × 2 × 2 × 2 = 96' in red with 'too big!'. Line 3: row '3 × 2 × 2 × 2 × 2 = 48', then '90 − 48 = 42'. Line 4: a +1 token travelling through two ×2 boxes and growing 1→2→4 (a 'snowball'). Line 5: value table: 'before all 4 doubles: 16, before 3: 8, before 2: 4, before 1: 2, at the end: 1'.",
+   "lines": [
+    "有没有比8次更少的按法？我们来安排乘2，看看为什么不行。",
+    "乘5个2就太多了。3连乘5个2，得到96，已经超过90了。",
+    "连乘4个2，3会变成48。还差42。",
+    "妙招来了：早一点按的加1，后面会跟着一起乘2，就像滚雪球一样。",
+    "在4次乘2之前按加1，最后相当于16。在3次乘2之前按，相当于8。然后是4、2和1。"
+   ]
+  },
+  {
+   "id": "doubles2",
+   "hold": 1.5,
+   "visual": "Line 1: '42 = 16 + 16 + 8 + 2' with four +1 tokens. Line 2: try three tokens: '16 + 16 + 16 = 48' (too big, red), '16 + 16 + 8 = 40' (too small, red). Line 3: '4 doubles + 4 adds = 8 presses' boxed. Line 4: link to the forward chain 3, 4, 5, 10, 11, 22, 44, 45, 90 with the four +1 arrows highlighted. Line 5: text 'Fewer doubles? Three doubles needs 9 adds: 12 presses.'.",
+   "lines": [
+    "用这些值凑出42：16加16加8加2。一共按了4次加1。",
+    "只按3次加1行不行？最大是三个16，加起来48，太大了。",
+    "再小一点是16加16加8，等于40，又太小了。中间没有别的可能！",
+    "所以要按4次乘2，再按4次加1，一共8次，不能再少了！",
+    "这正好和我们的链条对上：开头按两次加1，第一次乘2之后按一次，最后一次乘2之前再按一次。",
+    "乘2的次数再少，只会更糟。只乘3个2，就要按9次加1，一共12次。"
+   ]
+  },
+  {
+   "id": "pick",
+   "hold": 1,
+   "visual": "Two small cards side by side: 'Work backwards: find a path fast' and 'Plan the doubles: prove nothing is shorter'.",
+   "lines": [
+    "什么时候用哪种方法？想快点找到一条短路线，就倒着推。",
+    "想确定没有更短的路线，就来安排乘2的次数。"
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "常见陷阱",
+   "hold": 1.2,
+   "visual": "Choice chips; wrong ones turn red with a one-line reason. Line 2: the chain 90…3 with its 9 numbers counted vs 8 arrows. Line 3: chips 6 and 7 crossed out with '4 doubles + 4 adds'. Line 4: chip 10 with note 'works, but not the fewest'.",
+   "lines": [
+    "现在来看看错误答案。每一个都是陷阱。",
+    "先看选项D，9，数的是链条上的数字。可是按键次数是数字之间的箭头，要少一个。",
+    "选项A和B，6和7，太少了。我们已经证明，要按4次乘2，再按4次加1。",
+    "最后一个选项，10，能按到90，但不是最少的。白白多按了两次！",
+    "所以养成一个好习惯：数走了几步，别数停了几站。"
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "轮到你：目标100",
+   "hold": 0.5,
+   "visual": "Calculator again showing 3; screen target '100'.",
+   "lines": [
+    "准备好挑战了吗？还是这个计算器，还是这两个键，还是从3开始。",
+    "这一次，最少要按几次，才能变成100？"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown, calculator visible.",
+   "lines": [
+    "暂停视频，加油！"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "目标100：答案",
+   "hold": 1.5,
+   "visual": "Backward chain 100 →(÷2) 50 →(÷2) 25 →(−1) 24 →(÷2) 12 →(÷2) 6 →(÷2) 3, one arrow per spoken step. Line 3: arrows numbered 1–6, answer badge '6 presses' with chime. Line 4: '3 × 2 × 2 × 2 × 2 × 2 = 96, 100 − 96 = 4' and '6 presses' check row.",
+   "lines": [
+    "我们倒着推。100，除以2，得到50。再除以2，得到25。",
+    "25是奇数，减1，得到24。然后连续除以2三次：12，6，3！",
+    "数一数箭头：一共按6次。",
+    "验算一下：3连乘5个2，变成96。然后在最后两次乘2之前按一次加1，正好补上4。一共6次！",
+    "这里有个意外：目标更大，按的次数反而更少。如果你算出了6，太棒了！"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "总结",
+   "hold": 2,
+   "visual": "Summary card: 'Work backwards: even → ÷2, odd → −1' and 'Count the arrows, not the numbers'.",
+   "lines": [
+    "记住这个核心思路。",
+    "只有乘2和加1，想到达目标，就倒着推。",
+    "遇到偶数就除以2，除非结果比起点还小。",
+    "否则，就减1。",
+    "数按键次数，也就是数箭头，不是数数字。",
+    "我是Vantee。继续探索，我们下次见！"
+   ]
+  }
+ ]
+}

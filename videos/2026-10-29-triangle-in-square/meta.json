@@ -1,6 +1,6 @@
 {
- "title": "The Biggest Triangle in a Square | AMC 10-Style Level 5",
- "description": "Most kids set the triangle flat on the bottom, but that's not the biggest one! Vantee shows how to push it into a corner and turn it, then finds the exact area two ways, and gives you a bigger square to try yourself.\n\n0:00 Intro\n0:17 The question\n0:38 What are we asked?\n1:04 Try it yourself\n1:19 Solution 1: turn it in a corner\n3:43 Solution 2: cut off the corners\n4:38 Common traps\n5:14 Your turn: a bigger square\n5:44 Bigger square: the answer\n6:42 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 10 Practice: Equilateral Triangle in a Square — How Big?",
+ "description": "AMC 10 practice problem on the largest equilateral triangle that fits in a unit square, solved by turning it into a corner and by cutting off the corners. (Level 5 of 5)\nMost kids set the triangle flat on the bottom, but that's not the biggest one! Vantee shows how to push it into a corner and turn it, then finds the exact area two ways, and gives you a bigger square to try yourself.\n\n0:00 Intro\n0:17 The question\n0:38 What are we asked?\n1:04 Try it yourself\n1:19 Solution 1: turn it in a corner\n3:43 Solution 2: cut off the corners\n4:38 Common traps\n5:14 Your turn: a bigger square\n5:44 Bigger square: the answer\n6:42 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-29",
  "question_id": "amc_practice_amc10_mock_test_template:c2-056",
  "posts": [
@@ -31,5 +31,7 @@
   "playlist_id": "PLR-HuI9ErJA0"
  },
  "youtube_id": "k8LL11MZN7k",
- "playlist_id": "PLbrpe4TxLJvg"
+ "playlist_id": "PLbrpe4TxLJvg",
+ "pinned_comment": "What's the area of the biggest equilateral triangle in a square of side 1? Comment your answer before you watch the solution!",
+ "thumbnail": "set"
 }

@@ -1,0 +1,471 @@
+{
+ "fps": 30,
+ "durationInFrames": 11007,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 654,
+   "lines": [
+    {
+     "text": "24\u4e2a\u5c0f\u670b\u53cb\uff0c3\u79cd\u98df\u7269\u3002\u6700\u5c11\u6709\u51e0\u4e2a\u5c0f\u670b\u53cb\uff0c3\u79cd\u90fd\u559c\u6b22\uff1f",
+     "caption": "24\u4e2a\u5c0f\u670b\u53cb\uff0c3\u79cd\u98df\u7269\u3002\u6700\u5c11\u6709\u51e0\u4e2a\u5c0f\u670b\u53cb\uff0c3\u79cd\u90fd\u559c\u6b22\uff1f",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/e57535341e6b0b0f.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "\u4f60\u53ef\u80fd\u60f3\u753b\u4e00\u4e2a\u5927\u5927\u7684\u97e6\u6069\u56fe\u3002\u4e0d\u8fc7\uff0c\u8fd8\u6709\u4e00\u4e2a\u5feb\u5f97\u591a\u7684\u5999\u62db\u3002",
+     "caption": "\u4f60\u53ef\u80fd\u60f3\u753b\u4e00\u4e2a\u5927\u5927\u7684\u97e6\u6069\u56fe\u3002\u4e0d\u8fc7\uff0c\u8fd8\u6709\u4e00\u4e2a\u5feb\u5f97\u591a\u7684\u5999\u62db\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/6f53c9a4cfc65381.wav",
+     "from": 238,
+     "frames": 210
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u6765\u6570\u4e00\u6570\u8bf4\u201c\u4e0d\u201d\u7684\u5c0f\u670b\u53cb\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u6765\u6570\u4e00\u6570\u8bf4\u201c\u4e0d\u201d\u7684\u5c0f\u670b\u53cb\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/7bc3b408a286802b.wav",
+     "from": 459,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 654,
+   "frames": 735,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 40
+    },
+    {
+     "text": "\u4e00\u4e2a\u73ed\u670924\u4e2a\u5c0f\u670b\u53cb\uff0c",
+     "caption": "\u4e00\u4e2a\u73ed\u670924\u4e2a\u5c0f\u670b\u53cb\uff0c",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/701f88c8f6c1dfaa.wav",
+     "from": 50,
+     "frames": 101
+    },
+    {
+     "text": "\u5176\u4e2d20\u4e2a\u559c\u6b22\u62ab\u8428\uff0c",
+     "caption": "\u5176\u4e2d20\u4e2a\u559c\u6b22\u62ab\u8428\uff0c",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/0c9d68a4c248b5d1.wav",
+     "from": 161,
+     "frames": 89
+    },
+    {
+     "text": "18\u4e2a\u559c\u6b22\u610f\u9762\uff0c",
+     "caption": "18\u4e2a\u559c\u6b22\u610f\u9762\uff0c",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/e911e10b8526c9b1.wav",
+     "from": 261,
+     "frames": 82
+    },
+    {
+     "text": "16\u4e2a\u559c\u6b22\u559d\u6c64\u30023\u79cd\u90fd\u559c\u6b22\u7684\u5c0f\u670b\u53cb\uff0c\u6700\u5c11\u53ef\u80fd\u6709\u51e0\u4e2a\uff1f",
+     "caption": "16\u4e2a\u559c\u6b22\u559d\u6c64\u30023\u79cd\u90fd\u559c\u6b22\u7684\u5c0f\u670b\u53cb\uff0c\u6700\u5c11\u53ef\u80fd\u6709\u51e0\u4e2a\uff1f",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/776e037b5a37ace3.wav",
+     "from": 353,
+     "frames": 201
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 564,
+     "frames": 102
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1389,
+   "frames": 730,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e00\u517124\u4e2a\u5c0f\u670b\u53cb\uff0c\u8fd8\u6709\u4e09\u4e2a\u6570\uff1a\u4e8c\u5341\u3001\u5341\u516b\u548c\u5341\u516d\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e00\u517124\u4e2a\u5c0f\u670b\u53cb\uff0c\u8fd8\u6709\u4e09\u4e2a\u6570\uff1a20\u300118\u548c16\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/a56d631dfcee7a5c.wav",
+     "from": 0,
+     "frames": 272
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u627e\u7684\u662f\uff1a3\u79cd\u90fd\u559c\u6b22\u7684\u4eba\uff0c\u6700\u5c11\u201c\u53ef\u80fd\u201d\u6709\u51e0\u4e2a\u3002",
+     "caption": "\u6211\u4eec\u8981\u627e\u7684\u662f\uff1a3\u79cd\u90fd\u559c\u6b22\u7684\u4eba\uff0c\u6700\u5c11\u201c\u53ef\u80fd\u201d\u6709\u51e0\u4e2a\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/3d1a49e9a89650c4.wav",
+     "from": 281,
+     "frames": 185
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f\u8bf4\uff0c\u8c01\u559c\u6b22\u4ec0\u4e48\uff0c\u7531\u6211\u4eec\u6765\u5b89\u6392\uff0c\u8ba9\u8fd9\u4e00\u7fa4\u4eba\u5c3d\u91cf\u5c11\u3002",
+     "caption": "\u4e5f\u5c31\u662f\u8bf4\uff0c\u8c01\u559c\u6b22\u4ec0\u4e48\uff0c\u7531\u6211\u4eec\u6765\u5b89\u6392\uff0c\u8ba9\u8fd9\u4e00\u7fa4\u4eba\u5c3d\u91cf\u5c11\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/ca66c5d6706f93e9.wav",
+     "from": 477,
+     "frames": 200
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2119,
+   "frames": 472,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "misses",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u6570\u8bf4\u201c\u4e0d\u201d\u7684",
+   "from": 2591,
+   "frames": 861,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u6570\u4e00\u6570\u8bf4\u201c\u4e0d\u201d\u7684\u5c0f\u670b\u53cb\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u6570\u4e00\u6570\u8bf4\u201c\u4e0d\u201d\u7684\u5c0f\u670b\u53cb\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/61f2f6c4c513dd8a.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "20\u4e2a\u559c\u6b22\u62ab\u8428\uff0c\u6240\u4ee5\u67094\u4e2a\u4e0d\u559c\u6b22\u3002",
+     "caption": "20\u4e2a\u559c\u6b22\u62ab\u8428\uff0c\u6240\u4ee5\u67094\u4e2a\u4e0d\u559c\u6b22\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/d8dd204ed1528b91.wav",
+     "from": 168,
+     "frames": 136
+    },
+    {
+     "text": "18\u4e2a\u559c\u6b22\u610f\u9762\uff0c\u6240\u4ee5\u67096\u4e2a\u4e0d\u559c\u6b22\u300216\u4e2a\u559c\u6b22\u6c64\uff0c\u6240\u4ee5\u67098\u4e2a\u4e0d\u559c\u6b22\u3002",
+     "caption": "18\u4e2a\u559c\u6b22\u610f\u9762\uff0c\u6240\u4ee5\u67096\u4e2a\u4e0d\u559c\u6b22\u300216\u4e2a\u559c\u6b22\u6c64\uff0c\u6240\u4ee5\u67098\u4e2a\u4e0d\u559c\u6b22\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/8cd24f2d44d2544f.wav",
+     "from": 315,
+     "frames": 303
+    },
+    {
+     "text": "\u53ea\u8981\u5bf9\u4e00\u79cd\u98df\u7269\u8bf4\u4e86\u201c\u4e0d\u201d\uff0c\u5c31\u4e0d\u5728\u201c3\u79cd\u90fd\u559c\u6b22\u201d\u7684\u8fd9\u7fa4\u4eba\u91cc\u3002",
+     "caption": "\u53ea\u8981\u5bf9\u4e00\u79cd\u98df\u7269\u8bf4\u4e86\u201c\u4e0d\u201d\uff0c\u5c31\u4e0d\u5728\u201c3\u79cd\u90fd\u559c\u6b22\u201d\u7684\u8fd9\u7fa4\u4eba\u91cc\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/0402953f4b670aa5.wav",
+     "from": 627,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "spread",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3452,
+   "frames": 1489,
+   "lines": [
+    {
+     "text": "\u8981\u8ba9\u8fd9\u7fa4\u4eba\u5c3d\u91cf\u5c11\uff0c\u5c31\u628a\u201c\u4e0d\u201d\u5206\u7ed9\u4e0d\u540c\u7684\u5c0f\u670b\u53cb\u3002\u8c01\u4e5f\u4e0d\u8bf4\u4e24\u6b21\u201c\u4e0d\u201d\u3002",
+     "caption": "\u8981\u8ba9\u8fd9\u7fa4\u4eba\u5c3d\u91cf\u5c11\uff0c\u5c31\u628a\u201c\u4e0d\u201d\u5206\u7ed9\u4e0d\u540c\u7684\u5c0f\u670b\u53cb\u3002\u8c01\u4e5f\u4e0d\u8bf4\u4e24\u6b21\u201c\u4e0d\u201d\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/7eac89ae75779ac0.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "\u8fd9\u6837\uff0c4\u52a06\u52a08\u7b49\u4e8e18\uff0c\u670918\u4e2a\u5c0f\u670b\u53cb\u81f3\u5c11\u8bf4\u4e86\u4e00\u6b21\u201c\u4e0d\u201d\u3002",
+     "caption": "\u8fd9\u6837\uff0c4\u52a06\u52a08\u7b49\u4e8e18\uff0c\u670918\u4e2a\u5c0f\u670b\u53cb\u81f3\u5c11\u8bf4\u4e86\u4e00\u6b21\u201c\u4e0d\u201d\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/2e582d17425313a2.wav",
+     "from": 236,
+     "frames": 254
+    },
+    {
+     "text": "\u5269\u4e0b24\u51cf18\uff0c\u7b49\u4e8e6\u4e2a\u5c0f\u670b\u53cb\uff0c\u4e00\u6b21\u201c\u4e0d\u201d\u90fd\u6ca1\u8bf4\u3002\u4ed6\u4eec3\u79cd\u90fd\u559c\u6b22\uff01",
+     "caption": "\u5269\u4e0b24\u51cf18\uff0c\u7b49\u4e8e6\u4e2a\u5c0f\u670b\u53cb\uff0c\u4e00\u6b21\u201c\u4e0d\u201d\u90fd\u6ca1\u8bf4\u3002\u4ed6\u4eec3\u79cd\u90fd\u559c\u6b22\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/04982dc363571a5f.wav",
+     "from": 500,
+     "frames": 312
+    },
+    {
+     "text": "\u68c0\u67e5\u4e00\u4e0b\uff1a20\u4e2a\u559c\u6b22\u62ab\u8428\uff0c18\u4e2a\u559c\u6b22\u610f\u9762\uff0c16\u4e2a\u559c\u6b22\u6c64\u3002\u5b8c\u5168\u7b26\u5408\u3002",
+     "caption": "\u68c0\u67e5\u4e00\u4e0b\uff1a20\u4e2a\u559c\u6b22\u62ab\u8428\uff0c18\u4e2a\u559c\u6b22\u610f\u9762\uff0c16\u4e2a\u559c\u6b22\u6c64\u3002\u5b8c\u5168\u7b26\u5408\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/f592ff510231072f.wav",
+     "from": 823,
+     "frames": 274
+    },
+    {
+     "text": "\u800c\u4e14\u4e0d\u53ef\u80fd\u66f4\u5c11\u4e86\uff0c\u56e0\u4e3a\u80fd\u5206\u7684\u201c\u4e0d\u559c\u6b22\u201d\uff0c\u4e00\u5171\u53ea\u670918\u4e2a\u3002",
+     "caption": "\u800c\u4e14\u4e0d\u53ef\u80fd\u66f4\u5c11\u4e86\uff0c\u56e0\u4e3a\u80fd\u5206\u7684\u201c\u4e0d\u559c\u6b22\u201d\uff0c\u4e00\u5171\u53ea\u670918\u4e2a\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/7310cdf8027282bb.wav",
+     "from": 1107,
+     "frames": 196
+    },
+    {
+     "text": "\u7b54\u6848\u5c31\u662f6\uff0c\u4e5f\u5c31\u662f\u9009\u9879C\uff01",
+     "caption": "\u7b54\u6848\u5c31\u662f6\uff0c\u4e5f\u5c31\u662f\u9009\u9879C\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/027fa5dcc0d3f359.wav",
+     "from": 1313,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "pairs",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u4e24\u79cd\u4e24\u79cd\u5408\u5e76",
+   "from": 4941,
+   "frames": 1284,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff1a\u6bcf\u6b21\u5408\u5e76\u4e24\u79cd\u98df\u7269\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff1a\u6bcf\u6b21\u5408\u5e76\u4e24\u79cd\u98df\u7269\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/b140636cf844d76f.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "\u5148\u770b\u62ab\u8428\u548c\u610f\u9762\uff1a20\u52a018\u7b49\u4e8e38\u3002",
+     "caption": "\u5148\u770b\u62ab\u8428\u548c\u610f\u9762\uff1a20\u52a018\u7b49\u4e8e38\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/d2256c2ff7367c20.wav",
+     "from": 136,
+     "frames": 170
+    },
+    {
+     "text": "\u6bd424\u591a\u4e8614\uff0c\u6240\u4ee5\u81f3\u5c11\u670914\u4e2a\u5c0f\u670b\u53cb\u4e24\u79cd\u90fd\u559c\u6b22\u3002",
+     "caption": "\u6bd424\u591a\u4e8614\uff0c\u6240\u4ee5\u81f3\u5c11\u670914\u4e2a\u5c0f\u670b\u53cb\u4e24\u79cd\u90fd\u559c\u6b22\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/6ad5b4c1bd33e1d5.wav",
+     "from": 316,
+     "frames": 216
+    },
+    {
+     "text": "\u518d\u52a0\u4e0a\u6c64\u300214\u52a016\u7b49\u4e8e30\u3002",
+     "caption": "\u518d\u52a0\u4e0a\u6c64\u300214\u52a016\u7b49\u4e8e30\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/9c3455be03467ff8.wav",
+     "from": 542,
+     "frames": 152
+    },
+    {
+     "text": "\u6bd424\u591a\u4e866\uff0c\u6240\u4ee5\u81f3\u5c11\u67096\u4e2a\u5c0f\u670b\u53cb3\u79cd\u90fd\u559c\u6b22\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "\u6bd424\u591a\u4e866\uff0c\u6240\u4ee5\u81f3\u5c11\u67096\u4e2a\u5c0f\u670b\u53cb3\u79cd\u90fd\u559c\u6b22\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/6c78414801e80b76.wav",
+     "from": 704,
+     "frames": 230
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u60f3\u770b\u7740\u91cd\u53e0\u90e8\u5206\uff0c\u6bcf\u52a0\u4e00\u79cd\u98df\u7269\u5c31\u53d8\u5c0f\u4e00\u6b21\u7684\u65f6\u5019\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u60f3\u770b\u7740\u91cd\u53e0\u90e8\u5206\uff0c\u6bcf\u52a0\u4e00\u79cd\u98df\u7269\u5c31\u53d8\u5c0f\u4e00\u6b21\u7684\u65f6\u5019\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/8d2a5a3e0a3d689f.wav",
+     "from": 944,
+     "frames": 272
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 6225,
+   "frames": 1618,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/c4af48ab6537d974.wav",
+     "from": 0,
+     "frames": 148
+    },
+    {
+     "text": "\u9009\u9879B\u662f4\uff0c\u8fd9\u662f\u4e0d\u559c\u6b22\u62ab\u8428\u7684\u4eba\u6570\u3002\u5b83\u53ea\u662f\u5176\u4e2d\u4e00\u4e2a\u6570\u3002",
+     "caption": "\u9009\u9879B\u662f4\uff0c\u8fd9\u662f\u4e0d\u559c\u6b22\u62ab\u8428\u7684\u4eba\u6570\u3002\u5b83\u53ea\u662f\u5176\u4e2d\u4e00\u4e2a\u6570\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/3dd751dcec48c244.wav",
+     "from": 158,
+     "frames": 189
+    },
+    {
+     "text": "\u518d\u6765\u770b\u9009\u9879E\uff1a16\uff0c\u8fd9\u662f\u559c\u6b22\u6c64\u7684\u4eba\u6570\u3002",
+     "caption": "\u518d\u6765\u770b\u9009\u9879E\uff1a16\uff0c\u8fd9\u662f\u559c\u6b22\u6c64\u7684\u4eba\u6570\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/cc6ad3c32663d7aa.wav",
+     "from": 357,
+     "frames": 153
+    },
+    {
+     "text": "\u8fd9\u662f\u201c3\u79cd\u90fd\u559c\u6b22\u201d\u6700\u591a\u53ef\u80fd\u6709\u51e0\u4e2a\uff0c\u4e0d\u662f\u6700\u5c11\u3002",
+     "caption": "\u8fd9\u662f\u201c3\u79cd\u90fd\u559c\u6b22\u201d\u6700\u591a\u53ef\u80fd\u6709\u51e0\u4e2a\uff0c\u4e0d\u662f\u6700\u5c11\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/f34c3b58a9d344a6.wav",
+     "from": 520,
+     "frames": 168
+    },
+    {
+     "text": "\u9009\u9879D\u662f14\uff0c\u8fd9\u662f\u62ab\u8428\u548c\u610f\u9762\u7684\u91cd\u53e0\u3002\u5982\u679c\u8fd8\u6ca1\u52a0\u4e0a\u6c64\u5c31\u505c\u4e0b\uff0c\u5c31\u4f1a\u5f97\u5230\u5b83\u3002",
+     "caption": "\u9009\u9879D\u662f14\uff0c\u8fd9\u662f\u62ab\u8428\u548c\u610f\u9762\u7684\u91cd\u53e0\u3002\u5982\u679c\u8fd8\u6ca1\u52a0\u4e0a\u6c64\u5c31\u505c\u4e0b\uff0c\u5c31\u4f1a\u5f97\u5230\u5b83\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/c911986856defaba.wav",
+     "from": 698,
+     "frames": 287
+    },
+    {
+     "text": "\u9009\u9879A\u662f0\uff0c\u90a3\u9700\u898124\u4e2a\u201c\u4e0d\u201d\u3002\u53ef\u662f\u53ea\u670918\u4e2a\uff0c\u6240\u4ee5\u4e00\u5b9a\u67096\u4e2a\u5c0f\u670b\u53cb\u5168\u90fd\u559c\u6b22\u3002",
+     "caption": "\u9009\u9879A\u662f0\uff0c\u90a3\u9700\u898124\u4e2a\u201c\u4e0d\u201d\u3002\u53ef\u662f\u53ea\u670918\u4e2a\uff0c\u6240\u4ee5\u4e00\u5b9a\u67096\u4e2a\u5c0f\u670b\u53cb\u5168\u90fd\u559c\u6b22\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/a276a92fa0b13373.wav",
+     "from": 996,
+     "frames": 314
+    },
+    {
+     "text": "\u6240\u4ee5\u8bb0\u4f4f\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u8981\u627e\u5bf9\u6240\u6709\u4e1c\u897f\u90fd\u8bf4\u201c\u662f\u201d\u7684\u6700\u5c11\u4eba\u6570\uff0c\u5c31\u53bb\u6570\u201c\u4e0d\u201d\u3002",
+     "caption": "\u6240\u4ee5\u8bb0\u4f4f\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u8981\u627e\u5bf9\u6240\u6709\u4e1c\u897f\u90fd\u8bf4\u201c\u662f\u201d\u7684\u6700\u5c11\u4eba\u6570\uff0c\u5c31\u53bb\u6570\u201c\u4e0d\u201d\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/1e96df20f1e45016.wav",
+     "from": 1319,
+     "frames": 239
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u56db\u79cd\u6700\u7231",
+   "from": 7843,
+   "frames": 691,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u6b21\u6709\u56db\u6837\u4e1c\u897f\u53ef\u4ee5\u559c\u6b22\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u6b21\u6709\u56db\u6837\u4e1c\u897f\u53ef\u4ee5\u559c\u6b22\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/fe00463efd96f54f.wav",
+     "from": 0,
+     "frames": 141
+    },
+    {
+     "text": "\u4e00\u4e2a\u73ed\u670930\u4e2a\u5c0f\u670b\u53cb\uff0c25\u4e2a\u559c\u6b22\u732b\uff0c22\u4e2a\u559c\u6b22\u72d7\u3002",
+     "caption": "\u4e00\u4e2a\u73ed\u670930\u4e2a\u5c0f\u670b\u53cb\uff0c25\u4e2a\u559c\u6b22\u732b\uff0c22\u4e2a\u559c\u6b22\u72d7\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/c7ecd477856dc4de.wav",
+     "from": 151,
+     "frames": 213
+    },
+    {
+     "text": "20\u4e2a\u559c\u6b22\u9c7c\uff0c27\u4e2a\u559c\u6b22\u9e1f\u3002",
+     "caption": "20\u4e2a\u559c\u6b22\u9c7c\uff0c27\u4e2a\u559c\u6b22\u9e1f\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/740786bdda095fa2.wav",
+     "from": 374,
+     "frames": 132
+    },
+    {
+     "text": "4\u6837\u90fd\u559c\u6b22\u7684\u5c0f\u670b\u53cb\uff0c\u6700\u5c11\u53ef\u80fd\u6709\u51e0\u4e2a\uff1f",
+     "caption": "4\u6837\u90fd\u559c\u6b22\u7684\u5c0f\u670b\u53cb\uff0c\u6700\u5c11\u53ef\u80fd\u6709\u51e0\u4e2a\uff1f",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/563741e833554006.wav",
+     "from": 516,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8534,
+   "frames": 476,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\u8bd5\u4e00\u8bd5\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\u8bd5\u4e00\u8bd5\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/d7828638c2ed0700.wav",
+     "from": 0,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u56db\u79cd\u6700\u7231\uff1a\u7b54\u6848",
+   "from": 9010,
+   "frames": 1228,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u6570\u201c\u4e0d\u201d\u30025\u4e2a\u4e0d\u559c\u6b22\u732b\uff0c8\u4e2a\u4e0d\u559c\u6b22\u72d7\u3002",
+     "caption": "\u6211\u4eec\u6765\u6570\u201c\u4e0d\u201d\u30025\u4e2a\u4e0d\u559c\u6b22\u732b\uff0c8\u4e2a\u4e0d\u559c\u6b22\u72d7\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/be9c7370a586e6f9.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "10\u4e2a\u4e0d\u559c\u6b22\u9c7c\uff0c3\u4e2a\u4e0d\u559c\u6b22\u9e1f\u3002",
+     "caption": "10\u4e2a\u4e0d\u559c\u6b22\u9c7c\uff0c3\u4e2a\u4e0d\u559c\u6b22\u9e1f\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/425425ae7516a312.wav",
+     "from": 180,
+     "frames": 147
+    },
+    {
+     "text": "\u5206\u7ed9\u4e0d\u540c\u7684\u5c0f\u670b\u53cb\uff1a5\u52a08\u52a010\u52a03\uff0c\u4e00\u517126\u4e2a\u201c\u4e0d\u559c\u6b22\u201d\u3002",
+     "caption": "\u5206\u7ed9\u4e0d\u540c\u7684\u5c0f\u670b\u53cb\uff1a5\u52a08\u52a010\u52a03\uff0c\u4e00\u517126\u4e2a\u201c\u4e0d\u559c\u6b22\u201d\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/67237e99be7950ff.wav",
+     "from": 337,
+     "frames": 279
+    },
+    {
+     "text": "30\u51cf26\u7b49\u4e8e4\u3002\u81f3\u5c11\u67094\u4e2a\u5c0f\u670b\u53cb\uff0c4\u6837\u90fd\u559c\u6b22\uff01",
+     "caption": "30\u51cf26\u7b49\u4e8e4\u3002\u81f3\u5c11\u67094\u4e2a\u5c0f\u670b\u53cb\uff0c4\u6837\u90fd\u559c\u6b22\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/31948ece0cdca9a4.wav",
+     "from": 626,
+     "frames": 198
+    },
+    {
+     "text": "\u6700\u5999\u7684\u662f\uff1a\u591a\u4e86\u7b2c\u56db\u6837\uff0c\u5e76\u6ca1\u6709\u53d8\u96be\uff0c\u53ea\u662f\u591a\u6570\u4e00\u6b21\u3002",
+     "caption": "\u6700\u5999\u7684\u662f\uff1a\u591a\u4e86\u7b2c\u56db\u6837\uff0c\u5e76\u6ca1\u6709\u53d8\u96be\uff0c\u53ea\u662f\u591a\u6570\u4e00\u6b21\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/101afd55c275ed6e.wav",
+     "from": 834,
+     "frames": 210
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e864\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e864\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/bb066c29cb30b5bf.wav",
+     "from": 1055,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 10238,
+   "frames": 769,
+   "lines": [
+    {
+     "text": "\u6765\u8bb0\u4f4f\u4eca\u5929\u7684\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u6765\u8bb0\u4f4f\u4eca\u5929\u7684\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/146a9ed82658573e.wav",
+     "from": 0,
+     "frames": 84
+    },
+    {
+     "text": "\u6570\u4e00\u6570\u6bcf\u6837\u4e1c\u897f\u6709\u51e0\u4e2a\u4eba\u8bf4\u201c\u4e0d\u201d\uff0c\u518d\u628a\u8fd9\u4e9b\u201c\u4e0d\u201d\u5206\u7ed9\u4e0d\u540c\u7684\u5c0f\u670b\u53cb\u3002",
+     "caption": "\u6570\u4e00\u6570\u6bcf\u6837\u4e1c\u897f\u6709\u51e0\u4e2a\u4eba\u8bf4\u201c\u4e0d\u201d\uff0c\u518d\u628a\u8fd9\u4e9b\u201c\u4e0d\u201d\u5206\u7ed9\u4e0d\u540c\u7684\u5c0f\u670b\u53cb\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/26e542f30ac99940.wav",
+     "from": 95,
+     "frames": 243
+    },
+    {
+     "text": "\u5269\u4e0b\u7684\u4eba\uff0c\u4e00\u5b9a\u6837\u6837\u90fd\u559c\u6b22\u3002\u8fd9\u5c31\u662f\u8fd9\u7fa4\u4eba\u6700\u5c11\u7684\u4eba\u6570\u3002",
+     "caption": "\u5269\u4e0b\u7684\u4eba\uff0c\u4e00\u5b9a\u6837\u6837\u90fd\u559c\u6b22\u3002\u8fd9\u5c31\u662f\u8fd9\u7fa4\u4eba\u6700\u5c11\u7684\u4eba\u6570\u3002",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/1991a5eb1b223652.wav",
+     "from": 348,
+     "frames": 219
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-pizza-pasta-soup-zh/audio/f8351124be57142c.wav",
+     "from": 577,
+     "frames": 108
+    }
+   ]
+  }
+ ]
+}

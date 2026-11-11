@@ -1,6 +1,6 @@
 {
- "title": "Multiples of 4, 6 or 9: Don't Count Twice! | AMC 8-Style Level 4",
- "description": "How many whole numbers from 1 to 1000 are multiples of 4, 6 or 9? Adding the three counts is not enough, because some numbers sneak in twice. Vantee shows you how to fix the overcount with a Venn diagram, a faster \"build it up\" trick, and a new puzzle for you to try.\n\n0:00 Intro\n0:18 The question\n0:35 What are we asked?\n0:51 Try it yourself\n1:07 Solution 1: a Venn diagram\n3:37 Solution 2: build it up\n4:37 Common traps\n5:24 Your turn: four, six or ten\n5:54 Four, six or ten: the answer\n6:34 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Multiples of 4, 6 or 9 up to 1000 — Don't Count Twice!",
+ "description": "AMC 8 practice problem on counting multiples of 4, 6 or 9 from 1 to 1000 with inclusion-exclusion and a Venn diagram. (Level 4 of 5)\nHow many whole numbers from 1 to 1000 are multiples of 4, 6 or 9? Adding the three counts is not enough, because some numbers sneak in twice. Vantee shows you how to fix the overcount with a Venn diagram, a faster \"build it up\" trick, and a new puzzle for you to try.\n\n0:00 Intro\n0:18 The question\n0:35 What are we asked?\n0:51 Try it yourself\n1:07 Solution 1: a Venn diagram\n3:37 Solution 2: build it up\n4:37 Common traps\n5:24 Your turn: four, six or ten\n5:54 Four, six or ten: the answer\n6:34 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_number_theory_template:c1-821",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "How many whole numbers from 1 to 1000 are multiples of 4, 6 or 9? Comment your answer before you watch the solution!"
 }

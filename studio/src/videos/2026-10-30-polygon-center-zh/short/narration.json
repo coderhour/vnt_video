@@ -1,0 +1,51 @@
+{
+ "title": "能不能包住中心？(短片)",
+ "fps": 30,
+ "lang": "zh",
+ "captions": {
+  "AMC 10挑战！你觉得是两百六十？错！": "AMC 10挑战！你觉得是260？错！"
+ },
+ "voice": "Zephyr",
+ "style": "warm and upbeat, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC 10挑战！你觉得是两百六十？错！"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "正13边形，选4个角连起来。",
+    "几种选法能包住中心？"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "评论你的选项，再接着看！"
+   ]
+  },
+  {
+   "id": "misses",
+   "lines": [
+    "共715种选法。来数一数漏掉的！",
+    "4个角挤在半圆里，就漏掉了。",
+    "第一个角定下，另外3个从后面6个里选：20种。",
+    "13个位置乘20：260种漏掉的。"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "715减260，等于455！",
+    "260是陷阱，只是漏掉的！",
+    "答案是455，答对了吗？评论告诉我！"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

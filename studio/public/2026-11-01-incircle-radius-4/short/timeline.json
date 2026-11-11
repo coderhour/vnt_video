@@ -1,20 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1166,
+ "durationInFrames": 978,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 107,
+   "frames": 70,
    "lines": [
     {
-     "text": "AMC ten challenge! Think it's eighty-one? Nope!",
-     "caption": "AMC 10 challenge! Think it's 81? Nope!",
-     "file": "2026-11-01-incircle-radius-4/short/audio/199d002a229369df.wav",
+     "text": "Think it's eighty-one? Nope!",
+     "caption": "Think it's 81? Nope!",
+     "file": "2026-11-01-incircle-radius-4/short/audio/115b03e250880812.wav",
      "from": 0,
-     "frames": 95
+     "frames": 58
     }
    ]
   },
@@ -22,7 +22,7 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 107,
+   "from": 70,
    "frames": 206,
    "lines": [
     {
@@ -45,8 +45,8 @@
    "id": "think",
    "kind": "scene",
    "chapter": null,
-   "from": 313,
-   "frames": 71,
+   "from": 276,
+   "frames": 70,
    "lines": [
     {
      "text": "Comment your letter, then watch!",
@@ -61,8 +61,8 @@
    "id": "pieces",
    "kind": "scene",
    "chapter": null,
-   "from": 384,
-   "frames": 470,
+   "from": 346,
+   "frames": 320,
    "lines": [
     {
      "text": "Equal tangent pieces: six, y, and z.",
@@ -72,24 +72,17 @@
      "frames": 101
     },
     {
-     "text": "Area two ways gives z equals eight y plus forty-eight, over three y minus eight.",
-     "caption": "Area two ways gives z = (8y+48) / (3y\u22128).",
-     "file": "2026-11-01-incircle-radius-4/short/audio/9ffb0a284e78d2e2.wav",
-     "from": 105,
-     "frames": 165
-    },
-    {
-     "text": "For a positive bottom, y must be at least three.",
-     "caption": "For a positive bottom, y must be at least 3.",
-     "file": "2026-11-01-incircle-radius-4/short/audio/1612dc8ae2349a69.wav",
-     "from": 274,
-     "frames": 95
+     "text": "Area two ways gives this formula, so y is at least three.",
+     "caption": "Area two ways gives this formula, so y is at least 3.",
+     "file": "2026-11-01-incircle-radius-4/short/audio/09a98e3bbff411b4.wav",
+     "from": 106,
+     "frames": 113
     },
     {
      "text": "At y equals three, z is seventy-two!",
      "caption": "At y = 3, z is 72!",
      "file": "2026-11-01-incircle-radius-4/short/audio/406b8397c42904c0.wav",
-     "from": 373,
+     "from": 223,
      "frames": 86
     }
    ]
@@ -98,7 +91,7 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 854,
+   "from": 666,
    "frames": 312,
    "lines": [
     {

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-page-digits';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -578,3 +579,19 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + page tiles 1, 2, 3, 4, … ? and the digits rule, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>99?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      {[1, 2, 3, 4].map((p, i) => (
+        <Page key={p} p={p} x={95 + i * 163} y={110} s={2} />
+      ))}
+      <text x={340} y={290} fontFamily={NUNITO} fontWeight={900} fontSize={110} fill={C.muted} textAnchor="middle">…</text>
+      <Page p="?" x={340} y={430} s={2.2} color={C.violet} />
+    </svg>
+    <div style={{ position: 'absolute', right: 20, bottom: 36, width: 680, textAlign: 'center' }}>
+      <Tex tex={'\\text{digits} = 2 \\times \\text{pages}'} size={58} color={C.ink} />
+    </div>
+  </ThumbFrame>
+);

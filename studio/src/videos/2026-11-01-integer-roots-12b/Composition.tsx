@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-integer-roots-12b';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -572,3 +573,14 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the equation big, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>8?</span>]}>
+    <div style={{ background: C.card, borderRadius: 40, padding: '50px 10px', width: 640, boxShadow: '0 8px 30px rgba(30,40,80,0.10)', textAlign: 'center', whiteSpace: 'nowrap' }}>
+      <div><Tex tex="x^2+bx+12b" size={84} /></div>
+      <div><Tex tex="=0" size={84} /></div>
+      <div style={{ marginTop: 30, fontSize: 64, fontWeight: 900, color: C.violet }}>2 integer roots</div>
+    </div>
+  </ThumbFrame>
+);

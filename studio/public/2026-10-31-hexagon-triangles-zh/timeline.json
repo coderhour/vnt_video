@@ -1,0 +1,487 @@
+{
+ "fps": 30,
+ "durationInFrames": 10371,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 580,
+   "lines": [
+    {
+     "text": "\u8fd9\u4e2a\u6b63\u516d\u8fb9\u5f62\u88ab\u5206\u6210\u4e8624\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002\u4f46\u8fd9\u8fd8\u4e0d\u662f\u5168\u90e8\uff01",
+     "caption": "\u8fd9\u4e2a\u6b63\u516d\u8fb9\u5f62\u88ab\u5206\u6210\u4e8624\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002\u4f46\u8fd9\u8fd8\u4e0d\u662f\u5168\u90e8\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/f3ff3c302440fdff.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "\u91cc\u9762\u8fd8\u85cf\u7740\u66f4\u5927\u7684\u4e09\u89d2\u5f62\uff0c\u6709\u4e9b\u85cf\u5f97\u5f88\u6df1\u3002",
+     "caption": "\u91cc\u9762\u8fd8\u85cf\u7740\u66f4\u5927\u7684\u4e09\u89d2\u5f62\uff0c\u6709\u4e9b\u85cf\u5f97\u5f88\u6df1\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/1df7822bb74bf7af.wav",
+     "from": 236,
+     "frames": 134
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u6bcf\u4e2a\u4e09\u89d2\u5f62\u90fd\u627e\u51fa\u6765\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u6bcf\u4e2a\u4e09\u89d2\u5f62\u90fd\u627e\u51fa\u6765\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/cc3d936c26398b9a.wav",
+     "from": 380,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 580,
+   "frames": 601,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 42
+    },
+    {
+     "text": "\u4e00\u4e2a\u6b63\u516d\u8fb9\u5f62\uff0c\u8fb9\u957f\u662f2\u3002",
+     "caption": "\u4e00\u4e2a\u6b63\u516d\u8fb9\u5f62\uff0c\u8fb9\u957f\u662f2\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/8e00f5ce0ff98f9e.wav",
+     "from": 52,
+     "frames": 113
+    },
+    {
+     "text": "\u5b83\u88ab\u5206\u621024\u4e2a\u5c0f\u7684\u7b49\u8fb9\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u5b83\u88ab\u5206\u621024\u4e2a\u5c0f\u7684\u7b49\u8fb9\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/7d4fa9db07583510.wav",
+     "from": 175,
+     "frames": 129
+    },
+    {
+     "text": "\u56fe\u4e2d\u4e00\u5171\u6709\u591a\u5c11\u4e2a\u4e09\u89d2\u5f62\uff1f\u5927\u5c0f\u4e0d\u9650\u3002",
+     "caption": "\u56fe\u4e2d\u4e00\u5171\u6709\u591a\u5c11\u4e2a\u4e09\u89d2\u5f62\uff1f\u5927\u5c0f\u4e0d\u9650\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/9552bce2ee8127ca.wav",
+     "from": 314,
+     "frames": 136
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/cff06e3fe814d7a5.wav",
+     "from": 460,
+     "frames": 72
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1181,
+   "frames": 635,
+   "lines": [
+    {
+     "text": "\u6bcf\u4e2a\u5c0f\u4e09\u89d2\u5f62\u7684\u8fb9\u957f\u662f1\u3002\u4e24\u6761\u5c0f\u8fb9\u8fde\u8d77\u6765\uff0c\u5c31\u662f\u516d\u8fb9\u5f62\u7684\u4e00\u6761\u8fb9\u3002",
+     "caption": "\u6bcf\u4e2a\u5c0f\u4e09\u89d2\u5f62\u7684\u8fb9\u957f\u662f1\u3002\u4e24\u6761\u5c0f\u8fb9\u8fde\u8d77\u6765\uff0c\u5c31\u662f\u516d\u8fb9\u5f62\u7684\u4e00\u6761\u8fb9\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/baff4074070fa153.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "\u6bcf\u4e00\u79cd\u5927\u5c0f\u7684\u4e09\u89d2\u5f62\u90fd\u8981\u6570\uff0c\u53ea\u8981\u5b83\u7684\u8fb9\u90fd\u5728\u753b\u597d\u7684\u7ebf\u4e0a\u3002",
+     "caption": "\u6bcf\u4e00\u79cd\u5927\u5c0f\u7684\u4e09\u89d2\u5f62\u90fd\u8981\u6570\uff0c\u53ea\u8981\u5b83\u7684\u8fb9\u90fd\u5728\u753b\u597d\u7684\u7ebf\u4e0a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/e642229a26a6309e.wav",
+     "from": 220,
+     "frames": 173
+    },
+    {
+     "text": "\u8fd8\u8981\u6ce8\u610f\u65b9\u5411\u3002\u6709\u7684\u4e09\u89d2\u5f62\u5c16\u671d\u4e0a\uff0c\u6709\u7684\u5c16\u671d\u4e0b\u3002",
+     "caption": "\u8fd8\u8981\u6ce8\u610f\u65b9\u5411\u3002\u6709\u7684\u4e09\u89d2\u5f62\u5c16\u671d\u4e0a\uff0c\u6709\u7684\u5c16\u671d\u4e0b\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/f976b071eafde15e.wav",
+     "from": 403,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 1816,
+   "frames": 440,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/4c7cca7ba3a6ae33.wav",
+     "from": 0,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "size1",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u6309\u5927\u5c0f\u6570",
+   "from": 2256,
+   "frames": 373,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u4e00\u6b21\u53ea\u6570\u4e00\u79cd\u5927\u5c0f\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u4e00\u6b21\u53ea\u6570\u4e00\u79cd\u5927\u5c0f\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/593de29eb3be1aa5.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "\u8fb9\u957f\u4e3a1\u7684\u6700\u597d\u6570\uff0c\u5c31\u662f\u9898\u76ee\u7ed9\u7684\u90a324\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u8fb9\u957f\u4e3a1\u7684\u6700\u597d\u6570\uff0c\u5c31\u662f\u9898\u76ee\u7ed9\u7684\u90a324\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/c49c478525f19dae.wav",
+     "from": 146,
+     "frames": 173
+    }
+   ]
+  },
+  {
+   "id": "size2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 2629,
+   "frames": 1183,
+   "lines": [
+    {
+     "text": "\u8fb9\u957f\u4e3a2\u7684\u4e09\u89d2\u5f62\uff0c\u75314\u4e2a\u5c0f\u4e09\u89d2\u5f62\u7ec4\u6210\u3002",
+     "caption": "\u8fb9\u957f\u4e3a2\u7684\u4e09\u89d2\u5f62\uff0c\u75314\u4e2a\u5c0f\u4e09\u89d2\u5f62\u7ec4\u6210\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/be2a1f93ea98b622.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "\u67096\u4e2a\u56f4\u7740\u4e2d\u5fc3\uff0c\u5c31\u50cf\u5207\u597d\u7684\u62ab\u8428\u3002",
+     "caption": "\u67096\u4e2a\u56f4\u7740\u4e2d\u5fc3\uff0c\u5c31\u50cf\u5207\u597d\u7684\u62ab\u8428\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/718c51db56a90c72.wav",
+     "from": 162,
+     "frames": 124
+    },
+    {
+     "text": "\u6bcf\u4e00\u5757\u62ab\u8428\u90fd\u6709\u4e00\u4e2a\u89d2\uff0c\u6b63\u597d\u5728\u4e2d\u5fc3\u3002",
+     "caption": "\u6bcf\u4e00\u5757\u62ab\u8428\u90fd\u6709\u4e00\u4e2a\u89d2\uff0c\u6b63\u597d\u5728\u4e2d\u5fc3\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/c2022f198dcb1707.wav",
+     "from": 296,
+     "frames": 147
+    },
+    {
+     "text": "\u4f46\u8fd9\u91cc\u6709\u4e00\u4e2a\u5f88\u9690\u853d\u7684\u3002\u5b83\u6ca1\u6709\u4e00\u4e2a\u89d2\u5728\u4e2d\u5fc3\u3002",
+     "caption": "\u4f46\u8fd9\u91cc\u6709\u4e00\u4e2a\u5f88\u9690\u853d\u7684\u3002\u5b83\u6ca1\u6709\u4e00\u4e2a\u89d2\u5728\u4e2d\u5fc3\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/ff389a568e8bacdc.wav",
+     "from": 453,
+     "frames": 167
+    },
+    {
+     "text": "\u4e2d\u5fc3\u843d\u5728\u5b83\u4e00\u6761\u8fb9\u7684\u6b63\u4e2d\u95f4\u3002",
+     "caption": "\u4e2d\u5fc3\u843d\u5728\u5b83\u4e00\u6761\u8fb9\u7684\u6b63\u4e2d\u95f4\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/4de2697f1a0ec949.wav",
+     "from": 630,
+     "frames": 105
+    },
+    {
+     "text": "\u8fd9\u6837\u7684\u4e5f\u67096\u4e2a\uff0c\u6bcf\u4e2a\u90fd\u6307\u5411\u516d\u8fb9\u5f62\u4e00\u6761\u8fb9\u7684\u4e2d\u70b9\u3002",
+     "caption": "\u8fd9\u6837\u7684\u4e5f\u67096\u4e2a\uff0c\u6bcf\u4e2a\u90fd\u6307\u5411\u516d\u8fb9\u5f62\u4e00\u6761\u8fb9\u7684\u4e2d\u70b9\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/5274749a78c3bcd8.wav",
+     "from": 745,
+     "frames": 189
+    },
+    {
+     "text": "\u6240\u4ee5\u8fb9\u957f\u4e3a2\u7684\uff0c6\u52a06\uff0c\u4e00\u517112\u4e2a\u3002",
+     "caption": "\u6240\u4ee5\u8fb9\u957f\u4e3a2\u7684\uff0c6\u52a06\uff0c\u4e00\u517112\u4e2a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/2e4c657331af7090.wav",
+     "from": 944,
+     "frames": 171
+    }
+   ]
+  },
+  {
+   "id": "size3",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3812,
+   "frames": 1234,
+   "lines": [
+    {
+     "text": "\u90a3\u8fb9\u957f\u4e3a3\u7684\u5462\uff1f\u770b\u516d\u8fb9\u5f62\u6bcf\u6761\u8fb9\u7684\u4e2d\u70b9\u3002",
+     "caption": "\u90a3\u8fb9\u957f\u4e3a3\u7684\u5462\uff1f\u770b\u516d\u8fb9\u5f62\u6bcf\u6761\u8fb9\u7684\u4e2d\u70b9\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/1919785fd0f2230a.wav",
+     "from": 0,
+     "frames": 160
+    },
+    {
+     "text": "\u9694\u4e00\u4e2a\u8fde\u4e00\u4e2a\uff0c\u5c31\u5f97\u5230\u4e00\u4e2a\u5c16\u671d\u4e0a\u7684\u5927\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u9694\u4e00\u4e2a\u8fde\u4e00\u4e2a\uff0c\u5c31\u5f97\u5230\u4e00\u4e2a\u5c16\u671d\u4e0a\u7684\u5927\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/037c4245a5fd5ea4.wav",
+     "from": 170,
+     "frames": 178
+    },
+    {
+     "text": "\u628a\u53e6\u5916\u4e09\u4e2a\u4e2d\u70b9\u8fde\u8d77\u6765\uff0c\u5c31\u5f97\u5230\u4e00\u4e2a\u5c16\u671d\u4e0b\u7684\u3002\u4e00\u5171\u4e24\u4e2a\u3002",
+     "caption": "\u628a\u53e6\u5916\u4e09\u4e2a\u4e2d\u70b9\u8fde\u8d77\u6765\uff0c\u5c31\u5f97\u5230\u4e00\u4e2a\u5c16\u671d\u4e0b\u7684\u3002\u4e00\u51712\u4e2a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/3cd21d9cc0c0d39d.wav",
+     "from": 358,
+     "frames": 204
+    },
+    {
+     "text": "\u8fb9\u957f\u4e3a4\u7684\u653e\u4e0d\u4e0b\u3002\u5b83\u7684\u5e95\u8fb9\uff0c\u5f97\u843d\u5728\u7a7f\u8fc7\u4e2d\u5fc3\u7684\u4e00\u6761\u957f\u7ebf\u4e0a\u3002",
+     "caption": "\u8fb9\u957f\u4e3a4\u7684\u653e\u4e0d\u4e0b\u3002\u5b83\u7684\u5e95\u8fb9\uff0c\u5f97\u843d\u5728\u7a7f\u8fc7\u4e2d\u5fc3\u7684\u4e00\u6761\u957f\u7ebf\u4e0a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/319c1461e9ae97a8.wav",
+     "from": 573,
+     "frames": 224
+    },
+    {
+     "text": "\u53ef\u662f\u90a3\u6761\u7ebf\u7684\u4e0a\u65b9\u548c\u4e0b\u65b9\uff0c\u90fd\u53ea\u6709\u4e24\u884c\u3002",
+     "caption": "\u53ef\u662f\u90a3\u6761\u7ebf\u7684\u4e0a\u65b9\u548c\u4e0b\u65b9\uff0c\u90fd\u53ea\u6709\u4e24\u884c\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/892ad7f8a54e986c.wav",
+     "from": 807,
+     "frames": 154
+    },
+    {
+     "text": "24\u52a012\u52a02\uff0c\u7b49\u4e8e38\u3002\u7b54\u6848\u662fE\uff01",
+     "caption": "24\u52a012\u52a02\uff0c\u7b49\u4e8e38\u3002\u7b54\u6848\u662fE\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/f3468c55b57410f7.wav",
+     "from": 971,
+     "frames": 195
+    }
+   ]
+  },
+  {
+   "id": "flip",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u5148\u6570\u671d\u4e0a\u7684\uff0c\u518d\u4e582",
+   "from": 5046,
+   "frames": 1540,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u4e00\u4e2a\u5de7\u5999\u7684\u6377\u5f84\u3002\u53ea\u6570\u5c16\u671d\u4e0a\u7684\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u6765\u770b\u4e00\u4e2a\u5de7\u5999\u7684\u6377\u5f84\u3002\u53ea\u6570\u5c16\u671d\u4e0a\u7684\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/7cf91dbd47625f5a.wav",
+     "from": 0,
+     "frames": 162
+    },
+    {
+     "text": "\u5c0f\u4e09\u89d2\u5f62\u91cc\uff0c\u670912\u4e2a\u5c16\u671d\u4e0a\u3002",
+     "caption": "\u5c0f\u4e09\u89d2\u5f62\u91cc\uff0c\u670912\u4e2a\u5c16\u671d\u4e0a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/fd5a7cc9fa268742.wav",
+     "from": 173,
+     "frames": 131
+    },
+    {
+     "text": "\u8fb9\u957f\u4e3a2\u7684\uff0c\u67096\u4e2a\u5c16\u671d\u4e0a\uff1b\u5927\u4e09\u89d2\u5f62\u67091\u4e2a\u3002",
+     "caption": "\u8fb9\u957f\u4e3a2\u7684\uff0c\u67096\u4e2a\u5c16\u671d\u4e0a\uff1b\u5927\u4e09\u89d2\u5f62\u67091\u4e2a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/54a81a165d6c064b.wav",
+     "from": 314,
+     "frames": 207
+    },
+    {
+     "text": "12\u52a06\u52a01\uff0c\u7b49\u4e8e19\u3002",
+     "caption": "12\u52a06\u52a01\uff0c\u7b49\u4e8e19\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/a7c110a7d53764c5.wav",
+     "from": 531,
+     "frames": 166
+    },
+    {
+     "text": "\u73b0\u5728\u628a\u516d\u8fb9\u5f62\u5012\u8fc7\u6765\u3002\u5b83\u770b\u8d77\u6765\u4e00\u6a21\u4e00\u6837\uff0c\u53ef\u6bcf\u4e2a\u5c16\u671d\u4e0a\u7684\u4e09\u89d2\u5f62\uff0c\u73b0\u5728\u90fd\u5c16\u671d\u4e0b\u4e86\uff01",
+     "caption": "\u73b0\u5728\u628a\u516d\u8fb9\u5f62\u5012\u8fc7\u6765\u3002\u5b83\u770b\u8d77\u6765\u4e00\u6a21\u4e00\u6837\uff0c\u53ef\u6bcf\u4e2a\u5c16\u671d\u4e0a\u7684\u4e09\u89d2\u5f62\uff0c\u73b0\u5728\u90fd\u5c16\u671d\u4e0b\u4e86\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/d6a9fa9a7a540079.wav",
+     "from": 707,
+     "frames": 302
+    },
+    {
+     "text": "\u6240\u4ee5\u5c16\u671d\u4e0b\u7684\u4e5f\u670919\u4e2a\u30022\u4e5819\uff0c\u7b49\u4e8e38\u3002",
+     "caption": "\u6240\u4ee5\u5c16\u671d\u4e0b\u7684\u4e5f\u670919\u4e2a\u30022\u4e5819\uff0c\u7b49\u4e8e38\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/16546580e34ca0b3.wav",
+     "from": 1018,
+     "frames": 231
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u56fe\u5f62\u5012\u8fc7\u6765\u8fd8\u4e00\u6a21\u4e00\u6837\u7684\u65f6\u5019\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u56fe\u5f62\u5012\u8fc7\u6765\u8fd8\u4e00\u6a21\u4e00\u6837\u7684\u65f6\u5019\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/cc3ed466fef09df4.wav",
+     "from": 1259,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 6586,
+   "frames": 1066,
+   "lines": [
+    {
+     "text": "\u518d\u6765\u770b\u9677\u9631\u3002\u9009\u9879A\uff0c24\uff0c\u53ea\u6570\u4e86\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u518d\u6765\u770b\u9677\u9631\u3002\u9009\u9879A\uff0c24\uff0c\u53ea\u6570\u4e86\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/8b34084d7d7fee36.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "\u9009\u9879B\uff0c30\uff0c\u662f\u53ea\u627e\u5230\u8fb9\u957f\u4e3a2\u7684\u90a36\u5757\u62ab\u8428\u65f6\uff0c\u4f1a\u5f97\u5230\u7684\u6570\u3002",
+     "caption": "\u9009\u9879B\uff0c30\uff0c\u662f\u53ea\u627e\u5230\u8fb9\u957f\u4e3a2\u7684\u90a36\u5757\u62ab\u8428\u65f6\uff0c\u4f1a\u5f97\u5230\u7684\u6570\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/746246a4765c21eb.wav",
+     "from": 190,
+     "frames": 237
+    },
+    {
+     "text": "\u9009\u9879C\uff0c32\uff0c\u8fb9\u957f\u4e3a2\u7684\u4e09\u89d2\u5f62\uff0c\u53ea\u6570\u4e86\u4e00\u4e2a\u65b9\u5411\u3002",
+     "caption": "\u9009\u9879C\uff0c32\uff0c\u8fb9\u957f\u4e3a2\u7684\u4e09\u89d2\u5f62\uff0c\u53ea\u6570\u4e86\u4e00\u4e2a\u65b9\u5411\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/eb651964eb16c7cd.wav",
+     "from": 437,
+     "frames": 188
+    },
+    {
+     "text": "\u9009\u9879D\uff0c36\uff0c\u5fd8\u4e86\u6a2a\u8de8\u516d\u8fb9\u5f62\u7684\u90a32\u4e2a\u5927\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u9009\u9879D\uff0c36\uff0c\u5fd8\u4e86\u6a2a\u8de8\u516d\u8fb9\u5f62\u7684\u90a32\u4e2a\u5927\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/0deaa2b4cdd907cd.wav",
+     "from": 635,
+     "frames": 185
+    },
+    {
+     "text": "\u6bcf\u79cd\u5927\u5c0f\u90fd\u6570\uff0c\u4e24\u4e2a\u65b9\u5411\u90fd\u6570\uff0c\u5c31\u5f97\u523038\u3002",
+     "caption": "\u6bcf\u79cd\u5927\u5c0f\u90fd\u6570\uff0c\u4e24\u4e2a\u65b9\u5411\u90fd\u6570\uff0c\u5c31\u5f97\u523038\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/dfbf44e748519f44.wav",
+     "from": 830,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u5927\u4e09\u89d2\u5f62",
+   "from": 7652,
+   "frames": 395,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u4e2a\u5927\u4e09\u89d2\u5f62\u8fb9\u957f\u662f4\uff0c\u88ab\u5206\u621016\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u4e2a\u5927\u4e09\u89d2\u5f62\u8fb9\u957f\u662f4\uff0c\u88ab\u5206\u621016\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/193e5f74f6ff87aa.wav",
+     "from": 0,
+     "frames": 214
+    },
+    {
+     "text": "\u91cc\u9762\u4e00\u5171\u6709\u591a\u5c11\u4e2a\u4e09\u89d2\u5f62\uff1f\u5927\u5c0f\u4e0d\u9650\u3002",
+     "caption": "\u91cc\u9762\u4e00\u5171\u6709\u591a\u5c11\u4e2a\u4e09\u89d2\u5f62\uff1f\u5927\u5c0f\u4e0d\u9650\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/74e06c3e3db40b1d.wav",
+     "from": 224,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8047,
+   "frames": 452,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u5927\u4e09\u89d2\u5f62\uff1a\u7b54\u6848",
+   "from": 8499,
+   "frames": 1181,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u8fb9\u957f\u4e3a1\u7684\uff1a16\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u6211\u4eec\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u8fb9\u957f\u4e3a1\u7684\uff1a16\u4e2a\u5c0f\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/5dd371d8decdd879.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "\u8fb9\u957f\u4e3a2\u7684\uff1a6\u4e2a\u5c16\u671d\u4e0a\u3002\u522b\u6f0f\u4e86\u85cf\u5728\u4e2d\u95f4\u7684\u90a3\u4e00\u4e2a\uff0c\u5b83\u5c16\u671d\u4e0b\u3002\u4e00\u51717\u4e2a\u3002",
+     "caption": "\u8fb9\u957f\u4e3a2\u7684\uff1a6\u4e2a\u5c16\u671d\u4e0a\u3002\u522b\u6f0f\u4e86\u85cf\u5728\u4e2d\u95f4\u7684\u90a3\u4e00\u4e2a\uff0c\u5b83\u5c16\u671d\u4e0b\u3002\u4e00\u51717\u4e2a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/79c1d0a809be7294.wav",
+     "from": 181,
+     "frames": 278
+    },
+    {
+     "text": "\u8fb9\u957f\u4e3a3\u7684\uff1a\u67093\u4e2a\uff0c\u6bcf\u4e2a\u89d2\u4e0a\u4e00\u4e2a\u3002",
+     "caption": "\u8fb9\u957f\u4e3a3\u7684\uff1a\u67093\u4e2a\uff0c\u6bcf\u4e2a\u89d2\u4e0a\u4e00\u4e2a\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/6f563814fd401f88.wav",
+     "from": 468,
+     "frames": 143
+    },
+    {
+     "text": "\u8fb9\u957f\u4e3a4\u7684\uff1a\u5c31\u662f\u6574\u4e2a\u5927\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u8fb9\u957f\u4e3a4\u7684\uff1a\u5c31\u662f\u6574\u4e2a\u5927\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/092d81a1163be7a2.wav",
+     "from": 622,
+     "frames": 129
+    },
+    {
+     "text": "16\u52a07\u52a03\u52a01\uff0c\u7b49\u4e8e27\uff01",
+     "caption": "16\u52a07\u52a03\u52a01\uff0c\u7b49\u4e8e27\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/1e233aab3fd2d69b.wav",
+     "from": 760,
+     "frames": 194
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8627\uff0c\u4f60\u771f\u662f\u627e\u4e09\u89d2\u5f62\u7684\u9ad8\u624b\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8627\uff0c\u4f60\u771f\u662f\u627e\u4e09\u89d2\u5f62\u7684\u9ad8\u624b\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/118ff818b9259ad4.wav",
+     "from": 964,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 9680,
+   "frames": 691,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/83b6e0ebbeb944f9.wav",
+     "from": 0,
+     "frames": 70
+    },
+    {
+     "text": "\u4e00\u6b21\u6570\u4e00\u79cd\u5927\u5c0f\uff0c\u8fd8\u8981\u4e24\u4e2a\u65b9\u5411\u90fd\u68c0\u67e5\uff1a\u5c16\u671d\u4e0a\u548c\u5c16\u671d\u4e0b\u3002",
+     "caption": "\u4e00\u6b21\u6570\u4e00\u79cd\u5927\u5c0f\uff0c\u8fd8\u8981\u4e24\u4e2a\u65b9\u5411\u90fd\u68c0\u67e5\uff1a\u5c16\u671d\u4e0a\u548c\u5c16\u671d\u4e0b\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/0aafe529697104cd.wav",
+     "from": 80,
+     "frames": 224
+    },
+    {
+     "text": "\u5982\u679c\u56fe\u5f62\u5012\u8fc7\u6765\u8fd8\u4e00\u6837\uff0c\u5c31\u53ea\u6570\u4e00\u4e2a\u65b9\u5411\uff0c\u518d\u4e582\u3002",
+     "caption": "\u5982\u679c\u56fe\u5f62\u5012\u8fc7\u6765\u8fd8\u4e00\u6837\uff0c\u5c31\u53ea\u6570\u4e00\u4e2a\u65b9\u5411\uff0c\u518d\u4e582\u3002",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/1f5ebe04c4bc3817.wav",
+     "from": 314,
+     "frames": 168
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u5bfb\u627e\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u5bfb\u627e\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-hexagon-triangles-zh/audio/04606161dc013add.wav",
+     "from": 492,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

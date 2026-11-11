@@ -1,0 +1,514 @@
+{
+ "fps": 30,
+ "durationInFrames": 12445,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 431,
+   "lines": [
+    {
+     "text": "Pick as many numbers from one to one hundred as you can, but none may be double or triple another.",
+     "caption": "Pick as many numbers from one to one hundred as you can, but none may be double or triple another.",
+     "file": "2026-11-07-no-double-triple/audio/c0ed3b1727200252.wav",
+     "from": 0,
+     "frames": 224
+    },
+    {
+     "text": "Hi, I'm Vantee! Today we'll turn this puzzle into a chessboard.",
+     "caption": "Hi, I'm Vantee! Today we'll turn this puzzle into a chessboard.",
+     "file": "2026-11-07-no-double-triple/audio/00a6a2a814d9f54f.wav",
+     "from": 234,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 431,
+   "frames": 438,
+   "lines": [
+    {
+     "text": "We want the biggest possible subset of the numbers from one to one hundred.",
+     "caption": "We want the biggest possible subset of the numbers from one to one hundred.",
+     "file": "2026-11-07-no-double-triple/audio/7ed973731e01822c.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "It can never hold two numbers where one is exactly two times, or exactly three times, the other.",
+     "caption": "It can never hold two numbers where one is exactly two times, or exactly three times, the other.",
+     "file": "2026-11-07-no-double-triple/audio/c9af35fd21854c8e.wav",
+     "from": 183,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 869,
+   "frames": 674,
+   "lines": [
+    {
+     "text": "What's a clash? Five and ten clash: ten is double five. Five and fifteen clash too: triple!",
+     "caption": "What's a clash? Five and ten clash: ten is double five. Five and fifteen clash too: triple!",
+     "file": "2026-11-07-no-double-triple/audio/2614b78688340c66.wav",
+     "from": 0,
+     "frames": 261
+    },
+    {
+     "text": "But five and twenty are fine. Twenty is four times five, and four times is allowed.",
+     "caption": "But five and twenty are fine. Twenty is four times five, and four times is allowed.",
+     "file": "2026-11-07-no-double-triple/audio/a3c26d14b9cf9857.wav",
+     "from": 271,
+     "frames": 206
+    },
+    {
+     "text": "Our goal: keep as many numbers as we can, with no clashing pair.",
+     "caption": "Our goal: keep as many numbers as we can, with no clashing pair.",
+     "file": "2026-11-07-no-double-triple/audio/df270c72bbd60bec.wav",
+     "from": 487,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1543,
+   "frames": 469,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-no-double-triple/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "families",
+   "kind": "scene",
+   "chapter": "Solution 1: families on a grid",
+   "from": 2012,
+   "frames": 1199,
+   "lines": [
+    {
+     "text": "Welcome back! Our plan: sort the numbers into families that can never clash with each other.",
+     "caption": "Welcome back! Our plan: sort the numbers into families that can never clash with each other.",
+     "file": "2026-11-07-no-double-triple/audio/0376db237703cbe0.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "Take any number, and divide out every two and every three. What's left is its core.",
+     "caption": "Take any number, and divide out every two and every three. What's left is its core.",
+     "file": "2026-11-07-no-double-triple/audio/7c1b7e4a7c7c6315.wav",
+     "from": 204,
+     "frames": 194
+    },
+    {
+     "text": "Seventy-two is eight times nine, so its core is one. Forty is eight times five: core five.",
+     "caption": "Seventy-two is eight times nine, so its core is one. Forty is eight times five: core five.",
+     "file": "2026-11-07-no-double-triple/audio/3c483af499ed1c5a.wav",
+     "from": 407,
+     "frames": 230
+    },
+    {
+     "text": "Doubling adds one more factor of two, tripling one more three. So clashes stay inside one family.",
+     "caption": "Doubling adds one more factor of two, tripling one more three. So clashes stay inside one family.",
+     "file": "2026-11-07-no-double-triple/audio/4ca7072e5ca080c6.wav",
+     "from": 647,
+     "frames": 248
+    },
+    {
+     "text": "A core has no two or three inside it. Thirty-three cores make thirty-three families. Start with core one.",
+     "caption": "A core has no two or three inside it. Thirty-three cores make thirty-three families. Start with core one.",
+     "file": "2026-11-07-no-double-triple/audio/dbad89df0925787f.wav",
+     "from": 905,
+     "frames": 262
+    }
+   ]
+  },
+  {
+   "id": "grid1",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3211,
+   "frames": 653,
+   "lines": [
+    {
+     "text": "Put one in the corner. One step right doubles. One step up triples.",
+     "caption": "Put one in the corner. One step right doubles. One step up triples.",
+     "file": "2026-11-07-no-double-triple/audio/c5585a2c364ef91b.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "The bottom row doubles to sixty-four. Rows above start at three, nine, twenty-seven, eighty-one.",
+     "caption": "The bottom row doubles to sixty-four. Rows above start at three, nine, twenty-seven, eighty-one.",
+     "file": "2026-11-07-no-double-triple/audio/ac56dc3e70556da1.wav",
+     "from": 181,
+     "frames": 239
+    },
+    {
+     "text": "Here's the key. Two of these twenty numbers clash exactly when they're neighbors in the grid.",
+     "caption": "Here's the key. Two of these twenty numbers clash exactly when they're neighbors in the grid.",
+     "file": "2026-11-07-no-double-triple/audio/ce6f085e19714dbb.wav",
+     "from": 430,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "checker",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3864,
+   "frames": 871,
+   "lines": [
+    {
+     "text": "Now color the grid like a chessboard, green and purple.",
+     "caption": "Now color the grid like a chessboard, green and purple.",
+     "file": "2026-11-07-no-double-triple/audio/00c52620c8e2d193.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Neighbors always get different colors. So the green squares never clash with each other!",
+     "caption": "Neighbors always get different colors. So the green squares never clash with each other!",
+     "file": "2026-11-07-no-double-triple/audio/1e27f745d1ff989e.wav",
+     "from": 143,
+     "frames": 167
+    },
+    {
+     "text": "Count them. Four, plus three, plus two, plus one, plus one. That's eleven green squares.",
+     "caption": "Count them. Four, plus three, plus two, plus one, plus one. That's eleven green squares.",
+     "file": "2026-11-07-no-double-triple/audio/f3e481842b5492d4.wav",
+     "from": 320,
+     "frames": 297
+    },
+    {
+     "text": "Purple has only nine. So we keep the bigger color: eleven numbers from core one.",
+     "caption": "Purple has only nine. So we keep the bigger color: eleven numbers from core one.",
+     "file": "2026-11-07-no-double-triple/audio/ec6d625f56343aca.wav",
+     "from": 627,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "dominoes",
+   "kind": "scene",
+   "chapter": "Can we beat eleven?",
+   "from": 4735,
+   "frames": 829,
+   "lines": [
+    {
+     "text": "But wait. Could some clever mix of both colors beat eleven?",
+     "caption": "But wait. Could some clever mix of both colors beat eleven?",
+     "file": "2026-11-07-no-double-triple/audio/e24ef8509f9834ba.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "Let's cut the grid into dominoes. Each covers a clashing pair, so it keeps at most one number.",
+     "caption": "Let's cut the grid into dominoes. Each covers a clashing pair, so it keeps at most one number.",
+     "file": "2026-11-07-no-double-triple/audio/70286337d238e677.wav",
+     "from": 153,
+     "frames": 203
+    },
+    {
+     "text": "Here we fit nine dominoes, with two squares left over: sixty-four and eighty-one.",
+     "caption": "Here we fit nine dominoes, with two squares left over: sixty-four and eighty-one.",
+     "file": "2026-11-07-no-double-triple/audio/6b6c007ee9297b86.wav",
+     "from": 367,
+     "frames": 207
+    },
+    {
+     "text": "So core one keeps at most nine, plus two. That's eleven! We can't do better.",
+     "caption": "So core one keeps at most nine, plus two. That's eleven! We can't do better.",
+     "file": "2026-11-07-no-double-triple/audio/3817dc2d44221435.wav",
+     "from": 583,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "others",
+   "kind": "scene",
+   "chapter": "All thirty-three families",
+   "from": 5564,
+   "frames": 1576,
+   "lines": [
+    {
+     "text": "Now the other families. Core five has ten numbers, and five dominoes cover them. So it keeps five.",
+     "caption": "Now the other families. Core five has ten numbers, and five dominoes cover them. So it keeps five.",
+     "file": "2026-11-07-no-double-triple/audio/fd1e047c02898845.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "The same way, core seven keeps four, core eleven keeps four, and core thirteen keeps three.",
+     "caption": "The same way, core seven keeps four, core eleven keeps four, and core thirteen keeps three.",
+     "file": "2026-11-07-no-double-triple/audio/80ead9fe40624ce9.wav",
+     "from": 226,
+     "frames": 228
+    },
+    {
+     "text": "Cores seventeen, nineteen, twenty-three and twenty-five make corner shapes of four. Each keeps two.",
+     "caption": "Cores seventeen, nineteen, twenty-three and twenty-five make corner shapes of four. Each keeps two.",
+     "file": "2026-11-07-no-double-triple/audio/566337a23f79af01.wav",
+     "from": 465,
+     "frames": 264
+    },
+    {
+     "text": "Corner shapes of three come from the cores twenty-nine and thirty-one. Here purple wins, two to one!",
+     "caption": "Corner shapes of three come from the cores twenty-nine and thirty-one. Here purple wins, two to one!",
+     "file": "2026-11-07-no-double-triple/audio/5074dac784a9014e.wav",
+     "from": 739,
+     "frames": 248
+    },
+    {
+     "text": "Cores thirty-five to forty-nine are pairs. The double fits, the triple doesn't. Six pairs, one each.",
+     "caption": "Cores thirty-five to forty-nine are pairs. The double fits, the triple doesn't. Six pairs, one each.",
+     "file": "2026-11-07-no-double-triple/audio/d2f47b5b2d399248.wav",
+     "from": 997,
+     "frames": 256
+    },
+    {
+     "text": "Sixteen cores, from fifty-three up, stand alone: even their double is past one hundred. Keep them all!",
+     "caption": "Sixteen cores, from fifty-three up, stand alone: even their double is past one hundred. Keep them all!",
+     "file": "2026-11-07-no-double-triple/audio/c0dba320f861f66b.wav",
+     "from": 1263,
+     "frames": 280
+    }
+   ]
+  },
+  {
+   "id": "total",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7140,
+   "frames": 784,
+   "lines": [
+    {
+     "text": "Now add it up. Eleven, five, four, four and three make twenty-seven. Corners of four add eight, corners of three add four, then six, and sixteen.",
+     "caption": "Now add it up. Eleven, five, four, four and three make twenty-seven. Corners of four add eight, corners of three add four, then six, and sixteen.",
+     "file": "2026-11-07-no-double-triple/audio/124afebac7f40e69.wav",
+     "from": 0,
+     "frames": 440
+    },
+    {
+     "text": "Twenty-seven plus eight plus four plus six plus sixteen is <short pause> sixty-one! Choice C.",
+     "caption": "Twenty-seven plus eight plus four plus six plus sixteen is sixty-one! Choice C.",
+     "file": "2026-11-07-no-double-triple/audio/67aadb83e330db6d.wav",
+     "from": 449,
+     "frames": 281
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "Solution 2: count what you lose",
+   "from": 7924,
+   "frames": 1108,
+   "lines": [
+    {
+     "text": "Here's another way to see it. Count what you must throw away.",
+     "caption": "Here's another way to see it. Count what you must throw away.",
+     "file": "2026-11-07-no-double-triple/audio/0bc26c9243cc9b3f.wav",
+     "from": 0,
+     "frames": 136
+    },
+    {
+     "text": "Add up the dominoes we drew: nine, five, four, three, two, then eight, two and six. Thirty-nine!",
+     "caption": "Add up the dominoes we drew: nine, five, four, three, two, then eight, two and six. Thirty-nine!",
+     "file": "2026-11-07-no-double-triple/audio/8a71d946ffcc468c.wav",
+     "from": 146,
+     "frames": 344
+    },
+    {
+     "text": "Each domino is a clashing pair, so it costs you at least one number.",
+     "caption": "Each domino is a clashing pair, so it costs you at least one number.",
+     "file": "2026-11-07-no-double-triple/audio/79f6299e731d49e3.wav",
+     "from": 500,
+     "frames": 154
+    },
+    {
+     "text": "So you keep at most one hundred minus thirty-nine. That's sixty-one, and our coloring gets it!",
+     "caption": "So you keep at most one hundred minus thirty-nine. That's sixty-one, and our coloring gets it!",
+     "file": "2026-11-07-no-double-triple/audio/4206e841132a59e6.wav",
+     "from": 664,
+     "frames": 213
+    },
+    {
+     "text": "When would you pick this one? Whenever you're asked for the MOST. It proves no one can beat you.",
+     "caption": "When would you pick this one? Whenever you're asked for the MOST. It proves no one can beat you.",
+     "file": "2026-11-07-no-double-triple/audio/681cff221cfbdce9.wav",
+     "from": 887,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 9032,
+   "frames": 1074,
+   "lines": [
+    {
+     "text": "A, fifty, is what you'd get from taking fifty-one to one hundred. No clashes, but not the most.",
+     "caption": "A, fifty, is what you'd get from taking fifty-one to one hundred. No clashes, but not the most.",
+     "file": "2026-11-07-no-double-triple/audio/7807a4b42c60e58a.wav",
+     "from": 0,
+     "frames": 232
+    },
+    {
+     "text": "Choice E, sixty-seven, comes from taking thirty-four to one hundred. But thirty-four and sixty-eight clash!",
+     "caption": "Choice E, sixty-seven, comes from taking thirty-four to one hundred. But thirty-four and sixty-eight clash!",
+     "file": "2026-11-07-no-double-triple/audio/3419e94deec4e909.wav",
+     "from": 243,
+     "frames": 262
+    },
+    {
+     "text": "B, fifty-eight, is too small. We already built a set of sixty-one.",
+     "caption": "B, fifty-eight, is too small. We already built a set of sixty-one.",
+     "file": "2026-11-07-no-double-triple/audio/01ff0fd5ca841ed3.wav",
+     "from": 515,
+     "frames": 155
+    },
+    {
+     "text": "D, sixty-four, is too many. The dominoes say sixty-one is the most.",
+     "caption": "D, sixty-four, is too many. The dominoes say sixty-one is the most.",
+     "file": "2026-11-07-no-double-triple/audio/75b261f9b221dcd0.wav",
+     "from": 680,
+     "frames": 167
+    },
+    {
+     "text": "So here's a great habit. Show your set works, AND show nobody can beat it.",
+     "caption": "So here's a great habit. Show your set works, AND show nobody can beat it.",
+     "file": "2026-11-07-no-double-triple/audio/784cd91f00a1dcc4.wav",
+     "from": 857,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: one to thirty",
+   "from": 10106,
+   "frames": 304,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same rule, but now pick from the numbers one to thirty.",
+     "caption": "Ready for a challenge? Same rule, but now pick from the numbers one to thirty.",
+     "file": "2026-11-07-no-double-triple/audio/f2f2fbaf990f7d2f.wav",
+     "from": 0,
+     "frames": 188
+    },
+    {
+     "text": "What's the most you can pick?",
+     "caption": "What's the most you can pick?",
+     "file": "2026-11-07-no-double-triple/audio/838b4d095274d1a0.wav",
+     "from": 198,
+     "frames": 74
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10410,
+   "frames": 390,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-no-double-triple/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 66
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "One to thirty: the answer",
+   "from": 10800,
+   "frames": 1040,
+   "lines": [
+    {
+     "text": "With thirty numbers, core one has twelve. Six dominoes cover them, and either color keeps six.",
+     "caption": "With thirty numbers, core one has twelve. Six dominoes cover them, and either color keeps six.",
+     "file": "2026-11-07-no-double-triple/audio/e96f62df2d2bc72e.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "Core five keeps three. Core seven keeps two. Cores eleven and thirteen keep one each.",
+     "caption": "Core five keeps three. Core seven keeps two. Cores eleven and thirteen keep one each.",
+     "file": "2026-11-07-no-double-triple/audio/79c04966b02124bb.wav",
+     "from": 239,
+     "frames": 213
+    },
+    {
+     "text": "Then five loners: seventeen, nineteen, twenty-three, twenty-five and twenty-nine.",
+     "caption": "Then five loners: seventeen, nineteen, twenty-three, twenty-five and twenty-nine.",
+     "file": "2026-11-07-no-double-triple/audio/d6614dc2c67fd8cc.wav",
+     "from": 462,
+     "frames": 264
+    },
+    {
+     "text": "Six plus three plus two plus one plus one plus five. The answer is eighteen!",
+     "caption": "Six plus three plus two plus one plus one plus five. The answer is eighteen!",
+     "file": "2026-11-07-no-double-triple/audio/5ed72f8a6ccce2b2.wav",
+     "from": 736,
+     "frames": 256
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11840,
+   "frames": 605,
+   "lines": [
+    {
+     "text": "The big idea: split the numbers into families that can never clash.",
+     "caption": "The big idea: split the numbers into families that can never clash.",
+     "file": "2026-11-07-no-double-triple/audio/79614220a39baa4d.wav",
+     "from": 0,
+     "frames": 144
+    },
+    {
+     "text": "In each family, clashes are neighbors. Keep the bigger chessboard color. Then dominoes prove it is the most.",
+     "caption": "In each family, clashes are neighbors. Keep the bigger chessboard color. Then dominoes prove it is the most.",
+     "file": "2026-11-07-no-double-triple/audio/87cb1dd01918eebf.wav",
+     "from": 154,
+     "frames": 257
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-no-double-triple/audio/31a6054d0b03b932.wav",
+     "from": 422,
+     "frames": 114
+    }
+   ]
+  }
+ ]
+}

@@ -33,6 +33,7 @@ def list_videos():
             # *-zh videos are rendered without the domain, so they are their own China cut
             video_cn=next((f"/videos/{d.name}/{f}" for f in ["video-cn.mp4", *(["video.mp4"] if d.name.endswith("-zh") else [])] if (d / f).exists()), None),
             short_video_cn=next((f"/videos/{d.name}/{f}" for f in ["short-cn.mp4", *(["short.mp4"] if d.name.endswith("-zh") else [])] if (d / f).exists()), None),
+            covers=[f"/videos/{d.name}/{f}" for f in ("cover-3x4.jpg", "cover-4x3.jpg") if (d / f).exists()],  # WeChat Channels
             publish_tags=youtube.tags(v),
             publish_description=v.get("description", "") + youtube.footer(d.name, "video"),
             tiktok_caption=tiktok.caption(v) if v.get("short") else None,
@@ -92,6 +93,32 @@ def mark_quiz(slug, url):
     return True
 
 
+def mark_related(slug):
+    """Record that the short's Related video (the full lesson) was set by hand in YouTube Studio (the API can't)."""
+    if not valid_slug(slug):
+        return False
+    d = VIDEOS / slug
+    meta = json.loads((d / "meta.json").read_text())
+    if not meta.get("short", {}).get("youtube_id"):
+        return False
+    meta["short"]["related_set"] = True
+    youtube.save(d, meta)
+    return True
+
+
+def mark_wechat(slug, kind):
+    """Record a hand-made WeChat Channels post of the China cut (no public web link, so just kind + time)."""
+    if not valid_slug(slug) or kind not in ("video", "short"):
+        return False
+    d = VIDEOS / slug
+    meta = json.loads((d / "meta.json").read_text())
+    posts = meta.setdefault("cn", {}).setdefault("posts", [])
+    posts[:] = [p for p in posts if (p.get("platform"), p.get("kind")) != ("WeChat Channels", kind)] + [
+        {"platform": "WeChat Channels", "kind": kind, "published_at": youtube.now()}]  # ponytail: time of marking
+    youtube.save(d, meta)
+    return True
+
+
 def parse_range(header, size):
     """'bytes=a-b' -> (start, end) inclusive, or None if unsatisfiable."""
     m = re.fullmatch(r"bytes=(\d*)-(\d*)", header.strip())
@@ -135,12 +162,14 @@ class Handler(SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path in ("/api/youtube", "/api/tiktok"):
             return self.post_youtube()
-        if self.path not in ("/api/status", "/api/tiktok-posted", "/api/quiz-posted"):
+        if self.path not in ("/api/status", "/api/tiktok-posted", "/api/quiz-posted", "/api/wechat-posted", "/api/related-set"):
             return self.send_error(404)
         try:
             d = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
             mark = {"/api/tiktok-posted": mark_tiktok, "/api/quiz-posted": mark_quiz}.get(self.path)
-            ok = mark(d.get("slug"), d.get("url")) if mark else set_status(d.get("slug"), d.get("status"), d.get("fixes"))
+            ok = mark_related(d.get("slug")) if self.path == "/api/related-set" else \
+                mark_wechat(d.get("slug"), d.get("kind")) if self.path == "/api/wechat-posted" else \
+                mark(d.get("slug"), d.get("url")) if mark else set_status(d.get("slug"), d.get("status"), d.get("fixes"))
         except (ValueError, AttributeError):
             ok = False
         self.send_response(204 if ok else 400)
@@ -160,7 +189,10 @@ class Handler(SimpleHTTPRequestHandler):
             elif kind in ("video", "both"):
                 body["id"] = youtube.upload(slug, at)
             if self.path == "/api/youtube" and kind in ("short", "both"):  # after the video, so the short can link to it
-                body["short_id"] = youtube.upload_short(slug, publish_at=at)
+                sat = youtube.later(at) if kind == "both" else at  # with its video: the short goes public a day later
+                body["short_id"] = youtube.upload_short(slug, publish_at=sat)
+                if kind == "both":
+                    body["short_scheduled"] = sat
             if self.path == "/api/youtube" and kind == "republish":  # new short; the old one goes private
                 body["short_id"] = youtube.upload_short(slug, replace=True, publish_at=at)
                 gone = json.loads((VIDEOS / slug / "meta.json").read_text())["short"]["replaced"][-1]

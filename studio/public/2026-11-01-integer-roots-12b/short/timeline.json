@@ -1,20 +1,20 @@
 {
  "fps": 30,
- "durationInFrames": 1160,
+ "durationInFrames": 994,
  "scenes": [
   {
    "id": "hook",
    "kind": "scene",
    "chapter": null,
    "from": 0,
-   "frames": 102,
+   "frames": 64,
    "lines": [
     {
-     "text": "AMC ten challenge! Think it's eight? Nope!",
-     "caption": "AMC 10 challenge! Think it's 8? Nope!",
-     "file": "2026-11-01-integer-roots-12b/short/audio/51186c76442f9dba.wav",
+     "text": "Think it's eight? Nope!",
+     "caption": "Think it's 8? Nope!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/6e5d532b1231cfdd.wav",
      "from": 0,
-     "frames": 90
+     "frames": 52
     }
    ]
   },
@@ -22,8 +22,8 @@
    "id": "question",
    "kind": "scene",
    "chapter": null,
-   "from": 102,
-   "frames": 184,
+   "from": 64,
+   "frames": 183,
    "lines": [
     {
      "text": "For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?",
@@ -38,7 +38,7 @@
    "id": "think",
    "kind": "scene",
    "chapter": null,
-   "from": 286,
+   "from": 247,
    "frames": 72,
    "lines": [
     {
@@ -54,35 +54,35 @@
    "id": "trick",
    "kind": "scene",
    "chapter": null,
-   "from": 358,
-   "frames": 503,
+   "from": 319,
+   "frames": 376,
    "lines": [
     {
-     "text": "Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.",
-     "caption": "Call the roots r and s. Sum and product give rs + 12r + 12s = 0.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/11e7841b74a89c6f.wav",
+     "text": "Call the roots r and s. Sum and product give this.",
+     "caption": "Call the roots r and s. Sum and product give this.",
+     "file": "2026-11-01-integer-roots-12b/short/audio/029e224f85585979.wav",
      "from": 0,
-     "frames": 152
+     "frames": 100
     },
     {
      "text": "Add one hundred forty-four to both sides. That fills the grid!",
      "caption": "Add 144 to both sides. That fills the grid!",
      "file": "2026-11-01-integer-roots-12b/short/audio/39df29f8e99149d5.wav",
-     "from": 155,
+     "from": 104,
      "frames": 100
     },
     {
-     "text": "So r plus twelve, times s plus twelve, equals one hundred forty-four.",
-     "caption": "So (r+12)(s+12) = 144.",
-     "file": "2026-11-01-integer-roots-12b/short/audio/e7ef8ecbb8bdc9ad.wav",
-     "from": 259,
-     "frames": 134
+     "text": "Now the left side factors!",
+     "caption": "Now the left side factors!",
+     "file": "2026-11-01-integer-roots-12b/short/audio/ac91af7f8f586601.wav",
+     "from": 208,
+     "frames": 58
     },
     {
      "text": "Its factor pairs: eight positive, and eight negative!",
      "caption": "Its factor pairs: 8 positive, and 8 negative!",
      "file": "2026-11-01-integer-roots-12b/short/audio/a2fab45f6b83b720.wav",
-     "from": 397,
+     "from": 271,
      "frames": 94
     }
    ]
@@ -91,7 +91,7 @@
    "id": "reveal",
    "kind": "scene",
    "chapter": null,
-   "from": 861,
+   "from": 695,
    "frames": 299,
    "lines": [
     {
@@ -105,14 +105,14 @@
      "text": "Eight was the trap: it forgets the negatives.",
      "caption": "8 was the trap: it forgets the negatives.",
      "file": "2026-11-01-integer-roots-12b/short/audio/af0be8f54e73e7a6.wav",
-     "from": 107,
+     "from": 108,
      "frames": 81
     },
     {
      "text": "Did you get sixteen? Tell me below!",
      "caption": "Did you get 16? Tell me below!",
      "file": "2026-11-01-integer-roots-12b/short/audio/0909e43504db37a1.wav",
-     "from": 192,
+     "from": 193,
      "frames": 71
     }
    ]

@@ -1,0 +1,50 @@
+{
+ "title": "The Halving Game (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "With one two: twenty-five. With three: six. With five: two. That's thirty-three!": "With 1 two: 25. With 3: 6. With 5: 2. That's 33!",
+  "From one to a hundred, how many starting numbers let player two always win?": "From 1 to 100, how many starting numbers let player 2 always win?"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's fifty? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Take away one, or halve and round down. Whoever gets to zero wins.",
+    "From one to a hundred, how many starting numbers let player two always win?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "twos",
+   "lines": [
+    "Red means the player to move loses: two, six, eight, ten, fourteen.",
+    "But four, twelve and sixteen are even AND green! Count their twos.",
+    "Reds have an ODD number of twos. Eight has three, but four has only two."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "With one two: twenty-five. With three: six. With five: two. That's thirty-three!",
+    "Fifty was the trap.",
+    "Did you get thirty-three? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

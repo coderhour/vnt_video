@@ -1,6 +1,6 @@
 {
- "title": "Where Does the Midpoint Chase End? | AMC 8-Style Level 5",
- "description": "Two points on a number line, and every new point lands halfway between the last two. Where is the tenth point?\nFollow the chase with Vantee: watch the jumps halve and flip, then add them in pairs for a neat shortcut.\nThen try a new chase on your own!\n\n0:00 Intro\n0:15 The question\n0:44 What are we asked?\n1:06 Try it yourself\n1:22 Solution 1: follow the jumps\n2:42 Solution 2: pair up the jumps\n3:44 Common traps\n4:31 Your turn: a new chase\n5:01 New chase: the answer\n5:55 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Midpoint Sequences — Where Does the Chase End?",
+ "description": "AMC 8 practice problem on a sequence of midpoints on a number line, solved by following the jumps and by pairing them up. (Level 5 of 5)\nTwo points on a number line, and every new point lands halfway between the last two. Where is the tenth point?\nFollow the chase with Vantee: watch the jumps halve and flip, then add them in pairs for a neat shortcut.\nThen try a new chase on your own!\n\n0:00 Intro\n0:15 The question\n0:44 What are we asked?\n1:06 Try it yourself\n1:22 Solution 1: follow the jumps\n2:42 Solution 2: pair up the jumps\n3:44 Common traps\n4:31 Your turn: a new chase\n5:01 New chase: the answer\n5:55 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_arithmetic_template:c1-822",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "P1 = 0, P2 = 64, each new point is the midpoint of the last two. Where is P10? Comment your answer before you watch the solution!"
 }

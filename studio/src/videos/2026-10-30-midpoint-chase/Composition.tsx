@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-midpoint-chase';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -728,3 +729,22 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-midpoint-chase-thumb`, render.sh → poster.jpg): the number line with P1 = 0, P2 = 64 and the first two jumps, "P10 = ?", no answer.
+export const Thumb: React.FC = () => {
+  const m = mapper(0, 64, 60, 620);
+  const y = 300;
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>42.5?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <NLine m={m} x0={60} x1={620} y={y} lo={0} hi={64} step={16} labels={[]} op={1} />
+        <Jump a={m(32)} b={m(48)} y={y} p={1} hMax={150} />
+        <Dot x={m(0)} y={y} n={1} val="0" r={20} />
+        <Dot x={m(64)} y={y} n={2} val="64" r={20} />
+        <Dot x={m(32)} y={y} n={3} label={0} color={C.violet} r={18} />
+        <Dot x={m(48)} y={y} n={4} label={0} color={C.primary} r={18} />
+        <T x={340} y={540} tex="P_{10} = \;?" size={90} color={C.ink} w={600} />
+      </svg>
+    </ThumbFrame>
+  );
+};

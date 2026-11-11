@@ -1,6 +1,6 @@
 {
- "title": "How Many Triangles Have Perimeter 24? | AMC 8-Style Level 5",
- "description": "Three whole-number sides that add up to 24: how many different triangles can you make? Vantee lists them by longest side, double-checks with a clever gap trick, shows why each wrong answer is tempting, and gives you a new perimeter to try yourself.\n\n0:00 Intro\n0:14 The question\n0:32 What are we asked?\n0:52 Try it yourself\n1:07 Solution 1: list by longest side\n3:15 Solution 2: the gap trick\n4:33 Common traps\n5:11 Your turn: perimeter twenty\n5:38 Perimeter twenty: the answer\n6:38 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Counting Integer-Sided Triangles — Perimeter 24",
+ "description": "AMC 8 practice problem on counting triangles with whole-number sides and a given perimeter, solved by listing and with a gap trick. (Level 5 of 5)\nThree whole-number sides that add up to 24: how many different triangles can you make? Vantee lists them by longest side, double-checks with a clever gap trick, shows why each wrong answer is tempting, and gives you a new perimeter to try yourself.\n\n0:00 Intro\n0:14 The question\n0:32 What are we asked?\n0:52 Try it yourself\n1:07 Solution 1: list by longest side\n3:15 Solution 2: the gap trick\n4:33 Common traps\n5:11 Your turn: perimeter twenty\n5:38 Perimeter twenty: the answer\n6:38 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mock_test_template:c2-276",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "How many different triangles have whole-number sides and perimeter 24? Comment your answer before you watch the solution!"
 }

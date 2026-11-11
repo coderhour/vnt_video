@@ -1,0 +1,529 @@
+{
+ "fps": 30,
+ "durationInFrames": 13192,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 649,
+   "lines": [
+    {
+     "text": "\u827e\u62c9\u60f3\u8ba9\u996e\u6599\u66f4\u6d53\u4e00\u70b9\uff0c\u5c31\u5012\u8fdb\u4e86\u66f4\u591a\u7684\u679c\u6c41\uff0c\u8fd8\u5012\u8fdb\u4e86\u66f4\u591a\u7684\u6c34\u3002",
+     "caption": "\u827e\u62c9\u60f3\u8ba9\u996e\u6599\u66f4\u6d53\u4e00\u70b9\uff0c\u5c31\u5012\u8fdb\u4e86\u66f4\u591a\u7684\u679c\u6c41\uff0c\u8fd8\u5012\u8fdb\u4e86\u66f4\u591a\u7684\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/7b7ab0a29426c396.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "\u5f88\u591a\u540c\u5b66\u90fd\u53bb\u7b97\u679c\u6c41\u3002<short pause> \u53ef\u8fd9\u9053\u9898\u95ee\u7684\uff0c\u662f\u6c34\uff01",
+     "caption": "\u5f88\u591a\u540c\u5b66\u90fd\u53bb\u7b97\u679c\u6c41\u3002\u53ef\u8fd9\u9053\u9898\u95ee\u7684\uff0c\u662f\u6c34\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/43493d1657b2618b.wav",
+     "from": 226,
+     "frames": 165
+    },
+    {
+     "text": "\u5927\u5bb6\u597d\uff0c\u6211\u662fVantee\uff01\u4eca\u5929\u7684\u5999\u62db\u662f\uff1a\u628a\u679c\u6c41\u548c\u6c34\u5206\u5f00\u6765\u7b97\u3002",
+     "caption": "\u5927\u5bb6\u597d\uff0c\u6211\u662fVantee\uff01\u4eca\u5929\u7684\u5999\u62db\u662f\uff1a\u628a\u679c\u6c41\u548c\u6c34\u5206\u5f00\u6765\u7b97\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/79a9b99d698b8217.wav",
+     "from": 401,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 649,
+   "frames": 873,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "\u827e\u62c9\u670920\u5347\u996e\u6599\uff0c\u5176\u4e2d30%\u662f\u679c\u6c41\u3002",
+     "caption": "\u827e\u62c9\u670920\u5347\u996e\u6599\uff0c\u5176\u4e2d30%\u662f\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/3e09f8b81324c9e0.wav",
+     "from": 54,
+     "frames": 156
+    },
+    {
+     "text": "\u827e\u62c9\u5f80\u91cc\u9762\u52a0\u4e86\u4e00\u4e9b\u7eaf\u679c\u6c41\uff0c\u53c8\u52a0\u4e86\u4e00\u4e9b\u6c34\u3002",
+     "caption": "\u827e\u62c9\u5f80\u91cc\u9762\u52a0\u4e86\u4e00\u4e9b\u7eaf\u679c\u6c41\uff0c\u53c8\u52a0\u4e86\u4e00\u4e9b\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/9e55f407c2ac422b.wav",
+     "from": 220,
+     "frames": 152
+    },
+    {
+     "text": "\u73b0\u5728\uff0c\u996e\u6599\u4e00\u5171\u670925\u5347\uff0c\u5176\u4e2d40%\u662f\u679c\u6c41\u3002",
+     "caption": "\u73b0\u5728\uff0c\u996e\u6599\u4e00\u5171\u670925\u5347\uff0c\u5176\u4e2d40%\u662f\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/5164a236513097a2.wav",
+     "from": 382,
+     "frames": 214
+    },
+    {
+     "text": "\u827e\u62c9\u52a0\u4e86\u591a\u5c11\u5347\u6c34\uff1f",
+     "caption": "\u827e\u62c9\u52a0\u4e86\u591a\u5c11\u5347\u6c34\uff1f",
+     "file": "2026-10-30-juice-mix-zh/audio/be6589a2149d7f45.wav",
+     "from": 606,
+     "frames": 75
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 691,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1522,
+   "frames": 821,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e00\u5171\u6709\u4e24\u676f\u996e\u6599\uff1a\u5f00\u59cb\u7684\u90a3\u676f\uff0c\u548c\u6700\u540e\u7684\u90a3\u676f\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e00\u5171\u6709\u4e24\u676f\u996e\u6599\uff1a\u5f00\u59cb\u7684\u90a3\u676f\uff0c\u548c\u6700\u540e\u7684\u90a3\u676f\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/f8bbf5c9c2183f8f.wav",
+     "from": 0,
+     "frames": 203
+    },
+    {
+     "text": "\u6bcf\u676f\u996e\u6599\u90fd\u662f\u4e00\u90e8\u5206\u679c\u6c41\uff0c\u4e00\u90e8\u5206\u6c34\u300230%\u662f\u679c\u6c41\uff0c\u610f\u601d\u662f\u6bcf100\u4efd\u91cc\u670930\u4efd\u662f\u679c\u6c41\u3002",
+     "caption": "\u6bcf\u676f\u996e\u6599\u90fd\u662f\u4e00\u90e8\u5206\u679c\u6c41\uff0c\u4e00\u90e8\u5206\u6c34\u300230%\u662f\u679c\u6c41\uff0c\u610f\u601d\u662f\u6bcf100\u4efd\u91cc\u670930\u4efd\u662f\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/9f73b8ba0017963e.wav",
+     "from": 213,
+     "frames": 338
+    },
+    {
+     "text": "\u827e\u62c9\u52a0\u4e86\u4e24\u6837\u4e1c\u897f\uff1a\u679c\u6c41\u548c\u6c34\u3002\u6211\u4eec\u53ea\u8981\u6c42\u6c34\u3002",
+     "caption": "\u827e\u62c9\u52a0\u4e86\u4e24\u6837\u4e1c\u897f\uff1a\u679c\u6c41\u548c\u6c34\u3002\u6211\u4eec\u53ea\u8981\u6c42\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/ac342e21adc642a7.wav",
+     "from": 561,
+     "frames": 207
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2343,
+   "frames": 498,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u628a\u6bcf\u676f\u996e\u6599\u62c6\u5f00",
+   "from": 2841,
+   "frames": 845,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u65b9\u6cd5\u662f\uff1a\u628a\u6bcf\u676f\u996e\u6599\u62c6\u6210\u679c\u6c41\u548c\u6c34\u4e24\u90e8\u5206\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u65b9\u6cd5\u662f\uff1a\u628a\u6bcf\u676f\u996e\u6599\u62c6\u6210\u679c\u6c41\u548c\u6c34\u4e24\u90e8\u5206\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/2b7067898354cc00.wav",
+     "from": 0,
+     "frames": 214
+    },
+    {
+     "text": "\u5148\u770b20\u5347\u7684\u90a3\u676f\u300220\u768410%\u662f2\uff0c\u6240\u4ee530%\u5c31\u662f6\u3002",
+     "caption": "\u5148\u770b20\u5347\u7684\u90a3\u676f\u300220\u768410%\u662f2\uff0c\u6240\u4ee530%\u5c31\u662f6\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/73225c3eda26c249.wav",
+     "from": 224,
+     "frames": 232
+    },
+    {
+     "text": "\u6240\u4ee5\u7b2c\u4e00\u676f\u996e\u6599\u91cc\u67096\u5347\u679c\u6c41\u3002",
+     "caption": "\u6240\u4ee5\u7b2c\u4e00\u676f\u996e\u6599\u91cc\u67096\u5347\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/81a13fd4e5dce176.wav",
+     "from": 467,
+     "frames": 125
+    },
+    {
+     "text": "\u5269\u4e0b\u7684\u90fd\u662f\u6c34\u300220\u51cf6\uff0c\u7b49\u4e8e14\u5347\u6c34\u3002",
+     "caption": "\u5269\u4e0b\u7684\u90fd\u662f\u6c34\u300220\u51cf6\uff0c\u7b49\u4e8e14\u5347\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/ff2cad8b5bd33c3b.wav",
+     "from": 602,
+     "frames": 190
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3686,
+   "frames": 878,
+   "lines": [
+    {
+     "text": "\u518d\u770b\u6700\u540e\u90a3\u676f\uff1a\u4e00\u5171\u670925\u5347\uff0c\u5176\u4e2d40%\u662f\u679c\u6c41\u3002",
+     "caption": "\u518d\u770b\u6700\u540e\u90a3\u676f\uff1a\u4e00\u5171\u670925\u5347\uff0c\u5176\u4e2d40%\u662f\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/32f47d0c7e00a5bb.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "40%\u5c31\u662f5\u5206\u4e4b2\u300225\u76845\u5206\u4e4b1\u662f5\uff0c\u6240\u4ee55\u5206\u4e4b2\u5c31\u662f10\u3002",
+     "caption": "40%\u5c31\u662f5\u5206\u4e4b2\u300225\u76845\u5206\u4e4b1\u662f5\uff0c\u6240\u4ee55\u5206\u4e4b2\u5c31\u662f10\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/b81e8b74b0b87b2d.wav",
+     "from": 232,
+     "frames": 303
+    },
+    {
+     "text": "\u6240\u4ee5\u6700\u540e\u90a3\u676f\u996e\u6599\u91cc\u670910\u5347\u679c\u6c41\u3002",
+     "caption": "\u6240\u4ee5\u6700\u540e\u90a3\u676f\u996e\u6599\u91cc\u670910\u5347\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/b923770fa6fa39e0.wav",
+     "from": 545,
+     "frames": 134
+    },
+    {
+     "text": "25\u51cf10\uff0c\u7b49\u4e8e15\u5347\u6c34\u3002",
+     "caption": "25\u51cf10\uff0c\u7b49\u4e8e15\u5347\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/442082a21fd5fcb6.wav",
+     "from": 688,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "compare",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4564,
+   "frames": 1113,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u628a\u4e24\u676f\u996e\u6599\u5e76\u6392\u653e\u597d\uff1a\u679c\u6c41\u5bf9\u679c\u6c41\uff0c\u6c34\u5bf9\u6c34\u3002",
+     "caption": "\u73b0\u5728\u628a\u4e24\u676f\u996e\u6599\u5e76\u6392\u653e\u597d\uff1a\u679c\u6c41\u5bf9\u679c\u6c41\uff0c\u6c34\u5bf9\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/9933e2e7b1fdfc68.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "\u679c\u6c41\u4ece6\u5347\u53d8\u6210\u4e8610\u5347\u3002\u6240\u4ee5\u827e\u62c9\u52a0\u4e864\u5347\u679c\u6c41\u3002",
+     "caption": "\u679c\u6c41\u4ece6\u5347\u53d8\u6210\u4e8610\u5347\u3002\u6240\u4ee5\u827e\u62c9\u52a0\u4e864\u5347\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/eafa337723baa72f.wav",
+     "from": 196,
+     "frames": 209
+    },
+    {
+     "text": "\u6c34\u4ece14\u5347\u53d8\u6210\u4e8615\u5347\u3002\u6240\u4ee5\u827e\u62c9\u53ea\u52a0\u4e861\u5347\u6c34\uff01",
+     "caption": "\u6c34\u4ece14\u5347\u53d8\u6210\u4e8615\u5347\u3002\u6240\u4ee5\u827e\u62c9\u53ea\u52a0\u4e861\u5347\u6c34\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/46d019ab668a93eb.wav",
+     "from": 416,
+     "frames": 210
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1a4\u52a01\u7b49\u4e8e5\uff0c20\u52a05\u7b49\u4e8e25\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1a4\u52a01\u7b49\u4e8e5\uff0c20\u52a05\u7b49\u4e8e25\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/8dfccbca573708f7.wav",
+     "from": 636,
+     "frames": 251
+    },
+    {
+     "text": "\u6240\u4ee5\u7b54\u6848\u662f\u52a0\u4e861\u5347\u6c34\uff0c\u4e5f\u5c31\u662f\u9009\u9879B\uff01",
+     "caption": "\u6240\u4ee5\u7b54\u6848\u662f\u52a0\u4e861\u5347\u6c34\uff0c\u4e5f\u5c31\u662f\u9009\u9879B\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/c26426326ab3aabc.wav",
+     "from": 898,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u53ea\u76ef\u4f4f\u6c34",
+   "from": 5677,
+   "frames": 1644,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u5148\u4e0d\u7ba1\u679c\u6c41\uff0c\u53ea\u76ef\u4f4f\u6c34\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u5148\u4e0d\u7ba1\u679c\u6c41\uff0c\u53ea\u76ef\u4f4f\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/5f4f5962281c807f.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "\u679c\u6c41\u536030%\uff0c\u90a3\u4e48\u6c34\u5c31\u536070%\u3002",
+     "caption": "\u679c\u6c41\u536030%\uff0c\u90a3\u4e48\u6c34\u5c31\u536070%\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/8a864b8bc271667e.wav",
+     "from": 183,
+     "frames": 204
+    },
+    {
+     "text": "20\u768410%\u662f2\uff0c\u6240\u4ee570%\u5c31\u662f14\u5347\u6c34\u3002",
+     "caption": "20\u768410%\u662f2\uff0c\u6240\u4ee570%\u5c31\u662f14\u5347\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/f4ebfa1e3d60b161.wav",
+     "from": 398,
+     "frames": 214
+    },
+    {
+     "text": "\u6700\u540e\u90a3\u676f\u996e\u6599\u91cc\uff0c\u679c\u6c41\u536040%\uff0c\u6240\u4ee5\u6c34\u536060%\u3002",
+     "caption": "\u6700\u540e\u90a3\u676f\u996e\u6599\u91cc\uff0c\u679c\u6c41\u536040%\uff0c\u6240\u4ee5\u6c34\u536060%\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/e968d0fdef994d02.wav",
+     "from": 622,
+     "frames": 220
+    },
+    {
+     "text": "60%\u5c31\u662f5\u5206\u4e4b3\u300225\u76845\u5206\u4e4b1\u662f5\uff0c\u6240\u4ee55\u5206\u4e4b3\u5c31\u662f15\u5347\u6c34\u3002",
+     "caption": "60%\u5c31\u662f5\u5206\u4e4b3\u300225\u76845\u5206\u4e4b1\u662f5\uff0c\u6240\u4ee55\u5206\u4e4b3\u5c31\u662f15\u5347\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/c20f160a0821f960.wav",
+     "from": 852,
+     "frames": 300
+    },
+    {
+     "text": "\u6c34\u4ece14\u5347\u53d8\u6210\u4e8615\u5347\uff0c\u52a0\u4e861\u5347\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "\u6c34\u4ece14\u5347\u53d8\u6210\u4e8615\u5347\uff0c\u52a0\u4e861\u5347\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/fb608245a1548687.wav",
+     "from": 1162,
+     "frames": 201
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u9898\u76ee\u53ea\u95ee\u4e00\u6837\u4e1c\u897f\u7684\u65f6\u5019\uff0c\u5c31\u53ea\u76ef\u4f4f\u90a3\u4e00\u6837\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u9898\u76ee\u53ea\u95ee\u4e00\u6837\u4e1c\u897f\u7684\u65f6\u5019\uff0c\u5c31\u53ea\u76ef\u4f4f\u90a3\u4e00\u6837\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/7fa896e01797af6a.wav",
+     "from": 1373,
+     "frames": 202
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7321,
+   "frames": 1938,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u6211\u4eec\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/c811b570781a6da5.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "\u9009\u9879D\u662f4\uff0c\u8fd9\u662f\u52a0\u8fdb\u53bb\u7684\u679c\u6c41\uff0c\u4e0d\u662f\u6c34\u3002\u770b\u6e05\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff01",
+     "caption": "\u9009\u9879D\u662f4\uff0c\u8fd9\u662f\u52a0\u8fdb\u53bb\u7684\u679c\u6c41\uff0c\u4e0d\u662f\u6c34\u3002\u770b\u6e05\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/161e0011aa11bff9.wav",
+     "from": 141,
+     "frames": 224
+    },
+    {
+     "text": "\u518d\u770bE\u9009\u9879\uff0c\u5b83\u662f5\u3002\u8fd9\u662f\u52a0\u8fdb\u53bb\u7684\u5168\u90e8\uff0c\u679c\u6c41\u548c\u6c34\u52a0\u5728\u4e00\u8d77\u3002",
+     "caption": "\u518d\u770bE\u9009\u9879\uff0c\u5b83\u662f5\u3002\u8fd9\u662f\u52a0\u8fdb\u53bb\u7684\u5168\u90e8\uff0c\u679c\u6c41\u548c\u6c34\u52a0\u5728\u4e00\u8d77\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/73c180bcdfef2fad.wav",
+     "from": 375,
+     "frames": 215
+    },
+    {
+     "text": "\u9009\u9879A\u662f0\uff0c\u5982\u679c\u4f60\u4ee5\u4e3a\u827e\u62c9\u53ea\u52a0\u4e86\u679c\u6c41\uff0c\u5c31\u4f1a\u9009\u5b83\u3002",
+     "caption": "\u9009\u9879A\u662f0\uff0c\u5982\u679c\u4f60\u4ee5\u4e3a\u827e\u62c9\u53ea\u52a0\u4e86\u679c\u6c41\uff0c\u5c31\u4f1a\u9009\u5b83\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/4efbeabeaa7fb7b2.wav",
+     "from": 600,
+     "frames": 176
+    },
+    {
+     "text": "\u53ef\u662f\u52a05\u5347\u679c\u6c41\uff0c\u679c\u6c41\u5c31\u53d8\u6210\u4e8611\u5347\uff0c\u4e0d\u662f10\u5347\u3002\u592a\u6d53\u4e86\uff01",
+     "caption": "\u53ef\u662f\u52a05\u5347\u679c\u6c41\uff0c\u679c\u6c41\u5c31\u53d8\u6210\u4e8611\u5347\uff0c\u4e0d\u662f10\u5347\u3002\u592a\u6d53\u4e86\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/c81c04862a7d7adb.wav",
+     "from": 786,
+     "frames": 243
+    },
+    {
+     "text": "\u9009\u9879C\u662f2\uff0c\u8fd9\u662f20\u5347\u768410%\uff0c\u4e5f\u5c31\u662f\u4ece30%\u6da8\u523040%\u591a\u51fa\u6765\u7684\u90a3\u4e00\u622a\u3002",
+     "caption": "\u9009\u9879C\u662f2\uff0c\u8fd9\u662f20\u5347\u768410%\uff0c\u4e5f\u5c31\u662f\u4ece30%\u6da8\u523040%\u591a\u51fa\u6765\u7684\u90a3\u4e00\u622a\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/b12f3135945937a7.wav",
+     "from": 1039,
+     "frames": 327
+    },
+    {
+     "text": "\u53ef\u662f\u5982\u679c\u52a02\u5347\u6c34\uff0c\u5c31\u53ea\u52a0\u4e863\u5347\u679c\u6c41\u3002\u679c\u6c41\u53ea\u67099\u5347\uff0c\u4e0d\u662f10\u5347\u3002",
+     "caption": "\u53ef\u662f\u5982\u679c\u52a02\u5347\u6c34\uff0c\u5c31\u53ea\u52a0\u4e863\u5347\u679c\u6c41\u3002\u679c\u6c41\u53ea\u67099\u5347\uff0c\u4e0d\u662f10\u5347\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/997a3a9bf21b6d38.wav",
+     "from": 1376,
+     "frames": 262
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6bcf\u4e00\u90e8\u5206\u5206\u5f00\u7b97\uff0c\u518d\u770b\u6e05\u9898\u76ee\u5230\u5e95\u95ee\u4ec0\u4e48\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6bcf\u4e00\u90e8\u5206\u5206\u5f00\u7b97\uff0c\u518d\u770b\u6e05\u9898\u76ee\u5230\u5e95\u95ee\u4ec0\u4e48\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/12150cad576256c9.wav",
+     "from": 1648,
+     "frames": 231
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u66f4\u96be\u7684\u4e00\u676f",
+   "from": 9259,
+   "frames": 817,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u91cc\u6709\u4e00\u676f\u65b0\u7684\u996e\u6599\uff0c\u9898\u76ee\u66f4\u96be\u4e00\u70b9\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u91cc\u6709\u4e00\u676f\u65b0\u7684\u996e\u6599\uff0c\u9898\u76ee\u66f4\u96be\u4e00\u70b9\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/315d1e976739d719.wav",
+     "from": 0,
+     "frames": 177
+    },
+    {
+     "text": "\u5c0f\u660e\u6709\u5341\u4e94\u5347\u996e\u6599\uff0c\u5176\u4e2d60%\u662f\u679c\u6c41\u3002",
+     "caption": "\u5c0f\u660e\u670915\u5347\u996e\u6599\uff0c\u5176\u4e2d60%\u662f\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/764193b869245da6.wav",
+     "from": 187,
+     "frames": 177
+    },
+    {
+     "text": "\u5c0f\u660e\u52a0\u4e86\u7eaf\u679c\u6c41\u548c\u6c34\uff0c\u5f97\u523024\u5347\u996e\u6599\uff0c\u5176\u4e2d50%\u662f\u679c\u6c41\u3002",
+     "caption": "\u5c0f\u660e\u52a0\u4e86\u7eaf\u679c\u6c41\u548c\u6c34\uff0c\u5f97\u523024\u5347\u996e\u6599\uff0c\u5176\u4e2d50%\u662f\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/c9d9e47690032a76.wav",
+     "from": 374,
+     "frames": 245
+    },
+    {
+     "text": "\u5c0f\u660e\u52a0\u4e86\u591a\u5c11\u5347\u679c\u6c41\uff0c\u53c8\u52a0\u4e86\u591a\u5c11\u5347\u6c34\uff1f",
+     "caption": "\u5c0f\u660e\u52a0\u4e86\u591a\u5c11\u5347\u679c\u6c41\uff0c\u53c8\u52a0\u4e86\u591a\u5c11\u5347\u6c34\uff1f",
+     "file": "2026-10-30-juice-mix-zh/audio/7c850324bf5271bf.wav",
+     "from": 629,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10076,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/32cbee10a890d39b.wav",
+     "from": 0,
+     "frames": 84
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u66f4\u96be\u7684\u4e00\u676f\uff1a\u7b54\u6848",
+   "from": 10544,
+   "frames": 1994,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u770b\u300260%\u5c31\u662f5\u5206\u4e4b3\u300215\u76845\u5206\u4e4b1\u662f3\uff0c\u6240\u4ee55\u5206\u4e4b3\u5c31\u662f9\u3002",
+     "caption": "\u6211\u4eec\u6765\u770b\u300260%\u5c31\u662f5\u5206\u4e4b3\u300215\u76845\u5206\u4e4b1\u662f3\uff0c\u6240\u4ee55\u5206\u4e4b3\u5c31\u662f9\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/9b8a2cec27d592cc.wav",
+     "from": 0,
+     "frames": 292
+    },
+    {
+     "text": "\u6240\u4ee5\u5c0f\u660e\u4e00\u5f00\u59cb\u67099\u5347\u679c\u6c41\uff0c15\u51cf9\uff0c\u8fd8\u67096\u5347\u6c34\u3002",
+     "caption": "\u6240\u4ee5\u5c0f\u660e\u4e00\u5f00\u59cb\u67099\u5347\u679c\u6c41\uff0c15\u51cf9\uff0c\u8fd8\u67096\u5347\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/6c8e7a5ffbfb7b6b.wav",
+     "from": 302,
+     "frames": 243
+    },
+    {
+     "text": "\u6700\u540e\u90a3\u676f\u4e00\u534a\u662f\u679c\u6c41\u300224\u7684\u4e00\u534a\u662f12\u3002\u6240\u4ee5\u679c\u6c4112\u5347\uff0c\u6c34\u4e5f\u662f12\u5347\u3002",
+     "caption": "\u6700\u540e\u90a3\u676f\u4e00\u534a\u662f\u679c\u6c41\u300224\u7684\u4e00\u534a\u662f12\u3002\u6240\u4ee5\u679c\u6c4112\u5347\uff0c\u6c34\u4e5f\u662f12\u5347\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/bcd21c507392b5ed.wav",
+     "from": 555,
+     "frames": 300
+    },
+    {
+     "text": "\u679c\u6c41\u4ece9\u5347\u53d8\u6210\u4e8612\u5347\u3002\u4ed6\u52a0\u4e863\u5347\u679c\u6c41\u3002",
+     "caption": "\u679c\u6c41\u4ece9\u5347\u53d8\u6210\u4e8612\u5347\u3002\u4ed6\u52a0\u4e863\u5347\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/2a359504bea50c11.wav",
+     "from": 866,
+     "frames": 203
+    },
+    {
+     "text": "\u6c34\u4ece6\u5347\u53d8\u6210\u4e8612\u5347\u3002\u4ed6\u52a0\u4e866\u5347\u6c34\u3002",
+     "caption": "\u6c34\u4ece6\u5347\u53d8\u6210\u4e8612\u5347\u3002\u4ed6\u52a0\u4e866\u5347\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/bb3aa684d398f28b.wav",
+     "from": 1079,
+     "frames": 184
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1a3\u52a06\u7b49\u4e8e9\uff0c15\u52a09\u7b49\u4e8e24\u3002\u6ca1\u95ee\u9898\uff01",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1a3\u52a06\u7b49\u4e8e9\uff0c15\u52a09\u7b49\u4e8e24\u3002\u6ca1\u95ee\u9898\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/59ad9c1515dcc166.wav",
+     "from": 1273,
+     "frames": 245
+    },
+    {
+     "text": "\u6700\u5de7\u5999\u7684\u5730\u65b9\u5728\u8fd9\u91cc\uff1a\u996e\u6599\u53d8\u6de1\u4e86\uff0c\u5c0f\u660e\u5374\u8fd8\u662f\u52a0\u4e86\u679c\u6c41\u3002",
+     "caption": "\u6700\u5de7\u5999\u7684\u5730\u65b9\u5728\u8fd9\u91cc\uff1a\u996e\u6599\u53d8\u6de1\u4e86\uff0c\u5c0f\u660e\u5374\u8fd8\u662f\u52a0\u4e86\u679c\u6c41\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/70cfd6894c9b7409.wav",
+     "from": 1528,
+     "frames": 194
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e863\u5347\u679c\u6c41\u548c6\u5347\u6c34\uff0c\u771f\u4e86\u4e0d\u8d77\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e863\u5347\u679c\u6c41\u548c6\u5347\u6c34\uff0c\u771f\u4e86\u4e0d\u8d77\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/389d97b715de9269.wav",
+     "from": 1732,
+     "frames": 194
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12538,
+   "frames": 654,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u4eca\u5929\u7684\u6838\u5fc3\u65b9\u6cd5\u3002",
+     "caption": "\u8bb0\u4f4f\u4eca\u5929\u7684\u6838\u5fc3\u65b9\u6cd5\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/01db6fe460492406.wav",
+     "from": 0,
+     "frames": 87
+    },
+    {
+     "text": "\u6df7\u5408\u996e\u6599\u7684\u65f6\u5019\uff0c\u628a\u6bcf\u676f\u996e\u6599\u90fd\u62c6\u6210\u679c\u6c41\u548c\u6c34\u3002",
+     "caption": "\u6df7\u5408\u996e\u6599\u7684\u65f6\u5019\uff0c\u628a\u6bcf\u676f\u996e\u6599\u90fd\u62c6\u6210\u679c\u6c41\u548c\u6c34\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/9a96c23a969c127f.wav",
+     "from": 97,
+     "frames": 186
+    },
+    {
+     "text": "\u5148\u7b97\u51fa\u6700\u540e\u90a3\u676f\u9700\u8981\u591a\u5c11\uff0c\u518d\u51cf\u53bb\u539f\u6765\u5df2\u7ecf\u6709\u7684\u3002",
+     "caption": "\u5148\u7b97\u51fa\u6700\u540e\u90a3\u676f\u9700\u8981\u591a\u5c11\uff0c\u518d\u51cf\u53bb\u539f\u6765\u5df2\u7ecf\u6709\u7684\u3002",
+     "file": "2026-10-30-juice-mix-zh/audio/e4e16fabe94ae1e6.wav",
+     "from": 294,
+     "frames": 156
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-juice-mix-zh/audio/f8351124be57142c.wav",
+     "from": 460,
+     "frames": 111
+    }
+   ]
+  }
+ ]
+}

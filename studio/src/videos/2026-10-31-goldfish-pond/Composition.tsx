@@ -1,5 +1,5 @@
 import { Audio, Sequence, staticFile, useCurrentFrame } from 'remotion';
-import { clamp, ease, fadeTo, fadeUp, pop } from '../../lib/anim';
+import { clamp, ease, fadeTo, fadeUp, pop, range } from '../../lib/anim';
 import { Explainer, at, type SceneComponent, type Timeline } from '../../lib/Explainer';
 import { Countdown } from '../../lib/PauseCard';
 import { Stage } from '../../lib/grid';
@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-goldfish-pond';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -486,3 +487,19 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-31-goldfish-pond-thumb`, render.sh → poster.jpg): a pond of fish, 90% gold (a 10 × 5 picture of the 200 fish), no answer.
+export const Thumb: React.FC = () => {
+  const cell = 60, x = 40, y = 120;
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>10?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <rect x={x - 20} y={y - 20} width={10 * cell + 40} height={5 * cell + 40} rx={36} fill="rgba(76, 201, 240, 0.14)" stroke="rgba(76, 201, 240, 0.5)" strokeWidth={6} />
+        {range(5).flatMap((r) =>
+          range(10).map((c) => <Fish key={`${r}-${c}`} cx={x + c * cell + cell / 2} cy={y + r * cell + cell / 2} color={c === 9 ? GREY : GOLD} s={1.55} op={1} />),
+        )}
+        <text x={340} y={520} textAnchor="middle" fontSize={76} fontWeight={900} fill={GD} fontFamily="Nunito, sans-serif">90% goldfish</text>
+      </svg>
+    </ThumbFrame>
+  );
+};

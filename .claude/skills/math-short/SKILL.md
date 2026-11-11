@@ -18,7 +18,7 @@ voice check, captions = speech, no early answer leaks, Vantee pronunciation, SFX
 
 | scene | time | what |
 |---|---|---|
-| `hook` | ~3 s | One line: **"AMC eight challenge! Think it's <trap>? Nope!"** (AMC ten for AMC 10). `<trap>` = the most tempting WRONG choice, from the long video's trap/`choice_notes` (never the answer). On screen from frame 0, no fade-in: a violet chip **"AMC 8 · Challenge #N"** (`N` = `short.challenge` in meta.json) at y≈280, title "Think it's <trap>?" (96 px) at y≈385, the main figure under it in a `PushIn`. On "Nope!" a big red rotated **NOPE** stamp pops over the figure with `SFX.buzz` (0.35). Never invent a statistic ("most kids…"). |
+| `hook` | ~3 s | One line: **"AMC eight challenge! Think it's <trap>? Nope!"** (AMC ten for AMC 10). The series opener; for variety (no two neighbours in `challenge` order alike) it may instead be "AMC eight challenge! Is it <trap>? Nope!" or "AMC eight challenge! <trap>? That's the trap!", with the same stamp on the last word. The on-screen title mirrors the spoken words ("Is it <trap>?", "<trap>?"), since captions = speech. `<trap>` = the most tempting WRONG choice, from the long video's trap/`choice_notes` (never the answer). On screen from frame 0, no fade-in: a violet chip **"AMC 8 · Challenge #N"** (`N` = `short.challenge` in meta.json) at y≈280, title "Think it's <trap>?" (or the variant's words, 96 px) at y≈385, the main figure under it in a `PushIn`. On "Nope!" a big red rotated **NOPE** stamp pops over the figure with `SFX.buzz` (0.35). Never invent a statistic ("most kids…"). |
 | `question` | ~8 s | The question card (54 px, kid words), the figure, the choices as big chips (letter 44 px, `Tex` 68 px), wrapped to 2 rows inside x 60…920. `SFX.whoosh` at 0. Captions stay on here too: muted viewers need every spoken line, and the card is shorter than the speech. |
 | `think` | ~2.5 s | One line: "Comment your letter, then watch!" Same question body with the choices pulsing (`choicePulse`) plus `<CommentBubble />` (it brings the whoosh and ticks). No `kind: "pause"`, no `hold`, no `Countdown`. |
 | `aha` (named per video) | 12–15 s | The ONE key idea, the long video's best animation re-laid out big. This is the longest scene, so break it up: zoom (scale ~1.4, `transformOrigin` on the spot) onto the decisive moment and back out, a counter/readout chip that changes as things happen, `SFX.click` on sweeps/steps (every 2nd–3rd item, 0.22–0.3) and `SFX.whoosh` on zoom moves. Something changes every 2–3 s. |
@@ -67,7 +67,8 @@ short breaks every other builder's stills and renders. Keep it safe:
 3. **Voice:** `python3 .claude/skills/math-explainer/scripts/tts.py <slug>/short --check`. Ignore its YouTube chapter
    warnings. Re-run until `voice check: all lines match`. Read every `heard:` line too: a filler ("uh", "um") or a
    homophone the check let through ("whole sides" → "hole sizes") means delete that line's WAV (path in
-   `timeline.json`) and re-run, or reword. Then check the total: `durationInFrames / 30` must be 30–40 s.
+   `timeline.json`) and re-run, or reword. Then check the total: `durationInFrames / 30` must be 30–40 s. (Shorter, 20–28 s variants are a planned test,
+   since third-party length studies conflict; don't change this spec until the channel's own swipe-away data agrees.)
 4. **Build** `studio/src/videos/<slug>/short/Short.tsx` (export `SLUG` and `Short`), scenes `hook`, `question`,
    `think`, `<aha>`, `reveal`. Reuse the long video's drawing helpers (add `export` in its `Composition.tsx`).
    - **Safe zone:** platform UI covers the top ~200 px, the bottom ~340 px and the right ~160 px below y≈900.
@@ -85,7 +86,12 @@ short breaks every other builder's stills and renders. Keep it safe:
              "description": "<1–2 lines>\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
              "challenge": N, "tags": ["AMC 8", "Math Challenge", "MathTok", "Math Puzzle"], "posts": []}
    ```
+   The **title** (≤ 60 chars before ` #Shorts`) puts the trap hook first, then the topic in search words
+   ("Think it's 81? Triangle around a radius-4 circle #Shorts"), never the answer.
    `challenge` = the short's number in its own series: AMC 8 and AMC 10 are separate series; a zh short reuses the number of its English twin (`<slug>-zh` ↔ `<slug>`),
    numbered in planned posting order, so a new short gets its level's highest number + 1. `tags` are the TikTok hashtags.
    Keep the `{full_video_url}` token: publishing fills it with the full video's YouTube link. The API can't set a
-   Short's **Related video**, so set it in YouTube Studio after publishing.
+   Short's **Related video** (the only tappable link from a short to its full lesson), so after publishing set it in
+   YouTube Studio and click "Mark Related video set" on the site (saves `short.related_set`).
+   "Publish video + short" schedules the short 24 h after the video, so the lesson is live when the short points at it.
+   Use "Republish short" rarely: YouTube treats delete-and-repost of Shorts as possible spam, and views start at zero.

@@ -1,0 +1,133 @@
+# No Doubles, No Triples: How Many of 1 to 100? | AMC 10-Style Level 5
+
+## Intro
+
+Pick as many numbers from one to one hundred as you can, but none may be double or triple another.
+
+Hi, I'm Vantee! Today we'll turn this puzzle into a chessboard.
+
+## The question
+
+We want the biggest possible subset of the numbers from one to one hundred.
+
+It can never hold two numbers where one is exactly two times, or exactly three times, the other.
+
+## What are we asked?
+
+What's a clash? Five and ten clash: ten is double five. Five and fifteen clash too: triple!
+
+But five and twenty are fine. Twenty is four times five, and four times is allowed.
+
+Our goal: keep as many numbers as we can, with no clashing pair.
+
+## Try it yourself
+
+Now it's your turn. Pause the video and give it a go. I'll wait!
+
+*(Pause and try it: 10 s countdown)*
+
+## Solution 1: families on a grid
+
+Welcome back! Our plan: sort the numbers into families that can never clash with each other.
+
+Take any number, and divide out every two and every three. What's left is its core.
+
+Seventy-two is eight times nine, so its core is one. Forty is eight times five: core five.
+
+Doubling adds one more factor of two, tripling one more three. So clashes stay inside one family.
+
+A core has no two or three inside it. Thirty-three cores make thirty-three families. Start with core one.
+
+Put one in the corner. One step right doubles. One step up triples.
+
+The bottom row doubles to sixty-four. Rows above start at three, nine, twenty-seven, eighty-one.
+
+Here's the key. Two of these twenty numbers clash exactly when they're neighbors in the grid.
+
+Now color the grid like a chessboard, green and purple.
+
+Neighbors always get different colors. So the green squares never clash with each other!
+
+Count them. Four, plus three, plus two, plus one, plus one. That's eleven green squares.
+
+Purple has only nine. So we keep the bigger color: eleven numbers from core one.
+
+## Can we beat eleven?
+
+But wait. Could some clever mix of both colors beat eleven?
+
+Let's cut the grid into dominoes. Each covers a clashing pair, so it keeps at most one number.
+
+Here we fit nine dominoes, with two squares left over: sixty-four and eighty-one.
+
+So core one keeps at most nine, plus two. That's eleven! We can't do better.
+
+## All thirty-three families
+
+Now the other families. Core five has ten numbers, and five dominoes cover them. So it keeps five.
+
+The same way, core seven keeps four, core eleven keeps four, and core thirteen keeps three.
+
+Cores seventeen, nineteen, twenty-three and twenty-five make corner shapes of four. Each keeps two.
+
+Corner shapes of three come from the cores twenty-nine and thirty-one. Here purple wins, two to one!
+
+Cores thirty-five to forty-nine are pairs. The double fits, the triple doesn't. Six pairs, one each.
+
+Sixteen cores, from fifty-three up, stand alone: even their double is past one hundred. Keep them all!
+
+Now add it up. Eleven, five, four, four and three make twenty-seven. Corners of four add eight, corners of three add four, then six, and sixteen.
+
+Twenty-seven plus eight plus four plus six plus sixteen is sixty-one! Choice C.
+
+## Solution 2: count what you lose
+
+Here's another way to see it. Count what you must throw away.
+
+Add up the dominoes we drew: nine, five, four, three, two, then eight, two and six. Thirty-nine!
+
+Each domino is a clashing pair, so it costs you at least one number.
+
+So you keep at most one hundred minus thirty-nine. That's sixty-one, and our coloring gets it!
+
+When would you pick this one? Whenever you're asked for the MOST. It proves no one can beat you.
+
+## Common traps
+
+A, fifty, is what you'd get from taking fifty-one to one hundred. No clashes, but not the most.
+
+Choice E, sixty-seven, comes from taking thirty-four to one hundred. But thirty-four and sixty-eight clash!
+
+B, fifty-eight, is too small. We already built a set of sixty-one.
+
+D, sixty-four, is too many. The dominoes say sixty-one is the most.
+
+So here's a great habit. Show your set works, AND show nobody can beat it.
+
+## Your turn: one to thirty
+
+Ready for a challenge? Same rule, but now pick from the numbers one to thirty.
+
+What's the most you can pick?
+
+Pause the video, and go for it!
+
+*(Pause and try it: 10 s countdown)*
+
+## One to thirty: the answer
+
+With thirty numbers, core one has twelve. Six dominoes cover them, and either color keeps six.
+
+Core five keeps three. Core seven keeps two. Cores eleven and thirteen keep one each.
+
+Then five loners: seventeen, nineteen, twenty-three, twenty-five and twenty-nine.
+
+Six plus three plus two plus one plus one plus five. The answer is eighteen!
+
+## Recap
+
+The big idea: split the numbers into families that can never clash.
+
+In each family, clashes are neighbors. Keep the bigger chessboard color. Then dominoes prove it is the most.
+
+I'm Vantee. Keep exploring, and I'll see you next time!

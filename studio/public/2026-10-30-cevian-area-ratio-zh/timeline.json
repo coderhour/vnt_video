@@ -1,0 +1,538 @@
+{
+ "fps": 30,
+ "durationInFrames": 14735,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 542,
+   "lines": [
+    {
+     "text": "\u4e24\u6761\u7ebf\u5728\u4e09\u89d2\u5f62\u91cc\u76f8\u4ea4\uff0c\u5176\u4e2d\u4e00\u5757\u6d82\u4e0a\u4e86\u989c\u8272\u3002",
+     "caption": "\u4e24\u6761\u7ebf\u5728\u4e09\u89d2\u5f62\u91cc\u76f8\u4ea4\uff0c\u5176\u4e2d\u4e00\u5757\u6d82\u4e0a\u4e86\u989c\u8272\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/5d345267fecc6d29.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "\u5f88\u591a\u4eba\u4f1a\u731c\u5b83\u662f\u6574\u4e2a\u4e09\u89d2\u5f62\u7684\u4e00\u534a\u3002\u53ef\u771f\u6b63\u7684\u7b54\u6848\u6ca1\u90a3\u4e48\u7b80\u5355\u3002",
+     "caption": "\u5f88\u591a\u4eba\u4f1a\u731c\u5b83\u662f\u6574\u4e2a\u4e09\u89d2\u5f62\u7684\u4e00\u534a\u3002\u53ef\u771f\u6b63\u7684\u7b54\u6848\u6ca1\u90a3\u4e48\u7b80\u5355\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/fd071bd6f49a1e65.wav",
+     "from": 181,
+     "frames": 218
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u5b83\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u5b83\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/38ccdaec75bcc09a.wav",
+     "from": 409,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 542,
+   "frames": 902,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002\u4e09\u89d2\u5f62ABC\u7684\u9762\u79ef\u662f60\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002\u4e09\u89d2\u5f62ABC\u7684\u9762\u79ef\u662f60\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/9949304deb59afd3.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "D\u662fBC\u7684\u4e2d\u70b9\u3002",
+     "caption": "D\u662fBC\u7684\u4e2d\u70b9\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/f2f50ccdbd48e3b7.wav",
+     "from": 160,
+     "frames": 83
+    },
+    {
+     "text": "E\u5728AC\u4e0a\uff0cAE\u6bd4EC\u7b49\u4e8e2\u6bd41\u3002",
+     "caption": "E\u5728AC\u4e0a\uff0cAE\u6bd4EC\u7b49\u4e8e2\u6bd41\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/a54020f55de2e6f2.wav",
+     "from": 253,
+     "frames": 184
+    },
+    {
+     "text": "\u7ebf\u6bb5AD\u548cBE\u76f8\u4ea4\u4e8e\u70b9P\u3002\u6d82\u8272\u7684\u4e09\u89d2\u5f62ABP\uff0c\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "caption": "\u7ebf\u6bb5AD\u548cBE\u76f8\u4ea4\u4e8e\u70b9P\u3002\u6d82\u8272\u7684\u4e09\u89d2\u5f62ABP\uff0c\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/49f85648f22acb16.wav",
+     "from": 447,
+     "frames": 291
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 748,
+     "frames": 110
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1444,
+   "frames": 756,
+   "lines": [
+    {
+     "text": "\u90a3\u4e48\uff0c\u6211\u4eec\u5230\u5e95\u77e5\u9053\u4e9b\u4ec0\u4e48\uff1f",
+     "caption": "\u90a3\u4e48\uff0c\u6211\u4eec\u5230\u5e95\u77e5\u9053\u4e9b\u4ec0\u4e48\uff1f",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/31e06dd713f5aa68.wav",
+     "from": 0,
+     "frames": 100
+    },
+    {
+     "text": "D\u628aBC\u5206\u6210\u76f8\u7b49\u7684\u4e24\u534a\u3002E\u628aAC\u5206\u6210\u76f8\u7b49\u7684\u4e09\u4efd\uff1a\u4e24\u4efd\u9760\u8fd1A\uff0c\u4e00\u4efd\u9760\u8fd1C\u3002",
+     "caption": "D\u628aBC\u5206\u6210\u76f8\u7b49\u7684\u4e24\u534a\u3002E\u628aAC\u5206\u6210\u76f8\u7b49\u7684\u4e09\u4efd\uff1a\u4e24\u4efd\u9760\u8fd1A\uff0c\u4e00\u4efd\u9760\u8fd1C\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/d3f3c2a9a139969b.wav",
+     "from": 110,
+     "frames": 342
+    },
+    {
+     "text": "\u771f\u6b63\u7684\u96be\u70b9\u662f\uff0cP\u5728AD\u4e0a\u7684\u4ec0\u4e48\u4f4d\u7f6e\uff1f\u53ea\u8981\u77e5\u9053\u4e86\u8fd9\u4e00\u70b9\uff0c\u5c31\u5dee\u4e0d\u591a\u505a\u5b8c\u4e86\u3002",
+     "caption": "\u771f\u6b63\u7684\u96be\u70b9\u662f\uff0cP\u5728AD\u4e0a\u7684\u4ec0\u4e48\u4f4d\u7f6e\uff1f\u53ea\u8981\u77e5\u9053\u4e86\u8fd9\u4e00\u70b9\uff0c\u5c31\u5dee\u4e0d\u591a\u505a\u5b8c\u4e86\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/b7643606880ce5b4.wav",
+     "from": 463,
+     "frames": 255
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2200,
+   "frames": 490,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u540c\u9ad8\u4e09\u89d2\u5f62",
+   "from": 2690,
+   "frames": 904,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u6765\u5b66\u4e00\u6761\u597d\u7528\u7684\u89c4\u5f8b\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u6765\u5b66\u4e00\u6761\u597d\u7528\u7684\u89c4\u5f8b\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/7703fb4f832d0fd2.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "\u4e24\u4e2a\u4e09\u89d2\u5f62\uff0c\u9876\u70b9\u76f8\u540c\uff0c\u5e95\u8fb9\u5728\u540c\u4e00\u6761\u76f4\u7ebf\u4e0a\uff0c\u90a3\u4e48\u5b83\u4eec\u7684\u9ad8\u4e5f\u76f8\u540c\u3002",
+     "caption": "\u4e24\u4e2a\u4e09\u89d2\u5f62\uff0c\u9876\u70b9\u76f8\u540c\uff0c\u5e95\u8fb9\u5728\u540c\u4e00\u6761\u76f4\u7ebf\u4e0a\uff0c\u90a3\u4e48\u5b83\u4eec\u7684\u9ad8\u4e5f\u76f8\u540c\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/205377a99a4df00a.wav",
+     "from": 136,
+     "frames": 250
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u5b83\u4eec\u7684\u9762\u79ef\u4e4b\u6bd4\uff0c\u5c31\u7b49\u4e8e\u5e95\u8fb9\u4e4b\u6bd4\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u5b83\u4eec\u7684\u9762\u79ef\u4e4b\u6bd4\uff0c\u5c31\u7b49\u4e8e\u5e95\u8fb9\u4e4b\u6bd4\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/ce277cc36c50a550.wav",
+     "from": 396,
+     "frames": 142
+    },
+    {
+     "text": "D\u662f\u4e2d\u70b9\uff0c\u6240\u4ee5\u4e09\u89d2\u5f62ABD\u548cADC\u5404\u536060\u7684\u4e00\u534a\uff0c\u4e5f\u5c31\u662f\u540430\u3002",
+     "caption": "D\u662f\u4e2d\u70b9\uff0c\u6240\u4ee5\u4e09\u89d2\u5f62ABD\u548cADC\u5404\u536060\u7684\u4e00\u534a\uff0c\u4e5f\u5c31\u662f\u540430\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/e9e8fae96a92160a.wav",
+     "from": 549,
+     "frames": 317
+    }
+   ]
+  },
+  {
+   "id": "pieces",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3594,
+   "frames": 1294,
+   "lines": [
+    {
+     "text": "\u518d\u753b\u4e00\u6761\u7ebf\uff0c\u4eceC\u8fde\u5230P\u3002\u8fd9\u6837\uff0c\u4e09\u89d2\u5f62\u5c31\u88ab\u5206\u6210\u4e865\u5757\u3002",
+     "caption": "\u518d\u753b\u4e00\u6761\u7ebf\uff0c\u4eceC\u8fde\u5230P\u3002\u8fd9\u6837\uff0c\u4e09\u89d2\u5f62\u5c31\u88ab\u5206\u6210\u4e865\u5757\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/edd078560ec0765b.wav",
+     "from": 0,
+     "frames": 234
+    },
+    {
+     "text": "\u770bBPD\u548cCPD\u3002\u9876\u70b9\u90fd\u662fP\uff0c\u5e95\u8fb9\u76f8\u7b49\uff0c\u6240\u4ee5\u9762\u79ef\u76f8\u7b49\u3002\u628a\u5b83\u4eec\u90fd\u53eb\u505ax\u3002",
+     "caption": "\u770bBPD\u548cCPD\u3002\u9876\u70b9\u90fd\u662fP\uff0c\u5e95\u8fb9\u76f8\u7b49\uff0c\u6240\u4ee5\u9762\u79ef\u76f8\u7b49\u3002\u628a\u5b83\u4eec\u90fd\u53eb\u505ax\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/d03051044e185f93.wav",
+     "from": 245,
+     "frames": 402
+    },
+    {
+     "text": "\u518d\u770bAPE\u548cCPE\u3002\u9876\u70b9\u90fd\u662fP\uff0c\u800c\u4e14AE\u7684\u957f\u5ea6\u662fEC\u7684\u4e24\u500d\u3002",
+     "caption": "\u518d\u770bAPE\u548cCPE\u3002\u9876\u70b9\u90fd\u662fP\uff0c\u800c\u4e14AE\u7684\u957f\u5ea6\u662fEC\u7684\u4e24\u500d\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/c3effcfc301f050f.wav",
+     "from": 657,
+     "frames": 292
+    },
+    {
+     "text": "\u6240\u4ee5APE\u7684\u9762\u79ef\u662fCPE\u7684\u4e24\u500d\u3002\u628aCPE\u53eb\u505ay\uff0cAPE\u5c31\u662f2y\u3002",
+     "caption": "\u6240\u4ee5APE\u7684\u9762\u79ef\u662fCPE\u7684\u4e24\u500d\u3002\u628aCPE\u53eb\u505ay\uff0cAPE\u5c31\u662f2y\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/44aa8ee18bd195e9.wav",
+     "from": 959,
+     "frames": 296
+    }
+   ]
+  },
+  {
+   "id": "equations",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4888,
+   "frames": 1269,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u5217\u4e24\u4e2a\u65b9\u7a0b\u3002\u4e09\u89d2\u5f62ADC\u7684\u9762\u79ef\u662f30\uff0c\u5b83\u7531x\u3001y\u548c2y\u7ec4\u6210\u3002",
+     "caption": "\u73b0\u5728\u6765\u5217\u4e24\u4e2a\u65b9\u7a0b\u3002\u4e09\u89d2\u5f62ADC\u7684\u9762\u79ef\u662f30\uff0c\u5b83\u7531x\u3001y\u548c2y\u7ec4\u6210\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/7ee76296db77d568.wav",
+     "from": 0,
+     "frames": 312
+    },
+    {
+     "text": "\u6240\u4ee5\uff0cx\u52a03y\u7b49\u4e8e30\u3002",
+     "caption": "\u6240\u4ee5\uff0cx\u52a03y\u7b49\u4e8e30\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/1ced4296d415d44a.wav",
+     "from": 322,
+     "frames": 137
+    },
+    {
+     "text": "\u518d\u770b\u4e09\u89d2\u5f62BEC\u3002\u5b83\u548c\u5927\u4e09\u89d2\u5f62\u5171\u7528\u9876\u70b9B\uff0c\u800c\u4e14EC\u662fAC\u76843\u5206\u4e4b1\u3002",
+     "caption": "\u518d\u770b\u4e09\u89d2\u5f62BEC\u3002\u5b83\u548c\u5927\u4e09\u89d2\u5f62\u5171\u7528\u9876\u70b9B\uff0c\u800c\u4e14EC\u662fAC\u76843\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/7d458aa161a5b714.wav",
+     "from": 469,
+     "frames": 300
+    },
+    {
+     "text": "\u6240\u4ee5BEC\u7684\u9762\u79ef\u662f60\u76843\u5206\u4e4b1\uff0c\u4e5f\u5c31\u662f20\u3002\u5b83\u7531x\u3001x\u548cy\u7ec4\u6210\u3002",
+     "caption": "\u6240\u4ee5BEC\u7684\u9762\u79ef\u662f60\u76843\u5206\u4e4b1\uff0c\u4e5f\u5c31\u662f20\u3002\u5b83\u7531x\u3001x\u548cy\u7ec4\u6210\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/0b5fb1bf3268413d.wav",
+     "from": 780,
+     "frames": 302
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c2x\u52a0y\u7b49\u4e8e20\u3002",
+     "caption": "\u6240\u4ee5\uff0c2x\u52a0y\u7b49\u4e8e20\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/36f54a0c8584d457.wav",
+     "from": 1092,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "solve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6157,
+   "frames": 1498,
+   "lines": [
+    {
+     "text": "\u628a\u7b2c\u4e00\u4e2a\u65b9\u7a0b\u4e582\uff0c\u5f97\u52302x\u52a06y\u7b49\u4e8e60\u3002",
+     "caption": "\u628a\u7b2c\u4e00\u4e2a\u65b9\u7a0b\u4e582\uff0c\u5f97\u52302x\u52a06y\u7b49\u4e8e60\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/7e1fe86d60e3fa18.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "\u53e6\u4e00\u4e2a\u65b9\u7a0b\u662f2x\u52a0y\u7b49\u4e8e20\u3002\u4e24\u5f0f\u76f8\u51cf\uff0c\u76f8\u5dee5y\uff0c\u5c31\u662f40\u3002",
+     "caption": "\u53e6\u4e00\u4e2a\u65b9\u7a0b\u662f2x\u52a0y\u7b49\u4e8e20\u3002\u4e24\u5f0f\u76f8\u51cf\uff0c\u76f8\u5dee5y\uff0c\u5c31\u662f40\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/5a85456b779b55e2.wav",
+     "from": 210,
+     "frames": 245
+    },
+    {
+     "text": "\u6240\u4ee5y\u7b49\u4e8e8\u3002\u518d\u770b2x\u52a08\u7b49\u4e8e20\uff0c\u6240\u4ee5x\u7b49\u4e8e6\u3002",
+     "caption": "\u6240\u4ee5y\u7b49\u4e8e8\u3002\u518d\u770b2x\u52a08\u7b49\u4e8e20\uff0c\u6240\u4ee5x\u7b49\u4e8e6\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/98e1e93d507cd389.wav",
+     "from": 466,
+     "frames": 269
+    },
+    {
+     "text": "ABD\u662f30\uff0cBPD\u662f6\u3002\u6240\u4ee5ABP\u5c31\u662f30\u51cf6\uff0c\u7b49\u4e8e24\uff01\u7b54\u6848\u662fC\u3002",
+     "caption": "ABD\u662f30\uff0cBPD\u662f6\u3002\u6240\u4ee5ABP\u5c31\u662f30\u51cf6\uff0c\u7b49\u4e8e24\uff01\u7b54\u6848\u662fC\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/24db1f505eeac248.wav",
+     "from": 745,
+     "frames": 340
+    },
+    {
+     "text": "\u9a8c\u7b97\u4e00\u4e0b\uff1aABP\u548cAPE\u5408\u8d77\u6765\u5c31\u662fABE\u300224\u52a016\u7b49\u4e8e40\uff0c\u6b63\u597d\u662f60\u76843\u5206\u4e4b2\u3002",
+     "caption": "\u9a8c\u7b97\u4e00\u4e0b\uff1aABP\u548cAPE\u5408\u8d77\u6765\u5c31\u662fABE\u300224\u52a016\u7b49\u4e8e40\uff0c\u6b63\u597d\u662f60\u76843\u5206\u4e4b2\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/dff95d4ab03b9521.wav",
+     "from": 1095,
+     "frames": 364
+    }
+   ]
+  },
+  {
+   "id": "parallel",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u753b\u4e00\u6761\u5e73\u884c\u7ebf",
+   "from": 7655,
+   "frames": 2483,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\uff0c\u53ea\u8981\u591a\u753b\u4e00\u6761\u5de7\u5999\u7684\u7ebf\u3002",
+     "caption": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u65b9\u6cd5\uff0c\u53ea\u8981\u591a\u753b\u4e00\u6761\u5de7\u5999\u7684\u7ebf\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/7bfc283e92b28e3e.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "\u5148\u770b\u8981\u7528\u7684\u89c4\u5f8b\uff1a\u548c\u4e09\u89d2\u5f62\u4e00\u6761\u8fb9\u5e73\u884c\u7684\u76f4\u7ebf\uff0c\u4f1a\u628a\u53e6\u5916\u4e24\u6761\u8fb9\u6309\u76f8\u540c\u7684\u6bd4\u5206\u5f00\u3002",
+     "caption": "\u5148\u770b\u8981\u7528\u7684\u89c4\u5f8b\uff1a\u548c\u4e09\u89d2\u5f62\u4e00\u6761\u8fb9\u5e73\u884c\u7684\u76f4\u7ebf\uff0c\u4f1a\u628a\u53e6\u5916\u4e24\u6761\u8fb9\u6309\u76f8\u540c\u7684\u6bd4\u5206\u5f00\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/94b26d050d349c24.wav",
+     "from": 161,
+     "frames": 270
+    },
+    {
+     "text": "\u4eceD\u753b\u4e00\u6761\u548cBE\u5e73\u884c\u7684\u7ebf\uff0c\u5b83\u548cAC\u4ea4\u4e8e\u4e00\u4e2a\u65b0\u7684\u70b9F\u3002",
+     "caption": "\u4eceD\u753b\u4e00\u6761\u548cBE\u5e73\u884c\u7684\u7ebf\uff0c\u5b83\u548cAC\u4ea4\u4e8e\u4e00\u4e2a\u65b0\u7684\u70b9F\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/6770dfacd9a3d404.wav",
+     "from": 442,
+     "frames": 263
+    },
+    {
+     "text": "D\u5728CB\u7684\u6b63\u4e2d\u95f4\uff0c\u6240\u4ee5\u8fd9\u6761\u5e73\u884c\u7ebf\u4e5f\u843d\u5728CE\u7684\u6b63\u4e2d\u95f4\u3002F\u5c31\u662fEC\u7684\u4e2d\u70b9\u3002",
+     "caption": "D\u5728CB\u7684\u6b63\u4e2d\u95f4\uff0c\u6240\u4ee5\u8fd9\u6761\u5e73\u884c\u7ebf\u4e5f\u843d\u5728CE\u7684\u6b63\u4e2d\u95f4\u3002F\u5c31\u662fEC\u7684\u4e2d\u70b9\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/4c67107c2a6bf0f0.wav",
+     "from": 715,
+     "frames": 285
+    },
+    {
+     "text": "\u73b0\u5728\u6cbf\u7740AC\uff0c\u4e00\u6bb5\u4e00\u6bb5\u5730\u6570\u3002EC\u662f\u4e24\u6bb5\uff0c\u6240\u4ee5AE\u662f4\u6bb5\uff0cEF\u662f1\u6bb5\u3002",
+     "caption": "\u73b0\u5728\u6cbf\u7740AC\uff0c\u4e00\u6bb5\u4e00\u6bb5\u5730\u6570\u3002EC\u662f2\u6bb5\uff0c\u6240\u4ee5AE\u662f4\u6bb5\uff0cEF\u662f1\u6bb5\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/5c06dfd6a691edcc.wav",
+     "from": 1010,
+     "frames": 306
+    },
+    {
+     "text": "\u5728\u4e09\u89d2\u5f62ADF\u91cc\uff0cPE\u548cDF\u5e73\u884c\u3002\u6240\u4ee5AP\u6bd4PD\uff0c\u7b49\u4e8eAE\u6bd4EF\uff0c\u4e5f\u5c31\u662f4\u6bd41\u3002",
+     "caption": "\u5728\u4e09\u89d2\u5f62ADF\u91cc\uff0cPE\u548cDF\u5e73\u884c\u3002\u6240\u4ee5AP\u6bd4PD\uff0c\u7b49\u4e8eAE\u6bd4EF\uff0c\u4e5f\u5c31\u662f4\u6bd41\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/65d34056854ab92f.wav",
+     "from": 1327,
+     "frames": 384
+    },
+    {
+     "text": "\u6240\u4ee5AP\u662fAD\u76845\u5206\u4e4b4\u3002\u8fd9\u6837\uff0cABP\u5c31\u662fABD\u76845\u5206\u4e4b4\u3002",
+     "caption": "\u6240\u4ee5AP\u662fAD\u76845\u5206\u4e4b4\u3002\u8fd9\u6837\uff0cABP\u5c31\u662fABD\u76845\u5206\u4e4b4\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/5f3943932905cc07.wav",
+     "from": 1721,
+     "frames": 246
+    },
+    {
+     "text": "30\u76845\u5206\u4e4b4\u662f24\u3002\u7b54\u6848\u4e00\u6837\uff01\u8fd8\u662fC\u3002",
+     "caption": "30\u76845\u5206\u4e4b4\u662f24\u3002\u7b54\u6848\u4e00\u6837\uff01\u8fd8\u662fC\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/24794c7c32d63f85.wav",
+     "from": 1978,
+     "frames": 213
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u60f3\u5f88\u5feb\u6c42\u51fa\u4e00\u6761\u7ebf\u4e0a\u7684\u6bd4\uff0c\u53c8\u4e0d\u60f3\u5217\u65b9\u7a0b\u7684\u65f6\u5019\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u60f3\u5f88\u5feb\u6c42\u51fa\u4e00\u6761\u7ebf\u4e0a\u7684\u6bd4\uff0c\u53c8\u4e0d\u60f3\u5217\u65b9\u7a0b\u7684\u65f6\u5019\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/a9719237326ae57c.wav",
+     "from": 2201,
+     "frames": 244
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 10138,
+   "frames": 1861,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/3ef3731fffd78d1e.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "\u5148\u770b\u9009\u9879D\uff0c\u662f30\u3002\u8fd9\u662f\u4e09\u89d2\u5f62ABD\uff0c\u6574\u4e2a\u4e09\u89d2\u5f62\u7684\u4e00\u534a\u3002\u592a\u5927\u4e86\uff0c\u56e0\u4e3aABP\u53ea\u662f\u5b83\u7684\u4e00\u90e8\u5206\u3002",
+     "caption": "\u5148\u770b\u9009\u9879D\uff0c\u662f30\u3002\u8fd9\u662f\u4e09\u89d2\u5f62ABD\uff0c\u6574\u4e2a\u4e09\u89d2\u5f62\u7684\u4e00\u534a\u3002\u592a\u5927\u4e86\uff0c\u56e0\u4e3aABP\u53ea\u662f\u5b83\u7684\u4e00\u90e8\u5206\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/4d00ac05dd954e46.wav",
+     "from": 148,
+     "frames": 365
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879E\u300240\u662f\u4e09\u89d2\u5f62ABE\u7684\u9762\u79ef\uff0c\u5360\u6574\u4e2a\u4e09\u89d2\u5f62\u76843\u5206\u4e4b2\u3002\u4e5f\u592a\u5927\u4e86\u3002",
+     "caption": "\u518d\u770b\u9009\u9879E\u300240\u662f\u4e09\u89d2\u5f62ABE\u7684\u9762\u79ef\uff0c\u5360\u6574\u4e2a\u4e09\u89d2\u5f62\u76843\u5206\u4e4b2\u3002\u4e5f\u592a\u5927\u4e86\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/ede77ac3a7c041df.wav",
+     "from": 523,
+     "frames": 276
+    },
+    {
+     "text": "\u9009\u9879B\uff0c20\uff0c\u662f\u628a2\u6bd41\u76f4\u63a5\u642c\u5230\u4e86AD\u4e0a\u300230\u76843\u5206\u4e4b2\u662f20\u3002",
+     "caption": "\u9009\u9879B\uff0c20\uff0c\u662f\u628a2\u6bd41\u76f4\u63a5\u642c\u5230\u4e86AD\u4e0a\u300230\u76843\u5206\u4e4b2\u662f20\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/d39f8a14f3a4b570.wav",
+     "from": 809,
+     "frames": 261
+    },
+    {
+     "text": "\u53ef\u662f2\u6bd41\u662fAC\u8fd9\u6761\u7ebf\u4e0a\u7684\u6bd4\u3002AD\u6709\u5b83\u81ea\u5df1\u7684\u6bd4\uff1a4\u6bd41\u3002",
+     "caption": "\u53ef\u662f2\u6bd41\u662fAC\u8fd9\u6761\u7ebf\u4e0a\u7684\u6bd4\u3002AD\u6709\u5b83\u81ea\u5df1\u7684\u6bd4\uff1a4\u6bd41\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/45f851b96bf6b6ca.wav",
+     "from": 1080,
+     "frames": 244
+    },
+    {
+     "text": "\u9009\u9879A\uff0c15\uff0c\u662f\u628aP\u5f53\u6210\u4e86AD\u7684\u4e2d\u70b9\u300230\u7684\u4e00\u534a\u662f15\u3002",
+     "caption": "\u9009\u9879A\uff0c15\uff0c\u662f\u628aP\u5f53\u6210\u4e86AD\u7684\u4e2d\u70b9\u300230\u7684\u4e00\u534a\u662f15\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/efd40620e3345401.wav",
+     "from": 1334,
+     "frames": 248
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6bcf\u6761\u7ebf\u90fd\u6709\u81ea\u5df1\u7684\u6bd4\u3002\u5148\u628a\u5b83\u6c42\u51fa\u6765\uff0c\u518d\u53bb\u7528\u5b83\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6bcf\u6761\u7ebf\u90fd\u6709\u81ea\u5df1\u7684\u6bd4\u3002\u5148\u628a\u5b83\u6c42\u51fa\u6765\uff0c\u518d\u53bb\u7528\u5b83\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/e9dd6ed442668d5b.wav",
+     "from": 1592,
+     "frames": 231
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u65b0\u7684\u4e09\u89d2\u5f62",
+   "from": 11999,
+   "frames": 593,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u662f\u4e00\u4e2a\u65b0\u7684\u4e09\u89d2\u5f62\uff0c\u9762\u79ef\u662f84\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd9\u662f\u4e00\u4e2a\u65b0\u7684\u4e09\u89d2\u5f62\uff0c\u9762\u79ef\u662f84\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/5808470e5dcdaa53.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "D\u8fd8\u662fBC\u7684\u4e2d\u70b9\u3002\u4f46\u73b0\u5728\uff0cAE\u6bd4EC\u662f3\u6bd41\u3002",
+     "caption": "D\u8fd8\u662fBC\u7684\u4e2d\u70b9\u3002\u4f46\u73b0\u5728\uff0cAE\u6bd4EC\u662f3\u6bd41\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/ef366e3ef7ae4068.wav",
+     "from": 184,
+     "frames": 252
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62ABP\u7684\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "caption": "\u4e09\u89d2\u5f62ABP\u7684\u9762\u79ef\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/d0314475b22e568c.wav",
+     "from": 446,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 12592,
+   "frames": 393,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u7684\u4e09\u89d2\u5f62\uff1a\u7b54\u6848",
+   "from": 12985,
+   "frames": 953,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u7528\u5e73\u884c\u7ebf\u6765\u505a\u3002DF\u548cBE\u5e73\u884c\uff0c\u6240\u4ee5F\u8fd8\u662fEC\u7684\u4e2d\u70b9\u3002",
+     "caption": "\u6211\u4eec\u7528\u5e73\u884c\u7ebf\u6765\u505a\u3002DF\u548cBE\u5e73\u884c\uff0c\u6240\u4ee5F\u8fd8\u662fEC\u7684\u4e2d\u70b9\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/110fd5a4c5ed6ed8.wav",
+     "from": 0,
+     "frames": 239
+    },
+    {
+     "text": "EC\u662f\u4e24\u6bb5\uff0c\u6240\u4ee5AE\u662f6\u6bb5\uff0cEF\u662f1\u6bb5\u3002\u6240\u4ee5AP\u662fAD\u76847\u5206\u4e4b6\u3002",
+     "caption": "EC\u662f2\u6bb5\uff0c\u6240\u4ee5AE\u662f6\u6bb5\uff0cEF\u662f1\u6bb5\u3002\u6240\u4ee5AP\u662fAD\u76847\u5206\u4e4b6\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/cb720cdaeeb94177.wav",
+     "from": 249,
+     "frames": 346
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62ABD\u662f84\u7684\u4e00\u534a\uff0c\u4e5f\u5c31\u662f42\u3002",
+     "caption": "\u4e09\u89d2\u5f62ABD\u662f84\u7684\u4e00\u534a\uff0c\u4e5f\u5c31\u662f42\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/eca93984efe645c9.wav",
+     "from": 605,
+     "frames": 159
+    },
+    {
+     "text": "42\u76847\u5206\u4e4b6\uff0c\u5c31\u662f36\uff01",
+     "caption": "42\u76847\u5206\u4e4b6\uff0c\u5c31\u662f36\uff01",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/b8fa2ad4c19ae8f7.wav",
+     "from": 774,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13938,
+   "frames": 797,
+   "lines": [
+    {
+     "text": "\u6700\u540e\uff0c\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u6700\u540e\uff0c\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/e024e6011d87d28d.wav",
+     "from": 0,
+     "frames": 95
+    },
+    {
+     "text": "\u4e24\u6761\u7ebf\u5728\u4e09\u89d2\u5f62\u91cc\u76f8\u4ea4\u65f6\uff0c\u5148\u6c42\u51fa\u4ea4\u70b9\u628a\u6bcf\u6761\u7ebf\u5206\u6210\u4e86\u4ec0\u4e48\u6bd4\u3002",
+     "caption": "\u4e24\u6761\u7ebf\u5728\u4e09\u89d2\u5f62\u91cc\u76f8\u4ea4\u65f6\uff0c\u5148\u6c42\u51fa\u4ea4\u70b9\u628a\u6bcf\u6761\u7ebf\u5206\u6210\u4e86\u4ec0\u4e48\u6bd4\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/e8a87e14be31d943.wav",
+     "from": 106,
+     "frames": 220
+    },
+    {
+     "text": "\u53ef\u4ee5\u7528\u540c\u9ad8\u4e09\u89d2\u5f62\uff0c\u4e5f\u53ef\u4ee5\u753b\u4e00\u6761\u5e73\u884c\u7ebf\u3002\u7136\u540e\uff0c\u7528\u8fd9\u4e2a\u5206\u6570\u53bb\u4e58\u4e00\u4e2a\u66f4\u5927\u4e09\u89d2\u5f62\u7684\u9762\u79ef\u3002",
+     "caption": "\u53ef\u4ee5\u7528\u540c\u9ad8\u4e09\u89d2\u5f62\uff0c\u4e5f\u53ef\u4ee5\u753b\u4e00\u6761\u5e73\u884c\u7ebf\u3002\u7136\u540e\uff0c\u7528\u8fd9\u4e2a\u5206\u6570\u53bb\u4e58\u4e00\u4e2a\u66f4\u5927\u4e09\u89d2\u5f62\u7684\u9762\u79ef\u3002",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/bd989848e0ea5d02.wav",
+     "from": 336,
+     "frames": 286
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-cevian-area-ratio-zh/audio/f8351124be57142c.wav",
+     "from": 632,
+     "frames": 112
+    }
+   ]
+  }
+ ]
+}

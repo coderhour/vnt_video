@@ -1,0 +1,114 @@
+{
+ "fps": 30,
+ "durationInFrames": 1111,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 124,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's twenty-four? Nope!",
+     "caption": "AMC 10 challenge! Think it's 24? Nope!",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/01d0886eacee6cd0.wav",
+     "from": 0,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 124,
+   "frames": 192,
+   "lines": [
+    {
+     "text": "For how many n up to one hundred does the factorial of two n end in exactly twice as many zeros as n factorial?",
+     "caption": "For how many n up to 100 does the factorial of 2n end in exactly twice as many zeros as n factorial?",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/1495af041ea81aca.wav",
+     "from": 0,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 316,
+   "frames": 73,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 62
+    }
+   ]
+  },
+  {
+   "id": "base5",
+   "kind": "scene",
+   "chapter": null,
+   "from": 389,
+   "frames": 432,
+   "lines": [
+    {
+     "text": "Zeros come from fives. So write n in base five.",
+     "caption": "Zeros come from fives. So write n in base 5.",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/a569b35fe924ea94.wav",
+     "from": 0,
+     "frames": 102
+    },
+    {
+     "text": "Eight in base five is one, three. Double it: the three makes six, and that carries an extra five!",
+     "caption": "8 in base 5 is 1, 3. Double it: the 3 makes 6, and that carries an extra 5!",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/ddfe5ceab1374003.wav",
+     "from": 106,
+     "frames": 174
+    },
+    {
+     "text": "So every digit must be zero, one or two. Three times three times three is twenty-seven.",
+     "caption": "So every digit must be 0, 1 or 2. 3 times 3 times 3 is 27.",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/a9a06bb13b49fc94.wav",
+     "from": 285,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 821,
+   "frames": 290,
+   "lines": [
+    {
+     "text": "Drop zero, zero, zero, and that's twenty-six!",
+     "caption": "Drop 0, 0, 0, and that's... 26!",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/bec7b758956e2747.wav",
+     "from": 0,
+     "frames": 87
+    },
+    {
+     "text": "Twenty-four was the trap. One and two count!",
+     "caption": "24 was the trap. 1 and 2 count!",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/954a1814afb8bafb.wav",
+     "from": 91,
+     "frames": 84
+    },
+    {
+     "text": "Did you get twenty-six? Tell me below!",
+     "caption": "Did you get 26? Tell me below!",
+     "file": "2026-11-07-factorial-zeros-double/short/audio/ca2d710b1a95753a.wav",
+     "from": 180,
+     "frames": 75
+    }
+   ]
+  }
+ ]
+}

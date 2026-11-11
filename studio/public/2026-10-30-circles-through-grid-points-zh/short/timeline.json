@@ -1,0 +1,128 @@
+{
+ "fps": 30,
+ "durationInFrames": 1486,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 140,
+   "lines": [
+    {
+     "text": "AMC\u5341\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f76\uff1f\u9519\uff01",
+     "caption": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f76\uff1f\u9519\uff01",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/560b1784cf5d3445.wav",
+     "from": 0,
+     "frames": 129
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 140,
+   "frames": 304,
+   "lines": [
+    {
+     "text": "9\u4e2a\u70b9\u6392\u6210\u6b63\u65b9\u5f62\u7f51\u683c\u3002\u6709\u591a\u5c11\u4e2a\u4e0d\u540c\u7684\u5706\uff0c\u81f3\u5c11\u7ecf\u8fc7\u5176\u4e2d3\u4e2a\u70b9\uff1f",
+     "caption": "9\u4e2a\u70b9\u6392\u6210\u6b63\u65b9\u5f62\u7f51\u683c\u3002\u6709\u591a\u5c11\u4e2a\u4e0d\u540c\u7684\u5706\uff0c\u81f3\u5c11\u7ecf\u8fc7\u5176\u4e2d3\u4e2a\u70b9\uff1f",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/9012296362dd1d9d.wav",
+     "from": 0,
+     "frames": 176
+    },
+    {
+     "text": "\u4e00\u4e2a\u5706\u7ecf\u8fc74\u4e2a\u70b9\uff0c\u4e5f\u53ea\u7b97\u4e00\u6b21\uff01",
+     "caption": "\u4e00\u4e2a\u5706\u7ecf\u8fc74\u4e2a\u70b9\uff0c\u4e5f\u53ea\u7b97\u4e00\u6b21\uff01",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/9e84858d003aaaae.wav",
+     "from": 180,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 444,
+   "frames": 95,
+   "lines": [
+    {
+     "text": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "caption": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/e41e564c6dcc28fb.wav",
+     "from": 0,
+     "frames": 83
+    }
+   ]
+  },
+  {
+   "id": "repeat",
+   "kind": "scene",
+   "chapter": null,
+   "from": 539,
+   "frames": 606,
+   "lines": [
+    {
+     "text": "\u4e00\u517176\u7ec4\u4e0d\u5171\u7ebf\u7684\u4e09\u70b9\u3002\u4f46\u662f\uff0c\u770b\u770b\u8fd9\u4e2a\u6b63\u65b9\u5f62\u3002",
+     "caption": "\u4e00\u517176\u7ec4\u4e0d\u5171\u7ebf\u7684\u4e09\u70b9\u3002\u4f46\u662f\uff0c\u770b\u770b\u8fd9\u4e2a\u6b63\u65b9\u5f62\u3002",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/b216168a6c114bcd.wav",
+     "from": 0,
+     "frames": 172
+    },
+    {
+     "text": "\u4efb\u610f\u53bb\u6389\u4e00\u4e2a\u9876\u70b9\uff0c\u5269\u4e0b\u4e09\u4e2a\u70b9\u5f97\u5230\u7684\u90fd\u662f\u540c\u4e00\u4e2a\u5706\uff01",
+     "caption": "\u4efb\u610f\u53bb\u6389\u4e00\u4e2a\u9876\u70b9\uff0c\u5269\u4e0b\u4e09\u4e2a\u70b9\u5f97\u5230\u7684\u90fd\u662f\u540c\u4e00\u4e2a\u5706\uff01",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/72160810916498fb.wav",
+     "from": 176,
+     "frames": 144
+    },
+    {
+     "text": "\u6240\u4ee5\u8fd9\u4e2a\u5706\u88ab\u6570\u4e864\u6b21\u3002\u50cf\u8fd9\u6837\u7684\u5706\u4e00\u5171\u670914\u4e2a\u3002",
+     "caption": "\u6240\u4ee5\u8fd9\u4e2a\u5706\u88ab\u6570\u4e864\u6b21\u3002\u50cf\u8fd9\u6837\u7684\u5706\u4e00\u5171\u670914\u4e2a\u3002",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/0318fe311df6981c.wav",
+     "from": 324,
+     "frames": 170
+    },
+    {
+     "text": "14\u4e583\uff0c\u4e00\u5171\u591a\u51fa42\u4e2a\u3002",
+     "caption": "14\u4e583\uff0c\u4e00\u5171\u591a\u51fa42\u4e2a\u3002",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/be80d2617e6cdc34.wav",
+     "from": 498,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1145,
+   "frames": 341,
+   "lines": [
+    {
+     "text": "76\u51cf42\u7b49\u4e8e34\uff01",
+     "caption": "76\u51cf42\u7b49\u4e8e34\uff01",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/8bf0fc315ae5050d.wav",
+     "from": 0,
+     "frames": 90
+    },
+    {
+     "text": "\u900976\u5c31\u662f\u9677\u9631\uff01",
+     "caption": "\u900976\u5c31\u662f\u9677\u9631\uff01",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/7e734f99334e1b44.wav",
+     "from": 94,
+     "frames": 78
+    },
+    {
+     "text": "\u7b54\u6848\u662f34\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "caption": "\u7b54\u6848\u662f34\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "file": "2026-10-30-circles-through-grid-points-zh/short/audio/1eb255adf6bfec96.wav",
+     "from": 177,
+     "frames": 129
+    }
+   ]
+  }
+ ]
+}

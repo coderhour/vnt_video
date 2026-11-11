@@ -1,20 +1,40 @@
 {
- "title": "How Many Triangles Hide in This Hexagon? | AMC 8-Style Level 5",
- "description": "This hexagon is cut into 24 little triangles, but bigger ones are hiding in it too!\nCan you find every triangle of every size, pointing up and pointing down?\nWe count them two ways and then try a big triangle of your own.\n\n0:00 Intro\n0:16 The question\n0:35 What are we asked?\n0:54 Try it yourself\n1:09 Solution 1: count by size\n2:28 Solution 2: count up, then double\n3:08 Common traps\n3:40 Your turn: a big triangle\n4:08 Big triangle: the answer\n4:39 Recap",
+ "title": "AMC 8 Practice: Counting Triangles in a Hexagon — Hidden Ones",
+ "description": "AMC 8 practice problem on counting triangles of every size in a hexagon cut into 24 small triangles, solved with a symmetry shortcut. (Level 5 of 5)\nThis hexagon is cut into 24 little triangles, but bigger ones are hiding in it too!\nCan you find every triangle of every size, pointing up and pointing down?\nWe count them two ways and then try a big triangle of your own.\n\n0:00 Intro\n0:16 The question\n0:35 What are we asked?\n0:54 Try it yourself\n1:09 Solution 1: count by size\n2:28 Solution 2: count up, then double\n3:08 Common traps\n3:40 Your turn: a big triangle\n4:08 Big triangle: the answer\n4:39 Recap",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_counting_template:c1-520",
- "posts": [],
+ "posts": [
+  {
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=5fQllcd8c7I",
+   "published_at": "2026-11-08T11:00:00-08:00",
+   "scheduled_at": "2026-11-08T07:12:05-08:00"
+  }
+ ],
  "short": {
   "title": "How Many Triangles Hide in This Hexagon? #Shorts",
   "description": "A hexagon cut into 24 little triangles hides bigger ones too. Count only the ones pointing up, then flip!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": [],
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/5Ue8zh6HG1U",
+    "published_at": "2026-11-08T11:00:00-08:00",
+    "scheduled_at": "2026-11-08T07:12:09-08:00"
+   }
+  ],
   "challenge": 4,
   "tags": [
    "AMC 8",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
+  ],
+  "youtube_id": "5Ue8zh6HG1U",
+  "playlist_id": "PLMmhAusDs0A4"
  },
- "status": "ready"
+ "status": "ready",
+ "youtube_id": "5fQllcd8c7I",
+ "playlist_id": "PLfp4UvKbIIC8",
+ "pinned_comment": "A hexagon is cut into 24 small triangles. How many triangles of any size? Comment your answer before you watch the solution!",
+ "thumbnail": "set"
 }

@@ -8,6 +8,7 @@ import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-multiples-of-4-6-9';
@@ -598,3 +599,19 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-multiples-of-4-6-9-thumb`, render.sh → poster.jpg): the trap + three overlapping circles (4, 6, 9), no answer.
+export const Thumb: React.FC = () => {
+  const cs = [{ x: 235, y: 250, t: '4' }, { x: 445, y: 250, t: '6' }, { x: 340, y: 430, t: '9' }];
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>527?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        {cs.map((c, i) => <circle key={i} cx={c.x} cy={c.y} r={170} fill={CIRC[i]} opacity={0.3} stroke={CIRC[i]} strokeWidth={8} />)}
+        {cs.map((c, i) => (
+          <text key={i} x={c.x + (i === 0 ? -50 : i === 1 ? 50 : 0)} y={c.y + (i === 2 ? 70 : -20) + 36} textAnchor="middle" fontSize={120} fontWeight={900} fill={CIRC[i]}>{c.t}</text>
+        ))}
+        <text x={340} y={632} textAnchor="middle" fontSize={44} fontWeight={800} fill={C.muted}>multiples from 1 to 1000</text>
+      </svg>
+    </ThumbFrame>
+  );
+};

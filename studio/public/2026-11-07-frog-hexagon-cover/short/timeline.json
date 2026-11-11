@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1150,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 102,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's twelve? Nope!",
+     "caption": "AMC 10 challenge! Think it's 12? Nope!",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/075c103e69dbbb39.wav",
+     "from": 0,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 102,
+   "frames": 240,
+   "lines": [
+    {
+     "text": "A frog hops around a hexagon, to either neighbor, with chance one half.",
+     "caption": "A frog hops around a hexagon, to either neighbor, with chance 1/2.",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/232eba7cbf096e12.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "On average, how many jumps to visit all six corners?",
+     "caption": "On average, how many jumps to visit all 6 corners?",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/05aa0ecd63350636.wav",
+     "from": 135,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 342,
+   "frames": 68,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 57
+    }
+   ]
+  },
+  {
+   "id": "stages",
+   "kind": "scene",
+   "chapter": null,
+   "from": 410,
+   "frames": 470,
+   "lines": [
+    {
+     "text": "Color the visited corners green: always one block, with the frog at an end.",
+     "caption": "Color the visited corners green: always one block, with the frog at an end.",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/adb69836fa1298b5.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "Straighten it, with an exit on each side. The average wait is steps to one exit, times steps to the other.",
+     "caption": "Straighten it, with an exit on each side. The average wait is steps to one exit, times steps to the other.",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/ec775607b7a4ef93.wav",
+     "from": 135,
+     "frames": 171
+    },
+    {
+     "text": "So, one times four: four jumps! The stages go one, two, three, four, five!",
+     "caption": "So, 1 \u00d7 4: 4 jumps! The stages go 1, 2, 3, 4, 5!",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/3e6707a2d107d41f.wav",
+     "from": 310,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 880,
+   "frames": 270,
+   "lines": [
+    {
+     "text": "Add them up, and you get fifteen jumps!",
+     "caption": "Add them up, and you get 15 jumps!",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/f2ce55c073082852.wav",
+     "from": 0,
+     "frames": 70
+    },
+    {
+     "text": "Twelve was the trap. The stages aren't equal!",
+     "caption": "12 was the trap. The stages aren't equal!",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/810106987dcc64c3.wav",
+     "from": 74,
+     "frames": 87
+    },
+    {
+     "text": "Did you get fifteen? Tell me below!",
+     "caption": "Did you get 15? Tell me below!",
+     "file": "2026-11-07-frog-hexagon-cover/short/audio/3bb2f5db5bbe3d74.wav",
+     "from": 165,
+     "frames": 70
+    }
+   ]
+  }
+ ]
+}

@@ -9,7 +9,7 @@ assert parse_range("bytes=100-", 100) is None
 assert parse_range("bytes=-", 100) is None
 assert parse_range("items=0-1", 100) is None
 import json, tempfile, serve
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 with tempfile.TemporaryDirectory() as d:
     serve.VIDEOS = Path(d)
@@ -36,6 +36,12 @@ with tempfile.TemporaryDirectory() as d:
     assert serve.mark_quiz("v1", "https://www.youtube.com/post/A") and serve.mark_quiz("v1", "https://youtube.com/post/B")
     assert json.loads((Path(d) / "v1" / "meta.json").read_text())["posts"] == [
         {"platform": "YouTube", "url": "w"}, {"platform": "YouTube quiz post", "url": "https://youtube.com/post/B"}]
+    assert not serve.mark_wechat("v1", "both") and not serve.mark_wechat("../v1", "video")
+    assert serve.mark_wechat("v1", "video") and serve.mark_wechat("v1", "short") and serve.mark_wechat("v1", "video")
+    assert [p["kind"] for p in json.loads((Path(d) / "v1" / "meta.json").read_text())["cn"]["posts"]] == ["short", "video"]
+    assert not serve.mark_related("v1") and not serve.mark_related("../v1")  # no short on YouTube
+    (Path(d) / "v1" / "meta.json").write_text('{"short": {"youtube_id": "s"}}')
+    assert serve.mark_related("v1") and json.loads((Path(d) / "v1" / "meta.json").read_text())["short"]["related_set"] is True
 print("ok")
 import youtube
 import tiktok
@@ -118,7 +124,24 @@ with tempfile.TemporaryDirectory() as tmp:
     assert st["privacyStatus"] == "private" and st["publishAt"] == "2099-01-02T16:00:00Z", st
     sent.clear(); youtube.put(f, "t", "d", [])
     assert "publishAt" not in json.loads(sent[0])["status"]
+    # thumbnail: result saved, never raised; a failure is reported, not lost
+    youtube.call = lambda *a, **k: (_ for _ in ()).throw(RuntimeError("403 not verified"))
+    assert youtube.set_thumbnail("v1", f) == "failed: 403 not verified" and youtube.set_thumbnail("v1", Path(tmp) / "no.jpg") == "missing poster.jpg"
+    youtube.call = lambda *a, **k: ({}, {})
+    assert youtube.set_thumbnail("v1", f) == "set"
+    # sync_meta: keeps tags/category, swaps title + description
+    vd = Path(tmp) / "videos" / "s1"; vd.mkdir(parents=True)
+    (vd / "meta.json").write_text(json.dumps({"title": "New", "description": "D", "youtube_id": "y"}))
+    old_root, youtube.ROOT, sent = youtube.ROOT, Path(tmp), []
+    youtube.call = lambda url, data=None, headers=None, method=None: sent.append(data) or ({}, {"items": [{"snippet": {"title": "Old", "tags": ["t"], "categoryId": "27", "thumbnails": {}}}]})
+    assert youtube.sync_meta("s1") == "New"
+    sn = json.loads(sent[-1])["snippet"]
+    assert sn["tags"] == ["t"] and sn["categoryId"] == "27" and sn["description"].startswith("D") and "thumbnails" not in sn
+    youtube.ROOT = old_root
     youtube.call, youtube.access_token = real
+# a short published with its video goes public a day later
+assert datetime.fromisoformat(youtube.later(at)) - datetime.fromisoformat(at) == timedelta(hours=24)
+assert datetime.fromisoformat(youtube.later(None)) > datetime.now().astimezone() + timedelta(hours=23)
 print("ok schedule")
 
 with tempfile.TemporaryDirectory() as t:

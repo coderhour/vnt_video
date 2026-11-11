@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Step 7 in one command: render, loudnorm to -14 LUFS, poster.
+# Step 7 in one command: render, loudnorm to -14 LUFS, poster (the `<slug>-thumb` still when Composition.tsx exports Thumb).
 #   render.sh <slug> <poster_seconds>
 #   render.sh <slug> - short      the vertical short -> short.mp4 (markers short.render.*, no poster)
 #   (a *-zh slug always renders the China cut into video.mp4 / short.mp4, so it needs no cn run)
@@ -40,7 +40,14 @@ exec 9>&-  # free the slot before the cheap ffmpeg steps
 ffmpeg -y -loglevel error -i "$out/$name.raw.mp4" -c:v copy \
   -af loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.8:level=false -ar 48000 -c:a aac -b:a 192k "$out/$name.mp4"
 rm "$out/$name.raw.mp4"
-[ "$name" = video ] && ffmpeg -y -loglevel error -ss "$poster" -i "$out/video.mp4" -frames:v 1 "$out/poster.jpg"
+if [ "$name" = video ]; then  # poster.jpg = the YouTube thumbnail: the designed Thumb still if the video exports one
+  if grep -q 'export const Thumb' "src/videos/$slug/Composition.tsx"; then
+    npx remotion still src/index.ts "$slug-thumb" "$out/poster.jpg" --image-format=jpeg --jpeg-quality=92 "${props[@]}" ||
+      ffmpeg -y -loglevel error -ss "$poster" -i "$out/video.mp4" -frames:v 1 "$out/poster.jpg"  # never lose a finished video to a bad Thumb
+  else
+    ffmpeg -y -loglevel error -ss "$poster" -i "$out/video.mp4" -frames:v 1 "$out/poster.jpg"
+  fi
+fi
 ffprobe -v error -show_entries format=duration -of csv=p=0 "$out/$name.mp4"
 touch "$out/$m.done"
 echo "done $(date +%T)"

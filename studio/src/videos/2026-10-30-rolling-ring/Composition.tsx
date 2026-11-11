@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-rolling-ring';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -732,3 +733,16 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the hoop and the small ring at its start, radii marked, no answer.
+const TM = plane(340, 320, 28);
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>5 turns?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Hoop m={TM} unit={28} R={R} />
+      <Ring m={TM} unit={28} r={r} p={pose(R, r, 'inside', 0)} />
+      <Radius m={TM} a={Math.PI / 4} len={R} text="10 cm" color={C.ink} opacity={1} off={2.4} />
+      <Radius m={TM} from={pose(R, r, 'inside', 0).c} a={Math.PI / 2} len={r} text="2 cm" color={C.violet} opacity={1} tip={1.4} />
+    </svg>
+  </ThumbFrame>
+);

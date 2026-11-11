@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1191,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 118,
+   "lines": [
+    {
+     "text": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f13\uff1f\u9519\uff01",
+     "caption": "AMC 10\u6311\u6218\uff01\u4f60\u89c9\u5f97\u662f13\uff1f\u9519\uff01",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/b83e20e4c1bcbf25.wav",
+     "from": 0,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 118,
+   "frames": 207,
+   "lines": [
+    {
+     "text": "\u7528\u9aa8\u724c\u548cL\u5f62\u72b6\u7684\u5757\uff0c\u94fa\u6ee12\u4e586\u7684\u677f\u3002",
+     "caption": "\u7528\u9aa8\u724c\u548cL\u5f62\u72b6\u7684\u5757\uff0c\u94fa\u6ee12\u4e586\u7684\u677f\u3002",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/b30d08b1400e0f1d.wav",
+     "from": 0,
+     "frames": 122
+    },
+    {
+     "text": "\u80fd\u65cb\u8f6c\uff0c\u51e0\u79cd\u94fa\u6cd5\uff1f",
+     "caption": "\u80fd\u65cb\u8f6c\uff0c\u51e0\u79cd\u94fa\u6cd5\uff1f",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/083dd65f81d9ea56.wav",
+     "from": 125,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 325,
+   "frames": 90,
+   "lines": [
+    {
+     "text": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "caption": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/e41e564c6dcc28fb.wav",
+     "from": 0,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "zigzag",
+   "kind": "scene",
+   "chapter": null,
+   "from": 415,
+   "frames": 436,
+   "lines": [
+    {
+     "text": "\u5de6\u4e0a\u89d2\uff1a\u653e\u9aa8\u724c\uff0c\u6216\u653eL\uff0c\u5f00\u59cb\u4e4b\u5b57\u94fe\u3002",
+     "caption": "\u5de6\u4e0a\u89d2\uff1a\u653e\u9aa8\u724c\uff0c\u6216\u653eL\uff0c\u5f00\u59cb\u4e4b\u5b57\u94fe\u3002",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/056434b0a8f140ad.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "\u5148\u653eL\uff0c\u518d\u6a2a\u653e\u9aa8\u724c\uff0c\u6700\u540e\u653eL\uff0c\u90fd\u6709\u955c\u50cf\uff01",
+     "caption": "\u5148\u653eL\uff0c\u518d\u6a2a\u653e\u9aa8\u724c\uff0c\u6700\u540e\u653eL\uff0c\u90fd\u6709\u955c\u50cf\uff01",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/b1bc5fbefb86c612.wav",
+     "from": 127,
+     "frames": 149
+    },
+    {
+     "text": "\u586b\u8868\uff1a\u4e24\u4e2a1\uff0c\u7136\u540e2\u30015\u300111\u300124\u3002",
+     "caption": "\u586b\u8868\uff1a\u4e24\u4e2a1\uff0c\u7136\u540e2\u30015\u300111\u300124\u3002",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/01bc848241b1a292.wav",
+     "from": 280,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 851,
+   "frames": 340,
+   "lines": [
+    {
+     "text": "\u957f\u5ea66\uff0c53\u79cd\uff01\u7b54\u6848\u662fC\uff01",
+     "caption": "\u957f\u5ea66\uff0c53\u79cd\uff01\u7b54\u6848\u662fC\uff01",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/226f15a0f7d70093.wav",
+     "from": 0,
+     "frames": 98
+    },
+    {
+     "text": "\u522b\u900913\uff1a\u53ea\u7b97\u4e86\u9aa8\u724c\uff01",
+     "caption": "\u522b\u900913\uff1a\u53ea\u7b97\u4e86\u9aa8\u724c\uff01",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/d32b4ea90231d87a.wav",
+     "from": 102,
+     "frames": 69
+    },
+    {
+     "text": "\u7b54\u684853\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "caption": "\u7b54\u684853\uff0c\u4f60\u7b54\u5bf9\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "file": "2026-11-01-domino-tromino-2x6-zh/short/audio/856ae31ed818624d.wav",
+     "from": 175,
+     "frames": 130
+    }
+   ]
+  }
+ ]
+}

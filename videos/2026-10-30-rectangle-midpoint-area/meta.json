@@ -1,6 +1,6 @@
 {
- "title": "Big Triangle, Minus a Small One | AMC 8-Style Level 4",
- "description": "A 12 by 8 rectangle, a midpoint and two crossing lines: what is the area of the shaded shape? Lots of kids answer 48. Vantee finds the crossing point with similar triangles, takes a big triangle and subtracts the small corner, then checks it a second way by splitting the shape in two. Then try a 15 by 8 rectangle yourself!\n\n0:00 Intro\n0:15 The question\n0:42 What are we asked?\n1:10 Try it yourself\n1:26 Solution 1: big triangle minus small\n2:48 Solution 2: split it in two\n3:59 Common traps\n4:37 Your turn: a new rectangle\n5:12 New rectangle: the answer\n6:11 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Area in a Rectangle with a Midpoint — Big Minus Small",
+ "description": "AMC 8 practice problem on area in a rectangle with a midpoint and crossing lines, solved with similar triangles. (Level 4 of 5)\nA 12 by 8 rectangle, a midpoint and two crossing lines: what is the area of the shaded shape? Lots of kids answer 48. Vantee finds the crossing point with similar triangles, takes a big triangle and subtracts the small corner, then checks it a second way by splitting the shape in two. Then try a 15 by 8 rectangle yourself!\n\n0:00 Intro\n0:15 The question\n0:42 What are we asked?\n1:10 Try it yourself\n1:26 Solution 1: big triangle minus small\n2:48 Solution 2: split it in two\n3:59 Common traps\n4:37 Your turn: a new rectangle\n5:12 New rectangle: the answer\n6:11 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mixed_template:c1-717",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "12 by 8 rectangle, M is the midpoint of the top. What's the area of the shaded shape APMD? Comment your answer before you watch the solution!"
 }

@@ -1,0 +1,492 @@
+{
+ "fps": 30,
+ "durationInFrames": 11980,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 703,
+   "lines": [
+    {
+     "text": "\u5c0f\u7ea2\u9a91\u8f66\u6162\u6162\u722c\u4e0a\u4e00\u5ea7\u5c71\u5761\uff0c\u518d\u98de\u5feb\u5730\u51b2\u4e0b\u6765\u3002\u5979\u7684\u5e73\u5747\u901f\u5ea6\u662f\u591a\u5c11\uff1f",
+     "caption": "\u5c0f\u7ea2\u9a91\u8f66\u6162\u6162\u722c\u4e0a\u4e00\u5ea7\u5c71\u5761\uff0c\u518d\u98de\u5feb\u5730\u51b2\u4e0b\u6765\u3002\u5979\u7684\u5e73\u5747\u901f\u5ea6\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-31-hill-average-speed-zh/audio/bedb02b765136bca.wav",
+     "from": 0,
+     "frames": 260
+    },
+    {
+     "text": "\u628a\u4e24\u4e2a\u901f\u5ea6\u5e73\u5747\u4e00\u4e0b\uff0c\u597d\u50cf\u633a\u5bf9\uff1f\u8fd9\u53ef\u662f\u4e2a\u9677\u9631\uff01\u800c\u4e14\u5355\u4f4d\u91cc\u8fd8\u85cf\u7740\u7b2c\u4e8c\u4e2a\u9677\u9631\uff01",
+     "caption": "\u628a\u4e24\u4e2a\u901f\u5ea6\u5e73\u5747\u4e00\u4e0b\uff0c\u597d\u50cf\u633a\u5bf9\uff1f\u8fd9\u53ef\u662f\u4e2a\u9677\u9631\uff01\u800c\u4e14\u5355\u4f4d\u91cc\u8fd8\u85cf\u7740\u7b2c\u4e8c\u4e2a\u9677\u9631\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/a14e29e74cb57e8b.wav",
+     "from": 270,
+     "frames": 268
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u4ed4\u7ec6\u7b97\u4e00\u7b97\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u4ed4\u7ec6\u7b97\u4e00\u7b97\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/0d780b46f439be7d.wav",
+     "from": 548,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 703,
+   "frames": 864,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 44
+    },
+    {
+     "text": "\u5c0f\u7ea2\u9a91\u8f66\u4e0a\u4e00\u5ea73\u5343\u7c73\u957f\u7684\u5c71\u5761\uff0c\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f612\u5343\u7c73\u3002",
+     "caption": "\u5c0f\u7ea2\u9a91\u8f66\u4e0a\u4e00\u5ea73\u5343\u7c73\u957f\u7684\u5c71\u5761\uff0c\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f612\u5343\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/fb65a55c7dba9645.wav",
+     "from": 54,
+     "frames": 220
+    },
+    {
+     "text": "\u7136\u540e\u6cbf\u7740\u540c\u4e00\u5ea7\u5c71\u5761\u9a91\u4e0b\u6765\uff0c\u901f\u5ea6\u662f\u6bcf\u79d210\u7c73\u3002",
+     "caption": "\u7136\u540e\u6cbf\u7740\u540c\u4e00\u5ea7\u5c71\u5761\u9a91\u4e0b\u6765\uff0c\u901f\u5ea6\u662f\u6bcf\u79d210\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/55abb7d53f77d519.wav",
+     "from": 284,
+     "frames": 191
+    },
+    {
+     "text": "\u6574\u4e2a\u5f80\u8fd4\u8fc7\u7a0b\u4e2d\uff0c\u5c0f\u7ea2\u7684\u5e73\u5747\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f6\u591a\u5c11\u5343\u7c73\uff1f",
+     "caption": "\u6574\u4e2a\u5f80\u8fd4\u8fc7\u7a0b\u4e2d\uff0c\u5c0f\u7ea2\u7684\u5e73\u5747\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f6\u591a\u5c11\u5343\u7c73\uff1f",
+     "file": "2026-10-31-hill-average-speed-zh/audio/83b5ecaee726e47f.wav",
+     "from": 485,
+     "frames": 188
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 683,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1567,
+   "frames": 695,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e0a\u57613\u5343\u7c73\uff0c\u4e0b\u5761\u8fd8\u662f\u8fd93\u5343\u7c73\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e0a\u57613\u5343\u7c73\uff0c\u4e0b\u5761\u8fd8\u662f\u8fd93\u5343\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/f4428cef2b3d030c.wav",
+     "from": 0,
+     "frames": 190
+    },
+    {
+     "text": "\u6ce8\u610f\uff1a\u4e24\u4e2a\u901f\u5ea6\u7684\u5355\u4f4d\u4e0d\u4e00\u6837\u3002\u4e00\u4e2a\u662f\u6bcf\u5c0f\u65f6\u591a\u5c11\u5343\u7c73\uff0c\u4e00\u4e2a\u662f\u6bcf\u79d2\u591a\u5c11\u7c73\u3002",
+     "caption": "\u6ce8\u610f\uff1a\u4e24\u4e2a\u901f\u5ea6\u7684\u5355\u4f4d\u4e0d\u4e00\u6837\u3002\u4e00\u4e2a\u662f\u6bcf\u5c0f\u65f6\u591a\u5c11\u5343\u7c73\uff0c\u4e00\u4e2a\u662f\u6bcf\u79d2\u591a\u5c11\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/275d78abd35adbb2.wav",
+     "from": 200,
+     "frames": 286
+    },
+    {
+     "text": "\u5e73\u5747\u901f\u5ea6\uff0c\u5c31\u662f\u603b\u8def\u7a0b\u9664\u4ee5\u603b\u65f6\u95f4\u3002",
+     "caption": "\u5e73\u5747\u901f\u5ea6\uff0c\u5c31\u662f\u603b\u8def\u7a0b\u9664\u4ee5\u603b\u65f6\u95f4\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/3daab9dcdbb3121d.wav",
+     "from": 496,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2262,
+   "frames": 482,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "convert",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u603b\u8def\u7a0b\u9664\u4ee5\u603b\u65f6\u95f4",
+   "from": 2744,
+   "frames": 1060,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u601d\u8def\u662f\uff1a\u5148\u6c42\u603b\u8def\u7a0b\uff0c\u518d\u6c42\u603b\u65f6\u95f4\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u601d\u8def\u662f\uff1a\u5148\u6c42\u603b\u8def\u7a0b\uff0c\u518d\u6c42\u603b\u65f6\u95f4\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/87548bfbd40c0646.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u7b2c\u4e00\u6b65\uff0c\u5148\u7edf\u4e00\u5355\u4f4d\u3002\u6bcf\u79d210\u7c73\uff0c\u5c31\u662f\u6bcf\u4e00\u79d2\u9a9110\u7c73\u3002",
+     "caption": "\u7b2c\u4e00\u6b65\uff0c\u5148\u7edf\u4e00\u5355\u4f4d\u3002\u6bcf\u79d210\u7c73\uff0c\u5c31\u662f\u6bcf\u4e00\u79d2\u9a9110\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/0c350c55a96c83e6.wav",
+     "from": 205,
+     "frames": 208
+    },
+    {
+     "text": "\u4e00\u5c0f\u65f6\u6709\u4e09\u5343\u516d\u767e\u79d2\u3002",
+     "caption": "\u4e00\u5c0f\u65f6\u67093600\u79d2\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/8399f6f8ccfca06b.wav",
+     "from": 423,
+     "frames": 113
+    },
+    {
+     "text": "\u6240\u4ee5\u4e00\u5c0f\u65f6\u80fd\u9a9110\u4e58\u4e09\u5343\u516d\u767e\uff0c\u4e5f\u5c31\u662f\u4e09\u4e07\u516d\u5343\u7c73\u3002",
+     "caption": "\u6240\u4ee5\u4e00\u5c0f\u65f6\u80fd\u9a9110\u4e583600\uff0c\u4e5f\u5c31\u662f36000\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/8df285ba27b0f0cf.wav",
+     "from": 547,
+     "frames": 212
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f36\u5343\u7c73\u3002\u6240\u4ee5\u4e0b\u5761\u7684\u901f\u5ea6\uff0c\u662f\u6bcf\u5c0f\u65f636\u5343\u7c73\u3002",
+     "caption": "\u4e5f\u5c31\u662f36\u5343\u7c73\u3002\u6240\u4ee5\u4e0b\u5761\u7684\u901f\u5ea6\uff0c\u662f\u6bcf\u5c0f\u65f636\u5343\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/f44c087747666d3a.wav",
+     "from": 768,
+     "frames": 238
+    }
+   ]
+  },
+  {
+   "id": "times",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3804,
+   "frames": 1466,
+   "lines": [
+    {
+     "text": "\u4e0a\u57613\u5343\u7c73\uff0c\u6bcf\u5c0f\u65f6\u9a9112\u5343\u7c73\uff0c\u8981\u7528\u56db\u5206\u4e4b\u4e00\u5c0f\u65f6\uff0c\u4e5f\u5c31\u662f15\u5206\u949f\u3002",
+     "caption": "\u4e0a\u57613\u5343\u7c73\uff0c\u6bcf\u5c0f\u65f6\u9a9112\u5343\u7c73\uff0c\u8981\u7528\u56db\u5206\u4e4b\u4e00\u5c0f\u65f6\uff0c\u4e5f\u5c31\u662f15\u5206\u949f\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/2b1db9d7ddbb5459.wav",
+     "from": 0,
+     "frames": 272
+    },
+    {
+     "text": "\u4e0b\u57613\u5343\u7c73\uff0c\u6bcf\u5c0f\u65f6\u9a9136\u5343\u7c73\uff0c\u8981\u7528\u5341\u4e8c\u5206\u4e4b\u4e00\u5c0f\u65f6\u3002",
+     "caption": "\u4e0b\u57613\u5343\u7c73\uff0c\u6bcf\u5c0f\u65f6\u9a9136\u5343\u7c73\uff0c\u8981\u7528\u5341\u4e8c\u5206\u4e4b\u4e00\u5c0f\u65f6\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/857e93a485c66cdb.wav",
+     "from": 282,
+     "frames": 225
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f5\u5206\u949f\u3002",
+     "caption": "\u4e5f\u5c31\u662f5\u5206\u949f\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/ac77cd3e0acce934.wav",
+     "from": 517,
+     "frames": 59
+    },
+    {
+     "text": "\u52a0\u8d77\u6765\uff0c\u4e00\u5171\u9a91\u4e866\u5343\u7c73\uff0c\u7528\u4e8620\u5206\u949f\u3002",
+     "caption": "\u52a0\u8d77\u6765\uff0c\u4e00\u5171\u9a91\u4e866\u5343\u7c73\uff0c\u7528\u4e8620\u5206\u949f\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/78ca326abd2b569e.wav",
+     "from": 586,
+     "frames": 158
+    },
+    {
+     "text": "20\u5206\u949f\u662f\u4e09\u5206\u4e4b\u4e00\u5c0f\u65f6\u3002\u6240\u4ee5\u7167\u8fd9\u4e2a\u901f\u5ea6\uff0c\u4e00\u6574\u5c0f\u65f6\u5c31\u80fd\u9a913\u500d\u90a3\u4e48\u8fdc\u3002",
+     "caption": "20\u5206\u949f\u662f\u4e09\u5206\u4e4b\u4e00\u5c0f\u65f6\u3002\u6240\u4ee5\u7167\u8fd9\u4e2a\u901f\u5ea6\uff0c\u4e00\u6574\u5c0f\u65f6\u5c31\u80fd\u9a913\u500d\u90a3\u4e48\u8fdc\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/6b93d54c1c724bbc.wav",
+     "from": 754,
+     "frames": 258
+    },
+    {
+     "text": "6\u4e583\u7b49\u4e8e18\u3002\u6240\u4ee5\u5e73\u5747\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f618\u5343\u7c73\u3002",
+     "caption": "6\u4e583\u7b49\u4e8e18\u3002\u6240\u4ee5\u5e73\u5747\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f618\u5343\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/c2a4f141c194fa98.wav",
+     "from": 1022,
+     "frames": 248
+    },
+    {
+     "text": "\u7b54\u6848\u662f18\uff0c\u4e5f\u5c31\u662f\u9009\u9879B\uff01",
+     "caption": "\u7b54\u6848\u662f18\uff0c\u4e5f\u5c31\u662f\u9009\u9879B\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/dfa7e650ace22e00.wav",
+     "from": 1280,
+     "frames": 118
+    }
+   ]
+  },
+  {
+   "id": "friendly",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u6311\u4e00\u4e2a\u597d\u7b97\u7684\u957f\u5ea6",
+   "from": 5270,
+   "frames": 1354,
+   "lines": [
+    {
+     "text": "\u8fd9\u91cc\u6709\u4e2a\u5de7\u5999\u7684\u6377\u5f84\u3002\u5c71\u5761\u6709\u591a\u957f\uff0c\u4e0d\u4f1a\u5f71\u54cd\u5e73\u5747\u901f\u5ea6\uff0c\u56e0\u4e3a\u4e0a\u5761\u548c\u4e0b\u5761\u7684\u65f6\u95f4\u4f1a\u4e00\u8d77\u53d8\u3002",
+     "caption": "\u8fd9\u91cc\u6709\u4e2a\u5de7\u5999\u7684\u6377\u5f84\u3002\u5c71\u5761\u6709\u591a\u957f\uff0c\u4e0d\u4f1a\u5f71\u54cd\u5e73\u5747\u901f\u5ea6\uff0c\u56e0\u4e3a\u4e0a\u5761\u548c\u4e0b\u5761\u7684\u65f6\u95f4\u4f1a\u4e00\u8d77\u53d8\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/be2899c62cd39061.wav",
+     "from": 0,
+     "frames": 294
+    },
+    {
+     "text": "\u6240\u4ee5\u6211\u4eec\u6311\u4e00\u4e2a\u597d\u7b97\u7684\u957f\u5ea6\uff0c\u6bd4\u598236\u5343\u7c73\uff01",
+     "caption": "\u6240\u4ee5\u6211\u4eec\u6311\u4e00\u4e2a\u597d\u7b97\u7684\u957f\u5ea6\uff0c\u6bd4\u598236\u5343\u7c73\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/747d6c5cda4340d9.wav",
+     "from": 305,
+     "frames": 152
+    },
+    {
+     "text": "\u4e0a\u5761\u6bcf\u5c0f\u65f612\u5343\u7c73\uff0c\u89813\u5c0f\u65f6\u3002\u4e0b\u5761\u6bcf\u5c0f\u65f636\u5343\u7c73\uff0c\u89811\u5c0f\u65f6\u3002",
+     "caption": "\u4e0a\u5761\u6bcf\u5c0f\u65f612\u5343\u7c73\uff0c\u89813\u5c0f\u65f6\u3002\u4e0b\u5761\u6bcf\u5c0f\u65f636\u5343\u7c73\uff0c\u89811\u5c0f\u65f6\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/e14cf844a9b6298a.wav",
+     "from": 467,
+     "frames": 258
+    },
+    {
+     "text": "\u4e00\u517172\u5343\u7c73\uff0c\u7528\u4e864\u5c0f\u65f6\u300272\u9664\u4ee54\u7b49\u4e8e18\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "\u4e00\u517172\u5343\u7c73\uff0c\u7528\u4e864\u5c0f\u65f6\u300272\u9664\u4ee54\u7b49\u4e8e18\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/ea4104b793bf65fc.wav",
+     "from": 735,
+     "frames": 232
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u8def\u7a0b\u4f1a\u7b97\u51fa\u9ebb\u70e6\u7684\u5206\u6570\u65f6\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u8def\u7a0b\u4f1a\u7b97\u51fa\u9ebb\u70e6\u7684\u5206\u6570\u65f6\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/31535b488001a166.wav",
+     "from": 977,
+     "frames": 183
+    },
+    {
+     "text": "\u5c31\u6311\u4e00\u4e2a\u80fd\u88ab\u4e24\u4e2a\u901f\u5ea6\u6574\u9664\u7684\u957f\u5ea6\u3002",
+     "caption": "\u5c31\u6311\u4e00\u4e2a\u80fd\u88ab\u4e24\u4e2a\u901f\u5ea6\u6574\u9664\u7684\u957f\u5ea6\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/17693c00521b00c2.wav",
+     "from": 1170,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 6624,
+   "frames": 1796,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/e1975ab8f6664780.wav",
+     "from": 0,
+     "frames": 129
+    },
+    {
+     "text": "\u9009\u9879A\u662f11\uff0c\u5c31\u662f12\u548c10\u7684\u5e73\u5747\u6570\u3002\u53ef\u8fd9\u4e24\u4e2a\u901f\u5ea6\u7684\u5355\u4f4d\u6839\u672c\u4e0d\u4e00\u6837\uff01",
+     "caption": "\u9009\u9879A\u662f11\uff0c\u5c31\u662f12\u548c10\u7684\u5e73\u5747\u6570\u3002\u53ef\u8fd9\u4e24\u4e2a\u901f\u5ea6\u7684\u5355\u4f4d\u6839\u672c\u4e0d\u4e00\u6837\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/7c72177ac64d26e8.wav",
+     "from": 139,
+     "frames": 234
+    },
+    {
+     "text": "\u9009\u9879C\u662f22\uff0c\u5c31\u662f12\u52a010\u3002\u628a\u901f\u5ea6\u52a0\u8d77\u6765\uff0c\u5b8c\u5168\u8bf4\u4e0d\u901a\u3002",
+     "caption": "\u9009\u9879C\u662f22\uff0c\u5c31\u662f12\u52a010\u3002\u628a\u901f\u5ea6\u52a0\u8d77\u6765\uff0c\u5b8c\u5168\u8bf4\u4e0d\u901a\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/4bc6836cceb5c55d.wav",
+     "from": 384,
+     "frames": 234
+    },
+    {
+     "text": "\u9009\u9879E\u662f36\uff0c\u8fd9\u53ea\u662f\u4e0b\u5761\u7684\u901f\u5ea6\uff0c\u4e0d\u662f\u6574\u4e2a\u5f80\u8fd4\u3002",
+     "caption": "\u9009\u9879E\u662f36\uff0c\u8fd9\u53ea\u662f\u4e0b\u5761\u7684\u901f\u5ea6\uff0c\u4e0d\u662f\u6574\u4e2a\u5f80\u8fd4\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/c21860648f9951d6.wav",
+     "from": 628,
+     "frames": 171
+    },
+    {
+     "text": "\u9009\u9879D\u662f24\uff0c\u662f12\u548c36\u7684\u5e73\u5747\u6570\u3002\u5355\u4f4d\u5bf9\u4e86\uff0c\u53ef\u5b83\u8fd8\u662f\u4e2a\u9677\u9631\uff01",
+     "caption": "\u9009\u9879D\u662f24\uff0c\u662f12\u548c36\u7684\u5e73\u5747\u6570\u3002\u5355\u4f4d\u5bf9\u4e86\uff0c\u53ef\u5b83\u8fd8\u662f\u4e2a\u9677\u9631\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/d25b16048b474ee6.wav",
+     "from": 809,
+     "frames": 261
+    },
+    {
+     "text": "\u5c0f\u7ea2\u6162\u6162\u9a91\u4e8615\u5206\u949f\uff0c\u5feb\u901f\u9a91\u53ea\u7528\u4e865\u5206\u949f\u3002",
+     "caption": "\u5c0f\u7ea2\u6162\u6162\u9a91\u4e8615\u5206\u949f\uff0c\u5feb\u901f\u9a91\u53ea\u7528\u4e865\u5206\u949f\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/d3b5aff147087d2c.wav",
+     "from": 1080,
+     "frames": 179
+    },
+    {
+     "text": "\u6162\u7684\u90a3\u6bb5\u82b1\u7684\u65f6\u95f4\u66f4\u591a\uff0c\u6240\u4ee5\u5e73\u5747\u901f\u5ea6\u66f4\u4f4e\u3002",
+     "caption": "\u6162\u7684\u90a3\u6bb5\u82b1\u7684\u65f6\u95f4\u66f4\u591a\uff0c\u6240\u4ee5\u5e73\u5747\u901f\u5ea6\u66f4\u4f4e\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/5dbdff8f0e7cf8b1.wav",
+     "from": 1269,
+     "frames": 160
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5e73\u5747\u901f\u5ea6\u662f\u603b\u8def\u7a0b\u9664\u4ee5\u603b\u65f6\u95f4\u3002\u5343\u4e07\u522b\u76f4\u63a5\u628a\u901f\u5ea6\u5e73\u5747\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5e73\u5747\u901f\u5ea6\u662f\u603b\u8def\u7a0b\u9664\u4ee5\u603b\u65f6\u95f4\u3002\u5343\u4e07\u522b\u76f4\u63a5\u628a\u901f\u5ea6\u5e73\u5747\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/981c4f68b855a913.wav",
+     "from": 1439,
+     "frames": 297
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u53e6\u4e00\u5ea7\u5c71\u5761",
+   "from": 8420,
+   "frames": 536,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u5c0f\u660e\u9a91\u8f66\u4e0a\u4e00\u5ea73\u5343\u7c73\u957f\u7684\u5c71\u5761\uff0c\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f69\u5343\u7c73\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u5c0f\u660e\u9a91\u8f66\u4e0a\u4e00\u5ea73\u5343\u7c73\u957f\u7684\u5c71\u5761\uff0c\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f69\u5343\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/f2453b2ffffff461.wav",
+     "from": 0,
+     "frames": 262
+    },
+    {
+     "text": "\u4ed6\u4e0b\u5761\u7684\u901f\u5ea6\u662f\u6bcf\u79d25\u7c73\u3002\u4ed6\u7684\u5e73\u5747\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f6\u591a\u5c11\u5343\u7c73\uff1f",
+     "caption": "\u4ed6\u4e0b\u5761\u7684\u901f\u5ea6\u662f\u6bcf\u79d25\u7c73\u3002\u4ed6\u7684\u5e73\u5747\u901f\u5ea6\u662f\u6bcf\u5c0f\u65f6\u591a\u5c11\u5343\u7c73\uff1f",
+     "file": "2026-10-31-hill-average-speed-zh/audio/fb73791e9f234cef.wav",
+     "from": 272,
+     "frames": 226
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8956,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u6311\u6218\u4e00\u4e0b\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u6311\u6218\u4e00\u4e0b\u5427\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/70e9cf0776d96b80.wav",
+     "from": 0,
+     "frames": 84
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u53e6\u4e00\u5ea7\u5c71\u5761\uff1a\u7b54\u6848",
+   "from": 9424,
+   "frames": 1859,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u6838\u5bf9\u4e00\u4e0b\u3002",
+     "caption": "\u6211\u4eec\u6765\u6838\u5bf9\u4e00\u4e0b\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/d75740e4793895b9.wav",
+     "from": 0,
+     "frames": 53
+    },
+    {
+     "text": "\u6bcf\u79d25\u7c73\uff0c\u5c31\u662f5\u4e58\u4e09\u5343\u516d\u767e\uff0c\u4e00\u5c0f\u65f6\u4e00\u4e07\u516b\u5343\u7c73\u3002",
+     "caption": "\u6bcf\u79d25\u7c73\uff0c\u5c31\u662f5\u4e583600\uff0c\u4e00\u5c0f\u65f618000\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/59a08ef52cdbb006.wav",
+     "from": 64,
+     "frames": 222
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f\u6bcf\u5c0f\u65f618\u5343\u7c73\u3002",
+     "caption": "\u4e5f\u5c31\u662f\u6bcf\u5c0f\u65f618\u5343\u7c73\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/2ad6bab747c14424.wav",
+     "from": 296,
+     "frames": 107
+    },
+    {
+     "text": "\u4e0a\u5761\u8981\u7528\u4e09\u5206\u4e4b\u4e00\u5c0f\u65f6\uff0c20\u5206\u949f\u3002\u4e0b\u5761\u8981\u7528\u516d\u5206\u4e4b\u4e00\u5c0f\u65f6\uff0c10\u5206\u949f\u3002",
+     "caption": "\u4e0a\u5761\u8981\u7528\u4e09\u5206\u4e4b\u4e00\u5c0f\u65f6\uff0c20\u5206\u949f\u3002\u4e0b\u5761\u8981\u7528\u516d\u5206\u4e4b\u4e00\u5c0f\u65f6\uff0c10\u5206\u949f\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/7476ab3e94d287e4.wav",
+     "from": 414,
+     "frames": 300
+    },
+    {
+     "text": "\u52a0\u8d77\u6765\uff0c\u4ed6\u4e00\u5171\u9a91\u4e866\u5343\u7c73\uff0c\u7528\u4e8630\u5206\u949f\u3002",
+     "caption": "\u52a0\u8d77\u6765\uff0c\u4ed6\u4e00\u5171\u9a91\u4e866\u5343\u7c73\uff0c\u7528\u4e8630\u5206\u949f\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/6718c51df737e152.wav",
+     "from": 724,
+     "frames": 146
+    },
+    {
+     "text": "30\u5206\u949f\u662f\u534a\u5c0f\u65f6\uff0c\u6240\u4ee5\u4e00\u6574\u5c0f\u65f6\uff0c\u4ed6\u80fd\u9a91\u4e24\u500d\u90a3\u4e48\u8fdc\u30026\u4e582\uff0c\u5c31\u662f\u6bcf\u5c0f\u65f612\u5343\u7c73\uff01",
+     "caption": "30\u5206\u949f\u662f\u534a\u5c0f\u65f6\uff0c\u6240\u4ee5\u4e00\u6574\u5c0f\u65f6\uff0c\u4ed6\u80fd\u9a912\u500d\u90a3\u4e48\u8fdc\u30026\u4e582\uff0c\u5c31\u662f\u6bcf\u5c0f\u65f612\u5343\u7c73\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/8a36449b5357b495.wav",
+     "from": 880,
+     "frames": 384
+    },
+    {
+     "text": "\u6709\u4e2a\u5bb9\u6613\u4e0a\u5f53\u7684\u5730\u65b9\u3002\u628a9\u548c18\u5e73\u5747\u4e00\u4e0b\uff0c\u4f1a\u6bd413\u8fd8\u591a\u3002",
+     "caption": "\u6709\u4e2a\u5bb9\u6613\u4e0a\u5f53\u7684\u5730\u65b9\u3002\u628a9\u548c18\u5e73\u5747\u4e00\u4e0b\uff0c\u4f1a\u6bd413\u8fd8\u591a\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/d786bcdd641d4b4e.wav",
+     "from": 1274,
+     "frames": 230
+    },
+    {
+     "text": "\u771f\u6b63\u7684\u7b54\u6848\u66f4\u5c0f\uff0c\u56e0\u4e3a\u6162\u7684\u90a3\u6bb5\u82b1\u7684\u65f6\u95f4\u66f4\u957f\u3002",
+     "caption": "\u771f\u6b63\u7684\u7b54\u6848\u66f4\u5c0f\uff0c\u56e0\u4e3a\u6162\u7684\u90a3\u6bb5\u82b1\u7684\u65f6\u95f4\u66f4\u957f\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/f215515bf41b89c0.wav",
+     "from": 1514,
+     "frames": 159
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8612\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8612\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/eb959f40e196ef8d.wav",
+     "from": 1683,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 11283,
+   "frames": 697,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/83b6e0ebbeb944f9.wav",
+     "from": 0,
+     "frames": 71
+    },
+    {
+     "text": "\u7b2c\u4e00\u6b65\uff0c\u5148\u628a\u5355\u4f4d\u7edf\u4e00\u3002\u7136\u540e\u6c42\u51fa\u603b\u8def\u7a0b\u548c\u603b\u65f6\u95f4\u3002",
+     "caption": "\u7b2c\u4e00\u6b65\uff0c\u5148\u628a\u5355\u4f4d\u7edf\u4e00\u3002\u7136\u540e\u6c42\u51fa\u603b\u8def\u7a0b\u548c\u603b\u65f6\u95f4\u3002",
+     "file": "2026-10-31-hill-average-speed-zh/audio/02aea508a4fa6ea6.wav",
+     "from": 81,
+     "frames": 185
+    },
+    {
+     "text": "\u5e73\u5747\u901f\u5ea6\u5c31\u662f\u603b\u8def\u7a0b\u9664\u4ee5\u603b\u65f6\u95f4\u3002\u4e0d\u8981\u628a\u4e24\u4e2a\u901f\u5ea6\u76f4\u63a5\u5e73\u5747\uff01",
+     "caption": "\u5e73\u5747\u901f\u5ea6\u5c31\u662f\u603b\u8def\u7a0b\u9664\u4ee5\u603b\u65f6\u95f4\u3002\u4e0d\u8981\u628a\u4e24\u4e2a\u901f\u5ea6\u76f4\u63a5\u5e73\u5747\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/20462ac6d2b5fb11.wav",
+     "from": 276,
+     "frames": 213
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-hill-average-speed-zh/audio/f8351124be57142c.wav",
+     "from": 499,
+     "frames": 114
+    }
+   ]
+  }
+ ]
+}

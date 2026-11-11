@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-ant-on-cube';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -306,7 +307,7 @@ const makePause = (seconds: number, prompt: string, zzz: boolean): SceneComponen
   return (
     <>
       <Stage>
-        <Cube labels={(k) => (k === 'A' || k === 'G' ? 1 : 0)} dots={{ A: { c: C.ink }, G: { c: C.amber } }} flag={1} />
+        <Cube labels={(k) => (k === 'G' ? 1 : 0)} dots={{ A: { c: C.ink }, G: { c: C.amber } }} flag={1} />
         <Ant p={P.A} zzz={zzz ? 1 : 0} />
       </Stage>
       <Text x={PANEL} y={130} w={900} size={44} style={fadeUp(f, 6)}>{prompt}</Text>
@@ -606,7 +607,7 @@ const Variant: SceneComponent = ({ scene }) => {
   return (
     <>
       <Stage>
-        <Cube labels={(k) => (k === 'A' || k === 'G' ? 1 : 0)} dots={{ A: { c: C.ink }, G: { c: C.amber } }} flag={1} />
+        <Cube labels={(k) => (k === 'G' ? 1 : 0)} dots={{ A: { c: C.ink }, G: { c: C.amber } }} flag={1} />
         <Ant p={P.A} zzz={ease(f, 4, 10)} />
       </Stage>
       <Text x={PANEL} y={140} w={900} size={52} weight={900} color={C.violet} style={fadeUp(f, at(scene, 0, 0.3))}>The sleepy ant</Text>
@@ -637,7 +638,7 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
   return (
     <>
       <Stage>
-        <Cube labels={(k) => (k === 'A' || k === 'G' ? 1 : 0)} dots={{ A: { c: C.ink }, G: { c: C.amber } }} flag={1} />
+        <Cube labels={(k) => (k === 'G' ? 1 : 0)} dots={{ A: { c: C.ink }, G: { c: C.amber } }} flag={1} />
         {ROUTES.map((r, i) => <Route key={r} path={r} p={ease(f, RT(i), 18)} opacity={flash(i)} />)}
         <Ant p={P.A} zzz={fadeTo(f, at(scene, 1, 0.2), 0, 10)} />
       </Stage>
@@ -714,3 +715,15 @@ export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
 
 void stateDots;
 export type { Scene };
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the cube with the ant at A and the flag at G, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>1/27?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <g transform="translate(-185 -191) scale(1.05)">
+        <Cube labels={(k) => (k === 'G' ? 1 : 0)} flag={1} />
+        <Ant p={P.A} />
+      </g>
+    </svg>
+  </ThumbFrame>
+);

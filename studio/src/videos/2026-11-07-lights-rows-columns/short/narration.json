@@ -1,0 +1,46 @@
+{
+ "title": "Nine Lights, How Many Patterns? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's three hundred eighty-four? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Nine lights in a three by three grid, each on or off.",
+    "How many patterns have at least one full row or column all lit?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "losers",
+   "lines": [
+    "Count the losers: no full row or column.",
+    "Each row has seven safe choices. So seven cubed: three hundred forty-three.",
+    "Seventy-eight of those still have a full column. That leaves two hundred sixty-five losers."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "All five hundred twelve, minus the losers, is two hundred forty-seven!",
+    "Three hundred eighty-four was the trap. It counts this one twice!",
+    "Did you get two hundred forty-seven? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

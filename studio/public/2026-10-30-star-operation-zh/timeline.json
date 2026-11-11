@@ -1,0 +1,568 @@
+{
+ "fps": 30,
+ "durationInFrames": 14317,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 493,
+   "lines": [
+    {
+     "text": "\u8fd9\u9053\u9898\u91cc\u6709\u4e00\u4e2a\u5947\u602a\u7684\u65b0\u7b26\u53f7\uff1a\u4e00\u9897\u661f\u661f\u3002",
+     "caption": "\u8fd9\u9053\u9898\u91cc\u6709\u4e00\u4e2a\u5947\u602a\u7684\u65b0\u7b26\u53f7\uff1a\u4e00\u9897\u661f\u661f\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/e3db5d0e04f6a7d9.wav",
+     "from": 0,
+     "frames": 137
+    },
+    {
+     "text": "\u5f88\u591a\u540c\u5b66\u4f1a\u63d0\u524d\u4e00\u6b65\u505c\u4e0b\u6765\u3002\u6211\u4eec\u8981\u4e00\u76f4\u7b97\u5230\u6700\u540e\uff01",
+     "caption": "\u5f88\u591a\u540c\u5b66\u4f1a\u63d0\u524d\u4e00\u6b65\u505c\u4e0b\u6765\u3002\u6211\u4eec\u8981\u4e00\u76f4\u7b97\u5230\u6700\u540e\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/e5f5e8f9571970ee.wav",
+     "from": 147,
+     "frames": 170
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u8fd9\u9053\u9898\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u8fd9\u9053\u9898\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/394f766631ba02f4.wav",
+     "from": 327,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 493,
+   "frames": 745,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002\u5bf9\u4e8e\u4e24\u4e2a\u6570a\u548cb\uff0ca\u661fb\u7b49\u4e8ea\u52a0b\uff0c\u9664\u4ee51\u52a0a\u4e58b\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002\u5bf9\u4e8e\u4e24\u4e2a\u6570a\u548cb\uff0ca\u661fb\u7b49\u4e8ea\u52a0b\uff0c\u9664\u4ee51\u52a0a\u4e58b\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/9cfdc465635068ef.wav",
+     "from": 0,
+     "frames": 309
+    },
+    {
+     "text": "\u6c422\u5206\u4e4b1\u661f3\u5206\u4e4b1\uff0c\u518d\u661f4\u5206\u4e4b1\uff0c\u518d\u661f5\u5206\u4e4b1\u7684\u503c\u3002",
+     "caption": "\u6c422\u5206\u4e4b1\u661f3\u5206\u4e4b1\uff0c\u518d\u661f4\u5206\u4e4b1\uff0c\u518d\u661f5\u5206\u4e4b1\u7684\u503c\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/60f2f8667cd48963.wav",
+     "from": 319,
+     "frames": 240
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 570,
+     "frames": 107
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1238,
+   "frames": 613,
+   "lines": [
+    {
+     "text": "\u90a3\u4e48\uff0c\u9898\u76ee\u5230\u5e95\u5728\u95ee\u4ec0\u4e48\uff1f",
+     "caption": "\u90a3\u4e48\uff0c\u9898\u76ee\u5230\u5e95\u5728\u95ee\u4ec0\u4e48\uff1f",
+     "file": "2026-10-30-star-operation-zh/audio/321f1952d01e6ab5.wav",
+     "from": 0,
+     "frames": 99
+    },
+    {
+     "text": "\u661f\u661f\u662f\u4e00\u4e2a\u65b0\u89c4\u5b9a\u7684\u8fd0\u7b97\u3002\u653e\u8fdb\u4e24\u4e2a\u6570\uff0c\u5c31\u4f1a\u51fa\u6765\u4e00\u4e2a\u65b0\u7684\u6570\u3002",
+     "caption": "\u661f\u661f\u662f\u4e00\u4e2a\u65b0\u89c4\u5b9a\u7684\u8fd0\u7b97\u3002\u653e\u8fdb\u4e24\u4e2a\u6570\uff0c\u5c31\u4f1a\u51fa\u6765\u4e00\u4e2a\u65b0\u7684\u6570\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/5a0aa0d5fa142144.wav",
+     "from": 109,
+     "frames": 197
+    },
+    {
+     "text": "\u62ec\u53f7\u544a\u8bc9\u6211\u4eec\uff1a\u5148\u7b97\u6700\u91cc\u9762\u7684\uff0c\u518d\u628a\u6bcf\u6b21\u7684\u7ed3\u679c\u548c\u4e0b\u4e00\u4e2a\u6570\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "caption": "\u62ec\u53f7\u544a\u8bc9\u6211\u4eec\uff1a\u5148\u7b97\u6700\u91cc\u9762\u7684\uff0c\u518d\u628a\u6bcf\u6b21\u7684\u7ed3\u679c\u548c\u4e0b\u4e00\u4e2a\u6570\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/309990f11dd85620.wav",
+     "from": 317,
+     "frames": 243
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 1851,
+   "frames": 496,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "step1",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u4e00\u6b65\u4e00\u6b65\u7b97",
+   "from": 2347,
+   "frames": 1034,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6309\u7167\u89c4\u5219\uff0c\u4e00\u6b65\u4e00\u6b65\u6765\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u6309\u7167\u89c4\u5219\uff0c\u4e00\u6b65\u4e00\u6b65\u6765\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/1a201275044ec121.wav",
+     "from": 0,
+     "frames": 123
+    },
+    {
+     "text": "\u7b2c\u4e00\u6b21\uff0c2\u5206\u4e4b1\u548c3\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002\u5206\u5b50\u548c\u5206\u6bcd\u5206\u5f00\u6765\u7b97\u3002",
+     "caption": "\u7b2c\u4e00\u6b21\uff0c2\u5206\u4e4b1\u548c3\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002\u5206\u5b50\u548c\u5206\u6bcd\u5206\u5f00\u6765\u7b97\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/4d4f1843f1d5dd4d.wav",
+     "from": 133,
+     "frames": 248
+    },
+    {
+     "text": "\u5206\u5b50\uff1a2\u5206\u4e4b1\u52a03\u5206\u4e4b1\uff0c\u7b49\u4e8e6\u5206\u4e4b5\u3002",
+     "caption": "\u5206\u5b50\uff1a2\u5206\u4e4b1\u52a03\u5206\u4e4b1\uff0c\u7b49\u4e8e6\u5206\u4e4b5\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/933dd08945bdeeed.wav",
+     "from": 390,
+     "frames": 190
+    },
+    {
+     "text": "\u5206\u6bcd\uff1a1\u52a06\u5206\u4e4b1\uff0c\u7b49\u4e8e6\u5206\u4e4b7\u3002",
+     "caption": "\u5206\u6bcd\uff1a1\u52a06\u5206\u4e4b1\uff0c\u7b49\u4e8e6\u5206\u4e4b7\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/5e769091cbcf913c.wav",
+     "from": 590,
+     "frames": 171
+    },
+    {
+     "text": "6\u5206\u4e4b5\u9664\u4ee56\u5206\u4e4b7\u3002\u4e24\u4e2a6\u7ea6\u6389\u4e86\uff0c\u5f97\u52307\u5206\u4e4b5\uff01",
+     "caption": "6\u5206\u4e4b5\u9664\u4ee56\u5206\u4e4b7\u3002\u4e24\u4e2a6\u7ea6\u6389\u4e86\uff0c\u5f97\u52307\u5206\u4e4b5\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/02a5c1a47b0e8812.wav",
+     "from": 771,
+     "frames": 209
+    }
+   ]
+  },
+  {
+   "id": "step2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3381,
+   "frames": 938,
+   "lines": [
+    {
+     "text": "\u7b2c\u4e8c\u6b21\uff1a7\u5206\u4e4b5\u548c4\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "caption": "\u7b2c\u4e8c\u6b21\uff1a7\u5206\u4e4b5\u548c4\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/992ec291ebd3f707.wav",
+     "from": 0,
+     "frames": 162
+    },
+    {
+     "text": "\u5206\u5b50\uff1a7\u5206\u4e4b5\u52a04\u5206\u4e4b1\uff0c\u7b49\u4e8e28\u5206\u4e4b27\u3002",
+     "caption": "\u5206\u5b50\uff1a7\u5206\u4e4b5\u52a04\u5206\u4e4b1\uff0c\u7b49\u4e8e28\u5206\u4e4b27\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/2d1b7393c8a73162.wav",
+     "from": 173,
+     "frames": 209
+    },
+    {
+     "text": "\u5206\u6bcd\uff1a1\u52a028\u5206\u4e4b5\uff0c\u7b49\u4e8e28\u5206\u4e4b33\u3002",
+     "caption": "\u5206\u6bcd\uff1a1\u52a028\u5206\u4e4b5\uff0c\u7b49\u4e8e28\u5206\u4e4b33\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/325cc26a10cc2911.wav",
+     "from": 392,
+     "frames": 206
+    },
+    {
+     "text": "\u6240\u4ee5\u5f97\u523033\u5206\u4e4b27\u3002\u5206\u5b50\u5206\u6bcd\u540c\u65f6\u9664\u4ee53\uff0c\u5f97\u523011\u5206\u4e4b9\uff01",
+     "caption": "\u6240\u4ee5\u5f97\u523033\u5206\u4e4b27\u3002\u5206\u5b50\u5206\u6bcd\u540c\u65f6\u9664\u4ee53\uff0c\u5f97\u523011\u5206\u4e4b9\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/399e2e9d6539cfa1.wav",
+     "from": 608,
+     "frames": 276
+    }
+   ]
+  },
+  {
+   "id": "step3",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4319,
+   "frames": 1014,
+   "lines": [
+    {
+     "text": "\u6700\u540e\u4e00\u6b21\uff1a11\u5206\u4e4b9\u548c5\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "caption": "\u6700\u540e\u4e00\u6b21\uff1a11\u5206\u4e4b9\u548c5\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/5b6d28d4063e881d.wav",
+     "from": 0,
+     "frames": 180
+    },
+    {
+     "text": "\u5206\u5b50\uff1a11\u5206\u4e4b9\u52a05\u5206\u4e4b1\uff0c\u7b49\u4e8e55\u5206\u4e4b56\u3002",
+     "caption": "\u5206\u5b50\uff1a11\u5206\u4e4b9\u52a05\u5206\u4e4b1\uff0c\u7b49\u4e8e55\u5206\u4e4b56\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/240a9a53fdd95d75.wav",
+     "from": 190,
+     "frames": 230
+    },
+    {
+     "text": "\u5206\u6bcd\uff1a1\u52a055\u5206\u4e4b9\uff0c\u7b49\u4e8e55\u5206\u4e4b64\u3002",
+     "caption": "\u5206\u6bcd\uff1a1\u52a055\u5206\u4e4b9\uff0c\u7b49\u4e8e55\u5206\u4e4b64\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/9de64a93d952ec21.wav",
+     "from": 430,
+     "frames": 179
+    },
+    {
+     "text": "\u6240\u4ee5\u5f97\u523064\u5206\u4e4b56\u3002\u5206\u5b50\u5206\u6bcd\u540c\u65f6\u9664\u4ee58\u3002",
+     "caption": "\u6240\u4ee5\u5f97\u523064\u5206\u4e4b56\u3002\u5206\u5b50\u5206\u6bcd\u540c\u65f6\u9664\u4ee58\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/ff12e6009acd9eb2.wav",
+     "from": 619,
+     "frames": 195
+    },
+    {
+     "text": "\u7ed3\u679c\u5c31\u662f8\u5206\u4e4b7\uff01\u7b54\u6848\u662fC\u3002",
+     "caption": "\u7ed3\u679c\u5c31\u662f8\u5206\u4e4b7\uff01\u7b54\u6848\u662fC\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/221e1bc1206bdf31.wav",
+     "from": 824,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u5f97\u5206\u5999\u62db",
+   "from": 5333,
+   "frames": 1374,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u5de7\u5999\u7684\u65b9\u6cd5\u3002\u6211\u4eec\u7ed9\u6bcf\u4e2a\u6570\u7b97\u4e00\u4e2a\u5f97\u5206\u3002",
+     "caption": "\u8fd8\u6709\u7b2c\u4e8c\u79cd\u5de7\u5999\u7684\u65b9\u6cd5\u3002\u6211\u4eec\u7ed9\u6bcf\u4e2a\u6570\u7b97\u4e00\u4e2a\u5f97\u5206\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/2983cfca181f9288.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "\u5f97\u5206\u5c31\u662f1\u52a0\u8fd9\u4e2a\u6570\uff0c\u9664\u4ee51\u51cf\u8fd9\u4e2a\u6570\u3002",
+     "caption": "\u5f97\u5206\u5c31\u662f1\u52a0\u8fd9\u4e2a\u6570\uff0c\u9664\u4ee51\u51cf\u8fd9\u4e2a\u6570\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/d28dd54ea6ce0caf.wav",
+     "from": 163,
+     "frames": 167
+    },
+    {
+     "text": "\u6bd4\u59822\u5206\u4e4b1\u3002\u5f97\u5206\u662f2\u5206\u4e4b3\u9664\u4ee52\u5206\u4e4b1\uff0c\u7b49\u4e8e3\u3002",
+     "caption": "\u6bd4\u59822\u5206\u4e4b1\u3002\u5f97\u5206\u662f2\u5206\u4e4b3\u9664\u4ee52\u5206\u4e4b1\uff0c\u7b49\u4e8e3\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/d5f25a9edef7cfdd.wav",
+     "from": 340,
+     "frames": 252
+    },
+    {
+     "text": "3\u5206\u4e4b1\u7684\u5f97\u5206\u662f2\u3002\u795e\u5947\u7684\u5730\u65b9\u6765\u4e86\uff1a\u4e24\u4e2a\u6570\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u5f97\u5206\u4f1a\u76f8\u4e58\uff01",
+     "caption": "3\u5206\u4e4b1\u7684\u5f97\u5206\u662f2\u3002\u795e\u5947\u7684\u5730\u65b9\u6765\u4e86\uff1a\u4e24\u4e2a\u6570\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u5f97\u5206\u4f1a\u76f8\u4e58\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/bed649d7034105ac.wav",
+     "from": 603,
+     "frames": 263
+    },
+    {
+     "text": "\u6211\u4eec\u6765\u9a8c\u8bc1\u4e00\u4e0b\u3002\u7b2c\u4e00\u6b21\u8fd0\u7b97\u5f97\u5230\u4e867\u5206\u4e4b5\u3002",
+     "caption": "\u6211\u4eec\u6765\u9a8c\u8bc1\u4e00\u4e0b\u3002\u7b2c\u4e00\u6b21\u8fd0\u7b97\u5f97\u5230\u4e867\u5206\u4e4b5\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/59e062c27d53423c.wav",
+     "from": 876,
+     "frames": 156
+    },
+    {
+     "text": "7\u5206\u4e4b5\u7684\u5f97\u5206\u662f7\u5206\u4e4b12\u9664\u4ee57\u5206\u4e4b2\uff0c\u7b49\u4e8e6\u3002\u800c3\u4e582\u6b63\u597d\u662f6\uff01",
+     "caption": "7\u5206\u4e4b5\u7684\u5f97\u5206\u662f7\u5206\u4e4b12\u9664\u4ee57\u5206\u4e4b2\uff0c\u7b49\u4e8e6\u3002\u800c3\u4e582\u6b63\u597d\u662f6\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/86eca7aa1295cd44.wav",
+     "from": 1043,
+     "frames": 278
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6707,
+   "frames": 673,
+   "lines": [
+    {
+     "text": "\u4e3a\u4ec0\u4e48\u4f1a\u8fd9\u6837\uff1f1\u52a0\u4e0aa\u661fb\uff0c\u5206\u5b50\u5c31\u53d8\u62101\u52a0a\uff0c\u4e581\u52a0b\u3002\u5c55\u5f00\u9a8c\u8bc1\u4e00\u4e0b\uff01",
+     "caption": "\u4e3a\u4ec0\u4e48\u4f1a\u8fd9\u6837\uff1f1\u52a0\u4e0aa\u661fb\uff0c\u5206\u5b50\u5c31\u53d8\u62101\u52a0a\uff0c\u4e581\u52a0b\u3002\u5c55\u5f00\u9a8c\u8bc1\u4e00\u4e0b\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/23e8a9e1f110d22e.wav",
+     "from": 0,
+     "frames": 314
+    },
+    {
+     "text": "1\u51cf\u53bba\u661fb\uff0c\u5206\u5b50\u5c31\u662f1\u51cfa\uff0c\u4e581\u51cfb\u3002\u4e24\u5f0f\u76f8\u9664\uff0c\u5206\u6bcd\u7ea6\u6389\u4e86\uff01",
+     "caption": "1\u51cf\u53bba\u661fb\uff0c\u5206\u5b50\u5c31\u662f1\u51cfa\uff0c\u4e581\u51cfb\u3002\u4e24\u5f0f\u76f8\u9664\uff0c\u5206\u6bcd\u7ea6\u6389\u4e86\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/f0298485a51c3afb.wav",
+     "from": 324,
+     "frames": 296
+    }
+   ]
+  },
+  {
+   "id": "score-chain",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7380,
+   "frames": 2056,
+   "lines": [
+    {
+     "text": "\u6bcf\u505a\u4e00\u6b21\u661f\u661f\u8fd0\u7b97\uff0c\u5f97\u5206\u5c31\u76f8\u4e58\u3002\u6240\u4ee5\u6700\u540e\u7b54\u6848\u7684\u5f97\u5206\uff0c\u5c31\u662f\u56db\u4e2a\u5f97\u5206\u7684\u4e58\u79ef\u3002",
+     "caption": "\u6bcf\u505a\u4e00\u6b21\u661f\u661f\u8fd0\u7b97\uff0c\u5f97\u5206\u5c31\u76f8\u4e58\u3002\u6240\u4ee5\u6700\u540e\u7b54\u6848\u7684\u5f97\u5206\uff0c\u5c31\u662f\u56db\u4e2a\u5f97\u5206\u7684\u4e58\u79ef\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/60f0da5442d46623.wav",
+     "from": 0,
+     "frames": 273
+    },
+    {
+     "text": "\u56db\u4e2a\u5f97\u5206\u5206\u522b\u662f\uff1a1\u5206\u4e4b3\u30012\u5206\u4e4b4\u30013\u5206\u4e4b5\u548c4\u5206\u4e4b6\u3002",
+     "caption": "\u56db\u4e2a\u5f97\u5206\u5206\u522b\u662f\uff1a1\u5206\u4e4b3\u30012\u5206\u4e4b4\u30013\u5206\u4e4b5\u548c4\u5206\u4e4b6\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/f1d05245c78d9f28.wav",
+     "from": 283,
+     "frames": 255
+    },
+    {
+     "text": "\u628a\u8fd9\u56db\u4e2a\u6570\u4e58\u8d77\u6765\uff0c\u51e0\u4e4e\u5168\u90fd\u7ea6\u6389\u4e86\uff01\u5269\u4e0b5\u4e586\uff0c\u9664\u4ee52\uff0c\u7b49\u4e8e15\u3002",
+     "caption": "\u628a\u8fd9\u56db\u4e2a\u6570\u4e58\u8d77\u6765\uff0c\u51e0\u4e4e\u5168\u90fd\u7ea6\u6389\u4e86\uff01\u5269\u4e0b5\u4e586\uff0c\u9664\u4ee52\uff0c\u7b49\u4e8e15\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/bda84013a90ccc80.wav",
+     "from": 548,
+     "frames": 282
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c1\u52a0\u7b54\u6848\uff0c\u7b49\u4e8e1\u51cf\u7b54\u6848\u768415\u500d\u3002",
+     "caption": "\u6240\u4ee5\uff0c1\u52a0\u7b54\u6848\uff0c\u7b49\u4e8e1\u51cf\u7b54\u6848\u768415\u500d\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/26f04cf83d739535.wav",
+     "from": 840,
+     "frames": 203
+    },
+    {
+     "text": "1\u52a0\u7b54\u6848\uff0c\u518d\u52a0\u4e0a1\u51cf\u7b54\u6848\uff0c\u603b\u662f\u7b49\u4e8e2\u3002",
+     "caption": "1\u52a0\u7b54\u6848\uff0c\u518d\u52a0\u4e0a1\u51cf\u7b54\u6848\uff0c\u603b\u662f\u7b49\u4e8e2\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/69095c781f38d6c0.wav",
+     "from": 1053,
+     "frames": 197
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f15\u4efd\u52a01\u4efd\uff0c16\u4efd\u4e00\u5171\u662f2\u3002\u6bcf\u4efd\u662f8\u5206\u4e4b1\u3002",
+     "caption": "\u4e5f\u5c31\u662f15\u4efd\u52a01\u4efd\uff0c16\u4efd\u4e00\u5171\u662f2\u3002\u6bcf\u4efd\u662f8\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/a43d4776e1f5ff56.wav",
+     "from": 1261,
+     "frames": 273
+    },
+    {
+     "text": "1\u51cf\u7b54\u6848\u662f8\u5206\u4e4b1\u3002\u6240\u4ee5\u7b54\u6848\u662f8\u5206\u4e4b7\uff01",
+     "caption": "1\u51cf\u7b54\u6848\u662f8\u5206\u4e4b1\u3002\u6240\u4ee5\u7b54\u6848\u662f8\u5206\u4e4b7\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/b10f99e3181825c6.wav",
+     "from": 1544,
+     "frames": 196
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u94fe\u6761\u5f88\u957f\u7684\u65f6\u5019\uff0c\u6bd4\u5982\u8fde\u7740\u505a10\u6b21\u661f\u661f\u8fd0\u7b97\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u94fe\u6761\u5f88\u957f\u7684\u65f6\u5019\uff0c\u6bd4\u5982\u8fde\u7740\u505a10\u6b21\u661f\u661f\u8fd0\u7b97\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/9a4fad7d1e7fc101.wav",
+     "from": 1750,
+     "frames": 238
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9436,
+   "frames": 1514,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\uff0c\u6211\u4eec\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\uff0c\u6211\u4eec\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/704c6793821865e1.wav",
+     "from": 0,
+     "frames": 159
+    },
+    {
+     "text": "7\u5206\u4e4b5\u53ea\u662f\u7b2c\u4e00\u6b21\u8fd0\u7b97\u7684\u7ed3\u679c\u3002\u540e\u9762\u8fd8\u6709\u4e24\u6b21\u6ca1\u7b97\uff01",
+     "caption": "7\u5206\u4e4b5\u53ea\u662f\u7b2c\u4e00\u6b21\u8fd0\u7b97\u7684\u7ed3\u679c\u3002\u540e\u9762\u8fd8\u6709\u4e24\u6b21\u6ca1\u7b97\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/b8cebf2b6576c73a.wav",
+     "from": 169,
+     "frames": 177
+    },
+    {
+     "text": "11\u5206\u4e4b9\u662f\u7b97\u4e86\u4e24\u6b21\u4e4b\u540e\u7684\u7ed3\u679c\u3002\u8fd8\u5dee\u6700\u540e\u4e00\u6b21\u3002",
+     "caption": "11\u5206\u4e4b9\u662f\u7b97\u4e86\u4e24\u6b21\u4e4b\u540e\u7684\u7ed3\u679c\u3002\u8fd8\u5dee\u6700\u540e\u4e00\u6b21\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/de98879b8d5c6774.wav",
+     "from": 356,
+     "frames": 170
+    },
+    {
+     "text": "60\u5206\u4e4b77\u53ea\u662f\u628a\u56db\u4e2a\u5206\u6570\u52a0\u4e86\u8d77\u6765\uff0c\u5fd8\u4e86\u89c4\u5219\u91cc\u7684\u5206\u6bcd\u3002",
+     "caption": "60\u5206\u4e4b77\u53ea\u662f\u628a\u56db\u4e2a\u5206\u6570\u52a0\u4e86\u8d77\u6765\uff0c\u5fd8\u4e86\u89c4\u5219\u91cc\u7684\u5206\u6bcd\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/b3b99b327583f856.wav",
+     "from": 536,
+     "frames": 202
+    },
+    {
+     "text": "\u4e24\u4e2a0\u52301\u4e4b\u95f4\u7684\u6570\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u7ed3\u679c\u4e00\u5b9a\u5c0f\u4e8e1\u3002\u6240\u4ee560\u5206\u4e4b77\u592a\u5927\u4e86\uff01",
+     "caption": "\u4e24\u4e2a0\u52301\u4e4b\u95f4\u7684\u6570\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u7ed3\u679c\u4e00\u5b9a\u5c0f\u4e8e1\u3002\u6240\u4ee560\u5206\u4e4b77\u592a\u5927\u4e86\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/a50c6358bf23d974.wav",
+     "from": 748,
+     "frames": 280
+    },
+    {
+     "text": "\u5982\u679c\u76f4\u63a5\u75281\u51cf\u53bb15\u5206\u4e4b1\uff0c\u5c31\u4f1a\u5f97\u523015\u5206\u4e4b14\u3002",
+     "caption": "\u5982\u679c\u76f4\u63a5\u75281\u51cf\u53bb15\u5206\u4e4b1\uff0c\u5c31\u4f1a\u5f97\u523015\u5206\u4e4b14\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/1159d3ded969aa45.wav",
+     "from": 1038,
+     "frames": 198
+    },
+    {
+     "text": "\u53ef\u662f15\u662f\u5f97\u5206\uff0c\u4e0d\u662f\u7b54\u6848\u3002\u8fd8\u8981\u628a\u5f97\u5206\u6362\u7b97\u56de\u7b54\u6848\u624d\u884c\u3002",
+     "caption": "\u53ef\u662f15\u662f\u5f97\u5206\uff0c\u4e0d\u662f\u7b54\u6848\u3002\u8fd8\u8981\u628a\u5f97\u5206\u6362\u7b97\u56de\u7b54\u6848\u624d\u884c\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/9db96fdbcf65eab5.wav",
+     "from": 1246,
+     "frames": 208
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u65b0\u7684\u4e00\u4e32",
+   "from": 10950,
+   "frames": 507,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u4e2a\u661f\u661f\u8fd0\u7b97\uff0c\u6362\u51e0\u4e2a\u65b0\u6570\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u4e2a\u661f\u661f\u8fd0\u7b97\uff0c\u6362\u51e0\u4e2a\u65b0\u6570\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/c0aab60a2dd7b3bf.wav",
+     "from": 0,
+     "frames": 161
+    },
+    {
+     "text": "\u5148\u8ba93\u5206\u4e4b1\u548c4\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u518d\u4f9d\u6b21\u548c5\u5206\u4e4b1\u30016\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "caption": "\u5148\u8ba93\u5206\u4e4b1\u548c4\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u518d\u4f9d\u6b21\u548c5\u5206\u4e4b1\u30016\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/91188a3e641b4d63.wav",
+     "from": 171,
+     "frames": 297
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11457,
+   "frames": 469,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/32cbee10a890d39b.wav",
+     "from": 0,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u7684\u4e00\u4e32\uff1a\u7b54\u6848",
+   "from": 11926,
+   "frames": 1692,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u5bf9\u7b54\u6848\u30023\u5206\u4e4b1\u661f4\u5206\u4e4b1\uff0c\u7b49\u4e8e13\u5206\u4e4b7\u3002",
+     "caption": "\u6211\u4eec\u6765\u5bf9\u7b54\u6848\u30023\u5206\u4e4b1\u661f4\u5206\u4e4b1\uff0c\u7b49\u4e8e13\u5206\u4e4b7\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/1bd27db15cd0e875.wav",
+     "from": 0,
+     "frames": 228
+    },
+    {
+     "text": "13\u5206\u4e4b7\u548c5\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u7ed3\u679c\u662f3\u5206\u4e4b2\u3002",
+     "caption": "13\u5206\u4e4b7\u548c5\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u7ed3\u679c\u662f3\u5206\u4e4b2\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/864fd5b39f4bd3ca.wav",
+     "from": 238,
+     "frames": 204
+    },
+    {
+     "text": "3\u5206\u4e4b2\u548c6\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u7ed3\u679c\u662f4\u5206\u4e4b3\uff01",
+     "caption": "3\u5206\u4e4b2\u548c6\u5206\u4e4b1\u505a\u661f\u661f\u8fd0\u7b97\uff0c\u7ed3\u679c\u662f4\u5206\u4e4b3\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/1e733333bcc00e25.wav",
+     "from": 453,
+     "frames": 213
+    },
+    {
+     "text": "\u56db\u4e2a\u6570\u7684\u5f97\u5206\u5206\u522b\u662f2\u5206\u4e4b4\u30013\u5206\u4e4b5\u30014\u5206\u4e4b6\u548c5\u5206\u4e4b7\u3002\u4e58\u8d77\u6765\u7b49\u4e8e7\u3002",
+     "caption": "\u56db\u4e2a\u6570\u7684\u5f97\u5206\u5206\u522b\u662f2\u5206\u4e4b4\u30013\u5206\u4e4b5\u30014\u5206\u4e4b6\u548c5\u5206\u4e4b7\u3002\u4e58\u8d77\u6765\u7b49\u4e8e7\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/99e4479bc8383ae1.wav",
+     "from": 676,
+     "frames": 311
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c1\u52a0\u7b54\u6848\uff0c\u7b49\u4e8e1\u51cf\u7b54\u6848\u76847\u500d\u3002",
+     "caption": "\u6240\u4ee5\uff0c1\u52a0\u7b54\u6848\uff0c\u7b49\u4e8e1\u51cf\u7b54\u6848\u76847\u500d\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/d9eb8b80d697651d.wav",
+     "from": 997,
+     "frames": 189
+    },
+    {
+     "text": "7\u52a01\u662f8\u4efd\u30028\u4efd\u4e00\u5171\u662f2\uff0c\u6bcf\u4efd\u662f4\u5206\u4e4b1\u3002\u53c8\u662f4\u5206\u4e4b3\uff01",
+     "caption": "7\u52a01\u662f8\u4efd\u30028\u4efd\u4e00\u5171\u662f2\uff0c\u6bcf\u4efd\u662f4\u5206\u4e4b1\u3002\u53c8\u662f4\u5206\u4e4b3\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/afda1a14acd8b4f2.wav",
+     "from": 1196,
+     "frames": 300
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e864\u5206\u4e4b3\uff0c\u771f\u4e86\u4e0d\u8d77\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e864\u5206\u4e4b3\uff0c\u771f\u4e86\u4e0d\u8d77\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/53469b7b18ca5525.wav",
+     "from": 1506,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13618,
+   "frames": 699,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u91cd\u8981\u7684\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u91cd\u8981\u7684\u601d\u8def\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/0c5f5ddf9253cd33.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "\u9047\u5230\u65b0\u89c4\u5b9a\u7684\u8fd0\u7b97\uff0c\u5c31\u4e25\u683c\u6309\u89c4\u5219\u6765\uff1a\u4e00\u6b65\u4e00\u6b65\uff0c\u5206\u5b50\u5206\u6bcd\u5206\u5f00\u7b97\u3002",
+     "caption": "\u9047\u5230\u65b0\u89c4\u5b9a\u7684\u8fd0\u7b97\uff0c\u5c31\u4e25\u683c\u6309\u89c4\u5219\u6765\uff1a\u4e00\u6b65\u4e00\u6b65\uff0c\u5206\u5b50\u5206\u6bcd\u5206\u5f00\u7b97\u3002",
+     "file": "2026-10-30-star-operation-zh/audio/a24e105e3923f569.wav",
+     "from": 86,
+     "frames": 227
+    },
+    {
+     "text": "\u800c\u4e14\u4e00\u5b9a\u8981\u7b97\u5230\u6700\u540e\u4e00\u6b65\u3002\u63d0\u524d\u505c\u4e0b\u6765\uff0c\u5c31\u662f\u9677\u9631\uff01",
+     "caption": "\u800c\u4e14\u4e00\u5b9a\u8981\u7b97\u5230\u6700\u540e\u4e00\u6b65\u3002\u63d0\u524d\u505c\u4e0b\u6765\uff0c\u5c31\u662f\u9677\u9631\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/147ba0c9dccb6768.wav",
+     "from": 323,
+     "frames": 161
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-star-operation-zh/audio/f8351124be57142c.wav",
+     "from": 495,
+     "frames": 120
+    }
+   ]
+  }
+ ]
+}

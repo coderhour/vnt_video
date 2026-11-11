@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-triangular-multiples-of-3';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -692,3 +693,17 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the list 1, 3, 6, 10, 15, … and "multiples of 3?", no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>33?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 190px)', gap: 20 }}>
+        {['1', '3', '6', '10', '15', '…'].map((n) => (
+          <div key={n} style={{ ...card, height: 150, borderRadius: 28, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 100, fontWeight: 900, color: n === '…' ? C.muted : C.ink }}>{n}</div>
+        ))}
+      </div>
+      <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '8px 44px', fontSize: 64, fontWeight: 900, whiteSpace: 'nowrap' }}>multiples of 3?</div>
+    </div>
+  </ThumbFrame>
+);

@@ -1,6 +1,6 @@
 {
- "title": "The Tiny Angle Inside a Triangle | AMC 8-Style Level 4",
- "description": "An equilateral triangle, two equal lengths and just one angle: twenty degrees. Can you chase it to the tiny angle x?\nVantee shows two ways to solve it, a hidden \"half\" pattern, the traps behind each wrong answer, and a new one for you to try.\n\n0:00 Intro\n0:15 The question\n0:45 What are we asked?\n1:07 Try it yourself\n1:22 Solution 1: the outside angle\n2:59 Solution 2: the straight line at E\n3:35 The hidden pattern\n4:13 Common traps\n5:03 Your turn: a new angle\n5:37 New angle: the answer\n6:15 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Angle Chasing in a Triangle — The Tiny Angle",
+ "description": "AMC 8 practice problem on angle chasing in an equilateral triangle with two equal lengths, solved two ways. (Level 4 of 5)\nAn equilateral triangle, two equal lengths and just one angle: twenty degrees. Can you chase it to the tiny angle x?\nVantee shows two ways to solve it, a hidden \"half\" pattern, the traps behind each wrong answer, and a new one for you to try.\n\n0:00 Intro\n0:15 The question\n0:45 What are we asked?\n1:07 Try it yourself\n1:22 Solution 1: the outside angle\n2:59 Solution 2: the straight line at E\n3:35 The hidden pattern\n4:13 Common traps\n5:03 Your turn: a new angle\n5:37 New angle: the answer\n6:15 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_geometry_template:c1-082",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Equilateral triangle, AD = AE, angle BAD = 20°. Find x! Comment your answer before you watch the solution!"
 }

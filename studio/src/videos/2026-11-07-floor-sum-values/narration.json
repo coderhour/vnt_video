@@ -1,0 +1,90 @@
+{"title": "The Number You Can Never Make | AMC 10-Style Level 4",
+ "fps": 30,
+ "scenes": [
+  {"id": "intro", "chapter": "Intro", "hold": 0.5, "lines": [
+   "Pick any number. Round down the number, its double and its triple, then add them up.",
+   "Here's the surprise. No matter what you pick, you can NEVER get one thousand.",
+   "Hi, I'm Vantee! Let's find out which numbers you CAN make."
+  ]},
+  {"id": "question", "chapter": "The question", "hold": 1.5, "lines": [
+   "Here's the question.",
+   "How many whole numbers n, from one to one thousand, can be written in this form?",
+   "n equals floor of x, plus floor of two x, plus floor of three x, for some real number x.",
+   "Here are the five choices. Take a good look."
+  ]},
+  {"id": "asked", "chapter": "What are we asked?", "hold": 1, "lines": [
+   "First, what does floor mean? The floor of a number rounds it DOWN to a whole number.",
+   "For example, the floor of seven over two is three. The floor of five is just five.",
+   "So pick any x. Round down x, two x and three x, and add. Which totals can we make?",
+   "One quick note. A negative x gives a negative total, so we only need x of zero or more."
+  ]},
+  {"id": "try1", "chapter": "Try it yourself", "kind": "pause", "hold": 10, "lines": [
+   "Now it's your turn. Pause the video and give it a go. I'll wait!"
+  ]},
+  {"id": "steps", "chapter": "Solution 1: the staircase", "hold": 1, "lines": [
+   "Welcome back! Let's draw a staircase graph, for x between zero and one.",
+   "Floor of x stays at zero the whole way. Floor of two x steps up to one at one over two.",
+   "Floor of three x steps up at one over three, and again at two over three.",
+   "Stack them up. The total climbs zero, one, two, three, one step at a time.",
+   "Each step is just one high, so nothing gets skipped. Yet!"
+  ]},
+  {"id": "jump", "hold": 1.2, "lines": [
+   "Now watch x reach one. All three floors step up at the same moment!",
+   "Floor of x becomes one, two x becomes two, three x becomes three. The total is six.",
+   "So the total leaps from three straight to six. Four and five get skipped!",
+   "Add one to x, and the floors go up by one, two and three. That's six more.",
+   "So the pattern repeats every six: six, seven, eight, nine, then a leap to twelve.",
+   "Divide by six. We can make remainders zero, one, two and three. Never four or five."
+  ]},
+  {"id": "count", "chapter": "Solution 1: count the skips", "hold": 1, "lines": [
+   "Now count the skipped ones. One thousand is six times one hundred sixty-six, plus four.",
+   "Each of those one hundred sixty-six blocks has one number with remainder four.",
+   "One thousand has remainder four too! So that's one hundred sixty-seven.",
+   "Each block also has one number with remainder five. That's one hundred sixty-six more.",
+   "Together, that's three hundred thirty-three numbers we can't make."
+  ]},
+  {"id": "reveal", "hold": 1.5, "lines": [
+   "One thousand minus three hundred thirty-three is <short pause> six hundred sixty-seven! Choice A."
+  ]},
+  {"id": "rows", "chapter": "Solution 2: rows of six", "hold": 1.2, "lines": [
+   "Here's another way. Count the numbers we CAN make, row by row.",
+   "Write the numbers in rows of six. Each row has four we can make, and two we can't.",
+   "The full rows end at nine hundred ninety-six. That's one hundred sixty-six rows.",
+   "One hundred sixty-six rows, times four each, gives six hundred sixty-four.",
+   "The last row is short: nine hundred ninety-seven up to one thousand.",
+   "The first three work. One thousand has remainder four, so it's out.",
+   "Six hundred sixty-four plus three is six hundred sixty-seven. Same answer!",
+   "When would you pick this one? When the end of the list is tricky. You see it row by row."
+  ]},
+  {"id": "traps", "chapter": "Common traps", "hold": 1.2, "lines": [
+   "Now, let's look at the wrong answers. Each one is a trap.",
+   "B, six hundred sixty-eight, is what you'd get if you forgot that one thousand is skipped too.",
+   "C, six hundred seventy, is what you'd get if you stopped your blocks at nine hundred ninety and never checked nine hundred ninety-one to one thousand.",
+   "D, seven hundred fifty, is what you'd get if you thought one number in every four is skipped.",
+   "Choice E is eight hundred thirty-four. That's what you'd get if you skipped only one number per block of six.",
+   "So here's a great habit. Watch for big jumps, and check the very last number on its own."
+  ]},
+  {"id": "variant", "chapter": "Your turn: floor of four x", "hold": 0.5, "lines": [
+   "Ready for a challenge? Same idea, with a small twist.",
+   "This time, add floor of x, plus floor of two x, plus floor of FOUR x.",
+   "How many whole numbers from one to one hundred can you make?"
+  ]},
+  {"id": "try2", "kind": "pause", "hold": 10, "lines": [
+   "Pause the video, and go for it!"
+  ]},
+  {"id": "variant-answer", "chapter": "Floor of four x: the answer", "hold": 1.5, "lines": [
+   "Draw the staircase from zero to one. At one over four, the total steps up to one.",
+   "At one over two, two floors step up at once. The total jumps from one to three. Two is skipped!",
+   "At three over four, it steps up to four. Then at one, it leaps to seven.",
+   "One plus two plus four is seven, so it repeats every seven. Remainders zero, one, three and four work.",
+   "One hundred is seven times fourteen, plus two. Fourteen full rows of seven, with four in each row, give fifty-six.",
+   "Ninety-nine has remainder one, so it counts. One hundred has remainder two, so it doesn't.",
+   "Fifty-six plus one is fifty-seven. That's the answer!"
+  ]},
+  {"id": "recap", "chapter": "Recap", "hold": 2, "lines": [
+   "The big idea: find where the floors jump. A jump bigger than one skips numbers.",
+   "Here, the pattern repeats every six, and remainders four and five are always skipped.",
+   "I'm Vantee. Keep exploring, and I'll see you next time!"
+  ]}
+ ]
+}

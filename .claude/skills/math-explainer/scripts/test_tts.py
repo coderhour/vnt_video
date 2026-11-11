@@ -96,6 +96,7 @@ assert diff("it is ALSO a whole number", "it is also a whole number") == []
 assert diff("five and a half degrees", "5 1/2 degrees") == []
 assert zh_num(42) == "四十二" and zh_num(15) == "十五" and zh_num(105) == "一百零五" and zh_num(1000) == "一千" and zh_num(2025) == "二千零二十五"
 assert diff("P十在四十二点七五。", "P10在42.75", "zh") == []
+assert diff("1只山羊吃1份草，她做的", "一只山羊吃一分草，他作的", "zh") == [] and diff("猫", "狗", "zh") == ["猫 -> 狗"]  # ZH_SAME homophones
 assert diff("我是Vantee，两个点！", "我是 vantee 二个点", "zh") == []
 assert diff("答案是四十二。", "答案是四十三", "zh") == ["二 -> 三"]
 assert diff("好的", "好的[laugh]", "zh") == ["- -> LAUGH"]
@@ -105,3 +106,5 @@ assert diff("we take one over two, times twelve", "We take 1 over 2 times 12") =
 assert caption("所以P十是 <short pause> 四十二。") == "所以P十是四十二。" and caption("So <short pause> forty.") == "So forty."
 assert diff("P10在42又3/4。", "P十在四十二又四分之三", "zh") == []
 assert diff("eleven blanks earn sixteen point five", "Eleven blanks earn 16.5") == []
+assert zh_num(39996) == "三万九千九百九十六" and zh_num(40004) == "四万零四" and zh_num(40000) == "四万" and zh_num(16000) == "一万六千"
+assert diff("得分前5%的同学", "得分前百分之五的同学", "zh") == []

@@ -1,19 +1,39 @@
 {
- "title": "When Are Both Roots Integers? x² + bx + 12b | AMC 10-Style Level 4",
- "description": "For how many integers b does x² + bx + 12b = 0 have two integer roots? Vantee turns the roots into a sum and a product, then uses a clever factoring trick to turn the whole question into factor pairs of 144. You'll see a second way that chases just one root, why 8, 15, 30 and 32 are traps, and a new equation to try yourself.\n\n0:00 Intro\n0:21 The question\n0:40 What are we asked?\n0:54 Try it yourself\n1:10 Solution 1: sum and product\n3:43 Solution 2: chase one root\n5:02 Common traps\n5:33 Your turn: x² + bx + 6b\n6:01 x² + bx + 6b: the answer\n6:57 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 10B Practice: When Are Both Roots Integers? x² + bx + 12b",
+ "description": "AMC 10 practice problem on integer roots of a quadratic, solved with sum and product of roots and a factoring trick. (Level 4 of 5)\nAMC 10B is Nov 13 — 2 tools you need: sum and product of the roots + the add-144 factoring trick.\n\nFor how many integers b does x² + bx + 12b = 0 have two integer roots? Vantee turns the roots into a sum and a product, then uses a clever factoring trick to turn the whole question into factor pairs of 144. You'll see a second way that chases just one root, why 8, 15, 30 and 32 are traps, and a new equation to try yourself.\n\n0:00 Intro\n0:21 The question\n0:40 What are we asked?\n0:54 Try it yourself\n1:10 Solution 1: sum and product\n3:43 Solution 2: chase one root\n5:02 Common traps\n5:33 Your turn: x² + bx + 6b\n6:01 x² + bx + 6b: the answer\n6:57 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-11-01",
  "question_id": "amc_practice_amc10_algebra_template:c2-002",
- "posts": [],
+ "posts": [
+  {
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=L-T3AsFgBZQ",
+   "published_at": "2026-11-10T18:30:00-08:00",
+   "scheduled_at": "2026-11-10T09:13:16-08:00"
+  }
+ ],
  "short": {
-  "title": "When are BOTH roots whole numbers? #Shorts",
+  "title": "Think it's 8? When are BOTH roots integers? #Shorts",
   "description": "x^2 + bx + 12b = 0: for how many integers b are both roots integers? Add 144 and it factors.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": [],
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/10jC6yzsY1M",
+    "published_at": "2026-11-10T18:30:00-08:00",
+    "scheduled_at": "2026-11-10T09:13:23-08:00"
+   }
+  ],
   "challenge": 8,
   "tags": [
    "AMC 10",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
- }
+  ],
+  "youtube_id": "10jC6yzsY1M",
+  "playlist_id": "PLR-HuI9ErJA0"
+ },
+ "status": "ready",
+ "pinned_comment": "Taking the 10B Friday? Comment your answer before you watch.",
+ "youtube_id": "L-T3AsFgBZQ",
+ "playlist_id": "PLbrpe4TxLJvg"
 }

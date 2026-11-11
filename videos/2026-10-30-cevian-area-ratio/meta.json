@@ -1,6 +1,6 @@
 {
- "title": "Where Do the Lines Cross? | AMC 8-Style Level 4",
- "description": "Two lines cross inside a triangle of area 60. How big is the shaded piece?\nVantee shows two kid-friendly ways: same-height triangles and one clever parallel line, plus the traps and a new triangle to try.\n\n0:00 Intro\n0:14 The question\n0:41 What are we asked?\n1:01 Try it yourself\n1:17 Solution 1: same-height triangles\n3:35 Solution 2: a parallel line\n4:47 Common traps\n5:34 Your turn: a new triangle\n6:05 New triangle: the answer\n6:36 Recap",
+ "title": "AMC 8 Practice: Triangle Areas with Two Lines — Where Do They Cross?",
+ "description": "AMC 8 practice problem on triangle areas with a midpoint and a 2 to 1 point, solved with same-height triangles and a parallel line. (Level 4 of 5)\nTwo lines cross inside a triangle of area 60. How big is the shaded piece?\nVantee shows two kid-friendly ways: same-height triangles and one clever parallel line, plus the traps and a new triangle to try.\n\n0:00 Intro\n0:14 The question\n0:41 What are we asked?\n1:01 Try it yourself\n1:17 Solution 1: same-height triangles\n3:35 Solution 2: a parallel line\n4:47 Common traps\n5:34 Your turn: a new triangle\n6:05 New triangle: the answer\n6:36 Recap",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_geometry_template:c1-305",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Triangle area 60, D the midpoint of BC, AE:EC = 2:1. Area of ABP? Comment your answer before you watch the solution!"
 }

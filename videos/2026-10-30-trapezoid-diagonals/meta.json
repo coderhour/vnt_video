@@ -1,6 +1,6 @@
 {
- "title": "Four Triangles in a Trapezoid | AMC 8-Style Level 4",
- "description": "Two diagonals cut a trapezoid into four triangles, and we only know one area. Vantee finds the other three with similar triangles, shows a fast second way using heights, explains why each wrong answer is tempting, and gives you a new trapezoid to try yourself.\n\n0:00 Intro\n0:13 The question\n0:42 What are we asked?\n0:59 Try it yourself\n1:14 Solution 1: four triangles\n3:17 Solution 2: find the height\n4:05 Common traps\n4:48 Your turn: a new trapezoid\n5:18 New trapezoid: the answer\n6:15 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Area of a Trapezoid — Four Triangles, One Clue",
+ "description": "AMC 8 practice problem on the area of a trapezoid cut by its diagonals into four triangles, solved with similar triangles and heights. (Level 4 of 5)\nTwo diagonals cut a trapezoid into four triangles, and we only know one area. Vantee finds the other three with similar triangles, shows a fast second way using heights, explains why each wrong answer is tempting, and gives you a new trapezoid to try yourself.\n\n0:00 Intro\n0:13 The question\n0:42 What are we asked?\n0:59 Try it yourself\n1:14 Solution 1: four triangles\n3:17 Solution 2: find the height\n4:05 Common traps\n4:48 Your turn: a new trapezoid\n5:18 New trapezoid: the answer\n6:15 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mixed_template:c1-961",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Trapezoid with bases 6 and 10, top triangle area 9. Whole area? Comment your answer before you watch the solution!"
 }

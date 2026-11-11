@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Counting Non-Squares — The 2026th Number in the List",
+ "description": "AMC 10 practice problem on counting non-square numbers, solved by counting gaps between squares and by adding squares back. (Level 4 of 5)\nWhat is the 2026th positive whole number that is not a perfect square? Vantee shows two ways to find it without listing 2026 numbers: count the gaps between the squares, or add back the squares you knocked out. You will see why 2069, 2070, 2072 and 2116 are tempting traps, and get a spot-one-thousand challenge to try yourself.\n\n0:00 Intro\n0:19 The question\n0:43 What are we asked?\n1:13 Try it yourself\n1:29 Solution 1: count the gaps\n3:20 Solution 2: add back the squares\n4:30 Common traps\n5:29 Your turn: spot one thousand\n5:54 Spot one thousand: the answer\n6:35 Recap\n\nSound effects: Freesound (CC0).",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_algebra_template:c4-069",
+ "posts": [],
+ "short": {
+  "title": "Think it's 2070? The 2026th Non-Square #Shorts",
+  "description": "Cross out every perfect square. What is the 2026th number left? One picture makes it easy.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 17,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "Cross out the perfect squares from 1, 2, 3, ... What's the 2026th number left? Comment your answer before you watch the solution!"
+}

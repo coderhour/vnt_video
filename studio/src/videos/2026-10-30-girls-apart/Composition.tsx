@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-girls-apart';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -831,3 +832,22 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the 8 kids in a line, two girls touching?, no answer.
+export const Thumb: React.FC = () => {
+  const kinds: ('G' | 'B')[] = ['B', 'G', 'B', 'B', 'G', 'G', 'B', 'B'];
+  const sp = 82;
+  const x = (i: number) => 340 + (i - 3.5) * sp;
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>5/28?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <rect x={x(4) - 46} y={290 - 46} width={sp + 92} height={92} rx={34} fill="none" stroke={C.red} strokeWidth={8} />
+        {kinds.map((k, i) => (
+          <Tok key={i} x={x(i)} y={290} k={k} r={38} />
+        ))}
+        <text x={x(4.5)} y={420} fill={C.red} fontFamily={NUNITO} fontWeight={900} fontSize={64} textAnchor="middle">touching?</text>
+        <text x={340} y={560} fill={C.muted} fontFamily={NUNITO} fontWeight={900} fontSize={52} textAnchor="middle">5 boys, 3 girls</text>
+      </svg>
+    </ThumbFrame>
+  );
+};

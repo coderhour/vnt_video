@@ -1,0 +1,55 @@
+{
+ "title": "Where Do These Two Lines Cross? (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "captions": {
+  "A D and B E cross at P. What is A P to P D?": "AD and BE cross at P. What is AP to PD?",
+  "Weigh the corners so each side balances: B twenty-eight, C twenty-one, A twenty-four.": "Weigh the corners so each side balances: B 28, C 21, A 24.",
+  "Sides thirteen, fourteen, fifteen. The circle inside touches B C at D, C A at E.": "Sides 13, 14, 15. The circle inside touches BC at D, CA at E.",
+  "AMC ten challenge! Think it's two to one? Nope!": "AMC 10 challenge! Think it's 2 to 1? Nope!",
+  "Two to one was the trap.": "2 to 1 was the trap.",
+  "Each corner's two pieces out to the circle are equal. That gives six, eight, eight, seven.": "Each corner's two pieces out to the circle are equal. That gives 6, 8, 8, 7.",
+  "So A P to P D is forty-nine to twenty-four!": "So AP to PD is 49 to 24!"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's two to one? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Sides thirteen, fourteen, fifteen. The circle inside touches B C at D, C A at E.",
+    "A D and B E cross at P. What is A P to P D?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "weights",
+   "lines": [
+    "Each corner's two pieces out to the circle are equal. That gives six, eight, eight, seven.",
+    "Weigh the corners so each side balances: B twenty-eight, C twenty-one, A twenty-four.",
+    "Merge B and C: forty-nine at D."
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "So A P to P D is forty-nine to twenty-four!",
+    "Two to one was the trap.",
+    "Did you get forty-nine to twenty-four? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ]
+}

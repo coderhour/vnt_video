@@ -7,6 +7,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-geometric-144';
 const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -430,3 +431,27 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the a, b, 144 ratio chain, no answer.
+export const Thumb: React.FC = () => {
+  const box = (t: string, c: string) => (
+    <div style={{ width: 260, height: 130, borderRadius: 32, background: C.card, border: `6px solid ${C.line}`, color: c, fontSize: 84, fontWeight: 900, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 6px 20px rgba(30,40,80,0.10)' }}>{t}</div>
+  );
+  const arrow = (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 24, height: 96 }}>
+      <svg width={40} height={90} viewBox="0 0 40 90"><path d="M20 4 V80 M6 62 L20 82 L34 62" stroke={C.violet} strokeWidth={9} fill="none" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      <Tex tex={'\\times r'} size={64} color={C.violet} />
+    </div>
+  );
+  return (
+    <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>12?</span>]}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        {box('?', C.ink)}
+        {arrow}
+        {box('?', C.ink)}
+        {arrow}
+        {box('144', C.primary)}
+      </div>
+    </ThumbFrame>
+  );
+};

@@ -9,6 +9,7 @@ import { Answer, Check, Choices, Confetti } from '../../lib/ui';
 const atBase = at;
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-domino-tromino-2x6';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -1024,3 +1025,18 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-11-01-domino-tromino-2x6-thumb`, render.sh → poster.jpg): the empty 2×6 board and the two kinds of tile, no count.
+export const Thumb: React.FC = () => {
+  const B = O(25, 110, 105);
+  const t = -50;
+  return (
+    <ThumbFrame chip="AMC 10 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>13?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <Cells cells={board(6)} o={B} />
+        <Tiles o={O(60, 440, 105)} list={[{ cells: DOM_H(0, 0), kind: 'D', t0: t }]} />
+        <Tiles o={O(380, 390, 105)} list={[{ cells: LBOX(0, 0, 'br'), kind: 'L', t0: t }]} />
+      </svg>
+    </ThumbFrame>
+  );
+};

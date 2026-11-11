@@ -1,16 +1,16 @@
 # When Are Both Roots Integers (short)
 
-AMC ten challenge! Think it's eight? Nope!
+Think it's eight? Nope!
 
 For how many integers b are both roots of x squared plus b x plus twelve b equals zero integers?
 
 Comment your letter, then watch!
 
-Call the roots r and s. Sum and product give r s plus twelve r plus twelve s equals zero.
+Call the roots r and s. Sum and product give this.
 
 Add one hundred forty-four to both sides. That fills the grid!
 
-So r plus twelve, times s plus twelve, equals one hundred forty-four.
+Now the left side factors!
 
 Its factor pairs: eight positive, and eight negative!
 

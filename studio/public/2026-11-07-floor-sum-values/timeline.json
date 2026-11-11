@@ -1,0 +1,531 @@
+{
+ "fps": 30,
+ "durationInFrames": 12421,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 593,
+   "lines": [
+    {
+     "text": "Pick any number. Round down the number, its double and its triple, then add them up.",
+     "caption": "Pick any number. Round down the number, its double and its triple, then add them up.",
+     "file": "2026-11-07-floor-sum-values/audio/009e8be4fe92c362.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "Here's the surprise. No matter what you pick, you can NEVER get one thousand.",
+     "caption": "Here's the surprise. No matter what you pick, you can NEVER get one thousand.",
+     "file": "2026-11-07-floor-sum-values/audio/538dc25707a72ab6.wav",
+     "from": 218,
+     "frames": 173
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's find out which numbers you CAN make.",
+     "caption": "Hi, I'm Vantee! Let's find out which numbers you CAN make.",
+     "file": "2026-11-07-floor-sum-values/audio/8749a82282e23630.wav",
+     "from": 401,
+     "frames": 153
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 593,
+   "frames": 689,
+   "lines": [
+    {
+     "text": "Here's the question.",
+     "caption": "Here's the question.",
+     "file": "2026-11-07-floor-sum-values/audio/a6999dc3f4cd0958.wav",
+     "from": 0,
+     "frames": 46
+    },
+    {
+     "text": "How many whole numbers n, from one to one thousand, can be written in this form?",
+     "caption": "How many whole numbers n, from one to one thousand, can be written in this form?",
+     "file": "2026-11-07-floor-sum-values/audio/aa925aed4da8dec2.wav",
+     "from": 56,
+     "frames": 168
+    },
+    {
+     "text": "n equals floor of x, plus floor of two x, plus floor of three x, for some real number x.",
+     "caption": "n equals floor of x, plus floor of two x, plus floor of three x, for some real number x.",
+     "file": "2026-11-07-floor-sum-values/audio/3d71434dd3fbd018.wav",
+     "from": 234,
+     "frames": 268
+    },
+    {
+     "text": "Here are the five choices. Take a good look.",
+     "caption": "Here are the five choices. Take a good look.",
+     "file": "2026-11-07-floor-sum-values/audio/b97a89671840f7ca.wav",
+     "from": 512,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1282,
+   "frames": 970,
+   "lines": [
+    {
+     "text": "First, what does floor mean? The floor of a number rounds it DOWN to a whole number.",
+     "caption": "First, what does floor mean? The floor of a number rounds it DOWN to a whole number.",
+     "file": "2026-11-07-floor-sum-values/audio/869beceeb52fd4b1.wav",
+     "from": 0,
+     "frames": 209
+    },
+    {
+     "text": "For example, the floor of seven over two is three. The floor of five is just five.",
+     "caption": "For example, the floor of seven over two is three. The floor of five is just five.",
+     "file": "2026-11-07-floor-sum-values/audio/3cf0978f52ba3bcc.wav",
+     "from": 220,
+     "frames": 203
+    },
+    {
+     "text": "So pick any x. Round down x, two x and three x, and add. Which totals can we make?",
+     "caption": "So pick any x. Round down x, two x and three x, and add. Which totals can we make?",
+     "file": "2026-11-07-floor-sum-values/audio/c3f782c39cceaeeb.wav",
+     "from": 433,
+     "frames": 261
+    },
+    {
+     "text": "One quick note. A negative x gives a negative total, so we only need x of zero or more.",
+     "caption": "One quick note. A negative x gives a negative total, so we only need x of zero or more.",
+     "file": "2026-11-07-floor-sum-values/audio/8835176f0ade896a.wav",
+     "from": 704,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 2252,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-floor-sum-values/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 138
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "kind": "scene",
+   "chapter": "Solution 1: the staircase",
+   "from": 2714,
+   "frames": 1048,
+   "lines": [
+    {
+     "text": "Welcome back! Let's draw a staircase graph, for x between zero and one.",
+     "caption": "Welcome back! Let's draw a staircase graph, for x between zero and one.",
+     "file": "2026-11-07-floor-sum-values/audio/b55cc5c122deac0e.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "Floor of x stays at zero the whole way. Floor of two x steps up to one at one over two.",
+     "caption": "Floor of x stays at zero the whole way. Floor of two x steps up to one at one over two.",
+     "file": "2026-11-07-floor-sum-values/audio/9beae9a25b3b7165.wav",
+     "from": 199,
+     "frames": 219
+    },
+    {
+     "text": "Floor of three x steps up at one over three, and again at two over three.",
+     "caption": "Floor of three x steps up at one over three, and again at two over three.",
+     "file": "2026-11-07-floor-sum-values/audio/6757cb7e98892af5.wav",
+     "from": 428,
+     "frames": 167
+    },
+    {
+     "text": "Stack them up. The total climbs zero, one, two, three, one step at a time.",
+     "caption": "Stack them up. The total climbs zero, one, two, three, one step at a time.",
+     "file": "2026-11-07-floor-sum-values/audio/0ea5876f343170e6.wav",
+     "from": 605,
+     "frames": 221
+    },
+    {
+     "text": "Each step is just one high, so nothing gets skipped. Yet!",
+     "caption": "Each step is just one high, so nothing gets skipped. Yet!",
+     "file": "2026-11-07-floor-sum-values/audio/a920ab5e1a441a89.wav",
+     "from": 837,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "jump",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3762,
+   "frames": 1348,
+   "lines": [
+    {
+     "text": "Now watch x reach one. All three floors step up at the same moment!",
+     "caption": "Now watch x reach one. All three floors step up at the same moment!",
+     "file": "2026-11-07-floor-sum-values/audio/6924f132a9bde868.wav",
+     "from": 0,
+     "frames": 158
+    },
+    {
+     "text": "Floor of x becomes one, two x becomes two, three x becomes three. The total is six.",
+     "caption": "Floor of x becomes one, two x becomes two, three x becomes three. The total is six.",
+     "file": "2026-11-07-floor-sum-values/audio/b4f47a29f123fecf.wav",
+     "from": 168,
+     "frames": 260
+    },
+    {
+     "text": "So the total leaps from three straight to six. Four and five get skipped!",
+     "caption": "So the total leaps from three straight to six. Four and five get skipped!",
+     "file": "2026-11-07-floor-sum-values/audio/8244dbaeb5df2411.wav",
+     "from": 437,
+     "frames": 170
+    },
+    {
+     "text": "Add one to x, and the floors go up by one, two and three. That's six more.",
+     "caption": "Add one to x, and the floors go up by one, two and three. That's six more.",
+     "file": "2026-11-07-floor-sum-values/audio/44271b1ebf2b3c89.wav",
+     "from": 617,
+     "frames": 178
+    },
+    {
+     "text": "So the pattern repeats every six: six, seven, eight, nine, then a leap to twelve.",
+     "caption": "So the pattern repeats every six: six, seven, eight, nine, then a leap to twelve.",
+     "file": "2026-11-07-floor-sum-values/audio/b31c96cae7101ec8.wav",
+     "from": 805,
+     "frames": 244
+    },
+    {
+     "text": "Divide by six. We can make remainders zero, one, two and three. Never four or five.",
+     "caption": "Divide by six. We can make remainders zero, one, two and three. Never four or five.",
+     "file": "2026-11-07-floor-sum-values/audio/00181d84922ce333.wav",
+     "from": 1059,
+     "frames": 230
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": "Solution 1: count the skips",
+   "from": 5110,
+   "frames": 976,
+   "lines": [
+    {
+     "text": "Now count the skipped ones. One thousand is six times one hundred sixty-six, plus four.",
+     "caption": "Now count the skipped ones. One thousand is six times one hundred sixty-six, plus four.",
+     "file": "2026-11-07-floor-sum-values/audio/6e7dd1df3de039ac.wav",
+     "from": 0,
+     "frames": 213
+    },
+    {
+     "text": "Each of those one hundred sixty-six blocks has one number with remainder four.",
+     "caption": "Each of those one hundred sixty-six blocks has one number with remainder four.",
+     "file": "2026-11-07-floor-sum-values/audio/6f7126dd72eecfad.wav",
+     "from": 223,
+     "frames": 156
+    },
+    {
+     "text": "One thousand has remainder four too! So that's one hundred sixty-seven.",
+     "caption": "One thousand has remainder four too! So that's one hundred sixty-seven.",
+     "file": "2026-11-07-floor-sum-values/audio/9d546f586fe0837f.wav",
+     "from": 390,
+     "frames": 166
+    },
+    {
+     "text": "Each block also has one number with remainder five. That's one hundred sixty-six more.",
+     "caption": "Each block also has one number with remainder five. That's one hundred sixty-six more.",
+     "file": "2026-11-07-floor-sum-values/audio/b69e5919301957d9.wav",
+     "from": 566,
+     "frames": 195
+    },
+    {
+     "text": "Together, that's three hundred thirty-three numbers we can't make.",
+     "caption": "Together, that's three hundred thirty-three numbers we can't make.",
+     "file": "2026-11-07-floor-sum-values/audio/392358cc8a08c50b.wav",
+     "from": 771,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6086,
+   "frames": 309,
+   "lines": [
+    {
+     "text": "One thousand minus three hundred thirty-three is <short pause> six hundred sixty-seven! Choice A.",
+     "caption": "One thousand minus three hundred thirty-three is six hundred sixty-seven! Choice A.",
+     "file": "2026-11-07-floor-sum-values/audio/45648bd04e842d59.wav",
+     "from": 0,
+     "frames": 240
+    }
+   ]
+  },
+  {
+   "id": "rows",
+   "kind": "scene",
+   "chapter": "Solution 2: rows of six",
+   "from": 6395,
+   "frames": 1515,
+   "lines": [
+    {
+     "text": "Here's another way. Count the numbers we CAN make, row by row.",
+     "caption": "Here's another way. Count the numbers we CAN make, row by row.",
+     "file": "2026-11-07-floor-sum-values/audio/1f839840daefae7b.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "Write the numbers in rows of six. Each row has four we can make, and two we can't.",
+     "caption": "Write the numbers in rows of six. Each row has four we can make, and two we can't.",
+     "file": "2026-11-07-floor-sum-values/audio/db268f8a2cbd5dac.wav",
+     "from": 143,
+     "frames": 196
+    },
+    {
+     "text": "The full rows end at nine hundred ninety-six. That's one hundred sixty-six rows.",
+     "caption": "The full rows end at nine hundred ninety-six. That's one hundred sixty-six rows.",
+     "file": "2026-11-07-floor-sum-values/audio/72a96302ca451968.wav",
+     "from": 349,
+     "frames": 190
+    },
+    {
+     "text": "One hundred sixty-six rows, times four each, gives six hundred sixty-four.",
+     "caption": "One hundred sixty-six rows, times four each, gives six hundred sixty-four.",
+     "file": "2026-11-07-floor-sum-values/audio/1f26feef2a006c23.wav",
+     "from": 549,
+     "frames": 186
+    },
+    {
+     "text": "The last row is short: nine hundred ninety-seven up to one thousand.",
+     "caption": "The last row is short: nine hundred ninety-seven up to one thousand.",
+     "file": "2026-11-07-floor-sum-values/audio/4730c643aa6ef2b0.wav",
+     "from": 745,
+     "frames": 158
+    },
+    {
+     "text": "The first three work. One thousand has remainder four, so it's out.",
+     "caption": "The first three work. One thousand has remainder four, so it's out.",
+     "file": "2026-11-07-floor-sum-values/audio/50423a89dab4f19f.wav",
+     "from": 913,
+     "frames": 155
+    },
+    {
+     "text": "Six hundred sixty-four plus three is six hundred sixty-seven. Same answer!",
+     "caption": "Six hundred sixty-four plus three is six hundred sixty-seven. Same answer!",
+     "file": "2026-11-07-floor-sum-values/audio/3215ae16605ae0b0.wav",
+     "from": 1078,
+     "frames": 174
+    },
+    {
+     "text": "When would you pick this one? When the end of the list is tricky. You see it row by row.",
+     "caption": "When would you pick this one? When the end of the list is tricky. You see it row by row.",
+     "file": "2026-11-07-floor-sum-values/audio/b8a11ad321c480b2.wav",
+     "from": 1263,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7910,
+   "frames": 1335,
+   "lines": [
+    {
+     "text": "Now, let's look at the wrong answers. Each one is a trap.",
+     "caption": "Now, let's look at the wrong answers. Each one is a trap.",
+     "file": "2026-11-07-floor-sum-values/audio/1f3f0efa8983189c.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "B, six hundred sixty-eight, is what you'd get if you forgot that one thousand is skipped too.",
+     "caption": "B, six hundred sixty-eight, is what you'd get if you forgot that one thousand is skipped too.",
+     "file": "2026-11-07-floor-sum-values/audio/55a8a9f09ce51c02.wav",
+     "from": 134,
+     "frames": 190
+    },
+    {
+     "text": "C, six hundred seventy, is what you'd get if you stopped your blocks at nine hundred ninety and never checked nine hundred ninety-one to one thousand.",
+     "caption": "C, six hundred seventy, is what you'd get if you stopped your blocks at nine hundred ninety and never checked nine hundred ninety-one to one thousand.",
+     "file": "2026-11-07-floor-sum-values/audio/b49a0b75897539fa.wav",
+     "from": 334,
+     "frames": 282
+    },
+    {
+     "text": "D, seven hundred fifty, is what you'd get if you thought one number in every four is skipped.",
+     "caption": "D, seven hundred fifty, is what you'd get if you thought one number in every four is skipped.",
+     "file": "2026-11-07-floor-sum-values/audio/07c5637f8965a57d.wav",
+     "from": 626,
+     "frames": 208
+    },
+    {
+     "text": "Choice E is eight hundred thirty-four. That's what you'd get if you skipped only one number per block of six.",
+     "caption": "Choice E is eight hundred thirty-four. That's what you'd get if you skipped only one number per block of six.",
+     "file": "2026-11-07-floor-sum-values/audio/eebfdbaada5cb326.wav",
+     "from": 845,
+     "frames": 216
+    },
+    {
+     "text": "So here's a great habit. Watch for big jumps, and check the very last number on its own.",
+     "caption": "So here's a great habit. Watch for big jumps, and check the very last number on its own.",
+     "file": "2026-11-07-floor-sum-values/audio/130115abbd8f22f8.wav",
+     "from": 1071,
+     "frames": 204
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: floor of four x",
+   "from": 9245,
+   "frames": 511,
+   "lines": [
+    {
+     "text": "Ready for a challenge? Same idea, with a small twist.",
+     "caption": "Ready for a challenge? Same idea, with a small twist.",
+     "file": "2026-11-07-floor-sum-values/audio/bd8311439de5551d.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "This time, add floor of x, plus floor of two x, plus floor of FOUR x.",
+     "caption": "This time, add floor of x, plus floor of two x, plus floor of FOUR x.",
+     "file": "2026-11-07-floor-sum-values/audio/4a9dc426a10f977c.wav",
+     "from": 141,
+     "frames": 189
+    },
+    {
+     "text": "How many whole numbers from one to one hundred can you make?",
+     "caption": "How many whole numbers from one to one hundred can you make?",
+     "file": "2026-11-07-floor-sum-values/audio/898a5885a330da92.wav",
+     "from": 340,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9756,
+   "frames": 399,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-floor-sum-values/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "Floor of four x: the answer",
+   "from": 10155,
+   "frames": 1687,
+   "lines": [
+    {
+     "text": "Draw the staircase from zero to one. At one over four, the total steps up to one.",
+     "caption": "Draw the staircase from zero to one. At one over four, the total steps up to one.",
+     "file": "2026-11-07-floor-sum-values/audio/29b4713411c418cf.wav",
+     "from": 0,
+     "frames": 201
+    },
+    {
+     "text": "At one over two, two floors step up at once. The total jumps from one to three. Two is skipped!",
+     "caption": "At one over two, two floors step up at once. The total jumps from one to three. Two is skipped!",
+     "file": "2026-11-07-floor-sum-values/audio/c92ec5e573b0da56.wav",
+     "from": 211,
+     "frames": 240
+    },
+    {
+     "text": "At three over four, it steps up to four. Then at one, it leaps to seven.",
+     "caption": "At three over four, it steps up to four. Then at one, it leaps to seven.",
+     "file": "2026-11-07-floor-sum-values/audio/c958b309a143b5e9.wav",
+     "from": 461,
+     "frames": 196
+    },
+    {
+     "text": "One plus two plus four is seven, so it repeats every seven. Remainders zero, one, three and four work.",
+     "caption": "One plus two plus four is seven, so it repeats every seven. Remainders zero, one, three and four work.",
+     "file": "2026-11-07-floor-sum-values/audio/1bf169980edbffdb.wav",
+     "from": 667,
+     "frames": 284
+    },
+    {
+     "text": "One hundred is seven times fourteen, plus two. Fourteen full rows of seven, with four in each row, give fifty-six.",
+     "caption": "One hundred is seven times fourteen, plus two. Fourteen full rows of seven, with four in each row, give fifty-six.",
+     "file": "2026-11-07-floor-sum-values/audio/d47f73a76f1f67f1.wav",
+     "from": 961,
+     "frames": 276
+    },
+    {
+     "text": "Ninety-nine has remainder one, so it counts. One hundred has remainder two, so it doesn't.",
+     "caption": "Ninety-nine has remainder one, so it counts. One hundred has remainder two, so it doesn't.",
+     "file": "2026-11-07-floor-sum-values/audio/f699f6d841587161.wav",
+     "from": 1247,
+     "frames": 207
+    },
+    {
+     "text": "Fifty-six plus one is fifty-seven. That's the answer!",
+     "caption": "Fifty-six plus one is fifty-seven. That's the answer!",
+     "file": "2026-11-07-floor-sum-values/audio/92caf7b651be0559.wav",
+     "from": 1464,
+     "frames": 154
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11842,
+   "frames": 579,
+   "lines": [
+    {
+     "text": "The big idea: find where the floors jump. A jump bigger than one skips numbers.",
+     "caption": "The big idea: find where the floors jump. A jump bigger than one skips numbers.",
+     "file": "2026-11-07-floor-sum-values/audio/7da014490b81ac10.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "Here, the pattern repeats every six, and remainders four and five are always skipped.",
+     "caption": "Here, the pattern repeats every six, and remainders four and five are always skipped.",
+     "file": "2026-11-07-floor-sum-values/audio/a5e0c6cb78bdcabc.wav",
+     "from": 199,
+     "frames": 184
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-floor-sum-values/audio/31a6054d0b03b932.wav",
+     "from": 393,
+     "frames": 102
+    }
+   ]
+  }
+ ]
+}

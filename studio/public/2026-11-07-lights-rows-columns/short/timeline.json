@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1184,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 128,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's three hundred eighty-four? Nope!",
+     "caption": "AMC 10 challenge! Think it's 384? Nope!",
+     "file": "2026-11-07-lights-rows-columns/short/audio/6362ed1069252bc7.wav",
+     "from": 0,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 128,
+   "frames": 222,
+   "lines": [
+    {
+     "text": "Nine lights in a three by three grid, each on or off.",
+     "caption": "9 lights in a 3 by 3 grid, each on or off.",
+     "file": "2026-11-07-lights-rows-columns/short/audio/d46f63c34e75af8f.wav",
+     "from": 0,
+     "frames": 98
+    },
+    {
+     "text": "How many patterns have at least one full row or column all lit?",
+     "caption": "How many patterns have at least one full row or column all lit?",
+     "file": "2026-11-07-lights-rows-columns/short/audio/20b84a1e5c28632e.wav",
+     "from": 102,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 350,
+   "frames": 76,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-lights-rows-columns/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 64
+    }
+   ]
+  },
+  {
+   "id": "losers",
+   "kind": "scene",
+   "chapter": null,
+   "from": 426,
+   "frames": 395,
+   "lines": [
+    {
+     "text": "Count the losers: no full row or column.",
+     "caption": "Count the losers: no full row or column.",
+     "file": "2026-11-07-lights-rows-columns/short/audio/d516220b07816c5b.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "Each row has seven safe choices. So seven cubed: three hundred forty-three.",
+     "caption": "Each row has 7 safe choices. So 7 cubed: 343.",
+     "file": "2026-11-07-lights-rows-columns/short/audio/804fc9d42325a91d.wav",
+     "from": 87,
+     "frames": 143
+    },
+    {
+     "text": "Seventy-eight of those still have a full column. That leaves two hundred sixty-five losers.",
+     "caption": "78 of those still have a full column. That leaves 265 losers.",
+     "file": "2026-11-07-lights-rows-columns/short/audio/52ad808c8e7af519.wav",
+     "from": 234,
+     "frames": 149
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 821,
+   "frames": 363,
+   "lines": [
+    {
+     "text": "All five hundred twelve, minus the losers, is two hundred forty-seven!",
+     "caption": "All 512, minus the losers, is 247!",
+     "file": "2026-11-07-lights-rows-columns/short/audio/5227f226d3335bf9.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "Three hundred eighty-four was the trap. It counts this one twice!",
+     "caption": "384 was the trap. It counts this one twice!",
+     "file": "2026-11-07-lights-rows-columns/short/audio/96b9f6405bff816b.wav",
+     "from": 131,
+     "frames": 107
+    },
+    {
+     "text": "Did you get two hundred forty-seven? Tell me below!",
+     "caption": "Did you get 247? Tell me below!",
+     "file": "2026-11-07-lights-rows-columns/short/audio/18026359728969d5.wav",
+     "from": 242,
+     "frames": 86
+    }
+   ]
+  }
+ ]
+}

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-lattice-triangle-10';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -859,3 +860,14 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): a right triangle on the dot grid, inside dots green, no answer.
+const TM = plane(50, 530, 72);
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>12?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Grid cols={8} rows={6} m={TM} spec={(x, y) => (classify(8, 5, x, y) === 'in' ? D_IN : base)} />
+      <Poly pts={tri(8, 5).map(TM)} color={C.primary} fill={C.primary} width={8} progress={1} />
+    </svg>
+  </ThumbFrame>
+);

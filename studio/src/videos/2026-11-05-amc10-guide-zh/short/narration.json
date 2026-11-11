@@ -1,0 +1,52 @@
+{
+ "title": "AMC 10 小贴士 (短片)",
+ "fps": 30,
+ "lang": "zh",
+ "voice": "Zephyr",
+ "style": "warm and upbeat, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a brisk, energetic pace, no laughing",
+ "tempo": 1.2,
+ "captions": {
+  "84加16.5，等于一百点五分。": "84加16.5，等于100.5分。",
+  "B卷赢了，一百点五分！超过了本赛季AIME的晋级线！": "B卷赢了，100.5分！超过了本赛季AIME的晋级线！"
+ },
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC 10小贴士！答对的题越多，分就越高？错！"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "答对得6分，答错得0分，空着得1.5分。",
+    "A卷：对16题，错9题。B卷：对14题，空11题。谁的分高？"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "评论你的选项，然后接着看！"
+   ]
+  },
+  {
+   "id": "score",
+   "lines": [
+    "A卷：16乘以6，等于96分。",
+    "再看B卷：14乘以6，等于84分。11道空题，再加16.5分。",
+    "84加16.5，等于一百点五分。"
+   ]
+  },
+  {
+   "id": "reveal",
+   "hold": 0.8,
+   "lines": [
+    "B卷赢了，一百点五分！超过了本赛季AIME的晋级线！",
+    "每题都答，才是陷阱。",
+    "你选对B了吗？在评论里告诉我！"
+   ]
+  }
+ ]
+}

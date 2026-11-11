@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 import { interpolate } from 'remotion';
 
 export const SLUG = '2026-10-31-digit-2026';
@@ -602,3 +603,15 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-31-digit-2026-thumb`, render.sh -> poster.jpg): the trap + the digits 123456789101112... and the 2026th digit, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>6?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 28 }}>
+      <div style={{ fontSize: 100, fontWeight: 900, letterSpacing: 4, lineHeight: 1.15, textAlign: 'center', width: 640, wordBreak: 'break-all', color: C.ink }}>
+        123456789<br /><span style={{ color: C.violet }}>10</span>111213<span style={{ color: C.muted }}>&hellip;</span>
+      </div>
+      <div style={{ background: C.primary, color: '#fff', borderRadius: 999, padding: '12px 44px', fontSize: 76, fontWeight: 900 }}>2026th digit?</div>
+    </div>
+  </ThumbFrame>
+);

@@ -1,0 +1,51 @@
+{
+ "title": "The Number You Can Never Make (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's six hundred sixty-eight? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Round down x, two x and three x, and add. How many totals from one to one thousand?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "jump",
+   "lines": [
+    "From zero to one, the total goes zero, one, two, three.",
+    "At one, all three floors jump at once. Three leaps to six!",
+    "Four and five get skipped, in every block of six.",
+    "One thousand leaves remainder four. So it's out, too!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "So three hundred thirty-three are skipped. Six hundred sixty-seven are left!",
+    "Six hundred sixty-eight was the trap.",
+    "Did you get six hundred sixty-seven? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "Round down x, two x and three x, and add. How many totals from one to one thousand?": "Round down x, 2x and 3x, and add. How many totals from 1 to 1000?",
+  "From zero to one, the total goes zero, one, two, three.": "From 0 to 1, the total goes 0, 1, 2, 3.",
+  "At one, all three floors jump at once. Three leaps to six!": "At 1, all 3 floors jump at once. 3 leaps to 6!"
+ }
+}

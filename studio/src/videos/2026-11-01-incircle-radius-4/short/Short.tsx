@@ -79,14 +79,17 @@ const Corner: React.FC<{ o?: number }> = ({ o = 1 }) => (
 
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const nope = at(scene, 0, 0.84);
+  const nope = at(scene, 0, 0.78);
   return (
     <>
       <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
-        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10 · Challenge #7</div>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10B prep · Challenge #7</div>
       </div>
       <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
         Think it's <span style={{ color: C.red }}>81</span>?
+      </Text>
+      <Text x={540} y={495} w={1000} size={64} weight={800} align="center">
+        Biggest perimeter?
       </Text>
       <PushIn frames={scene.frames} origin="300px 1000px">
         <Stage>
@@ -153,41 +156,41 @@ const Think: SceneComponent = () => {
 const PiecesScene: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
   const t = (i: number, p = 0) => at(scene, i, p);
-  const snap = t(3, 0.08);
+  const snap = t(2, 0.08);
   const big = f >= snap;
   const g = big ? BIG : SMALL;
   const s = S_IN - (S_IN - 1) * ease(f, snap, 34);
   const m = cam(s);
   const p3: [number, number, number] = [ease(f, t(0, 0.35), 8), ease(f, t(0, 0.6), 8), ease(f, t(0, 0.8), 8)];
-  const bottom = ease(f, t(2, 0.05), 8);
+  const bottom = ease(f, t(1, 0.55), 8);
   return (
     <>
       <Sfx at={0} src={SFX.whoosh} volume={0.3} />
       {[0.35, 0.6, 0.8].map((p) => <Sfx key={p} at={t(0, p)} src={SFX.click} volume={0.26} />)}
-      <Sfx at={t(1, 0.3)} src={SFX.click} volume={0.25} />
-      <Sfx at={t(2, 0.5)} src={SFX.click} volume={0.25} />
+      <Sfx at={t(1, 0.05)} src={SFX.click} volume={0.25} />
+      <Sfx at={t(1, 0.6)} src={SFX.click} volume={0.25} />
       <Sfx at={snap} src={SFX.whoosh} volume={0.3} />
-      <Sfx at={t(3, 0.7)} src={SFX.click} volume={0.3} />
+      <Sfx at={t(2, 0.7)} src={SFX.click} volume={0.3} />
       <Stage>
         <Fig g={g} m={m} letters={big ? fadeTo(f, snap, 0, 6) : 1}>
           <Radius g={g} m={m} o={fadeTo(f, snap, 0, 6)} />
           <Pieces g={g} m={m} o={p3} lab={big ? 0 : 1} w={big ? lerpW(s) : 13} />
         </Fig>
-        {big && <Lbl p={[(m(BIG.TAC)[0] + m(BIG.C)[0]) / 2, m(BIG.C)[1] + 52]} text="72" size={62} color={C.amber} o={ease(f, t(3, 0.7), 8)} />}
-        {big && <Lbl p={[m(BIG.TAC)[0] - 6, m(BIG.C)[1] + 52]} text="6" size={52} color={C.primary} o={ease(f, t(3, 0.7), 8)} />}
+        {big && <Lbl p={[(m(BIG.TAC)[0] + m(BIG.C)[0]) / 2, m(BIG.C)[1] + 52]} text="72" size={62} color={C.amber} o={ease(f, t(2, 0.7), 8)} />}
+        {big && <Lbl p={[m(BIG.TAC)[0] - 6, m(BIG.C)[1] + 52]} text="6" size={52} color={C.primary} o={ease(f, t(2, 0.7), 8)} />}
       </Stage>
-      <Chip opacity={fadeTo(f, t(1, 0.05), 0, 6)} scale={pop(f, 3)}>
+      <Chip opacity={fadeTo(f, t(1, 0.02), 0, 6)} scale={pop(f, 3)}>
         equal tangent pieces
       </Chip>
-      <div style={{ position: 'absolute', left: 0, width: 1080, top: 270, display: 'flex', justifyContent: 'center', ...fadeUp(f, t(1, 0.3)), opacity: ease(f, t(1, 0.3), 10) * fadeTo(f, snap, 0, 8) }}>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 270, display: 'flex', justifyContent: 'center', ...fadeUp(f, t(1, 0.05)), opacity: ease(f, t(1, 0.05), 10) * fadeTo(f, snap, 0, 8) }}>
         <div style={{ background: C.card, borderRadius: 28, padding: '10px 40px', boxShadow: '0 8px 30px rgba(30,40,80,0.08)' }}>
           <Tex tex={`z = \\dfrac{8y + 48}{${bottom > 0.5 ? '\\color{#ef4343}{3y - 8}' : '3y - 8'}}`} size={66} />
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 400, top: 470, whiteSpace: 'nowrap', ...fadeUp(f, t(2, 0.5)), opacity: ease(f, t(2, 0.5), 10) * fadeTo(f, snap, 0, 8) }}>
+      <div style={{ position: 'absolute', left: 400, top: 470, whiteSpace: 'nowrap', ...fadeUp(f, t(1, 0.6)), opacity: ease(f, t(1, 0.6), 10) * fadeTo(f, snap, 0, 8) }}>
         <Tex tex="3y - 8 > 0 \;\Rightarrow\; y \ge 3" size={56} />
       </div>
-      <Chip color={C.primary} opacity={ease(f, t(3, 0.45), 6)} scale={pop(f, t(3, 0.45))}>
+      <Chip color={C.primary} opacity={ease(f, t(2, 0.45), 6)} scale={pop(f, t(2, 0.45))}>
         <Tex tex="y = 3 \;\to\; z = 72" size={66} color="#fff" />
       </Chip>
     </>

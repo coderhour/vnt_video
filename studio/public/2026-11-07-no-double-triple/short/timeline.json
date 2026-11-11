@@ -1,0 +1,128 @@
+{
+ "fps": 30,
+ "durationInFrames": 1185,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 118,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's fifty? Nope!",
+     "caption": "AMC 10 challenge! Think it's 50? Nope!",
+     "file": "2026-11-07-no-double-triple/short/audio/0cfedea89ee48acf.wav",
+     "from": 0,
+     "frames": 106
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 118,
+   "frames": 176,
+   "lines": [
+    {
+     "text": "Pick from one to one hundred, but none may be double or triple another.",
+     "caption": "Pick from 1 to 100, but none may be double or triple another.",
+     "file": "2026-11-07-no-double-triple/short/audio/36dcfbbecbb37593.wav",
+     "from": 0,
+     "frames": 113
+    },
+    {
+     "text": "What's the most you can pick?",
+     "caption": "What's the most you can pick?",
+     "file": "2026-11-07-no-double-triple/short/audio/904bf9d66bedf1b5.wav",
+     "from": 117,
+     "frames": 47
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 294,
+   "frames": 75,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-no-double-triple/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 64
+    }
+   ]
+  },
+  {
+   "id": "dominoes",
+   "kind": "scene",
+   "chapter": null,
+   "from": 369,
+   "frames": 491,
+   "lines": [
+    {
+     "text": "Divide out all twos and threes. Numbers left with one fill this grid.",
+     "caption": "Divide out all 2s and 3s. Numbers left with 1 fill this grid.",
+     "file": "2026-11-07-no-double-triple/short/audio/076b23929e417be9.wav",
+     "from": 0,
+     "frames": 125
+    },
+    {
+     "text": "Right is double, up is triple. So clashes are neighbors!",
+     "caption": "Right is double, up is triple. So clashes are neighbors!",
+     "file": "2026-11-07-no-double-triple/short/audio/430dd1912c614ca3.wav",
+     "from": 130,
+     "frames": 120
+    },
+    {
+     "text": "Pair neighbors into dominoes. Each keeps at most one number.",
+     "caption": "Pair neighbors into dominoes. Each keeps at most one number.",
+     "file": "2026-11-07-no-double-triple/short/audio/819a765c0e2c2950.wav",
+     "from": 254,
+     "frames": 106
+    },
+    {
+     "text": "Smaller grids hold the rest. In total, thirty-nine dominoes!",
+     "caption": "Smaller grids hold the rest. In total, 39 dominoes!",
+     "file": "2026-11-07-no-double-triple/short/audio/fbc3cfe9f8c61d31.wav",
+     "from": 364,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 860,
+   "frames": 325,
+   "lines": [
+    {
+     "text": "So keep at most one hundred minus thirty-nine. That's sixty-one!",
+     "caption": "So keep at most 100 minus 39. That's... 61!",
+     "file": "2026-11-07-no-double-triple/short/audio/4a04f1695157fac5.wav",
+     "from": 0,
+     "frames": 124
+    },
+    {
+     "text": "Fifty was the trap. It's not the most!",
+     "caption": "50 was the trap. It's not the most!",
+     "file": "2026-11-07-no-double-triple/short/audio/de7b45e6564bfa5d.wav",
+     "from": 128,
+     "frames": 84
+    },
+    {
+     "text": "Did you get sixty-one? Tell me below!",
+     "caption": "Did you get 61? Tell me below!",
+     "file": "2026-11-07-no-double-triple/short/audio/fceaa1c55de12080.wav",
+     "from": 217,
+     "frames": 72
+    }
+   ]
+  }
+ ]
+}

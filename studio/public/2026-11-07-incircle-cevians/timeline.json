@@ -1,0 +1,501 @@
+{
+ "fps": 30,
+ "durationInFrames": 12376,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "Intro",
+   "from": 0,
+   "frames": 589,
+   "lines": [
+    {
+     "text": "Two lines cross inside a triangle, right inside its circle. Exactly where do they cross?",
+     "caption": "Two lines cross inside a triangle, right inside its circle. Exactly where do they cross?",
+     "file": "2026-11-07-incircle-cevians/audio/bb891b9cb8cf9115.wav",
+     "from": 0,
+     "frames": 219
+    },
+    {
+     "text": "A very tempting answer here is two to one. It's a trap, and you'll see why.",
+     "caption": "A very tempting answer here is two to one. It's a trap, and you'll see why.",
+     "file": "2026-11-07-incircle-cevians/audio/b1c9bae27fa05adc.wav",
+     "from": 229,
+     "frames": 177
+    },
+    {
+     "text": "Hi, I'm Vantee! Let's balance this triangle like a seesaw.",
+     "caption": "Hi, I'm Vantee! Let's balance this triangle like a seesaw.",
+     "file": "2026-11-07-incircle-cevians/audio/372d3f453e9beb24.wav",
+     "from": 416,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "The question",
+   "from": 589,
+   "frames": 729,
+   "lines": [
+    {
+     "text": "Triangle A B C has sides A B thirteen, B C fourteen, and C A fifteen.",
+     "caption": "Triangle ABC has sides AB thirteen, BC fourteen, and CA fifteen.",
+     "file": "2026-11-07-incircle-cevians/audio/7a4594ee11d99fc4.wav",
+     "from": 0,
+     "frames": 239
+    },
+    {
+     "text": "The circle inside it touches B C at D, and C A at E. Segments A D and B E meet at P.",
+     "caption": "The circle inside it touches BC at D, and CA at E. Segments AD and BE meet at P.",
+     "file": "2026-11-07-incircle-cevians/audio/bbbcb80cb89be237.wav",
+     "from": 249,
+     "frames": 266
+    },
+    {
+     "text": "What is the ratio A P to P D? Here are the five choices.",
+     "caption": "What is the ratio AP to PD? Here are the five choices.",
+     "file": "2026-11-07-incircle-cevians/audio/e95d0215bec1f10e.wav",
+     "from": 525,
+     "frames": 165
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "What are we asked?",
+   "from": 1318,
+   "frames": 454,
+   "lines": [
+    {
+     "text": "So what are we really asked? How P splits A D into two parts, A P and P D.",
+     "caption": "So what are we really asked? How P splits AD into two parts, AP and PD.",
+     "file": "2026-11-07-incircle-cevians/audio/8d6d2941b2351baa.wav",
+     "from": 0,
+     "frames": 222
+    },
+    {
+     "text": "We know all three sides. First, we need to know exactly where D and E sit.",
+     "caption": "We know all three sides. First, we need to know exactly where D and E sit.",
+     "file": "2026-11-07-incircle-cevians/audio/685c0e8f2283e8c4.wav",
+     "from": 232,
+     "frames": 183
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "Try it yourself",
+   "from": 1772,
+   "frames": 463,
+   "lines": [
+    {
+     "text": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "caption": "Now it's your turn. Pause the video and give it a go. I'll wait!",
+     "file": "2026-11-07-incircle-cevians/audio/0d5c92416b6f15e3.wav",
+     "from": 0,
+     "frames": 140
+    }
+   ]
+  },
+  {
+   "id": "tangents",
+   "kind": "scene",
+   "chapter": "Step 1: equal tangents",
+   "from": 2235,
+   "frames": 1867,
+   "lines": [
+    {
+     "text": "Welcome back!",
+     "caption": "Welcome back!",
+     "file": "2026-11-07-incircle-cevians/audio/45c4a7933fe6a0c7.wav",
+     "from": 0,
+     "frames": 56
+    },
+    {
+     "text": "From each corner, the two pieces out to the touch points have the same length.",
+     "caption": "From each corner, the two pieces out to the touch points have the same length.",
+     "file": "2026-11-07-incircle-cevians/audio/96aa4a7011e51938.wav",
+     "from": 65,
+     "frames": 153
+    },
+    {
+     "text": "Here's the reason. Fold along the line from the corner to the circle's center. One piece lands on the other.",
+     "caption": "Here's the reason. Fold along the line from the corner to the circle's center. One piece lands on the other.",
+     "file": "2026-11-07-incircle-cevians/audio/8bcefb9bd692888e.wav",
+     "from": 228,
+     "frames": 202
+    },
+    {
+     "text": "Call the pieces x from A, y from B, and z from C.",
+     "caption": "Call the pieces x from A, y from B, and z from C.",
+     "file": "2026-11-07-incircle-cevians/audio/5979ec8e32ca5855.wav",
+     "from": 440,
+     "frames": 168
+    },
+    {
+     "text": "So x plus y is thirteen, y plus z is fourteen, z plus x is fifteen.",
+     "caption": "So x plus y is thirteen, y plus z is fourteen, z plus x is fifteen.",
+     "file": "2026-11-07-incircle-cevians/audio/c2495d27d098b640.wav",
+     "from": 619,
+     "frames": 258
+    },
+    {
+     "text": "Add all three sides: forty-two. Each letter shows up twice, so x plus y plus z is twenty-one.",
+     "caption": "Add all three sides: forty-two. Each letter shows up twice, so x plus y plus z is twenty-one.",
+     "file": "2026-11-07-incircle-cevians/audio/1e9191f8d414373b.wav",
+     "from": 887,
+     "frames": 246
+    },
+    {
+     "text": "Take away B C, which is y plus z. That leaves x, twenty-one minus fourteen, which is seven.",
+     "caption": "Take away BC, which is y plus z. That leaves x, twenty-one minus fourteen, which is seven.",
+     "file": "2026-11-07-incircle-cevians/audio/8b82acbbc95ce8aa.wav",
+     "from": 1144,
+     "frames": 233
+    },
+    {
+     "text": "In the same way, y is six, and z is eight.",
+     "caption": "In the same way, y is six, and z is eight.",
+     "file": "2026-11-07-incircle-cevians/audio/26a06c6b05ead971.wav",
+     "from": 1387,
+     "frames": 140
+    },
+    {
+     "text": "So B D is six and D C is eight. C E is eight and E A is seven.",
+     "caption": "So BD is six and DC is eight. CE is eight and EA is seven.",
+     "file": "2026-11-07-incircle-cevians/audio/4316c0f50a003413.wav",
+     "from": 1537,
+     "frames": 270
+    }
+   ]
+  },
+  {
+   "id": "mass",
+   "kind": "scene",
+   "chapter": "Solution 1: mass points",
+   "from": 4102,
+   "frames": 1821,
+   "lines": [
+    {
+     "text": "Now for the fun part, mass points. Put a weight on each corner.",
+     "caption": "Now for the fun part, mass points. Put a weight on each corner.",
+     "file": "2026-11-07-incircle-cevians/audio/80804743a75aca08.wav",
+     "from": 0,
+     "frames": 155
+    },
+    {
+     "text": "A seesaw balances when weight times distance is the same on both sides.",
+     "caption": "A seesaw balances when weight times distance is the same on both sides.",
+     "file": "2026-11-07-incircle-cevians/audio/7eb144b100253498.wav",
+     "from": 165,
+     "frames": 162
+    },
+    {
+     "text": "For B C to balance at D, B's weight times six must equal C's weight times eight.",
+     "caption": "For BC to balance at D, B's weight times six must equal C's weight times eight.",
+     "file": "2026-11-07-incircle-cevians/audio/d7d17ff798ec0645.wav",
+     "from": 338,
+     "frames": 226
+    },
+    {
+     "text": "For C A to balance at E, C's weight times eight must equal A's weight times seven.",
+     "caption": "For CA to balance at E, C's weight times eight must equal A's weight times seven.",
+     "file": "2026-11-07-incircle-cevians/audio/4aa1a6b96068b9b5.wav",
+     "from": 574,
+     "frames": 234
+    },
+    {
+     "text": "So all three products match. Six, seven and eight all go into one hundred sixty-eight.",
+     "caption": "So all three products match. Six, seven and eight all go into one hundred sixty-eight.",
+     "file": "2026-11-07-incircle-cevians/audio/3dac3ce88d925397.wav",
+     "from": 818,
+     "frames": 213
+    },
+    {
+     "text": "That makes B twenty-eight, C twenty-one, and A twenty-four.",
+     "caption": "That makes B twenty-eight, C twenty-one, and A twenty-four.",
+     "file": "2026-11-07-incircle-cevians/audio/8274c2e27ea2ec76.wav",
+     "from": 1041,
+     "frames": 192
+    },
+    {
+     "text": "Now merge B and C into one weight at D. Twenty-eight plus twenty-one is forty-nine.",
+     "caption": "Now merge B and C into one weight at D. Twenty-eight plus twenty-one is forty-nine.",
+     "file": "2026-11-07-incircle-cevians/audio/ee141aa169f4ee02.wav",
+     "from": 1244,
+     "frames": 212
+    },
+    {
+     "text": "A and C merge at E, so it balances on B E too. Both lines meet at P: twenty-four at A, forty-nine at D.",
+     "caption": "A and C merge at E, so it balances on BE too. Both lines meet at P: twenty-four at A, forty-nine at D.",
+     "file": "2026-11-07-incircle-cevians/audio/ba1e6f72a7d22ddc.wav",
+     "from": 1465,
+     "frames": 317
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5923,
+   "frames": 468,
+   "lines": [
+    {
+     "text": "Twenty-four times A P equals forty-nine times P D. So A P to P D is forty-nine to twenty-four.",
+     "caption": "Twenty-four times AP equals forty-nine times PD. So AP to PD is forty-nine to twenty-four.",
+     "file": "2026-11-07-incircle-cevians/audio/8b63277d375b3687.wav",
+     "from": 0,
+     "frames": 254
+    },
+    {
+     "text": "The answer is <short pause> forty-nine to twenty-four! Choice D.",
+     "caption": "The answer is forty-nine to twenty-four! Choice D.",
+     "file": "2026-11-07-incircle-cevians/audio/27e2c23889f9c7fb.wav",
+     "from": 264,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "parallel",
+   "kind": "scene",
+   "chapter": "Solution 2: a parallel line",
+   "from": 6391,
+   "frames": 1608,
+   "lines": [
+    {
+     "text": "Here's a second way, with a parallel line.",
+     "caption": "Here's a second way, with a parallel line.",
+     "file": "2026-11-07-incircle-cevians/audio/ab0bd85631581567.wav",
+     "from": 0,
+     "frames": 94
+    },
+    {
+     "text": "Through D, draw a line parallel to B E. It hits side C A at a new point, G.",
+     "caption": "Through D, draw a line parallel to BE. It hits side CA at a new point, G.",
+     "file": "2026-11-07-incircle-cevians/audio/d76898e4afb623e6.wav",
+     "from": 105,
+     "frames": 213
+    },
+    {
+     "text": "In triangle C B E, D G is parallel to B E. So G splits C E just like D splits C B: eight to six.",
+     "caption": "In triangle CBE, DG is parallel to BE. So G splits CE just like D splits CB: eight to six.",
+     "file": "2026-11-07-incircle-cevians/audio/0fa2664b53d10df1.wav",
+     "from": 327,
+     "frames": 328
+    },
+    {
+     "text": "That makes G E eight times six over fourteen, which is twenty-four over seven.",
+     "caption": "That makes GE eight times six over fourteen, which is twenty-four over seven.",
+     "file": "2026-11-07-incircle-cevians/audio/b5b484375268cb0d.wav",
+     "from": 666,
+     "frames": 197
+    },
+    {
+     "text": "Now look at triangle A D G. P E is parallel to D G, so A P to P D equals A E to E G.",
+     "caption": "Now look at triangle ADG. PE is parallel to DG, so AP to PD equals AE to EG.",
+     "file": "2026-11-07-incircle-cevians/audio/3d761ee1afcef9a4.wav",
+     "from": 873,
+     "frames": 354
+    },
+    {
+     "text": "That's seven divided by twenty-four over seven, which is forty-nine over twenty-four. Same answer!",
+     "caption": "That's seven divided by twenty-four over seven, which is forty-nine over twenty-four. Same answer!",
+     "file": "2026-11-07-incircle-cevians/audio/1c1d5affb004398e.wav",
+     "from": 1237,
+     "frames": 225
+    },
+    {
+     "text": "Pick this one when you'd rather not use weights.",
+     "caption": "Pick this one when you'd rather not use weights.",
+     "file": "2026-11-07-incircle-cevians/audio/20ca1b9d3546394c.wav",
+     "from": 1472,
+     "frames": 98
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "Common traps",
+   "from": 7999,
+   "frames": 1479,
+   "lines": [
+    {
+     "text": "Now, the traps.",
+     "caption": "Now, the traps.",
+     "file": "2026-11-07-incircle-cevians/audio/0b45bff0a42cf8cf.wav",
+     "from": 0,
+     "frames": 56
+    },
+    {
+     "text": "A, twenty-four to forty-nine, is P D to A P. It's our answer, flipped.",
+     "caption": "A, twenty-four to forty-nine, is PD to AP. It's our answer, flipped.",
+     "file": "2026-11-07-incircle-cevians/audio/fcb4dff409a4dfaf.wav",
+     "from": 66,
+     "frames": 218
+    },
+    {
+     "text": "B, seven to four, is what you'd get if G cut C E in half, making G E four.",
+     "caption": "B, seven to four, is what you'd get if G cut CE in half, making GE four.",
+     "file": "2026-11-07-incircle-cevians/audio/a9c5db8b653c8545.wav",
+     "from": 294,
+     "frames": 215
+    },
+    {
+     "text": "Choice C, two to one, is what you'd get using the tangent lengths as weights: fourteen at D, seven at A.",
+     "caption": "Choice C, two to one, is what you'd get using the tangent lengths as weights: fourteen at D, seven at A.",
+     "file": "2026-11-07-incircle-cevians/audio/6e9afd4558f0ec32.wav",
+     "from": 519,
+     "frames": 244
+    },
+    {
+     "text": "But B C wouldn't balance. Six times six is thirty-six, but eight times eight is sixty-four.",
+     "caption": "But BC wouldn't balance. Six times six is thirty-six, but eight times eight is sixty-four.",
+     "file": "2026-11-07-incircle-cevians/audio/9ff2715acfba0f84.wav",
+     "from": 773,
+     "frames": 228
+    },
+    {
+     "text": "E, fifteen to seven, is what you'd get from C A to A E. That's a ratio on a side, not on A D.",
+     "caption": "E, fifteen to seven, is what you'd get from CA to AE. That's a ratio on a side, not on AD.",
+     "file": "2026-11-07-incircle-cevians/audio/a8225a1df87ecc03.wav",
+     "from": 1012,
+     "frames": 240
+    },
+    {
+     "text": "So here's a great habit. Check that every seesaw balances before you merge weights.",
+     "caption": "So here's a great habit. Check that every seesaw balances before you merge weights.",
+     "file": "2026-11-07-incircle-cevians/audio/a9245749516dea9c.wav",
+     "from": 1262,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "Your turn: a 3-4-5 triangle",
+   "from": 9478,
+   "frames": 551,
+   "lines": [
+    {
+     "text": "Your turn! Same idea, new triangle. Now A B is three, B C is four, and C A is five.",
+     "caption": "Your turn! Same idea, new triangle. Now AB is three, BC is four, and CA is five.",
+     "file": "2026-11-07-incircle-cevians/audio/7bf686c863ce9d83.wav",
+     "from": 0,
+     "frames": 305
+    },
+    {
+     "text": "Same circle, same two lines. What is A P to P D?",
+     "caption": "Same circle, same two lines. What is AP to PD?",
+     "file": "2026-11-07-incircle-cevians/audio/b11b17d5f847247e.wav",
+     "from": 315,
+     "frames": 167
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10029,
+   "frames": 407,
+   "lines": [
+    {
+     "text": "Pause the video, and go for it!",
+     "caption": "Pause the video, and go for it!",
+     "file": "2026-11-07-incircle-cevians/audio/61c917acdb1503e8.wav",
+     "from": 0,
+     "frames": 83
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "3-4-5: the answer",
+   "from": 10436,
+   "frames": 1332,
+   "lines": [
+    {
+     "text": "Tangent pieces first. Half the perimeter is six. So x is six minus four, which is two.",
+     "caption": "Tangent pieces first. Half the perimeter is six. So x is six minus four, which is two.",
+     "file": "2026-11-07-incircle-cevians/audio/c00a85ed6ac78cf5.wav",
+     "from": 0,
+     "frames": 214
+    },
+    {
+     "text": "In the same way, y is one, and z is three.",
+     "caption": "In the same way, y is one, and z is three.",
+     "file": "2026-11-07-incircle-cevians/audio/bef0efe8a952d705.wav",
+     "from": 224,
+     "frames": 138
+    },
+    {
+     "text": "So B D is one, D C is three, C E is three, and E A is two.",
+     "caption": "So BD is one, DC is three, CE is three, and EA is two.",
+     "file": "2026-11-07-incircle-cevians/audio/68161f2e125c073c.wav",
+     "from": 372,
+     "frames": 249
+    },
+    {
+     "text": "The products must match: B times one, C times three, A times two. Make them all six.",
+     "caption": "The products must match: B times one, C times three, A times two. Make them all six.",
+     "file": "2026-11-07-incircle-cevians/audio/040c9132a4b616b3.wav",
+     "from": 631,
+     "frames": 218
+    },
+    {
+     "text": "So B is six, C is two, and A is three. D gets six plus two, which is eight.",
+     "caption": "So B is six, C is two, and A is three. D gets six plus two, which is eight.",
+     "file": "2026-11-07-incircle-cevians/audio/7a0a1fd8d81ccb38.wav",
+     "from": 859,
+     "frames": 264
+    },
+    {
+     "text": "So A P to P D is eight to three!",
+     "caption": "So AP to PD is eight to three!",
+     "file": "2026-11-07-incircle-cevians/audio/bc0d9524f7347a01.wav",
+     "from": 1133,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "Recap",
+   "from": 11768,
+   "frames": 608,
+   "lines": [
+    {
+     "text": "The big idea: equal tangents tell you exactly where the circle touches each side.",
+     "caption": "The big idea: equal tangents tell you exactly where the circle touches each side.",
+     "file": "2026-11-07-incircle-cevians/audio/5e1111111ba49434.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "Then weights that balance each side turn those pieces into the ratio along A D.",
+     "caption": "Then weights that balance each side turn those pieces into the ratio along AD.",
+     "file": "2026-11-07-incircle-cevians/audio/da3095064724b67b.wav",
+     "from": 195,
+     "frames": 194
+    },
+    {
+     "text": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "caption": "I'm Vantee. Keep exploring, and I'll see you next time!",
+     "file": "2026-11-07-incircle-cevians/audio/31a6054d0b03b932.wav",
+     "from": 399,
+     "frames": 125
+    }
+   ]
+  }
+ ]
+}

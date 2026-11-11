@@ -7,6 +7,7 @@ import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-prime-square-remainder';
@@ -625,3 +626,15 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-prime-square-remainder-thumb`, render.sh → poster.jpg): the trap + the expression p^2 + 17 divided by 12, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>1?</span>]}>
+    <div style={{ width: '100%', height: '100%', background: C.card, borderRadius: 36, boxShadow: '0 8px 28px rgba(30,40,80,0.07)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14 }}>
+      <Tex tex="p^2 + 17" size={130} color={C.violet} />
+      <Tex tex={'\\div 12'} size={130} />
+      <div style={{ fontSize: 48, fontWeight: 800, color: C.muted, marginTop: 6 }}>p prime, p &gt; 3</div>
+      <div style={{ marginTop: 14, padding: '6px 40px', borderRadius: 30, border: `6px dashed ${C.primary}`, fontSize: 62, fontWeight: 900, color: C.primary }}>remainder = ?</div>
+    </div>
+  </ThumbFrame>
+);

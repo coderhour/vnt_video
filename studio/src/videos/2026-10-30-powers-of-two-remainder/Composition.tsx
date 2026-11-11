@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-powers-of-two-remainder';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -526,3 +527,24 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-powers-of-two-remainder-thumb`, render.sh → poster.jpg): the sum of powers of two and "÷ 7, remainder ?", no answer.
+export const Thumb: React.FC = () => {
+  const row = (y: number, tex: string, size: number, color = C.ink) => (
+    <foreignObject x={0} y={y - size} width={680} height={size * 2} style={{ overflow: 'visible' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: size * 2, whiteSpace: 'nowrap' }}>
+        <Tex tex={tex} size={size} color={color} />
+      </div>
+    </foreignObject>
+  );
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>zero?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <rect x={10} y={60} width={660} height={520} rx={40} fill={C.card} stroke={C.line} strokeWidth={4} />
+        {row(180, '1+2+2^2+2^3', 84)}
+        {row(310, '+\\cdots+2^{99}', 84)}
+        {row(450, '\\div 7 \\to \\text{remainder } ?', 62, C.violet)}
+      </svg>
+    </ThumbFrame>
+  );
+};

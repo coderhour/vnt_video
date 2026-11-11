@@ -1,0 +1,597 @@
+{
+ "fps": 30,
+ "durationInFrames": 13593,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 710,
+   "lines": [
+    {
+     "text": "\u56db\u4e2a\u62ec\u53f7\uff0c\u5168\u90e8\u4e58\u5728\u4e00\u8d77\u3002\u771f\u7684\u8981\u4e00\u4e2a\u4e00\u4e2a\u4e58\u51fa\u6765\u5417\uff1f",
+     "caption": "\u56db\u4e2a\u62ec\u53f7\uff0c\u5168\u90e8\u4e58\u5728\u4e00\u8d77\u3002\u771f\u7684\u8981\u4e00\u4e2a\u4e00\u4e2a\u4e58\u51fa\u6765\u5417\uff1f",
+     "file": "2026-10-30-telescoping-product-zh/audio/50eb0dcec7b006b7.wav",
+     "from": 0,
+     "frames": 185
+    },
+    {
+     "text": "\u5927\u591a\u6570\u540c\u5b66\u4e00\u4e0a\u6765\u5c31\u4e58\uff0c\u6570\u5b57\u8d8a\u4e58\u8d8a\u5927\uff0c\u8d8a\u6765\u8d8a\u5413\u4eba\u3002\u4f46\u662f\u6709\u4e2a\u5999\u62db\uff0c\u80fd\u8ba9\u6574\u4e2a\u5f0f\u5b50\u4e00\u4e0b\u5b50\u6d88\u6389\uff01",
+     "caption": "\u5927\u591a\u6570\u540c\u5b66\u4e00\u4e0a\u6765\u5c31\u4e58\uff0c\u6570\u5b57\u8d8a\u4e58\u8d8a\u5927\uff0c\u8d8a\u6765\u8d8a\u5413\u4eba\u3002\u4f46\u662f\u6709\u4e2a\u5999\u62db\uff0c\u80fd\u8ba9\u6574\u4e2a\u5f0f\u5b50\u4e00\u4e0b\u5b50\u6d88\u6389\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/b6893c047e60cdb9.wav",
+     "from": 195,
+     "frames": 354
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\u600e\u4e48\u505a\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\u600e\u4e48\u505a\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/c3b7684fa9024f7b.wav",
+     "from": 560,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 710,
+   "frames": 695,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 45
+    },
+    {
+     "text": "1\u52a02\u5206\u4e4b1\uff0c\u4e581\u52a04\u5206\u4e4b1\uff0c",
+     "caption": "1\u52a02\u5206\u4e4b1\uff0c\u4e581\u52a04\u5206\u4e4b1\uff0c",
+     "file": "2026-10-30-telescoping-product-zh/audio/5db50a2aa3265de1.wav",
+     "from": 55,
+     "frames": 177
+    },
+    {
+     "text": "\u518d\u4e581\u52a016\u5206\u4e4b1\uff0c\u518d\u4e581\u52a0256\u5206\u4e4b1\uff0c\u7ed3\u679c\u662f\u591a\u5c11\uff1f",
+     "caption": "\u518d\u4e581\u52a016\u5206\u4e4b1\uff0c\u518d\u4e581\u52a0256\u5206\u4e4b1\uff0c\u7ed3\u679c\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-telescoping-product-zh/audio/f24a80b987e460c7.wav",
+     "from": 242,
+     "frames": 226
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002\u6709\u4e9b\u6570\u5b57\u597d\u5927\u5440\uff01",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002\u6709\u4e9b\u6570\u5b57\u597d\u5927\u5440\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/5020c4d651f39317.wav",
+     "from": 478,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1405,
+   "frames": 1239,
+   "lines": [
+    {
+     "text": "\u90a3\u6211\u4eec\u5230\u5e95\u8981\u6c42\u4ec0\u4e48\u5462\uff1f",
+     "caption": "\u90a3\u6211\u4eec\u5230\u5e95\u8981\u6c42\u4ec0\u4e48\u5462\uff1f",
+     "file": "2026-10-30-telescoping-product-zh/audio/4a369369fd4c8d71.wav",
+     "from": 0,
+     "frames": 74
+    },
+    {
+     "text": "\u4e00\u5171\u56db\u4e2a\u62ec\u53f7\uff0c\u6bcf\u4e2a\u90fd\u662f1\u52a0\u4e00\u4e2a\u5206\u6570\u3002\u6211\u4eec\u8981\u628a\u5b83\u4eec\u5168\u90e8\u4e58\u8d77\u6765\u3002",
+     "caption": "\u4e00\u5171\u56db\u4e2a\u62ec\u53f7\uff0c\u6bcf\u4e2a\u90fd\u662f1\u52a0\u4e00\u4e2a\u5206\u6570\u3002\u6211\u4eec\u8981\u628a\u5b83\u4eec\u5168\u90e8\u4e58\u8d77\u6765\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/5da18823ab4f735f.wav",
+     "from": 84,
+     "frames": 234
+    },
+    {
+     "text": "\u770b\u770b\u5206\u6bcd\uff1a\u4e8c\u3001\u56db\u3001\u5341\u516d\u3001\u4e8c\u767e\u4e94\u5341\u516d\u3002",
+     "caption": "\u770b\u770b\u5206\u6bcd\uff1a2\u30014\u300116\u3001256\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/db5b555483daa019.wav",
+     "from": 328,
+     "frames": 189
+    },
+    {
+     "text": "\u6bcf\u4e00\u4e2a\u90fd\u662f\u524d\u4e00\u4e2a\u6570\u7684\u5e73\u65b9\uff01",
+     "caption": "\u6bcf\u4e00\u4e2a\u90fd\u662f\u524d\u4e00\u4e2a\u6570\u7684\u5e73\u65b9\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/00ea9b3867cd4b95.wav",
+     "from": 527,
+     "frames": 99
+    },
+    {
+     "text": "2\u7684\u5e73\u65b9\u662f4\uff0c4\u7684\u5e73\u65b9\u662f16\uff0c16\u7684\u5e73\u65b9\u662f256\u3002",
+     "caption": "2\u7684\u5e73\u65b9\u662f4\uff0c4\u7684\u5e73\u65b9\u662f16\uff0c16\u7684\u5e73\u65b9\u662f256\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/8708adb2b310e0f9.wav",
+     "from": 636,
+     "frames": 248
+    },
+    {
+     "text": "\u7b2c\u4e00\u4e2a\u62ec\u53f7\u7b49\u4e8e2\u5206\u4e4b3\uff0c\u540e\u9762\u7684\u62ec\u53f7\u90fd\u6bd41\u5927\u3002",
+     "caption": "\u7b2c\u4e00\u4e2a\u62ec\u53f7\u7b49\u4e8e2\u5206\u4e4b3\uff0c\u540e\u9762\u7684\u62ec\u53f7\u90fd\u6bd41\u5927\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/f7df7a35491b969f.wav",
+     "from": 894,
+     "frames": 171
+    },
+    {
+     "text": "\u6240\u4ee5\u7b54\u6848\u6bd42\u5206\u4e4b3\u8fd8\u8981\u5927\u3002",
+     "caption": "\u6240\u4ee5\u7b54\u6848\u6bd42\u5206\u4e4b3\u8fd8\u8981\u5927\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/5d186eae78e7d291.wav",
+     "from": 1074,
+     "frames": 111
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2644,
+   "frames": 495,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 172
+    }
+   ]
+  },
+  {
+   "id": "sol1",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u627e\u89c4\u5f8b",
+   "from": 3139,
+   "frames": 1769,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u7528\u6700\u8001\u5b9e\u7684\u65b9\u6cd5\uff1a\u4e00\u4e2a\u62ec\u53f7\u4e00\u4e2a\u62ec\u53f7\u5730\u4e58\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u7528\u6700\u8001\u5b9e\u7684\u65b9\u6cd5\uff1a\u4e00\u4e2a\u62ec\u53f7\u4e00\u4e2a\u62ec\u53f7\u5730\u4e58\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/544cdd1e00a9c256.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "1\u52a02\u5206\u4e4b1\uff0c\u7b49\u4e8e2\u5206\u4e4b3\u3002",
+     "caption": "1\u52a02\u5206\u4e4b1\uff0c\u7b49\u4e8e2\u5206\u4e4b3\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/52d682164288fe06.wav",
+     "from": 199,
+     "frames": 144
+    },
+    {
+     "text": "\u518d\u4e584\u5206\u4e4b5\u30023\u4e585\u662f15\uff0c2\u4e584\u662f8\u3002",
+     "caption": "\u518d\u4e584\u5206\u4e4b5\u30023\u4e585\u662f15\uff0c2\u4e584\u662f8\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/8f21cafff299cdfb.wav",
+     "from": 354,
+     "frames": 228
+    },
+    {
+     "text": "\u6240\u4ee5\u5f97\u52308\u5206\u4e4b15\u3002",
+     "caption": "\u6240\u4ee5\u5f97\u52308\u5206\u4e4b15\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/0e6670ac9a30de6c.wav",
+     "from": 592,
+     "frames": 90
+    },
+    {
+     "text": "\u518d\u4e5816\u5206\u4e4b17\u300215\u4e5817\u662f255\u3002",
+     "caption": "\u518d\u4e5816\u5206\u4e4b17\u300215\u4e5817\u662f255\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/110c3d0c5013783e.wav",
+     "from": 693,
+     "frames": 188
+    },
+    {
+     "text": "8\u4e5816\u662f128\u3002",
+     "caption": "8\u4e5816\u662f128\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/41ca244bcf447747.wav",
+     "from": 891,
+     "frames": 96
+    },
+    {
+     "text": "\u73b0\u5728\u770b\u5206\u5b50\uff1a\u4e09\uff0c\u5341\u4e94\uff0c\u8fd8\u6709\u4e8c\u767e\u4e94\u5341\u4e94\u3002",
+     "caption": "\u73b0\u5728\u770b\u5206\u5b50\uff1a3\u300115\uff0c\u8fd8\u6709255\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/7f77121e01d394c6.wav",
+     "from": 997,
+     "frames": 192
+    },
+    {
+     "text": "\u6bcf\u4e2a\u5206\u5b50\uff0c\u90fd\u6b63\u597d\u6bd4\u5206\u6bcd\u7684\u4e24\u500d\u5c111\uff01",
+     "caption": "\u6bcf\u4e2a\u5206\u5b50\uff0c\u90fd\u6b63\u597d\u6bd4\u5206\u6bcd\u7684\u4e24\u500d\u5c111\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/b70e7d6218f142c8.wav",
+     "from": 1200,
+     "frames": 161
+    },
+    {
+     "text": "\u6240\u4ee5\u6bcf\u4e2a\u7ed3\u679c\uff0c\u90fd\u6bd42\u5c0f\u4e00\u70b9\u70b9\u3002",
+     "caption": "\u6240\u4ee5\u6bcf\u4e2a\u7ed3\u679c\uff0c\u90fd\u6bd42\u5c0f\u4e00\u70b9\u70b9\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/2c4dcb5589062861.wav",
+     "from": 1371,
+     "frames": 138
+    },
+    {
+     "text": "2\u51cf2\u5206\u4e4b1\uff0c2\u51cf8\u5206\u4e4b1\uff0c2\u51cf128\u5206\u4e4b1\u3002",
+     "caption": "2\u51cf2\u5206\u4e4b1\uff0c2\u51cf8\u5206\u4e4b1\uff0c2\u51cf128\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/b2071b2e5eefa7b5.wav",
+     "from": 1519,
+     "frames": 196
+    }
+   ]
+  },
+  {
+   "id": "sol1b",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4908,
+   "frames": 1551,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u4e58\u6700\u540e\u4e00\u4e2a\u62ec\u53f7\uff1a\u4e58256\u5206\u4e4b257\u3002",
+     "caption": "\u73b0\u5728\u4e58\u6700\u540e\u4e00\u4e2a\u62ec\u53f7\uff1a\u4e58256\u5206\u4e4b257\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/32f09c5de66fc446.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "\u65b0\u7684\u5206\u6bcd\uff0c\u662f128\u4e58256\u3002",
+     "caption": "\u65b0\u7684\u5206\u6bcd\uff0c\u662f128\u4e58256\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/f8114bd0e419d27a.wav",
+     "from": 206,
+     "frames": 144
+    },
+    {
+     "text": "\u65b0\u7684\u5206\u5b50\u662f255\u4e58257\u3002\u8fd9\u4e2a\u4e58\u6cd5\u53ef\u4e0d\u7b80\u5355\u3002",
+     "caption": "\u65b0\u7684\u5206\u5b50\u662f255\u4e58257\u3002\u8fd9\u4e2a\u4e58\u6cd5\u53ef\u4e0d\u7b80\u5355\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/79a3fcfed7a85f7f.wav",
+     "from": 361,
+     "frames": 206
+    },
+    {
+     "text": "\u6709\u4e2a\u6377\u5f84\u3002\u628a\u5b83\u5199\u6210256\u51cf1\uff0c\u4e58256\u52a01\u3002",
+     "caption": "\u6709\u4e2a\u6377\u5f84\u3002\u628a\u5b83\u5199\u6210256\u51cf1\uff0c\u4e58256\u52a01\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/bf2ccd0fe6270e4f.wav",
+     "from": 576,
+     "frames": 228
+    },
+    {
+     "text": "\u4e58\u5f00\u4ee5\u540e\uff0c\u4e2d\u95f4\u7684\u4e24\u9879\u6b63\u597d\u62b5\u6d88\u3002",
+     "caption": "\u4e58\u5f00\u4ee5\u540e\uff0c\u4e2d\u95f4\u7684\u4e24\u9879\u6b63\u597d\u62b5\u6d88\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/4902c2b06b05181d.wav",
+     "from": 815,
+     "frames": 129
+    },
+    {
+     "text": "\u6240\u4ee5\u5206\u5b50\u5c31\u662f256\u7684\u5e73\u65b9\u51cf1\u3002",
+     "caption": "\u6240\u4ee5\u5206\u5b50\u5c31\u662f256\u7684\u5e73\u65b9\u51cf1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/8cd08e841f0dee4c.wav",
+     "from": 954,
+     "frames": 165
+    },
+    {
+     "text": "\u800c256\u7684\u5e73\u65b9\uff0c\u6b63\u597d\u662f\u65b0\u5206\u6bcd\u7684\u4e24\u500d\u3002",
+     "caption": "\u800c256\u7684\u5e73\u65b9\uff0c\u6b63\u597d\u662f\u65b0\u5206\u6bcd\u7684\u4e24\u500d\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/36ce8199192596b3.wav",
+     "from": 1129,
+     "frames": 162
+    },
+    {
+     "text": "\u6240\u4ee5\u5206\u5b50\u53c8\u662f\u6bd4\u5206\u6bcd\u7684\u4e24\u500d\u5c111\u3002\u7b54\u6848\u662fC\uff01",
+     "caption": "\u6240\u4ee5\u5206\u5b50\u53c8\u662f\u6bd4\u5206\u6bcd\u7684\u4e24\u500d\u5c111\u3002\u7b54\u6848\u662fC\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/99e9dff642d0ebca.wav",
+     "from": 1301,
+     "frames": 182
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u8bf7\u4e2a\u5e2e\u624b",
+   "from": 6459,
+   "frames": 2225,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u806a\u660e\u7684\u65b9\u6cd5\uff0c\u8981\u8bf7\u4e00\u4e2a\u5e2e\u624b\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u806a\u660e\u7684\u65b9\u6cd5\uff0c\u8981\u8bf7\u4e00\u4e2a\u5e2e\u624b\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/5bcae3b791f51675.wav",
+     "from": 0,
+     "frames": 120
+    },
+    {
+     "text": "\u6211\u4eec\u8bf7\u6765\u4e00\u4e2a\u5e2e\u624b\uff1a1\u51cf2\u5206\u4e4b1\uff0c\u4e5f\u5c31\u662f2\u5206\u4e4b1\u3002",
+     "caption": "\u6211\u4eec\u8bf7\u6765\u4e00\u4e2a\u5e2e\u624b\uff1a1\u51cf2\u5206\u4e4b1\uff0c\u4e5f\u5c31\u662f2\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/bc569b0ce9223243.wav",
+     "from": 131,
+     "frames": 176
+    },
+    {
+     "text": "1\u51cf2\u5206\u4e4b1\uff0c\u4e581\u52a02\u5206\u4e4b1\u3002\u8fd9\u53c8\u662f\u521a\u624d\u7684\u6377\u5f84\uff01",
+     "caption": "1\u51cf2\u5206\u4e4b1\uff0c\u4e581\u52a02\u5206\u4e4b1\u3002\u8fd9\u53c8\u662f\u521a\u624d\u7684\u6377\u5f84\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/5d68491132022c7b.wav",
+     "from": 316,
+     "frames": 215
+    },
+    {
+     "text": "\u7ed3\u679c\u662f1\u51cf4\u5206\u4e4b1\u3002",
+     "caption": "\u7ed3\u679c\u662f1\u51cf4\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/b2774aba67bd612b.wav",
+     "from": 542,
+     "frames": 117
+    },
+    {
+     "text": "\u63a5\u7740\uff0c1\u51cf4\u5206\u4e4b1\u9047\u4e0a1\u52a04\u5206\u4e4b1\uff0c\u5f97\u52301\u51cf16\u5206\u4e4b1\u3002",
+     "caption": "\u63a5\u7740\uff0c1\u51cf4\u5206\u4e4b1\u9047\u4e0a1\u52a04\u5206\u4e4b1\uff0c\u5f97\u52301\u51cf16\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/76207d86b092c820.wav",
+     "from": 669,
+     "frames": 221
+    },
+    {
+     "text": "\u4e0b\u4e00\u4e2a\u662f1\u51cf256\u5206\u4e4b1\u3002",
+     "caption": "\u4e0b\u4e00\u4e2a\u662f1\u51cf256\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/df7b2e8ca19d8ef3.wav",
+     "from": 900,
+     "frames": 144
+    },
+    {
+     "text": "\u6700\u540e\u662f1\u51cf256\u7684\u5e73\u65b9\u5206\u4e4b1\u3002",
+     "caption": "\u6700\u540e\u662f1\u51cf256\u7684\u5e73\u65b9\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/a4082926858905e9.wav",
+     "from": 1054,
+     "frames": 143
+    },
+    {
+     "text": "\u5c31\u50cf\u591a\u7c73\u8bfa\u9aa8\u724c\uff0c\u4e00\u5757\u63a8\u5012\u4e0b\u4e00\u5757\u3002\u6574\u6761\u94fe\u5b50\u4e00\u4e0b\u5b50\u5c31\u584c\u4e86\uff01",
+     "caption": "\u5c31\u50cf\u591a\u7c73\u8bfa\u9aa8\u724c\uff0c\u4e00\u5757\u63a8\u5012\u4e0b\u4e00\u5757\u3002\u6574\u6761\u94fe\u5b50\u4e00\u4e0b\u5b50\u5c31\u584c\u4e86\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/ff3e83d3456fbc91.wav",
+     "from": 1208,
+     "frames": 219
+    },
+    {
+     "text": "\u7b49\u4e00\u4e0b\uff01\u6211\u4eec\u591a\u4e58\u4e86\u4e00\u4e2a2\u5206\u4e4b1\uff0c\u8981\u628a\u5e2e\u624b\u53bb\u6389\uff0c\u6240\u4ee5\u8981\u4e582\uff01",
+     "caption": "\u7b49\u4e00\u4e0b\uff01\u6211\u4eec\u591a\u4e58\u4e86\u4e00\u4e2a2\u5206\u4e4b1\uff0c\u8981\u628a\u5e2e\u624b\u53bb\u6389\uff0c\u6240\u4ee5\u8981\u4e582\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/0658ca0f3222b11d.wav",
+     "from": 1437,
+     "frames": 202
+    },
+    {
+     "text": "\u5168\u90e8\u4e582\uff1a\u5f97\u52302\u51cf256\u7684\u5e73\u65b9\u5206\u4e4b2\u3002",
+     "caption": "\u5168\u90e8\u4e582\uff1a\u5f97\u52302\u51cf256\u7684\u5e73\u65b9\u5206\u4e4b2\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/23e1a9c5f73fc33d.wav",
+     "from": 1649,
+     "frames": 192
+    },
+    {
+     "text": "\u8fd9\u6b63\u597d\u53c8\u662f\u9009\u9879C\uff01",
+     "caption": "\u8fd9\u6b63\u597d\u53c8\u662f\u9009\u9879C\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/b3cabd252f799228.wav",
+     "from": 1851,
+     "frames": 70
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u6bcf\u4e00\u4e2a\u5206\u6bcd\u90fd\u662f\u524d\u4e00\u4e2a\u5206\u6bcd\u7684\u5e73\u65b9\u65f6\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u6bcf\u4e00\u4e2a\u5206\u6bcd\u90fd\u662f\u524d\u4e00\u4e2a\u5206\u6bcd\u7684\u5e73\u65b9\u65f6\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/7cac39bbc37fa0f1.wav",
+     "from": 1931,
+     "frames": 225
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 8684,
+   "frames": 1520,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\uff0c\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\uff0c\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/90b1403766046ff9.wav",
+     "from": 0,
+     "frames": 132
+    },
+    {
+     "text": "\u9009\u9879A\uff0c\u662f\u56e0\u4e3a\u6700\u540e\u5fd8\u4e86\u53bb\u6389\u5e2e\u624b\u3002",
+     "caption": "\u9009\u9879A\uff0c\u662f\u56e0\u4e3a\u6700\u540e\u5fd8\u4e86\u53bb\u6389\u5e2e\u624b\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/81a30be7a95abbcd.wav",
+     "from": 142,
+     "frames": 125
+    },
+    {
+     "text": "\u53ef\u662fA\u6bd41\u5c0f\uff0c\u800c\u6bcf\u4e2a\u62ec\u53f7\u90fd\u6bd41\u5927\u3002\u6240\u4ee5A\u4e0d\u53ef\u80fd\u5bf9\uff01",
+     "caption": "\u53ef\u662fA\u6bd41\u5c0f\uff0c\u800c\u6bcf\u4e2a\u62ec\u53f7\u90fd\u6bd41\u5927\u3002\u6240\u4ee5A\u4e0d\u53ef\u80fd\u5bf9\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/01941eb4005df06a.wav",
+     "from": 278,
+     "frames": 250
+    },
+    {
+     "text": "\u9009\u9879B\u53ea\u4e58\u4e86\u4e09\u4e2a\u62ec\u53f7\u3002\u522b\u5fd8\u4e86\u6700\u540e\u4e00\u4e2a\uff01",
+     "caption": "\u9009\u9879B\u53ea\u4e58\u4e86\u4e09\u4e2a\u62ec\u53f7\u3002\u522b\u5fd8\u4e86\u6700\u540e\u4e00\u4e2a\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/d63e1d8cc1f46f0c.wav",
+     "from": 538,
+     "frames": 132
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879D\uff1a2\u51cf256\u7684\u5e73\u65b9\u5206\u4e4b1\u3002\u90a3\u4e00\u5c0f\u5757\u5fd8\u4e86\u4e582\u3002",
+     "caption": "\u518d\u770b\u9009\u9879D\uff1a2\u51cf256\u7684\u5e73\u65b9\u5206\u4e4b1\u3002\u90a3\u4e00\u5c0f\u5757\u5fd8\u4e86\u4e582\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/5af012b69e0c81ac.wav",
+     "from": 680,
+     "frames": 209
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c\u662f2\u52a0256\u7684\u5e73\u65b9\u5206\u4e4b2\u3002\u7b26\u53f7\u5f04\u53cd\u4e86\uff01",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c\u662f2\u52a0256\u7684\u5e73\u65b9\u5206\u4e4b2\u3002\u7b26\u53f7\u5f04\u53cd\u4e86\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/2ad357ac4b6ce782.wav",
+     "from": 899,
+     "frames": 218
+    },
+    {
+     "text": "\u6bcf\u4e2a\u62ec\u53f7\u90fd\u6bd41\u5927\uff0c\u6240\u4ee5A\u4e0d\u5bf9\u3002",
+     "caption": "\u6bcf\u4e2a\u62ec\u53f7\u90fd\u6bd41\u5927\uff0c\u6240\u4ee5A\u4e0d\u5bf9\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/be536dbdf4b4356c.wav",
+     "from": 1127,
+     "frames": 118
+    },
+    {
+     "text": "\u6211\u4eec\u7684\u89c4\u5f8b\u8bf4\uff0c\u7b54\u6848\u6bd42\u5c0f\u4e00\u70b9\uff0c\u6240\u4ee5\u6700\u540e\u4e00\u4e2a\u9009\u9879\u4e5f\u4e0d\u5bf9\u3002",
+     "caption": "\u6211\u4eec\u7684\u89c4\u5f8b\u8bf4\uff0c\u7b54\u6848\u6bd42\u5c0f\u4e00\u70b9\uff0c\u6240\u4ee5\u6700\u540e\u4e00\u4e2a\u9009\u9879\u4e5f\u4e0d\u5bf9\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/0647c36213420330.wav",
+     "from": 1255,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u53d8\u5f0f\u9898",
+   "from": 10204,
+   "frames": 492,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u63a5\u53d7\u6311\u6218\u4e86\u5417\uff1f\u8bd5\u8bd5\u8fd9\u9053\u9898\u3002",
+     "caption": "\u51c6\u5907\u597d\u63a5\u53d7\u6311\u6218\u4e86\u5417\uff1f\u8bd5\u8bd5\u8fd9\u9053\u9898\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/daaec5ad6f145cbf.wav",
+     "from": 0,
+     "frames": 102
+    },
+    {
+     "text": "1\u52a03\u5206\u4e4b1\uff0c\u4e581\u52a09\u5206\u4e4b1\u3002",
+     "caption": "1\u52a03\u5206\u4e4b1\uff0c\u4e581\u52a09\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/172949f89fcbfc0b.wav",
+     "from": 113,
+     "frames": 156
+    },
+    {
+     "text": "\u8fd8\u662f\u8bf7\u4e00\u4e2a\u5e2e\u624b\u3002\u4e0d\u8fc7\u8981\u5c0f\u5fc3\uff1a\u8fd9\u4e00\u6b21\u7684\u5e2e\u624b\u662f\u4ec0\u4e48\uff1f",
+     "caption": "\u8fd8\u662f\u8bf7\u4e00\u4e2a\u5e2e\u624b\u3002\u4e0d\u8fc7\u8981\u5c0f\u5fc3\uff1a\u8fd9\u4e00\u6b21\u7684\u5e2e\u624b\u662f\u4ec0\u4e48\uff1f",
+     "file": "2026-10-30-telescoping-product-zh/audio/93d3103f1c1da989.wav",
+     "from": 279,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10696,
+   "frames": 393,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u53d8\u5f0f\u9898\uff1a\u7b54\u6848",
+   "from": 11089,
+   "frames": 1712,
+   "lines": [
+    {
+     "text": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u5e2e\u624b\u662f1\u51cf3\u5206\u4e4b1\uff0c\u4e5f\u5c31\u662f3\u5206\u4e4b2\u3002",
+     "caption": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u5e2e\u624b\u662f1\u51cf3\u5206\u4e4b1\uff0c\u4e5f\u5c31\u662f3\u5206\u4e4b2\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/c7d5c74851f50d54.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u94fe\u5b50\u4e00\u8def\u6d88\u6389\uff1a\u5148\u662f1\u51cf9\u5206\u4e4b1\uff0c\u518d\u662f1\u51cf81\u5206\u4e4b1\u3002",
+     "caption": "\u94fe\u5b50\u4e00\u8def\u6d88\u6389\uff1a\u5148\u662f1\u51cf9\u5206\u4e4b1\uff0c\u518d\u662f1\u51cf81\u5206\u4e4b1\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/5191cd2744009874.wav",
+     "from": 205,
+     "frames": 256
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f81\u5206\u4e4b80\u3002",
+     "caption": "\u4e5f\u5c31\u662f81\u5206\u4e4b80\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/be0f6df75fe46b21.wav",
+     "from": 471,
+     "frames": 87
+    },
+    {
+     "text": "\u73b0\u5728\u53bb\u6389\u5e2e\u624b\u3002\u6211\u4eec\u4e58\u4e863\u5206\u4e4b2\uff0c\u6240\u4ee5\u8981\u518d\u4e582\u5206\u4e4b3\u3002",
+     "caption": "\u73b0\u5728\u53bb\u6389\u5e2e\u624b\u3002\u6211\u4eec\u4e58\u4e863\u5206\u4e4b2\uff0c\u6240\u4ee5\u8981\u518d\u4e582\u5206\u4e4b3\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/bc1942e9b03f35d5.wav",
+     "from": 568,
+     "frames": 236
+    },
+    {
+     "text": "\u5f97\u5230162\u5206\u4e4b240\uff0c\u7ea6\u5206\u4ee5\u540e\u662f27\u5206\u4e4b40\u3002",
+     "caption": "\u5f97\u5230162\u5206\u4e4b240\uff0c\u7ea6\u5206\u4ee5\u540e\u662f27\u5206\u4e4b40\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/84137214a8ba9292.wav",
+     "from": 813,
+     "frames": 228
+    },
+    {
+     "text": "\u5982\u679c\u4e60\u60ef\u6027\u5730\u4e582\uff0c\u5c31\u4f1a\u5f97\u523081\u5206\u4e4b160\u3002\u592a\u5927\u4e86\uff01",
+     "caption": "\u5982\u679c\u4e60\u60ef\u6027\u5730\u4e582\uff0c\u5c31\u4f1a\u5f97\u523081\u5206\u4e4b160\u3002\u592a\u5927\u4e86\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/22b657264686e0d0.wav",
+     "from": 1052,
+     "frames": 195
+    },
+    {
+     "text": "\u76f4\u63a5\u4e58\u4e00\u904d\u6765\u9a8c\u8bc1\uff1a3\u5206\u4e4b4\u4e589\u5206\u4e4b10\uff0c\u7b49\u4e8e27\u5206\u4e4b40\u3002",
+     "caption": "\u76f4\u63a5\u4e58\u4e00\u904d\u6765\u9a8c\u8bc1\uff1a3\u5206\u4e4b4\u4e589\u5206\u4e4b10\uff0c\u7b49\u4e8e27\u5206\u4e4b40\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/69b829502b367056.wav",
+     "from": 1257,
+     "frames": 242
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8627\u5206\u4e4b40\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8627\u5206\u4e4b40\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/41cf86c0caa52230.wav",
+     "from": 1509,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12801,
+   "frames": 792,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u91cd\u8981\u7684\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u91cd\u8981\u7684\u601d\u8def\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/0c5f5ddf9253cd33.wav",
+     "from": 0,
+     "frames": 75
+    },
+    {
+     "text": "\u5f53\u6bcf\u4e2a\u5206\u6bcd\u90fd\u662f\u524d\u4e00\u4e2a\u5206\u6bcd\u7684\u5e73\u65b9\u65f6\uff0c\u5c31\u8bf7\u4e00\u4e2a\u5e2e\u624b\uff1a1\u51cf\u7b2c\u4e00\u4e2a\u5206\u6570\u3002",
+     "caption": "\u5f53\u6bcf\u4e2a\u5206\u6bcd\u90fd\u662f\u524d\u4e00\u4e2a\u5206\u6bcd\u7684\u5e73\u65b9\u65f6\uff0c\u5c31\u8bf7\u4e00\u4e2a\u5e2e\u624b\uff1a1\u51cf\u7b2c\u4e00\u4e2a\u5206\u6570\u3002",
+     "file": "2026-10-30-telescoping-product-zh/audio/96853e4839db10a4.wav",
+     "from": 85,
+     "frames": 232
+    },
+    {
+     "text": "\u6bcf\u4e00\u5bf9\u62ec\u53f7\u90fd\u53d8\u62101\u51cf\u4e00\u4e2a\u5e73\u65b9\uff0c\u6574\u6761\u94fe\u5b50\u5c31\u6d88\u6389\u4e86\u3002\u6700\u540e\u522b\u5fd8\u4e86\u53bb\u6389\u5e2e\u624b\uff01",
+     "caption": "\u6bcf\u4e00\u5bf9\u62ec\u53f7\u90fd\u53d8\u62101\u51cf\u4e00\u4e2a\u5e73\u65b9\uff0c\u6574\u6761\u94fe\u5b50\u5c31\u6d88\u6389\u4e86\u3002\u6700\u540e\u522b\u5fd8\u4e86\u53bb\u6389\u5e2e\u624b\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/12b15a80fa2800cb.wav",
+     "from": 327,
+     "frames": 258
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-telescoping-product-zh/audio/f8351124be57142c.wav",
+     "from": 595,
+     "frames": 113
+    }
+   ]
+  }
+ ]
+}

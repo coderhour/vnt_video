@@ -1,0 +1,638 @@
+{
+ "fps": 30,
+ "durationInFrames": 14737,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 688,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u5c0f\u73af\uff0c\u6cbf\u7740\u4e00\u4e2a\u5927\u5706\u73af\u7684\u5185\u4fa7\uff0c\u6eda\u4e86\u6574\u6574\u4e00\u5708\u3002",
+     "caption": "\u4e00\u4e2a\u5c0f\u73af\uff0c\u6cbf\u7740\u4e00\u4e2a\u5927\u5706\u73af\u7684\u5185\u4fa7\uff0c\u6eda\u4e86\u6574\u6574\u4e00\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/f263eb2e5ebd213b.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "\u5c0f\u73af\u81ea\u5df1\u8f6c\u4e86\u51e0\u5708\uff1f\u5f88\u591a\u4eba\u731c5\u5708\u3002\u53ef\u662f\uff0c\u7b54\u6848\u4e0d\u662f5\u5708\uff01",
+     "caption": "\u5c0f\u73af\u81ea\u5df1\u8f6c\u4e86\u51e0\u5708\uff1f\u5f88\u591a\u4eba\u731c5\u5708\u3002\u53ef\u662f\uff0c\u7b54\u6848\u4e0d\u662f5\u5708\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/50978ff08cd1a2a7.wav",
+     "from": 196,
+     "frames": 246
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u6570\u4e00\u6570\uff0c\u5c0f\u73af\u5230\u5e95\u8f6c\u4e86\u51e0\u5708\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u6570\u4e00\u6570\uff0c\u5c0f\u73af\u5230\u5e95\u8f6c\u4e86\u51e0\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/62b5870072df4d9c.wav",
+     "from": 453,
+     "frames": 188
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 688,
+   "frames": 906,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 40
+    },
+    {
+     "text": "\u4e00\u4e2a\u534a\u5f84\u662f2\u7684\u5c0f\u73af\uff0c\u6cbf\u7740\u4e00\u4e2a\u5927\u5706\u73af\u7684\u5185\u4fa7\u6eda\u52a8\u3002",
+     "caption": "\u4e00\u4e2a\u534a\u5f84\u662f2\u7684\u5c0f\u73af\uff0c\u6cbf\u7740\u4e00\u4e2a\u5927\u5706\u73af\u7684\u5185\u4fa7\u6eda\u52a8\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/02e58baa6a4e814a.wav",
+     "from": 50,
+     "frames": 180
+    },
+    {
+     "text": "\u5927\u5706\u73af\u7684\u534a\u5f84\u662f10\u3002",
+     "caption": "\u5927\u5706\u73af\u7684\u534a\u5f84\u662f10\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/8aff3ad32f6e812a.wav",
+     "from": 241,
+     "frames": 81
+    },
+    {
+     "text": "\u5c0f\u73af\u6eda\u52a8\u65f6\u4e0d\u6253\u6ed1\uff0c\u4e00\u76f4\u8d34\u7740\u5927\u5706\u73af\uff0c\u76f4\u5230\u56de\u5230\u51fa\u53d1\u7684\u5730\u65b9\u3002",
+     "caption": "\u5c0f\u73af\u6eda\u52a8\u65f6\u4e0d\u6253\u6ed1\uff0c\u4e00\u76f4\u8d34\u7740\u5927\u5706\u73af\uff0c\u76f4\u5230\u56de\u5230\u51fa\u53d1\u7684\u5730\u65b9\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/7ee62f0665d3c45a.wav",
+     "from": 332,
+     "frames": 220
+    },
+    {
+     "text": "\u5c0f\u73af\u4e00\u5171\u8f6c\u4e86\u51e0\u6574\u5708\uff1f",
+     "caption": "\u5c0f\u73af\u4e00\u5171\u8f6c\u4e86\u51e0\u6574\u5708\uff1f",
+     "file": "2026-10-30-rolling-ring-zh/audio/ea3ee592b57b6692.wav",
+     "from": 562,
+     "frames": 88
+    },
+    {
+     "text": "\u662f3\u5708\u30014\u5708\u30015\u5708\u30016\u5708\uff0c\u8fd8\u662f8\u5708\uff1f",
+     "caption": "\u662f3\u5708\u30014\u5708\u30015\u5708\u30016\u5708\uff0c\u8fd8\u662f8\u5708\uff1f",
+     "file": "2026-10-30-rolling-ring-zh/audio/fabe9e385c70f3b2.wav",
+     "from": 660,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1594,
+   "frames": 1154,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4e9b\u4ec0\u4e48\uff1f",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4e9b\u4ec0\u4e48\uff1f",
+     "file": "2026-10-30-rolling-ring-zh/audio/0808acb11edae1f3.wav",
+     "from": 0,
+     "frames": 59
+    },
+    {
+     "text": "\u5c0f\u73af\u7684\u534a\u5f84\u662f2\uff0c\u5927\u5706\u73af\u7684\u534a\u5f84\u662f10\u3002",
+     "caption": "\u5c0f\u73af\u7684\u534a\u5f84\u662f2\uff0c\u5927\u5706\u73af\u7684\u534a\u5f84\u662f10\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/2624a90dddb3ce68.wav",
+     "from": 69,
+     "frames": 162
+    },
+    {
+     "text": "\u4e0d\u6253\u6ed1\u7684\u610f\u601d\u662f\uff1a\u5c0f\u73af\u50cf\u81ea\u884c\u8f66\u8f6e\u80ce\u5728\u9a6c\u8def\u4e0a\u90a3\u6837\u6eda\uff0c\u4ece\u6765\u4e0d\u4f1a\u6ed1\u3002",
+     "caption": "\u4e0d\u6253\u6ed1\u7684\u610f\u601d\u662f\uff1a\u5c0f\u73af\u50cf\u81ea\u884c\u8f66\u8f6e\u80ce\u5728\u9a6c\u8def\u4e0a\u90a3\u6837\u6eda\uff0c\u4ece\u6765\u4e0d\u4f1a\u6ed1\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/d494999544daf5ba.wav",
+     "from": 242,
+     "frames": 249
+    },
+    {
+     "text": "\u90a3\u4e48\uff0c\u4ec0\u4e48\u53eb\u8f6c\u4e00\u6574\u5708\u5462\uff1f\u6211\u4eec\u5728\u5c0f\u73af\u4e0a\u753b\u4e00\u4e2a\u7bad\u5934\u3002",
+     "caption": "\u90a3\u4e48\uff0c\u4ec0\u4e48\u53eb\u8f6c\u4e00\u6574\u5708\u5462\uff1f\u6211\u4eec\u5728\u5c0f\u73af\u4e0a\u753b\u4e00\u4e2a\u7bad\u5934\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/113a0ad8c76cd45c.wav",
+     "from": 501,
+     "frames": 191
+    },
+    {
+     "text": "\u8f6c\u4e00\u6574\u5708\uff0c\u5c31\u662f\u7bad\u5934\u53c8\u6307\u5411\u539f\u6765\u7684\u65b9\u5411\u3002",
+     "caption": "\u8f6c\u4e00\u6574\u5708\uff0c\u5c31\u662f\u7bad\u5934\u53c8\u6307\u5411\u539f\u6765\u7684\u65b9\u5411\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/a5570d70b5ccf785.wav",
+     "from": 702,
+     "frames": 173
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6570\u7684\u662f\uff1a\u5c0f\u73af\u7ed5\u5927\u5706\u73af\u8d70\u4e00\u5708\uff0c\u8fd9\u6837\u7684\u60c5\u51b5\u51fa\u73b0\u51e0\u6b21\u3002",
+     "caption": "\u6211\u4eec\u8981\u6570\u7684\u662f\uff1a\u5c0f\u73af\u7ed5\u5927\u5706\u73af\u8d70\u4e00\u5708\uff0c\u8fd9\u6837\u7684\u60c5\u51b5\u51fa\u73b0\u51e0\u6b21\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/4e9c4b806d4b5393.wav",
+     "from": 885,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2748,
+   "frames": 482,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "floor",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u8ddf\u7740\u5706\u5fc3\u8d70",
+   "from": 3230,
+   "frames": 1241,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u770b\u4e00\u4e2a\u7b80\u5355\u7684\u60c5\u51b5\uff1a\u5c0f\u73af\u5728\u5e73\u5730\u4e0a\u6eda\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u770b\u4e00\u4e2a\u7b80\u5355\u7684\u60c5\u51b5\uff1a\u5c0f\u73af\u5728\u5e73\u5730\u4e0a\u6eda\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/49899a7faf84fa3e.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u770b\u7bad\u5934\u3002\u8f6c\u5b8c\u4e00\u6574\u5708\uff0c\u7bad\u5934\u53c8\u6307\u5411\u6b63\u4e0b\u65b9\u3002",
+     "caption": "\u770b\u7bad\u5934\u3002\u8f6c\u5b8c\u4e00\u6574\u5708\uff0c\u7bad\u5934\u53c8\u6307\u5411\u6b63\u4e0b\u65b9\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/a82982bee66cc33d.wav",
+     "from": 205,
+     "frames": 171
+    },
+    {
+     "text": "\u5706\u5fc3\u8d70\u4e86\u591a\u8fdc\uff1f\u6b63\u597d\u662f\u5c0f\u73af\u7684\u4e00\u4e2a\u5468\u957f\uff0c\u5c31\u50cf\u628a\u5c0f\u73af\u7684\u8fb9\u644a\u5e73\u5728\u5730\u4e0a\u3002",
+     "caption": "\u5706\u5fc3\u8d70\u4e86\u591a\u8fdc\uff1f\u6b63\u597d\u662f\u5c0f\u73af\u7684\u4e00\u4e2a\u5468\u957f\uff0c\u5c31\u50cf\u628a\u5c0f\u73af\u7684\u8fb9\u644a\u5e73\u5728\u5730\u4e0a\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/353e1b2a88ded051.wav",
+     "from": 386,
+     "frames": 227
+    },
+    {
+     "text": "\u5c0f\u73af\u7684\u5468\u957f\u662f2\u4e58\u6d3e\u4e582\uff0c\u4e5f\u5c31\u662f4\u6d3e\u3002",
+     "caption": "\u5c0f\u73af\u7684\u5468\u957f\u662f2\u4e58\u03c0\u4e582\uff0c\u4e5f\u5c31\u662f4\u03c0\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/60260b5a44442cba.wav",
+     "from": 624,
+     "frames": 173
+    },
+    {
+     "text": "\u6240\u4ee5\u89c4\u5f8b\u662f\uff1a\u5c0f\u73af\u6bcf\u8f6c\u4e00\u6574\u5708\uff0c\u5706\u5fc3\u5c31\u524d\u8fdb\u4e00\u4e2a\u5468\u957f\u3002",
+     "caption": "\u6240\u4ee5\u89c4\u5f8b\u662f\uff1a\u5c0f\u73af\u6bcf\u8f6c\u4e00\u6574\u5708\uff0c\u5706\u5fc3\u5c31\u524d\u8fdb\u4e00\u4e2a\u5468\u957f\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/5a3eab4b1b458150.wav",
+     "from": 807,
+     "frames": 219
+    },
+    {
+     "text": "\u53ea\u8981\u4e0d\u6253\u6ed1\uff0c\u5728\u5f2f\u5f2f\u7684\u8f68\u9053\u4e0a\uff0c\u8fd9\u4e2a\u89c4\u5f8b\u4e5f\u6210\u7acb\u3002",
+     "caption": "\u53ea\u8981\u4e0d\u6253\u6ed1\uff0c\u5728\u5f2f\u5f2f\u7684\u8f68\u9053\u4e0a\uff0c\u8fd9\u4e2a\u89c4\u5f8b\u4e5f\u6210\u7acb\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/f8c78d8393c8ab40.wav",
+     "from": 1036,
+     "frames": 152
+    }
+   ]
+  },
+  {
+   "id": "path",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4471,
+   "frames": 1312,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u56de\u5230\u5927\u5706\u73af\u3002\u5c0f\u73af\u7684\u5706\u5fc3\u4f1a\u8d70\u4ec0\u4e48\u8def\u7ebf\u5462\uff1f",
+     "caption": "\u73b0\u5728\u56de\u5230\u5927\u5706\u73af\u3002\u5c0f\u73af\u7684\u5706\u5fc3\u4f1a\u8d70\u4ec0\u4e48\u8def\u7ebf\u5462\uff1f",
+     "file": "2026-10-30-rolling-ring-zh/audio/2f0785652454773f.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "\u5c0f\u73af\u4e00\u76f4\u8d34\u7740\u5927\u5706\u73af\uff0c\u6240\u4ee5\u5706\u5fc3\u548c\u5927\u5706\u73af\u7684\u8ddd\u79bb\u603b\u662f2\u3002",
+     "caption": "\u5c0f\u73af\u4e00\u76f4\u8d34\u7740\u5927\u5706\u73af\uff0c\u6240\u4ee5\u5706\u5fc3\u548c\u5927\u5706\u73af\u7684\u8ddd\u79bb\u603b\u662f2\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/cdee4b22331752a2.wav",
+     "from": 183,
+     "frames": 226
+    },
+    {
+     "text": "\u6240\u4ee5\u5706\u5fc3\u8d70\u7684\u662f\u4e00\u4e2a\u5c0f\u4e00\u70b9\u7684\u5706\uff0c\u534a\u5f84\u662f10\u51cf2\uff0c\u7b49\u4e8e8\u3002",
+     "caption": "\u6240\u4ee5\u5706\u5fc3\u8d70\u7684\u662f\u4e00\u4e2a\u5c0f\u4e00\u70b9\u7684\u5706\uff0c\u534a\u5f84\u662f10\u51cf2\uff0c\u7b49\u4e8e8\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/08b8f6b7a40997a9.wav",
+     "from": 419,
+     "frames": 232
+    },
+    {
+     "text": "\u8fd9\u4e2a\u5706\u7684\u5468\u957f\u662f2\u4e58\u6d3e\u4e588\uff0c\u7b49\u4e8e16\u6d3e\u3002",
+     "caption": "\u8fd9\u4e2a\u5706\u7684\u5468\u957f\u662f2\u4e58\u03c0\u4e588\uff0c\u7b49\u4e8e16\u03c0\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/4c13a70cfb4e3de2.wav",
+     "from": 661,
+     "frames": 214
+    },
+    {
+     "text": "\u5c0f\u73af\u6bcf\u8f6c\u4e00\u5708\uff0c\u5706\u5fc3\u524d\u8fdb4\u6d3e\u3002",
+     "caption": "\u5c0f\u73af\u6bcf\u8f6c\u4e00\u5708\uff0c\u5706\u5fc3\u524d\u8fdb4\u03c0\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/689fe235c797f40c.wav",
+     "from": 885,
+     "frames": 131
+    },
+    {
+     "text": "16\u6d3e\u9664\u4ee54\u6d3e\uff0c\u7b49\u4e8e4\u3002\u6240\u4ee5\u7b54\u6848\u662f4\u6574\u5708\uff0c\u9009B\uff01",
+     "caption": "16\u03c0\u9664\u4ee54\u03c0\uff0c\u7b49\u4e8e4\u3002\u6240\u4ee5\u7b54\u6848\u662f4\u6574\u5708\uff0c\u9009B\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/24f8033ab308a549.wav",
+     "from": 1027,
+     "frames": 216
+    }
+   ]
+  },
+  {
+   "id": "watch",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5783,
+   "frames": 777,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u8ba9\u5c0f\u73af\u6eda\u4e0a\u4e00\u5708\uff0c\u786e\u8ba4\u4e00\u4e0b\u3002",
+     "caption": "\u6211\u4eec\u8ba9\u5c0f\u73af\u6eda\u4e0a\u4e00\u5708\uff0c\u786e\u8ba4\u4e00\u4e0b\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/9018fa8e985b3757.wav",
+     "from": 0,
+     "frames": 104
+    },
+    {
+     "text": "\u7bad\u5934\u6bcf\u6b21\u91cd\u65b0\u6307\u5411\u6b63\u4e0b\u65b9\uff0c\u5c31\u6570\u4e00\u6b21\u3002",
+     "caption": "\u7bad\u5934\u6bcf\u6b21\u91cd\u65b0\u6307\u5411\u6b63\u4e0b\u65b9\uff0c\u5c31\u6570\u4e00\u6b21\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/7b92314c6f0507fd.wav",
+     "from": 113,
+     "frames": 148
+    },
+    {
+     "text": "\u6ce8\u610f\uff1a\u5706\u5fc3\u662f\u9006\u65f6\u9488\u8d70\u7684\uff0c\u53ef\u5c0f\u73af\u5374\u662f\u987a\u65f6\u9488\u8f6c\u7684\u3002",
+     "caption": "\u6ce8\u610f\uff1a\u5706\u5fc3\u662f\u9006\u65f6\u9488\u8d70\u7684\uff0c\u53ef\u5c0f\u73af\u5374\u662f\u987a\u65f6\u9488\u8f6c\u7684\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/1b01339fe730f98d.wav",
+     "from": 272,
+     "frames": 189
+    },
+    {
+     "text": "\u7ee7\u7eed\u6570\uff0c\u4e00\u76f4\u6570\u5230\u56de\u5230\u8d77\u70b9\u3002",
+     "caption": "\u7ee7\u7eed\u6570\uff0c\u4e00\u76f4\u6570\u5230\u56de\u5230\u8d77\u70b9\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/aa0c565c2d3d9ade.wav",
+     "from": 471,
+     "frames": 112
+    },
+    {
+     "text": "4\u6574\u5708\uff0c\u548c\u6211\u4eec\u7b97\u7684\u4e00\u6837\uff01",
+     "caption": "4\u6574\u5708\uff0c\u548c\u6211\u4eec\u7b97\u7684\u4e00\u6837\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/46e02d9ba1336c37.wav",
+     "from": 593,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "five",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a5\u51cf1",
+   "from": 6560,
+   "frames": 635,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u8fd9\u4e2a\u65b9\u6cd5\u8fd8\u80fd\u8bf4\u660e\uff0c\u4e3a\u4ec0\u4e48\u5927\u5bb6\u5bb9\u6613\u731c5\u3002",
+     "caption": "\u8fd8\u6709\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u8fd9\u4e2a\u65b9\u6cd5\u8fd8\u80fd\u8bf4\u660e\uff0c\u4e3a\u4ec0\u4e48\u5927\u5bb6\u5bb9\u6613\u731c5\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/6ef1471d411b3539.wav",
+     "from": 0,
+     "frames": 178
+    },
+    {
+     "text": "\u73b0\u5728\u770b\u7bad\u5934\u5c16\u4e0a\u7684\u7ea2\u70b9\u3002",
+     "caption": "\u73b0\u5728\u770b\u7bad\u5934\u5c16\u4e0a\u7684\u7ea2\u70b9\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/7a716b054b42de64.wav",
+     "from": 188,
+     "frames": 98
+    },
+    {
+     "text": "\u7ea2\u70b9\u6bcf\u78b0\u5230\u5927\u5706\u73af\u4e00\u6b21\uff0c\u6211\u4eec\u5c31\u505a\u4e00\u4e2a\u8bb0\u53f7\u3002",
+     "caption": "\u7ea2\u70b9\u6bcf\u78b0\u5230\u5927\u5706\u73af\u4e00\u6b21\uff0c\u6211\u4eec\u5c31\u505a\u4e00\u4e2a\u8bb0\u53f7\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/b9c8ce3d8faedd6b.wav",
+     "from": 296,
+     "frames": 136
+    }
+   ]
+  },
+  {
+   "id": "five2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7195,
+   "frames": 721,
+   "lines": [
+    {
+     "text": "5\u4e2a\u8bb0\u53f7\uff01\u5927\u5706\u73af\u7684\u5468\u957f\u662f20\u6d3e\uff0c\u5c0f\u73af\u7684\u5468\u957f\u662f4\u6d3e\u3002",
+     "caption": "5\u4e2a\u8bb0\u53f7\uff01\u5927\u5706\u73af\u7684\u5468\u957f\u662f20\u03c0\uff0c\u5c0f\u73af\u7684\u5468\u957f\u662f4\u03c0\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/2ba922828f3992c2.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "20\u6d3e\u9664\u4ee54\u6d3e\u7b49\u4e8e5\u3002\u6240\u4ee5\u7ea2\u70b9\u78b0\u5230\u5927\u5706\u73af5\u6b21\u3002",
+     "caption": "20\u03c0\u9664\u4ee54\u03c0\u7b49\u4e8e5\u3002\u6240\u4ee5\u7ea2\u70b9\u78b0\u5230\u5927\u5706\u73af5\u6b21\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/8561f883b1fdd149.wav",
+     "from": 236,
+     "frames": 228
+    },
+    {
+     "text": "\u53ef\u662f\u7bad\u5934\u53ea\u67094\u6b21\u91cd\u65b0\u6307\u5411\u4e0b\u65b9\u3002\u5c11\u7684\u90a3\u4e00\u5708\u53bb\u54ea\u91cc\u4e86\uff1f",
+     "caption": "\u53ef\u662f\u7bad\u5934\u53ea\u67094\u6b21\u91cd\u65b0\u6307\u5411\u4e0b\u65b9\u3002\u5c11\u7684\u90a3\u4e00\u5708\u53bb\u54ea\u91cc\u4e86\uff1f",
+     "file": "2026-10-30-rolling-ring-zh/audio/49e18a84fe1a349a.wav",
+     "from": 475,
+     "frames": 192
+    }
+   ]
+  },
+  {
+   "id": "slide",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7916,
+   "frames": 2042,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u505a\u4e2a\u597d\u73a9\u7684\u5b9e\u9a8c\u3002\u628a\u5c0f\u73af\u7c98\u4f4f\uff0c\u4e0d\u8ba9\u5c0f\u73af\u6eda\uff0c\u53ea\u8ba9\u5c0f\u73af\u8d34\u7740\u5927\u5706\u73af\u6ed1\u4e00\u5708\u3002",
+     "caption": "\u6211\u4eec\u6765\u505a\u4e2a\u597d\u73a9\u7684\u5b9e\u9a8c\u3002\u628a\u5c0f\u73af\u7c98\u4f4f\uff0c\u4e0d\u8ba9\u5c0f\u73af\u6eda\uff0c\u53ea\u8ba9\u5c0f\u73af\u8d34\u7740\u5927\u5706\u73af\u6ed1\u4e00\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/8bb20d0ae87f2fc0.wav",
+     "from": 0,
+     "frames": 251
+    },
+    {
+     "text": "\u7ea2\u70b9\u4e00\u76f4\u8d34\u7740\u5927\u5706\u73af\u3002\u73b0\u5728\u770b\u7bad\u5934\u3002",
+     "caption": "\u7ea2\u70b9\u4e00\u76f4\u8d34\u7740\u5927\u5706\u73af\u3002\u73b0\u5728\u770b\u7bad\u5934\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/bfaa7bb5b533c57e.wav",
+     "from": 261,
+     "frames": 126
+    },
+    {
+     "text": "\u5c31\u7b97\u4e0d\u6eda\uff0c\u7bad\u5934\u4e5f\u8f6c\u4e86\u4e00\u5708\uff0c\u65b9\u5411\u548c\u5706\u5fc3\u8d70\u7684\u65b9\u5411\u4e00\u6837\u3002",
+     "caption": "\u5c31\u7b97\u4e0d\u6eda\uff0c\u7bad\u5934\u4e5f\u8f6c\u4e86\u4e00\u5708\uff0c\u65b9\u5411\u548c\u5706\u5fc3\u8d70\u7684\u65b9\u5411\u4e00\u6837\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/080cc62f147a909c.wav",
+     "from": 398,
+     "frames": 208
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u7ed5\u5927\u5706\u73af\u8d70\u4e00\u5708\uff0c\u672c\u8eab\u5c31\u8ba9\u5c0f\u73af\u9006\u65f6\u9488\u8f6c\u4e86\u4e00\u5708\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u7ed5\u5927\u5706\u73af\u8d70\u4e00\u5708\uff0c\u672c\u8eab\u5c31\u8ba9\u5c0f\u73af\u9006\u65f6\u9488\u8f6c\u4e86\u4e00\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/6945323f630cbff7.wav",
+     "from": 616,
+     "frames": 194
+    },
+    {
+     "text": "\u73b0\u5728\u8ba9\u5c0f\u73af\u518d\u6eda\u4e00\u6b21\uff0c\u628a\u521a\u624d\u56fa\u5b9a\u7684\u5c0f\u73af\u753b\u5728\u4e0a\u9762\u3002",
+     "caption": "\u73b0\u5728\u8ba9\u5c0f\u73af\u518d\u6eda\u4e00\u6b21\uff0c\u628a\u521a\u624d\u56fa\u5b9a\u7684\u5c0f\u73af\u753b\u5728\u4e0a\u9762\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/c4c5d1903230698b.wav",
+     "from": 819,
+     "frames": 180
+    },
+    {
+     "text": "\u7c98\u4f4f\u7684\u5c0f\u73af\uff0c\u7ea2\u70b9\u603b\u662f\u671d\u7740\u5927\u5706\u73af\u3002\u6eda\u52a8\u7684\u5c0f\u73af\uff0c\u7ea2\u70b95\u6b21\u56de\u5230\u5927\u5706\u73af\u4e0a\u3002",
+     "caption": "\u7c98\u4f4f\u7684\u5c0f\u73af\uff0c\u7ea2\u70b9\u603b\u662f\u671d\u7740\u5927\u5706\u73af\u3002\u6eda\u52a8\u7684\u5c0f\u73af\uff0c\u7ea2\u70b95\u6b21\u56de\u5230\u5927\u5706\u73af\u4e0a\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/d90de2556299a1cb.wav",
+     "from": 1010,
+     "frames": 280
+    },
+    {
+     "text": "\u4ece\u5927\u5706\u73af\u8fd9\u8fb9\u770b\uff0c\u8fd9\u662f\u987a\u65f6\u9488\u8f6c\u4e865\u5708\u3002",
+     "caption": "\u4ece\u5927\u5706\u73af\u8fd9\u8fb9\u770b\uff0c\u8fd9\u662f\u987a\u65f6\u9488\u8f6c\u4e865\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/b8cda63f8f23fef3.wav",
+     "from": 1300,
+     "frames": 146
+    },
+    {
+     "text": "\u7ed5\u5708\u5e26\u6765\u7684\u90a3\u4e00\u5708\u65b9\u5411\u76f8\u53cd\uff0c\u6240\u4ee5\u8981\u62b5\u6d88\u4e00\u5708\u30025\u51cf1\u7b49\u4e8e4\uff01",
+     "caption": "\u7ed5\u5708\u5e26\u6765\u7684\u90a3\u4e00\u5708\u65b9\u5411\u76f8\u53cd\uff0c\u6240\u4ee5\u8981\u62b5\u6d88\u4e00\u5708\u30025\u51cf1\u7b49\u4e8e4\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/5852f6fe7c24fbeb.wav",
+     "from": 1456,
+     "frames": 255
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u8fd9\u4e2a\u65b9\u6cd5\u68c0\u67e5\u8d77\u6765\u5f88\u5feb\uff0c\u8fd8\u80fd\u8bf4\u660e\u4e3a\u4ec0\u4e485\u662f\u4e2a\u9677\u9631\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u8fd9\u4e2a\u65b9\u6cd5\u68c0\u67e5\u8d77\u6765\u5f88\u5feb\uff0c\u8fd8\u80fd\u8bf4\u660e\u4e3a\u4ec0\u4e485\u662f\u4e2a\u9677\u9631\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/a74ed38e41176690.wav",
+     "from": 1721,
+     "frames": 252
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9958,
+   "frames": 1340,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u5e38\u89c1\u7684\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u5e38\u89c1\u7684\u9677\u9631\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/5bf2941f3b251e4e.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "\u7b54\u68485\u5708\uff0c\u7528\u7684\u662f\u5927\u5706\u73af\u7684\u6574\u4e2a\u5468\u957f\uff0c\u5fd8\u4e86\u7ed5\u5708\u8981\u51cf\u6389\u7684\u90a3\u4e00\u5708\u3002",
+     "caption": "\u7b54\u68485\u5708\uff0c\u7528\u7684\u662f\u5927\u5706\u73af\u7684\u6574\u4e2a\u5468\u957f\uff0c\u5fd8\u4e86\u7ed5\u5708\u8981\u51cf\u6389\u7684\u90a3\u4e00\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/852d6f536d76de68.wav",
+     "from": 99,
+     "frames": 230
+    },
+    {
+     "text": "\u518d\u770b8\u5708\u30028\u5708\u662f\u628a\u5c0f\u73af\u7684\u5468\u957f\u7b97\u6210\u4e862\u6d3e\uff0c\u90a3\u662f\u534a\u5f84\u4e3a1\u7684\u5706\u7684\u5468\u957f\u3002",
+     "caption": "\u518d\u770b8\u5708\u30028\u5708\u662f\u628a\u5c0f\u73af\u7684\u5468\u957f\u7b97\u6210\u4e862\u03c0\uff0c\u90a3\u662f\u534a\u5f84\u4e3a1\u7684\u5706\u7684\u5468\u957f\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/e44340afbb413898.wav",
+     "from": 339,
+     "frames": 270
+    },
+    {
+     "text": "\u5982\u679c\u90096\uff0c\u90a3\u662f\u5728\u5927\u5706\u73af\u5916\u4fa7\u6eda\u52a8\u7684\u7b54\u6848\u3002\u5728\u5916\u4fa7\uff0c\u7ed5\u5708\u4f1a\u591a\u51fa\u4e00\u5708\u3002",
+     "caption": "\u5982\u679c\u90096\uff0c\u90a3\u662f\u5728\u5927\u5706\u73af\u5916\u4fa7\u6eda\u52a8\u7684\u7b54\u6848\u3002\u5728\u5916\u4fa7\uff0c\u7ed5\u5708\u4f1a\u591a\u51fa\u4e00\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/e957fc83ad4305e4.wav",
+     "from": 619,
+     "frames": 250
+    },
+    {
+     "text": "\u5982\u679c\u90093\uff0c\u662f\u628a\u5c0f\u73af\u7684\u6574\u4e2a\u76f4\u5f84\u90fd\u51cf\u6389\u4e86\uff0c\u5706\u5fc3\u8def\u7ebf\u7684\u534a\u5f84\u5c31\u6210\u4e866\uff0c\u800c\u4e0d\u662f8\u3002",
+     "caption": "\u5982\u679c\u90093\uff0c\u662f\u628a\u5c0f\u73af\u7684\u6574\u4e2a\u76f4\u5f84\u90fd\u51cf\u6389\u4e86\uff0c\u5706\u5fc3\u8def\u7ebf\u7684\u534a\u5f84\u5c31\u6210\u4e866\uff0c\u800c\u4e0d\u662f8\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/187bbf6401ba48fb.wav",
+     "from": 879,
+     "frames": 268
+    },
+    {
+     "text": "\u53ea\u67094\u7ecf\u5f97\u4f4f\u68c0\u9a8c\u3002\u9009B\uff01",
+     "caption": "\u53ea\u67094\u7ecf\u5f97\u4f4f\u68c0\u9a8c\u3002\u9009B\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/b632d667999774b8.wav",
+     "from": 1157,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u53d8\u5f0f\u9898",
+   "from": 11298,
+   "frames": 658,
+   "lines": [
+    {
+     "text": "\u8f6e\u5230\u4f60\u4e86\uff01\u6211\u4eec\u6362\u4e2a\u82b1\u6837\u3002",
+     "caption": "\u8f6e\u5230\u4f60\u4e86\uff01\u6211\u4eec\u6362\u4e2a\u82b1\u6837\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/5e7e0d03ba3faefd.wav",
+     "from": 0,
+     "frames": 78
+    },
+    {
+     "text": "\u4e00\u679a\u534a\u5f84\u662f3\u7684\u786c\u5e01\uff0c\u6cbf\u7740\u4e00\u4e2a\u76d8\u5b50\u7684\u5916\u4fa7\u6eda\u52a8\u3002",
+     "caption": "\u4e00\u679a\u534a\u5f84\u662f3\u7684\u786c\u5e01\uff0c\u6cbf\u7740\u4e00\u4e2a\u76d8\u5b50\u7684\u5916\u4fa7\u6eda\u52a8\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/8912440d78a33297.wav",
+     "from": 89,
+     "frames": 166
+    },
+    {
+     "text": "\u76d8\u5b50\u7684\u534a\u5f84\u662f12\u3002",
+     "caption": "\u76d8\u5b50\u7684\u534a\u5f84\u662f12\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/2dfde86e1b7ccc35.wav",
+     "from": 265,
+     "frames": 83
+    },
+    {
+     "text": "\u786c\u5e01\u7ed5\u76d8\u5b50\u8d70\u4e00\u5708\uff0c\u786c\u5e01\u81ea\u5df1\u8f6c\u4e86\u51e0\u5708\uff1f",
+     "caption": "\u786c\u5e01\u7ed5\u76d8\u5b50\u8d70\u4e00\u5708\uff0c\u786c\u5e01\u81ea\u5df1\u8f6c\u4e86\u51e0\u5708\uff1f",
+     "file": "2026-10-30-rolling-ring-zh/audio/05081fc3d204048a.wav",
+     "from": 358,
+     "frames": 166
+    },
+    {
+     "text": "\u63d0\u793a\uff1a\u8ddf\u7740\u5706\u5fc3\u8d70\uff01",
+     "caption": "\u63d0\u793a\uff1a\u8ddf\u7740\u5706\u5fc3\u8d70\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/941a83adbb6bc017.wav",
+     "from": 534,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11956,
+   "frames": 501,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/4c7cca7ba3a6ae33.wav",
+     "from": 0,
+     "frames": 117
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u53d8\u5f0f\u9898\uff1a\u7b54\u6848",
+   "from": 12457,
+   "frames": 1411,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u5728\u5916\u4fa7\uff0c\u786c\u5e01\u7684\u5706\u5fc3\u548c\u76d8\u5b50\u7684\u8ddd\u79bb\u603b\u662f3\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u5728\u5916\u4fa7\uff0c\u786c\u5e01\u7684\u5706\u5fc3\u548c\u76d8\u5b50\u7684\u8ddd\u79bb\u603b\u662f3\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/1ae8f4f9df534f28.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "\u6240\u4ee5\u5706\u5fc3\u8def\u7ebf\u7684\u534a\u5f84\u662f12\u52a03\uff0c\u7b49\u4e8e15\u3002",
+     "caption": "\u6240\u4ee5\u5706\u5fc3\u8def\u7ebf\u7684\u534a\u5f84\u662f12\u52a03\uff0c\u7b49\u4e8e15\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/3944475ee66470bf.wav",
+     "from": 206,
+     "frames": 184
+    },
+    {
+     "text": "\u8fd9\u6761\u8def\u7ebf\u957f30\u6d3e\u3002\u786c\u5e01\u6bcf\u8f6c\u4e00\u5708\uff0c\u5706\u5fc3\u524d\u8fdb6\u6d3e\u3002",
+     "caption": "\u8fd9\u6761\u8def\u7ebf\u957f30\u03c0\u3002\u786c\u5e01\u6bcf\u8f6c\u4e00\u5708\uff0c\u5706\u5fc3\u524d\u8fdb6\u03c0\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/33b02668dd754d63.wav",
+     "from": 400,
+     "frames": 201
+    },
+    {
+     "text": "30\u6d3e\u9664\u4ee56\u6d3e\u7b49\u4e8e5\u3002\u6240\u4ee5\u786c\u5e01\u8f6c\u4e865\u6574\u5708\uff01",
+     "caption": "30\u03c0\u9664\u4ee56\u03c0\u7b49\u4e8e5\u3002\u6240\u4ee5\u786c\u5e01\u8f6c\u4e865\u6574\u5708\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/9b7cc1791f10e7eb.wav",
+     "from": 611,
+     "frames": 212
+    },
+    {
+     "text": "\u6211\u4eec\u7528\u53e6\u4e00\u79cd\u65b9\u6cd5\u68c0\u67e5\u4e00\u4e0b\u300212\u9664\u4ee53\u7b49\u4e8e4\uff0c\u7ed5\u5708\u518d\u52a0\u4e0a1\u5708\u3002",
+     "caption": "\u6211\u4eec\u7528\u53e6\u4e00\u79cd\u65b9\u6cd5\u68c0\u67e5\u4e00\u4e0b\u300212\u9664\u4ee53\u7b49\u4e8e4\uff0c\u7ed5\u5708\u518d\u52a0\u4e0a1\u5708\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/dfa07564fd70ff68.wav",
+     "from": 833,
+     "frames": 226
+    },
+    {
+     "text": "\u53c8\u662f5\u5708\uff01\u5728\u5916\u4fa7\uff0c\u786c\u5e01\u8f6c\u52a8\u7684\u65b9\u5411\uff0c\u548c\u786c\u5e01\u524d\u8fdb\u7684\u65b9\u5411\u76f8\u540c\u3002",
+     "caption": "\u53c8\u662f5\u5708\uff01\u5728\u5916\u4fa7\uff0c\u786c\u5e01\u8f6c\u52a8\u7684\u65b9\u5411\uff0c\u548c\u786c\u5e01\u524d\u8fdb\u7684\u65b9\u5411\u76f8\u540c\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/7779c6a5f9a53af1.wav",
+     "from": 1069,
+     "frames": 215
+    },
+    {
+     "text": "\u505a\u5f97\u771f\u68d2\uff01",
+     "caption": "\u505a\u5f97\u771f\u68d2\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/b01d3a71c78301fb.wav",
+     "from": 1294,
+     "frames": 48
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13868,
+   "frames": 869,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u603b\u7ed3\u4e00\u4e0b\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u6211\u4eec\u6765\u603b\u7ed3\u4e00\u4e0b\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/24b736a7c10fc999.wav",
+     "from": 0,
+     "frames": 93
+    },
+    {
+     "text": "\u8981\u6570\u8f6c\u4e86\u51e0\u5708\uff0c\u5c31\u8ddf\u7740\u5706\u5fc3\u8d70\u3002\u6bcf\u8f6c\u4e00\u5708\uff0c\u5706\u5fc3\u524d\u8fdb\u4e00\u4e2a\u5468\u957f\u3002",
+     "caption": "\u8981\u6570\u8f6c\u4e86\u51e0\u5708\uff0c\u5c31\u8ddf\u7740\u5706\u5fc3\u8d70\u3002\u6bcf\u8f6c\u4e00\u5708\uff0c\u5706\u5fc3\u524d\u8fdb\u4e00\u4e2a\u5468\u957f\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/892262691408ea4b.wav",
+     "from": 103,
+     "frames": 243
+    },
+    {
+     "text": "\u5706\u5fc3\u90a3\u4e2a\u5706\u7684\u534a\u5f84\uff1a\u5728\u5927\u5706\u73af\u91cc\u9762\u6eda\uff0c\u5c31\u51cf\u53bb\u5c0f\u73af\u7684\u534a\u5f84\uff1b\u5728\u5916\u9762\u6eda\uff0c\u5c31\u52a0\u4e0a\u3002",
+     "caption": "\u5706\u5fc3\u90a3\u4e2a\u5706\u7684\u534a\u5f84\uff1a\u5728\u5927\u5706\u73af\u91cc\u9762\u6eda\uff0c\u5c31\u51cf\u53bb\u5c0f\u73af\u7684\u534a\u5f84\uff1b\u5728\u5916\u9762\u6eda\uff0c\u5c31\u52a0\u4e0a\u3002",
+     "file": "2026-10-30-rolling-ring-zh/audio/7c7560cf200cbb43.wav",
+     "from": 356,
+     "frames": 249
+    },
+    {
+     "text": "\u8c22\u8c22\u4f60\u548c\u6211\u4e00\u8d77\u6eda\u4e00\u6eda\uff01\u6211\u662fVantee\u3002\u4e0b\u6b21\u89c1\uff0c\u7ee7\u7eed\u63a2\u7d22\u54e6\uff01",
+     "caption": "\u8c22\u8c22\u4f60\u548c\u6211\u4e00\u8d77\u6eda\u4e00\u6eda\uff01\u6211\u662fVantee\u3002\u4e0b\u6b21\u89c1\uff0c\u7ee7\u7eed\u63a2\u7d22\u54e6\uff01",
+     "file": "2026-10-30-rolling-ring-zh/audio/f3a0c1620f1a6018.wav",
+     "from": 615,
+     "frames": 171
+    }
+   ]
+  }
+ ]
+}

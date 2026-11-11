@@ -6,14 +6,14 @@
  "scene_tail": 0.4,
  "caption_digits": true,
  "captions": {
-  "Area two ways gives z equals eight y plus forty-eight, over three y minus eight.": "Area two ways gives z = (8y+48) / (3y−8).",
+  "Area two ways gives this formula, so y is at least three.": "Area two ways gives this formula, so y is at least 3.",
   "At y equals three, z is seventy-two!": "At y = 3, z is 72!"
  },
  "scenes": [
   {
    "id": "hook",
    "lines": [
-    "AMC ten challenge! Think it's eighty-one? Nope!"
+    "Think it's eighty-one? Nope!"
    ]
   },
   {
@@ -33,8 +33,7 @@
    "id": "pieces",
    "lines": [
     "Equal tangent pieces: six, y, and z.",
-    "Area two ways gives z equals eight y plus forty-eight, over three y minus eight.",
-    "For a positive bottom, y must be at least three.",
+    "Area two ways gives this formula, so y is at least three.",
     "At y equals three, z is seventy-two!"
    ]
   },

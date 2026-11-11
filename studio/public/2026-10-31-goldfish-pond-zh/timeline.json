@@ -1,0 +1,492 @@
+{
+ "fps": 30,
+ "durationInFrames": 12043,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 620,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u6c60\u5858\u91cc\uff0c\u91d1\u9c7c\u4ece90%\u964d\u5230\u4e8680%\u3002\u6709\u591a\u5c11\u6761\u91d1\u9c7c\u79bb\u5f00\u4e86\uff1f",
+     "caption": "\u4e00\u4e2a\u6c60\u5858\u91cc\uff0c\u91d1\u9c7c\u4ece90%\u964d\u5230\u4e8680%\u3002\u6709\u591a\u5c11\u6761\u91d1\u9c7c\u79bb\u5f00\u4e86\uff1f",
+     "file": "2026-10-31-goldfish-pond-zh/audio/e6643d4143231982.wav",
+     "from": 0,
+     "frames": 246
+    },
+    {
+     "text": "\u5f88\u591a\u540c\u5b66\u4f1a\u731c\u662f10\u6761\u3002\u5176\u5b9e\u7b54\u6848\u8981\u5927\u5f97\u591a\uff01",
+     "caption": "\u5f88\u591a\u540c\u5b66\u4f1a\u731c\u662f10\u6761\u3002\u5176\u5b9e\u7b54\u6848\u8981\u5927\u5f97\u591a\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/ab077bada3f0d945.wav",
+     "from": 256,
+     "frames": 171
+    },
+    {
+     "text": "\u5927\u5bb6\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u628a\u7b54\u6848\u9493\u4e0a\u6765\u5427\u3002",
+     "caption": "\u5927\u5bb6\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u628a\u7b54\u6848\u9493\u4e0a\u6765\u5427\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/b6f473c200a8c7cf.wav",
+     "from": 437,
+     "frames": 144
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 620,
+   "frames": 671,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 46
+    },
+    {
+     "text": "\u4e00\u4e2a\u6c60\u5858\u91cc\u6709200\u6761\u9c7c\u3002",
+     "caption": "\u4e00\u4e2a\u6c60\u5858\u91cc\u6709200\u6761\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/1b5906f1dd8c7807.wav",
+     "from": 56,
+     "frames": 107
+    },
+    {
+     "text": "\u5176\u4e2d90%\u662f\u91d1\u9c7c\u3002",
+     "caption": "\u5176\u4e2d90%\u662f\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/8dcb92301c643407.wav",
+     "from": 174,
+     "frames": 105
+    },
+    {
+     "text": "\u8981\u635e\u51fa\u591a\u5c11\u6761\u91d1\u9c7c\uff0c\u624d\u80fd\u8ba9\u5269\u4e0b\u7684\u9c7c\u91cc\u670980%\u662f\u91d1\u9c7c\uff1f",
+     "caption": "\u8981\u635e\u51fa\u591a\u5c11\u6761\u91d1\u9c7c\uff0c\u624d\u80fd\u8ba9\u5269\u4e0b\u7684\u9c7c\u91cc\u670980%\u662f\u91d1\u9c7c\uff1f",
+     "file": "2026-10-31-goldfish-pond-zh/audio/35ca01e57b5f35a8.wav",
+     "from": 289,
+     "frames": 208
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 507,
+     "frames": 95
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1291,
+   "frames": 637,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e00\u5171\u6709200\u6761\u9c7c\uff0c\u5176\u4e2d90%\u662f\u91d1\u9c7c\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4e00\u5171\u6709200\u6761\u9c7c\uff0c\u5176\u4e2d90%\u662f\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/b3f2b245ae638e56.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "\u6211\u4eec\u53ea\u635e\u91d1\u9c7c\u3002\u5176\u4ed6\u7684\u9c7c\u5168\u90fd\u7559\u5728\u6c60\u5858\u91cc\u3002",
+     "caption": "\u6211\u4eec\u53ea\u635e\u91d1\u9c7c\u3002\u5176\u4ed6\u7684\u9c7c\u5168\u90fd\u7559\u5728\u6c60\u5858\u91cc\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/a3b915ffa784f175.wav",
+     "from": 218,
+     "frames": 170
+    },
+    {
+     "text": "\u6700\u540e\uff0c\u5728\u5269\u4e0b\u7684\u9c7c\u91cc\u9762\uff0c\u8981\u670980%\u662f\u91d1\u9c7c\u3002",
+     "caption": "\u6700\u540e\uff0c\u5728\u5269\u4e0b\u7684\u9c7c\u91cc\u9762\uff0c\u8981\u670980%\u662f\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/0996103482e166c2.wav",
+     "from": 397,
+     "frames": 186
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 1928,
+   "frames": 502,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 178
+    }
+   ]
+  },
+  {
+   "id": "stay",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u76ef\u4f4f\u7559\u4e0b\u7684\u9c7c",
+   "from": 2430,
+   "frames": 953,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u65b9\u6cd5\u662f\uff1a\u76ef\u4f4f\u4e0d\u53d8\u7684\u90a3\u4e9b\u9c7c\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u65b9\u6cd5\u662f\uff1a\u76ef\u4f4f\u4e0d\u53d8\u7684\u90a3\u4e9b\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/40b45f87c306e056.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "200\u768410%\u662f20\u3002\u6240\u4ee590%\u5c31\u662f9\u4e5820\uff0c\u7b49\u4e8e180\u6761\u91d1\u9c7c\u3002",
+     "caption": "200\u768410%\u662f20\u3002\u6240\u4ee590%\u5c31\u662f9\u4e5820\uff0c\u7b49\u4e8e180\u6761\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/e4878ed82051a2ca.wav",
+     "from": 153,
+     "frames": 328
+    },
+    {
+     "text": "\u90a3\u4e48\u5176\u4ed6\u7684\u9c7c\u5c31\u670920\u6761\u3002",
+     "caption": "\u90a3\u4e48\u5176\u4ed6\u7684\u9c7c\u5c31\u670920\u6761\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/a79ffeb3998d7d61.wav",
+     "from": 491,
+     "frames": 107
+    },
+    {
+     "text": "\u5173\u952e\u6765\u4e86\u3002\u8fd920\u6761\u9c7c\u6211\u4eec\u4e00\u6761\u4e5f\u4e0d\u635e\u3002\u4e0d\u7ba1\u600e\u4e48\u635e\uff0c\u8fd920\u6761\u9c7c\u90fd\u7559\u5728\u6c60\u5858\u91cc\u3002",
+     "caption": "\u5173\u952e\u6765\u4e86\u3002\u8fd920\u6761\u9c7c\u6211\u4eec\u4e00\u6761\u4e5f\u4e0d\u635e\u3002\u4e0d\u7ba1\u600e\u4e48\u635e\uff0c\u8fd920\u6761\u9c7c\u90fd\u7559\u5728\u6c60\u5858\u91cc\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/44cdd7cd8fb3396a.wav",
+     "from": 609,
+     "frames": 291
+    }
+   ]
+  },
+  {
+   "id": "fifth",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3383,
+   "frames": 1370,
+   "lines": [
+    {
+     "text": "\u6700\u540e\uff0c\u91d1\u9c7c\u536080%\u3002\u6240\u4ee5\u5176\u4ed6\u7684\u9c7c\u536020%\u3002",
+     "caption": "\u6700\u540e\uff0c\u91d1\u9c7c\u536080%\u3002\u6240\u4ee5\u5176\u4ed6\u7684\u9c7c\u536020%\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/085a5072de43969a.wav",
+     "from": 0,
+     "frames": 225
+    },
+    {
+     "text": "20%\u5c31\u662f5\u5206\u4e4b1\u3002",
+     "caption": "20%\u5c31\u662f5\u5206\u4e4b1\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/d2948d6a199260c2.wav",
+     "from": 235,
+     "frames": 113
+    },
+    {
+     "text": "\u6240\u4ee5\u8fd920\u6761\u5176\u4ed6\u7684\u9c7c\uff0c\u662f\u6c60\u5858\u76845\u5206\u4e4b1\u3002\u6574\u4e2a\u6c60\u5858\u5c31\u662f5\u4e5820\uff0c\u7b49\u4e8e100\u6761\u9c7c\u3002",
+     "caption": "\u6240\u4ee5\u8fd920\u6761\u5176\u4ed6\u7684\u9c7c\uff0c\u662f\u6c60\u5858\u76845\u5206\u4e4b1\u3002\u6574\u4e2a\u6c60\u5858\u5c31\u662f5\u4e5820\uff0c\u7b49\u4e8e100\u6761\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/734e98af98379947.wav",
+     "from": 358,
+     "frames": 342
+    },
+    {
+     "text": "\u4e00\u5f00\u59cb\u6709200\u6761\u9c7c\uff0c\u6700\u540e\u5269\u4e0b100\u6761\u3002\u6240\u4ee5\u635e\u51fa\u4e86100\u6761\u91d1\u9c7c\u3002",
+     "caption": "\u4e00\u5f00\u59cb\u6709200\u6761\u9c7c\uff0c\u6700\u540e\u5269\u4e0b100\u6761\u3002\u6240\u4ee5\u635e\u51fa\u4e86100\u6761\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/3d286e5a18ae44fc.wav",
+     "from": 711,
+     "frames": 242
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1a100\u6761\u9c7c\u91cc\u670980\u6761\u91d1\u9c7c\u3002\u6b63\u597d\u662f80%\uff01",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1a100\u6761\u9c7c\u91cc\u670980\u6761\u91d1\u9c7c\u3002\u6b63\u597d\u662f80%\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/ac37d604cce1deb6.wav",
+     "from": 962,
+     "frames": 209
+    },
+    {
+     "text": "\u7b54\u6848\u662f100\uff0c\u5c31\u662f\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff01",
+     "caption": "\u7b54\u6848\u662f100\uff0c\u5c31\u662f\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/23b094e99142ff0a.wav",
+     "from": 1182,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u7528\u6bd4\u6765\u7b97",
+   "from": 4753,
+   "frames": 1237,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff1a\u7528\u6bd4\u6765\u60f3\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff1a\u7528\u6bd4\u6765\u60f3\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/87340fa72a7ade22.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "\u91d1\u9c7c\u536080%\uff0c\u5176\u4ed6\u7684\u9c7c\u536020%\u3002\u4e5f\u5c31\u662f\u8bf4\uff0c\u6bcf\u67091\u6761\u5176\u4ed6\u7684\u9c7c\uff0c\u5c31\u67094\u6761\u91d1\u9c7c\u3002",
+     "caption": "\u91d1\u9c7c\u536080%\uff0c\u5176\u4ed6\u7684\u9c7c\u536020%\u3002\u4e5f\u5c31\u662f\u8bf4\uff0c\u6bcf\u67091\u6761\u5176\u4ed6\u7684\u9c7c\uff0c\u5c31\u67094\u6761\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/1aee365a5f29002e.wav",
+     "from": 99,
+     "frames": 328
+    },
+    {
+     "text": "\u5176\u4ed6\u7684\u9c7c\u670920\u6761\uff0c\u6240\u4ee5\u91d1\u9c7c\u8981\u67094\u4e5820\uff0c\u7b49\u4e8e80\u6761\u3002",
+     "caption": "\u5176\u4ed6\u7684\u9c7c\u670920\u6761\uff0c\u6240\u4ee5\u91d1\u9c7c\u8981\u67094\u4e5820\uff0c\u7b49\u4e8e80\u6761\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/4d35ed1dd5289bac.wav",
+     "from": 437,
+     "frames": 249
+    },
+    {
+     "text": "\u539f\u6765\u6709180\u6761\u91d1\u9c7c\uff0c\u6211\u4eec\u53ea\u9700\u898180\u6761\u3002\u635e\u51fa100\u6761\uff0c\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "\u539f\u6765\u6709180\u6761\u91d1\u9c7c\uff0c\u6211\u4eec\u53ea\u9700\u898180\u6761\u3002\u635e\u51fa100\u6761\uff0c\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/901377ddb5ac4d90.wav",
+     "from": 696,
+     "frames": 219
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u767e\u5206\u6570\u80fd\u5316\u6210\u4e00\u4e2a\u7b80\u5355\u7684\u6bd4\uff0c\u6bd4\u59824\u6bd41\u7684\u65f6\u5019\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u767e\u5206\u6570\u80fd\u5316\u6210\u4e00\u4e2a\u7b80\u5355\u7684\u6bd4\uff0c\u6bd4\u59824\u6bd41\u7684\u65f6\u5019\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/e40fd65f05ad95e8.wav",
+     "from": 925,
+     "frames": 244
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 5990,
+   "frames": 2293,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/c4af48ab6537d974.wav",
+     "from": 0,
+     "frames": 143
+    },
+    {
+     "text": "\u9009\u9879A\u662f10\u6761\uff0c\u5c31\u662f90%\u51cf80%\u3002\u4f46\u8fd9\u662f\u4e24\u4e2a\u767e\u5206\u6570\u7684\u5dee\uff0c\u4e0d\u662f\u9c7c\u7684\u6761\u6570\uff01",
+     "caption": "\u9009\u9879A\u662f10\u6761\uff0c\u5c31\u662f90%\u51cf80%\u3002\u4f46\u8fd9\u662f\u4e24\u4e2a\u767e\u5206\u6570\u7684\u5dee\uff0c\u4e0d\u662f\u9c7c\u7684\u6761\u6570\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/1e78ce2252ba9487.wav",
+     "from": 154,
+     "frames": 306
+    },
+    {
+     "text": "\u6559\u4f60\u4e00\u4e2a\u5feb\u901f\u68c0\u9a8c\u7684\u65b9\u6cd5\u3002\u8fd920\u6761\u5176\u4ed6\u7684\u9c7c\uff0c\u5fc5\u987b\u662f\u5269\u4e0b\u7684\u9c7c\u76845\u5206\u4e4b1\u3002",
+     "caption": "\u6559\u4f60\u4e00\u4e2a\u5feb\u901f\u68c0\u9a8c\u7684\u65b9\u6cd5\u3002\u8fd920\u6761\u5176\u4ed6\u7684\u9c7c\uff0c\u5fc5\u987b\u662f\u5269\u4e0b\u7684\u9c7c\u76845\u5206\u4e4b1\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/3d08720ab1c9787e.wav",
+     "from": 470,
+     "frames": 233
+    },
+    {
+     "text": "\u635e\u51fa10\u6761\uff0c\u5269\u4e0b190\u6761\u3002190\u76845\u5206\u4e4b1\u662f38\uff0c\u4e0d\u662f20\u3002",
+     "caption": "\u635e\u51fa10\u6761\uff0c\u5269\u4e0b190\u6761\u3002190\u76845\u5206\u4e4b1\u662f38\uff0c\u4e0d\u662f20\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/a49d6ba398bc51f3.wav",
+     "from": 714,
+     "frames": 261
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879B\uff0c20\u6761\u6b63\u597d\u662f\u5176\u4ed6\u9c7c\u7684\u6761\u6570\uff0c\u4e0d\u662f\u8981\u635e\u51fa\u7684\u6761\u6570\u3002",
+     "caption": "\u518d\u770b\u9009\u9879B\uff0c20\u6761\u6b63\u597d\u662f\u5176\u4ed6\u9c7c\u7684\u6761\u6570\uff0c\u4e0d\u662f\u8981\u635e\u51fa\u7684\u6761\u6570\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/9f17d23f30eabfd6.wav",
+     "from": 984,
+     "frames": 219
+    },
+    {
+     "text": "\u5269\u4e0b180\u6761\uff0c5\u5206\u4e4b1\u662f36\u3002",
+     "caption": "\u5269\u4e0b180\u6761\uff0c5\u5206\u4e4b1\u662f36\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/078ab2a8521ee9d8.wav",
+     "from": 1213,
+     "frames": 144
+    },
+    {
+     "text": "\u9009\u9879C\u662f40\uff1a\u5269\u4e0b160\u6761\uff0c5\u5206\u4e4b1\u662f32\u3002",
+     "caption": "\u9009\u9879C\u662f40\uff1a\u5269\u4e0b160\u6761\uff0c5\u5206\u4e4b1\u662f32\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/6499008de1e1abda.wav",
+     "from": 1368,
+     "frames": 208
+    },
+    {
+     "text": "\u518d\u770b\u9009\u9879D\uff0c50\uff1a\u5269\u4e0b150\u6761\uff0c5\u5206\u4e4b1\u662f30\u3002",
+     "caption": "\u518d\u770b\u9009\u9879D\uff0c50\uff1a\u5269\u4e0b150\u6761\uff0c5\u5206\u4e4b1\u662f30\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/4b00112c2093738c.wav",
+     "from": 1586,
+     "frames": 228
+    },
+    {
+     "text": "\u53ea\u6709100\u884c\u5f97\u901a\uff1a\u5269\u4e0b100\u6761\uff0c5\u5206\u4e4b1\u6b63\u597d\u662f20\u3002",
+     "caption": "\u53ea\u6709100\u884c\u5f97\u901a\uff1a\u5269\u4e0b100\u6761\uff0c5\u5206\u4e4b1\u6b63\u597d\u662f20\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/a10334f25302047e.wav",
+     "from": 1824,
+     "frames": 188
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5148\u627e\u5230\u4e0d\u53d8\u7684\u90a3\u90e8\u5206\uff0c\u518d\u4ece\u90a3\u91cc\u51fa\u53d1\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u5148\u627e\u5230\u4e0d\u53d8\u7684\u90a3\u90e8\u5206\uff0c\u518d\u4ece\u90a3\u91cc\u51fa\u53d1\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/cdd7f0ef40e66414.wav",
+     "from": 2022,
+     "frames": 212
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u66f4\u5927\u7684\u6c60\u5858",
+   "from": 8283,
+   "frames": 523,
+   "lines": [
+    {
+     "text": "\u6765\u6311\u6218\u4e00\u4e0b\u5427\uff01\u4e00\u4e2a\u66f4\u5927\u7684\u6c60\u5858\u91cc\u6709400\u6761\u9c7c\uff0c\u5176\u4e2d95%\u662f\u91d1\u9c7c\u3002",
+     "caption": "\u6765\u6311\u6218\u4e00\u4e0b\u5427\uff01\u4e00\u4e2a\u66f4\u5927\u7684\u6c60\u5858\u91cc\u6709400\u6761\u9c7c\uff0c\u5176\u4e2d95%\u662f\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/e1dca9ac3cf23c40.wav",
+     "from": 0,
+     "frames": 255
+    },
+    {
+     "text": "\u8981\u635e\u51fa\u591a\u5c11\u6761\u91d1\u9c7c\uff0c\u624d\u80fd\u8ba9\u5269\u4e0b\u7684\u9c7c\u91cc\u670975%\u662f\u91d1\u9c7c\uff1f",
+     "caption": "\u8981\u635e\u51fa\u591a\u5c11\u6761\u91d1\u9c7c\uff0c\u624d\u80fd\u8ba9\u5269\u4e0b\u7684\u9c7c\u91cc\u670975%\u662f\u91d1\u9c7c\uff1f",
+     "file": "2026-10-31-goldfish-pond-zh/audio/4774c0f2908446da.wav",
+     "from": 265,
+     "frames": 219
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 8806,
+   "frames": 404,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u6311\u6218\u4e00\u4e0b\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u6311\u6218\u4e00\u4e0b\u5427\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/70e9cf0776d96b80.wav",
+     "from": 0,
+     "frames": 81
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u66f4\u5927\u7684\u6c60\u5858\uff1a\u7b54\u6848",
+   "from": 9210,
+   "frames": 2206,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u7b97\u4e00\u7b97\u3002\u4e0d\u662f\u91d1\u9c7c\u7684\u9c7c\u53605%\uff0c400\u76845%\u662f20\u3002",
+     "caption": "\u6211\u4eec\u6765\u7b97\u4e00\u7b97\u3002\u4e0d\u662f\u91d1\u9c7c\u7684\u9c7c\u53605%\uff0c400\u76845%\u662f20\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/a243796a3e34ee57.wav",
+     "from": 0,
+     "frames": 234
+    },
+    {
+     "text": "\u53c8\u662f20\u6761\u5176\u4ed6\u7684\u9c7c\uff01",
+     "caption": "\u53c8\u662f20\u6761\u5176\u4ed6\u7684\u9c7c\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/5959d6621a6e14fc.wav",
+     "from": 244,
+     "frames": 94
+    },
+    {
+     "text": "\u6700\u540e\uff0c\u91d1\u9c7c\u536075%\uff0c\u6240\u4ee5\u5176\u4ed6\u7684\u9c7c\u536025%\u3002\u4e5f\u5c31\u662f4\u5206\u4e4b1\u3002",
+     "caption": "\u6700\u540e\uff0c\u91d1\u9c7c\u536075%\uff0c\u6240\u4ee5\u5176\u4ed6\u7684\u9c7c\u536025%\u3002\u4e5f\u5c31\u662f4\u5206\u4e4b1\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/7428365661a68174.wav",
+     "from": 349,
+     "frames": 293
+    },
+    {
+     "text": "\u8fd920\u6761\u9c7c\u662f\u6c60\u5858\u76844\u5206\u4e4b1\uff0c\u6240\u4ee5\u6700\u540e\u6c60\u5858\u91cc\u67094\u4e5820\uff0c\u7b49\u4e8e80\u6761\u9c7c\u3002",
+     "caption": "\u8fd920\u6761\u9c7c\u662f\u6c60\u5858\u76844\u5206\u4e4b1\uff0c\u6240\u4ee5\u6700\u540e\u6c60\u5858\u91cc\u67094\u4e5820\uff0c\u7b49\u4e8e80\u6761\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/bb7f7445a2da774f.wav",
+     "from": 652,
+     "frames": 296
+    },
+    {
+     "text": "400\u51cf80\uff0c\u7b49\u4e8e320\u3002\u8981\u635e\u51fa320\u6761\u91d1\u9c7c\uff01",
+     "caption": "400\u51cf80\uff0c\u7b49\u4e8e320\u3002\u8981\u635e\u51fa320\u6761\u91d1\u9c7c\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/a17d1f39aebc8440.wav",
+     "from": 958,
+     "frames": 226
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u6c60\u5858\u4e00\u5f00\u59cb\u6709380\u6761\u91d1\u9c7c\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u6c60\u5858\u4e00\u5f00\u59cb\u6709380\u6761\u91d1\u9c7c\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/97b65bf5ad9e30fc.wav",
+     "from": 1194,
+     "frames": 154
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1a380\u6761\u91d1\u9c7c\u51cf\u53bb320\u6761\uff0c\u5269\u4e0b60\u6761\u3002",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1a380\u6761\u91d1\u9c7c\u51cf\u53bb320\u6761\uff0c\u5269\u4e0b60\u6761\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/524aff8f29d503ef.wav",
+     "from": 1358,
+     "frames": 218
+    },
+    {
+     "text": "80\u6761\u9c7c\u91cc\u670960\u6761\u91d1\u9c7c\uff0c\u6b63\u597d\u662f75%\u3002",
+     "caption": "80\u6761\u9c7c\u91cc\u670960\u6761\u91d1\u9c7c\uff0c\u6b63\u597d\u662f75%\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/3ed4d2d42de06d1d.wav",
+     "from": 1585,
+     "frames": 168
+    },
+    {
+     "text": "\u6709\u610f\u601d\u7684\u5730\u65b9\u6765\u4e86\u3002\u4ece95%\u964d\u523075%\uff0c\u6c60\u5858\u51e0\u4e4e\u88ab\u635e\u7a7a\u4e86\uff01",
+     "caption": "\u6709\u610f\u601d\u7684\u5730\u65b9\u6765\u4e86\u3002\u4ece95%\u964d\u523075%\uff0c\u6c60\u5858\u51e0\u4e4e\u88ab\u635e\u7a7a\u4e86\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/32434061734b8715.wav",
+     "from": 1764,
+     "frames": 244
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e86320\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e86320\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/c4fcf85ca9472e67.wav",
+     "from": 2018,
+     "frames": 119
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 11416,
+   "frames": 627,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u4eca\u5929\u7684\u91cd\u8981\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u4eca\u5929\u7684\u91cd\u8981\u601d\u8def\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/b50b1d172947265e.wav",
+     "from": 0,
+     "frames": 83
+    },
+    {
+     "text": "\u5982\u679c\u53ea\u62ff\u8d70\u4e00\u79cd\u4e1c\u897f\uff0c\u53e6\u4e00\u79cd\u4e1c\u897f\u7684\u6570\u91cf\u5c31\u4e0d\u53d8\u3002",
+     "caption": "\u5982\u679c\u53ea\u62ff\u8d70\u4e00\u79cd\u4e1c\u897f\uff0c\u53e6\u4e00\u79cd\u4e1c\u897f\u7684\u6570\u91cf\u5c31\u4e0d\u53d8\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/e9554e9919602ccf.wav",
+     "from": 93,
+     "frames": 158
+    },
+    {
+     "text": "\u7528\u8fd9\u4e2a\u4e0d\u53d8\u7684\u90e8\u5206\u6c42\u51fa\u65b0\u7684\u603b\u6570\uff0c\u518d\u505a\u51cf\u6cd5\u3002",
+     "caption": "\u7528\u8fd9\u4e2a\u4e0d\u53d8\u7684\u90e8\u5206\u6c42\u51fa\u65b0\u7684\u603b\u6570\uff0c\u518d\u505a\u51cf\u6cd5\u3002",
+     "file": "2026-10-31-goldfish-pond-zh/audio/4d1fc072a46e0dd9.wav",
+     "from": 261,
+     "frames": 161
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-goldfish-pond-zh/audio/f8351124be57142c.wav",
+     "from": 432,
+     "frames": 111
+    }
+   ]
+  }
+ ]
+}

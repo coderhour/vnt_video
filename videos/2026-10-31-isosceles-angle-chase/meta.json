@@ -1,6 +1,6 @@
 {
- "title": "Two Isosceles Triangles, One Mystery Angle | AMC 8-Style Level 4",
- "description": "We only know one angle, but two isosceles triangles hide the answer! Vantee chases the top angle with a letter, then shows a second way using the outside angle of a triangle.\nYou'll also see why each wrong choice is tempting, and get a new angle to chase yourself.\n\n0:00 Intro\n0:17 The question\n0:45 What are we asked?\n1:03 Try it yourself\n1:17 Solution 1: chase with a letter\n2:51 Solution 2: the outside angle\n3:36 Common traps\n4:32 Your turn: a new angle\n5:01 New angle: the answer\n5:37 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Isosceles Triangle Angles — One Mystery Angle",
+ "description": "AMC 8 practice problem on angle chasing with two isosceles triangles, finding the top angle from one given angle, solved two ways. (Level 4 of 5)\nWe only know one angle, but two isosceles triangles hide the answer! Vantee chases the top angle with a letter, then shows a second way using the outside angle of a triangle.\nYou'll also see why each wrong choice is tempting, and get a new angle to chase yourself.\n\n0:00 Intro\n0:17 The question\n0:45 What are we asked?\n1:03 Try it yourself\n1:17 Solution 1: chase with a letter\n2:51 Solution 2: the outside angle\n3:36 Common traps\n4:32 Your turn: a new angle\n5:01 New angle: the answer\n5:37 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_mock_test_template:c2-707",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Two isosceles triangles, one 24° angle. Find the top angle! Comment your answer before you watch the solution!"
 }

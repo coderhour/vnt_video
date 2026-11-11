@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Subset With No Double or Triple — Chessboard Trick",
+ "description": "AMC 10 practice problem on the largest subset of 1 to 100 with no number double or triple another, solved with a chessboard-style grid and dominoes. (Level 5 of 5)\nPick as many numbers from 1 to 100 as you can, but never a number and its double or its triple. How big can your set be? Vantee turns it into a chessboard and shows two ways to prove the answer.\n\n0:00 Intro\n0:14 The question\n0:29 What are we asked?\n0:51 Try it yourself\n1:07 Solution 1: families on a grid\n2:38 Can we beat eleven?\n3:05 All thirty-three families\n4:24 Solution 2: count what you lose\n5:01 Common traps\n5:37 Your turn: one to thirty\n6:00 One to thirty: the answer\n6:35 Recap",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_mixed_template:c2-022",
+ "posts": [],
+ "short": {
+  "title": "Think it's 50? No doubles, no triples from 1 to 100 #Shorts",
+  "description": "Pick numbers from 1 to 100, but none may be double or triple another. What's the most you can pick? A grid and 39 dominoes give the answer.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 19,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "Pick numbers from 1 to 100, never a number and its double or triple. Biggest set? Comment your answer before you watch the solution!"
+}

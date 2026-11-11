@@ -1,0 +1,47 @@
+{
+ "title": "AMC 8 小贴士 (短片)",
+ "fps": 30,
+ "lang": "zh",
+ "voice": "Zephyr",
+ "style": "warm and upbeat, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC 8小贴士！你觉得难题该空着？错！"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "AMC 8一共25道题，每答对一题得1分。",
+    "答错一题会扣多少分？A：1分。B：4分之1分。C：不扣分。"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "评论你的选项，然后接着看！"
+   ]
+  },
+  {
+   "id": "score",
+   "lines": [
+    "答对得1分，答错得0分。",
+    "那空着呢？也是0分。所以猜一个只会有好处。",
+    "随便猜，猜对的机会是5分之1。排除两个选项，就是3分之1。"
+   ]
+  },
+  {
+   "id": "reveal",
+   "hold": 0.5,
+   "lines": [
+    "答案是C，答错不扣分！",
+    "空着不答才是陷阱。每道题都要作答。",
+    "你选对C了吗？在评论里告诉我！"
+   ]
+  }
+ ]
+}

@@ -7,6 +7,7 @@ import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-11-01-fence-corner';
@@ -919,7 +920,9 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
       <TexAt p={[VC([0, b / 2])[0] - 92, VC([0, b / 2])[1]]} tex="5\sqrt{2}" size={50} color={C.amber} opacity={l} />
       <Eq x={1000} y={170} start={at(scene, 0, 0.7)} tex="\text{perimeter} = 4\times 10 = 40" size={54} color={C.primary} />
       <Eq x={1000} y={270} start={at(scene, 1, 0.45)} tex="10 \times 10 = 100" size={64} color={C.violet} />
-      <Eq x={1000} y={385} start={at(scene, 2, 0.15)} tex="\dfrac{100}{4} = 25" size={72} color={C.green} />
+      <Eq x={1000} y={385} start={at(scene, 2, 0.15)} tex="\dfrac{100}{4} \phantom{= 25}" size={72} color={C.green} />
+      {/* "= 25" waits for the spoken "twenty-five" after the pause */}
+      <Eq x={1000} y={385} start={at(scene, 2, 0.8)} tex="\phantom{\dfrac{100}{4}} = 25" size={72} color={C.green} />
       <Eq x={1000} y={625} start={at(scene, 3, 0.25)} tex="\tfrac{1}{2}\cdot 5\sqrt{2}\cdot 5\sqrt{2} = 25" size={52} />
       <Answer x={1730} y={400} value="25" start={at(scene, 2, 0.95)} chime={CHIME} />
       <Confetti x={1730} y={400} start={at(scene, 4, 0.2)} seed={7} />
@@ -987,3 +990,15 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-11-01-fence-corner-thumb`, render.sh → poster.jpg): the trap + the walls with a lopsided fence, no answer.
+export const Thumb: React.FC = () => {
+  const m = mk(50, 600, 58);
+  return (
+    <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>36?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <Fig m={m} s={LOP} len={10.5} fillOp={0.2} />
+      </svg>
+    </ThumbFrame>
+  );
+};

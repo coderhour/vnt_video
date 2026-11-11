@@ -1,0 +1,524 @@
+{
+ "fps": 30,
+ "durationInFrames": 13037,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 677,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u8ba1\u7b97\u5668\uff0c\u53ea\u6709\u4e24\u4e2a\u6309\u952e\u3002\u600e\u6837\u6309\u6700\u5c11\u7684\u6b21\u6570\uff0c\u8ba9\u5c4f\u5e55\u53d8\u621090\uff1f",
+     "caption": "\u4e00\u4e2a\u8ba1\u7b97\u5668\uff0c\u53ea\u6709\u4e24\u4e2a\u6309\u952e\u3002\u600e\u6837\u6309\u6700\u5c11\u7684\u6b21\u6570\uff0c\u8ba9\u5c4f\u5e55\u53d8\u621090\uff1f",
+     "file": "2026-10-31-calculator-90-zh/audio/2dd88f80df748c6e.wav",
+     "from": 0,
+     "frames": 252
+    },
+    {
+     "text": "\u5f88\u591a\u540c\u5b66\u4e00\u4e0a\u6765\u5c31\u5f80\u524d\u6309\uff0c\u7ed3\u679c\u8d8a\u6309\u8d8a\u4e71\u3002\u5176\u5b9e\u6709\u4e00\u4e2a\u806a\u660e\u5f97\u591a\u7684\u65b9\u5411\u3002",
+     "caption": "\u5f88\u591a\u540c\u5b66\u4e00\u4e0a\u6765\u5c31\u5f80\u524d\u6309\uff0c\u7ed3\u679c\u8d8a\u6309\u8d8a\u4e71\u3002\u5176\u5b9e\u6709\u4e00\u4e2a\u806a\u660e\u5f97\u591a\u7684\u65b9\u5411\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/e9bf45a452e5f6f5.wav",
+     "from": 262,
+     "frames": 232
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u8fd9\u4e2a\u8ba1\u7b97\u5668\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u7834\u89e3\u8fd9\u4e2a\u8ba1\u7b97\u5668\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/0be7132de06d2b33.wav",
+     "from": 505,
+     "frames": 134
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 677,
+   "frames": 814,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 42
+    },
+    {
+     "text": "\u4e00\u4e2a\u8ba1\u7b97\u5668\u7684\u5c4f\u5e55\u4e0a\u663e\u793a3\u3002",
+     "caption": "\u4e00\u4e2a\u8ba1\u7b97\u5668\u7684\u5c4f\u5e55\u4e0a\u663e\u793a3\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/ca0e70f0b9c9741c.wav",
+     "from": 52,
+     "frames": 99
+    },
+    {
+     "text": "\u8ba1\u7b97\u5668\u53ea\u6709\u4e24\u4e2a\u952e\u3002\u4e00\u4e2a\u952e\u628a\u5c4f\u5e55\u4e0a\u7684\u6570\u52a01\u3002",
+     "caption": "\u8ba1\u7b97\u5668\u53ea\u6709\u4e24\u4e2a\u952e\u3002\u4e00\u4e2a\u952e\u628a\u5c4f\u5e55\u4e0a\u7684\u6570\u52a01\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/52976e80c2bfc5cc.wav",
+     "from": 161,
+     "frames": 185
+    },
+    {
+     "text": "\u53e6\u4e00\u4e2a\u952e\u628a\u5c4f\u5e55\u4e0a\u7684\u6570\u4e582\u3002",
+     "caption": "\u53e6\u4e00\u4e2a\u952e\u628a\u5c4f\u5e55\u4e0a\u7684\u6570\u4e582\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/e724ce015bbb37fd.wav",
+     "from": 356,
+     "frames": 116
+    },
+    {
+     "text": "\u6700\u5c11\u8981\u6309\u51e0\u6b21\u952e\uff0c\u624d\u80fd\u8ba9\u5c4f\u5e55\u663e\u793a90\uff1f",
+     "caption": "\u6700\u5c11\u8981\u6309\u51e0\u6b21\u952e\uff0c\u624d\u80fd\u8ba9\u5c4f\u5e55\u663e\u793a90\uff1f",
+     "file": "2026-10-31-calculator-90-zh/audio/26964c54ff8b7c49.wav",
+     "from": 482,
+     "frames": 152
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 644,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1491,
+   "frames": 549,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4ece3\u5f00\u59cb\uff0c\u6700\u540e\u8981\u53d8\u621090\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u4ece3\u5f00\u59cb\uff0c\u6700\u540e\u8981\u53d8\u621090\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/dc11bd2d5474351f.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "\u6bcf\u6309\u4e00\u6b21\uff0c\u8981\u4e48\u52a01\uff0c\u8981\u4e48\u4e582\u3002",
+     "caption": "\u6bcf\u6309\u4e00\u6b21\uff0c\u8981\u4e48\u52a01\uff0c\u8981\u4e48\u4e582\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/01c4363d039f41cd.wav",
+     "from": 176,
+     "frames": 129
+    },
+    {
+     "text": "\u6211\u4eec\u4e0d\u53ea\u662f\u8981\u627e\u5230\u4e00\u79cd\u6309\u6cd5\uff0c\u8fd8\u8981\u8ba9\u6309\u7684\u6b21\u6570\u6700\u5c11\u3002",
+     "caption": "\u6211\u4eec\u4e0d\u53ea\u662f\u8981\u627e\u5230\u4e00\u79cd\u6309\u6cd5\uff0c\u8fd8\u8981\u8ba9\u6309\u7684\u6b21\u6570\u6700\u5c11\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/dfb2dd4c22115769.wav",
+     "from": 315,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2040,
+   "frames": 487,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 164
+    }
+   ]
+  },
+  {
+   "id": "backward",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u5012\u7740\u63a8",
+   "from": 2527,
+   "frames": 853,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u65b9\u6cd5\u662f\uff1a\u5012\u7740\u63a8\uff0c\u4ece90\u4e00\u8def\u63a8\u56de\u52303\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u65b9\u6cd5\u662f\uff1a\u5012\u7740\u63a8\uff0c\u4ece90\u4e00\u8def\u63a8\u56de\u52303\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/9250abd5fe9312e7.wav",
+     "from": 0,
+     "frames": 179
+    },
+    {
+     "text": "\u5012\u7740\u8d70\u7684\u65f6\u5019\uff0c\u4e582\u53d8\u6210\u9664\u4ee52\uff0c\u52a01\u53d8\u6210\u51cf1\u3002",
+     "caption": "\u5012\u7740\u8d70\u7684\u65f6\u5019\uff0c\u4e582\u53d8\u6210\u9664\u4ee52\uff0c\u52a01\u53d8\u6210\u51cf1\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/8805b784b845ec94.wav",
+     "from": 189,
+     "frames": 210
+    },
+    {
+     "text": "\u9664\u4ee52\u662f\u4e00\u5927\u6b65\uff0c\u6240\u4ee5\u9047\u5230\u5076\u6570\u5c31\u9664\u4ee52\u3002\u5982\u679c\u662f\u5947\u6570\uff0c\u5c31\u5148\u51cf1\u3002",
+     "caption": "\u9664\u4ee52\u662f\u4e00\u5927\u6b65\uff0c\u6240\u4ee5\u9047\u5230\u5076\u6570\u5c31\u9664\u4ee52\u3002\u5982\u679c\u662f\u5947\u6570\uff0c\u5c31\u5148\u51cf1\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/b8f8f3de6f2636fc.wav",
+     "from": 410,
+     "frames": 239
+    },
+    {
+     "text": "90\u662f\u5076\u6570\uff0c\u6240\u4ee5\u9664\u4ee52\uff0c\u5f97\u523045\u3002",
+     "caption": "90\u662f\u5076\u6570\uff0c\u6240\u4ee5\u9664\u4ee52\uff0c\u5f97\u523045\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/dfcb8ed313fec26c.wav",
+     "from": 659,
+     "frames": 141
+    }
+   ]
+  },
+  {
+   "id": "chain",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3380,
+   "frames": 1746,
+   "lines": [
+    {
+     "text": "45\u662f\u5947\u6570\uff0c\u5148\u51cf1\uff0c\u5f97\u523044\u3002\u9664\u4ee52\uff0c\u5f97\u523022\u3002\u518d\u9664\u4ee52\uff0c\u5f97\u523011\u3002",
+     "caption": "45\u662f\u5947\u6570\uff0c\u5148\u51cf1\uff0c\u5f97\u523044\u3002\u9664\u4ee52\uff0c\u5f97\u523022\u3002\u518d\u9664\u4ee52\uff0c\u5f97\u523011\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/46d44e5a529fa38e.wav",
+     "from": 0,
+     "frames": 309
+    },
+    {
+     "text": "11\u662f\u5947\u6570\uff0c\u5148\u51cf1\uff0c\u5f97\u523010\u3002\u9664\u4ee52\uff0c\u5f97\u52305\u3002",
+     "caption": "11\u662f\u5947\u6570\uff0c\u5148\u51cf1\uff0c\u5f97\u523010\u3002\u9664\u4ee52\uff0c\u5f97\u52305\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/055165e49cbf114d.wav",
+     "from": 319,
+     "frames": 206
+    },
+    {
+     "text": "5\u662f\u5947\u6570\uff0c\u51cf1\uff0c\u5f97\u52304\u30024\u662f\u5076\u6570\uff0c\u53ef\u662f4\u7684\u4e00\u534a\u662f2\uff0c\u6bd43\u8fd8\u5c0f\uff01",
+     "caption": "5\u662f\u5947\u6570\uff0c\u51cf1\uff0c\u5f97\u52304\u30024\u662f\u5076\u6570\uff0c\u53ef\u662f4\u7684\u4e00\u534a\u662f2\uff0c\u6bd43\u8fd8\u5c0f\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/8cf34c1448599f89.wav",
+     "from": 535,
+     "frames": 275
+    },
+    {
+     "text": "\u6240\u4ee5\u8fd9\u4e00\u6b21\u6539\u6210\u51cf1\u30024\u51cf1\u7b49\u4e8e3\uff0c\u6211\u4eec\u5230\u4e86\uff01",
+     "caption": "\u6240\u4ee5\u8fd9\u4e00\u6b21\u6539\u6210\u51cf1\u30024\u51cf1\u7b49\u4e8e3\uff0c\u6211\u4eec\u5230\u4e86\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/a1cc3fa8758664b4.wav",
+     "from": 820,
+     "frames": 237
+    },
+    {
+     "text": "\u73b0\u5728\u4ece3\u5f00\u59cb\u6b63\u7740\u8bfb\uff1a\u6bcf\u4e00\u4e2a\u7bad\u5934\uff0c\u5c31\u662f\u6309\u4e00\u6b21\u952e\u3002",
+     "caption": "\u73b0\u5728\u4ece3\u5f00\u59cb\u6b63\u7740\u8bfb\uff1a\u6bcf\u4e00\u4e2a\u7bad\u5934\uff0c\u5c31\u662f\u6309\u4e00\u6b21\u952e\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/832c395d3bded451.wav",
+     "from": 1067,
+     "frames": 188
+    },
+    {
+     "text": "\u6570\u4e00\u6570\u7bad\u5934\uff0c\u522b\u6570\u6570\u5b57\uff1a1\u30012\u30013\u30014\u30015\u30016\u30017\u30018\u3002",
+     "caption": "\u6570\u4e00\u6570\u7bad\u5934\uff0c\u522b\u6570\u6570\u5b57\uff1a1\u30012\u30013\u30014\u30015\u30016\u30017\u30018\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/e49bc05ea7297a37.wav",
+     "from": 1265,
+     "frames": 279
+    },
+    {
+     "text": "\u4e00\u5171\u63098\u6b21\u3002\u7b54\u6848\u662f\u9009\u9879C\uff01",
+     "caption": "\u4e00\u5171\u63098\u6b21\u3002\u7b54\u6848\u662f\u9009\u9879C\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/c8584a0aa494215e.wav",
+     "from": 1554,
+     "frames": 124
+    }
+   ]
+  },
+  {
+   "id": "doubles",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u5b89\u6392\u4e582",
+   "from": 5126,
+   "frames": 1360,
+   "lines": [
+    {
+     "text": "\u6709\u6ca1\u6709\u6bd48\u6b21\u66f4\u5c11\u7684\u6309\u6cd5\uff1f\u6211\u4eec\u6765\u5b89\u6392\u4e582\uff0c\u770b\u770b\u4e3a\u4ec0\u4e48\u4e0d\u884c\u3002",
+     "caption": "\u6709\u6ca1\u6709\u6bd48\u6b21\u66f4\u5c11\u7684\u6309\u6cd5\uff1f\u6211\u4eec\u6765\u5b89\u6392\u4e582\uff0c\u770b\u770b\u4e3a\u4ec0\u4e48\u4e0d\u884c\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/7b908019d2b426e0.wav",
+     "from": 0,
+     "frames": 204
+    },
+    {
+     "text": "\u4e585\u4e2a2\u5c31\u592a\u591a\u4e86\u30023\u8fde\u4e585\u4e2a2\uff0c\u5f97\u523096\uff0c\u5df2\u7ecf\u8d85\u8fc790\u4e86\u3002",
+     "caption": "\u4e585\u4e2a2\u5c31\u592a\u591a\u4e86\u30023\u8fde\u4e585\u4e2a2\uff0c\u5f97\u523096\uff0c\u5df2\u7ecf\u8d85\u8fc790\u4e86\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/41fee68ef7bd87a5.wav",
+     "from": 215,
+     "frames": 239
+    },
+    {
+     "text": "\u8fde\u4e584\u4e2a2\uff0c3\u4f1a\u53d8\u621048\u3002\u8fd8\u5dee42\u3002",
+     "caption": "\u8fde\u4e584\u4e2a2\uff0c3\u4f1a\u53d8\u621048\u3002\u8fd8\u5dee42\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/45ebb02c3acc0e70.wav",
+     "from": 464,
+     "frames": 189
+    },
+    {
+     "text": "\u5999\u62db\u6765\u4e86\uff1a\u65e9\u4e00\u70b9\u6309\u7684\u52a01\uff0c\u540e\u9762\u4f1a\u8ddf\u7740\u4e00\u8d77\u4e582\uff0c\u5c31\u50cf\u6eda\u96ea\u7403\u4e00\u6837\u3002",
+     "caption": "\u5999\u62db\u6765\u4e86\uff1a\u65e9\u4e00\u70b9\u6309\u7684\u52a01\uff0c\u540e\u9762\u4f1a\u8ddf\u7740\u4e00\u8d77\u4e582\uff0c\u5c31\u50cf\u6eda\u96ea\u7403\u4e00\u6837\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/8db9e75e27b4138c.wav",
+     "from": 663,
+     "frames": 237
+    },
+    {
+     "text": "\u57284\u6b21\u4e582\u4e4b\u524d\u6309\u52a01\uff0c\u6700\u540e\u76f8\u5f53\u4e8e16\u3002\u57283\u6b21\u4e582\u4e4b\u524d\u6309\uff0c\u76f8\u5f53\u4e8e8\u3002\u7136\u540e\u662f4\u30012\u548c1\u3002",
+     "caption": "\u57284\u6b21\u4e582\u4e4b\u524d\u6309\u52a01\uff0c\u6700\u540e\u76f8\u5f53\u4e8e16\u3002\u57283\u6b21\u4e582\u4e4b\u524d\u6309\uff0c\u76f8\u5f53\u4e8e8\u3002\u7136\u540e\u662f4\u30012\u548c1\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/7908872a864c4174.wav",
+     "from": 910,
+     "frames": 396
+    }
+   ]
+  },
+  {
+   "id": "doubles2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6486,
+   "frames": 1746,
+   "lines": [
+    {
+     "text": "\u7528\u8fd9\u4e9b\u503c\u51d1\u51fa42\uff1a16\u52a016\u52a08\u52a02\u3002\u4e00\u5171\u6309\u4e864\u6b21\u52a01\u3002",
+     "caption": "\u7528\u8fd9\u4e9b\u503c\u51d1\u51fa42\uff1a16\u52a016\u52a08\u52a02\u3002\u4e00\u5171\u6309\u4e864\u6b21\u52a01\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/f7c9e281104ffa6a.wav",
+     "from": 0,
+     "frames": 280
+    },
+    {
+     "text": "\u53ea\u63093\u6b21\u52a01\u884c\u4e0d\u884c\uff1f\u6700\u5927\u662f\u4e09\u4e2a16\uff0c\u52a0\u8d77\u676548\uff0c\u592a\u5927\u4e86\u3002",
+     "caption": "\u53ea\u63093\u6b21\u52a01\u884c\u4e0d\u884c\uff1f\u6700\u5927\u662f\u4e09\u4e2a16\uff0c\u52a0\u8d77\u676548\uff0c\u592a\u5927\u4e86\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/cb1acf4533ec18ee.wav",
+     "from": 290,
+     "frames": 227
+    },
+    {
+     "text": "\u518d\u5c0f\u4e00\u70b9\u662f16\u52a016\u52a08\uff0c\u7b49\u4e8e40\uff0c\u53c8\u592a\u5c0f\u4e86\u3002\u4e2d\u95f4\u6ca1\u6709\u522b\u7684\u53ef\u80fd\uff01",
+     "caption": "\u518d\u5c0f\u4e00\u70b9\u662f16\u52a016\u52a08\uff0c\u7b49\u4e8e40\uff0c\u53c8\u592a\u5c0f\u4e86\u3002\u4e2d\u95f4\u6ca1\u6709\u522b\u7684\u53ef\u80fd\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/cb80b13f4c07d84e.wav",
+     "from": 527,
+     "frames": 284
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u63094\u6b21\u4e582\uff0c\u518d\u63094\u6b21\u52a01\uff0c\u4e00\u51718\u6b21\uff0c\u4e0d\u80fd\u518d\u5c11\u4e86\uff01",
+     "caption": "\u6240\u4ee5\u8981\u63094\u6b21\u4e582\uff0c\u518d\u63094\u6b21\u52a01\uff0c\u4e00\u51718\u6b21\uff0c\u4e0d\u80fd\u518d\u5c11\u4e86\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/b3cb3b52f653e591.wav",
+     "from": 821,
+     "frames": 240
+    },
+    {
+     "text": "\u8fd9\u6b63\u597d\u548c\u6211\u4eec\u7684\u94fe\u6761\u5bf9\u4e0a\uff1a\u5f00\u5934\u6309\u4e24\u6b21\u52a01\uff0c\u7b2c\u4e00\u6b21\u4e582\u4e4b\u540e\u6309\u4e00\u6b21\uff0c\u6700\u540e\u4e00\u6b21\u4e582\u4e4b\u524d\u518d\u6309\u4e00\u6b21\u3002",
+     "caption": "\u8fd9\u6b63\u597d\u548c\u6211\u4eec\u7684\u94fe\u6761\u5bf9\u4e0a\uff1a\u5f00\u5934\u6309\u4e24\u6b21\u52a01\uff0c\u7b2c\u4e00\u6b21\u4e582\u4e4b\u540e\u6309\u4e00\u6b21\uff0c\u6700\u540e\u4e00\u6b21\u4e582\u4e4b\u524d\u518d\u6309\u4e00\u6b21\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/a325e25a4d798fe8.wav",
+     "from": 1072,
+     "frames": 339
+    },
+    {
+     "text": "\u4e582\u7684\u6b21\u6570\u518d\u5c11\uff0c\u53ea\u4f1a\u66f4\u7cdf\u3002\u53ea\u4e583\u4e2a2\uff0c\u5c31\u8981\u63099\u6b21\u52a01\uff0c\u4e00\u517112\u6b21\u3002",
+     "caption": "\u4e582\u7684\u6b21\u6570\u518d\u5c11\uff0c\u53ea\u4f1a\u66f4\u7cdf\u3002\u53ea\u4e583\u4e2a2\uff0c\u5c31\u8981\u63099\u6b21\u52a01\uff0c\u4e00\u517112\u6b21\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/d4eb4b72128c5cd6.wav",
+     "from": 1420,
+     "frames": 257
+    }
+   ]
+  },
+  {
+   "id": "pick",
+   "kind": "scene",
+   "chapter": null,
+   "from": 8232,
+   "frames": 424,
+   "lines": [
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u54ea\u79cd\u65b9\u6cd5\uff1f\u60f3\u5feb\u70b9\u627e\u5230\u4e00\u6761\u77ed\u8def\u7ebf\uff0c\u5c31\u5012\u7740\u63a8\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u54ea\u79cd\u65b9\u6cd5\uff1f\u60f3\u5feb\u70b9\u627e\u5230\u4e00\u6761\u77ed\u8def\u7ebf\uff0c\u5c31\u5012\u7740\u63a8\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/efcfe7b3e93923d2.wav",
+     "from": 0,
+     "frames": 194
+    },
+    {
+     "text": "\u60f3\u786e\u5b9a\u6ca1\u6709\u66f4\u77ed\u7684\u8def\u7ebf\uff0c\u5c31\u6765\u5b89\u6392\u4e582\u7684\u6b21\u6570\u3002",
+     "caption": "\u60f3\u786e\u5b9a\u6ca1\u6709\u66f4\u77ed\u7684\u8def\u7ebf\uff0c\u5c31\u6765\u5b89\u6392\u4e582\u7684\u6b21\u6570\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/cd6b488b9edd67e5.wav",
+     "from": 204,
+     "frames": 166
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 8656,
+   "frames": 1296,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/3ef3731fffd78d1e.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "\u5148\u770b\u9009\u9879D\uff0c9\uff0c\u6570\u7684\u662f\u94fe\u6761\u4e0a\u7684\u6570\u5b57\u3002\u53ef\u662f\u6309\u952e\u6b21\u6570\u662f\u6570\u5b57\u4e4b\u95f4\u7684\u7bad\u5934\uff0c\u8981\u5c11\u4e00\u4e2a\u3002",
+     "caption": "\u5148\u770b\u9009\u9879D\uff0c9\uff0c\u6570\u7684\u662f\u94fe\u6761\u4e0a\u7684\u6570\u5b57\u3002\u53ef\u662f\u6309\u952e\u6b21\u6570\u662f\u6570\u5b57\u4e4b\u95f4\u7684\u7bad\u5934\uff0c\u8981\u5c11\u4e00\u4e2a\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/63cb139bb423ffd5.wav",
+     "from": 161,
+     "frames": 332
+    },
+    {
+     "text": "\u9009\u9879A\u548cB\uff0c6\u548c7\uff0c\u592a\u5c11\u4e86\u3002\u6211\u4eec\u5df2\u7ecf\u8bc1\u660e\uff0c\u8981\u63094\u6b21\u4e582\uff0c\u518d\u63094\u6b21\u52a01\u3002",
+     "caption": "\u9009\u9879A\u548cB\uff0c6\u548c7\uff0c\u592a\u5c11\u4e86\u3002\u6211\u4eec\u5df2\u7ecf\u8bc1\u660e\uff0c\u8981\u63094\u6b21\u4e582\uff0c\u518d\u63094\u6b21\u52a01\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/64036a49b64e0f3d.wav",
+     "from": 503,
+     "frames": 293
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c10\uff0c\u80fd\u6309\u523090\uff0c\u4f46\u4e0d\u662f\u6700\u5c11\u7684\u3002\u767d\u767d\u591a\u6309\u4e86\u4e24\u6b21\uff01",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c10\uff0c\u80fd\u6309\u523090\uff0c\u4f46\u4e0d\u662f\u6700\u5c11\u7684\u3002\u767d\u767d\u591a\u6309\u4e86\u4e24\u6b21\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/c9d263bc28dd83eb.wav",
+     "from": 806,
+     "frames": 231
+    },
+    {
+     "text": "\u6240\u4ee5\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6570\u8d70\u4e86\u51e0\u6b65\uff0c\u522b\u6570\u505c\u4e86\u51e0\u7ad9\u3002",
+     "caption": "\u6240\u4ee5\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6570\u8d70\u4e86\u51e0\u6b65\uff0c\u522b\u6570\u505c\u4e86\u51e0\u7ad9\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/07d87c9fc2b31157.wav",
+     "from": 1047,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u76ee\u6807100",
+   "from": 9952,
+   "frames": 404,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u4e2a\u8ba1\u7b97\u5668\uff0c\u8fd8\u662f\u8fd9\u4e24\u4e2a\u952e\uff0c\u8fd8\u662f\u4ece3\u5f00\u59cb\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u4e2a\u8ba1\u7b97\u5668\uff0c\u8fd8\u662f\u8fd9\u4e24\u4e2a\u952e\uff0c\u8fd8\u662f\u4ece3\u5f00\u59cb\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/f7036f46dcf83dcd.wav",
+     "from": 0,
+     "frames": 219
+    },
+    {
+     "text": "\u8fd9\u4e00\u6b21\uff0c\u6700\u5c11\u8981\u6309\u51e0\u6b21\uff0c\u624d\u80fd\u53d8\u6210100\uff1f",
+     "caption": "\u8fd9\u4e00\u6b21\uff0c\u6700\u5c11\u8981\u6309\u51e0\u6b21\uff0c\u624d\u80fd\u53d8\u6210100\uff1f",
+     "file": "2026-10-31-calculator-90-zh/audio/407de673942f9bfe.wav",
+     "from": 228,
+     "frames": 137
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10356,
+   "frames": 391,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 68
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u76ee\u6807100\uff1a\u7b54\u6848",
+   "from": 10747,
+   "frames": 1385,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u5012\u7740\u63a8\u3002100\uff0c\u9664\u4ee52\uff0c\u5f97\u523050\u3002\u518d\u9664\u4ee52\uff0c\u5f97\u523025\u3002",
+     "caption": "\u6211\u4eec\u5012\u7740\u63a8\u3002100\uff0c\u9664\u4ee52\uff0c\u5f97\u523050\u3002\u518d\u9664\u4ee52\uff0c\u5f97\u523025\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/1004e5fa090abc2d.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "25\u662f\u5947\u6570\uff0c\u51cf1\uff0c\u5f97\u523024\u3002\u7136\u540e\u8fde\u7eed\u9664\u4ee52\u4e09\u6b21\uff1a12\uff0c6\uff0c3\uff01",
+     "caption": "25\u662f\u5947\u6570\uff0c\u51cf1\uff0c\u5f97\u523024\u3002\u7136\u540e\u8fde\u7eed\u9664\u4ee52\u4e09\u6b21\uff1a12\uff0c6\uff0c3\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/9f342f9c4c09bc0c.wav",
+     "from": 231,
+     "frames": 318
+    },
+    {
+     "text": "\u6570\u4e00\u6570\u7bad\u5934\uff1a\u4e00\u5171\u63096\u6b21\u3002",
+     "caption": "\u6570\u4e00\u6570\u7bad\u5934\uff1a\u4e00\u5171\u63096\u6b21\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/fe552363434ba940.wav",
+     "from": 559,
+     "frames": 113
+    },
+    {
+     "text": "\u9a8c\u7b97\u4e00\u4e0b\uff1a3\u8fde\u4e585\u4e2a2\uff0c\u53d8\u621096\u3002\u7136\u540e\u5728\u6700\u540e\u4e24\u6b21\u4e582\u4e4b\u524d\u6309\u4e00\u6b21\u52a01\uff0c\u6b63\u597d\u8865\u4e0a4\u3002\u4e00\u51716\u6b21\uff01",
+     "caption": "\u9a8c\u7b97\u4e00\u4e0b\uff1a3\u8fde\u4e585\u4e2a2\uff0c\u53d8\u621096\u3002\u7136\u540e\u5728\u6700\u540e\u4e24\u6b21\u4e582\u4e4b\u524d\u6309\u4e00\u6b21\u52a01\uff0c\u6b63\u597d\u8865\u4e0a4\u3002\u4e00\u51716\u6b21\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/ff83d9cc52ccc3cf.wav",
+     "from": 682,
+     "frames": 378
+    },
+    {
+     "text": "\u8fd9\u91cc\u6709\u4e2a\u610f\u5916\uff1a\u76ee\u6807\u66f4\u5927\uff0c\u6309\u7684\u6b21\u6570\u53cd\u800c\u66f4\u5c11\u3002\u5982\u679c\u4f60\u7b97\u51fa\u4e866\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u8fd9\u91cc\u6709\u4e2a\u610f\u5916\uff1a\u76ee\u6807\u66f4\u5927\uff0c\u6309\u7684\u6b21\u6570\u53cd\u800c\u66f4\u5c11\u3002\u5982\u679c\u4f60\u7b97\u51fa\u4e866\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/fe1b17a1f977a9d7.wav",
+     "from": 1071,
+     "frames": 245
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12132,
+   "frames": 905,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/83b6e0ebbeb944f9.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "\u53ea\u6709\u4e582\u548c\u52a01\uff0c\u60f3\u5230\u8fbe\u76ee\u6807\uff0c\u5c31\u5012\u7740\u63a8\u3002",
+     "caption": "\u53ea\u6709\u4e582\u548c\u52a01\uff0c\u60f3\u5230\u8fbe\u76ee\u6807\uff0c\u5c31\u5012\u7740\u63a8\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/2cbe6bfd6bd1b1b6.wav",
+     "from": 86,
+     "frames": 170
+    },
+    {
+     "text": "\u9047\u5230\u5076\u6570\u5c31\u9664\u4ee52\uff0c\u9664\u975e\u7ed3\u679c\u6bd4\u8d77\u70b9\u8fd8\u5c0f\u3002",
+     "caption": "\u9047\u5230\u5076\u6570\u5c31\u9664\u4ee52\uff0c\u9664\u975e\u7ed3\u679c\u6bd4\u8d77\u70b9\u8fd8\u5c0f\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/1aca41fe1fd802d4.wav",
+     "from": 265,
+     "frames": 168
+    },
+    {
+     "text": "\u5426\u5219\uff0c\u5c31\u51cf1\u3002",
+     "caption": "\u5426\u5219\uff0c\u5c31\u51cf1\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/3263a2a922e19e1b.wav",
+     "from": 444,
+     "frames": 70
+    },
+    {
+     "text": "\u6570\u6309\u952e\u6b21\u6570\uff0c\u4e5f\u5c31\u662f\u6570\u7bad\u5934\uff0c\u4e0d\u662f\u6570\u6570\u5b57\u3002",
+     "caption": "\u6570\u6309\u952e\u6b21\u6570\uff0c\u4e5f\u5c31\u662f\u6570\u7bad\u5934\uff0c\u4e0d\u662f\u6570\u6570\u5b57\u3002",
+     "file": "2026-10-31-calculator-90-zh/audio/a985c532b8a3ef87.wav",
+     "from": 524,
+     "frames": 172
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-calculator-90-zh/audio/f8351124be57142c.wav",
+     "from": 706,
+     "frames": 116
+    }
+   ]
+  }
+ ]
+}

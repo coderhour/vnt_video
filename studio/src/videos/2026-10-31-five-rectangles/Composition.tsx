@@ -2,12 +2,13 @@ import { staticFile, useCurrentFrame } from 'remotion';
 import { clamp, ease, fadeTo, fadeUp, range } from '../../lib/anim';
 import { Explainer, at, type SceneComponent, type Timeline } from '../../lib/Explainer';
 import { Countdown } from '../../lib/PauseCard';
-import { Stage } from '../../lib/grid';
+import { Stage, StageSize } from '../../lib/grid';
 import { NUNITO, PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-five-rectangles';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -712,3 +713,17 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-31-five-rectangles-thumb`, render.sh → poster.jpg): the five tiles, perimeter 66 and a "?" on one tile, no area.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>36?</span>]}>
+    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+      <StageSize.Provider value={[680, 640]}>
+        <Fig tiles={MAIN} ox={40} oy={100} px={100} outline={1} tags={[null, '?', null, null, null]} />
+        <Stage>
+          <text x={340} y={48} textAnchor="middle" dominantBaseline="central" fontFamily={NUNITO} fontWeight={900} fontSize={60} fill={INK}>Perimeter 66</text>
+        </Stage>
+      </StageSize.Provider>
+    </div>
+  </ThumbFrame>
+);

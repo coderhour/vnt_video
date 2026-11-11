@@ -1,0 +1,561 @@
+{
+ "fps": 30,
+ "durationInFrames": 12826,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 566,
+   "lines": [
+    {
+     "text": "\u8fd9\u4e2a\u89d2\u770b\u8d77\u6765\u5f88\u5c0f\uff0c\u4f46\u8fd9\u91cc\u85cf\u7740\u4e00\u4e2a\u5de7\u5999\u7684\u89c4\u5f8b\u3002",
+     "caption": "\u8fd9\u4e2a\u89d2\u770b\u8d77\u6765\u5f88\u5c0f\uff0c\u4f46\u8fd9\u91cc\u85cf\u7740\u4e00\u4e2a\u5de7\u5999\u7684\u89c4\u5f8b\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/fa9da17cb9e3c0ed.wav",
+     "from": 0,
+     "frames": 184
+    },
+    {
+     "text": "\u4e00\u5f00\u59cb\uff0c\u6211\u4eec\u53ea\u77e5\u9053\u4e00\u4e2a\u6570\u3002\u80fd\u4e0d\u80fd\u4ece\u5b83\u4e00\u8def\u63a8\u5230\u8fd9\u91cc\uff1f",
+     "caption": "\u4e00\u5f00\u59cb\uff0c\u6211\u4eec\u53ea\u77e5\u9053\u4e00\u4e2a\u6570\u3002\u80fd\u4e0d\u80fd\u4ece\u5b83\u4e00\u8def\u63a8\u5230\u8fd9\u91cc\uff1f",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/9be1b24f6a7721db.wav",
+     "from": 194,
+     "frames": 201
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u63a8\u89d2\u5ea6\u5427\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u63a8\u89d2\u5ea6\u5427\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/87778c3fe7d9359d.wav",
+     "from": 405,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 566,
+   "frames": 934,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002\u4e09\u89d2\u5f62ABC\u662f\u7b49\u8fb9\u4e09\u89d2\u5f62\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002\u4e09\u89d2\u5f62ABC\u662f\u7b49\u8fb9\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/2d631c3c6785eaa0.wav",
+     "from": 0,
+     "frames": 166
+    },
+    {
+     "text": "\u70b9D\u5728\u8fb9BC\u4e0a\uff0c\u70b9E\u5728\u8fb9AC\u4e0a\u3002",
+     "caption": "\u70b9D\u5728\u8fb9BC\u4e0a\uff0c\u70b9E\u5728\u8fb9AC\u4e0a\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/075fc819a96b50b5.wav",
+     "from": 176,
+     "frames": 167
+    },
+    {
+     "text": "\u8fd9\u4e9b\u5c0f\u77ed\u7ebf\u8868\u793a\uff0cAD\u548cAE\u76f8\u7b49\u3002",
+     "caption": "\u8fd9\u4e9b\u5c0f\u77ed\u7ebf\u8868\u793a\uff0cAD\u548cAE\u76f8\u7b49\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/08f957ea7722b4c6.wav",
+     "from": 354,
+     "frames": 137
+    },
+    {
+     "text": "\u89d2BAD\u662f20\u5ea6\u3002",
+     "caption": "\u89d2BAD\u662f20\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/ba5bd315be54ff3a.wav",
+     "from": 501,
+     "frames": 106
+    },
+    {
+     "text": "x\u662f\u89d2EDC\uff0c\u5b83\u662f\u591a\u5c11\u5ea6\uff1f",
+     "caption": "x\u662f\u89d2EDC\uff0c\u5b83\u662f\u591a\u5c11\u5ea6\uff1f",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/79e2c887748eafe1.wav",
+     "from": 617,
+     "frames": 125
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 752,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1500,
+   "frames": 650,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u7b49\u8fb9\u4e09\u89d2\u5f62\uff0c\u6bcf\u4e2a\u89d2\u90fd\u662f60\u5ea6\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1f\u7b49\u8fb9\u4e09\u89d2\u5f62\uff0c\u6bcf\u4e2a\u89d2\u90fd\u662f60\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/50b85d0380515c05.wav",
+     "from": 0,
+     "frames": 170
+    },
+    {
+     "text": "AD\u7b49\u4e8eAE\uff0c\u6240\u4ee5\u4e09\u89d2\u5f62ADE\u6709\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "caption": "AD\u7b49\u4e8eAE\uff0c\u6240\u4ee5\u4e09\u89d2\u5f62ADE\u6709\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/747bc11792984ed1.wav",
+     "from": 180,
+     "frames": 208
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\u662fD\u70b9\u5904\u7684\u5c0f\u89d2\uff0c\u5728DE\u548c\u8fb9DC\u4e4b\u95f4\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\u662fD\u70b9\u5904\u7684\u5c0f\u89d2\uff0c\u5728DE\u548c\u8fb9DC\u4e4b\u95f4\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/8d7adbc6068a4ed6.wav",
+     "from": 398,
+     "frames": 198
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2150,
+   "frames": 485,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 161
+    }
+   ]
+  },
+  {
+   "id": "top",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u5916\u89d2",
+   "from": 2635,
+   "frames": 580,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u4ece\u6700\u4e0a\u9762\u7684\u9876\u70b9A\u5f00\u59cb\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u4ece\u6700\u4e0a\u9762\u7684\u9876\u70b9A\u5f00\u59cb\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/fa3d77b32a95fa2d.wav",
+     "from": 0,
+     "frames": 126
+    },
+    {
+     "text": "A\u5904\u7684\u6574\u4e2a\u89d2\u662f60\u5ea6\uff0c\u89d2BAD\u5360\u4e86\u5176\u4e2d\u768420\u5ea6\u3002",
+     "caption": "A\u5904\u7684\u6574\u4e2a\u89d2\u662f60\u5ea6\uff0c\u89d2BAD\u5360\u4e86\u5176\u4e2d\u768420\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/1f04929fb5303210.wav",
+     "from": 136,
+     "frames": 200
+    },
+    {
+     "text": "\u6240\u4ee5\u89d2DAE\u662f60\u51cf20\uff0c\u4e5f\u5c31\u662f40\u5ea6\u3002",
+     "caption": "\u6240\u4ee5\u89d2DAE\u662f60\u51cf20\uff0c\u4e5f\u5c31\u662f40\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/127c6c17e7cac415.wav",
+     "from": 346,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "isos",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3215,
+   "frames": 878,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u770b\u4e09\u89d2\u5f62ADE\u3002\u5b83\u662f\u7b49\u8170\u4e09\u89d2\u5f62\uff0c\u6709\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "caption": "\u73b0\u5728\u770b\u4e09\u89d2\u5f62ADE\u3002\u5b83\u662f\u7b49\u8170\u4e09\u89d2\u5f62\uff0c\u6709\u4e24\u6761\u8fb9\u76f8\u7b49\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/b955b1c8dd942879.wav",
+     "from": 0,
+     "frames": 206
+    },
+    {
+     "text": "DE\u662f\u5e95\u8fb9\u3002D\u548cE\u5904\u7684\u4e24\u4e2a\u89d2\u53eb\u505a\u5e95\u89d2\uff0c\u5b83\u4eec\u76f8\u7b49\u3002",
+     "caption": "DE\u662f\u5e95\u8fb9\u3002D\u548cE\u5904\u7684\u4e24\u4e2a\u89d2\u53eb\u505a\u5e95\u89d2\uff0c\u5b83\u4eec\u76f8\u7b49\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/dcbb64404a355969.wav",
+     "from": 216,
+     "frames": 231
+    },
+    {
+     "text": "\u4e09\u4e2a\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\u3002\u51cf\u53bb40\u5ea6\uff0c\u8fd8\u5269140\u5ea6\u3002",
+     "caption": "\u4e09\u4e2a\u89d2\u52a0\u8d77\u6765\u662f180\u5ea6\u3002\u51cf\u53bb40\u5ea6\uff0c\u8fd8\u5269140\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/e9a59f4f821d0c4e.wav",
+     "from": 457,
+     "frames": 210
+    },
+    {
+     "text": "\u5e73\u5747\u5206\u6210\u4e24\u4efd\uff0c\u6bcf\u4e2a\u5e95\u89d2\u5c31\u662f70\u5ea6\u3002",
+     "caption": "\u5e73\u5747\u5206\u6210\u4e24\u4efd\uff0c\u6bcf\u4e2a\u5e95\u89d2\u5c31\u662f70\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/d04f3ded9d220702.wav",
+     "from": 677,
+     "frames": 147
+    }
+   ]
+  },
+  {
+   "id": "outside",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4093,
+   "frames": 1397,
+   "lines": [
+    {
+     "text": "\u63a5\u4e0b\u6765\u662f\u6700\u5de7\u5999\u7684\u4e00\u6b65\u3002\u770b\u5de6\u8fb9\u7684\u4e09\u89d2\u5f62ABD\u3002",
+     "caption": "\u63a5\u4e0b\u6765\u662f\u6700\u5de7\u5999\u7684\u4e00\u6b65\u3002\u770b\u5de6\u8fb9\u7684\u4e09\u89d2\u5f62ABD\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/873489e12e84dd94.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "\u89d2ADC\u5728\u8fd9\u4e2a\u4e09\u89d2\u5f62\u7684\u5916\u9762\uff0c\u5728\u76f4\u7ebfBC\u4e0a\u3002",
+     "caption": "\u89d2ADC\u5728\u8fd9\u4e2a\u4e09\u89d2\u5f62\u7684\u5916\u9762\uff0c\u5728\u76f4\u7ebfBC\u4e0a\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/8e82e62c3cbd0d99.wav",
+     "from": 184,
+     "frames": 183
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62\u7684\u5916\u89d2\uff0c\u7b49\u4e8e\u548c\u5b83\u4e0d\u76f8\u90bb\u7684\u4e24\u4e2a\u5185\u89d2\u4e4b\u548c\u3002",
+     "caption": "\u4e09\u89d2\u5f62\u7684\u5916\u89d2\uff0c\u7b49\u4e8e\u548c\u5b83\u4e0d\u76f8\u90bb\u7684\u4e24\u4e2a\u5185\u89d2\u4e4b\u548c\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/c587847f2620b373.wav",
+     "from": 377,
+     "frames": 179
+    },
+    {
+     "text": "\u4e3a\u4ec0\u4e48\uff1f\u4e09\u89d2\u5f62ABD\u7684\u5185\u89d2\u548c\u662f180\u5ea6\uff0cD\u70b9\u5904\u7684\u5e73\u89d2\u4e5f\u662f180\u5ea6\u3002",
+     "caption": "\u4e3a\u4ec0\u4e48\uff1f\u4e09\u89d2\u5f62ABD\u7684\u5185\u89d2\u548c\u662f180\u5ea6\uff0cD\u70b9\u5904\u7684\u5e73\u89d2\u4e5f\u662f180\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/9b0bb3f2d4ad8270.wav",
+     "from": 566,
+     "frames": 280
+    },
+    {
+     "text": "\u4e24\u8fb9\u90fd\u5305\u542b\u89d2ADB\uff0c\u6240\u4ee5\u5269\u4e0b\u7684\u90e8\u5206\u4e00\u5b9a\u76f8\u7b49\u3002",
+     "caption": "\u4e24\u8fb9\u90fd\u5305\u542b\u89d2ADB\uff0c\u6240\u4ee5\u5269\u4e0b\u7684\u90e8\u5206\u4e00\u5b9a\u76f8\u7b49\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/67f8219467b879c1.wav",
+     "from": 856,
+     "frames": 196
+    },
+    {
+     "text": "\u4e5f\u5c31\u662f\u89d2B\u768460\u5ea6\uff0c\u52a0\u4e0a\u89d2BAD\u768420\u5ea6\u3002\u6240\u4ee5\u89d2ADC\u662f80\u5ea6\u3002",
+     "caption": "\u4e5f\u5c31\u662f\u89d2B\u768460\u5ea6\uff0c\u52a0\u4e0a\u89d2BAD\u768420\u5ea6\u3002\u6240\u4ee5\u89d2ADC\u662f80\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/95f654dba2e9bd17.wav",
+     "from": 1062,
+     "frames": 281
+    }
+   ]
+  },
+  {
+   "id": "subtract",
+   "kind": "scene",
+   "chapter": null,
+   "from": 5490,
+   "frames": 559,
+   "lines": [
+    {
+     "text": "\u89d2ADC\u5206\u6210\u4e24\u90e8\u5206\uff1a\u89d2ADE\uff0c\u548c\u6211\u4eec\u8981\u6c42\u7684x\u3002",
+     "caption": "\u89d2ADC\u5206\u6210\u4e24\u90e8\u5206\uff1a\u89d2ADE\uff0c\u548c\u6211\u4eec\u8981\u6c42\u7684x\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/877358f1cd2ca9cc.wav",
+     "from": 0,
+     "frames": 214
+    },
+    {
+     "text": "\u6240\u4ee5x\u7b49\u4e8e80\u51cf70\u3002",
+     "caption": "\u6240\u4ee5x\u7b49\u4e8e80\u51cf70\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/3ed210b4d9f58c29.wav",
+     "from": 224,
+     "frames": 129
+    },
+    {
+     "text": "x\u7b49\u4e8e10\u5ea6\uff01\u7b54\u6848\u662f\u9009\u9879A\u3002",
+     "caption": "x\u7b49\u4e8e10\u5ea6\uff01\u7b54\u6848\u662f\u9009\u9879A\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/339fbf59434061b4.wav",
+     "from": 363,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "sol2",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1aE\u70b9\u5904\u7684\u5e73\u89d2",
+   "from": 6049,
+   "frames": 1172,
+   "lines": [
+    {
+     "text": "\u518d\u770b\u7b2c\u4e8c\u79cd\u65b9\u6cd5\u3002\u89d2AED\u662f70\u5ea6\uff0c\u800cAEC\u662f\u4e00\u6761\u76f4\u7ebf\u3002",
+     "caption": "\u518d\u770b\u7b2c\u4e8c\u79cd\u65b9\u6cd5\u3002\u89d2AED\u662f70\u5ea6\uff0c\u800cAEC\u662f\u4e00\u6761\u76f4\u7ebf\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/97fd2844b43b36e1.wav",
+     "from": 0,
+     "frames": 203
+    },
+    {
+     "text": "\u6240\u4ee5\u89d2DEC\u662f180\u51cf70\uff0c\u7b49\u4e8e110\u5ea6\u3002",
+     "caption": "\u6240\u4ee5\u89d2DEC\u662f180\u51cf70\uff0c\u7b49\u4e8e110\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/c17deee4d764c55a.wav",
+     "from": 214,
+     "frames": 234
+    },
+    {
+     "text": "\u518d\u770b\u5c0f\u4e09\u89d2\u5f62DEC\uff0c\u89d2C\u662f60\u5ea6\u3002",
+     "caption": "\u518d\u770b\u5c0f\u4e09\u89d2\u5f62DEC\uff0c\u89d2C\u662f60\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/ed5779dd9e0e69bc.wav",
+     "from": 458,
+     "frames": 152
+    },
+    {
+     "text": "\u6240\u4ee5x\u7b49\u4e8e180\u51cf110\uff0c\u518d\u51cf60\u3002\u53c8\u662f10\u5ea6\uff01",
+     "caption": "\u6240\u4ee5x\u7b49\u4e8e180\u51cf110\uff0c\u518d\u51cf60\u3002\u53c8\u662f10\u5ea6\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/a03b671c5484fd04.wav",
+     "from": 620,
+     "frames": 255
+    },
+    {
+     "text": "\u8fd9\u4e2a\u65b9\u6cd5\u6700\u9002\u5408\u7528\u6765\u9a8c\u7b97\uff0c\u5b83\u7528\u7684\u662f\u5e73\u89d2\u548c\u4e09\u89d2\u5f62\u5185\u89d2\u548c\u3002",
+     "caption": "\u8fd9\u4e2a\u65b9\u6cd5\u6700\u9002\u5408\u7528\u6765\u9a8c\u7b97\uff0c\u5b83\u7528\u7684\u662f\u5e73\u89d2\u548c\u4e09\u89d2\u5f62\u5185\u89d2\u548c\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/045cf0cede52ba3c.wav",
+     "from": 885,
+     "frames": 219
+    }
+   ]
+  },
+  {
+   "id": "pattern",
+   "kind": "scene",
+   "chapter": "\u9690\u85cf\u7684\u89c4\u5f8b",
+   "from": 7221,
+   "frames": 1288,
+   "lines": [
+    {
+     "text": "\u4f60\u53d1\u73b0\u4e86\u5417\uff1f\u89d2BAD\u662f20\u5ea6\uff0cx\u662f10\u5ea6\uff0c\u6b63\u597d\u4e00\u534a\uff01",
+     "caption": "\u4f60\u53d1\u73b0\u4e86\u5417\uff1f\u89d2BAD\u662f20\u5ea6\uff0cx\u662f10\u5ea6\uff0c\u6b63\u597d\u4e00\u534a\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/9d768e07ba8cfeda.wav",
+     "from": 0,
+     "frames": 216
+    },
+    {
+     "text": "\u8fd9\u662f\u5de7\u5408\u5417\uff1f\u6211\u4eec\u628a\u89d2BAD\u53eb\u505aa\uff0c\u518d\u628a\u6b65\u9aa4\u505a\u4e00\u904d\u3002",
+     "caption": "\u8fd9\u662f\u5de7\u5408\u5417\uff1f\u6211\u4eec\u628a\u89d2BAD\u53eb\u505aa\uff0c\u518d\u628a\u6b65\u9aa4\u505a\u4e00\u904d\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/5c0b722db0c1459a.wav",
+     "from": 227,
+     "frames": 219
+    },
+    {
+     "text": "\u9876\u4e0a\u7684\u89d2DAE\uff0c\u7b49\u4e8e60\u51cfa\u3002\u7b97\u4e0b\u6765\uff0c\u6bcf\u4e2a\u5e95\u89d2\u662f60\u52a0\u4e0aa\u7684\u4e00\u534a\u3002",
+     "caption": "\u9876\u4e0a\u7684\u89d2DAE\uff0c\u7b49\u4e8e60\u51cfa\u3002\u7b97\u4e0b\u6765\uff0c\u6bcf\u4e2a\u5e95\u89d2\u662f60\u52a0\u4e0aa\u7684\u4e00\u534a\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/f653d9edddc2a000.wav",
+     "from": 456,
+     "frames": 300
+    },
+    {
+     "text": "\u89d2ADC\u662f60\u52a0a\u3002\u4e24\u4e2a\u89d2\u76f8\u51cf\uff0c\u4e24\u4e2a60\u6b63\u597d\u62b5\u6d88\u3002",
+     "caption": "\u89d2ADC\u662f60\u52a0a\u3002\u4e24\u4e2a\u89d2\u76f8\u51cf\uff0c\u4e24\u4e2a60\u6b63\u597d\u62b5\u6d88\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/4efe72490338c702.wav",
+     "from": 766,
+     "frames": 269
+    },
+    {
+     "text": "\u6240\u4ee5\u5728\u8fd9\u4e2a\u56fe\u91cc\uff0cx\u6c38\u8fdc\u662f\u89d2BAD\u7684\u4e00\u534a\uff01",
+     "caption": "\u6240\u4ee5\u5728\u8fd9\u4e2a\u56fe\u91cc\uff0cx\u6c38\u8fdc\u662f\u89d2BAD\u7684\u4e00\u534a\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/7f0dcb9e8c267249.wav",
+     "from": 1045,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 8509,
+   "frames": 1610,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\uff0c\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\uff0c\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/90b1403766046ff9.wav",
+     "from": 0,
+     "frames": 140
+    },
+    {
+     "text": "20\u5ea6\u662f\u89d2BAD\u3002\u8fd9\u662f\u9898\u76ee\u7ed9\u7684\u6570\uff0c\u4e0d\u662fx\u3002",
+     "caption": "20\u5ea6\u662f\u89d2BAD\u3002\u8fd9\u662f\u9898\u76ee\u7ed9\u7684\u6570\uff0c\u4e0d\u662fx\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/549bb9a2e64f4576.wav",
+     "from": 150,
+     "frames": 170
+    },
+    {
+     "text": "40\u5ea6\u662f\u89d2DAE\uff0c\u5728\u6700\u4e0a\u9762\u3002\u5b83\u4e0d\u662fD\u70b9\u7684\u89d2\u3002",
+     "caption": "40\u5ea6\u662f\u89d2DAE\uff0c\u5728\u6700\u4e0a\u9762\u3002\u5b83\u4e0d\u662fD\u70b9\u7684\u89d2\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/4bdf7bda296c84df.wav",
+     "from": 330,
+     "frames": 182
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7528\u4e86\u89d2ADB\uff0c\u5c31\u4f1a\u5f97\u523030\u5ea6\u3002",
+     "caption": "\u5982\u679c\u4f60\u7528\u4e86\u89d2ADB\uff0c\u5c31\u4f1a\u5f97\u523030\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/a3115a912bae52ac.wav",
+     "from": 522,
+     "frames": 138
+    },
+    {
+     "text": "\u89d2ADB\u662f100\u5ea6\uff0c100\u51cf70\u662f30\u3002\u53ef\u662fx\u5728\u89d2ADC\u91cc\u9762\uff0c\u5728\u9760C\u7684\u90a3\u4e00\u8fb9\u3002",
+     "caption": "\u89d2ADB\u662f100\u5ea6\uff0c100\u51cf70\u662f30\u3002\u53ef\u662fx\u5728\u89d2ADC\u91cc\u9762\uff0c\u5728\u9760C\u7684\u90a3\u4e00\u8fb9\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/773132095c9486bb.wav",
+     "from": 670,
+     "frames": 346
+    },
+    {
+     "text": "\u5982\u679cAD\u6b63\u597d\u5e73\u5206\u89d2A\uff0c\u89d2BAD\u5c31\u662f30\u5ea6\uff0c\u4e00\u534a\u5c31\u662f15\u5ea6\u3002\u53ef\u6211\u4eec\u7684\u662f20\u5ea6\u3002",
+     "caption": "\u5982\u679cAD\u6b63\u597d\u5e73\u5206\u89d2A\uff0c\u89d2BAD\u5c31\u662f30\u5ea6\uff0c\u4e00\u534a\u5c31\u662f15\u5ea6\u3002\u53ef\u6211\u4eec\u7684\u662f20\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/3c50f48c826bd8ed.wav",
+     "from": 1026,
+     "frames": 302
+    },
+    {
+     "text": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6bcf\u6c42\u51fa\u4e00\u4e2a\u89d2\uff0c\u5c31\u628a\u5b83\u6807\u5728\u56fe\u4e0a\u3002",
+     "caption": "\u6240\u4ee5\u8981\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u6bcf\u6c42\u51fa\u4e00\u4e2a\u89d2\uff0c\u5c31\u628a\u5b83\u6807\u5728\u56fe\u4e0a\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/5bc0ae33d888cda0.wav",
+     "from": 1338,
+     "frames": 213
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u65b0\u7684\u89d2\u5ea6",
+   "from": 10119,
+   "frames": 574,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u4e2a\u56fe\uff0c\u53ea\u6362\u4e00\u4e2a\u6570\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u4e2a\u56fe\uff0c\u53ea\u6362\u4e00\u4e2a\u6570\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/f43ee00402a67ac6.wav",
+     "from": 0,
+     "frames": 138
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62ABC\u8fd8\u662f\u7b49\u8fb9\u4e09\u89d2\u5f62\uff0cAD\u8fd8\u662f\u7b49\u4e8eAE\u3002",
+     "caption": "\u4e09\u89d2\u5f62ABC\u8fd8\u662f\u7b49\u8fb9\u4e09\u89d2\u5f62\uff0cAD\u8fd8\u662f\u7b49\u4e8eAE\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/3a1fc3ce427fcbe9.wav",
+     "from": 149,
+     "frames": 196
+    },
+    {
+     "text": "\u8fd9\u4e00\u6b21\uff0c\u89d2BAD\u662f36\u5ea6\u3002x\u662f\u591a\u5c11\uff1f",
+     "caption": "\u8fd9\u4e00\u6b21\uff0c\u89d2BAD\u662f36\u5ea6\u3002x\u662f\u591a\u5c11\uff1f",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/f986f47fc1046f99.wav",
+     "from": 355,
+     "frames": 180
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 10693,
+   "frames": 393,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/9d083311e6460358.wav",
+     "from": 0,
+     "frames": 70
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u89d2\u5ea6\uff1a\u7b54\u6848",
+   "from": 11086,
+   "frames": 1186,
+   "lines": [
+    {
+     "text": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u89d2DAE\u662f60\u51cf36\uff0c\u7b49\u4e8e24\u5ea6\u3002",
+     "caption": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u89d2DAE\u662f60\u51cf36\uff0c\u7b49\u4e8e24\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/541532e40d9c285a.wav",
+     "from": 0,
+     "frames": 218
+    },
+    {
+     "text": "180\u51cf24\u662f156\uff0c\u4e00\u534a\u662f78\u5ea6\u3002",
+     "caption": "180\u51cf24\u662f156\uff0c\u4e00\u534a\u662f78\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/3e7aa57c888f9754.wav",
+     "from": 228,
+     "frames": 220
+    },
+    {
+     "text": "\u89d2ADC\u662f60\u52a036\uff0c\u7b49\u4e8e96\u5ea6\u3002",
+     "caption": "\u89d2ADC\u662f60\u52a036\uff0c\u7b49\u4e8e96\u5ea6\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/90e5b43c780f4524.wav",
+     "from": 458,
+     "frames": 194
+    },
+    {
+     "text": "\u6240\u4ee5x\u7b49\u4e8e96\u51cf78\uff0c\u7b49\u4e8e18\u5ea6\uff01",
+     "caption": "\u6240\u4ee5x\u7b49\u4e8e96\u51cf78\uff0c\u7b49\u4e8e18\u5ea6\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/0bb8718fffcadff8.wav",
+     "from": 662,
+     "frames": 173
+    },
+    {
+     "text": "\u89c4\u5f8b\u4e5f\u5bf9\u5f97\u4e0a\uff1a36\u7684\u4e00\u534a\uff0c\u6b63\u597d\u662f18\u3002",
+     "caption": "\u89c4\u5f8b\u4e5f\u5bf9\u5f97\u4e0a\uff1a36\u7684\u4e00\u534a\uff0c\u6b63\u597d\u662f18\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/4783e5c7ad655670.wav",
+     "from": 845,
+     "frames": 149
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8618\u5ea6\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8618\u5ea6\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/5159b30481e0a735.wav",
+     "from": 1005,
+     "frames": 113
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12272,
+   "frames": 554,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u5173\u952e\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u5173\u952e\u601d\u8def\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/5dfd81dc701b881c.wav",
+     "from": 0,
+     "frames": 76
+    },
+    {
+     "text": "\u5148\u7528\u5916\u89d2\u7684\u89c4\u5f8b\uff0c\u6c42\u51faD\u70b9\u5904\u7684\u89d2\u3002",
+     "caption": "\u5148\u7528\u5916\u89d2\u7684\u89c4\u5f8b\uff0c\u6c42\u51faD\u70b9\u5904\u7684\u89d2\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/0bc032602b88e996.wav",
+     "from": 86,
+     "frames": 125
+    },
+    {
+     "text": "\u518d\u51cf\u53bb\u91cc\u9762\u90a3\u4e2a\u7b49\u8170\u4e09\u89d2\u5f62\u7684\u5e95\u89d2\u3002",
+     "caption": "\u518d\u51cf\u53bb\u91cc\u9762\u90a3\u4e2a\u7b49\u8170\u4e09\u89d2\u5f62\u7684\u5e95\u89d2\u3002",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/4bc0769da1164c04.wav",
+     "from": 222,
+     "frames": 114
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a8\u89d2\u5ea6\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a8\u89d2\u5ea6\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-equilateral-angle-chase-zh/audio/829f4fa4bca1df86.wav",
+     "from": 346,
+     "frames": 124
+    }
+   ]
+  }
+ ]
+}

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 import { interpolate } from 'remotion';
 
 export const SLUG = '2026-10-30-three-power-ends-01';
@@ -532,7 +533,8 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
       {range(5).map((i) => (
         <div key={i} style={{ position: 'absolute', left: TX(i) + 170, top: 625, width: 130, textAlign: 'center', fontSize: 52, fontWeight: 900, color: C.violet, opacity: ease(f, ta[i + 1] - 6, 10) }}>+80</div>
       ))}
-      <Eq x={110} y={190} tex={'5 \\times 2 = 10'} start={at(scene, 4, 0.54)} size={64} />
+      <Eq x={110} y={190} tex={'5 \\times 2'} start={at(scene, 4, 0.54)} size={64} />
+      <Eq x={110} y={190} tex={'\\phantom{5 \\times 2} = 10'} start={at(scene, 4, 0.68)} size={64} />
       <Eq x={110} y={300} tex={'9^{10} = (3 \\times 3)^{10} = 3^{20}'} start={at(scene, 5, 0.3)} size={56} />
       <Pill x={110} y={400} color={C.green} style={{ ...fadeUp(f, at(scene, 5, 0.7)), fontSize: 38 }}>✓ matches!</Pill>
       <Answer x={1560} y={330} value="10" start={end} chime={CHIME} />
@@ -582,3 +584,14 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + "3^n ends in 01", no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>4?</span>]}>
+    <div style={{ background: C.card, borderRadius: 40, padding: '40px 10px', width: 640, boxShadow: '0 8px 30px rgba(30,40,80,0.10)', textAlign: 'center', whiteSpace: 'nowrap' }}>
+      <div><Tex tex="3^n" size={190} /></div>
+      <div style={{ margin: '6px 0 14px', fontSize: 64, fontWeight: 900, color: C.violet }}>ends in</div>
+      <div><Tex tex="\ldots 01" size={130} /></div>
+    </div>
+  </ThumbFrame>
+);

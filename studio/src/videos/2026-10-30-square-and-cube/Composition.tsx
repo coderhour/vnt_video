@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-square-and-cube';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -645,7 +646,9 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
         {strip(1000, 560, [2, 5, 8], CU, cue(scene, 2, 0.5), 2)}
         <Eq x={1000} y={636} start={cue(scene, 2, 0.85)} size={56} tex="y = 2" color={C.green} />
       </div>
-      <Eq x={120} y={722} start={cue(scene, 3, 0.1)} size={64} tex="n = 2^3 \times 3^2 = 8 \times 9 = 72" color={C.green} />
+      <Eq x={120} y={722} start={cue(scene, 3, 0.1)} size={64} tex="n = 2^3 \times 3^2 = 8 \times 9" color={C.green} />
+      {/* "= 72" lands on the spoken "seventy-two" at the end of the line */}
+      <Eq x={120} y={722} start={cue(scene, 3, 0.85)} size={64} tex="\phantom{n = 2^3 \times 3^2 = 8 \times 9} = 72" color={C.green} />
       <Eq x={120} y={330} start={cue(scene, 4, 0.2)} size={60} tex="2 \times 72 = 144 = 12 \times 12 \;\checkmark" />
       <Eq x={120} y={470} start={cue(scene, 5, 0.2)} size={60} tex="3 \times 72 = 216 = 6 \times 6 \times 6 \;\checkmark" />
       <Answer x={1600} y={540} value="72" chime={CHIME} start={cue(scene, 6, 0.95)} />
@@ -707,3 +710,19 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-30-square-and-cube-thumb`, render.sh -> poster.jpg): the trap + 20n square and 50n cube, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>50?</span>]}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 30, alignItems: 'stretch' }}>
+      <div style={{ background: C.card, borderRadius: 36, padding: '20px 36px', border: `7px solid ${C.violet}`, textAlign: 'center' }}>
+        <Tex tex={'20\\cdot n'} size={100} />
+        <div style={{ fontSize: 56, fontWeight: 900, color: C.violet }}>perfect SQUARE</div>
+      </div>
+      <div style={{ background: C.card, borderRadius: 36, padding: '20px 36px', border: `7px solid ${C.amber}`, textAlign: 'center' }}>
+        <Tex tex={'50\\cdot n'} size={100} />
+        <div style={{ fontSize: 56, fontWeight: 900, color: C.amber }}>perfect CUBE</div>
+      </div>
+    </div>
+  </ThumbFrame>
+);

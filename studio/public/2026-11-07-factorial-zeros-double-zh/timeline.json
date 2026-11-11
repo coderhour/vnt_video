@@ -1,0 +1,510 @@
+{
+ "fps": 30,
+ "durationInFrames": 13449,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 726,
+   "lines": [
+    {
+     "text": "10\u7684\u9636\u4e58\uff0c\u672b\u5c3e\u6709\u4e24\u4e2a\u96f6\u300220\u7684\u9636\u4e58\uff0c\u672b\u5c3e\u67094\u4e2a\u96f6\u3002\u6b63\u597d\u7ffb\u4e86\u4e00\u500d\uff01",
+     "caption": "10\u7684\u9636\u4e58\uff0c\u672b\u5c3e\u67092\u4e2a\u96f6\u300220\u7684\u9636\u4e58\uff0c\u672b\u5c3e\u67094\u4e2a\u96f6\u3002\u6b63\u597d\u7ffb\u4e86\u4e00\u500d\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/6f6eafdf5a8d1471.wav",
+     "from": 0,
+     "frames": 260
+    },
+    {
+     "text": "\u53ef\u662f8\u7684\u9636\u4e58\u672b\u5c3e\u53ea\u67091\u4e2a\u96f6\uff0c16\u7684\u9636\u4e58\u672b\u5c3e\u5374\u67093\u4e2a\u96f6\u3002",
+     "caption": "\u53ef\u662f8\u7684\u9636\u4e58\u672b\u5c3e\u53ea\u67091\u4e2a\u96f6\uff0c16\u7684\u9636\u4e58\u672b\u5c3e\u5374\u67093\u4e2a\u96f6\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/8abef01119505678.wav",
+     "from": 270,
+     "frames": 216
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u6765\u5f04\u6e05\u695a\uff0c\u5230\u5e95\u4ec0\u4e48\u65f6\u5019\u7ffb\u500d\u624d\u6210\u7acb\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u6765\u5f04\u6e05\u695a\uff0c\u5230\u5e95\u4ec0\u4e48\u65f6\u5019\u7ffb\u500d\u624d\u6210\u7acb\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/870ae5a92d17506f.wav",
+     "from": 496,
+     "frames": 191
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 726,
+   "frames": 805,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002n\u7684\u9636\u4e58\uff0c\u5c31\u662f1\u4e582\u4e583\uff0c\u4e00\u76f4\u4e58\u5230n\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002n\u7684\u9636\u4e58\uff0c\u5c31\u662f1\u4e582\u4e583\uff0c\u4e00\u76f4\u4e58\u5230n\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/60b89a8006abb188.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "\u4ece1\u5230100\u7684\u6574\u6570n\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u6ee1\u8db3\u4e0b\u9762\u7684\u6761\u4ef6\uff1f",
+     "caption": "\u4ece1\u5230100\u7684\u6574\u6570n\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u6ee1\u8db3\u4e0b\u9762\u7684\u6761\u4ef6\uff1f",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/d93ce804968ffc47.wav",
+     "from": 231,
+     "frames": 179
+    },
+    {
+     "text": "2n\u7684\u9636\u4e58\u672b\u5c3e\u96f6\u7684\u4e2a\u6570\uff0c\u6b63\u597d\u662fn\u7684\u9636\u4e58\u672b\u5c3e\u96f6\u7684\u4e2a\u6570\u7684\u4e24\u500d\u3002",
+     "caption": "2n\u7684\u9636\u4e58\u672b\u5c3e\u96f6\u7684\u4e2a\u6570\uff0c\u6b63\u597d\u662fn\u7684\u9636\u4e58\u672b\u5c3e\u96f6\u7684\u4e2a\u6570\u7684\u4e24\u500d\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/bf75b0df92cbe5de.wav",
+     "from": 421,
+     "frames": 206
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/36f94aa3e114f1fa.wav",
+     "from": 636,
+     "frames": 100
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1531,
+   "frames": 734,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u628a\u6bcf\u4e2an\u5206\u6210\u4e24\u7ec4\uff1a\u7ffb\u500d\u6210\u7acb\u7684\uff0c\u548c\u4e0d\u6210\u7acb\u7684\u3002",
+     "caption": "\u6211\u4eec\u628a\u6bcf\u4e2an\u5206\u6210\u4e24\u7ec4\uff1a\u7ffb\u500d\u6210\u7acb\u7684\uff0c\u548c\u4e0d\u6210\u7acb\u7684\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/b6df62e334ba9747.wav",
+     "from": 0,
+     "frames": 167
+    },
+    {
+     "text": "10\u6210\u7acb\u30028\u4e0d\u6210\u7acb\uff0c\u56e0\u4e3a3\u6bd41\u7684\u4e24\u500d\u8fd8\u591a\u3002\u6211\u4eec\u9700\u8981\u627e\u5230\u4e00\u6761\u89c4\u5f8b\u3002",
+     "caption": "10\u6210\u7acb\u30028\u4e0d\u6210\u7acb\uff0c\u56e0\u4e3a3\u6bd41\u7684\u4e24\u500d\u8fd8\u591a\u3002\u6211\u4eec\u9700\u8981\u627e\u5230\u4e00\u6761\u89c4\u5f8b\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/ee33ff8136c7f805.wav",
+     "from": 177,
+     "frames": 273
+    },
+    {
+     "text": "\u6211\u4eec\u7684\u4efb\u52a1\uff1a\u6570\u4e00\u6570\u4ece1\u5230100\uff0c\u6709\u591a\u5c11\u4e2a\u6570\u80fd\u8ba9\u7ffb\u500d\u6210\u7acb\u3002",
+     "caption": "\u6211\u4eec\u7684\u4efb\u52a1\uff1a\u6570\u4e00\u6570\u4ece1\u5230100\uff0c\u6709\u591a\u5c11\u4e2a\u6570\u80fd\u8ba9\u7ffb\u500d\u6210\u7acb\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/a0c718c76ed76379.wav",
+     "from": 460,
+     "frames": 220
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2265,
+   "frames": 481,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/3ba54c818d203c1a.wav",
+     "from": 0,
+     "frames": 158
+    }
+   ]
+  },
+  {
+   "id": "fives",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u6570\u56e0\u65705",
+   "from": 2746,
+   "frames": 1295,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u672b\u5c3e\u7684\u6bcf\u4e2a\u96f6\uff0c\u90fd\u6765\u81ea\u4e00\u4e2a\u56e0\u657010\uff0c\u800c10\u7b49\u4e8e2\u4e585\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u672b\u5c3e\u7684\u6bcf\u4e2a\u96f6\uff0c\u90fd\u6765\u81ea\u4e00\u4e2a\u56e0\u657010\uff0c\u800c10\u7b49\u4e8e2\u4e585\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/d4dc9c832188ae7d.wav",
+     "from": 0,
+     "frames": 250
+    },
+    {
+     "text": "\u9636\u4e58\u91cc\u7684\u56e0\u65702\uff0c\u6bd4\u56e0\u65705\u591a\u5f97\u591a\u3002\u6240\u4ee5\u6211\u4eec\u53ea\u8981\u6570\u56e0\u65705\u3002",
+     "caption": "\u9636\u4e58\u91cc\u7684\u56e0\u65702\uff0c\u6bd4\u56e0\u65705\u591a\u5f97\u591a\u3002\u6240\u4ee5\u6211\u4eec\u53ea\u8981\u6570\u56e0\u65705\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/cf66e81cebf93763.wav",
+     "from": 260,
+     "frames": 228
+    },
+    {
+     "text": "\u6bcf\u4e2a5\u7684\u500d\u6570\u8d21\u732e\u4e00\u4e2a5\u3002\u4e2a\u6570\u662fn\u9664\u4ee55\uff0c\u5411\u4e0b\u53d6\u6574\u3002",
+     "caption": "\u6bcf\u4e2a5\u7684\u500d\u6570\u8d21\u732e\u4e00\u4e2a5\u3002\u4e2a\u6570\u662fn\u9664\u4ee55\uff0c\u5411\u4e0b\u53d6\u6574\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/bf6805fb6825fd6e.wav",
+     "from": 499,
+     "frames": 209
+    },
+    {
+     "text": "\u6bcf\u4e2a25\u7684\u500d\u6570\u518d\u591a\u8d21\u732e\u4e00\u4e2a5\u3002\u4e2a\u6570\u662fn\u9664\u4ee525\uff0c\u5411\u4e0b\u53d6\u6574\u3002",
+     "caption": "\u6bcf\u4e2a25\u7684\u500d\u6570\u518d\u591a\u8d21\u732e\u4e00\u4e2a5\u3002\u4e2a\u6570\u662fn\u9664\u4ee525\uff0c\u5411\u4e0b\u53d6\u6574\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/4f850f2ad99287e1.wav",
+     "from": 718,
+     "frames": 257
+    },
+    {
+     "text": "2n\u7684\u9636\u4e58\u6700\u591a\u4e58\u5230200\uff0c\u6240\u4ee5\u8fd8\u4f1a\u591a\u51fa\u4e00\u9879\uff1a2n\u9664\u4ee5125\u3002",
+     "caption": "2n\u7684\u9636\u4e58\u6700\u591a\u4e58\u5230200\uff0c\u6240\u4ee5\u8fd8\u4f1a\u591a\u51fa\u4e00\u9879\uff1a2n\u9664\u4ee5125\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/3634f4ef516e854f.wav",
+     "from": 985,
+     "frames": 262
+    }
+   ]
+  },
+  {
+   "id": "double",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4041,
+   "frames": 2120,
+   "lines": [
+    {
+     "text": "\u5173\u952e\u95ee\u9898\u6765\u4e86\u3002\u628an\u7ffb\u500d\uff0c\u6bcf\u4e00\u9879\u5411\u4e0b\u53d6\u6574\u7684\u7ed3\u679c\u4e5f\u4f1a\u7ffb\u500d\u5417\uff1f",
+     "caption": "\u5173\u952e\u95ee\u9898\u6765\u4e86\u3002\u628an\u7ffb\u500d\uff0c\u6bcf\u4e00\u9879\u5411\u4e0b\u53d6\u6574\u7684\u7ed3\u679c\u4e5f\u4f1a\u7ffb\u500d\u5417\uff1f",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/f1549cb5d0b22122.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "8\u9664\u4ee55\u5f971\uff0c\u4f593\u3002\u7ffb\u500d\u4ee5\u540e\uff0c16\u9664\u4ee55\u5f973\u3002\u4e0d\u662f2\uff0c\u800c\u662f3\uff01",
+     "caption": "8\u9664\u4ee55\u5f971\uff0c\u4f593\u3002\u7ffb\u500d\u4ee5\u540e\uff0c16\u9664\u4ee55\u5f973\u3002\u4e0d\u662f2\uff0c\u800c\u662f3\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/484643d954d7c1a9.wav",
+     "from": 231,
+     "frames": 306
+    },
+    {
+     "text": "\u4f59\u65703\u7ffb\u500d\u53d8\u62106\u30026\u5df2\u7ecf\u591f5\u4e86\uff0c\u6240\u4ee5\u591a\u6ea2\u51fa\u4e86\u4e00\u7ec45\u3002",
+     "caption": "\u4f59\u65703\u7ffb\u500d\u53d8\u62106\u30026\u5df2\u7ecf\u591f5\u4e86\uff0c\u6240\u4ee5\u591a\u6ea2\u51fa\u4e86\u4e00\u7ec45\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/a48613d5a3b204c2.wav",
+     "from": 548,
+     "frames": 224
+    },
+    {
+     "text": "\u518d\u770b7\u3002\u4f59\u65702\u7ffb\u500d\u53d8\u62104\u3002\u6ca1\u6709\u6ea2\u51fa\uff0c\u6240\u4ee51\u6b63\u597d\u53d8\u62102\u3002",
+     "caption": "\u518d\u770b7\u3002\u4f59\u65702\u7ffb\u500d\u53d8\u62104\u3002\u6ca1\u6709\u6ea2\u51fa\uff0c\u6240\u4ee51\u6b63\u597d\u53d8\u62102\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/d0ce18c8f9ef696c.wav",
+     "from": 781,
+     "frames": 231
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u4f59\u6570\u662f0\u30011\u62162\u7684\u65f6\u5019\uff0c\u9664\u4ee55\u8fd9\u4e00\u9879\u6b63\u597d\u7ffb\u500d\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u4f59\u6570\u662f0\u30011\u62162\u7684\u65f6\u5019\uff0c\u9664\u4ee55\u8fd9\u4e00\u9879\u6b63\u597d\u7ffb\u500d\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/4896387be7dfc328.wav",
+     "from": 1022,
+     "frames": 202
+    },
+    {
+     "text": "\u9664\u4ee525\u4e5f\u4e00\u6837\u3002\u4f59\u6570\u4e0d\u8d85\u8fc712\u7684\u65f6\u5019\uff0c\u8fd9\u4e00\u9879\u6b63\u597d\u7ffb\u500d\u3002",
+     "caption": "\u9664\u4ee525\u4e5f\u4e00\u6837\u3002\u4f59\u6570\u4e0d\u8d85\u8fc712\u7684\u65f6\u5019\uff0c\u8fd9\u4e00\u9879\u6b63\u597d\u7ffb\u500d\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/93d11ea92d579333.wav",
+     "from": 1234,
+     "frames": 212
+    },
+    {
+     "text": "\u6bcf\u4e00\u9879\u53ea\u4f1a\u591a\uff0c\u4e0d\u4f1a\u5c11\u3002\u6240\u4ee5\u8981\u8ba9\u96f6\u7684\u4e2a\u6570\u6b63\u597d\u7ffb\u500d\uff0c\u6bcf\u4e00\u9879\u90fd\u4e0d\u80fd\u6ea2\u51fa\u3002",
+     "caption": "\u6bcf\u4e00\u9879\u53ea\u4f1a\u591a\uff0c\u4e0d\u4f1a\u5c11\u3002\u6240\u4ee5\u8981\u8ba9\u96f6\u7684\u4e2a\u6570\u6b63\u597d\u7ffb\u500d\uff0c\u6bcf\u4e00\u9879\u90fd\u4e0d\u80fd\u6ea2\u51fa\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/c2e57d2c95a7bc1b.wav",
+     "from": 1456,
+     "frames": 250
+    },
+    {
+     "text": "n\u7684\u9636\u4e58\u6ca1\u6709125\u8fd9\u4e00\u9879\uff0c\u6240\u4ee52n\u7684\u9636\u4e58\u4e5f\u4e0d\u80fd\u6709\u30022n\u8981\u5c0f\u4e8e125\uff0c\u6240\u4ee5n\u6700\u5927\u662f62\u3002",
+     "caption": "n\u7684\u9636\u4e58\u6ca1\u6709125\u8fd9\u4e00\u9879\uff0c\u6240\u4ee52n\u7684\u9636\u4e58\u4e5f\u4e0d\u80fd\u6709\u30022n\u8981\u5c0f\u4e8e125\uff0c\u6240\u4ee5n\u6700\u5927\u662f62\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/cb2455229f5a43b1.wav",
+     "from": 1716,
+     "frames": 357
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "kind": "scene",
+   "chapter": null,
+   "from": 6161,
+   "frames": 1350,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u628a\u8fd9\u4e9b\u6570\u6392\u6210\u6bcf\u884c25\u4e2a\uff0c\u53ea\u7559\u4e0b\u7b26\u5408\u6761\u4ef6\u7684\u3002",
+     "caption": "\u6211\u4eec\u628a\u8fd9\u4e9b\u6570\u6392\u6210\u6bcf\u884c25\u4e2a\uff0c\u53ea\u7559\u4e0b\u7b26\u5408\u6761\u4ef6\u7684\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/b2c4c616d35fd0a4.wav",
+     "from": 0,
+     "frames": 171
+    },
+    {
+     "text": "\u89c4\u5219\u4e00\uff1a\u9664\u4ee55\u7684\u4f59\u6570\u662f0\u30011\u62162\u3002\u6bcf5\u5217\u53ea\u75593\u5217\u3002",
+     "caption": "\u89c4\u5219\u4e00\uff1a\u9664\u4ee55\u7684\u4f59\u6570\u662f0\u30011\u62162\u3002\u6bcf5\u5217\u53ea\u75593\u5217\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/ee5b925fbc02ed3d.wav",
+     "from": 181,
+     "frames": 236
+    },
+    {
+     "text": "\u89c4\u5219\u4e8c\uff1a\u9664\u4ee525\u7684\u4f59\u6570\u4e0d\u8d85\u8fc712\u3002\u6bcf\u884c\u53ea\u7559\u5de6\u8fb9\u4e00\u6bb5\u3002",
+     "caption": "\u89c4\u5219\u4e8c\uff1a\u9664\u4ee525\u7684\u4f59\u6570\u4e0d\u8d85\u8fc712\u3002\u6bcf\u884c\u53ea\u7559\u5de6\u8fb9\u4e00\u6bb5\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/23de9977ff3d164e.wav",
+     "from": 427,
+     "frames": 210
+    },
+    {
+     "text": "\u89c4\u5219\u4e09\uff1an\u4e0d\u8d85\u8fc762\u3002\u540e\u9762\u7684\u6570\u5168\u90e8\u5212\u6389\u3002",
+     "caption": "\u89c4\u5219\u4e09\uff1an\u4e0d\u8d85\u8fc762\u3002\u540e\u9762\u7684\u6570\u5168\u90e8\u5212\u6389\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/9678cff7138810ea.wav",
+     "from": 647,
+     "frames": 168
+    },
+    {
+     "text": "1\u548c2\u4e5f\u7b97\u30022\u7684\u9636\u4e58\u548c4\u7684\u9636\u4e58\u90fd\u6ca1\u6709\u96f6\uff0c\u800c0\u7684\u4e24\u500d\u8fd8\u662f0\u3002",
+     "caption": "1\u548c2\u4e5f\u7b97\u30022\u7684\u9636\u4e58\u548c4\u7684\u9636\u4e58\u90fd\u6ca1\u6709\u96f6\uff0c\u800c0\u7684\u4e24\u500d\u8fd8\u662f0\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/62e98ec1ea326d28.wav",
+     "from": 826,
+     "frames": 228
+    },
+    {
+     "text": "\u56e0\u4e3an\u4ece1\u5f00\u59cb\uff0c\u7b2c\u4e00\u884c\u7559\u4e0b8\u4e2a\u3002\u7b2c\u4e8c\u884c\u548c\u7b2c\u4e09\u884c\u5404\u7559\u4e0b9\u4e2a\u3002",
+     "caption": "\u56e0\u4e3an\u4ece1\u5f00\u59cb\uff0c\u7b2c\u4e00\u884c\u7559\u4e0b8\u4e2a\u3002\u7b2c\u4e8c\u884c\u548c\u7b2c\u4e09\u884c\u5404\u7559\u4e0b9\u4e2a\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/8d2ed7e21bcee87b.wav",
+     "from": 1064,
+     "frames": 238
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 7511,
+   "frames": 211,
+   "lines": [
+    {
+     "text": "8\u52a09\u52a09\uff0c\u7b49\u4e8e26\uff01\u7b54\u6848\u662fC\u3002",
+     "caption": "8\u52a09\u52a09\uff0c\u7b49\u4e8e26\uff01\u7b54\u6848\u662fC\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/8a1d7be57731c9cd.wav",
+     "from": 0,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "base5",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u4e94\u8fdb\u5236",
+   "from": 7722,
+   "frames": 2026,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u79cd\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u628an\u5199\u6210\u4e94\u8fdb\u5236\uff0c\u770bn\u6709\u51e0\u4e2a25\u3001\u51e0\u4e2a5\u548c\u51e0\u4e2a1\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u79cd\u66f4\u5feb\u7684\u65b9\u6cd5\u3002\u628an\u5199\u6210\u4e94\u8fdb\u5236\uff0c\u770bn\u6709\u51e0\u4e2a25\u3001\u51e0\u4e2a5\u548c\u51e0\u4e2a1\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/32db0cacec0f6bd1.wav",
+     "from": 0,
+     "frames": 270
+    },
+    {
+     "text": "37\u7b49\u4e8e\u4e00\u4e2a25\uff0c\u52a0\u4e24\u4e2a5\uff0c\u518d\u52a0\u4e24\u4e2a1\u3002\u5199\u6210\u4e94\u8fdb\u5236\uff0c\u5c31\u662f1\u30012\u30012\u3002",
+     "caption": "37\u7b49\u4e8e1\u4e2a25\uff0c\u52a02\u4e2a5\uff0c\u518d\u52a02\u4e2a1\u3002\u5199\u6210\u4e94\u8fdb\u5236\uff0c\u5c31\u662f1\u30012\u30012\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/852aecb39b494108.wav",
+     "from": 280,
+     "frames": 282
+    },
+    {
+     "text": "\u89c4\u5219\u4e00\u8bf4\u7684\u662f\uff1a\u4e2a\u4f4d\u4e0a\u7684\u6570\u5b57\u6700\u591a\u662f2\u3002",
+     "caption": "\u89c4\u5219\u4e00\u8bf4\u7684\u662f\uff1a\u4e2a\u4f4d\u4e0a\u7684\u6570\u5b57\u6700\u591a\u662f2\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/478874e75d6f9f75.wav",
+     "from": 573,
+     "frames": 144
+    },
+    {
+     "text": "\u89c4\u5219\u4e8c\u63a5\u7740\u8bf4\uff1a\u8868\u793a\u51e0\u4e2a5\u7684\u90a3\u4e00\u4f4d\uff0c\u4e5f\u6700\u591a\u662f2\u30023\u4e2a5\u5c31\u5df2\u7ecf\u8d85\u8fc712\u4e86\u3002",
+     "caption": "\u89c4\u5219\u4e8c\u63a5\u7740\u8bf4\uff1a\u8868\u793a\u51e0\u4e2a5\u7684\u90a3\u4e00\u4f4d\uff0c\u4e5f\u6700\u591a\u662f2\u30023\u4e2a5\u5c31\u5df2\u7ecf\u8d85\u8fc712\u4e86\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/00d82b78b955d943.wav",
+     "from": 727,
+     "frames": 250
+    },
+    {
+     "text": "62\u5199\u6210\u4e94\u8fdb\u5236\u662f2\u30012\u30012\u3002\u6240\u4ee5\u6bcf\u4e00\u4f4d\u4e0a\u7684\u6570\u5b57\u90fd\u53ea\u80fd\u662f0\u30011\u62162\u3002",
+     "caption": "62\u5199\u6210\u4e94\u8fdb\u5236\u662f2\u30012\u30012\u3002\u6240\u4ee5\u6bcf\u4e00\u4f4d\u4e0a\u7684\u6570\u5b57\u90fd\u53ea\u80fd\u662f0\u30011\u62162\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/989aec2a0e7d2250.wav",
+     "from": 987,
+     "frames": 303
+    },
+    {
+     "text": "3\u4f4d\u6570\u5b57\uff0c\u6bcf\u4e00\u4f4d\u67093\u79cd\u9009\u62e9\u30023\u4e583\u4e583\u7b49\u4e8e27\u3002",
+     "caption": "3\u4f4d\u6570\u5b57\uff0c\u6bcf\u4e00\u4f4d\u67093\u79cd\u9009\u62e9\u30023\u4e583\u4e583\u7b49\u4e8e27\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/dce2cc9c33de44e8.wav",
+     "from": 1300,
+     "frames": 232
+    },
+    {
+     "text": "\u56e0\u4e3an\u4ece1\u5f00\u59cb\uff0c\u8981\u53bb\u63890\u30010\u30010\u3002\u53c8\u662f26\uff01",
+     "caption": "\u56e0\u4e3an\u4ece1\u5f00\u59cb\uff0c\u8981\u53bb\u63890\u30010\u30010\u3002\u53c8\u662f26\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/935deb6a6ead4a4b.wav",
+     "from": 1542,
+     "frames": 188
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u9047\u5230\u7ffb\u500d\u548c\u56e0\u65705\uff0c\u5c31\u60f3\u60f3\u4e94\u8fdb\u5236\uff1a\u6ca1\u6709\u8fdb\u4f4d\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u9047\u5230\u7ffb\u500d\u548c\u56e0\u65705\uff0c\u5c31\u60f3\u60f3\u4e94\u8fdb\u5236\uff1a\u6ca1\u6709\u8fdb\u4f4d\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/aae17717a14aa6b0.wav",
+     "from": 1740,
+     "frames": 238
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 9748,
+   "frames": 1266,
+   "lines": [
+    {
+     "text": "\u6bcf\u4e2a\u9519\u8bef\u7b54\u6848\u90fd\u662f\u4e00\u4e2a\u9677\u9631\u3002\u9009\u9879A\u662f20\uff0c\u8fd9\u53ea\u662f5\u7684\u500d\u6570\u7684\u4e2a\u6570\u3002",
+     "caption": "\u6bcf\u4e2a\u9519\u8bef\u7b54\u6848\u90fd\u662f\u4e00\u4e2a\u9677\u9631\u3002\u9009\u9879A\u662f20\uff0c\u8fd9\u53ea\u662f5\u7684\u500d\u6570\u7684\u4e2a\u6570\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/12e52620bcca4321.wav",
+     "from": 0,
+     "frames": 220
+    },
+    {
+     "text": "\u63a5\u4e0b\u6765\u662fB\uff0c24\u3002\u8fd9\u662f\u6f0f\u6389\u4e861\u548c2\u3002\u4f46\u662f1\u548c2\u4e5f\u8981\u7b97\uff01",
+     "caption": "\u63a5\u4e0b\u6765\u662fB\uff0c24\u3002\u8fd9\u662f\u6f0f\u6389\u4e861\u548c2\u3002\u4f46\u662f1\u548c2\u4e5f\u8981\u7b97\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/b2b51d7b05f6e9b5.wav",
+     "from": 230,
+     "frames": 222
+    },
+    {
+     "text": "\u518d\u770bD\uff0c30\u3002\u8fd9\u662f\u9519\u7528\u4e86\u5341\u8fdb\u5236\uff0c\u53ea\u770b\u4e2a\u4f4d\u662f\u4e0d\u662f0\u30011\u62162\u3002",
+     "caption": "\u518d\u770bD\uff0c30\u3002\u8fd9\u662f\u9519\u7528\u4e86\u5341\u8fdb\u5236\uff0c\u53ea\u770b\u4e2a\u4f4d\u662f\u4e0d\u662f0\u30011\u62162\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/0c291ae915d90f97.wav",
+     "from": 462,
+     "frames": 261
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c50\u4e2a\u3002\u8fd9\u662f\u4ee5\u4e3a\u6709\u4e00\u534a\u7684n\u90fd\u80fd\u7ffb\u500d\u6210\u7acb\u3002\u89c4\u5219\u53ef\u4e25\u683c\u591a\u4e86\u3002",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff0c50\u4e2a\u3002\u8fd9\u662f\u4ee5\u4e3a\u6709\u4e00\u534a\u7684n\u90fd\u80fd\u7ffb\u500d\u6210\u7acb\u3002\u89c4\u5219\u53ef\u4e25\u683c\u591a\u4e86\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/0af0091fc8f6f7df.wav",
+     "from": 733,
+     "frames": 260
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u628a\u5411\u4e0b\u53d6\u6574\u7684\u6570\u7ffb\u500d\u65f6\uff0c\u5148\u68c0\u67e5\u4f59\u6570\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u628a\u5411\u4e0b\u53d6\u6574\u7684\u6570\u7ffb\u500d\u65f6\uff0c\u5148\u68c0\u67e5\u4f59\u6570\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/d2d4347e11aa0a79.wav",
+     "from": 1003,
+     "frames": 215
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u53d8\u6210\u4e09\u500d",
+   "from": 11014,
+   "frames": 390,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\uff0c\u8f6e\u5230\u4f60\u6765\u6311\u6218\uff01\u4ece1\u5230100\u7684n\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u80fd\u8ba93n\u7684\u9636\u4e58\u672b\u5c3e\u96f6\u7684\u4e2a\u6570\uff0c\u6b63\u597d\u662fn\u7684\u9636\u4e58\u7684\u4e09\u500d\uff1f",
+     "caption": "\u73b0\u5728\uff0c\u8f6e\u5230\u4f60\u6765\u6311\u6218\uff01\u4ece1\u5230100\u7684n\u4e2d\uff0c\u6709\u591a\u5c11\u4e2a\u80fd\u8ba93n\u7684\u9636\u4e58\u672b\u5c3e\u96f6\u7684\u4e2a\u6570\uff0c\u6b63\u597d\u662fn\u7684\u9636\u4e58\u7684\u4e09\u500d\uff1f",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/f3e510724faf2c19.wav",
+     "from": 0,
+     "frames": 352
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11404,
+   "frames": 400,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u6311\u6218\u4e00\u4e0b\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u6311\u6218\u4e00\u4e0b\u5427\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/e70bd469cbc4f803.wav",
+     "from": 0,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u4e09\u500d\uff1a\u7b54\u6848",
+   "from": 11804,
+   "frames": 1055,
+   "lines": [
+    {
+     "text": "\u4f59\u6570\u76843\u500d\u5fc5\u987b\u5c0f\u4e8e5\u3002\u6240\u4ee5\u9664\u4ee55\u7684\u4f59\u6570\u53ea\u80fd\u662f0\u62161\u3002",
+     "caption": "\u4f59\u6570\u76843\u500d\u5fc5\u987b\u5c0f\u4e8e5\u3002\u6240\u4ee5\u9664\u4ee55\u7684\u4f59\u6570\u53ea\u80fd\u662f0\u62161\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/f9d07f66139c6090.wav",
+     "from": 0,
+     "frames": 221
+    },
+    {
+     "text": "\u9664\u4ee525\u7684\u4f59\u6570\uff0c\u5fc5\u987b\u4e0d\u8d85\u8fc78\u30023\u4e589\u5c31\u592a\u5927\u4e86\u3002",
+     "caption": "\u9664\u4ee525\u7684\u4f59\u6570\uff0c\u5fc5\u987b\u4e0d\u8d85\u8fc78\u30023\u4e589\u5c31\u592a\u5927\u4e86\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/2c85aeaded8855ca.wav",
+     "from": 231,
+     "frames": 188
+    },
+    {
+     "text": "\u800c\u4e143n\u5fc5\u987b\u5c0f\u4e8e125\u3002\u6240\u4ee5n\u6700\u5927\u662f41\u3002",
+     "caption": "\u800c\u4e143n\u5fc5\u987b\u5c0f\u4e8e125\u3002\u6240\u4ee5n\u6700\u5927\u662f41\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/789494b631bc46a6.wav",
+     "from": 429,
+     "frames": 213
+    },
+    {
+     "text": "\u548c\u521a\u624d\u4e00\u6837\uff0c\u4e94\u8fdb\u5236\u7684\u6bcf\u4e00\u4f4d\u53ea\u80fd\u662f0\u62161\u30022\u4e582\u4e582\u7b49\u4e8e8\u3002",
+     "caption": "\u548c\u521a\u624d\u4e00\u6837\uff0c\u4e94\u8fdb\u5236\u7684\u6bcf\u4e00\u4f4d\u53ea\u80fd\u662f0\u62161\u30022\u4e582\u4e582\u7b49\u4e8e8\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/3eab76d23b7406e2.wav",
+     "from": 652,
+     "frames": 254
+    },
+    {
+     "text": "\u53bb\u63890\uff0c\u7b54\u6848\u662f7\uff01",
+     "caption": "\u53bb\u63890\uff0c\u7b54\u6848\u662f7\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/d8956f7465848fc7.wav",
+     "from": 915,
+     "frames": 86
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12859,
+   "frames": 590,
+   "lines": [
+    {
+     "text": "\u6838\u5fc3\u601d\u8def\uff1a\u6570\u56e0\u65705\uff0c\u5199\u6210\u51e0\u4e2a\u5411\u4e0b\u53d6\u6574\u7684\u9879\u76f8\u52a0\u3002",
+     "caption": "\u6838\u5fc3\u601d\u8def\uff1a\u6570\u56e0\u65705\uff0c\u5199\u6210\u51e0\u4e2a\u5411\u4e0b\u53d6\u6574\u7684\u9879\u76f8\u52a0\u3002",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/428f58c783acdaa7.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "\u53ea\u8981\u4f59\u6570\u5c0f\u4e8e\u9664\u6570\u7684\u4e00\u534a\uff0c\u7ffb\u500d\u540e\u8fd9\u4e00\u9879\u5c31\u6b63\u597d\u7ffb\u500d\u3002\u6ca1\u6709\u6ea2\u51fa\uff01",
+     "caption": "\u53ea\u8981\u4f59\u6570\u5c0f\u4e8e\u9664\u6570\u7684\u4e00\u534a\uff0c\u7ffb\u500d\u540e\u8fd9\u4e00\u9879\u5c31\u6b63\u597d\u7ffb\u500d\u3002\u6ca1\u6709\u6ea2\u51fa\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/b5eabb8bf42cc2de.wav",
+     "from": 196,
+     "frames": 210
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-11-07-factorial-zeros-double-zh/audio/fbf91a5e90e3cc02.wav",
+     "from": 417,
+     "frames": 105
+    }
+   ]
+  }
+ ]
+}

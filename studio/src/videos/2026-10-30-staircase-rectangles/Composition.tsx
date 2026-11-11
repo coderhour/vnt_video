@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Choices, Confetti, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-30-staircase-rectangles';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -340,7 +341,9 @@ const Tall: SceneComponent = ({ scene }) => {
         <Row key={label} x={PANEL} y={280 + i * 90} label={label} tex={tex} color={COLORS[i + 1]} lw={210} style={fadeUp(f, s)} />
       ))}
       <Rule x={PANEL} y={650} w={820} style={fadeUp(f, L(8))} />
-      <Row x={PANEL} y={675} label="All" tex="35+20+10+4+1 = 70" strong size={52} lw={80} style={fadeUp(f, L(8, 0.15))} />
+      <Row x={PANEL} y={675} label="All" tex="35+20+10+4+1" strong size={52} lw={80} style={fadeUp(f, L(8, 0.15))} />
+      {/* "= 70" waits for "That's seventy" at the end of the line */}
+      <Row x={PANEL} y={675} label="" tex="\phantom{35+20+10+4+1} = 70" strong size={52} lw={80} style={fadeUp(f, L(8, 0.85))} />
       <Answer x={850} y={330} value="70" chime={CHIME} start={L(8, 0.97)} />
       <Confetti x={850} y={330} start={L(8, 0.97)} seed={7} />
     </>
@@ -574,7 +577,8 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
         <Row key={label} x={VP} y={150 + i * 80} label={label} tex={tex} color={vc[i]} lw={110} size={48} style={fadeUp(f, colAt[i])} />
       ))}
       <Rule x={VP} y={645} w={880} style={fadeUp(f, L(2))} />
-      <Row x={VP - 28} y={665} label="" tex="21+30+30+24+15+6 = 126" strong size={48} lw={0} style={fadeUp(f, L(2, 0.1))} />
+      <Row x={VP - 28} y={665} label="" tex="21+30+30+24+15+6" strong size={48} lw={0} style={fadeUp(f, L(2, 0.1))} />
+      <Row x={VP - 28} y={665} label="" tex="\phantom{21+30+30+24+15+6} = 126" strong size={48} lw={0} style={fadeUp(f, L(2, 0.85))} />
       <Answer x={790} y={310} value="126" chime={CHIME} start={L(2, 0.97)} />
       <Confetti x={790} y={310} start={L(2, 0.97)} seed={11} />
       <Pill x={VP} y={770} color={C.primary} style={{ ...fadeUp(f, L(3, 0.1)), fontSize: 36 }}>Amazing work!</Pill>
@@ -628,3 +632,12 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-staircase-rectangles-thumb`, render.sh → poster.jpg): the 15-square staircase, no count.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>15?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Stair m={{ ox: 55, base: 600, u: 112, n: 5 }} />
+    </svg>
+  </ThumbFrame>
+);

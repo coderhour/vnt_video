@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "durationInFrames": 14376,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 630,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u534a\u5f84\u662f4\u7684\u5706\uff0c\u7d27\u7d27\u5730\u8d34\u5728\u4e00\u4e2a\u4e09\u89d2\u5f62\u91cc\u9762\u3002\u8fd9\u4e2a\u4e09\u89d2\u5f62\u6700\u5927\u80fd\u6709\u591a\u5927\uff1f",
+     "caption": "\u4e00\u4e2a\u534a\u5f84\u662f4\u7684\u5706\uff0c\u7d27\u7d27\u5730\u8d34\u5728\u4e00\u4e2a\u4e09\u89d2\u5f62\u91cc\u9762\u3002\u8fd9\u4e2a\u4e09\u89d2\u5f62\u6700\u5927\u80fd\u6709\u591a\u5927\uff1f",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/a9a8ef93db1a90df.wav",
+     "from": 0,
+     "frames": 267
+    },
+    {
+     "text": "\u6ce8\u610f\uff0c\u4e00\u4e2a\u5c0f\u5c0f\u7684\u5931\u8bef\uff0c\u5c31\u4f1a\u8ba9\u4f60\u53ea\u5f97\u5230\u6b63\u786e\u7b54\u6848\u7684\u4e00\u534a\u3002",
+     "caption": "\u6ce8\u610f\uff0c\u4e00\u4e2a\u5c0f\u5c0f\u7684\u5931\u8bef\uff0c\u5c31\u4f1a\u8ba9\u4f60\u53ea\u5f97\u5230\u6b63\u786e\u7b54\u6848\u7684\u4e00\u534a\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/ffb5a13b217b559e.wav",
+     "from": 277,
+     "frames": 173
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u53bb\u627e\u4e09\u89d2\u5f62\u5427\uff01",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u53bb\u627e\u4e09\u89d2\u5f62\u5427\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/8aef9d4370e30485.wav",
+     "from": 460,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 630,
+   "frames": 828,
+   "lines": [
+    {
+     "text": "\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c\u4e09\u6761\u8fb9\u957f\u90fd\u662f\u6574\u6570\u3002\u5b83\u7684\u5185\u5207\u5706\u534a\u5f84\u662f4\u3002",
+     "caption": "\u4e00\u4e2a\u4e09\u89d2\u5f62\uff0c\u4e09\u6761\u8fb9\u957f\u90fd\u662f\u6574\u6570\u3002\u5b83\u7684\u5185\u5207\u5706\u534a\u5f84\u662f4\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/2342489724b96f40.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u5185\u5207\u5706\u548cAB\u3001AC\u76f8\u5207\uff0c\u4e24\u4e2a\u5207\u70b9\u5230A\u7684\u8ddd\u79bb\u90fd\u662f6\u3002",
+     "caption": "\u5185\u5207\u5706\u548cAB\u3001AC\u76f8\u5207\uff0c\u4e24\u4e2a\u5207\u70b9\u5230A\u7684\u8ddd\u79bb\u90fd\u662f6\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/17ea1a81aff4d3e6.wav",
+     "from": 205,
+     "frames": 190
+    },
+    {
+     "text": "\u8fd9\u4e2a\u4e09\u89d2\u5f62\u7684\u5468\u957f\u6700\u5927\u662f\u591a\u5c11\uff1f",
+     "caption": "\u8fd9\u4e2a\u4e09\u89d2\u5f62\u7684\u5468\u957f\u6700\u5927\u662f\u591a\u5c11\uff1f",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/1a90879ab43f7ac5.wav",
+     "from": 405,
+     "frames": 105
+    },
+    {
+     "text": "\u9009\u9879\u6709\uff1a\u56db\u5341\u4e8c\u3001\u516d\u5341\u3001\u516b\u5341\u4e00\u3001\u4e00\u767e\u4e94\u5341\u548c\u4e00\u767e\u516d\u5341\u4e8c\u3002",
+     "caption": "\u9009\u9879\u6709\uff1a42\u300160\u300181\u3001150\u548c162\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/9c9010b6163bb0ed.wav",
+     "from": 520,
+     "frames": 255
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": null,
+   "from": 1458,
+   "frames": 288,
+   "lines": [
+    {
+     "text": "\u6574\u7406\u4e00\u4e0b\uff1a\u534a\u5f84\u662f4\uff0c\u4eceA\u5230\u4e24\u4e2a\u5207\u70b9\u90fd\u662f6\uff0c\u6211\u4eec\u8981\u627e\u6700\u5927\u7684\u5468\u957f\u3002",
+     "caption": "\u6574\u7406\u4e00\u4e0b\uff1a\u534a\u5f84\u662f4\uff0c\u4eceA\u5230\u4e24\u4e2a\u5207\u70b9\u90fd\u662f6\uff0c\u6211\u4eec\u8981\u627e\u6700\u5927\u7684\u5468\u957f\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/ae694e0349b9b74f.wav",
+     "from": 0,
+     "frames": 234
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 1746,
+   "frames": 440,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u5427\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u5427\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/af7502fefaecfdf5.wav",
+     "from": 0,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "setup",
+   "kind": "scene",
+   "chapter": "\u7528\u5b57\u6bcd\u8868\u793a\u8fb9",
+   "from": 2186,
+   "frames": 1444,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u5706\u7684\u4e00\u4e2a\u5c0f\u77e5\u8bc6\uff1a\u4ece\u540c\u4e00\u4e2a\u70b9\u51fa\u53d1\u7684\u4e24\u6bb5\u5207\u7ebf\uff0c\u957f\u5ea6\u603b\u662f\u76f8\u7b49\u7684\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u5706\u7684\u4e00\u4e2a\u5c0f\u77e5\u8bc6\uff1a\u4ece\u540c\u4e00\u4e2a\u70b9\u51fa\u53d1\u7684\u4e24\u6bb5\u5207\u7ebf\uff0c\u957f\u5ea6\u603b\u662f\u76f8\u7b49\u7684\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/94525a5b4a605c1b.wav",
+     "from": 0,
+     "frames": 236
+    },
+    {
+     "text": "\u6240\u4ee5A\u5904\u7684\u4e24\u6bb5\u90fd\u662f6\u3002B\u5904\u76f8\u7b49\u7684\u4e24\u6bb5\uff0c\u53eb\u505ay\u3002C\u5904\u76f8\u7b49\u7684\u4e24\u6bb5\uff0c\u53eb\u505az\u3002",
+     "caption": "\u6240\u4ee5A\u5904\u7684\u4e24\u6bb5\u90fd\u662f6\u3002B\u5904\u76f8\u7b49\u7684\u4e24\u6bb5\uff0c\u53eb\u505ay\u3002C\u5904\u76f8\u7b49\u7684\u4e24\u6bb5\uff0c\u53eb\u505az\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/665612f5e5c66ea4.wav",
+     "from": 245,
+     "frames": 310
+    },
+    {
+     "text": "\u6bcf\u6761\u8fb9\u90fd\u662f\u4e24\u6bb5\u62fc\u6210\u7684\uff1aAB\u662f6\u52a0y\uff0cAC\u662f6\u52a0z\uff0cBC\u662fy\u52a0z\u3002",
+     "caption": "\u6bcf\u6761\u8fb9\u90fd\u662f\u4e24\u6bb5\u62fc\u6210\u7684\uff1aAB\u662f6\u52a0y\uff0cAC\u662f6\u52a0z\uff0cBC\u662fy\u52a0z\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/f7bd42aa3d65ee4a.wav",
+     "from": 565,
+     "frames": 298
+    },
+    {
+     "text": "AB\u662f\u6574\u6570\uff0c\u6240\u4ee5y\u662f\u6574\u6570\u3002AC\u662f\u6574\u6570\uff0c\u6240\u4ee5z\u4e5f\u662f\u6574\u6570\u3002",
+     "caption": "AB\u662f\u6574\u6570\uff0c\u6240\u4ee5y\u662f\u6574\u6570\u3002AC\u662f\u6574\u6570\uff0c\u6240\u4ee5z\u4e5f\u662f\u6574\u6570\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/41f98e95bc5596d9.wav",
+     "from": 873,
+     "frames": 252
+    },
+    {
+     "text": "\u5468\u957f\u7684\u4e00\u534a\uff0c\u5c31\u662f\u6bcf\u4e2a\u9876\u70b9\u5404\u53d6\u4e00\u6bb5\uff1a6\u52a0y\u52a0z\u3002\u6211\u4eec\u628a\u5b83\u53eb\u505as\u3002",
+     "caption": "\u5468\u957f\u7684\u4e00\u534a\uff0c\u5c31\u662f\u6bcf\u4e2a\u9876\u70b9\u5404\u53d6\u4e00\u6bb5\uff1a6\u52a0y\u52a0z\u3002\u6211\u4eec\u628a\u5b83\u53eb\u505as\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/b04e169584312b97.wav",
+     "from": 1136,
+     "frames": 269
+    }
+   ]
+  },
+  {
+   "id": "area",
+   "kind": "scene",
+   "chapter": "\u7528\u4e24\u79cd\u65b9\u6cd5\u7b97\u9762\u79ef",
+   "from": 3630,
+   "frames": 2460,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u7528\u4e24\u79cd\u65b9\u6cd5\u6765\u7b97\u9762\u79ef\u3002\u65b9\u6cd5\u4e00\uff1a\u628a\u5706\u5fc3\u548c\u4e09\u4e2a\u9876\u70b9\u8fde\u8d77\u6765\u3002",
+     "caption": "\u73b0\u5728\u7528\u4e24\u79cd\u65b9\u6cd5\u6765\u7b97\u9762\u79ef\u3002\u65b9\u6cd5\u4e00\uff1a\u628a\u5706\u5fc3\u548c\u4e09\u4e2a\u9876\u70b9\u8fde\u8d77\u6765\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/efa45fb70744b1d9.wav",
+     "from": 0,
+     "frames": 226
+    },
+    {
+     "text": "\u5f97\u5230\u4e09\u4e2a\u5c0f\u4e09\u89d2\u5f62\uff01\u6bcf\u4e2a\u90fd\u4ee5\u4e00\u6761\u8fb9\u4e3a\u5e95\uff0c\u9ad8\u5c31\u662f\u534a\u5f844\u3002",
+     "caption": "\u5f97\u5230\u4e09\u4e2a\u5c0f\u4e09\u89d2\u5f62\uff01\u6bcf\u4e2a\u90fd\u4ee5\u4e00\u6761\u8fb9\u4e3a\u5e95\uff0c\u9ad8\u5c31\u662f\u534a\u5f844\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/b548e11febaad338.wav",
+     "from": 236,
+     "frames": 212
+    },
+    {
+     "text": "\u628a\u5b83\u4eec\u52a0\u8d77\u6765\uff0c\u9762\u79ef\u662f2\u5206\u4e4b1\u4e584\u4e58\u5468\u957f\uff0c\u4e5f\u5c31\u662f4\u4e58s\u3002",
+     "caption": "\u628a\u5b83\u4eec\u52a0\u8d77\u6765\uff0c\u9762\u79ef\u662f2\u5206\u4e4b1\u4e584\u4e58\u5468\u957f\uff0c\u4e5f\u5c31\u662f4\u4e58s\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/acdf4fc918592783.wav",
+     "from": 457,
+     "frames": 226
+    },
+    {
+     "text": "\u65b9\u6cd5\u4e8c\uff1a\u6d77\u4f26\u516c\u5f0f\u3002\u628as\uff0c\u548cs\u51cf\u53bb\u6bcf\u6761\u8fb9\u7684\u5dee\uff0c\u5168\u90e8\u4e58\u8d77\u6765\uff0c\u518d\u5f00\u6839\u53f7\u3002",
+     "caption": "\u65b9\u6cd5\u4e8c\uff1a\u6d77\u4f26\u516c\u5f0f\u3002\u628as\uff0c\u548cs\u51cf\u53bb\u6bcf\u6761\u8fb9\u7684\u5dee\uff0c\u5168\u90e8\u4e58\u8d77\u6765\uff0c\u518d\u5f00\u6839\u53f7\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/f6c194babde647e7.wav",
+     "from": 694,
+     "frames": 273
+    },
+    {
+     "text": "\u795e\u5947\u7684\u5730\u65b9\u6765\u4e86\uff1as\u51cf\u53bb\u4e00\u6761\u8fb9\uff0c\u6b63\u597d\u5269\u4e0b\u4e00\u6bb5\u5207\u7ebf\u3002\u5c31\u662f6\u3001y\u548cz\uff01",
+     "caption": "\u795e\u5947\u7684\u5730\u65b9\u6765\u4e86\uff1as\u51cf\u53bb\u4e00\u6761\u8fb9\uff0c\u6b63\u597d\u5269\u4e0b\u4e00\u6bb5\u5207\u7ebf\u3002\u5c31\u662f6\u3001y\u548cz\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/9b282bf3fe8f1599.wav",
+     "from": 976,
+     "frames": 310
+    },
+    {
+     "text": "\u6240\u4ee5\u6d77\u4f26\u516c\u5f0f\u7ed9\u51fa\uff1a\u9762\u79ef\u7b49\u4e8e\u6839\u53f7\u4e0b\uff0cs\u4e586\u4e58y\u4e58z\u3002",
+     "caption": "\u6240\u4ee5\u6d77\u4f26\u516c\u5f0f\u7ed9\u51fa\uff1a\u9762\u79ef\u7b49\u4e8e\u6839\u53f7\u4e0b\uff0cs\u4e586\u4e58y\u4e58z\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/48efed4d1e28bab0.wav",
+     "from": 1297,
+     "frames": 248
+    },
+    {
+     "text": "\u8ba9\u4e24\u4e2a\u9762\u79ef\u76f8\u7b49\uff0c\u4e24\u8fb9\u5e73\u65b9\uff0c\u518d\u9664\u4ee5s\u3002",
+     "caption": "\u8ba9\u4e24\u4e2a\u9762\u79ef\u76f8\u7b49\uff0c\u4e24\u8fb9\u5e73\u65b9\uff0c\u518d\u9664\u4ee5s\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/90c07039580a54d0.wav",
+     "from": 1554,
+     "frames": 142
+    },
+    {
+     "text": "16\u4e58s\u7b49\u4e8e6\u4e58y\u4e58z\u3002\u518d\u9664\u4ee52\uff1a8\u4e58s\u7b49\u4e8e3\u4e58y\u4e58z\u3002",
+     "caption": "16\u4e58s\u7b49\u4e8e6\u4e58y\u4e58z\u3002\u518d\u9664\u4ee52\uff1a8\u4e58s\u7b49\u4e8e3\u4e58y\u4e58z\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/1c0f5850033ed47f.wav",
+     "from": 1706,
+     "frames": 356
+    },
+    {
+     "text": "s\u5c31\u662f6\u52a0y\u52a0z\uff0c\u4ee3\u5165\u4ee5\u540e\uff0c\u5c31\u5f97\u5230\uff1a3yz\u7b49\u4e8e48\u52a08y\u52a08z\u3002",
+     "caption": "s\u5c31\u662f6\u52a0y\u52a0z\uff0c\u4ee3\u5165\u4ee5\u540e\uff0c\u5c31\u5f97\u5230\uff1a3yz\u7b49\u4e8e48\u52a08y\u52a08z\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/06d541431be56ec5.wav",
+     "from": 2072,
+     "frames": 334
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u5217\u8868",
+   "from": 6090,
+   "frames": 2450,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u5148\u8ba9z\u5355\u72ec\u7559\u5728\u4e00\u8fb9\u3002\u628a8z\u79fb\u5230\u5de6\u8fb9\uff0c\u518d\u63d0\u51faz\u3002",
+     "caption": "\u6211\u4eec\u5148\u8ba9z\u5355\u72ec\u7559\u5728\u4e00\u8fb9\u3002\u628a8z\u79fb\u5230\u5de6\u8fb9\uff0c\u518d\u63d0\u51faz\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/9ff637cc8bb9dd1a.wav",
+     "from": 0,
+     "frames": 189
+    },
+    {
+     "text": "\u6240\u4ee5z\u7b49\u4e8e3y\u51cf8\u5206\u4e4b8y\u52a048\u3002",
+     "caption": "\u6240\u4ee5z\u7b49\u4e8e3y\u51cf8\u5206\u4e4b8y\u52a048\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/5c713fdd553ac25f.wav",
+     "from": 199,
+     "frames": 172
+    },
+    {
+     "text": "\u5206\u5b50\u662f\u6b63\u6570\uff0c\u6240\u4ee5\u5206\u6bcd\u4e5f\u5fc5\u987b\u662f\u6b63\u6570\uff1ay\u81f3\u5c11\u662f3\u3002",
+     "caption": "\u5206\u5b50\u662f\u6b63\u6570\uff0c\u6240\u4ee5\u5206\u6bcd\u4e5f\u5fc5\u987b\u662f\u6b63\u6570\uff1ay\u81f3\u5c11\u662f3\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/fd8c070daea223aa.wav",
+     "from": 381,
+     "frames": 196
+    },
+    {
+     "text": "\u5217\u4e2a\u8868\u5427\uff01\u5f53y\u7b49\u4e8e3\u7684\u65f6\u5019\uff0cz\u662f72\u9664\u4ee51\uff0c\u4e5f\u5c31\u662f72\u3002",
+     "caption": "\u5217\u4e2a\u8868\u5427\uff01\u5f53y\u7b49\u4e8e3\u7684\u65f6\u5019\uff0cz\u662f72\u9664\u4ee51\uff0c\u4e5f\u5c31\u662f72\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/10ca9647bfa20f32.wav",
+     "from": 587,
+     "frames": 236
+    },
+    {
+     "text": "\u5f53y\u7b49\u4e8e4\u7684\u65f6\u5019\uff0cz\u662f4\u5206\u4e4b80\uff0c\u7b49\u4e8e20\u3002",
+     "caption": "\u5f53y\u7b49\u4e8e4\u7684\u65f6\u5019\uff0cz\u662f4\u5206\u4e4b80\uff0c\u7b49\u4e8e20\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/6b12dfa17bae5639.wav",
+     "from": 832,
+     "frames": 197
+    },
+    {
+     "text": "\u5f53y\u7b49\u4e8e5\u548c6\u7684\u65f6\u5019\uff0cz\u662f7\u5206\u4e4b88\u548c10\u5206\u4e4b96\u3002\u90fd\u4e0d\u662f\u6574\u6570\uff01",
+     "caption": "\u5f53y\u7b49\u4e8e5\u548c6\u7684\u65f6\u5019\uff0cz\u662f7\u5206\u4e4b88\u548c10\u5206\u4e4b96\u3002\u90fd\u4e0d\u662f\u6574\u6570\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/8dc21c7defade102.wav",
+     "from": 1040,
+     "frames": 281
+    },
+    {
+     "text": "\u5f53y\u7b49\u4e8e7\u7684\u65f6\u5019\uff0cz\u662f13\u5206\u4e4b104\uff0c\u7b49\u4e8e8\u3002",
+     "caption": "\u5f53y\u7b49\u4e8e7\u7684\u65f6\u5019\uff0cz\u662f13\u5206\u4e4b104\uff0c\u7b49\u4e8e8\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/0671b2458d2ee7ae.wav",
+     "from": 1331,
+     "frames": 180
+    },
+    {
+     "text": "\u5f53y\u7b49\u4e8e8\u7684\u65f6\u5019\uff0cz\u662f7\uff0c\u548c\u4e0a\u4e00\u7ec4\u6b63\u597d\u5bf9\u8c03\u3002\u4ece\u8fd9\u91cc\u5f00\u59cbz\u6bd4y\u5c0f\uff0c\u540e\u9762\u53ea\u5269\u5bf9\u8c03\u7684\u60c5\u51b5\u3002",
+     "caption": "\u5f53y\u7b49\u4e8e8\u7684\u65f6\u5019\uff0cz\u662f7\uff0c\u548c\u4e0a\u4e00\u7ec4\u6b63\u597d\u5bf9\u8c03\u3002\u4ece\u8fd9\u91cc\u5f00\u59cbz\u6bd4y\u5c0f\uff0c\u540e\u9762\u53ea\u5269\u5bf9\u8c03\u7684\u60c5\u51b5\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/5310b8c0060bd7f6.wav",
+     "from": 1522,
+     "frames": 324
+    },
+    {
+     "text": "\u6240\u4ee5s\u662f\u516b\u5341\u4e00\u3001\u4e09\u5341\u548c\u4e8c\u5341\u4e00\u3002\u4e58\u4ee52\uff0c\u5468\u957f\u662f\u4e00\u767e\u516d\u5341\u4e8c\u3001\u516d\u5341\u548c\u56db\u5341\u4e8c\u3002",
+     "caption": "\u6240\u4ee5s\u662f81\u300130\u548c21\u3002\u4e58\u4ee52\uff0c\u5468\u957f\u662f162\u300160\u548c42\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/32c943b7a62584e5.wav",
+     "from": 1856,
+     "frames": 371
+    },
+    {
+     "text": "\u6700\u5927\u7684\u5468\u957f\u662f162\u3002\u5c31\u662f\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff01",
+     "caption": "\u6700\u5927\u7684\u5468\u957f\u662f162\u3002\u5c31\u662f\u6700\u540e\u4e00\u4e2a\u9009\u9879\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/8ba63135381d6fc7.wav",
+     "from": 2237,
+     "frames": 159
+    }
+   ]
+  },
+  {
+   "id": "factor",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u56e0\u5f0f\u5206\u89e3",
+   "from": 8540,
+   "frames": 1664,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5de7\u7684\u65b9\u6cd5\uff1a\u51d1\u51fa\u4e00\u4e2a\u4e58\u79ef\u3002\u4e24\u8fb9\u540c\u65f6\u4e58\u4ee53\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u4e2a\u66f4\u5de7\u7684\u65b9\u6cd5\uff1a\u51d1\u51fa\u4e00\u4e2a\u4e58\u79ef\u3002\u4e24\u8fb9\u540c\u65f6\u4e58\u4ee53\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/72e6567da08e3c5d.wav",
+     "from": 0,
+     "frames": 208
+    },
+    {
+     "text": "\u53f3\u8fb9\u53d8\u6210144\u3002\u7136\u540e\u4e24\u8fb9\u540c\u65f6\u52a0\u4e0a64\u3002",
+     "caption": "\u53f3\u8fb9\u53d8\u6210144\u3002\u7136\u540e\u4e24\u8fb9\u540c\u65f6\u52a0\u4e0a64\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/a91d77e8da6e2647.wav",
+     "from": 218,
+     "frames": 189
+    },
+    {
+     "text": "\u5de6\u8fb9\u53ef\u4ee5\u56e0\u5f0f\u5206\u89e3\uff013y\u51cf8\uff0c\u4e58\u4ee53z\u51cf8\uff0c\u7b49\u4e8e208\u3002",
+     "caption": "\u5de6\u8fb9\u53ef\u4ee5\u56e0\u5f0f\u5206\u89e3\uff013y\u51cf8\uff0c\u4e58\u4ee53z\u51cf8\uff0c\u7b49\u4e8e208\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/eaa58075216e3d8e.wav",
+     "from": 417,
+     "frames": 232
+    },
+    {
+     "text": "\u6bcf\u4e2a\u56e0\u6570\u52a0\u4e0a8\uff0c\u90fd\u5fc5\u987b\u80fd\u88ab3\u6574\u9664\u3002\u6211\u4eec\u6765\u8bd5\u8bd5208\u7684\u56e0\u6570\u5bf9\u3002",
+     "caption": "\u6bcf\u4e2a\u56e0\u6570\u52a0\u4e0a8\uff0c\u90fd\u5fc5\u987b\u80fd\u88ab3\u6574\u9664\u3002\u6211\u4eec\u6765\u8bd5\u8bd5208\u7684\u56e0\u6570\u5bf9\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/db3a6ce89fca6cdc.wav",
+     "from": 659,
+     "frames": 202
+    },
+    {
+     "text": "2\u548c8\u90fd\u4e0d\u884c\uff0c\u4f46\u662f1\u30014\u548c13\u53ef\u4ee5\uff0c\u5b83\u4eec\u7684\u642d\u6863\u4e5f\u53ef\u4ee5\u3002",
+     "caption": "2\u548c8\u90fd\u4e0d\u884c\uff0c\u4f46\u662f1\u30014\u548c13\u53ef\u4ee5\uff0c\u5b83\u4eec\u7684\u642d\u6863\u4e5f\u53ef\u4ee5\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/3df47aa662f84518.wav",
+     "from": 871,
+     "frames": 218
+    },
+    {
+     "text": "\u8fd8\u662f\u90a3\u4e09\u4e2a\u4e09\u89d2\u5f62\uff011\u4e58\u4e8c\u767e\u96f6\u516b\uff0c\u5f97\u5230y\u7b49\u4e8e3\uff0cz\u7b49\u4e8e72\u3002",
+     "caption": "\u8fd8\u662f\u90a3\u4e09\u4e2a\u4e09\u89d2\u5f62\uff011\u4e58208\uff0c\u5f97\u5230y\u7b49\u4e8e3\uff0cz\u7b49\u4e8e72\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/6f1db23a4a9045fe.wav",
+     "from": 1099,
+     "frames": 246
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u60f3\u4e00\u6b21\u627e\u51fa\u6240\u6709\u7b54\u6848\uff0c\u53c8\u4e0d\u7528\u62c5\u5fc3\u8be5\u5728\u54ea\u91cc\u505c\u4e0b\u6765\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u4e2a\u65b9\u6cd5\uff1f\u5f53\u4f60\u60f3\u4e00\u6b21\u627e\u51fa\u6240\u6709\u7b54\u6848\uff0c\u53c8\u4e0d\u7528\u62c5\u5fc3\u8be5\u5728\u54ea\u91cc\u505c\u4e0b\u6765\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/8c5f13b88c624bf9.wav",
+     "from": 1355,
+     "frames": 255
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 10204,
+   "frames": 696,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u56db\u5341\u4e8c\u548c\u516d\u5341\u90fd\u662f\u771f\u7684\u4e09\u89d2\u5f62\uff0c\u5185\u5207\u5706\u534a\u5f84\u4e5f\u662f4\uff0c\u53ea\u662f\u4e0d\u662f\u6700\u5927\u7684\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9677\u9631\u300242\u548c60\u90fd\u662f\u771f\u7684\u4e09\u89d2\u5f62\uff0c\u5185\u5207\u5706\u534a\u5f84\u4e5f\u662f4\uff0c\u53ea\u662f\u4e0d\u662f\u6700\u5927\u7684\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/759557a55cae4400.wav",
+     "from": 0,
+     "frames": 275
+    },
+    {
+     "text": "81\u7b49\u4e8es\uff0c\u53ea\u662f\u5468\u957f\u7684\u4e00\u534a\u3002\u8fd9\u5c31\u662f\u5f00\u5934\u8bf4\u7684\u90a3\u4e2a\u5c0f\u5931\u8bef\uff01",
+     "caption": "81\u7b49\u4e8es\uff0c\u53ea\u662f\u5468\u957f\u7684\u4e00\u534a\u3002\u8fd9\u5c31\u662f\u5f00\u5934\u8bf4\u7684\u90a3\u4e2a\u5c0f\u5931\u8bef\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/7d62d5319b6662fa.wav",
+     "from": 285,
+     "frames": 184
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u6f0f\u6389\u4e86A\u5904\u7684\u4e24\u6bb56\uff0c\u5c31\u4f1a\u5f97\u5230150\u3002",
+     "caption": "\u5982\u679c\u4f60\u6f0f\u6389\u4e86A\u5904\u7684\u4e24\u6bb56\uff0c\u5c31\u4f1a\u5f97\u5230150\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/7ea5ba72e3416fa0.wav",
+     "from": 479,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u534a\u5f843",
+   "from": 10900,
+   "frames": 390,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\uff0c\u5706\u7684\u534a\u5f84\u53d8\u62103\uff0c\u4e24\u4e2a\u5207\u70b9\u5230A\u7684\u8ddd\u79bb\u90fd\u662f4\u3002",
+     "caption": "\u73b0\u5728\uff0c\u5706\u7684\u534a\u5f84\u53d8\u62103\uff0c\u4e24\u4e2a\u5207\u70b9\u5230A\u7684\u8ddd\u79bb\u90fd\u662f4\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/fa9d15c55cc23c16.wav",
+     "from": 0,
+     "frames": 196
+    },
+    {
+     "text": "\u8fb9\u957f\u8fd8\u662f\u6574\u6570\u3002\u5468\u957f\u6700\u5927\u662f\u591a\u5c11\uff1f",
+     "caption": "\u8fb9\u957f\u8fd8\u662f\u6574\u6570\u3002\u5468\u957f\u6700\u5927\u662f\u591a\u5c11\uff1f",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/c77b726731c59310.wav",
+     "from": 206,
+     "frames": 146
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 11290,
+   "frames": 393,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/b6a9fd6d362a16be.wav",
+     "from": 0,
+     "frames": 69
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u534a\u5f843\uff1a\u7b54\u6848",
+   "from": 11683,
+   "frames": 2010,
+   "lines": [
+    {
+     "text": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u9762\u79ef\u662f3\u4e58s\uff0c\u4e5f\u7b49\u4e8e\u6839\u53f7\u4e0bs\u4e584\u4e58y\u4e58z\u3002",
+     "caption": "\u6765\u6838\u5bf9\u4e00\u4e0b\u3002\u9762\u79ef\u662f3\u4e58s\uff0c\u4e5f\u7b49\u4e8e\u6839\u53f7\u4e0bs\u4e584\u4e58y\u4e58z\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/6296909f08d9443b.wav",
+     "from": 0,
+     "frames": 267
+    },
+    {
+     "text": "\u4e24\u8fb9\u5e73\u65b9\uff0c\u518d\u9664\u4ee5s\uff1a9\u4e58s\u7b49\u4e8e4\u4e58y\u4e58z\u3002\u518d\u628as\u6362\u62104\u52a0y\u52a0z\u3002",
+     "caption": "\u4e24\u8fb9\u5e73\u65b9\uff0c\u518d\u9664\u4ee5s\uff1a9\u4e58s\u7b49\u4e8e4\u4e58y\u4e58z\u3002\u518d\u628as\u6362\u62104\u52a0y\u52a0z\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/7206e67c50b31b4c.wav",
+     "from": 277,
+     "frames": 302
+    },
+    {
+     "text": "\u8ba9z\u5355\u72ec\u7559\u4e0b\uff1az\u7b49\u4e8e4y\u51cf9\u5206\u4e4b9y\u52a036\u3002",
+     "caption": "\u8ba9z\u5355\u72ec\u7559\u4e0b\uff1az\u7b49\u4e8e4y\u51cf9\u5206\u4e4b9y\u52a036\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/14eeec59dd0960e4.wav",
+     "from": 588,
+     "frames": 236
+    },
+    {
+     "text": "y\u8fd8\u662f\u81f3\u5c11\u662f3\u3002\u5f53y\u7b49\u4e8e3\u7684\u65f6\u5019\uff0c\u662f3\u5206\u4e4b63\uff0c\u6240\u4ee5z\u7b49\u4e8e21\uff01",
+     "caption": "y\u8fd8\u662f\u81f3\u5c11\u662f3\u3002\u5f53y\u7b49\u4e8e3\u7684\u65f6\u5019\uff0c\u662f3\u5206\u4e4b63\uff0c\u6240\u4ee5z\u7b49\u4e8e21\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/c0a3190eb8c6f55c.wav",
+     "from": 834,
+     "frames": 293
+    },
+    {
+     "text": "y\u7b49\u4e8e4\u548c5\u90fd\u4e0d\u884c\u3002\u5f53y\u7b49\u4e8e6\u7684\u65f6\u5019\uff0c15\u5206\u4e4b90\u7b49\u4e8e6\u3002\u518d\u5f80\u540e\uff0cz\u5c31\u4f1a\u5c0f\u4e8ey\u3002",
+     "caption": "y\u7b49\u4e8e4\u548c5\u90fd\u4e0d\u884c\u3002\u5f53y\u7b49\u4e8e6\u7684\u65f6\u5019\uff0c15\u5206\u4e4b90\u7b49\u4e8e6\u3002\u518d\u5f80\u540e\uff0cz\u5c31\u4f1a\u5c0f\u4e8ey\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/5992929b03272787.wav",
+     "from": 1137,
+     "frames": 320
+    },
+    {
+     "text": "\u6240\u4ee5s\u662f\u4e8c\u5341\u516b\u6216\u5341\u516d\uff0c\u5468\u957f\u662f\u4e94\u5341\u516d\u6216\u4e09\u5341\u4e8c\u3002\u6700\u5927\u7684\u662f56\uff01",
+     "caption": "\u6240\u4ee5s\u662f28\u621616\uff0c\u5468\u957f\u662f56\u621632\u3002\u6700\u5927\u7684\u662f56\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/2780726e98baaec4.wav",
+     "from": 1467,
+     "frames": 291
+    },
+    {
+     "text": "\u8fd9\u5c31\u662f\u8fb9\u957f\u4e3a\u4e03\u3001\u4e8c\u5341\u56db\u3001\u4e8c\u5341\u4e94\u7684\u76f4\u89d2\u4e09\u89d2\u5f62\u3002\u592a\u68d2\u4e86\uff01",
+     "caption": "\u8fd9\u5c31\u662f\u8fb9\u957f\u4e3a7\u300124\u300125\u7684\u76f4\u89d2\u4e09\u89d2\u5f62\u3002\u592a\u68d2\u4e86\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/63fe0f1fd2c965f6.wav",
+     "from": 1768,
+     "frames": 189
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 13693,
+   "frames": 683,
+   "lines": [
+    {
+     "text": "\u6838\u5fc3\u601d\u8def\uff1a\u4ece\u540c\u4e00\u4e2a\u9876\u70b9\u51fa\u53d1\u7684\u4e24\u6bb5\u5207\u7ebf\u76f8\u7b49\uff0c\u6240\u4ee5\u51e0\u4e2a\u5b57\u6bcd\u5c31\u80fd\u8868\u793a\u6240\u6709\u7684\u8fb9\u3002",
+     "caption": "\u6838\u5fc3\u601d\u8def\uff1a\u4ece\u540c\u4e00\u4e2a\u9876\u70b9\u51fa\u53d1\u7684\u4e24\u6bb5\u5207\u7ebf\u76f8\u7b49\uff0c\u6240\u4ee5\u51e0\u4e2a\u5b57\u6bcd\u5c31\u80fd\u8868\u793a\u6240\u6709\u7684\u8fb9\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/74a91358b928a8f8.wav",
+     "from": 0,
+     "frames": 278
+    },
+    {
+     "text": "\u7136\u540e\u7528\u4e24\u79cd\u65b9\u6cd5\u7b97\u9762\u79ef\uff1a\u534a\u5f84\u4e58\u534a\u5468\u957f\uff0c\u8fd8\u6709\u6d77\u4f26\u516c\u5f0f\u3002",
+     "caption": "\u7136\u540e\u7528\u4e24\u79cd\u65b9\u6cd5\u7b97\u9762\u79ef\uff1a\u534a\u5f84\u4e58\u534a\u5468\u957f\uff0c\u8fd8\u6709\u6d77\u4f26\u516c\u5f0f\u3002",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/9d45d07070d1c236.wav",
+     "from": 288,
+     "frames": 212
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-11-01-incircle-radius-4-zh/audio/452054cb5db2c30d.wav",
+     "from": 510,
+     "frames": 105
+    }
+   ]
+  }
+ ]
+}

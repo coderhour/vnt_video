@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-calculator-90';
 const CHIME = `${SLUG}/sfx/fs-541985.mp3`; // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -597,3 +598,15 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the two-key calculator showing 3 with the target 90, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>9?</span>]}>
+    <div style={{ position: 'relative', width: 680, height: 640 }}>
+      <Calc x={70} y={30} value="3" scale={1.2} />
+      <div style={{ position: 'absolute', left: 0, right: 0, top: 490, textAlign: 'center', fontSize: 96, fontWeight: 900, color: C.violet }}>
+        make <span style={{ color: C.ink }}>90</span>
+      </div>
+    </div>
+  </ThumbFrame>
+);

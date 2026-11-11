@@ -7,6 +7,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-sock-pairs';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -498,7 +499,8 @@ const VariantAnswer: SceneComponent = ({ scene }) => {
       <div style={{ position: 'absolute', left: PANEL + 590, top: 312, whiteSpace: 'nowrap', opacity: ease(f, at(scene, 3, 0.55), 10) }}><Tex tex={'6\\times 5\\div 2 = 15'} size={50} color={C.violet} /></div>
       <Eq y={385} start={at(scene, 3, 0.8)} size={52} tex={'2\\times 2\\times 2\\times 2 = 16'} />
       <Eq y={460} start={at(scene, 4, 0.4)} size={52} tex={'15\\times 16 = 240'} />
-      <Eq y={535} start={at(scene, 5, 0.3)} size={56} color={C.green} tex={'495 - 240 = 255'} />
+      <Eq y={535} start={at(scene, 5, 0.3)} size={56} color={C.green} tex={'495 - 240 \\phantom{= 255}'} />
+        <Eq y={535} start={at(scene, 5, 0.75)} size={56} color={C.green} tex={'\\phantom{495 - 240} = 255'} />
       <Eq y={615} start={at(scene, 6, 0.35)} size={48} tex={'\\text{one pair: }6\\times 10\\times 4 = 240'} />
       <Eq y={690} start={at(scene, 6, 0.75)} size={50} tex={'\\text{two pairs: }6\\times 5\\div 2 = 15'} />
       <Eq x={1480} y={620} start={at(scene, 6, 0.55)} size={48} color={C.muted} tex={'10 = 5\\times 4\\div 2'} />
@@ -552,3 +554,19 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the drawer of 5 sock pairs with 4 pulled out, no answer.
+export const Thumb: React.FC = () => {
+  const red: [number, number][] = [[0, 0], [0, 1], [1, 1], [2, 0]];
+  const over = (c: number, v: number): Over | undefined => {
+    const j = red.findIndex(([a, b]) => a === c && b === v);
+    return j < 0 ? undefined : { to: [140 + j * 130, 120, 0.85], p: 1 };
+  };
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={["Think it's", <span style={{ color: C.red }}>140?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <Drawer x={16} y={270} n={5} cell={120} over={over} />
+      </svg>
+    </ThumbFrame>
+  );
+};

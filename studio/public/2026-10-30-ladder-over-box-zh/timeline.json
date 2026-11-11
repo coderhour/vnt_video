@@ -1,0 +1,520 @@
+{
+ "fps": 30,
+ "durationInFrames": 12367,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 533,
+   "lines": [
+    {
+     "text": "\u4e00\u67b6\u68af\u5b50\u659c\u9760\u7740\u4e00\u4e2a\u5927\u7bb1\u5b50\uff0c\u4e00\u76f4\u642d\u5230\u5899\u4e0a\u3002",
+     "caption": "\u4e00\u67b6\u68af\u5b50\u659c\u9760\u7740\u4e00\u4e2a\u5927\u7bb1\u5b50\uff0c\u4e00\u76f4\u642d\u5230\u5899\u4e0a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/120d8d81917a0a65.wav",
+     "from": 0,
+     "frames": 174
+    },
+    {
+     "text": "\u5f88\u591a\u540c\u5b66\u7b97\u5230\u4e00\u534a\u5c31\u505c\u4e0b\uff0c\u9009\u9519\u4e86\u7b54\u6848\u3002\u6211\u4eec\u53ef\u4e0d\u4f1a\uff01",
+     "caption": "\u5f88\u591a\u540c\u5b66\u7b97\u5230\u4e00\u534a\u5c31\u505c\u4e0b\uff0c\u9009\u9519\u4e86\u7b54\u6848\u3002\u6211\u4eec\u53ef\u4e0d\u4f1a\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/e621f9b14c4e488c.wav",
+     "from": 184,
+     "frames": 170
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u722c\u8fd9\u9053\u9898\u5427\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u6765\u722c\u8fd9\u9053\u9898\u5427\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/667cd47d2e20ba0e.wav",
+     "from": 364,
+     "frames": 130
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 533,
+   "frames": 936,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 41
+    },
+    {
+     "text": "\u4e00\u4e2a\u7bb1\u5b50\u9ad812\u82f1\u5c3a\uff0c\u6df112\u82f1\u5c3a\uff0c\u653e\u5728\u5730\u4e0a\uff0c\u7d27\u9760\u7740\u5899\u3002",
+     "caption": "\u4e00\u4e2a\u7bb1\u5b50\u9ad812\u82f1\u5c3a\uff0c\u6df112\u82f1\u5c3a\uff0c\u653e\u5728\u5730\u4e0a\uff0c\u7d27\u9760\u7740\u5899\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/ea3cd3b0de6498e0.wav",
+     "from": 51,
+     "frames": 228
+    },
+    {
+     "text": "\u68af\u5b50\u7684\u5e95\u7aef\u653e\u5728\u5730\u4e0a\uff0c\u79bb\u7bb1\u5b509\u82f1\u5c3a\u3002",
+     "caption": "\u68af\u5b50\u7684\u5e95\u7aef\u653e\u5728\u5730\u4e0a\uff0c\u79bb\u7bb1\u5b509\u82f1\u5c3a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/c1270b8741f9a8a9.wav",
+     "from": 290,
+     "frames": 138
+    },
+    {
+     "text": "\u68af\u5b50\u78b0\u5230\u7bb1\u5b50\u9876\u90e8\u5916\u4fa7\u7684\u8fb9\uff0c\u7136\u540e\u642d\u5230\u5899\u4e0a\u3002",
+     "caption": "\u68af\u5b50\u78b0\u5230\u7bb1\u5b50\u9876\u90e8\u5916\u4fa7\u7684\u8fb9\uff0c\u7136\u540e\u642d\u5230\u5899\u4e0a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/d1e7ef1328b2aca5.wav",
+     "from": 438,
+     "frames": 162
+    },
+    {
+     "text": "\u8fd9\u67b6\u68af\u5b50\u6709\u591a\u957f\uff1f\u5355\u4f4d\u662f\u82f1\u5c3a\u3002",
+     "caption": "\u8fd9\u67b6\u68af\u5b50\u6709\u591a\u957f\uff1f\u5355\u4f4d\u662f\u82f1\u5c3a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/a0b3233406af1659.wav",
+     "from": 611,
+     "frames": 126
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/e12c88bfa38ce9a0.wav",
+     "from": 747,
+     "frames": 120
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1469,
+   "frames": 792,
+   "lines": [
+    {
+     "text": "\u90a3\u4e48\uff0c\u6211\u4eec\u5230\u5e95\u77e5\u9053\u4e9b\u4ec0\u4e48\u5462\uff1f",
+     "caption": "\u90a3\u4e48\uff0c\u6211\u4eec\u5230\u5e95\u77e5\u9053\u4e9b\u4ec0\u4e48\u5462\uff1f",
+     "file": "2026-10-30-ladder-over-box-zh/audio/0e84273c3917b45b.wav",
+     "from": 0,
+     "frames": 90
+    },
+    {
+     "text": "\u68af\u5b50\u5e95\u7aef\u79bb\u7bb1\u5b509\u82f1\u5c3a\u3002\u7bb1\u5b50\u6df112\u82f1\u5c3a\uff0c\u6240\u4ee5\u5899\u79bb\u68af\u5b50\u5e95\u7aef21\u82f1\u5c3a\u3002",
+     "caption": "\u68af\u5b50\u5e95\u7aef\u79bb\u7bb1\u5b509\u82f1\u5c3a\u3002\u7bb1\u5b50\u6df112\u82f1\u5c3a\uff0c\u6240\u4ee5\u5899\u79bb\u68af\u5b50\u5e95\u7aef21\u82f1\u5c3a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/93d068e0aada2737.wav",
+     "from": 101,
+     "frames": 280
+    },
+    {
+     "text": "\u68af\u5b50\u6b63\u597d\u78b0\u5230\u7bb1\u5b50\u9876\u90e8\u7684\u89d2\uff0c\u90a3\u91cc\u79bb\u5730\u976212\u82f1\u5c3a\u3002",
+     "caption": "\u68af\u5b50\u6b63\u597d\u78b0\u5230\u7bb1\u5b50\u9876\u90e8\u7684\u89d2\uff0c\u90a3\u91cc\u79bb\u5730\u976212\u82f1\u5c3a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/ee4f7250b9cb95d5.wav",
+     "from": 391,
+     "frames": 178
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u6574\u67b6\u68af\u5b50\uff0c\u4ece\u5730\u9762\u4e00\u76f4\u5230\u5899\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\u662f\u6574\u67b6\u68af\u5b50\uff0c\u4ece\u5730\u9762\u4e00\u76f4\u5230\u5899\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/74b625b53980c0b9.wav",
+     "from": 579,
+     "frames": 160
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2261,
+   "frames": 492,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/4b1581590fab2577.wav",
+     "from": 0,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "slope",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u770b\u5761\u5ea6",
+   "from": 2753,
+   "frames": 1331,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u5148\u770b\u8fd9\u4e2a\u5c0f\u4e09\u89d2\u5f62\uff0c\u4ece\u68af\u5b50\u5e95\u7aef\u5230\u7bb1\u5b50\u7684\u89d2\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u5148\u770b\u8fd9\u4e2a\u5c0f\u4e09\u89d2\u5f62\uff0c\u4ece\u68af\u5b50\u5e95\u7aef\u5230\u7bb1\u5b50\u7684\u89d2\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/7a2a18363a2d8508.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "\u6c34\u5e73\u8d709\u82f1\u5c3a\uff0c\u68af\u5b50\u5347\u9ad812\u82f1\u5c3a\u3002",
+     "caption": "\u6c34\u5e73\u8d709\u82f1\u5c3a\uff0c\u68af\u5b50\u5347\u9ad812\u82f1\u5c3a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/3c81ca80c7fbe962.wav",
+     "from": 208,
+     "frames": 150
+    },
+    {
+     "text": "\u68af\u5b50\u662f\u76f4\u7684\uff0c\u6240\u4ee5\u4ece\u4e0b\u5230\u4e0a\uff0c\u503e\u659c\u7a0b\u5ea6\u4e00\u76f4\u4e0d\u53d8\u3002",
+     "caption": "\u68af\u5b50\u662f\u76f4\u7684\uff0c\u6240\u4ee5\u4ece\u4e0b\u5230\u4e0a\uff0c\u503e\u659c\u7a0b\u5ea6\u4e00\u76f4\u4e0d\u53d8\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/2c930adb97bfbba4.wav",
+     "from": 368,
+     "frames": 201
+    },
+    {
+     "text": "\u6c34\u5e73\u8d709\u5347\u9ad812\uff0c\u5c31\u76f8\u5f53\u4e8e\u6bcf\u6c34\u5e73\u8d703\uff0c\u5347\u9ad84\u3002",
+     "caption": "\u6c34\u5e73\u8d709\u5347\u9ad812\uff0c\u5c31\u76f8\u5f53\u4e8e\u6bcf\u6c34\u5e73\u8d703\uff0c\u5347\u9ad84\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/cf8f6bee84ee6ccf.wav",
+     "from": 579,
+     "frames": 220
+    },
+    {
+     "text": "\u5899\u79bb\u5e95\u7aef21\u82f1\u5c3a\uff0c\u6b63\u597d\u662f7\u4e2a3\u3002",
+     "caption": "\u5899\u79bb\u5e95\u7aef21\u82f1\u5c3a\uff0c\u6b63\u597d\u662f7\u4e2a3\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/853594012baf579f.wav",
+     "from": 809,
+     "frames": 154
+    },
+    {
+     "text": "\u6240\u4ee5\u68af\u5b50\u5347\u9ad8\u4e867\u4e2a4\u30027\u4e584\u7b49\u4e8e28\u3002",
+     "caption": "\u6240\u4ee5\u68af\u5b50\u5347\u9ad8\u4e867\u4e2a4\u30027\u4e584\u7b49\u4e8e28\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/c73e9bfe4026be2d.wav",
+     "from": 973,
+     "frames": 189
+    },
+    {
+     "text": "\u68af\u5b50\u572828\u82f1\u5c3a\u9ad8\u7684\u5730\u65b9\u78b0\u5230\u5899\uff01",
+     "caption": "\u68af\u5b50\u572828\u82f1\u5c3a\u9ad8\u7684\u5730\u65b9\u78b0\u5230\u5899\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/6be911b5a11e444f.wav",
+     "from": 1172,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "pythag",
+   "kind": "scene",
+   "chapter": null,
+   "from": 4084,
+   "frames": 1205,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6211\u4eec\u5f97\u5230\u4e00\u4e2a\u5927\u76f4\u89d2\u4e09\u89d2\u5f62\u3002\u6c34\u5e7321\uff0c\u7ad6\u76f428\u3002",
+     "caption": "\u73b0\u5728\u6211\u4eec\u5f97\u5230\u4e00\u4e2a\u5927\u76f4\u89d2\u4e09\u89d2\u5f62\u3002\u6c34\u5e7321\uff0c\u7ad6\u76f428\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/ffa07fd96f7c3ba8.wav",
+     "from": 0,
+     "frames": 248
+    },
+    {
+     "text": "\u68af\u5b50\u662f\u6700\u957f\u7684\u90a3\u6761\u8fb9\uff0c\u4e5f\u5c31\u662f\u659c\u8fb9\u3002\u6211\u4eec\u7528\u52fe\u80a1\u5b9a\u7406\u3002",
+     "caption": "\u68af\u5b50\u662f\u6700\u957f\u7684\u90a3\u6761\u8fb9\uff0c\u4e5f\u5c31\u662f\u659c\u8fb9\u3002\u6211\u4eec\u7528\u52fe\u80a1\u5b9a\u7406\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/cd80526af49986ed.wav",
+     "from": 257,
+     "frames": 189
+    },
+    {
+     "text": "21\u7684\u5e73\u65b9\u662f441\uff0c28\u7684\u5e73\u65b9\u662f784\u3002",
+     "caption": "21\u7684\u5e73\u65b9\u662f441\uff0c28\u7684\u5e73\u65b9\u662f784\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/9900b0b1ee75c323.wav",
+     "from": 456,
+     "frames": 194
+    },
+    {
+     "text": "\u52a0\u8d77\u6765\uff0c\u7b49\u4e8e\u4e00\u5343\u4e8c\u767e\u4e8c\u5341\u4e94\u3002",
+     "caption": "\u52a0\u8d77\u6765\uff0c\u7b49\u4e8e1225\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/47fd5376faf58700.wav",
+     "from": 660,
+     "frames": 118
+    },
+    {
+     "text": "35\u4e5835\uff0c\u4e5f\u7b49\u4e8e\u4e00\u5343\u4e8c\u767e\u4e8c\u5341\u4e94\u3002",
+     "caption": "35\u4e5835\uff0c\u4e5f\u7b49\u4e8e1225\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/c2da1c06e527f705.wav",
+     "from": 788,
+     "frames": 182
+    },
+    {
+     "text": "\u6240\u4ee5\u68af\u5b50\u957f35\u82f1\u5c3a\u3002\u7b54\u6848\u662fD\uff01",
+     "caption": "\u6240\u4ee5\u68af\u5b50\u957f35\u82f1\u5c3a\u3002\u7b54\u6848\u662fD\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/bb10b77c3a226d96.wav",
+     "from": 980,
+     "frames": 156
+    }
+   ]
+  },
+  {
+   "id": "pieces",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u5206\u6210\u4e24\u6bb5",
+   "from": 5289,
+   "frames": 1917,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u7bb1\u5b50\u7684\u89d2\u628a\u68af\u5b50\u5206\u6210\u4e86\u4e24\u6bb5\u3002",
+     "caption": "\u8fd8\u6709\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u7bb1\u5b50\u7684\u89d2\u628a\u68af\u5b50\u5206\u6210\u4e86\u4e24\u6bb5\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/faabfe98d64ac6c7.wav",
+     "from": 0,
+     "frames": 177
+    },
+    {
+     "text": "\u4e0b\u9762\u4e00\u6bb5\uff1a\u6c34\u5e739\uff0c\u7ad6\u76f412\u3002\u8fd9\u662f3\u30014\u30015\u4e09\u89d2\u5f62\u653e\u59273\u500d\u3002",
+     "caption": "\u4e0b\u9762\u4e00\u6bb5\uff1a\u6c34\u5e739\uff0c\u7ad6\u76f412\u3002\u8fd9\u662f3\u30014\u30015\u4e09\u89d2\u5f62\u653e\u59273\u500d\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/eccefc91e563b49b.wav",
+     "from": 187,
+     "frames": 299
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u4e0b\u9762\u8fd9\u4e00\u6bb5\u957f15\u82f1\u5c3a\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u4e0b\u9762\u8fd9\u4e00\u6bb5\u957f15\u82f1\u5c3a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/3dd85181fca77180.wav",
+     "from": 496,
+     "frames": 125
+    },
+    {
+     "text": "\u4e0a\u9762\u4e00\u6bb5\u5728\u7bb1\u5b50\u4e0a\u65b9\uff0c\u6c34\u5e73\u65b9\u5411\u8de8\u8fc712\u82f1\u5c3a\u3002",
+     "caption": "\u4e0a\u9762\u4e00\u6bb5\u5728\u7bb1\u5b50\u4e0a\u65b9\uff0c\u6c34\u5e73\u65b9\u5411\u8de8\u8fc712\u82f1\u5c3a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/e751de521bf77ecb.wav",
+     "from": 631,
+     "frames": 188
+    },
+    {
+     "text": "\u503e\u659c\u7a0b\u5ea6\u4e00\u6837\uff0c\u8fd8\u662f\u6bcf\u6c34\u5e73\u8d703\uff0c\u5347\u9ad84\u3002\u6c34\u5e7312\uff0c\u5c31\u5347\u9ad816\u3002",
+     "caption": "\u503e\u659c\u7a0b\u5ea6\u4e00\u6837\uff0c\u8fd8\u662f\u6bcf\u6c34\u5e73\u8d703\uff0c\u5347\u9ad84\u3002\u6c34\u5e7312\uff0c\u5c31\u5347\u9ad816\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/da75020cb5d17abe.wav",
+     "from": 829,
+     "frames": 262
+    },
+    {
+     "text": "\u4e09\u6761\u8fb9\u662f\u5341\u4e8c\u3001\u5341\u516d\u3001\u4e8c\u5341\u3002\u8fd9\u662f3\u30014\u30015\u4e09\u89d2\u5f62\u653e\u59274\u500d\u3002",
+     "caption": "\u4e09\u6761\u8fb9\u662f12\u300116\u300120\u3002\u8fd9\u662f3\u30014\u30015\u4e09\u89d2\u5f62\u653e\u59274\u500d\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/e043ab1165534d85.wav",
+     "from": 1101,
+     "frames": 269
+    },
+    {
+     "text": "\u6240\u4ee5\u4e0a\u9762\u4e00\u6bb5\u957f20\u82f1\u5c3a\u300215\u52a020\u7b49\u4e8e35\uff01\u7ed3\u679c\u5bf9\u4e0a\u4e86\u3002",
+     "caption": "\u6240\u4ee5\u4e0a\u9762\u4e00\u6bb5\u957f20\u82f1\u5c3a\u300215\u52a020\u7b49\u4e8e35\uff01\u7ed3\u679c\u5bf9\u4e0a\u4e86\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/c237f8940672ccd2.wav",
+     "from": 1380,
+     "frames": 255
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u5982\u679c\u4e24\u6bb5\u90fd\u662f\u597d\u7b97\u7684\u4e09\u89d2\u5f62\uff0c\u6570\u5b57\u5c31\u4f1a\u5f88\u5c0f\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u5982\u679c\u4e24\u6bb5\u90fd\u662f\u597d\u7b97\u7684\u4e09\u89d2\u5f62\uff0c\u6570\u5b57\u5c31\u4f1a\u5f88\u5c0f\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/a4c943a19728c95b.wav",
+     "from": 1645,
+     "frames": 203
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7206,
+   "frames": 1550,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7684\u9009\u9879\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/c4af48ab6537d974.wav",
+     "from": 0,
+     "frames": 149
+    },
+    {
+     "text": "\u900915\u7684\u8bdd\uff0c\u53ea\u7b97\u4e86\u4e0b\u9762\u4e00\u6bb5\u3002\u5230\u7bb1\u5b50\u7684\u89d2\u5c31\u505c\u4e86\u3002",
+     "caption": "\u900915\u7684\u8bdd\uff0c\u53ea\u7b97\u4e86\u4e0b\u9762\u4e00\u6bb5\u3002\u5230\u7bb1\u5b50\u7684\u89d2\u5c31\u505c\u4e86\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/e49d8d249d3ead37.wav",
+     "from": 159,
+     "frames": 165
+    },
+    {
+     "text": "20\u662f\u4e0a\u9762\u90a3\u4e00\u6bb5\u7684\u957f\u5ea6\uff0c\u4e5f\u5c31\u662f\u4ece\u7bb1\u5b50\u5230\u5899\u90a3\u4e00\u6bb5\u3002",
+     "caption": "20\u662f\u4e0a\u9762\u90a3\u4e00\u6bb5\u7684\u957f\u5ea6\uff0c\u4e5f\u5c31\u662f\u4ece\u7bb1\u5b50\u5230\u5899\u90a3\u4e00\u6bb5\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/719455d1b55166fc.wav",
+     "from": 334,
+     "frames": 208
+    },
+    {
+     "text": "28\u662f\u68af\u5b50\u5728\u5899\u4e0a\u591f\u5230\u7684\u9ad8\u5ea6\u3002\u8fd9\u662f\u9ad8\u5ea6\uff0c\u4e0d\u662f\u68af\u5b50\u7684\u957f\u5ea6\u3002",
+     "caption": "28\u662f\u68af\u5b50\u5728\u5899\u4e0a\u591f\u5230\u7684\u9ad8\u5ea6\u3002\u8fd9\u662f\u9ad8\u5ea6\uff0c\u4e0d\u662f\u68af\u5b50\u7684\u957f\u5ea6\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/bc7012d3f7ad52fc.wav",
+     "from": 552,
+     "frames": 221
+    },
+    {
+     "text": "37\u662f\u628a\u6c34\u5e73\u76849\u548c\u7ad6\u76f4\u768428\u76f4\u63a5\u52a0\u8d77\u6765\u5f97\u5230\u7684\u3002",
+     "caption": "37\u662f\u628a\u6c34\u5e73\u76849\u548c\u7ad6\u76f4\u768428\u76f4\u63a5\u52a0\u8d77\u6765\u5f97\u5230\u7684\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/3ecba295d9229036.wav",
+     "from": 784,
+     "frames": 192
+    },
+    {
+     "text": "\u53ef\u662f\u6c34\u5e73\u548c\u7ad6\u76f4\u4e0d\u80fd\u76f4\u63a5\u76f8\u52a0\u3002\u68af\u5b50\u662f\u659c\u7740\u76f4\u63a5\u8fc7\u53bb\u7684\uff0c\u6240\u4ee5\u8981\u7528\u52fe\u80a1\u5b9a\u7406\u3002",
+     "caption": "\u53ef\u662f\u6c34\u5e73\u548c\u7ad6\u76f4\u4e0d\u80fd\u76f4\u63a5\u76f8\u52a0\u3002\u68af\u5b50\u662f\u659c\u7740\u76f4\u63a5\u8fc7\u53bb\u7684\uff0c\u6240\u4ee5\u8981\u7528\u52fe\u80a1\u5b9a\u7406\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/3eb11437593480dc.wav",
+     "from": 986,
+     "frames": 288
+    },
+    {
+     "text": "\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u518d\u8bfb\u4e00\u904d\u9898\u76ee\uff0c\u68af\u5b50\u662f\u4e00\u76f4\u642d\u5230\u5899\u4e0a\u7684\u3002",
+     "caption": "\u517b\u6210\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u518d\u8bfb\u4e00\u904d\u9898\u76ee\uff0c\u68af\u5b50\u662f\u4e00\u76f4\u642d\u5230\u5899\u4e0a\u7684\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/7cac50a199da1af0.wav",
+     "from": 1285,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u65b0\u68af\u5b50",
+   "from": 8756,
+   "frames": 705,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u6211\u4eec\u6362\u4e00\u67b6\u65b0\u68af\u5b50\uff0c\u6570\u5b57\u4e5f\u4e0d\u4e00\u6837\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u6211\u4eec\u6362\u4e00\u67b6\u65b0\u68af\u5b50\uff0c\u6570\u5b57\u4e5f\u4e0d\u4e00\u6837\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/b888700ba0c7a419.wav",
+     "from": 0,
+     "frames": 168
+    },
+    {
+     "text": "\u8fd9\u4e2a\u7bb1\u5b50\u9ad88\u82f1\u5c3a\uff0c\u6df19\u82f1\u5c3a\uff0c\u7d27\u9760\u7740\u5899\u3002",
+     "caption": "\u8fd9\u4e2a\u7bb1\u5b50\u9ad88\u82f1\u5c3a\uff0c\u6df19\u82f1\u5c3a\uff0c\u7d27\u9760\u7740\u5899\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/b1ae894460ee176a.wav",
+     "from": 178,
+     "frames": 172
+    },
+    {
+     "text": "\u68af\u5b50\u5e95\u7aef\u79bb\u7bb1\u5b506\u82f1\u5c3a\u3002\u5b83\u78b0\u5230\u7bb1\u5b50\u9876\u90e8\u5916\u4fa7\u7684\u8fb9\uff0c\u642d\u5230\u5899\u4e0a\u3002",
+     "caption": "\u68af\u5b50\u5e95\u7aef\u79bb\u7bb1\u5b506\u82f1\u5c3a\u3002\u5b83\u78b0\u5230\u7bb1\u5b50\u9876\u90e8\u5916\u4fa7\u7684\u8fb9\uff0c\u642d\u5230\u5899\u4e0a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/1c2f2a4d0b8b29db.wav",
+     "from": 360,
+     "frames": 220
+    },
+    {
+     "text": "\u8fd9\u67b6\u68af\u5b50\u6709\u591a\u957f\uff1f",
+     "caption": "\u8fd9\u67b6\u68af\u5b50\u6709\u591a\u957f\uff1f",
+     "file": "2026-10-30-ladder-over-box-zh/audio/73134a67448e699d.wav",
+     "from": 590,
+     "frames": 76
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9461,
+   "frames": 462,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/32cbee10a890d39b.wav",
+     "from": 0,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u65b0\u68af\u5b50\uff1a\u7b54\u6848",
+   "from": 9923,
+   "frames": 1777,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u7b97\u4e00\u4e0b\u3002\u6c34\u5e73\u662f6\uff0c\u7ad6\u76f4\u662f8\uff0c\u6240\u4ee5\u8fd8\u662f\u6bcf\u6c34\u5e73\u8d703\uff0c\u5347\u9ad84\u3002",
+     "caption": "\u6211\u4eec\u6765\u7b97\u4e00\u4e0b\u3002\u6c34\u5e73\u662f6\uff0c\u7ad6\u76f4\u662f8\uff0c\u6240\u4ee5\u8fd8\u662f\u6bcf\u6c34\u5e73\u8d703\uff0c\u5347\u9ad84\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/21aba67e6780c696.wav",
+     "from": 0,
+     "frames": 272
+    },
+    {
+     "text": "\u5899\u79bb\u5e95\u7aef6\u52a09\uff0c\u7b49\u4e8e15\u82f1\u5c3a\u3002\u6b63\u597d\u662f5\u4e2a3\u3002",
+     "caption": "\u5899\u79bb\u5e95\u7aef6\u52a09\uff0c\u7b49\u4e8e15\u82f1\u5c3a\u3002\u6b63\u597d\u662f5\u4e2a3\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/084c072d2edd841f.wav",
+     "from": 282,
+     "frames": 224
+    },
+    {
+     "text": "\u6240\u4ee5\u68af\u5b50\u5347\u9ad85\u4e2a4\uff0c\u4e5f\u5c31\u662f\u5728\u5899\u4e0a20\u82f1\u5c3a\u9ad8\u7684\u5730\u65b9\u3002",
+     "caption": "\u6240\u4ee5\u68af\u5b50\u5347\u9ad85\u4e2a4\uff0c\u4e5f\u5c31\u662f\u5728\u5899\u4e0a20\u82f1\u5c3a\u9ad8\u7684\u5730\u65b9\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/c6995bb0739a0bee.wav",
+     "from": 515,
+     "frames": 190
+    },
+    {
+     "text": "\u6c34\u5e7315\uff0c\u7ad6\u76f420\u300215\u7684\u5e73\u65b9\u52a020\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e625\u3002",
+     "caption": "\u6c34\u5e7315\uff0c\u7ad6\u76f420\u300215\u7684\u5e73\u65b9\u52a020\u7684\u5e73\u65b9\uff0c\u7b49\u4e8e625\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/499e4882533b8ecb.wav",
+     "from": 716,
+     "frames": 266
+    },
+    {
+     "text": "25\u4e5825\u7b49\u4e8e625\u3002\u6240\u4ee5\u68af\u5b50\u957f25\u82f1\u5c3a\uff01",
+     "caption": "25\u4e5825\u7b49\u4e8e625\u3002\u6240\u4ee5\u68af\u5b50\u957f25\u82f1\u5c3a\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/59920e489bfa14e0.wav",
+     "from": 991,
+     "frames": 257
+    },
+    {
+     "text": "\u7528\u4e24\u6bb5\u6765\u9a8c\u7b97\uff1a\u4e0b\u9762\u7684\u4e00\u6bb5\u662f10\uff0c\u4e0a\u9762\u7684\u4e00\u6bb5\u662f15\u300210\u52a015\u7b49\u4e8e25\uff01",
+     "caption": "\u7528\u4e24\u6bb5\u6765\u9a8c\u7b97\uff1a\u4e0b\u9762\u7684\u4e00\u6bb5\u662f10\uff0c\u4e0a\u9762\u7684\u4e00\u6bb5\u662f15\u300210\u52a015\u7b49\u4e8e25\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/cec2c149e5fd2d27.wav",
+     "from": 1259,
+     "frames": 336
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8625\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8625\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/d8388e407d818f2d.wav",
+     "from": 1605,
+     "frames": 104
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 11700,
+   "frames": 667,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/83b6e0ebbeb944f9.wav",
+     "from": 0,
+     "frames": 66
+    },
+    {
+     "text": "\u4e00\u6761\u76f4\u7ebf\uff0c\u6bcf\u6c34\u5e73\u8d70\u4e00\u6b65\uff0c\u5347\u9ad8\u7684\u90fd\u4e00\u6837\u591a\u3002",
+     "caption": "\u4e00\u6761\u76f4\u7ebf\uff0c\u6bcf\u6c34\u5e73\u8d70\u4e00\u6b65\uff0c\u5347\u9ad8\u7684\u90fd\u4e00\u6837\u591a\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/d9106fd94b74fedc.wav",
+     "from": 77,
+     "frames": 195
+    },
+    {
+     "text": "\u6240\u4ee5\u5148\u7528\u5c0f\u4e09\u89d2\u5f62\u6c42\u51fa\u9ad8\u5ea6\uff0c\u518d\u7528\u52fe\u80a1\u5b9a\u7406\u6c42\u51fa\u957f\u5ea6\u3002",
+     "caption": "\u6240\u4ee5\u5148\u7528\u5c0f\u4e09\u89d2\u5f62\u6c42\u51fa\u9ad8\u5ea6\uff0c\u518d\u7528\u52fe\u80a1\u5b9a\u7406\u6c42\u51fa\u957f\u5ea6\u3002",
+     "file": "2026-10-30-ladder-over-box-zh/audio/9d41af421850aa27.wav",
+     "from": 282,
+     "frames": 192
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-30-ladder-over-box-zh/audio/f8351124be57142c.wav",
+     "from": 484,
+     "frames": 99
+    }
+   ]
+  }
+ ]
+}

@@ -1,19 +1,38 @@
 {
- "title": "How Many Rectangles in the Staircase? | AMC 8-Style Level 5",
- "description": "Fifteen little squares stacked like stairs, and lots of kids say there are 15 rectangles. There are way more! Vantee counts them two ways: sorting by height, then the speedy corner trick that turns it into a times table. Then try a taller staircase yourself.\n\n0:00 Intro\n0:18 The question\n0:45 What are we asked?\n1:15 Try it yourself\n1:31 Solution 1: sort by height\n3:24 Solution 2: the corner trick\n4:55 Common traps\n5:27 Your turn: a taller staircase\n5:54 Taller staircase: the answer\n6:29 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Counting Rectangles in a Staircase Grid",
+ "description": "AMC 8 practice problem on counting every rectangle of any size in a staircase made of 15 unit squares. (Level 5 of 5)\nFifteen little squares stacked like stairs, and lots of kids say there are 15 rectangles. There are way more! Vantee counts them two ways: sorting by height, then the speedy corner trick that turns it into a times table. Then try a taller staircase yourself.\n\n0:00 Intro\n0:18 The question\n0:45 What are we asked?\n1:15 Try it yourself\n1:31 Solution 1: sort by height\n3:24 Solution 2: the corner trick\n4:55 Common traps\n5:27 Your turn: a taller staircase\n5:54 Taller staircase: the answer\n6:29 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_counting_template:c1-522",
- "posts": [],
+ "posts": [
+  {
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=YkL1PzNpRDU",
+   "published_at": "2026-11-11T10:02:42-08:00"
+  }
+ ],
  "short": {
   "title": "How many rectangles in this staircase? #Shorts",
   "description": "Fifteen little squares make a staircase. How many rectangles hide inside? Try the corner trick!\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": [],
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/vOSihwpSgN8",
+    "published_at": "2026-11-12T10:02:42-08:00",
+    "scheduled_at": "2026-11-11T10:02:45-08:00"
+   }
+  ],
   "challenge": 6,
   "tags": [
    "AMC 8",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
- }
+  ],
+  "youtube_id": "vOSihwpSgN8",
+  "playlist_id": "PLMmhAusDs0A4"
+ },
+ "pinned_comment": "How many rectangles of any size are in this 5-4-3-2-1 staircase? Comment your answer before you watch the solution!",
+ "youtube_id": "YkL1PzNpRDU",
+ "thumbnail": "set",
+ "playlist_id": "PLfp4UvKbIIC8"
 }

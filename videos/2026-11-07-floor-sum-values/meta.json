@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Floor Function Sums — The Number You Can Never Make",
+ "description": "AMC 10 practice problem on sums of floor functions, counting which numbers from 1 to 1000 can be made, solved two ways. (Level 4 of 5)\nRound down a number, its double and its triple, then add: you can never make 1000! Which numbers from 1 to 1000 CAN you make?\nVantee shows two ways to count them: draw the staircase and count the skips, or count the numbers that work row by row.\nThen try a floor-of-four-x variant on your own.\n\n0:00 Intro\n0:19 The question\n0:42 What are we asked?\n1:15 Try it yourself\n1:30 Solution 1: the staircase\n2:50 Solution 1: count the skips\n3:33 Solution 2: rows of six\n4:23 Common traps\n5:08 Your turn: floor of four x\n5:38 Floor of four x: the answer\n6:34 Recap",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_algebra_template:c3-004",
+ "posts": [],
+ "short": {
+  "title": "Think it's 668? Round down x, 2x, 3x and add #Shorts",
+  "description": "Round down x, 2x and 3x, then add. How many totals from 1 to 1000 can you make? The staircase skips 4 and 5 in every block of six.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 26,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "Which numbers from 1 to 1000 can be written as floor(x) + floor(2x) + floor(3x)? Comment your answer before you watch the solution!"
+}

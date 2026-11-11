@@ -1,6 +1,6 @@
 {
- "title": "Two Right Angles, the Rest 160°: How Many Sides? | AMC 8-Style Level 4",
- "description": "Two corners are square and every other corner is 160 degrees. How many sides does the polygon have? Vantee takes a walk around the outside, where the turns always add up to 360 degrees, then checks the answer with the inside-angle sum.\nShe also shows why each wrong choice is tempting and gives you a new set of corners to try yourself.\n\n0:00 Intro\n0:19 The question\n0:39 What are we asked?\n0:58 Try it yourself\n1:13 Solution 1: walk around the outside\n2:37 Solution 2: add the inside angles\n3:36 Common traps\n4:34 Your turn: new corners\n5:03 New corners: the answer\n5:52 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Polygon Angles — How Many Sides?",
+ "description": "AMC 8 practice problem on the angles of a convex polygon with two right angles and all other angles 160 degrees: how many sides? (Level 4 of 5)\nTwo corners are square and every other corner is 160 degrees. How many sides does the polygon have? Vantee takes a walk around the outside, where the turns always add up to 360 degrees, then checks the answer with the inside-angle sum.\nShe also shows why each wrong choice is tempting and gives you a new set of corners to try yourself.\n\n0:00 Intro\n0:19 The question\n0:39 What are we asked?\n0:58 Try it yourself\n1:13 Solution 1: walk around the outside\n2:37 Solution 2: add the inside angles\n3:36 Common traps\n4:34 Your turn: new corners\n5:03 New corners: the answer\n5:52 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-31",
  "question_id": "amc_practice_amc8_geometry_template:c1-124",
  "posts": [],
@@ -15,5 +15,6 @@
    "MathTok",
    "Math Puzzle"
   ]
- }
+ },
+ "pinned_comment": "Convex polygon, two 90° angles, all others 160°. How many sides? Comment your answer before you watch the solution!"
 }

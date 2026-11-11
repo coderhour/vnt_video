@@ -1,0 +1,54 @@
+{
+ "title": "Broken Stick (short)",
+ "fps": 30,
+ "style": "warm and upbeat, speaking at a brisk, energetic pace, no laughing",
+ "line_gap": 0.15,
+ "scene_tail": 0.4,
+ "caption_digits": true,
+ "scenes": [
+  {
+   "id": "hook",
+   "lines": [
+    "AMC ten challenge! Think it's one over four? Nope!"
+   ]
+  },
+  {
+   "id": "question",
+   "lines": [
+    "Snap a stick at two random spots: three pieces.",
+    "What's the chance the longest piece is less than twice the shortest?"
+   ]
+  },
+  {
+   "id": "think",
+   "lines": [
+    "Comment your letter, then watch!"
+   ]
+  },
+  {
+   "id": "map",
+   "lines": [
+    "Make the stick sixty long. Two cuts make one dot in the square.",
+    "Keep the top half, a mirror of the bottom. Its area is one thousand eight hundred.",
+    "Now light up every winning dot.",
+    "They make a hexagon: six triangles of thirty, so one hundred eighty!"
+   ]
+  },
+  {
+   "id": "reveal",
+   "lines": [
+    "One hundred eighty out of one thousand eight hundred. One over ten!",
+    "One over four, the triangle chance, was the trap.",
+    "Did you get one over ten? Tell me below!"
+   ],
+   "hold": 0.8
+  }
+ ],
+ "captions": {
+  "AMC ten challenge! Think it's one over four? Nope!": "AMC 10 challenge! Think it's 1/4? Nope!",
+  "One over four, the triangle chance, was the trap.": "1/4, the triangle chance, was the trap.",
+  "Did you get one over ten? Tell me below!": "Did you get 1/10? Tell me below!",
+  "One hundred eighty out of one thousand eight hundred. One over ten!": "180 out of 1800. 1/10!",
+  "Make the stick sixty long. Two cuts make one dot in the square.": "Make the stick 60 long. 2 cuts make 1 dot in the square."
+ }
+}

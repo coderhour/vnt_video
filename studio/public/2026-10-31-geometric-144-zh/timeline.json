@@ -1,0 +1,534 @@
+{
+ "fps": 30,
+ "durationInFrames": 12881,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 728,
+   "lines": [
+    {
+     "text": "\u4e00\u3001\u5341\u4e8c\u3001\u4e00\u767e\u56db\u5341\u56db\u3002\u6bcf\u4e2a\u6570\u90fd\u662f\u524d\u4e00\u4e2a\u6570\u768412\u500d\u3002",
+     "caption": "1\u300112\u3001144\u3002\u6bcf\u4e2a\u6570\u90fd\u662f\u524d\u4e00\u4e2a\u6570\u768412\u500d\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/fd9400526acc3ef4.wav",
+     "from": 0,
+     "frames": 231
+    },
+    {
+     "text": "\u50cf\u8fd9\u6837\u4e09\u4e2a\u6570\u4e00\u7ec4\uff0c\u6700\u540e\u4e00\u4e2a\u662f144\uff0c\u4e00\u5171\u6709\u591a\u5c11\u7ec4\uff1f",
+     "caption": "\u50cf\u8fd9\u6837\u4e09\u4e2a\u6570\u4e00\u7ec4\uff0c\u6700\u540e\u4e00\u4e2a\u662f144\uff0c\u4e00\u5171\u6709\u591a\u5c11\u7ec4\uff1f",
+     "file": "2026-10-31-geometric-144-zh/audio/fbf01ec95c1fd176.wav",
+     "from": 241,
+     "frames": 226
+    },
+    {
+     "text": "\u6bd4\u4f60\u60f3\u7684\u8981\u591a\u54e6\uff01",
+     "caption": "\u6bd4\u4f60\u60f3\u7684\u8981\u591a\u54e6\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/0b893fc00405a55e.wav",
+     "from": 477,
+     "frames": 60
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u5b83\u4eec\u5168\u90e8\u627e\u51fa\u6765\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u5b83\u4eec\u5168\u90e8\u627e\u51fa\u6765\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/46a2accb6632a360.wav",
+     "from": 548,
+     "frames": 142
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 728,
+   "frames": 529,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/7820a83bc3215d3b.wav",
+     "from": 0,
+     "frames": 41
+    },
+    {
+     "text": "\u6709\u591a\u5c11\u4e2a\u7531\u4e09\u4e2a\u6b63\u6574\u6570a\u3001b\u3001c\u7ec4\u6210\u7684\u9012\u589e\u7b49\u6bd4\u6570\u5217\uff0c",
+     "caption": "\u6709\u591a\u5c11\u4e2a\u7531\u4e09\u4e2a\u6b63\u6574\u6570a\u3001b\u3001c\u7ec4\u6210\u7684\u9012\u589e\u7b49\u6bd4\u6570\u5217\uff0c",
+     "file": "2026-10-31-geometric-144-zh/audio/3f3b41c990dc5c50.wav",
+     "from": 51,
+     "frames": 206
+    },
+    {
+     "text": "\u6ee1\u8db3c\u7b49\u4e8e144\uff1f",
+     "caption": "\u6ee1\u8db3c\u7b49\u4e8e144\uff1f",
+     "file": "2026-10-31-geometric-144-zh/audio/3e136be9cd5aa6ba.wav",
+     "from": 267,
+     "frames": 108
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/cff06e3fe814d7a5.wav",
+     "from": 386,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1257,
+   "frames": 773,
+   "lines": [
+    {
+     "text": "\u7b49\u6bd4\uff0c\u5c31\u662f\u6bcf\u4e00\u6b65\u90fd\u4e58\u540c\u4e00\u4e2a\u516c\u6bd4\uff0c\u4ecea\u5230b\uff0c\u518d\u4eceb\u5230c\u3002",
+     "caption": "\u7b49\u6bd4\uff0c\u5c31\u662f\u6bcf\u4e00\u6b65\u90fd\u4e58\u540c\u4e00\u4e2a\u516c\u6bd4\uff0c\u4ecea\u5230b\uff0c\u518d\u4eceb\u5230c\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/f387943419c9f76e.wav",
+     "from": 0,
+     "frames": 237
+    },
+    {
+     "text": "\u9012\u589e\uff0c\u5c31\u662fa\u5c0f\u4e8eb\uff0cb\u5c0f\u4e8ec\u3002",
+     "caption": "\u9012\u589e\uff0c\u5c31\u662fa\u5c0f\u4e8eb\uff0cb\u5c0f\u4e8ec\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/277e8f70672fe69e.wav",
+     "from": 247,
+     "frames": 149
+    },
+    {
+     "text": "\u8fd8\u8981\u6ce8\u610f\uff1a\u516c\u6bd4\u4e0d\u4e00\u5b9a\u662f\u6574\u6570\u3002",
+     "caption": "\u8fd8\u8981\u6ce8\u610f\uff1a\u516c\u6bd4\u4e0d\u4e00\u5b9a\u662f\u6574\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/e87ccdf1cdd30b19.wav",
+     "from": 406,
+     "frames": 108
+    },
+    {
+     "text": "\u6bd4\u5982\u516d\u5341\u56db\u3001\u4e5d\u5341\u516d\u3001\u4e00\u767e\u56db\u5341\u56db\uff0c\u516c\u6bd4\u662f2\u5206\u4e4b3\u3002",
+     "caption": "\u6bd4\u598264\u300196\u3001144\uff0c\u516c\u6bd4\u662f2\u5206\u4e4b3\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/92438ed270d7f1ee.wav",
+     "from": 525,
+     "frames": 195
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2030,
+   "frames": 459,
+   "lines": [
+    {
+     "text": "\u5148\u628a\u89c6\u9891\u505c\u4e00\u4e0b\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u5148\u628a\u89c6\u9891\u505c\u4e00\u4e0b\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/1d416d90f3e2502c.wav",
+     "from": 0,
+     "frames": 135
+    }
+   ]
+  },
+  {
+   "id": "middle",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u76ef\u4f4f\u4e2d\u95f4\u7684\u6570",
+   "from": 2489,
+   "frames": 1135,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u76ef\u4f4f\u4e2d\u95f4\u90a3\u4e2a\u6570\uff0c\u4e5f\u5c31\u662fb\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u5148\u76ef\u4f4f\u4e2d\u95f4\u90a3\u4e2a\u6570\uff0c\u4e5f\u5c31\u662fb\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/d783e915d8274498.wav",
+     "from": 0,
+     "frames": 150
+    },
+    {
+     "text": "\u516c\u6bd4\u76f8\u540c\uff0c\u6240\u4ee5a\u5206\u4e4bb\u7b49\u4e8eb\u5206\u4e4bc\u3002\u4e5f\u5c31\u662fb\u4e58b\u7b49\u4e8ea\u4e58c\u3002",
+     "caption": "\u516c\u6bd4\u76f8\u540c\uff0c\u6240\u4ee5a\u5206\u4e4bb\u7b49\u4e8eb\u5206\u4e4bc\u3002\u4e5f\u5c31\u662fb\u4e58b\u7b49\u4e8ea\u4e58c\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/2bab602798cb8620.wav",
+     "from": 160,
+     "frames": 297
+    },
+    {
+     "text": "\u56e0\u4e3ac\u7b49\u4e8e144\uff0c\u6240\u4ee5a\u7b49\u4e8eb\u7684\u5e73\u65b9\uff0c",
+     "caption": "\u56e0\u4e3ac\u7b49\u4e8e144\uff0c\u6240\u4ee5a\u7b49\u4e8eb\u7684\u5e73\u65b9\uff0c",
+     "file": "2026-10-31-geometric-144-zh/audio/87147bf71d5ed0ff.wav",
+     "from": 467,
+     "frames": 183
+    },
+    {
+     "text": "\u518d\u9664\u4ee5144\u3002",
+     "caption": "\u518d\u9664\u4ee5144\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/82e3b0e39223ea64.wav",
+     "from": 660,
+     "frames": 75
+    },
+    {
+     "text": "\u8bd5\u51e0\u4e2a\u6570\u3002b\u7b49\u4e8e6\u621618\uff0c\u5f97\u5230\u7684\u90fd\u662f\u5206\u6570\u3002\u4f46b\u7b49\u4e8e24\u5c31\u884c\uff1aa\u7b49\u4e8e4\u3002",
+     "caption": "\u8bd5\u51e0\u4e2a\u6570\u3002b\u7b49\u4e8e6\u621618\uff0c\u5f97\u5230\u7684\u90fd\u662f\u5206\u6570\u3002\u4f46b\u7b49\u4e8e24\u5c31\u884c\uff1aa\u7b49\u4e8e4\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/100b20315f22cb29.wav",
+     "from": 745,
+     "frames": 336
+    }
+   ]
+  },
+  {
+   "id": "twelve",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3624,
+   "frames": 2088,
+   "lines": [
+    {
+     "text": "\u5999\u62db\u6765\u4e86\u3002144\u6b63\u597d\u662f12\u7684\u5e73\u65b9\u3002",
+     "caption": "\u5999\u62db\u6765\u4e86\u3002144\u6b63\u597d\u662f12\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/ea38ed325d42e149.wav",
+     "from": 0,
+     "frames": 152
+    },
+    {
+     "text": "\u6240\u4ee5a\u5c31\u662fb\u9664\u4ee512\uff0c\u518d\u5e73\u65b9\u3002",
+     "caption": "\u6240\u4ee5a\u5c31\u662fb\u9664\u4ee512\uff0c\u518d\u5e73\u65b9\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/12db91179ace6f7e.wav",
+     "from": 161,
+     "frames": 130
+    },
+    {
+     "text": "\u5982\u679cb\u9664\u4ee512\u4e0d\u662f\u6574\u6570\uff0c\u5b83\u7684\u5e73\u65b9\u4e5f\u4e0d\u4f1a\u662f\u6574\u6570\u3002",
+     "caption": "\u5982\u679cb\u9664\u4ee512\u4e0d\u662f\u6574\u6570\uff0c\u5b83\u7684\u5e73\u65b9\u4e5f\u4e0d\u4f1a\u662f\u6574\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/9aae59bf8a677825.wav",
+     "from": 302,
+     "frames": 179
+    },
+    {
+     "text": "\u6bd4\u59822\u5206\u4e4b3\u7684\u5e73\u65b9\u662f4\u5206\u4e4b9\uff0c\u4e0d\u662f\u6574\u6570\uff01",
+     "caption": "\u6bd4\u59822\u5206\u4e4b3\u7684\u5e73\u65b9\u662f4\u5206\u4e4b9\uff0c\u4e0d\u662f\u6574\u6570\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/726913425fe29145.wav",
+     "from": 491,
+     "frames": 174
+    },
+    {
+     "text": "\u53efa\u662f\u6574\u6570\u3002\u6240\u4ee5b\u9664\u4ee512\u4e00\u5b9a\u662f\u6574\u6570\u3002",
+     "caption": "\u53efa\u662f\u6574\u6570\u3002\u6240\u4ee5b\u9664\u4ee512\u4e00\u5b9a\u662f\u6574\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/125f77d9f9bb228a.wav",
+     "from": 675,
+     "frames": 171
+    },
+    {
+     "text": "\u628a\u5b83\u53eb\u505ak\u3002\u90a3\u4e48b\u662f12\u4e58k\uff0ca\u662fk\u7684\u5e73\u65b9\u3002",
+     "caption": "\u628a\u5b83\u53eb\u505ak\u3002\u90a3\u4e48b\u662f12\u4e58k\uff0ca\u662fk\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/683104abecf9f6fe.wav",
+     "from": 856,
+     "frames": 198
+    },
+    {
+     "text": "k\u7b49\u4e8e1\uff0c\u5f97\u5230\u4e00\u3001\u5341\u4e8c\u3001\u4e00\u767e\u56db\u5341\u56db\u3002",
+     "caption": "k\u7b49\u4e8e1\uff0c\u5f97\u52301\u300112\u3001144\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/8a6ee6be7a10fa71.wav",
+     "from": 1065,
+     "frames": 177
+    },
+    {
+     "text": "k\u7b49\u4e8e2\uff0c\u5f97\u5230\u56db\u3001\u4e8c\u5341\u56db\u3001\u4e00\u767e\u56db\u5341\u56db\u3002\u540e\u9762\u4ee5\u6b64\u7c7b\u63a8\u3002",
+     "caption": "k\u7b49\u4e8e2\uff0c\u5f97\u52304\u300124\u3001144\u3002\u540e\u9762\u4ee5\u6b64\u7c7b\u63a8\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/3aac195430a4c981.wav",
+     "from": 1252,
+     "frames": 254
+    },
+    {
+     "text": "\u5230k\u7b49\u4e8e12\u65f6\uff0c\u4e09\u4e2a\u6570\u90fd\u662f144\u3002",
+     "caption": "\u5230k\u7b49\u4e8e12\u65f6\uff0c\u4e09\u4e2a\u6570\u90fd\u662f144\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/4fb8b4ffa7f5b1db.wav",
+     "from": 1515,
+     "frames": 167
+    },
+    {
+     "text": "\u8fd9\u5c31\u4e0d\u662f\u9012\u589e\u4e86\uff0c\u6240\u4ee5\u53ea\u80fd\u523011\u4e3a\u6b62\u3002",
+     "caption": "\u8fd9\u5c31\u4e0d\u662f\u9012\u589e\u4e86\uff0c\u6240\u4ee5\u53ea\u80fd\u523011\u4e3a\u6b62\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/47f5af8b6b596496.wav",
+     "from": 1693,
+     "frames": 131
+    },
+    {
+     "text": "k\u53ef\u4ee5\u53d61\u523011\uff0c\u4e00\u517111\u4e2a\u6570\u5217\uff0c\u9009\u9879C\uff01",
+     "caption": "k\u53ef\u4ee5\u53d61\u523011\uff0c\u4e00\u517111\u4e2a\u6570\u5217\uff0c\u9009\u9879C\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/cc157a3f7c69a129.wav",
+     "from": 1834,
+     "frames": 185
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u628a\u516c\u6bd4\u5199\u6210\u5206\u6570",
+   "from": 5712,
+   "frames": 2151,
+   "lines": [
+    {
+     "text": "\u518d\u770b\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u628a\u516c\u6bd4\u5199\u6210\u6700\u7b80\u5206\u6570\uff0cq\u5206\u4e4bp\u3002",
+     "caption": "\u518d\u770b\u53e6\u4e00\u79cd\u65b9\u6cd5\u3002\u628a\u516c\u6bd4\u5199\u6210\u6700\u7b80\u5206\u6570\uff0cq\u5206\u4e4bp\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/68c26a14fc48eff9.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "\u6570\u5217\u662f\u9012\u589e\u7684\uff0c\u6240\u4ee5p\u6bd4q\u5927\u3002",
+     "caption": "\u6570\u5217\u662f\u9012\u589e\u7684\uff0c\u6240\u4ee5p\u6bd4q\u5927\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/ac0dffebfe93dad1.wav",
+     "from": 207,
+     "frames": 134
+    },
+    {
+     "text": "\u4ecec\u5f80\u56de\u63a8\uff0ca\u7b49\u4e8e144\u4e58q\u7684\u5e73\u65b9\uff0c\u518d\u9664\u4ee5p\u7684\u5e73\u65b9\u3002",
+     "caption": "\u4ecec\u5f80\u56de\u63a8\uff0ca\u7b49\u4e8e144\u4e58q\u7684\u5e73\u65b9\uff0c\u518d\u9664\u4ee5p\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/bf6f5f428cfdb23f.wav",
+     "from": 351,
+     "frames": 242
+    },
+    {
+     "text": "q\u7684\u5e73\u65b9\u548cp\u7684\u5e73\u65b9\u6ca1\u6709\u516c\u56e0\u6570\uff0c\u6240\u4ee5p\u7684\u5e73\u65b9\u4e00\u5b9a\u80fd\u6574\u9664144\u3002",
+     "caption": "q\u7684\u5e73\u65b9\u548cp\u7684\u5e73\u65b9\u6ca1\u6709\u516c\u56e0\u6570\uff0c\u6240\u4ee5p\u7684\u5e73\u65b9\u4e00\u5b9a\u80fd\u6574\u9664144\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/b96543808dc8392d.wav",
+     "from": 602,
+     "frames": 239
+    },
+    {
+     "text": "\u80fd\u6574\u9664144\u3001\u53c8\u5927\u4e8e1\u7684\u5e73\u65b9\u6570\u6709\uff1a\u56db\u3001\u4e5d\u3001\u5341\u516d\u3001\u4e09\u5341\u516d\u548c\u4e00\u767e\u56db\u5341\u56db\u3002",
+     "caption": "\u80fd\u6574\u9664144\u3001\u53c8\u5927\u4e8e1\u7684\u5e73\u65b9\u6570\u6709\uff1a4\u30019\u300116\u300136\u548c144\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/9e6bbf21462d492f.wav",
+     "from": 852,
+     "frames": 296
+    },
+    {
+     "text": "\u6240\u4ee5p\u662f\u4e8c\u3001\u4e09\u3001\u56db\u3001\u516d\u6216\u5341\u4e8c\u3002",
+     "caption": "\u6240\u4ee5p\u662f2\u30013\u30014\u30016\u621612\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/1b4e88a8c33dc7dd.wav",
+     "from": 1157,
+     "frames": 183
+    },
+    {
+     "text": "\u5bf9\u6bcf\u4e2ap\uff0cq\u53ef\u4ee5\u53d6\u6bd4\u5b83\u5c0f\u3001\u5e76\u4e14\u548c\u5b83\u6ca1\u6709\u516c\u56e0\u6570\u7684\u6570\u3002",
+     "caption": "\u5bf9\u6bcf\u4e2ap\uff0cq\u53ef\u4ee5\u53d6\u6bd4\u5b83\u5c0f\u3001\u5e76\u4e14\u548c\u5b83\u6ca1\u6709\u516c\u56e0\u6570\u7684\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/ef4b8e9f46fb207c.wav",
+     "from": 1350,
+     "frames": 202
+    },
+    {
+     "text": "\u4e00\u52a0\u4e8c\u52a0\u4e8c\u52a0\u4e8c\u52a0\u56db\uff0c\u4e00\u5171\u662f11\u4e2a\uff0c\u548c\u521a\u624d\u4e00\u6837\uff01",
+     "caption": "1\u52a02\u52a02\u52a02\u52a04\uff0c\u4e00\u5171\u662f11\u4e2a\uff0c\u548c\u521a\u624d\u4e00\u6837\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/11b1bf4369ffa452.wav",
+     "from": 1562,
+     "frames": 232
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u5f53c\u4e0d\u662f\u5b8c\u5168\u5e73\u65b9\u6570\u7684\u65f6\u5019\u3002\u8fd9\u4e2a\u65b9\u6cd5\u5bf9\u4efb\u4f55c\u90fd\u7ba1\u7528\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u5f53c\u4e0d\u662f\u5b8c\u5168\u5e73\u65b9\u6570\u7684\u65f6\u5019\u3002\u8fd9\u4e2a\u65b9\u6cd5\u5bf9\u4efb\u4f55c\u90fd\u7ba1\u7528\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/186fbe2f79597dbe.wav",
+     "from": 1804,
+     "frames": 278
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7863,
+   "frames": 1304,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u9009\u9879D\u662f12\uff0c\u5b83\u628a\u4e09\u4e2a\u6570\u90fd\u662f144\u7684\u90a3\u7ec4\u4e5f\u7b97\u8fdb\u53bb\u4e86\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u9677\u9631\u3002\u9009\u9879D\u662f12\uff0c\u5b83\u628a\u4e09\u4e2a\u6570\u90fd\u662f144\u7684\u90a3\u7ec4\u4e5f\u7b97\u8fdb\u53bb\u4e86\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/3f590c1fc42af10c.wav",
+     "from": 0,
+     "frames": 252
+    },
+    {
+     "text": "\u53ef\u662f\u5b83\u5e76\u4e0d\u9012\u589e\uff01",
+     "caption": "\u53ef\u662f\u5b83\u5e76\u4e0d\u9012\u589e\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/bb5c7bac4727ad65.wav",
+     "from": 262,
+     "frames": 74
+    },
+    {
+     "text": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f\u5341\u56db\uff0c\u8fd9\u662f\u4ee5\u4e3a144\u7684\u6bcf\u4e2a\u56e0\u6570\u90fd\u80fd\u5f53\u7b2c\u4e00\u4e2a\u6570\u3002",
+     "caption": "\u6700\u540e\u4e00\u4e2a\u9009\u9879\u662f14\uff0c\u8fd9\u662f\u4ee5\u4e3a144\u7684\u6bcf\u4e2a\u56e0\u6570\u90fd\u80fd\u5f53\u7b2c\u4e00\u4e2a\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/7c55a8bd3a926ea6.wav",
+     "from": 346,
+     "frames": 216
+    },
+    {
+     "text": "\u4f46\u5982\u679ca\u662f2\uff0cb\u7684\u5e73\u65b9\u5c31\u662f288\u3002\u5b83\u4e0d\u662f\u5e73\u65b9\u6570\uff01",
+     "caption": "\u4f46\u5982\u679ca\u662f2\uff0cb\u7684\u5e73\u65b9\u5c31\u662f288\u3002\u5b83\u4e0d\u662f\u5e73\u65b9\u6570\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/40ee067887900582.wav",
+     "from": 572,
+     "frames": 220
+    },
+    {
+     "text": "\u9009\u9879A\u548cB\u662f9\u548c10\uff0c\u8fd9\u662f\u6f0f\u6389\u4e86\u50cf11\u5206\u4e4b12\u8fd9\u6837\u7684\u5206\u6570\u516c\u6bd4\u3002",
+     "caption": "\u9009\u9879A\u548cB\u662f9\u548c10\uff0c\u8fd9\u662f\u6f0f\u6389\u4e86\u50cf11\u5206\u4e4b12\u8fd9\u6837\u7684\u5206\u6570\u516c\u6bd4\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/92d02f3451c513f5.wav",
+     "from": 802,
+     "frames": 257
+    },
+    {
+     "text": "\u628ak\u4ece1\u523011\u4e00\u4e2a\u4e00\u4e2a\u6570\uff0c\u5c31\u4e00\u4e2a\u4e5f\u4e0d\u4f1a\u6f0f\u3002",
+     "caption": "\u628ak\u4ece1\u523011\u4e00\u4e2a\u4e00\u4e2a\u6570\uff0c\u5c31\u4e00\u4e2a\u4e5f\u4e0d\u4f1a\u6f0f\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/413a0af683bac591.wav",
+     "from": 1070,
+     "frames": 174
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u7ed3\u5c3e\u662f72",
+   "from": 9167,
+   "frames": 420,
+   "lines": [
+    {
+     "text": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u9053\u9898\uff0c\u4e0d\u8fc7\u73b0\u5728c\u7b49\u4e8e72\u3002",
+     "caption": "\u51c6\u5907\u597d\u6311\u6218\u4e86\u5417\uff1f\u8fd8\u662f\u8fd9\u9053\u9898\uff0c\u4e0d\u8fc7\u73b0\u5728c\u7b49\u4e8e72\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/4bbd588428165754.wav",
+     "from": 0,
+     "frames": 195
+    },
+    {
+     "text": "\u6ce8\u610f\uff1a72\u4e0d\u662f\u5b8c\u5168\u5e73\u65b9\u6570\uff01\u8fd9\u6837\u7684\u6570\u5217\u6709\u591a\u5c11\u4e2a\uff1f",
+     "caption": "\u6ce8\u610f\uff1a72\u4e0d\u662f\u5b8c\u5168\u5e73\u65b9\u6570\uff01\u8fd9\u6837\u7684\u6570\u5217\u6709\u591a\u5c11\u4e2a\uff1f",
+     "file": "2026-10-31-geometric-144-zh/audio/5a54d8b0b459f303.wav",
+     "from": 205,
+     "frames": 177
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9587,
+   "frames": 474,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\u8bd5\u4e00\u8bd5\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u52a0\u6cb9\u8bd5\u4e00\u8bd5\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/d7828638c2ed0700.wav",
+     "from": 0,
+     "frames": 90
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u7ed3\u5c3e\u662f72\uff1a\u7b54\u6848",
+   "from": 10061,
+   "frames": 1977,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u6765\u9a8c\u8bc1\u3002\u540c\u6837\uff0cb\u7684\u5e73\u65b9\u7b49\u4e8e72\u4e58a\u3002",
+     "caption": "\u6211\u4eec\u6765\u9a8c\u8bc1\u3002\u540c\u6837\uff0cb\u7684\u5e73\u65b9\u7b49\u4e8e72\u4e58a\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/8e59d73abd4eb6dd.wav",
+     "from": 0,
+     "frames": 173
+    },
+    {
+     "text": "72\u7b49\u4e8e36\u4e582\uff0c\u800c36\u662f\u5e73\u65b9\u6570\u3002",
+     "caption": "72\u7b49\u4e8e36\u4e582\uff0c\u800c36\u662f\u5e73\u65b9\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/bbbcc1492ff2bf05.wav",
+     "from": 183,
+     "frames": 156
+    },
+    {
+     "text": "\u6240\u4ee5b\u9664\u4ee56\uff0c\u518d\u5e73\u65b9\uff0c\u7b49\u4e8e2\u4e58a\u3002\u4e5f\u5c31\u662f\u8bf4\uff0c2\u4e58a\u662f\u5b8c\u5168\u5e73\u65b9\u6570\u3002",
+     "caption": "\u6240\u4ee5b\u9664\u4ee56\uff0c\u518d\u5e73\u65b9\uff0c\u7b49\u4e8e2\u4e58a\u3002\u4e5f\u5c31\u662f\u8bf4\uff0c2\u4e58a\u662f\u5b8c\u5168\u5e73\u65b9\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/b5344e6abdfd3f01.wav",
+     "from": 350,
+     "frames": 300
+    },
+    {
+     "text": "2\u4e58a\u4e00\u5b9a\u662f\u5076\u6570\uff0c\u56e0\u6b64\u8fd9\u4e2a\u5e73\u65b9\u6570\u4e5f\u662f\u5076\u6570\uff1a\u56db\u3001\u5341\u516d\u3001\u4e09\u5341\u516d\u3001\u516d\u5341\u56db\u3001\u4e00\u767e\u3002",
+     "caption": "2\u4e58a\u4e00\u5b9a\u662f\u5076\u6570\uff0c\u56e0\u6b64\u8fd9\u4e2a\u5e73\u65b9\u6570\u4e5f\u662f\u5076\u6570\uff1a4\u300116\u300136\u300164\u3001100\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/44c9cfa09d1438f9.wav",
+     "from": 660,
+     "frames": 363
+    },
+    {
+     "text": "\u6240\u4ee5a\u662f\u4e8c\u3001\u516b\u3001\u5341\u516b\u3001\u4e09\u5341\u4e8c\u6216\u4e94\u5341\u3002",
+     "caption": "\u6240\u4ee5a\u662f2\u30018\u300118\u300132\u621650\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/f9064bd9daf2366b.wav",
+     "from": 1033,
+     "frames": 204
+    },
+    {
+     "text": "\u7b2c\u4e00\u7ec4\u662f\u4e8c\u3001\u5341\u4e8c\u3001\u4e03\u5341\u4e8c\uff0c\u6700\u540e\u4e00\u7ec4\u662f\u4e94\u5341\u3001\u516d\u5341\u3001\u4e03\u5341\u4e8c\u3002",
+     "caption": "\u7b2c\u4e00\u7ec4\u662f2\u300112\u300172\uff0c\u6700\u540e\u4e00\u7ec4\u662f50\u300160\u300172\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/95f59bfc2f585d8f.wav",
+     "from": 1248,
+     "frames": 304
+    },
+    {
+     "text": "\u4e0b\u4e00\u7ec4\u5c31\u662f\u4e03\u5341\u4e8c\u3001\u4e03\u5341\u4e8c\u3001\u4e03\u5341\u4e8c\u4e86\u3002\u4e0d\u662f\u9012\u589e\uff01",
+     "caption": "\u4e0b\u4e00\u7ec4\u5c31\u662f72\u300172\u300172\u4e86\u3002\u4e0d\u662f\u9012\u589e\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/7a8d25c539fbb425.wav",
+     "from": 1562,
+     "frames": 153
+    },
+    {
+     "text": "\u6240\u4ee5\u4e00\u5171\u67095\u4e2a\u6570\u5217\u3002\u5982\u679c\u4f60\u7b97\u51fa\u4e865\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u6240\u4ee5\u4e00\u5171\u67095\u4e2a\u6570\u5217\u3002\u5982\u679c\u4f60\u7b97\u51fa\u4e865\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/60331a255d8140a6.wav",
+     "from": 1725,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 12038,
+   "frames": 843,
+   "lines": [
+    {
+     "text": "\u6765\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "caption": "\u6765\u8bb0\u4f4f\u8fd9\u4e2a\u6838\u5fc3\u601d\u8def\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/67011fa2e4990ca7.wav",
+     "from": 0,
+     "frames": 89
+    },
+    {
+     "text": "\u5728\u7b49\u6bd4\u6570\u5217\u91cc\uff0c\u4e2d\u95f4\u7684\u6570\u4e58\u81ea\u5df1\uff0c\u7b49\u4e8e\u4e24\u8fb9\u7684\u6570\u76f8\u4e58\u3002",
+     "caption": "\u5728\u7b49\u6bd4\u6570\u5217\u91cc\uff0c\u4e2d\u95f4\u7684\u6570\u4e58\u81ea\u5df1\uff0c\u7b49\u4e8e\u4e24\u8fb9\u7684\u6570\u76f8\u4e58\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/89c75c3e036aa0bc.wav",
+     "from": 100,
+     "frames": 192
+    },
+    {
+     "text": "\u6240\u4ee5a\u4e58c\u4e00\u5b9a\u662f\u5b8c\u5168\u5e73\u65b9\u6570\u3002",
+     "caption": "\u6240\u4ee5a\u4e58c\u4e00\u5b9a\u662f\u5b8c\u5168\u5e73\u65b9\u6570\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/a0680991d9a35e48.wav",
+     "from": 302,
+     "frames": 136
+    },
+    {
+     "text": "\u628a\u6240\u6709\u60c5\u51b5\u90fd\u627e\u51fa\u6765\uff0c\u6570\u5217\u4e00\u4e0d\u518d\u9012\u589e\u5c31\u505c\u4e0b\u3002",
+     "caption": "\u628a\u6240\u6709\u60c5\u51b5\u90fd\u627e\u51fa\u6765\uff0c\u6570\u5217\u4e00\u4e0d\u518d\u9012\u589e\u5c31\u505c\u4e0b\u3002",
+     "file": "2026-10-31-geometric-144-zh/audio/4869116878ed5daa.wav",
+     "from": 448,
+     "frames": 167
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63d0\u5347\u4f60\u7684\u6570\u5b66\u672c\u9886\uff0c\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63d0\u5347\u4f60\u7684\u6570\u5b66\u672c\u9886\uff0c\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-geometric-144-zh/audio/ce9bcc65b1604629.wav",
+     "from": 626,
+     "frames": 134
+    }
+   ]
+  }
+ ]
+}

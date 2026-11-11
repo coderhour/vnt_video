@@ -1,20 +1,40 @@
 {
- "title": "Which Numbers Are Sums of Consecutive Numbers? | AMC 8-Style Level 5",
- "description": "Nine is four plus five, and ten is one plus two plus three plus four. But a few numbers refuse to be built this way! Vantee fills in a 1 to 50 board run by run, then uses blocks to show why only the powers of two fail, and gives you a 1 to 100 version to try yourself.\n\n0:00 Intro\n0:19 The question\n0:38 What are we asked?\n1:03 Try it yourself\n1:18 Solution 1: fill in the board\n2:58 Solution 2: the odd factor rule\n4:57 Common traps\n5:36 Your turn: one to one hundred\n6:00 One to one hundred: the answer\n6:34 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 8 Practice: Sums of Consecutive Numbers — Which Ones Fail?",
+ "description": "AMC 8 practice problem on which numbers from 1 to 50 can be written as a sum of consecutive whole numbers, solved with a number board. (Level 5 of 5)\nNine is four plus five, and ten is one plus two plus three plus four. But a few numbers refuse to be built this way! Vantee fills in a 1 to 50 board run by run, then uses blocks to show why only the powers of two fail, and gives you a 1 to 100 version to try yourself.\n\n0:00 Intro\n0:19 The question\n0:38 What are we asked?\n1:03 Try it yourself\n1:18 Solution 1: fill in the board\n2:58 Solution 2: the odd factor rule\n4:57 Common traps\n5:36 Your turn: one to one hundred\n6:00 One to one hundred: the answer\n6:34 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc8_mock_test_template:c2-274",
- "posts": [],
+ "posts": [
+  {
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=8JIa16eVBwo",
+   "published_at": "2026-11-10T11:30:00-08:00",
+   "scheduled_at": "2026-11-10T09:15:26-08:00"
+  }
+ ],
  "short": {
   "title": "Which numbers can't be built? #Shorts",
   "description": "Nine is 4+5, ten is 1+2+3+4. But a few numbers can never be a sum of neighbours. Which ones?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc8 #mathpuzzle",
-  "posts": [],
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/ivl4w-XeCEY",
+    "published_at": "2026-11-11T11:30:00-08:00",
+    "scheduled_at": "2026-11-10T09:15:31-08:00"
+   }
+  ],
   "challenge": 5,
   "tags": [
    "AMC 8",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
+  ],
+  "youtube_id": "ivl4w-XeCEY",
+  "playlist_id": "PLMmhAusDs0A4"
  },
- "status": "ready"
+ "status": "ready",
+ "pinned_comment": "How many numbers from 1 to 50 are a sum of 2 or more consecutive whole numbers? Comment your answer before you watch the solution!",
+ "youtube_id": "8JIa16eVBwo",
+ "thumbnail": "set",
+ "playlist_id": "PLfp4UvKbIIC8"
 }

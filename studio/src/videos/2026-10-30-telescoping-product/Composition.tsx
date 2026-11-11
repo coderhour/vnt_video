@@ -6,6 +6,7 @@ import { PACIFICO } from '../../lib/fonts';
 import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
+import { ThumbFrame } from '../../lib/Thumb';
 import { C } from '../../lib/theme';
 
 export const SLUG = '2026-10-30-telescoping-product';
@@ -516,3 +517,20 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 5" /> : null;
+
+// YouTube thumbnail (`2026-10-30-telescoping-product-thumb`, render.sh → poster.jpg): the question in a few words + the four brackets, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={["Find the", <span style={{ color: C.primary }}>product</span>]}>
+    <div style={{ width: '100%', height: '100%', background: C.card, borderRadius: 36, boxShadow: '0 8px 28px rgba(30,40,80,0.07)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 24 }}>
+      <div style={{ display: 'flex', gap: 16 }}>
+        <Tex tex={br('+', '2')} size={52} />
+        <Tex tex={br('+', '4')} size={52} />
+      </div>
+      <div style={{ display: 'flex', gap: 16 }}>
+        <Tex tex={br('+', '16')} size={52} />
+        <Tex tex={br('+', '256')} size={52} />
+      </div>
+      <Tex tex={'= \\,?'} size={110} color={C.red} />
+    </div>
+  </ThumbFrame>
+);

@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Incircle and Cevians — Where Do They Cross?",
+ "description": "AMC 10 practice problem on the incircle of a 13-14-15 triangle and the ratio where two lines cross, solved with mass points and similar triangles. (Level 4 of 5)\nTwo lines cross inside a triangle's incircle. Where? Most kids grab the tempting 2 to 1, but it's a trap!\nVantee shows two ways to solve it, equal tangents with mass points and a parallel line with similar triangles, plus a 3-4-5 triangle for you to try.\n\n0:00 Intro\n0:20 The question\n0:44 What are we asked?\n0:59 Try it yourself\n1:14 Step 1: equal tangents\n2:17 Solution 1: mass points\n3:33 Solution 2: a parallel line\n4:27 Common traps\n5:16 Your turn: a 3-4-5 triangle\n5:48 3-4-5: the answer\n6:32 Recap",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_geometry_template:c2-019",
+ "posts": [],
+ "short": {
+  "title": "Where Do These Lines Cross? It's NOT 2:1 #Shorts",
+  "description": "A 13-14-15 triangle, its inner circle, and two lines that cross at P. Is AP : PD really 2 : 1? Balance the corners like seesaws and see.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 23,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "13-14-15 triangle, two lines to the incircle's touch points. What is AP : PD? Comment your answer before you watch!"
+}

@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-pizza-pasta-soup';
 export const TICK = staticFile(`${SLUG}/sfx/fs-668355.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -504,3 +505,18 @@ const SCENES: Record<string, SceneComponent> = {
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 8-style · Level 4" /> : null;
+
+// YouTube thumbnail (`2026-10-31-pizza-pasta-soup-thumb`, render.sh -> poster.jpg): the trap + a three-circle Venn with pizza, pasta, soup, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 8 Practice" lines={['Think it\u2019s', <span style={{ color: C.red }}>16?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <circle cx={250} cy={230} r={190} fill={C.red} fillOpacity={0.22} stroke={C.red} strokeWidth={7} />
+      <circle cx={430} cy={230} r={190} fill={C.amber} fillOpacity={0.25} stroke={C.amber} strokeWidth={7} />
+      <circle cx={340} cy={385} r={190} fill={C.primary} fillOpacity={0.22} stroke={C.primary} strokeWidth={7} />
+      <text x={170} y={175} fontSize={110} textAnchor="middle">🍕</text>
+      <text x={510} y={175} fontSize={110} textAnchor="middle">🍝</text>
+      <text x={340} y={520} fontSize={110} textAnchor="middle">🍲</text>
+      <text x={340} y={620} textAnchor="middle" fontWeight={900} fontSize={60} fill={C.ink}>24 kids</text>
+    </svg>
+  </ThumbFrame>
+);

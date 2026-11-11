@@ -8,6 +8,7 @@ import { SignOff } from '../../lib/Brand';
 import { Tex } from '../../lib/Tex';
 import { Answer, Check, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-11-01-incircle-radius-4';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -802,12 +803,23 @@ const SCENES: Record<string, SceneComponent> = {
   factor: Factor,
   traps: Traps,
   variant: Variant,
-  try2: makePause(12, 'Radius 3: biggest perimeter?', V(6, 6), ['3', '4']),
+  try2: makePause(10, 'Radius 3: biggest perimeter?', V(6, 6), ['3', '4']),
   'variant-answer': VA,
   recap: Recap,
 };
 
 export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
   timeline ? <Explainer timeline={timeline} scenes={SCENES} badge="AMC 10-style · Level 4" /> : null;
+
+// YouTube thumbnail (`<slug>-thumb`, render.sh → poster.jpg): the trap + the intro's triangle, no answer.
+export const Thumb: React.FC = () => (
+  <ThumbFrame chip="AMC 10 Practice" lines={["Think it's", <span style={{ color: C.red }}>81?</span>]}>
+    <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+      <Fig g={Q(7, 8)} m={view(60, 560, 40)}>
+        <Radius g={Q(7, 8)} m={view(60, 560, 40)} o={1} label="4" />
+      </Fig>
+    </svg>
+  </ThumbFrame>
+);
 
 export type { Scene };

@@ -1,6 +1,6 @@
 {
- "title": "How Many Circles Through Nine Dots? | AMC 10-Style Level 5",
- "description": "Nine dots in a 3 by 3 grid. How many different circles pass through at least three of them? Lots of kids say 76, but some circles get counted again and again! Vantee shows how to count groups of three and then fix the repeats, checks the answer a second way, and gives you an eight-point puzzle to try.\n\n0:00 Intro\n0:18 The question\n0:36 What are we asked?\n1:00 Try it yourself\n1:14 Solution 1: count groups of three\n3:32 Solution 2: two piles\n4:48 Common traps\n5:21 Your turn: eight points\n5:47 Eight points: the answer\n6:37 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 10 Practice: Circles Through Grid Points — Can You Count Them?",
+ "description": "AMC 10 practice problem on counting circles through points of a 3 by 3 grid, solved by counting triples and fixing the repeats. (Level 5 of 5)\nNine dots in a 3 by 3 grid. How many different circles pass through at least three of them? Lots of kids say 76, but some circles get counted again and again! Vantee shows how to count groups of three and then fix the repeats, checks the answer a second way, and gives you an eight-point puzzle to try.\n\n0:00 Intro\n0:18 The question\n0:36 What are we asked?\n1:00 Try it yourself\n1:14 Solution 1: count groups of three\n3:32 Solution 2: two piles\n4:48 Common traps\n5:21 Your turn: eight points\n5:47 Eight points: the answer\n6:37 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc10_geometry_template:c2-035",
  "posts": [
@@ -32,5 +32,7 @@
  },
  "status": "ready",
  "youtube_id": "9wHjleaSe_Y",
- "playlist_id": "PLbrpe4TxLJvg"
+ "playlist_id": "PLbrpe4TxLJvg",
+ "pinned_comment": "How many different circles pass through at least 3 of the 9 dots in a 3×3 grid? Comment your answer before you watch the solution!",
+ "thumbnail": "set"
 }

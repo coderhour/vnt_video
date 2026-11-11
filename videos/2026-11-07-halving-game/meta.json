@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Winning Strategy in a Number Game — Who Wins?",
+ "description": "AMC 10 practice problem on a two-player number game (subtract 1 or halve), solved with a table of winning positions and a counting trick. (Level 4 of 5)\nTwo players, one number, and a race to write zero. For how many starting numbers can the second player always win?\n\nWe build a table, spot the pattern, prove it, and then count two ways, including a slick doubling trick. Try the bigger challenge at the end!\n\n0:00 Intro\n0:13 The question\n0:35 What are we asked?\n0:47 Try it yourself\n1:02 Solution 1: build a table\n2:33 Solution 1: why it works\n3:26 Solution 1: count them\n4:03 Solution 2: the doubling trick\n4:59 Common traps\n5:42 Your turn: one to two hundred\n6:04 Two hundred: the answer\n6:38 Recap",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_mock_test_template:c2-100",
+ "posts": [],
+ "short": {
+  "title": "Think it's 50? Every even number loses... right? #Shorts",
+  "description": "Take away 1 or halve it. Whoever writes 0 wins. For how many starting numbers from 1 to 100 can the second player always win? The secret is counting the 2s.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 22,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "Take away 1 or halve it; whoever writes 0 wins. For how many starts from 1 to 100 does player 2 win? Comment your answer before you watch!"
+}

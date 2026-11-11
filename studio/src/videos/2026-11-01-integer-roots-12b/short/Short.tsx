@@ -69,17 +69,20 @@ const Grid: React.FC<{ text?: number[]; hot?: number; ring?: number; labels?: nu
 
 const Hook: SceneComponent = ({ scene }) => {
   const f = useCurrentFrame();
-  const nope = at(scene, 0, 0.84);
+  const nope = at(scene, 0, 0.78);
   return (
     <>
       <div style={{ position: 'absolute', left: 0, width: 1080, top: 280, display: 'flex', justifyContent: 'center' }}>
-        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10 · Challenge #8</div>
+        <div style={{ background: C.violet, color: '#fff', borderRadius: 999, padding: '10px 40px', fontSize: 52, fontWeight: 900 }}>AMC 10B prep · Challenge #8</div>
       </div>
       <Text x={540} y={385} w={1000} size={96} weight={900} align="center">
         Think it's <span style={{ color: C.red }}>8</span>?
       </Text>
+      <div style={{ position: 'absolute', left: 0, width: 1080, top: 512, display: 'flex', justifyContent: 'center' }}>
+        <Tex tex="x^2+bx+12b=0" size={60} />
+      </div>
       <PushIn frames={scene.frames} origin="545px 880px">
-        <Grid />
+        <Grid labels={0} />
       </PushIn>
       <Sfx at={nope} src={SFX.buzz} volume={0.35} />
       <div style={{ position: 'absolute', left: 0, width: 1080, top: 780, display: 'flex', justifyContent: 'center', opacity: ease(f, nope, 4) }}>

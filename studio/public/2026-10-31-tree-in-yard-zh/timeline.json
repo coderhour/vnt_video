@@ -1,0 +1,478 @@
+{
+ "fps": 30,
+ "durationInFrames": 12529,
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "scene",
+   "chapter": "\u5f00\u573a",
+   "from": 0,
+   "frames": 718,
+   "lines": [
+    {
+     "text": "\u9662\u5b50\u8fb9\u4e0a\u6709\u4e00\u68f5\u6811\u3002\u8fd9\u68f5\u6811\u5230\u9662\u5b50\u7684\u4e00\u4e2a\u89d2\uff0c\u548c\u5230\u53e6\u4e00\u4e2a\u89d2\uff0c\u8ddd\u79bb\u6b63\u597d\u76f8\u7b49\u3002",
+     "caption": "\u9662\u5b50\u8fb9\u4e0a\u6709\u4e00\u68f5\u6811\u3002\u8fd9\u68f5\u6811\u5230\u9662\u5b50\u7684\u4e00\u4e2a\u89d2\uff0c\u548c\u5230\u53e6\u4e00\u4e2a\u89d2\uff0c\u8ddd\u79bb\u6b63\u597d\u76f8\u7b49\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/3a235879e24965bb.wav",
+     "from": 0,
+     "frames": 279
+    },
+    {
+     "text": "\u8fd9\u68f5\u6811\u5230\u5e95\u5728\u54ea\u91cc\uff1f\u9662\u5b50\u91cc\u85cf\u7740\u4e00\u4e2a\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u8fd9\u4e2a\u4e09\u89d2\u5f62\u4f1a\u544a\u8bc9\u6211\u4eec\u3002",
+     "caption": "\u8fd9\u68f5\u6811\u5230\u5e95\u5728\u54ea\u91cc\uff1f\u9662\u5b50\u91cc\u85cf\u7740\u4e00\u4e2a\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u8fd9\u4e2a\u4e09\u89d2\u5f62\u4f1a\u544a\u8bc9\u6211\u4eec\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/309e53f50ade6d4d.wav",
+     "from": 289,
+     "frames": 248
+    },
+    {
+     "text": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u8fd9\u68f5\u6811\u627e\u51fa\u6765\u3002",
+     "caption": "\u4f60\u597d\uff0c\u6211\u662fVantee\uff01\u6211\u4eec\u4e00\u8d77\u628a\u8fd9\u68f5\u6811\u627e\u51fa\u6765\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/fa1c46009becd5fa.wav",
+     "from": 547,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee",
+   "from": 718,
+   "frames": 839,
+   "lines": [
+    {
+     "text": "\u6765\u770b\u9898\u76ee\u3002",
+     "caption": "\u6765\u770b\u9898\u76ee\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/c15d7cbd559ffe3f.wav",
+     "from": 0,
+     "frames": 41
+    },
+    {
+     "text": "\u957f\u65b9\u5f62\u9662\u5b50ABCD\uff0cAB\u957f16\u7c73\uff0cBC\u957f8\u7c73\u3002",
+     "caption": "\u957f\u65b9\u5f62\u9662\u5b50ABCD\uff0cAB\u957f16\u7c73\uff0cBC\u957f8\u7c73\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/b59727b6020fa7e1.wav",
+     "from": 51,
+     "frames": 218
+    },
+    {
+     "text": "\u8fb9AB\u4e0a\u7684\u70b9E\u5904\u6709\u4e00\u68f5\u6811\uff0c",
+     "caption": "\u8fb9AB\u4e0a\u7684\u70b9E\u5904\u6709\u4e00\u68f5\u6811\uff0c",
+     "file": "2026-10-31-tree-in-yard-zh/audio/fa20a1ad252d6264.wav",
+     "from": 279,
+     "frames": 125
+    },
+    {
+     "text": "\u8fd9\u68f5\u6811\u5230A\u7684\u8ddd\u79bb\uff0c\u548c\u5230C\u7684\u8ddd\u79bb\u76f8\u7b49\u3002",
+     "caption": "\u8fd9\u68f5\u6811\u5230A\u7684\u8ddd\u79bb\uff0c\u548c\u5230C\u7684\u8ddd\u79bb\u76f8\u7b49\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/6fd95cc1a85e8202.wav",
+     "from": 414,
+     "frames": 141
+    },
+    {
+     "text": "\u8fd9\u68f5\u6811\u79bbA\u6709\u591a\u5c11\u7c73\uff1f",
+     "caption": "\u8fd9\u68f5\u6811\u79bbA\u6709\u591a\u5c11\u7c73\uff1f",
+     "file": "2026-10-31-tree-in-yard-zh/audio/ae1d73eef2a8ff3f.wav",
+     "from": 565,
+     "frames": 99
+    },
+    {
+     "text": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "caption": "\u4e0b\u9762\u662f\u4e94\u4e2a\u9009\u9879\uff0c\u4ed4\u7ec6\u770b\u4e00\u770b\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/20527127f646b1cc.wav",
+     "from": 674,
+     "frames": 96
+    }
+   ]
+  },
+  {
+   "id": "asked",
+   "kind": "scene",
+   "chapter": "\u9898\u76ee\u95ee\u7684\u662f\u4ec0\u4e48\uff1f",
+   "from": 1557,
+   "frames": 635,
+   "lines": [
+    {
+     "text": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1fE\u5230A\u7684\u8ddd\u79bb\uff0c\u7b49\u4e8eE\u5230C\u7684\u8ddd\u79bb\u3002",
+     "caption": "\u6211\u4eec\u77e5\u9053\u4ec0\u4e48\uff1fE\u5230A\u7684\u8ddd\u79bb\uff0c\u7b49\u4e8eE\u5230C\u7684\u8ddd\u79bb\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/e0660ff5c7ebe3f6.wav",
+     "from": 0,
+     "frames": 186
+    },
+    {
+     "text": "EA\u6cbf\u7740\u5e95\u8fb9\u3002EC\u662f\u659c\u7684\uff0cEC\u548c\u9876\u70b9B\u4e00\u8d77\uff0c\u7ec4\u6210\u4e00\u4e2a\u76f4\u89d2\u4e09\u89d2\u5f62\u3002",
+     "caption": "EA\u6cbf\u7740\u5e95\u8fb9\u3002EC\u662f\u659c\u7684\uff0cEC\u548c\u9876\u70b9B\u4e00\u8d77\uff0c\u7ec4\u6210\u4e00\u4e2a\u76f4\u89d2\u4e09\u89d2\u5f62\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/00a103a9625f2876.wav",
+     "from": 196,
+     "frames": 297
+    },
+    {
+     "text": "\u6211\u4eec\u8981\u6c42\u7684\u662fEA\u3002",
+     "caption": "\u6211\u4eec\u8981\u6c42\u7684\u662fEA\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/491fd7597b259030.wav",
+     "from": 503,
+     "frames": 78
+    }
+   ]
+  },
+  {
+   "id": "try1",
+   "kind": "pause",
+   "chapter": "\u81ea\u5df1\u8bd5\u4e00\u8bd5",
+   "from": 2192,
+   "frames": 497,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "caption": "\u73b0\u5728\u8f6e\u5230\u4f60\u4e86\u3002\u6682\u505c\u89c6\u9891\uff0c\u81ea\u5df1\u8bd5\u4e00\u8bd5\u3002\u6211\u7b49\u4f60\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/bdbfc24fa644c2e9.wav",
+     "from": 0,
+     "frames": 173
+    }
+   ]
+  },
+  {
+   "id": "test",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e00\uff1a\u9010\u4e2a\u8bd5\u9009\u9879",
+   "from": 2689,
+   "frames": 1299,
+   "lines": [
+    {
+     "text": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u7528\u52fe\u80a1\u5b9a\u7406\uff0c\u628a\u6bcf\u4e2a\u9009\u9879\u90fd\u8bd5\u4e00\u8bd5\u3002",
+     "caption": "\u6b22\u8fce\u56de\u6765\uff01\u6211\u4eec\u7684\u7b56\u7565\u662f\uff1a\u7528\u52fe\u80a1\u5b9a\u7406\uff0c\u628a\u6bcf\u4e2a\u9009\u9879\u90fd\u8bd5\u4e00\u8bd5\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/48c3c6287e84cfd8.wav",
+     "from": 0,
+     "frames": 197
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62EBC\u5728B\u5904\u662f\u76f4\u89d2\u3002\u6240\u4ee5EB\u7684\u5e73\u65b9\u52a08\u7684\u5e73\u65b9\uff0c\u7b49\u4e8eEC\u7684\u5e73\u65b9\u3002",
+     "caption": "\u4e09\u89d2\u5f62EBC\u5728B\u5904\u662f\u76f4\u89d2\u3002\u6240\u4ee5EB\u7684\u5e73\u65b9\u52a08\u7684\u5e73\u65b9\uff0c\u7b49\u4e8eEC\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/6ce2eb5f6eaac176.wav",
+     "from": 207,
+     "frames": 309
+    },
+    {
+     "text": "\u800cEC\u5fc5\u987b\u7b49\u4e8eEA\u3002\u6240\u4ee5EB\u7684\u5e73\u65b9\u52a064\uff0c\u5fc5\u987b\u7b49\u4e8eEA\u7684\u5e73\u65b9\u3002",
+     "caption": "\u800cEC\u5fc5\u987b\u7b49\u4e8eEA\u3002\u6240\u4ee5EB\u7684\u5e73\u65b9\u52a064\uff0c\u5fc5\u987b\u7b49\u4e8eEA\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/c0bd3b8214eb7bfa.wav",
+     "from": 526,
+     "frames": 266
+    },
+    {
+     "text": "\u5148\u8ba9EA\u7b49\u4e8e6\u3002\u8fd9\u65f6EB\u662f10\uff0c10\u7684\u5e73\u65b9\u52a064\uff0c\u7b49\u4e8e164\u3002",
+     "caption": "\u5148\u8ba9EA\u7b49\u4e8e6\u3002\u8fd9\u65f6EB\u662f10\uff0c10\u7684\u5e73\u65b9\u52a064\uff0c\u7b49\u4e8e164\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/6415be02b98d1b7d.wav",
+     "from": 802,
+     "frames": 329
+    },
+    {
+     "text": "\u53ef\u662f6\u7684\u5e73\u65b9\u53ea\u670936\u3002",
+     "caption": "\u53ef\u662f6\u7684\u5e73\u65b9\u53ea\u670936\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/944a6ddc8eceb4fb.wav",
+     "from": 1141,
+     "frames": 105
+    }
+   ]
+  },
+  {
+   "id": "test2",
+   "kind": "scene",
+   "chapter": null,
+   "from": 3988,
+   "frames": 1330,
+   "lines": [
+    {
+     "text": "\u518d\u8ba9EA\u7b49\u4e8e8\u3002\u8fd9\u65f6EB\u662f8\uff0c8\u7684\u5e73\u65b9\u52a064\uff0c\u7b49\u4e8e128\u3002",
+     "caption": "\u518d\u8ba9EA\u7b49\u4e8e8\u3002\u8fd9\u65f6EB\u662f8\uff0c8\u7684\u5e73\u65b9\u52a064\uff0c\u7b49\u4e8e128\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/9598ed6a6a5858f2.wav",
+     "from": 0,
+     "frames": 243
+    },
+    {
+     "text": "\u53ef\u662f8\u7684\u5e73\u65b9\uff0c\u53ea\u670964\u3002",
+     "caption": "\u53ef\u662f8\u7684\u5e73\u65b9\uff0c\u53ea\u670964\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/a4ae01a7555bed4d.wav",
+     "from": 253,
+     "frames": 101
+    },
+    {
+     "text": "\u518d\u8ba9EA\u7b49\u4e8e10\u3002\u8fd9\u65f6EB\u662f6\u30026\u7684\u5e73\u65b9\u52a064\uff0c\u7b49\u4e8e100\u3002",
+     "caption": "\u518d\u8ba9EA\u7b49\u4e8e10\u3002\u8fd9\u65f6EB\u662f6\u30026\u7684\u5e73\u65b9\u52a064\uff0c\u7b49\u4e8e100\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/5bf7c93e31c5c527.wav",
+     "from": 365,
+     "frames": 282
+    },
+    {
+     "text": "\u800c10\u7684\u5e73\u65b9\u6b63\u597d\u662f100\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "caption": "\u800c10\u7684\u5e73\u65b9\u6b63\u597d\u662f100\u3002\u5bf9\u4e0a\u4e86\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/4b31930f00081d75.wav",
+     "from": 657,
+     "frames": 138
+    },
+    {
+     "text": "\u4e09\u89d2\u5f62EBC\u7684\u4e09\u6761\u8fb9\u662f\u516d\u3001\u516b\u3001\u5341\uff0c\u6240\u4ee5EC\u662f10\uff0c\u548cEA\u4e00\u6837\u957f\u3002",
+     "caption": "\u4e09\u89d2\u5f62EBC\u7684\u4e09\u6761\u8fb9\u662f6\u30018\u300110\uff0c\u6240\u4ee5EC\u662f10\uff0c\u548cEA\u4e00\u6837\u957f\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/fc44a16833e4b647.wav",
+     "from": 806,
+     "frames": 298
+    },
+    {
+     "text": "\u8fd9\u68f5\u6811\u79bbA\u670910\u7c73\u3002\u7b54\u6848\u662fC\uff01",
+     "caption": "\u8fd9\u68f5\u6811\u79bbA\u670910\u7c73\u3002\u7b54\u6848\u662fC\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/a27d497284737839.wav",
+     "from": 1114,
+     "frames": 148
+    }
+   ]
+  },
+  {
+   "id": "algebra",
+   "kind": "scene",
+   "chapter": "\u89e3\u6cd5\u4e8c\uff1a\u8bbe\u4e3ax",
+   "from": 5318,
+   "frames": 2165,
+   "lines": [
+    {
+     "text": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff0c\u5c31\u7b97\u6ca1\u6709\u9009\u9879\u4e5f\u4e0d\u6015\u3002\u628a\u8fd9\u6bb5\u8ddd\u79bb\u8bbe\u4e3ax\u3002",
+     "caption": "\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\uff0c\u5c31\u7b97\u6ca1\u6709\u9009\u9879\u4e5f\u4e0d\u6015\u3002\u628a\u8fd9\u6bb5\u8ddd\u79bb\u8bbe\u4e3ax\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/f5e766dc0bc0cfbc.wav",
+     "from": 0,
+     "frames": 192
+    },
+    {
+     "text": "\u90a3\u4e48EC\u4e5f\u662fx\uff0cEB\u662f16\u51cfx\u3002",
+     "caption": "\u90a3\u4e48EC\u4e5f\u662fx\uff0cEB\u662f16\u51cfx\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/6b447a4f051fb707.wav",
+     "from": 203,
+     "frames": 179
+    },
+    {
+     "text": "\u76f4\u89d2\u4e09\u89d2\u5f62\u544a\u8bc9\u6211\u4eec\uff1a16\u51cfx\u7684\u5dee\u7684\u5e73\u65b9\uff0c\u52a0\u4e0a8\u7684\u5e73\u65b9\uff0c\u7b49\u4e8ex\u7684\u5e73\u65b9\u3002",
+     "caption": "\u76f4\u89d2\u4e09\u89d2\u5f62\u544a\u8bc9\u6211\u4eec\uff1a16\u51cfx\u7684\u5dee\u7684\u5e73\u65b9\uff0c\u52a0\u4e0a8\u7684\u5e73\u65b9\uff0c\u7b49\u4e8ex\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/78c95ded6f7aebdb.wav",
+     "from": 392,
+     "frames": 267
+    },
+    {
+     "text": "16\u51cfx\uff0c\u4e58\u4ee516\u51cfx\uff0c\u7b49\u4e8e256\uff0c\u51cf16x\uff0c\u518d\u51cf16x\uff0c\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "caption": "16\u51cfx\uff0c\u4e58\u4ee516\u51cfx\uff0c\u7b49\u4e8e256\uff0c\u51cf16x\uff0c\u518d\u51cf16x\uff0c\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/3f7ef6e8ede8f737.wav",
+     "from": 669,
+     "frames": 377
+    },
+    {
+     "text": "\u6240\u4ee516\u51cfx\u7684\u5dee\u7684\u5e73\u65b9\uff0c\u5c55\u5f00\u5c31\u662f256\u51cf32x\uff0c\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "caption": "\u6240\u4ee516\u51cfx\u7684\u5dee\u7684\u5e73\u65b9\uff0c\u5c55\u5f00\u5c31\u662f256\u51cf32x\uff0c\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/da930817191ca3d8.wav",
+     "from": 1056,
+     "frames": 287
+    },
+    {
+     "text": "\u518d\u52a0\u4e0a64\u3002\u8fd9\u65f6\u7b49\u53f7\u4e24\u8fb9\u90fd\u6709x\u7684\u5e73\u65b9\uff0c\u6b63\u597d\u6d88\u6389\u3002",
+     "caption": "\u518d\u52a0\u4e0a64\u3002\u8fd9\u65f6\u7b49\u53f7\u4e24\u8fb9\u90fd\u6709x\u7684\u5e73\u65b9\uff0c\u6b63\u597d\u6d88\u6389\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/c5a7a4a65eb3ac4d.wav",
+     "from": 1354,
+     "frames": 233
+    },
+    {
+     "text": "\u5269\u4e0b320\u7b49\u4e8e32x\u3002\u6240\u4ee5x\u7b49\u4e8e10\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "caption": "\u5269\u4e0b320\u7b49\u4e8e32x\u3002\u6240\u4ee5x\u7b49\u4e8e10\u3002\u7b54\u6848\u4e00\u6837\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/c5a0bb3c28a0f72a.wav",
+     "from": 1597,
+     "frames": 263
+    },
+    {
+     "text": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u6ca1\u6709\u9009\u9879\u53ef\u4ee5\u8bd5\uff0c\u6216\u8005\u6570\u5b57\u4e0d\u597d\u7b97\u7684\u65f6\u5019\u3002",
+     "caption": "\u4ec0\u4e48\u65f6\u5019\u7528\u8fd9\u79cd\u65b9\u6cd5\uff1f\u6ca1\u6709\u9009\u9879\u53ef\u4ee5\u8bd5\uff0c\u6216\u8005\u6570\u5b57\u4e0d\u597d\u7b97\u7684\u65f6\u5019\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/ee1cb3b9ceb6baec.wav",
+     "from": 1870,
+     "frames": 226
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "kind": "scene",
+   "chapter": "\u5e38\u89c1\u9677\u9631",
+   "from": 7483,
+   "frames": 1696,
+   "lines": [
+    {
+     "text": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "caption": "\u73b0\u5728\u6765\u770b\u770b\u9519\u8bef\u7b54\u6848\u3002\u6bcf\u4e00\u4e2a\u90fd\u662f\u9677\u9631\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/ba707f25e5a3cc21.wav",
+     "from": 0,
+     "frames": 134
+    },
+    {
+     "text": "\u9009\u9879A\u662f6\u30026\u786e\u5b9e\u662f\u4e00\u6bb5\u771f\u5b9e\u7684\u957f\u5ea6\uff0c\u662fEB\uff0c\u4ece\u6811\u5230B\u3002\u53ef\u662f\u9898\u76ee\u95ee\u7684\u662f\u5230A\u7684\u8ddd\u79bb\u3002",
+     "caption": "\u9009\u9879A\u662f6\u30026\u786e\u5b9e\u662f\u4e00\u6bb5\u771f\u5b9e\u7684\u957f\u5ea6\uff0c\u662fEB\uff0c\u4ece\u6811\u5230B\u3002\u53ef\u662f\u9898\u76ee\u95ee\u7684\u662f\u5230A\u7684\u8ddd\u79bb\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/33596c373ea08d03.wav",
+     "from": 144,
+     "frames": 333
+    },
+    {
+     "text": "\u9009\u9879B\u662f8\uff0c\u8fd9\u662f\u77ed\u8fb9BC\u3002\u800c\u4e14\u6211\u4eec\u521a\u624d\u770b\u5230\uff0c8\u6ca1\u6709\u901a\u8fc7\u68c0\u9a8c\u3002",
+     "caption": "\u9009\u9879B\u662f8\uff0c\u8fd9\u662f\u77ed\u8fb9BC\u3002\u800c\u4e14\u6211\u4eec\u521a\u624d\u770b\u5230\uff0c8\u6ca1\u6709\u901a\u8fc7\u68c0\u9a8c\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/0052e646b9acb253.wav",
+     "from": 486,
+     "frames": 227
+    },
+    {
+     "text": "\u518d\u770b\u6700\u540e\u4e24\u4e2a\u9009\u9879\u3002\u900912\uff0cEB\u53ea\u67094\uff1b\u900914\uff0cEB\u53ea\u67092\u3002\u4e24\u8fb9\u7684\u6570\u90fd\u5bf9\u4e0d\u4e0a\u3002",
+     "caption": "\u518d\u770b\u6700\u540e\u4e24\u4e2a\u9009\u9879\u3002\u900912\uff0cEB\u53ea\u67094\uff1b\u900914\uff0cEB\u53ea\u67092\u3002\u4e24\u8fb9\u7684\u6570\u90fd\u5bf9\u4e0d\u4e0a\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/92db9367ff249692.wav",
+     "from": 724,
+     "frames": 305
+    },
+    {
+     "text": "\u4e00\u8fb9\u662f80\uff0c\u4e00\u8fb9\u662f144\uff1b\u4e00\u8fb9\u662f68\uff0c\u4e00\u8fb9\u662f196\u3002",
+     "caption": "\u4e00\u8fb9\u662f80\uff0c\u4e00\u8fb9\u662f144\uff1b\u4e00\u8fb9\u662f68\uff0c\u4e00\u8fb9\u662f196\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/01d33658bff64fd0.wav",
+     "from": 1039,
+     "frames": 287
+    },
+    {
+     "text": "\u6240\u4ee5\uff0c\u8bb0\u4f4f\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u4e24\u6bb5\u8ddd\u79bb\u76f8\u7b49\u65f6\uff0c\u7528\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u628a\u5176\u4e2d\u4e00\u6bb5\u6362\u4e00\u79cd\u65b9\u5f0f\u5199\u51fa\u6765\u3002",
+     "caption": "\u6240\u4ee5\uff0c\u8bb0\u4f4f\u4e00\u4e2a\u597d\u4e60\u60ef\uff1a\u4e24\u6bb5\u8ddd\u79bb\u76f8\u7b49\u65f6\uff0c\u7528\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u628a\u5176\u4e2d\u4e00\u6bb5\u6362\u4e00\u79cd\u65b9\u5f0f\u5199\u51fa\u6765\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/2bce9128fd3f8567.wav",
+     "from": 1336,
+     "frames": 300
+    }
+   ]
+  },
+  {
+   "id": "variant",
+   "kind": "scene",
+   "chapter": "\u8f6e\u5230\u4f60\uff1a\u66f4\u5927\u7684\u9662\u5b50",
+   "from": 9179,
+   "frames": 565,
+   "lines": [
+    {
+     "text": "\u6765\u6311\u6218\u4e00\u4e0b\u5427\uff01\u4e00\u4e2a\u66f4\u5927\u7684\u9662\u5b50\uff0cAB\u957f18\u7c73\uff0cBC\u957f12\u7c73\u3002",
+     "caption": "\u6765\u6311\u6218\u4e00\u4e0b\u5427\uff01\u4e00\u4e2a\u66f4\u5927\u7684\u9662\u5b50\uff0cAB\u957f18\u7c73\uff0cBC\u957f12\u7c73\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/7eae115e23ef88d5.wav",
+     "from": 0,
+     "frames": 227
+    },
+    {
+     "text": "\u8fb9AB\u4e0a\u7684\u70b9E\u5904\u6709\u4e00\u68f5\u6811\uff0c\u5230A\u548c\u5230C\u7684\u8ddd\u79bb\u76f8\u7b49\u3002\u8fd9\u68f5\u6811\u79bbA\u6709\u591a\u5c11\u7c73\uff1f",
+     "caption": "\u8fb9AB\u4e0a\u7684\u70b9E\u5904\u6709\u4e00\u68f5\u6811\uff0c\u5230A\u548c\u5230C\u7684\u8ddd\u79bb\u76f8\u7b49\u3002\u8fd9\u68f5\u6811\u79bbA\u6709\u591a\u5c11\u7c73\uff1f",
+     "file": "2026-10-31-tree-in-yard-zh/audio/4860dfdf74725199.wav",
+     "from": 238,
+     "frames": 288
+    }
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "chapter": null,
+   "from": 9744,
+   "frames": 416,
+   "lines": [
+    {
+     "text": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "caption": "\u6682\u505c\u89c6\u9891\uff0c\u5f00\u59cb\u6311\u6218\u5427\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/576288300e3dee40.wav",
+     "from": 0,
+     "frames": 93
+    }
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "kind": "scene",
+   "chapter": "\u66f4\u5927\u7684\u9662\u5b50\uff1a\u7b54\u6848",
+   "from": 10160,
+   "frames": 1717,
+   "lines": [
+    {
+     "text": "\u8fd8\u662f\u628a\u8fd9\u6bb5\u8ddd\u79bb\u8bbe\u4e3ax\u3002EB\u662f18\u51cfx\uff0cBC\u662f12\u3002",
+     "caption": "\u8fd8\u662f\u628a\u8fd9\u6bb5\u8ddd\u79bb\u8bbe\u4e3ax\u3002EB\u662f18\u51cfx\uff0cBC\u662f12\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/8c2e66b253ebd851.wav",
+     "from": 0,
+     "frames": 207
+    },
+    {
+     "text": "18\u51cfx\uff0c\u4e58\u4ee518\u51cfx\uff0c\u7b49\u4e8e324\uff0c\u51cf\u4e24\u6b2118x\uff0c\u518d\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "caption": "18\u51cfx\uff0c\u4e58\u4ee518\u51cfx\uff0c\u7b49\u4e8e324\uff0c\u51cf\u4e24\u6b2118x\uff0c\u518d\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/c44898dc72773f8e.wav",
+     "from": 217,
+     "frames": 359
+    },
+    {
+     "text": "\u6240\u4ee518\u51cfx\u7684\u5dee\u7684\u5e73\u65b9\uff0c\u5c31\u662f324\u51cf36x\uff0c\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "caption": "\u6240\u4ee518\u51cfx\u7684\u5dee\u7684\u5e73\u65b9\uff0c\u5c31\u662f324\u51cf36x\uff0c\u52a0\u4e0ax\u7684\u5e73\u65b9\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/a6ea3ce8a1964eb4.wav",
+     "from": 586,
+     "frames": 279
+    },
+    {
+     "text": "\u518d\u52a0\u4e0a144\uff0cx\u7684\u5e73\u65b9\u5c31\u6d88\u6389\u4e86\u3002",
+     "caption": "\u518d\u52a0\u4e0a144\uff0cx\u7684\u5e73\u65b9\u5c31\u6d88\u6389\u4e86\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/0a97b0a26cfdb045.wav",
+     "from": 875,
+     "frames": 131
+    },
+    {
+     "text": "\u5269\u4e0b468\u7b49\u4e8e36x\u3002\u6240\u4ee5x\u7b49\u4e8e13\uff01",
+     "caption": "\u5269\u4e0b468\u7b49\u4e8e36x\u3002\u6240\u4ee5x\u7b49\u4e8e13\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/461d05da9722d345.wav",
+     "from": 1016,
+     "frames": 183
+    },
+    {
+     "text": "\u68c0\u9a8c\u4e00\u4e0b\uff1aEB\u662f5\u3002\u4e94\u3001\u5341\u4e8c\u3001\u5341\u4e09\uff0c\u6b63\u597d\u662f\u76f4\u89d2\u4e09\u89d2\u5f62\u7684\u4e09\u6761\u8fb9\u3002\u6210\u529f\u4e86\uff01",
+     "caption": "\u68c0\u9a8c\u4e00\u4e0b\uff1aEB\u662f5\u30025\u300112\u300113\uff0c\u6b63\u597d\u662f\u76f4\u89d2\u4e09\u89d2\u5f62\u7684\u4e09\u6761\u8fb9\u3002\u6210\u529f\u4e86\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/238ef7aa9f633db4.wav",
+     "from": 1209,
+     "frames": 315
+    },
+    {
+     "text": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8613\u7c73\uff0c\u592a\u68d2\u4e86\uff01",
+     "caption": "\u5982\u679c\u4f60\u7b97\u51fa\u4e8613\u7c73\uff0c\u592a\u68d2\u4e86\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/81aa028a474e9689.wav",
+     "from": 1534,
+     "frames": 114
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "kind": "scene",
+   "chapter": "\u603b\u7ed3",
+   "from": 11877,
+   "frames": 652,
+   "lines": [
+    {
+     "text": "\u8bb0\u4f4f\u4eca\u5929\u7684\u5927\u601d\u8def\u3002",
+     "caption": "\u8bb0\u4f4f\u4eca\u5929\u7684\u5927\u601d\u8def\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/acee96037deff67b.wav",
+     "from": 0,
+     "frames": 68
+    },
+    {
+     "text": "\u5148\u8bbe\u51fa\u672a\u77e5\u7684\u8ddd\u79bb\u3002\u518d\u7528\u52fe\u80a1\u5b9a\u7406\uff0c\u628a\u540c\u4e00\u6bb5\u8ddd\u79bb\u6362\u4e00\u79cd\u65b9\u5f0f\u5199\u51fa\u6765\u3002",
+     "caption": "\u5148\u8bbe\u51fa\u672a\u77e5\u7684\u8ddd\u79bb\u3002\u518d\u7528\u52fe\u80a1\u5b9a\u7406\uff0c\u628a\u540c\u4e00\u6bb5\u8ddd\u79bb\u6362\u4e00\u79cd\u65b9\u5f0f\u5199\u51fa\u6765\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/86e17f052d9769d1.wav",
+     "from": 78,
+     "frames": 240
+    },
+    {
+     "text": "\u8ba9\u4e24\u4e2a\u5f0f\u5b50\u76f8\u7b49\uff0c\u7136\u540e\u89e3\u65b9\u7a0b\u3002",
+     "caption": "\u8ba9\u4e24\u4e2a\u5f0f\u5b50\u76f8\u7b49\uff0c\u7136\u540e\u89e3\u65b9\u7a0b\u3002",
+     "file": "2026-10-31-tree-in-yard-zh/audio/e6fbef846519c93c.wav",
+     "from": 328,
+     "frames": 104
+    },
+    {
+     "text": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "caption": "\u6211\u662fVantee\u3002\u7ee7\u7eed\u63a2\u7d22\uff0c\u6211\u4eec\u4e0b\u6b21\u89c1\uff01",
+     "file": "2026-10-31-tree-in-yard-zh/audio/113ffab9d06e3063.wav",
+     "from": 442,
+     "frames": 126
+    }
+   ]
+  }
+ ]
+}

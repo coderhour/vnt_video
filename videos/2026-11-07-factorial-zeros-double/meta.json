@@ -1,0 +1,20 @@
+{
+ "title": "AMC 10 Practice: Trailing Zeros of Factorials — Do They Double?",
+ "description": "AMC 10 practice problem on trailing zeros of factorials, solved by counting factors of five and in base five. (Level 4 of 5)\nDoes doubling n always double the zeros at the end of n factorial? Not at all! Here's a sneaky AMC 10-style counting puzzle, solved two ways: counting the fives, and thinking in base five.\nPause, try it yourself, then try the triple-it twist at the end.\n\n0:00 Intro\n0:20 The question\n0:46 What are we asked?\n1:09 Try it yourself\n1:25 Solution 1: count the fives\n4:00 Solution 2: base five\n4:57 Common traps\n5:33 Your turn: triple it\n5:59 Triple it: the answer\n6:33 Recap",
+ "created": "2026-11-07",
+ "question_id": "amc_practice_amc10_number_theory_template:c1-666",
+ "posts": [],
+ "short": {
+  "title": "Double n, double the zeros? Think it's 24? #Shorts",
+  "description": "For how many n from 1 to 100 does (2n)! end in exactly twice as many zeros as n!? The trick: think in base five.\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
+  "challenge": 20,
+  "tags": [
+   "AMC 10",
+   "Math Challenge",
+   "MathTok",
+   "Math Puzzle"
+  ],
+  "posts": []
+ },
+ "pinned_comment": "For how many n up to 100 does (2n)! end in exactly twice as many zeros as n!? Comment your answer before you watch the solution!"
+}

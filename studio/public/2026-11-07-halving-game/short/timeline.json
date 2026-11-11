@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1194,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 103,
+   "lines": [
+    {
+     "text": "AMC ten challenge! Think it's fifty? Nope!",
+     "caption": "AMC 10 challenge! Think it's 50? Nope!",
+     "file": "2026-11-07-halving-game/short/audio/0cfedea89ee48acf.wav",
+     "from": 0,
+     "frames": 92
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 103,
+   "frames": 275,
+   "lines": [
+    {
+     "text": "Take away one, or halve and round down. Whoever gets to zero wins.",
+     "caption": "Take away one, or halve and round down. Whoever gets to zero wins.",
+     "file": "2026-11-07-halving-game/short/audio/4ee4be6ccde47a91.wav",
+     "from": 0,
+     "frames": 131
+    },
+    {
+     "text": "From one to a hundred, how many starting numbers let player two always win?",
+     "caption": "From 1 to 100, how many starting numbers let player 2 always win?",
+     "file": "2026-11-07-halving-game/short/audio/02ad119a5d4f772c.wav",
+     "from": 136,
+     "frames": 128
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 378,
+   "frames": 68,
+   "lines": [
+    {
+     "text": "Comment your letter, then watch!",
+     "caption": "Comment your letter, then watch!",
+     "file": "2026-11-07-halving-game/short/audio/8bbbcfa4b74bd1e4.wav",
+     "from": 0,
+     "frames": 57
+    }
+   ]
+  },
+  {
+   "id": "twos",
+   "kind": "scene",
+   "chapter": null,
+   "from": 446,
+   "frames": 427,
+   "lines": [
+    {
+     "text": "Red means the player to move loses: two, six, eight, ten, fourteen.",
+     "caption": "Red means the player to move loses: 2, 6, 8, 10, 14.",
+     "file": "2026-11-07-halving-game/short/audio/43352854b6438ac9.wav",
+     "from": 0,
+     "frames": 147
+    },
+    {
+     "text": "But four, twelve and sixteen are even AND green! Count their twos.",
+     "caption": "But 4, 12 and 16 are even AND green! Count their twos.",
+     "file": "2026-11-07-halving-game/short/audio/f7ed4b4475c05272.wav",
+     "from": 151,
+     "frames": 128
+    },
+    {
+     "text": "Reds have an ODD number of twos. Eight has three, but four has only two.",
+     "caption": "Reds have an ODD number of twos. 8 has 3, but 4 has only 2.",
+     "file": "2026-11-07-halving-game/short/audio/c467ee71c76a6e22.wav",
+     "from": 283,
+     "frames": 132
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 873,
+   "frames": 321,
+   "lines": [
+    {
+     "text": "With one two: twenty-five. With three: six. With five: two. That's thirty-three!",
+     "caption": "With 1 two: 25. With 3: 6. With 5: 2. That's 33!",
+     "file": "2026-11-07-halving-game/short/audio/5aebfa7c09066f92.wav",
+     "from": 0,
+     "frames": 164
+    },
+    {
+     "text": "Fifty was the trap.",
+     "caption": "50 was the trap.",
+     "file": "2026-11-07-halving-game/short/audio/8d393fd27905c1aa.wav",
+     "from": 167,
+     "frames": 47
+    },
+    {
+     "text": "Did you get thirty-three? Tell me below!",
+     "caption": "Did you get 33? Tell me below!",
+     "file": "2026-11-07-halving-game/short/audio/17b0bbf814f5b8e5.wav",
+     "from": 219,
+     "frames": 66
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "durationInFrames": 1225,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "scene",
+   "chapter": null,
+   "from": 0,
+   "frames": 142,
+   "lines": [
+    {
+     "text": "AMC 10\u5c0f\u8d34\u58eb\uff01\u7b54\u5bf9\u7684\u9898\u8d8a\u591a\uff0c\u5206\u5c31\u8d8a\u9ad8\uff1f\u9519\uff01",
+     "caption": "AMC 10\u5c0f\u8d34\u58eb\uff01\u7b54\u5bf9\u7684\u9898\u8d8a\u591a\uff0c\u5206\u5c31\u8d8a\u9ad8\uff1f\u9519\uff01",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/87ab5b344e4ff087-x1.2.wav",
+     "from": 0,
+     "frames": 131
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "kind": "scene",
+   "chapter": null,
+   "from": 142,
+   "frames": 296,
+   "lines": [
+    {
+     "text": "\u7b54\u5bf9\u5f976\u5206\uff0c\u7b54\u9519\u5f970\u5206\uff0c\u7a7a\u7740\u5f971.5\u5206\u3002",
+     "caption": "\u7b54\u5bf9\u5f976\u5206\uff0c\u7b54\u9519\u5f970\u5206\uff0c\u7a7a\u7740\u5f971.5\u5206\u3002",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/526102c466e3a525-x1.2.wav",
+     "from": 0,
+     "frames": 113
+    },
+    {
+     "text": "A\u5377\uff1a\u5bf916\u9898\uff0c\u95199\u9898\u3002B\u5377\uff1a\u5bf914\u9898\uff0c\u7a7a11\u9898\u3002\u8c01\u7684\u5206\u9ad8\uff1f",
+     "caption": "A\u5377\uff1a\u5bf916\u9898\uff0c\u95199\u9898\u3002B\u5377\uff1a\u5bf914\u9898\uff0c\u7a7a11\u9898\u3002\u8c01\u7684\u5206\u9ad8\uff1f",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/6d712e7395a9ad0e-x1.2.wav",
+     "from": 117,
+     "frames": 168
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "kind": "scene",
+   "chapter": null,
+   "from": 438,
+   "frames": 69,
+   "lines": [
+    {
+     "text": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "caption": "\u8bc4\u8bba\u4f60\u7684\u9009\u9879\uff0c\u7136\u540e\u63a5\u7740\u770b\uff01",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/e41e564c6dcc28fb-x1.2.wav",
+     "from": 0,
+     "frames": 57
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "kind": "scene",
+   "chapter": null,
+   "from": 507,
+   "frames": 385,
+   "lines": [
+    {
+     "text": "A\u5377\uff1a16\u4e58\u4ee56\uff0c\u7b49\u4e8e96\u5206\u3002",
+     "caption": "A\u5377\uff1a16\u4e58\u4ee56\uff0c\u7b49\u4e8e96\u5206\u3002",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/5df94635a1f56829-x1.2.wav",
+     "from": 0,
+     "frames": 87
+    },
+    {
+     "text": "\u518d\u770bB\u5377\uff1a14\u4e58\u4ee56\uff0c\u7b49\u4e8e84\u5206\u300211\u9053\u7a7a\u9898\uff0c\u518d\u52a016.5\u5206\u3002",
+     "caption": "\u518d\u770bB\u5377\uff1a14\u4e58\u4ee56\uff0c\u7b49\u4e8e84\u5206\u300211\u9053\u7a7a\u9898\uff0c\u518d\u52a016.5\u5206\u3002",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/9191abf561f3f446-x1.2.wav",
+     "from": 90,
+     "frames": 171
+    },
+    {
+     "text": "84\u52a016.5\uff0c\u7b49\u4e8e\u4e00\u767e\u70b9\u4e94\u5206\u3002",
+     "caption": "84\u52a016.5\uff0c\u7b49\u4e8e100.5\u5206\u3002",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/acc15cdf328fda2f-x1.2.wav",
+     "from": 265,
+     "frames": 108
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "kind": "scene",
+   "chapter": null,
+   "from": 892,
+   "frames": 333,
+   "lines": [
+    {
+     "text": "B\u5377\u8d62\u4e86\uff0c\u4e00\u767e\u70b9\u4e94\u5206\uff01\u8d85\u8fc7\u4e86\u672c\u8d5b\u5b63AIME\u7684\u664b\u7ea7\u7ebf\uff01",
+     "caption": "B\u5377\u8d62\u4e86\uff0c100.5\u5206\uff01\u8d85\u8fc7\u4e86\u672c\u8d5b\u5b63AIME\u7684\u664b\u7ea7\u7ebf\uff01",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/feea5f1f6323c7ea-x1.2.wav",
+     "from": 0,
+     "frames": 153
+    },
+    {
+     "text": "\u6bcf\u9898\u90fd\u7b54\uff0c\u624d\u662f\u9677\u9631\u3002",
+     "caption": "\u6bcf\u9898\u90fd\u7b54\uff0c\u624d\u662f\u9677\u9631\u3002",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/4357a036c2025442-x1.2.wav",
+     "from": 157,
+     "frames": 66
+    },
+    {
+     "text": "\u4f60\u9009\u5bf9B\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "caption": "\u4f60\u9009\u5bf9B\u4e86\u5417\uff1f\u5728\u8bc4\u8bba\u91cc\u544a\u8bc9\u6211\uff01",
+     "file": "2026-11-05-amc10-guide-zh/short/audio/f322982e933b0ec3-x1.2.wav",
+     "from": 227,
+     "frames": 71
+    }
+   ]
+  }
+ ]
+}

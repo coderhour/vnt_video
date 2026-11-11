@@ -1,0 +1,170 @@
+{
+ "title": "两个等腰三角形，一个神秘的角 | AMC 8 风格 第4级",
+ "fps": 30,
+ "lang": "zh",
+ "voice": "Zephyr",
+ "style": "warm and encouraging, speaking standard Mainland China Mandarin (Putonghua) with a neutral Beijing-standard broadcast accent, like a mainland primary school teacher, retroflex zh/ch/sh and erhua-free, not a Taiwanese accent, at a relaxed pace, no laughing. Read the Latin letters A, B, C, D and the variable a as English letter names",
+ "captions": {
+  "三个角分别是三十六、七十二和七十二。可在这里，它得到的是36，不是24。": "三个角分别是36、72和72。可在这里，它得到的是36，不是24。"
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "chapter": "开场",
+   "hold": 0.5,
+   "visual": "The figure (bank SVG scaled up). Line 1: the 24° mark glows, then a '?' appears at the top angle A. Line 2: two tick marks on AB and AC, and two (different style) on BD and BC. Line 3: Vantee title card.",
+   "lines": [
+    "我们只知道一个角：24度。能求出顶上的这个角吗？",
+    "秘密就藏在两个等腰三角形里。",
+    "你好，我是Vantee，你的数学小导师！我们一起来一场角度大追踪吧。"
+   ]
+  },
+  {
+   "id": "question",
+   "chapter": "题目",
+   "hold": 1.5,
+   "visual": "Question text left, figure right. Line 2: AB and AC flash with single tick marks. Line 3: D pulses on side AC; BD and BC flash with double tick marks. Line 4: angle ABD marked '24°'. Line 5: angle BAC marked '?'. Line 6: choice chips 22°, 24°, 34°, 36°, 44°.",
+   "lines": [
+    "来看题目。",
+    "在三角形ABC中，边AB等于边AC。",
+    "点D在边AC上，并且BD等于BC。",
+    "角ABD是24度。",
+    "角BAC，也就是顶上的角，是多少度？",
+    "下面是五个选项，仔细看一看。"
+   ]
+  },
+  {
+   "id": "asked",
+   "chapter": "题目问的是什么？",
+   "hold": 1,
+   "visual": "Line 1: triangle ABC shaded light green with tag 'isosceles: AB = AC'. Line 2: triangle BDC shaded light purple with tag 'isosceles: BD = BC'. Line 3: tag 'goal: angle A'.",
+   "lines": [
+    "所以这里有两个等腰三角形。大三角形ABC，从A出发的两条边相等。",
+    "小三角形BDC，从B出发的两条边相等。",
+    "我们要求的，是A处顶上的角。"
+   ]
+  },
+  {
+   "id": "try1",
+   "chapter": "自己试一试",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card with countdown ring; figure and question visible.",
+   "lines": [
+    "现在轮到你了。暂停视频，自己试一试。我等你！"
+   ]
+  },
+  {
+   "id": "big",
+   "chapter": "解法一：用字母追角",
+   "hold": 1,
+   "visual": "Figure left, equation rows right. Line 1: angle A labeled 'a'. Line 2: equal sides AB, AC tick-marked; the two base angles at B (whole angle ABC) and C both get the same arc color. Line 3: row 'a + C + C = 180' → 'C = 90 − a/2' (use \\dfrac{a}{2}), and angle C labeled with it.",
+   "lines": [
+    "欢迎回来！先给不知道的角起个名字。把顶角叫做a。",
+    "边AB等于边AC，所以B处和C处的角相等。这两个角叫做底角。",
+    "三个角加起来是180度，所以每个底角都是90减去a的一半。"
+   ]
+  },
+  {
+   "id": "small",
+   "hold": 1.5,
+   "visual": "Line 1: triangle BDC highlighted; BD and BC tick-marked; angle BDC gets the same arc color as angle C, labeled 'C'. Line 2: row 'angle DBC = 180 − C − C'. Line 3: row '= 180 − (180 − a) = a', and angle DBC labeled 'a' in the same color as the top angle. Line 4: both 'a' angles pulse together (aha beat).",
+   "lines": [
+    "再看小三角形。BD等于BC，所以D处和C处的角相等。角BDC等于角C。",
+    "所以角DBC等于180度，减去角C，再减去角C。",
+    "两个底角加起来是180度减a。所以角DBC正好就是a！",
+    "你看，B处的这个小角，和顶角一模一样。"
+   ]
+  },
+  {
+   "id": "solve",
+   "hold": 1.5,
+   "visual": "Line 1: angle ABC split into '24°' and 'a', row 'angle ABC = 24 + a'. Line 2: row '24 + a = 90 − a/2'. Line 3: row 'a + a/2 = 66' (66 = 90 − 24 shown). Line 4: 'one and a half a = 66 → a = 44' answer badge '44°', chime at end of line, choice E highlighted. Line 5: check row 'C = 68, 68 − 44 = 24 ✓'.",
+   "lines": [
+    "角ABC由两部分组成：24度，加上a。",
+    "可角ABC也是一个底角。所以24加a，等于90减去a的一半。",
+    "两边都加上a的一半，再减去24。得到一又二分之一个a，等于66。",
+    "所以a是44度。答案是最后一个选项！",
+    "检验一下：每一个底角是68度。68减44等于24。完全正确！"
+   ]
+  },
+  {
+   "id": "exterior",
+   "chapter": "解法二：外角",
+   "hold": 1.5,
+   "visual": "Fresh figure. Line 1: triangle ABD highlighted; angle BDC (outside it, at D) marked. Line 2: rule card 'outside angle = sum of the two far inside angles'. Line 3: row 'angle BDC = a + 24'. Line 4: angle C labeled 'a + 24' too (BD = BC); angle ABC also 'a + 24'. Line 5: rows '(a + 24) + (a + 24) + a = 180', '3a + 48 = 180', '3a = 132', 'a = 44'. Line 6: small text 'no fractions!'.",
+   "lines": [
+    "还有一种方法，不用分数。看左边的三角形ABD。",
+    "三角形的一个外角，等于和它不相邻的两个内角之和。",
+    "所以角BDC等于a加24。",
+    "角C和角BDC相等，所以角C也是a加24。角ABC也一样。",
+    "大三角形的内角和：3a加48度，等于180度。",
+    "所以3a等于132，a等于44。",
+    "什么时候用这种方法？看到外角的时候。它能省掉一次计算。"
+   ]
+  },
+  {
+   "id": "traps",
+   "chapter": "常见陷阱",
+   "hold": 1.2,
+   "visual": "A test table: columns 'top angle a', 'base angle C', 'angle DBC = a', 'angle ABD = C − a'. Rows fill as discussed: 24 → 78 → 54 (red); 36 → 72 → 36 (red); 22 → 79 → 57 (red); 34 → 73 → 39 (red); 44 → 68 → 24 (green). Line 1: chip B '24° = angle ABD'.",
+   "lines": [
+    "现在来看陷阱。选项B是24度，它是题目给的角。",
+    "可它不是题目要求的角。",
+    "这里有个快速检验法，每个选项都能用。",
+    "先求出底角，再减去顶角。结果应该是24。",
+    "试试把24放在顶上。",
+    "底角是78度，78减24得54，比24大太多了。",
+    "再看选项D，36。它来自一个有名的三角形，",
+    "三个角分别是三十六、七十二和七十二。可在这里，它得到的是36，不是24。",
+    "选项A是22，得到57；选项C是34，得到39。都不对。",
+    "只有顶角是44度，才正好得到24。"
+   ]
+  },
+  {
+   "id": "variant",
+   "chapter": "轮到你：新的角度",
+   "hold": 0.5,
+   "visual": "Same figure setup (redrawn with apex 40°, so proportions differ slightly), angle ABD labeled '30°', top angle '?'. Tick marks AB = AC and BD = BC.",
+   "lines": [
+    "准备好挑战了吗？同样的图：AB等于AC，BD等于BC。",
+    "这一次，角ABD是30度。顶角是多少度？"
+   ]
+  },
+  {
+   "id": "try2",
+   "kind": "pause",
+   "hold": 10,
+   "visual": "Pause card, countdown, variant figure visible.",
+   "lines": [
+    "暂停视频，开始挑战吧！"
+   ]
+  },
+  {
+   "id": "variant-answer",
+   "chapter": "新角度：答案",
+   "hold": 1.5,
+   "visual": "Rows per line on the variant figure: 'outside angle BDC = a + 30'; 'C = a + 30, angle ABC = a + 30'; '3a + 60 = 180 → 3a = 120 → a = 40' answer badge '40°' chime at end of that line; check 'C = 70, 70 − 40 = 30 ✓'.",
+   "lines": [
+    "我们来看看。D处的外角是a加30。",
+    "所以角C和角ABC都是a加30。",
+    "内角和：3a加60等于180。所以3a等于120。",
+    "顶角是40度！",
+    "检验一下：底角是70度。70减40等于30。没错！",
+    "如果你算出了40度，你的追角本领真棒！"
+   ]
+  },
+  {
+   "id": "recap",
+   "chapter": "总结",
+   "hold": 2,
+   "visual": "Summary card: the figure with both isosceles triangles shaded, 'equal sides → equal angles', 'name the unknown, chase it around'.",
+   "lines": [
+    "记住这个重要的思路。",
+    "等边对等角。",
+    "用一个字母表示未知的角，然后从一个三角形追到另一个三角形。",
+    "我是Vantee，今天就到这里。多多练习，我们下次见！"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
- "title": "Exactly 10 Dots Inside a Right Triangle | AMC 10-Style Level 4",
- "description": "A right triangle sits on a dot grid with exactly 10 dots strictly inside. How many ordered pairs of leg lengths work? Vantee shows a neat trick: double the triangle into a rectangle, count its dots, take away the ones on the slanted side and split in half. Then a short case check finds every pair, and Pick's theorem gives the same equation fast. You will also see why 10 and 12 are tempting traps, and get a six-dot version to try yourself.\n\n0:00 Intro\n0:17 The question\n0:40 What are we asked?\n0:57 Try it yourself\n1:13 Solution 1: cut a rectangle in half\n4:00 Solution 2: Pick's theorem\n4:47 Common traps\n5:20 Your turn: six dots inside\n5:42 Six dots: the answer\n6:39 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 10 Practice: Lattice Points in a Triangle — Exactly 10 Dots",
+ "description": "AMC 10 practice problem on counting lattice points inside a right triangle on a dot grid, solved with a rectangle trick and with Pick's theorem. (Level 4 of 5)\nA right triangle sits on a dot grid with exactly 10 dots strictly inside. How many ordered pairs of leg lengths work? Vantee shows a neat trick: double the triangle into a rectangle, count its dots, take away the ones on the slanted side and split in half. Then a short case check finds every pair, and Pick's theorem gives the same equation fast. You will also see why 10 and 12 are tempting traps, and get a six-dot version to try yourself.\n\n0:00 Intro\n0:17 The question\n0:40 What are we asked?\n0:57 Try it yourself\n1:13 Solution 1: cut a rectangle in half\n4:00 Solution 2: Pick's theorem\n4:47 Common traps\n5:20 Your turn: six dots inside\n5:42 Six dots: the answer\n6:39 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-11-01",
  "question_id": "amc_practice_amc10_mock_test_template:c1-316",
  "posts": [
@@ -32,5 +32,7 @@
  },
  "status": "ready",
  "youtube_id": "DMMUjTN-XYM",
- "playlist_id": "PLbrpe4TxLJvg"
+ "playlist_id": "PLbrpe4TxLJvg",
+ "pinned_comment": "A right triangle has exactly 10 grid dots inside. How many (p, q) pairs work? Comment your answer before you watch the solution!",
+ "thumbnail": "set"
 }

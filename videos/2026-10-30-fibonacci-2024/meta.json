@@ -1,20 +1,40 @@
 {
- "title": "Which Start Reaches 2024? | AMC 10-Style Level 4",
- "description": "A sequence where each term is the sum of the two before it reaches 2024 at term ten. How big can the first two terms be? Vantee writes every term with x and y (hello, Fibonacci!), counts down to the answer, then shows a faster way: test the choices from the top. Then try it yourself with 2025.\n\n0:00 Intro\n0:17 The question\n0:37 What are we asked?\n1:04 Try it yourself\n1:19 Solution 1: write every term with x and y\n3:43 Solution 2: test the choices\n4:38 Common traps\n5:24 Your turn: a new year\n5:51 A new year: the answer\n6:31 Recap\n\nSound effects: Freesound (CC0).",
+ "title": "AMC 10 Practice: Fibonacci-Style Sequence — Which Start Reaches 2024?",
+ "description": "AMC 10 practice problem on sequences where each term is the sum of the two before, solved with x and y and by testing the answer choices. (Level 4 of 5)\nA sequence where each term is the sum of the two before it reaches 2024 at term ten. How big can the first two terms be? Vantee writes every term with x and y (hello, Fibonacci!), counts down to the answer, then shows a faster way: test the choices from the top. Then try it yourself with 2025.\n\n0:00 Intro\n0:17 The question\n0:37 What are we asked?\n1:04 Try it yourself\n1:19 Solution 1: write every term with x and y\n3:43 Solution 2: test the choices\n4:38 Common traps\n5:24 Your turn: a new year\n5:51 A new year: the answer\n6:31 Recap\n\nSound effects: Freesound (CC0).",
  "created": "2026-10-30",
  "question_id": "amc_practice_amc10_algebra_template:c2-043",
- "posts": [],
+ "posts": [
+  {
+   "platform": "YouTube",
+   "url": "https://www.youtube.com/watch?v=h1_Y0R9sgrw",
+   "published_at": "2026-11-07T18:55:00-08:00",
+   "scheduled_at": "2026-11-07T16:47:39-08:00"
+  }
+ ],
  "short": {
   "title": "Which start reaches 2024? #Shorts",
   "description": "Each term is the sum of the two before it, and term 10 is 2024. How big can the first two terms add up to?\n\nFull lesson with two solutions and every trap: {full_video_url}\n\n#math #amc10 #mathpuzzle",
-  "posts": [],
+  "posts": [
+   {
+    "platform": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/W91vf0Bz1wY",
+    "published_at": "2026-11-07T18:55:00-08:00",
+    "scheduled_at": "2026-11-07T16:47:43-08:00"
+   }
+  ],
   "challenge": 6,
   "tags": [
    "AMC 10",
    "Math Challenge",
    "MathTok",
    "Math Puzzle"
-  ]
+  ],
+  "youtube_id": "W91vf0Bz1wY",
+  "playlist_id": "PLR-HuI9ErJA0"
  },
- "status": "ready"
+ "status": "ready",
+ "youtube_id": "h1_Y0R9sgrw",
+ "playlist_id": "PLbrpe4TxLJvg",
+ "pinned_comment": "Each term is the sum of the two before, and term 10 is 2024. Largest a1 + a2? Comment your answer before you watch the solution!",
+ "thumbnail": "set"
 }

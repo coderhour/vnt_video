@@ -8,6 +8,7 @@ import { Tex } from '../../lib/Tex';
 import { Answer, Choices, Confetti, Mark, Pill, Text } from '../../lib/ui';
 import { SignOff } from '../../lib/Brand';
 import { C } from '../../lib/theme';
+import { ThumbFrame } from '../../lib/Thumb';
 
 export const SLUG = '2026-10-31-scalene-perimeter-36';
 export const CHIME = staticFile(`${SLUG}/sfx/fs-541985.mp3`); // Freesound CC0, see sfx/FREESOUND-CREDITS.md
@@ -611,3 +612,26 @@ export const Video: React.FC<{ timeline: Timeline | null }> = ({ timeline }) =>
 
 void clamp;
 void pairs;
+
+// YouTube thumbnail (`2026-10-31-scalene-perimeter-36-thumb`, render.sh → poster.jpg): a to-scale scalene triangle with sides a, b, c and "a + b + c = 36", no count.
+export const Thumb: React.FC = () => {
+  const t = place(geom(10, 12, 14), 340, 200, 40);
+  const g: Pt = [(t[0][0] + t[1][0] + t[2][0]) / 3, (t[0][1] + t[1][1] + t[2][1]) / 3];
+  const letters = ['c', 'a', 'b'];
+  const cols = [C.primary, C.violet, C.amber];
+  return (
+    <ThumbFrame chip="AMC 8 Practice" lines={['Think it\'s', <span style={{ color: C.red }}>27?</span>]}>
+      <svg viewBox="0 0 680 640" style={{ width: '100%', height: '100%' }}>
+        <polygon points={t.map((p) => p.join(',')).join(' ')} fill={C.violet} fillOpacity={0.12} stroke={C.violet} strokeWidth={10} strokeLinejoin="round" />
+        {t.map((a, i) => {
+          const b = t[(i + 1) % 3];
+          const m: Pt = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+          const n = Math.hypot(m[0] - g[0], m[1] - g[1]);
+          const p: Pt = [m[0] + ((m[0] - g[0]) / n) * 50, m[1] + ((m[1] - g[1]) / n) * 50];
+          return <text key={i} x={p[0]} y={p[1]} textAnchor="middle" dominantBaseline="central" fontSize={72} fontWeight={900} fontStyle="italic" fill={cols[i]}>{letters[i]}</text>;
+        })}
+        <text x={340} y={575} textAnchor="middle" fontSize={96} fontWeight={900} fill={C.ink}>a + b + c = 36</text>
+      </svg>
+    </ThumbFrame>
+  );
+};

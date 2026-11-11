@@ -236,7 +236,7 @@ const makePause = (prompt: React.ReactNode, seconds: number): SceneComponent => 
       <div style={{ position: 'absolute', left: 120, top: 220, width: 860, background: C.card, borderRadius: 32, padding: '40px 48px', fontSize: 50, fontWeight: 700, lineHeight: 1.5, boxShadow: '0 8px 30px rgba(30,40,80,0.07)', ...fadeUp(f, 6) }}>
         {prompt}
       </div>
-      <Countdown scene={scene} seconds={seconds} x={1400} y={500} tick={TICK} />
+      <Countdown scene={scene} seconds={seconds} x={1400} y={500} tick={TICK} label={<span style={{ fontFamily: ZH_FONT }}>暂停，试一试<span style={{ color: C.primary }}>！</span></span>} />
     </>
   );
 };
